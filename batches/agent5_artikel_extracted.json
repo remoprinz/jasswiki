@@ -1,0 +1,533 @@
+{
+  "expressions_anziehen": {
+    "id": "expressions_anziehen",
+    "text": "• Beim Anziehen signalisiert ein Spieler seinem Partner durch das Ausspielen einer bestimmten Karte\n• Zeigt an, welche Farbe bei ihm besonders stark ist\n• Diese Spielaktion zeigt dem Partner, dass man in dieser Farbe gute Karten besitzt\n• Ermöglicht so eine bessere Koordination innerhalb des Teams",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Anziehen"
+    }
+  },
+  "expressions_bedanken": {
+    "id": "expressions_bedanken",
+    "text": "• Das Bedanken ist eine verbindliche Aussage\n• Mit der ein Spieler das aktuelle Spiel beendet\n\nBedeutung:\n• Dieser wichtige Moment ist entscheidend für die Punkteabrechnung\n• Hier werden die finalen Punkte ermittelt\n• Werden dem entsprechenden Team gutgeschrieben",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Bedanken"
+    }
+  },
+  "expressions_bessern": {
+    "id": "expressions_bessern",
+    "text": "• Das Bessern bezeichnet den Austausch von vermeintlich schlechten Karten gegen möglicherweise bessere\n• Diese taktische Spielaktion ist ein wichtiges Element in bestimmten Spielvarianten\n• Erfordert eine gute Einschätzung der eigenen Chancen",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Bessern"
+    }
+  },
+  "expressions_erben": {
+    "id": "expressions_erben",
+    "text": "• Wenn ein Spielgeber nicht mitspielt, erhält er die vereinbarten Schreibpunkte\n• Dies wird als Erben bezeichnet\n\nZweck:\n• Diese Regelung sorgt für eine faire Beteiligung\n• Auch bei Spielern, die gerade nicht aktiv am Spiel teilnehmen",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Erben"
+    }
+  },
+  "expressions_farbenhalten": {
+    "id": "expressions_farbenhalten",
+    "text": "• Farben oder Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss\n• Gilt sofern man eine solche Karte besitzt\n\nWichtig:\n• Diese Regel zählt zu den grundlegenden Spielregeln beim Jassen\n• Muss von jedem Spieler strikt befolgt werden",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Farben/Leih halten"
+    }
+  },
+  "expressions_fort": {
+    "id": "expressions_fort",
+    "text": "• Definition: Fort ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte\n• Verwendung: Diese Spielaktion kommt besonders bei der Jassart Bieter, auch Steiger genannt, zum Einsatz\n• Funktion: Beendet für diesen Spieler die Bietphase",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Fort"
+    }
+  },
+  "expressions_kehr": {
+    "id": "expressions_kehr",
+    "text": "• Der Kehr ist eine Spielübernahme bei der Jassart Aucho\n\nAblauf:\n• Die Karten werden einzeln vom Lukas aufgedeckt und umgedreht\n• Bis die Entscheidung über die Trumpffarbe getroffen wird\n• Diese besondere Spielweise bringt zusätzliche Spannung ins Spiel",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Kehr"
+    }
+  },
+  "expressions_leih_halten": {
+    "id": "expressions_leih_halten",
+    "text": "• Definition: Leih halten bedeutet, die Farbe zu bekennen, also eine Karte der ausgespielten Farbe anzugeben\n• Regel: Dies ist eine grundlegende Spielregel im Jass und muss strikt befolgt werden, sofern der Spieler eine entsprechende Karte besitzt\n• Funktion: Diese Regel sorgt für eine faire Spielweise und klare Spielmechanik",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Leih halten"
+    }
+  },
+  "expressions_passen": {
+    "id": "expressions_passen",
+    "text": "• Passen oder Fort ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte\n\nBesonders relevant:\n• Diese Spielaktion kommt besonders bei der Jassart Bieter (auch Steiger genannt) häufig zum Einsatz\n• Beendet die Bietphase für den jeweiligen Spieler",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Passen/Fort"
+    }
+  },
+  "expressions_rauben": {
+    "id": "expressions_rauben",
+    "text": "• Das Rauben bezeichnet eine Trumpfkarte, die mit einer bestimmten anderen Karte getauscht werden kann\n\nWichtig:\n• Die genaue Regelung dieser Spielaktion variiert je nach gespielter Jassart\n• Sollte daher vor dem Spiel genau geklärt werden\n• Um Missverständnisse zu vermeiden",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Rauben"
+    }
+  },
+  "expressions_schieben": {
+    "id": "expressions_schieben",
+    "text": "• Das Schieben bedeutet, dass die Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt\n\nBei der Jassart Schieber:\n• Die Vorhand überträgt diese wichtige Entscheidung ihrem Partner\n• Gibt dem Spiel seinen charakteristischen Namen\n• Rückt die Teamarbeit in den Vordergrund",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Schieben"
+    }
+  },
+  "expressions_schlecken": {
+    "id": "expressions_schlecken",
+    "text": "• Beim Schlecken kann ein Spieler nach dem Ablupf bei der Jassart Zwick-Jass die unterste Karte des Stocks nehmen\n\nVorteil:\n• Diese besondere Spielaktion eröffnet zusätzliche taktische Möglichkeiten\n• Macht diese Variante besonders interessant",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Schlecken"
+    }
+  },
+  "expressions_schmieren": {
+    "id": "expressions_schmieren",
+    "text": "• Das Schmieren bedeutet, dass man seinem Partner punktemässig wertvolle Karten zu seinem Stich beigibt\n• Diese wichtige taktische Spielaktion stärkt die Teamarbeit\n• Hilft dabei, möglichst viele Punkte zu sammeln",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Schmieren"
+    }
+  },
+  "expressions_untertrumpfen": {
+    "id": "expressions_untertrumpfen",
+    "text": "• Untertrumpfen bedeutet, dass man einem bereits laufenden Stich eine Trumpfkarte beigibt\n\nBedingung:\n• Die gespielte Karte muss stechmässig niedriger sein als bereits im Stich vorhandene Trumpfkarten\n\nVorteil:\n• Diese taktische Spielaktion ermöglicht es, den Stich zu gewinnen\n• Ohne dabei die höchsten Trumpfkarten einsetzen zu müssen",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Untertrumpfen"
+    }
+  },
+  "expressions_unterzug": {
+    "id": "expressions_unterzug",
+    "text": "• Beim Unterzug spielt man absichtlich eine stechmässig niedrige Karte aus einer starken und langen Farbe\n• Ziel: Den Stich nicht zu gewinnen\n\nTaktischer Zweck:\n• Diese Spielaktion wird eingesetzt, wenn man den Stich lieber dem Partner oder einem Gegner überlassen möchte\n• Hohe Karten werden für spätere entscheidende Stiche aufgehoben",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Unterzug"
+    }
+  },
+  "expressions_verwerfen": {
+    "id": "expressions_verwerfen",
+    "text": "• Das Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich\n• Diese Spielaktion signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt\n\nZweck:\n• Auf diese Weise kann man wichtige Informationen an den Partner weitergeben\n• Verbessert die Teamkoordination",
+    "category": {
+      "main": "Begriffe",
+      "sub": "Spielaktionen",
+      "topic": "Verwerfen"
+    }
+  },
+  "general_card_systems": {
+    "id": "general_card_systems",
+    "text": "• Jasskarten gehören zu einer grösseren Familie von Kartensystemen weltweit\n• Deutsches System (Deutschschweiz): Eicheln, Schilten (Laub), Rosen (Herz), Schellen\n• Hofkarten: König, Ober, Under\n• Gestaltung reicht bis ins Mittelalter zurück\n• Französisches System: International am weitesten verbreitet (Pique, Coeur, Carreau, Trèfle)\n• In der Romandie werden oft französische Karten verwendet\n• Italienisches System (Tessin): Coppe, Denari, Spade, Bastoni\n• Alle Systeme lassen sich zum Jassen verwenden\n• Voraussetzung: Vier Farben, neun Karten pro Farbe, erkennbare Hierarchie\n• Bildgestaltung ist zweitrangig, entscheidend sind Funktion und Lesbarkeit",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Kartensysteme",
+      "topic": "Verschiedene Kartensysteme"
+    }
+  },
+  "general_culture": {
+    "id": "general_culture",
+    "text": "In allen Landesteilen der Schweiz wird gejasst, doch mit regionalen Unterschieden. Diese Vielfalt macht Jassen zu einem lebendigen Kulturgut, das sich stetig weiterentwickelt.\n\nRegionale Eigenheiten:\n• Deutschschweiz: Schieber am beliebtesten, meist mit deutschen Karten\n• Romandie: Eigene Traditionen, französische Kartenbilder verbreitet\n• Tessin: Italienische Einflüsse bei Karten und Varianten\n• Graubünden: Einzelne Täler pflegen spezifische Varianten\n• Dörfer haben eigene Turniertraditionen\n\nWas überall gleich bleibt:\n• Grundprinzipien: Bedienungspflicht, Stiche, Punkte\n• Digitale Zählapps verändern die Praxis, ohne den Kern zu berühren\n• Tradition bleibt lebendig: Menschen sitzen zusammen, mischen Karten, spielen Stiche",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Kulturelle Bedeutung",
+      "topic": "Jassen als Kulturgut"
+    }
+  },
+  "general_european_context": {
+    "id": "general_european_context",
+    "text": "• Das Schweizer Jassen steht nicht isoliert – ähnliche Kartenspiele existieren in anderen Ländern\n• Niederlande: Klaverjassen wird gespielt, verblüffend ähnlich dem Schweizer Jass\n• Trumpfregeln, Kartenrangfolge und Spielablauf weisen Parallelen auf\n• Sprachliche Verbindungen (\"Jas\" und \"Nell\") deuten auf historische Beziehungen hin\n• Frankreich: Belote mit verwandten Strukturen\n• Trumpf, Stiche, Kombinationen – Grundprinzipien stimmen überein, Details unterscheiden sich\n• Deutschland: Kartenspiele mit ähnlichen Mechaniken, andere Namen\n• Familie der Trumpfspiele mit Bedienungspflicht zieht sich durch ganz Mitteleuropa\n• Trotz Verwandtschaft: Schweizer Jassen hat eigene Charakteristika entwickelt\n• Spezifische Regelauslegung, Vielfalt der Varianten und kulturelle Bedeutung unterscheiden es\n• Was anderswo Unterhaltung ist, ist hier Tradition",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Europäischer Kontext",
+      "topic": "Jassen im europäischen Vergleich"
+    }
+  },
+  "general_game_basics": {
+    "id": "general_game_basics",
+    "text": "Eine typische Jassrunde folgt einem klaren Ablauf:\n\n**1. Vorbereitung:**\n• Karten werden gemischt und verteilt, jeder Spieler erhält neun Karten\n• Mischen sollte gründlich erfolgen – schlampiges Mischen führt zu ungleichen Verteilungen\n\n**2. Trumpf bestimmen:**\n• Je nach Variante durch Ansage, Schieben oder Reihum-Festlegung\n• Trumpfwahl beeinflusst den gesamten Rundenverlauf\n\n**3. Weise ansagen:**\n• Wer bestimmte Kartenkombinationen besitzt, meldet dies\n• Höchster Weis gewinnt, alle Spieler des siegreichen Teams dürfen ihre Weise zählen\n\n**4. Spielen:**\n• Erster Spieler wirft Karte ab, andere müssen bedienen\n• Wer den Stich gewinnt, spielt die nächste Karte aus\n• Nach neun Stichen ist die Runde vorbei\n\n**5. Punkte zählen:**\n• Kartenwerte, Weise und Match-Bonus ergeben die Gesamtpunktzahl\n• Gespielt wird meist bis 1000 Punkte beim Schieber",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Spielbegriffe",
+      "topic": "Spielablauf im Überblick"
+    }
+  },
+  "general_geography": {
+    "id": "general_geography",
+    "text": "• Von Basel bis Chiasso, von Genf bis St. Gallen – überall wird gejasst\n• Deutschschweiz: Schieber dominiert, klassisch mit vier Personen gegen den Uhrzeigersinn\n• Karten zeigen meist deutsche Motive: Eicheln, Schilten, Rosen, Schellen\n• Romandie: Eigene Traditionen, französische Kartenbilder verbreitet\n• Varianten unterscheiden sich in Details von der Deutschschweizer Praxis\n• Terminologie weicht ab: \"Stöck\" in Zürich hat in Lausanne einen französischen Namen\n• Tessin: Italienische Einflüsse bei Karten und Spielvarianten\n• Begriff \"Marcio\" für Matsch verweist auf sprachliche Verbindung zu Italien\n• Graubünden: Lokale Besonderheiten in einzelnen Tälern\n• Manche Varianten sind ausserhalb kaum bekannt, aber identitätsstiftend\n• Grundregeln bleiben überall erkennbar\n• Wer in einem Landesteil jassen gelernt hat, findet sich auch anderswo zurecht",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Regionale Unterschiede",
+      "topic": "Regionale Eigenheiten"
+    }
+  },
+  "general_introduction": {
+    "id": "general_introduction",
+    "text": "Jassen gilt als nationales Kartenspiel der Schweiz. Wie das Bundesamt für Kultur beschreibt: \"Jassen verbindet und bereitet Vergnügen, verjagt Alltagsstress und Langeweile.\"\n\nWarum Jassen besonders ist:\n• Viele lernen es als Kinder, andere entdecken es später in Freundeskreisen oder Vereinen\n• Grundregeln sind schnell erfasst: 36 Karten, Bedienungspflicht, Punkte zählen\n• Wahre Komplexität zeigt sich erst im Spiel\n• Schult komplexe Wahrnehmung und Einfühlungsvermögen\n• Körpersprache beobachten und eigene Gefühle kontrollieren gehört dazu\n\nDiese Plattform macht verschiedene Aspekte des Jassens zugänglich – von historischen Hintergründen über Regelvarianten bis zu praktischen Tipps. Ziel ist, Einsteigern den Einstieg zu erleichtern und erfahrenen Spielern vertiefende Informationen zu bieten.",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Überblick",
+      "topic": "Jassen lernen und verstehen"
+    }
+  },
+  "general_materials": {
+    "id": "general_materials",
+    "text": "• Ein Jass-Set besteht aus 36 Karten: vier Farben zu je neun Karten\n• Farben je nach Region: Rosen/Herz, Schilten/Schaufeln, Eicheln, Schellen\n• Jede Farbe enthält: Ass, König, Ober (Dame), Under (Bube), Banner (10), plus Zahlkarten 9, 8, 7, 6\n• Punktewerte ändern sich je nach Spielvariante dramatisch\n• Under im Trumpf: Stärkste Karte, sonst schwächste\n• Deutsche Kartenbilder dominieren in der Deutschschweiz\n• Romandie: Französische Bilder verbreitet\n• Tessin: Italienische Bilder\n• Trotz unterschiedlicher Designs bleiben Struktur und Hierarchie identisch\n• Professionelle Spieler achten auf griffige Karten mit matter Oberfläche\n• Im Turnier werden oft neue Sets verwendet (Abnutzung vermeiden)\n• Varianten mit Jokern existieren, sind aber nicht standardisiert",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Spielmaterial",
+      "topic": "Das Kartenset"
+    }
+  },
+  "general_most_important_rules": {
+    "id": "general_most_important_rules",
+    "text": "• Jassen hat viele Regeln, doch drei sind absolut zentral\n• Erstens – Bedienungspflicht: Wer die ausgespielte Farbe besitzt, muss diese legen\n• Keine Ausnahme, keine Diskussion\n• Wer nicht bedient, obwohl er könnte, begeht einen Fehler, der die Runde ungültig machen kann\n• Zweitens – Gegen den Uhrzeigersinn: Spiel verläuft rechts herum, entgegen der intuitiven Richtung\n• Diese Konvention ist im gesamten deutschsprachigen Raum etabliert\n• Unterscheidet das Jassen von vielen anderen Kartenspielen\n• Drittens – Sorgfältiges Mischen: Vor jeder Runde müssen Karten gründlich gemischt werden\n• Mangelhaftes Mischen führt zu Ungleichgewichten und beeinträchtigt den Spielfluss\n• Im Turnier wird dies besonders streng gehandhabt\n• Diese drei Regeln bilden das Fundament\n• Alles andere (Punktewerte, Weise, Varianten) baut darauf auf",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Wichtigste Regeln",
+      "topic": "Drei eiserne Regeln"
+    }
+  },
+  "general_orientation": {
+    "id": "general_orientation",
+    "text": "Wer jassen lernt, stösst auf spezifische Begriffe. Ein kleiner Überblick:\n\n**Stich:** Besteht aus vier Karten, die der Reihe nach gespielt werden. Wer die höchste Karte legt (unter Berücksichtigung von Trumpf und Farbe), gewinnt den Stich und spielt die nächste Karte aus.\n\n**Trumpf:** Farbe, die über den anderen steht. Jede Trumpfkarte schlägt jede Nicht-Trumpf-Karte, egal welchen Wert sie hat. Welche Farbe Trumpf ist, wird vor der Runde festgelegt.\n\n**Bedienen:** Wer eine Karte in der ausgespielten Farbe besitzt, muss diese Farbe legen. Diese Regel ist fundamental – wer nicht bedient, obwohl er könnte, begeht einen schweren Fehler.\n\n**Weis:** Bestimmte Kartenkombinationen (Sequenzen oder Mehrfachkarten gleichen Werts), die zusätzliche Punkte bringen. Vor der ersten Karte werden Weise angesagt und verglichen.\n\n**Match:** Der letzte Stich. Er bringt Bonuspunkte – ein wichtiger taktischer Faktor, besonders in knappen Partien.",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Grundbegriffe",
+      "topic": "Zentrale Begriffe"
+    }
+  },
+  "general_variants": {
+    "id": "general_variants",
+    "text": "• Jassen kennt zahlreiche Varianten – schweizweit verbreitet oder regional begrenzt\n• Schieber: Beliebteste Form, zwei Zweierteams, Trumpf wird angesagt oder \"geschoben\"\n• Dominiert in der Deutschschweiz, Grundlage vieler Turniere\n• Differenzler: Jeder spielt für sich, keine festen Teams\n• Koalitionen ändern sich von Runde zu Runde, taktische Überlegungen werden komplexer\n• Coiffeur: Vor jeder Runde wird Spielart festgelegt (Trumpf, Obenabe, Undenufe)\n• Vielseitigkeit erfordert Anpassungsfähigkeit\n• Regionale Varianten: Molotov, Guschti, verschiedene Joker-Formen\n• Manche entstanden spontan, andere gezielt für Abwechslung entwickelt",
+    "category": {
+      "main": "Grundlagen & Kultur",
+      "sub": "Spielvarianten",
+      "topic": "Vielfalt der Spielvarianten"
+    }
+  },
+  "history_etymology": {
+    "id": "history_etymology",
+    "text": "Die Herkunft des Wortes \"Jass\" ist umstritten. Verschiedene Theorien konkurrieren, keine kann als abschliessend gesichert gelten.\n\n**Theorie 1 – Niederländisch:**\n• Verweist auf das niederländische Wort \"Jas\" oder \"Jasje\" (Jacke)\n• Könnte auf die Bube-Karte bezogen sein, die in älteren Darstellungen eine Jacke trägt\n• Ob diese Ableitung stimmt, bleibt unklar\n\n**Theorie 2 – Französisch:**\n• Zusammenhang mit dem französischen Begriff \"jasse\"\n• Wurde in verschiedenen Regionen für Kartenspiele verwendet\n• Sprachliche Verbindungen zwischen Schweiz und Frankreich könnten eine Übernahme erklären\n\n**Theorie 3 – Andere Ursprünge:**\n• Manche Forscher vermuten einen Zusammenhang mit dem Verb \"jassen\" (herumtollen, lärmen)\n• Würde den geselligen, manchmal lauten Charakter des Spiels widerspiegeln\n\nDie Tatsache, dass keine Theorie zweifelsfrei belegt ist, zeigt: Sprache entwickelt sich oft auf Wegen, die sich nachträglich schwer rekonstruieren lassen.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Wortherkunft",
+      "topic": "Woher kommt das Wort Jass?"
+    }
+  },
+  "history_etymology_matsch": {
+    "id": "history_etymology_matsch",
+    "text": "Die faszinierende Geschichte des Begriffs \"Matsch\" im Schweizer Jass \n\nDefinition & Bedeutung heute:\n• In Deutschschweizer Kartenspielen bedeutet \"en Matsch mache\" alle Stiche eines Spiels zu machen\n• Beim Schieber zu viert: 100 Punkte Bonus für alle neun Stiche\n• Ausnahme: An Turnieren wird dieser Bonus meist nicht gewährt\n\nEtymologischer Ursprung:\nItalienische Wurzel: Adjektiv \"marcio\" (verfault, morsch, verrottet)\nVermutete Übernahme-Wege:\n- Haupttheorie: Spielersprache italienischer Arbeiter (2. Hälfte 19. Jahrhundert)\n- Alternative 1: Transfer über gehobene Spielsalons\n- Alternative 2: Einfluss durch Österreichs Herrschaft in Norditalien\n\nHistorische Entwicklung:\n1. Ursprüngliche Form & Bedeutung:\n• Erste Verwendung als \"Martsch\"\n• Bedeutete zunächst den VERLUST aller Stiche\n• \"matsch si/werde\" (fare marcio): verloren/vernichtet sein\n• \"en Matsch mache\": einen Schicksalsschlag erleiden\n• \"den anderen den Matsch machen\" (dare marcio)\n\n2. Parallelen in anderen Sprachräumen:\n• Deutsche Kartenspiele: Verlierende sind \"im Matsch\"\n• Österreichische Tradition: Nach Verlust \"ist man Matsch\"\n\n3. Sprachliche Besonderheit:\nZweite Wortbedeutung: breiartige, weiche Masse (nasse Erde, verregneter Schnee)\n• Ursprung: lautmalerisches Wort \"mantschen\"\n• Ungeklärt: Mögliche Verflechtung des deutschen Stamms mit dem Spielerbegriff\n\nTransformation im 20. Jahrhundert:\n1. Erste Hälfte 20. Jahrhundert:\n• Bedeutungsverschiebung: Von Verlust zu Gewinn aller Stiche\n• Koexistenz beider Bedeutungen über Jahrzehnte\n• Historischer Beleg: Werbung 1949 - \"Der [Stumpen] wird euch so vortrefflich schmecken, dass ihr ganz vergessen werdet, dass ihr vorhin Match geworden seid.\"\n\n2. Anglisierung (ab 1930er):\n• Zunehmende Schreibweise als \"Match\"\nEinfluss englischer Sportbegriffe:\\n- \"Matchball\"\n- \"sportlicher Wettkampf\"\n- Englisch als globale Lingua franca\n\nAktuelle Situation:\n1. Offizielle Verwendung:\n• \"Match\"-Schreibweise dominiert bei:\n- Jassturnieren\n- Staatsfernsehen (SRF)\n- \"Puur Nell Ass\" (««Offizielles» Schweizer Jassreglement von Göpf Egg)\n\n2. Föderalistische Vielfalt:\n• Wikipedia-Artikel: Beide Schreibweisen\nLokale Gruppen & Vereine:\\n- Teils \"Matsch\" aus Zufall\n- Teils aus Eigensinn\n- Teils aus etymologischem Bewusstsein\n• Lebendiger Föderalismus in der Jasssprache\n\n---\n\nQuelle:\nMichael Koller (Historiker und Berufsschullehrer) - Expertise in Etymologie des Jass",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Wortherkunft",
+      "topic": "Geschichte des Matsch-Begriffs"
+    }
+  },
+  "history_first_mention": {
+    "id": "history_first_mention",
+    "text": "Die erste urkundliche Erwähnung von Kartenspielen in der Schweiz stammt aus dem Jahr 1367. In Bern findet sich ein Hinweis auf ein Kartenspielverbot – das älteste bekannte Dokument dieser Art in der Schweiz.\n\n**Bedeutung dieses Fundes:**\n• Zeigt: Kartenspiele waren bereits 1367 verbreitet genug, um reguliert zu werden\n• Behörden sahen Bedarf einzugreifen – vermutlich wegen Glücksspiel und Geldverlusten\n• Solche Verbote waren in vielen europäischen Städten üblich\n\n**Was wir nicht wissen:**\n• Wie lange Kartenspiele schon vorher existierten\n• Wie verbreitet sie tatsächlich waren\n• Ob das Verbot durchgesetzt werden konnte\n\n**Historischer Kontext:**\n• 14. Jahrhundert: Kartenspiele verbreiteten sich rasant in Europa\n• Bern war eine bedeutende Stadt, wirtschaftlich und politisch wichtig\n• Dass gerade hier ein Verbot entstand, zeigt: Das Phänomen war nicht marginal\n\nDiese frühe Erwähnung belegt: Die Schweiz war von Anfang an Teil der europäischen Kartenspielkultur.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Ursprünge",
+      "topic": "Die erste urkundliche Erwähnung"
+    }
+  },
+  "history_industrialization": {
+    "id": "history_industrialization",
+    "text": "Spielkarten waren bis ins 19. Jahrhundert teuer. Jede Karte musste von Hand bemalt werden, die Herstellung dauerte Stunden. Nur Wohlhabende konnten sich ein eigenes Kartenset leisten.\n\n**Technologische Revolution ab 1820:**\n• Lithografie und später Chromolithografie ermöglichten Druck farbiger Kartenbilder\n• Dampfbetriebene Pressen steigerten die Geschwindigkeit dramatisch\n• Was früher Tage dauerte, war nun in Stunden erledigt\n\n**Konsequenzen:**\n• Preise fielen dramatisch\n• Erstmals konnten auch einfache Leute eigene Karten kaufen\n• Aus einem Privileg der Oberschicht wurde ein Volksgut\n\n**Standardisierung:**\n• Massenproduktion führte zu einheitlicheren Designs\n• Regionale Besonderheiten verschwanden teilweise\n• Andererseits: Grössere Verbreitung stärkte das Spiel als Kulturgut\n\nDie Schweiz blieb dabei ein besonderer Fall: Trotz Industrialisierung behielten Schweizer Jasskarten ihre spezifischen Merkmale bei – ein Zeichen dafür, dass kulturelle Eigenheiten sich gegen rein ökonomische Standardisierung behaupten können.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Industrialisierung",
+      "topic": "Vom Luxusgut zur Massenware"
+    }
+  },
+  "history_linguistics": {
+    "id": "history_linguistics",
+    "text": "Das Jassen hat eine eigene Sprache entwickelt. Begriffe, die ausserhalb des Spiels kaum verwendet werden, sind am Jasstisch selbstverständlich.\n\n**Fachbegriffe mit Geschichte:**\n• \"Stöck\": Bezeichnet König und Ober der Trumpffarbe, bringt 20 Punkte\n• \"Weis\": Bestimmte Kartenkombinationen mit Zusatzpunkten\n• \"Match\": Der letzte Stich mit Bonuspunkten\n• \"Schmieren\": Punktekarten dem Partner zuspielen\n\n**Regionale Unterschiede:**\n• Deutschschweiz: \"Puur\" für den Under, \"Näll\" für den Neuner im Trumpf\n• Romandie: Eigene französische Begriffe\n• Tessin: \"Marcio\" statt \"Matsch\"\n\n**Kulturelle Bedeutung:**\n• Diese Begriffe verbinden Generationen\n• Wer sie kennt, ist Teil einer Gemeinschaft\n• Sprache schafft Zugehörigkeit\n\nManche Ausdrücke haben es sogar in die Alltagssprache geschafft: \"Etwas verschmieren\" oder \"einen Stich machen\" werden auch ausserhalb des Jassens verwendet – ein Zeichen für die tiefe kulturelle Verankerung des Spiels.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Sprachentwicklung",
+      "topic": "Die Sprache rund um den Jasstisch"
+    }
+  },
+  "history_medieval": {
+    "id": "history_medieval",
+    "text": "Wann genau Spielkarten nach Europa kamen, bleibt unklar. Die frühesten erhaltenen Exemplare stammen aus dem späten 14. Jahrhundert.\n\n**Johannes von Rheinfelden (1377):**\n• Mönch, der in Rheinfelden wirkte\n• Verfasste bemerkenswerte Schrift: \"Ludus cartularum moralisatus\" (das moralische Kartenspiel)\n• Beschreibt verschiedene Kartenspiele, die er in Florenz kennengelernt hatte\n• Versuchte, dem Spiel eine religiöse Deutung zu geben\n\n**Grundprinzip bereits vorhanden:**\n• Vier Farben mit jeweils mehreren Zahlenkarten und Hofkarten\n• Hierarchie (König, Dame, niedrigere Figuren) bildete feudale Gesellschaftsordnung ab\n\n**Frühe Karten als Kunstwerke:**\n• Maler gestalteten sie mit aufwendigen Motiven: höfische Szenen, mythologische Figuren, Wappen\n• Entsprechend hoch waren die Preise\n• Nur wohlhabende Kreise konnten sich solche Exemplare leisten",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Mittelalter",
+      "topic": "Frühe Spielkarten in Europa"
+    }
+  },
+  "history_origin": {
+    "id": "history_origin",
+    "text": "Die genaue Herkunft der Spielkarten ist bis heute ungeklärt. Verschiedene Theorien verweisen auf unterschiedliche Ursprungsregionen:\n\n**Mögliche Ursprünge:**\n• China/Korea: Archäologische Funde aus dem 12. Jahrhundert zeigen kartenähnliche Objekte\n• Indien oder Persien: Ebenfalls als mögliche Ursprungsregionen diskutiert\n• Ob diese direkt mit europäischen Karten verwandt sind, bleibt spekulativ\n\n**Verbreitung nach Europa:**\n• Vermutlich über Handelswege: Seidenstrasse oder Seewege\n• Erste sichere Belege für Kartenspiele in Europa: Spätes 14. Jahrhundert\n• Verbreitung war bemerkenswert schnell – innerhalb weniger Jahrzehnte in verschiedenen Regionen\n\n**Frühe Reaktionen:**\n• Kirchliche und weltliche Autoritäten reagierten mit Misstrauen\n• 1367 in Bern: Ältestes bekanntes Kartenspielverbot der Schweiz\n• Solche Verbote zeigen: Kartenspiele waren nicht nur bekannt, sondern bereits weit verbreitet",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Herkunft",
+      "topic": "Woher kommen Spielkarten?"
+    }
+  },
+  "history_social_significance": {
+    "id": "history_social_significance",
+    "text": "Jassen hat sich von einem Zeitvertreib zu einem identitätsstiftenden Kulturgut entwickelt.\n\n**Frühe Verbreitung:**\n• Ursprünglich in Wirtshäusern und Spielstuben\n• Verbreitete sich über alle Gesellschaftsschichten\n• Wurde zu einem verbindenden Element in Dörfern und Städten\n\n**Gesellschaftliche Funktion:**\n• Bietet Raum für soziale Interaktion\n• Generationen treffen sich am Jasstisch\n• Sprache und Regeln verbinden über regionale Grenzen hinweg\n\n**20. und 21. Jahrhundert:**\n• Turniere und Vereine institutionalisierten das Spiel\n• Medien berichteten über Jassereignisse\n• Digitale Plattformen ermöglichen heute Online-Jassen\n\n**Kulturelle Bedeutung heute:**\n• Jassen ist Teil der Schweizer Identität\n• Wird in Schulen, Familien, Vereinen weitergegeben\n• Bundesamt für Kultur nennt es \"lebendige Tradition\"\n\nWas anderswo nur Unterhaltung ist, ist in der Schweiz Kultur – eine Besonderheit, die das Jassen von vielen anderen Kartenspielen unterscheidet.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Kulturelle Bedeutung",
+      "topic": "Verbreitung und gesellschaftliche Bedeutung"
+    }
+  },
+  "history_swiss_production": {
+    "id": "history_swiss_production",
+    "text": "Die Schweiz entwickelte früh eine eigene Tradition der Kartenherstellung. Bereits im 16. und 17. Jahrhundert lassen sich Kartenmacher in verschiedenen Städten nachweisen.\n\n**Dezentrale Produktion:**\n• Anders als in anderen Ländern mit zentralen Produktionszentren\n• Schweizer Kartenmacher produzierten für lokale Märkte\n• Entwickelten regionale Stile\n\n**Berühmte Zentren:**\n• Solothurn: Bedeutendes Zentrum der Kartenproduktion\n• Einzelne Familienbetriebe über Generationen hinweg\n• Prägten die Gestaltung der deutschsprachigen Jasskarten\n\n**Industrialisierung im 19. Jahrhundert:**\n• Handarbeit wurde durch mechanische Verfahren ersetzt\n• Karten wurden günstiger und für breitere Schichten zugänglich\n• Trotz Industrialisierung: Traditionelle Motive und Strukturen blieben erhalten",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Schweizer Kartenherstellung",
+      "topic": "Schweizer Kartenmacher"
+    }
+  },
+  "history_unesco": {
+    "id": "history_unesco",
+    "text": "2011 wurde das Jassen in die Liste der lebendigen Traditionen der Schweiz aufgenommen.\n\n**Die Liste:**\n• Erstellt vom Bundesamt für Kultur (BAK) in Zusammenarbeit mit den kantonalen Kulturstellen\n• Grundlage: UNESCO-Übereinkommen zur Bewahrung des immateriellen Kulturerbes\n• Sensibilisiert für kulturelle Praktiken und deren Vermittlung\n\n**Kriterien für Aufnahme:**\n• Traditionen werden über Generationen weitergegeben\n• Sind für Gemeinschaften identitätsstiftend\n• Dokumentiert lebendige Kultur, nicht museale Relikte\n\n**Jassen in der Liste:**\n• Reiht sich ein in über 200 Schweizer Traditionen\n• Dazu gehören: Handwerkstechniken, Feste, gesellschaftliche Praktiken, mündlich überlieferte Ausdrucksformen\n• Aufnahme hat keinen rechtlichen Schutz zur Folge\n• Signalisiert aber die kulturhistorische Relevanz\n\nDiese Anerkennung unterstreicht: Jassen ist mehr als ein Kartenspiel – es ist gelebtes Kulturerbe.",
+    "category": {
+      "main": "Geschichte",
+      "sub": "Kulturelle Bedeutung",
+      "topic": "Die Liste der lebendigen Traditionen"
+    }
+  },
+  "jassapps_jass24": {
+    "id": "jassapps_jass24",
+    "text": "• Jass24: Online-Jass-App mit Fokus auf Schieber und Differenzler\n• Spielmodi: Schieber gegen Computer oder echte Gegner, Differenzler mit offener oder verdeckter Ansage, Online-Tische (öffentlich oder privat)\n• Besonderheiten: Wahl zwischen deutschem oder französischem Kartenset\n• Verfügbarkeit: iOS (App Store), Android (Google Play Store)\n• Kosten: Gratis\n• Entwickler: Samad Ilyas\n• Sprachen: Deutsch, Französisch, Englisch",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Online-Jass",
+      "topic": "Jass24"
+    }
+  },
+  "jassapps_jassch": {
+    "id": "jassapps_jassch",
+    "text": "• Jass.ch: Offizielle Jass-App von Swisslos\n• Spielmodi: Differenzler mit verdeckter Ansage (4 oder 8 Runden), Schieber auf 1000 oder 2500 Punkte (mit oder ohne Multiplikatoren), Coiffeur (mit oder ohne Slalom und Guschti), Spielen gegen drei Computer-Gegner\n• Features: Deutsches oder französisches Kartenset, Hoch- und Queransicht, Spielstatistik\n• Besonderheiten: Von Swisslos entwickelt und betrieben, Fokus auf Einzelspieler gegen KI, Mehrspieler-Funktion auf www.jass.ch\n• Verfügbarkeit: iOS (App Store), Android (Google Play Store), Web (www.jass.ch)\n• Kosten: Gratis\n• Entwickler: Swisslos Intercantonale Landeslotterie\n• Sprachen: Deutsch",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Online-Jass",
+      "topic": "Jass.ch (Swisslos)"
+    }
+  },
+  "jassapps_jassguru": {
+    "id": "jassapps_jassguru",
+    "text": "• jassguru.ch: Digitale Jasstafel, die Resultate direkt in eine Datenbank schreibt\n• Technologie: Progressive Web App (PWA) für echtes Jassen am Tisch mit physischen Karten\n• Besonderheit: Resultate fliessen direkt in Datenbank, automatisch Ranglisten, Statistiken und persönliche Jassprofile\n• Installation: Funktioniert direkt im Browser (Chrome, Safari, Firefox), kein Download nötig, installierbar als PWA für Offline-Nutzung\n• Punktezählung: Schnelle Eingabe via Kalkulator, automatische Berechnung von Restpunkten, Gamification-Elemente (Konfetti, Feuerwerk)\n• Echtzeit: Live-Übertragung von Partien, automatische Synchronisation zwischen Geräten, Zuschauer können live zuschauen\n• Gruppen-Statistiken: Jass-Elo-Rating, Strichdifferenz, Punktedifferenz, Siegquoten, Matsch-Bilanzen, Schneider-Bilanzen, Weis-Durchschnitte\n• Persönliche Profile: Detaillierte Statistiken, Elo-Entwicklung, Siegquoten, Partner- und Gegner-Statistiken, Archiv aller Partien\n• Jassgruppen: Private Gruppen mit Freunden, Einladungs-Links, Turnierverwaltung mit automatischer Rangliste\n• Unterstützte Variante: Schieber (weitere in Entwicklung)\n• Zielgruppe: Stammtische, Jassgruppen, Turnierveranstalter, alle die echte Jassen am Tisch lieben\n• Kosten: Komplett kostenlos, keine Werbung, keine In-App-Käufe",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Tisch-Jass",
+      "topic": "jassguru.ch"
+    }
+  },
+  "jassapps_jasspro": {
+    "id": "jassapps_jasspro",
+    "text": "• JassPro: Online-Jass-App zum virtuellen Jassen auf Smartphone oder Tablet\n• Spielmodi: Online gegen echte Spieler, gegen virtuelle Gegner (KI), mit oder ohne Weisen, verschiedene Modi (Einfach, Doppelt, Undenufe/Obenabe, Slalom, Pik Double)\n• Features: Französische oder Deutsch-Schweizer Kartenbilder, privater Tisch zum Einladen, Verwerfen oder Anziehen, Reaktionen und Chat, Ranglisten und Turniere\n• Regelkonformität: Implementiert Regeln des offiziellen Schweizer Jassreglements\n• Verfügbarkeit: iOS (App Store), Android (Google Play Store), Web-App (app.jasspro.ch)\n• Kosten: Gratis Download, In-App-Käufe möglich\n• Entwickler: Freddy Kaiser\n• Sprachen: Deutsch, Französisch, Englisch",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Online-Jass",
+      "topic": "JassPro"
+    }
+  },
+  "jassapps_jasstafel": {
+    "id": "jassapps_jasstafel",
+    "text": "• Jasstafel: Punktezähl-App für Android und iOS von Simon Steinmann\n• Unterstützte Varianten: Schiebertafel (Punkte einzeln oder ganze Runden, Multiplikatoren, Rückgängig), Coiffeurtafel (16 vordefinierte Jassarten, 2-3 Teams, 6-12 Runden), Differenzlertafel (2-8 Spieler, verdeckte Ansagen), Molotowtafel (2-8 Spieler, Weisen-Eingabe), Punktetafel (allgemeine Schreibtafel für weitere Jassarten)\n• Weitere Funktionen: Mehrere Profile parallel, unabhängige Speicherung, Dealer-Tracking, AndroidBeam (NFC) zum Teilen, Statistiken\n• Verfügbarkeit: Android (Google Play Store), iOS (App Store als \"Schweizer Jasstafel\")\n• Kosten: Gratis\n• Entwickler: Simon Steinmann\n• Sprachen: Deutsch, Englisch",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Tisch-Jass",
+      "topic": "Jasstafel"
+    }
+  },
+  "jassapps_jasstafel_pro": {
+    "id": "jassapps_jasstafel_pro",
+    "text": "• Jasstafel Pro: App zum Punktezählen beim Jassen am Tisch von NiceApps GmbH\n• Beschreibung: Einfachste und übersichtlichste Jasstafel im App Store, originalgetreue Oberfläche\n• Features: Traditionelle Schreibtafel für Schieber, schnelles Schreiben von Wyys und Punkten, lange drücken für Punkte schreiben, ein Team zählt, App berechnet für zweites Team, ein oder zwei Schreiber möglich\n• Verfügbarkeit: iOS (App Store für iPad, iPhone, Mac), Android (Google Play Store), Kompatibilität iOS 9.0+ / macOS 11.0+\n• Kosten: CHF 1.00\n• Entwickler: NiceApps GmbH\n• Sprachen: Deutsch, Englisch\n• Bewertungen: 4.0 von 5 (3 Bewertungen)",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Tisch-Jass",
+      "topic": "Jasstafel Pro"
+    }
+  },
+  "jassapps_overview": {
+    "id": "jassapps_overview",
+    "text": "• Grundkonzept: Die digitale Jass-Welt bietet heute eine Vielzahl von Apps und Web-Anwendungen für unterschiedliche Bedürfnisse\n• Apps für Jassen am Tisch: Digitale Helfer für echte Jass-Runden, Punktezählung, Statistiken, Ranglisten, keine virtuellen Gegner, sondern Unterstützung für reale Partien\n• Beispiel Tisch-Jass: jassguru.ch - Die digitale Jasstafel mit Datenbank-Anbindung\n• Online-Jass-Apps: Virtuelles Jassen gegen Computer oder andere Spieler, Spielen ohne physische Karten, verschiedene Spielmodi und Varianten\n• Beispiele Online-Jass: JassPro, Jass24, SwissJass+, Jass.ch\n• Unterschied: Während Online-Apps das klassische Jassen digital ersetzen, unterstützen Apps wie jassguru.ch das traditionelle Spiel am Tisch mit modernen Tools",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Generelles",
+      "topic": "Jassapps Generelles"
+    }
+  },
+  "jassapps_swissjass": {
+    "id": "jassapps_swissjass",
+    "text": "• SwissJass+: Online-Jass-App für iPhone, iPad und Android mit verschiedenen Jass-Varianten\n• Schieber: Einfach, Doppelt, Undenufe/Obenabe, Slalom, französische oder Deutsch-Schweizer Kartenbilder, frei wählbare Trumpffaktoren, mit oder ohne Weisen, Online und lokaler Multiplayer (WLAN/Bluetooth)\n• Coiffeur: Online-Spiel und lokaler Multiplayer, Statistik und Game Center Integration\n• Differenzler: Anzahl Runden frei wählbar, Online-Spiel und lokaler Multiplayer\n• Weitere Features: Lernmodus, anpassbare Spielgeschwindigkeit, Statistiken\n• Regelkonformität: Regeln des offiziellen Schweizer Jassreglements\n• Verfügbarkeit: iOS (App Store), Android (Google Play Store)\n• Kosten: Gratis\n• Entwickler: Roman Schauenberg (Sweetware)\n• Sprachen: Deutsch, Französisch, Englisch",
+    "category": {
+      "main": "Jassapps",
+      "sub": "Online-Jass",
+      "topic": "SwissJass+"
+    }
+  },
+  "references_books": {
+    "id": "references_books",
+    "text": "• Wichtige Bücher zum Schweizer Jass: Verschiedene Publikationen bieten umfassende Informationen zum Jassen\n• \"Puur Nell Ass\" von Göpf Egg & Albert Hagenbucher: Offizielles Schweizer Jassreglement, Standardwerk für Regeln und Konventionen, Basis für offizielle Turniere und Wettkämpfe, leider veraltet und teilweise kompliziert\n• \"STÖCK WYS STICH - Der neue Schweizer Jassführer\" von Dani Müller: Praktischer Leitfaden für Jassspieler, detaillierte Spielregeln und Taktiken, Referenz für moderne Spielvarianten, am modernsten und logischsten formuliertes Regelwerk, DIE REFERENZ für die Jassguru.ch Sprachmodelle\n• \"STÖCK WYS STICH - Kulturgeschichte\" von Erika Lüscher: Umfassende kulturhistorische Analyse des Jassens, Fokus auf Entwicklung und Tradition, besonders relevant für historische und kulturelle Aspekte\n• \"Trumpf As\" von Fabian Cadonau: Herausgeber und Veranstalter von Jassturnieren, praktische Tipps und Turniererfahrungen, moderne Jass-Publikation\n• \"Atlas der Schweizerischen Volkskunde\": Wissenschaftliche Quelle zur Jass-Geschichte, Dokumentation der Verbreitung des Jassens, historische Entwicklung der Spielkarten\n• Weitere wichtige Quellen: Schaffhauser Ratsprotokolle (1796), NZZ-Archive (1918, 1949), Bundesamt für Kultur (BAK) \"Lebendige Traditionen - Jassen\", Idiotikon.ch für etymologische Forschung, Kluge (2011) Etymologisches Wörterbuch",
+    "category": {
+      "main": "Referenzen",
+      "sub": "Quellen",
+      "topic": "Bücher zum Schweizer Jass"
+    }
+  },
+  "references_documents": {
+    "id": "references_documents",
+    "text": "• Wichtige Dokumente und Quellen: Verschiedene Dokumententypen dienen der Jass-Forschung\n• Offizielle Dokumente: Offizielles Schweizer Jassreglement \"Puur Nell Ass\", Schaffhauser Ratsprotokolle (1796), NZZ-Archive (1918, 1949), Bundesamt für Kultur (BAK) \"Lebendige Traditionen - Jassen\" auf lebendige-traditionen.ch\n• Wissenschaftliche Quellen: Idiotikon.ch für etymologische Forschung zum Begriff \"Matsch\", Kluge (2011) Etymologisches Wörterbuch, Duden.de zur sprachlichen Entwicklung, Wikipedia Artikel \"Schneider (Kartenspiel)\"",
+    "category": {
+      "main": "Referenzen",
+      "sub": "Dokumente",
+      "topic": "Dokumente und Quellen"
+    }
+  },
+  "references_experts": {
+    "id": "references_experts",
+    "text": "• Experten und Fachleute: Verschiedene Personen haben das Jass-Wissen geprägt und erweitert\n• Fabian Cadonau: Herausgeber von Trumpf As, Veranstalter von hunderten von Jassturnieren\n• Göpf Egg & Albert Hagenbucher: Autoren des offiziellen Schweizer Jassreglements, Autoritäten für Regelauslegungen, Experten für Turnierjass\n• Michael Koller: Historiker und Berufsschullehrer, Expertise in Etymologie des Jassens, Forschung zur Geschichte des \"Matsch\"-Begriffs\n• Dani Müller: Autor von \"Stöck, Stich, Wys: Der neue Schweizer Jassführer\", Mitherausgeber mit der SRG, Experte für moderne Jassregeln\n• Remo Prinz: Gründer von jassguru.ch und Programmierer der Jassguru App, hat mit seinen Jassfreunden (u.a. mit Michael Koller) tausende Jass-Spiele festgehalten unter jassstatistik.ch",
+    "category": {
+      "main": "Referenzen",
+      "sub": "Experten",
+      "topic": "Experten und Fachleute"
+    }
+  },
+  "references_usage": {
+    "id": "references_usage",
+    "text": "• Quellenverwendung im Kontext: Je nach Fragestellung eignen sich unterschiedliche Quellen\n• Regeln & Spielweise: \"PUUR NÄLL ASS\" von Egg/Hagenbucher als Basis der Spielregeln, Dani Müllers Weiterentwicklung bestimmter Regeln sowie für Varianten, Remo Prinz & Fabian Cadonau für Taktiken und Strategien, etc.\n• Geschichte & Kultur: Erika Lüscher zur kulturhistorischen Entwicklung, Michael Koller für Etymologie und historische Forschung, historische Dokumente wie NZZ und Ratsprotokolle als zeitgenössische Belege\n• Sprachforschung: Idiotikon.ch und Duden.de zur sprachlichen Entwicklung, Kluge (2011) für etymologische Grundlagen, Wikipedia als ergänzende Informationsquelle",
+    "category": {
+      "main": "Referenzen",
+      "sub": "Verwendung",
+      "topic": "Quellenverwendung im Kontext"
+    }
+  },
+  "schieber_conventions": {
+    "id": "schieber_conventions",
+    "text": "• Grundkonzept: Konventionen sind vereinbarte Regeln für nonverbale Verständigung mit dem Partner beim Schieber\n• Bedeutung: Grundlage erfolgreichen Jassens, ermöglichen schnelle und präzise Reaktionen ohne langes Überlegen\n• Fehlerprävention: Bieten klare Handlungsanweisungen, verhindern Überdenken und Angst vor Fehlern\n• Teamspiel: Nonverbale Verständigung durch geschicktes Kartenspiel, ohne ein Wort zu sagen",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Taktische Grundlagen",
+      "topic": "Konventionen"
+    }
+  },
+  "schieber_taktiken_advanced": {
+    "id": "schieber_taktiken_advanced",
+    "text": "• Grundkonzept: Erfahrene Spieler können zusätzliche taktische Elemente nutzen\n• Psychologische Aspekte: Gegner können durch unvorhersehbare Spielzüge verwirrt werden, das Variieren des Spieltempos dient der Täuschung, und selbstbewusstes Auftreten kann auch mit einem schwächeren Blatt erfolgreich sein\n• Erweitertes Kartengedächtnis: Fortgeschrittene Spieler merken sich gespielte Karten, sortiert nach Farben, schätzen das Punktetotal der Gegner und berechnen Wahrscheinlichkeiten für verbleibende Karten\n• Matchstrategie: Das Risiko wird je nach aktuellem Spielstand angepasst, gegnerische Schwächen werden gezielt ausgenutzt, und manchmal wählt man taktische Ansagen wie Undenufe statt Trumpf\n• Spezielle Techniken: Querverwerfen wird gezielt eingesetzt, der doppelte Kreuzschnitt kommt zum Einsatz, verzögertes Trumpfen kann taktisch sinnvoll sein, ein weiterer fortgeschrittener Zug ist es, während eines Normalspiels bereits einen Matsch vorzubereiten",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Fortgeschrittene Strategien",
+      "topic": "Fortgeschrittene Taktiken"
+    }
+  },
+  "schieber_taktiken_anziehen": {
+    "id": "schieber_taktiken_anziehen",
+    "text": "• Grundkonzept: Anziehen ist ein wichtiges Kommunikationsmittel beim Schieber, hauptsächlich vom offensiven Team (Trumpf angesagt)\n• Grundregel: Die erste Karte, mit der ein Spieler anzieht, zeigt seine stärkste Farbe an (absolut, ohne Ausnahmen)\n• Wichtig: Nie mit der höchsten Karte anziehen (Ausnahme: Ass und König → Ass signalisiert, dass König auch vorhanden)\n• Unter ideal: Bei mehreren hohen Karten (z.B. König, Under, Siebner) mit Under anziehen\n• Gründe: Under ist hoch genug für wertvolle Karten der Gegner, tief genug für später höhere Karten, verhindert billige Stiche wie Banner\n• Weiter: Wenn angezogene Farbe durchgespielt, zieht man mit zweitstärkster Farbe an",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Kommunikation & Signale",
+      "topic": "Anziehen"
+    }
+  },
+  "schieber_taktiken_basics": {
+    "id": "schieber_taktiken_basics",
+    "text": "• Grundkonzept: Beim Schieber gibt es drei wesentliche taktische Säulen\n• Kommunikation: Die erste ausgespielte Karte vermittelt häufig Informationen über die eigene Stärke oder Schwäche, das Abwerfen gibt dem Partner wichtige Hinweise auf die eigenen Farben, und auch die Entscheidung, ob gestochen wird oder nicht, dient als Signal\n• Timing: Es geht darum, den richtigen Moment für verschiedene Aktionen zu finden: Wann setzt man Trumpf ein, wann spielt man hohe Karten aus, wann sammelt man Punkte? Das Timing kann über Sieg oder Niederlage entscheiden\n• Kartengedächtnis: Erfolgreiche Spieler behalten im Kopf, welche Karten bereits gespielt wurden, zählen die Trumpfkarten und verfolgen, welche Punktekarten bereits im Spiel waren, ermöglicht präzise Abschätzungen über die verbleibenden Karten",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Taktische Grundlagen",
+      "topic": "Grundlegende Taktiken"
+    }
+  },
+  "schieber_taktiken_hoch_tief": {
+    "id": "schieber_taktiken_hoch_tief",
+    "text": "• Grundkonzept: Hoch-tief / Tief-hoch-tief ist eine fortgeschrittene Technik, die vor allem beim Turnierjassen eingesetzt wird\n• Grundidee: Wenn ein Spieler eine Karte ausspielt, signalisiert er damit, ob er noch weitere Karten dieser Farbe besitzt durch Ausspielen von \"hoch\" oder \"tief\"\n• Beispiel: Ein Spieler spielt einen Sechser aus, hat noch einen Siebner in der Hand, spielt nun einen Trumpf aus, um zu signalisieren, dass er noch eine höhere Karte in der Farbe besitzt (hoch)\n• Partner-Reaktion: Wenn der Partner dies versteht, kann er entsprechend reagieren (höhere Karte ausspielen oder andere Karte)\n• Vorteil: Durch diese Konvention können die Partner genauere Informationen über die Karten des Gegners erhalten und ihre Spielstrategie anpassen\n• Voraussetzung: Diese Konvention erfordert eine hohe Konzentration und eine gute Beobachtungsgabe, sollte nur angewendet werden, wenn alle Beteiligten sie verstehen und beherrschen",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Kommunikation & Signale",
+      "topic": "Hoch - tief / Tief - hoch - tief"
+    }
+  },
+  "schieber_taktiken_partner": {
+    "id": "schieber_taktiken_partner",
+    "text": "• Grundkonzept: Die Partnerkommunikation basiert auf mehreren Grundregeln\n• Erste Karte: Die erste ausgespielte Karte zeigt normalerweise die stärkste Farbe des Spielers an, gibt zudem Hinweise auf die Trumpfstärke und signalisiert dem Partner die geplante Spielstrategie\n• Abwerfen: Die erste Farbe, die abgeworfen wird, ist stets die schwächste, dies teilt dem Partner mit, welche Farben als \"tot\" gelten, und hilft besonders bei der Matsch-Verteidigung\n• Stechen: Über das Stechen werden ebenfalls Informationen vermittelt: Ein hoher Trumpf signalisiert wenige Trümpfe, ein tiefer Trumpf dagegen viele, wird gar nicht gestochen, bedeutet dies, dass keine Trümpfe mehr vorhanden sind\n• Timing: Die Geschwindigkeit des Spiels vermittelt ebenfalls Botschaften: Schnelles Spiel deutet auf ein starkes Blatt hin, zögerliches Verhalten auf Unsicherheit, ein konstantes Tempo wirkt neutral",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Taktische Grundlagen",
+      "topic": "Partnertaktiken"
+    }
+  },
+  "schieber_taktiken_querverwerfen": {
+    "id": "schieber_taktiken_querverwerfen",
+    "text": "• Grundkonzept: Querverwerfen ist eine fortgeschrittene Variante des Verwerfens, hauptsächlich vom Team angewendet, das Trumpf ansagt\n• Grundidee: Rose oder Kreuz verwirfen signalisiert gleichzeitig Stärke in Eichel oder Schaufel (und umgekehrt)\n• Vorteil: Ermöglicht eine noch präzisere Kommunikation zwischen den Partnern\n• Einsatz: Besonders wertvoll beim Turnierjassen, wo jeder einzelne Punkt zählt, weniger Bedeutung bei privaten Runden mit Matsch-Bonus\n• Risiko: Diese Konvention zwingt die Spieler, konsequent durchzuziehen, Karten können weggegeben werden, die später für einen Matsch wichtig sein könnten\n• Voraussetzung: Sollte nur angewendet werden, wenn alle Beteiligten diese Konvention kennen und verstehen",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Kommunikation & Signale",
+      "topic": "Querverwerfen"
+    }
+  },
+  "schieber_taktiken_scoring": {
+    "id": "schieber_taktiken_scoring",
+    "text": "• Grundkonzept: Optimale Punktesammlung erfordert eine kluge Strategie\n• Grundregeln: Hohe Karten sollten früh ausgespielt werden, um sie zu sichern, Könige werden vor Zehnern gespielt, und Ass-König Kombinationen werden gezielt genutzt\n• Trumpfpunkte: Bauer (20 Punkte) und Nell (14 Punkte) sollten möglichst sicher gemacht werden, das Trumpf-Ass (11 Punkte) wird strategisch eingesetzt, während der Trumpf-König (4 Punkte) für später wichtige Stiche zurückgehalten wird\n• Spezielle Punktekarten: Der Under (3 Punkte) dient primär der Kommunikation, Banner (10 Punkte) werden gezielt für Stiche eingesetzt, während Sechser und Siebner oft für die Matsch-Verteidigung reserviert bleiben\n• Timing der Punkte: Bei einem starken Blatt werden Punkte früh gesammelt, bei einem Kontrollblatt wartet man bis später, in entscheidenden Matchmomenten werden Punkte gezielt und bewusst eingesetzt",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Taktische Grundlagen",
+      "topic": "Punktetaktiken"
+    }
+  },
+  "schieber_taktiken_special": {
+    "id": "schieber_taktiken_special",
+    "text": "• Grundkonzept: Für geübte Spieler gibt es erweiterte taktische Möglichkeiten\n• Psychologische Elemente: Durch unerwartete Spielz-Verfügungen kann man Gegner aus dem Konzept bringen, das bewusste Variieren des Spieltempos dient der Irreführung, und selbstbewusstes Auftreten wirkt auch mit weniger starken Karten überzeugend\n• Erweitertes Kartengedächtnis: Fortgeschrittene Spieler merken sich die gespielten Karten in Stichgruppen – also jeweils vier Karten zusammengefasst, sie kennen das Punktetotal der Gegner und berechnen Wahrscheinlichkeiten für noch vorhandene Karten\n• Strategische Anpassung: Je nach Spielstand wird das Risikoverhalten angepasst, Schwächen der Gegner werden gezielt ausgenutzt, und manchmal wählt man bewusst taktische Ansagen, beispielsweise Undenufe anstelle von Trumpf\n• Fortgeschrittene Techniken: Zu den besonderen Techniken gehören der gezielte Einsatz des Querverwerfens, der doppelte Kreuzschnitt, verzögertes Trumpfen sowie die Vorbereitung eines Matschs bereits während des laufenden Spiels",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Fortgeschrittene Strategien",
+      "topic": "Spezielle Taktiken"
+    }
+  },
+  "schieber_taktiken_trump": {
+    "id": "schieber_taktiken_trump",
+    "text": "• Grundkonzept: Trumpfansagen sind wichtige Konventionen für die Kommunikation mit dem Partner\n• Vorhand ansagt Trumpf: Wer Puur und Nell hält, spielt zuerst Nell, grundsätzlich zweimal austrumpfen (ausser Gegner haben keine Trümpfe mehr)\n• Nachhand (Partner): Eine Trumpfkarte → diese spielen; zwei Trümpfe → höheren zuerst (ausser Puur/Nell); drei oder mehr → niedrigsten zuerst\n• Beispiel Nachhand: Nachhand spielt König (hat auch Siebner) → Vorhand erkennt, Partner hat höchstens zwei Trümpfe\n• Rückhand ansagt Trumpf: Partner beginnt Ausspielen, ähnliche Konventionen (Puur/Nell ausspielen, ausser blutter Puur allein)",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Kommunikation & Signale",
+      "topic": "Trumpfansagen"
+    }
+  },
+  "schieber_taktiken_verwerfen": {
+    "id": "schieber_taktiken_verwerfen",
+    "text": "• Grundkonzept: Verwerfen ist neben dem Anziehen das wichtigste Kommunikationselement beim Schieber\n• Offensive (Trumpf angesagt): Die erste verworfene Farbe ist stets die schwächste (ohne Ausnahmen), Partner deutet als \"tote Farbe\"\n• Folge: Partner zieht diese Farbe normalerweise nicht mehr an (ausser er ist selbst stark und Partner hat noch Trümpfe)\n• Defensive: Auch hier schwächste Farbe verwerfen, signalisiert Stärken und Schwächen, wichtig für Matsch-Verteidigung\n• Häufiger Fehler: Wenn beide Partner dieselbe Farbe halten, sollte man eigene starke Karte aufgeben und zweitstärkste Farbe verteidigen\n• Täuschung: Kann in taktischen Runden zur Täuschung eingesetzt werden (nur wenn Partner nicht in Irre geführt wird)",
+    "category": {
+      "main": "Taktiken und Strategien",
+      "sub": "Kommunikation & Signale",
+      "topic": "Verwerfen"
+    }
+  }
+}

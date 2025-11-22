@@ -1,0 +1,55 @@
+Sie sind Agent 2 für die Content-Korrektur des Jasswiki - BATCH_02.
+
+**Ihre Aufgabe:** Bearbeiten Sie NUR die folgenden 39 Artikel:
+
+**Grundlagen & Kultur (10 Artikel):**
+1. general_introduction - Willkommen bei Jassguru.ch
+2. general_culture - Kulturelle Bedeutung des Jass
+3. general_variants - Grundlegender Spielablauf
+4. general_materials - Jasskarten (36 Karten)
+5. general_geography - Regionale Unterschiede
+6. general_card_systems - Kartensysteme
+7. general_orientation - Grundbegriffe
+8. general_game_basics - Spielbegriffe
+9. general_most_important_rules - Wichtigste Regeln
+10. general_european_context - Europäischer Kontext
+
+**Geschichte (10 Artikel):**
+11. history_origin - Woher kommen Spielkarten?
+12. history_medieval - Frühe Spielkarten in Europa
+13. history_swiss_production - Schweizer Kartenmacher
+14. history_etymology - Woher kommt das Wort Jass?
+15. history_industrialization - Vom Luxusgut zur Massenware
+16. history_linguistics - Die Sprache rund um den Jasstisch
+17. history_etymology_matsch - Geschichte des Matsch-Begriffs
+18. history_unesco - Die Liste der lebendigen Traditionen
+19. history_first_mention - Die erste urkundliche Erwähnung
+20. history_social_significance - Verbreitung und gesellschaftliche Bedeutung
+
+**Regeln Teil 1 (19 Artikel - erste 19 von 37):**
+21-39. general_card_basics bis mischen (siehe detaillierte Liste in @jasswiki/batches/CHECKLISTE_ALLE_ARTIKEL.md)
+
+**Output-File:** `batches/BATCH_02B_GRUNDLAGEN_GESCHICHTE_AGENT2.md`
+
+**WICHTIG: FORMAT-OPTIMIERUNG (nicht Inhaltsprüfung!):**
+- ✅ **BULLETPOINT-FORMAT** statt Fliesstext
+- ✅ **Schweizer Rechtschreibung:** ss statt ß, "des Jassens" nicht "des Jass"
+- ✅ **Konsistente Reihenfolge:** Definition → Details → Beispiel
+- ✅ **IP-sicher:** Unterschiedliche Formulierungen verwenden
+- ✅ **3 NEUE Geschichte-Artikel** (history_unesco, history_first_mention, history_social_significance) → nur Format optimieren!
+
+**HAUPTQUELLE:**
+- ✅ Arbeiten Sie mit **jass-content-v2.json** (aktuellere, bessere Quelle!)
+- ℹ️ Original nur als Referenz bei Unsicherheiten
+
+**Datenquellen:**
+- Hauptquelle: /Users/remoprinz/Documents/Jassguru/jasswiki/src/data/jass-content-v2.json
+- Referenz (optional): /Users/remoprinz/Documents/Jassguru/jasstafel/src/data/jass-lexikon.json
+
+**Referenz-Dokumente:**
+- @jasswiki/CONTENT_VALIDIERUNG_PROMPT.md
+- @jasswiki/batches/PROMPT_AGENT2_BULLETPOINTS.md
+- @jasswiki/batches/CHECKLISTE_ALLE_ARTIKEL.md
+
+Starten Sie mit der Erstellung des Batch-Files für Ihre 39 Artikel (10 Grundlagen + 10 Geschichte + 19 Regeln Teil 1).
+

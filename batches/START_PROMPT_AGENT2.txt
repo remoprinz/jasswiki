@@ -1,0 +1,126 @@
+Sie sind Agent 2 für die Content-Korrektur des Jasswiki.
+
+Ihre Aufgabe:
+- Bearbeiten Sie NUR die folgenden 6 Artikel:
+  1. ausspiel - Ausspiel
+  2. bergpreis - Bergpreis
+  3. bodentrumpf - Bodentrumpf
+  4. kontermatsch - Kontermatsch
+  5. untertrumpfen - Untertrumpfen
+  6. zwei_karten_spielen - Zwei Karten spielen
+
+- Output-File: `batches/BATCH_01B_REGELN_TEIL1_AGENT2.md`
+
+⚠️ KRITISCH: Alle korrigierten Versionen müssen im BULLETPOINT-FORMAT sein (NICHT Fließtext)!
+
+Warum Bulletpoints?
+- SEO: Höhere Chance auf Featured Snippets bei Google
+- RAG: Bessere strukturierte Daten für ChatGPT-App
+- IP-Schutz: Funktioniert trotzdem durch unterschiedliche Formulierungen
+- Lesbarkeit: Schnelleres Erfassen der Informationen
+
+⚠️ WICHTIG: Konsistente Reihenfolge der Bulletpoints!
+
+Alle Bulletpoints müssen in dieser festen Reihenfolge erscheinen:
+1. Definition: [Was ist es?] - IMMER zuoberst!
+2. Voraussetzung: [Was muss erfüllt sein?] - Falls vorhanden
+3. Regel: [Wie funktioniert es?] - Hauptregel
+4. Ausnahme: [Besonderheiten/Sonderfälle] - Falls vorhanden
+5. Sonderregel: [Weitere Sonderfälle] - Falls vorhanden
+6. Konsequenz: [Was passiert?] - Falls vorhanden
+7. Wertung: [Punkte/Bewertung] - Falls vorhanden
+8. Beispiel: [Konkretes Beispiel] - Falls vorhanden
+
+NICHT verwendete Kategorien einfach weglassen!
+
+🔍 SPEZIELLE PROBLEME IHRER ARTIKEL (aus Validierungs-Report):
+
+- ausspiel: Fehlt Begriff "trumpf" - muss ergänzt werden
+- bergpreis: Fehlt Begriff "stich" - muss ergänzt werden
+- bodentrumpf: Fehlen Begriffe "vorhand", "stich" - müssen ergänzt werden
+- kontermatsch: Fehlt Begriff "trumpf" - muss ergänzt werden
+- untertrumpfen: Fehlt Begriff "stich" - muss ergänzt werden
+- zwei_karten_spielen: Fehlt Begriff "stich" - muss ergänzt werden
+
+⚠️ WICHTIG: Prüfen Sie für jeden Artikel, ob die fehlenden Begriffe im Original vorhanden sind und fügen Sie sie in der korrigierten Version hinzu!
+
+✅ SINNVOLLE ERGÄNZUNGEN ÜBERNEHMEN
+
+⚠️ KRITISCH: Prüfe die aktuelle Version auf sinnvolle Ergänzungen!
+
+Prüf-Checkliste (ALLE Fragen müssen "JA" sein):
+1. Ist es SPEZIFISCH für diese Regel? (nicht generisch/universell)
+2. Führt es zu besserem VERSTÄNDNIS der Regel? (nicht nur offensichtlich)
+3. Ist es RELEVANT für die Regel? (direkter Bezug, nicht allgemeine Tipps)
+4. Fügt es WIRKLICH Information hinzu? (nicht selbstverständlich)
+5. Ist es KEIN KI-Fluff? (nicht vage, ohne Mehrwert)
+
+✅ SINNVOLLE Ergänzungen (BEHALTEN):
+- Erklärt KONTEXT einer Regel (Was passiert danach?)
+- Erklärt SPEZIFISCHE Konsequenzen (nicht generisch)
+- Fügt RELEVANTE Information hinzu (nicht offensichtlich)
+
+Beispiele:
+- ✅ ausspiel: "Grundprinzip Bedienung" - erklärt WAS nach dem Ausspiel passiert (spezifisch!)
+- ✅ bodentrumpf: "Konsequenzen bei Nichtbeachtung" - erklärt spezifische Konsequenz
+
+❌ ÜBERFLÜSSIGE Ergänzungen (NICHT übernehmen):
+- zwei_karten_spielen: "Prävention: Karten einzeln spielen" - OFFENSICHTLICH, generisch!
+- bergpreis: "Motiviert zu dynamischeren Spielstrategien" - vage, kein Regelinhalt!
+- bergpreis: "Strategischer Aspekt: Teams müssen entscheiden..." - KI-Fluff, nicht im Regelwerk!
+
+📚 MUSS GELESEN WERDEN - Bitte laden Sie diese Dateien:
+
+1. @jasswiki/CONTENT_VALIDIERUNG_PROMPT.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/CONTENT_VALIDIERUNG_PROMPT.md
+   → Richtlinien für Content-Validierung
+
+2. @jasswiki/KOORDINATION_3_AGENTS.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/KOORDINATION_3_AGENTS.md
+   → Koordinations-Strategie
+
+3. @jasswiki/IMPLEMENTATIONSPLAN_CONTENT_KORREKTUR.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/IMPLEMENTATIONSPLAN_CONTENT_KORREKTUR.md
+   → Format & Workflow
+
+4. @jasswiki/CONTENT_VALIDIERUNG_REPORT.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/CONTENT_VALIDIERUNG_REPORT.md
+   → Detaillierte Problem-Beschreibungen für Ihre 6 Artikel
+
+5. @jasswiki/batches/PROMPT_AGENT2_BULLETPOINTS.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/batches/PROMPT_AGENT2_BULLETPOINTS.md
+   → Ihre detaillierte Anleitung (MUSS gelesen werden!)
+
+📂 DATENQUELLEN - Lade diese JSON-Dateien:
+
+1. Original (NUR lesen, NICHT kopieren!):
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasstafel/src/data/jass-lexikon.json
+   → Enthält die Original-Versionen Ihrer 6 Artikel
+
+2. Aktuelle Version (zum Prüfen):
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/src/data/jass-content-v2.json
+   → Enthält die aktuelle Version (zum Vergleich und Prüfen auf sinnvolle Ergänzungen)
+
+IP-Schutz-Regeln für Bulletpoints:
+- ✅ Unterschiedliche Formulierungen pro Bulletpoint
+- ✅ Synonyme bei allgemeinen Begriffen ("kann" → "darf")
+- ✅ Konsistente Reihenfolge (Definition immer zuoberst!)
+- ❌ NICHT: Gleiche Formulierungen wie Original
+- ❌ NICHT: Fachbegriffe ändern (Trumpf, Stich, Vorhand, etc.)
+- ❌ NICHT: Inhalt ändern (Regeln müssen identisch bleiben)
+- ❌ NICHT: Begriffe weglassen, die im Original stehen
+
+🚀 START
+
+1. Lesen Sie zuerst alle 5 Referenz-Dokumente (oben aufgelistet)
+2. Laden Sie die Original- und aktuelle Version für alle 6 Artikel aus den JSON-Dateien
+3. Erstellen Sie das Batch-File: `batches/BATCH_01B_REGELN_TEIL1_AGENT2.md`
+4. Verwenden Sie für jeden Artikel das Bulletpoint-Format mit konsistenter Reihenfolge
+5. Stellen Sie sicher, dass fehlende Begriffe ergänzt werden
+6. Prüfen Sie auf sinnvolle Ergänzungen in der aktuellen Version
+
+WICHTIG: 
+- Alle korrigierten Versionen müssen Bulletpoints sein, NICHT Fließtext!
+- Konsistente Reihenfolge einhalten (Definition immer zuoberst!)
+- Fehlende Begriffe aus dem Original müssen ergänzt werden!
+- Sinnvolle Ergänzungen aus aktueller Version übernehmen!

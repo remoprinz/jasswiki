@@ -1,0 +1,210 @@
+LINK-KORREKTUR REPORT
+=====================
+
+Datum: 3.11.2025, 02:11:54
+Gesamt ersetzte Links: 1266
+
+BEISPIELE (erste 50):
+
+1. Eintrag: abheben
+   Alt:  [ablupfen](./expressions_ablupf)
+   Neu:  [ablupfen](/begriffe/grundbegriffe/ablupf/)
+
+2. Eintrag: abheben
+   Alt:  [Stapel](./expressions_stapel)
+   Neu:  [Stapel](/begriffe/grundbegriffe/stapel/)
+
+3. Eintrag: ausmachregel
+   Alt:  [Stöck](./weis_rules_stock)
+   Neu:  [Stöck](/weis-regeln/stoecke/stoecke/)
+
+4. Eintrag: ausmachregel
+   Alt:  [Wys](./weis_rules_general)
+   Neu:  [Wys](/weis-regeln/allgemeines/weisen-allgemein/)
+
+5. Eintrag: ausmachregel
+   Alt:  [Stich](./expressions_stich)
+   Neu:  [Stich](/begriffe/grundbegriffe/stich/)
+
+6. Eintrag: ausmachregel
+   Alt:  [Trumpffarbe](./general_trump_values)
+   Neu:  [Trumpffarbe](/regeln/kartenwerte/trumpfwerte-grundlagen/)
+
+7. Eintrag: ausspiel
+   Alt:  [Ausspiel](./expressions_basic_terms)
+   Neu:  [Ausspiel](/begriffe/grundbegriffe/grundlagen/)
+
+8. Eintrag: ausspiel
+   Alt:  [Stich](./expressions_stich)
+   Neu:  [Stich](/begriffe/grundbegriffe/stich/)
+
+9. Eintrag: ausspiel
+   Alt:  [Trumpf](./general_trump_values)
+   Neu:  [Trumpf](/regeln/kartenwerte/trumpfwerte-grundlagen/)
+
+10. Eintrag: ausspiel
+   Alt:  [Vorhand](./expressions_vorhand)
+   Neu:  [Vorhand](/begriffe/grundbegriffe/vorhand/)
+
+11. Eintrag: ausspiel
+   Alt:  [Guschti](./expressions_guschti)
+   Neu:  [Guschti](/begriffe/spezialvarianten/guschti-zwischendurch-quer/)
+
+12. Eintrag: ausspiel
+   Alt:  [Slalom](./expressions_slalom)
+   Neu:  [Slalom](/begriffe/spezialvarianten/slalom-zickzack/)
+
+13. Eintrag: ausspiel
+   Alt:  [Misère](./expressions_misere)
+   Neu:  [Misère](/begriffe/spezialvarianten/mis-re/)
+
+14. Eintrag: ausspiel
+   Alt:  [Nichtfarben](./nichtfarben)
+   Neu:  [Nichtfarben](/regeln/fehler-verstoesse/nichtfarben/)
+
+15. Eintrag: bedanken
+   Alt:  [Team](./expressions_team)
+   Neu:  [Team](/begriffe/grundbegriffe/team/)
+
+16. Eintrag: bedanken
+   Alt:  [Ausspielen](./ausspiel)
+   Neu:  [Ausspielen](/regeln/spielablauf/ausspiel/)
+
+17. Eintrag: bedanken
+   Alt:  [Weisen](./weis_rules_general)
+   Neu:  [Weisen](/weis-regeln/allgemeines/weisen-allgemein/)
+
+18. Eintrag: bedanken
+   Alt:  [Stich](./expressions_stich)
+   Neu:  [Stich](/begriffe/grundbegriffe/stich/)
+
+19. Eintrag: bedanken
+   Alt:  [Ausmachregel](./ausmachregel)
+   Neu:  [Ausmachregel](/regeln/punktezaehlung/ausmachregel-stoeck/)
+
+20. Eintrag: bemerkungen
+   Alt:  [Bemerkungen und Schnorren](./bemerkungen_schnorren)
+   Neu:  [Bemerkungen und Schnorren](/regeln/sonderregeln/bemerkungen-schnorren/)
+
+21. Eintrag: bemerkungen_schnorren
+   Alt:  [Bock](./expressions_bock)
+   Neu:  [Bock](/begriffe/kartenbezeichnungen/bock/)
+
+22. Eintrag: bock_erwaehnen
+   Alt:  [Bemerkungen und Schnorren](./bemerkungen_schnorren)
+   Neu:  [Bemerkungen und Schnorren](/regeln/sonderregeln/bemerkungen-schnorren/)
+
+23. Eintrag: bodentrumpf
+   Alt:  [Bodentrumpf](./expressions_bodentrumpf)
+   Neu:  [Bodentrumpf](/begriffe/kartenbezeichnungen/bodentrumpf/)
+
+24. Eintrag: bodentrumpf
+   Alt:  [Abheben](./abheben)
+   Neu:  [Abheben](/regeln/kartenverteilung/abheben/)
+
+25. Eintrag: bodentrumpf
+   Alt:  [Trumpffarbe](./general_trump_values)
+   Neu:  [Trumpffarbe](/regeln/kartenwerte/trumpfwerte-grundlagen/)
+
+26. Eintrag: bodentrumpf
+   Alt:  [Vorhand](./expressions_vorhand)
+   Neu:  [Vorhand](/begriffe/grundbegriffe/vorhand/)
+
+27. Eintrag: bodentrumpf
+   Alt:  [Stich](./expressions_stich)
+   Neu:  [Stich](/begriffe/grundbegriffe/stich/)
+
+28. Eintrag: falscher_spieler
+   Alt:  [Stich](./expressions_stich)
+   Neu:  [Stich](/begriffe/grundbegriffe/stich/)
+
+29. Eintrag: falscher_spieler
+   Alt:  [Team](./expressions_team)
+   Neu:  [Team](/begriffe/grundbegriffe/team/)
+
+30. Eintrag: falscher_spieler
+   Alt:  [Hindersi](./expressions_hindersi)
+   Neu:  [Hindersi](/begriffe/spezialvarianten/hindersi/)
+
+31. Eintrag: fragen_waehrend_spiel
+   Alt:  [Stichen](./expressions_stich)
+   Neu:  [Stichen](/begriffe/grundbegriffe/stich/)
+
+32. Eintrag: fragen_waehrend_spiel
+   Alt:  [Handkarten](./expressions_handkarten)
+   Neu:  [Handkarten](/begriffe/grundbegriffe/handkarten/)
+
+33. Eintrag: general_card_basics
+   Alt:  [Jasskarten](./general_materials)
+   Neu:  [Jasskarten](/grundlagen-kultur/spielmaterial/das-kartenset/)
+
+34. Eintrag: general_card_basics
+   Alt:  [Eicheln](./expressions_eichel)
+   Neu:  [Eicheln](/begriffe/kartenbezeichnungen/eichel/)
+
+35. Eintrag: general_card_basics
+   Alt:  [Rosen](./expressions_rose)
+   Neu:  [Rosen](/begriffe/kartenbezeichnungen/rose/)
+
+36. Eintrag: general_card_basics
+   Alt:  [Schilten](./expressions_schilte)
+   Neu:  [Schilten](/begriffe/kartenbezeichnungen/schilte/)
+
+37. Eintrag: general_card_basics
+   Alt:  [Schellen](./expressions_schelle)
+   Neu:  [Schellen](/begriffe/kartenbezeichnungen/schelle/)
+
+38. Eintrag: general_card_basics
+   Alt:  [Ecken](./expressions_ecken)
+   Neu:  [Ecken](/begriffe/kartenbezeichnungen/ecken/)
+
+39. Eintrag: general_card_basics
+   Alt:  [Herz](./expressions_herz)
+   Neu:  [Herz](/begriffe/kartenbezeichnungen/herz/)
+
+40. Eintrag: general_card_basics
+   Alt:  [Schaufel](./expressions_schaufel)
+   Neu:  [Schaufel](/begriffe/kartenbezeichnungen/schaufel/)
+
+41. Eintrag: general_card_basics
+   Alt:  [Kreuz](./expressions_kreuz)
+   Neu:  [Kreuz](/begriffe/kartenbezeichnungen/kreuz/)
+
+42. Eintrag: general_card_values
+   Alt:  [Farben](./expressions_kartenfarben)
+   Neu:  [Farben](/begriffe/kartenbezeichnungen/kartenfarben/)
+
+43. Eintrag: general_card_values
+   Alt:  [Trumpf](./general_trump_values)
+   Neu:  [Trumpf](/regeln/kartenwerte/trumpfwerte-grundlagen/)
+
+44. Eintrag: general_card_values
+   Alt:  [Punkte](./general_scoring_rules)
+   Neu:  [Punkte](/regeln/punktezaehlung/wichtige-punkteregeln/)
+
+45. Eintrag: general_card_values
+   Alt:  [Banner](./expressions_banner)
+   Neu:  [Banner](/begriffe/kartenbezeichnungen/banner/)
+
+46. Eintrag: general_card_values
+   Alt:  [Puur](./expressions_trumpf_bauer)
+   Neu:  [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/)
+
+47. Eintrag: general_dealing
+   Alt:  [mischt](./mischen)
+   Neu:  [mischt](/regeln/kartenverteilung/mischen/)
+
+48. Eintrag: general_dealing
+   Alt:  [Abheben](./abheben)
+   Neu:  [Abheben](/regeln/kartenverteilung/abheben/)
+
+49. Eintrag: general_dealing_basics
+   Alt:  [Mischen](./mischen)
+   Neu:  [Mischen](/regeln/kartenverteilung/mischen/)
+
+50. Eintrag: general_dealing_errors
+   Alt:  [Karte fällt runter](./karte_faellt_runter)
+   Neu:  [Karte fällt runter](/regeln/fehler-verstoesse/karte-faellt-runter/)
+
+
+... und 1216 weitere Änderungen

@@ -1,0 +1,111 @@
+Sie sind Agent 5 für die Content-Korrektur des Jasswiki.
+
+Ihre Aufgabe:
+- Bearbeiten Sie NUR die folgenden 4 Artikel:
+  1. references_experts - Experten und Fachleute ⚠️ KRITISCH: Original ist präziser!
+  2. references_books - Bücher zum Schweizer Jass
+  3. references_documents - Dokumente und Quellen
+  4. references_usage - Quellenverwendung im Kontext
+
+- Output-File: `batches/BATCH_01E_REFERENZEN_AGENT5.md`
+
+⚠️ KRITISCH: Regel für Referenzen!
+
+GRUNDSÄTZLICH: Aus jass-content-v2.json übernehmen
+AUSSER: Wenn Original präzisere Experten/Autoren-Namen enthält → Original bevorzugen!
+
+Warum Bulletpoints?
+- SEO: Höhere Chance auf Featured Snippets bei Google
+- RAG: Bessere strukturierte Daten für ChatGPT-App
+- IP-Schutz: Funktioniert trotzdem durch unterschiedliche Formulierungen
+- Lesbarkeit: Schnelleres Erfassen der Informationen
+
+⚠️ WICHTIG: Konsistente Struktur der Bulletpoints!
+
+Für references_experts (Original ist präziser!):
+• Experten und Fachleute: [Einleitung]
+• Fabian Cadonau: [Rolle/Beitrag]
+• Göpf Egg & Albert Hagenbucher: [Rolle/Beitrag]
+• Michael Koller: [Rolle/Beitrag]
+• Dani Müller: [Rolle/Beitrag]
+• Remo Prinz: [Rolle/Beitrag]
+
+🚨 SPEZIELLES PROBLEM: references_experts
+
+ORIGINAL (präzise Namen):
+- Fabian Cadonau (Herausgeber Trumpf As)
+- Göpf Egg & Albert Hagenbucher (Autoren offizielles Reglement)
+- Michael Koller (Historiker, Etymologie)
+- Dani Müller (Autor "Stöck, Stich, Wys")
+- Remo Prinz (Gründer jassguru.ch)
+
+AKTUELL (generisch):
+- "Regelexperten"
+- "Sprachwissenschaftler"
+- "Turnierorganisatoren"
+- "Digitale Entwickler"
+
+⚠️ LÖSUNG: Original-Version übernehmen (präzisere Namen!), aber in Bulletpoint-Format umwandeln!
+
+Für andere Referenz-Artikel:
+• Definition/Kategorie: [Was ist es?]
+• Punkt 1: [Beschreibung]
+• Punkt 2: [Beschreibung]
+• ...
+
+Spezielle Probleme Ihrer Artikel:
+- references_experts: ⚠️ KRITISCH - Original ist präziser! Namen müssen übernommen werden!
+- references_books: Möglicherweise Autoren-Namen entfernt → Original prüfen
+- references_documents: Erweitert → Prüfen ob sinnvoll
+- references_usage: Erweitert → Prüfen ob sinnvoll
+
+📚 MUSS GELESEN WERDEN - Bitte laden Sie diese Dateien:
+
+1. @jasswiki/CONTENT_VALIDIERUNG_PROMPT.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/CONTENT_VALIDIERUNG_PROMPT.md
+   → Richtlinien für Content-Validierung
+
+2. @jasswiki/KOORDINATION_3_AGENTS.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/KOORDINATION_3_AGENTS.md
+   → Koordinations-Strategie
+
+3. @jasswiki/IMPLEMENTATIONSPLAN_CONTENT_KORREKTUR.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/IMPLEMENTATIONSPLAN_CONTENT_KORREKTUR.md
+   → Format & Workflow
+
+4. @jasswiki/batches/PROMPT_AGENT5_BULLETPOINTS.md
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/batches/PROMPT_AGENT5_BULLETPOINTS.md
+   → Ihre detaillierte Anleitung (MUSS gelesen werden!)
+
+📂 DATENQUELLEN - Lade diese JSON-Dateien:
+
+1. Original (NUR lesen, NICHT kopieren!):
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasstafel/src/data/jass-lexikon.json
+   → Enthält die Original-Versionen Ihrer 4 Referenz-Artikel
+
+2. Aktuelle Version (zum Prüfen):
+   Pfad: /Users/remoprinz/Documents/Jassguru/jasswiki/src/data/jass-content-v2.json
+   → Enthält die aktuelle Version (zum Vergleich)
+
+IP-Schutz-Regeln für Bulletpoints:
+- ✅ Unterschiedliche Formulierungen pro Bulletpoint
+- ✅ Strukturierung (Fließtext → Bulletpoints)
+- ✅ Konsistente Struktur (Einleitung → Personen/Bücher/Dokumente)
+- ❌ NICHT: Namen/Rollen ändern oder weglassen
+- ❌ NICHT: Präzise Informationen generalisieren
+
+🚀 START
+
+1. Lesen Sie zuerst alle 4 Referenz-Dokumente (oben aufgelistet)
+2. Laden Sie die Original- und aktuelle Version für alle 4 Artikel aus den JSON-Dateien
+3. Prüfen Sie für jeden Artikel: Ist Original präziser (besonders bei Namen)?
+4. Erstellen Sie das Batch-File: `batches/BATCH_01E_REFERENZEN_AGENT5.md`
+5. Verwenden Sie für jeden Artikel das Bulletpoint-Format
+6. Bei references_experts: Original übernehmen (präzisere Namen!) aber Bulletpoint-Format
+
+WICHTIG: 
+- Alle korrigierten Versionen müssen Bulletpoints sein, NICHT Fließtext!
+- Original bevorzugen wenn präzisere Experten/Autoren-Namen enthalten sind!
+- Konsistente Struktur einhalten!
+- Alle Namen und Rollen aus Original beibehalten (wenn präziser)!
+

@@ -1,0 +1,39 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "jasswiki-functions",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "hosting": [
+    {
+      "target": "jasswiki",
+      "public": "out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "cleanUrls": true,
+      "trailingSlash": true,
+      "redirects": [
+        {
+          "source": "/gpt",
+          "destination": "https://chatgpt.com/g/g-690883c82ffc8191a063266aab280617",
+          "type": 301
+        },
+        {
+          "source": "/gpt/",
+          "destination": "https://chatgpt.com/g/g-690883c82ffc8191a063266aab280617",
+          "type": 301
+        }
+      ]
+    }
+  ]
+}

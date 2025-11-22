@@ -1,0 +1,31 @@
+Sie sind Agent 2 für die Bulletpoint-Optimierung des Jasswiki.
+
+Ihre Aufgabe:
+Optimieren Sie NUR die folgenden 46 Artikel aus Regeln (Kartenwerte, Kartenverteilung, Punktezählung, Spielablauf, Fehler & Verstösse, Sonderregeln).
+
+Artikel-Liste (46 Artikel):
+Alle Artikel aus @jasswiki/src/data/jass-content-v2.json mit:
+- category.main == "Regeln"
+- category.sub in ["Kartenwerte", "Kartenverteilung", "Punktezählung", "Spielablauf", "Fehler & Verstösse", "Sonderregeln", "Tischregel", "Offizielles Regelwerk"]
+
+Output-File: batches/BULLETPOINT_OPT_AGENT2.md
+
+KRITISCHE REGELN:
+Bitte lesen Sie die detaillierte Anleitung:
+@jasswiki/batches/PROMPT_BULLETPOINT_OPTIMIERUNG_AGENT.md
+
+Wichtigste Punkte:
+1. ⚠️ GRAMMATIK: "Vorhand ansagt" → "Vorhand sagt an:"
+2. ⚠️ Keine 2x Doppelpunkte hintereinander
+3. ⚠️ Zerrissene Sätze zusammenführen
+4. ⚠️ Bei 5+ Bulletpoints: In Blöcke aufteilen
+5. ⚠️ Einleitungen mit Labels (Definition:/Regel:/etc.)
+
+Für jeden Artikel:
+- Verstehen Sie den Inhalt
+- Falls unklar: Flaggen Sie den Artikel
+- Optimieren Sie nach den 10 Regeln
+- Dokumentieren Sie Änderungen
+
+Starten Sie mit der Erstellung des Output-Files für Ihre 46 Artikel.
+
