@@ -34,6 +34,7 @@ export interface JassContentItem {
     question: string;
     answer: string;
   }[];
+  see_also?: string[];
 }
 
 export type JassContentRecord = Record<string, JassContentItem>; 

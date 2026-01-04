@@ -11,6 +11,7 @@ import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
+import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 
 interface JassWissenPageProps {
@@ -75,7 +76,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     description: metaDescription,
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
-    publisherLogoUrl: 'https://jasswiki.ch/logo-jasswiki-120x120.png',
+    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero.png',
     datePublished: defaultPublishedDate,
     dateModified: defaultModifiedDate,
   };
@@ -189,12 +190,20 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
             </div>
           </footer>
 
-          {/* VERWANDTE THEMEN */}
+          {/* SIEHE AUCH - Explizite Empfehlungen */}
+          {contentItem.see_also && contentItem.see_also.length > 0 && (
+            <SeeAlsoSection 
+              seeAlsoIds={contentItem.see_also}
+              currentArticleId={contentItem.id}
+            />
+          )}
+
+          {/* VERWANDTE THEMEN - Automatische Vorschläge */}
           <RelatedTopics
             currentArticleId={contentItem.id}
             currentCategory={contentItem.metadata.category.main}
             currentKeywords={contentItem.metadata.keywords}
-            maxResults={4}
+            maxResults={6}
           />
 
           {/* QUELLEN SEKTION */}
@@ -212,10 +221,10 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
                     <strong>Basierend auf:</strong> {contentItem.metadata.source}
                   </p>
                   <Link 
-                    href="/quellen"
+                    href="/referenzen"
                     className="inline-flex items-center text-green-400 hover:text-green-300 text-sm font-medium"
                   >
-                    Alle Quellen & Literatur anzeigen
+                    Alle Referenzen anzeigen
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -254,13 +263,31 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const content: JassContentRecord = allContent;
-  const paths = (Object.values(content) as JassContentItem[]).map((item) => ({
-    params: {
-      category: toSlug(item.metadata.category.main),
-      subcategory: toSlug(item.metadata.category.sub),
-      topic: toSlug(item.metadata.category.topic),
-    },
-  }));
+  
+  // Generiere Pfade NUR für echte 3-Ebenen-Artikel (sub !== topic)
+  // Flache Artikel (sub === topic) werden von [category]/[subcategory] behandelt
+  const paths = (Object.values(content) as JassContentItem[])
+    .filter(item => {
+      const mainCatSlug = toSlug(item.metadata.category.main);
+      const subCatSlug = toSlug(item.metadata.category.sub);
+      const topicSlug = toSlug(item.metadata.category.topic);
+      
+      // Nur Artikel wo sub !== topic (echte 3-Ebenen-Struktur)
+      return mainCatSlug !== 'varianten' && subCatSlug !== topicSlug;
+    })
+    .map((item) => {
+      const mainCatSlug = toSlug(item.metadata.category.main);
+      const subCatSlug = toSlug(item.metadata.category.sub);
+      const topicSlug = toSlug(item.metadata.category.topic);
+
+      return {
+        params: {
+          category: mainCatSlug,
+          subcategory: subCatSlug,
+          topic: topicSlug,
+        },
+      };
+    });
 
   return { paths, fallback: false };
 };
@@ -272,6 +299,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const topicSlug = params?.topic as string;
 
   const content: JassContentRecord = allContent;
+  
+  // SPEZIALFALL: Varianten werden von /varianten/[topic] behandelt
+  if (categorySlug === 'varianten') {
+    return {
+      notFound: true,
+    };
+  }
+  
+  // Suche Artikel (nur noch normale 3-Ebenen-Struktur)
   const contentItem = (Object.values(content) as JassContentItem[]).find(
     (item) =>
       toSlug(item.metadata.category.main) === categorySlug &&
@@ -288,6 +324,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const topic = contentItem.metadata.category.topic;
   const subcategory = contentItem.metadata.category.sub;
   const category = contentItem.metadata.category.main;
+  
+  // Canonical Path: Immer 3 Ebenen (flache Artikel sind jetzt in [category]/[subcategory])
   const canonicalPath = `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
 
   // Dynamische SEO-Titel und -Beschreibungen

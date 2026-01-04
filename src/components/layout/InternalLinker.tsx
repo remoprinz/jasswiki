@@ -15,7 +15,14 @@ Object.values(allContent as JassContentRecord).forEach(item => {
     const mainCatSlug = toSlug(item.metadata.category.main);
     const subCatSlug = toSlug(item.metadata.category.sub);
     const topicSlug = toSlug(item.metadata.category.topic);
-    const path = `/${mainCatSlug}/${subCatSlug}/${topicSlug}`;
+    
+    // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
+    // 1. Varianten (keine echte Subkategorie)
+    // 2. Artikel wo sub === topic (z.B. Geschichte, Grundlagen & Kultur)
+    const isFlatStructure = (mainCatSlug === 'varianten' || subCatSlug === topicSlug);
+    const path = isFlatStructure
+      ? `/${mainCatSlug}/${topicSlug}/`
+      : `/${mainCatSlug}/${subCatSlug}/${topicSlug}/`;
 
     // Hauptthema als Schlüssel
     linkMap.set(item.metadata.category.topic.toLowerCase(), path);

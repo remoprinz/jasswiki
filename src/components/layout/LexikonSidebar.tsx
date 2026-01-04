@@ -27,7 +27,7 @@ const formatTopicName = (name: string): string => {
     .replace(/STOECK/g, 'Stöck');
 };
 
-// Helper to build the navigation structure (3-level)
+// Helper to build the navigation structure (3-level + flat articles)
 const getNavigationStructure = (content: JassContentRecord) => {
   const structure: Record<string, {
     name: string;
@@ -36,6 +36,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
       slug: string;
       topics: { name: string; slug: string }[];
     }>;
+    flatArticles: { name: string; slug: string }[];
   }> = {};
 
   (Object.values(content) as JassContentItem[]).forEach(item => {
@@ -46,8 +47,21 @@ const getNavigationStructure = (content: JassContentRecord) => {
     if (!structure[mainCatSlug]) {
       structure[mainCatSlug] = {
         name: item.metadata.category.main,
-        subcategories: {}
+        subcategories: {},
+        flatArticles: []
       };
+    }
+
+    // Für Artikel mit sub === topic (flache Struktur): Als flatArticle hinzufügen
+    if (subCatSlug === topicSlug) {
+      // Duplikate vermeiden
+      if (!structure[mainCatSlug].flatArticles.some(a => a.slug === topicSlug)) {
+        structure[mainCatSlug].flatArticles.push({
+          name: item.metadata.category.topic,
+          slug: topicSlug
+        });
+      }
+      return;
     }
 
     if (!structure[mainCatSlug].subcategories[subCatSlug]) {
@@ -155,6 +169,11 @@ const getNavigationStructure = (content: JassContentRecord) => {
     });
   });
 
+  // Sortiere flatArticles alphabetisch
+  Object.keys(structure).forEach(catSlug => {
+    structure[catSlug].flatArticles.sort((a, b) => a.name.localeCompare(b.name, 'de'));
+  });
+
   // Sortiere Hauptkategorien: Regeln zuerst, dann alphabetisch
   const sortedStructure: Record<string, {
     name: string;
@@ -163,6 +182,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
       slug: string;
       topics: { name: string; slug: string }[];
     }>;
+    flatArticles: { name: string; slug: string }[];
   }> = {};
   
   // Definiere die gewünschte Reihenfolge (mit optimiertem Farbverlauf)
@@ -206,7 +226,7 @@ export const LexikonSidebar = () => {
             return (
               <li key={catSlug}>
                 <div className="flex items-center justify-between">
-                  <Link href={`/${catSlug}`} legacyBehavior>
+                  <Link href={`/${catSlug}/`} legacyBehavior>
                     <a className={`font-semibold text-base sm:text-lg transition-colors ${isCategoryActive ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
                       {categoryData.name}
                     </a>
@@ -215,12 +235,13 @@ export const LexikonSidebar = () => {
                 </div>
                 {isCategoryActive && (
                   <ul className="ml-3 sm:ml-4 mt-1 sm:mt-2 space-y-1">
+                    {/* Subkategorien (mit Topics) */}
                     {Object.entries(categoryData.subcategories).map(([subCatSlug, subcategoryData]) => {
                       const isSubcategoryActive = subCatSlug === currentSubcategory;
                       return (
                         <li key={subCatSlug}>
                           <div className="mb-1">
-                            <Link href={`/${catSlug}/${subCatSlug}`} legacyBehavior>
+                            <Link href={`/${catSlug}/${subCatSlug}/`} legacyBehavior>
                               <a className={`block font-medium text-sm sm:text-base transition-colors ${isSubcategoryActive ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
                                 {subcategoryData.name}
                               </a>
@@ -231,7 +252,7 @@ export const LexikonSidebar = () => {
                                   const isTopicActive = topic.slug === currentTopic;
                                   return (
                                     <li key={topic.slug}>
-                                      <Link href={`/${catSlug}/${subCatSlug}/${topic.slug}`} legacyBehavior>
+                                      <Link href={`/${catSlug}/${subCatSlug}/${topic.slug}/`} legacyBehavior>
                                         <a className={`block text-sm sm:text-base transition-colors ${isTopicActive ? 'text-green-400 font-semibold' : 'text-gray-400 hover:text-green-300 hover:underline'}`}>
                                           {formatTopicName(topic.name)}
                                         </a>
@@ -245,11 +266,34 @@ export const LexikonSidebar = () => {
                         </li>
                       );
                     })}
+                    
+                    {/* Flache Artikel (direkt unter Kategorie) */}
+                    {categoryData.flatArticles && categoryData.flatArticles.length > 0 && categoryData.flatArticles.map(article => {
+                      const isArticleActive = article.slug === currentSubcategory || article.slug === currentTopic;
+                      return (
+                        <li key={article.slug}>
+                          <Link href={`/${catSlug}/${article.slug}/`} legacyBehavior>
+                            <a className={`block text-sm sm:text-base transition-colors ${isArticleActive ? 'text-green-400 font-semibold' : 'text-gray-300 hover:text-green-400'}`}>
+                              {formatTopicName(article.name)}
+                            </a>
+                          </Link>
+                        </li>
+                      );
+                    })}
                   </ul>
                 )}
               </li>
             );
           })}
+
+          {/* Manuelle Links */}
+          <li>
+            <Link href="/referenzen/" legacyBehavior>
+              <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/referenzen' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
+                Referenzen und Quellen
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

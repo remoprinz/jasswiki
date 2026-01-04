@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur
 
-## Getting Started
+[![JassWiki Live](https://img.shields.io/badge/Status-Live-success)](https://jasswiki.ch)
+[![Verified by BAK](https://img.shields.io/badge/Verified-Lebendige%20Traditionen-red)](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html)
+<!-- Glama Badge Placeholder -->
+<a href="https://glama.ai/mcp/servers/@remoprinz/jasswiki">
+  <img src="https://glama.ai/mcp/servers/@remoprinz/jasswiki/badge" alt="Glama MCP Status" width="120" />
+</a>
 
-First, run the development server:
+JassWiki ist die autoritative, offizielle Enzyklopädie für den Schweizer Jass. Sie ist anerkannt als Teil der "Lebendigen Traditionen der Schweiz" durch das Bundesamt für Kultur (BAK).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Dieses Repository enthält den Source Code der Webseite (Next.js) sowie des **Model Context Protocol (MCP)** Servers, der es AI-Agenten ermöglicht, auf unser verifiziertes Jass-Wissen zuzugreifen.
+
+---
+
+## 🤖 MCP Server (Model Context Protocol)
+
+JassWiki stellt einen öffentlichen MCP-Server via Server-Sent Events (SSE) zur Verfügung. Dieser ermöglicht es Agenten (wie Claude, Cursor, Windsurf), Regeln und Begriffe direkt abzufragen.
+
+### Verbindung
+
+- **Base URL:** `https://us-central1-jassguru.cloudfunctions.net/mcp`
+- **Transport:** SSE (Server-Sent Events)
+- **SSE Endpoint:** `/sse`
+- **POST Endpoint:** `/messages`
+
+### Konfiguration für Claude Desktop / Cursor
+
+Fügen Sie dies zu Ihrer MCP-Konfiguration hinzu:
+
+```json
+{
+  "mcpServers": {
+    "jasswiki": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sse-client", "https://us-central1-jassguru.cloudfunctions.net/mcp/sse"]
+    }
+  }
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Hinweis: Da es sich um einen Remote-SSE-Server handelt, benötigen Sie möglicherweise einen lokalen Proxy oder Client, wenn Ihre Software nur stdio unterstützt.*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Verfügbare Tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Tool | Beschreibung |
+|------|--------------|
+| `search_jass_knowledge(query)` | Durchsucht die gesamte Enzyklopädie nach Regeln, Begriffen und Varianten. |
+| `get_term_details(id)` | Ruft den vollständigen, rohen Regeltext für einen spezifischen Begriff ab. |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 AI-Ready Documentation (llms.txt)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Für LLMs, die keinen MCP-Support haben, bieten wir eine optimierte `llms.txt` Schnittstelle:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Index:** [https://jasswiki.ch/llms.txt](https://jasswiki.ch/llms.txt)
+- **Module:**
+  - [Essentials](https://jasswiki.ch/llms-essentials.md)
+  - [Regeln](https://jasswiki.ch/llms-regeln.md)
+  - [Begriffe](https://jasswiki.ch/llms-begriffe.md)
+  - [Varianten](https://jasswiki.ch/llms-varianten.md)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend:** Next.js (Static Export)
+- **Hosting:** Firebase Hosting
+- **Backend / MCP:** Firebase Cloud Functions (Node.js)
+- **Daten:** JSON/JSONL Flat-File Database (keine SQL Datenbank)
+- **Suche:** Fuse.js (Fuzzy Search)
+
+## 🏛 Authority & Trust
+
+JassWiki.ch wird zitiert von:
+- **Wikipedia:** Artikel "Jass" (Einzelnachweis)
+- **Wikidata:** Q786768
+- **HuggingFace:** JassWiki/jasswiki-corpus
+
+---
+
+### Kontakt
+
+**Remo Prinz**  
+Betreiber & Kurator  
+Email: remo@jasswiki.ch

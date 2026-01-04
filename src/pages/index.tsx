@@ -99,21 +99,22 @@ const WissenHomePage = () => {
     ];
 
     return (
-        <LexikonLayout breadcrumbItems={breadcrumbItems}>
+        <>
             <SeoHead
                 title="JassWiki: Alles rund ums Jassen"
                 description="Die vollständige Referenz für das Schweizer Nationalspiel: Offizielle Spielregeln, Weis, Varianten, Strategien und Jass-Begriffe verständlich erklärt."
             />
+            <LexikonLayout breadcrumbItems={breadcrumbItems}>
 
             {/* Hero Section */}
-            <div className="text-center mb-8 sm:mb-12 not-prose">
+            <div className="text-left mb-8 sm:mb-12 not-prose">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
                     JassWiki: Alles rund ums Jassen
                 </h1>
-                <p className="text-xl sm:text-2xl font-semibold text-gray-200 leading-relaxed max-w-2xl mx-auto mb-2">
+                <p className="text-xl sm:text-2xl font-semibold text-gray-200 leading-relaxed max-w-2xl mb-2">
                     Regeln, Varianten & Strategien
                 </p>
-                <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
+                <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
                     Von Grundlagen bis Profi-Strategien – die Referenz für das Schweizer Nationalspiel. Regeln nach jassguru.ch. Grundlage: anerkannten Schweizer Regelquellen und Turnierreglementen.
                 </p>
                 
@@ -121,7 +122,7 @@ const WissenHomePage = () => {
 
             {/* Main Categories Grid */}
             <div className="space-y-4 sm:space-y-6 mb-12">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-200 text-center mb-6 sm:mb-8">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-200 text-left mb-6 sm:mb-8">
                     Was möchtest du wissen?
                 </h2>
                 
@@ -131,7 +132,7 @@ const WissenHomePage = () => {
                         return (
                             <Link 
                                 key={category.slug}
-                                href={`/${category.slug}`} 
+                                href={`/${category.slug}/`} 
                                 className="group block"
                             >
                                 <div className="bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 sm:p-8 border border-gray-700 hover:border-gray-600 hover:scale-[1.02]">
@@ -181,32 +182,36 @@ const WissenHomePage = () => {
 
             {/* Quick Links */}
             <div className="mt-12 pt-8 border-t border-gray-700">
-                <h3 className="text-lg sm:text-xl font-bold text-gray-200 mb-4 text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-200 mb-4 text-left">
                     Beliebt bei Jassern
                 </h3>
-                <div className="flex flex-wrap justify-center gap-3">
-                    <Link href="/schieber/grundlagen" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                <div className="flex flex-wrap justify-start gap-3">
+                    <Link href="/schieber/grundlagen/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
                         Schieber lernen
                     </Link>
-                    <Link href="/weis-regeln" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/weis-regeln/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
                         Weis-Regeln
                     </Link>
-                    <Link href="/begriffe" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/begriffe/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
                         Jass-ABC
                     </Link>
-                    <Link href="/quellen" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
-                        Quellen & Literatur
+                    <Link href="/geschichte/wortherkunft/etymologie-des-begriffs-matsch/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                        Etymologie «Matsch»
+                    </Link>
+                    <Link href="/referenzen/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                        Referenzen
                     </Link>
                 </div>
             </div>
 
             {/* Footer Question */}
-            <div className="mt-12 text-center">
+            <div className="mt-12 text-left">
                 <p className="text-xl sm:text-2xl font-semibold text-gray-200">
                     Was möchtest du wissen?
                 </p>
             </div>
         </LexikonLayout>
+        </>
     );
 };
 

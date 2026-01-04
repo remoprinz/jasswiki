@@ -46,12 +46,12 @@ export const SeoHead: React.FC<SeoHeadProps> = ({
       <meta property="og:title" content={title || defaultTitle} />
       <meta property="og:description" content={description || defaultDescription} />
       <meta property="og:url" content={finalCanonicalUrl} />
-      <meta property="og:image" content="https://jasswiki.ch/logo-jasswiki-120x120.png" />
-      <meta property="og:image:width" content="120" />
-      <meta property="og:image:height" content="120" />
+      <meta property="og:image" content="https://jasswiki.ch/jasswiki-logo-hero.png" />
+      <meta property="og:image:width" content="1080" />
+      <meta property="og:image:height" content="1080" />
       <meta property="og:image:type" content="image/png" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content="https://jasswiki.ch/logo-jasswiki-120x120.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://jasswiki.ch/jasswiki-logo-hero.png" />
     </Head>
   );
 };

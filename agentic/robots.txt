@@ -1,0 +1,62 @@
+# robots.txt für JassWiki.ch
+# Diese Datei steuert, wie Suchmaschinen und AI-Crawler die Website indexieren
+# Letzte Aktualisierung: 2024-12-26
+
+# === ALLGEMEINE CRAWLER ===
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# === AI/LLM CRAWLER - EXPLIZIT ERLAUBT ===
+# Diese Crawler dürfen die llms.txt und alle Inhalte lesen
+
+# OpenAI (GPT)
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Crawl-delay: 0
+
+# Anthropic (Claude)
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+Crawl-delay: 0
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Crawl-delay: 0
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Crawl-delay: 0
+
+# Common Crawl (Basis für viele LLM-Trainings)
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+Allow: /dataset/jasswiki-corpus.jsonl
+Crawl-delay: 1
+
+# === EXPLIZITE PFADE FÜR AI-AGENTS ===
+# Direkter Verweis auf die Wissensbasis
+User-agent: *
+Allow: /llms.txt
+Allow: /api/
+Allow: /glossar/
+Allow: /faq/
+
+# === SITEMAP ===
+Sitemap: https://jasswiki.ch/sitemap.xml
+
+# === LLM-SPECIFIC KNOWLEDGE BASE ===
+# Expliziter Hinweis für AI-Agents auf die strukturierte Wissensbasis
+# llms.txt: https://jasswiki.ch/llms.txt
+# Format: Markdown mit YAML-Frontmatter
+# Encoding: UTF-8
+# Last-Updated: 2024-12-26
+# Content: 257 Jass-Begriffe, 901 FAQs
+# Recognition: Lebendige Traditionen der Schweiz (BAK)

@@ -49,6 +49,13 @@ const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: s
     .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 };
 
+// Helper to get all articles for a category (for flat structure like Varianten)
+const getArticlesForCategory = (content: JassContentRecord, categorySlug: string): JassContentItem[] => {
+  return (Object.values(content) as JassContentItem[])
+    .filter(item => toSlug(item.metadata.category.main) === categorySlug)
+    .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
+};
+
 // Helper to deslugify
 const deslugify = (slug: string): string => {
   return slug
@@ -61,13 +68,15 @@ interface CategoryPageProps {
   category: string;
   categorySlug: string;
   subcategories: Array<{name: string, slug: string, count: number}>;
+  articles?: JassContentItem[]; // For flat structure (Varianten)
+  isFlat?: boolean; // True for Varianten
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [] }) => {
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false }) => {
   const router = useRouter();
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
-    { name: category, href: `/${categorySlug}` }
+    { name: category, href: `/${categorySlug}/` }
   ];
 
   // Enable scrolling for knowledge pages
@@ -82,7 +91,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
   }, []);
 
   // If router is not ready yet or no data
-  if (router.isFallback || !category || subcategories.length === 0) {
+  if (router.isFallback || !category || (!isFlat && subcategories.length === 0) || (isFlat && articles.length === 0)) {
     return <div>Lade...</div>;
   }
 
@@ -119,43 +128,122 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
             {categorySlug === 'regeln' ? 'Jassregeln' : category}
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            {subcategories.length} {subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt {subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln
+            {isFlat 
+              ? `${articles.length} ${articles.length === 1 ? 'Variante' : 'Varianten'} alphabetisch sortiert`
+              : `${subcategories.length} ${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
+            }
           </p>
         </div>
         
-        {/* Unterkategorien Grid */}
-        <div className="grid gap-4 sm:gap-6">
-          {subcategories.map((subcategory) => (
-            <Link 
-              key={subcategory.slug}
-              href={`/${categorySlug}/${subcategory.slug}`}
-              className="group block"
-            >
-              <div className="bg-gray-800 border border-gray-700 rounded-xl hover:border-green-500 hover:shadow-xl transition-all duration-300 p-6 sm:p-8 hover:scale-[1.02]">
-                <div className="flex items-center justify-between">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-2">
-                      <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
-                        {subcategory.name}
-                      </h3>
-                      <span className="px-2 py-1 bg-green-600 text-white rounded-full text-xs font-medium">
-                        {subcategory.count} {subcategory.count === 1 ? 'Artikel' : 'Artikel'}
-                      </span>
+        {/* FLAT STRUCTURE: Direkt alle Artikel (für Varianten) */}
+        {isFlat && articles.length > 0 && (
+          <>
+            {/* Alphabetische Sprungmarken */}
+            <div className="flex flex-wrap justify-center gap-2 mb-6">
+              {Array.from(new Set(articles.map(a => a.metadata.category.topic.charAt(0).toUpperCase()))).sort().map(letter => (
+                <a
+                  key={letter}
+                  href={`#letter-${letter}`}
+                  className="px-3 py-1 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 hover:text-white transition-colors text-sm font-medium"
+                >
+                  {letter}
+                </a>
+              ))}
+            </div>
+
+            {/* Artikel-Liste alphabetisch */}
+            <div className="grid gap-4 sm:gap-5">
+              {articles.map((article, index) => {
+                const articleSlug = toSlug(article.metadata.category.topic);
+                const articleUrl = `/${categorySlug}/${articleSlug}/`;
+                const firstLetter = article.metadata.category.topic.charAt(0).toUpperCase();
+                const showLetter = index === 0 || articles[index - 1].metadata.category.topic.charAt(0).toUpperCase() !== firstLetter;
+                
+                const preview = article.text
+                  .split('\n')
+                  .slice(0, 2)
+                  .join(' ')
+                  .substring(0, 150)
+                  .trim();
+
+                // Extrahiere Subkategorie als Tag
+                const subcategoryTag = article.metadata.category.sub;
+
+                return (
+                  <React.Fragment key={article.id}>
+                    {showLetter && (
+                      <h2 id={`letter-${firstLetter}`} className="text-2xl font-bold text-white mt-6 mb-2 pt-4 border-t border-gray-700">
+                        {firstLetter}
+                      </h2>
+                    )}
+                    <Link href={articleUrl} className="group block">
+                      <div className="bg-gray-800 border border-gray-700 rounded-xl hover:border-green-500 hover:shadow-xl transition-all duration-300 p-5 sm:p-6 hover:scale-[1.01]">
+                        <div className="flex items-start gap-4">
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-2">
+                              <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                                {article.metadata.category.topic}
+                              </h3>
+                              {subcategoryTag && (
+                                <span className="px-2 py-1 bg-blue-600 text-white rounded-full text-xs font-medium">
+                                  {subcategoryTag}
+                                </span>
+                              )}
+                            </div>
+                            <p className="text-base text-gray-300 line-clamp-2">
+                              {preview}...
+                            </p>
+                          </div>
+                          <div className="flex-shrink-0 text-green-400 group-hover:translate-x-1 transition-transform">
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </React.Fragment>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        {/* NORMAL STRUCTURE: Subkategorien (für andere Kategorien) */}
+        {!isFlat && subcategories.length > 0 && (
+          <div className="grid gap-4 sm:gap-6">
+            {subcategories.map((subcategory) => (
+              <Link 
+                key={subcategory.slug}
+                href={`/${categorySlug}/${subcategory.slug}/`}
+                className="group block"
+              >
+                <div className="bg-gray-800 border border-gray-700 rounded-xl hover:border-green-500 hover:shadow-xl transition-all duration-300 p-6 sm:p-8 hover:scale-[1.02]">
+                  <div className="flex items-center justify-between">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                          {subcategory.name}
+                        </h3>
+                        <span className="px-2 py-1 bg-green-600 text-white rounded-full text-xs font-medium">
+                          {subcategory.count} {subcategory.count === 1 ? 'Artikel' : 'Artikel'}
+                        </span>
+                      </div>
+                      <p className="text-base sm:text-lg text-gray-300">
+                        Alle Artikel über {subcategory.name} im Detail
+                      </p>
                     </div>
-                    <p className="text-base sm:text-lg text-gray-300">
-                      Alle Artikel über {subcategory.name} im Detail
-                    </p>
-                  </div>
-                  <div className="ml-4 text-green-400 group-hover:translate-x-1 transition-transform">
-                    <svg className="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
+                    <div className="ml-4 text-green-400 group-hover:translate-x-1 transition-transform">
+                      <svg className="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+              </Link>
+            ))}
+          </div>
+        )}
 
         {/* Back to Overview Link */}
         <div className="text-center pt-8 border-t border-gray-700">
@@ -181,9 +269,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
     categories.add(toSlug(item.metadata.category.main));
   });
   
-  const paths = Array.from(categories).map(category => ({
-    params: { category }
-  }));
+  // Filter out 'referenzen' and 'schieber' because they have their own static pages
+  const paths = Array.from(categories)
+    .filter(category => category !== 'referenzen' && category !== 'schieber')
+    .map(category => ({
+      params: { category }
+    }));
   
   return {
     paths,
@@ -208,13 +299,34 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
     return { notFound: true };
   }
   
+  // Spezialfall: Varianten haben flache Struktur (keine Subkategorien)
+  const isVarianten = categorySlug === 'varianten';
+  
+  if (isVarianten) {
+    const articles = getArticlesForCategory(allContent, categorySlug);
+    return {
+      props: {
+        category: categoryName,
+        categorySlug,
+        subcategories: [],
+        articles: articles.map(article => ({
+          id: article.id,
+          text: article.text.substring(0, 200),
+          metadata: article.metadata
+        })),
+        isFlat: true
+      }
+    };
+  }
+  
   const subcategories = getSubcategoriesForCategory(allContent, categorySlug);
   
   return {
     props: {
       category: categoryName,
       categorySlug,
-      subcategories
+      subcategories,
+      isFlat: false
     }
   };
 };

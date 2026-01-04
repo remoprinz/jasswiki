@@ -4,7 +4,6 @@ import { Breadcrumbs } from './Breadcrumbs';
 import { LegalFooter } from './LegalFooter';
 import { SearchBar } from '@/components/wissen/SearchBar';
 import { Menu, X, ChevronLeft } from 'lucide-react';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 interface BreadcrumbItem {
@@ -48,6 +47,11 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
       
       setIsWikiHomepage(isWikiDomain && isHomepage);
     };
+
+    // Add lexikon-page class to body for scrolling
+    if (typeof document !== 'undefined') {
+      document.body.classList.add('lexikon-page');
+    }
     
     checkPWA();
     checkWikiHomepage();
@@ -55,7 +59,10 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
     // Prüfe auch bei Resize (falls sich der Modus ändert)
     if (typeof window !== 'undefined') {
       window.addEventListener('resize', checkPWA);
-      return () => window.removeEventListener('resize', checkPWA);
+      return () => {
+        window.removeEventListener('resize', checkPWA);
+        document.body.classList.remove('lexikon-page');
+      };
     }
   }, [router.pathname]);
 
@@ -172,20 +179,9 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           {/* Main content */}
           <main className="w-3/4">
             <article className="bg-gray-800 rounded-xl shadow-lg p-8 border border-gray-700">
-              {/* Logo nur auf Homepage, außerhalb des prose Containers */}
+              {/* Padding oben für Homepage, um visuellen Abstand zu erhalten */}
               {router.pathname === '/' && (
-                <div className="flex justify-center mb-4 lg:mb-8 pt-6 sm:pt-8 not-prose">
-                  <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border border-gray-700 overflow-hidden">
-                    <Image
-                      src="/jasswiki-logo-hero.png"
-                      alt="JassWiki Logo"
-                      width={80}
-                      height={80}
-                      className="object-contain w-full h-full"
-                      priority
-                    />
-                  </div>
-                </div>
+                <div className="pt-6 sm:pt-8 mb-4 lg:mb-8 not-prose"></div>
               )}
               <div className="prose prose-lg max-w-none">
                 {children}
@@ -211,20 +207,9 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
         {/* Mobile Main content - Full width */}
         <main className="w-full">
           <article className="bg-gray-800 rounded-xl shadow-lg p-4 sm:p-6 border border-gray-700 mb-4">
-            {/* Logo nur auf Homepage, außerhalb des prose Containers */}
+            {/* Padding oben für Homepage, um visuellen Abstand zu erhalten */}
             {router.pathname === '/' && (
-              <div className="flex justify-center mb-4 pt-6 sm:pt-8 not-prose">
-                <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full border border-gray-700 overflow-hidden">
-                  <Image
-                    src="/jasswiki-logo-hero.png"
-                    alt="JassWiki Logo"
-                    width={80}
-                    height={80}
-                    className="object-contain w-full h-full"
-                    priority
-                  />
-                </div>
-              </div>
+              <div className="pt-6 sm:pt-8 mb-4 not-prose"></div>
             )}
             <div className="prose prose-sm sm:prose-base max-w-none">
               {children}

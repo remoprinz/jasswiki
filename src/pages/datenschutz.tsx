@@ -35,7 +35,7 @@ const DatenschutzPage = () => {
           <br />
           <strong>Remo Prinz</strong>
           <br />
-          E-Mail: <a href="mailto:remo@jassguru.ch" className="text-green-400 hover:text-green-300 underline">remo@jassguru.ch</a>
+          E-Mail: <a href="mailto:remo@jasswiki.ch" className="text-green-400 hover:text-green-300 underline">remo@jasswiki.ch</a>
           <br />
           Telefon: <a href="tel:+41792375208" className="text-green-400 hover:text-green-300 underline">+41 79 237 52 08</a>
         </p>
@@ -77,8 +77,7 @@ const DatenschutzPage = () => {
           Da JassWiki keine personenbezogenen Daten erfasst, gibt es keine Daten, die angefragt, berichtigt oder gelöscht werden können.
         </p>
         <p className="mb-4 text-gray-300">
-          Bei Fragen zum Datenschutz können Sie sich jederzeit per E-Mail an <a href="mailto:remo@jassguru.ch" className="text-green-400 hover:text-green-300 underline">remo@jassguru.ch</a> 
-          oder telefonisch unter <a href="tel:+41792375208" className="text-green-400 hover:text-green-300 underline">+41 79 237 52 08</a> wenden.
+          Bei Fragen zum Datenschutz können Sie sich jederzeit per E-Mail an <a href="mailto:remo@jasswiki.ch" className="text-green-400 hover:text-green-300 underline">remo@jasswiki.ch</a> wenden.
         </p>
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">7. Änderungen dieser Datenschutzerklärung</h2>

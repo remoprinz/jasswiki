@@ -53,7 +53,12 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
         const categorySlug = toSlug(item.metadata.category.main);
         const subcategorySlug = toSlug(item.metadata.category.sub);
         const topicSlug = toSlug(item.metadata.category.topic);
-        const url = `/${categorySlug}/${subcategorySlug}/${topicSlug}`;
+        
+        // SPEZIALFALL: Varianten haben flache Struktur
+        const isVarianten = categorySlug === 'varianten';
+        const url = isVarianten
+          ? `/${categorySlug}/${topicSlug}/`
+          : `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
         
         return {
           id: item.id,

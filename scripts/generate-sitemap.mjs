@@ -31,26 +31,74 @@ async function generateSitemap() {
     const jsonContent = await fs.readFile(JSON_FILE, 'utf-8');
     const allContent = JSON.parse(jsonContent);
     const articles = Object.values(allContent);
+    
+    // Hole Datei-Datum für lastmod (statt immer "heute")
+    const stats = await fs.stat(JSON_FILE);
+    const lastModDate = stats.mtime.toISOString().split('T')[0];
 
     console.log(`✅ ${articles.length} Artikel aus JSON geladen.`);
+    console.log(`📅 Lastmod gesetzt auf: ${lastModDate} (basierend auf content-v2.json)`);
 
     // Basis-URLs
     const urls = [
       {
         loc: `${BASE_URL}/`,
-        lastmod: new Date().toISOString().split('T')[0],
+        lastmod: lastModDate,
         changefreq: 'daily',
         priority: '1.0'
       },
+      // Modulare llms.txt v2.0 (AI-optimiert)
+      {
+        loc: `${BASE_URL}/llms.txt`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.95'
+      },
+      {
+        loc: `${BASE_URL}/llms-essentials.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
+      {
+        loc: `${BASE_URL}/llms-regeln.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
+      {
+        loc: `${BASE_URL}/llms-begriffe.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
+      {
+        loc: `${BASE_URL}/llms-varianten.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
+      {
+        loc: `${BASE_URL}/llms-taktiken.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
+      {
+        loc: `${BASE_URL}/llms-kultur.md`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.9'
+      },
       {
         loc: `${BASE_URL}/quellen/`,
-        lastmod: new Date().toISOString().split('T')[0],
+        lastmod: lastModDate,
         changefreq: 'monthly',
         priority: '0.7'
       },
       {
         loc: `${BASE_URL}/quellenverzeichnis/`,
-        lastmod: new Date().toISOString().split('T')[0],
+        lastmod: lastModDate,
         changefreq: 'monthly',
         priority: '0.7'
       }
@@ -73,12 +121,18 @@ async function generateSitemap() {
       // Topic
       const topicSlug = toSlug(category.topic);
       
-      // Vollständige URL
-      const url = `${BASE_URL}/${mainCatSlug}/${subCatSlug}/${topicSlug}/`;
+      // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
+      // 1. Varianten (keine echte Subkategorie)
+      // 2. Artikel wo sub === topic (z.B. Geschichte, Grundlagen & Kultur)
+      const isFlatStructure = (mainCatSlug === 'varianten' || subCatSlug === topicSlug);
+      
+      const url = isFlatStructure
+        ? `${BASE_URL}/${mainCatSlug}/${topicSlug}/`
+        : `${BASE_URL}/${mainCatSlug}/${subCatSlug}/${topicSlug}/`;
       
       urls.push({
         loc: url,
-        lastmod: new Date().toISOString().split('T')[0],
+        lastmod: lastModDate,
         changefreq: 'weekly',
         priority: '0.8'
       });
@@ -88,28 +142,56 @@ async function generateSitemap() {
     mainCategories.forEach((mainCatSlug) => {
       urls.push({
         loc: `${BASE_URL}/${mainCatSlug}/`,
-        lastmod: new Date().toISOString().split('T')[0],
+        lastmod: lastModDate,
         changefreq: 'weekly',
         priority: '0.9'
       });
     });
 
     // Subcategory-Übersichtsseiten sammeln und hinzufügen
+    // AUSNAHMEN: Varianten (flach), Subkategorien mit nur 1 Artikel (flach)
     const subCategoryPaths = new Set();
+    const subcatArticleCount = {};
+    
+    // Sammle bereits hinzugefügte URLs (um Duplikate zu vermeiden)
+    const addedUrls = new Set(urls.map(u => u.loc));
+    
     articles.forEach((article) => {
       const { category } = article.metadata;
       const mainCatSlug = toSlug(category.main);
       const subCatSlug = toSlug(category.sub);
-      subCategoryPaths.add(`${mainCatSlug}/${subCatSlug}`);
+      const topicSlug = toSlug(category.topic);
+      
+      // Varianten überspringen (haben keine Subkategorie-Seiten)
+      if (mainCatSlug === 'varianten') {
+        return;
+      }
+      
+      // Flache Artikel (sub === topic) überspringen - sie haben keine Subkategorie-Seite
+      if (subCatSlug === topicSlug) {
+        return;
+      }
+      
+      const key = `${mainCatSlug}/${subCatSlug}`;
+      if (!subcatArticleCount[key]) {
+        subcatArticleCount[key] = 0;
+      }
+      subcatArticleCount[key]++;
+      subCategoryPaths.add(key);
     });
 
     subCategoryPaths.forEach((path) => {
-      urls.push({
-        loc: `${BASE_URL}/${path}/`,
-        lastmod: new Date().toISOString().split('T')[0],
-        changefreq: 'weekly',
-        priority: '0.85'
-      });
+      const url = `${BASE_URL}/${path}/`;
+      // VERMEIDE DUPLIKATE: Prüfe ob URL bereits existiert
+      if (!addedUrls.has(url)) {
+        urls.push({
+          loc: url,
+          lastmod: lastModDate,
+          changefreq: 'weekly',
+          priority: '0.85'
+        });
+        addedUrls.add(url);
+      }
     });
 
     console.log(`✅ ${urls.length} URLs generiert.`);

@@ -6,12 +6,21 @@ info:
 servers:
   - url: https://api.jasswiki.ch
     description: Production API (Custom Domain)
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: API Key für Authentifizierung
 paths:
   /:
     post:
       operationId: jasswikiQuery
       summary: Semantische Suche im JassWiki
       description: Führt eine RAG-Query aus und liefert genau 1 Top-Ergebnis.
+      security:
+        - ApiKeyAuth: []
       requestBody:
         required: true
         content:

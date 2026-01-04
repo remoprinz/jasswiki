@@ -66,11 +66,16 @@ export const SearchBar: React.FC = () => {
         
         if (score === 0) return null;
         
-        // Erstelle URL (3 Ebenen)
+        // Erstelle URL
         const categorySlug = toSlug(item.metadata.category.main);
         const subcategorySlug = toSlug(item.metadata.category.sub);
         const topicSlug = toSlug(item.metadata.category.topic);
-        const url = `/${categorySlug}/${subcategorySlug}/${topicSlug}`;
+        
+        // SPEZIALFALL: Varianten haben flache Struktur
+        const isVarianten = categorySlug === 'varianten';
+        const url = isVarianten
+          ? `/${categorySlug}/${topicSlug}/`
+          : `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
         
         // Erstelle Snippet
         const textSnippet = item.text.substring(0, 150).replace(/\n/g, ' ');

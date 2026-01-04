@@ -9,15 +9,23 @@ import { onRequest } from 'firebase-functions/v2/https';
 import { defineSecret } from 'firebase-functions/params';
 import { Pinecone } from '@pinecone-database/pinecone';
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import * as admin from 'firebase-admin';
 import type {
   RAGQueryResponse,
   RAGQueryResult,
 } from './types';
 import { normalizeQuery } from './utils/query-normalization';
 
+// Initialize Firebase Admin (für Rate Limiting)
+if (!admin.apps.length) {
+  admin.initializeApp();
+}
+const db = admin.firestore();
+
 // Define secrets
 const pinconeApiKey = defineSecret('PINECONE_API_KEY');
 const geminiApiKey = defineSecret('GEMINI_API_KEY');
+const jasswikiApiKey = defineSecret('JASSWIKI_API_KEY');
 
 // ============================================================================
 // CONFIGURATION
@@ -28,6 +36,85 @@ const DEFAULT_TOP_K = 5;
 const DEFAULT_MIN_SCORE = 0.65; // Sehr niedrig für maximalen Recall → GPT filtert anhand Score
 const MARGIN_THRESHOLD = 0.01; // Minimal für alle Kombinationen
 const EMBEDDING_MODEL = 'embedding-001';
+
+// ✅ SICHERHEIT: Rate Limiting Konfiguration
+const RATE_LIMIT_REQUESTS = 100; // Max Requests pro Zeitfenster
+const RATE_LIMIT_WINDOW_SECONDS = 3600; // 1 Stunde
+const ALLOWED_ORIGINS = [
+  'https://jasswiki.ch',
+  'https://www.jasswiki.ch',
+  'http://localhost:3000',
+  'http://localhost:3001'
+];
+
+// ✅ SICHERHEIT: Rate Limiting Helper
+async function checkRateLimit(ip: string, functionName: string): Promise<{ allowed: boolean; message?: string }> {
+  const rateLimitKey = `rateLimit_${functionName}_${ip}`;
+  const now = admin.firestore.Timestamp.now();
+  const windowStart = new admin.firestore.Timestamp(now.seconds - RATE_LIMIT_WINDOW_SECONDS, now.nanoseconds);
+  
+  try {
+    const rateLimitRef = db.collection('rateLimits').doc(rateLimitKey);
+    const rateLimitDoc = await rateLimitRef.get();
+    
+    if (rateLimitDoc.exists) {
+      const data = rateLimitDoc.data();
+      const requestCount = data?.count || 0;
+      const firstRequest = data?.firstRequest;
+      
+      // Prüfe ob Zeitfenster abgelaufen ist
+      if (firstRequest && firstRequest.seconds < windowStart.seconds) {
+        // Zeitfenster abgelaufen, reset
+        await rateLimitRef.set({
+          count: 1,
+          firstRequest: now,
+          lastRequest: now
+        });
+        return { allowed: true };
+      }
+      
+      // Prüfe ob Limit erreicht
+      if (requestCount >= RATE_LIMIT_REQUESTS) {
+        return {
+          allowed: false,
+          message: `Rate limit exceeded. Max ${RATE_LIMIT_REQUESTS} requests per hour.`
+        };
+      }
+      
+      // Erhöhe Counter
+      await rateLimitRef.update({
+        count: admin.firestore.FieldValue.increment(1),
+        lastRequest: now
+      });
+    } else {
+      // Erste Request in diesem Zeitfenster
+      await rateLimitRef.set({
+        count: 1,
+        firstRequest: now,
+        lastRequest: now
+      });
+    }
+    
+    return { allowed: true };
+  } catch (error) {
+    console.error('Rate limit check error:', error);
+    // Bei Fehler: Erlaube Request (Fail-Open Strategie)
+    return { allowed: true };
+  }
+}
+
+// ✅ SICHERHEIT: CORS Helper
+function checkCORS(origin: string | undefined): boolean {
+  if (!origin) return false;
+  return ALLOWED_ORIGINS.some(allowed => origin.startsWith(allowed));
+}
+
+// ✅ SICHERHEIT: API Key Validation
+function validateApiKey(req: any, expectedKey: string): boolean {
+  const providedKey = req.get('x-api-key') || req.get('X-API-Key') || req.headers['x-api-key'];
+  // Trim both values to handle potential whitespace/newlines in secrets
+  return providedKey?.trim() === expectedKey?.trim();
+}
 
 // ============================================================================
 // SERVICES (Lazy Init)
@@ -312,22 +399,195 @@ async function enrichSeeAlsoWithUrls(
 // ============================================================================
 
 // HTTP Endpoint für ChatGPT Actions (OpenAPI)
-export const jasswikiQuery = onRequest(
+// ============================================================================
+// RAGIT QUERY (Multi-Tenant)
+// ============================================================================
+
+export const ragitQuery = onRequest(
   {
-    cors: true,
-    secrets: [pinconeApiKey, geminiApiKey],
+    cors: ALLOWED_ORIGINS,
+    secrets: [pinconeApiKey, geminiApiKey, jasswikiApiKey],
     memory: '512MiB',
     timeoutSeconds: 60,
     region: 'us-central1',
   },
   async (req, res) => {
-    // CORS Headers
-    res.set('Access-Control-Allow-Origin', '*');
+    // ✅ SICHERHEIT: CORS Prüfung
+    const origin = req.get('origin') || req.get('referer');
+    const allowedOrigin = checkCORS(origin) ? origin : ALLOWED_ORIGINS[0];
+    
+    res.set('Access-Control-Allow-Origin', allowedOrigin);
     res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.set('Access-Control-Allow-Headers', 'Content-Type');
+    res.set('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-api-key');
 
     if (req.method === 'OPTIONS') {
       res.status(204).send('');
+      return;
+    }
+
+    // ✅ SICHERHEIT: API Key Validation
+    const expectedKey = jasswikiApiKey.value();
+    if (!validateApiKey(req, expectedKey)) {
+      res.status(401).json({
+        error: 'Unauthorized',
+        message: 'Invalid or missing API key'
+      });
+      return;
+    }
+
+    // ✅ SICHERHEIT: Rate Limiting
+    const clientIP = req.ip || req.get('x-forwarded-for') || req.get('x-real-ip') || 'unknown';
+    const rateLimitCheck = await checkRateLimit(clientIP, 'ragitQuery');
+    
+    if (!rateLimitCheck.allowed) {
+      res.status(429).json({
+        error: 'Rate limit exceeded',
+        message: rateLimitCheck.message
+      });
+      return;
+    }
+
+    if (req.method !== 'POST') {
+      res.status(405).json({ error: 'Method not allowed' });
+      return;
+    }
+
+    const { query, namespace, topK = 3, filters } = req.body || {};
+
+    if (!query || !namespace) {
+      res.status(400).json({ error: 'Query und Namespace sind erforderlich.' });
+      return;
+    }
+
+    try {
+      // Initialize Services with Secrets
+      let pineconeKey: string;
+      let geminiKeyValue: string;
+
+      try {
+        pineconeKey = pinconeApiKey.value();
+        geminiKeyValue = geminiApiKey.value();
+      } catch (error) {
+        console.error('Error accessing secrets:', error);
+        res.status(500).json({ error: 'Configuration error' });
+        return;
+      }
+
+      if (!pineconeKey || !geminiKeyValue) {
+        console.error('Missing API keys');
+        res.status(500).json({ error: 'Missing API keys' });
+        return;
+      }
+
+      const pinecone = initializePinecone(pineconeKey);
+      const embeddingService = initializeEmbedding(geminiKeyValue);
+
+      // Use ragit-core index
+      const index = pinecone.Index('ragit-core');
+
+      // Generate embedding
+      const result = await embeddingService.embedContent(query);
+      const vector = result.embedding.values;
+
+      // Query Pinecone
+      const queryResponse = await index.namespace(namespace).query({
+        vector,
+        topK: topK * 2,
+        includeMetadata: true,
+      });
+
+      const matches = queryResponse.matches || [];
+      const minScore = filters?.minScore || 0.75;
+
+      // Filter by score
+      const aboveThreshold = matches.filter(m => (m.score || 0) >= minScore);
+
+      if (aboveThreshold.length === 0) {
+        const bestScore = matches[0]?.score || 0;
+        res.status(200).json({
+          results: [],
+          metadata: {
+            query,
+            namespace,
+            topK,
+            threshold: minScore,
+            total_matches: matches.length,
+            rejected_reason: `Keine Treffer über Schwellwert (${minScore}). Bester Score: ${bestScore.toFixed(3)}`
+          }
+        });
+        return;
+      }
+
+      // Format results
+      const results = aboveThreshold.slice(0, topK).map(m => ({
+        id: m.id,
+        text: m.metadata?.text as string || '',
+        score: m.score || 0,
+        metadata: m.metadata || {},
+      }));
+
+      res.status(200).json({
+        results,
+        metadata: {
+          query,
+          namespace,
+          topK,
+          threshold: minScore,
+          total_matches: matches.length
+        }
+      });
+
+    } catch (error: any) {
+      console.error('Error in ragitQuery:', error);
+      res.status(500).json({
+        error: 'Internal Server Error',
+        message: error.message
+      });
+    }
+  }
+);
+
+export const jasswikiQuery = onRequest(
+  {
+    cors: ALLOWED_ORIGINS,
+    secrets: [pinconeApiKey, geminiApiKey, jasswikiApiKey],
+    memory: '512MiB',
+    timeoutSeconds: 60,
+    region: 'us-central1',
+  },
+  async (req, res) => {
+    // ✅ SICHERHEIT: CORS Prüfung
+    const origin = req.get('origin') || req.get('referer');
+    const allowedOrigin = checkCORS(origin) ? origin : ALLOWED_ORIGINS[0];
+    
+    res.set('Access-Control-Allow-Origin', allowedOrigin);
+    res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.set('Access-Control-Allow-Headers', 'Content-Type, X-API-Key');
+
+    if (req.method === 'OPTIONS') {
+      res.status(204).send('');
+      return;
+    }
+
+    // ✅ SICHERHEIT: API Key Validation
+    const expectedKey = jasswikiApiKey.value();
+    if (!validateApiKey(req, expectedKey)) {
+      res.status(401).json({
+        error: 'Unauthorized',
+        message: 'Invalid or missing API key'
+      });
+      return;
+    }
+
+    // ✅ SICHERHEIT: Rate Limiting
+    const clientIP = req.ip || req.get('x-forwarded-for') || req.get('x-real-ip') || 'unknown';
+    const rateLimitCheck = await checkRateLimit(clientIP, 'jasswikiQuery');
+    
+    if (!rateLimitCheck.allowed) {
+      res.status(429).json({
+        error: 'Rate limit exceeded',
+        message: rateLimitCheck.message
+      });
       return;
     }
 
@@ -586,5 +846,17 @@ export const jasswikiQuery = onRequest(
       });
     }
   }
+);
+
+import { mcpApp } from './mcp';
+
+export const mcp = onRequest(
+  {
+    memory: '512MiB',
+    timeoutSeconds: 60,
+    region: 'us-central1',
+    cors: true,
+  },
+  mcpApp
 );
 

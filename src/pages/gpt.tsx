@@ -6,8 +6,8 @@ const GPT_REDIRECT_URL = 'https://chatgpt.com/g/g-690883c82ffc8191a063266aab2806
 const SITE_URL = 'https://jasswiki.ch/gpt';
 const TITLE = 'JassWiki: Alles rund ums Jassen';
 const DESCRIPTION = 'Chatte mit dem JassWiki GPT über Jass-Regeln, Taktiken, Varianten und mehr. Erhalte präzise Antworten von jasswiki.ch.';
-// OG Image für Link-Vorschau - Kleines Icon (120x120px) für kompakte WhatsApp-Vorschau
-const OG_IMAGE = 'https://jasswiki.ch/logo-jasswiki-120x120.png';
+// OG Image für Link-Vorschau - Hero Logo (1080x1080px) für Google und Social Media
+const OG_IMAGE = 'https://jasswiki.ch/jasswiki-logo-hero.png';
 
 export default function GPTRedirect() {
   const router = useRouter();
@@ -43,13 +43,13 @@ export default function GPTRedirect() {
         <meta property="og:title" content={TITLE} />
         <meta property="og:description" content={DESCRIPTION} />
         <meta property="og:image" content={OG_IMAGE} />
-        <meta property="og:image:width" content="120" />
-        <meta property="og:image:height" content="120" />
+        <meta property="og:image:width" content="1080" />
+        <meta property="og:image:height" content="1080" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:site_name" content="JassWiki" />
         
-        {/* Twitter Card - summary statt summary_large_image für kleineres Logo */}
-        <meta name="twitter:card" content="summary" />
+        {/* Twitter Card - summary_large_image für größeres Logo */}
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content={SITE_URL} />
         <meta name="twitter:title" content={TITLE} />
         <meta name="twitter:description" content={DESCRIPTION} />
