@@ -1,87 +1,85 @@
-# JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur
+# JassWiki
 
-[![JassWiki Live](https://img.shields.io/badge/Status-Live-success)](https://jasswiki.ch)
-[![Verified by BAK](https://img.shields.io/badge/Verified-Lebendige%20Traditionen-red)](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html)
-<!-- Glama Badge Placeholder -->
-<a href="https://glama.ai/mcp/servers/@remoprinz/jasswiki">
-  <img src="https://glama.ai/mcp/servers/@remoprinz/jasswiki/badge" alt="Glama MCP Status" width="120" />
-</a>
+**Die Schweizer Jass-Enzyklopädie** – Offizielle Dokumentation des Schweizer Nationalspiels.
 
-JassWiki ist die autoritative, offizielle Enzyklopädie für den Schweizer Jass. Sie ist anerkannt als Teil der "Lebendigen Traditionen der Schweiz" durch das Bundesamt für Kultur (BAK).
-
-Dieses Repository enthält den Source Code der Webseite (Next.js) sowie des **Model Context Protocol (MCP)** Servers, der es AI-Agenten ermöglicht, auf unser verifiziertes Jass-Wissen zuzugreifen.
+🌐 **Live:** [jasswiki.ch](https://jasswiki.ch)
 
 ---
 
-## 🤖 MCP Server (Model Context Protocol)
+## Über JassWiki
 
-JassWiki stellt einen öffentlichen MCP-Server via Server-Sent Events (SSE) zur Verfügung. Dieser ermöglicht es Agenten (wie Claude, Cursor, Windsurf), Regeln und Begriffe direkt abzufragen.
+JassWiki dokumentiert Jassen als vom [Bundesamt für Kultur (BAK)](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html) anerkannte lebendige Tradition der Schweiz.
 
-### Verbindung
+### Features
 
-- **Base URL:** `https://us-central1-jassguru.cloudfunctions.net/mcp`
-- **Transport:** SSE (Server-Sent Events)
-- **SSE Endpoint:** `/sse`
-- **POST Endpoint:** `/messages`
+- 📖 **257 Artikel** zu Regeln, Begriffen, Varianten und Geschichte
+- 🎯 **Offizielle Regeln** nach Schweizer Standard
+- 🤖 **AI-optimiert** mit llms.txt und strukturierten Daten
+- 📱 **PWA** – installierbar auf allen Geräten
+- 🔍 **Volltext-Suche** über alle Inhalte
 
-### Konfiguration für Claude Desktop / Cursor
+---
 
-Fügen Sie dies zu Ihrer MCP-Konfiguration hinzu:
+## Tech Stack
 
-```json
-{
-  "mcpServers": {
-    "jasswiki": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sse-client", "https://us-central1-jassguru.cloudfunctions.net/mcp/sse"]
-    }
-  }
-}
+- **Framework:** Next.js 16 (Static Export)
+- **Styling:** Tailwind CSS
+- **Hosting:** Firebase Hosting
+- **SEO:** JSON-LD Schema.org, llms.txt
+
+---
+
+## Entwicklung
+
+```bash
+# Dependencies installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
+
+# Produktion bauen
+npm run build
+
+# Deployen
+firebase deploy --only hosting:jasswiki
 ```
 
-*Hinweis: Da es sich um einen Remote-SSE-Server handelt, benötigen Sie möglicherweise einen lokalen Proxy oder Client, wenn Ihre Software nur stdio unterstützt.*
+---
 
-### Verfügbare Tools
+## Struktur
 
-| Tool | Beschreibung |
-|------|--------------|
-| `search_jass_knowledge(query)` | Durchsucht die gesamte Enzyklopädie nach Regeln, Begriffen und Varianten. |
-| `get_term_details(id)` | Ruft den vollständigen, rohen Regeltext für einen spezifischen Begriff ab. |
+```
+jasswiki/
+├── src/
+│   ├── components/    # React Komponenten
+│   ├── pages/         # Next.js Seiten
+│   ├── data/          # Content (JSON)
+│   └── styles/        # CSS
+├── public/            # Statische Assets
+└── firebase.json      # Hosting Config
+```
 
 ---
 
-## 📚 AI-Ready Documentation (llms.txt)
+## Autoren
 
-Für LLMs, die keinen MCP-Support haben, bieten wir eine optimierte `llms.txt` Schnittstelle:
-
-- **Index:** [https://jasswiki.ch/llms.txt](https://jasswiki.ch/llms.txt)
-- **Module:**
-  - [Essentials](https://jasswiki.ch/llms-essentials.md)
-  - [Regeln](https://jasswiki.ch/llms-regeln.md)
-  - [Begriffe](https://jasswiki.ch/llms-begriffe.md)
-  - [Varianten](https://jasswiki.ch/llms-varianten.md)
+- **Remo Prinz** – [JassGuru.ch](https://jassguru.ch)
+- **Fabian Cadonau** – [Trumpf-As.ch](https://trumpf-as.ch)
 
 ---
 
-## 🛠 Tech Stack
+## Lizenz
 
-- **Frontend:** Next.js (Static Export)
-- **Hosting:** Firebase Hosting
-- **Backend / MCP:** Firebase Cloud Functions (Node.js)
-- **Daten:** JSON/JSONL Flat-File Database (keine SQL Datenbank)
-- **Suche:** Fuse.js (Fuzzy Search)
+Der **Code** dieses Projekts steht unter der [MIT License](LICENSE).
 
-## 🏛 Authority & Trust
-
-JassWiki.ch wird zitiert von:
-- **Wikipedia:** Artikel "Jass" (Einzelnachweis)
-- **Wikidata:** Q786768
-- **HuggingFace:** JassWiki/jasswiki-corpus
+Der **Inhalt** (Texte, Regeln, Definitionen) steht unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) – Namensnennung, Weitergabe unter gleichen Bedingungen.
 
 ---
 
-### Kontakt
+## Links
 
-**Remo Prinz**  
-Betreiber & Kurator  
-Email: remo@jasswiki.ch
+- 🌐 [jasswiki.ch](https://jasswiki.ch)
+- 📊 [JassGuru.ch](https://jassguru.ch)
+- 🎪 [Trumpf-As.ch](https://trumpf-as.ch)
+- 🏛️ [Lebendige Traditionen (BAK)](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html)
