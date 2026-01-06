@@ -14,7 +14,6 @@ JassWiki dokumentiert Jassen als vom [Bundesamt für Kultur (BAK)](https://www.l
 
 - 📖 **257 Artikel** zu Regeln, Begriffen, Varianten und Geschichte
 - 🎯 **Offizielle Regeln** nach Schweizer Standard
-- 🤖 **AI-ready** mit llms.txt und Schema.org JSON-LD
 - 📱 **Responsive** für Desktop, Tablet und Mobile
 - 🔍 **Volltext-Suche** über alle Inhalte
 
