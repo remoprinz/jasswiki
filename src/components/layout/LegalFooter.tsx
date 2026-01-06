@@ -24,7 +24,7 @@ export const LegalFooter = () => {
       <div className="mt-6 flex flex-col items-center gap-3">
         <div className="text-xs text-gray-500 text-center max-w-2xl px-4 space-y-2">
           <p>
-            JassWiki.ch wird betrieben von <a href="https://www.linkedin.com/in/remoprinz/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Remo Prinz</a> (<a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">JassGuru.ch</a>) 
+            JassWiki.ch wird betrieben von <a href="mailto:remo@jasswiki.ch" className="hover:text-green-400 underline">Remo Prinz</a> (<a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">JassGuru.ch</a>) 
             und <a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Fabian Cadonau</a> (<a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Trumpf-As.ch</a>).
           </p>
           <p>

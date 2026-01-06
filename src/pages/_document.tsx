@@ -119,9 +119,9 @@ const JASSWIKI_SCHEMA = {
       "familyName": "Prinz",
       "jobTitle": "Jass-Experte & Digital Innovation",
       "description": "Schweizer Jass-Experte mit über 15 Jahren Erfahrung in der digitalen Dokumentation und Analyse von Jass-Spielen. Entwickler von JassGuru.ch und JassStatistik.ch.",
-      "url": "https://www.linkedin.com/in/remoprinz/",
+      "url": "https://www.linkedin.com/in/remo-prinz-886835b/",
       "sameAs": [
-        "https://www.linkedin.com/in/remoprinz/",
+        "https://www.linkedin.com/in/remo-prinz-886835b/",
         "https://jassguru.ch/",
         "https://jassstatistik.ch/"
       ],
