@@ -144,79 +144,54 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
         </div>
       )}
 
-      {/* Desktop Layout */}
-      <div className="hidden lg:block w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
-        {/* Search Bar and Breadcrumbs - positioned over right container only */}
-        <div className="flex flex-row gap-8">
-          {/* Empty space for left container alignment */}
-          <div className="w-1/4"></div>
+      {/* Responsive Layout - Content wird nur EINMAL gerendert */}
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+        
+        {/* Search Bar - Responsive */}
+        <div className="lg:flex lg:flex-row lg:gap-8">
+          {/* Empty space for left container alignment (Desktop only) */}
+          <div className="hidden lg:block lg:w-1/4"></div>
           
-          {/* Search Bar - Only over the right container */}
-          <div className="w-3/4 mb-6">
+          {/* Search Bar */}
+          <div className="w-full lg:w-3/4 mb-4 lg:mb-6">
             <SearchBar />
           </div>
         </div>
 
-        <div className="flex flex-row gap-8">
-          {/* Empty space for left container alignment */}
-          <div className="w-1/4"></div>
+        {/* Breadcrumbs - Responsive */}
+        <div className="lg:flex lg:flex-row lg:gap-8">
+          {/* Empty space for left container alignment (Desktop only) */}
+          <div className="hidden lg:block lg:w-1/4"></div>
           
-          {/* Breadcrumbs - Only over the right container */}
-          <div className="w-3/4 mb-4 sm:mb-6">
+          {/* Breadcrumbs */}
+          <div className="w-full lg:w-3/4 mb-4 sm:mb-6">
             <Breadcrumbs items={breadcrumbItems} />
           </div>
         </div>
 
-        {/* Desktop: Side by side */}
-        <div className="flex flex-row gap-8">
-          {/* Desktop Sidebar */}
-          <aside className="w-1/4 sticky top-4 self-start">
+        {/* Main Layout - Responsive */}
+        <div className="lg:flex lg:flex-row lg:gap-8">
+          {/* Desktop Sidebar (hidden on mobile) */}
+          <aside className="hidden lg:block lg:w-1/4 lg:sticky lg:top-4 lg:self-start">
             <div className="bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-700">
               <LexikonSidebar />
             </div>
           </aside>
           
-          {/* Main content */}
-          <main className="w-3/4">
-            <article className="bg-gray-800 rounded-xl shadow-lg p-8 border border-gray-700">
-              {/* Padding oben für Homepage, um visuellen Abstand zu erhalten */}
+          {/* Main content - EINZIGE Instanz */}
+          <main className="w-full lg:w-3/4">
+            <article className="bg-gray-800 rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 border border-gray-700 mb-4">
+              {/* Padding oben für Homepage */}
               {router.pathname === '/' && (
                 <div className="pt-6 sm:pt-8 mb-4 lg:mb-8 not-prose"></div>
               )}
-              <div className="prose prose-lg max-w-none">
+              <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none">
                 {children}
               </div>
             </article>
             <LegalFooter />
           </main>
         </div>
-      </div>
-
-      {/* Mobile Layout - Full Width Content */}
-      <div className="lg:hidden w-full px-4 sm:px-6 py-4 sm:py-6 pb-8">
-        {/* Mobile Persistent Search Bar - Always visible */}
-        <div className="mb-4">
-          <SearchBar />
-        </div>
-
-        {/* Mobile Breadcrumbs */}
-        <div className="mb-4">
-          <Breadcrumbs items={breadcrumbItems} />
-        </div>
-        
-        {/* Mobile Main content - Full width */}
-        <main className="w-full">
-          <article className="bg-gray-800 rounded-xl shadow-lg p-4 sm:p-6 border border-gray-700 mb-4">
-            {/* Padding oben für Homepage, um visuellen Abstand zu erhalten */}
-            {router.pathname === '/' && (
-              <div className="pt-6 sm:pt-8 mb-4 not-prose"></div>
-            )}
-            <div className="prose prose-sm sm:prose-base max-w-none">
-              {children}
-            </div>
-          </article>
-          <LegalFooter />
-        </main>
       </div>
     </div>
   );

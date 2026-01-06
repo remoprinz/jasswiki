@@ -28,8 +28,8 @@ export const LegalFooter = () => {
             und <a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Fabian Cadonau</a> (<a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Trumpf-As.ch</a>).
           </p>
           <p>
-            Offiziell anerkannt als Teil der <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Lebendigen Traditionen der Schweiz</a> (BAK).
-        </p>
+            JassWiki dokumentiert Jassen als vom Bundesamt für Kultur (BAK) anerkannte <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">lebendige Tradition</a>.
+          </p>
         </div>
         <a
           href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"

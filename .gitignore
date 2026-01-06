@@ -54,3 +54,23 @@ firebase-service-account.json
 *.jks
 .env.local
 .env.production.local
+
+# Internal documentation & working files (not for public GitHub)
+agentic/
+batches/
+chatgpt-gpt/
+_deprecated/
+backups/
+jasswiki/
+
+# MCP server (keep source, ignore deps and build output)
+mcp-server/node_modules/
+mcp-server/dist/
+
+# Functions deployment files
+functions/lib/
+functions/node_modules/
+
+# Temporary analysis files
+*.backup
+*.backup-*

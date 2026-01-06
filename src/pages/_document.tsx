@@ -4,6 +4,29 @@ const JASSWIKI_SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "IntangibleCulturalHeritage",
+      "@id": "https://jasswiki.ch/#jass-tradition",
+      "name": "Jassen",
+      "alternateName": ["Schweizer Jass", "Swiss Jass"],
+      "description": "Jass ist ein traditionelles Schweizer Kartenspiel und als lebendige Tradition im nationalen Inventar des Bundesamts für Kultur (BAK) anerkannt.",
+      "inLanguage": ["de", "gsw", "fr", "it", "rm"],
+      "locationCreated": {
+        "@type": "Country",
+        "name": "Switzerland",
+        "sameAs": "https://www.wikidata.org/wiki/Q39"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q786768",
+        "https://de.wikipedia.org/wiki/Jass",
+        "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
+      ],
+      "isBasedOn": {
+        "@type": "GovernmentOrganization",
+        "name": "Bundesamt für Kultur (BAK)",
+        "url": "https://www.bak.admin.ch"
+      }
+    },
+    {
       "@type": "EducationalOrganization",
       "@id": "https://jasswiki.ch/#organization",
       "name": "JassWiki.ch",
@@ -19,6 +42,9 @@ const JASSWIKI_SCHEMA = {
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
       "foundingDate": "2023",
       "award": "Lebendige Traditionen der Schweiz (BAK)",
+      "about": {
+        "@id": "https://jasswiki.ch/#jass-tradition"
+      },
       "subjectOf": [
         {
           "@type": "WebPage",
@@ -28,7 +54,7 @@ const JASSWIKI_SCHEMA = {
             "@type": "GovernmentOrganization",
             "name": "Bundesamt für Kultur (BAK)",
             "url": "https://www.bak.admin.ch"
-      },
+          },
           "description": "Offizielle Anerkennung des Jassens als immaterielles Kulturerbe der Schweiz"
         }
       ],
@@ -79,7 +105,11 @@ const JASSWIKI_SCHEMA = {
           "urlTemplate": "https://jasswiki.ch/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q786768",
+        "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
+      ]
     },
     {
       "@type": "Person",
@@ -188,21 +218,13 @@ const JASSWIKI_SCHEMA = {
       },
       "inLanguage": ["de", "gsw"],
       "about": {
-        "@type": "Thing",
-        "@id": "https://www.wikidata.org/wiki/Q670235",
-        "name": "Schweizer Jass",
-        "description": "Traditionelles Schweizer Kartenspiel, Teil der Lebendigen Traditionen der Schweiz"
+        "@id": "https://jasswiki.ch/#jass-tradition"
       },
       "audience": {
         "@type": "PeopleAudience",
         "audienceType": "Jass-Spieler, Jass-Interessierte, Kulturinteressierte"
       },
       "hasPart": [
-        {
-          "@type": "WebPage",
-          "name": "Jass FAQ",
-          "description": "Über 900 häufig gestellte Fragen zum Schweizer Jass"
-        },
         {
           "@type": "DefinedTermSet",
           "name": "Jass-Glossar",
@@ -286,8 +308,27 @@ class MyDocument extends Document {
           {/* Web App Manifest */}
           <link rel="manifest" href="/manifest.json" />
 
+          {/* Open Graph Meta Tags für Social Media & Google */}
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="JassWiki.ch" />
+          <meta property="og:title" content="JassWiki: Alles rund ums Jassen" />
+          <meta property="og:description" content="Die vollständige Jassregeln-Referenz: Offizielle Spielregeln, Weis, Varianten und Strategien für das Schweizer Nationalspiel." />
+          <meta property="og:url" content="https://jasswiki.ch/" />
+          <meta property="og:image" content="https://jasswiki.ch/logo-jasswiki-180x180.png" />
+          <meta property="og:image:width" content="180" />
+          <meta property="og:image:height" content="180" />
+          <meta property="og:image:type" content="image/png" />
+          <meta property="og:logo" content="https://jasswiki.ch/logo-jasswiki-120x120.png" />
+          
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@jasswiki" />
+          <meta name="twitter:title" content="JassWiki: Alles rund ums Jassen" />
+          <meta name="twitter:description" content="Die vollständige Jassregeln-Referenz für das Schweizer Nationalspiel." />
+          <meta name="twitter:image" content="https://jasswiki.ch/logo-jasswiki-180x180.png" />
+          
           {/* Zusätzliche Meta-Tags */}
-          <meta name="description" content="Die vollständige Jassregeln-Referenz: Offizielle Spielregeln, Weis, Varianten und Strategien für das Schweizer Nationalspiel." />
+          {/* NOTE: meta description wird von SeoHead pro Seite gesetzt, NICHT global! */}
           <meta name="apple-touch-fullscreen" content="yes" />
 
           {/* AI-Optimized Meta Tags */}

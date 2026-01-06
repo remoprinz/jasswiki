@@ -22,6 +22,29 @@
       ],
       "cleanUrls": true,
       "trailingSlash": true,
+      "headers": [
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Link",
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+            },
+            {
+              "key": "X-Agentic-Context",
+              "value": "/llms.txt"
+            },
+            {
+              "key": "X-AI-Knowledge-Source",
+              "value": "https://jasswiki.ch/llms.txt"
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+            }
+          ]
+        }
+      ],
       "redirects": [
         {
           "source": "/gpt",
@@ -31,6 +54,496 @@
         {
           "source": "/gpt/",
           "destination": "https://chatgpt.com/g/g-690883c82ffc8191a063266aab280617",
+          "type": 301
+        },
+        {
+          "source": "/varianten/stichspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/stichspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bessern-spiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bessern-spiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/gluecksspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/gluecksspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/strategiespiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/strategiespiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/ablegespiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/ablegespiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/teamspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/teamspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einfacher-jass/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einfacher-jass",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/serienjass/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/serienjass",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/feste-trumpffarbe/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/feste-trumpffarbe",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/lernspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/lernspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/steigerungsspiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/steigerungsspiel",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/doppelkart-schieber/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/doppelkart-schieber",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/aucho-4-spieler/",
+          "destination": "/varianten/aucho-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/aucho-4-spieler",
+          "destination": "/varianten/aucho-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/lernspiel/bodentrumpf-4-spieler/",
+          "destination": "/varianten/bodentrumpf-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/lernspiel/bodentrumpf-4-spieler",
+          "destination": "/varianten/bodentrumpf-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bessern-spiel/schaggi-haas/",
+          "destination": "/varianten/schaggi-haas/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bessern-spiel/schaggi-haas",
+          "destination": "/varianten/schaggi-haas/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einfacher-jass/einfacher-jass-taktiken/",
+          "destination": "/varianten/einfacher-jass-taktiken/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einfacher-jass/einfacher-jass-taktiken",
+          "destination": "/varianten/einfacher-jass-taktiken/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/doppelkart-schieber/bolschewik-4-spieler/",
+          "destination": "/varianten/bolschewik-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/doppelkart-schieber/bolschewik-4-spieler",
+          "destination": "/varianten/bolschewik-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/urspruenge/",
+          "destination": "/geschichte/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/urspruenge",
+          "destination": "/geschichte/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft/",
+          "destination": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft",
+          "destination": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/sprachentwicklung/",
+          "destination": "/geschichte/die-sprache-rund-um-den-jasstisch/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/sprachentwicklung",
+          "destination": "/geschichte/die-sprache-rund-um-den-jasstisch/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/wortherkunft/herkunft-des-wortes-jass/",
+          "destination": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/wortherkunft/herkunft-des-wortes-jass",
+          "destination": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft/jasskarten-36-karten",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenwerte/",
+          "destination": "/regeln/kartenwerte/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenwerte",
+          "destination": "/regeln/kartenwerte/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kulturelle-bedeutung/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kulturelle-bedeutung",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielende/",
+          "destination": "/regeln/spielende/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielende",
+          "destination": "/regeln/spielende/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielmaterial/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielmaterial",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/ueberblick/",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/ueberblick",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/fehlerregeln/",
+          "destination": "/regeln/fehler-verstoesse/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/fehlerregeln",
+          "destination": "/regeln/fehler-verstoesse/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundbegriffe/",
+          "destination": "/begriffe/grundbegriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundbegriffe",
+          "destination": "/begriffe/grundbegriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenfarben",
+          "destination": "/begriffe/kartenbezeichnungen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundregeln-verteilen/",
+          "destination": "/regeln/kartenverteilung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundregeln-verteilen",
+          "destination": "/regeln/kartenverteilung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spezialspiele/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spezialspiele",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/trumpfwerte/",
+          "destination": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/trumpfwerte",
+          "destination": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielbegriffe/spielablauf-im-ueberblick/",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielbegriffe/spielablauf-im-ueberblick",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/verteilmethoden/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/verteilmethoden/jasskarten-36-karten",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenfarben/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenfarben/jasskarten-36-karten",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielziele/",
+          "destination": "/regeln/spielende/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielziele",
+          "destination": "/regeln/spielende/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/nichtfarben/",
+          "destination": "/regeln/fehler-verstoesse/nichtfarben/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/nichtfarben",
+          "destination": "/regeln/fehler-verstoesse/nichtfarben/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/bedanken-beendet-partie/",
+          "destination": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/bedanken-beendet-partie",
+          "destination": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/schreibweise/",
+          "destination": "/regeln/schreiben/schreibweise/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/schreibweise",
+          "destination": "/regeln/schreiben/schreibweise/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/verwerfen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/verwerfen",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/wissen/geschichte/",
+          "destination": "/geschichte/",
+          "type": 301
+        },
+        {
+          "source": "/wissen/geschichte",
+          "destination": "/geschichte/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/verwendung/",
+          "destination": "/referenzen/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/verwendung",
+          "destination": "/referenzen/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/quellen/",
+          "destination": "/quellen/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/quellen",
+          "destination": "/quellen/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/generelles/jassapps-generelles/",
+          "destination": "/jassapps/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/generelles/jassapps-generelles",
+          "destination": "/jassapps/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/ablupf-spiel/",
+          "destination": "/begriffe/grundbegriffe/ablupf/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/ablupf-spiel",
+          "destination": "/begriffe/grundbegriffe/ablupf/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/",
+          "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken",
+          "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/industrialisierung/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/industrialisierung/jasskarten-36-karten",
+          "destination": "/grundlagen-kultur/das-kartenset/",
           "type": 301
         }
       ]
