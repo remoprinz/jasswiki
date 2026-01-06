@@ -13,14 +13,13 @@ async function copyFiles() {
   ];
 
   for (const file of files) {
-    const filePublic = path.resolve(__dirname, `../public/${file.src}`);
-    const fileOut = path.resolve(__dirname, `../out/${file.src}`);
+    const filePublic = path.resolve(__dirname, `public/${file.src}`);
+    const fileOut = path.resolve(__dirname, `out/${file.src}`);
     
     try {
       await fs.copyFile(filePublic, fileOut);
       console.log(`✅ ${file.name} ins out/ Verzeichnis kopiert.`);
     } catch (error) {
-      // Datei existiert möglicherweise nicht - das ist OK für BingSiteAuth
       if (file.src === 'BingSiteAuth.xml') {
         console.log(`⚠️  ${file.name} nicht gefunden (optional).`);
       } else {

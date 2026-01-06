@@ -5,17 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "presitemap": "node scripts/generate-sitemap.mjs",
     "build": "npm run sitemap && next build && npm run postbuild",
-    "postbuild": "node scripts/copy-sitemap-to-out.mjs",
+    "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
-    "sitemap": "node scripts/generate-sitemap.mjs",
-    "sync": "./scripts/sync-all.sh",
-    "sync:jsonl": "node scripts/sync-json-to-jsonl.mjs",
-    "rag:setup": "tsx scripts/setup-pinecone-index.ts",
-    "rag:ingest": "tsx scripts/ingest-to-pinecone.ts",
-    "rag:test": "tsx scripts/test-rag-query.ts"
+    "sitemap": "node generate-sitemap.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

@@ -5,10 +5,10 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Pfade
-const JSON_FILE = path.resolve(__dirname, '../src/data/jass-content-v2.json');
-const SITEMAP_PUBLIC = path.resolve(__dirname, '../public/sitemap.xml');
-const SITEMAP_OUT = path.resolve(__dirname, '../out/sitemap.xml');
+// Pfade (angepasst für Root-Verzeichnis)
+const JSON_FILE = path.resolve(__dirname, 'src/data/jass-content-v2.json');
+const SITEMAP_PUBLIC = path.resolve(__dirname, 'public/sitemap.xml');
+const SITEMAP_OUT = path.resolve(__dirname, 'out/sitemap.xml');
 const BASE_URL = 'https://jasswiki.ch';
 
 // Helper: Konvertiert Text zu URL-Slug
@@ -149,7 +149,6 @@ async function generateSitemap() {
     });
 
     // Subcategory-Übersichtsseiten sammeln und hinzufügen
-    // AUSNAHMEN: Varianten (flach), Subkategorien mit nur 1 Artikel (flach)
     const subCategoryPaths = new Set();
     const subcatArticleCount = {};
     
@@ -167,7 +166,7 @@ async function generateSitemap() {
         return;
       }
       
-      // Flache Artikel (sub === topic) überspringen - sie haben keine Subkategorie-Seite
+      // Flache Artikel (sub === topic) überspringen
       if (subCatSlug === topicSlug) {
         return;
       }
@@ -182,7 +181,6 @@ async function generateSitemap() {
 
     subCategoryPaths.forEach((path) => {
       const url = `${BASE_URL}/${path}/`;
-      // VERMEIDE DUPLIKATE: Prüfe ob URL bereits existiert
       if (!addedUrls.has(url)) {
         urls.push({
           loc: url,
@@ -211,17 +209,16 @@ ${urls
   .join('\n')}
 </urlset>`;
 
-    // Sitemap in public/ schreiben (für Entwicklung)
+    // Sitemap in public/ schreiben
     await fs.writeFile(SITEMAP_PUBLIC, xml, 'utf-8');
     console.log(`✅ Sitemap erfolgreich erstellt: ${SITEMAP_PUBLIC}`);
     
-    // Falls out/ Verzeichnis existiert, auch dort schreiben (für Deployment)
+    // Falls out/ Verzeichnis existiert, auch dort schreiben
     try {
-      await fs.access(path.resolve(__dirname, '../out'));
+      await fs.access(path.resolve(__dirname, 'out'));
       await fs.writeFile(SITEMAP_OUT, xml, 'utf-8');
       console.log(`✅ Sitemap auch ins out/ Verzeichnis kopiert: ${SITEMAP_OUT}`);
     } catch {
-      // out/ existiert noch nicht (wird beim Build erstellt)
       console.log('ℹ️  out/ Verzeichnis existiert noch nicht (wird beim Build erstellt).');
     }
     console.log(`📊 Gesamt: ${urls.length} URLs`);
