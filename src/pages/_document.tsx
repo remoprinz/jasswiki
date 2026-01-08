@@ -4,27 +4,16 @@ const JASSWIKI_SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "IntangibleCulturalHeritage",
+      "@type": "Thing",
       "@id": "https://jasswiki.ch/#jass-tradition",
       "name": "Jassen",
       "alternateName": ["Schweizer Jass", "Swiss Jass"],
       "description": "Jass ist ein traditionelles Schweizer Kartenspiel und als lebendige Tradition im nationalen Inventar des Bundesamts für Kultur (BAK) anerkannt.",
-      "inLanguage": ["de", "gsw", "fr", "it", "rm"],
-      "locationCreated": {
-        "@type": "Country",
-        "name": "Switzerland",
-        "sameAs": "https://www.wikidata.org/wiki/Q39"
-      },
       "sameAs": [
         "https://www.wikidata.org/wiki/Q786768",
         "https://de.wikipedia.org/wiki/Jass",
         "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
-      ],
-      "isBasedOn": {
-        "@type": "GovernmentOrganization",
-        "name": "Bundesamt für Kultur (BAK)",
-        "url": "https://www.bak.admin.ch"
-      }
+      ]
     },
     {
       "@type": "EducationalOrganization",
@@ -223,36 +212,7 @@ const JASSWIKI_SCHEMA = {
       "audience": {
         "@type": "PeopleAudience",
         "audienceType": "Jass-Spieler, Jass-Interessierte, Kulturinteressierte"
-      },
-      "hasPart": [
-        {
-          "@type": "DefinedTermSet",
-          "name": "Jass-Glossar",
-          "description": "257 Begriffe aus der Schweizer Jass-Welt",
-          "hasDefinedTerm": {
-            "@type": "DefinedTerm",
-            "name": "Jass-Begriffe",
-            "description": "Umfassendes Glossar aller Jass-relevanten Begriffe"
-          }
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "@id": "https://jasswiki.ch/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
-          "name": "Etymologie des Begriffs Matsch",
-          "author": {
-            "@type": "Person",
-            "name": "Dr. Michael Koller",
-            "jobTitle": "Historiker und Berufsschullehrer"
-          },
-          "description": "Etymologische Forschung zur Herkunft des Jass-Begriffs Matsch",
-          "citation": {
-            "@type": "WebPage",
-            "name": "Jass – Wikipedia",
-            "url": "https://de.wikipedia.org/wiki/Jass",
-            "description": "Zitiert im Wikipedia-Artikel über Jass"
-          }
-        }
-      ]
+      }
     },
     {
       "@type": "GovernmentService",

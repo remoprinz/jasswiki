@@ -25,8 +25,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -58,7 +57,7 @@
   },
   "ausmachregel": {
     "id": "ausmachregel",
-    "text": "Definition:\nDie Ausmachregel «Stöck (siehe Begriff \"expressions_stoecke\") - Weis - Stich» kommt zur Anwendung, falls beide Teams nach Abschluss des ersten Stichs (jeder Spieler hat eine Karte ausgespielt) gleichzeitig das abgemachte Ziel erfüllen, wie etwa den Bergpreis (siehe Begriff \"bergpreis\") oder das Schlussziel.\n\nBewertungsreihenfolge:\n• Gemäss dieser Ausmachregel zählen zuerst die Stöcke (siehe Begriff \"expressions_stoecke\")\n• Der Weis steht an zweiter Position, der Stich wird als Drittes gewertet\n\nBesondere Bestimmungen:\n• Tritt die Ausmachregel in Kraft, spielt die Reihenfolge, in der das Bedanken (siehe Begriff \"bedanken\") erfolgt, keine Rolle\n• Nach dem Ausspielen zum zweiten Stich steht einem Spieler die Berufung auf die Ausmachregel nicht mehr offen\n\nGrundlage:\n• Die Ausmachregel «Stöck - Weis - Stich» basiert auf dem Unwahrscheinlichkeitsprinzip bezüglich der verteilten Karten\n\nVereinbarungen:\n• Abweichende Reihenfolgen (wie «Stöck - Stich - Weis») sind vor Beginn der Partie festzulegen\n• Fehlt eine solche Vereinbarung, greift die ortsübliche Regel (regionale Gepflogenheiten, Wirtshausregeln)\n• Ist keine ortsübliche Regel bekannt, kommt die Ausmachregel «Stöck - Weis - Stich» zur Anwendung",
+    "text": "Definition:\nDie Ausmachregel «Stöck (siehe Begriff \"expressions_stoecke\") - Weis - Stich» kommt zur Anwendung, falls beide Teams nach Abschluss des ersten Stichs (jeder Spieler hat eine Karte ausgespielt) gleichzeitig das abgemachte Ziel erfüllen, wie etwa den Bergpreis (siehe Begriff \"bergpreis\") oder das Schlussziel.\n\nBewertungsreihenfolge:\n• Gemäss dieser Ausmachregel zählen zuerst die Stöcke (siehe Begriff \"expressions_stoecke\")\n• Der Weis steht an zweiter Position, der Stich wird als Drittes gewertet\n\nBesondere Bestimmungen:\n• Tritt die Ausmachregel in Kraft, spielt die Reihenfolge, in der das Bedanken (siehe Begriff \"bedanken\") erfolgt, keine Rolle\n• Nach dem Ausspielen der Karte für den zweiten Stich steht einem Spieler die Berufung auf die Ausmachregel nicht mehr offen\n\nGrundlage:\n• Die Ausmachregel «Stöck - Weis - Stich» basiert auf dem Unwahrscheinlichkeitsprinzip bezüglich der verteilten Karten\n\nVereinbarungen:\n• Abweichende Reihenfolgen (wie «Stöck - Stich - Weis») sind vor Beginn der Partie festzulegen\n• Fehlt eine solche Vereinbarung, greift die ortsübliche Regel (regionale Gepflogenheiten, Wirtshausregeln)\n• Ist keine ortsübliche Regel bekannt, kommt die Ausmachregel «Stöck - Weis - Stich» zur Anwendung",
     "metadata": {
       "id": "ausmachregel_meta",
       "category": {
@@ -86,8 +85,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -108,7 +106,7 @@
       },
       {
         "question": "Bis wann kann man sich auf die Ausmachregel berufen?",
-        "answer": "Nach dem Ausspielen zum zweiten Stich steht einem Spieler die Berufung auf die Ausmachregel nicht mehr offen."
+        "answer": "Nach dem Ausspielen der Karte für den zweiten Stich steht einem Spieler die Berufung auf die Ausmachregel nicht mehr offen."
       },
       {
         "question": "Kann die Reihenfolge der Ausmachregel geändert werden?",
@@ -129,7 +127,7 @@
   },
   "ausspiel": {
     "id": "ausspiel",
-    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nAusnahmen beim Schieber:\n• Schieber oder Coiffeur-Schieber: Spielübernehmer spielt statt Vorhand aus\n• Varianten-Schieber: Bei Guschti, Slalom oder 3 mal 3 spielt bei geschobenen Spielen der trumpfmachende Spieler aus\n\nSonderregel Pandur/Misère:\n• Bei Pandur mit Trumpf oder Misère mit Trumpf muss mit Trumpfkarte eröffnet werden\n\nKartenwahl und Spielablauf:\n• Erstausspieler darf beliebige Karte einer Farbe wählen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
+    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich  einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nAusnahmen beim Schieber:\n• Schieber oder Coiffeur-Schieber: Spielübernehmer spielt statt Vorhand aus\n• Varianten-Schieber: Bei Guschti, Slalom oder 3 mal 3 spielt bei geschobenen Spielen der trumpfmachende Spieler aus\n\nSonderregel Pandur/Misère:\n• Bei Pandur mit Trumpf oder Misère mit Trumpf muss mit Trumpfkarte eröffnet werden\n\nKartenwahl und Spielablauf:\n• Erstausspieler darf beliebige Karte einer Farbe wählen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
     "metadata": {
       "id": "ausspiel_meta",
       "category": {
@@ -149,8 +147,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -206,8 +203,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -271,8 +267,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -309,8 +304,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -365,8 +359,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -398,8 +391,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -413,7 +405,7 @@
   },
   "bodentrumpf": {
     "id": "bodentrumpf",
-    "text": "Definition:\nBodentrumpf ist die unterste Karte nach dem Abheben (siehe Begriff \"abheben\") des Stapels, die die Trumpffarbe für die Runde bestimmt.\n\nRegeln zum Auslegen:\n• Die Karte wird vor oder während des Verteilens mit sichtbarem Bild auf den Tisch gelegt\n• Die Trumpfkarte bleibt offen liegen, bis Vorhand (siehe Begriff \"expressions_vorhand\") zum ersten Stich ausspielt\n\nKonsequenz bei Fehler:\n• Wird nicht sichtbar gelegt, müssen Karten neu verteilt werden",
+    "text": "Definition:\nBodentrumpf ist die unterste Karte nach dem Abheben (siehe Begriff \"abheben\") des Stapels, die die Trumpffarbe für die Runde bestimmt.\n\nRegeln zum Auslegen:\n• Die Karte wird vor oder während des Verteilens mit sichtbarem Bild auf den Tisch gelegt\n• Die Trumpfkarte bleibt offen liegen, bis Vorhand (siehe Begriff \"expressions_vorhand\") zum ersten Stich  ausspielt\n\nKonsequenz bei Fehler:\n• Wird nicht sichtbar gelegt, müssen Karten neu verteilt werden",
     "metadata": {
       "id": "bodentrumpf_meta",
       "category": {
@@ -432,8 +424,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -477,8 +468,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -491,7 +481,7 @@
       },
       {
         "question": "Warum ist der Ablupf für manche Spieler so wichtig?",
-        "answer": "Es gibt Spieler, die das Ablupfen als das Wichtigste beim Jassen überhaupt bezeichnen und mit abergläubischem Eifer und theatralischen Ritualen ablupfen, um das Kartenglück möglichst positiv zu beeinflussen."
+        "answer": "Es gibt Spieler, die das Ablupfen als das Wichtigste beim Jassen überhaupt bezeichnen und mit abergläubischem Eifer und theatralischen Ritualen ab lupfen, um das Kartenglück möglichst positiv zu beeinflussen."
       },
       {
         "question": "Wo finde ich die Regeln zum Ablupfen?",
@@ -524,8 +514,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -566,8 +555,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -589,7 +577,7 @@
   },
   "expressions_ausmachregel": {
     "id": "expressions_ausmachregel",
-    "text": "Definition:\n• Die Ausmachregel kommt zum Tragen, wenn zwei Teams (siehe Begriff \"expressions_team\") gleichzeitig im selben Stich das Spielziel erreichen\n\nZweck:\n• Klärt die Situation bei Schluss oder Bergpreis (siehe Begriff \"expressions_berg\")\n• Sorgt für einen fairen Spielverlauf\n• Wichtig für die korrekte Abrechnung\n• Verhindert Unklarheiten beim Punktestand",
+    "text": "Definition:\n• Die Ausmachregel kommt zum Tragen, wenn zwei Teams (siehe Begriff \"expressions_team\") gleichzeitig im selben Stich  das Spielziel erreichen\n\nZweck:\n• Klärt die Situation bei Schluss oder Bergpreis (siehe Begriff \"expressions_berg\")\n• Sorgt für einen fairen Spielverlauf\n• Wichtig für die korrekte Abrechnung\n• Verhindert Unklarheiten beim Punktestand",
     "metadata": {
       "id": "expressions_ausmachregel_meta",
       "category": {
@@ -604,8 +592,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -645,8 +632,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -682,8 +668,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -719,8 +704,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -742,7 +726,7 @@
   },
   "expressions_bedanken": {
     "id": "expressions_bedanken",
-    "text": "Definition:\nDas Bedanken (siehe Begriff \"bedanken\") ist eine verbindliche Aussage, mit der ein Spieler das aktuelle Spiel beendet.\n\nBedeutung für die Punkteabrechnung:\n• Dieser wichtige Moment ist entscheidend für die Punkteabrechnung\n• Hier werden die finalen Punkte ermittelt und dem entsprechenden Team (siehe Begriff \"expressions_team\") gutgeschrieben",
+    "text": "Definition:\nDas Bedanken (siehe Begriff \"bedanken\") ist eine verbindliche Aussage, mit der ein Spieler das aktuelle Spiel beendet.\n\nBedeutung für die Punkteabrechnung:\n• Dieser wichtige Moment ist entscheidend für die Punkteabrechnung \n• Hier werden die finalen Punkte ermittelt und dem entsprechenden Team (siehe Begriff \"expressions_team\") gutgeschrieben",
     "metadata": {
       "id": "expressions_bedanken_meta",
       "category": {
@@ -758,8 +742,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -801,8 +784,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -842,8 +824,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -882,8 +863,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -919,8 +899,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -959,8 +938,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -996,8 +974,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1034,8 +1011,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1073,8 +1049,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1117,8 +1092,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1152,8 +1126,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1190,8 +1163,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1228,8 +1200,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1272,8 +1243,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1319,8 +1289,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1360,8 +1329,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1380,7 +1348,7 @@
   },
   "expressions_guschti": {
     "id": "expressions_guschti",
-    "text": "Definition:\nGuschti (auch Zwischendurch oder Quer genannt) ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\n• Es werden vier oder fünf Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln und vier oder fünf Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln gespielt\n• Die Reihenfolge kann auch umgekehrt sein, also vier oder fünf Stiche Undenufe und dann vier oder fünf Stiche nach Obenabe\n• Der trumpfansagende Spieler bestimmt, ob zuerst vier oder fünf Obe oder vier oder fünf Undenufe angesagt werden.\n\nTipp:\nWenn geschoben wird, ist es sicherer zuerst fünf anzusagen, um in den Stich zu kommen.",
+    "text": "Definition:\nGuschti (auch Zwischendurch oder Quer genannt) ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\n• Es werden vier Stiche  nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln und fünf Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln gespielt\n• Die Reihenfolge kann auch umgekehrt sein\n\nCharakteristik:\nDiese Variante bringt Abwechslung ins Spiel.",
     "metadata": {
       "id": "expressions_guschti_meta",
       "category": {
@@ -1397,8 +1365,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1439,8 +1406,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1464,7 +1430,7 @@
   },
   "expressions_handkarten": {
     "id": "expressions_handkarten",
-    "text": "Grundkonzept:\n• Handkarten sind das Blatt oder die Karten, die ein Spieler gefächert in der Hand hält\n• Diese Karten bilden das persönliche Spielmaterial jedes Teilnehmers\n• Bestimmen die taktischen Möglichkeiten während der Partie (siehe Begriff \"expressions_partie\")",
+    "text": "Grundkonzept:\n• Handkarten sind das Blatt  oder die Karten, die ein Spieler gefächert in der Hand hält\n• Diese Karten bilden das persönliche Spielmaterial jedes Teilnehmers\n• Bestimmen die taktischen Möglichkeiten während der Partie (siehe Begriff \"expressions_partie\")",
     "metadata": {
       "id": "expressions_handkarten_meta",
       "category": {
@@ -1479,8 +1445,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1518,8 +1483,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1541,7 +1505,7 @@
   },
   "expressions_hindersi": {
     "id": "expressions_hindersi",
-    "text": "Definition:\nHindersi sind Spielvarianten mit umgekehrter Punktezählung (z.B. Misère oder Monotov).\n\nSpielziel:\nDas Ziel ist es, möglichst wenige Kartenpunkte zu erreichen, was eine völlig andere Spielstrategie erfordert als beim normalen Jass. Wer die wenigsten Punkte sammelt, gewinnt diese Variante.",
+    "text": "Definition:\nHindersi ist eine Spielvariante mit umgekehrter Punktezählung.\n\nSpielziel:\nDas Ziel ist es, möglichst wenige Kartenpunkte zu erreichen, was eine völlig andere Spielstrategie erfordert als beim normalen Jass. Wer die wenigsten Punkte  sammelt, gewinnt diese Variante.",
     "metadata": {
       "id": "expressions_hindersi_meta",
       "category": {
@@ -1556,8 +1520,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1595,8 +1558,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1638,8 +1600,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1683,8 +1644,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1725,8 +1685,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1755,8 +1714,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1792,8 +1750,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1815,7 +1772,7 @@
   },
   "expressions_kontermatsch": {
     "id": "expressions_kontermatsch",
-    "text": "Definition:\n• Kontermatsch bezeichnet die Situation, in der das nicht trumpfmachende Team (siehe Begriff \"expressions_team\") alle Stiche erzielt\n• Auch hier gibt es die Matschprämie (siehe Begriff \"expressions_matschpraemie\"), allerdings für die gegnerische Seite\n• Da dieses Ereignis sehr selten vorkommt, werden oft zwei Striche notiert, um die besondere Leistung zu würdigen",
+    "text": "Definition:\n• Kontermatsch bezeichnet die Situation, in der das nicht trumpfmachende Team (siehe Begriff \"expressions_team\") alle Stiche  erzielt\n• Auch hier gibt es die Matschprämie (siehe Begriff \"expressions_matschpraemie\"), allerdings für die gegnerische Seite\n• Da dieses Ereignis sehr selten vorkommt, werden oft zwei Striche notiert, um die besondere Leistung zu würdigen",
     "metadata": {
       "id": "expressions_kontermatsch_meta",
       "category": {
@@ -1831,8 +1788,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1871,8 +1827,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1909,8 +1864,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1945,8 +1899,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -1985,8 +1938,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2008,7 +1960,7 @@
   },
   "expressions_matsch": {
     "id": "expressions_matsch",
-    "text": "Definition:\n• Matsch bedeutet, dass ein Team (siehe Begriff \"expressions_team\") alle Stiche eines Umlaufs erzielt\n\nBelohnung:\n• Das wird in der Regel mit einer Matschprämie (siehe Begriff \"expressions_matschpraemie\") belohnt, die je nach Spielvariante unterschiedlich hoch ausfällt\n\nSeltenheit:\n• Beim Schieber beträgt die Matschprämie 100 Extrapunkte.",
+    "text": "Definition:\n• Matsch  bedeutet, dass ein Team (siehe Begriff \"expressions_team\") alle Stiche  eines Umlaufs erzielt\n\nBelohnung:\n• Diese aussergewöhnliche Leistung wird in der Regel mit einer Prämie (siehe Begriff \"expressions_matschpraemie\") belohnt, die je nach Spielvariante unterschiedlich hoch ausfällt\n\nSeltenheit:\n• Der Matsch ist ein seltenes, aber sehr lohnendes Ereignis im Spielverlauf",
     "metadata": {
       "id": "expressions_matsch_meta",
       "category": {
@@ -2024,8 +1976,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2070,8 +2021,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2121,8 +2071,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2147,7 +2096,7 @@
   },
   "expressions_misere": {
     "id": "expressions_misere",
-    "text": "Definition:\nMisère ist eine Spezialvariante bei Pandur und Bieter, bei der der Spielübernehmer keinen einzigen Stich machen darf, was diese Variante besonders herausfordernd macht.\n\nVariation:\nBei manchen Spielgruppen wird Misère auch als Schieber-Variante gespielt, was zusätzliche taktische Möglichkeiten eröffnet.",
+    "text": "Definition:\nDie Misère ist eine Spezialvariante bei Pandur  und Bieter, bei der der Spielübernehmer keinen einzigen Stich  machen darf, was diese Variante besonders herausfordernd macht.\n\nVariation:\nBei manchen Spielgruppen wird Misère auch als Schieber-Variante gespielt, was zusätzliche taktische Möglichkeiten eröffnet.",
     "metadata": {
       "id": "expressions_misere_meta",
       "category": {
@@ -2165,8 +2114,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2211,8 +2159,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2252,8 +2199,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "synonyms": [
       "näll",
@@ -2303,8 +2249,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2343,8 +2288,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2382,8 +2326,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2420,8 +2363,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2455,8 +2397,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2491,8 +2432,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2531,8 +2471,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2566,8 +2505,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2589,7 +2527,7 @@
   },
   "expressions_rest": {
     "id": "expressions_rest",
-    "text": "Definition:\n• Mit Rest wird die Bemerkung bezeichnet, wenn ein Spieler ankündigt, die restlichen Stiche machen zu können\n\nWichtiger Hinweis:\n• Diese Ansage ist in den meisten Spielvarianten nicht erlaubt\n• Sollte daher vor dem Spiel geklärt werden",
+    "text": "Definition:\n• Mit Rest wird die Bemerkung bezeichnet, wenn ein Spieler ankündigt, die restlichen Stiche  machen zu können\n\nWichtiger Hinweis:\n• Diese Ansage ist in den meisten Spielvarianten nicht erlaubt\n• Sollte daher vor dem Spiel geklärt werden",
     "metadata": {
       "id": "expressions_rest_meta",
       "category": {
@@ -2604,8 +2542,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2644,8 +2581,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2685,8 +2621,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2725,8 +2660,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2763,8 +2697,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2801,8 +2734,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2840,8 +2772,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2878,8 +2809,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2901,7 +2831,7 @@
   },
   "expressions_schmieren": {
     "id": "expressions_schmieren",
-    "text": "Definition:\nDas Schmieren bedeutet, dass man seinem Partner punktemässig wertvolle Karten zu seinem Stich beigibt.\n\nBedeutung:\n• Diese wichtige taktische Spielaktion stärkt die Teamarbeit\n• Hilft dabei, möglichst viele Punkte zu sammeln",
+    "text": "Definition:\nDas Schmieren bedeutet, dass man seinem Partner punktemässig wertvolle Karten zu seinem Stich  beigibt.\n\nBedeutung:\n• Diese wichtige taktische Spielaktion stärkt die Teamarbeit\n• Hilft dabei, möglichst viele Punkte  zu sammeln",
     "metadata": {
       "id": "expressions_schmieren_meta",
       "category": {
@@ -2916,8 +2846,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -2956,8 +2885,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3001,8 +2929,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3024,7 +2951,7 @@
   },
   "expressions_slalom": {
     "id": "expressions_slalom",
-    "text": "Definition:\nSlalom (oder Zickzack) ist eine spezielle Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann.\n\nAnforderung:\nDiese Variante erfordert viel Aufmerksamkeit und strategisches Denken.",
+    "text": "Definition:\nSlalom (oder Zickzack) ist eine spezielle Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich  nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann.\n\nAnforderung:\nDiese Variante erfordert viel Aufmerksamkeit und strategisches Denken.",
     "metadata": {
       "id": "expressions_slalom_meta",
       "category": {
@@ -3040,8 +2967,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3066,7 +2992,7 @@
   },
   "expressions_solokarte": {
     "id": "expressions_solokarte",
-    "text": "Definition:\n• Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt\n• Diese Situation ist taktisch bedeutsam, da sie sowohl Möglichkeiten als auch Risiken birgt\n• Der Spieler muss entscheiden, wann der richtige Zeitpunkt ist, diese Karte zu spielen",
+    "text": "Definition:\n• Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt  besitzt\n• Diese Situation ist taktisch bedeutsam, da sie sowohl Möglichkeiten als auch Risiken birgt\n• Der Spieler muss entscheiden, wann der richtige Zeitpunkt ist, diese Karte zu spielen",
     "metadata": {
       "id": "expressions_solokarte_meta",
       "category": {
@@ -3082,8 +3008,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3120,8 +3045,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3143,7 +3067,7 @@
   },
   "expressions_stechkarten": {
     "id": "expressions_stechkarten",
-    "text": "Definition:\n• Stechkarten sind stechmässig höhere Karten als die im laufenden Stich gespielten\n\nBedeutung:\n• Diese Karten sind wichtig für die taktische Spielplanung, da sie die Möglichkeit bieten, den Stich zu gewinnen\n\nHierarchie:\n• Das Verständnis der Stechhierarchie ist entscheidend für erfolgreiches Jassen",
+    "text": "Definition:\n• Stechkarten sind stechmässig höhere Karten als die im laufenden Stich  gespielten\n\nBedeutung:\n• Diese Karten sind wichtig für die taktische Spielplanung, da sie die Möglichkeit bieten, den Stich zu gewinnen\n\nHierarchie:\n• Das Verständnis der Stechhierarchie ist entscheidend für erfolgreiches Jassen",
     "metadata": {
       "id": "expressions_stechkarten_meta",
       "category": {
@@ -3159,8 +3083,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3197,8 +3120,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3235,8 +3157,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3271,8 +3192,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3313,8 +3233,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3351,8 +3270,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3395,8 +3313,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3434,8 +3351,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3471,8 +3387,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3491,7 +3406,7 @@
   },
   "expressions_trio": {
     "id": "expressions_trio",
-    "text": "Definition:\nTrio (oder 3×3) ist eine komplexe Trumpf (siehe Begriff \"bodentrumpf\")-Variante, bei der drei Stiche mit Trumpf, drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden.\n\nTaktische Flexibilität:\nDie Reihenfolge dieser drei Spielarten ist frei wählbar, was dem Spieler taktische Flexibilität gibt.",
+    "text": "Definition:\nTrio (oder 3×3) ist eine komplexe Trumpf (siehe Begriff \"bodentrumpf\")-Variante, bei der drei Stiche  mit Trumpf, drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden.\n\nTaktische Flexibilität:\nDie Reihenfolge dieser drei Spielarten ist frei wählbar, was dem Spieler taktische Flexibilität gibt.",
     "metadata": {
       "id": "expressions_trio_meta",
       "category": {
@@ -3507,8 +3422,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3550,8 +3464,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3590,8 +3503,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3614,7 +3526,7 @@
   },
   "expressions_trumpf_bauer_kombinationen": {
     "id": "expressions_trumpf_bauer_kombinationen",
-    "text": "Definition:\n• Trumpf-Bauer-Kombinationen sind wichtige Weismeldungen (siehe Begriff \"expressions_weismeldung\"), die aus dem Trumpf-Bauer und weiteren Trumpfkarten (siehe Begriff \"bodentrumpf\") bestehen\n\nKombinationen:\n• \"zu dritt\" (2 weitere), \"zu viert\" (3 weitere), \"zu fünft\" (4 weitere), \"zu sechst\" (5 weitere Trumpfkarten)\n\nWert:\n• Diese Kombinationen erhöhen den Wert des Weises erheblich",
+    "text": "Definition:\n• Trumpf-Bauer-Kombinationen sind wichtige Weismeldungen (siehe Begriff \"expressions_weismeldung\"), die aus dem Trumpf-Bauer  und weiteren Trumpfkarten (siehe Begriff \"bodentrumpf\") bestehen\n\nKombinationen:\n• \"zu dritt\" (2 weitere), \"zu viert\" (3 weitere), \"zu fünft\" (4 weitere), \"zu sechst\" (5 weitere Trumpfkarten)\n\nWert:\n• Diese Kombinationen erhöhen den Wert des Weises erheblich",
     "metadata": {
       "id": "expressions_trumpf_bauer_kombinationen_meta",
       "category": {
@@ -3633,8 +3545,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3673,8 +3584,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3696,7 +3606,7 @@
   },
   "expressions_untertrumpfen": {
     "id": "expressions_untertrumpfen",
-    "text": "Definition:\nUntertrumpfen (siehe Begriff \"untertrumpfen\") bedeutet, dass man einem bereits laufenden Stich eine Trumpfkarte (siehe Begriff \"bodentrumpf\") beigibt, die stechmässig niedriger ist als bereits im Stich vorhandene Trumpfkarten.\n\nVorteil:\n• Diese taktische Spielaktion ermöglicht es, den Stich zu gewinnen, ohne dabei die höchsten Trumpfkarten einsetzen zu müssen",
+    "text": "Definition:\nUntertrumpfen (siehe Begriff \"untertrumpfen\") bedeutet, dass man einem bereits laufenden Stich  eine Trumpfkarte (siehe Begriff \"bodentrumpf\") beigibt, die stechmässig niedriger ist als bereits im Stich vorhandene Trumpfkarten.\n\nVorteil:\n• Diese taktische Spielaktion ermöglicht es, den Stich zu gewinnen, ohne dabei die höchsten Trumpfkarten einsetzen zu müssen",
     "metadata": {
       "id": "expressions_untertrumpfen_meta",
       "category": {
@@ -3711,8 +3621,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3736,7 +3645,7 @@
   },
   "expressions_unterzug": {
     "id": "expressions_unterzug",
-    "text": "Definition:\nBeim Unterzug spielt man absichtlich eine stechmässig niedrige Karte aus einer starken und langen Farbe, mit dem Ziel, den Stich nicht zu gewinnen.\n\nTaktischer Zweck:\n• Diese Spielaktion wird eingesetzt, wenn man den Stich lieber dem Partner oder einem Gegner überlassen möchte\n• Hohe Karten werden für spätere entscheidende Stiche aufgehoben",
+    "text": "Definition:\nBeim Unterzug spielt man absichtlich eine stechmässig niedrige Karte aus einer starken und langen Farbe, mit dem Ziel, den Stich  nicht zu gewinnen.\n\nTaktischer Zweck:\n• Diese Spielaktion wird eingesetzt, wenn man den Stich lieber dem Partner oder einem Gegner überlassen möchte\n• Hohe Karten werden für spätere entscheidende Stiche aufgehoben",
     "metadata": {
       "id": "expressions_unterzug_meta",
       "category": {
@@ -3751,8 +3660,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3791,8 +3699,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3814,7 +3721,7 @@
   },
   "expressions_verwerfen": {
     "id": "expressions_verwerfen",
-    "text": "Definition:\nDas Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich. Diese Spielaktion signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt.\n\nZweck:\nAuf diese Weise kann man wichtige Informationen an den Partner weitergeben und die Teamkoordination verbessern.",
+    "text": "Definition:\nDas Verwerfen  bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich . Diese Spielaktion signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt.\n\nZweck:\nAuf diese Weise kann man wichtige Informationen an den Partner weitergeben und die Teamkoordination verbessern.",
     "metadata": {
       "id": "expressions_verwerfen_meta",
       "category": {
@@ -3829,8 +3736,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3870,8 +3776,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3908,8 +3813,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3947,8 +3851,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -3989,8 +3892,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4029,8 +3931,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4066,8 +3967,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "synonyms": [
       "weispunkte",
@@ -4095,7 +3995,7 @@
   },
   "falscher_spieler": {
     "id": "falscher_spieler",
-    "text": "Definition:\nFalscher Spieler spielt aus bedeutet, dass jemand zu einem Stich die erste Karte ausspielt, obwohl ein anderer Spieler an der Reihe gewesen wäre (beim ersten Stich oder wenn der Gewinner des vorherigen Stichs hätte ausspielen müssen).\n\nGrundregeln bei Fehler:\n• Die irrtümlich gespielte Karte muss wieder zurückgenommen werden\n• Diese Karte verliert den Stechwert, aber nicht den Zählwert\n• Der Spieler, der eigentlich an der Reihe gewesen wäre, spielt nun zum Stich aus\n• Der Zählwert dieses Stichs gehört dem nicht fehlbaren Gegner\n\nNächster Stich:\n• Zum nächsten Stich (falls ein solcher gespielt werden muss) spielt der vom fehlbaren Spieler rechts sitzende Jasser aus\n• Ausnahme: Wenn ein Spieler vom nicht fehlbaren Team (siehe Begriff \"expressions_team\") bereits im Stich ist und der Spieler rechts von ihm falsch ausgespielt hat, dann bleibt der betreffende Spieler weiterhin im Stich\n\nAusnahme hindersi-Spiele:\n• Beim Differenzler, Hindersi (siehe Begriff \"expressions_hindersi\"), Molotow, Schellenjass und so weiter, also bei allen Jassarten, bei denen ein Stechverlust zum Vorteil des fehlbaren Spielers ist, gilt die Regel betreffend Stechwert verlieren nicht\n• Die Gegner dürfen überdies entscheiden, ob der fehlbare Spieler beim nächsten Stich ausspielen muss oder ob der Spieler rechts vom fehlbaren Spieler an der Reihe ist",
+    "text": "Definition:\nFalscher Spieler spielt aus bedeutet, dass jemand zu einem Stich  die erste Karte ausspielt, obwohl ein anderer Spieler an der Reihe gewesen wäre (beim ersten Stich oder wenn der Gewinner des vorherigen Stichs hätte ausspielen müssen).\n\nGrundregeln bei Fehler:\n• Die irrtümlich gespielte Karte muss wieder zurückgenommen werden\n• Diese Karte verliert den Stechwert, aber nicht den Zählwert\n• Der Spieler, der eigentlich an der Reihe gewesen wäre, spielt nun zum Stich aus\n• Der Zählwert dieses Stichs gehört dem nicht fehlbaren Gegner\n\nNächster Stich:\n• Zum nächsten Stich (falls ein solcher gespielt werden muss) spielt der vom fehlbaren Spieler rechts sitzende Jasser aus\n• Ausnahme: Wenn ein Spieler vom nicht fehlbaren Team (siehe Begriff \"expressions_team\") bereits im Stich ist und der Spieler rechts von ihm falsch ausgespielt hat, dann bleibt der betreffende Spieler weiterhin im Stich\n\nAusnahme hindersi-Spiele:\n• Beim Differenzler, Hindersi (siehe Begriff \"expressions_hindersi\"), Molotow, Schellenjass und so weiter, also bei allen Jassarten, bei denen ein Stechverlust zum Vorteil des fehlbaren Spielers ist, gilt die Regel betreffend Stechwert verlieren nicht\n• Die Gegner dürfen überdies entscheiden, ob der fehlbare Spieler beim nächsten Stich ausspielen muss oder ob der Spieler rechts vom fehlbaren Spieler an der Reihe ist",
     "metadata": {
       "id": "falscher_spieler_meta",
       "category": {
@@ -4114,8 +4014,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4163,8 +4062,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4205,8 +4103,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4254,8 +4151,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4314,8 +4210,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4365,8 +4260,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4419,8 +4313,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "source": "Schweizer Spielkartenmuseum",
-      "taxonomy_tier": 3
+      "source": "Schweizer Spielkartenmuseum"
     },
     "faqs": [
       {
@@ -4460,8 +4353,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4509,8 +4401,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4549,8 +4440,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4588,8 +4478,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4628,8 +4517,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4671,8 +4559,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4695,7 +4582,7 @@
   },
   "general_game_basics": {
     "id": "general_game_basics",
-    "text": "Grundkonzept:\nDer Jass ist ein Stichspiel für in der Regel vier Spieler, die in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander antreten.\n\nGrundelemente:\n• **Kartenset:** Gespielt wird mit 36 Karten in vier verschiedenen Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Spielziel:** Ziel ist es, durch geschicktes Ausspielen möglichst viele Punkte zu erzielen\n• **Trumpfsystem:** Eine Farbe oder Sonderregel wird als Trumpf (siehe Begriff \"bodentrumpf\") festgelegt, der besondere Stärke verleiht\n\nSpielablauf:\nNach dem Austeilen der Karten wird der Trumpf bestimmt. Dann spielen die Spieler reihum Karten aus (siehe Begriff \"vorspielen\"), wobei grundsätzlich die Farbe bekannt werden muss.\n\nTeamarbeit:\nPartner sitzen sich gegenüber und versuchen, durch koordiniertes Spiel gemeinsam Stiche und Punkte zu gewinnen.",
+    "text": "Grundkonzept:\nDer Jass ist ein Stichspiel für in der Regel vier Spieler, die in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander antreten.\n\nGrundelemente:\n• **Kartenset:** Gespielt wird mit 36 Karten in vier verschiedenen Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Spielziel:** Ziel ist es, durch geschicktes Ausspielen möglichst viele Punkte  zu erzielen\n• **Trumpfsystem:** Eine Farbe oder Sonderregel wird als Trumpf (siehe Begriff \"bodentrumpf\") festgelegt, der besondere Stärke verleiht\n\nSpielablauf:\nNach dem Austeilen der Karten wird der Trumpf bestimmt. Dann spielen die Spieler reihum Karten aus (siehe Begriff \"vorspielen\"), wobei grundsätzlich die Farbe bekannt werden muss.\n\nTeamarbeit:\nPartner sitzen sich gegenüber und versuchen, durch koordiniertes Spiel gemeinsam Stiche  und Punkte zu gewinnen.",
     "metadata": {
       "id": "general_game_basics_meta",
       "category": {
@@ -4717,8 +4604,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4767,8 +4653,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4794,7 +4679,7 @@
   },
   "general_gameplay": {
     "id": "general_gameplay",
-    "text": "Grundregeln des Spielverlaufs:\n• Spieler müssen bedienen (siehe Begriff \"nichtfarben\"), wenn möglich\n• Trumpf (siehe Begriff \"bodentrumpf\") kann alle anderen Farben stechen\n• Wer den Stich gewinnt, spielt die nächste Karte aus\n• Nach neun Stichen ist die Runde vorbei\n\nPunktezählung:\n• Punkte werden gezählt: Kartenwerte, Weise, Match-Bonus",
+    "text": "Grundregeln des Spielverlaufs:\n• Spieler müssen bedienen (siehe Begriff \"nichtfarben\"), wenn möglich\n• Trumpf (siehe Begriff \"bodentrumpf\") kann alle anderen Farben stechen\n• Wer den Stich  gewinnt, spielt die nächste Karte aus\n• Nach neun Stichen ist die Runde vorbei\n\nPunktezählung:\n• Punkte werden gezählt: Kartenwerte, Weise, Match-Bonus",
     "metadata": {
       "id": "general_gameplay_meta",
       "category": {
@@ -4815,8 +4700,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4867,8 +4751,7 @@
       ],
       "importance": 0.7,
       "difficulty": 2,
-      "source": "Schweizer Spielkartenmuseum",
-      "taxonomy_tier": 3
+      "source": "Schweizer Spielkartenmuseum"
     },
     "faqs": [
       {
@@ -4933,8 +4816,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -4991,8 +4873,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5037,8 +4918,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5063,7 +4943,7 @@
   },
   "general_most_important_rules": {
     "id": "general_most_important_rules",
-    "text": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels.\n\nKernregeln:\n• **Farbe bekennen:** Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt\n• **Trumpfpflicht:** Kann man die Farbe nicht bedienen, muss man Trumpf (siehe Begriff \"bodentrumpf\") spielen (falls vorhanden)\n• **Übertrumpfen:** Hat ein Mitspieler bereits mit Trumpf gestochen, muss man wenn möglich höher trumpfen (siehe Begriff \"untertrumpfen\")\n• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus\n\nAusnahmen:\nDiese Grundregeln können je nach Variante leicht variieren oder ergänzt werden. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nRegelkonformität:\nDie Einhaltung dieser Regeln ist essentiell für ein faires Spiel und wird bei Verstössen entsprechend geahndet.",
+    "text": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels.\n\nKernregeln:\n• **Farbe bekennen:** Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt\n• **Trumpfpflicht:** Kann man die Farbe nicht bedienen, muss man Trumpf (siehe Begriff \"bodentrumpf\") spielen (falls vorhanden)\n• **Übertrumpfen:** Hat ein Mitspieler bereits mit Trumpf gestochen, muss man wenn möglich höher trumpfen (siehe Begriff \"untertrumpfen\")\n• **Stichfolge:** Wer den Stich  macht, spielt die nächste Karte aus\n\nAusnahmen:\nDiese Grundregeln können je nach Variante leicht variieren oder ergänzt werden. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nRegelkonformität:\nDie Einhaltung dieser Regeln ist essentiell für ein faires Spiel und wird bei Verstössen entsprechend geahndet.",
     "metadata": {
       "id": "general_most_important_rules_meta",
       "category": {
@@ -5087,8 +4967,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5134,8 +5013,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5178,8 +5056,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5241,9 +5118,7 @@
         "START",
         "LEARNING"
       ],
-      "source": "jasswiki.ch Redaktion",
-      "taxonomy_tier": 1,
-      "wikidata_id": "Q137727247"
+      "source": "jasswiki.ch Redaktion"
     },
     "see_also": [
       "vorhand",
@@ -5309,8 +5184,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5361,8 +5235,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5397,7 +5270,7 @@
   },
   "general_trump_values": {
     "id": "general_trump_values",
-    "text": "Grundregel:\nIm Trumpf-Spiel (siehe Begriff \"bodentrumpf\") gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel.\n\nTrumpf-Sonderwerte:\n• Der Under (Puur) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte\n• Der Neuner der Trumpffarbe heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte\n• Diese beiden Karten sind die höchsten Trümpfe im gesamten Spiel",
+    "text": "Grundregel:\nIm Trumpf-Spiel (siehe Begriff \"bodentrumpf\") gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte  zählen als im normalen Spiel.\n\nTrumpf-Sonderwerte:\n• Der Under (Puur ) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte\n• Der Neuner der Trumpffarbe heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte\n• Diese beiden Karten sind die höchsten Trümpfe im gesamten Spiel",
     "metadata": {
       "id": "general_trump_values_meta",
       "category": {
@@ -5419,8 +5292,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "synonyms": [
       "puur",
@@ -5479,8 +5351,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5541,8 +5412,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5597,8 +5467,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "source": "STÖCK WEIS STICH - Der neue Schweizer Jassführer (Dani Müller)",
-      "taxonomy_tier": 3
+      "source": "STÖCK WEIS STICH - Der neue Schweizer Jassführer (Dani Müller)"
     },
     "faqs": [
       {
@@ -5655,8 +5524,7 @@
       ],
       "importance": 0.99,
       "difficulty": 2,
-      "source": "Gastbeitrag von Dr. Michael Koller, zitiert von Wikipedia",
-      "taxonomy_tier": 3
+      "source": "Gastbeitrag von Dr. Michael Koller, zitiert von Wikipedia"
     },
     "faqs": [
       {
@@ -5703,8 +5571,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5749,8 +5616,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5795,8 +5661,7 @@
       ],
       "importance": 0.6,
       "difficulty": 2,
-      "source": "STÖCK WEIS STICH - Kulturgeschichte von Erika Lüscher",
-      "taxonomy_tier": 3
+      "source": "STÖCK WEIS STICH - Kulturgeschichte von Erika Lüscher"
     },
     "faqs": [
       {
@@ -5846,8 +5711,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -5893,8 +5757,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "source": "STÖCK WEIS STICH - Kulturgeschichte von Erika Lüscher",
-      "taxonomy_tier": 3
+      "source": "STÖCK WEIS STICH - Kulturgeschichte von Erika Lüscher"
     },
     "faqs": [
       {
@@ -5944,8 +5807,7 @@
       ],
       "importance": 2,
       "difficulty": 1,
-      "source": "J.N. Ramstein; Schweizerisches Jass-Reglement (1895, 2. Auflage 1901). Artikel von André Stutz, veröffentlicht auf edjv.ch (Eidgenössischer Differenzler Verband).",
-      "taxonomy_tier": 3
+      "source": "J.N. Ramstein; Schweizerisches Jass-Reglement (1895, 2. Auflage 1901). Artikel von André Stutz, veröffentlicht auf edjv.ch (Eidgenössischer Differenzler Verband)."
     },
     "faqs": [
       {
@@ -5987,8 +5849,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6032,8 +5893,7 @@
       ],
       "importance": 0.7,
       "difficulty": 2,
-      "source": "STÖCK WEIS STICH - Der neue Schweizer Jassführer (Dani Müller)",
-      "taxonomy_tier": 3
+      "source": "STÖCK WEIS STICH - Der neue Schweizer Jassführer (Dani Müller)"
     },
     "faqs": [
       {
@@ -6078,8 +5938,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6130,8 +5989,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6177,8 +6035,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6218,8 +6075,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6266,8 +6122,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6318,8 +6173,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6338,7 +6192,7 @@
   },
   "jassapps_jasstafel": {
     "id": "jassapps_jasstafel",
-    "text": "App-Überblick:\nJasstafel ist eine digitale App zum Notieren (siehe Begriff \"schreiben\") der Punkte beim Jassen.\n\nHauptfunktionen:\n• **Digitale Punktetafel:** Ersetzt Papier und Stift durch eine übersichtliche digitale Anzeige\n• **Automatische Berechnung:** Summiert die Punkte automatisch und zeigt den aktuellen Spielstand\n• **Verschiedene Modi:** Unterstützt unterschiedliche Spielvarianten und Punktesysteme\n• **Übersichtlich:** Klare Darstellung des Spielverlaufs und der Zwischenstände\n\nPraktischer Nutzen:\nDie App vereinfacht das Punkteschreiben (siehe Begriff \"schreiben\") erheblich und reduziert Rechenfehler.\n\nVerfügbarkeit:\nJasstafel ist für mobile Geräte verfügbar.",
+    "text": "App-Überblick:\nJasstafel ist eine digitale App zum Notieren (siehe Begriff \"schreiben\") der Punkte  beim Jassen.\n\nHauptfunktionen:\n• **Digitale Punktetafel:** Ersetzt Papier und Stift durch eine übersichtliche digitale Anzeige\n• **Automatische Berechnung:** Summiert die Punkte  automatisch und zeigt den aktuellen Spielstand\n• **Verschiedene Modi:** Unterstützt unterschiedliche Spielvarianten und Punktesysteme\n• **Übersichtlich:** Klare Darstellung des Spielverlaufs und der Zwischenstände\n\nPraktischer Nutzen:\nDie App vereinfacht das Punkteschreiben (siehe Begriff \"schreiben\") erheblich und reduziert Rechenfehler.\n\nVerfügbarkeit:\nJasstafel ist für mobile Geräte verfügbar.",
     "metadata": {
       "id": "jassapps_jasstafel_meta",
       "category": {
@@ -6360,8 +6214,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6404,8 +6257,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6450,8 +6302,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6498,8 +6349,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -6518,7 +6368,7 @@
   },
   "karte_faellt_runter": {
     "id": "karte_faellt_runter",
-    "text": "Definition:\nKarte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.\n\nEntscheidung durch Gegner:\nDie Gegner entscheiden, wie in dieser Situation verfahren wird:\n\n• Option 1 - Weiterspielen: Die Karte wird ignoriert und das Spiel wird normal fortgesetzt\n• Option 2 - Spiel annullieren: Das Spiel wird für ungültig erklärt und neu begonnen\n• Option 3 - Stich geht an Gegner: Die betroffene Karte verliert ihren Stechwert und der Spieler rechts vom fehlerhaften Spieler spielt als nächstes aus, analog zum Verfahren bei Nichtfarben (siehe Begriff \"nichtfarben\")\n\nKonsequenz:\n• In jedem Fall verliert die heruntergefallene Karte ihren Stechwert",
+    "text": "Definition:\nKarte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.\n\nEntscheidung durch Gegner:\nDie Gegner entscheiden, wie in dieser Situation verfahren wird:\n\n• Option 1 - Weiterspielen: Die Karte wird ignoriert und das Spiel wird normal fortgesetzt\n• Option 2 - Spiel annullieren: Das Spiel wird für ungültig erklärt und neu begonnen\n• Option 3 - Stich  geht an Gegner: Die betroffene Karte verliert ihren Stechwert und der Spieler rechts vom fehlerhaften Spieler spielt als nächstes aus, analog zum Verfahren bei Nichtfarben (siehe Begriff \"nichtfarben\")\n\nKonsequenz:\n• In jedem Fall verliert die heruntergefallene Karte ihren Stechwert",
     "metadata": {
       "id": "karte_faellt_runter_meta",
       "category": {
@@ -6540,8 +6390,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6589,8 +6438,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6633,8 +6481,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6677,8 +6524,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6718,8 +6564,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6764,8 +6609,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6793,7 +6637,7 @@
   },
   "letzter_stich": {
     "id": "letzter_stich",
-    "text": "Regel:\nDer letzte Stich eines Spiels zählt zusätzlich 5 Punkte.\n\nAusnahmen:\n• Bei Cinq Cents\n• Bei Doppelkart-Spielen",
+    "text": "Regel:\nDer letzte Stich  eines Spiels zählt zusätzlich 5 Punkte.\n\nAusnahmen:\n• Bei Cinq Cents\n• Bei Doppelkart-Spielen",
     "metadata": {
       "id": "letzter_stich_meta",
       "category": {
@@ -6811,8 +6655,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6851,8 +6694,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6893,8 +6735,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 1
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6936,8 +6777,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -6987,8 +6827,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7061,8 +6900,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7121,8 +6959,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7163,8 +7000,7 @@
       ],
       "situations": [
         "LEARNING"
-      ],
-      "taxonomy_tier": 3
+      ]
     },
     "faqs": [
       {
@@ -7205,8 +7041,7 @@
       ],
       "situations": [
         "LEARNING"
-      ],
-      "taxonomy_tier": 3
+      ]
     },
     "faqs": [
       {
@@ -7247,8 +7082,7 @@
       ],
       "situations": [
         "LEARNING"
-      ],
-      "taxonomy_tier": 3
+      ]
     },
     "faqs": [
       {
@@ -7293,8 +7127,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7322,7 +7155,7 @@
   },
   "schieber_conventions": {
     "id": "schieber_conventions",
-    "text": "Definition:\nKonventionen sind ungeschriebene, aber weitverbreitete Verhaltensweisen und Signale zwischen Partnern beim Schieber.\n\nWichtige Konventionen:\n• **Erste Karte signalisiert:** Die erste ausgespielte Karte gibt oft Hinweise auf Stärke oder Schwäche in dieser Farbe (siehe Begriff \"expressions_kartenfarben\")\n• **Verwerfen kommuniziert:** Das Abwerfen bestimmter Karten signalisiert dem Partner Informationen über die eigene Hand\n• **Stechentscheidungen:** Ob und wie man sticht, kann als Signal verstanden werden\n\nWichtigkeit:\nDas Verständnis und die Anwendung dieser Konventionen sind entscheidend für erfolgreiche Teamarbeit beim Schieber.\n\nVariabilität:\nKonventionen können regional oder innerhalb von Spielgruppen variieren, daher ist es ratsam, sich vor dem Spiel abzustimmen.",
+    "text": "Definition:\nKonventionen sind ungeschriebene, aber weitverbreitete Verhaltensweisen und Signale zwischen Partnern beim Schieber.\n\nWichtige Konventionen:\n• **Erste Karte signalisiert:** Die erste ausgespielte Karte gibt oft Hinweise auf Stärke oder Schwäche in dieser Farbe (siehe Begriff \"expressions_kartenfarben\")\n• **Verwerfen kommuniziert:** Das Abwerfen  bestimmter Karten signalisiert dem Partner Informationen über die eigene Hand\n• **Stechentscheidungen:** Ob und wie man sticht , kann als Signal verstanden werden\n\nWichtigkeit:\nDas Verständnis und die Anwendung dieser Konventionen sind entscheidend für erfolgreiche Teamarbeit beim Schieber.\n\nVariabilität:\nKonventionen können regional oder innerhalb von Spielgruppen variieren, daher ist es ratsam, sich vor dem Spiel abzustimmen.",
     "metadata": {
       "id": "schieber_conventions_meta",
       "category": {
@@ -7344,8 +7177,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7395,8 +7227,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7418,7 +7249,7 @@
   },
   "schieber_taktiken_anziehen": {
     "id": "schieber_taktiken_anziehen",
-    "text": "Definition:\nDas Anziehen (siehe Begriff \"expressions_anziehen\") ist eine wichtige Taktik, bei der man eine Farbe (siehe Begriff \"expressions_kartenfarben\") ausspielt, um die Trumpfkarten (siehe Begriff \"bodentrumpf\") der Gegner zu entfernen.\n\nStrategischer Zweck:\n• **Trumpf-Entzug:** Gegner werden gezwungen, ihre wertvollen Trumpfkarten (siehe Begriff \"bodentrumpf\") einzusetzen\n• **Vorbereitung:** Schafft Voraussetzungen für spätere erfolgreiche Stiche in anderen Farben\n• **Kontrolle:** Man erhält bessere Kontrolle über den weiteren Spielverlauf\n\nTiming:\nDas Anziehen sollte strategisch klug eingesetzt werden - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung.\n\nPartnerkoordination:\nIdeales Anziehen (siehe Begriff \"expressions_anziehen\") erfolgt in Absprache mit dem Partner, um maximalen Nutzen zu erzielen.",
+    "text": "Definition:\nDas Anziehen (siehe Begriff \"expressions_anziehen\") ist eine wichtige Taktik, bei der man eine Farbe (siehe Begriff \"expressions_kartenfarben\") ausspielt, um die Trumpfkarten (siehe Begriff \"bodentrumpf\") der Gegner zu entfernen.\n\nStrategischer Zweck:\n• **Trumpf-Entzug:** Gegner werden gezwungen, ihre wertvollen Trumpfkarten (siehe Begriff \"bodentrumpf\") einzusetzen\n• **Vorbereitung:** Schafft Voraussetzungen für spätere erfolgreiche Stiche  in anderen Farben\n• **Kontrolle:** Man erhält bessere Kontrolle über den weiteren Spielverlauf\n\nTiming:\nDas Anziehen sollte strategisch klug eingesetzt werden - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung.\n\nPartnerkoordination:\nIdeales Anziehen (siehe Begriff \"expressions_anziehen\") erfolgt in Absprache mit dem Partner, um maximalen Nutzen zu erzielen.",
     "metadata": {
       "id": "schieber_taktiken_anziehen_meta",
       "category": {
@@ -7445,8 +7276,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7471,7 +7301,7 @@
   },
   "schieber_taktiken_basics": {
     "id": "schieber_taktiken_basics",
-    "text": "Grundkonzept:\nBeim Schieber gibt es drei wesentliche taktische Säulen, die über Sieg oder Niederlage entscheiden können.\n\nKommunikation:\n• Die erste ausgespielte Karte vermittelt häufig Informationen über die eigene Stärke oder Schwäche\n• Das Abwerfen gibt dem Partner wichtige Hinweise auf die eigenen Farben\n• Auch die Entscheidung, ob gestochen wird oder nicht, dient als Signal\n\nTiming:\n• Den richtigen Moment für verschiedene Aktionen finden, wie Anziehen (siehe Begriff \"expressions_anziehen\"), Schmieren (siehe Begriff \"expressions_schmieren\") oder Stechen\n• Früh spielen vs. spät spielen – Karten zum optimalen Zeitpunkt einsetzen\n\nKartenverwaltung:\n• Eigene Trumpfkarten (siehe Begriff \"bodentrumpf\") effizient nutzen\n• Farben (siehe Begriff \"expressions_kartenfarben\") gezielt aufbauen oder schwächen\n• Stiche für den Partner vorbereiten",
+    "text": "Grundkonzept:\nBeim Schieber gibt es drei wesentliche taktische Säulen, die über Sieg oder Niederlage entscheiden können.\n\nKommunikation:\n• Die erste ausgespielte Karte vermittelt häufig Informationen über die eigene Stärke oder Schwäche\n• Das Abwerfen  gibt dem Partner wichtige Hinweise auf die eigenen Farben\n• Auch die Entscheidung, ob gestochen wird oder nicht, dient als Signal\n\nTiming:\n• Den richtigen Moment für verschiedene Aktionen finden, wie Anziehen (siehe Begriff \"expressions_anziehen\"), Schmieren (siehe Begriff \"expressions_schmieren\") oder Stechen \n• Früh spielen vs. spät spielen – Karten zum optimalen Zeitpunkt einsetzen\n\nKartenverwaltung:\n• Eigene Trumpfkarten (siehe Begriff \"bodentrumpf\") effizient nutzen\n• Farben (siehe Begriff \"expressions_kartenfarben\") gezielt aufbauen oder schwächen\n• Stiche  für den Partner vorbereiten",
     "metadata": {
       "id": "schieber_taktiken_basics_meta",
       "category": {
@@ -7497,8 +7327,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7557,8 +7386,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 3,
-      "taxonomy_tier": 3
+      "difficulty": 3
     },
     "faqs": [
       {
@@ -7589,7 +7417,7 @@
   },
   "schieber_taktiken_partner": {
     "id": "schieber_taktiken_partner",
-    "text": "Partnerschaft:\nDie Zusammenarbeit mit dem Partner (siehe Begriff \"expressions_team\") ist beim Schieber von zentraler Bedeutung.\n\nKommunikationsformen:\n• **Kartensprache:** Durch die Wahl der ausgespielten Karten Informationen übermitteln\n• **Verwerfen:** Signalisiert Stärke oder Schwäche in bestimmten Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Stechverhalten:** Zeigt an, ob man in einer Farbe noch Karten hat oder nicht\n• **Timing-Signale:** Wann man Trumpf (siehe Begriff \"bodentrumpf\") spielt oder nicht, gibt wichtige Hinweise\n\nKoordinierte Aktionen:\n• **Schmieren (siehe Begriff \"expressions_schmieren\"):** Dem Partner wertvolle Karten zu seinem Stich beigeben\n• **Anziehen (siehe Begriff \"expressions_anziehen\"):** Gemeinsam die Gegner schwächen\n• **Stichvorbereitung:** Dem Partner erfolgreiche Stiche ermöglichen\n\nVertrauen:\nEine erfolgreiche Partnerschaft basiert auf gegenseitigem Vertrauen und dem Verständnis der Konventionen.",
+    "text": "Partnerschaft:\nDie Zusammenarbeit mit dem Partner (siehe Begriff \"expressions_team\") ist beim Schieber von zentraler Bedeutung.\n\nKommunikationsformen:\n• **Kartensprache:** Durch die Wahl der ausgespielten Karten Informationen übermitteln\n• **Verwerfen :** Signalisiert Stärke oder Schwäche in bestimmten Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Stechverhalten:** Zeigt an, ob man in einer Farbe noch Karten hat oder nicht\n• **Timing-Signale:** Wann man Trumpf (siehe Begriff \"bodentrumpf\") spielt oder nicht, gibt wichtige Hinweise\n\nKoordinierte Aktionen:\n• **Schmieren (siehe Begriff \"expressions_schmieren\"):** Dem Partner wertvolle Karten zu seinem Stich  beigeben\n• **Anziehen (siehe Begriff \"expressions_anziehen\"):** Gemeinsam die Gegner schwächen\n• **Stichvorbereitung:** Dem Partner erfolgreiche Stiche ermöglichen\n\nVertrauen:\nEine erfolgreiche Partnerschaft basiert auf gegenseitigem Vertrauen und dem Verständnis der Konventionen.",
     "metadata": {
       "id": "schieber_taktiken_partner_meta",
       "category": {
@@ -7615,8 +7443,7 @@
         "LEARNING"
       ],
       "importance": 0.95,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7668,8 +7495,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7691,7 +7517,7 @@
   },
   "schieber_taktiken_scoring": {
     "id": "schieber_taktiken_scoring",
-    "text": "Punktestrategie:\nDie optimale Gestaltung der Punktevergabe ist ein wichtiger strategischer Aspekt beim Schieber.\n\nStrategische Überlegungen:\n• **Maximierung:** Versuchen, möglichst viele Punkte zu erreichen, besonders bei Aussicht auf Matsch (siehe Begriff \"kontermatsch\")\n• **Schadensbegrenzung:** Bei schlechten Karten versuchen, den Punkteverlust zu minimieren\n• **Match-Situationen (siehe Begriff \"expressions_partie\"):** In kritischen Momenten gezielt auf bestimmte Punktzahlen hinarbeiten\n• **Weis-Kalkulation:** Einbeziehen von Weis-Punkten (siehe Begriff \"expressions_weispunkte\") in die Gesamtstrategie\n\nTiming der Ansage:\nDie Wahl des Trumpfs (siehe Begriff \"bodentrumpf\") sollte auch im Hinblick auf erreichbare Punktzahlen getroffen werden.\n\nTeamkoordination:\nMit dem Partner abgestimmt auf gemeinsame Punkteziele hinarbeiten.",
+    "text": "Punktestrategie:\nDie optimale Gestaltung der Punktevergabe  ist ein wichtiger strategischer Aspekt beim Schieber.\n\nStrategische Überlegungen:\n• **Maximierung:** Versuchen, möglichst viele Punkte  zu erreichen, besonders bei Aussicht auf Matsch (siehe Begriff \"kontermatsch\")\n• **Schadensbegrenzung:** Bei schlechten Karten versuchen, den Punkteverlust zu minimieren\n• **Match-Situationen (siehe Begriff \"expressions_partie\"):** In kritischen Momenten gezielt auf bestimmte Punktzahlen hinarbeiten\n• **Weis-Kalkulation:** Einbeziehen von Weis-Punkten (siehe Begriff \"expressions_weispunkte\") in die Gesamtstrategie\n\nTiming der Ansage:\nDie Wahl des Trumpfs (siehe Begriff \"bodentrumpf\") sollte auch im Hinblick auf erreichbare Punktzahlen getroffen werden.\n\nTeamkoordination:\nMit dem Partner abgestimmt auf gemeinsame Punkteziele hinarbeiten.",
     "metadata": {
       "id": "schieber_taktiken_scoring_meta",
       "category": {
@@ -7721,8 +7547,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7748,7 +7573,7 @@
   },
   "schieber_taktiken_special": {
     "id": "schieber_taktiken_special",
-    "text": "Spezielle Spielsituationen:\nEs gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern.\n\nSpezialszenarien:\n• **Matsch-Situationen:** Wenn ein Team droht, alle Stiche zu verlieren oder zu gewinnen\n• **Kritische Match-Punkte:** Wenn man kurz vor dem Sieg oder der Niederlage steht\n• **Ungewöhnliche Kartenverteilungen:** Extrem starke oder schwache Hände\n• **Weis-Dominanz:** Wenn Weis-Punkte (siehe Begriff \"expressions_weispunkte\") eine entscheidende Rolle spielen\n\nAnpassungsfähigkeit:\nIn diesen Situationen müssen Standard-Taktiken an die besonderen Umstände angepasst werden.\n\nErfahrung:\nDas Erkennen und richtige Reagieren auf Spezialsituationen kommt mit zunehmender Spielerfahrung.",
+    "text": "Spezielle Spielsituationen:\nEs gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern.\n\nSpezialszenarien:\n• **Matsch -Situationen:** Wenn ein Team droht, alle Stiche  zu verlieren oder zu gewinnen\n• **Kritische Match-Punkte:** Wenn man kurz vor dem Sieg oder der Niederlage steht\n• **Ungewöhnliche Kartenverteilungen:** Extrem starke oder schwache Hände\n• **Weis-Dominanz:** Wenn Weis-Punkte (siehe Begriff \"expressions_weispunkte\") eine entscheidende Rolle spielen\n\nAnpassungsfähigkeit:\nIn diesen Situationen müssen Standard-Taktiken an die besonderen Umstände angepasst werden.\n\nErfahrung:\nDas Erkennen und richtige Reagieren auf Spezial situationen kommt mit zunehmender Spielerfahrung.",
     "metadata": {
       "id": "schieber_taktiken_special_meta",
       "category": {
@@ -7774,8 +7599,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -7821,8 +7645,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7849,7 +7672,7 @@
   },
   "schieber_taktiken_verwerfen": {
     "id": "schieber_taktiken_verwerfen",
-    "text": "Definition:\nDas Verwerfen ist eine grundlegende Taktik, bei der man Karten aus schwachen Farben (siehe Begriff \"expressions_kartenfarben\") zu einem Stich beigibt.\n\nStrategische Aspekte:\n• **Kommunikation:** Signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt\n• **Kartenverwaltung:** Befreit die Hand von unnötigen Karten\n• **Prioritäten:** Entscheidung, welche Farbe man als erstes «leerspielt»\n\nIntelligentes Verwerfen:\n• **Reihenfolge:** Die Reihenfolge der verworfenen Karten kann zusätzliche Informationen vermitteln\n• **Timing:** Wann man welche Karte verwirft, ist strategisch bedeutsam\n• **Querverwerfen (siehe Begriff \"schieber_taktiken_querverwerfen\"):** Spezielle Technik für fortgeschrittene Spieler\n\nKoordination:\nDas Verwerfen sollte im Einklang mit den Konventionen der Spielgruppe erfolgen, um Missverständnisse zu vermeiden.",
+    "text": "Definition:\nDas Verwerfen  ist eine grundlegende Taktik, bei der man Karten aus schwachen Farben (siehe Begriff \"expressions_kartenfarben\") zu einem Stich  beigibt.\n\nStrategische Aspekte:\n• **Kommunikation:** Signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt\n• **Kartenverwaltung:** Befreit die Hand von unnötigen Karten\n• **Prioritäten:** Entscheidung, welche Farbe man als erstes «leerspielt»\n\nIntelligentes Verwerfen:\n• **Reihenfolge:** Die Reihenfolge der verworfenen Karten kann zusätzliche Informationen vermitteln\n• **Timing:** Wann man welche Karte verwirft, ist strategisch bedeutsam\n• **Querverwerfen (siehe Begriff \"schieber_taktiken_querverwerfen\"):** Spezielle Technik für fortgeschrittene Spieler\n\nKoordination:\nDas Verwerfen sollte im Einklang mit den Konventionen der Spielgruppe erfolgen, um Missverständnisse zu vermeiden.",
     "metadata": {
       "id": "schieber_taktiken_verwerfen_meta",
       "category": {
@@ -7874,8 +7697,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -7923,8 +7745,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": []
   },
@@ -7950,8 +7771,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": []
   },
@@ -7980,8 +7800,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8018,7 +7837,7 @@
   },
   "schreiben": {
     "id": "schreiben",
-    "text": "Definition:\nSchreiben bezeichnet das Notieren der erzielten Kartenpunkte nach einem beendeten Spiel.\n\nGrundregeln:\n• Direkt nach einem beendeten Spiel werden die Punkte übersichtlich notiert\n• Der Schreiber darf diese Punkte notieren, bis er an der Reihe ist, eine Karte zum ersten Stich des neuen Spiels zu geben\n\nTafelregeln:\n• Auf der rechten Tafelseite darf jeweils nur eine gültige (arabische) Zahl geschrieben sein\n• Alle Spieler können eine übersichtliche Darstellung der Striche und/oder Zahlen verlangen\n\nSonderregeln und Korrekturen:\n• Bei Jassarten mit nur einem Schreiber (z.B. Coiffeur-Schieber, Pandur, Handjass) gelten spezielle Korrekturregeln\n• Bei Unstimmigkeiten können alle Spieler während dem gesamten Ablauf des folgenden Spiels Korrekturen verlangen\n\nModerne Zählapps:\n• Mit jassguru.ch (siehe Begriff \"jassapps_jassguru\") wird jede Runde in Echtzeit auf eine Datenbank geschrieben\n• Die Punkte können jederzeit transparent nachvollzogen werden",
+    "text": "Definition:\nSchreiben bezeichnet das Notieren der erzielten Kartenpunkte nach einem beendeten Spiel.\n\nGrundregeln:\n• Direkt nach einem beendeten Spiel werden die Punkte übersichtlich notiert\n• Der Schreiber darf diese Punkte notieren, bis er an der Reihe ist, eine Karte zum ersten Stich  des neuen Spiels zu geben\n\nTafelregeln:\n• Auf der rechten Tafelseite darf jeweils nur eine gültige (arabische) Zahl geschrieben sein\n• Alle Spieler können eine übersichtliche Darstellung der Striche und/oder Zahlen verlangen\n\nSonderregeln und Korrekturen:\n• Bei Jassarten mit nur einem Schreiber (z.B. Coiffeur-Schieber, Pandur, Handjass) gelten spezielle Korrekturregeln\n• Bei Unstimmigkeiten können alle Spieler während dem gesamten Ablauf des folgenden Spiels Korrekturen verlangen\n\nModerne Zählapps:\n• Mit jassguru.ch (siehe Begriff \"jassapps_jassguru\") wird jede Runde in Echtzeit auf eine Datenbank geschrieben\n• Die Punkte können jederzeit transparent nachvollzogen werden",
     "metadata": {
       "id": "schreiben_meta",
       "category": {
@@ -8037,8 +7856,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8086,8 +7904,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8136,8 +7953,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8201,8 +8017,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8252,8 +8067,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8307,8 +8121,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8361,8 +8174,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8428,8 +8240,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "synonyms": [
       "puur",
@@ -8493,8 +8304,7 @@
         "LEARNING"
       ],
       "importance": 2,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8553,8 +8363,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -8617,8 +8426,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -8675,9 +8483,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 3,
-      "taxonomy_tier": 1,
-      "wikidata_id": "Q137731700"
+      "difficulty": 3
     },
     "faqs": [
       {
@@ -8738,8 +8544,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -8770,7 +8575,7 @@
   },
   "variants_family_guggitaler": {
     "id": "variants_family_guggitaler",
-    "text": "Definition:\nDer Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.\n\nSpiel geben:\n• Bei drei Spielern: Ein beliebiger Schreiber verteilt je zwölf Karten in drei Runden zu je vier Karten\n• Bei vier Spielern: Je neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n\nSpielablauf:\n• Der Guggitaler wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n• Weispunkte (siehe Begriff \"expressions_weispunkte\") und die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\") zählen nicht\n• Bei insgesamt fünf Spielen pro Partie (siehe Begriff \"expressions_partie\") gilt für jedes Spiel ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche zu machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellenkarten (siehe Begriff \"expressions_schelle\") (Herzkarten (siehe Begriff \"expressions_herz\")) zu machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) zu machen (4 Punkte pro Ober/Dame)\n• Viertes Spiel: den Rosen (siehe Begriff \"expressions_rose\")-König (Kreuz (siehe Begriff \"expressions_kreuzweis\")-König) nicht zu machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht zu machen (10 Punkte)\n\nMit Karten-Domino - Gutschriften:\n• 1. Rang: minus 30 Punkte (bei drei Spielern) / minus 25 Punkte (bei vier Spielern)\n• 2. Rang: minus 20 Punkte / minus 16 Punkte\n• 3. Rang: minus 14 Punkte / minus 12 Punkte\n• 4. Rang: minus 8 Punkte (nur bei vier Spielern)\n\nOhne Karten-Domino - Zusätzliche Spiele:\n• Sechstes Spiel: möglichst viele Stiche zu machen\n• Siebentes Spiel: möglichst viele Schellenkarten (Herzkarten) zu machen\n• Achtes Spiel: möglichst viele Ober (Damen) zu machen\n• Neuntes Spiel: der Stich mit dem Rosen-König (Kreuz-König) zu machen\n• Zehntes Spiel: der letzte Stich zu machen",
+    "text": "Definition:\nDer Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.\n\nSpiel geben:\n• Bei drei Spielern: Ein beliebiger Schreiber verteilt je zwölf Karten in drei Runden zu je vier Karten\n• Bei vier Spielern: Je neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n\nSpielablauf:\n• Der Guggitaler wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n• Weispunkte (siehe Begriff \"expressions_weispunkte\") und die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\") zählen nicht\n• Bei insgesamt fünf Spielen pro Partie (siehe Begriff \"expressions_partie\") gilt für jedes Spiel ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche  zu machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellenkarten (siehe Begriff \"expressions_schelle\") (Herzkarten (siehe Begriff \"expressions_herz\")) zu machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) zu machen (4 Punkte pro Ober/Dame)\n• Viertes Spiel: den Rosen (siehe Begriff \"expressions_rose\")-König (Kreuz (siehe Begriff \"expressions_kreuzweis\")-König) nicht zu machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht zu machen (10 Punkte)\n\nMit Karten-Domino - Gutschriften:\n• 1. Rang: minus 30 Punkte (bei drei Spielern) / minus 25 Punkte (bei vier Spielern)\n• 2. Rang: minus 20 Punkte / minus 16 Punkte\n• 3. Rang: minus 14 Punkte / minus 12 Punkte\n• 4. Rang: minus 8 Punkte (nur bei vier Spielern)\n\nOhne Karten-Domino - Zusätzliche Spiele:\n• Sechstes Spiel: möglichst viele Stiche zu machen\n• Siebentes Spiel: möglichst viele Schellenkarten (Herzkarten) zu machen\n• Achtes Spiel: möglichst viele Ober (Damen) zu machen\n• Neuntes Spiel: der Stich mit dem Rosen-König (Kreuz-König) zu machen\n• Zehntes Spiel: der letzte Stich zu machen",
     "metadata": {
       "id": "variants_family_guggitaler_meta",
       "category": {
@@ -8795,8 +8600,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 3,
-      "taxonomy_tier": 3
+      "difficulty": 3
     },
     "faqs": [
       {
@@ -8856,8 +8660,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -8917,8 +8720,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -8986,8 +8788,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 2
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -9042,8 +8843,7 @@
         "LEARNING"
       ],
       "importance": 0.6,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -9107,8 +8907,7 @@
         "LEARNING"
       ],
       "importance": 0.5,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -9167,8 +8966,7 @@
         "LEARNING"
       ],
       "importance": 0.6,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -9213,7 +9011,7 @@
   },
   "variants_specialty_hindersi": {
     "id": "variants_specialty_hindersi",
-    "text": "Definition:\nBeim Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für vier Spieler (auch mit drei Spielern möglich) geht es darum, möglichst wenige Punkte zu sammeln, was eine Umkehrung der üblichen Jasszielsetzung darstellt.\n\nGrundregeln:\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\") und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n• Jeder Spieler versucht, möglichst wenige Kartenpunkte zu erzielen\n• Gelingt es jedoch einem Spieler, alle Stiche zu machen, werden allen anderen Spielern 157 Punkte belastet\n\nBesondere Regeln:\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden und zählen somit nicht\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n• Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet\n\nSchreiben und Partie:\n• Nach jedem Spiel zählt jeder Spieler seine eigenen Kartenpunkte\n• Ein Umgang besteht aus vier Spielen und entspricht einer Partie (siehe Begriff \"expressions_partie\")\n\nSchreiben bei vier Spielern:\n• Die beiden Spieler mit dem niedrigsten Gesamtwert erhalten je einen Strich (siehe Begriff \"schreiben\")\n• Die beiden Spieler mit dem zweithöchsten und höchsten Total bekommen je einen Nuller (siehe Begriff \"expressions_nuller\") eingetragen\n\nSchreiben bei drei Spielern:\n• Der Spieler mit dem niedrigsten Total erhält einen Strich, der mit dem höchsten Total einen Nuller\n• Der Spieler mit dem mittleren Resultat geht leer aus\n\nSpielende:\nNach vier Partien wird die Abrechnung vorgenommen. Gewinner ist der Spieler mit den meisten Strichen.",
+    "text": "Definition:\nBeim Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für vier Spieler (auch mit drei Spielern möglich) geht es darum, möglichst wenige Punkte zu sammeln, was eine Umkehrung der üblichen Jasszielsetzung darstellt.\n\nGrundregeln:\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\") und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n• Jeder Spieler versucht, möglichst wenige Kartenpunkte zu erzielen\n• Gelingt es jedoch einem Spieler, alle Stiche  zu machen, werden allen anderen Spielern 157 Punkte belastet\n\nBesondere Regeln:\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden und zählen somit nicht\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n• Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet\n\nSchreiben und Partie:\n• Nach jedem Spiel zählt jeder Spieler seine eigenen Kartenpunkte\n• Ein Umgang besteht aus vier Spielen und entspricht einer Partie (siehe Begriff \"expressions_partie\")\n\nSchreiben bei vier Spielern:\n• Die beiden Spieler mit dem niedrigsten Gesamtwert erhalten je einen Strich (siehe Begriff \"schreiben\")\n• Die beiden Spieler mit dem zweithöchsten und höchsten Total bekommen je einen Nuller (siehe Begriff \"expressions_nuller\") eingetragen\n\nSchreiben bei drei Spielern:\n• Der Spieler mit dem niedrigsten Total erhält einen Strich, der mit dem höchsten Total einen Nuller\n• Der Spieler mit dem mittleren Resultat geht leer aus\n\nSpielende:\nNach vier Partien wird die Abrechnung vorgenommen. Gewinner ist der Spieler mit den meisten Strichen.",
     "metadata": {
       "id": "variants_specialty_hindersi_meta",
       "category": {
@@ -9234,8 +9032,7 @@
         "LEARNING"
       ],
       "importance": 0.6,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -9275,7 +9072,7 @@
   },
   "variants_specialty_hindersi_drei": {
     "id": "variants_specialty_hindersi_drei",
-    "text": "Definition:\nHindersi (siehe Begriff \"expressions_hindersi\")-Jass für 3 Spieler ist ein Dreier-Vermeidungsspiel, bei dem es darum geht, möglichst wenige Kartenpunkte zu erspielen.\n\nSpiel geben:\nJedem Spieler werden 12 Karten (3 x 4 Karten) verteilt.\n\nSpielablauf:\n• Wie beim Hindersi-Jass für 4 Spieler versucht jeder Spieler, möglichst wenige Kartenpunkte zu erspielen\n• Kann ein Spieler alle Stiche machen, werden allen anderen Spielern je 157 Punkte belastet\n\nSchreiben:\n• Ein Umgang, also 3 Spiele, entspricht einer Partie (siehe Begriff \"expressions_partie\")\n• Der Spieler mit dem niedrigsten Total erhält 1 Strich (siehe Begriff \"schreiben\"), der mit dem höchsten Total 1 Nuller (siehe Begriff \"expressions_nuller\")\n• Der Spieler mit dem mittleren Resultat geht leer aus\n\nSpielende:\n• Nach beispielsweise 4 Partien (oder 8 Partien, je nach Vereinbarung) wird abgerechnet\n• Gewonnen hat der Spieler mit den meisten Strichen\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Hindersi-Jass für 4 Spieler.",
+    "text": "Definition:\nHindersi (siehe Begriff \"expressions_hindersi\")-Jass für 3 Spieler ist ein Dreier-Vermeidungsspiel, bei dem es darum geht, möglichst wenige Kartenpunkte zu erspielen.\n\nSpiel geben:\nJedem Spieler werden 12 Karten (3 x 4 Karten) verteilt.\n\nSpielablauf:\n• Wie beim Hindersi-Jass für 4 Spieler versucht jeder Spieler, möglichst wenige Kartenpunkte zu erspielen\n• Kann ein Spieler alle Stiche  machen, werden allen anderen Spielern je 157 Punkte belastet\n\nSchreiben:\n• Ein Umgang, also 3 Spiele, entspricht einer Partie (siehe Begriff \"expressions_partie\")\n• Der Spieler mit dem niedrigsten Total erhält 1 Strich (siehe Begriff \"schreiben\"), der mit dem höchsten Total 1 Nuller (siehe Begriff \"expressions_nuller\")\n• Der Spieler mit dem mittleren Resultat geht leer aus\n\nSpielende:\n• Nach beispielsweise 4 Partien (oder 8 Partien, je nach Vereinbarung) wird abgerechnet\n• Gewonnen hat der Spieler mit den meisten Strichen\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Hindersi-Jass für 4 Spieler.",
     "metadata": {
       "id": "variants_specialty_hindersi_drei_meta",
       "category": {
@@ -9298,8 +9095,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9329,7 +9125,7 @@
   },
   "variants_specialty_hindersi_vier": {
     "id": "variants_specialty_hindersi_vier",
-    "text": "Ziel:\nBeim Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für vier Spieler geht es darum, möglichst wenige Punkte zu sammeln, was das Gegenteil der üblichen Jasszielsetzung ist.\n\nSpiel geben:\n• Ein beliebiger Spieler übernimmt das Geben und verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten\n• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung\n\nTrumpffarbe:\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\") und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n• Wird ein Spiel vergeben, bleibt diese Trumpffarbe für das nächste Spiel bestehen\n\nSpielablauf:\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet mit dem ersten Ausspiel (siehe Begriff \"ausspiel\")\n• Jeder Spieler versucht, möglichst wenige Kartenpunkte zu erzielen\n• Gelingt es jedoch einem Spieler, alle Stiche zu machen, werden allen anderen Spielern 157 Punkte belastet\n\nBesondere Regeln:\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden und zählen nicht\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n• Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet\n\nSchreiben und Partie:\n• Nach jedem Spiel zählt jeder Spieler seine eigenen Kartenpunkte, die der Schreiber in die entsprechende Spalte notiert\n• Ein Umgang besteht aus vier Spielen und entspricht einer Partie (siehe Begriff \"expressions_partie\")\n• Der Schreiber addiert für jeden Spieler die gesamten Punkte dieser Partie\n• Die beiden Spieler mit dem niedrigsten Gesamtwert erhalten je einen Strich (siehe Begriff \"schreiben\")\n• Die beiden Spieler mit dem zweithöchsten und höchsten Total bekommen je einen Nuller (siehe Begriff \"expressions_nuller\") eingetragen\n\nSpielende:\n• Nach einer vereinbarten Anzahl von Partien, beispielsweise vier oder acht, wird abgerechnet\n• Gewinner ist der Spieler mit den meisten Strichen",
+    "text": "Ziel:\nBeim Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für vier Spieler geht es darum, möglichst wenige Punkte  zu sammeln, was das Gegenteil der üblichen Jasszielsetzung ist.\n\nSpiel geben:\n• Ein beliebiger Spieler übernimmt das Geben und verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten\n• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung\n\nTrumpffarbe:\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\") und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n• Wird ein Spiel vergeben, bleibt diese Trumpffarbe für das nächste Spiel bestehen\n\nSpielablauf:\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet mit dem ersten Ausspiel (siehe Begriff \"ausspiel\")\n• Jeder Spieler versucht, möglichst wenige Kartenpunkte zu erzielen\n• Gelingt es jedoch einem Spieler, alle Stiche  zu machen, werden allen anderen Spielern 157 Punkte belastet\n\nBesondere Regeln:\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden und zählen nicht\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n• Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet\n\nSchreiben und Partie:\n• Nach jedem Spiel zählt jeder Spieler seine eigenen Kartenpunkte, die der Schreiber in die entsprechende Spalte notiert\n• Ein Umgang besteht aus vier Spielen und entspricht einer Partie (siehe Begriff \"expressions_partie\")\n• Der Schreiber addiert für jeden Spieler die gesamten Punkte dieser Partie\n• Die beiden Spieler mit dem niedrigsten Gesamtwert erhalten je einen Strich (siehe Begriff \"schreiben\")\n• Die beiden Spieler mit dem zweithöchsten und höchsten Total bekommen je einen Nuller (siehe Begriff \"expressions_nuller\") eingetragen\n\nSpielende:\n• Nach einer vereinbarten Anzahl von Partien, beispielsweise vier oder acht, wird abgerechnet\n• Gewinner ist der Spieler mit den meisten Strichen",
     "metadata": {
       "id": "variants_specialty_hindersi_vier_meta",
       "category": {
@@ -9352,8 +9148,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9396,7 +9191,7 @@
   },
   "variants_specialty_schaufel_dame": {
     "id": "variants_specialty_schaufel_dame",
-    "text": "Definition:\nDer Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann.\n\nSpiel geben:\n• Ein beliebiger Spieler verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nBesonderheit:\n• Die Schaufel-Dame (Pik-Dame) bringt demjenigen, der sie im Stich erhält, automatisch 100 Minuspunkte ein\n• Alle anderen Karten werden nach ihren normalen Werten gewertet\n• Es wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n\nSpielablauf und Taktik:\n• Ziel ist es, möglichst viele Punkte zu sammeln, aber die gefährliche Schaufel-Dame zu vermeiden\n• Der Spieler mit der Schaufel-Dame auf der Hand (siehe Begriff \"expressions_handkarten\") hat die schwierige Aufgabe, sie geschickt loszuwerden\n• Wer die Schaufel-Dame hat, versucht sie bei einem gegnerischen Stich abzulegen\n• Die anderen Spieler müssen vorsichtig agieren, um nicht ungewollt die Dame zu bekommen\n• Hohe Schaufel-Karten sind besonders gefährlich, da sie Stiche  machen könnten\n\nSchreiben:\nNach jedem Spiel werden die normalen Kartenpunkte plus die 100 Minuspunkte für die Schaufel-Dame verrechnet.\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") kann über eine bestimmte Anzahl Spiele gespielt werden. Gewinner ist der Spieler mit den meisten Pluspunkten am Ende.",
+    "text": "Definition:\nDer Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann.\n\nSpiel geben:\n• Ein beliebiger Spieler verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nBesonderheit:\n• Die Schaufel-Dame (Pik-Dame) bringt demjenigen, der sie im Stich  erhält, automatisch 100 Minuspunkte ein\n• Alle anderen Karten werden nach ihren normalen Werten gewertet\n• Es wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n\nSpielablauf und Taktik:\n• Ziel ist es, möglichst viele Punkte  zu sammeln, aber die gefährliche Schaufel-Dame zu vermeiden\n• Der Spieler mit der Schaufel-Dame auf der Hand (siehe Begriff \"expressions_handkarten\") hat die schwierige Aufgabe, sie geschickt loszuwerden\n• Wer die Schaufel-Dame hat, versucht sie bei einem gegnerischen Stich abzulegen\n• Die anderen Spieler müssen vorsichtig agieren, um nicht ungewollt die Dame zu bekommen\n• Hohe Schaufel-Karten sind besonders gefährlich, da sie Stiche  machen könnten\n\nSchreiben:\nNach jedem Spiel werden die normalen Kartenpunkte plus die 100 Minuspunkte für die Schaufel-Dame verrechnet.\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") kann über eine bestimmte Anzahl Spiele gespielt werden. Gewinner ist der Spieler mit den meisten Pluspunkten am Ende.",
     "metadata": {
       "id": "variants_specialty_schaufel_dame_meta",
       "category": {
@@ -9420,8 +9215,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9474,8 +9268,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9530,8 +9323,7 @@
         "LEARNING"
       ],
       "importance": 4,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9585,8 +9377,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9639,8 +9430,7 @@
         "LEARNING"
       ],
       "importance": 8,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -9706,8 +9496,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -9739,7 +9528,7 @@
   },
   "variants_strategic_bieder": {
     "id": "variants_strategic_bieder",
-    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) ist ein Königsspiel mit Bieten für 3 Spieler (auch 4 oder 5 Spieler möglich), bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch\n• Nun verteilt er jedem Spieler nochmals 5 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 12 Karten verteilt\n\nBieten:\n• Falls Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernehmen will, bietet er mindestens 600 Punkte an\n• Die nachfolgenden Spieler können das Gebot beliebig um mindestens 10 Punkte überbieten\n• Wer keine Aussicht auf ein gutes Spiel hat, sagt «fort (siehe Begriff \"expressions_fort\")» oder «ich passe»\n• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei\n\nSpielziele:\n• Ziel des Königs ist, am Ende der Partie (siehe Begriff \"expressions_partie\") sein Gebot zu erreichen\n• Die Bauernpartei muss gemeinsam 1000 Punkte erzielen\n\nKönig-Phase:\n• Der König erhält die 6 auf dem Tisch liegenden Karten und kann 6 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n\nSpielablauf:\n• Zum ersten Spiel bestimmt der König den Trumpf (siehe Begriff \"bodentrumpf\") (Trumpffarbe (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder Hindersi (siehe Begriff \"expressions_hindersi\") ohne Trumpf)\n• Beim zweiten Spiel gilt die unterste Karte als Trumpffarbe\n• Der König kann ab dem zweiten Spiel entscheiden, ob er spielen möchte oder nicht\n• Falls er verzichtet, schreibt die Bauernpartei einen Matsch  mit Matschprämie (siehe Begriff \"expressions_matschpraemie\")",
+    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) ist ein Königsspiel mit Bieten für 3 Spieler (auch 4 oder 5 Spieler möglich), bei dem ein König  gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch\n• Nun verteilt er jedem Spieler nochmals 5 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 12 Karten verteilt\n\nBieten:\n• Falls Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernehmen will, bietet er mindestens 600 Punkte  an\n• Die nachfolgenden Spieler können das Gebot beliebig um mindestens 10 Punkte überbieten\n• Wer keine Aussicht auf ein gutes Spiel hat, sagt «fort (siehe Begriff \"expressions_fort\")» oder «ich passe»\n• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei\n\nSpielziele:\n• Ziel des Königs ist, am Ende der Partie (siehe Begriff \"expressions_partie\") sein Gebot zu erreichen\n• Die Bauernpartei muss gemeinsam 1000 Punkte erzielen\n\nKönig-Phase:\n• Der König erhält die 6 auf dem Tisch liegenden Karten und kann 6 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n\nSpielablauf:\n• Zum ersten Spiel bestimmt der König den Trumpf (siehe Begriff \"bodentrumpf\") (Trumpffarbe (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder Hindersi (siehe Begriff \"expressions_hindersi\") ohne Trumpf)\n• Beim zweiten Spiel gilt die unterste Karte als Trumpffarbe\n• Der König kann ab dem zweiten Spiel entscheiden, ob er spielen möchte oder nicht\n• Falls er verzichtet, schreibt die Bauernpartei einen Matsch  mit Matschprämie (siehe Begriff \"expressions_matschpraemie\")",
     "metadata": {
       "id": "variants_strategic_bieder_meta",
       "category": {
@@ -9761,8 +9550,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -9801,7 +9589,7 @@
   },
   "variants_strategic_bieter_drei": {
     "id": "variants_strategic_bieter_drei",
-    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) für 3 Spieler ist ein klassisches Bietspiel, bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch\n• Nun verteilt er jedem Spieler nochmals 5 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 12 Karten (3 x 4 Karten) verteilt\n\nWeisen-Regel:\n• Beim Hindersi (siehe Begriff \"expressions_hindersi\") (Misère) entscheidet bei gleich hohen Weisen die wertvollere Karte\n• Beispiel: Ein Dreiblatt von einem König ist besser als ein Dreiblatt von einem Neuner\n\nBieten:\n• Falls Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernehmen will, bietet er mindestens 600 Punkte an\n• Die nachfolgenden Spieler können der Reihe nach das Gebot beliebig um mindestens 10 Punkte überbieten (steigern)\n• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei\n\nKönig-Phase:\n• Der König erhält nun die 6 auf dem Tisch liegenden Karten, wobei er auf Wunsch die 3 verdeckten Karten der Bauernpartei zeigen muss\n• Nachdem der König die Karten gesehen hat, kann er an deren Stelle 6 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n\nSpielablauf:\n• Zum ersten Spiel bestimmt der König den Trumpf (siehe Begriff \"bodentrumpf\"): Er kann wählen zwischen einer Trumpffarbe (siehe Begriff \"bodentrumpf\"), einem Obenabe (siehe Begriff \"expressions_obenabe\"), einem Undenufe (siehe Begriff \"expressions_undenufe\") oder einem Hindersi ohne Trumpf\n• Beim Hindersi darf der König keinen Stich  erzielen, sonst schreibt die Bauernpartei einen Matsch  mit Matschprämie (siehe Begriff \"expressions_matschpraemie\")\n\nSpielziele:\n• Der König hat die von ihm gebotene Zahl zu erreichen\n• Die Bauernpartei muss 1000 Punkte erzielen\n• Gewonnen hat, wer sein Ziel zuerst erreicht\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.",
+    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) für 3 Spieler ist ein klassisches Bietspiel, bei dem ein König  gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch\n• Nun verteilt er jedem Spieler nochmals 5 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 12 Karten (3 x 4 Karten) verteilt\n\nWeisen-Regel:\n• Beim Hindersi (siehe Begriff \"expressions_hindersi\") (Misère) entscheidet bei gleich hohen Weisen die wertvollere Karte\n• Beispiel: Ein Dreiblatt von einem König ist besser als ein Dreiblatt von einem Neuner\n\nBieten:\n• Falls Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernehmen will, bietet er mindestens 600 Punkte  an\n• Die nachfolgenden Spieler können der Reihe nach das Gebot beliebig um mindestens 10 Punkte überbieten (steigern)\n• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei\n\nKönig-Phase:\n• Der König erhält nun die 6 auf dem Tisch liegenden Karten, wobei er auf Wunsch die 3 verdeckten Karten der Bauernpartei zeigen muss\n• Nachdem der König die Karten gesehen hat, kann er an deren Stelle 6 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n\nSpielablauf:\n• Zum ersten Spiel bestimmt der König den Trumpf (siehe Begriff \"bodentrumpf\"): Er kann wählen zwischen einer Trumpffarbe (siehe Begriff \"bodentrumpf\"), einem Obenabe (siehe Begriff \"expressions_obenabe\"), einem Undenufe (siehe Begriff \"expressions_undenufe\") oder einem Hindersi ohne Trumpf\n• Beim Hindersi darf der König keinen Stich  erzielen, sonst schreibt die Bauernpartei einen Matsch  mit Matschprämie (siehe Begriff \"expressions_matschpraemie\")\n\nSpielziele:\n• Der König hat die von ihm gebotene Zahl zu erreichen\n• Die Bauernpartei muss 1000 Punkte erzielen\n• Gewonnen hat, wer sein Ziel zuerst erreicht\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.",
     "metadata": {
       "id": "variants_strategic_bieter_drei_meta",
       "category": {
@@ -9828,8 +9616,7 @@
         "LEARNING"
       ],
       "importance": 8,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -9867,7 +9654,7 @@
   },
   "variants_strategic_bieter_fuenf": {
     "id": "variants_strategic_bieter_fuenf",
-    "text": "Definition:\nBeim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei (siehe Begriff \"expressions_bauernpartei\") bilden.\n\nSpiel geben:\n• Nachdem der Eichel-Siebener (Schaufel-Siebener) aus dem Spiel entfernt wurde, teilt der Spielgeber jedem Spieler zuerst vier, dann drei Karten aus\n• Jeder Spieler erhält somit bei allen Spielen je sieben Karten\n\nBieten und Partner-Bestimmung:\n• Das Mindestgebot liegt bei 600 Punkten\n• Der Meistbietende gehört der Königspartei an\n• Er nennt eine Karte, die für sein Spiel von Interesse ist\n• Wer diese Karte besitzt, ist sein Partner\n\nBesondere Regeln:\n• Die Spieler der Königspartei dürfen nicht nebeneinander sitzen\n• Die beiden Parteien müssen sich gebildet haben, bevor der Spielübernehmer seine erste Karte ausspielt\n• Diese Regel gilt auch dann, wenn der Meistbietende ein Matschspiel in der Hand hält\n\nSchreiben:\n• Bei Gewinn: Der Meistbietende erhält zwei Striche (siehe Begriff \"schreiben\"), sein Partner einen Strich, die Spieler der Bauernpartei schreiben je einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\"))\n• Bei Verlust: Der Meistbietende schreibt zwei «Härdöpfel», sein Partner einen «Härdöpfel», die Spieler der Bauernpartei erhalten je einen Strich\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger (siehe Begriff \"expressions_passen\")) für drei Spieler.",
+    "text": "Definition:\nBeim Bieter für fünf Spieler bilden zwei Spieler die Königspartei , während drei Spieler die Bauernpartei (siehe Begriff \"expressions_bauernpartei\") bilden.\n\nSpiel geben:\n• Nachdem der Eichel-Siebener (Schaufel-Siebener) aus dem Spiel entfernt wurde, teilt der Spielgeber jedem Spieler zuerst vier, dann drei Karten aus\n• Jeder Spieler erhält somit bei allen Spielen je sieben Karten\n\nBieten und Partner-Bestimmung:\n• Das Mindestgebot liegt bei 600 Punkten \n• Der Meistbietende gehört der Königspartei an\n• Er nennt eine Karte, die für sein Spiel von Interesse ist\n• Wer diese Karte besitzt, ist sein Partner\n\nBesondere Regeln:\n• Die Spieler der Königspartei dürfen nicht nebeneinander sitzen\n• Die beiden Parteien müssen sich gebildet haben, bevor der Spielübernehmer seine erste Karte ausspielt\n• Diese Regel gilt auch dann, wenn der Meistbietende ein Matschspiel  in der Hand hält\n\nSchreiben:\n• Bei Gewinn: Der Meistbietende erhält zwei Striche (siehe Begriff \"schreiben\"), sein Partner einen Strich, die Spieler der Bauernpartei schreiben je einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\"))\n• Bei Verlust: Der Meistbietende schreibt zwei «Härdöpfel», sein Partner einen «Härdöpfel», die Spieler der Bauernpartei erhalten je einen Strich\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger (siehe Begriff \"expressions_passen\")) für drei Spieler.",
     "metadata": {
       "id": "variants_strategic_bieter_fuenf_meta",
       "category": {
@@ -9891,8 +9678,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -9925,7 +9711,7 @@
   },
   "variants_strategic_bieter_vier": {
     "id": "variants_strategic_bieter_vier",
-    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) für 4 Spieler ist ein Team (siehe Begriff \"expressions_team\")-Bietspiel, bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") aus drei Spielern antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 4 Karten aus und legt 2 Karten verdeckt und 2 Karten offen auf den Tisch\n• Anschliessend verteilt er jedem Spieler nochmals 4 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 9 Karten verteilt\n\nBieten:\n• Das Mindestgebot liegt bei 350 Punkten\n• Der König erhält die 4 auf dem Tisch liegenden Karten und muss nach ihrer Einsichtnahme 4 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n• Seine 3 Gegner bilden die Bauernpartei\n\nUnterschiede zur Dreier-Variante:\n• Niedrigeres Mindestgebot (350 statt 600 Punkte)\n• Weniger Tischkarten (4 statt 6)\n• Mehr Gegner in der Bauernpartei\n\nSpielziele:\n• Der König muss seine gebotene Punktzahl erreichen\n• Die Bauernpartei gemeinsam 1000 Punkte\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger) für 3 Spieler.",
+    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) für 4 Spieler ist ein Team (siehe Begriff \"expressions_team\")-Bietspiel, bei dem ein König  gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") aus drei Spielern antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 4 Karten aus und legt 2 Karten verdeckt und 2 Karten offen auf den Tisch\n• Anschliessend verteilt er jedem Spieler nochmals 4 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 9 Karten verteilt\n\nBieten:\n• Das Mindestgebot liegt bei 350 Punkten \n• Der König erhält die 4 auf dem Tisch liegenden Karten und muss nach ihrer Einsichtnahme 4 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n• Seine 3 Gegner bilden die Bauernpartei\n\nUnterschiede zur Dreier-Variante:\n• Niedrigeres Mindestgebot (350 statt 600 Punkte)\n• Weniger Tischkarten (4 statt 6)\n• Mehr Gegner in der Bauernpartei\n\nSpielziele:\n• Der König muss seine gebotene Punktzahl erreichen\n• Die Bauernpartei gemeinsam 1000 Punkte\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger) für 3 Spieler.",
     "metadata": {
       "id": "variants_strategic_bieter_vier_meta",
       "category": {
@@ -9949,8 +9735,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10007,8 +9792,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10067,8 +9851,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -10097,7 +9880,7 @@
   },
   "variants_strategic_differenzler_offen": {
     "id": "variants_strategic_differenzler_offen",
-    "text": "Definition:\nBeim Differenzler mit offener Ansage für vier Spieler (auch mit drei Spielern möglich) spielt jeder Teilnehmer gegen jeden anderen. Vor Beginn des Spiels schätzt jeder Spieler basierend auf seiner Handkarte (siehe Begriff \"expressions_handkarten\"), wie viele Kartenpunkte er am Ende erzielen wird.\n\nBesonderheit offene Ansage:\nBei der offenen Ansage kennen alle Spieler die Schätzwerte ihrer Mitspieler.\n\nGrundregeln:\n• Ein vollständiges Spiel umfasst 152 Kartenpunkte plus fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\"), insgesamt also 157 Punkte (ein Matsch zählt ebenfalls 157 Punkte)\n• Alle Trumpffarben (siehe Begriff \"bodentrumpf\") werden einfach gewertet, Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n\nAnsage:\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt mit der ersten Schätzansage, danach melden die nachfolgenden Spieler der Reihe nach ihre geschätzten Punktzahlen\n• Der Spielgeber macht als Letzter seine Ansage\n\nSpielregeln:\n• Beim Differenzler dürfen Spieler ihre eigenen gekehrten Stiche  nochmals einsehen\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n\nBewertung:\n• Nach dem Spiel zählt jeder Teilnehmer seine tatsächlich erzielten Kartenpunkte\n• Der Schreiber notiert für jeden Spieler die Differenz zwischen angesagter und tatsächlich erreichter Punktzahl\n• Wer seine vorhergesagte Punktzahl exakt trifft, erhält eine Gutschrift von zehn Minuspunkten (gilt nicht, wenn null Punkte angesagt wurden)\n\nSpielende:\nNach 16 Spielen wird die abschliessende Rangliste erstellt. Gewinner ist der Spieler mit dem niedrigsten Differenz-Total.",
+    "text": "Definition:\nBeim Differenzler mit offener Ansage für vier Spieler (auch mit drei Spielern möglich) spielt jeder Teilnehmer gegen jeden anderen. Vor Beginn des Spiels schätzt jeder Spieler basierend auf seiner Handkarte (siehe Begriff \"expressions_handkarten\"), wie viele Kartenpunkte er am Ende erzielen wird.\n\nBesonderheit offene Ansage:\nBei der offenen Ansage kennen alle Spieler die Schätzwerte ihrer Mitspieler.\n\nGrundregeln:\n• Ein vollständiges Spiel umfasst 152 Kartenpunkte plus fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\"), insgesamt also 157 Punkte (ein Matsch  zählt ebenfalls 157 Punkte)\n• Alle Trumpffarben (siehe Begriff \"bodentrumpf\") werden einfach gewertet, Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") können nicht gemeldet werden\n• Die unterste Karte des Stapels (siehe Begriff \"expressions_stapel\") bestimmt die Trumpffarbe und kann nicht geraubt (siehe Begriff \"expressions_rauben\") werden\n\nAnsage:\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt mit der ersten Schätzansage, danach melden die nachfolgenden Spieler der Reihe nach ihre geschätzten Punktzahlen\n• Der Spielgeber macht als Letzter seine Ansage\n\nSpielregeln:\n• Beim Differenzler dürfen Spieler ihre eigenen gekehrten Stiche  nochmals einsehen\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt\n\nBewertung:\n• Nach dem Spiel zählt jeder Teilnehmer seine tatsächlich erzielten Kartenpunkte\n• Der Schreiber notiert für jeden Spieler die Differenz zwischen angesagter und tatsächlich erreichter Punktzahl\n• Wer seine vorhergesagte Punktzahl exakt trifft, erhält eine Gutschrift von zehn Minuspunkten (gilt nicht, wenn null Punkte angesagt wurden)\n\nSpielende:\nNach 16 Spielen wird die abschliessende Rangliste erstellt. Gewinner ist der Spieler mit dem niedrigsten Differenz-Total.",
     "metadata": {
       "id": "variants_strategic_differenzler_offen_meta",
       "category": {
@@ -10128,8 +9911,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -10169,7 +9951,7 @@
   },
   "variants_strategic_differenzler_verdeckt": {
     "id": "variants_strategic_differenzler_verdeckt",
-    "text": "Definition:\nDer Differenzler mit verdeckter Ansage für vier Spieler gilt als anspruchsvoll aber fair, da er sowohl mit guten als auch mit schwächeren Handkarten (siehe Begriff \"expressions_handkarten\") gewonnen werden kann.\n\nBesonderheit verdeckte Ansage:\n• Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht\n• Jeder Spieler schreibt seine geschätzte Punktzahl auf einen persönlichen Zettel\n• Diese Schätzzettel werden bis zum Spielende verdeckt unter den Jassteppich gelegt\n\nSchätzung:\n• Basierend auf den erhaltenen Karten muss vor Spielbeginn abgeschätzt werden, wie viele Kartenpunkte erzielt werden können\n• Für eine möglichst präzise Schätzung zählt man die Werte der Trumpfkarten (siehe Begriff \"bodentrumpf\") doppelt und addiert für jeden möglichen Stich mit einem Ass zusätzlich elf Punkte\n\nSpielstrategie:\n• Neben der Genauigkeit der Schätzung ist auch das taktische Spielen auf die angesagte Punktzahl entscheidend\n• Es ist vorteilhaft, Karten, die einen Stich versprechen, möglichst früh im Spielverlauf einzusetzen, um später mit schwächeren Karten aussteigen zu können\n• Eine Schlüsselkarte ist der Trumpf-Bauer  (Under ), da er beim Trumpfausspiel nicht extra angemeldet werden muss\n• Er sollte für einen strategisch wichtigen Moment zurückgehalten werden",
+    "text": "Definition:\nDer Differenzler mit verdeckter Ansage für vier Spieler gilt als anspruchsvoll aber fair, da er sowohl mit guten als auch mit schwächeren Handkarten (siehe Begriff \"expressions_handkarten\") gewonnen werden kann.\n\nBesonderheit verdeckte Ansage:\n• Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht\n• Jeder Spieler schreibt seine geschätzte Punktzahl auf einen persönlichen Zettel\n• Diese Schätzzettel werden bis zum Spielende verdeckt unter den Jassteppich gelegt\n\nSchätzung:\n• Basierend auf den erhaltenen Karten muss vor Spielbeginn abgeschätzt werden, wie viele Kartenpunkte erzielt werden können\n• Für eine möglichst präzise Schätzung zählt man die Werte der Trumpfkarten (siehe Begriff \"bodentrumpf\") doppelt und addiert für jeden möglichen Stich  mit einem Ass zusätzlich elf Punkte\n\nSpielstrategie:\n• Neben der Genauigkeit der Schätzung ist auch das taktische Spielen auf die angesagte Punktzahl entscheidend\n• Es ist vorteilhaft, Karten, die einen Stich versprechen, möglichst früh im Spielverlauf einzusetzen, um später mit schwächeren Karten aussteigen zu können\n• Eine Schlüsselkarte ist der Trumpf-Bauer  (Under ), da er beim Trumpfausspiel nicht extra angemeldet werden muss\n• Er sollte für einen strategisch wichtigen Moment zurückgehalten werden",
     "metadata": {
       "id": "variants_strategic_differenzler_verdeckt_meta",
       "category": {
@@ -10190,9 +9972,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 2,
-      "taxonomy_tier": 1,
-      "wikidata_id": "Q137731684"
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -10253,8 +10033,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -10316,8 +10095,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10349,7 +10127,7 @@
   },
   "variants_strategic_handjass_blinder": {
     "id": "variants_strategic_handjass_blinder",
-    "text": "Definition:\nBei dieser Dreier-Variante des Handjass kann ein Spieler seine Karten gegen den «Blinden (siehe Begriff \"expressions_blinder\")» tauschen.\n\nSpiel geben und Trumpf:\n• Jeder Spieler erhält neun Karten in drei Runden zu je drei Karten\n• Die übrigen neun Karten bilden den «Blinden»\n• Die oberste Karte des «Blinden» wird aufgedeckt und bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Sie kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") von einem aktiven Spieler geraubt (siehe Begriff \"expressions_rauben\") werden, allerdings erst nachdem sich alle Spieler entschieden haben, ob sie mitspielen oder nicht\n• Das Rauben muss vor dem eigenen Ausspiel (siehe Begriff \"ausspiel\") der ersten Karte erfolgen\n• Die unterste Karte des «Blinden» darf nicht eingesehen werden\n\nSpielentscheidung und Tausch:\n• Wie beim Handjass für vier Spieler erklärt jeder Teilnehmer, ob er am Spiel teilnehmen will\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann nun seine erhaltenen Karten vollständig gegen den «Blinden» austauschen\n• Verzichtet er darauf, haben anschliessend der zweite und dann der dritte Spieler diese Möglichkeit\n• Wer den «Blinden» nimmt, ist verpflichtet, am Spiel teilzunehmen\n• Ein Rücktausch der ursprünglich erhaltenen Karten ist nicht möglich\n• Die abgelegten Karten können bis zum eigenen Ausspiel zur ersten Karte nochmals eingesehen werden\n\nSchreiben:\n• Pro Spiel kann nur der Spieler, der die meisten Punkte  erzielt, einen Strich (siehe Begriff \"schreiben\") notieren, vorausgesetzt er erreicht mindestens 21 Punkte\n• Erreichen beide Spieler weniger als 21 Punkte, erhalten beide je einen «Sack (siehe Begriff \"expressions_sack\")» eingetragen, und das Schreiben eines Strichs entfällt\n\nÜbrige Regeln:\nIn allen anderen Belangen entsprechen die Regeln denen des Handjass für vier Spieler.",
+    "text": "Definition:\nBei dieser Dreier-Variante des Handjass  kann ein Spieler seine Karten gegen den «Blinden (siehe Begriff \"expressions_blinder\")» tauschen.\n\nSpiel geben und Trumpf:\n• Jeder Spieler erhält neun Karten in drei Runden zu je drei Karten\n• Die übrigen neun Karten bilden den «Blinden»\n• Die oberste Karte des «Blinden» wird aufgedeckt und bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Sie kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") von einem aktiven Spieler geraubt (siehe Begriff \"expressions_rauben\") werden, allerdings erst nachdem sich alle Spieler entschieden haben, ob sie mitspielen oder nicht\n• Das Rauben muss vor dem eigenen Ausspiel (siehe Begriff \"ausspiel\") der ersten Karte erfolgen\n• Die unterste Karte des «Blinden» darf nicht eingesehen werden\n\nSpielentscheidung und Tausch:\n• Wie beim Handjass für vier Spieler erklärt jeder Teilnehmer, ob er am Spiel teilnehmen will\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann nun seine erhaltenen Karten vollständig gegen den «Blinden» austauschen\n• Verzichtet er darauf, haben anschliessend der zweite und dann der dritte Spieler diese Möglichkeit\n• Wer den «Blinden» nimmt, ist verpflichtet, am Spiel teilzunehmen\n• Ein Rücktausch der ursprünglich erhaltenen Karten ist nicht möglich\n• Die abgelegten Karten können bis zum eigenen Ausspiel zur ersten Karte nochmals eingesehen werden\n\nSchreiben:\n• Pro Spiel kann nur der Spieler, der die meisten Punkte  erzielt, einen Strich (siehe Begriff \"schreiben\") notieren, vorausgesetzt er erreicht mindestens 21 Punkte\n• Erreichen beide Spieler weniger als 21 Punkte, erhalten beide je einen «Sack (siehe Begriff \"expressions_sack\")» eingetragen, und das Schreiben eines Strichs entfällt\n\nÜbrige Regeln:\nIn allen anderen Belangen entsprechen die Regeln denen des Handjass für vier Spieler.",
     "metadata": {
       "id": "variants_strategic_handjass_blinder_meta",
       "category": {
@@ -10372,8 +10150,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 4,
-      "taxonomy_tier": 3
+      "difficulty": 4
     },
     "faqs": [
       {
@@ -10407,7 +10184,7 @@
   },
   "variants_strategic_palette_jass": {
     "id": "variants_strategic_palette_jass",
-    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Kreuz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"expressions_passen\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und macht anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") ein Gebot über die zu erreichenden Punkte am Ende des Spiels\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
+    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Kreuz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"expressions_passen\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und macht anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") ein Gebot über die zu erreichenden Punkte  am Ende des Spiels\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch  mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
     "metadata": {
       "id": "variants_strategic_palette_jass_meta",
       "category": {
@@ -10432,8 +10209,7 @@
         "LEARNING"
       ],
       "importance": 7,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10470,7 +10246,7 @@
   },
   "variants_strategic_pandur": {
     "id": "variants_strategic_pandur",
-    "text": "Definition:\nDer Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet.\n\nStrenge Regeln:\n• Verstösse wie falsches oder überflüssiges Weisen, unzulässiges Ausspielen (siehe Begriff \"ausspiel\"), das Umdrehen von Stichen oder Kommentare zum Spielverlauf sind untersagt\n• Verstösse werden mit dem sofortigen Verlust des betreffenden Spiels geahndet\n\nKartenspiel und Geben:\n• Verwendet wird ein reduziertes Kartenspiel mit 24 Karten, wobei Sechser, Siebner und Achter ausgeschlossen bleiben\n• Der Spielgeber verteilt je acht Karten an seine drei Mitspieler, nimmt selbst aber nicht aktiv am Spiel teil\n• Er kann jedoch Punkte «erben (siehe Begriff \"expressions_erben\")», also gutgeschrieben bekommen, wenn sein Team (siehe Begriff \"expressions_team\") gewinnt\n\nSteigerung:\n• Nach der Kartenverteilung beginnt die Steigerung\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Bieten und nennt basierend auf seinen Handkarten (siehe Begriff \"expressions_handkarten\") eine Punktzahl, die er zu erreichen glaubt\n• Die Mindestansage liegt bei 100 Punkten \n• Jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen\n\nSteigerungsreihenfolge:\n• Von 100 bis 200 Punkte in Schritten zu je zehn Punkten\n• Misère ohne Trumpf (siehe Begriff \"bodentrumpf\") (zählt 8 Punkte)\n• Misère mit Trumpf (zählt 10 Punkte)\n• Von 210 bis 250 Punkte in Zehnerschritten\n• Pandur ohne Trumpf (zählt 15 Punkte)\n• Von 260 bis 300 Punkte\n• Pandur mit Trumpf (zählt 16 Punkte)\n\nSpielübernahme:\n• Der Spieler mit dem höchsten abgegebenen Gebot übernimmt das Spiel\n• Die beiden übrigen Teilnehmer bilden gemeinsam die Gegenpartei\n• Die Gegenpartei versucht, den Spielübernehmer daran zu hindern, seine angesagte Punktzahl zu erreichen",
+    "text": "Definition:\nDer Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet.\n\nStrenge Regeln:\n• Verstösse wie falsches oder überflüssiges Weisen, unzulässiges Ausspielen (siehe Begriff \"ausspiel\"), das Umdrehen von Stichen  oder Kommentare zum Spielverlauf sind untersagt\n• Verstösse werden mit dem sofortigen Verlust des betreffenden Spiels geahndet\n\nKartenspiel und Geben:\n• Verwendet wird ein reduziertes Kartenspiel mit 24 Karten, wobei Sechser, Siebner und Achter ausgeschlossen bleiben\n• Der Spielgeber verteilt je acht Karten an seine drei Mitspieler, nimmt selbst aber nicht aktiv am Spiel teil\n• Er kann jedoch Punkte «erben (siehe Begriff \"expressions_erben\")», also gutgeschrieben bekommen, wenn sein Team (siehe Begriff \"expressions_team\") gewinnt\n\nSteigerung:\n• Nach der Kartenverteilung beginnt die Steigerung\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Bieten und nennt basierend auf seinen Handkarten (siehe Begriff \"expressions_handkarten\") eine Punktzahl, die er zu erreichen glaubt\n• Die Mindestansage liegt bei 100 Punkten \n• Jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen\n\nSteigerungsreihenfolge:\n• Von 100 bis 200 Punkte in Schritten zu je zehn Punkten\n• Misère ohne Trumpf (siehe Begriff \"bodentrumpf\") (zählt 8 Punkte)\n• Misère mit Trumpf (zählt 10 Punkte)\n• Von 210 bis 250 Punkte in Zehnerschritten\n• Pandur ohne Trumpf (zählt 15 Punkte)\n• Von 260 bis 300 Punkte\n• Pandur mit Trumpf (zählt 16 Punkte)\n\nSpielübernahme:\n• Der Spieler mit dem höchsten abgegebenen Gebot übernimmt das Spiel\n• Die beiden übrigen Teilnehmer bilden gemeinsam die Gegenpartei\n• Die Gegenpartei versucht, den Spielübernehmer daran zu hindern, seine angesagte Punktzahl zu erreichen",
     "metadata": {
       "id": "variants_strategic_pandur_meta",
       "category": {
@@ -10502,8 +10278,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 2
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -10563,8 +10338,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10590,7 +10364,7 @@
   },
   "variants_strategic_pandur_zwei": {
     "id": "variants_strategic_pandur_zwei",
-    "text": "Definition:\nPandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation.\n\nSpiel geben:\n• Jeder Spieler erhält 8 Karten (2 x 4 Karten)\n• Die restlichen 8 Karten bilden den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte eingesehen werden darf\n\nSteigern:\n• Das Bieten erfolgt abwechselnd zwischen den beiden Spielern\n• Jeder kann das Gebot des anderen überbieten oder passen\n• Die gleichen Ansagewerte gelten wie beim Pandur für 4 Spieler\n\nStock-Regeln:\n• Die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert\n• Der Stock selbst wird nicht gespielt, beeinflusst aber die Taktik\n\nSchreiben:\n• Der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus\n• Das macht jeden Stich besonders wertvoll\n\nTaktik:\n• Bei nur zwei Spielern wird jede Karte wichtig\n• Die Kenntnis der untersten Stock-Karte kann entscheidende Hinweise auf die Kartenverteilung geben\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.",
+    "text": "Definition:\nPandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation.\n\nSpiel geben:\n• Jeder Spieler erhält 8 Karten (2 x 4 Karten)\n• Die restlichen 8 Karten bilden den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte eingesehen werden darf\n\nSteigern:\n• Das Bieten erfolgt abwechselnd zwischen den beiden Spielern\n• Jeder kann das Gebot des anderen überbieten oder passen\n• Die gleichen Ansagewerte gelten wie beim Pandur  für 4 Spieler\n\nStock-Regeln:\n• Die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert\n• Der Stock selbst wird nicht gespielt, beeinflusst aber die Taktik\n\nSchreiben:\n• Der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus\n• Das macht jeden Stich  besonders wertvoll\n\nTaktik:\n• Bei nur zwei Spielern wird jede Karte wichtig\n• Die Kenntnis der untersten Stock-Karte kann entscheidende Hinweise auf die Kartenverteilung geben\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.",
     "metadata": {
       "id": "variants_strategic_pandur_zwei_meta",
       "category": {
@@ -10613,8 +10387,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10642,7 +10415,7 @@
   },
   "variants_strategic_schafhauser": {
     "id": "variants_strategic_schafhauser",
-    "text": "Definition:\nDer Schafhauser, auch als Fischenthaler bekannt, ist ein Königsspiel für drei Spieler, bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") aus zwei Spielern antritt.\n\nSpiel geben:\n• Für das erste Spiel bestimmt ein beliebiger Spieler, wer König ist und damit die Karten ausgibt\n• Der König verteilt jedem der drei Spieler zwölf Karten in drei Runden zu je vier Karten\n• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung\n• Nach dem Abheben (siehe Begriff \"abheben\") wird die unterste Karte aufgedeckt, welche die Trumpffarbe (siehe Begriff \"bodentrumpf\") bestimmt\n• Diese Trumpfkarte gehört dem König und kann von niemandem geraubt (siehe Begriff \"expressions_rauben\") werden\n\nSpielablauf:\n• Im Unterschied zum Bieter wird das Ziel nicht durch Bieten festgelegt\n• Der König hat stets 350 Punkte zu erreichen, während die Bauernpartei gemeinsam 1000 Punkte erzielen muss\n• Der König kann basierend auf seiner Handkarte (siehe Begriff \"expressions_handkarten\") entscheiden, ob er das Spiel übernehmen möchte oder passen will\n• Verzichtet er auf das Spiel, erhält die Bauernpartei einen Matsch  mit entsprechender Prämie (siehe Begriff \"expressions_matschpraemie\") sowie gegebenenfalls Stöckpunkten (siehe Begriff \"expressions_stoecke\")\n\nSchreiben:\n• Nach jedem Spiel werden die erzielten Punkte notiert\n• Erreicht weder der König noch die Bauernpartei einen Stich , wird ein Matsch mit Matschprämie eingetragen\n• Der König kann Stöcke (siehe Begriff \"expressions_stoecke\") nur dann gutschreiben lassen, wenn er tatsächlich mitspielt\n\nSchneider-Regel:\nWer weniger als die Hälfte seines Ziels erreicht, verliert den doppelten Einsatz.\n\nPartie-Struktur:\nDie Partie (siehe Begriff \"expressions_partie\") wird so gespielt, dass über drei Runden jeder Spieler genau einmal die Rolle des Königs übernimmt.",
+    "text": "Definition:\nDer Schafhauser, auch als Fischenthaler bekannt, ist ein Königsspiel für drei Spieler, bei dem ein König  gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") aus zwei Spielern antritt.\n\nSpiel geben:\n• Für das erste Spiel bestimmt ein beliebiger Spieler, wer König ist und damit die Karten ausgibt\n• Der König verteilt jedem der drei Spieler zwölf Karten in drei Runden zu je vier Karten\n• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung\n• Nach dem Abheben (siehe Begriff \"abheben\") wird die unterste Karte aufgedeckt, welche die Trumpffarbe (siehe Begriff \"bodentrumpf\") bestimmt\n• Diese Trumpfkarte gehört dem König und kann von niemandem geraubt (siehe Begriff \"expressions_rauben\") werden\n\nSpielablauf:\n• Im Unterschied zum Bieter wird das Ziel nicht durch Bieten festgelegt\n• Der König hat stets 350 Punkte  zu erreichen, während die Bauernpartei gemeinsam 1000 Punkte erzielen muss\n• Der König kann basierend auf seiner Handkarte (siehe Begriff \"expressions_handkarten\") entscheiden, ob er das Spiel übernehmen möchte oder passen will\n• Verzichtet er auf das Spiel, erhält die Bauernpartei einen Matsch  mit entsprechender Prämie (siehe Begriff \"expressions_matschpraemie\") sowie gegebenenfalls Stöckpunkten (siehe Begriff \"expressions_stoecke\")\n\nSchreiben:\n• Nach jedem Spiel werden die erzielten Punkte notiert\n• Erreicht weder der König noch die Bauernpartei einen Stich , wird ein Matsch mit Matschprämie eingetragen\n• Der König kann Stöcke (siehe Begriff \"expressions_stoecke\") nur dann gutschreiben lassen, wenn er tatsächlich mitspielt\n\nSchneider-Regel:\nWer weniger als die Hälfte seines Ziels erreicht, verliert den doppelten Einsatz.\n\nPartie-Struktur:\nDie Partie (siehe Begriff \"expressions_partie\") wird so gespielt, dass über drei Runden jeder Spieler genau einmal die Rolle des Königs übernimmt.",
     "metadata": {
       "id": "variants_strategic_schafhauser_meta",
       "category": {
@@ -10667,8 +10440,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -10705,7 +10477,7 @@
   },
   "variants_strategic_schellenjass": {
     "id": "variants_strategic_schellenjass",
-    "text": "Definition:\nBeim Schellenjass für 3 oder 4 Spieler ist Schellen (siehe Begriff \"expressions_schelle\") immer und ausschliesslich Trumpf (siehe Begriff \"bodentrumpf\"). Es gibt keine anderen Trumpfvarianten wie Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder andere Farben.\n\nSpiel geben:\n• Bei 3 Spielern: Alle erhalten 9 Karten (3 x 3 Karten), 3 Karten werden aus dem Spiel entfernt\n• Bei 4 Spielern: 36 Karten werden gespielt (je 9 Karten pro Spieler)\n• Ein beliebiger Spieler verteilt die entsprechende Anzahl Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nSpielablauf und Taktik:\n• Da Schellen immer Trumpf ist, entwickelt sich eine ganz eigene Taktik\n• Spieler müssen ihre Schellen-Karten besonders strategisch einsetzen, da diese die einzigen Trumpfkarten im Spiel sind\n\nSpielende:\nEine normale Partie (siehe Begriff \"expressions_partie\") nach Punkten oder eine bestimmte Anzahl Spiele.",
+    "text": "Definition:\nBeim Schellenjass für 3 oder 4 Spieler ist Schellen (siehe Begriff \"expressions_schelle\") immer und ausschliesslich Trumpf (siehe Begriff \"bodentrumpf\"). Es gibt keine anderen Trumpfvarianten wie Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder andere Farben.\n\nSpiel geben:\n• Bei 3 Spielern: Alle erhalten 9 Karten (3 x 3 Karten), 3 Karten werden aus dem Spiel entfernt\n• Bei 4 Spielern: 36 Karten werden gespielt (je 9 Karten pro Spieler)\n• Ein beliebiger Spieler verteilt die entsprechende Anzahl Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nSpielablauf und Taktik:\n• Da Schellen immer Trumpf ist, entwickelt sich eine ganz eigene Taktik\n• Spieler müssen ihre Schellen-Karten besonders strategisch einsetzen, da diese die einzigen Trumpfkarten im Spiel sind\n\nSpielende:\nEine normale Partie (siehe Begriff \"expressions_partie\") nach Punkten  oder eine bestimmte Anzahl Spiele.",
     "metadata": {
       "id": "variants_strategic_schellenjass_meta",
       "category": {
@@ -10728,8 +10500,7 @@
         "LEARNING"
       ],
       "importance": 6,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -10760,7 +10531,7 @@
   },
   "variants_strategic_sidi_barrani": {
     "id": "variants_strategic_sidi_barrani",
-    "text": "Definition:\nDer Sidi-Barrani ist eine taktisch anspruchsvolle Schieber-Variante mit Bieten, bei der je zwei Spieler ein Team (siehe Begriff \"expressions_team\") bilden.\n\nSpielprinzip:\n• Im Gegensatz zum Schieber wird nicht zum Partner geschoben, sondern der Reihe nach in Spielrichtung zu jedem Spieler\n• Jeder Spieler kann die Trumpffarbe (siehe Begriff \"bodentrumpf\") wählen, indem er ein Gebot macht\n• Beim Bieten werden eine Punktzahl und die Trumpffarbe angesagt, die man mit diesem Trumpf (siehe Begriff \"bodentrumpf\") zu erreichen glaubt\n• Das Mindestgebot beginnt bei 90 Punkten\n\nAnsageregeln (Empfehlungen):\n• Gerade Ansagen: 60 = Under (Bube) + 2 Karten der gleichen Farbe / 80 = Under + 3 Karten / 100 = Under + 4 Karten\n• Ungerade Ansagen: 50 = Nell (siehe Begriff \"expressions_nell\") + 2 Karten der gleichen Farbe / 70 = Nell + 3 Karten / 90 = Nell + 4 Karten\n• Asse einer Farbe werden mit 5 Punkten angesagt\n\nDoppeln und Kontern:\n• Ein Gegner kann «doppeln», wenn er überzeugt ist, dass das trumpfmachende Team die Ansage nicht erreicht\n• Gedoppelte Ansagen können gekontert werden\n\nHinweis:\nAnsageregeln sind nicht verbindlich und dienen lediglich als Orientierungshilfe.",
+    "text": "Definition:\nDer Sidi-Barrani ist eine taktisch anspruchsvolle Schieber-Variante mit Bieten, bei der je zwei Spieler ein Team (siehe Begriff \"expressions_team\") bilden.\n\nSpielprinzip:\n• Im Gegensatz zum Schieber wird nicht zum Partner geschoben, sondern der Reihe nach in Spielrichtung zu jedem Spieler\n• Jeder Spieler kann die Trumpffarbe (siehe Begriff \"bodentrumpf\") wählen, indem er ein Gebot macht\n• Beim Bieten werden eine Punktzahl  und die Trumpffarbe angesagt, die man mit diesem Trumpf (siehe Begriff \"bodentrumpf\") zu erreichen glaubt\n• Das Mindestgebot beginnt bei 90 Punkten\n\nAnsageregeln (Empfehlungen):\n• Gerade Ansagen: 60 = Under  (Bube ) + 2 Karten der gleichen Farbe / 80 = Under + 3 Karten / 100 = Under + 4 Karten\n• Ungerade Ansagen: 50 = Nell (siehe Begriff \"expressions_nell\") + 2 Karten der gleichen Farbe / 70 = Nell + 3 Karten / 90 = Nell + 4 Karten\n• Asse einer Farbe werden mit 5 Punkten angesagt\n\nDoppeln und Kontern:\n• Ein Gegner kann «doppeln», wenn er überzeugt ist, dass das trumpfmachende Team die Ansage nicht erreicht\n• Gedoppelte Ansagen können gekontert werden\n\nHinweis:\nAnsageregeln sind nicht verbindlich und dienen lediglich als Orientierungshilfe.",
     "metadata": {
       "id": "variants_strategic_sidi_barrani_meta",
       "category": {
@@ -10782,8 +10553,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -10834,8 +10604,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -10868,7 +10637,7 @@
   },
   "variants_three_player_mittlere": {
     "id": "variants_three_player_mittlere",
-    "text": "Definition:\nMittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe (siehe Begriff \"bodentrumpf\") erst durch die erste Fehlfarbe bestimmt wird.\n\nGrundregeln:\n• Diese Jassart kann nur zu dritt gespielt werden\n• Jeder Spieler erhält 12 Karten\n• Jeder spielt für sich, Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") zählen nicht\n\nSpielablauf:\n• Vorerst wird ein Obenabe (siehe Begriff \"expressions_obenabe\") gespielt, d.h. ohne Trumpffarbe\n• Die Kartenwerte zählen dabei jedoch wie bei einem Trumpfspiel (siehe Begriff \"bodentrumpf\")\n• Wer im laufenden Stich eine oder mehrere Karten von der ausgespielten Farbe hat, muss diese spielen\n\nTrumpfbestimmung:\n• Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen\n• Die erste Fehlfarbe wird somit zur Trumpffarbe, die dann bis zum Ende des Spiels gilt\n• Sobald die Trumpffarbe bekannt ist, kann auch mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen werden\n\nSchreiben:\n• Pro Spiel werden immer 2 Striche (siehe Begriff \"schreiben\") und 2 Nuller (siehe Begriff \"expressions_nuller\") verteilt\n• Die beiden Spieler mit der höchsten und der niedrigsten Punktzahl  erhalten nach jedem Spiel je 1 Strich\n• Der Spieler mit der mittleren Punktzahl erhält 2 Nuller\n\nBesondere Regeln:\n• Können alle Spieler in allen 12 Stichen farben und kann deswegen keine Trumpffarbe bestimmt werden, wird das Spiel annulliert\n• Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen und seine Mitspieler erhalten je 1 Strich\n• Wer nicht mindestens 1 Stich erzielt, erhält 2 Nuller\n• Ein Matschspiel  wird mit 2 Strichen belohnt",
+    "text": "Definition:\nMittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe (siehe Begriff \"bodentrumpf\") erst durch die erste Fehlfarbe bestimmt wird.\n\nGrundregeln:\n• Diese Jassart kann nur zu dritt gespielt werden\n• Jeder Spieler erhält 12 Karten\n• Jeder spielt für sich, Stöck (siehe Begriff \"expressions_stoecke\")- und Weispunkte (siehe Begriff \"expressions_weispunkte\") zählen nicht\n\nSpielablauf:\n• Vorerst wird ein Obenabe (siehe Begriff \"expressions_obenabe\") gespielt, d.h. ohne Trumpffarbe\n• Die Kartenwerte zählen dabei jedoch wie bei einem Trumpfspiel (siehe Begriff \"bodentrumpf\")\n• Wer im laufenden Stich  eine oder mehrere Karten von der ausgespielten Farbe hat, muss diese spielen\n\nTrumpfbestimmung:\n• Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen\n• Die erste Fehlfarbe wird somit zur Trumpffarbe, die dann bis zum Ende des Spiels gilt\n• Sobald die Trumpffarbe bekannt ist, kann auch mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen werden\n\nSchreiben:\n• Pro Spiel werden immer 2 Striche (siehe Begriff \"schreiben\") und 2 Nuller (siehe Begriff \"expressions_nuller\") verteilt\n• Die beiden Spieler mit der höchsten und der niedrigsten Punktzahl  erhalten nach jedem Spiel je 1 Strich\n• Der Spieler mit der mittleren Punktzahl erhält 2 Nuller\n\nBesondere Regeln:\n• Können alle Spieler in allen 12 Stichen farben und kann deswegen keine Trumpffarbe bestimmt werden, wird das Spiel annulliert\n• Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen und seine Mitspieler erhalten je 1 Strich\n• Wer nicht mindestens 1 Stich erzielt, erhält 2 Nuller\n• Ein Matschspiel  wird mit 2 Strichen belohnt",
     "metadata": {
       "id": "variants_three_player_mittlere_meta",
       "category": {
@@ -10888,8 +10657,7 @@
         "LEARNING"
       ],
       "importance": 0.6,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -10953,8 +10721,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11015,8 +10782,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -11049,7 +10815,7 @@
   },
   "variants_two_player_schaggi_haas": {
     "id": "variants_two_player_schaggi_haas",
-    "text": "Definition:\nSchaggi-Haas ist ein anspruchsvolles Zweierspiel mit besonderen Regeln zum «Bessern (siehe Begriff \"expressions_bessern\")» und Rauben (siehe Begriff \"expressions_rauben\").\n\nSpiel geben:\n• Wer die niedrigste Karte aus einem verdeckten Kartenspiel zieht, gibt das erste Spiel\n• Auch bei den folgenden Spielen wird durch das Ziehen einer Karte der Spielgeber bestimmt\n• Der Spielgeber verteilt sich und seinem Mitspieler je zwölf Karten in drei Runden zu je vier Karten\n• Die 25. Karte legt er offen auf den Tisch und zeigt damit die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n• Diese Karte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt werden (muss vor dem eigenen Ausspiel (siehe Begriff \"ausspiel\") zum ersten Stich erfolgen)\n\nBessern-Phase:\n• Anschliessend verteilt der Spielgeber nochmals sich und seinem Mitspieler einzeln je vier Karten, die jedoch noch nicht eingesehen werden dürfen\n• Diese können (müssen aber nicht) gegen vier beliebige Handkarten (siehe Begriff \"expressions_handkarten\") getauscht werden («bessern»)\n• Beim «Bessern» müssen alle vier Karten getauscht werden, wobei diese zuerst abgelegt werden müssen, bevor die «bessern» vier Karten aufgenommen werden\n• Wer auf das «Bessern» verzichtet, kann die verdeckten Karten einsehen\n• Die Werte der abgelegten Karten oder der liegengelassenen «Bessern» zählen nicht\n\nStock:\nDie restlichen drei Karten bilden zusammen mit der gezeigten Trumpfkarte den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte nicht eingesehen werden darf.\n\nSpielablauf:\n• Vorhand (siehe Begriff \"expressions_vorhand\") spielt zum ersten Stich aus\n• Wer einen Stich gemacht hat, muss wieder ausspielen\n• Ist mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen worden, darf nur untertrumpft (siehe Begriff \"untertrumpfen\") werden, wenn man nur noch Trumpfkarten hat\n• Erzielt ein Spieler alle zwölf Stiche, erhält er keine zusätzliche Matschprämie (siehe Begriff \"expressions_matschpraemie\"), da nicht mit allen Karten gejasst wird\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") geht auf 1000 Punkte. Wer diese Punktzahl  zuerst erreicht, hat gewonnen.",
+    "text": "Definition:\nSchaggi-Haas ist ein anspruchsvolles Zweierspiel mit besonderen Regeln zum «Bessern (siehe Begriff \"expressions_bessern\")» und Rauben (siehe Begriff \"expressions_rauben\").\n\nSpiel geben:\n• Wer die niedrigste Karte aus einem verdeckten Kartenspiel zieht, gibt das erste Spiel\n• Auch bei den folgenden Spielen wird durch das Ziehen einer Karte der Spielgeber bestimmt\n• Der Spielgeber verteilt sich und seinem Mitspieler je zwölf Karten in drei Runden zu je vier Karten\n• Die 25. Karte legt er offen auf den Tisch und zeigt damit die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n• Diese Karte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt werden (muss vor dem eigenen Ausspiel (siehe Begriff \"ausspiel\") zum ersten Stich  erfolgen)\n\nBessern-Phase:\n• Anschliessend verteilt der Spielgeber nochmals sich und seinem Mitspieler einzeln je vier Karten, die jedoch noch nicht eingesehen werden dürfen\n• Diese können (müssen aber nicht) gegen vier beliebige Handkarten (siehe Begriff \"expressions_handkarten\") getauscht werden («bessern»)\n• Beim «Bessern» müssen alle vier Karten getauscht werden, wobei diese zuerst abgelegt werden müssen, bevor die «bessern» vier Karten aufgenommen werden\n• Wer auf das «Bessern» verzichtet, kann die verdeckten Karten einsehen\n• Die Werte der abgelegten Karten oder der liegengelassenen «Bessern» zählen nicht\n\nStock:\nDie restlichen drei Karten bilden zusammen mit der gezeigten Trumpfkarte den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte nicht eingesehen werden darf.\n\nSpielablauf:\n• Vorhand (siehe Begriff \"expressions_vorhand\") spielt zum ersten Stich aus\n• Wer einen Stich gemacht hat, muss wieder ausspielen\n• Ist mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen worden, darf nur untertrumpft (siehe Begriff \"untertrumpfen\") werden, wenn man nur noch Trumpfkarten hat\n• Erzielt ein Spieler alle zwölf Stiche, erhält er keine zusätzliche Matschprämie (siehe Begriff \"expressions_matschpraemie\"), da nicht mit allen Karten gejasst wird\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") geht auf 1000 Punkte. Wer diese Punktzahl  zuerst erreicht, hat gewonnen.",
     "metadata": {
       "id": "variants_two_player_schaggi_haas_meta",
       "category": {
@@ -11074,8 +10840,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -11112,7 +10877,7 @@
   },
   "variants_two_player_schmaus": {
     "id": "variants_two_player_schmaus",
-    "text": "Definition:\nSchmaus ist ein strategisches Kartenspiel für zwei Spieler mit besonderem Fokus auf Stock (siehe Begriff \"expressions_stapel\")-Aufnahme und «aufwärts weisen».\n\nSpiel geben:\n• Der Spielgeber verteilt je 9 Karten\n• Die restlichen 18 Karten bilden den Stock, dessen oberste Karte aufgedeckt wird und die Trumpffarbe (siehe Begriff \"bodentrumpf\") anzeigt\n• Sie kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") vor jedem eigenen Ausspiel (siehe Begriff \"ausspiel\") geraubt (siehe Begriff \"expressions_rauben\") werden\n\nWeisen mit Stock:\n• Solange noch Karten vom Stock vorhanden sind, darf bei jedem Stich neu gewiesen werden\n• Dabei zählt nur der höhere Weis pro Stich\n• Gewiesen werden darf nur «aufwärts», d.h., nach einem Dreiblatt vom König darf im nächsten Ausspiel kein Dreiblatt von einem Ober (Dame) der gleichen Farbe gewiesen werden\n\nSpielablauf während Stock-Phase:\n• Vorhand (siehe Begriff \"expressions_vorhand\") spielt zum ersten Stich aus\n• Nach jedem Stich nimmt zuerst der Spieler, dem der Stich gehört, anschliessend sein Gegner verdeckt eine Karte vom Stock auf\n• Entgegen den allgemeinen Jassregeln muss beim Aufnehmen der Karten weder gefarbt noch Trumpf (siehe Begriff \"bodentrumpf\") angegeben werden\n\nSpielablauf nach Stock:\n• Sobald der Stock aufgebraucht ist, muss gefarbt werden\n• Solange «Leih» gehalten werden kann, darf nicht mit Trumpf gestochen werden\n• Wer von der ausgespielten Farbe keine Karte hat, muss mit Ausnahme des Trumpf-Bauers  (Under ) mit Trumpf stechen\n\nMatsch-Prämie:\nWer nach Aufbrauchen des Stocks alle weiteren Stiche erzielt, erhält zusätzlich eine Prämie von 100 Punkte. Der letzte Stich (siehe Begriff \"letzter_stich\") zählt 5 Punkte.",
+    "text": "Definition:\nSchmaus ist ein strategisches Kartenspiel für zwei Spieler mit besonderem Fokus auf Stock (siehe Begriff \"expressions_stapel\")-Aufnahme und «aufwärts weisen».\n\nSpiel geben:\n• Der Spielgeber verteilt je 9 Karten\n• Die restlichen 18 Karten bilden den Stock, dessen oberste Karte aufgedeckt wird und die Trumpffarbe (siehe Begriff \"bodentrumpf\") anzeigt\n• Sie kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") vor jedem eigenen Ausspiel (siehe Begriff \"ausspiel\") geraubt (siehe Begriff \"expressions_rauben\") werden\n\nWeisen mit Stock:\n• Solange noch Karten vom Stock vorhanden sind, darf bei jedem Stich  neu gewiesen werden\n• Dabei zählt nur der höhere Weis pro Stich\n• Gewiesen werden darf nur «aufwärts», d.h., nach einem Dreiblatt vom König darf im nächsten Ausspiel kein Dreiblatt von einem Ober (Dame) der gleichen Farbe gewiesen werden\n\nSpielablauf während Stock-Phase:\n• Vorhand (siehe Begriff \"expressions_vorhand\") spielt zum ersten Stich aus\n• Nach jedem Stich nimmt zuerst der Spieler, dem der Stich gehört, anschliessend sein Gegner verdeckt eine Karte vom Stock auf\n• Entgegen den allgemeinen Jassregeln muss beim Aufnehmen der Karten weder gefarbt noch Trumpf (siehe Begriff \"bodentrumpf\") angegeben werden\n\nSpielablauf nach Stock:\n• Sobald der Stock aufgebraucht ist, muss gefarbt werden\n• Solange «Leih» gehalten werden kann, darf nicht mit Trumpf gestochen werden\n• Wer von der ausgespielten Farbe keine Karte hat, muss mit Ausnahme des Trumpf-Bauers  (Under ) mit Trumpf stechen\n\nMatsch-Prämie:\nWer nach Aufbrauchen des Stocks alle weiteren Stiche erzielt, erhält zusätzlich eine Prämie von 100 Punkte. Der letzte Stich (siehe Begriff \"letzter_stich\") zählt 5 Punkte.",
     "metadata": {
       "id": "variants_two_player_schmaus_meta",
       "category": {
@@ -11133,8 +10898,7 @@
         "LEARNING"
       ],
       "importance": 0.6,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11167,7 +10931,7 @@
   },
   "variants_two_player_schnueffler": {
     "id": "variants_two_player_schnueffler",
-    "text": "Definition:\nSchnüffler ist ein dynamisches Zweierspiel, bei dem während des Spiels laufend neue Karten vom Stock (siehe Begriff \"expressions_stapel\") aufgenommen werden.\n\nSpiel geben:\n• Jeder Spieler erhält zwölf Karten in drei Runden zu je vier Karten\n• Die restlichen zwölf Karten werden als verdeckter Stock auf den Tisch gelegt\n• Die oberste Stockkarte wird aufgedeckt und zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nDas «Schnüffeln»:\n• Wer einen Stich macht, darf die oberste Stockkarte nehmen\n• Danach wird die nächste Stockkarte aufgedeckt\n• So «schnüffelt» man sich durch den Stock\n\nRauben:\nDie aufgedeckte Trumpfkarte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt (siehe Begriff \"expressions_rauben\") werden, solange noch Stockkarten vorhanden sind.\n\nSpielablauf:\n• Der Nicht-Spielgeber spielt zum ersten Stich aus\n• Nach jedem Stich nimmt der Stichgewinner die oberste Stockkarte, und die nächste wird aufgedeckt\n• Dadurch verändert sich das Spiel laufend\n• Da die Spieler laufend neue Karten erhalten, müssen sie strategisch entscheiden, welche Karten sie behalten und welche sie abgeben\n\nTaktik:\n• Stiche zu machen wird doppelt wertvoll (Punkte  plus neue Karte)\n• Die Kenntnis der aufgedeckten Trumpfkarte hilft bei der Planung\n• Das Spiel entwickelt sich sehr dynamisch\n\nSpielende:\n• Wenn der Stock aufgebraucht ist, wird mit den verbleibenden Handkarten (siehe Begriff \"expressions_handkarten\") zu Ende gespielt\n• Übliche Zielwerte sind 500 bis 1000 Punkte",
+    "text": "Definition:\nSchnüffler ist ein dynamisches Zweierspiel, bei dem während des Spiels laufend neue Karten vom Stock (siehe Begriff \"expressions_stapel\") aufgenommen werden.\n\nSpiel geben:\n• Jeder Spieler erhält zwölf Karten in drei Runden zu je vier Karten\n• Die restlichen zwölf Karten werden als verdeckter Stock auf den Tisch gelegt\n• Die oberste Stockkarte wird aufgedeckt und zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nDas «Schnüffeln»:\n• Wer einen Stich  macht, darf die oberste Stockkarte nehmen\n• Danach wird die nächste Stockkarte aufgedeckt\n• So «schnüffelt» man sich durch den Stock\n\nRauben:\nDie aufgedeckte Trumpfkarte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt (siehe Begriff \"expressions_rauben\") werden, solange noch Stockkarten vorhanden sind.\n\nSpielablauf:\n• Der Nicht-Spielgeber spielt zum ersten Stich aus\n• Nach jedem Stich nimmt der Stichgewinner die oberste Stockkarte, und die nächste wird aufgedeckt\n• Dadurch verändert sich das Spiel laufend\n• Da die Spieler laufend neue Karten erhalten, müssen sie strategisch entscheiden, welche Karten sie behalten und welche sie abgeben\n\nTaktik:\n• Stiche zu machen wird doppelt wertvoll (Punkte  plus neue Karte)\n• Die Kenntnis der aufgedeckten Trumpfkarte hilft bei der Planung\n• Das Spiel entwickelt sich sehr dynamisch\n\nSpielende:\n• Wenn der Stock aufgebraucht ist, wird mit den verbleibenden Handkarten (siehe Begriff \"expressions_handkarten\") zu Ende gespielt\n• Übliche Zielwerte sind 500 bis 1000 Punkte",
     "metadata": {
       "id": "variants_two_player_schnueffler_meta",
       "category": {
@@ -11190,8 +10954,7 @@
         "LEARNING"
       ],
       "importance": 5,
-      "difficulty": 5,
-      "taxonomy_tier": 3
+      "difficulty": 5
     },
     "faqs": [
       {
@@ -11222,7 +10985,7 @@
   },
   "vorspielen": {
     "id": "vorspielen",
-    "text": "Definition:\nVorspielen ist ein Regelverstoss, bei dem eine Karte zu früh abgelegt wird, bevor der links sitzende Spieler seine Karte gelegt hat. Die zu früh abgelegte Karte kann nicht mehr zurückgenommen werden.\n\nAusnahme bei Nichtfarben:\n• Falls der Spieler nicht gefarbt hat, gelten die Regeln des Nichtfarbens (siehe Begriff \"nichtfarben\"): Der Stich geht an den Gegner und die vorgespielte Karte wird mit der eigentlich zu spielenden Karte ausgetauscht\n\nKonsequenzen:\n• Sowohl die vorgespielte als auch die nachträglich ausgetauschte Karte verlieren ihren Stechwert, behalten aber den Zählwert\n• Zum nächsten Stich spielt der rechts vom fehlbaren Spieler sitzende Jasser aus\n\nAusnahme letzter Stich:\n• Beim letzten Stich (siehe Begriff \"letzter_stich\") hat Vorspielen keine Folgen und ist daher erlaubt",
+    "text": "Definition:\nVorspielen ist ein Regelverstoss, bei dem eine Karte zu früh abgelegt wird, bevor der links sitzende Spieler seine Karte gelegt hat. Die zu früh abgelegte Karte kann nicht mehr zurückgenommen werden.\n\nAusnahme bei Nichtfarben:\n• Falls der Spieler nicht gefarbt hat, gelten die Regeln des Nichtfarbens (siehe Begriff \"nichtfarben\"): Der Stich  geht an den Gegner und die vorgespielte Karte wird mit der eigentlich zu spielenden Karte ausgetauscht\n\nKonsequenzen:\n• Sowohl die vorgespielte als auch die nachträglich ausgetauschte Karte verlieren ihren Stechwert, behalten aber den Zählwert\n• Zum nächsten Stich spielt der rechts vom fehlbaren Spieler sitzende Jasser aus\n\nAusnahme letzter Stich:\n• Beim letzten Stich (siehe Begriff \"letzter_stich\") hat Vorspielen keine Folgen und ist daher erlaubt",
     "metadata": {
       "id": "vorspielen_meta",
       "category": {
@@ -11243,8 +11006,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -11297,8 +11059,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11357,8 +11118,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11415,8 +11175,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11475,8 +11234,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11531,8 +11289,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11593,8 +11350,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11656,8 +11412,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11717,8 +11472,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11779,8 +11533,7 @@
         "LEARNING"
       ],
       "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11840,8 +11593,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11880,7 +11632,7 @@
   },
   "weis_rules_notation_basics": {
     "id": "weis_rules_notation_basics",
-    "text": "Grundregel:\nDas erzielte Resultat eines Spieles (Kartenpunkte) wird nach Beendigung sofort notiert. Schreiben (siehe Begriff \"schreiben\") ist erlaubt bis zum ersten Stich des neuen Spieles. Der Schreiber muss die Punkte jederzeit übersichtlich notieren.\n\nSchreibweise auf der Tafelseite:\n• Striche für 100 Punkte: Oben von links nach rechts\n• Striche für 50 Punkte: Mitte der Tafelseite\n• Striche für 20 Punkte: Unten von links nach rechts\n\nVorteile von Apps:\n• Schreiben wird schneller und präziser erledigt\n• App rechnet automatisch für beide Teams (siehe Begriff \"expressions_team\")\n• Vermeidet Fehler bei Punkteberechnung\n• Mehr Zeit zum Jassen bleibt",
+    "text": "Grundregel:\nDas erzielte Resultat eines Spieles (Kartenpunkte) wird nach Beendigung sofort notiert. Schreiben (siehe Begriff \"schreiben\") ist erlaubt bis zum ersten Stich  des neuen Spieles. Der Schreiber muss die Punkte jederzeit übersichtlich notieren.\n\nSchreibweise auf der Tafelseite:\n• Striche für 100 Punkte: Oben von links nach rechts\n• Striche für 50 Punkte: Mitte der Tafelseite\n• Striche für 20 Punkte: Unten von links nach rechts\n\nVorteile von Apps:\n• Schreiben wird schneller und präziser erledigt\n• App rechnet automatisch für beide Teams (siehe Begriff \"expressions_team\")\n• Vermeidet Fehler bei Punkteberechnung\n• Mehr Zeit zum Jassen bleibt",
     "metadata": {
       "id": "weis_rules_notation_basics_meta",
       "category": {
@@ -11902,8 +11654,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -11963,8 +11714,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12011,8 +11761,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12066,8 +11815,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12131,8 +11879,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12198,8 +11945,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12259,8 +12005,7 @@
         "LEARNING"
       ],
       "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12318,8 +12063,7 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12380,8 +12124,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 3
+      "difficulty": 1
     },
     "faqs": [
       {
@@ -12443,8 +12186,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -12488,8 +12230,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
@@ -12535,8 +12276,7 @@
         "LEARNING"
       ],
       "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
+      "difficulty": 2
     },
     "faqs": [
       {
