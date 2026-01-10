@@ -24,6 +24,47 @@
       "trailingSlash": true,
       "headers": [
         {
+          "source": "/taxonomie.jsonld",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/ld+json; charset=utf-8"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, HEAD, OPTIONS"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Link",
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+            },
+            {
+              "key": "X-Agentic-Context",
+              "value": "/llms.txt"
+            },
+            {
+              "key": "X-AI-Knowledge-Source",
+              "value": "https://jasswiki.ch/llms.txt"
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+            }
+          ]
+        },
+        {
           "source": "**/*.jsonld",
           "headers": [
             {
@@ -40,7 +81,7 @@
             },
             {
               "key": "Cache-Control",
-              "value": "public, max-age=86400, immutable"
+              "value": "public, max-age=86400"
             },
             {
               "key": "X-Content-Type-Options",
@@ -87,6 +128,11 @@
         }
       ],
       "redirects": [
+        {
+          "source": "/taxonomie.jsonld/",
+          "destination": "/taxonomie.jsonld",
+          "type": 301
+        },
         {
           "source": "/varianten/sidi/",
           "destination": "/varianten/sidi-barrani/",
