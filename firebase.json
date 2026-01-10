@@ -24,6 +24,47 @@
       "trailingSlash": true,
       "headers": [
         {
+          "source": "**/*.jsonld",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/ld+json; charset=utf-8"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, HEAD, OPTIONS"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400, immutable"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Link",
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+            },
+            {
+              "key": "X-Agentic-Context",
+              "value": "/llms.txt"
+            },
+            {
+              "key": "X-AI-Knowledge-Source",
+              "value": "https://jasswiki.ch/llms.txt"
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+            }
+          ]
+        },
+        {
           "source": "**",
           "headers": [
             {
