@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "eslint",
     "sitemap": "node generate-sitemap.mjs",
-    "generate:taxonomy": "node scripts/generate-taxonomy-jsonld.mjs"
+    "generate:taxonomy": "node generate-taxonomy-jsonld.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
