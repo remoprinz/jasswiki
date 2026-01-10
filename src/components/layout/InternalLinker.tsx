@@ -2,27 +2,18 @@ import React from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { toSlug } from '@/lib/utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 
-// Erstelle eine Map für schnellen Zugriff auf Link-Ziele (3-Ebenen URLs)
+// Erstelle eine Map für schnellen Zugriff auf Link-Ziele
 // UND für ID-basierte Lookups (z.B. "expressions_stapel" → "/begriffe/grundbegriffe/stapel")
 const linkMap = new Map<string, string>();
 const idLinkMap = new Map<string, string>();
 
 Object.values(allContent as JassContentRecord).forEach(item => {
-    const mainCatSlug = toSlug(item.metadata.category.main);
-    const subCatSlug = toSlug(item.metadata.category.sub);
-    const topicSlug = toSlug(item.metadata.category.topic);
-    
-    // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
-    // 1. Varianten (keine echte Subkategorie)
-    // 2. Artikel wo sub === topic (z.B. Geschichte, Grundlagen & Kultur)
-    const isFlatStructure = (mainCatSlug === 'varianten' || subCatSlug === topicSlug);
-    const path = isFlatStructure
-      ? `/${mainCatSlug}/${topicSlug}/`
-      : `/${mainCatSlug}/${subCatSlug}/${topicSlug}/`;
+    // Verwende zentrale URL-Funktion für konsistente URLs
+    const path = buildArticleUrl(item.metadata.category);
 
     // Hauptthema als Schlüssel
     linkMap.set(item.metadata.category.topic.toLowerCase(), path);

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight, ExternalLink } from 'lucide-react';
-import { toSlug } from '@/lib/utils';
+import { buildArticleUrl } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -51,17 +51,8 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
         return null;
       }
 
-      const categorySlug = toSlug(article.metadata.category.main);
-      const subcategorySlug = toSlug(article.metadata.category.sub);
-      const topicSlug = toSlug(article.metadata.category.topic);
-
-      // SPEZIALFALL: Varianten haben flache Struktur
-      const isVarianten = categorySlug === 'varianten';
-      const isFlatStructure = isVarianten || subcategorySlug === topicSlug;
-      
-      const url = isFlatStructure
-        ? `/${categorySlug}/${topicSlug}/`
-        : `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
+      // Erstelle URL (zentrale Funktion für konsistente URLs)
+      const url = buildArticleUrl(article.metadata.category);
 
       return {
         id: article.id,

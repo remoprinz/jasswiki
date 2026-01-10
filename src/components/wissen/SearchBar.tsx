@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import Link from 'next/link';
-import { toSlug } from '@/lib/utils';
+import { buildArticleUrl } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -66,19 +66,8 @@ export const SearchBar: React.FC = () => {
         
         if (score === 0) return null;
         
-        // Erstelle URL
-        const categorySlug = toSlug(item.metadata.category.main);
-        const subcategorySlug = toSlug(item.metadata.category.sub);
-        const topicSlug = toSlug(item.metadata.category.topic);
-        
-        // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
-        // 1. Varianten (keine echte Subkategorie)
-        // 2. Artikel wo sub === topic (z.B. "Weisen allgemein")
-        const isVarianten = categorySlug === 'varianten';
-        const isFlatStructure = isVarianten || subcategorySlug === topicSlug;
-        const url = isFlatStructure
-          ? `/${categorySlug}/${topicSlug}/`
-          : `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
+        // Erstelle URL (zentrale Funktion für konsistente URLs)
+        const url = buildArticleUrl(item.metadata.category);
         
         // Erstelle Snippet
         const textSnippet = item.text.substring(0, 150).replace(/\n/g, ' ');

@@ -1,6 +1,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+// Importiere zentrale URL-Utilities (Single Source of Truth)
+import { toSlug, buildArticleUrl, isFlatStructure, validateUrl } from './url-utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -10,30 +12,6 @@ const JSON_FILE = path.resolve(__dirname, 'src/data/jass-content-v2.json');
 const SITEMAP_PUBLIC = path.resolve(__dirname, 'public/sitemap.xml');
 const SITEMAP_OUT = path.resolve(__dirname, 'out/sitemap.xml');
 const BASE_URL = 'https://jasswiki.ch';
-
-// Helper: Konvertiert Text zu URL-Slug
-function toSlug(text) {
-  return text
-    .toLowerCase()
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
-    .replace(/à|á|â|ã|å|è|é|ê|ë|ì|í|î|ï|ò|ó|ô|õ|ù|ú|û|ü|ý|ÿ/g, (match) => {
-      // Französische und andere Akzente zu Basis-Buchstaben
-      const map = {
-        'à': 'a', 'á': 'a', 'â': 'a', 'ã': 'a', 'å': 'a',
-        'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
-        'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
-        'ò': 'o', 'ó': 'o', 'ô': 'o', 'õ': 'o',
-        'ù': 'u', 'ú': 'u', 'û': 'u',
-        'ý': 'y', 'ÿ': 'y'
-      };
-      return map[match] || match;
-    })
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
 
 async function generateSitemap() {
   try {
@@ -60,6 +38,12 @@ async function generateSitemap() {
         priority: '1.0'
       },
       // Modulare llms.txt v2.0 (AI-optimiert)
+      {
+        loc: `${BASE_URL}/taxonomie/`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.95'
+      },
       {
         loc: `${BASE_URL}/llms.txt`,
         lastmod: lastModDate,
@@ -119,28 +103,25 @@ async function generateSitemap() {
     // Hauptkategorien sammeln
     const mainCategories = new Set();
     
-    // Für jeden Artikel die URL generieren
+    // Für jeden Artikel die URL generieren (mit zentraler Funktion)
+    let validationErrors = [];
+    
     articles.forEach((article) => {
       const { category } = article.metadata;
       
-      // Hauptkategorie
+      // Hauptkategorie für Statistik
       const mainCatSlug = toSlug(category.main);
       mainCategories.add(mainCatSlug);
       
-      // Subcategory
-      const subCatSlug = toSlug(category.sub);
+      // Verwende zentrale URL-Funktion (Single Source of Truth)
+      const articlePath = buildArticleUrl(category);
+      const url = `${BASE_URL}${articlePath}`;
       
-      // Topic
-      const topicSlug = toSlug(category.topic);
-      
-      // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
-      // 1. Varianten (keine echte Subkategorie)
-      // 2. Artikel wo sub === topic (z.B. Geschichte, Grundlagen & Kultur)
-      const isFlatStructure = (mainCatSlug === 'varianten' || subCatSlug === topicSlug);
-      
-      const url = isFlatStructure
-        ? `${BASE_URL}/${mainCatSlug}/${topicSlug}/`
-        : `${BASE_URL}/${mainCatSlug}/${subCatSlug}/${topicSlug}/`;
+      // Validiere die generierte URL
+      const validation = validateUrl(articlePath);
+      if (!validation.isValid) {
+        validationErrors.push(`${article.id}: ${validation.error}`);
+      }
       
       urls.push({
         loc: url,
@@ -149,6 +130,14 @@ async function generateSitemap() {
         priority: '0.8'
       });
     });
+    
+    // Zeige Validierungsfehler
+    if (validationErrors.length > 0) {
+      console.log('');
+      console.log('⚠️  URL-VALIDIERUNGSFEHLER GEFUNDEN:');
+      validationErrors.forEach(err => console.log(`   - ${err}`));
+      console.log('');
+    }
 
     // Hauptkategorie-Übersichtsseiten hinzufügen
     mainCategories.forEach((mainCatSlug) => {
@@ -173,14 +162,9 @@ async function generateSitemap() {
       const subCatSlug = toSlug(category.sub);
       const topicSlug = toSlug(category.topic);
       
-      // Varianten überspringen (haben keine Subkategorie-Seiten)
-      if (mainCatSlug === 'varianten') {
-        return;
-      }
-      
-      // Flache Artikel (sub === topic) überspringen
-      if (subCatSlug === topicSlug) {
-        return;
+      // Verwende zentrale Funktion für Prüfung
+      if (isFlatStructure(mainCatSlug, subCatSlug, topicSlug)) {
+        return; // Flache Artikel haben keine Subkategorie-Seiten
       }
       
       const key = `${mainCatSlug}/${subCatSlug}`;

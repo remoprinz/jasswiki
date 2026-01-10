@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run generate:taxonomy && npm run sitemap && next build && npm run postbuild",
+    "build": "npm run validate:urls && npm run generate:taxonomy && npm run generate:corpus && npm run sitemap && next build && npm run postbuild",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
     "sitemap": "node generate-sitemap.mjs",
-    "generate:taxonomy": "node generate-taxonomy-jsonld.mjs"
+    "generate:taxonomy": "node generate-taxonomy-jsonld.mjs",
+    "generate:corpus": "node generate-corpus.mjs",
+    "validate:urls": "node validate-urls.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

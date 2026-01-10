@@ -5,6 +5,7 @@ import { ChevronDown, ChevronRight } from 'lucide-react';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
+import { buildArticleUrlFromSlugs, isFlatStructure } from '@/lib/url-utils';
 
 // Funktion zur schönen Formatierung von Topic-Namen
 const formatTopicName = (name: string): string => {
@@ -52,8 +53,8 @@ const getNavigationStructure = (content: JassContentRecord) => {
       };
     }
 
-    // Für Artikel mit sub === topic (flache Struktur): Als flatArticle hinzufügen
-    if (subCatSlug === topicSlug) {
+    // Für Artikel mit flacher Struktur: Als flatArticle hinzufügen
+    if (isFlatStructure(mainCatSlug, subCatSlug, topicSlug)) {
       // Duplikate vermeiden
       if (!structure[mainCatSlug].flatArticles.some(a => a.slug === topicSlug)) {
         structure[mainCatSlug].flatArticles.push({
