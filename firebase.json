@@ -21,9 +21,10 @@
         "**/node_modules/**"
       ],
       "cleanUrls": true,
+      "trailingSlash": true,
       "headers": [
         {
-          "source": "/taxonomie.jsonld",
+          "source": "/dataset/taxonomie.jsonld",
           "headers": [
             {
               "key": "Content-Type",
@@ -128,8 +129,13 @@
       ],
       "redirects": [
         {
+          "source": "/taxonomie.jsonld",
+          "destination": "/dataset/taxonomie.jsonld",
+          "type": 301
+        },
+        {
           "source": "/taxonomie.jsonld/",
-          "destination": "/taxonomie.jsonld",
+          "destination": "/dataset/taxonomie.jsonld",
           "type": 301
         },
         {

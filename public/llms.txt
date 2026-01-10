@@ -66,7 +66,7 @@ Health Check: /health
 
 | Datei | Format | Beschreibung |
 |-------|--------|--------------|
-| [taxonomie.jsonld](https://jasswiki.ch/taxonomie.jsonld) | JSON-LD | Schema.org DefinedTermSet mit 57 Wikidata-verlinkten Begriffen |
+| [taxonomie.jsonld](https://jasswiki.ch/dataset/taxonomie.jsonld) | JSON-LD | Schema.org DefinedTermSet mit 57 Wikidata-verlinkten Begriffen |
 | [taxonomie/](https://jasswiki.ch/taxonomie/) | HTML + JSON-LD | Menschenlesbare Taxonomie mit eingebettetem Schema |
 
 **Wikidata-Mapping:** Alle Begriffe sind mit Wikidata-IDs verknüpft (sameAs, termCode).
@@ -79,7 +79,7 @@ Health Check: /health
 ## 📊 Bulk Training Data
 
 Für Modell-Training (Pre-Training/Fine-Tuning):
-- **Taxonomie:** https://jasswiki.ch/taxonomie.jsonld (JSON-LD, Schema.org)
+- **Taxonomie:** https://jasswiki.ch/dataset/taxonomie.jsonld (JSON-LD, Schema.org)
 - **Corpus:** https://jasswiki.ch/dataset/jasswiki-corpus.jsonl (JSONL, 257 Artikel)
 - **Format:** UTF-8
 - **Lizenz:** CC-BY-SA 4.0

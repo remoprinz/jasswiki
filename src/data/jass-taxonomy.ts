@@ -7,7 +7,7 @@
  * Diese Datei ist die EINZIGE Quelle für die Jass-Taxonomie.
  * Sie wird verwendet für:
  * - Die Taxonomie-Seite (/taxonomie/)
- * - Das generierte JSON-LD (/public/taxonomie.jsonld)
+ * - Das generierte JSON-LD (/public/dataset/taxonomie.jsonld)
  * - Zukünftig: SKOS-Export
  * 
  * ALLE WIKIDATA-IDs VERIFIZIERT MIT WikiFeeder 3.0!

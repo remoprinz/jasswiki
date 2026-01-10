@@ -210,8 +210,8 @@ function main() {
   const jsonLd = generateJsonLd();
   const jsonString = JSON.stringify(jsonLd, null, 2);
   
-  // Output path
-  const outputPath = path.join(__dirname, 'public', 'taxonomie.jsonld');
+  // Output path (in /dataset/ folder to avoid trailingSlash issues)
+  const outputPath = path.join(__dirname, 'public', 'dataset', 'taxonomie.jsonld');
   
   // Write file
   fs.writeFileSync(outputPath, jsonString, 'utf-8');

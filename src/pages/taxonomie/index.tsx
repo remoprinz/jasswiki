@@ -200,7 +200,7 @@ const TaxonomiePage = () => {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(taxonomyJsonLd) }}
         />
         {/* Link zur statischen JSON-LD Datei */}
-        <link rel="alternate" type="application/ld+json" href="/taxonomie.jsonld" />
+        <link rel="alternate" type="application/ld+json" href="/dataset/taxonomie.jsonld" />
       </Head>
       
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
@@ -247,7 +247,7 @@ const TaxonomiePage = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               <a 
-                href="/taxonomie.jsonld"
+                href="/dataset/taxonomie.jsonld"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3 py-1.5 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors text-sm font-medium"
