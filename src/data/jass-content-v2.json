@@ -150,7 +150,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -759,7 +759,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 1
     },
     "faqs": [
       {
@@ -1074,7 +1074,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -1557,7 +1557,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -2304,7 +2304,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -2421,7 +2421,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -2456,7 +2456,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -2567,7 +2567,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -2802,7 +2802,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -3121,7 +3121,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -3272,7 +3272,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 1
     },
     "faqs": [
       {
@@ -3435,7 +3435,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -3551,7 +3551,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 1
     },
     "faqs": [
       {
@@ -4067,7 +4067,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "synonyms": [
       "weispunkte",
@@ -6937,7 +6937,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -7345,7 +7345,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7396,7 +7396,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7446,7 +7446,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7498,7 +7498,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7558,7 +7558,7 @@
       ],
       "importance": 0.7,
       "difficulty": 3,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7616,7 +7616,7 @@
       ],
       "importance": 0.95,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7669,7 +7669,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7722,7 +7722,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7775,7 +7775,7 @@
       ],
       "importance": 0.9,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7822,7 +7822,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7875,7 +7875,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -7924,7 +7924,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": []
   },
@@ -7951,7 +7951,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": []
   },
@@ -8137,7 +8137,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -8429,7 +8429,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 1
     },
     "synonyms": [
       "puur",
@@ -8554,7 +8554,7 @@
       ],
       "importance": 1,
       "difficulty": 2,
-      "taxonomy_tier": 2
+      "taxonomy_tier": 3
     },
     "faqs": [
       {
@@ -8618,7 +8618,8 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 1,
+      "wikidata_id": "Q137731700"
     },
     "faqs": [
       {
@@ -8676,8 +8677,7 @@
       ],
       "importance": 6,
       "difficulty": 3,
-      "taxonomy_tier": 1,
-      "wikidata_id": "Q137731700"
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -8739,7 +8739,7 @@
       ],
       "importance": 5,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -8776,7 +8776,7 @@
       "category": {
         "main": "Varianten",
         "sub": "Serienjass",
-        "topic": "Serienjass: Taktiken"
+        "topic": "Guggitaler"
       },
       "keywords": [
         "guggitaler",
@@ -8796,7 +8796,7 @@
       ],
       "importance": 6,
       "difficulty": 3,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -8857,7 +8857,7 @@
       ],
       "importance": 0.7,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -8918,7 +8918,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9043,7 +9043,7 @@
       ],
       "importance": 0.6,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9108,7 +9108,7 @@
       ],
       "importance": 0.5,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9168,7 +9168,7 @@
       ],
       "importance": 0.6,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9235,7 +9235,7 @@
       ],
       "importance": 0.6,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9299,7 +9299,7 @@
       ],
       "importance": 6,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9353,7 +9353,7 @@
       ],
       "importance": 7,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9421,7 +9421,7 @@
       ],
       "importance": 5,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9475,7 +9475,7 @@
       ],
       "importance": 5,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9512,7 +9512,7 @@
       "category": {
         "main": "Varianten",
         "sub": "Schreibspiel",
-        "topic": "Zuger (3 Spieler)"
+        "topic": "Zuger"
       },
       "keywords": [
         "zuger drei",
@@ -9531,7 +9531,7 @@
       ],
       "importance": 4,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9586,7 +9586,7 @@
       ],
       "importance": 7,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9640,7 +9640,7 @@
       ],
       "importance": 8,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9707,7 +9707,7 @@
       ],
       "importance": 6,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9762,7 +9762,7 @@
       ],
       "importance": 0.7,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9829,7 +9829,7 @@
       ],
       "importance": 8,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9892,7 +9892,7 @@
       ],
       "importance": 7,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -9950,7 +9950,7 @@
       ],
       "importance": 7,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10008,7 +10008,7 @@
       ],
       "importance": 6,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10068,7 +10068,7 @@
       ],
       "importance": 7,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10129,7 +10129,7 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10254,7 +10254,7 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10317,7 +10317,7 @@
       ],
       "importance": 6,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10373,7 +10373,7 @@
       ],
       "importance": 6,
       "difficulty": 4,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10433,7 +10433,7 @@
       ],
       "importance": 7,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10564,7 +10564,7 @@
       ],
       "importance": 6,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10614,7 +10614,7 @@
       ],
       "importance": 5,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10668,7 +10668,7 @@
       ],
       "importance": 6,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10729,7 +10729,7 @@
       ],
       "importance": 6,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10766,7 +10766,7 @@
       "category": {
         "main": "Varianten",
         "sub": "Bietspiel",
-        "topic": "Sidi"
+        "topic": "Sidi Barrani"
       },
       "keywords": [
         "sidi barrani",
@@ -10783,7 +10783,7 @@
       ],
       "importance": 0.8,
       "difficulty": 2,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10835,7 +10835,7 @@
       ],
       "importance": 0.7,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10889,7 +10889,7 @@
       ],
       "importance": 0.6,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -10954,7 +10954,7 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11016,7 +11016,7 @@
       ],
       "importance": 5,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11075,7 +11075,7 @@
       ],
       "importance": 5,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11134,7 +11134,7 @@
       ],
       "importance": 0.6,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11191,7 +11191,7 @@
       ],
       "importance": 5,
       "difficulty": 5,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11298,7 +11298,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11358,7 +11358,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11416,7 +11416,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11476,7 +11476,7 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11532,7 +11532,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11594,7 +11594,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11657,7 +11657,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11718,7 +11718,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11780,7 +11780,7 @@
       ],
       "importance": 0.8,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11841,7 +11841,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11903,7 +11903,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -11964,7 +11964,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12012,7 +12012,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12067,7 +12067,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12132,7 +12132,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12199,7 +12199,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12260,7 +12260,7 @@
       ],
       "importance": 0.7,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12319,7 +12319,7 @@
       ],
       "importance": 0.9,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12381,7 +12381,7 @@
       ],
       "importance": 1,
       "difficulty": 1,
-      "taxonomy_tier": 3
+      "taxonomy_tier": 2
     },
     "faqs": [
       {
@@ -12554,6 +12554,124 @@
     ],
     "see_also": [
       "expressions_stoeck_weis_stich"
+    ]
+  },
+  "variants_molotow": {
+    "id": "variants_molotow",
+    "text": "Definition:\nMolotow ist ein Jass-Vermeidungsspiel für 3 bis 6 Spieler (optimal 4–5), bei dem das Ziel ist, möglichst wenige Punkte zu sammeln. Der Name leitet sich von den «Molotow-Cocktails» ab und spielt auf die explosive Dynamik des Spiels an.\n\nTrumpf-Bestimmung:\n• Das Spiel beginnt ohne Trumpf (wie Obenabe)\n• Die Trumpffarbe wird dynamisch bestimmt: Der erste Spieler, der die ausgespielte Farbe nicht bedienen kann und eine andere Farbe spielt, bestimmt damit die Trumpffarbe für den Rest der Runde\n• Diese Mechanik wird «Farbverrat» genannt und macht Molotow besonders spannungsgeladen\n\nWeis-System (Invertiert!):\n• Handweis (Kartenkombinationen auf der Hand): Werden als Minuspunkte gezählt – das ist GUT!\n• Tischweis (Kombinationen, die zufällig im Stich liegen): Werden als Pluspunkte gezählt – das ist SCHLECHT!\n• Stöck: Zählt als Minuspunkte – das ist GUT!\n\nSpielablauf:\n• Jeder Spieler erhält 9 Karten (bei 4 Spielern) oder entsprechend weniger bei mehr Spielern\n• Die Stiche werden wie beim normalen Jass gespielt\n• Wer den Stich gewinnt, erhält die Punkte (negativ!)\n\nDoppelrunde:\n• Die letzte Runde zählt doppelt, was zu dramatischen Wendungen führen kann\n\nSpielende:\n• Nach einer festgelegten Anzahl Runden wird abgerechnet\n• Gewinner ist der Spieler mit den wenigsten Punkten\n\nBesonderheiten:\n• Untertrumpfen ist erlaubt\n• Die Trumpf-Dynamik erfordert taktisches Geschick beim Timing des «Farbverrats»",
+    "metadata": {
+      "id": "variants_molotow_meta",
+      "category": {
+        "main": "Varianten",
+        "sub": "Vermeidungsspiel",
+        "topic": "Molotow"
+      },
+      "keywords": [
+        "molotow",
+        "vermeidungsspiel",
+        "destruktionsspiel",
+        "wenig punkte",
+        "farbverrat",
+        "tischweis",
+        "handweis",
+        "dynamischer trumpf",
+        "doppelrunde",
+        "invertiert"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.7,
+      "difficulty": 2,
+      "taxonomy_tier": 2,
+      "source": "molotow-jass.ch, Wikipedia"
+    },
+    "faqs": [
+      {
+        "question": "Was ist das Ziel beim Molotow?",
+        "answer": "Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln – das Gegenteil des klassischen Jass."
+      },
+      {
+        "question": "Wie wird der Trumpf beim Molotow bestimmt?",
+        "answer": "Der Trumpf wird dynamisch bestimmt: Der erste Spieler, der die ausgespielte Farbe nicht bedienen kann und eine andere Farbe spielt, bestimmt damit die Trumpffarbe."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Tischweis und Handweis beim Molotow?",
+        "answer": "Handweis (Kombinationen auf der Hand) zählt als Minuspunkte (gut!), während Tischweis (Kombinationen im Stich) als Pluspunkte zählt (schlecht!)."
+      },
+      {
+        "question": "Wie viele Spieler können Molotow spielen?",
+        "answer": "Molotow kann mit 3 bis 6 Spielern gespielt werden, wobei 4 bis 5 Spieler optimal sind."
+      },
+      {
+        "question": "Was ist die Doppelrunde beim Molotow?",
+        "answer": "Die letzte Runde zählt doppelt, was zu dramatischen Wendungen führen kann."
+      }
+    ],
+    "see_also": [
+      "expressions_hindersi",
+      "expressions_tisch_weis",
+      "untertrumpfen",
+      "expressions_obenabe"
+    ]
+  },
+  "variants_chratze": {
+    "id": "variants_chratze",
+    "text": "Definition:\nChratze ist ein traditionelles Stich-Kartenspiel aus der Deutschschweiz, das zur Familie der Jass-Varianten gehört. Es wird mit einem Pot gespielt und hat einen Glücksspiel-Charakter.\n\nSpieleranzahl:\n• Theoretisch für 2 bis 7 Spieler\n• Optimal sind 4 bis 5 Spieler\n\nKartenverteilung:\n• Jeder Spieler erhält nur 4 Karten (nicht 9 wie beim klassischen Jass)\n• Eine Karte wird aufgedeckt und bestimmt die Trumpffarbe\n\nDer Pot:\n• Vor Spielbeginn zahlt jeder Spieler einen Einsatz in den Pot\n• Der Pot geht an den Gewinner der Runde\n\nAnsage-Phase:\n• Jeder Spieler muss sich für eine von drei Optionen entscheiden:\n• «Chratze» (auch «Chratzer» genannt): Man verpflichtet sich, 2 Stiche zu machen\n• «Metcho» oder «Dabei»: Man verpflichtet sich, 1 Stich zu machen\n• Aussteigen: Man gibt auf und verliert seinen Einsatz\n\nSpielregeln:\n• Farbe muss bedient werden (Farbzwang)\n• Hat man keine Karte der ausgespielten Farbe, muss Trumpf gespielt werden\n• Der Chratzer eröffnet das Spiel\n\nWertung:\n• Wer seine angesagte Stichzahl erreicht, bleibt im Spiel\n• Wer sein Ziel verfehlt, scheidet aus und verliert seinen Einsatz\n• Der letzte verbleibende Spieler gewinnt den Pot\n\nBesonderheiten:\n• Das Spiel ist schnell und eignet sich für gesellige Runden\n• Der Glücksspiel-Aspekt macht es spannend, aber auch riskant\n• In vielen Wirtshäusern wurde Chratze um kleine Geldbeträge gespielt",
+    "metadata": {
+      "id": "variants_chratze_meta",
+      "category": {
+        "main": "Varianten",
+        "sub": "Glücksspiel",
+        "topic": "Chratze"
+      },
+      "keywords": [
+        "chratze",
+        "pot",
+        "einsatz",
+        "stichspiel",
+        "4 karten",
+        "metcho",
+        "dabei",
+        "aussteigen",
+        "glücksspiel",
+        "wirtshaus",
+        "deutschschweiz"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.6,
+      "difficulty": 1,
+      "taxonomy_tier": 2,
+      "source": "Wikipedia (Chratze)"
+    },
+    "faqs": [
+      {
+        "question": "Was ist Chratze?",
+        "answer": "Chratze ist ein traditionelles Stich-Kartenspiel aus der Deutschschweiz mit Pot-Mechanik und Glücksspiel-Charakter."
+      },
+      {
+        "question": "Wie viele Karten erhält man beim Chratze?",
+        "answer": "Jeder Spieler erhält nur 4 Karten, nicht 9 wie beim klassischen Jass."
+      },
+      {
+        "question": "Was bedeutet «Chratze» als Ansage?",
+        "answer": "Wer «Chratze» ansagt, verpflichtet sich, 2 Stiche zu machen."
+      },
+      {
+        "question": "Was passiert mit dem Pot?",
+        "answer": "Der Pot, in den alle Spieler vor Spielbeginn einzahlen, geht an den letzten verbleibenden Spieler."
+      },
+      {
+        "question": "Wie viele Spieler können Chratze spielen?",
+        "answer": "Chratze kann theoretisch von 2 bis 7 Spielern gespielt werden, optimal sind 4 bis 5 Spieler."
+      }
+    ],
+    "see_also": [
+      "variants_family_guggitaler",
+      "expressions_trumpf",
+      "ausspiel"
     ]
   }
 }

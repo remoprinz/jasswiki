@@ -19,6 +19,18 @@ function toSlug(text) {
     .replace(/ö/g, 'oe')
     .replace(/ü/g, 'ue')
     .replace(/ß/g, 'ss')
+    .replace(/à|á|â|ã|å|è|é|ê|ë|ì|í|î|ï|ò|ó|ô|õ|ù|ú|û|ü|ý|ÿ/g, (match) => {
+      // Französische und andere Akzente zu Basis-Buchstaben
+      const map = {
+        'à': 'a', 'á': 'a', 'â': 'a', 'ã': 'a', 'å': 'a',
+        'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+        'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
+        'ò': 'o', 'ó': 'o', 'ô': 'o', 'õ': 'o',
+        'ù': 'u', 'ú': 'u', 'û': 'u',
+        'ý': 'y', 'ÿ': 'y'
+      };
+      return map[match] || match;
+    })
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }

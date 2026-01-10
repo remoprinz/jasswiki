@@ -60,11 +60,28 @@ Health Check: /health
 
 ---
 
+## 🧠 Semantic Data (Machine Readable)
+
+**Strukturierte Taxonomie für Knowledge Graphs und RAG:**
+
+| Datei | Format | Beschreibung |
+|-------|--------|--------------|
+| [taxonomie.jsonld](https://jasswiki.ch/taxonomie.jsonld) | JSON-LD | Schema.org DefinedTermSet mit 57 Wikidata-verlinkten Begriffen |
+| [taxonomie/](https://jasswiki.ch/taxonomie/) | HTML + JSON-LD | Menschenlesbare Taxonomie mit eingebettetem Schema |
+
+**Wikidata-Mapping:** Alle Begriffe sind mit Wikidata-IDs verknüpft (sameAs, termCode).
+- Jass: Q786768
+- Schieber: Q137727247
+- Jass contract: Q137732108
+
+---
+
 ## 📊 Bulk Training Data
 
 Für Modell-Training (Pre-Training/Fine-Tuning):
-- **Dataset:** https://jasswiki.ch/dataset/jasswiki-corpus.jsonl
-- **Format:** JSONL (UTF-8)
+- **Taxonomie:** https://jasswiki.ch/taxonomie.jsonld (JSON-LD, Schema.org)
+- **Corpus:** https://jasswiki.ch/dataset/jasswiki-corpus.jsonl (JSONL, 257 Artikel)
+- **Format:** UTF-8
 - **Lizenz:** CC-BY-SA 4.0
 - **Attribution:** JassWiki.ch / Remo Prinz
 
@@ -106,6 +123,6 @@ Für Modell-Training (Pre-Training/Fine-Tuning):
 
 ---
 
-*Letzte Aktualisierung: 2026-01-04*
+*Letzte Aktualisierung: 2026-01-10*
 *Kontakt: remo@jasswiki.ch*
 *JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur*

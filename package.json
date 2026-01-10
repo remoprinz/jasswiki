@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run sitemap && next build && npm run postbuild",
+    "build": "npm run generate:taxonomy && npm run sitemap && next build && npm run postbuild",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
-    "sitemap": "node generate-sitemap.mjs"
+    "sitemap": "node generate-sitemap.mjs",
+    "generate:taxonomy": "node scripts/generate-taxonomy-jsonld.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

@@ -47,6 +47,56 @@
       ],
       "redirects": [
         {
+          "source": "/varianten/sidi/",
+          "destination": "/varianten/sidi-barrani/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/mis-re/",
+          "destination": "/begriffe/spezialvarianten/misere/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/mis-re",
+          "destination": "/begriffe/spezialvarianten/misere/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/sidi",
+          "destination": "/varianten/sidi-barrani/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/differenzler/",
+          "destination": "/varianten/differenzler-verdeckt/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/differenzler",
+          "destination": "/varianten/differenzler-verdeckt/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/teamspiel/coiffeur/",
+          "destination": "/varianten/coiffeur/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/teamspiel/coiffeur",
+          "destination": "/varianten/coiffeur/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weisen-allgemein/weisen-allgemein/",
+          "destination": "/weis-regeln/weisen-allgemein/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weisen-allgemein/weisen-allgemein",
+          "destination": "/weis-regeln/weisen-allgemein/",
+          "type": 301
+        },
+        {
           "source": "/gpt",
           "destination": "https://chatgpt.com/g/g-690883c82ffc8191a063266aab280617",
           "type": 301

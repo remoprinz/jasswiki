@@ -1,0 +1,651 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "wd": "https://www.wikidata.org/entity/",
+    "termCode": "https://schema.org/termCode",
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "skos:narrower",
+      "@type": "@id"
+    },
+    "related": {
+      "@id": "skos:related",
+      "@type": "@id"
+    }
+  },
+  "@type": "DefinedTermSet",
+  "@id": "https://jasswiki.ch/taxonomie/",
+  "name": "Jass-Taxonomie",
+  "description": "Systematische Ordnung der Schweizer Jass-Begriffe – verknüpft mit Wikidata und dem Semantic Web",
+  "version": "4.0",
+  "dateModified": "2026-01-10",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "inLanguage": "de-CH",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://jasswiki.ch/#organization",
+    "name": "JassWiki.ch",
+    "url": "https://jasswiki.ch"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q786768",
+    "https://de.wikipedia.org/wiki/Jass"
+  ],
+  "mainEntity": {
+    "@type": "Thing",
+    "@id": "https://www.wikidata.org/wiki/Q786768",
+    "name": "Jass",
+    "description": "Traditionelles Schweizer Kartenspiel"
+  },
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/schieber/",
+      "name": "Schieber",
+      "description": "Die Standardvariante – Vorhand oder Schieben",
+      "termCode": "Q137727247",
+      "sameAs": "wd:Q137727247",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/schieber/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/coiffeur/",
+      "name": "Coiffeur",
+      "description": "Alle Modi Pflicht – Matrix mit Multiplikatoren",
+      "termCode": "Q137731700",
+      "sameAs": "wd:Q137731700",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/coiffeur/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/sidi-barrani/",
+      "name": "Sidi Barrani",
+      "description": "Bieten mit Punktzahl – \"Double Jeopardy\" Scoring",
+      "termCode": "Q137738898",
+      "sameAs": "wd:Q137738898",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/sidi-barrani/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/bolschewik-4-spieler/",
+      "name": "Bolschewik",
+      "description": "Mit doppeltem Kartendeck (72 Karten!)",
+      "termCode": "Q137738843",
+      "sameAs": "wd:Q137738843",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/bolschewik-4-spieler/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#kreuzjass",
+      "name": "Kreuzjass",
+      "description": "Partner diagonal",
+      "termCode": "Q137738899",
+      "sameAs": "wd:Q137738899",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/pandur/",
+      "name": "Pandur",
+      "description": "24-Blatt! Härteste Variante",
+      "termCode": "Q137738834",
+      "sameAs": "wd:Q137738834",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/pandur/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/bieter/",
+      "name": "Bieter",
+      "description": "36-Blatt, flexibler als Pandur",
+      "termCode": "Q137738835",
+      "sameAs": "wd:Q137738835",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/bieter/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/aucho/",
+      "name": "Aucho",
+      "description": "\"Erben\"-Prinzip",
+      "termCode": "Q137739254",
+      "sameAs": "wd:Q137739254",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/aucho/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/schafhauser-3-spieler/",
+      "name": "Schafhauser",
+      "description": "Solospieler durch Karten bestimmt",
+      "termCode": "Q137738841",
+      "sameAs": "wd:Q137738841",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/schafhauser-3-spieler/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/differenzler-verdeckt/",
+      "name": "Differenzler",
+      "description": "Differenz zum Ziel zählt negativ",
+      "termCode": "Q137731684",
+      "sameAs": "wd:Q137731684",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/differenzler-verdeckt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/mittlere/",
+      "name": "Mittlere",
+      "description": "Mittlere Punktzahl gewinnt",
+      "termCode": "Q137738839",
+      "sameAs": "wd:Q137738839",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/mittlere/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/handjass/",
+      "name": "Handjass",
+      "description": "Karten vom Stapel ziehen",
+      "termCode": "Q137738900",
+      "sameAs": "wd:Q137738900",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/handjass/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/molotow/",
+      "name": "Molotow",
+      "description": "Erster Farbverrat bestimmt Trumpf",
+      "termCode": "Q137738837",
+      "sameAs": "wd:Q137738837",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/molotow/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/hindersi-allgemein/",
+      "name": "Hindersi",
+      "description": "Einfache Punkteminimierung",
+      "termCode": "Q137738838",
+      "sameAs": "wd:Q137738838",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/hindersi-allgemein/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/chratze/",
+      "name": "Chratze",
+      "description": "Pot-Mechanik, nur 4 Karten",
+      "termCode": "Q137738836",
+      "sameAs": "wd:Q137738836",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/chratze/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/guggitaler/",
+      "name": "Guggitaler",
+      "description": "Mit Geldeinsatz",
+      "termCode": "Q137738902",
+      "sameAs": "wd:Q137738902",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/guggitaler/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/tschau-sepp/",
+      "name": "Tschau Sepp",
+      "description": "Ablegespiel (Mau-Mau)",
+      "termCode": "Q137738840",
+      "sameAs": "wd:Q137738840",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/tschau-sepp/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/zwick/",
+      "name": "Zwick-Jass",
+      "description": "Mit \"Schlecken\"",
+      "termCode": "Q137738903",
+      "sameAs": "wd:Q137738903",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/zwick/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/varianten/zuger/",
+      "name": "Zuger",
+      "description": "Geber pausiert",
+      "termCode": "Q137738842",
+      "sameAs": "wd:Q137738842",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q786768",
+      "url": "https://jasswiki.ch/varianten/zuger/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/obenabe/",
+      "name": "Obenabe",
+      "description": "Höchste Karte sticht",
+      "termCode": "Q137737920",
+      "sameAs": "wd:Q137737920",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/obenabe/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/undenufe/",
+      "name": "Undenufe",
+      "description": "Tiefste Karte sticht",
+      "termCode": "Q137738279",
+      "sameAs": "wd:Q137738279",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/undenufe/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/slalom-zickzack/",
+      "name": "Slalom",
+      "description": "Alternierend pro Stich",
+      "termCode": "Q137738723",
+      "sameAs": "wd:Q137738723",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/slalom-zickzack/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/guschti-zwischendurch-quer/",
+      "name": "Guschti / Quer",
+      "description": "Spezielle Stichfolge",
+      "termCode": "Q137739255",
+      "sameAs": "wd:Q137739255",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/guschti-zwischendurch-quer/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/trio-3-3/",
+      "name": "Trio (3×3)",
+      "description": "3 Stiche pro Modus",
+      "termCode": "Q137739256",
+      "sameAs": "wd:Q137739256",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/trio-3-3/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/spezialvarianten/misere/",
+      "name": "Misère",
+      "description": "Minimalpunkte-Modus",
+      "termCode": "Q137739257",
+      "sameAs": "wd:Q137739257",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137732108",
+      "url": "https://jasswiki.ch/begriffe/spezialvarianten/misere/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-puur/",
+      "name": "Puur",
+      "description": "Under wird zum höchsten Trumpf – 20 Punkte",
+      "termCode": "Q137738724",
+      "sameAs": "wd:Q137738724",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-puur/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/nell/",
+      "name": "Nell",
+      "description": "9 wird zum zweithöchsten Trumpf – 14 Punkte",
+      "termCode": "Q137738725",
+      "sameAs": "wd:Q137738725",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/nell/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#k-nig",
+      "name": "König",
+      "description": "4 Punkte",
+      "termCode": "Q516114",
+      "sameAs": "wd:Q516114",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#ober",
+      "name": "Ober",
+      "description": "3 Punkte – Schweizer Blatt",
+      "termCode": "Q572267",
+      "sameAs": "wd:Q572267",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#dame",
+      "name": "Dame",
+      "description": "3 Punkte – Französisches Blatt",
+      "termCode": "Q505744",
+      "sameAs": "wd:Q505744",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#under",
+      "name": "Under",
+      "description": "2 Punkte",
+      "termCode": "Q510474",
+      "sameAs": "wd:Q510474",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#ass",
+      "name": "Ass",
+      "description": "11 Punkte",
+      "termCode": "Q378907",
+      "sameAs": "wd:Q378907",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schelle/",
+      "name": "Schellen",
+      "description": "Schweizer Blatt",
+      "termCode": "Q2233012",
+      "sameAs": "wd:Q2233012",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schelle/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schilte/",
+      "name": "Schilten",
+      "description": "Schweizer Blatt",
+      "termCode": "Q16623777",
+      "sameAs": "wd:Q16623777",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schilte/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/rose/",
+      "name": "Rosen",
+      "description": "Schweizer Blatt",
+      "termCode": "Q16623784",
+      "sameAs": "wd:Q16623784",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/rose/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/eichel/",
+      "name": "Eichel",
+      "description": "Schweizer Blatt",
+      "termCode": "Q1301333",
+      "sameAs": "wd:Q1301333",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/eichel/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/herz/",
+      "name": "Herz",
+      "description": "Französisches Blatt",
+      "termCode": "Q3419242",
+      "sameAs": "wd:Q3419242",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/herz/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/ecken/",
+      "name": "Ecke",
+      "description": "Französisches Blatt",
+      "termCode": "Q513847",
+      "sameAs": "wd:Q513847",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/ecken/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/kreuz/",
+      "name": "Kreuz",
+      "description": "Französisches Blatt",
+      "termCode": "Q1788166",
+      "sameAs": "wd:Q1788166",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/kreuz/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schaufel/",
+      "name": "Schaufel",
+      "description": "Französisches Blatt",
+      "termCode": "Q2094951",
+      "sameAs": "wd:Q2094951",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/schaufel/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/punktebegriffe/weis/",
+      "name": "Weis",
+      "description": "Punktebonus für Kartenfolgen",
+      "termCode": "Q137738455",
+      "sameAs": "wd:Q137738455",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "broader": "wd:Q1751513",
+      "url": "https://jasswiki.ch/begriffe/punktebegriffe/weis/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/dreiblatt-3-blatt/",
+      "name": "Dreiblatt",
+      "description": "3 aufeinanderfolgende Karten – 20 Punkte",
+      "termCode": "Q137738727",
+      "sameAs": "wd:Q137738727",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/dreiblatt-3-blatt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/vierblatt-4-blatt/",
+      "name": "Vierblatt",
+      "description": "4 aufeinanderfolgende Karten – 50 Punkte",
+      "termCode": "Q137738728",
+      "sameAs": "wd:Q137738728",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/vierblatt-4-blatt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/fuenfblatt-5-blatt/",
+      "name": "Fünfblatt",
+      "description": "5 aufeinanderfolgende Karten – 100 Punkte",
+      "termCode": "Q137739569",
+      "sameAs": "wd:Q137739569",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/fuenfblatt-5-blatt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/sechsblatt-6-blatt/",
+      "name": "Sechsblatt",
+      "description": "6 aufeinanderfolgende Karten – 150 Punkte",
+      "termCode": "Q137739570",
+      "sameAs": "wd:Q137739570",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/sechsblatt-6-blatt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/achtblatt-8-blatt/",
+      "name": "Siebenblatt",
+      "description": "7+ aufeinanderfolgende Karten – 200 Punkte",
+      "termCode": "Q137739571",
+      "sameAs": "wd:Q137739571",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/achtblatt-8-blatt/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/vier-gleiche-karten/",
+      "name": "Vier Gleiche",
+      "description": "4 Karten gleichen Rangs",
+      "termCode": "Q137738729",
+      "sameAs": "wd:Q137738729",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/vier-gleiche-karten/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/stoecke/",
+      "name": "Stöck",
+      "description": "König + Ober in Trumpffarbe – 20 Punkte",
+      "termCode": "Q137738329",
+      "sameAs": "wd:Q137738329",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/stoecke/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/weis-regeln/weis-arten/kreuzweis/",
+      "name": "Kreuzweis",
+      "description": "Eine Karte zählt für zwei Weise",
+      "termCode": "Q137738904",
+      "sameAs": "wd:Q137738904",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q137738455",
+      "url": "https://jasswiki.ch/weis-regeln/weis-arten/kreuzweis/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/punktebegriffe/matsch/",
+      "name": "Matsch",
+      "description": "Alle 9 Stiche gewonnen – +100 Bonus",
+      "termCode": "Q137738726",
+      "sameAs": "wd:Q137738726",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/begriffe/punktebegriffe/matsch/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/begriffe/punktebegriffe/kontermatsch/",
+      "name": "Kontermatsch",
+      "description": "Gegner matschiert zurück",
+      "termCode": "Q137739566",
+      "sameAs": "wd:Q137739566",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/begriffe/punktebegriffe/kontermatsch/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/regeln/bergpreis/",
+      "name": "Bergpreis",
+      "description": "Bonuspunkte für Hälfte des Ziels",
+      "termCode": "Q137739565",
+      "sameAs": "wd:Q137739565",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/regeln/bergpreis/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/regeln/kartenverteilung/mischen/",
+      "name": "Mischen",
+      "description": "Karten durchmischen",
+      "termCode": "Q1930567",
+      "sameAs": "wd:Q1930567",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/regeln/kartenverteilung/mischen/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/regeln/kartenverteilung/abheben-der-karten/",
+      "name": "Abheben",
+      "description": "Gegner hebt ab",
+      "termCode": "Q320553",
+      "sameAs": "wd:Q320553",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513",
+      "url": "https://jasswiki.ch/regeln/kartenverteilung/abheben-der-karten/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#geben",
+      "name": "Geben",
+      "description": "Karten verteilen",
+      "termCode": "Q61054367",
+      "sameAs": "wd:Q61054367",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#untertrumpf-verbot",
+      "name": "Untertrumpf-Verbot",
+      "description": "KEIN niedrigerer Trumpf, wenn höherer liegt",
+      "termCode": "Q137739568",
+      "sameAs": "wd:Q137739568",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/taxonomie/#st-ck-weis-stich",
+      "name": "Stöck-Weis-Stich",
+      "description": "Zählreihenfolge beim Ausmachen",
+      "termCode": "Q137739567",
+      "sameAs": "wd:Q137739567",
+      "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
+      "isPartOf": "wd:Q1751513"
+    }
+  ]
+}

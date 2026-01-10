@@ -221,15 +221,6 @@ export const LexikonSidebar = () => {
       </Link>
       <nav>
         <ul className="space-y-2">
-          {/* Taxonomie Link */}
-          <li>
-            <Link href="/taxonomie/" legacyBehavior>
-              <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/taxonomie' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
-                Die Ordnung des Jassens
-              </a>
-            </Link>
-          </li>
-          
           {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
             const isCategoryActive = catSlug === currentCategory;
             return (
@@ -300,6 +291,13 @@ export const LexikonSidebar = () => {
             <Link href="/referenzen/" legacyBehavior>
               <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/referenzen' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
                 Referenzen und Quellen
+              </a>
+            </Link>
+          </li>
+          <li className="pt-2 border-t border-gray-700 mt-2">
+            <Link href="/taxonomie/" legacyBehavior>
+              <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/taxonomie' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
+                📊 Taxonomie des Jassens
               </a>
             </Link>
           </li>

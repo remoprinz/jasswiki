@@ -71,9 +71,12 @@ export const SearchBar: React.FC = () => {
         const subcategorySlug = toSlug(item.metadata.category.sub);
         const topicSlug = toSlug(item.metadata.category.topic);
         
-        // SPEZIALFALL: Varianten haben flache Struktur
+        // SPEZIALFALL: Flache Struktur (2 Ebenen) für:
+        // 1. Varianten (keine echte Subkategorie)
+        // 2. Artikel wo sub === topic (z.B. "Weisen allgemein")
         const isVarianten = categorySlug === 'varianten';
-        const url = isVarianten
+        const isFlatStructure = isVarianten || subcategorySlug === topicSlug;
+        const url = isFlatStructure
           ? `/${categorySlug}/${topicSlug}/`
           : `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
         
