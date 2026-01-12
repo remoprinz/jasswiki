@@ -23,9 +23,9 @@ const JASSWIKI_SCHEMA = {
       "url": "https://jasswiki.ch/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://jasswiki.ch/icon-192.png",
-        "width": 192,
-        "height": 192
+        "url": "https://jasswiki.ch/favicon-32x32.png",
+        "width": 32,
+        "height": 32
       },
       "description": "Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen. Offiziell anerkannt als Teil der Lebendigen Traditionen der Schweiz.",
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
