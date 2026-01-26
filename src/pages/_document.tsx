@@ -23,17 +23,14 @@ const JASSWIKI_SCHEMA = {
       "url": "https://jasswiki.ch/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://jasswiki.ch/logo-96x96.png",
-        "width": 96,
-        "height": 96
+        "url": "https://jasswiki.ch/logo-jasswiki.png",
+        "width": 544,
+        "height": 544
       },
       "description": "Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen. Offiziell anerkannt als Teil der Lebendigen Traditionen der Schweiz.",
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
       "foundingDate": "2023",
       "award": "Lebendige Traditionen der Schweiz (BAK)",
-      "about": {
-        "@id": "https://jasswiki.ch/#jass-tradition"
-      },
       "subjectOf": [
         {
           "@type": "WebPage",
