@@ -57,7 +57,7 @@ const JASSWIKI_SCHEMA = {
           "sameAs": "https://www.wikidata.org/wiki/Q47883"
         },
         {
-          "@type": "Thing",
+          "@type": "Country",
           "name": "Schweiz",
           "sameAs": "https://www.wikidata.org/wiki/Q39"
         },
