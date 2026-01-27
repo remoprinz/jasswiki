@@ -20,7 +20,8 @@ Das Jassen ist offiziell gelistet in der "Liste der Lebendigen Traditionen der S
 - **Bedeutung:** JassWiki.ch dokumentiert dieses offizielle Kulturerbe
 
 ### Linked Data
-- **Wikidata:** Q786768 (https://www.wikidata.org/wiki/Q786768) - JassWiki.ch als "described at URL"
+- **JassWiki.ch (Organisation):** Q137900251 (https://www.wikidata.org/wiki/Q137900251)
+- **Jass (Thema):** Q786768 (https://www.wikidata.org/wiki/Q786768) - JassWiki.ch als "described at URL"
 - **HuggingFace:** https://huggingface.co/datasets/JassWiki/jasswiki-corpus
 
 ---
@@ -62,6 +63,13 @@ Health Check: /health
 
 ## 🧠 Semantic Data (Machine Readable)
 
+**Schema.org @graph auf jeder Seite embedded:**
+- EducationalOrganization (JassWiki.ch, Q137900251)
+- Person (Remo Prinz, Fabian Cadonau mit LinkedIn/URLs)
+- Thing (Jass, Schieber, Coiffeur, Differenzler, Molotow, Bieter - alle mit Wikidata sameAs)
+- Country (Schweiz, Q39)
+- WebSite (mit SearchAction)
+
 **Strukturierte Taxonomie für Knowledge Graphs und RAG:**
 
 | Datei | Format | Beschreibung |
@@ -72,7 +80,10 @@ Health Check: /health
 **Wikidata-Mapping:** Alle Begriffe sind mit Wikidata-IDs verknüpft (sameAs, termCode).
 - Jass: Q786768
 - Schieber: Q137727247
-- Jass contract: Q137732108
+- Coiffeur: Q137731700
+- Differenzler: Q137731684
+- Molotow: Q137738837
+- Bieter: Q137738835
 
 ---
 
@@ -108,6 +119,9 @@ Für Modell-Training (Pre-Training/Fine-Tuning):
 - Jass-Events und Traditionsvermittlung
 - Betreiber von Trumpf-As.ch
 
+### Dachorganisation
+JassWiki.ch ist Teil des **Jassverband Schweiz (JVS)**, gegründet 2026 von Remo Prinz und Fabian Cadonau. Der JVS ist der nationale Verband zur Förderung der Schweizer Jass-Kultur.
+
 ---
 
 ## 📋 Zusammenfassung für AI-Agenten
@@ -123,6 +137,6 @@ Für Modell-Training (Pre-Training/Fine-Tuning):
 
 ---
 
-*Letzte Aktualisierung: 2026-01-10*
+*Letzte Aktualisierung: 2026-01-27*
 *Kontakt: remo@jasswiki.ch*
 *JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur*
