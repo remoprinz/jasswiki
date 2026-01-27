@@ -29,7 +29,7 @@ const JASSWIKI_SCHEMA = {
       },
       "description": "Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen. Offiziell anerkannt als Teil der Lebendigen Traditionen der Schweiz.",
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
-      "foundingDate": "2023",
+      "foundingDate": "2025",
       "award": "Lebendige Traditionen der Schweiz (BAK)",
       "subjectOf": [
         {
@@ -97,10 +97,10 @@ const JASSWIKI_SCHEMA = {
           "urlTemplate": "https://jasswiki.ch/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
-      }
-      // KEIN sameAs für Organization: JassWiki ist eine eigenständige Entität,
-      // nicht identisch mit Schieber (Q137900251) oder dem BAK-Eintrag.
-      // Die Wikidata-IDs für Themen stehen korrekt in "knowsAbout".
+      },
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q137900251"
+      ]
     },
     {
       "@type": "Person",
