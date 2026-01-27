@@ -61,11 +61,42 @@ const JASSWIKI_SCHEMA = {
           "name": "Schweiz",
           "sameAs": "https://www.wikidata.org/wiki/Q39"
         },
-        "Schieber",
-        "Coiffeur", 
-        "Differenzler",
-        "Molotow",
-        "Bieter",
+        {
+          "@type": "Thing",
+          "name": "Schieber",
+          "description": "Die Standardvariante des Schweizer Jass",
+          "sameAs": "https://www.wikidata.org/wiki/Q137727247"
+        },
+        {
+          "@type": "Thing",
+          "name": "Coiffeur",
+          "description": "Jass-Variante mit Matrix und Multiplikatoren",
+          "sameAs": "https://www.wikidata.org/wiki/Q137731700"
+        },
+        {
+          "@type": "Thing",
+          "name": "Differenzler",
+          "description": "Jass-Variante bei der die Differenz zum Ziel zählt",
+          "sameAs": "https://www.wikidata.org/wiki/Q137731684"
+        },
+        {
+          "@type": "Thing",
+          "name": "Molotow",
+          "description": "Jass-Variante mit Trumpfbestimmung durch Farbverrat",
+          "sameAs": "https://www.wikidata.org/wiki/Q137738837"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bieter",
+          "description": "Jass-Variante mit Bieten",
+          "sameAs": "https://www.wikidata.org/wiki/Q137738835"
+        },
+        {
+          "@type": "Thing",
+          "name": "Sidi Barrani",
+          "description": "Jass-Variante mit Punktbieten",
+          "sameAs": "https://www.wikidata.org/wiki/Q137738898"
+        },
         "Jass-Regeln",
         "Jass-Traditionen",
         "Jass-Geschichte"
