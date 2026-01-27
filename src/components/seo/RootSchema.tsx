@@ -19,10 +19,39 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/logo-jasswiki.png`,
-          width: 512,
-          height: 512
+          width: 544,
+          height: 544
         },
-        description: 'Die vollständige Referenz für das Schweizer Nationalspiel Jassen.'
+        description: 'Die vollständige Referenz für das Schweizer Nationalspiel Jassen.',
+        sameAs: [
+          'https://www.wikidata.org/wiki/Q786768'
+        ],
+        knowsAbout: [
+          {
+            '@type': 'Thing',
+            '@id': 'https://www.wikidata.org/wiki/Q786768',
+            name: 'Jass',
+            sameAs: 'https://www.wikidata.org/wiki/Q786768'
+          },
+          {
+            '@type': 'Thing',
+            '@id': 'https://www.wikidata.org/wiki/Q137900251',
+            name: 'Schieber',
+            sameAs: 'https://www.wikidata.org/wiki/Q137900251'
+          },
+          {
+            '@type': 'Thing',
+            '@id': 'https://www.wikidata.org/wiki/Q47883',
+            name: 'Kartenspiel',
+            sameAs: 'https://www.wikidata.org/wiki/Q47883'
+          },
+          {
+            '@type': 'Thing',
+            '@id': 'https://www.wikidata.org/wiki/Q39',
+            name: 'Schweiz',
+            sameAs: 'https://www.wikidata.org/wiki/Q39'
+          }
+        ]
       },
       {
         '@type': 'WebSite',
