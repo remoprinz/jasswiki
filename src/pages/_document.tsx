@@ -81,8 +81,10 @@ const JASSWIKI_SCHEMA = {
       ],
       "parentOrganization": {
         "@type": "Organization",
-        "name": "Dachorganisation Schweizer Jasskultur (i.G.)",
-        "description": "In Gründung befindliche Dachorganisation zur Förderung der Schweizer Jass-Kultur"
+        "name": "Jassverband Schweiz (JVS)",
+        "alternateName": "JVS",
+        "description": "Nationaler Verband zur Förderung der Schweizer Jass-Kultur",
+        "foundingDate": "2025"
       },
       "contactPoint": {
         "@type": "ContactPoint",
