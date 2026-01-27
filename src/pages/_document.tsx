@@ -47,18 +47,26 @@ const JASSWIKI_SCHEMA = {
       "knowsAbout": [
         {
           "@type": "Thing",
-          "name": "Jassen",
+          "name": "Jass",
           "description": "Schweizer Kartenspiel",
           "sameAs": "https://www.wikidata.org/wiki/Q786768"
         },
-        "Schweizer Jass",
+        {
+          "@type": "Thing",
+          "name": "Kartenspiel",
+          "sameAs": "https://www.wikidata.org/wiki/Q47883"
+        },
+        {
+          "@type": "Thing",
+          "name": "Schweiz",
+          "sameAs": "https://www.wikidata.org/wiki/Q39"
+        },
         "Schieber",
         "Coiffeur", 
         "Differenzler",
         "Molotow",
         "Bieter",
         "Jass-Regeln",
-        "Schweizer Kartenspiele",
         "Jass-Traditionen",
         "Jass-Geschichte"
       ],
