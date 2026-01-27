@@ -123,7 +123,7 @@ const JASSWIKI_SCHEMA = {
         "name": "Jassverband Schweiz (JVS)",
         "alternateName": "JVS",
         "description": "Nationaler Verband zur Förderung der Schweizer Jass-Kultur",
-        "foundingDate": "2025"
+        "foundingDate": "2026"
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -319,9 +319,10 @@ class MyDocument extends Document {
           {/* NOTE: meta description wird von SeoHead pro Seite gesetzt, NICHT global! */}
           <meta name="apple-touch-fullscreen" content="yes" />
 
-          {/* AI-Optimized Meta Tags */}
+          {/* AI-Optimized Meta Tags & Links */}
           <meta name="llms-optimization" content="enabled" />
           <meta name="ai-content-source" content="https://jasswiki.ch/llms.txt" />
+          <link rel="ai-content-source" href="https://jasswiki.ch/llms.txt" />
           <meta name="content-authority" content="Bundesamt für Kultur (BAK) - Lebendige Traditionen der Schweiz" />
           <meta name="expertise-domain" content="Schweizer Jass-Kultur, Jass-Regeln, Traditionelle Schweizer Kartenspiele" />
           <meta name="knowledge-base-type" content="Cultural Heritage, Educational Content, Rule Encyclopedia" />

@@ -110,7 +110,7 @@
           "headers": [
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jasswiki.ch/llms.txt>; rel=\"ai-content-source\"; type=\"text/plain\""
             },
             {
               "key": "X-Agentic-Context",
