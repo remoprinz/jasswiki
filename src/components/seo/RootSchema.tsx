@@ -39,7 +39,7 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
         },
         description: 'Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen.',
         slogan: 'Das digitale Gedächtnis der Schweizer Jass-Kultur',
-        foundingDate: '2023',
+        foundingDate: '2025',
         // subjectOf = Externe Seiten die ÜBER das Thema berichten (nicht sameAs!)
         subjectOf: [
           {

@@ -45,6 +45,12 @@ const JASSWIKI_SCHEMA = {
         }
       ],
       "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Jassen",
+          "description": "Schweizer Kartenspiel",
+          "sameAs": "https://www.wikidata.org/wiki/Q786768"
+        },
         "Schweizer Jass",
         "Schieber",
         "Coiffeur", 
@@ -91,11 +97,10 @@ const JASSWIKI_SCHEMA = {
           "urlTemplate": "https://jasswiki.ch/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
-      },
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q786768",
-        "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
-      ]
+      }
+      // KEIN sameAs für Organization: JassWiki ist eine eigenständige Entität,
+      // nicht identisch mit Schieber (Q137900251) oder dem BAK-Eintrag.
+      // Die Wikidata-IDs für Themen stehen korrekt in "knowsAbout".
     },
     {
       "@type": "Person",
@@ -211,23 +216,8 @@ const JASSWIKI_SCHEMA = {
         "audienceType": "Jass-Spieler, Jass-Interessierte, Kulturinteressierte"
       }
     },
-    {
-      "@type": "GovernmentService",
-      "@id": "https://www.lebendige-traditionen.ch/#jassen",
-      "name": "Jassen - Lebendige Tradition der Schweiz",
-      "url": "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html",
-      "serviceType": "Cultural Heritage Recognition",
-      "description": "Offizielle Anerkennung des Jassens als immaterielles Kulturerbe der Schweiz durch das Bundesamt für Kultur.",
-      "provider": {
-        "@type": "GovernmentOrganization",
-        "name": "Bundesamt für Kultur (BAK)",
-        "url": "https://www.bak.admin.ch"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "Switzerland"
-      }
-    }
+    // GovernmentService entfernt: JassWiki betreibt keinen Regierungsdienst.
+    // Die BAK-Referenz steht korrekt unter "subjectOf" bei Organization.
   ]
 };
 

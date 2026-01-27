@@ -8,10 +8,12 @@ import { toSlug } from '@/lib/utils';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
+import { GameSchema } from '@/components/seo/GameSchema';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { getVariantMetadata } from '@/data/variant-wikidata-mapping';
 
 interface VariantenPageProps {
   contentItem: JassContentItem;
@@ -88,6 +90,9 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
     5: 'Experte'
   }[contentItem.metadata.difficulty] || 'Mittel';
 
+  // Get Wikidata metadata for this variant
+  const variantMetadata = getVariantMetadata(topicSlug);
+
   return (
     <>
       <SeoHead
@@ -107,6 +112,16 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
           canonicalUrl={canonicalUrl}
           siteUrl={siteUrl}
         />
+        {variantMetadata && (
+          <GameSchema
+            name={topic}
+            description={metaDescription}
+            url={canonicalUrl}
+            wikidataId={variantMetadata.wikidataId}
+            numberOfPlayers={variantMetadata.numberOfPlayers}
+            difficulty={variantMetadata.difficulty}
+          />
+        )}
         {contentItem.faqs && contentItem.faqs.length > 0 && (
           <FaqJsonLdSchema faqs={contentItem.faqs} />
         )}

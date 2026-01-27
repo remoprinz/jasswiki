@@ -43,6 +43,8 @@ export const JsonLdSchema: React.FC<JsonLdSchemaProps> = ({ articleData, breadcr
       "logo": {
         '@type': 'ImageObject',
         "url": articleData.publisherLogoUrl,
+        "width": 1080,
+        "height": 1080
       },
     },
     "datePublished": articleData.datePublished,

@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "DefinedTermSet",
+  "@id": "https://jasswiki.ch/test/",
+  "name": "Test Taxonomie",
+  "description": "Minimaler Test für AI-Tools",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://jasswiki.ch/schieber/",
+      "name": "Schieber",
+      "description": "Schweizer Jass-Variante"
+    }
+  ]
+}

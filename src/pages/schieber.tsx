@@ -7,6 +7,7 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
+import { GameSchema } from '@/components/seo/GameSchema';
 import { toSlug } from '@/lib/utils';
 import { BookOpen, Trophy, Zap, Scale, Users } from 'lucide-react';
 
@@ -84,6 +85,14 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
         title="Der Schieber: Regeln, Taktik & Strategie | JassWiki"
         description="Alles über den Schieber: Die beliebteste Jassvariante der Schweiz. Regeln, Taktiken, Trumpfwahl und Teamstrategien einfach erklärt."
         canonicalUrl={canonicalUrl}
+      />
+      <GameSchema
+        name="Schieber"
+        description="Die beliebteste Jassvariante der Schweiz, gespielt zu viert in zwei Teams"
+        url={canonicalUrl}
+        wikidataId="Q137727247"
+        numberOfPlayers={{ min: 4, max: 4 }}
+        difficulty={2}
       />
       
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
