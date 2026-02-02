@@ -146,7 +146,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         ],
       },
       {
-        name: 'B) Königsspiele (Asymmetrisch) ⚔️',
+        name: 'B) Königsspiele (Asymmetrisch)',
         description: 'Ein "König" gegen die "Bauernpartei". Oft mit 24-Blatt.',
         items: [
           { name: 'Pandur', description: '24-Blatt! Härteste Variante, sofortiger Verlust bei Fehler', wikidataId: 'Q137738834', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
@@ -164,7 +164,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         ],
       },
       {
-        name: 'D) Destruktionsspiele (Invertiert) 💣',
+        name: 'D) Destruktionsspiele (Invertiert)',
         description: 'Ziel: Punkte VERMEIDEN! Das Gegenteil des klassischen Jass.',
         items: [
           { name: 'Molotow', description: 'Erster Farbverrat bestimmt Trumpf! Tischweis = schlecht', wikidataId: 'Q137738837', link: '/varianten/molotow/', subclassOf: WIKIDATA.JASS },

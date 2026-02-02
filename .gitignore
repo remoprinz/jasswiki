@@ -48,6 +48,23 @@ yarn-error.log*
 *.backup_*
 
 # ========================================
+# ARCHIVE (temporäre/alte Dateien)
+# ========================================
+.archive/
+
+# ========================================
+# EXPORTS & REPORTS (generierte Berichte)
+# ========================================
+exports/
+validation-problems.json
+safe-redirects.json
+
+# ========================================
+# FIREBASE DEBUG LOGS
+# ========================================
+firebase-debug*.log
+
+# ========================================
 # INTERNAL / PRIVATE (nicht öffentlich)
 # ========================================
 
@@ -73,6 +90,7 @@ chatgpt-gpt/
 _deprecated/
 backups/
 jasswiki/
+docs/
 
 # TypeScript Config für interne Scripts
 tsconfig.scripts.json

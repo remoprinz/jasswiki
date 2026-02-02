@@ -1,0 +1,25 @@
+{
+  "_comment": "URL-Redirects für JassWiki. Manuell kuratiert für optimale Ziel-URLs.",
+  "_source": "Google Search Console 404-Report vom 29.01.2026",
+  "_updated": "2026-01-29",
+  
+  "redirects": {
+    "/geschichte/wortherkunft/geschichte-des-matsch-begriffs/": "/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
+    "/varianten/schreibspiel/": "/varianten/",
+    "/geschichte/historische-reglemente/das-aelteste-jassreglement-der-schweiz/": "/geschichte/das-aelteste-jassreglement-der-schweiz/",
+    "/grundlagen-kultur/wichtigste-regeln/": "/grundlagen-kultur/drei-eiserne-regeln/",
+    "/grundlagen-kultur/wichtigste-regeln/drei-eiserne-regeln/": "/grundlagen-kultur/drei-eiserne-regeln/",
+    "/grundlagen-kultur/europaeischer-kontext/": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/",
+    "/regeln/kartenverteilen/": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
+    "/geschichte/vom-luxusgut-zur-massenware/vom-luxusgut-zur-massenware/": "/geschichte/vom-luxusgut-zur-massenware/",
+    "/wissen/jassapps/": "/jassapps/",
+    "/wissen/varianten/schaetzspiel/": "/varianten/differenzler-verdeckt/",
+    "/wissen/varianten/zweiersspiel/": "/varianten/cinq-cents/",
+    "/grundlagen-kultur/verteilmethoden/": "/regeln/kartenverteilung/jasskarten-verteilmethoden/",
+    "/grundlagen-kultur/spielbegriffe/": "/begriffe/",
+    "/grundlagen-kultur/spielverlauf/": "/regeln/spielablauf/spielverlauf-grundlagen/",
+    "/grundlagen-kultur/punkteregeln/": "/regeln/punktezaehlung/wichtige-punkteregeln/",
+    "/varianten/traditionelles-spiel/": "/varianten/",
+    "/wissen/weis-regeln/": "/weis-regeln/"
+  }
+}

@@ -35,6 +35,12 @@ export interface JassContentItem {
     answer: string;
   }[];
   see_also?: string[];
+  sources?: {
+    title: string;
+    url: string;
+    type?: string;
+    accessed?: string;
+  }[];
 }
 
 export type JassContentRecord = Record<string, JassContentItem>; 

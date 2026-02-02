@@ -241,7 +241,7 @@ const TaxonomiePage = () => {
 
           {/* Maschinenlesbare Daten Hinweis */}
           <div className="bg-gradient-to-r from-purple-900/50 to-blue-900/50 border border-purple-500/50 rounded-xl p-4">
-            <h3 className="text-lg font-bold text-white mb-2">🤖 Maschinenlesbare Daten</h3>
+            <h3 className="text-lg font-bold text-white mb-2">Maschinenlesbare Daten</h3>
             <p className="text-gray-300 text-sm mb-3">
               Diese Taxonomie ist als strukturierte Daten verfügbar für Suchmaschinen, KI-Agenten und das Semantic Web:
             </p>

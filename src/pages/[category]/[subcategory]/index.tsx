@@ -13,6 +13,7 @@ import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
 import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { FaqSection } from '@/components/wissen/FaqSection';
 
 // Helper: Holt alle Artikel einer Unterkategorie
 function getArticlesForSubcategory(
@@ -218,6 +219,14 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                 <InternalLinker text={contentItem.text} />
               </div>
             </article>
+
+            {/* FAQ-Sektion – sichtbar für User und Crawler */}
+            {contentItem.faqs && contentItem.faqs.length > 0 && (
+              <FaqSection
+                faqs={contentItem.faqs}
+                title={`Häufige Fragen zu ${subcategory}`}
+              />
+            )}
 
             {/* Quelle */}
             {contentItem.metadata.source && (

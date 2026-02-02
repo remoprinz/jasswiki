@@ -13,6 +13,7 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { FaqSection } from '@/components/wissen/FaqSection';
 import { getVariantMetadata } from '@/data/variant-wikidata-mapping';
 
 interface VariantenPageProps {
@@ -155,6 +156,42 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
             </div>
           </article>
 
+          {/* FAQ-Sektion - sichtbar für User und Crawler */}
+          {contentItem.faqs && contentItem.faqs.length > 0 && (
+            <FaqSection
+              faqs={contentItem.faqs}
+              title={`Häufige Fragen zu ${topic}`}
+            />
+          )}
+
+          {contentItem.sources && contentItem.sources.length > 0 && (
+            <div className="pt-6 mt-6 border-t border-gray-700">
+              <h3 className="text-lg font-semibold text-white mb-3">Quellen</h3>
+              <ul className="space-y-2">
+                {contentItem.sources.map((source: any, idx: number) => (
+                  <li key={idx} className="text-sm text-gray-300">
+                    <a 
+                      href={source.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-green-400 hover:text-green-300 underline"
+                    >
+                      {source.title}
+                    </a>
+                    {source.type && (
+                      <span className="ml-2 text-gray-500">({source.type})</span>
+                    )}
+                    {source.accessed && (
+                      <span className="ml-2 text-gray-500 text-xs">
+                        Abgerufen: {source.accessed}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {contentItem.metadata.source && (
             <div className="pt-4 text-sm text-gray-400 italic">
               Quelle: {contentItem.metadata.source}
@@ -192,32 +229,34 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
             maxResults={4}
           />
 
-          <div className="mt-10 pt-6 border-t border-gray-700">
-            <div className="bg-gray-800/50 rounded-lg p-6">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-white mb-2">Quelle</h3>
-                  <p className="text-gray-300 text-sm mb-3">
-                    <strong>Basierend auf:</strong> {contentItem.metadata.source}
-                  </p>
-                  <Link 
-                    href="/referenzen/"
-                    className="inline-flex items-center text-green-400 hover:text-green-300 text-sm font-medium"
-                  >
-                    Alle Referenzen anzeigen
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          {contentItem.metadata.source && (
+            <div className="mt-10 pt-6 border-t border-gray-700">
+              <div className="bg-gray-800/50 rounded-lg p-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0">
+                    <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
-                  </Link>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-white mb-2">Quelle</h3>
+                    <p className="text-gray-300 text-sm mb-3">
+                      <strong>Basierend auf:</strong> {contentItem.metadata.source}
+                    </p>
+                    <Link 
+                      href="/referenzen/"
+                      className="inline-flex items-center text-green-400 hover:text-green-300 text-sm font-medium"
+                    >
+                      Alle Referenzen anzeigen
+                      <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
 
           <div className="mt-12 pt-8 border-t border-gray-600">
             <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-xl p-6 sm:p-8 text-center">

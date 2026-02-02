@@ -276,6 +276,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Spielverrat (Bemerkungen) beim Jassen?",
+        "answer": "Hinweis:\nSiehe Artikel Spielverrat (siehe Begriff \"spielverrat\") für vollständige Informationen."
+      },
+      {
         "question": "Was sind verbotene Bemerkungen beim Jassen?",
         "answer": "Siehe den Hauptartikel Spielverrat für vollständige Informationen zu verbotenen Bemerkungen während dem Spiel."
       }
@@ -313,6 +317,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Bemerkungen/Schnorren beim Jassen?",
+        "answer": "Schnorren (Bemerkungen während dem Spiel) ist grundsätzlich verboten. Verbotene Bemerkungen:\nKommentare über eine unschlagbare Karte (z.B."
+      },
       {
         "question": "Was bedeutet Schnorren beim Jassen?",
         "answer": "Schnorren bedeutet Bemerkungen während dem Spiel und ist grundsätzlich verboten."
@@ -370,6 +378,14 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Bergpreis beim Jassen?",
+        "answer": "Der Bergpreis (auch Berg genannt) liegt bei der Hälfte des vereinbarten Spielziels, falls nicht anders abgemacht. Beispiel: Bei Spielziel 2000 Punkte liegt Bergpreis bei 1000 Punkten."
+      },
+      {
+        "question": "Was ist die Regel für Bergpreis?",
+        "answer": "Der Bergpreis (auch Berg genannt) liegt bei der Hälfte des vereinbarten Spielziels, falls nicht anders abgemacht."
+      },
+      {
         "question": "Was ist der Bergpreis?",
         "answer": "Der Bergpreis liegt bei der Hälfte des Spielziels (z.B. 1000 bei Ziel 2000). Das erste Team, das diese Punktzahl erreicht, gewinnt ihn und muss dies mit \"Berg\" ansagen."
       },
@@ -377,6 +393,11 @@
         "question": "Gilt die Ausmachregel auch beim Bergpreis?",
         "answer": "Ja, erreichen beide Teams beim ersten Stich gleichzeitig den Bergpreis, entscheidet die Ausmachregel \"Stöck – Weis – Stich\"."
       }
+    ],
+    "see_also": [
+      "expressions_berg",
+      "bedanken",
+      "expressions_schneider"
     ]
   },
   "bock_erwaehnen": {
@@ -402,6 +423,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Spielverrat (Bock erwähnen) beim Jassen?",
+        "answer": "Hinweis:\nSiehe Artikel «Bemerkungen und Schnorren (siehe Begriff \"bemerkungen\")» (ID: bemerkungen_schnorren) für vollständige Informationen."
+      },
       {
         "question": "Darf man erwähnen, dass man einen Bock hat?",
         "answer": "Siehe den Hauptartikel \"Bemerkungen und Schnorren\" für vollständige Informationen zu verbotenen Bemerkungen wie dem Erwähnen eines Bocks."
@@ -436,6 +461,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Bodentrumpf beim Jassen?",
+        "answer": "Bodentrumpf ist die unterste Karte nach dem Abheben (siehe Begriff \"abheben\") des Stapels, die die Trumpffarbe für die Runde bestimmt."
+      },
       {
         "question": "Was ist der Bodentrumpf?",
         "answer": "Der Bodentrumpf ist die unterste Karte nach dem Abheben des Stapels, die die Trumpffarbe für die Runde bestimmt."
@@ -572,19 +601,21 @@
     "faqs": [
       {
         "question": "Was bedeutet Anziehen beim Jassen?",
-        "answer": "Anziehen ist eine Spielaktion, bei der ein Spieler seinem Partner durch das Ausspielen einer bestimmten Karte signalisiert, welche Farbe bei ihm besonders stark ist."
+        "answer": "Anziehen ist eine Spielaktion, bei der man dem Partner durch das Ausspielen einer bestimmten Karte signalisiert, welche Farbe bei einem stark ist."
       },
       {
-        "question": "Wann zieht man beim Jassen an?",
-        "answer": "Man zieht typischerweise an, wenn man in einer bestimmten Farbe gute Karten besitzt und dem Partner signalisieren möchte, dass diese Farbe stark ist."
+        "question": "Wie zieht man richtig an?",
+        "answer": "Man spielt eine kleine Karte einer Farbe aus, in der man starke Karten hat. Der Partner versteht: 'Spiel mir diese Farbe zu!'"
       },
       {
-        "question": "Wie hilft Anziehen dem Team?",
-        "answer": "Anziehen ermöglicht eine bessere Koordination innerhalb des Teams, da der Partner erfährt, in welcher Farbe man viele oder starke Karten hat."
+        "question": "Was ist der Unterschied zwischen Anziehen und Verwerfen?",
+        "answer": "Anziehen zeigt eine starke Farbe an ('das will ich'), Verwerfen zeigt eine schwache Farbe an ('das brauch ich nicht')."
       }
     ],
     "see_also": [
-      "expressions_team"
+      "expressions_verwerfen",
+      "expressions_vorhand",
+      "expressions_schmieren"
     ]
   },
   "expressions_ausmachregel": {
@@ -661,11 +692,15 @@
         "question": "Welche Karte entspricht dem Banner bei französischen Karten?",
         "answer": "Bei französischen Karten entspricht die Zehn dem Banner bei deutschen Karten."
       }
+    ],
+    "see_also": [
+      "general_card_values",
+      "expressions_trumpf"
     ]
   },
   "expressions_basic_terms": {
     "id": "expressions_basic_terms",
-    "text": "Grundkonzept:\n• Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels\n• Diese Terminologie umfasst die wichtigsten Begriffe, die jeder Spieler kennen sollte\n• Notwendig, um erfolgreich beim Jassen zu können\n\nDazu gehören:\n• Bezeichnungen für Karten\n• Spielaktionen\n• Spielsituationen\n• Alle werden in allen Jassvarianten verwendet",
+    "text": "Grundkonzept:\n• Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels\n• Diese Terminologie umfasst die wichtigsten Begriffe, die jeder Spieler kennen sollte\n• Notwendig, um erfolgreich beim Jassen zu können\n\nDazu gehören:\n• Bezeichnungen für Karten\n• Spielaktionen\n• Spielsituationen\n• Alle werden in allen Jassvarianten verwendet\n\n**Zentrale Grundbegriffe:**\n\n**Karten-Bezeichnungen:**\n• Trumpf: Die mächtige Farbe im aktuellen Spiel\n• Puur/Bauer: Der höchste Trumpf (20 Punkte)\n• Nell: Der zweithöchste Trumpf (14 Punkte)\n• Banner: Der Zehner bei deutschen Karten\n• Ass: Die höchste Karte bei Obenabe\n\n**Spielaktionen:**\n• Schieben: Trumpfwahl an Partner weitergeben\n• Bedanken: Spiel beenden, wenn Punktziel erreicht\n• Weisen: Kartenkombinationen melden\n• Stechen: Einen Stich gewinnen\n\n**Spielsituationen:**\n• Stich: Die vier ausgespielten Karten\n• Vorhand: Erster Spieler der Runde\n• Matsch: Alle neun Stiche gewonnen\n• Berg: Hälfte der Punkte (157)\n\nDiese Grundlagen werden in allen Jassvarianten verwendet und sind essentiell für erfolgreiches Jassen.",
     "metadata": {
       "id": "expressions_basic_terms_meta",
       "category": {
@@ -698,6 +733,13 @@
         "question": "Wo kann ich die wichtigsten Jass-Begriffe lernen?",
         "answer": "Die zentrale Begriffserklärung finden Sie unter \"Zentrale Begriffe\" im Grundlagenbereich."
       }
+    ],
+    "see_also": [
+      "trumpf_bauer",
+      "expressions_nell",
+      "expressions_schieben",
+      "expressions_bedanken",
+      "matsch"
     ]
   },
   "expressions_bauernpartei": {
@@ -723,6 +765,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Bauernpartei beim Jassen?",
+        "answer": "Die Bauernpartei ist das gegnerische Team (siehe Begriff \"expressions_team\") des Meistbietenden bei der Jassart Bieter (auch Steiger genannt)."
+      },
       {
         "question": "Was ist die Bauernpartei?",
         "answer": "Die Bauernpartei ist das gegnerische Team des Meistbietenden bei der Jassart Bieter."
@@ -762,6 +808,10 @@
       "taxonomy_tier": 1
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Bedanken beim Jassen?",
+        "answer": "Das Bedanken (siehe Begriff \"bedanken\") ist eine verbindliche Aussage, mit der ein Spieler das aktuelle Spiel beendet."
+      },
       {
         "question": "Was passiert beim Bedanken?",
         "answer": "Beim Bedanken beendet ein Spieler verbindlich das aktuelle Spiel, woraufhin die Punkte abgerechnet werden."
@@ -848,15 +898,15 @@
     "faqs": [
       {
         "question": "Was ist der Berg beim Jassen?",
-        "answer": "Der Berg ist eine Zusatzprämie für das Team, das als Erstes die Hälfte des Spielziels erreicht."
+        "answer": "Der Berg (Bergpreis) ist eine Zusatzprämie für das Team, das als Erstes die Hälfte des Spielziels erreicht."
       },
       {
-        "question": "Wie wird der Berg notiert?",
-        "answer": "Der Berg wird separat notiert und zählt zur Gesamtwertung."
+        "question": "Wie viele Striche gibt der Berg?",
+        "answer": "Der Bergpreis gibt 1 Strich."
       },
       {
-        "question": "Warum gibt es den Bergpreis?",
-        "answer": "Der Bergpreis motiviert die Teams und bringt zusätzliche Spannung in die Partie."
+        "question": "Wann bekommt man den Bergpreis?",
+        "answer": "Sobald ein Team die Hälfte des Partieziels erreicht (z.B. 1250 bei einem 2500er-Spiel) und dies mit \"Berg\" ansagt."
       }
     ],
     "see_also": [
@@ -898,6 +948,11 @@
         "question": "Wann sollte man bessern?",
         "answer": "Das Bessern erfordert eine gute Einschätzung der eigenen Chancen - man sollte bessern, wenn man glaubt, dass die neuen Karten besser sein werden als die alten."
       }
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_weispunkte",
+      "ausmachregel"
     ]
   },
   "expressions_blatt": {
@@ -975,6 +1030,11 @@
         "question": "Was macht man mit dem Blinden beim Schnüffler?",
         "answer": "Beim Schnüffler müssen die Spieler die Karten des Blinden erraten, ohne sie zu sehen."
       }
+    ],
+    "see_also": [
+      "expressions_trumpf",
+      "expressions_nell",
+      "expressions_trumpf_bauer"
     ]
   },
   "expressions_bock": {
@@ -1014,7 +1074,9 @@
       }
     ],
     "see_also": [
-      "bodentrumpf"
+      "expressions_bockkarte",
+      "expressions_klemmen",
+      "expressions_schlecken"
     ]
   },
   "expressions_bockkarte": {
@@ -1052,7 +1114,9 @@
       }
     ],
     "see_also": [
-      "bodentrumpf"
+      "expressions_bock",
+      "expressions_klemmen",
+      "expressions_stechkarten"
     ]
   },
   "expressions_bodentrumpf": {
@@ -1133,6 +1197,10 @@
         "question": "Wie viele Punkte sind Brättli wert?",
         "answer": "Brättli haben einen geringen oder gar keinen Punktwert, je nach Spielart. Bei Obenabe und Undenufe haben sie spezielle Werte."
       }
+    ],
+    "see_also": [
+      "expressions_striche",
+      "expressions_partie"
     ]
   },
   "expressions_ecken": {
@@ -1244,6 +1312,11 @@
         "question": "Wer erbt beim Jassen?",
         "answer": "Der Spielgeber, also derjenige, der die Karten verteilt hat, erbt die vereinbarten Punkte, wenn er selbst nicht mitspielt."
       }
+    ],
+    "see_also": [
+      "expressions_trumpf",
+      "expressions_stoecke",
+      "expressions_nell"
     ]
   },
   "expressions_farbe": {
@@ -1376,6 +1449,11 @@
         "question": "Ist Fort das gleiche wie Passen?",
         "answer": "Ja, Fort und Passen bedeuten dasselbe beim Jassen."
       }
+    ],
+    "see_also": [
+      "expressions_stich",
+      "expressions_matsch",
+      "expressions_trumpf"
     ]
   },
   "expressions_guschti": {
@@ -1401,6 +1479,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Guschti/Zwischendurch/Quer beim Jassen?",
+        "answer": "Guschti (auch Zwischendurch oder Quer genannt) ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe."
+      },
       {
         "question": "Was ist Guschti?",
         "answer": "Guschti ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der Obenabe und Undenufe kombiniert werden."
@@ -1561,20 +1643,22 @@
     },
     "faqs": [
       {
-        "question": "Was ist Hindersi?",
-        "answer": "Hindersi ist eine Spielvariante mit umgekehrter Punktezählung, bei der das Ziel ist, möglichst wenige Punkte zu erreichen."
+        "question": "Was bedeutet Hindersi beim Jassen?",
+        "answer": "Hindersi bezeichnet Spielvarianten mit umgekehrter Punktezählung, bei denen das Ziel ist, möglichst wenige Kartenpunkte zu sammeln."
       },
       {
-        "question": "Wer gewinnt bei Hindersi?",
-        "answer": "Bei Hindersi gewinnt, wer die wenigsten Kartenpunkte sammelt."
+        "question": "Bei welchen Jassarten muss man wenig Stiche machen?",
+        "answer": "Bei Hindersi-Varianten wie Misère oder Molotow muss man möglichst wenige Stiche bzw. Punkte machen. Diese Spielarten erfordern eine völlig andere Strategie."
       },
       {
-        "question": "Ist die Strategie bei Hindersi anders?",
-        "answer": "Ja, Hindersi erfordert eine völlig andere Spielstrategie als beim normalen Jass, da man wenige statt viele Punkte sammeln möchte."
+        "question": "Darf man bei Hindersi-Varianten untertrumpfen?",
+        "answer": "Ja, bei Hindersi-Varianten ist Untertrumpfen auch dann erlaubt, wenn man die ausgespielte Farbe nicht bedienen kann."
       }
     ],
     "see_also": [
-      "general_scoring_rules"
+      "expressions_misere",
+      "untertrumpfen",
+      "expressions_obenabe"
     ]
   },
   "expressions_joker": {
@@ -1600,6 +1684,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Joker/Knecht beim Jassen?",
+        "answer": "Der Joker (oder Knecht) ist der fünfte Spieler bei der Jassart Schieber zu fünft."
+      },
+      {
         "question": "Was ist der Joker beim Jassen?",
         "answer": "Der Joker ist der fünfte Spieler bei der Jassart Schieber zu fünft."
       },
@@ -1611,6 +1699,11 @@
         "question": "Wie nennt man den Joker noch?",
         "answer": "Der Joker wird auch Knecht genannt."
       }
+    ],
+    "see_also": [
+      "expressions_knecht",
+      "expressions_trumpf_bauer",
+      "expressions_nell"
     ]
   },
   "expressions_kartenfarben": {
@@ -1707,7 +1800,7 @@
   },
   "expressions_klemmen": {
     "id": "expressions_klemmen",
-    "text": "Definition:\n• Unter Klemmen versteht man beim Jassen, wenn der Gegner eine Karte halten kann, die vom",
+    "text": "**Definition:**\n• Klemmen bedeutet, dass ein Spieler einen Bock (siehe Begriff \"expressions_bock\") bewusst nicht ausspielt, obwohl er damit den Stich machen könnte\n\n**Taktischer Hintergrund:**\n• Der Spieler hält den Bock zurück (\"klemmt\" ihn)\n• Ziel ist es, diese starke Karte zu einem späteren, günstigeren Zeitpunkt einzusetzen\n• Beispiel: Man klemmt den Eichel-Ass, um später damit einen wertvolleren Stich zu stechen oder dem Partner die Führung zu übergeben\n\n**Risiko:**\n• Wird der Bock zu lange geklemmt, kann er möglicherweise gar nicht mehr ausgespielt werden",
     "metadata": {
       "id": "expressions_klemmen_meta",
       "category": {
@@ -1717,9 +1810,10 @@
       },
       "keywords": [
         "klemmen",
-        "gegner",
-        "karte",
-        "taktik"
+        "bock",
+        "zurückhalten",
+        "taktik",
+        "spielstrategie"
       ],
       "situations": [
         "LEARNING"
@@ -1731,10 +1825,22 @@
     "faqs": [
       {
         "question": "Was bedeutet Klemmen beim Jassen?",
-        "answer": "Unter Klemmen versteht man beim Jassen, wenn der Gegner eine Karte halten kann."
+        "answer": "Klemmen bedeutet, dass ein Spieler einen Bock bewusst nicht ausspielt, obwohl er damit den Stich machen könnte, um ihn später strategisch günstiger einzusetzen."
+      },
+      {
+        "question": "Warum klemmt man einen Bock?",
+        "answer": "Man klemmt einen Bock, um ihn zu einem günstigeren Zeitpunkt einzusetzen, z.B. um einen wertvolleren Stich zu stechen oder dem Partner die Führung zu übergeben."
+      },
+      {
+        "question": "Was ist das Risiko beim Klemmen?",
+        "answer": "Wird der Bock zu lange geklemmt, kann es passieren, dass man ihn gar nicht mehr ausspielen kann und damit Chancen vergibt."
       }
     ],
-    "see_also": []
+    "see_also": [
+      "expressions_bock",
+      "expressions_schlecken",
+      "expressions_anziehen"
+    ]
   },
   "expressions_knecht": {
     "id": "expressions_knecht",
@@ -1771,6 +1877,11 @@
         "question": "Welche Rolle hat der Knecht?",
         "answer": "Der Knecht nimmt eine besondere Rolle ein und hat in bestimmten Situationen eine wichtige strategische Position."
       }
+    ],
+    "see_also": [
+      "expressions_joker",
+      "expressions_trumpf_bauer",
+      "expressions_nell"
     ]
   },
   "expressions_koenigspartei": {
@@ -1796,6 +1907,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Königspartei beim Jassen?",
+        "answer": "Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter (auch Steiger genannt), wenn mit fünf Spielern gespielt wird."
+      },
       {
         "question": "Was ist die Königspartei?",
         "answer": "Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter mit fünf Spielern."
@@ -1914,17 +2029,22 @@
     },
     "faqs": [
       {
-        "question": "Was ist ein Kreuzweis?",
+        "question": "Was ist ein Kreuzweis beim Jassen?",
         "answer": "Ein Kreuzweis ist eine spezielle Weisform, bei der zwei Weise vorhanden sind, in denen jeweils die gleiche Karte vorkommt."
       },
       {
-        "question": "Was ist das Besondere am Kreuzweis?",
-        "answer": "Das Besondere ist, dass dieselbe Karte in beiden Weisen vorkommt, was eine geschickte Deklaration erfordert."
+        "question": "Ist Kreuzweisen erlaubt?",
+        "answer": "Ja, Kreuzweisen ist erlaubt. Man darf beispielsweise vier Gleiche und eine Strasse gleichzeitig weisen, auch wenn eine Karte in beiden Weisen vorkommt."
       },
       {
-        "question": "Kann ein Kreuzweis zu besonderen Situationen führen?",
-        "answer": "Ja, ein Kreuzweis kann zu interessanten Spielsituationen führen."
+        "question": "Wie deklariert man einen Kreuzweis?",
+        "answer": "Bei einem Kreuzweis muss man beide Weise einzeln deklarieren und kann die Punkte beider Weise erhalten."
       }
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_stoecke",
+      "weis_vier_gleiche"
     ]
   },
   "expressions_leih_halten": {
@@ -1950,20 +2070,22 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Leih halten?",
-        "answer": "Leih halten bedeutet, die Farbe zu bekennen, also eine Karte der ausgespielten Farbe anzugeben."
+        "question": "Was bedeutet Leih halten beim Jassen?",
+        "answer": "Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine besitzt."
       },
       {
-        "question": "Muss man immer Leih halten?",
-        "answer": "Ja, dies ist eine grundlegende Spielregel im Jass und muss strikt befolgt werden, sofern man eine entsprechende Karte besitzt."
+        "question": "Muss man immer Farbe bekennen?",
+        "answer": "Ja, wer eine Karte der angespielten Farbe besitzt, muss diese spielen. Nur wenn man keine Karte dieser Farbe hat, darf man trumpfen oder verwerfen."
       },
       {
         "question": "Was ist der Unterschied zwischen Leih halten und Farben halten?",
-        "answer": "Leih halten und Farben halten bedeuten dasselbe - beide Begriffe beschreiben die Pflicht, die ausgespielte Farbe zu bedienen."
+        "answer": "Die Begriffe bedeuten dasselbe: Man muss die angespielte Farbe bedienen, wenn man kann."
       }
     ],
     "see_also": [
-      "expressions_kartenfarben"
+      "expressions_farbenhalten",
+      "expressions_trumpf",
+      "untertrumpfen"
     ]
   },
   "expressions_lukas": {
@@ -2030,15 +2152,19 @@
     "faqs": [
       {
         "question": "Was ist ein Matsch beim Jassen?",
-        "answer": "Ein Matsch bedeutet, dass ein Team alle Stiche eines Umlaufs erzielt."
+        "answer": "Ein Matsch bedeutet, dass ein Team alle 9 Stiche eines Umlaufs erzielt."
       },
       {
-        "question": "Wie wird ein Matsch belohnt?",
-        "answer": "Ein Matsch wird mit einer Prämie belohnt, die je nach Spielvariante unterschiedlich hoch ausfällt."
+        "question": "Wie viele Punkte gibt ein Matsch?",
+        "answer": "Ein Matsch gibt 257 Punkte (alle Kartenpunkte + 5 für letzten Stich + Matschprämie von 100 Punkten)."
       },
       {
-        "question": "Wie oft kommt ein Matsch vor?",
-        "answer": "Ein Matsch ist ein seltenes, aber sehr lohnendes Ereignis im Spielverlauf."
+        "question": "Wie viele Striche gibt ein Matsch?",
+        "answer": "Ein Matsch gibt 1 Strich."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Matsch und Kontermatsch?",
+        "answer": "Matsch: Das trumpfansagende Team macht alle Stiche (1 Strich). Kontermatsch: Das nicht-trumpfansagende Team macht alle Stiche (2 Striche)."
       }
     ],
     "see_also": [
@@ -2170,6 +2296,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Misère beim Jassen?",
+        "answer": "Misère ist eine Spezialvariante bei Pandur und Bieter, bei der der Spielübernehmer keinen einzigen Stich machen darf, was diese Variante besonders herausfordernd macht."
+      },
+      {
         "question": "Was ist eine Misère?",
         "answer": "Die Misère ist eine Spezialvariante, bei der der Spielübernehmer keinen einzigen Stich machen darf."
       },
@@ -2280,6 +2410,8 @@
       }
     ],
     "see_also": [
+      "expressions_trumpf_bauer",
+      "expressions_trumpf",
       "bodentrumpf"
     ]
   },
@@ -2348,20 +2480,22 @@
     },
     "faqs": [
       {
-        "question": "Was ist Obenabe?",
-        "answer": "Obenabe ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der die höchsten Karten von oben nach unten zählen."
+        "question": "Was ist Obenabe beim Jassen?",
+        "answer": "Obenabe ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der die hohen Karten stechen (Ass > König > Ober > etc.)."
       },
       {
-        "question": "Welche Karten sind bei Obenabe am stärksten?",
-        "answer": "Bei Obenabe sind die normalerweise höchsten Karten (Ass, König, etc.) auch die stärksten."
+        "question": "Wie viele Punkte zählen die Karten bei Obenabe?",
+        "answer": "Bei Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte. Die übrigen Kartenwerte bleiben gleich."
       },
       {
-        "question": "Gibt es bei Obenabe eine Trumpffarbe?",
-        "answer": "Nein, Obenabe ist eine Variante ohne feste Trumpffarbe."
+        "question": "Was ist der Unterschied zwischen Obenabe und Undenufe?",
+        "answer": "Bei Obenabe stechen die hohen Karten (Ass höchste), bei Undenufe stechen die tiefen Karten (6 höchste)."
       }
     ],
     "see_also": [
-      "bodentrumpf"
+      "expressions_undenufe",
+      "expressions_slalom",
+      "matsch"
     ]
   },
   "expressions_offene_ansage": {
@@ -2436,6 +2570,11 @@
         "question": "Was ist der Unterschied zwischen Spiel und Partie?",
         "answer": "Ein Spiel ist ein einzelner Durchgang, eine Partie besteht aus mehreren Spielen bis zum Erreichen des Spielziels."
       }
+    ],
+    "see_also": [
+      "expressions_striche",
+      "bedanken",
+      "expressions_schneider"
     ]
   },
   "expressions_passe": {
@@ -2471,6 +2610,11 @@
         "question": "Was ist eine Streichpasse?",
         "answer": "Eine Streichpasse ist die schlechteste Passe eines Teilnehmers, die bei der Turnierwertung nicht gezählt wird."
       }
+    ],
+    "see_also": [
+      "expressions_schieben",
+      "expressions_vorhand",
+      "expressions_trumpf"
     ]
   },
   "expressions_passen": {
@@ -2537,16 +2681,21 @@
     "faqs": [
       {
         "question": "Was ist ein Rampo beim Jassen?",
-        "answer": "Ein Rampo ist ein notierter Querstrich beim Schellenjass, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen müssen."
+        "answer": "Rampo ist ein notierter Querstrich bei der Jassart Schellenjass (Herzjass), der notiert wird, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen."
+      },
+      {
+        "question": "Wie funktioniert die Rampo-Regel?",
+        "answer": "Wenn mindestens zwei Spieler gleich viele Schellenkarten stechen müssen, wird ein Rampo (Querstrich) notiert, der die Spielabrechnung beeinflusst."
       },
       {
         "question": "Bei welcher Jassart gibt es Rampo?",
-        "answer": "Rampo gibt es beim Schellenjass, auch Herzjass genannt."
-      },
-      {
-        "question": "Wann wird ein Rampo notiert?",
-        "answer": "Ein Rampo wird notiert, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen müssen."
+        "answer": "Rampo gibt es beim Schellenjass, auch Herzjass genannt. Es ist ein wichtiger Bestandteil der Spielabrechnung dieser Variante."
       }
+    ],
+    "see_also": [
+      "expressions_striche",
+      "expressions_berg",
+      "expressions_schneider"
     ]
   },
   "expressions_rauben": {
@@ -2819,8 +2968,9 @@
       }
     ],
     "see_also": [
-      "bodentrumpf",
-      "expressions_vorhand"
+      "expressions_vorhand",
+      "expressions_trumpf",
+      "variants_family_coiffeur_schieber"
     ]
   },
   "expressions_schilte": {
@@ -2901,7 +3051,7 @@
   },
   "expressions_schmieren": {
     "id": "expressions_schmieren",
-    "text": "Definition:\nDas Schmieren bedeutet, dass man seinem Partner punktemässig wertvolle Karten zu seinem Stich beigibt.\n\nBedeutung:\n• Diese wichtige taktische Spielaktion stärkt die Teamarbeit\n• Hilft dabei, möglichst viele Punkte zu sammeln",
+    "text": "**Definition:**\n• Schmieren bedeutet, dem Partner punktemässig wertvolle Karten zu seinem Stich beizugeben\n\n**Beispiele:**\n• Partner sticht mit dem Trumpf-Ass → man gibt ihm das Zehner (10 Punkte)\n• Partner hat sicheren Bock → man \"schmiert\" ihm ein Ass oder Zehner\n\n**Taktische Bedeutung:**\n• Schmieren ist eine wichtige Teamtaktik\n• Maximiert die Punkteausbeute eines sicheren Stichs\n• Erfordert gutes Timing und Einschätzung der Spielsituation",
     "metadata": {
       "id": "expressions_schmieren_meta",
       "category": {
@@ -2962,15 +3112,15 @@
     "faqs": [
       {
         "question": "Was bedeutet Schneider beim Jassen?",
-        "answer": "Schneider bedeutet, dass ein Team die Hälfte des Ziels einer Partie nicht erreicht hat."
+        "answer": "Schneider bezeichnet die Situation, wenn ein Team die Hälfte des Partieziels nicht erreicht hat."
       },
       {
-        "question": "Gibt es eine Strafe für Schneider?",
-        "answer": "Ja, der Schneider wird in der Regel mit zusätzlichen Minuspunkten bestraft."
+        "question": "Wie viele Punkte braucht man, um aus dem Schneider zu kommen?",
+        "answer": "Man muss mindestens die Hälfte des Spielziels erreichen. Bei einem Spielziel von 2500 Punkten braucht man also mindestens 1250 Punkte."
       },
       {
-        "question": "Wie vermeidet man Schneider?",
-        "answer": "Man muss mindestens die Hälfte der Zielpunktzahl erreichen, um nicht Schneider zu werden."
+        "question": "Wie viele Striche gibt Schneider?",
+        "answer": "Schneider gibt 2 Striche."
       }
     ],
     "see_also": [
@@ -2981,7 +3131,7 @@
   },
   "expressions_schnorren": {
     "id": "expressions_schnorren",
-    "text": "Definition:\n• Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die Andeutungen auf Karten oder Taktiken geben\n• Schnorren ist daher grundsätzlich verboten\n• Siehe auch Artikel Spielverrat (siehe Begriff \"spielverrat\")",
+    "text": "**Definition:**\n• Schnorren bezeichnet verbotene Bemerkungen während des Spiels, die Andeutungen auf Karten oder Taktiken geben\n\n**Beispiele für verbotenes Schnorren:**\n• \"Ich habe einen guten Trumpf\"\n• \"Spiel mal Schellen\"\n• Seufzen oder übertriebenes Zögern\n\n**Konsequenzen:**\n• Schnorren ist Spielverrat und kann je nach Tischregel bestraft werden\n• Bei groben Verstössen kann das Spiel annulliert werden",
     "metadata": {
       "id": "expressions_schnorren_meta",
       "category": {
@@ -3019,7 +3169,9 @@
       }
     ],
     "see_also": [
-      "spielverrat"
+      "spielverrat",
+      "bemerkungen_schnorren",
+      "regeln_tischregel"
     ]
   },
   "expressions_slalom": {
@@ -3045,16 +3197,24 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Slalom/Zickzack beim Jassen?",
+        "answer": "Slalom (oder Zickzack) ist eine spezielle Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe."
+      },
+      {
         "question": "Was ist Slalom beim Jassen?",
-        "answer": "Slalom ist eine Trumpf-Variante, bei der abwechselnd nach Undenufe- und Obenabe-Regeln gespielt wird."
+        "answer": "Slalom (oder Zickzack) ist eine Spielvariante ohne feste Trumpffarbe, bei der abwechselnd nach Obenabe- und Undenufe-Regeln gespielt wird."
       },
       {
-        "question": "Wie funktioniert Slalom?",
-        "answer": "Bei Slalom wird abwechselnd je ein Stich nach Undenufe-Regeln und dann nach Obenabe-Regeln gespielt."
+        "question": "Wie funktioniert der Wechsel beim Slalom?",
+        "answer": "Nach jedem Stich wechselt die Stechordnung: Beim ersten Stich nach Obenabe (hohe Karten stechen), beim zweiten nach Undenufe (tiefe Karten stechen), usw."
       },
       {
-        "question": "Ist Slalom schwierig zu spielen?",
-        "answer": "Ja, Slalom erfordert viel Aufmerksamkeit und strategisches Denken, da man ständig zwischen zwei verschiedenen Regelwerken wechseln muss."
+        "question": "Wie verwirft man beim Slalom richtig?",
+        "answer": "Beim Slalom sollte man beim Verwerfen beachten, ob der nächste Stich Obenabe oder Undenufe gespielt wird, um entsprechend starke oder schwache Karten loszuwerden."
+      },
+      {
+        "question": "Zählen beim Slalom die Asse oder Sechser 11 Punkte?",
+        "answer": "Beim Slalom zählen entweder die Asse oder die Sechser je 11 Punkte – je nachdem ob mit Obenabe oder Undenufe begonnen wird."
       }
     ],
     "see_also": [
@@ -3215,7 +3375,9 @@
       }
     ],
     "see_also": [
-      "ausspiel"
+      "ausspiel",
+      "expressions_matsch",
+      "letzter_stich"
     ]
   },
   "expressions_stock": {
@@ -3251,6 +3413,11 @@
         "question": "Bei welchen Jassvarianten gibt es einen Stöck?",
         "answer": "Einen Stöck gibt es bei vielen Jassvarianten, besonders bei Handjass und Aucho."
       }
+    ],
+    "see_also": [
+      "expressions_stoecke",
+      "expressions_stoeck_weis_stich",
+      "ausmachregel"
     ]
   },
   "expressions_stoeck_weis_stich": {
@@ -3331,7 +3498,9 @@
       }
     ],
     "see_also": [
-      "expressions_weismeldung"
+      "expressions_stoeck_weis_stich",
+      "ausmachregel",
+      "expressions_weis"
     ]
   },
   "expressions_streichpasse": {
@@ -3400,16 +3569,32 @@
     },
     "faqs": [
       {
-        "question": "Was sind Striche beim Jassen?",
-        "answer": "Striche sind das primäre Wertungssystem vorwiegend beim Schieber. Wer bei einer Partie über mehrere Spiele hinweg mehr Striche erzielt, gewinnt die Partie."
+        "question": "Was bedeutet Strich beim Jassen?",
+        "answer": "Unter Strich bzw."
       },
       {
-        "question": "Wo wird das Strich-System angewendet?",
-        "answer": "Das Strich-System wird vor allem bei privaten Runden angewendet. Bei Turnieren wird meistens auf Punkte gejasst."
+        "question": "Wie funktioniert die Strich-Wertung beim Jass?",
+        "answer": "Striche sind das primäre Wertungssystem beim Schieber. Wer am Ende einer Partie mehr Striche erzielt hat, gewinnt."
       },
       {
-        "question": "Wie gewinnt man mit Strichen?",
-        "answer": "Wer bei einer Partie über mehrere Spiele hinweg mehr Striche erzielt, gewinnt die Partie."
+        "question": "Wie viele Striche gibt ein Matsch?",
+        "answer": "Ein Matsch gibt 1 Strich."
+      },
+      {
+        "question": "Wie viele Striche gibt ein Kontermatsch?",
+        "answer": "Ein Kontermatsch gibt 2 Striche."
+      },
+      {
+        "question": "Wie viele Striche gibt der Berg?",
+        "answer": "Der Bergpreis gibt 1 Strich."
+      },
+      {
+        "question": "Wie viele Striche gibt der Sieg?",
+        "answer": "Der Sieg einer Partie gibt 2 Striche."
+      },
+      {
+        "question": "Wie viele Striche gibt Schneider?",
+        "answer": "Schneider gibt 2 Striche."
       }
     ],
     "see_also": [
@@ -3450,6 +3635,10 @@
         "question": "Wer sitzt im Team zusammen?",
         "answer": "Die Teamspieler sitzen sich beim Schieber gegenüber (Vorhand und Hinterhand)."
       }
+    ],
+    "see_also": [
+      "expressions_schmieren",
+      "expressions_anziehen"
     ]
   },
   "expressions_tisch_weis": {
@@ -3487,6 +3676,11 @@
         "question": "Bei welcher Jassart gibt es Tisch-Weise?",
         "answer": "Tisch-Weise gibt es vor allem bei der Jassart Molotow."
       }
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_weismeldung",
+      "regeln_tischregel"
     ]
   },
   "expressions_trio": {
@@ -3568,7 +3762,10 @@
       }
     ],
     "see_also": [
-      "bodentrumpf"
+      "expressions_nell",
+      "expressions_trumpf_bauer",
+      "bodentrumpf",
+      "untertrumpfen"
     ]
   },
   "expressions_trumpf_bauer": {
@@ -3678,20 +3875,22 @@
     },
     "faqs": [
       {
-        "question": "Was ist Undenufe?",
-        "answer": "Undenufe ist eine Trumpf-Variante, bei der die normalerweise niedrigsten Karten die stärksten sind."
+        "question": "Was ist Undenufe beim Jassen?",
+        "answer": "Undenufe ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der die tiefen Karten stechen (6 > 7 > 8 > etc.)."
       },
       {
-        "question": "Welche Karten sind bei Undenufe am stärksten?",
-        "answer": "Bei Undenufe sind die Sechser die stärksten Karten, gefolgt von Siebner, Achter, etc."
+        "question": "Wie viele Punkte zählen die Karten bei Undenufe?",
+        "answer": "Bei Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte. Die übrigen Kartenwerte bleiben gleich."
       },
       {
-        "question": "Gibt es bei Undenufe eine Trumpffarbe?",
-        "answer": "Nein, Undenufe ist eine Variante ohne feste Trumpffarbe."
+        "question": "Welche Karte ist bei Undenufe am stärksten?",
+        "answer": "Bei Undenufe ist die 6 (der Sechser) die stärkste Karte jeder Farbe, gefolgt von 7, 8, 9, 10, Unter, Ober, König, Ass."
       }
     ],
     "see_also": [
-      "bodentrumpf"
+      "expressions_obenabe",
+      "expressions_slalom",
+      "matsch"
     ]
   },
   "expressions_untertrumpfen": {
@@ -3835,15 +4034,15 @@
     "faqs": [
       {
         "question": "Was bedeutet Verwerfen beim Jassen?",
-        "answer": "Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich."
+        "answer": "Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich, um dem Partner zu signalisieren, dass man diese Farbe nicht braucht."
       },
       {
-        "question": "Was signalisiert das Verwerfen dem Partner?",
-        "answer": "Das Verwerfen signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt."
+        "question": "Wie verwirft man richtig?",
+        "answer": "Man spielt eine Karte einer Farbe ab, die man loswerden möchte. Der Partner versteht: 'Diese Farbe brauch ich nicht, spiel mir etwas anderes.'"
       },
       {
-        "question": "Warum ist Verwerfen wichtig?",
-        "answer": "Durch das Verwerfen kann man wichtige Informationen an den Partner weitergeben und die Teamkoordination verbessern."
+        "question": "Wann sollte man verwerfen?",
+        "answer": "Man verwirft, wenn man eine Farbe nicht bedienen kann und dem Partner zeigen will, welche Farben bei einem schwach sind."
       }
     ],
     "see_also": [
@@ -3924,6 +4123,11 @@
         "question": "Wer sitzt wo beim Schieber?",
         "answer": "Die Vorhand sitzt rechts vom Geber, gegenüber sitzt die Hinterhand (Partner), links vom Geber die Mittelhand."
       }
+    ],
+    "see_also": [
+      "expressions_schieben",
+      "expressions_anziehen",
+      "general_dealing"
     ]
   },
   "expressions_weis": {
@@ -4045,6 +4249,11 @@
         "question": "Wie meldet man einen Weis?",
         "answer": "Man meldet die Höhe des Weises, z.B. \"20\", \"50\" oder \"100\". Nur bei Gleichstand muss man zur Klärung deklarieren."
       }
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_weispunkte",
+      "expressions_stoecke"
     ]
   },
   "expressions_weispunkte": {
@@ -4091,6 +4300,11 @@
         "question": "Wann werden Weispunkte gezählt?",
         "answer": "Weispunkte werden am Ende des Spiels zur Gesamtpunktzahl hinzugezählt."
       }
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_weismeldung",
+      "weis_rules_vier_gleiche"
     ]
   },
   "falscher_spieler": {
@@ -4168,6 +4382,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Fehlende Karte beim Jassen?",
+        "answer": "Regel:\nWird während eines Spiels bemerkt, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen."
+      },
+      {
         "question": "Was passiert, wenn eine Karte fehlt?",
         "answer": "Wenn während eines Spiels bemerkt wird, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen."
       },
@@ -4180,7 +4398,11 @@
         "answer": "Die Gegner des betroffenen Spielers entscheiden über das weitere Vorgehen."
       }
     ],
-    "see_also": []
+    "see_also": [
+      "kartenspiel_nicht_komplett",
+      "regeln_tischregel",
+      "spielverrat"
+    ]
   },
   "fragen_waehrend_spiel": {
     "id": "fragen_waehrend_spiel",
@@ -4228,7 +4450,7 @@
   },
   "general_card_basics": {
     "id": "general_card_basics",
-    "text": "Grundkonzept:\nIn der Schweiz werden Jasskarten in zwei Hauptvarianten verwendet, die sich in den Farben unterscheiden.\n\nDeutschschweizerische Karten:\n• Eicheln (siehe Begriff \"expressions_eichel\")\n• Rosen (siehe Begriff \"expressions_rose\")\n• Schilten (siehe Begriff \"expressions_schilte\")\n• Schellen (siehe Begriff \"expressions_schelle\")\n\nFranzösische Karten:\n• Ecken (siehe Begriff \"expressions_ecken\") (Carreau)\n• Herz (siehe Begriff \"expressions_herz\") (Coeur)\n• Schaufel (siehe Begriff \"expressions_schaufel\") (Pique)\n• Kreuz (siehe Begriff \"expressions_kreuzweis\") (Trèfle)",
+    "text": "Grundkonzept:\nIn der Schweiz werden Jasskarten in zwei Hauptvarianten verwendet, die sich in den Farben unterscheiden.\n\nDeutschschweizerische Karten:\n• Eicheln (siehe Begriff \"expressions_eichel\")\n• Rosen (siehe Begriff \"expressions_rose\")\n• Schilten (siehe Begriff \"expressions_schilte\")\n• Schellen (siehe Begriff \"expressions_schelle\")\n\nFranzösische Karten:\n• Ecken (siehe Begriff \"expressions_ecken\") (Carreau)\n• Herz (siehe Begriff \"expressions_herz\") (Coeur)\n• Schaufel (siehe Begriff \"expressions_schaufel\") (Pique)\n• Kreuz (siehe Begriff \"expressions_kreuzweis\") (Trèfle)\n\n**Aufbau eines Jasskartenspiels:**\n\nBeim Jassen werden 36 Karten verwendet. Diese Jasskarten bilden die Grundlage für alle Jass-Varianten.\n\nJede der vier Farben enthält neun Karten:\n• As (Ass)\n• König\n• Ober/Dame\n• Under/Bube\n• Banner/Zehn\n• Neuner\n• Achter\n• Siebner\n• Sechser\n\n**Regional unterschiedlich:**\n• In der Deutschschweiz dominieren die deutschen Jasskarten (Eicheln, Rosen, Schilten, Schellen)\n• In der Romandie sind französische Karten üblich (Ecken/Karo, Herz (Coeur), Schaufel/Pik, Kreuz)\n\nTotal: 4 Farben × 9 Karten = 36 Jasskarten. Diese Grundlagen gelten universal.",
     "metadata": {
       "id": "general_card_basics_meta",
       "category": {
@@ -4258,6 +4480,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Jasskarten: Grundlagen beim Jassen?",
+        "answer": "Grundkonzept:\nIn der Schweiz werden Jasskarten in zwei Hauptvarianten verwendet, die sich in den Farben unterscheiden."
+      },
       {
         "question": "Welche Kartentypen gibt es beim Jassen?",
         "answer": "Beim Jassen werden zwei Hauptvarianten verwendet: Deutschschweizerische Karten (Eicheln, Rosen, Schilten, Schellen) und französische Karten (Ecken, Herz, Schaufel, Kreuz)."
@@ -4319,6 +4545,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Verschiedene Kartensysteme beim Jassen?",
+        "answer": "Es existieren verschiedene Kartensysteme für das Jassen, die sich in Farben, Symbolen und regionalen Besonderheiten unterscheiden."
+      },
+      {
         "question": "Welche Kartensysteme gibt es für das Jassen?",
         "answer": "Es gibt hauptsächlich Schweizer Karten (Schellen, Schilten, Rosen, Eicheln), französische Karten (Herz, Karo, Pik, Kreuz) und seltener deutsche Karten."
       },
@@ -4369,6 +4599,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Jasskarten: Werte beim Jassen?",
+        "answer": "Grundregel:\nJede der vier Farben (siehe Begriff \"expressions_kartenfarben\") umfasst neun Karten."
+      },
       {
         "question": "Wie viele Punkte ist ein Ass wert?",
         "answer": "Ein Ass ist 11 Punkte wert (ohne Trumpf)."
@@ -4424,6 +4658,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Jassen als Kulturgut beim Jassen?",
+        "answer": "Kulturelle Verankerung:\nDer Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet."
+      },
+      {
         "question": "Warum ist Jass so wichtig für die Schweizer Kultur?",
         "answer": "Der Jass ist tief in der Schweizer Kultur verwurzelt, wird als Nationalspiel betrachtet und verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg."
       },
@@ -4435,11 +4673,16 @@
         "question": "Hat die Digitalisierung den Jass verdrängt?",
         "answer": "Nein, trotz Digitalisierung bleibt der Jass lebendig - traditionelle Treffen und moderne Jass-Apps existieren nebeneinander."
       }
+    ],
+    "see_also": [
+      "history_origin",
+      "history_first_mention",
+      "variants_family_coiffeur_schieber"
     ]
   },
   "general_dealing": {
     "id": "general_dealing",
-    "text": "Grundregeln:\nBeim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.\n\nVerteilung:\n• Jeder Spieler erhält 9 Karten\n• Die Karten werden im Uhrzeigersinn verteilt\n• Der Kartengeber beginnt beim Spieler links von sich\n• Karten werden einzeln gegeben, nicht in Paketen\n• Nach dem Verteilen können die Karten aufgenommen werden\n\nVerantwortlichkeiten:\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler rechts vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
+    "text": "**Grundregeln der Kartenverteilung:**\n\nBeim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.\n\n**Schweizer Besonderheit:**\n• Die Karten werden im **Gegenurzeigersinn** verteilt – typisch für die Schweiz!\n• \"Immer der Ohrfeige nach\" wie man so schön sagt\n\n**Verteilung:**\n• Jeder Spieler erhält 9 Karten\n• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)\n• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)\n• Nach dem Verteilen können die Karten aufgenommen werden\n\n**Verantwortlichkeiten:**\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler rechts vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
     "metadata": {
       "id": "general_dealing_meta",
       "category": {
@@ -4452,9 +4695,10 @@
         "mischen",
         "abheben",
         "geben",
-        "uhrzeigersinn",
+        "gegenurzeigersinn",
         "verteilen",
-        "kartengeben"
+        "kartengeben",
+        "vorhand"
       ],
       "situations": [
         "LEARNING"
@@ -4465,8 +4709,16 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Jasskarten: Verteilung beim Jassen?",
+        "answer": "**Grundregeln der Kartenverteilung:**\n\nBeim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt."
+      },
+      {
         "question": "Wie viele Karten erhält jeder Spieler beim Jassen?",
         "answer": "Jeder Spieler erhält 9 Karten."
+      },
+      {
+        "question": "In welche Richtung werden die Karten beim Jassen verteilt?",
+        "answer": "Im Gegenurzeigersinn – das ist eine typisch schweizerische Eigenheit!"
       },
       {
         "question": "In welche Richtung werden die Karten verteilt?",
@@ -4488,7 +4740,7 @@
   },
   "general_dealing_basics": {
     "id": "general_dealing_basics",
-    "text": "Grundregeln für die Kartenverteilung:\n• Der Kartengeber ist für das Mischen (siehe Begriff \"mischen\") und Verteilen verantwortlich\n• Karten werden einzeln verteilt, nicht in Paketen\n• Verteilung erfolgt im Uhrzeigersinn, beginnend beim Spieler links vom Kartengeber",
+    "text": "**Grundregeln für die Kartenverteilung:**\n\n• Der Kartengeber ist für das Mischen (siehe Begriff \"mischen\") und Verteilen verantwortlich\n• Die Karten werden in der Regel 3×3 verteilt (dreimal drei Karten pro Spieler)\n• **Wichtig:** Die Verteilung erfolgt im **Gegenurzeigersinn**, beginnend beim Spieler **rechts** vom Kartengeber (Vorhand)\n• Das ist eine typisch schweizerische Eigenheit – in der übrigen Welt wird meist im Uhrzeigersinn gespielt\n• \"Immer der Ohrfeige nach\" ist der bekannte Spruch dazu",
     "metadata": {
       "id": "general_dealing_basics_meta",
       "category": {
@@ -4568,7 +4820,7 @@
   },
   "general_dealing_methods": {
     "id": "general_dealing_methods",
-    "text": "Übersicht:\nBeim Jassen gibt es verschiedene Methoden der Kartenverteilung, die je nach Region und Tischregel (siehe Begriff \"regeln_tischregel\") variieren können.\n\nMethoden:\n• Standardmethode: Karten einzeln im Uhrzeigersinn verteilen\n• Klassische Methode: Kartengeber beginnt links von sich\n• Moderne Variante: Kann je nach Tischregel abweichen",
+    "text": "**Schweizer Besonderheit: Gegenurzeigersinn**\n\nEine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:\n• Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer im **Gegenurzeigersinn** aus und spielen auch im Gegenurzeigersinn\n• \"Immer der Ohrfeige nach\", wie es so schön heisst – das gilt zumindest für die meisten Rechtshänder\n\n**Standard-Verteilmethode (3×3):**\n\nDie häufigste Methode beim Schieber:\n• Der Kartengeber verteilt jedem Spieler dreimal 3 Karten\n• Im Gegenurzeigersinn, beginnend rechts vom Geber (siehe Begriff \"expressions_vorhand\") (Vorhand)\n• Total: 9 Karten pro Spieler\n\n**Es gibt aber auch Ausnahmen. Zum Beispiel:**\n• Bei Varianten wie Tschau Sepp wird nicht das ganze Deck verteilt\n• Beim Bieter (siehe Begriff \"variants_strategic_bieter\"), wo nur zu Dritt gespielt wird und bei der ersten Runde 2×5 Karten ausgespielt werden pro Spieler\n• Beim Molotow (siehe Begriff \"variants_multi_player_molotow\"), wo meistens mehr als vier Spieler teilnehmen\n\nDie 3×3-Methode im Gegenurzeigersinn ist aber die klassische Schweizer Variante.",
     "metadata": {
       "id": "general_dealing_methods_meta",
       "category": {
@@ -4593,16 +4845,23 @@
     },
     "faqs": [
       {
-        "question": "Gibt es verschiedene Methoden, Karten zu verteilen?",
-        "answer": "Ja, es gibt verschiedene Methoden der Kartenverteilung, die je nach Region und Tischregel variieren können. Die Standardmethode ist einzeln im Uhrzeigersinn."
+        "question": "Wie werden Karten beim Jassen verteilt?",
+        "answer": "Die klassische Schweizer Methode ist 3×3 im Gegenurzeigersinn, beginnend rechts vom Geber (Vorhand). Der Kartengeber verteilt jedem Spieler dreimal 3 Karten."
       },
       {
-        "question": "Was ist die Standardmethode beim Kartenverteilen?",
-        "answer": "Die Standardmethode ist, Karten einzeln im Uhrzeigersinn zu verteilen, beginnend beim Spieler links vom Kartengeber."
+        "question": "Warum verteilt man beim Jassen im Gegenurzeigersinn?",
+        "answer": "Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer im Gegenurzeigersinn – \"Immer der Ohrfeige nach\"."
+      },
+      {
+        "question": "Gibt es Ausnahmen bei der Kartenverteilung?",
+        "answer": "Ja, bei Varianten wie Tschau Sepp, Bieter (2×5 Karten bei erster Runde) oder Molotow (mehr als 4 Spieler) wird anders verteilt."
       }
     ],
     "see_also": [
-      "regeln_tischregel"
+      "regeln_tischregel",
+      "mischen",
+      "abheben",
+      "variants_strategic_bieter"
     ]
   },
   "general_dealing_special": {
@@ -4676,6 +4935,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Jassen im europäischen Vergleich beim Jassen?",
+        "answer": "Europäische Einbettung:\nDer Jass ist Teil einer grösseren Familie europäischer Kartenspiele."
+      },
+      {
         "question": "Gibt es ähnliche Spiele wie Jass in anderen Ländern?",
         "answer": "Ja, verwandte Spiele sind Belote in Frankreich, Klaverjas in den Niederlanden und Briscola in Italien."
       },
@@ -4721,6 +4984,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Spielablauf im Überblick beim Jassen?",
+        "answer": "Grundkonzept:\nDer Jass ist ein Stichspiel für in der Regel vier Spieler, die in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander antreten."
+      },
       {
         "question": "Wie viele Spieler braucht man für Jass?",
         "answer": "Jass wird in der Regel mit vier Spielern gespielt, die in zwei Teams gegeneinander antreten."
@@ -4794,7 +5061,7 @@
   },
   "general_gameplay": {
     "id": "general_gameplay",
-    "text": "Grundregeln des Spielverlaufs:\n• Spieler müssen bedienen (siehe Begriff \"nichtfarben\"), wenn möglich\n• Trumpf (siehe Begriff \"bodentrumpf\") kann alle anderen Farben stechen\n• Wer den Stich gewinnt, spielt die nächste Karte aus\n• Nach neun Stichen ist die Runde vorbei\n\nPunktezählung:\n• Punkte werden gezählt: Kartenwerte, Weise, Match-Bonus",
+    "text": "Grundregeln des Spielverlaufs:\n• Spieler müssen bedienen (siehe Begriff \"nichtfarben\"), wenn möglich\n• Trumpf (siehe Begriff \"bodentrumpf\") kann alle anderen Farben stechen\n• Wer den Stich gewinnt, spielt die nächste Karte aus\n• Nach neun Stichen ist die Runde vorbei\n\nPunktezählung:\n• Punkte werden gezählt: Kartenwerte, Weise, Match-Bonus\n\n**Spielverlauf: Grundlagen**\n\nDer Spielverlauf beim Jassen folgt klaren Grundregeln, die für alle Varianten gelten:\n\n**Spielreihenfolge:**\n• Im Gegenurzeigersinn (Schweizer Besonderheit)\n• Vorhand (rechts vom Geber) spielt aus\n• Wer den Stich gewinnt, spielt die nächste Karte aus\n\n**Farbzwang (Bedienen):**\n• Spieler müssen die ausgespielte Farbe bedienen, wenn möglich\n• Kann nicht bedient werden, darf eine beliebige Karte gespielt werden\n\n**Stiche:**\n• Jede Runde besteht aus 9 Stichen (4 Karten pro Stich)\n• Der höchste Trumpf oder die höchste Karte der ausgespielten Farbe gewinnt\n• Trumpf sticht alle anderen Farben\n\n**Punktezählung:**\n• Nach 9 Stichen werden die Punkte gezählt\n• Punkte ergeben sich aus: Kartenwerten, Weisen, Matsch-Bonus und dem letzten Stich\n• Das Team mit mehr Punkten gewinnt die Runde\n\nDiese Grundlagen des Spielverlaufs bilden das Fundament für alle Jass-Varianten.",
     "metadata": {
       "id": "general_gameplay_meta",
       "category": {
@@ -4839,7 +5106,9 @@
     "see_also": [
       "bodentrumpf",
       "expressions_stoeck_weis_stich",
-      "nichtfarben"
+      "nichtfarben",
+      "expressions_vorhand",
+      "letzter_stich"
     ]
   },
   "general_geography": {
@@ -4871,6 +5140,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Regionale Eigenheiten beim Jassen?",
+        "answer": "Geografische Verbreitung:\nDer Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben."
+      },
       {
         "question": "Wo wird Jass in der Schweiz gespielt?",
         "answer": "Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten entwickelt haben."
@@ -4938,6 +5211,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Jass-Regionen beim Jassen?",
+        "answer": "Übersicht:\nDer Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind."
+      },
+      {
         "question": "Was versteht man unter dem Jass-Röschtigraben?",
         "answer": "Der Jass-Röschtigraben bezeichnet die geografische Grenze entlang der Brünig-Napf-Reuss-Linie, die die Verwendung von französischen Karten (westlich) und Deutschschweizer Karten (östlich) trennt."
       },
@@ -4996,6 +5273,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Jassen lernen und verstehen beim Jassen?",
+        "answer": "Was ist Jass? Der Jass ist das beliebteste Kartenspiel der Schweiz und gilt als inoffizielles Nationalspiel."
+      },
+      {
         "question": "Was ist Jass?",
         "answer": "Der Jass ist das beliebteste Kartenspiel der Schweiz und gilt als inoffizielles Nationalspiel."
       },
@@ -5015,7 +5296,7 @@
   },
   "general_materials": {
     "id": "general_materials",
-    "text": "Benötigtes Material:\nFür das Jassen wird grundsätzlich nur wenig Material benötigt.\n\nGrundausstattung:\n• **Jasskarten:** Ein Set von 36 Karten in vier Farben (siehe Begriff \"expressions_kartenfarben\"), entweder mit Schweizer oder französischen Symbolen\n• **Schreibzeug:** Papier und Stift zum Notieren der Punkte  (siehe Schreiben (siehe Begriff \"schreiben\"))\n• **Optional - Jasstafel:** Traditionelle oder digitale Tafel (siehe Begriff \"jassapps_jasstafel_pro\") zur Punktenotierung\n\nModerne Alternativen:\n• **Apps:** Digitale Jass-Apps ersetzen Karten und Punktetafel\n• **Online-Plattformen:** Ermöglichen das Spielen ohne physisches Material\n\nTraditionelle Accessoires:\nIn manchen Regionen werden zusätzliche traditionelle Elemente wie besondere Jasstische oder spezielle Kartenhalter verwendet.",
+    "text": "Benötigtes Material:\nFür das Jassen wird grundsätzlich nur wenig Material benötigt.\n\nGrundausstattung:\n• **Jasskarten:** Ein Set von 36 Karten in vier Farben (siehe Begriff \"expressions_kartenfarben\"), entweder mit Schweizer oder französischen Symbolen\n• **Schreibzeug:** Papier und Stift zum Notieren der Punkte  (siehe Schreiben (siehe Begriff \"schreiben\"))\n• **Optional - Jasstafel:** Traditionelle oder digitale Tafel (siehe Begriff \"jassapps_jasstafel_pro\") zur Punktenotierung\n\nModerne Alternativen:\n• **Apps:** Digitale Jass-Apps ersetzen Karten und Punktetafel\n• **Online-Plattformen:** Ermöglichen das Spielen ohne physisches Material\n\nTraditionelle Accessoires:\nIn manchen Regionen werden zusätzliche traditionelle Elemente wie besondere Jasstische oder spezielle Kartenhalter verwendet.\n\n**Das Kartenset**\n\nEin vollständiges Jass-Kartenset besteht aus 36 Karten.\n\n**Aufbau des Kartensets:**\n• 4 Farben (Eicheln, Rosen, Schilten, Schellen bei deutschen Karten)\n• 9 Karten pro Farbe (As, König, Ober, Under, Banner, 9, 8, 7, 6)\n• Total: 36 Jasskarten\n\n**Varianten des Kartensets:**\n• **Deutschschweizer Karten:** Deutschschweizer Symbole (Eicheln, Rosen, Schilten, Schellen)\n• **Französische Karten:** Internationale Symbole (Karo, Herz, Pik, Kreuz)\n\n**Qualität und Hersteller:**\nIn der Schweiz werden hochwertige Kartensets von Traditionsherstellern wie AG Müller (gehört zu Carta Mundi aus Belgien) produziert. Die meisten Jasskarten werden daher in Belgien hergestellt. Eine erfreuliche Ausnahme bildet \"Schweizer Jass\" (https://schweizerjass.ch/), die ihre Jasskarten noch in der Schweiz drucken.\n\nProfessionelle Kartensets sind aus stabilem Karton und haben eine spezielle Beschichtung für lange Haltbarkeit.\n\n**Zusätzliches Material:**\n• Schreibzeug/Kreidetafel oder Jassapps wie jassguru.ch für Punktenotierung\n• Jassteppich\n\nDas Kartenset ist in fast jedem Schweizer Haushalt zu finden und ist ein Symbol der Jasskultur.",
     "metadata": {
       "id": "general_materials_meta",
       "category": {
@@ -5042,6 +5323,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Das Kartenset beim Jassen?",
+        "answer": "Benötigtes Material:\nFür das Jassen wird grundsätzlich nur wenig Material benötigt."
+      },
+      {
         "question": "Was braucht man zum Jassen?",
         "answer": "Man braucht ein Set von 36 Jasskarten und Schreibzeug zum Notieren der Punkte, optional eine Jasstafel."
       },
@@ -5058,7 +5343,11 @@
       "expressions_kartenfarben",
       "general_scoring_rules",
       "jassapps_jasstafel",
-      "schreiben"
+      "schreiben",
+      "expressions_eichel",
+      "expressions_rose",
+      "expressions_schilte",
+      "expressions_schelle"
     ]
   },
   "general_most_important_rules": {
@@ -5091,6 +5380,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Drei eiserne Regeln beim Jassen?",
+        "answer": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels."
+      },
       {
         "question": "Was sind die wichtigsten Jass-Regeln?",
         "answer": "Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt. Kann man nicht bedienen, muss man Trumpf spielen. Hat ein Mitspieler bereits gettrumpft, muss man wenn möglich höher trumpfen."
@@ -5139,6 +5432,10 @@
     },
     "faqs": [
       {
+        "question": "Was bedeutet Zentrale Begriffe beim Jassen?",
+        "answer": "Einführung ins Jasswiki:\nDiese Plattform bietet umfassende Informationen zum Jass, von den Grundlagen bis zu fortgeschrittenen Strategien."
+      },
+      {
         "question": "Was bietet das Jasswiki?",
         "answer": "Das Jasswiki bietet umfassende Informationen zum Jass, von Grundlagen über Varianten und Taktiken bis zu Kultur und digitalen Apps."
       },
@@ -5183,6 +5480,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Spielfehler: Übersicht beim Jassen?",
+        "answer": "Übersicht:\nBeim Jassen können verschiedene Spielfehler auftreten, die unterschiedliche Konsequenzen haben."
+      },
+      {
         "question": "Was passiert, wenn man zwei Karten gleichzeitig spielt?",
         "answer": "Beide Karten verlieren ihren Stechwert und der Gegner wählt aus, welche Karte gezählt wird."
       },
@@ -5208,7 +5509,7 @@
   },
   "general_schieber": {
     "id": "general_schieber",
-    "text": "Definition:\nDer Schieber ist die mit Abstand beliebteste und verbreitetste Jassvariante in der Schweiz. Anders als beim Einzelspiel (z. B. Differenzler) ist der Schieber ein echter Teamsport. Gespielt wird zu viert, wobei sich je zwei Partner kreuzweise gegenübersitzen und eine feste Partei bilden.\n\nDie Philosophie der 18 Karten:\n• Ein Jasser spielt metaphorisch nicht nur mit seinen eigenen 9 Karten, sondern stets mit 18 Karten\n• Die 9 Karten in der eigenen Hand und die 9 Karten des Partners bilden eine Einheit\n• Das blinde Verständnis zwischen den Partnern ist entscheidend\n• Das Antizipieren der Partnerzüge macht die Faszination dieser Variante aus\n• Gemeinsames Taktieren und strategisches Zusammenspiel sind der Schlüssel zum Erfolg\n\nSpielprinzip:\n• Ziel ist es, gemeinsam mit dem Partner möglichst viele Punkte zu erzielen\n• Der Vorhandspieler (siehe Begriff \"vorhand\") kann eine Trumpffarbe (siehe Begriff \"bodentrumpf\") bestimmen\n• Falls keine vernünftige Trumpffarbe möglich ist, kann er die Entscheidung zu seinem Partner \"schieben\"\n• Daher der Name \"Schieber\" – das Weitergeben der Verantwortung\n• Dieses Element des Vertrauens und der gemeinsamen Verantwortung unterscheidet den Schieber von allen anderen Varianten\n\nBesonderheiten:\n• Der Schieber ist die am weitesten verbreitete Jassvariante\n• Er wird sowohl in der Freizeit als auch bei Turnieren gespielt\n• Die Regeln sind standardisiert und in der ganzen Schweiz einheitlich\n• Team-Dynamik und Kommunikation (ohne Worte) sind zentral",
+    "text": "Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, bei dem sich zwei Partner gegenübersitzen und gemeinsam gegen das andere Team spielen. Der Name stammt von der Möglichkeit, die Trumpfwahl zum Partner zu «schieben».\n\nAuf einen Blick:\n• Spieleranzahl: 4 (2 Teams à 2 Spieler)\n• Karten: 36 Schweizer Jasskarten\n• Punkte pro Runde: 157 (inkl. 5 für letzten Stich)\n• Spielziel: Als Team mehr Punkte sammeln als die Gegner\n• Besonderheit: Trumpfwahl kann zum Partner «geschoben» werden\n• Schwierigkeit: Einfach zu lernen, schwer zu meistern\n• Verbreitung: Häufigste Variante in der Schweiz\n\nDie Philosophie der 18 Karten:\nEin erfahrener Schieber-Spieler denkt nicht nur an seine 9 Handkarten, sondern stets an 18 Karten – die eigenen und die des Partners. Dieses «blinde Verständnis» zwischen den Partnern macht den Schieber einzigartig. Man antizipiert die Züge des Partners, schmiert (siehe Begriff \"schmieren\") ihm Punkte zu und spielt strategisch zusammen.\n\nSpielprinzip:\n• Der Vorhandspieler (siehe Begriff \"vorhand\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»\n• Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen\n• Weis (siehe Begriff \"weis\") und Stöck (siehe Begriff \"stoecke\") bringen Zusatzpunkte\n\nWarum der Schieber so beliebt ist:\nDer Schieber verbindet Strategie, Teamwork und Spannung wie keine andere Jassvariante. Er ist einfach genug für Einsteiger, bietet aber genug taktische Tiefe für Experten. In der ganzen Schweiz gelten einheitliche Regeln, was Turniere und Jassrunden überall möglich macht.",
     "metadata": {
       "id": "general_schieber_meta",
       "category": {
@@ -5256,11 +5557,19 @@
     ],
     "faqs": [
       {
+        "question": "Wie geht Schieber?",
+        "answer": "Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann spielen alle Stiche; das Team mit mehr Punkten (max. 157 pro Runde) gewinnt. Ziel ist gemeinsames Stechen und Punkte sammeln mit dem Partner."
+      },
+      {
+        "question": "Wie spielt man Schieber?",
+        "answer": "Man braucht vier Spieler und 36 Schweizer Jasskarten. Zwei Partner sitzen sich gegenüber. Vorhand bestimmt die Trumpffarbe oder gibt die Wahl an den Partner ab (daher «Schieber»). Gespielt wird wie beim normalen Jass: Farben bedienen, Trumpf sticht, 157 Punkte pro Runde. Das Team mit den meisten Punkten gewinnt die Runde."
+      },
+      {
         "question": "Was ist der Schieber?",
         "answer": "Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, wobei sich je zwei Partner gegenübersitzen."
       },
       {
-        "question": "Warum heißt der Schieber 'Schieber'?",
+        "question": "Warum heisst der Schieber 'Schieber'?",
         "answer": "Der Name kommt daher, dass der Vorhandspieler die Trumpfwahl zu seinem Partner 'schieben' kann, wenn er selbst keine gute Trumpffarbe hat."
       },
       {
@@ -5313,6 +5622,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Wichtige Punkteregeln beim Jassen?",
+        "answer": "Grundkonzept:\nBeim Jassen gibt es wichtige Punkteregeln, die das Zählen und Stechen betreffen."
+      },
       {
         "question": "Wie viele Punkte zählt der letzte Stich?",
         "answer": "Der letzte Stich zählt zusätzlich 5 Punkte (ausser bei Cinq Cents und Doppelkart)."
@@ -5436,6 +5749,10 @@
     ],
     "faqs": [
       {
+        "question": "Wie funktioniert Trumpfwerte: Grundlagen beim Jassen?",
+        "answer": "Grundregel:\nIm Trumpf-Spiel (siehe Begriff \"bodentrumpf\") gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel."
+      },
+      {
         "question": "Wie viele Punkte ist der Trumpf-Puur wert?",
         "answer": "Der Trumpf-Puur (Under der Trumpffarbe) zählt 20 Punkte und ist die höchste Trumpfkarte."
       },
@@ -5483,6 +5800,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was bedeutet Vielfalt der Spielvarianten beim Jassen?",
+        "answer": "Variantenvielfalt:\nDer Jass zeichnet sich durch eine bemerkenswerte Vielfalt an Spielvarianten aus."
+      },
       {
         "question": "Welche Jassvarianten gibt es (Index)?",
         "answer": "Klassisch: Schieber, Coiffeur, Differenzler. Strategisch: Bieter, Pandur, Molotow. Spezial: Hindersi, Obeabe, Undenufe, Slalom. Familie/Lernen: Aucho, Tschau Sepp, Guggitaler. (Siehe Detailartikel.)"
@@ -5660,6 +5981,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Etymologie des Begriffs Matsch?",
+        "answer": "In Deutschschweizer Kartenspielen bedeutet en Matsch mache alle Stiche eines Spiels zu machen."
+      },
+      {
         "question": "Was bedeutet «en Matsch mache» beim Jassen?",
         "answer": "In Deutschschweizer Kartenspielen bedeutet «en Matsch mache», alle Stiche eines Spiels zu machen. Beim Schieber gibt es dafür üblicherweise einen Bonus von 100 Punkten (ausser an Turnieren)."
       },
@@ -5708,6 +6033,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Die erste urkundliche Erwähnung?",
+        "answer": "Historischer Kontext:\nDie erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz."
+      },
+      {
         "question": "Wann wurde der Jass erstmals schriftlich erwähnt?",
         "answer": "Die erste bekannte schriftliche Erwähnung stammt aus dem Jahr 1796 in der Schweiz."
       },
@@ -5719,6 +6048,11 @@
         "question": "Warum ist das Jahr 1796 wichtig für die Jassgeschichte?",
         "answer": "Es markiert den ersten dokumentierten Beleg für das Jassen in der Schweiz und ist somit ein wichtiger Meilenstein in der Geschichte des Spiels."
       }
+    ],
+    "see_also": [
+      "history_origin",
+      "history_medieval",
+      "history_ramstein_reglement"
     ]
   },
   "history_industrialization": {
@@ -5754,6 +6088,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Vom Luxusgut zur Massenware?",
+        "answer": "Historischer Wendepunkt:\nDie Industrialisierung im 19. Jahrhundert hatte einen massiven Einfluss auf die Verbreitung des Jass in der Schweiz."
+      },
+      {
         "question": "Wie beeinflusste die Industrialisierung den Jass?",
         "answer": "Die Industrialisierung führte zur Urbanisierung, wodurch Menschen das Spiel in die Städte brachten und es sich über regionale Grenzen hinweg ausbreitete."
       },
@@ -5765,6 +6103,11 @@
         "question": "Welche soziale Bedeutung hatte die Industrialisierung für den Jass?",
         "answer": "Der Jass entwickelte sich vom regionalen Zeitvertreib zu einem schweizweiten Kulturgut, das alle Gesellschaftsschichten verband."
       }
+    ],
+    "see_also": [
+      "history_origin",
+      "history_medieval",
+      "general_materials"
     ]
   },
   "history_linguistics": {
@@ -5799,6 +6142,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Die Sprache rund um den Jasstisch?",
+        "answer": "Sprachliche Vielfalt:\nDie Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt."
+      },
       {
         "question": "Welche Sprachen haben die Jass-Terminologie beeinflusst?",
         "answer": "Die Jass-Terminologie wurde hauptsächlich von Schweizerdeutsch und Französisch geprägt, mit vielen regionalen Dialektvarianten."
@@ -5851,6 +6198,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Frühe Spielkarten in Europa?",
+        "answer": "Historische Einordnung:\nDie Wurzeln des Jass lassen sich möglicherweise bis ins Mittelalter zurückverfolgen."
+      },
+      {
         "question": "Gibt es mittelalterliche Wurzeln des Jass?",
         "answer": "Die Wurzeln lassen sich möglicherweise bis ins Mittelalter zurückverfolgen, aber die genaue Verbindung bleibt spekulativ."
       },
@@ -5862,6 +6213,11 @@
         "question": "Wie entwickelte sich der Jass aus mittelalterlichen Spielen?",
         "answer": "Es wird vermutet, dass frühe europäische Kartenspiele die Grundlage bildeten und sich im Alpenraum eigenständige Spieltraditionen entwickelten, aber eindeutige historische Belege fehlen."
       }
+    ],
+    "see_also": [
+      "history_origin",
+      "history_first_mention",
+      "history_industrialization"
     ]
   },
   "history_origin": {
@@ -5898,6 +6254,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Woher kommen Spielkarten??",
+        "answer": "Geografische Verortung:\nDer Ursprung des Jass liegt in den Niederlanden. Von dort aus verbreitete sich das Spiel zunächst nach Frankreich und gelangte schliesslich in die Schweiz."
+      },
+      {
         "question": "Wo hat der Jass seinen Ursprung?",
         "answer": "Der Jass hat seinen Ursprung in den Niederlanden und verbreitete sich von dort nach Frankreich und schliesslich in die Schweiz."
       },
@@ -5909,6 +6269,11 @@
         "question": "Wie wurde der Jass zum Schweizer Nationalspiel?",
         "answer": "In der Schweiz entwickelte sich das Spiel zu einer eigenständigen Tradition mit zahlreichen regionalen Varianten und wurde zu einem wichtigen Bestandteil der Schweizer Identität."
       }
+    ],
+    "see_also": [
+      "history_medieval",
+      "history_first_mention",
+      "general_culture"
     ]
   },
   "history_ramstein_reglement": {
@@ -5964,11 +6329,16 @@
         "question": "Welche Grundsätze wurden im ersten Jassreglement festgehalten?",
         "answer": "Die vier Grundsätze waren: 1) Jass unter Freunden ohne Streit und ohne Worte, die das Spiel verraten, 2) Stillschweigen für Zuschauer, 3) Anstand beim Spiel (nicht in Nachbars Karten schauen), 4) Verbot, Karten der Gegenpartei nachzusehen."
       }
+    ],
+    "see_also": [
+      "history_first_mention",
+      "history_origin",
+      "regeln_tischregel"
     ]
   },
   "history_social_significance": {
     "id": "history_social_significance",
-    "text": "Gesellschaftliche Rolle:\nDer Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.\n\nSoziale Funktionen:\n• **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben\n• **Gemeinschaftsfördernd:** Jassen schafft soziale Bindungen und fördert den Austausch in Vereinen, Gasthäusern und privaten Runden\n• **Identitätsstiftend:** Der Jass ist ein Symbol der Schweizer Identität und wird als Teil des immateriellen Kulturerbes geschätzt\n\nModerne Bedeutung:\nAuch im digitalen Zeitalter behält der Jass seine Relevanz durch Apps und Online-Plattformen, die das traditionelle Spiel mit moderner Technologie verbinden.",
+    "text": "Gesellschaftliche Rolle:\nDer Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.\n\nSoziale Funktionen:\n• **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben\n• **Gemeinschaftsfördernd:** Jassen schafft soziale Bindungen und fördert den Austausch in Vereinen, Gasthäusern und privaten Runden\n• **Identitätsstiftend:** Der Jass ist ein Symbol der Schweizer Identität und wird als Teil des immateriellen Kulturerbes geschätzt\n\nModerne Bedeutung:\nAuch im digitalen Zeitalter behält der Jass seine Relevanz durch Apps und Online-Plattformen, die das traditionelle Spiel mit moderner Technologie verbinden.\n\n**Historischer Kontext:**\nDie Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Wie die \"Lebendigen Traditionen\" bestätigen, fördert das Jassen den Zusammenhalt über Generationen hinweg und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.\n\n**Regionale Besonderheiten:**\nWährend der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede (\"Jassgraben\"). In der Deutschschweiz dominiert der Schieber mit deutschen Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.",
     "metadata": {
       "id": "history_social_significance_meta",
       "category": {
@@ -5992,6 +6362,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Verbreitung und gesellschaftliche Bedeutung?",
+        "answer": "Gesellschaftliche Rolle:\nDer Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur."
+      },
+      {
         "question": "Welche soziale Bedeutung hat der Jass in der Schweiz?",
         "answer": "Der Jass verbindet Generationen, fördert Gemeinschaft in Vereinen und Gasthäusern und ist ein Symbol der Schweizer Identität."
       },
@@ -6003,6 +6377,11 @@
         "question": "Hat der Jass auch im digitalen Zeitalter noch Bedeutung?",
         "answer": "Ja, durch Apps und Online-Plattformen behält der Jass seine Relevanz und verbindet traditionelles Spiel mit moderner Technologie."
       }
+    ],
+    "see_also": [
+      "history_industrialization",
+      "schieber",
+      "history_etymology_matsch"
     ]
   },
   "history_swiss_production": {
@@ -6036,6 +6415,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Schweizer Kartenmacher?",
+        "answer": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition. Historische Entwicklung:\n**19."
+      },
       {
         "question": "Wann begann die industrielle Kartenproduktion in der Schweiz?",
         "answer": "Die industrielle Kartenproduktion begann im 19. Jahrhundert in Schweizer Manufakturen."
@@ -6135,6 +6518,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist UNESCO-Übereinkommen?",
+        "answer": "Das UNESCO-Übereinkommen zur Bewahrung des immateriellen Kulturerbes:\nDas Übereinkommen zur Bewahrung des immateriellen Kulturerbes wurde am 17."
+      },
+      {
         "question": "Was ist das UNESCO-Übereinkommen zur Bewahrung des immateriellen Kulturerbes?",
         "answer": "Es ist ein internationales Übereinkommen, das 2003 verabschiedet wurde und 2006 in Kraft trat. Es schafft einen Rahmen für den Schutz und die Förderung von immateriellem Kulturerbe wie Traditionen, Bräuchen, Handwerkstechniken und gesellschaftlichen Praktiken. Es bildet die Grundlage für die «Liste der lebendigen Traditionen in der Schweiz», auf der auch das Jassen aufgeführt ist."
       },
@@ -6183,6 +6570,10 @@
     "faqs": [
       {
         "question": "Was ist Jass24?",
+        "answer": "Plattform-Überblick:\nJass24 ist eine Online-Plattform zum Jassen im Internet."
+      },
+      {
+        "question": "Was ist Jass24?",
         "answer": "Jass24 ist eine Online-Plattform zum Jassen im Internet, die verschiedene Jassvarianten unterstützt."
       },
       {
@@ -6193,6 +6584,11 @@
         "question": "Muss man Jass24 installieren?",
         "answer": "Nein, Jass24 ist browserbasiert und erfordert keine Installation."
       }
+    ],
+    "see_also": [
+      "jassapps_jasspro",
+      "jassapps_swissjass",
+      "variants_family_coiffeur_schieber"
     ]
   },
   "jassapps_jassch": {
@@ -6222,6 +6618,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Jass.ch (Swisslos)?",
+        "answer": "App-Überblick:\nJassch ist eine mobile Jass-App für iOS und Android."
+      },
       {
         "question": "Was ist Jassch?",
         "answer": "Jassch ist eine mobile Jass-App für iOS und Android, die sowohl Offline- als auch Online-Spiel ermöglicht."
@@ -6270,6 +6670,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist jassguru.ch?",
+        "answer": "App-Überblick:\nJassguru.ch ist eine digitale Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\") als Progressive Web App (PWA) zur Punktezählung beim Jassen."
+      },
       {
         "question": "Was ist Jassguru.ch?",
         "answer": "Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen."
@@ -6324,6 +6728,10 @@
     "faqs": [
       {
         "question": "Was ist JassPro?",
+        "answer": "App-Überblick:\nJassPro ist eine professionelle Jass-App für anspruchsvolle Spieler."
+      },
+      {
+        "question": "Was ist JassPro?",
         "answer": "JassPro ist eine professionelle Jass-App für anspruchsvolle Spieler mit erweiterten Funktionen wie Statistiken und Online-Turnieren."
       },
       {
@@ -6334,6 +6742,11 @@
         "question": "Welche Besonderheiten bietet JassPro?",
         "answer": "JassPro bietet detaillierte Statistiken, Online-Turniere, zahlreiche Jassvarianten (auch Spezialvarianten) und umfangreiche Anpassungsmöglichkeiten."
       }
+    ],
+    "see_also": [
+      "jassapps_jass24",
+      "jassapps_swissjass",
+      "variants_family_coiffeur_schieber"
     ]
   },
   "jassapps_jasstafel": {
@@ -6364,6 +6777,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Jasstafel?",
+        "answer": "App-Überblick:\nJasstafel ist eine digitale App zum Notieren (siehe Begriff \"schreiben\") der Punkte beim Jassen."
+      },
       {
         "question": "Was ist Jasstafel?",
         "answer": "Jasstafel ist eine digitale App zum Notieren der Punkte beim Jassen, die Papier und Stift ersetzt."
@@ -6408,6 +6825,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Jasstafel Pro?",
+        "answer": "App-Überblick:\nJasstafel Pro ist die erweiterte Version der Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\")-App mit zusätzlichen professionellen Funktionen."
+      },
       {
         "question": "Was ist der Unterschied zwischen Jasstafel und Jasstafel Pro?",
         "answer": "Jasstafel Pro bietet erweiterte Funktionen wie detaillierte Statistiken, Match-Historie, Export-Funktionen und einen Turniermodus."
@@ -6454,6 +6875,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Was ist Jassapps Generelles?",
+        "answer": "Digitale Jass-Landschaft:\nDie Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebracht."
+      },
       {
         "question": "Welche Arten von Jass-Apps gibt es?",
         "answer": "Es gibt Spiel-Apps zum aktiven Jassen, Notier-Apps für Punktetafeln und Online-Plattformen."
@@ -6503,6 +6928,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist SwissJass+?",
+        "answer": "App-Überblick:\nSwissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis."
+      },
+      {
         "question": "Was ist Swissjass?",
         "answer": "Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis und traditionellem Design."
       },
@@ -6514,6 +6943,11 @@
         "question": "Kann man mit Swissjass online spielen?",
         "answer": "Ja, Swissjass bietet sowohl Online-Spiel gegen andere Spieler als auch Offline-Spiel gegen Computer."
       }
+    ],
+    "see_also": [
+      "jassapps_jass24",
+      "jassapps_jasspro",
+      "variants_family_coiffeur_schieber"
     ]
   },
   "karte_faellt_runter": {
@@ -6544,6 +6978,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Karte fällt runter beim Jassen?",
+        "answer": "Karte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird."
+      },
       {
         "question": "Was passiert, wenn eine Karte runterfällt?",
         "answer": "Die Gegner entscheiden, ob das Spiel normal fortgesetzt wird, annulliert wird oder der Stich an sie geht. In jedem Fall verliert die Karte ihren Stechwert."
@@ -6694,7 +7132,11 @@
         "answer": "Derselbe Spielgeber verteilt die Karten erneut, nachdem das Kartenspiel ersetzt wurde."
       }
     ],
-    "see_also": []
+    "see_also": [
+      "fehlende_karte",
+      "regeln_tischregel",
+      "mischen"
+    ]
   },
   "klopfen": {
     "id": "klopfen",
@@ -6769,20 +7211,24 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Kontermatsch beim Jassen?",
+        "answer": "Kontermatsch ist ein Matsch, bei dem das nicht trumpfmachende Team (siehe Begriff \"expressions_team\") sämtliche Stiche erzielt."
+      },
+      {
         "question": "Was ist ein Kontermatsch?",
-        "answer": "Ein Kontermatsch ist ein Matsch, bei dem das nicht trumpfmachende Team sämtliche Stiche erzielt."
+        "answer": "Ein Kontermatsch ist ein Matsch, bei dem das nicht trumpfmachende Team alle Stiche erzielt."
       },
       {
-        "question": "Wie viele Punkte zählt ein Kontermatsch?",
-        "answer": "Ein Kontermatsch wird gleich wie Matsch mit 257 Punkten gewertet."
+        "question": "Wie viele Striche gibt ein Kontermatsch?",
+        "answer": "Ein Kontermatsch gibt 2 Striche."
       },
       {
-        "question": "Wie viele Striche gibt es für einen Kontermatsch?",
-        "answer": "Da es sich um ein ausserordentliches Ereignis handelt, wird der Kontermatsch mit 2 Strichen belohnt."
+        "question": "Wie viele Punkte gibt ein Kontermatsch?",
+        "answer": "Ein Kontermatsch wird wie ein Matsch mit 257 Punkten gewertet."
       },
       {
-        "question": "Was ist der Unterschied zwischen Matsch und Kontermatsch?",
-        "answer": "Beim Matsch erzielt das trumpfmachende Team alle Stiche, beim Kontermatsch erzielt das nicht trumpfmachende Team alle Stiche."
+        "question": "Warum gibt Kontermatsch mehr Striche als Matsch?",
+        "answer": "Weil es ein ausserordentliches Ereignis ist – das nicht trumpfmachende Team schafft es, alle Stiche zu machen."
       }
     ],
     "see_also": [
@@ -6815,6 +7261,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Letzter Stich beim Jassen?",
+        "answer": "Regel:\nDer letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Ausnahmen:\nBei Cinq Cents\nBei Doppelkart-Spielen"
+      },
       {
         "question": "Wie viele Punkte zählt der letzte Stich?",
         "answer": "Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte."
@@ -6856,6 +7306,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Liegengelassene Stiche beim Jassen?",
+        "answer": "Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden."
+      },
+      {
         "question": "Was sind liegengelassene Stiche?",
         "answer": "Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden."
       },
@@ -6874,7 +7328,7 @@
   },
   "matsch": {
     "id": "matsch",
-    "text": "Definition:\n• Ein Matsch wird erzielt, wer bei einer Runde alle neun Stiche erzielt. Wer sich während einer laufenden Runde bedankt (siehe Begriff \"bedanken\"), kann keinen Matsch mehr erzielen.",
+    "text": "Die verschiedenen Spielmodi beim Schieber unterscheiden sich in ihrer Kartenbewertung:\n\n**Obenabe:**\n• Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte\n\n**Undenufe:**\n• Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte\n\n**Slalom:**\n• Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**Quer/Guschti:**\n• Wie beim Slalom zählen beim Quer entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**3x3/Trio:**\n• Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte\n• Ob die Asse oder Sechser 11 Punkte zählen je nachdem wo begonnen wird, wird bei unterschiedlichen Jassgruppen anders ausgelegt\n• Die Autoren von Jasswiki bevorzugen die Variante, dass nur die Asse 11 Punkte geben – unabhängig davon, ob Obe oder Unde begonnen wird",
     "metadata": {
       "id": "matsch_meta",
       "category": {
@@ -6883,11 +7337,16 @@
         "topic": "Schieber-Varianten"
       },
       "keywords": [
-        "matsch",
-        "stiche",
-        "runde",
-        "9 stiche",
-        "bedanken"
+        "schieber",
+        "varianten",
+        "obenabe",
+        "undenufe",
+        "slalom",
+        "quer",
+        "guschti",
+        "trio",
+        "3x3",
+        "punktezählung"
       ],
       "situations": [
         "LEARNING"
@@ -6898,20 +7357,30 @@
     },
     "faqs": [
       {
-        "question": "Was ist ein Matsch?",
-        "answer": "Ein Matsch wird erzielt, wer bei einer Runde alle 9 Stiche erzielt."
+        "question": "Wie werden Punkte beim Obenabe gezählt?",
+        "answer": "Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte."
       },
       {
-        "question": "Wie viele Stiche braucht man für einen Matsch?",
-        "answer": "Für einen Matsch müssen alle 9 Stiche einer Runde erzielt werden."
+        "question": "Wie werden Punkte beim Undenufe gezählt?",
+        "answer": "Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte."
       },
       {
-        "question": "Kann man nach dem Bedanken noch einen Matsch erzielen?",
-        "answer": "Nein, wer sich während einer laufenden Runde bedankt, kann keinen Matsch mehr erzielen."
+        "question": "Was gilt beim Slalom?",
+        "answer": "Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte."
+      },
+      {
+        "question": "Wie unterscheidet sich die Punktezählung beim Trio?",
+        "answer": "Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte. Bei der Wertung von Assen bzw. Sechsern bevorzugen die Autoren von Jasswiki, dass nur die Asse 11 Punkte geben – unabhängig vom Startmodus."
       }
     ],
     "see_also": [
-      "bedanken"
+      "expressions_obenabe",
+      "expressions_undenufe",
+      "expressions_slalom",
+      "expressions_trio",
+      "expressions_guschti",
+      "trumpf_bauer",
+      "expressions_nell"
     ]
   },
   "mischen": {
@@ -6941,6 +7410,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Mischen beim Jassen?",
+        "answer": "Grundregel:\nVor jeder Runde müssen die Karten gründlich gemischt werden."
+      },
+      {
         "question": "Wer ist für das Mischen verantwortlich?",
         "answer": "Der Spielgeber ist für das Mischen verantwortlich."
       },
@@ -6958,7 +7431,9 @@
       }
     ],
     "see_also": [
-      "abheben"
+      "abheben",
+      "general_dealing",
+      "spiel_geben"
     ]
   },
   "nachschauen_gekehrter_stiche": {
@@ -7066,6 +7541,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Nichtfarben beim Jassen?",
+        "answer": "Grundregel:\nWer Karten der ausgespielten Farbe besitzt, muss diese bekennen."
+      },
+      {
         "question": "Was bedeutet Nichtfarben?",
         "answer": "Nichtfarben bedeutet, dass ein Spieler die ausgespielte Farbe nicht bedient, obwohl er sie noch besitzt. Mit einer Trumpfkarte darf die ausgespielte Farbe immer abgestochen werden, ausser bei Untertrumpfen."
       },
@@ -7126,6 +7605,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Plätze tauschen beim Jassen?",
+        "answer": "Regel:\nWährend einer laufenden Partie (siehe Begriff \"expressions_partie\") ist Platztausch nicht erlaubt."
+      },
+      {
         "question": "Darf man während einer Partie die Plätze tauschen?",
         "answer": "Nein, während einer laufenden Partie ist Platztausch nicht erlaubt."
       },
@@ -7167,6 +7650,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Offizielles Regelwerk beim Jassen?",
+        "answer": "Übersicht:\nBeim Jassen existieren verschiedene offizielle Regelwerke, die je nach Kontext und Region unterschiedlich angewendet werden."
+      },
       {
         "question": "Gibt es ein offizielles Jass-Regelwerk?",
         "answer": "Ja, es existieren verschiedene offizielle Regelwerke für das Jassen, die je nach Kontext und Region unterschiedlich angewendet werden."
@@ -7210,6 +7697,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Tischregel beim Jassen?",
+        "answer": "Wenn sich Jasser an einen Tisch setzen, können sie für ihre Runde spezielle Vereinbarungen treffen. Solche individuellen Abmachungen werden als Tischregeln bezeichnet."
+      },
+      {
         "question": "Was sind Tischregeln beim Jassen?",
         "answer": "Tischregeln sind spezielle Vereinbarungen, die Jasser für ihre Runde treffen können. Sie sind individuelle Abmachungen für den jeweiligen Tisch."
       },
@@ -7221,6 +7712,11 @@
         "question": "Wann werden Tischregeln vereinbart?",
         "answer": "Tischregeln werden vereinbart, wenn sich Jasser an einen Tisch setzen, bevor das Spiel beginnt."
       }
+    ],
+    "see_also": [
+      "ausmachregel",
+      "spielverrat",
+      "bedanken"
     ]
   },
   "regeln_verschlagen": {
@@ -7400,6 +7896,10 @@
     },
     "faqs": [
       {
+        "question": "Wie wendet man Fortgeschrittene Taktiken beim Jassen an?",
+        "answer": "Fortgeschrittene Strategien:\nDiese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten."
+      },
+      {
         "question": "Was sind fortgeschrittene Jass-Taktiken?",
         "answer": "Fortgeschrittene Taktiken umfassen Kartenzählen, Wahrscheinlichkeitsrechnung, Timing-Optimierung, psychologische Aspekte und komplexe Signale mit dem Partner."
       },
@@ -7502,6 +8002,10 @@
     },
     "faqs": [
       {
+        "question": "Wie wendet man Grundlegende Taktiken beim Jassen an?",
+        "answer": "Grundkonzept:\nBeim Schieber gibt es drei wesentliche taktische Säulen, die über Sieg oder Niederlage entscheiden können."
+      },
+      {
         "question": "Was sind die wichtigsten Taktiken beim Schieber?",
         "answer": "Die drei wesentlichen Säulen sind Kommunikation (durch Kartenspiel), richtiges Timing (wann spielt man welche Karte) und Kartenverwaltung (effiziente Nutzung von Trumpf und Farben)."
       },
@@ -7562,6 +8066,10 @@
     },
     "faqs": [
       {
+        "question": "Wie wendet man Hoch - tief / Tief - hoch - tief beim Jassen an?",
+        "answer": "Hoch - tief / Tif - hoch - tief\n\nDie Konvention \"Hoch - tief\" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt."
+      },
+      {
         "question": "Wann spielt man hoch und wann tief?",
         "answer": "Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen."
       },
@@ -7619,6 +8127,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie wendet man Partnertaktiken beim Jassen an?",
+        "answer": "Partnerschaft:\nDie Zusammenarbeit mit dem Partner (siehe Begriff \"expressions_team\") ist beim Schieber von zentraler Bedeutung."
+      },
       {
         "question": "Wie kommuniziert man mit dem Partner beim Jassen?",
         "answer": "Durch Kartensprache (Wahl der ausgespielten Karten), Verwerfen (zeigt Stärke/Schwäche), Stechverhalten und Timing-Signale."
@@ -7726,6 +8238,10 @@
     },
     "faqs": [
       {
+        "question": "Wie wendet man Punktetaktiken beim Jassen an?",
+        "answer": "Punktestrategie:\nDie optimale Gestaltung der Punktevergabe ist ein wichtiger strategischer Aspekt beim Schieber."
+      },
+      {
         "question": "Was ist Punktestrategie beim Schieber?",
         "answer": "Punktestrategie umfasst die optimale Gestaltung der Punktevergabe durch Maximierung, Schadensbegrenzung, Match-Situationen und Weis-Kalkulation."
       },
@@ -7779,6 +8295,10 @@
     },
     "faqs": [
       {
+        "question": "Wie wendet man Spezielle Taktiken beim Jassen an?",
+        "answer": "Spezielle Spielsituationen:\nEs gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern."
+      },
+      {
         "question": "Was sind spezielle Spielsituationen beim Schieber?",
         "answer": "Spezielle Situationen umfassen Matsch-Situationen, kritische Match-Punkte, ungewöhnliche Kartenverteilungen und Weis-Dominanz."
       },
@@ -7825,6 +8345,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie wendet man Trumpfansagen beim Jassen an?",
+        "answer": "Trumpfstrategie:\nDie richtige Wahl und Verwaltung des Trumpfs (siehe Begriff \"bodentrumpf\") ist entscheidend für den Erfolg beim Schieber."
+      },
       {
         "question": "Was ist wichtig bei der Trumpf-Wahl?",
         "answer": "Man sollte die eigene Trumpfstärke, Farbverteilung, Weis-Potential und die mögliche Partnerhand einschätzen."
@@ -7926,7 +8450,29 @@
       "difficulty": 2,
       "taxonomy_tier": 2
     },
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Wie wendet man Verwerfen bei Quer/Guschti beim Jassen an?",
+        "answer": "Grundkonzept:\nBeim Quer (auch Guschti genannt) gelten spezielle Konventionen für das Verwerfen."
+      },
+      {
+        "question": "Was bedeutet Verwerfen bei Quer/Guschti?",
+        "answer": "Bei Quer (Guschti) verwirft man Karten, um dem Partner zu signalisieren welche Farben man nicht braucht."
+      },
+      {
+        "question": "Welche Karten sollte man bei Quer verwerfen?",
+        "answer": "Man verwirft typischerweise Karten aus schwachen Farben, die man nicht zum Stechen braucht."
+      },
+      {
+        "question": "Was ist der Unterschied zum normalen Verwerfen?",
+        "answer": "Bei Quer/Guschti gelten spezielle Punktewerte, daher muss man anders abwägen welche Karten wertvoll sind."
+      }
+    ],
+    "see_also": [
+      "expressions_verwerfen",
+      "expressions_slalom",
+      "expressions_obenabe"
+    ]
   },
   "schieber_taktiken_verwerfen_slalom": {
     "id": "schieber_taktiken_verwerfen_slalom",
@@ -7953,7 +8499,25 @@
       "difficulty": 2,
       "taxonomy_tier": 2
     },
-    "faqs": []
+    "faqs": [
+      {
+        "question": "Wie verwirft man beim Slalom richtig?",
+        "answer": "Beim Slalom sollte man beachten, ob der nächste Stich nach Obenabe oder Undenufe gespielt wird, und entsprechend starke oder schwache Karten loswerden."
+      },
+      {
+        "question": "Welche Karten sollte man beim Slalom verwerfen?",
+        "answer": "Bei Obenabe-Stichen verwirft man tiefe Karten, bei Undenufe-Stichen hohe Karten die man nicht braucht."
+      },
+      {
+        "question": "Was ist beim Slalom-Verwerfen besonders wichtig?",
+        "answer": "Wichtig ist das Timing: Man muss den Rhythmus des Wechsels (Obenabe/Undenufe) im Kopf behalten."
+      }
+    ],
+    "see_also": [
+      "expressions_verwerfen",
+      "expressions_slalom",
+      "expressions_obenabe"
+    ]
   },
   "schneider": {
     "id": "schneider",
@@ -8256,6 +8820,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Spielverlust beim Jassen?",
+        "answer": "Bei einem Spielverlust (z.B."
+      },
       {
         "question": "Was ist ein Spielverlust?",
         "answer": "Bei einem Spielverlust (z.B. Zusammenwerfen der Karten, falsche Weis-deklaration) gibt es keine Spielwiederholung. Der fehlbare Spieler beziehungsweise das fehlbare Team erhält keine Punkte."
@@ -8623,6 +9191,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Coiffeur?",
+        "answer": "Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt."
+      },
+      {
         "question": "Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?",
         "answer": "Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss."
       },
@@ -8681,6 +9253,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Einzel?",
+        "answer": "Beim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt."
+      },
+      {
         "question": "Wie unterscheidet sich Einzel-Coiffeur vom Team-Coiffeur?",
         "answer": "Beim Einzel-Coiffeur spielt jeder Spieler für sich alleine, es gibt keine Partner-Absprachen und jeder Spieler wird individuell bewertet und direkt mit allen anderen Spielern verglichen."
       },
@@ -8719,8 +9295,8 @@
       "id": "variants_family_gluecksjass_meta",
       "category": {
         "main": "Varianten",
-        "sub": "Einfacher Jass",
-        "topic": "Einfacher Jass: Taktiken"
+        "sub": "Glücksjass",
+        "topic": "Glücksjass"
       },
       "keywords": [
         "glücksjass",
@@ -8742,6 +9318,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Einfacher Jass: Taktiken?",
+        "answer": "Der Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei dem das Glück eine wichtigere Rolle spielt als komplexe Strategien."
+      },
       {
         "question": "Wer bestimmt die Trumpffarbe beim Glücksjass?",
         "answer": "Die Entscheidung über die Trumpffarbe hat Vorhand, also der Spieler rechts vom Kartengeber."
@@ -8799,6 +9379,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Guggitaler?",
+        "answer": "Der Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg."
+      },
       {
         "question": "Wird beim Guggitaler mit Trumpf gespielt?",
         "answer": "Nein, der Guggitaler wird ohne Trumpf gespielt. Weispunkte und die fünf Punkte für den letzten Stich zählen nicht."
@@ -8861,6 +9445,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Hose abe/Schnauz/Schwimmen?",
+        "answer": "Hose abe, Schnauz oder Schwimmen ist ein geselliges Kartenspiel für 2 bis 10 Spieler, das sich besonders für grössere Runden eignet."
+      },
+      {
         "question": "Wie viele Punkte ist ein «Hose abe» wert?",
         "answer": "Ein «Hose abe» (ein Ass und zwei Figuren derselben Farbe) bringt 31 Punkte ein und ist die höchste Wertung."
       },
@@ -8921,6 +9509,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Bodentrumpf (4 Spieler)?",
+        "answer": "Zielgruppe:\nDiese Variante eignet sich für vier Spieler und ist besonders gut für Anfänger geeignet, die bereits die Kartenfarben (siehe Begriff \"expressions_kartenfarben\") und Kartenwerte kennen."
+      },
       {
         "question": "Wie viele Spieler braucht man für Bodentrumpf?",
         "answer": "Bodentrumpf für vier Spieler eignet sich für genau vier Spieler und ist besonders gut für Anfänger geeignet."
@@ -8991,6 +9583,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Tschau Sepp?",
+        "answer": "Tschau Sepp ist die Schweizer Variante des bekannten Kartenspiels Mau-Mau (auch bekannt als Mau Mau)."
+      },
+      {
         "question": "Wie viele Spieler braucht man für Tschau Sepp?",
         "answer": "Tschau Sepp eignet sich für 2 bis 8 Spieler. Ab 5 Spielern wird mit zwei Kartenspielen gespielt."
       },
@@ -9046,6 +9642,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Ramset?",
+        "answer": "Beim Ramset für 2 bis 6 Spieler geht es in einigen Landesgegenden nicht nur ums Jassen, sondern wortwörtlich auch um die Wurst."
+      },
       {
         "question": "Wie viele Karten werden beim Ramset gespielt?",
         "answer": "Gespielt wird mit 32 Karten (ohne Sechser). Jeder Spieler erhält 5 Karten."
@@ -9111,6 +9711,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Rumba?",
+        "answer": "Rumba ist ein Glücksspiel für 3 bis 5 Spieler, das in der Regel zu viert gespielt wird."
+      },
       {
         "question": "Wie viele Karten erhält jeder Spieler beim Rumba?",
         "answer": "Jeder Spieler erhält vorerst 5 Karten."
@@ -9303,6 +9907,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Hindersi (3 Spieler)?",
+        "answer": "Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für 3 Spieler ist ein Dreier-Vermeidungsspiel, bei dem es darum geht, möglichst wenige Kartenpunkte zu erspielen."
+      },
+      {
         "question": "Wie viele Karten erhält jeder Spieler beim Hindersi für 3 Spieler?",
         "answer": "Jedem Spieler werden 12 Karten (3 x 4 Karten) verteilt."
       },
@@ -9356,6 +9964,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Hindersi (4 Spieler)?",
+        "answer": "Ziel:\nBeim Hindersi (siehe Begriff \"expressions_hindersi\")-Jass für vier Spieler geht es darum, möglichst wenige Punkte zu sammeln, was das Gegenteil der üblichen Jasszielsetzung ist."
+      },
       {
         "question": "Was ist das Ziel beim Hindersi für vier Spieler?",
         "answer": "Beim Hindersi geht es darum, möglichst wenige Punkte zu sammeln, was das Gegenteil der üblichen Jasszielsetzung ist."
@@ -9425,6 +10037,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Schaufel?",
+        "answer": "Der Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann."
+      },
+      {
         "question": "Wie viele Minuspunkte bringt die Schaufel-Dame?",
         "answer": "Die Schaufel-Dame bringt demjenigen, der sie im Stich erhält, automatisch 100 Minuspunkte ein."
       },
@@ -9478,6 +10094,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Stich?",
+        "answer": "Beim Stich-Differenzler für 2 oder 3 Spieler zählen nicht die Kartenpunkte, sondern ausschliesslich die Anzahl der gemachten Stiche . Jeder Stich ist gleich viel wert, unabhängig von den Kartenwerten."
+      },
       {
         "question": "Was zählt beim Stich-Differenzler - Punkte oder Stiche?",
         "answer": "Beim Stich-Differenzler zählen nicht die Kartenpunkte, sondern ausschliesslich die Anzahl der gemachten Stiche. Jeder Stich ist gleich viel wert."
@@ -9535,6 +10155,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Zuger?",
+        "answer": "Zuger für 3 Spieler ist eine Schreibspiel-Variante, bei der der Spielgeber nicht aktiv mitspielt, sondern 10 Schreibpunkte erhält."
+      },
+      {
         "question": "Wie viele Punkte erhält der Spielgeber beim Zuger für 3 Spieler?",
         "answer": "Der Spielgeber (auch «Papagei» genannt) erhält immer 10 Schreibpunkte, unabhängig vom Spielausgang."
       },
@@ -9590,6 +10214,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Aucho (3 Spieler)?",
+        "answer": "Bei der Dreier-Variante des Aucho nimmt der Spielgeber aktiv am Spiel teil."
+      },
+      {
         "question": "Was ist der Hauptunterschied zwischen Aucho für drei und vier Spieler?",
         "answer": "Bei der Dreier-Variante nimmt der Spielgeber aktiv am Spiel teil, wodurch das Prinzip des «Erbens» entfällt."
       },
@@ -9643,6 +10271,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Aucho (4 Spieler)?",
+        "answer": "Diese Königsspiel-Variante für vier Spieler zeichnet sich durch das besondere «Lukas (siehe Begriff \"expressions_lukas\")»-Prinzip und das «Erben (siehe Begriff \"expressions_erben\")» von Punkten aus."
+      },
       {
         "question": "Was ist der «Lukas» beim Aucho?",
         "answer": "Der «Lukas» sind die neun übrigen Karten, die verdeckt als Stock auf den Tisch gelegt werden. Der Spielgeber erhält diese Karten nicht, kann aber bei Bedarf mit ihnen spielen."
@@ -9710,6 +10342,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Aucho (2 Spieler)?",
+        "answer": "Diese Zweier-Variante des Aucho funktioniert nach ähnlichen Prinzipien wie die grösseren Versionen, bringt aber spezielle Raubregeln (siehe Begriff \"expressions_rauben\") mit sich."
+      },
       {
         "question": "Wie funktioniert das Rauben beim Aucho zu zweit?",
         "answer": "Die aufgedeckte Trumpfkarte kann mit dem Trumpf-Sechser geraubt werden. Das Rauben kann hinausgezögert werden, bis Vorhand seine erste Karte gespielt hat."
@@ -9896,6 +10532,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Bieter (5 Spieler)?",
+        "answer": "Beim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei (siehe Begriff \"expressions_bauernpartei\") bilden."
+      },
+      {
         "question": "Wie wird der Partner beim Bieter für fünf Spieler bestimmt?",
         "answer": "Der Meistbietende nennt eine Karte, die für sein Spiel von Interesse ist. Wer diese Karte besitzt, wird sein Partner und bildet mit ihm die Königspartei."
       },
@@ -10012,6 +10652,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Bolschewik (4 Spieler)?",
+        "answer": "Der Bolschewik ist ähnlich wie der Sidi-Barrani (siehe Begriff \"variants_strategic_sidi_barrani\"), wird jedoch mit einem Doppelkart (2 Kartenspiele) gespielt."
+      },
+      {
         "question": "Wie viele Karten werden beim Bolschewik gespielt?",
         "answer": "Gespielt wird mit einem Doppelkart ohne Sechser, Siebner und Achter, also insgesamt 48 Karten."
       },
@@ -10050,7 +10694,7 @@
       "category": {
         "main": "Varianten",
         "sub": "Schätzspiel",
-        "topic": "Differenzler: Taktiken"
+        "topic": "Differenzler"
       },
       "keywords": [
         "differenzler drei",
@@ -10071,6 +10715,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Differenzler: Taktiken?",
+        "answer": "Differenzler mit offener Ansage für 3 Spieler ist ein Dreier-Schätzspiel, bei dem jeder Spieler vorab ansagt, wie viele Kartenpunkte er zu erzielen glaubt."
+      },
       {
         "question": "Wie viele Karten erhält jeder Spieler beim Differenzler für 3 Spieler?",
         "answer": "Jeder Spieler erhält 12 Karten (3 x 4 Karten), was mehr ist als bei der Vierer-Variante mit 9 Karten."
@@ -10132,6 +10780,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Differenzler (offen)?",
+        "answer": "Beim Differenzler mit offener Ansage für vier Spieler (auch mit drei Spielern möglich) spielt jeder Teilnehmer gegen jeden anderen."
+      },
       {
         "question": "Was ist der Unterschied zwischen offener und verdeckter Ansage beim Differenzler?",
         "answer": "Bei der offenen Ansage kennen alle Spieler die Schätzwerte ihrer Mitspieler, während bei der verdeckten Ansage die Schätzwerte geheim gehalten werden."
@@ -10258,6 +10910,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Handjass?",
+        "answer": "Der Handjass, auch als Butzer, Sackjass oder Schläger bekannt, ist ein klassischer Einzeljass für vier Spieler, der aber auch mit drei oder zwei Spielern gespielt werden kann."
+      },
+      {
         "question": "Wie viele Spieler müssen beim Handjass mitspielen?",
         "answer": "Mindestens zwei Spieler müssen erklären, dass sie mit ihren Handkarten «kommen» möchten. Kommen nicht mindestens zwei Spieler zusammen, wird das Spiel neu gegeben."
       },
@@ -10321,6 +10977,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Handjass-Taktiken (3 Spieler)?",
+        "answer": "Bei dieser Variante können die Spieler ihre Handkarten (siehe Begriff \"expressions_handkarten\") durch das «Bessern (siehe Begriff \"expressions_bessern\")» verbessern."
+      },
+      {
         "question": "Was bedeutet «Bessern» beim Handjass für drei Spieler?",
         "answer": "«Bessern» bedeutet, dass drei verdeckte Karten gegen drei beliebige Handkarten ausgetauscht werden können, um die Hand zu verbessern."
       },
@@ -10376,6 +11036,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Handjass-Taktiken (Blinder)?",
+        "answer": "Bei dieser Dreier-Variante des Handjass kann ein Spieler seine Karten gegen den «Blinden (siehe Begriff \"expressions_blinder\")» tauschen."
+      },
       {
         "question": "Was ist der «Blinde» beim Handjass für drei Spieler?",
         "answer": "Der «Blinde» sind die neun übrigen Karten, gegen die ein Spieler seine ursprünglich erhaltenen Karten tauschen kann."
@@ -10436,6 +11100,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Palette?",
+        "answer": "Der Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler)."
+      },
       {
         "question": "Wie hoch ist das Mindestgebot beim Palette-Jass?",
         "answer": "Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann."
@@ -10507,6 +11175,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Pandur?",
+        "answer": "Der Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet."
+      },
+      {
         "question": "Wie viele Karten werden beim Pandur gespielt?",
         "answer": "Beim Pandur wird ein reduziertes Kartenspiel mit 24 Karten verwendet, wobei Sechser, Siebner und Achter ausgeschlossen bleiben."
       },
@@ -10568,6 +11240,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Pandur (3 Spieler)?",
+        "answer": "Pandur für 3 Spieler ist ein Dreier-Königsspiel mit denselben Steigerungsregeln wie beim Pandur für 4 Spieler."
+      },
+      {
         "question": "Wie viele Karten erhält jeder Spieler beim Pandur für 3 Spieler?",
         "answer": "Jeder Spieler erhält 8 Karten (2 x 4 Karten)."
       },
@@ -10617,6 +11293,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Pandur (2 Spieler)?",
+        "answer": "Pandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation."
+      },
       {
         "question": "Kann ich beim Pandur für 2 Spieler die unterste Stock-Karte einsehen?",
         "answer": "Ja, die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert."
@@ -10672,6 +11352,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Schafhauser (3 Spieler)?",
+        "answer": "Der Schafhauser, auch als Fischenthaler bekannt, ist ein Königsspiel für drei Spieler, bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") aus zwei Spielern antritt."
+      },
+      {
         "question": "Wie viele Punkte muss der König beim Schafhauser erreichen?",
         "answer": "Der König hat stets 350 Punkte zu erreichen, während die Bauernpartei gemeinsam 1000 Punkte erzielen muss."
       },
@@ -10705,57 +11389,66 @@
   },
   "variants_strategic_schellenjass": {
     "id": "variants_strategic_schellenjass",
-    "text": "Definition:\nBeim Schellenjass für 3 oder 4 Spieler ist Schellen (siehe Begriff \"expressions_schelle\") immer und ausschliesslich Trumpf (siehe Begriff \"bodentrumpf\"). Es gibt keine anderen Trumpfvarianten wie Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder andere Farben.\n\nSpiel geben:\n• Bei 3 Spielern: Alle erhalten 9 Karten (3 x 3 Karten), 3 Karten werden aus dem Spiel entfernt\n• Bei 4 Spielern: 36 Karten werden gespielt (je 9 Karten pro Spieler)\n• Ein beliebiger Spieler verteilt die entsprechende Anzahl Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nSpielablauf und Taktik:\n• Da Schellen immer Trumpf ist, entwickelt sich eine ganz eigene Taktik\n• Spieler müssen ihre Schellen-Karten besonders strategisch einsetzen, da diese die einzigen Trumpfkarten im Spiel sind\n\nSpielende:\nEine normale Partie (siehe Begriff \"expressions_partie\") nach Punkten oder eine bestimmte Anzahl Spiele.",
+    "text": "Schellenjass ist eine Vermeidungsvariante, bei der es darum geht, möglichst wenig Schellenkarten in den eigenen Stichen zu sammeln – oder gezielt alle 9 Schellenkarten zu erzielen. Es wird ohne Trumpf gespielt.\n\nAuf einen Blick:\n• Spieleranzahl: 3 oder 4 Spieler\n• Trumpf: Keiner (trumpflos)\n• Karten: 12 pro Spieler (3 Spieler) oder 9 pro Spieler (4 Spieler)\n• Ziel: Wenig Schellenkarten sammeln (oder alle 9)\n• Besonderheit: Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Schwierigkeit: Mittel bis anspruchsvoll\n• Alternative Namen: Kreuzjass (franz. Schweiz mit Kreuzkarten)\n\nSpielablauf:\n• Zu viert: Jeder erhält 9 Karten\n• Zu dritt: Jeder erhält 12 Karten\n• Alle Karten werden verteilt, keine bleiben übrig\n• Der Schreiber verteilt das erste Spiel\n• Folgende Spiele werden reihum in Spielrichtung gegeben\n\nSpielregeln:\n• Es wird ohne Trumpf gespielt\n• Farbe muss bedient werden (Farbzwang)\n• Wer keine Karte der ausgespielten Farbe hat, kann eine beliebige Karte abwerfen\n• Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Jeder Spieler will möglichst wenig Schellenkarten in seinen Stichen haben\n\nSchreibweise:\nNach jedem Spiel notiert der Schreiber jedem Spieler die Anzahl der erhaltenen Schellenkarten. Wer alle 9 Schellenkarten erzielt, belastet die anderen Spieler mit je 9 Punkten (oder erhält selbst 9 Minuspunkte). Eine Partie hat üblicherweise 12 Spiele. Der Spieler mit den meisten Schellenkarten verliert.\n\nRampo-Regel:\nErreichen zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten, wird ein Rampo (siehe Begriff \"expressions_rampo\") (Querstrich) notiert. Dieser muss in den nächsten Spielen abgearbeitet werden.\n\nVariante mit Strichen:\nEs kann auch mit Strichen gespielt werden. Nach jedem Spiel werden zu viert 3 Striche, zu dritt 2 Striche verteilt. Der Spieler mit den meisten Schellenkarten erhält keinen Strich. Wer zuerst 7 Striche erreicht, scheidet als Gewinner aus.\n\nTaktik:\nDas Spiel erfordert präzises Kartenzählen und Antizipation. Mit guten Bockkarten (siehe Begriff \"expressions_bock\") (höchste Karten einer Farbe) kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Spieler müssen verhindern, dass ein Gegner alle 9 Schellenkarten erzielt, da dies die anderen bestraft.",
     "metadata": {
       "id": "variants_strategic_schellenjass_meta",
       "category": {
         "main": "Varianten",
-        "sub": "Feste Trumpffarbe",
-        "topic": "Feste Trumpffarbe: Taktiken"
+        "sub": "Schellenjass",
+        "topic": "Schellenjass"
       },
       "keywords": [
         "schellenjass",
-        "schellen trumpf",
-        "immer schellen",
-        "feste trumpffarbe",
-        "schellen bauer",
-        "schellen nell",
-        "drei oder vier",
-        "spezial trumpf",
-        "einfacher jass"
+        "kreuzjass",
+        "vermeidungsspiel",
+        "schellenkarten",
+        "ohne trumpf",
+        "rampo",
+        "bockkarten",
+        "drei oder vier spieler",
+        "herzjass",
+        "striche variante"
       ],
       "situations": [
         "LEARNING"
       ],
-      "importance": 6,
-      "difficulty": 2,
+      "importance": 0.7,
+      "difficulty": 3,
       "taxonomy_tier": 2
     },
     "faqs": [
       {
-        "question": "Welche Farbe ist immer Trumpf beim Schellenjass?",
-        "answer": "Schellen ist immer und ausschliesslich Trumpf. Es gibt keine anderen Trumpfvarianten wie Obenabe, Undenufe oder andere Farben."
+        "question": "Wie spielt man Schellenjass?",
+        "answer": "Beim Schellenjass geht es darum, möglichst wenig Schellenkarten in den eigenen Stichen zu sammeln. Es wird ohne Trumpf gespielt. Zu viert erhält jeder 9 Karten, zu dritt je 12 Karten. Wer die meisten Schellenkarten hat, verliert."
       },
       {
-        "question": "Wie viele Karten erhält jeder Spieler beim Schellenjass für 3 Spieler?",
-        "answer": "Bei 3 Spielern erhalten alle 9 Karten (3 x 3 Karten), 3 Karten werden aus dem Spiel entfernt."
+        "question": "Was ist Schellenjass?",
+        "answer": "Schellenjass ist eine Vermeidungsvariante für 3 oder 4 Spieler. Es wird ohne Trumpf, Weis und Stöck gespielt. Ziel ist es, möglichst wenig Schellenkarten zu erhalten – oder gezielt alle 9 Schellen zu sammeln, um die anderen zu bestrafen."
       },
       {
-        "question": "Wie viele Karten werden beim Schellenjass für 4 Spieler gespielt?",
-        "answer": "Bei 4 Spielern werden 36 Karten gespielt (je 9 Karten pro Spieler)."
+        "question": "Wie zählt man beim Schellenjass?",
+        "answer": "Nach jedem Spiel wird die Anzahl der Schellenkarten pro Spieler notiert. Wer alle 9 Schellenkarten erzielt, belastet die anderen mit je 9 Punkten. Nach 12 Spielen verliert der Spieler mit den meisten Schellenkarten."
+      },
+      {
+        "question": "Wie viele Karten erhält jeder Spieler beim Schellenjass?",
+        "answer": "Zu viert erhält jeder 9 Karten, zu dritt je 12 Karten. Alle Karten werden verteilt."
+      },
+      {
+        "question": "Was ist ein Rampo beim Schellenjass?",
+        "answer": "Ein Rampo wird notiert, wenn zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten haben. Der Rampo muss in den nächsten Spielen durch weniger Schellenkarten abgearbeitet werden."
       },
       {
         "question": "Welche Taktik ist beim Schellenjass wichtig?",
-        "answer": "Da Schellen immer Trumpf ist, müssen Spieler ihre Schellen-Karten besonders strategisch einsetzen, da diese die einzigen Trumpfkarten im Spiel sind."
+        "answer": "Kartenzählen ist entscheidend. Mit guten Bockkarten kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Man muss verhindern, dass ein Gegner alle 9 erzielt."
       }
     ],
     "see_also": [
-      "bodentrumpf",
-      "expressions_obenabe",
-      "expressions_partie",
       "expressions_schelle",
-      "expressions_undenufe",
-      "general_scoring_rules"
+      "expressions_rampo",
+      "expressions_bock",
+      "expressions_partie",
+      "variants_specialty_hindersi_vier",
+      "variants_specialty_hindersi_drei"
     ]
   },
   "variants_strategic_sidi_barrani": {
@@ -10786,6 +11479,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Sidi Barrani?",
+        "answer": "Der Sidi-Barrani ist eine taktisch anspruchsvolle Schieber-Variante mit Bieten, bei der je zwei Spieler ein Team (siehe Begriff \"expressions_team\") bilden."
+      },
       {
         "question": "Was ist der Unterschied zwischen Sidi-Barrani und normalem Schieber?",
         "answer": "Beim Sidi-Barrani wird nicht zum Partner geschoben, sondern der Reihe nach in Spielrichtung zu jedem Spieler. Zudem wird die Trumpffarbe durch Bieten bestimmt."
@@ -10893,6 +11590,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Mittlere?",
+        "answer": "Mittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe (siehe Begriff \"bodentrumpf\") erst durch die erste Fehlfarbe bestimmt wird."
+      },
+      {
         "question": "Wie wird die Trumpffarbe beim Mittlere bestimmt?",
         "answer": "Die Trumpffarbe wird durch die erste Fehlfarbe bestimmt: Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen."
       },
@@ -10958,6 +11659,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Cinq Cents?",
+        "answer": "Cinq Cents ist ein klassischer Jass für zwei Spieler mit besonderem Fokus auf Spielübernahme (siehe Begriff \"ausspiel\") und Stechwerte. Spiel geben:\nJeder Spieler erhält vorerst 6 Karten\nDie 13."
+      },
+      {
         "question": "Wie viele Karten erhält jeder Spieler zu Beginn beim Cinq Cents?",
         "answer": "Jeder Spieler erhält vorerst 6 Karten. Erst bei einer Spielübernahme werden nochmals je 3 Karten ausgeteilt."
       },
@@ -11020,6 +11725,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Handjass-Taktiken (2 Spieler)?",
+        "answer": "Bei dieser Zweier-Variante können die Spieler ihre Karten durch das «Bessern (siehe Begriff \"expressions_bessern\")» verbessern."
+      },
+      {
         "question": "Wie viele Karten werden beim Bessern beim Handjass zu zweit getauscht?",
         "answer": "Im alternativen Modus werden sechs Karten zum «Bessern» einzeln (je eine Karte) jedem Spieler verteilt, die gegen Handkarten getauscht werden können."
       },
@@ -11078,6 +11787,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Schaggi-Haas?",
+        "answer": "Schaggi-Haas ist ein anspruchsvolles Zweierspiel mit besonderen Regeln zum «Bessern (siehe Begriff \"expressions_bessern\")» und Rauben (siehe Begriff \"expressions_rauben\")."
+      },
       {
         "question": "Wie viele Karten werden beim Bessern beim Schaggi-Haas getauscht?",
         "answer": "Anschliessend verteilt der Spielgeber nochmals je vier Karten, die gegen vier beliebige Handkarten getauscht werden können. Beim «Bessern» müssen alle vier Karten getauscht werden."
@@ -11138,6 +11851,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Schmaus?",
+        "answer": "Schmaus ist ein strategisches Kartenspiel für zwei Spieler mit besonderem Fokus auf Stock (siehe Begriff \"expressions_stapel\")-Aufnahme und «aufwärts weisen»."
+      },
+      {
         "question": "Was bedeutet «aufwärts weisen» beim Schmaus?",
         "answer": "Gewiesen werden darf nur «aufwärts», d.h., nach einem Dreiblatt vom König darf im nächsten Ausspiel kein Dreiblatt von einem Ober der gleichen Farbe gewiesen werden."
       },
@@ -11194,6 +11911,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Schnüffler (2 Spieler)?",
+        "answer": "Schnüffler ist ein dynamisches Zweierspiel, bei dem während des Spiels laufend neue Karten vom Stock (siehe Begriff \"expressions_stapel\") aufgenommen werden."
+      },
       {
         "question": "Was bedeutet «Schnüffeln» beim Schnüffler?",
         "answer": "«Schnüffeln» bedeutet, dass wer einen Stich macht, die oberste Stockkarte nehmen darf. Danach wird die nächste Stockkarte aufgedeckt, und so «schnüffelt» man sich durch den Stock."
@@ -11362,6 +12083,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Frühzeitiges Bedanken beim Jassen?",
+        "answer": "Grundregel:\nSpieler, der sich bedankt (siehe Begriff \"bedanken\"), obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie (siehe Begriff \"expressions_partie\")."
+      },
+      {
         "question": "Was passiert, wenn man zu früh bedankt?",
         "answer": "Wer sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie."
       },
@@ -11419,6 +12144,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Ausmach-Reihenfolge beim Jassen?",
+        "answer": "Grundregel:\nNach Beendigung des ersten Stichs  kann die Ausmachregel (siehe Begriff \"ausmachregel\") greifen."
+      },
       {
         "question": "Wann greift die Ausmachregel?",
         "answer": "Die Ausmachregel greift nach Beendigung des ersten Stichs, wenn beide Teams das Ziel erreicht haben."
@@ -11480,6 +12209,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Ausmachregel bei Schneider beim Jassen?",
+        "answer": "Besondere Situation:\nIm ersten Stich  erreicht ein Team (siehe Begriff \"expressions_team\") das Gesamtziel, während das andere Team sich noch im Schneider (siehe Begriff \"schneider\") befindet."
+      },
+      {
         "question": "Was passiert, wenn ein Team im Schneider ist beim Ausmachen?",
         "answer": "Wenn im ersten Stich ein Team das Ziel erreicht und das andere im Schneider ist, greift die Ausmachregel und entscheidet über den Ausgang."
       },
@@ -11535,6 +12268,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Bedanken beendet Partie beim Jassen?",
+        "answer": "Grundregel:\nWährend des Spielverlaufs oder beim Spielende kann sich jedes Team (siehe Begriff \"expressions_team\") jederzeit bedanken (siehe Begriff \"bedanken\")."
+      },
       {
         "question": "Wann darf man sich bedanken?",
         "answer": "Ein Team kann sich jederzeit während des Spielverlaufs oder beim Spielende bedanken, unabhängig davon, ob es gerade am Zug ist."
@@ -11722,6 +12459,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Weisen allgemein beim Jassen?",
+        "answer": "Grundsätzliche Regel:\nAlle Weise  müssen vor dem ersten Ausspiel (siehe Begriff \"ausspiel\") gemeldet werden."
+      },
+      {
         "question": "Wann muss man Weise melden?",
         "answer": "Alle Weise müssen vor dem ersten Ausspiel gemeldet werden, mit Ausnahme des letzten Spielers, der noch weisen darf, bis der Stich zusammengenommen wurde."
       },
@@ -11783,6 +12524,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Kreuzweis beim Jassen?",
+        "answer": "Diese Regel ermöglicht es, eine einzelne Karte für zwei verschiedene Weismeldungen (siehe Begriff \"expressions_weismeldung\") zu verwenden."
+      },
       {
         "question": "Was ist ein Kreuzweis?",
         "answer": "Ein Kreuzweis ermöglicht es, eine einzelne Karte für zwei verschiedene Weismeldungen zu verwenden."
@@ -11907,6 +12652,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Schreibweise beim Jassen?",
+        "answer": "Grundregel:\nDas erzielte Resultat eines Spieles (Kartenpunkte) wird nach Beendigung sofort notiert. Schreiben (siehe Begriff \"schreiben\") ist erlaubt bis zum ersten Stich des neuen Spieles."
+      },
+      {
         "question": "Wann müssen die Punkte notiert werden?",
         "answer": "Das erzielte Resultat wird nach Beendigung sofort notiert. Schreiben ist erlaubt bis zum ersten Stich des neuen Spieles."
       },
@@ -11968,6 +12717,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Korrekturregeln beim Jassen?",
+        "answer": "Regel bei nur einem Schreiber:\nBei nur einer Person für die Eintragung der Resultate gilt eine besondere Regelung."
+      },
+      {
         "question": "Wann kann man Korrekturen verlangen?",
         "answer": "Alle Teilnehmer können im Verlauf des nächsten Spiels Korrekturwünsche äussern, wenn nur eine Person die Resultate einträgt."
       },
@@ -11985,6 +12738,11 @@
       "wys",
       "wyse",
       "wisse"
+    ],
+    "see_also": [
+      "expressions_weis",
+      "expressions_weismeldung",
+      "regeln_tischregel"
     ]
   },
   "weis_rules_notation_numbers": {
@@ -12015,6 +12773,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Rechte Tafelseite beim Jassen?",
+        "answer": "Grundregel:\nDie rechte Seite der Jass-Tafel (siehe Begriff \"expressions_braettli\") ist ausschliesslich für eine einzige Zahl reserviert. Die Zahl kann positiv oder negativ sein (z.B. 8 oder -12)."
+      },
       {
         "question": "Wofür ist die rechte Seite der Tafel?",
         "answer": "Die rechte Seite der Jass-Tafel ist ausschliesslich für eine einzige Zahl (positiv oder negativ) reserviert."
@@ -12203,6 +12965,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Stöcke beim Jassen?",
+        "answer": "König und Ober (oder Dame) der Trumpffarbe (siehe Begriff \"bodentrumpf\") ergeben zusammen die Stöcke (siehe Begriff \"expressions_stoecke\")."
+      },
+      {
         "question": "Was sind Stöcke?",
         "answer": "König und Ober (oder Dame) der Trumpffarbe ergeben zusammen die Stöcke und bringen 20 Punkte."
       },
@@ -12263,6 +13029,10 @@
       "taxonomy_tier": 2
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Stöcke bei Hindersi-Varianten beim Jassen?",
+        "answer": "Besondere Regelung:\nBei Jass-Varianten mit Hindersi (siehe Begriff \"expressions_hindersi\")-Charakter gelten andere Regeln (z.B. Hindersi für 4 Spieler, Hindersi für 3 Spieler)."
+      },
       {
         "question": "Wer weist die Stöcke bei Hindersi?",
         "answer": "Bei Hindersi muss das gegnerische Team die Stöcke für die Gegner weisen, nicht das Team, das die Stöcke hält."
@@ -12493,6 +13263,10 @@
     },
     "faqs": [
       {
+        "question": "Wie funktioniert Zusammenwerfen beim Jassen?",
+        "answer": "Zusammenwerfen bedeutet, dass sich beide Teams (siehe Begriff \"expressions_team\") darauf einigen, das aktuelle Spiel abzubrechen und neu zu beginnen."
+      },
+      {
         "question": "Was bedeutet Zusammenwerfen?",
         "answer": "Zusammenwerfen bedeutet, dass sich beide Teams darauf einigen, das aktuelle Spiel abzubrechen und neu zu beginnen."
       },
@@ -12539,6 +13313,10 @@
       "taxonomy_tier": 3
     },
     "faqs": [
+      {
+        "question": "Wie funktioniert Zwei Karten spielen beim Jassen?",
+        "answer": "Regelverstoss beim gleichzeitigen Spielen von zwei Karten mit sichtbaren Kartenbildern."
+      },
       {
         "question": "Was passiert, wenn man zwei Karten gleichzeitig spielt?",
         "answer": "Beide Karten verlieren ihren Stechwert (Zählwert bleibt) und die Gegner bestimmen, welche Karte dem Stich zugeordnet wird."
@@ -12587,6 +13365,10 @@
       "source": "molotow-jass.ch, Wikipedia"
     },
     "faqs": [
+      {
+        "question": "Wie spielt man Molotow?",
+        "answer": "Molotow ist ein Jass-Vermeidungsspiel für 3 bis 6 Spieler (optimal 4–5), bei dem das Ziel ist, möglichst wenige Punkte zu sammeln."
+      },
       {
         "question": "Was ist das Ziel beim Molotow?",
         "answer": "Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln – das Gegenteil des klassischen Jass."
@@ -12648,6 +13430,10 @@
     },
     "faqs": [
       {
+        "question": "Wie spielt man Chratze?",
+        "answer": "Chratze ist ein traditionelles Stich-Kartenspiel aus der Deutschschweiz, das zur Familie der Jass-Varianten gehört. Es wird mit einem Pot gespielt und hat einen Glücksspiel-Charakter."
+      },
+      {
         "question": "Was ist Chratze?",
         "answer": "Chratze ist ein traditionelles Stich-Kartenspiel aus der Deutschschweiz mit Pot-Mechanik und Glücksspiel-Charakter."
       },
@@ -12672,6 +13458,88 @@
       "variants_family_guggitaler",
       "expressions_trumpf",
       "ausspiel"
+    ]
+  },
+  "variants_traditional_kaiserjass": {
+    "id": "variants_traditional_kaiserjass",
+    "text": "Definition:\nDer Kaiserjass (auch Karnöffelspiel oder Karniffelspiel genannt) zählt zu den ältesten überlieferten Kartenspielen im deutschsprachigen Raum und unterscheidet sich fundamental von den gängigen Jassvarianten.\n\nBesonderheiten:\n• Die Spielregeln weichen vollkommen von den bekannten Jass-Varianten ab\n• Ähnelt eher einem Strategiespiel wie Schach als einem klassischen Kartenspiel\n• Erlaubt offizielle Kommunikation zwischen Partnern durch definierte Gesten (das sogenannte \"Deuten\")\n• Nur die vorab auf die Tafel geschriebenen Punkte zählen am Ende\n\nGestenkommunikation (\"Chaiseren\"):\n• Augenzwinkern, Achselzucken und Nasenrümpfen sind erlaubte Zeichen\n• Partner teilen sich durch diese Gesten Informationen über ihre Karten mit\n• Das \"Deuten\" vor einer Runde ist ebenso wichtig wie das eigentliche Spiel\n• Diese Form der Kommunikation ist bei anderen Jassvarianten verboten\n\nSpezielle Karten:\n• Jede Karte hat eine spezifische, eigenständige Funktion\n• Die Kartenhierarchie unterscheidet sich stark vom Standard-Jass\n• Beispiele für Kartenbezeichnungen: \"Mugg\", \"Jos\", \"Füfi\"\n\nGeschichtlicher Hintergrund:\n• Entstanden im 15. Jahrhundert, vermutlich durch italienische Söldner verbreitet\n• War ursprünglich in Deutschland, dem Elsass und der Schweiz bekannt\n• Heute nur noch in Norddeutschland und der katholischen Innerschweiz verbreitet\n• Der Begriff \"Karnöffel\" galt als Schimpfwort für einen groben Gesellen\n• Wurde von der Obrigkeit kritisch gesehen und mehrfach verboten\n\nRegionale Bedeutung:\n• In Nidwalden besonders lebendig und wird aktiv gepflegt\n• Der Historische Verein Nidwalden führt jährliche Meisterschaften durch\n• Regelmässige Anfängerkurse zum Erlernen des komplexen Spiels\n• Private Jahresmeisterschaft über vier Spielabende\n\nLernschwierigkeit:\n• Sehr hoher Schwierigkeitsgrad, erfordert viel Zeit und Geduld\n• Anfängern wird empfohlen, zuerst die Kartenhierarchie auswendig zu lernen\n• Die Komplexität führt dazu, dass immer weniger Spieler das Spiel beherrschen\n\nKulturerbe:\n• Zählt zu den traditionellen Kartenspielen der Innerschweiz\n• Wird in der Datenbank \"Lebendige Traditionen\" dokumentiert (NM 11001)\n• Ältere Kartensujets zeigen oft gesellschaftskritische Darstellungen\n• Der \"Under\" (als Bauer dargestellt) kann den König stechen - ein symbolischer Standesunterschied",
+    "metadata": {
+      "id": "variants_traditional_kaiserjass_meta",
+      "category": {
+        "main": "Varianten",
+        "sub": "Historisch",
+        "topic": "Kaiserjass"
+      },
+      "keywords": [
+        "kaiserjass",
+        "karnöffel",
+        "karniffle",
+        "chaiseren",
+        "nidwalden",
+        "innerschweiz",
+        "historisch",
+        "traditionell",
+        "lebendige traditionen",
+        "deuten",
+        "gestenkommunikation",
+        "mugg",
+        "jos",
+        "füfi",
+        "strategiespiel",
+        "ältestes kartenspiel",
+        "15. jahrhundert",
+        "söldner",
+        "karnöffelspiel"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.7,
+      "difficulty": 3,
+      "taxonomy_tier": 2
+    },
+    "faqs": [
+      {
+        "question": "Was ist der Kaiserjass?",
+        "answer": "Der Kaiserjass (auch Karnöffelspiel) ist eines der ältesten Kartenspiele im deutschsprachigen Raum und unterscheidet sich grundlegend von den üblichen Jassvarianten. Er ähnelt eher einem Strategiespiel wie Schach."
+      },
+      {
+        "question": "Was bedeutet 'Chaiseren'?",
+        "answer": "Chaiseren bezeichnet das Kaiserjass-Spiel in Nidwalden, bei dem die Kommunikation zwischen Partnern durch definierte Gesten wie Augenzwinkern, Achselzucken oder Nasenrümpfen erlaubt ist."
+      },
+      {
+        "question": "Wo wird der Kaiserjass heute noch gespielt?",
+        "answer": "Der Kaiserjass wird heute hauptsächlich in der katholischen Innerschweiz (besonders Nidwalden) und in Teilen Norddeutschlands gespielt."
+      },
+      {
+        "question": "Warum ist der Kaiserjass so schwierig zu lernen?",
+        "answer": "Jede Karte hat eine spezifische Funktion und die Kartenhierarchie unterscheidet sich stark vom Standard-Jass. Zudem muss man das 'Deuten' (Gestenkommunikation) beherrschen. Es erfordert viel Zeit und Übung."
+      },
+      {
+        "question": "Was ist das Besondere am Kaiserjass-Punktesystem?",
+        "answer": "Beim Kaiserjass zählen nur die Punkte, die vorab auf die Tafel geschrieben werden. Das 'Deuten' (die Vorbereitung) ist daher ebenso wichtig wie das eigentliche Ausspielen."
+      },
+      {
+        "question": "Woher kommt der Name 'Karnöffel'?",
+        "answer": "Der Begriff 'Karnöffel' scheint ein Schimpfwort für einen groben Gesellen gewesen zu sein und wurde auch als Spottwort für ungeliebte Kardinäle verwendet. Die genaue Wortbedeutung ist nicht eindeutig geklärt."
+      },
+      {
+        "question": "Warum wurde der Kaiserjass früher verboten?",
+        "answer": "Das Spiel war bei der Obrigkeit unbeliebt, da oft um Hab und Gut gespielt wurde und die Kartendarstellungen gesellschaftskritisch waren (z.B. der Bauer, der den König stechen kann)."
+      }
+    ],
+    "see_also": [
+      "variants_strategic_handjass",
+      "mischen",
+      "abheben"
+    ],
+    "sources": [
+      {
+        "title": "Kaiserjassen - Objekte aus der Sammlung",
+        "url": "https://nidwaldner-museum.ch/objekte-aus-der-sammlung/kaiserjassen/",
+        "type": "museum",
+        "accessed": "2026-01-30"
+      }
     ]
   }
 }
