@@ -24,12 +24,12 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
           'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html'
         ]
       },
-      // 2. JassWiki als Bildungsorganisation
+      // 2. JassWiki als Bildungsorganisation — Teil des Jassverband Schweiz Ökosystems
       {
         '@type': 'EducationalOrganization',
         '@id': `${siteUrl}/#organization`,
         name: 'JassWiki.ch',
-        alternateName: 'Schweizer Jass-Enzyklopädie',
+        alternateName: ['Schweizer Jass-Enzyklopädie', 'JassWiki', 'Jass Lexikon'],
         url: siteUrl,
         logo: {
           '@type': 'ImageObject',
@@ -37,10 +37,23 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
           width: 544,
           height: 544
         },
-        description: 'Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen.',
+        description: 'JassWiki ist die umfassendste digitale Enzyklopädie des Schweizer Jassens — Regeln, Varianten, Geschichte, Strategie und Fachbegriffe. Ein Projekt des Jassverbands Schweiz.',
         slogan: 'Das digitale Gedächtnis der Schweizer Jass-Kultur',
         foundingDate: '2025',
-        // subjectOf = Externe Seiten die ÜBER das Thema berichten (nicht sameAs!)
+        // parentOrganization: JVS ist der Träger und Herausgeber von JassWiki
+        parentOrganization: {
+          '@type': ['Organization', 'SportsOrganization'],
+          '@id': 'https://jassverband.ch/#organization',
+          name: 'Jassverband Schweiz',
+          alternateName: ['JVS', 'Fédération Suisse de Jass', 'Federazione Svizzera di Jass'],
+          url: 'https://jassverband.ch',
+          description: 'Der Jassverband Schweiz ist der nationale Verband für das Schweizer Kartenspiel Jass. Er organisiert die Schweizer Jassmeisterschaft und fördert Jass als lebendige Tradition.',
+          foundingDate: '2026-01-15',
+          sameAs: [
+            'https://www.wikidata.org/wiki/Q786768',
+            'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html',
+          ],
+        },
         subjectOf: [
           {
             '@type': 'WebPage',
