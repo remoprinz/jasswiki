@@ -10,10 +10,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Behalte ALLE Standard-Tailwind-Farben + füge Custom-Farben hinzu
       colors: {
-        ...colors,  // ALLE Standard-Farben (red, orange, gray, etc.)
-        // Custom Theme-Farben zusätzlich
+        ...colors,
+        'wiki-green': '#274823',
+        'wiki-green-light': '#2bb752',
+        'wiki-green-tag': '#00aa2f',
+        'wiki-red': '#ff0000',
+        'wiki-red-cta': '#ff0101',
+        'wiki-cream': '#f0eee7',
+        'wiki-sand': '#c8c1ab',
+        'wiki-muted': '#88816d',
+        'wiki-blue': '#2563eb',
+        'wiki-sidebar-dark': '#101d0e',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
@@ -48,14 +56,15 @@ module.exports = {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
       },
+      fontFamily: {
+        capita: ['Capita', 'Georgia', 'serif'],
+        inter: ['Inter', 'system-ui', 'sans-serif'],
+        sfpro: ['"SF Pro Text"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
       keyframes: {
         'fade-in': {
-          '0%': {
-            opacity: '0'
-          },
-          '100%': {
-            opacity: '1'
-          }
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
         }
       },
       animation: {

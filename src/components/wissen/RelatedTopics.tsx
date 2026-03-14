@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
 import { buildArticleUrl } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
@@ -26,31 +25,26 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
   currentKeywords,
   maxResults = 4
 }) => {
-  // Finde verwandte Artikel
   const findRelatedArticles = (): RelatedArticle[] => {
     const content: JassContentRecord = allContent;
     const items = Object.values(content) as JassContentItem[];
     
     const relatedArticles: RelatedArticle[] = items
-      .filter(item => item.id !== currentArticleId) // Nicht den aktuellen Artikel
+      .filter(item => item.id !== currentArticleId)
       .map(item => {
         let relevanceScore = 0;
         
-        // Gleiche Hauptkategorie = hohe Relevanz
         if (item.metadata.category.main === currentCategory) {
           relevanceScore += 50;
         }
         
-        // Gemeinsame Keywords = mittlere Relevanz
         const commonKeywords = item.metadata.keywords.filter(keyword =>
           currentKeywords.includes(keyword)
         );
         relevanceScore += commonKeywords.length * 10;
         
-        // Mindestens eine gewisse Relevanz erforderlich
         if (relevanceScore === 0) return null;
         
-        // Erstelle URL (zentrale Funktion für konsistente URLs)
         const url = buildArticleUrl(item.metadata.category);
         
         return {
@@ -70,39 +64,30 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
 
   const relatedArticles = findRelatedArticles();
 
-  // Zeige nichts an, wenn keine verwandten Artikel gefunden wurden
   if (relatedArticles.length === 0) {
     return null;
   }
 
   return (
-    <div className="mt-12 pt-8 border-t border-gray-600">
-      <h3 className="text-2xl sm:text-3xl font-bold text-white mb-6">
+    <div className="mt-[24px] pt-[24px] border-t border-[#f0eee7]">
+      <h3 className="font-capita text-[20px] font-bold !text-black leading-[1.55] mb-[16px]">
         Das könnte dich auch interessieren
       </h3>
       
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-[10px] grid-cols-1">
         {relatedArticles.map((article) => (
           <Link
             key={article.id}
             href={article.url}
             className="group block"
           >
-            <div className="bg-gray-800 border border-gray-700 rounded-lg hover:border-green-500 hover:shadow-lg transition-all duration-300 p-5 h-full">
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex-1 min-w-0">
-                  <div className="text-xs text-green-400 mb-2 font-medium">
-                    {article.category}
-                  </div>
-                  <h4 className="text-lg font-bold text-white group-hover:text-green-400 transition-colors mb-2 line-clamp-2">
-                    {article.title}
-                  </h4>
-                  <div className="flex items-center text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
-                    <span>Mehr erfahren</span>
-                    <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </div>
+            <div className="flex items-center justify-between gap-[12px] bg-[#f0eee7]/50 rounded-[12px] px-[16px] py-[12px] hover:bg-[#f0eee7] transition-colors">
+              <h4 className="font-capita text-[17px] font-bold !text-black leading-[1.3] group-hover:!text-[#ff0000] transition-colors line-clamp-1">
+                {article.title}
+              </h4>
+              <span className="flex-shrink-0 px-[8px] py-[3px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full">
+                {article.category}
+              </span>
             </div>
           </Link>
         ))}
@@ -110,4 +95,3 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
     </div>
   );
 };
-

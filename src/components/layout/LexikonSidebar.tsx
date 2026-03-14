@@ -1,13 +1,11 @@
 import React, { useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { ChevronDown, ChevronRight } from 'lucide-react';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { buildArticleUrlFromSlugs, isFlatStructure } from '@/lib/url-utils';
+import { isFlatStructure } from '@/lib/url-utils';
 
-// Funktion zur schönen Formatierung von Topic-Namen
 const formatTopicName = (name: string): string => {
   return name
     .replace(/ACHTBLATT/g, 'Achtblatt')
@@ -28,7 +26,6 @@ const formatTopicName = (name: string): string => {
     .replace(/STOECK/g, 'Stöck');
 };
 
-// Helper to build the navigation structure (3-level + flat articles)
 const getNavigationStructure = (content: JassContentRecord) => {
   const structure: Record<string, {
     name: string;
@@ -53,9 +50,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
       };
     }
 
-    // Für Artikel mit flacher Struktur: Als flatArticle hinzufügen
     if (isFlatStructure(mainCatSlug, subCatSlug, topicSlug)) {
-      // Duplikate vermeiden
       if (!structure[mainCatSlug].flatArticles.some(a => a.slug === topicSlug)) {
         structure[mainCatSlug].flatArticles.push({
           name: item.metadata.category.topic,
@@ -73,7 +68,6 @@ const getNavigationStructure = (content: JassContentRecord) => {
       };
     }
 
-    // Avoid duplicate topics
     if (!structure[mainCatSlug].subcategories[subCatSlug].topics.some(t => t.slug === topicSlug)) {
       structure[mainCatSlug].subcategories[subCatSlug].topics.push({
         name: item.metadata.category.topic,
@@ -82,11 +76,9 @@ const getNavigationStructure = (content: JassContentRecord) => {
     }
   });
 
-  // Sort topics logically instead of alphabetically
   Object.keys(structure).forEach(catSlug => {
     const cat = structure[catSlug];
 
-    // Sortiere Subcategories alphabetisch
     const sortedSubcats = Object.keys(cat.subcategories).sort().reduce<Record<string, {
       name: string;
       slug: string;
@@ -98,109 +90,57 @@ const getNavigationStructure = (content: JassContentRecord) => {
 
     cat.subcategories = sortedSubcats;
 
-    // Für jede Subcategory: spezielle Sortierung wenn nötig
     Object.keys(cat.subcategories).forEach(subCatSlug => {
       const subcat = cat.subcategories[subCatSlug];
 
-      // Spezielle Sortierung für Weis-Regeln
       if (catSlug === 'weis-regeln') {
-        // Definiere die logische Reihenfolge für Weis-Arten (3-9 Blatt hintereinander)
-        const weisOrder = [
-          'Grundregeln',
-          'Dreiblatt',
-          'Vierblatt',
-          'Fünfblatt',
-          'Sechsblatt',
-          'Siebenblatt',
-          'Achtblatt',
-          'Neunblatt',
-          'Vier gleiche',
-          'Stöck',
-          'Reihenfolge',
-          'Schneider',
-          'Korrekturen',
-          'Zahlendarstellung',
-          'Frühzeitiges Bedanken',
-          'Bedanken'
-        ];
+        const getWeisOrderIndex = (name: string) => {
+          const lowerName = name.toLowerCase();
+          if (lowerName.includes('dreiblatt') || lowerName.includes('3 blatt')) return 1;
+          if (lowerName.includes('vierblatt') || lowerName.includes('4 blatt')) return 2;
+          if (lowerName.includes('fünfblatt') || lowerName.includes('5 blatt')) return 3;
+          if (lowerName.includes('sechsblatt') || lowerName.includes('6 blatt')) return 4;
+          if (lowerName.includes('siebenblatt') || lowerName.includes('7 blatt')) return 5;
+          if (lowerName.includes('achtblatt') || lowerName.includes('8 blatt')) return 6;
+          if (lowerName.includes('neunblatt') || lowerName.includes('9 blatt')) return 7;
+          if (lowerName.includes('vier gleiche')) return 8;
+          if (lowerName.includes('stöck')) return 9;
+          if (lowerName.includes('reihenfolge')) return 10;
+          if (lowerName.includes('schneider')) return 11;
+          if (lowerName.includes('korrekturen')) return 12;
+          if (lowerName.includes('zahlendarstellung')) return 13;
+          if (lowerName.includes('frühzeitiges bedanken')) return 14;
+          if (lowerName.includes('bedanken')) return 15;
+          if (lowerName.includes('allgemeine weis') || lowerName.includes('grundregeln')) return 0;
+          if (lowerName.includes('ausmachen')) return 16;
+          return 999;
+        };
 
         subcat.topics.sort((a, b) => {
-          // Erstelle eine Mapping-Funktion für die Artikel-Titel
-          const getWeisOrderIndex = (name: string) => {
-            const lowerName = name.toLowerCase();
-            
-            // Spezielle Mappings für die verschiedenen Artikel-Titel
-            if (lowerName.includes('dreiblatt') || lowerName.includes('3 blatt')) return 1;
-            if (lowerName.includes('vierblatt') || lowerName.includes('4 blatt')) return 2;
-            if (lowerName.includes('fünfblatt') || lowerName.includes('5 blatt')) return 3;
-            if (lowerName.includes('sechsblatt') || lowerName.includes('6 blatt')) return 4;
-            if (lowerName.includes('siebenblatt') || lowerName.includes('7 blatt')) return 5;
-            if (lowerName.includes('achtblatt') || lowerName.includes('8 blatt')) return 6;
-            if (lowerName.includes('neunblatt') || lowerName.includes('9 blatt')) return 7;
-            if (lowerName.includes('vier gleiche')) return 8;
-            if (lowerName.includes('stöck')) return 9;
-            if (lowerName.includes('reihenfolge')) return 10;
-            if (lowerName.includes('schneider')) return 11;
-            if (lowerName.includes('korrekturen')) return 12;
-            if (lowerName.includes('zahlendarstellung')) return 13;
-            if (lowerName.includes('frühzeitiges bedanken')) return 14;
-            if (lowerName.includes('bedanken')) return 15;
-            if (lowerName.includes('allgemeine weis') || lowerName.includes('grundregeln')) return 0;
-            if (lowerName.includes('ausmachen')) return 16;
-            
-            // Fallback für unbekannte Artikel
-            return 999;
-          };
-
           const indexA = getWeisOrderIndex(a.name);
           const indexB = getWeisOrderIndex(b.name);
-
-          // Sortiere nach Index
-          if (indexA !== indexB) {
-            return indexA - indexB;
-          }
-          
-          // Falls gleicher Index, alphabetisch sortieren
+          if (indexA !== indexB) return indexA - indexB;
           return a.name.localeCompare(b.name);
         });
       } else {
-        // Für andere Kategorien: alphabetische Sortierung
         subcat.topics.sort((a, b) => a.name.localeCompare(b.name));
       }
     });
   });
 
-  // Sortiere flatArticles alphabetisch
   Object.keys(structure).forEach(catSlug => {
     structure[catSlug].flatArticles.sort((a, b) => a.name.localeCompare(b.name, 'de'));
   });
 
-  // Sortiere Hauptkategorien: Regeln zuerst, dann alphabetisch
-  const sortedStructure: Record<string, {
-    name: string;
-    subcategories: Record<string, {
-      name: string;
-      slug: string;
-      topics: { name: string; slug: string }[];
-    }>;
-    flatArticles: { name: string; slug: string }[];
-  }> = {};
-  
-  // Definiere die gewünschte Reihenfolge (mit optimiertem Farbverlauf)
+  const sortedStructure: typeof structure = {};
   const categoryOrder = ['regeln', 'weis-regeln', 'geschichte', 'grundlagen-kultur', 'schieber', 'begriffe', 'varianten', 'jassapps', 'referenzen'];
   
-  // Füge Kategorien in der gewünschten Reihenfolge hinzu
   categoryOrder.forEach(catSlug => {
-    if (structure[catSlug]) {
-      sortedStructure[catSlug] = structure[catSlug];
-    }
+    if (structure[catSlug]) sortedStructure[catSlug] = structure[catSlug];
   });
   
-  // Füge alle anderen Kategorien alphabetisch hinzu
   Object.keys(structure).forEach(catSlug => {
-    if (!categoryOrder.includes(catSlug)) {
-      sortedStructure[catSlug] = structure[catSlug];
-    }
+    if (!categoryOrder.includes(catSlug)) sortedStructure[catSlug] = structure[catSlug];
   });
 
   return sortedStructure;
@@ -214,47 +154,87 @@ export const LexikonSidebar = () => {
   const navigationStructure = useMemo(() => getNavigationStructure(allContent as JassContentRecord), []);
 
   return (
-    <div>
-      <Link href="/" legacyBehavior>
-        <a className="block">
-          <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-white border-b border-gray-600 pb-2 hover:text-green-400 transition-colors cursor-pointer">Jass-Wiki</h3>
-        </a>
-      </Link>
-      <nav>
-        <ul className="space-y-2">
-          {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
-            const isCategoryActive = catSlug === currentCategory;
-            return (
-              <li key={catSlug}>
-                <div className="flex items-center justify-between">
-                  <Link href={`/${catSlug}/`} legacyBehavior>
-                    <a className={`font-semibold text-base sm:text-lg transition-colors ${isCategoryActive ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
-                      {categoryData.name}
-                    </a>
-                  </Link>
-                  {/* We can add an accordion-style toggle here later */}
-                </div>
-                {isCategoryActive && (
-                  <ul className="ml-3 sm:ml-4 mt-1 sm:mt-2 space-y-1">
-                    {/* Subkategorien (mit Topics) */}
-                    {Object.entries(categoryData.subcategories).map(([subCatSlug, subcategoryData]) => {
-                      const isSubcategoryActive = subCatSlug === currentSubcategory;
-                      return (
-                        <li key={subCatSlug}>
-                          <div className="mb-1">
-                            <Link href={`/${catSlug}/${subCatSlug}/`} legacyBehavior>
-                              <a className={`block font-medium text-sm sm:text-base transition-colors ${isSubcategoryActive ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
-                                {subcategoryData.name}
+    <nav className="flex flex-col gap-[16px]">
+      {/* Penpot: row-gap=14px, flex-direction=column */}
+      <ul className="flex flex-col gap-[16px]">
+        {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
+          // Schieber hat eigene Seiten (/schieber/, /schieber/[group]/) – kein [category]-Route.
+          const isOnSchieberPath = router.pathname.startsWith('/schieber');
+          const currentSchieberGroup = isOnSchieberPath ? (router.query.group as string | undefined) : undefined;
+          const isCategoryActive = catSlug === currentCategory || (catSlug === 'schieber' && isOnSchieberPath);
+
+          const SCHIEBER_SIDEBAR_GROUPS = [
+            { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen' },
+            { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe' },
+            { title: 'Kultur & Geschichte', slug: 'kultur-geschichte' },
+          ];
+
+          return (
+            <li key={catSlug}>
+              {/* Penpot: nav-link — Capita 18px bold, #878787 inactive, #2bb752 active, line-height=1.5556 */}
+              <Link href={`/${catSlug}/`} legacyBehavior>
+                <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
+                  isCategoryActive ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
+                }`}>
+                  {categoryData.name}
+                </a>
+              </Link>
+              {isCategoryActive && catSlug === 'schieber' && (
+                /* Schieber Hub: Gruppen als echte Seiten-Links */
+                <ul className="border-l-2 border-[#2bb752] pl-[14px] pr-[8px] pt-[6px] pb-[6px] mt-[9px] flex flex-col gap-[8px]">
+                  {SCHIEBER_SIDEBAR_GROUPS.map(group => {
+                    const isGroupActive = currentSchieberGroup === group.slug;
+                    return (
+                      <li key={group.slug}>
+                        <Link href={`/schieber/${group.slug}/`} legacyBehavior>
+                          <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
+                            isGroupActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
+                          }`}>
+                            {group.title}
+                          </a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+              {isCategoryActive && catSlug !== 'schieber' && (() => {
+                // Subcategories und Flat Articles alphabetisch zusammenmischen
+                type SubItem = { kind: 'sub'; slug: string; name: string; topics: { name: string; slug: string }[] };
+                type FlatItem = { kind: 'flat'; slug: string; name: string };
+                const merged: (SubItem | FlatItem)[] = [
+                  ...Object.entries(categoryData.subcategories).map(([slug, data]) => ({
+                    kind: 'sub' as const, slug, name: data.name, topics: data.topics
+                  })),
+                  ...(categoryData.flatArticles || []).map(a => ({
+                    kind: 'flat' as const, slug: a.slug, name: a.name
+                  }))
+                ].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+
+                return (
+                  <ul className="border-l-2 border-[#2bb752] pl-[14px] pr-[8px] pt-[6px] pb-[6px] mt-[9px] flex flex-col gap-[8px]">
+                    {merged.map(item => {
+                      if (item.kind === 'sub') {
+                        const isSubcategoryActive = item.slug === currentSubcategory;
+                        return (
+                          <li key={item.slug}>
+                            <Link href={`/${catSlug}/${item.slug}/`} legacyBehavior>
+                              <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
+                                isSubcategoryActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
+                              }`}>
+                                {item.name}
                               </a>
                             </Link>
                             {isSubcategoryActive && (
-                              <ul className="ml-3 sm:ml-4 mt-1 border-l border-green-500 pl-3 sm:pl-4 space-y-1">
-                                {subcategoryData.topics.map(topic => {
+                              <ul className="border-l border-[#2bb752]/50 pl-[12px] ml-[2px] mt-[5px] mb-[2px] flex flex-col gap-[5px]">
+                                {item.topics.map(topic => {
                                   const isTopicActive = topic.slug === currentTopic;
                                   return (
                                     <li key={topic.slug}>
-                                      <Link href={`/${catSlug}/${subCatSlug}/${topic.slug}/`} legacyBehavior>
-                                        <a className={`block text-sm sm:text-base transition-colors ${isTopicActive ? 'text-green-400 font-semibold' : 'text-gray-400 hover:text-green-300 hover:underline'}`}>
+                                      <Link href={`/${catSlug}/${item.slug}/${topic.slug}/`} legacyBehavior>
+                                        <a className={`block py-[1px] font-inter text-[14px] leading-[1.45] transition-colors ${
+                                          isTopicActive ? 'text-[#2bb752] font-semibold' : 'text-white/80 font-normal hover:text-[#2bb752]'
+                                        }`}>
                                           {formatTopicName(topic.name)}
                                         </a>
                                       </Link>
@@ -263,47 +243,50 @@ export const LexikonSidebar = () => {
                                 })}
                               </ul>
                             )}
-                          </div>
-                        </li>
-                      );
-                    })}
-                    
-                    {/* Flache Artikel (direkt unter Kategorie) */}
-                    {categoryData.flatArticles && categoryData.flatArticles.length > 0 && categoryData.flatArticles.map(article => {
-                      const isArticleActive = article.slug === currentSubcategory || article.slug === currentTopic;
-                      return (
-                        <li key={article.slug}>
-                          <Link href={`/${catSlug}/${article.slug}/`} legacyBehavior>
-                            <a className={`block text-sm sm:text-base transition-colors ${isArticleActive ? 'text-green-400 font-semibold' : 'text-gray-300 hover:text-green-400'}`}>
-                              {formatTopicName(article.name)}
-                            </a>
-                          </Link>
-                        </li>
-                      );
+                          </li>
+                        );
+                      } else {
+                        const isArticleActive = item.slug === currentSubcategory || item.slug === currentTopic;
+                        return (
+                          <li key={item.slug}>
+                            <Link href={`/${catSlug}/${item.slug}/`} legacyBehavior>
+                              <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
+                                isArticleActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
+                              }`}>
+                                {formatTopicName(item.name)}
+                              </a>
+                            </Link>
+                          </li>
+                        );
+                      }
                     })}
                   </ul>
-                )}
-              </li>
-            );
-          })}
+                );
+              })()}
+            </li>
+          );
+        })}
 
-          {/* Manuelle Links */}
-          <li>
-            <Link href="/referenzen/" legacyBehavior>
-              <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/referenzen' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
-                Referenzen und Quellen
-              </a>
-            </Link>
-          </li>
-          <li className="pt-2 border-t border-gray-700 mt-2">
-            <Link href="/taxonomie/" legacyBehavior>
-              <a className={`font-semibold text-base sm:text-lg transition-colors ${router.pathname === '/taxonomie' ? 'text-green-400' : 'text-gray-300 hover:text-green-400'}`}>
-                📊 Taxonomie des Jassens
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        {/* Penpot: Referenzen — Capita 18px bold #878787 */}
+        <li>
+          <Link href="/referenzen/" legacyBehavior>
+            <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
+              router.pathname === '/referenzen' ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
+            }`}>
+              Referenzen und Quellen
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/taxonomie/" legacyBehavior>
+            <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
+              router.pathname === '/taxonomie' ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
+            }`}>
+              Taxonomie des Jassens
+            </a>
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
-}; 
+};

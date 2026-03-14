@@ -1,57 +1,87 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import { JassWikiLogo } from './JassWikiLogo';
 
 export const LegalFooter = () => {
   return (
-    <footer className="mt-8 pt-6 pb-6 border-t border-gray-700">
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 text-sm text-gray-400 mb-2">
-        <Link 
-          href="/datenschutz"
-          className="hover:text-green-400 transition-colors underline"
-        >
-          Datenschutz
-        </Link>
-        <span className="text-gray-600 hidden sm:inline">•</span>
-        <Link 
-          href="/impressum"
-          className="hover:text-green-400 transition-colors underline"
-        >
-          Impressum
-        </Link>
-      </div>
-      
-      {/* Lebendige Traditionen & Experten */}
-      <div className="mt-6 flex flex-col items-center gap-3">
-        <div className="text-xs text-gray-500 text-center max-w-2xl px-4 space-y-2">
-          <p>
-            JassWiki.ch wird betrieben von <a href="mailto:remo@jasswiki.ch" className="hover:text-green-400 underline">Remo Prinz</a> (<a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">JassGuru.ch</a>) 
-            und <a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Fabian Cadonau</a> (<a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">Trumpf-As.ch</a>).
+    <footer className="mt-0 w-full">
+      {/* Mobile / Tablet */}
+      <div className="lg:hidden w-full">
+        <div className="w-full bg-[#f0eee7] px-4 py-5 flex items-start justify-between gap-4">
+          <p className="text-[14px] leading-[1.5] font-inter text-[#6b6b6b]">
+            Gelistet beim Bundesamt fuer Kultur
           </p>
-          <p>
-            JassWiki dokumentiert Jassen als vom Bundesamt für Kultur (BAK) anerkannte <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 underline">lebendige Tradition</a>.
-          </p>
-        </div>
-        <a
-          href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:opacity-80 transition-opacity w-full max-w-[240px] sm:max-w-[320px] mt-2"
-          aria-label="Lebendige Traditionen - Bundesamt für Kultur"
-        >
-          <Image
+          <img
             src="/logo_lebendige_traditionen_hellgrau.png"
-            alt="Jass ist als Lebendige Tradition der Schweiz anerkannt"
-            width={320}
-            height={160}
-            className="w-full h-auto"
+            alt="Logo Lebendige Traditionen"
+            className="w-[132px] h-auto flex-shrink-0"
           />
-        </a>
+        </div>
+
+        <div className="w-full bg-black px-4 pt-7 pb-6">
+          <div className="flex items-start justify-between gap-4">
+            <JassWikiLogo className="h-[34px] w-auto" inverted />
+            <p className="max-w-[210px] text-[14px] leading-[1.55] font-inter text-[#c2c2c2]">
+              JassWiki.ch ist eine Initiative vom Jassverband Schweiz –{' '}
+              <a href="https://jassverband.ch" target="_blank" rel="noopener noreferrer" className="underline">
+                jassverband.ch
+              </a>
+              .
+            </p>
+          </div>
+
+          <div className="mt-6 flex items-center justify-between gap-3">
+            <p className="text-[13px] leading-[1.5] font-inter text-white/40">
+              © {new Date().getFullYear()} jasswiki.ch
+            </p>
+            <img
+              src="/jvs-logo-farbig-weiss-kurz.svg"
+              alt="Jassverband Schweiz"
+              className="h-[20px] w-auto opacity-80"
+            />
+          </div>
+        </div>
       </div>
-      
-      <p className="text-xs text-gray-500 text-center mt-4">
-        &copy; {new Date().getFullYear()} jasswiki.ch - Alle Rechte vorbehalten
-      </p>
+
+      {/* Desktop */}
+      <div className="hidden lg:block w-full">
+        <div className="w-full bg-[#f0eee7]">
+          <div className="max-w-[1160px] mx-auto px-8 py-6 flex items-start justify-between gap-8">
+            <p className="text-[15px] leading-[1.6] font-inter text-[#6b6b6b]">
+              Gelistet beim Bundesamt fuer Kultur
+            </p>
+            <img
+              src="/logo_lebendige_traditionen_hellgrau.png"
+              alt="Logo Lebendige Traditionen"
+              className="w-[199px] h-auto flex-shrink-0"
+            />
+          </div>
+        </div>
+
+        <div className="w-full bg-black">
+          <div className="max-w-[1160px] mx-auto px-8 pt-9 pb-8">
+            <div className="flex items-start justify-between gap-10">
+              <JassWikiLogo className="h-[40px] w-auto" inverted />
+              <p className="max-w-[430px] text-[15px] leading-[1.6] font-inter text-[#c2c2c2]">
+                JassWiki.ch ist eine Initiative vom Jassverband Schweiz –{' '}
+                <a href="https://jassverband.ch" target="_blank" rel="noopener noreferrer" className="underline">
+                  jassverband.ch
+                </a>
+                .
+              </p>
+            </div>
+
+            <div className="mt-10 flex items-center justify-between">
+              <p className="text-[13px] leading-[1.54] font-inter text-white/40">
+                © {new Date().getFullYear()} jasswiki.ch
+              </p>
+              <img
+                src="/jvs-logo-farbig-weiss-kurz.svg"
+                alt="Jassverband Schweiz"
+                className="h-[22px] w-auto opacity-80"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
-

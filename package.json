@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "rm -rf out .next",
-    "build": "npm run validate:urls && npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && next build && npm run postbuild",
+    "build": "npm run validate:urls && npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
@@ -25,6 +25,7 @@
     "next": "^16.0.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
+    "react-icons": "^5.6.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.3.1",

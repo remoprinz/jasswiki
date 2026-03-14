@@ -1,100 +1,104 @@
 import React, { useEffect } from 'react';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import Link from 'next/link';
-import { ChevronRight, BookOpen, Users, Trophy, Zap, Scale, FileText } from 'lucide-react';
-import { SearchBar } from '@/components/wissen/SearchBar';
+import { ChevronRight } from 'lucide-react';
 import { SeoHead } from '@/components/layout/SeoHead';
+import { FaBalanceScale, FaBook, FaHandPointRight } from 'react-icons/fa';
+import { GiPokerHand } from 'react-icons/gi';
+import { CgSwiss } from 'react-icons/cg';
+import { FaHouse } from 'react-icons/fa6';
+import { GrMultiple } from 'react-icons/gr';
+import { MdPhoneIphone } from 'react-icons/md';
+import { VscReferences } from 'react-icons/vsc';
+import type { IconType } from 'react-icons';
+
+const ICON_COLORS: Record<string, string> = {
+    regeln: 'bg-[#ff4b55]',
+    'weis-regeln': 'bg-[#ff7a1a]',
+    geschichte: 'bg-[#f6b21a]',
+    'grundlagen-kultur': 'bg-[#2bb752]',
+    schieber: 'bg-[#3b82f6]',
+    begriffe: 'bg-[#6366f1]',
+    varianten: 'bg-[#a855f7]',
+    jassapps: 'bg-[#06b6d4]',
+    referenzen: 'bg-[#6b7280]',
+};
 
 const WissenHomePage = () => {
     const breadcrumbItems = [{ name: 'Jass-Wiki', href: '/' }];
     const GPT_REDIRECT_URL = 'https://chatgpt.com/g/g-690883c82ffc8191a063266aab280617';
 
-    // Prüfe, ob wir auf gpt.jasswiki.ch sind und leite weiter
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const hostname = window.location.hostname;
             if (hostname === 'gpt.jasswiki.ch') {
-                // Sofortige Weiterleitung zu ChatGPT
                 window.location.replace(GPT_REDIRECT_URL);
                 return;
             }
         }
     }, []);
 
-    // Enable scrolling for knowledge pages
     useEffect(() => {
-        // Add class to enable scrolling
         document.body.classList.add('lexikon-page');
-        
-        // Cleanup: Remove class when component unmounts
         return () => {
             document.body.classList.remove('lexikon-page');
         };
     }, []);
 
-    const categories = [
+    const categories: { slug: string; name: string; description: string; icon: IconType }[] = [
         { 
             slug: 'regeln', 
             name: 'Regeln',
             description: 'Alle offiziellen Spielregeln, Sonderregeln und Ausnahmefälle im Detail',
-            icon: Scale,
-            color: 'bg-red-500' // Rot - höchste Priorität
+            icon: FaBalanceScale,
         },
         { 
             slug: 'weis-regeln', 
             name: 'Weis-Regeln',
-            description: 'Alles über Weis, Stöck und Punktezählung - werde zum Weis-Experten',
-            icon: Trophy,
-            color: 'bg-orange-500' // Orange - zweithöchste Priorität
+            description: 'Alles über Weis, Stöck und Punktezählung – werde zum Weis-Experten',
+            icon: GiPokerHand,
         },
         { 
             slug: 'geschichte', 
             name: 'Geschichte',
             description: 'Wie entstand das Jassen? Erfahre alles über die Wurzeln des Schweizer Nationalspiel',
-            icon: BookOpen,
-            color: 'bg-amber-500' // Gelb - warme Farbe
+            icon: FaBook,
         },
         { 
             slug: 'grundlagen-kultur', 
             name: 'Grundlagen & Kultur',
             description: 'Kartenwerte, Spielablauf und die kulturelle Bedeutung des Jassens in der Schweiz',
-            icon: Users,
-            color: 'bg-green-500' // Grün - natürliche Farbe
+            icon: CgSwiss,
         },
         { 
             slug: 'schieber', 
             name: 'Schieber',
-            description: 'Die beliebteste Jassvariante im Detail - Regeln, Strategien und Tipps',
-            icon: Zap,
-            color: 'bg-blue-500' // Blau - kühle Farbe
+            description: 'Die beliebteste Jassvariante im Detail – Regeln, Strategien und Tipps',
+            icon: FaHandPointRight,
         },
         { 
             slug: 'begriffe', 
             name: 'Jass-Begriffe',
-            description: 'Von "Bock" bis "Stöck" - alle wichtigen Jass-Ausdrücke erklärt',
-            icon: BookOpen,
-            color: 'bg-indigo-500' // Indigo - tiefe Farbe
+            description: 'Von "Bock" bis "Stöck" – alle wichtigen Jass-Ausdrücke erklärt',
+            icon: FaHouse,
         },
         { 
             slug: 'varianten', 
             name: 'Jass-Varianten',
-            description: 'Coiffeur, Differenzler & Co. - entdecke die Vielfalt des Jassens',
-            icon: Users,
-            color: 'bg-purple-500' // Lila - kreative Farbe
+            description: 'Coiffeur, Differenzler & Co. – entdecke die Vielfalt des Jassens',
+            icon: GrMultiple,
         },
         { 
             slug: 'jassapps', 
             name: 'Jassapps',
-            description: 'Digitale Jasstafeln und Online-Jass-Apps - die besten Tools für Jasser',
-            icon: Zap,
-            color: 'bg-cyan-500' // Cyan - moderne Farbe
+            description: 'Digitale Jasstafeln und Online-Jass-Apps – die besten Tools für Jasser',
+            icon: MdPhoneIphone,
         },
         { 
             slug: 'referenzen', 
             name: 'Referenzen',
             description: 'Quellen, Literatur und Experten rund um das Jassen',
-            icon: FileText,
-            color: 'bg-gray-500' // Grau - neutrale Farbe
+            icon: VscReferences,
         }
     ];
 
@@ -107,54 +111,53 @@ const WissenHomePage = () => {
             <LexikonLayout breadcrumbItems={breadcrumbItems}>
 
             {/* Hero Section */}
-            <div className="text-left mb-8 sm:mb-12 not-prose">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <div className="mb-[24px] sm:mb-[32px] not-prose">
+                <h1 className="font-capita text-[26px] sm:text-[32px] lg:text-[42px] font-bold text-[#ff0000] leading-[1.14] mb-[12px] sm:mb-[16px]">
                     JassWiki: Alles rund ums Jassen
                 </h1>
-                <p className="text-xl sm:text-2xl font-semibold text-gray-200 leading-relaxed max-w-2xl mb-2">
+                <p className="font-capita text-[17px] sm:text-[20px] font-bold text-black leading-[1.4] mb-[8px]">
                     Regeln, Varianten & Strategien
                 </p>
-                <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-                    Von Grundlagen bis Profi-Strategien – die Referenz für das Schweizer Nationalspiel. Regeln nach jassguru.ch. Grundlage: anerkannten Schweizer Regelquellen und Turnierreglementen.
+                <p className="font-inter text-[14px] sm:text-[16px] text-[#000000] leading-[1.55]">
+                    Von Grundlagen bis Profi-Strategien – die Referenz für das Schweizer Nationalspiel.
                 </p>
-                
             </div>
 
-            {/* Main Categories Grid */}
-            <div className="space-y-4 sm:space-y-6 mb-12">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-200 text-left mb-6 sm:mb-8">
+            <hr className="border-[#f0eee7] mb-[24px]" />
+
+            {/* Kategorien — Single Column mit Icons */}
+            <div className="not-prose mb-[24px] sm:mb-[32px]">
+                <h2 className="font-capita text-[18px] sm:text-[20px] font-bold !text-black leading-[1.4] mb-[16px] sm:mb-[24px]">
                     Was möchtest du wissen?
                 </h2>
                 
-                <div className="grid gap-4 sm:gap-6">
+                <div className="flex flex-col gap-[10px] sm:gap-[16px]">
                     {categories.map((category) => {
-                        const IconComponent = category.icon;
+                        const Icon = category.icon;
+                        const colorClass = ICON_COLORS[category.slug] || 'bg-[#274823]';
                         return (
                             <Link 
                                 key={category.slug}
                                 href={`/${category.slug}/`} 
                                 className="group block"
                             >
-                                <div className="bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 sm:p-8 border border-gray-700 hover:border-gray-600 hover:scale-[1.02]">
-                                    <div className="flex items-start gap-4 sm:gap-6">
-                                        {/* Icon */}
-                                        <div className={`${category.color} rounded-xl p-3 sm:p-4 text-white flex-shrink-0 shadow-lg`}>
-                                            <IconComponent className="w-6 h-6 sm:w-8 sm:h-8" />
+                                <div className="rounded-[12px] border border-[#e8e6df] bg-[#f0eee7]/50 px-[14px] sm:px-[20px] py-[12px] sm:py-[16px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors">
+                                    <div className="flex items-center gap-[12px] sm:gap-[16px] mb-[6px] sm:mb-[8px]">
+                                        <div className={`${colorClass} rounded-[10px] sm:rounded-[12px] p-[8px] sm:p-[10px] flex-shrink-0 mt-[4px]`}>
+                                            <Icon size={18} className="text-white sm:hidden" />
+                                            <Icon size={22} className="text-white hidden sm:block" />
                                         </div>
-                                        
-                                        {/* Content */}
-                                        <div className="flex-1 min-w-0">
-                                            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:text-green-400 transition-colors">
-                                                {category.name}
-                                            </h3>
-                                            <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4">
-                                                {category.description}
-                                            </p>
-                                            <div className="flex items-center text-green-400 font-semibold">
-                                                <span className="text-sm sm:text-base">Mehr erfahren</span>
-                                                <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1 group-hover:translate-x-1 transition-transform" />
-                                            </div>
-                                        </div>
+                                        <h3 className="font-capita text-[16px] sm:text-[18px] font-bold !text-black leading-[1.3] group-hover:!text-[#ff0000] transition-colors">
+                                            {category.name}
+                                        </h3>
+                                    </div>
+                                    <div className="pl-[42px] sm:pl-[58px]">
+                                        <p className="font-inter text-[13px] sm:text-[14px] text-[#88816d] leading-[1.5] mb-[6px] sm:mb-[8px]">
+                                            {category.description}
+                                        </p>
+                                        <span className="font-inter text-[12px] sm:text-[13px] font-medium text-[#2bb752] inline-flex items-center gap-[4px] group-hover:gap-[8px] transition-all">
+                                            Mehr erfahren <ChevronRight className="w-[13px] h-[13px]" />
+                                        </span>
                                     </div>
                                 </div>
                             </Link>
@@ -163,56 +166,50 @@ const WissenHomePage = () => {
                 </div>
             </div>
 
-            {/* CTA Section for Chat */}
-            <div className="bg-gradient-to-r from-green-600 to-yellow-600 rounded-xl p-6 sm:p-8 text-white text-center shadow-lg">
-                <h3 className="text-xl sm:text-2xl font-bold mb-3">
+            {/* CTA Section */}
+            <div className="not-prose bg-[#274823] rounded-[12px] border-[1.74px] border-black pt-[16px] sm:pt-[20px] px-[14px] sm:px-[17px] pb-[20px] sm:pb-[29px] mb-[24px] sm:mb-[32px] flex flex-col items-center gap-[10px] sm:gap-[12px]">
+                <h3 className="font-capita text-[22px] sm:text-[28px] font-bold text-center text-white leading-[1.2] m-0">
                     Hast du eine spezifische Frage?
                 </h3>
-                <p className="text-green-100 mb-6 text-base sm:text-lg">
+                <p className="font-inter text-[14px] sm:text-[16px] font-bold text-center !text-white leading-[1.6] m-0">
                     JassWiki gibt es auch als interaktiven Chat auf ChatGPT – stelle deine Frage direkt!
                 </p>
-                <a 
+                <Link 
                     href="/gpt" 
-                    className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-white text-green-600 rounded-lg hover:bg-gray-100 transition-colors duration-200 font-bold text-base sm:text-lg min-h-[48px] shadow-lg"
+                    className="inline-flex items-center justify-center px-[20px] py-[8px] bg-[#ff0101] text-white rounded-[999px] hover:brightness-110 transition-all font-inter font-bold text-[15px] sm:text-[16px] text-center gap-[8px]"
                 >
-                    <Zap className="w-5 h-5 mr-2" />
                     Zum JassWiki GPT
-                </a>
+                </Link>
             </div>
 
-            {/* Quick Links */}
-            <div className="mt-12 pt-8 border-t border-gray-700">
-                <h3 className="text-lg sm:text-xl font-bold text-gray-200 mb-4 text-left">
+            <hr className="border-[#f0eee7] mb-[20px] sm:mb-[24px]" />
+
+            {/* Tags/Pills */}
+            <div className="not-prose mb-[24px] sm:mb-[32px]">
+                <h3 className="font-capita text-[17px] sm:text-[20px] font-bold !text-black leading-[1.4] mb-[12px] sm:mb-[16px]">
                     Beliebt bei Jassern
                 </h3>
-                <div className="flex flex-wrap justify-start gap-3">
-                    <Link href="/schieber/grundlagen/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                <div className="flex flex-wrap gap-[10px]">
+                    <Link href="/schieber/grundlagen/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Schieber lernen
                     </Link>
-                    <Link href="/weis-regeln/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/weis-regeln/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Weis-Regeln
                     </Link>
-                    <Link href="/begriffe/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/begriffe/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Jass-ABC
                     </Link>
-                    <Link href="/geschichte/wortherkunft/etymologie-des-begriffs-matsch/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/geschichte/wortherkunft/etymologie-des-begriffs-matsch/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Etymologie «Matsch»
                     </Link>
-                    <Link href="/referenzen/" className="px-4 py-2 bg-gray-700 text-gray-200 rounded-full hover:bg-gray-600 hover:text-white transition-colors text-sm sm:text-base border border-gray-600">
+                    <Link href="/referenzen/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Referenzen
                     </Link>
                 </div>
-            </div>
-
-            {/* Footer Question */}
-            <div className="mt-12 text-left">
-                <p className="text-xl sm:text-2xl font-semibold text-gray-200">
-                    Was möchtest du wissen?
-                </p>
             </div>
         </LexikonLayout>
         </>
     );
 };
 
-export default WissenHomePage; 
+export default WissenHomePage;

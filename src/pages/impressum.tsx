@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useEffect } from 'react';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 
@@ -80,7 +81,7 @@ const ImpressumPage = () => {
           Die Inhalte basieren auf verschiedenen öffentlichen Quellen, Regelbüchern, historischen Dokumenten und Expertenwissen.
         </p>
         <p className="mb-4 text-gray-300">
-          Wo immer möglich, werden Quellen angegeben (siehe <a href="/quellen" className="text-green-400 hover:text-green-300 underline">Quellenverzeichnis</a>). 
+          Wo immer möglich, werden Quellen angegeben (siehe <Link href="/quellen" className="text-green-400 hover:text-green-300 underline">Quellenverzeichnis</Link>). 
           Die redaktionelle Zusammenstellung, Strukturierung und Aufbereitung der Inhalte auf JassWiki.ch ist urheberrechtlich geschützt.
         </p>
         <p className="mb-4 text-gray-300">
@@ -90,7 +91,7 @@ const ImpressumPage = () => {
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">Kontakt</h2>
         <p className="mb-4 text-gray-300">
-          Bei Fragen, Anregungen oder Korrekturen zu den Inhalten von JassWiki.ch können Sie uns gerne kontaktieren:
+          Bei Fragen, Anregungen oder Korrekturen zu den Inhalten von JassWiki.ch kannst du uns gerne kontaktieren:
         </p>
         <p className="mb-4 text-gray-300">
           E-Mail: <a href="mailto:remo@jasswiki.ch" className="text-green-400 hover:text-green-300 underline">remo@jasswiki.ch</a><br />

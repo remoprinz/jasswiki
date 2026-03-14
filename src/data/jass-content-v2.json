@@ -2897,13 +2897,13 @@
   },
   "expressions_schelle": {
     "id": "expressions_schelle",
-    "text": "Definition:\n• Schelle ist eine der vier Kartenfarben (siehe Begriff \"expressions_kartenfarben\") der deutschschweizerischen Spielkarten\n\nZuordnung:\n• Sie gehört zu den traditionellen Farben des Deutschschweizer Blatts\n\nVerwendung:\n• Wird in allen Varianten verwendet, die mit diesen Karten gespielt werden",
+    "text": "Definition:\n• Schellen ist eine der vier Kartenfarben (siehe Begriff \"expressions_kartenfarben\") der deutschschweizerischen Spielkarten\n\nZuordnung:\n• Sie gehört zu den traditionellen Farben des Deutschschweizer Blatts\n\nVerwendung:\n• Wird in allen Varianten verwendet, die mit diesen Karten gespielt werden",
     "metadata": {
       "id": "expressions_schelle_meta",
       "category": {
         "main": "Begriffe",
         "sub": "Kartenbezeichnungen",
-        "topic": "Schelle"
+        "topic": "Schellen"
       },
       "keywords": [
         "schelle"
@@ -2917,16 +2917,16 @@
     },
     "faqs": [
       {
-        "question": "Was ist Schelle beim Jassen?",
-        "answer": "Schelle (Schellen) ist eine der vier Kartenfarben der deutschschweizerischen Spielkarten."
+        "question": "Was ist Schellen beim Jassen?",
+        "answer": "Schellen (Schellen) ist eine der vier Kartenfarben der deutschschweizerischen Spielkarten."
       },
       {
-        "question": "Welche Farbe entspricht Schelle bei französischen Karten?",
-        "answer": "Schelle bei deutschen Karten entspricht Ecken (Karo) bei französischen Karten."
+        "question": "Welche Farbe entspricht Schellen bei französischen Karten?",
+        "answer": "Schellen bei deutschen Karten entspricht Ecken (Karo) bei französischen Karten."
       },
       {
-        "question": "Ist Schelle eine rote Farbe?",
-        "answer": "Ja, Schelle ist neben Rosen eine der beiden roten Farben bei deutschschweizerischen Karten."
+        "question": "Ist Schellen eine rote Farbe?",
+        "answer": "Ja, Schellen ist neben Rosen eine der beiden roten Farben bei deutschschweizerischen Karten."
       }
     ],
     "see_also": [
@@ -2975,13 +2975,13 @@
   },
   "expressions_schilte": {
     "id": "expressions_schilte",
-    "text": "Definition:\n• Schilte ist eine der vier Kartenfarben (siehe Begriff \"expressions_kartenfarben\") der deutschschweizerischen Spielkarten\n\nZuordnung:\n• Sie gehört zu den traditionellen Farben des Deutschschweizer Blatts\n\nVerwendung:\n• Wird in allen Varianten verwendet, die mit diesen Karten gespielt werden",
+    "text": "Definition:\n• Schilten ist eine der vier Kartenfarben (siehe Begriff \"expressions_kartenfarben\") der deutschschweizerischen Spielkarten\n\nZuordnung:\n• Sie gehört zu den traditionellen Farben des Deutschschweizer Blatts\n\nVerwendung:\n• Wird in allen Varianten verwendet, die mit diesen Karten gespielt werden",
     "metadata": {
       "id": "expressions_schilte_meta",
       "category": {
         "main": "Begriffe",
         "sub": "Kartenbezeichnungen",
-        "topic": "Schilte"
+        "topic": "Schilten"
       },
       "keywords": [
         "schilte"
@@ -2995,16 +2995,16 @@
     },
     "faqs": [
       {
-        "question": "Was ist Schilte beim Jassen?",
-        "answer": "Schilte (Schilten) ist eine der vier Kartenfarben der deutschschweizerischen Spielkarten."
+        "question": "Was ist Schilten beim Jassen?",
+        "answer": "Schilten (Schilten) ist eine der vier Kartenfarben der deutschschweizerischen Spielkarten."
       },
       {
-        "question": "Welche Farbe entspricht Schilte bei französischen Karten?",
-        "answer": "Schilte bei deutschen Karten entspricht Schaufel (Pik) bei französischen Karten."
+        "question": "Welche Farbe entspricht Schilten bei französischen Karten?",
+        "answer": "Schilten bei deutschen Karten entspricht Schaufel (Pik) bei französischen Karten."
       },
       {
-        "question": "Ist Schilte eine schwarze Farbe?",
-        "answer": "Ja, Schilte ist neben Eichel eine der beiden schwarzen Farben bei deutschschweizerischen Karten."
+        "question": "Ist Schilten eine schwarze Farbe?",
+        "answer": "Ja, Schilten ist neben Eichel eine der beiden schwarzen Farben bei deutschschweizerischen Karten."
       }
     ],
     "see_also": [
@@ -6386,7 +6386,7 @@
   },
   "history_swiss_production": {
     "id": "history_swiss_production",
-    "text": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben (siehe Begriff \"expressions_kartenfarben\")\n\nQualität und Tradition:\nSchweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.\n\nModerne Produktion:\nAuch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden.",
+    "text": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg – eine moderne Neuillustration des Schweizer Kartenbilds, die der Szene spürbar neuen Schwung gibt. Besonders bemerkenswert: Die Karten werden gemäss Anbieter in der Schweiz gedruckt.\n\nQualität und Tradition:\nSchweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.\n\nModerne Produktion:\nAuch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen – gemäss Anbieter mit Druck in der Schweiz.",
     "metadata": {
       "id": "history_swiss_production_meta",
       "category": {
@@ -6404,7 +6404,12 @@
         "geschichten",
         "lokale",
         "regionale",
-        "kultur"
+        "kultur",
+        "schweizerjass",
+        "jens riedweg",
+        "kartendruck schweiz",
+        "kartenproduktion",
+        "moderne jasskarten"
       ],
       "situations": [
         "LEARNING"
@@ -6417,7 +6422,7 @@
     "faqs": [
       {
         "question": "Was ist Schweizer Kartenmacher?",
-        "answer": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition. Historische Entwicklung:\n**19."
+        "answer": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben\n• **Heute:** Neben klassischen Herstellern gibt es moderne Neuinterpretationen wie [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg (gemäss Anbieter: Druck in der Schweiz)."
       },
       {
         "question": "Wann begann die industrielle Kartenproduktion in der Schweiz?",
@@ -6430,10 +6435,22 @@
       {
         "question": "Was zeichnet Schweizer Jasskarten aus?",
         "answer": "Sie zeichnen sich durch hochwertige Verarbeitung, traditionelles Design und das charakteristische Schweizer Kartensystem mit typischen Schweizer Farben aus."
+      },
+      {
+        "question": "Werden Jasskarten heute noch in der Schweiz produziert?",
+        "answer": "Ja, auch heute werden Jasskarten in der Schweiz produziert. Ein aktuelles Beispiel ist schweizerjass.ch von Jens Riedweg, wo gemäss Anbieter die Karten komplett in der Schweiz gedruckt werden."
       }
     ],
     "see_also": [
       "expressions_kartenfarben"
+    ],
+    "sources": [
+      {
+        "title": "Schweizer Jass – Traditionelle Jasskarten aus der Schweiz",
+        "url": "https://schweizerjass.ch/",
+        "type": "Hersteller/Projektseite",
+        "accessed": "2026-02-03"
+      }
     ]
   },
   "history_unesco": {
@@ -7619,56 +7636,6 @@
     ],
     "see_also": [
       "expressions_partie"
-    ]
-  },
-  "regeln_offizielles_regelwerk": {
-    "id": "regeln_offizielles_regelwerk",
-    "text": "Übersicht:\nBeim Jassen existieren verschiedene offizielle Regelwerke, die je nach Kontext und Region unterschiedlich angewendet werden.\n\nGrundprinzipien:\n• Tischregeln (siehe Begriff \"regeln_tischregel\") haben Vorrang vor offiziellen Regelwerken\n• Regionale Varianten können abweichen",
-    "metadata": {
-      "id": "regeln_offizielles_regelwerk_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Offizielles Regelwerk",
-        "topic": "Offizielles Regelwerk"
-      },
-      "difficulty": 2,
-      "importance": 5,
-      "keywords": [
-        "regelwerk",
-        "müller",
-        "egg",
-        "hagenbucher",
-        "puur nell ass",
-        "stöck weis stich",
-        "srg",
-        "nichtfarben",
-        "tischregel"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Wie funktioniert Offizielles Regelwerk beim Jassen?",
-        "answer": "Übersicht:\nBeim Jassen existieren verschiedene offizielle Regelwerke, die je nach Kontext und Region unterschiedlich angewendet werden."
-      },
-      {
-        "question": "Gibt es ein offizielles Jass-Regelwerk?",
-        "answer": "Ja, es existieren verschiedene offizielle Regelwerke für das Jassen, die je nach Kontext und Region unterschiedlich angewendet werden."
-      },
-      {
-        "question": "Haben offizielle Regelwerke Vorrang vor Tischregeln?",
-        "answer": "Nein, Tischregeln haben Vorrang vor offiziellen Regelwerken."
-      },
-      {
-        "question": "Sind die Regelwerke überall gleich?",
-        "answer": "Nein, regionale Varianten können von den offiziellen Regelwerken abweichen."
-      }
-    ],
-    "see_also": [
-      "regeln_tischregel"
     ]
   },
   "regeln_tischregel": {
@@ -9225,7 +9192,7 @@
   },
   "variants_family_einzel_coiffeur": {
     "id": "variants_family_einzel_coiffeur",
-    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilte (siehe Begriff \"expressions_schilte\") (Ecken (siehe Begriff \"expressions_ecken\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_rose\") (Kreuz (siehe Begriff \"expressions_kreuzweis\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_eichel\") (Schaufel (siehe Begriff \"expressions_schaufel\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_schelle\") (Herz (siehe Begriff \"expressions_herz\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Keine Partner-Absprachen möglich\n• Individuelle Punktwertung \n• Direkter Vergleich zwischen allen Spielern\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
+    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilten (siehe Begriff \"expressions_schilte\") (Ecken (siehe Begriff \"expressions_ecken\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_rose\") (Kreuz (siehe Begriff \"expressions_kreuzweis\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_eichel\") (Schaufel (siehe Begriff \"expressions_schaufel\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_schelle\") (Herz (siehe Begriff \"expressions_herz\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Keine Partner-Absprachen möglich\n• Individuelle Punktwertung \n• Direkter Vergleich zwischen allen Spielern\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
     "metadata": {
       "id": "variants_family_einzel_coiffeur_meta",
       "category": {
@@ -13540,6 +13507,57 @@
         "type": "museum",
         "accessed": "2026-01-30"
       }
+    ]
+  },
+  "regeln_offizielle_jassregeln": {
+    "id": "regeln_offizielle_jassregeln",
+    "text": "Die offiziellen Jassregeln stehen mit JassWiki der Allgemeinheit erstmals digital und kostenlos zur Verfügung.\n\nGrundlage der offiziellen Jassregeln:\nDie Basis bilden [«PUUR NÄLL ASS – Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg & Albert Haggenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.\n\nDani Müller hat mit [«STÖCK WYS STICH – Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.\n\nDie offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Sie werden selektiv weiterentwickelt. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.",
+    "metadata": {
+      "id": "regeln_offizielle_jassregeln_meta",
+      "category": {
+        "main": "Regeln",
+        "sub": "Offizielle Jassregeln",
+        "topic": "Offizielle Jassregeln"
+      },
+      "difficulty": 2,
+      "importance": 5,
+      "keywords": [
+        "offizielle jassregeln",
+        "regelwerk",
+        "müller",
+        "egg",
+        "haggenbucher",
+        "puur nell ass",
+        "stöck wys stich",
+        "jassverband schweiz",
+        "tischregel",
+        "jvs"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    },
+    "faqs": [
+      {
+        "question": "Gibt es ein offizielles Jass-Regelwerk?",
+        "answer": "Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015) und werden selektiv weiterentwickelt."
+      },
+      {
+        "question": "Welche Bücher bilden die Grundlage der offiziellen Jassregeln?",
+        "answer": "«PUUR NÄLL ASS – Offizielles Schweizer Jassreglement» von Göpf Egg & Albert Haggenbucher sowie «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015)."
+      },
+      {
+        "question": "Haben Tischregeln Vorrang vor den offiziellen Jassregeln?",
+        "answer": "Ja, Tischregeln haben Vorrang vor den offiziellen Jassregeln."
+      },
+      {
+        "question": "Wie werden Schneider und Kontermatsch neu bewertet?",
+        "answer": "Aufgrund des seltenen Vorkommens werden Schneider und Kontermatsch neu mit 2 Strichen bewertet."
+      }
+    ],
+    "see_also": [
+      "regeln_tischregel"
     ]
   }
 }

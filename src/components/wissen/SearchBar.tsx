@@ -17,21 +17,48 @@ export const SearchBar: React.FC = () => {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isFocused, setIsFocused] = useState(false);
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
   const searchRef = useRef<HTMLDivElement>(null);
 
-  // Schließe Dropdown bei Klick außerhalb
+  const closeSearch = () => {
+    setIsOpen(false);
+    setIsFocused(false);
+    setQuery('');
+    setResults([]);
+  };
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setIsOpen(false);
+        setIsFocused(false);
       }
+    };
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') closeSearch();
     };
 
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleEscape);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleEscape);
+    };
   }, []);
 
-  // Suche durchführen
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const mediaQuery = window.matchMedia('(min-width: 1024px)');
+    const syncDesktopState = () => setIsDesktop(mediaQuery.matches);
+
+    syncDesktopState();
+    mediaQuery.addEventListener('change', syncDesktopState);
+    return () => mediaQuery.removeEventListener('change', syncDesktopState);
+  }, []);
+
   useEffect(() => {
     if (query.length < 2) {
       setResults([]);
@@ -50,26 +77,16 @@ export const SearchBar: React.FC = () => {
         const keywords = item.metadata.keywords.join(' ').toLowerCase();
         const text = item.text.toLowerCase();
         
-        // Score-basierte Suche
         let score = 0;
-        
-        // Exakter Match im Titel = höchste Priorität
         if (title === searchQuery) score += 100;
-        // Titel enthält Query
         else if (title.includes(searchQuery)) score += 50;
-        // Kategorie enthält Query
         if (category.includes(searchQuery)) score += 20;
-        // Keywords enthalten Query
         if (keywords.includes(searchQuery)) score += 10;
-        // Text enthält Query
         if (text.includes(searchQuery)) score += 5;
         
         if (score === 0) return null;
         
-        // Erstelle URL (zentrale Funktion für konsistente URLs)
         const url = buildArticleUrl(item.metadata.category);
-        
-        // Erstelle Snippet
         const textSnippet = item.text.substring(0, 150).replace(/\n/g, ' ');
         
         return {
@@ -83,11 +100,11 @@ export const SearchBar: React.FC = () => {
       })
       .filter((result): result is SearchResult & { score: number } => result !== null)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 10) // Maximal 10 Ergebnisse
-      .map(({ score, ...result }) => result); // Entferne score aus finalen Ergebnissen
+      .slice(0, 10)
+      .map(({ score, ...result }) => result);
     
     setResults(searchResults);
-    setIsOpen(searchResults.length > 0);
+    setIsOpen(true);
   }, [query]);
 
   const handleClear = () => {
@@ -96,24 +113,92 @@ export const SearchBar: React.FC = () => {
     setIsOpen(false);
   };
 
+  const shownResults = results.slice(0, 4);
+  const showDesktopOverlay = isDesktop && isOpen && query.length >= 2;
+  const useActiveInputStyle = showDesktopOverlay || isFocused;
+
   return (
-    <div ref={searchRef} className="relative w-full max-w-2xl mx-auto">
-      {/* Suchfeld */}
+    <div ref={searchRef} className="relative w-full">
+      {/* Search Input — Penpot desktop: x=445, y=33, h=42, border #88816d */}
       <div className="relative flex items-center">
+        <Search className="absolute left-4 w-4 h-4 text-[#968f7e] pointer-events-none" />
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="🔍 Suche nach Begriffen, Regeln, Varianten..."
-          className="w-full pl-8 pr-4 py-4 bg-gray-800 text-white rounded-xl border border-gray-700 focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500/20 transition-all text-base sm:text-lg"
+          onFocus={() => setIsFocused(true)}
+          onBlur={() => setIsFocused(false)}
+          placeholder="Suche nach Begriffen, Regeln, Varianten..."
+          className={`w-full pl-[44px] pr-[36px] py-[8px] bg-[#f0eee7] text-black placeholder:text-[#968f7e] placeholder:font-capita placeholder:text-[20px] rounded-[12px] focus:outline-none focus:ring-0 transition-all text-[16px] leading-[1.55] font-inter h-[42px] ${
+            isFocused ? 'border-2 border-[#ff0000]' : 'border border-transparent'
+          }`}
         />
+        {query && (
+          <button onClick={handleClear} className="absolute right-3">
+            <X className="w-4 h-4 text-[#968f7e] hover:text-black transition-colors" />
+          </button>
+        )}
       </div>
 
-      {/* Ergebnisse Dropdown */}
-      {isOpen && results.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-gray-800 border border-gray-700 rounded-xl shadow-2xl max-h-96 overflow-y-auto">
+      {/* Desktop overlay/search results — Penpot Home Suche */}
+      {showDesktopOverlay && (
+        <>
+          <div className="hidden lg:block fixed inset-0 bg-[#101d0e99] z-[40]" onClick={closeSearch} />
+          <div className="hidden lg:block fixed left-[calc(50%-274px)] top-[112px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
+            <div className="absolute left-[16px] top-[13px] w-[506px] text-[14px] leading-[1.55] font-inter font-normal text-[#88816d]">
+              {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
+            </div>
+            <div className="absolute left-[16px] top-[48px] w-[519px] border-t border-[#f0eee7]" />
+
+            {results.length > 0 && (
+              <div className="absolute inset-x-0 top-[49px] bottom-0 overflow-y-auto">
+                {shownResults.map((result, index) => (
+                  <Link
+                    key={result.id}
+                    href={result.url}
+                    onClick={() => { setIsOpen(false); setQuery(''); }}
+                    onMouseEnter={() => setHoveredId(result.id)}
+                    onMouseLeave={() => setHoveredId(null)}
+                    className="block px-[15px] pt-[13px] pb-[13px] transition-colors"
+                    style={{ backgroundColor: hoveredId === result.id ? '#f0eee7' : 'white' }}
+                  >
+                    <span className="inline-block mb-[5px] px-[8px] py-[3px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full">
+                      {result.category}
+                    </span>
+                    <div
+                      className="text-[20px] leading-[1.2] font-capita font-bold transition-colors whitespace-nowrap overflow-hidden text-ellipsis"
+                      style={{ color: hoveredId === result.id ? '#ff0000' : '#000000' }}
+                    >
+                      {result.title}
+                    </div>
+                    <div className="mt-[6px] text-[13px] leading-[1.5] font-inter font-normal text-[#88816d] line-clamp-2">
+                      {result.snippet}...
+                    </div>
+                    {index < shownResults.length - 1 && <div className="mt-[12px] border-t border-[#f0eee7]" />}
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            {results.length === 0 && (
+              <div className="absolute left-[16px] top-[78px] w-[506px]">
+                <div className="text-[12px] leading-[1.3333] tracking-[0.3px] uppercase font-inter font-normal text-black">
+                  Keine Treffer
+                </div>
+                <p className="mt-[8px] text-[14px] leading-[1.55] font-inter text-black">
+                  Versuche es mit anderen Begriffen oder durchsuche die Kategorien.
+                </p>
+              </div>
+            )}
+          </div>
+        </>
+      )}
+
+      {/* Mobile/Tablet Dropdown */}
+      {!isDesktop && isOpen && results.length > 0 && (
+        <div className="absolute z-50 w-full mt-2 bg-white border border-wiki-sand/50 rounded-xl shadow-2xl max-h-96 overflow-y-auto">
           <div className="p-2">
-            <div className="text-xs text-gray-400 px-3 py-2 font-medium">
+            <div className="text-[12px] text-wiki-muted px-3 py-2 font-inter font-medium tracking-wide uppercase">
               {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
             </div>
             {results.map((result) => (
@@ -124,21 +209,14 @@ export const SearchBar: React.FC = () => {
                   setIsOpen(false);
                   setQuery('');
                 }}
-                className="block px-3 py-3 hover:bg-gray-700 rounded-lg transition-colors group"
+                className="block px-3 py-3 hover:bg-wiki-cream rounded-lg transition-colors"
               >
-                <div className="flex items-start gap-3">
-                  <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-white group-hover:text-green-400 transition-colors mb-1">
-                      {result.title}
-                    </div>
-                    <div className="text-xs text-green-400 mb-1">
-                      {result.category}
-                    </div>
-                    <div className="text-sm text-gray-400 line-clamp-2">
-                      {result.snippet}...
-                    </div>
-                  </div>
-                  <Search className="w-4 h-4 text-gray-500 flex-shrink-0 mt-1" />
+                <div className="font-capita font-bold text-[16px] text-black mb-0.5">{result.title}</div>
+                <div className="text-[12px] text-wiki-green-tag font-inter font-medium mb-1 tracking-wide uppercase">
+                  {result.category}
+                </div>
+                <div className="text-[13px] text-wiki-muted font-inter line-clamp-2 leading-relaxed">
+                  {result.snippet}...
                 </div>
               </Link>
             ))}
@@ -146,12 +224,11 @@ export const SearchBar: React.FC = () => {
         </div>
       )}
 
-      {/* Keine Ergebnisse */}
-      {isOpen && query.length >= 2 && results.length === 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-gray-800 border border-gray-700 rounded-xl shadow-2xl p-6 text-center">
-          <Search className="w-12 h-12 text-gray-600 mx-auto mb-3" />
-          <p className="text-gray-300 font-medium mb-1">Keine Ergebnisse gefunden</p>
-          <p className="text-sm text-gray-500">
+      {!isDesktop && isOpen && query.length >= 2 && results.length === 0 && (
+        <div className="absolute z-50 w-full mt-2 bg-white border border-wiki-sand/50 rounded-xl shadow-2xl p-6 text-center">
+          <Search className="w-10 h-10 text-wiki-sand mx-auto mb-3" />
+          <p className="text-black font-capita font-bold mb-1">Keine Ergebnisse</p>
+          <p className="text-[13px] text-wiki-muted font-inter">
             Versuche es mit anderen Begriffen oder durchsuche die Kategorien
           </p>
         </div>
@@ -159,4 +236,3 @@ export const SearchBar: React.FC = () => {
     </div>
   );
 };
-

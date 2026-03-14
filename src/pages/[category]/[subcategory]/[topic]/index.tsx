@@ -15,6 +15,7 @@ import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 
+
 interface JassWissenPageProps {
   contentItem: JassContentItem;
   category: string;
@@ -35,7 +36,6 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
   subcategory,
   subcategorySlug,
   topic,
-  topicSlug,
   pageTitle,
   metaDescription,
   canonicalPath,
@@ -48,13 +48,19 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
   const defaultPublishedDate = process.env.NEXT_PUBLIC_DEFAULT_PUBLISHED_DATE || '2023-01-01';
   const defaultModifiedDate = process.env.NEXT_PUBLIC_DEFAULT_MODIFIED_DATE || '2025-11-05';
 
-  // Fallback während SSG
+  useEffect(() => {
+    document.body.classList.add('lexikon-page');
+    return () => {
+      document.body.classList.remove('lexikon-page');
+    };
+  }, []);
+
   if (router.isFallback) {
     return (
-      <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <div className="min-h-screen bg-white text-black flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-400 mx-auto mb-4"></div>
-          <p className="text-gray-300">Lädt...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#274823] mx-auto mb-4"></div>
+          <p className="text-black">Lädt...</p>
         </div>
       </div>
     );
@@ -71,7 +77,6 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     { name: topic, href: normalizedPath },
   ];
 
-  // Daten für das JSON-LD-Schema
   const articleData = {
     headline: topic,
     description: metaDescription,
@@ -81,15 +86,6 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     datePublished: defaultPublishedDate,
     dateModified: defaultModifiedDate,
   };
-
-  // Scrolling für Wissensseiten aktivieren
-  useEffect(() => {
-    document.body.classList.add('lexikon-page');
-    
-    return () => {
-      document.body.classList.remove('lexikon-page');
-    };
-  }, []);
 
   // Schwierigkeitsgrad visualisieren (nur bei relevanten Kategorien)
   const showDifficulty = ['Varianten', 'Schieber', 'Weis-Regeln'].includes(category);
@@ -128,24 +124,19 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           {/* Artikel-Header */}
-          <header className="text-center pb-6 border-b border-gray-600">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
+          <header className="text-left pb-6 border-b border-[#f0eee7]">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
               {topic}
             </h1>
-            <div className="flex items-center justify-center gap-4 text-sm sm:text-base text-gray-300 flex-wrap">
-              {/* Kategorie */}
-              <span className="px-3 py-1 bg-green-600 text-white rounded-full font-medium">
+            <div className="flex items-center justify-start gap-[8px] flex-wrap">
+              <span className="px-3 py-1 bg-[#274823] text-white text-[12px] font-inter font-medium tracking-wide uppercase rounded-full">
                 {category}
               </span>
-              
-              {/* Unterkategorie */}
-              <span className="px-3 py-1 bg-blue-600 text-white rounded-full font-medium">
+              <span className="px-3 py-1 bg-[#f0eee7] text-[#274823] text-[12px] font-inter font-medium tracking-wide uppercase rounded-full">
                 {subcategory}
               </span>
-              
-              {/* Schwierigkeit - nur bei Varianten, Schieber, Weis-Regeln */}
               {showDifficulty && (
-                <span className="px-3 py-1 bg-gray-700 text-gray-200 rounded-full font-medium">
+                <span className="px-3 py-1 bg-[#f0eee7] text-[#88816d] text-[12px] font-inter font-medium rounded-full">
                   {difficultyLabel}
                 </span>
               )}
@@ -153,8 +144,8 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
           </header>
 
           {/* Artikel-Inhalt */}
-          <article className="prose prose-lg sm:prose-xl max-w-none prose-invert">
-            <div className="content-formatting text-gray-200">
+          <article className="content-formatting max-w-none">
+            <div className="content-formatting text-black">
               <InternalLinker text={contentItem.text} />
             </div>
           </article>
@@ -167,66 +158,13 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
             />
           )}
 
-          {/* Quellen */}
-          {contentItem.sources && contentItem.sources.length > 0 && (
-            <div className="pt-6 mt-6 border-t border-gray-700">
-              <h3 className="text-lg font-semibold text-white mb-3">Quellen</h3>
-              <ul className="space-y-2">
-                {contentItem.sources.map((source: any, idx: number) => (
-                  <li key={idx} className="text-sm text-gray-300">
-                    <a 
-                      href={source.url} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-green-400 hover:text-green-300 underline"
-                    >
-                      {source.title}
-                    </a>
-                    {source.type && (
-                      <span className="ml-2 text-gray-500">({source.type})</span>
-                    )}
-                    {source.accessed && (
-                      <span className="ml-2 text-gray-500 text-xs">
-                        Abgerufen: {source.accessed}
-                      </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          {/* Quelle (Legacy) */}
-          {contentItem.metadata.source && (
-            <div className="pt-4 text-sm text-gray-400 italic">
-              Quelle: {contentItem.metadata.source}
-            </div>
-          )}
-
-          {/* Navigation Footer */}
-          <footer className="pt-8 border-t border-gray-600">
-            <div className="flex flex-col sm:flex-row gap-4 justify-between">
-              <a 
-                href={`/${categorySlug}/${subcategorySlug}`}
-                className="inline-flex items-center px-4 py-2 text-gray-300 hover:text-green-400 transition-colors"
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                Zurück zu {subcategory}
-              </a>
-              
-              <a 
-                href="/gpt"
-                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-yellow-600 text-white rounded-lg hover:from-green-700 hover:to-yellow-700 transition-all font-medium text-center shadow-lg"
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a8.959 8.959 0 01-4.906-1.456L3 21l2.456-5.094A8.959 8.959 0 013 12c0-4.418 3.582-8 8-8s8 3.582 8 8z" />
-                </svg>
-                Frage den JassWiki Chat
-              </a>
-            </div>
-          </footer>
+          {/* Chat-Prompt — Penpot: Inter 14px, zentriert, #88816d, Link rot+underline */}
+          <div className="text-center py-[16px]">
+            <p className="font-inter text-[14px] font-normal text-[#88816d] leading-[1.4286]">
+              Hast du weitere Fragen? Nutze unseren{' '}
+              <Link href="/gpt/" className="text-[#ff0000] underline">JassWiki Chat</Link>.
+            </p>
+          </div>
 
           {/* SIEHE AUCH - Explizite Empfehlungen */}
           {contentItem.see_also && contentItem.see_also.length > 0 && (
@@ -241,60 +179,8 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
             currentArticleId={contentItem.id}
             currentCategory={contentItem.metadata.category.main}
             currentKeywords={contentItem.metadata.keywords}
-            maxResults={6}
+            maxResults={4}
           />
-
-          {/* QUELLEN SEKTION */}
-          {contentItem.metadata.source && (
-            <div className="mt-10 pt-6 border-t border-gray-700">
-              <div className="bg-gray-800/50 rounded-lg p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0">
-                    <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-white mb-2">Quelle</h3>
-                    <p className="text-gray-300 text-sm mb-3">
-                      <strong>Basierend auf:</strong> {contentItem.metadata.source}
-                    </p>
-                    <Link 
-                      href="/referenzen"
-                      className="inline-flex items-center text-green-400 hover:text-green-300 text-sm font-medium"
-                    >
-                      Alle Referenzen anzeigen
-                      <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* APP-CTA SEKTION */}
-          <div className="mt-12 pt-8 border-t border-gray-600">
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-xl p-6 sm:p-8 text-center">
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">
-                Bereit zum Jassen?
-              </h3>
-              <p className="text-green-100 mb-6 text-base sm:text-lg">
-                Nutze dein Wissen in der digitalen Jasstafel! Spiele mit Freunden und führe Statistiken.
-              </p>
-              <div className="flex justify-center">
-                <a 
-                  href="https://jassguru.ch"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-green-600 rounded-lg hover:bg-gray-100 transition-colors duration-200 font-bold text-lg sm:text-xl min-h-[56px] shadow-lg hover:shadow-xl transform hover:scale-105"
-                >
-                  Jetzt Jassgruppe gründen
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </LexikonLayout>
     </>

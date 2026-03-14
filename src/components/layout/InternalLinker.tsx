@@ -49,44 +49,46 @@ interface InternalLinkerProps {
 }
 
 /**
- * Konvertiert technische Verweise zu Markdown-Links
- * Pattern: "Stapel (siehe Begriff "expressions_stapel")"
- * Wird zu: "[Stapel](/begriffe/grundbegriffe/stapel)"
- * 
- * WICHTIG: Matcht nur das letzte Wort direkt vor der Klammer!
+ * Konvertiert alle (siehe Begriff "id") Muster zu Markdown-Links.
+ *
+ * Drei Fälle werden behandelt:
+ *  1. "Zitierter Text" (siehe Begriff "id")  → [Zitierter Text](/pfad/)
+ *  2.  deutsches Wort (auch Umlaute) (siehe Begriff "id") → [Wort](/pfad/)
+ *  3.  (siehe Begriff "id") ohne Kontext → [Artikeltitel](/pfad/)
  */
 function convertReferencesToLinks(text: string): string {
-  // Pattern: Nur das letzte Wort direkt vor "(siehe Begriff "id")"
-  // \b = Wortgrenze, \w+ = komplettes Wort, \s* = optional Leerzeichen, dann Klammer
-  const referencePattern = /(\b\w+)\s*\(siehe Begriff\s+"([^"]+)"\)/gi;
-  
-  return text.replace(referencePattern, (match, term, refId) => {
-    try {
-      // Versuche aus linkMap die URL zu finden
-      const lowerTerm = term.toLowerCase().trim();
-      const linkPath = linkMap.get(lowerTerm);
-      
-      if (linkPath) {
-        // URL gefunden in linkMap
-        return `[${term}](${linkPath})`;
-      }
-      
-      // Fallback: Versuche mit buildCanonicalURL (nutzt idLinkMap)
-      // Wir müssen die Kategorie raten - verwende "Begriffe" als Default
-      const categoryMain = 'Begriffe'; // Default
-      const categorySub = 'allgemeines'; // Default
-      
-      const fullUrl = buildCanonicalURL(categoryMain, categorySub, refId);
-      // Konvertiere absolute URL zu relativer URL
-      const relativeUrl = fullUrl.replace('https://jasswiki.ch', '');
-      
-      return `[${term}](${relativeUrl})`;
-    } catch (error) {
-      console.warn(`⚠️  Fehler bei Link-Konvertierung: "${term}" (${refId})`, error);
-      // Behalte Original bei Fehler
-      return match;
-    }
-  });
+  const resolve = (refId: string): string | null =>
+    idLinkMap.get(refId.toLowerCase()) ?? null;
+
+  const titleFor = (path: string): string | null => {
+    for (const [name, p] of linkMap) if (p === path) return name;
+    return null;
+  };
+
+  // 1. «Guillemet-Text» oder "Anführungstext" (siehe Begriff "id")
+  text = text.replace(/[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, display, refId) => {
+      const path = resolve(refId) ?? linkMap.get(display.toLowerCase()) ?? null;
+      return path ? `[${display}](${path})` : `"${display}"`;
+    });
+
+  // 2. Deutsches Wort (inkl. Umlaute, Bindestrich) vor (siehe Begriff "id")
+  text = text.replace(/([a-zA-ZäöüÄÖÜß][a-zA-ZäöüÄÖÜß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, term, refId) => {
+      const path = linkMap.get(term.toLowerCase()) ?? resolve(refId);
+      return path ? `[${term}](${path})` : term;
+    });
+
+  // 3. Verbleibende (siehe Begriff "id") ohne vorherigen Link-Text
+  text = text.replace(/\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, refId) => {
+      const path = resolve(refId);
+      if (!path) return '';
+      const title = titleFor(path);
+      return title ? `[${title}](${path})` : `[mehr](${path})`;
+    });
+
+  return text;
 }
 
 /**

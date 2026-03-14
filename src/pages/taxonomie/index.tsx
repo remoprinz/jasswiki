@@ -15,7 +15,6 @@ import {
   getTaxonomyStats,
   getAllTermsWithWikidata,
   type TaxonomyCategory,
-  type TaxonomyTerm,
 } from '@/data/jass-taxonomy';
 
 // ============================================================================
@@ -77,77 +76,81 @@ const CategorySection: React.FC<{ category: TaxonomyCategory }> = ({ category })
   const [isExpanded, setIsExpanded] = useState(true);
 
   return (
-    <div className="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden mb-6">
+    <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] overflow-hidden mb-6">
       {/* Header */}
       <div 
-        className="bg-gray-900 p-4 cursor-pointer flex items-center justify-between"
+        className="bg-[#f0eee7] p-4 cursor-pointer flex items-center justify-between hover:bg-[#e8e6df] transition-colors"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div className="flex-1">
           <div className="flex items-center gap-3 flex-wrap">
-            <h2 className="text-xl font-bold text-white">{category.name}</h2>
+            <h2 className="!font-capita text-[24px] sm:text-[28px] !font-bold !text-black leading-[1.2]">
+              {category.name}
+            </h2>
             {category.wikidataId && (
               <a 
                 href={`https://www.wikidata.org/wiki/${category.wikidataId}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 py-0.5 bg-green-600 text-white rounded text-xs font-bold hover:bg-green-500"
+                className="px-2 py-0.5 bg-[#274823]/10 text-[#274823] rounded text-xs font-bold hover:bg-[#274823]/20 transition-colors"
                 onClick={(e) => e.stopPropagation()}
               >
                 {category.wikidataId}
               </a>
             )}
           </div>
-          <p className="text-sm text-gray-400 mt-1">{category.description}</p>
+          <p className="text-sm text-[#5f5b53] mt-1">{category.description}</p>
         </div>
-        <span className="text-gray-400 ml-2">
+        <span className="text-[#6b6b6b] ml-2">
           {isExpanded ? <ChevronDown className="w-5 h-5" /> : <ChevronRight className="w-5 h-5" />}
         </span>
       </div>
 
       {/* Content */}
       {isExpanded && (
-        <div className="p-4 space-y-4">
+        <div className="p-4 space-y-4 bg-white">
           {category.subcategories.map((sub, subIdx) => (
-            <div key={subIdx} className="border-l-2 border-green-600 pl-4">
-              <h3 className="text-lg font-semibold text-green-400 mb-1">{sub.name}</h3>
+            <div key={subIdx} className="border-l-2 border-[#d5d0c6] pl-4">
+              <h3 className="!font-capita text-[22px] sm:text-[24px] !font-bold !text-[#ff0000] mb-1 leading-[1.2]">
+                {sub.name}
+              </h3>
               {sub.description && (
-                <p className="text-sm text-gray-500 mb-3">{sub.description}</p>
+                <p className="text-sm text-[#5f5b53] mb-3">{sub.description}</p>
               )}
               <div className="overflow-x-auto">
                 <table className="w-full">
                   <thead>
-                    <tr className="border-b border-gray-700">
-                      <th className="text-left py-2 px-2 text-sm font-semibold text-gray-300">Begriff</th>
-                      <th className="text-left py-2 px-2 text-sm font-semibold text-gray-300 hidden sm:table-cell">Beschreibung</th>
-                      <th className="text-center py-2 px-2 text-sm font-semibold text-gray-300 w-28">Wikidata</th>
+                    <tr className="border-b border-[#e8e6df]">
+                      <th className="text-left py-2 px-2 text-sm font-semibold text-black">Begriff</th>
+                      <th className="text-left py-2 px-2 text-sm font-semibold text-black hidden sm:table-cell">Beschreibung</th>
+                      <th className="text-center py-2 px-2 text-sm font-semibold text-black w-28">Wikidata</th>
                     </tr>
                   </thead>
                   <tbody>
                     {sub.items.map((item, itemIdx) => (
-                      <tr key={itemIdx} className="border-b border-gray-700/50 hover:bg-gray-700/30">
-                        <td className="py-2 px-2 text-white font-medium">
+                      <tr key={itemIdx} className="border-b border-[#f0eee7] hover:bg-[#f8f7f3] transition-colors">
+                        <td className="py-2 px-2 text-black font-medium">
                           {item.link ? (
-                            <a href={item.link} className="text-green-400 hover:text-green-300 underline">
+                            <a href={item.link} className="text-[#274823] hover:text-[#ff0000] underline transition-colors">
                               {item.name}
                             </a>
                           ) : (
                             item.name
                           )}
                         </td>
-                        <td className="py-2 px-2 text-gray-400 text-sm hidden sm:table-cell">{item.description}</td>
+                        <td className="py-2 px-2 text-[#5f5b53] text-sm hidden sm:table-cell">{item.description}</td>
                         <td className="py-2 px-2 text-center">
                           {item.wikidataId ? (
                             <a 
                               href={`https://www.wikidata.org/wiki/${item.wikidataId}`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-green-400 hover:text-green-300 text-xs font-mono"
+                              className="text-[#274823] hover:text-[#ff0000] text-xs font-mono transition-colors"
                             >
                               {item.wikidataId}
                             </a>
                           ) : (
-                            <span className="text-gray-500">–</span>
+                            <span className="text-[#9a9588]">–</span>
                           )}
                         </td>
                       </tr>
@@ -207,42 +210,42 @@ const TaxonomiePage = () => {
         <div className="space-y-8">
           
           {/* Header */}
-          <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+          <div className="text-left">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4">
               Taxonomie des Jassens
             </h1>
-            <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-black leading-relaxed max-w-2xl">
               Die systematische Ordnung aller Jass-Begriffe
             </p>
-            <p className="text-sm text-gray-500 mt-2">
+            <p className="text-sm text-[#5f5b53] mt-2">
               Version {TAXONOMY_METADATA.version} • Stand: {TAXONOMY_METADATA.lastUpdated}
             </p>
           </div>
 
           {/* Statistiken */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-gray-800/50 border border-gray-700 rounded-xl p-4 text-center">
-              <div className="text-3xl font-bold text-white">{stats.totalTerms}</div>
-              <div className="text-gray-300 text-sm">Begriffe gesamt</div>
+            <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4 text-center">
+            <div className="text-3xl font-bold text-[#ff0000]">{stats.totalTerms}</div>
+            <div className="text-black text-sm">Begriffe gesamt</div>
             </div>
-            <div className="bg-gray-800/50 border border-gray-700 rounded-xl p-4 text-center">
-              <div className="text-3xl font-bold text-white">{stats.categories}</div>
-              <div className="text-gray-300 text-sm">Hauptkategorien</div>
+            <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4 text-center">
+            <div className="text-3xl font-bold text-[#ff0000]">{stats.categories}</div>
+            <div className="text-black text-sm">Hauptkategorien</div>
             </div>
-            <div className="bg-green-600/20 border border-green-600 rounded-xl p-4 text-center">
-              <div className="text-3xl font-bold text-green-400">{stats.termsWithWikidata}</div>
-              <div className="text-green-200 text-sm">Mit Wikidata-ID</div>
+            <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4 text-center">
+              <div className="text-3xl font-bold text-[#274823]">{stats.termsWithWikidata}</div>
+              <div className="text-black text-sm">Mit Wikidata-ID</div>
             </div>
-            <div className="bg-blue-600/20 border border-blue-600 rounded-xl p-4 text-center">
-              <div className="text-3xl font-bold text-blue-400">{stats.wikidataCoverage}%</div>
-              <div className="text-blue-200 text-sm">Wikidata-Abdeckung</div>
+            <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4 text-center">
+              <div className="text-3xl font-bold text-[#274823]">{stats.wikidataCoverage}%</div>
+              <div className="text-black text-sm">Wikidata-Abdeckung</div>
             </div>
           </div>
 
           {/* Maschinenlesbare Daten Hinweis */}
-          <div className="bg-gradient-to-r from-purple-900/50 to-blue-900/50 border border-purple-500/50 rounded-xl p-4">
-            <h3 className="text-lg font-bold text-white mb-2">Maschinenlesbare Daten</h3>
-            <p className="text-gray-300 text-sm mb-3">
+          <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4">
+            <h3 className="!text-black text-lg font-bold mb-2">Maschinenlesbare Daten</h3>
+            <p className="text-black text-sm mb-3">
               Diese Taxonomie ist als strukturierte Daten verfügbar für Suchmaschinen, KI-Agenten und das Semantic Web:
             </p>
             <div className="flex flex-wrap gap-2">
@@ -250,7 +253,7 @@ const TaxonomiePage = () => {
                 href="/dataset/taxonomie.jsonld"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-1.5 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors text-sm font-medium"
+                className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#274823] text-white rounded-lg hover:brightness-110 transition-colors text-sm font-medium"
               >
                 <ExternalLink className="w-4 h-4" />
                 JSON-LD (Schema.org)
@@ -259,7 +262,7 @@ const TaxonomiePage = () => {
                 href="/llms.txt"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium"
+                className="inline-flex items-center gap-2 px-3 py-1.5 bg-white text-[#5f5b53] rounded-lg hover:bg-[#f0eee7] hover:text-black transition-colors text-sm font-medium border border-[#e8e6df]"
               >
                 <ExternalLink className="w-4 h-4" />
                 llms.txt (AI-Access)
@@ -268,7 +271,7 @@ const TaxonomiePage = () => {
                 href="/dataset/jasswiki-corpus.jsonl"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium"
+                className="inline-flex items-center gap-2 px-3 py-1.5 bg-white text-[#5f5b53] rounded-lg hover:bg-[#f0eee7] hover:text-black transition-colors text-sm font-medium border border-[#e8e6df]"
               >
                 <ExternalLink className="w-4 h-4" />
                 Training Corpus (JSONL)
@@ -277,14 +280,14 @@ const TaxonomiePage = () => {
           </div>
 
           {/* Hauptstruktur Navigation */}
-          <div className="bg-gray-900 rounded-xl p-4 mb-6">
-            <h2 className="text-lg font-bold text-white mb-3">Die {stats.categories} Hauptkategorien</h2>
+          <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-4 mb-6">
+            <h2 className="!text-black text-lg font-bold mb-3">Die {stats.categories} Hauptkategorien</h2>
             <div className="flex flex-wrap gap-2">
               {JASS_TAXONOMY.map((cat) => (
                 <a 
                   key={cat.id}
                   href={`#${cat.id}`}
-                  className="px-3 py-1 bg-gray-700 text-gray-300 rounded-lg hover:bg-gray-600 transition-colors text-sm"
+                  className="px-3 py-1 bg-white border border-[#e8e6df] text-black rounded-lg hover:bg-[#f0eee7] transition-colors text-sm"
                 >
                   {cat.name}
                 </a>
@@ -300,18 +303,18 @@ const TaxonomiePage = () => {
           ))}
 
           {/* Wikidata-Referenz */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-6">
-            <h3 className="text-xl font-bold text-white mb-3">Wikidata-Verknüpfung</h3>
-            <p className="text-blue-100 mb-4">
+          <div className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-6">
+            <h3 className="!text-black text-xl font-bold mb-3">Wikidata-Verknüpfung</h3>
+            <p className="text-black mb-4">
               Diese Taxonomie ist mit Wikidata verknüpft, um eine systematische Strukturierung der Jass-Begriffe im Semantic Web zu ermöglichen.
-              JassWiki.ch ist als Referenzquelle im <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Wikipedia-Artikel Jass</a> verlinkt.
+              JassWiki.ch ist als Referenzquelle im <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="underline text-[#274823] hover:text-[#ff0000]">Wikipedia-Artikel Jass</a> verlinkt.
             </p>
             <div className="flex flex-wrap gap-3">
               <a 
                 href={`https://www.wikidata.org/wiki/${WIKIDATA.JASS}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors font-bold text-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white text-[#274823] rounded-lg border border-[#e8e6df] hover:bg-[#f0eee7] transition-colors font-bold text-sm"
               >
                 <ExternalLink className="w-4 h-4" />
                 Jass ({WIKIDATA.JASS})
@@ -320,7 +323,7 @@ const TaxonomiePage = () => {
                 href={`https://www.wikidata.org/wiki/${WIKIDATA.JASS_CONTRACT}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-colors font-bold text-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white text-[#274823] rounded-lg border border-[#e8e6df] hover:bg-[#f0eee7] transition-colors font-bold text-sm"
               >
                 <ExternalLink className="w-4 h-4" />
                 Jass contract ({WIKIDATA.JASS_CONTRACT})
@@ -329,7 +332,7 @@ const TaxonomiePage = () => {
                 href="https://www.wikidata.org/wiki/Q137727247"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-colors font-bold text-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white text-[#274823] rounded-lg border border-[#e8e6df] hover:bg-[#f0eee7] transition-colors font-bold text-sm"
               >
                 <ExternalLink className="w-4 h-4" />
                 Schieber (Q137727247)
@@ -338,22 +341,22 @@ const TaxonomiePage = () => {
           </div>
 
           {/* Quellen */}
-          <div className="bg-gray-800 border border-gray-700 rounded-xl p-4">
-            <h3 className="text-lg font-bold text-white mb-3">Quellen</h3>
-            <ul className="text-gray-300 text-sm space-y-1">
+          <div className="bg-[#f0eee7] border border-[#f0eee7] rounded-xl p-4">
+            <h3 className="text-lg font-bold text-black mb-3">Quellen</h3>
+            <ul className="text-black text-sm space-y-1">
               <li>• Schweizerisches Idiotikon, Band III, Sp. 69 f.</li>
-              <li>• <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300">Wikipedia: Jass</a> (JassWiki.ch als Einzelnachweis)</li>
-              <li>• <a href="https://jasswiki.ch" className="text-green-400 hover:text-green-300">Jasswiki.ch</a> – 257 Artikel</li>
-              <li>• <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300">Lebendige Traditionen der Schweiz (BAK)</a></li>
-              <li>• Expertenbericht: "Jass-Ontologie & Gap-Analyse" (2026)</li>
+              <li>• <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Wikipedia: Jass</a> (JassWiki.ch als Einzelnachweis)</li>
+              <li>• <a href="https://jasswiki.ch" className="text-[#274823] hover:text-[#2bb752]">Jasswiki.ch</a> – 257 Artikel</li>
+              <li>• <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Lebendige Traditionen der Schweiz (BAK)</a></li>
+              <li>• Expertenbericht: &ldquo;Jass-Ontologie &amp; Gap-Analyse&rdquo; (2026)</li>
             </ul>
           </div>
 
           {/* Zurück */}
-          <div className="text-center pt-8 border-t border-gray-700">
+          <div className="text-center pt-8 border-t border-[#f0eee7]">
             <Link 
               href="/"
-              className="inline-flex items-center px-6 py-3 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 hover:text-white transition-colors font-medium border border-gray-600"
+              className="inline-flex items-center px-6 py-3 bg-[#f0eee7] text-black rounded-lg hover:bg-[#e8e6df] hover:text-black transition-colors font-medium border border-[#f0eee7]"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

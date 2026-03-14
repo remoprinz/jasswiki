@@ -1,5 +1,6 @@
 import React from 'react';
 import { GetStaticProps, NextPage } from 'next';
+import Link from 'next/link';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { SeoHead } from '@/components/layout/SeoHead';
 
@@ -47,11 +48,11 @@ const SourcesPage: NextPage = () => {
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           {/* Header */}
-          <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+          <div className="text-left">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4">
               Quellen und Referenzen
             </h1>
-            <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-black leading-relaxed max-w-2xl">
               Die Grundlage für unser Jass-Wiki bilden diese vertrauenswürdigen Quellen
             </p>
           </div>
@@ -59,39 +60,29 @@ const SourcesPage: NextPage = () => {
           {/* Sources Grid */}
           <div className="grid gap-6 sm:gap-8">
             {sources.map((source, index) => (
-              <div key={index} className="bg-gray-800 border border-gray-700 rounded-xl p-6 sm:p-8">
-                <div className="flex flex-col sm:flex-row sm:items-start gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">{index + 1}</span>
-                    </div>
+              <div key={index} className="bg-[#f8f7f3] border border-[#e8e6df] rounded-[12px] p-6 sm:p-8">
+                <div className="space-y-4">
+                  <div className="flex items-center">
+                    <h3 className="text-xl sm:text-2xl font-bold !text-black leading-tight">
+                      {source.title}
+                    </h3>
                   </div>
-
-                  <div className="flex-1 space-y-3">
-                    <div>
-                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
-                        {source.title}
-                      </h3>
-                      <div className="text-sm text-gray-400 space-y-1">
-                        <p><strong>Autor:</strong> {source.author}</p>
-                        <p><strong>Typ:</strong> {source.type}</p>
-                        <p><strong>Datum:</strong> {source.date}</p>
-                      </div>
-                    </div>
-
-                    <div>
-                      <h4 className="font-semibold text-green-400 mb-2">Beschreibung</h4>
-                      <p className="text-gray-300 leading-relaxed">
-                        {source.description}
-                      </p>
-                    </div>
-
-                    <div>
-                      <h4 className="font-semibold text-green-400 mb-2">Verwendung bei Jassguru</h4>
-                      <p className="text-gray-300 leading-relaxed">
-                        {source.usage}
-                      </p>
-                    </div>
+                  <div className="text-sm text-[#5f5b53] space-y-1">
+                    <p><strong>Autor:</strong> {source.author}</p>
+                    <p><strong>Typ:</strong> {source.type}</p>
+                    <p><strong>Datum:</strong> {source.date}</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold !text-black mb-2">Beschreibung</h4>
+                    <p className="text-black leading-relaxed">
+                      {source.description}
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold !text-black mb-2">Verwendung bei JassWiki</h4>
+                    <p className="text-black leading-relaxed">
+                      {source.usage}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -99,14 +90,14 @@ const SourcesPage: NextPage = () => {
           </div>
 
           {/* Additional Info */}
-          <div className="bg-gray-800 border border-gray-700 rounded-xl p-6 sm:p-8">
-            <h3 className="text-xl font-bold text-white mb-4">Hinweis zur Quellenverwendung</h3>
-            <div className="text-gray-300 leading-relaxed space-y-3">
+          <div className="bg-[#f0eee7] border border-[#f0eee7] rounded-xl p-6 sm:p-8">
+            <h3 className="text-xl font-bold !text-black mb-4">Hinweis zur Quellenverwendung</h3>
+            <div className="text-black leading-relaxed space-y-3">
               <p>
                 Die Inhalte auf Jassguru.ch basieren auf diesen etablierten Quellen, wurden jedoch für eine bessere
                 digitale Erfahrung neu strukturiert und formatiert. Dabei haben wir:
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4">
+              <ul className="list-disc list-inside space-y-1 text-black ml-4">
                 <li>Komplexe Sachverhalte in übersichtliche Abschnitte gegliedert</li>
                 <li>Strukturierte Listen für bessere Lesbarkeit erstellt</li>
                 <li>SEO-optimierte Formatierung für Suchmaschinen hinzugefügt</li>
@@ -119,16 +110,16 @@ const SourcesPage: NextPage = () => {
           </div>
 
           {/* Back Button */}
-          <div className="text-center pt-8 border-t border-gray-700">
-            <a
+          <div className="text-center pt-8 border-t border-[#f0eee7]">
+            <Link
               href="/referenzen"
-              className="inline-flex items-center px-6 py-3 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 hover:text-white transition-colors font-medium border border-gray-600"
+              className="inline-flex items-center px-6 py-3 bg-[#f0eee7] text-black rounded-lg hover:bg-[#e8e6df] hover:text-black transition-colors font-medium border border-[#f0eee7]"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
               Zurück zu Referenzen
-            </a>
+            </Link>
           </div>
         </div>
       </LexikonLayout>

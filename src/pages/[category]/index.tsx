@@ -8,27 +8,6 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { SeoHead } from '@/components/layout/SeoHead';
 
-// Funktion zur schönen Formatierung von Topic-Namen
-const formatTopicName = (name: string): string => {
-  return name
-    .replace(/ACHTBLATT/g, 'Achtblatt')
-    .replace(/NEUNBLATT/g, 'Neunblatt')
-    .replace(/DREIBLATT/g, 'Dreiblatt')
-    .replace(/VIERBLATT/g, 'Vierblatt')
-    .replace(/FUENFBLATT/g, 'Fünfblatt')
-    .replace(/SECHSBLATT/g, 'Sechsblatt')
-    .replace(/SIEBENBLATT/g, 'Siebenblatt')
-    .replace(/VIER_GLEICHE/g, 'Vier gleiche')
-    .replace(/GRUNDREGELN/g, 'Grundregeln')
-    .replace(/REIHENFOLGE/g, 'Reihenfolge')
-    .replace(/SCHNEIDER/g, 'Schneider')
-    .replace(/KORREKTUREN/g, 'Korrekturen')
-    .replace(/ZAHLENDARSTELLUNG/g, 'Zahlendarstellung')
-    .replace(/FRUEHZEITIGES_BEDANKEN/g, 'Frühzeitiges Bedanken')
-    .replace(/BEDANKEN/g, 'Bedanken')
-    .replace(/STOECK/g, 'Stöck');
-};
-
 // Helper to get subcategories for a specific category
 const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: string): Array<{name: string, slug: string, count: number}> => {
   const subcategories = new Map<string, number>();
@@ -54,14 +33,6 @@ const getArticlesForCategory = (content: JassContentRecord, categorySlug: string
   return (Object.values(content) as JassContentItem[])
     .filter(item => toSlug(item.metadata.category.main) === categorySlug)
     .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
-};
-
-// Helper to deslugify
-const deslugify = (slug: string): string => {
-  return slug
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
 };
 
 interface CategoryPageProps {
@@ -123,11 +94,11 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
       />
       <div className="space-y-6 sm:space-y-8">
         {/* Category Header */}
-        <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+        <div>
+          <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
             {categorySlug === 'regeln' ? 'Jassregeln' : category}
           </h1>
-          <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
+          <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
             {isFlat 
               ? `${articles.length} ${articles.length === 1 ? 'Variante' : 'Varianten'} alphabetisch sortiert`
               : `${subcategories.length} ${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
@@ -144,7 +115,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 <a
                   key={letter}
                   href={`#letter-${letter}`}
-                  className="px-3 py-1 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 hover:text-white transition-colors text-sm font-medium"
+                  className="px-3 py-1 bg-[#f0eee7] text-[#88816d] rounded-lg hover:bg-[#e8e6df] hover:text-black transition-colors text-sm font-medium"
                 >
                   {letter}
                 </a>
@@ -172,30 +143,30 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 return (
                   <React.Fragment key={article.id}>
                     {showLetter && (
-                      <h2 id={`letter-${firstLetter}`} className="text-2xl font-bold text-white mt-6 mb-2 pt-4 border-t border-gray-700">
+                      <h2 id={`letter-${firstLetter}`} className="text-2xl font-bold text-[#ff0000] mt-6 mb-2 pt-4 border-t border-[#f0eee7]">
                         {firstLetter}
                       </h2>
                     )}
                     <Link href={articleUrl} className="group block">
-                      <div className="bg-gray-800 border border-gray-700 rounded-xl hover:border-green-500 hover:shadow-xl transition-all duration-300 p-5 sm:p-6 hover:scale-[1.01]">
+                      <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors p-[14px] sm:p-[16px]">
                         <div className="flex items-start gap-4">
                           <div className="flex-1 min-w-0">
-                            <div className="flex items-center gap-2 mb-2">
-                              <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                            <div className="flex items-center gap-2 mb-[6px]">
+                              <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3]">
                                 {article.metadata.category.topic}
                               </h3>
                               {subcategoryTag && (
-                                <span className="px-2 py-1 bg-blue-600 text-white rounded-full text-xs font-medium">
+                                <span className="px-2 py-[2px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full flex-shrink-0">
                                   {subcategoryTag}
                                 </span>
                               )}
                             </div>
-                            <p className="text-base text-gray-300 line-clamp-2">
+                            <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
                               {preview}...
                             </p>
                           </div>
-                          <div className="flex-shrink-0 text-green-400 group-hover:translate-x-1 transition-transform">
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
                           </div>
@@ -218,23 +189,23 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 href={`/${categorySlug}/${subcategory.slug}/`}
                 className="group block"
               >
-                <div className="bg-gray-800 border border-gray-700 rounded-xl hover:border-green-500 hover:shadow-xl transition-all duration-300 p-6 sm:p-8 hover:scale-[1.02]">
+                <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">
                   <div className="flex items-center justify-between">
                     <div className="flex-1">
-                      <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-green-400 transition-colors">
+                      <div className="flex items-center gap-[10px] mb-[6px]">
+                        <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3]">
                           {subcategory.name}
                         </h3>
-                        <span className="px-2 py-1 bg-green-600 text-white rounded-full text-xs font-medium">
-                          {subcategory.count} {subcategory.count === 1 ? 'Artikel' : 'Artikel'}
+                        <span className="px-[8px] py-[2px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full flex-shrink-0">
+                          {subcategory.count} Artikel
                         </span>
                       </div>
-                      <p className="text-base sm:text-lg text-gray-300">
+                      <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">
                         Alle Artikel über {subcategory.name} im Detail
                       </p>
                     </div>
-                    <div className="ml-4 text-green-400 group-hover:translate-x-1 transition-transform">
-                      <svg className="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="ml-4 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all flex-shrink-0">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
@@ -246,10 +217,10 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
         )}
 
         {/* Back to Overview Link */}
-        <div className="text-center pt-8 border-t border-gray-700">
+        <div className="text-center pt-8 border-t border-[#f0eee7]">
           <Link 
             href="/"
-            className="inline-flex items-center px-6 py-3 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 hover:text-white transition-colors font-medium border border-gray-600"
+            className="inline-flex items-center px-6 py-3 bg-[#f0eee7] text-black rounded-lg hover:bg-[#e8e6df] hover:text-black transition-colors font-medium border border-[#f0eee7]"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

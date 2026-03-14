@@ -53,7 +53,7 @@ const DatenschutzPage = () => {
         
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">3. Externe Services</h2>
         <p className="mb-4 text-gray-300">
-          <strong>JassWiki Chat (GPT):</strong> Falls Sie JassWiki als ChatGPT nutzen (jasswiki.ch/gpt), 
+          <strong>JassWiki Chat (GPT):</strong> Falls du JassWiki als ChatGPT nutzt (jasswiki.ch/gpt), 
           gelten die Datenschutzbestimmungen von OpenAI/ChatGPT. JassWiki hat keinen Einfluss darauf und erfasst keine Daten aus diesen Chats.
         </p>
 
@@ -62,9 +62,9 @@ const DatenschutzPage = () => {
           <strong>Website-Hosting:</strong> Die JassWiki Webseite wird auf Servern von <strong>Hostpoint</strong> in der <strong>Schweiz</strong> gehostet.
         </p>
         <p className="mb-4 text-gray-300">
-          <strong>Backend-Services (optional):</strong> Falls Sie die Suchfunktion nutzen, werden Suchanfragen über 
+          <strong>Backend-Services (optional):</strong> Falls du die Suchfunktion nutzt, werden Suchanfragen über 
           <strong>Google Firebase</strong> (Region Belgien/EU) und <strong>Pinecone</strong> (USA) verarbeitet. 
-          Diese Anfragen werden nicht mit Ihrer IP-Adresse oder anderen Identifikationsmerkmalen verknüpft und nicht dauerhaft gespeichert.
+          Diese Anfragen werden nicht mit deiner IP-Adresse oder anderen Identifikationsmerkmalen verknüpft und nicht dauerhaft gespeichert.
         </p>
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">5. Cookies</h2>
@@ -72,19 +72,19 @@ const DatenschutzPage = () => {
           JassWiki verwendet <strong>keine Cookies</strong> – weder für Tracking noch für Analyse noch für andere Zwecke.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-3 text-white mt-8">6. Ihre Rechte</h2>
+        <h2 className="text-2xl font-semibold mb-3 text-white mt-8">6. Deine Rechte</h2>
         <p className="mb-4 text-gray-300">
           Da JassWiki keine personenbezogenen Daten erfasst, gibt es keine Daten, die angefragt, berichtigt oder gelöscht werden können.
         </p>
         <p className="mb-4 text-gray-300">
-          Bei Fragen zum Datenschutz können Sie sich jederzeit per E-Mail an <a href="mailto:remo@jasswiki.ch" className="text-green-400 hover:text-green-300 underline">remo@jasswiki.ch</a> wenden.
+          Bei Fragen zum Datenschutz kannst du dich jederzeit per E-Mail an <a href="mailto:remo@jasswiki.ch" className="text-green-400 hover:text-green-300 underline">remo@jasswiki.ch</a> wenden.
         </p>
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">7. Änderungen dieser Datenschutzerklärung</h2>
         <p className="mb-4 text-gray-300">
           Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht 
           oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen. 
-          Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
+          Für deinen erneuten Besuch gilt dann die neue Datenschutzerklärung.
         </p>
 
         <p className="mt-8 text-sm text-gray-500">Stand: November 2025</p>
