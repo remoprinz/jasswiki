@@ -19,12 +19,12 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
   }, []);
   
   return (
-    <nav className="flex" aria-label="Breadcrumb">
-      <ol className="inline-flex items-center gap-0">
+    <nav className="flex min-w-0" aria-label="Breadcrumb">
+      <ol className="inline-flex items-center gap-0 flex-wrap min-w-0">
         {!isJassWiki && (
           <li className="inline-flex items-center">
             <Link href="/" legacyBehavior>
-              <a className="inline-flex items-center text-[14px] leading-[1.4286] font-inter font-medium text-[#b5b5b5] hover:text-[#b5b5b5] transition-colors">
+                <a className="inline-flex items-center text-[14px] leading-[1.4286] font-inter font-medium text-[#b5b5b5] hover:text-[#b5b5b5] transition-colors whitespace-normal break-words">
                 Home
               </a>
             </Link>
@@ -37,7 +37,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
                 <ChevronRight className="h-4 w-4 text-[#b5b5b5] flex-shrink-0" />
               )}
               <Link href={item.href} legacyBehavior>
-                <a className={`${(!isJassWiki || index > 0) ? 'ml-[4px]' : ''} text-[14px] leading-[1.4286] font-inter font-medium transition-colors ${
+                <a className={`${(!isJassWiki || index > 0) ? 'ml-[4px]' : ''} text-[14px] leading-[1.4286] font-inter font-medium transition-colors whitespace-normal break-words ${
                   index === items.length - 1 
                     ? 'text-[#ff0000]' 
                     : 'text-[#b5b5b5] hover:text-[#b5b5b5]'

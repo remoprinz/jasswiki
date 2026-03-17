@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { Search, X } from 'lucide-react';
 import Link from 'next/link';
-import { buildArticleUrl } from '@/lib/url-utils';
+import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -117,6 +118,35 @@ export const SearchBar: React.FC = () => {
   const showDesktopOverlay = isDesktop && isOpen && query.length >= 2;
   const useActiveInputStyle = showDesktopOverlay || isFocused;
 
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+    if (showDesktopOverlay) {
+      document.body.classList.add('jw-search-active');
+    } else {
+      document.body.classList.remove('jw-search-active');
+    }
+    return () => {
+      document.body.classList.remove('jw-search-active');
+    };
+  }, [showDesktopOverlay]);
+
+  const getTagStyle = (category: string) => {
+    const slug = toSlug(category);
+    const colors: Record<string, string> = {
+      'regeln': '#ff0000',
+      'weis-regeln': '#ff7a1a',
+      'geschichte': '#f6b21a',
+      'grundlagen-kultur': '#2bb752',
+      'schieber': '#3b82f6',
+      'begriffe': '#6366f1',
+      'varianten': '#a855f7',
+      'jassapps': '#06b6d4',
+      'referenzen': '#6b7280',
+    };
+    const color = colors[slug] || '#274823';
+    return { borderColor: color, color };
+  };
+
   return (
     <div ref={searchRef} className="relative w-full">
       {/* Search Input — Penpot desktop: x=445, y=33, h=42, border #88816d */}
@@ -143,7 +173,10 @@ export const SearchBar: React.FC = () => {
       {/* Desktop overlay/search results — Penpot Home Suche */}
       {showDesktopOverlay && (
         <>
-          <div className="hidden lg:block fixed inset-0 bg-[#101d0e99] z-[40]" onClick={closeSearch} />
+          {typeof document !== 'undefined' && createPortal(
+            <div className="hidden lg:block fixed inset-0 search-overlay z-[40]" onClick={closeSearch} />,
+            document.body
+          )}
           <div className="hidden lg:block fixed left-[calc(50%-274px)] top-[112px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
             <div className="absolute left-[16px] top-[13px] w-[506px] text-[14px] leading-[1.55] font-inter font-normal text-[#88816d]">
               {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
@@ -162,7 +195,7 @@ export const SearchBar: React.FC = () => {
                     className="block px-[15px] pt-[13px] pb-[13px] transition-colors"
                     style={{ backgroundColor: hoveredId === result.id ? '#f0eee7' : 'white' }}
                   >
-                    <span className="inline-block mb-[5px] px-[8px] py-[3px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full">
+                    <span className="jw-article-tag mb-[5px]" style={getTagStyle(result.category)}>
                       {result.category}
                     </span>
                     <div
@@ -212,8 +245,10 @@ export const SearchBar: React.FC = () => {
                 className="block px-3 py-3 hover:bg-wiki-cream rounded-lg transition-colors"
               >
                 <div className="font-capita font-bold text-[16px] text-black mb-0.5">{result.title}</div>
-                <div className="text-[12px] text-wiki-green-tag font-inter font-medium mb-1 tracking-wide uppercase">
-                  {result.category}
+                <div className="mb-1">
+                  <span className="jw-article-tag" style={getTagStyle(result.category)}>
+                    {result.category}
+                  </span>
                 </div>
                 <div className="text-[13px] text-wiki-muted font-inter line-clamp-2 leading-relaxed">
                   {result.snippet}...

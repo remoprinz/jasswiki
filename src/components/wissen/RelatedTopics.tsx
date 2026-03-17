@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { buildArticleUrl } from '@/lib/url-utils';
+import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -25,6 +25,23 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
   currentKeywords,
   maxResults = 4
 }) => {
+  const getTagStyle = (category: string) => {
+    const slug = toSlug(category);
+    const colors: Record<string, string> = {
+      'regeln': '#ff0000',
+      'weis-regeln': '#ff7a1a',
+      'geschichte': '#f6b21a',
+      'grundlagen-kultur': '#2bb752',
+      'schieber': '#3b82f6',
+      'begriffe': '#6366f1',
+      'varianten': '#a855f7',
+      'jassapps': '#06b6d4',
+      'referenzen': '#6b7280',
+    };
+    const color = colors[slug] || '#274823';
+    return { borderColor: color, color };
+  };
+
   const findRelatedArticles = (): RelatedArticle[] => {
     const content: JassContentRecord = allContent;
     const items = Object.values(content) as JassContentItem[];
@@ -85,7 +102,7 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
               <h4 className="font-capita text-[17px] font-bold !text-black leading-[1.3] group-hover:!text-[#ff0000] transition-colors line-clamp-1">
                 {article.title}
               </h4>
-              <span className="flex-shrink-0 px-[8px] py-[3px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full">
+              <span className="jw-article-tag flex-shrink-0" style={getTagStyle(article.category)}>
                 {article.category}
               </span>
             </div>

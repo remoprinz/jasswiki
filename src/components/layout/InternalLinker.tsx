@@ -65,6 +65,15 @@ function convertReferencesToLinks(text: string): string {
     return null;
   };
 
+  // Spezifischer Content-Fix: alte Klammer-Referenz -> direkter externer Link
+  text = text.replace(
+    /Jassguru\.ch ist eine digitale Jasstafel\s*\(siehe Begriff\s+"jassapps_jasstafel_pro"\)/gi,
+    '[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel'
+  );
+
+  // Fallback: Domain immer klickbar machen (wenn noch als Plain-Text vorhanden)
+  text = text.replace(/(?<!\[)Jassguru\.ch(?!\]\()/g, '[Jassguru.ch](https://jassguru.ch)');
+
   // 1. «Guillemet-Text» oder "Anführungstext" (siehe Begriff "id")
   text = text.replace(/[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
     (_, display, refId) => {

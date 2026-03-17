@@ -192,11 +192,11 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">
                   <div className="flex items-center justify-between">
                     <div className="flex-1">
-                      <div className="flex items-center gap-[10px] mb-[6px]">
-                        <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3]">
+                      <div className="flex items-start justify-between gap-[12px] mb-[6px]">
+                        <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] pr-2">
                           {subcategory.name}
                         </h3>
-                        <span className="px-[8px] py-[2px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full flex-shrink-0">
+                        <span className="jw-count-tag flex-shrink-0 self-start">
                           {subcategory.count} Artikel
                         </span>
                       </div>

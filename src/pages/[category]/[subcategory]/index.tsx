@@ -172,6 +172,23 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
       5: 'Experte'
     }[contentItem.metadata.difficulty] || 'Mittel';
 
+    const getTagStyle = (label: string, fallbackColor: string = '#ff0000') => {
+      const slug = toSlug(label);
+      const colors: Record<string, string> = {
+        'regeln': '#ff0000',
+        'weis-regeln': '#ff7a1a',
+        'geschichte': '#f6b21a',
+        'grundlagen-kultur': '#2bb752',
+        'schieber': '#3b82f6',
+        'begriffe': '#6366f1',
+        'varianten': '#a855f7',
+        'jassapps': '#06b6d4',
+        'referenzen': '#6b7280',
+      };
+      const color = colors[slug] || fallbackColor;
+      return { borderColor: color, color };
+    };
+
     return (
       <>
         <SeoHead
@@ -199,19 +216,19 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
           <div className="space-y-6 sm:space-y-8">
             {/* Artikel-Header */}
             <header className="text-left pb-6 border-b border-[#f0eee7]">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
-                {subcategory}
-              </h1>
-              <div className="flex items-center justify-start gap-4 text-sm sm:text-base text-black flex-wrap">
-                <span className="px-3 py-1 bg-[#274823] text-white text-[12px] font-inter font-medium tracking-wide uppercase rounded-full">
+              <div className="jw-article-tags mb-[10px]">
+                <span className="jw-article-tag" style={getTagStyle(category, '#00aa2f')}>
                   {category}
                 </span>
                 {showDifficulty && (
-                  <span className="px-3 py-1 bg-[#f0eee7] text-[#88816d] rounded-full font-medium">
+                  <span className="jw-article-tag" style={getTagStyle('difficulty', '#2563eb')}>
                     {difficultyLabel}
                   </span>
                 )}
               </div>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
+                {subcategory}
+              </h1>
             </header>
 
             {/* Artikel-Inhalt */}

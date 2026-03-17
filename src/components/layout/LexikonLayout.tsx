@@ -178,15 +178,15 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
       <div className="hidden lg:block">
         <div className="relative w-[1440px] mx-auto">
           {/* Header Bar: x=140, y=15, w=1160, h=80 */}
-          <div className="absolute left-[140px] top-[15px] w-[1160px] h-[80px] rounded-[12px] bg-white z-30" />
+          <div className="jw-desktop-header-bar absolute left-[140px] top-[15px] w-[1160px] h-[80px] rounded-[12px] bg-white z-30" />
 
           {/* Logo: x=164, y=37, w=178, h=40 */}
-          <div className="absolute left-[164px] top-[37px] w-[178px] h-[40px] z-40">
+          <div className="jw-desktop-header-logo absolute left-[164px] top-[37px] w-[178px] h-[40px] z-40">
             <JassWikiLogo className="w-[178px] h-[40px]" />
           </div>
 
           {/* Search: x=445, y=33, w=831, h=42 */}
-          <div className="absolute left-[445px] top-[33px] w-[831px] z-40">
+          <div className="jw-desktop-header-search absolute left-[445px] top-[33px] w-[831px] z-40">
             <SearchBar />
           </div>
 

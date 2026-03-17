@@ -3770,7 +3770,7 @@
   },
   "expressions_trumpf_bauer": {
     "id": "expressions_trumpf_bauer",
-    "text": "Definition:\n• Der Trumpf-Bauer , auch Trumpf-Under oder Trumpf-Bube genannt, ist sowohl wert- als auch stechmässig die höchste Karte einer Trumpffarbe (siehe Begriff \"bodentrumpf\")\n\nPosition:\n• Diese einzigartige Position macht ihn zur wertvollsten Karte im gesamten Spiel\n\nEinsatz:\n• Sollte mit Bedacht eingesetzt werden",
+    "text": "Definition:\n• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist sowohl wert- als auch stechmässig die höchste Karte einer Trumpffarbe\n\nBesonderheit:\n• Der Trumpf Puur muss als einzige Karte nicht gefarbt werden, wenn Trumpf ausgespielt ist.\n\nAusnahme Nichtfarben Puur:\n• Bei der Trumpf-Variante «Trio/3x3» (siehe Begriff \"expressions_trio\") muss der Puur während Obenabe oder Undenufe gespielt werden",
     "metadata": {
       "id": "expressions_trumpf_bauer_meta",
       "category": {
@@ -3802,6 +3802,10 @@
       {
         "question": "Kann der Trumpf-Bauer geschlagen werden?",
         "answer": "Nein, der Trumpf-Bauer kann von keiner anderen Karte geschlagen werden."
+      },
+      {
+        "question": "Muss der Trumpf Puur ausgespielt werden, wenn Trumpf ausgespielt ist?",
+        "answer": "Nein. Der Trumpf Puur ist die einzige Karte, die bei ausgespieltem Trumpf nicht gefarbt werden muss. Eine Ausnahme gilt bei Trio/3x3: Während Obenabe oder Undenufe muss der Puur gespielt werden."
       }
     ],
     "see_also": [
@@ -6658,7 +6662,7 @@
   },
   "jassapps_jassguru": {
     "id": "jassapps_jassguru",
-    "text": "App-Überblick:\nJassguru.ch ist eine digitale Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\") als Progressive Web App (PWA) zur Punktezählung beim Jassen.\n\nKernfunktionen:\n• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen\n• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg (siehe Begriff \"expressions_berg\") und Sieg\n• **Profil-System:** Gruppenübergreifende Erfassung von Jasswerten wie Trumpfansagen (siehe Begriff \"expressions_anziehen\"), Rekorden und Serien\n• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen\n\nSpielverwaltung:\n• **Archiv:** Archivierung aller Partien (siehe Begriff \"expressions_partie\") für die Rangliste\n• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe\n• **Runden-Ansicht:** Nachvollziehbare Dokumentation jeder Runde\n• **Navigation:** Navigation zurück und vorwärts durch die Runden zur Fehlerkorrektur\n\nEinstellungen:\nIndividuelle Anpassung von Karten, Farben und Multiplikatoren.\n\nVerfügbarkeit:\nJassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.",
+    "text": "App-Überblick:\n[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.\n\nKernfunktionen:\n• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen\n• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg (siehe Begriff \"expressions_berg\") und Sieg\n• **Profil-System:** Gruppenübergreifende Erfassung von Jasswerten wie Trumpfansagen (siehe Begriff \"expressions_anziehen\"), Rekorden und Serien\n• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen\n\nSpielverwaltung:\n• **Archiv:** Archivierung aller Partien (siehe Begriff \"expressions_partie\") für die Rangliste\n• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe\n• **Runden-Ansicht:** Nachvollziehbare Dokumentation jeder Runde\n• **Navigation:** Navigation zurück und vorwärts durch die Runden zur Fehlerkorrektur\n\nEinstellungen:\nIndividuelle Anpassung von Karten, Farben und Multiplikatoren.\n\nVerfügbarkeit:\nJassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.",
     "metadata": {
       "id": "jassapps_jassguru_meta",
       "category": {
@@ -7279,7 +7283,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Letzter Stich beim Jassen?",
+        "question": "Was zählt der letzte Stich?",
         "answer": "Regel:\nDer letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Ausnahmen:\nBei Cinq Cents\nBei Doppelkart-Spielen"
       },
       {

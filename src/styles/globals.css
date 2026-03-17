@@ -254,6 +254,16 @@ body.lexikon-page div[id="__next"] {
   color: #000000;
 }
 
+/* Verhindert horizontales Überlaufen bei langen Begriffen/URLs auf Mobile */
+.content-formatting p,
+.content-formatting li,
+.content-formatting a,
+.content-formatting td,
+.content-formatting th {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .content-formatting ul {
   margin: 24px 0;
   padding-left: 0;
@@ -326,6 +336,100 @@ body.lexikon-page div[id="__next"] {
 .content-formatting .group:hover h3,
 .content-formatting .group:hover h4 {
   color: #ff0000;
+}
+
+/* Search overlay blur effect (desktop search modal) */
+.search-overlay {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@media (min-width: 1024px) {
+  /* Beim aktiven Suchen bleibt der Header oben sichtbar */
+  body.jw-search-active .jw-desktop-header-bar {
+    position: fixed;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    width: 1160px;
+    z-index: 55;
+  }
+
+  body.jw-search-active .jw-desktop-header-logo {
+    position: fixed;
+    left: calc(50% - 556px);
+    top: 37px;
+    z-index: 60;
+  }
+
+  body.jw-search-active .jw-desktop-header-search {
+    position: fixed;
+    left: calc(50% - 275px);
+    top: 33px;
+    z-index: 60;
+  }
+}
+
+/* Article header tags (outline style, top-right) */
+.jw-article-tags {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jw-article-tag {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 24px;
+  padding-inline: 8px;
+  padding-block: 6px 7px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #111827;
+  text-transform: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jw-article-tag--red {
+  border-color: #ff0000;
+  color: #ff0000;
+}
+.jw-article-tag--green {
+  border-color: #00aa2f;
+  color: #00aa2f;
+}
+.jw-article-tag--blue {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* Neutrales Count-Badge (best-practice: ruhige Metainfo) */
+.jw-count-tag {
+  background: #ffffff;
+  border: 1px solid #365744;
+  border-radius: 24px;
+  padding-inline: 8px;
+  padding-block: 6px 7px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #365744;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* iOS Safe Area Support - NUR für PWA-Modus */

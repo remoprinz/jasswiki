@@ -16,6 +16,22 @@ interface SchieberGroupPageProps {
 
 const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, groupSlug, items }) => {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
+  const getTagStyle = (category: string) => {
+    const slug = toSlug(category);
+    const colors: Record<string, string> = {
+      'regeln': '#ff0000',
+      'weis-regeln': '#ff7a1a',
+      'geschichte': '#f6b21a',
+      'grundlagen-kultur': '#2bb752',
+      'schieber': '#3b82f6',
+      'begriffe': '#6366f1',
+      'varianten': '#a855f7',
+      'jassapps': '#06b6d4',
+      'referenzen': '#6b7280',
+    };
+    const color = colors[slug] || '#274823';
+    return { borderColor: color, color };
+  };
 
   useEffect(() => {
     document.body.classList.add('lexikon-page');
@@ -69,11 +85,11 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
                   <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors p-[14px] sm:p-[16px]">
                     <div className="flex items-start gap-4">
                       <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 mb-[6px]">
+                        <div className="flex items-start justify-between gap-[12px] mb-[6px]">
                             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold !text-black group-hover:!text-[#ff0000] transition-colors leading-[1.3]">
                                 {item.metadata.category.topic}
                               </h3>
-                          <span className="px-2 py-[2px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full flex-shrink-0">
+                          <span className="jw-article-tag flex-shrink-0 self-start" style={getTagStyle(item.metadata.category.main)}>
                             {item.metadata.category.main}
                           </span>
                         </div>

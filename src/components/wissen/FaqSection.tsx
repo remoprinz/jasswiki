@@ -47,7 +47,9 @@ export const FaqSection: React.FC<FaqSectionProps> = ({
             >
               <button
                 onClick={() => toggleFaq(index)}
-                className="w-full flex items-center justify-between px-[16px] py-[16px] text-left hover:bg-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-wiki-green/30 focus:ring-inset"
+                className={`w-full flex items-center justify-between px-[16px] py-[16px] text-left hover:bg-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-wiki-green/30 focus:ring-inset ${
+                  isOpen ? 'rounded-t-[8px]' : 'rounded-[8px]'
+                }`}
                 aria-expanded={isOpen}
                 aria-controls={`faq-answer-${index}`}
               >
