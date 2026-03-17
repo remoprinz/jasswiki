@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { createPortal } from 'react-dom';
 import { Search, X } from 'lucide-react';
 import Link from 'next/link';
 import { buildArticleUrl, toSlug } from '@/lib/url-utils';
@@ -173,10 +172,7 @@ export const SearchBar: React.FC = () => {
       {/* Desktop overlay/search results — Penpot Home Suche */}
       {showDesktopOverlay && (
         <>
-          {typeof document !== 'undefined' && createPortal(
-            <div className="hidden lg:block fixed inset-0 search-overlay z-[40]" onClick={closeSearch} />,
-            document.body
-          )}
+          {/* Overlay wird via CSS body.jw-search-active::before gerendert */}
           <div className="hidden lg:block fixed left-[calc(50%-274px)] top-[112px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
             <div className="absolute left-[16px] top-[13px] w-[506px] text-[14px] leading-[1.55] font-inter font-normal text-[#88816d]">
               {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
