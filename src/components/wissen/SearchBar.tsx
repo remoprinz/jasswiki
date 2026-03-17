@@ -169,10 +169,8 @@ export const SearchBar: React.FC = () => {
         )}
       </div>
 
-      {/* Desktop search results — Penpot Home Suche */}
-      {/* Blur-Effekt wird via CSS body.jw-search-active auf .jw-desktop-content angewandt */}
+      {/* Desktop search results — KEIN Overlay-Div, Blur via CSS auf .jw-desktop-content */}
       {showDesktopOverlay && (
-        <>
           <div className="hidden lg:block fixed left-[calc(50%-274px)] top-[112px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
             <div className="absolute left-[16px] top-[13px] w-[506px] text-[14px] leading-[1.55] font-inter font-normal text-[#88816d]">
               {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
@@ -220,7 +218,6 @@ export const SearchBar: React.FC = () => {
               </div>
             )}
           </div>
-        </>
       )}
 
       {/* Mobile/Tablet Dropdown */}
