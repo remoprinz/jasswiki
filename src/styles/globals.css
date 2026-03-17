@@ -338,18 +338,22 @@ body.lexikon-page div[id="__next"] {
   color: #ff0000;
 }
 
-/* Search overlay blur effect (desktop search modal) —
-   Pseudo-Element auf body statt React-Div, damit es im Root Stacking Context
-   liegt und der Header (z-index ≥ 55) NICHT geblurt wird. */
+/* Search blur effect (desktop) —
+   Kein Overlay, kein backdrop-filter. Stattdessen wird der Content
+   direkt mit filter:blur() geblurt. Header-Elemente sind DOM-Geschwister
+   und werden NICHT geblurt. */
 @media (min-width: 1024px) {
-  body.jw-search-active::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    z-index: 40;
+  body.jw-search-active .jw-desktop-content {
+    filter: blur(20px);
+    opacity: 0.6;
+    pointer-events: none;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+  }
+
+  body.jw-search-active .jw-desktop-footer {
+    filter: blur(20px);
+    opacity: 0.6;
+    pointer-events: none;
   }
 
   /* Beim aktiven Suchen bleibt der Header oben sichtbar */

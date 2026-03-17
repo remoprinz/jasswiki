@@ -191,7 +191,7 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           </div>
 
           {/* Main block starts at y=107 */}
-          <div className="pt-[107px] pb-0">
+          <div className="jw-desktop-content pt-[107px] pb-0">
             <div className="relative flex items-stretch">
               {/* Sidebar: x=138, w=307 */}
               <aside
@@ -220,7 +220,7 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
       </div>
 
       {/* Footer — Penpot: gap zwischen Content-Ende (y=8266) und Footer-Start (y=8320) = 54px */}
-      <div className="mt-[54px]">
+      <div className="jw-desktop-footer mt-[54px]">
         <LegalFooter />
       </div>
     </div>
