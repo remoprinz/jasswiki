@@ -115,11 +115,11 @@ const JassenPage: NextPage = () => {
             </h1>
             <p className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7]">
               Jassen ist das beliebteste Kartenspiel der Schweiz. In Stuben, Beizen und auf digitalen Plattformen wird seit über 200 Jahren gejasst — alleine gegen den Computer, zu zweit, zu dritt oder im Team. Vom einfachen{' '}
-              <Link href="/varianten/variants-learning-tschau-sepp/" className="text-[#ff0000] hover:underline">Tschau Sepp</Link>{' '}
+              <Link href="/varianten/tschau-sepp/" className="text-[#ff0000] hover:underline">Tschau Sepp</Link>{' '}
               bis zum taktisch anspruchsvollen{' '}
               <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
               oder{' '}
-              <Link href="/varianten/variants-strategic-sidi-barrani/" className="text-[#ff0000] hover:underline">Sidi Barrani</Link>{' '}
+              <Link href="/varianten/sidi-barrani/" className="text-[#ff0000] hover:underline">Sidi Barrani</Link>{' '}
               kennt das Jassen über{' '}
               <Link href="/varianten/" className="text-[#ff0000] hover:underline">40 Varianten</Link>.{' '}
               Das Bundesamt für Kultur (BAK) führt Jassen als{' '}
@@ -138,13 +138,13 @@ const JassenPage: NextPage = () => {
                 Der{' '}
                 <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
                 ist die meistgespielte Jass-Variante der Schweiz. Vier Spieler bilden zwei Teams — die Partner sitzen sich diagonal gegenüber. Jeder erhält 9 Karten. Ziel ist es, durch Stiche möglichst viele der{' '}
-                <Link href="/regeln/punktezaehlung/gesamtpunktzahl-einer-runde/" className="text-[#ff0000] hover:underline">157 Punkte</Link>{' '}
+                <Link href="/regeln/" className="text-[#ff0000] hover:underline">157 Punkte</Link>{' '}
                 pro Runde zu sammeln. Ein Spiel geht üblicherweise auf 1000, 2500 oder 5000 Punkte, je nach Multiplikatoren. Der{' '}
-                <Link href="/begriffe/matsch/" className="text-[#ff0000] hover:underline">Matsch</Link>{' '}
+                <Link href="/begriffe/punktebegriffe/matsch/" className="text-[#ff0000] hover:underline">Matsch</Link>{' '}
                 gibt 100 Bonuspunkte.
               </p>
               <p>
-                Was den Schieber besonders macht: Wer an der Reihe ist, kann die Trumpfwahl an den Partner «<Link href="/begriffe/schieben/" className="text-[#ff0000] hover:underline">schieben</Link>» — daher der Name.
+                Was den Schieber besonders macht: Wer an der Reihe ist, kann die Trumpfwahl an den Partner «<Link href="/begriffe/spielaktionen/schieben/" className="text-[#ff0000] hover:underline">schieben</Link>» — daher der Name.
               </p>
               <p>
                 <strong>Besonderheit:</strong> In der Schweiz wird gegen den Uhrzeigersinn gejasst — «de Ohrfiige nah», wie es im Volkmund heisst. In Vorarlberg und Liechtenstein, wo ebenfalls gejasst wird, wird hingegen im Uhrzeigersinn gespielt.
@@ -170,32 +170,32 @@ const JassenPage: NextPage = () => {
             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black mb-3">Partnerspiele (im Team)</h3>
             <ul className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-2 mb-6 list-disc pl-5">
               <li><Link href="/schieber/" className="text-[#ff0000] hover:underline font-medium">Schieber</Link> — 4 Spieler, 2 Teams. Die Standardvariante.</li>
-              <li><Link href="/varianten/variants-family-coiffeur-schieber/" className="text-[#ff0000] hover:underline font-medium">Coiffeur</Link> — Jede Ansage muss einmal gespielt werden.</li>
-              <li><Link href="/varianten/variants-strategic-sidi-barrani/" className="text-[#ff0000] hover:underline font-medium">Sidi Barrani</Link> — Mit Versteigerung: wer am höchsten bietet, bestimmt Trumpf und muss die gebotene Punktzahl erreichen.</li>
-              <li><Link href="/varianten/kreuzjass/" className="text-[#ff0000] hover:underline font-medium">Kreuzjass</Link> — Wechselnde Partnerschaften.</li>
+              <li><Link href="/varianten/coiffeur/" className="text-[#ff0000] hover:underline font-medium">Coiffeur</Link> — Jede Ansage muss einmal gespielt werden.</li>
+              <li><Link href="/varianten/sidi-barrani/" className="text-[#ff0000] hover:underline font-medium">Sidi Barrani</Link> — Mit Versteigerung: wer am höchsten bietet, bestimmt Trumpf und muss die gebotene Punktzahl erreichen.</li>
+              <li><Link href="/varianten/bolschewik-4-spieler/" className="text-[#ff0000] hover:underline font-medium">Bolschewik</Link> — Partnerspiel mit doppeltem Deck (72 Karten).</li>
             </ul>
 
             {/* Einzelspiele */}
             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black mb-3">Einzelspiele (jeder gegen jeden)</h3>
             <ul className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-2 mb-6 list-disc pl-5">
-              <li><Link href="/varianten/variants-strategic-differenzler-verdeckt/" className="text-[#ff0000] hover:underline font-medium">Differenzler</Link> — Jeder schätzt seine Punkte; wer am nächsten liegt, gewinnt. Bekannt aus dem Samschtig-Jass auf SRF.</li>
-              <li><Link href="/varianten/variants-molotow/" className="text-[#ff0000] hover:underline font-medium">Molotow</Link> — Destruktionsspiel: Wer am wenigsten Punkte hat, gewinnt. Trumpf entsteht dynamisch.</li>
-              <li><Link href="/varianten/variants-strategic-handjass/" className="text-[#ff0000] hover:underline font-medium">Handjass</Link> — Klassisches Einzelspiel mit Nachziehen vom Stapel.</li>
+              <li><Link href="/varianten/differenzler-verdeckt/" className="text-[#ff0000] hover:underline font-medium">Differenzler</Link> — Jeder schätzt seine Punkte; wer am nächsten liegt, gewinnt. Bekannt aus dem Samschtig-Jass auf SRF.</li>
+              <li><Link href="/varianten/molotow/" className="text-[#ff0000] hover:underline font-medium">Molotow</Link> — Destruktionsspiel: Wer am wenigsten Punkte hat, gewinnt. Trumpf entsteht dynamisch.</li>
+              <li><Link href="/varianten/handjass/" className="text-[#ff0000] hover:underline font-medium">Handjass</Link> — Klassisches Einzelspiel mit Nachziehen vom Stapel.</li>
             </ul>
 
             {/* Königsspiele */}
             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black mb-3">Königsspiele (einer gegen alle)</h3>
             <ul className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-2 mb-6 list-disc pl-5">
-              <li><Link href="/varianten/variants-strategic-pandur/" className="text-[#ff0000] hover:underline font-medium">Pandur</Link> — Der Höchstbietende spielt allein gegen die anderen. 24 Karten. Betrügen erlaubt.</li>
-              <li><Link href="/varianten/variants-strategic-bieter-vier/" className="text-[#ff0000] hover:underline font-medium">Bieter</Link> — Verwandt mit Pandur, aber mit 36 Karten.</li>
+              <li><Link href="/varianten/pandur/" className="text-[#ff0000] hover:underline font-medium">Pandur</Link> — Der Höchstbietende spielt allein gegen die anderen. 24 Karten. Betrügen erlaubt.</li>
+              <li><Link href="/varianten/bieter-4-spieler/" className="text-[#ff0000] hover:underline font-medium">Bieter</Link> — Verwandt mit Pandur, aber mit 36 Karten.</li>
             </ul>
 
             {/* Gesellschaftsspiele */}
             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black mb-3">Gesellschafts- und Lernspiele</h3>
             <ul className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-2 mb-6 list-disc pl-5">
-              <li><Link href="/varianten/variants-learning-tschau-sepp/" className="text-[#ff0000] hover:underline font-medium">Tschau Sepp</Link> — Das Schweizer Mau-Mau mit Jasskarten. Ideal zum Einstieg.</li>
-              <li><Link href="/varianten/variants-chratze/" className="text-[#ff0000] hover:underline font-medium">Chratze</Link> — Schnelles Topfspiel mit nur 4 Karten.</li>
-              <li><Link href="/varianten/variants-family-guggitaler/" className="text-[#ff0000] hover:underline font-medium">Guggitaler</Link> — Glücks- und Geldspiel mit Jass-Karten.</li>
+              <li><Link href="/varianten/tschau-sepp/" className="text-[#ff0000] hover:underline font-medium">Tschau Sepp</Link> — Das Schweizer Mau-Mau mit Jasskarten. Ideal zum Einstieg.</li>
+              <li><Link href="/varianten/chratze/" className="text-[#ff0000] hover:underline font-medium">Chratze</Link> — Schnelles Topfspiel mit nur 4 Karten.</li>
+              <li><Link href="/varianten/guggitaler/" className="text-[#ff0000] hover:underline font-medium">Guggitaler</Link> — Glücks- und Geldspiel mit Jass-Karten.</li>
             </ul>
 
             <p>
@@ -238,8 +238,8 @@ const JassenPage: NextPage = () => {
               </p>
               <p><strong>Besondere Karten im Trumpf:</strong></p>
               <ul className="list-disc pl-5 space-y-1">
-                <li><Link href="/begriffe/puur/" className="text-[#ff0000] hover:underline font-medium">Puur</Link> (Under der Trumpffarbe) — höchste Karte im Spiel, 20 Punkte</li>
-                <li><Link href="/begriffe/nell/" className="text-[#ff0000] hover:underline font-medium">Nell</Link> (9 der Trumpffarbe) — zweithöchste Karte, 14 Punkte</li>
+                <li><Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline font-medium">Puur</Link> (Under der Trumpffarbe) — höchste Karte im Spiel, 20 Punkte</li>
+                <li><Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline font-medium">Nell</Link> (9 der Trumpffarbe) — zweithöchste Karte, 14 Punkte</li>
               </ul>
               <p>
                 <Link href="/regeln/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
@@ -259,20 +259,20 @@ const JassenPage: NextPage = () => {
                 Im{' '}
                 <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
                 und{' '}
-                <Link href="/varianten/variants-family-coiffeur-schieber/" className="text-[#ff0000] hover:underline">Coiffeur</Link>{' '}
+                <Link href="/varianten/coiffeur/" className="text-[#ff0000] hover:underline">Coiffeur</Link>{' '}
                 wählt ein Spieler zu Beginn jeder Runde den Spielmodus. Neben den vier Trumpffarben gibt es weitere Ansagen:
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Trumpf</strong> — Eine der vier Farben wird Trumpf. <Link href="/begriffe/puur/" className="text-[#ff0000] hover:underline">Puur</Link> und <Link href="/begriffe/nell/" className="text-[#ff0000] hover:underline">Nell</Link> dominieren.</li>
-                <li><Link href="/begriffe/obenabe/" className="text-[#ff0000] hover:underline font-medium">Obenabe</Link> — Kein Trumpf. Die höchste Karte sticht. Ass ist die stärkste Karte.</li>
-                <li><Link href="/begriffe/undenufe/" className="text-[#ff0000] hover:underline font-medium">Undenufe</Link> — Kein Trumpf. Die niedrigste Karte sticht. Die 6 ist die stärkste Karte.</li>
-                <li><Link href="/begriffe/slalom/" className="text-[#ff0000] hover:underline font-medium">Slalom</Link> — Abwechselnd Obenabe und Undenufe pro Stich.</li>
-                <li><Link href="/begriffe/guschti/" className="text-[#ff0000] hover:underline font-medium">Guschti (Quer)</Link> — Erst Obenabe, dann Undenufe (oder umgekehrt).</li>
-                <li><Link href="/begriffe/trio/" className="text-[#ff0000] hover:underline font-medium">Trio</Link> — 3 Stiche Trumpf, 3 Stiche Obenabe, 3 Stiche Undenufe. Reihenfolge frei wählbar.</li>
-                <li><Link href="/begriffe/misere/" className="text-[#ff0000] hover:underline font-medium">Misère</Link> — Ziel: keinen einzigen Stich machen.</li>
+                <li><strong>Trumpf</strong> — Eine der vier Farben wird Trumpf. <Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline">Puur</Link> und <Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline">Nell</Link> dominieren.</li>
+                <li><Link href="/begriffe/spezialvarianten/obenabe/" className="text-[#ff0000] hover:underline font-medium">Obenabe</Link> — Kein Trumpf. Die höchste Karte sticht. Ass ist die stärkste Karte.</li>
+                <li><Link href="/begriffe/spezialvarianten/undenufe/" className="text-[#ff0000] hover:underline font-medium">Undenufe</Link> — Kein Trumpf. Die niedrigste Karte sticht. Die 6 ist die stärkste Karte.</li>
+                <li><Link href="/begriffe/spezialvarianten/slalom-zickzack/" className="text-[#ff0000] hover:underline font-medium">Slalom</Link> — Abwechselnd Obenabe und Undenufe pro Stich.</li>
+                <li><Link href="/begriffe/spezialvarianten/guschti-zwischendurch-quer/" className="text-[#ff0000] hover:underline font-medium">Guschti (Quer)</Link> — Erst Obenabe, dann Undenufe (oder umgekehrt).</li>
+                <li><Link href="/begriffe/spezialvarianten/trio-3-3/" className="text-[#ff0000] hover:underline font-medium">Trio</Link> — 3 Stiche Trumpf, 3 Stiche Obenabe, 3 Stiche Undenufe. Reihenfolge frei wählbar.</li>
+                <li><Link href="/begriffe/spezialvarianten/misere/" className="text-[#ff0000] hover:underline font-medium">Misère</Link> — Ziel: keinen einzigen Stich machen.</li>
               </ul>
               <p>
-                <Link href="/begriffe/spielmodus/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
+                <Link href="/begriffe/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
                   Alle Spielmodi erklärt →
                 </Link>
               </p>
@@ -287,7 +287,7 @@ const JassenPage: NextPage = () => {
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 Ein{' '}
-                <Link href="/begriffe/weis/" className="text-[#ff0000] hover:underline">Weis</Link>{' '}
+                <Link href="/begriffe/punktebegriffe/weis/" className="text-[#ff0000] hover:underline">Weis</Link>{' '}
                 ist eine Kartenkombination, die vor dem ersten Stich angesagt wird und Bonuspunkte bringt.
               </p>
 
@@ -302,10 +302,10 @@ const JassenPage: NextPage = () => {
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/begriffe/dreiblatt/" className="text-[#ff0000] hover:underline">Dreiblatt</Link></td><td className="py-2 pr-4">3 aufeinanderfolgende</td><td className="py-2">20</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/begriffe/vierblatt/" className="text-[#ff0000] hover:underline">Vierblatt</Link></td><td className="py-2 pr-4">4 aufeinanderfolgende</td><td className="py-2">50</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/begriffe/fuenfblatt/" className="text-[#ff0000] hover:underline">Fünfblatt</Link></td><td className="py-2 pr-4">5 aufeinanderfolgende</td><td className="py-2">100</td></tr>
-                    <tr><td className="py-2 pr-4"><Link href="/begriffe/sechsblatt/" className="text-[#ff0000] hover:underline">Sechsblatt</Link></td><td className="py-2 pr-4">6 aufeinanderfolgende</td><td className="py-2">150</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/dreiblatt-3-blatt/" className="text-[#ff0000] hover:underline">Dreiblatt</Link></td><td className="py-2 pr-4">3 aufeinanderfolgende</td><td className="py-2">20</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vierblatt-4-blatt/" className="text-[#ff0000] hover:underline">Vierblatt</Link></td><td className="py-2 pr-4">4 aufeinanderfolgende</td><td className="py-2">50</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/fuenfblatt-5-blatt/" className="text-[#ff0000] hover:underline">Fünfblatt</Link></td><td className="py-2 pr-4">5 aufeinanderfolgende</td><td className="py-2">100</td></tr>
+                    <tr><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/sechsblatt-6-blatt/" className="text-[#ff0000] hover:underline">Sechsblatt</Link></td><td className="py-2 pr-4">6 aufeinanderfolgende</td><td className="py-2">150</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -320,7 +320,7 @@ const JassenPage: NextPage = () => {
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/begriffe/vier-gleiche/" className="text-[#ff0000] hover:underline">Vier gleiche</Link> (6–K)</td><td className="py-2">100</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vier-gleiche-karten/" className="text-[#ff0000] hover:underline">Vier gleiche</Link> (6–K)</td><td className="py-2">100</td></tr>
                     <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Vier Nell (9er)</td><td className="py-2">150</td></tr>
                     <tr><td className="py-2 pr-4">Vier Puur (Under)</td><td className="py-2">200</td></tr>
                   </tbody>
@@ -328,7 +328,7 @@ const JassenPage: NextPage = () => {
               </div>
 
               <p>
-                <Link href="/begriffe/stoeck/" className="text-[#ff0000] hover:underline font-medium">Stöck</Link>: Wer König und Ober (oder Dame) der Trumpffarbe hält, meldet Stöck = 20 Punkte.
+                <Link href="/begriffe/grundbegriffe/stoeck/" className="text-[#ff0000] hover:underline font-medium">Stöck</Link>: Wer König und Ober (oder Dame) der Trumpffarbe hält, meldet Stöck = 20 Punkte.
               </p>
               <p>
                 <Link href="/weis-regeln/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
@@ -352,7 +352,7 @@ const JassenPage: NextPage = () => {
               </p>
               <p>
                 Der Zweite Weltkrieg verbreitete das Jassen weiter: In der Armee und im Aktivdienst wurde in jeder freien Minute gejasst. Nach dem Krieg machte das Fernsehen den Jass endgültig zum Nationalspiel — insbesondere der «Samschtig-Jass» auf SRF, bei dem die{' '}
-                <Link href="/varianten/variants-strategic-differenzler-verdeckt/" className="text-[#ff0000] hover:underline">Differenzler-Variante</Link>{' '}
+                <Link href="/varianten/differenzler-verdeckt/" className="text-[#ff0000] hover:underline">Differenzler-Variante</Link>{' '}
                 gespielt wird, brachte das Spiel in jedes Wohnzimmer der Schweiz.
               </p>
               <p>
@@ -376,18 +376,18 @@ const JassenPage: NextPage = () => {
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 Das Jassen hat ein reiches Vokabular — von{' '}
-                <Link href="/begriffe/matsch/" className="text-[#ff0000] hover:underline">Matsch</Link>{' '}
+                <Link href="/begriffe/punktebegriffe/matsch/" className="text-[#ff0000] hover:underline">Matsch</Link>{' '}
                 über{' '}
-                <Link href="/begriffe/schneider/" className="text-[#ff0000] hover:underline">Schneider</Link>{' '}
+                <Link href="/begriffe/punktebegriffe/schneider/" className="text-[#ff0000] hover:underline">Schneider</Link>{' '}
                 bis{' '}
-                <Link href="/begriffe/stoeck-weis-stich/" className="text-[#ff0000] hover:underline">Stöck-Weis-Stich</Link>.
+                <Link href="/begriffe/punktebegriffe/stoeck-weis-stich/" className="text-[#ff0000] hover:underline">Stöck-Weis-Stich</Link>.
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li><Link href="/begriffe/matsch/" className="text-[#ff0000] hover:underline font-medium">Matsch</Link> — Alle 9 Stiche gemacht. Gibt 100 Bonuspunkte.</li>
-                <li><Link href="/begriffe/schneider/" className="text-[#ff0000] hover:underline font-medium">Schneider</Link> — Gewonnen ohne dass der Gegner den <Link href="/begriffe/bergpreis/" className="text-[#ff0000] hover:underline">Berg</Link> (halbe Punkte) erreicht hat.</li>
-                <li><Link href="/begriffe/schmieren/" className="text-[#ff0000] hover:underline font-medium">Schmieren</Link> — Dem Partner wertvolle Karten zuspielen.</li>
-                <li><Link href="/begriffe/stoeck-weis-stich/" className="text-[#ff0000] hover:underline font-medium">Stöck-Weis-Stich</Link> — Die Reihenfolge in der Punkte zählen: zuerst Stöck, dann Weis, dann Stiche.</li>
-                <li><Link href="/begriffe/bock/" className="text-[#ff0000] hover:underline font-medium">Bock</Link> — Punktemultiplikator. Entsteht z.B. nach einem Matsch.</li>
+                <li><Link href="/begriffe/punktebegriffe/matsch/" className="text-[#ff0000] hover:underline font-medium">Matsch</Link> — Alle 9 Stiche gemacht. Gibt 100 Bonuspunkte.</li>
+                <li><Link href="/begriffe/punktebegriffe/schneider/" className="text-[#ff0000] hover:underline font-medium">Schneider</Link> — Gewonnen ohne dass der Gegner den <Link href="/regeln/bergpreis/" className="text-[#ff0000] hover:underline">Berg</Link> (halbe Punkte) erreicht hat.</li>
+                <li><Link href="/begriffe/spielaktionen/schmieren/" className="text-[#ff0000] hover:underline font-medium">Schmieren</Link> — Dem Partner wertvolle Karten zuspielen.</li>
+                <li><Link href="/begriffe/punktebegriffe/stoeck-weis-stich/" className="text-[#ff0000] hover:underline font-medium">Stöck-Weis-Stich</Link> — Die Reihenfolge in der Punkte zählen: zuerst Stöck, dann Weis, dann Stiche.</li>
+                <li><Link href="/begriffe/kartenbezeichnungen/bock/" className="text-[#ff0000] hover:underline font-medium">Bock</Link> — Punktemultiplikator. Entsteht z.B. nach einem Matsch.</li>
               </ul>
               <p>
                 <Link href="/begriffe/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
