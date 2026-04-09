@@ -153,10 +153,22 @@ export const LexikonSidebar = () => {
 
   const navigationStructure = useMemo(() => getNavigationStructure(allContent as JassContentRecord), []);
 
+  const isOnJassenPath = router.pathname.startsWith('/jassen');
+
   return (
     <nav className="flex flex-col gap-[16px]">
       {/* Penpot: row-gap=14px, flex-direction=column */}
       <ul className="flex flex-col gap-[16px]">
+        {/* Jassen — hardcoded top-level link */}
+        <li>
+          <Link href="/jassen/" legacyBehavior>
+            <a className={`block w-[230px] py-[1px] font-capita text-[18px] font-bold leading-[1.5556] transition-colors ${
+              isOnJassenPath ? 'text-[#2bb752]' : 'text-[#878787] hover:text-white'
+            }`}>
+              Jassen
+            </a>
+          </Link>
+        </li>
         {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
           // Schieber hat eigene Seiten (/schieber/, /schieber/[group]/) – kein [category]-Route.
           const isOnSchieberPath = router.pathname.startsWith('/schieber');

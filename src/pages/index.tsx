@@ -13,7 +13,7 @@ import { VscReferences } from 'react-icons/vsc';
 import type { IconType } from 'react-icons';
 
 const ICON_COLORS: Record<string, string> = {
-    jassen: 'bg-[#274823]',
+    jassen: 'bg-white border border-[#e8e6df]',
     regeln: 'bg-[#ff4b55]',
     'weis-regeln': 'bg-[#ff7a1a]',
     geschichte: 'bg-[#f6b21a]',
@@ -151,8 +151,8 @@ const WissenHomePage = () => {
                                 <div className="rounded-[12px] border border-[#e8e6df] bg-[#f0eee7]/50 px-[14px] sm:px-[20px] py-[12px] sm:py-[16px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors">
                                     <div className="flex items-center gap-[12px] sm:gap-[16px] mb-[6px] sm:mb-[8px]">
                                         <div className={`${colorClass} rounded-[10px] sm:rounded-[12px] p-[8px] sm:p-[10px] flex-shrink-0 mt-[4px]`}>
-                                            <Icon size={18} className="text-white sm:hidden" />
-                                            <Icon size={22} className="text-white hidden sm:block" />
+                                            <Icon size={18} className={`${category.slug === 'jassen' ? 'text-[#ff0000]' : 'text-white'} sm:hidden`} />
+                                            <Icon size={22} className={`${category.slug === 'jassen' ? 'text-[#ff0000]' : 'text-white'} hidden sm:block`} />
                                         </div>
                                         <h3 className="font-capita text-[16px] sm:text-[18px] font-bold !text-black leading-[1.3] group-hover:!text-[#ff0000] transition-colors">
                                             {category.name}
