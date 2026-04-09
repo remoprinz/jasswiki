@@ -13,6 +13,7 @@ import { VscReferences } from 'react-icons/vsc';
 import type { IconType } from 'react-icons';
 
 const ICON_COLORS: Record<string, string> = {
+    jassen: 'bg-[#274823]',
     regeln: 'bg-[#ff4b55]',
     'weis-regeln': 'bg-[#ff7a1a]',
     geschichte: 'bg-[#f6b21a]',
@@ -46,8 +47,14 @@ const WissenHomePage = () => {
     }, []);
 
     const categories: { slug: string; name: string; description: string; icon: IconType }[] = [
-        { 
-            slug: 'regeln', 
+        {
+            slug: 'jassen',
+            name: 'Jassen',
+            description: 'Das Schweizer Nationalkartenspiel — Überblick über Regeln, Varianten, Karten, Geschichte und Kultur',
+            icon: CgSwiss,
+        },
+        {
+            slug: 'regeln',
             name: 'Regeln',
             description: 'Alle offiziellen Spielregeln, Sonderregeln und Ausnahmefälle im Detail',
             icon: FaBalanceScale,
