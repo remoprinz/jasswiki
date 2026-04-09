@@ -1147,6 +1147,456 @@
           "source": "/regeln/fehler-verstoesse/karte-zu-frueh",
           "destination": "/regeln/fehler-verstoesse/karte-fruehzeitig-in-die-hand-nehmen/",
           "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/pandur-3-spieler/",
+          "destination": "/varianten/pandur-3-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/schafhauser-3-spieler/",
+          "destination": "/varianten/schafhauser-3-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/koenigsspiel/pandur-2-spieler/",
+          "destination": "/varianten/pandur-2-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/schaetzspiel/differenzler-offen/",
+          "destination": "/varianten/differenzler-offen/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/schaetzspiel/differenzler-taktiken/",
+          "destination": "/varianten/differenzler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/schaetzspiel/varianten-taktiken/",
+          "destination": "/varianten/differenzler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bietspiel/bieter-5-spieler/",
+          "destination": "/varianten/bieter-5-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bietspiel/bieter-3-spieler/",
+          "destination": "/varianten/bieter-3-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bietspiel/bieter-4-spieler/",
+          "destination": "/varianten/bieter-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bietspiel/sidi/",
+          "destination": "/varianten/sidi-barrani/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einzelspiel/handjass/",
+          "destination": "/varianten/handjass/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einzelspiel/mittlere/",
+          "destination": "/varianten/mittlere/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einzelspiel/einzel/",
+          "destination": "/varianten/einzel/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/weis-spiel/molotow/",
+          "destination": "/varianten/molotow/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/weis-spiel/molotow-5-6-spieler/",
+          "destination": "/varianten/molotow/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/vermeidungsspiel/hindersi/",
+          "destination": "/varianten/hindersi-allgemein/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/gesellschaftsspiel/zwick/",
+          "destination": "/varianten/zwick/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bessern-spiel/schaggi/",
+          "destination": "/varianten/schaggi-haas/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einsatz-spiel/ufgleit-2-3-spieler/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/stichspiel/ramset/",
+          "destination": "/varianten/ramset/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/stichzahl-spiel/stich/",
+          "destination": "/varianten/stich/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/serienjass/serienjass-taktiken/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/serienjass/varianten-taktiken/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/handjass/handjass-taktiken/",
+          "destination": "/varianten/handjass-taktiken-2-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/handjass/varianten-taktiken/",
+          "destination": "/varianten/handjass/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/feste-trumpffarbe/feste-trumpffarbe-taktiken/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/feste-trumpffarbe/varianten-taktiken/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/einfacher-jass/varianten-taktiken/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/fortgeschrittener-bieter/palette/",
+          "destination": "/varianten/palette/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/ablupf-spiel/kreuzjass/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/schreibspiel/zuger-3-spieler/",
+          "destination": "/varianten/zuger/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/stock-spiel/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/bodentrumpf/",
+          "destination": "/regeln/spielablauf/bodentrumpf/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/falscher-spieler/",
+          "destination": "/regeln/fehler-verstoesse/falscher-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/rest-machen/",
+          "destination": "/regeln/spielende/rest-machen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/bemerkungen-schnorren/",
+          "destination": "/regeln/sonderregeln/bemerkungen-schnorren/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/fragen-waehrend-spiel/",
+          "destination": "/regeln/sonderregeln/fragen-waehrend-spiel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/liegengelassene-stiche/",
+          "destination": "/regeln/sonderregeln/liegengelassene-stiche/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/zusammenwerfen/",
+          "destination": "/regeln/spielende/zusammenwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/verschlagen/",
+          "destination": "/regeln/fehler-verstoesse/verschlagen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/nachschauen-gekehrter-stiche/",
+          "destination": "/regeln/sonderregeln/nachschauen-gekehrter-stiche/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/spielverrat/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/plaetze-tauschen/",
+          "destination": "/regeln/sonderregeln/plaetze-tauschen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/trumpf-bauer-angabe/",
+          "destination": "/regeln/spielablauf/trumpfansage/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielverlauf/spiel-annullieren/",
+          "destination": "/regeln/spielende/spiel-annullieren/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilen/abheben/",
+          "destination": "/regeln/kartenverteilung/abheben-der-karten/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilen/mischen/",
+          "destination": "/regeln/kartenverteilung/mischen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielziele/bergpreis/",
+          "destination": "/regeln/bergpreis/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/bergpreis/",
+          "destination": "/regeln/bergpreis/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/grundlegender-spielablauf/",
+          "destination": "/regeln/punktezaehlung/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/bedanken-und-spielende/",
+          "destination": "/regeln/punktezaehlung/bedanken-und-sieg/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/offizielles-regelwerk/offizielles-regelwerk/",
+          "destination": "/regeln/offizielle-jassregeln/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/tischregel/tischregel/",
+          "destination": "/regeln/tischregel/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/trumpfansagen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/trumpfansagen/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/konventionen/",
+          "destination": "/taktiken-und-strategien/taktische-grundlagen/konventionen/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/anziehen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/anziehen/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/punktetaktiken/",
+          "destination": "/taktiken-und-strategien/taktische-grundlagen/punktetaktiken/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/querverwerfen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/querverwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/schieber-taktiken/grundlegende-taktiken/",
+          "destination": "/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/terminologie/geschichte-matsch/",
+          "destination": "/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/schweizer-kartenherstellung/schweizer-kartenmacher/",
+          "destination": "/geschichte/schweizer-kartenmacher/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/schweizer-kartenherstellung/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/urspruenge/die-erste-urkundliche-erwaehnung/",
+          "destination": "/geschichte/die-erste-urkundliche-erwaehnung/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/industrialisierung/vom-luxusgut-zur-massenware/",
+          "destination": "/geschichte/vom-luxusgut-zur-massenware/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/kulturelle-bedeutung/kulturelle-bedeutung-des-jass/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft/woher-kommen-spielkarten/",
+          "destination": "/geschichte/woher-kommen-spielkarten/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/mittelalter/fruehe-spielkarten-in-europa/",
+          "destination": "/geschichte/fruehe-spielkarten-in-europa/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/sprachentwicklung/die-sprache-rund-um-den-jasstisch/",
+          "destination": "/geschichte/die-sprache-rund-um-den-jasstisch/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/sprachentwicklung/sprache-des-jassens/",
+          "destination": "/geschichte/die-sprache-rund-um-den-jasstisch/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/schweizer-kartenmacher/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kulturelle-bedeutung/jassen-als-kulturgut/",
+          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kulturelle-bedeutung/kulturelle-bedeutung-des-jass/",
+          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartensysteme/verschiedene-kartensysteme/",
+          "destination": "/grundlagen-kultur/verschiedene-kartensysteme/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundbegriffe/zentrale-begriffe/",
+          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielmaterial/das-kartenset/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenwerte/jasskarten-36-karten/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/kartenverteilen/der-jass/",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/punkteregeln/wichtige-punkteregeln/",
+          "destination": "/regeln/punktezaehlung/wichtige-punkteregeln/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spezialspiele/grundregeln/",
+          "destination": "/regeln/kartenwerte/grundregeln/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spezialregeln/sonderregeln-beim-verteilen/",
+          "destination": "/regeln/kartenverteilung/sonderregeln-beim-verteilen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/grundregeln-verteilen/grundlegender-spielablauf/",
+          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/fehlerregeln/fehlerhafte-kartenverteilung/",
+          "destination": "/regeln/kartenverteilung/fehlerhafte-kartenverteilung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/regionale-unterschiede/regionale-eigenheiten/",
+          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/ueberblick/jassen-lernen-und-verstehen/",
+          "destination": "/grundlagen-kultur/jassen-lernen-und-verstehen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielvarianten/vielfalt-der-spielvarianten/",
+          "destination": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "type": 301
+        },
+        {
+          "source": "/wissen/grundlagen-kultur/regionale-unterschiede/",
+          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/allgemeine-weis/",
+          "destination": "/weis-regeln/weisen-allgemein/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/rechte-tafelseite/",
+          "destination": "/regeln/schreiben/rechte-tafelseite/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/experten/",
+          "destination": "/referenzen/",
+          "type": 301
+        },
+        {
+          "source": "/referenzen/quellen/buecher-zum-schweizer-jass/",
+          "destination": "/quellenverzeichnis/",
+          "type": 301
         }
       ]
     }
