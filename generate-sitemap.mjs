@@ -39,6 +39,12 @@ async function generateSitemap() {
       },
       // Modulare llms.txt v2.0 (AI-optimiert)
       {
+        loc: `${BASE_URL}/jassen/`,
+        lastmod: lastModDate,
+        changefreq: 'weekly',
+        priority: '0.95'
+      },
+      {
         loc: `${BASE_URL}/taxonomie/`,
         lastmod: lastModDate,
         changefreq: 'weekly',

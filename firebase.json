@@ -159,11 +159,6 @@
           "type": 301
         },
         {
-          "source": "/varianten/differenzler/",
-          "destination": "/varianten/differenzler-verdeckt/",
-          "type": 301
-        },
-        {
           "source": "/varianten/differenzler",
           "destination": "/varianten/differenzler-verdeckt/",
           "type": 301
@@ -1596,6 +1591,81 @@
         {
           "source": "/referenzen/quellen/buecher-zum-schweizer-jass/",
           "destination": "/quellenverzeichnis/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/schweizer-kartenmacher/schweizer-kartenmacher/",
+          "destination": "/geschichte/schweizer-kartenmacher/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/das-kartenset/das-kartenset/",
+          "destination": "/grundlagen-kultur/das-kartenset/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/regionale-eigenheiten/regionale-eigenheiten/",
+          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/zentrale-begriffe/zentrale-begriffe/",
+          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-als-kulturgut/jassen-als-kulturgut/",
+          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/woher-kommen-spielkarten/woher-kommen-spielkarten/",
+          "destination": "/geschichte/woher-kommen-spielkarten/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/fruehe-spielkarten-in-europa/fruehe-spielkarten-in-europa/",
+          "destination": "/geschichte/fruehe-spielkarten-in-europa/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/drei-eiserne-regeln/drei-eiserne-regeln/",
+          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/das-aelteste-jassreglement-der-schweiz/das-aelteste-jassreglement-der-schweiz/",
+          "destination": "/geschichte/das-aelteste-jassreglement-der-schweiz/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weisen-allgemein/weisen-allgemein/",
+          "destination": "/weis-regeln/weisen-allgemein/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/mittelalter/",
+          "destination": "/geschichte/fruehe-spielkarten-in-europa/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/differenzler-taktiken/",
+          "destination": "/varianten/differenzler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/zuger-3-spieler/",
+          "destination": "/varianten/zuger/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/historische-reglemente/",
+          "destination": "/geschichte/das-aelteste-jassreglement-der-schweiz/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/urspruenge/",
+          "destination": "/geschichte/die-erste-urkundliche-erwaehnung/",
           "type": 301
         }
       ]
