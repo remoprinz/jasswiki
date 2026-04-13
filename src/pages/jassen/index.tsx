@@ -237,7 +237,9 @@ const JassenPage: NextPage = () => {
                 In der Deutschschweiz dominiert das Schweizer Blatt mit den traditionellen Farben Schellen, Schilten, Rosen und Eichel. In der Westschweiz, Basel, Graubünden, Tessin und entlang vom Bodensee wird mit französischen Karten gespielt.
               </p>
               <p>
-                <strong>Jasskarten-Design:</strong> Das Aussehen der Deutschschweizer Jasskarten geht auf Motive des Schaffhauser Kartenmachers Jakob Peyer aus dem 19. Jahrhundert zurück. Die bekanntesten modernen Reinzeichnungen stammen von der Firma AGMüller (heute Teil des belgischen Cartamundi-Konzerns).
+                <strong>Jasskarten-Design:</strong> Das Aussehen der Deutschschweizer Jasskarten geht auf Motive des{' '}
+                <Link href="/geschichte/schweizer-kartenmacher/" className="text-[#ff0000] hover:underline">Schaffhauser Kartenmachers Jakob Peyer</Link>{' '}
+                aus dem 19. Jahrhundert zurück. Die bekanntesten modernen Reinzeichnungen stammen von der Firma AG Müller (heute Teil des belgischen Cartamundi-Konzerns).
               </p>
               <p>
                 In jüngster Zeit erlebt das Jasskarten-Design eine Renaissance: Unabhängige Schweizer Designer wie{' '}
