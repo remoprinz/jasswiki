@@ -308,14 +308,14 @@ const JassenPage: NextPage = () => {
                     <tr className="border-b border-[#e8e6df]">
                       <th className="py-2 pr-4 font-capita font-bold text-black">Weis</th>
                       <th className="py-2 pr-4 font-capita font-bold text-black">Karten</th>
-                      <th className="py-2 font-capita font-bold text-black">Punkte</th>
+                      <th className="py-2 font-capita font-bold text-black text-right">Punkte</th>
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/dreiblatt-3-blatt/" className="text-[#ff0000] hover:underline">Dreiblatt</Link></td><td className="py-2 pr-4">3 aufeinanderfolgende</td><td className="py-2">20</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vierblatt-4-blatt/" className="text-[#ff0000] hover:underline">Vierblatt</Link></td><td className="py-2 pr-4">4 aufeinanderfolgende</td><td className="py-2">50</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/fuenfblatt-5-blatt/" className="text-[#ff0000] hover:underline">Fünfblatt</Link></td><td className="py-2 pr-4">5 aufeinanderfolgende</td><td className="py-2">100</td></tr>
-                    <tr><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/sechsblatt-6-blatt/" className="text-[#ff0000] hover:underline">Sechsblatt</Link></td><td className="py-2 pr-4">6 aufeinanderfolgende</td><td className="py-2">150</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/dreiblatt-3-blatt/" className="text-[#ff0000] hover:underline">Dreiblatt</Link></td><td className="py-2 pr-4">3 aufeinanderfolgende</td><td className="py-2 text-right">20</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vierblatt-4-blatt/" className="text-[#ff0000] hover:underline">Vierblatt</Link></td><td className="py-2 pr-4">4 aufeinanderfolgende</td><td className="py-2 text-right">50</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/fuenfblatt-5-blatt/" className="text-[#ff0000] hover:underline">Fünfblatt</Link></td><td className="py-2 pr-4">5 aufeinanderfolgende</td><td className="py-2 text-right">100</td></tr>
+                    <tr><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/sechsblatt-6-blatt/" className="text-[#ff0000] hover:underline">Sechsblatt</Link></td><td className="py-2 pr-4">6 aufeinanderfolgende</td><td className="py-2 text-right">150</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -326,13 +326,13 @@ const JassenPage: NextPage = () => {
                   <thead>
                     <tr className="border-b border-[#e8e6df]">
                       <th className="py-2 pr-4 font-capita font-bold text-black">Karten</th>
-                      <th className="py-2 font-capita font-bold text-black">Punkte</th>
+                      <th className="py-2 font-capita font-bold text-black text-right">Punkte</th>
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vier-gleiche-karten/" className="text-[#ff0000] hover:underline">Vier gleiche</Link> (6–K)</td><td className="py-2">100</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Vier Nell (9er)</td><td className="py-2">150</td></tr>
-                    <tr><td className="py-2 pr-4">Vier Puur (Under)</td><td className="py-2">200</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4"><Link href="/weis-regeln/weis-arten/vier-gleiche-karten/" className="text-[#ff0000] hover:underline">Vier gleiche</Link> (6–K)</td><td className="py-2 text-right">100</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Vier Nell (9er)</td><td className="py-2 text-right">150</td></tr>
+                    <tr><td className="py-2 pr-4">Vier Puur (Under)</td><td className="py-2 text-right">200</td></tr>
                   </tbody>
                 </table>
               </div>
