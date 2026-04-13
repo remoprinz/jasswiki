@@ -236,6 +236,14 @@ const JassenPage: NextPage = () => {
               <p>
                 In der Deutschschweiz dominiert das Schweizer Blatt mit den traditionellen Farben Schellen, Schilten, Rosen und Eichel. In der Westschweiz, Basel, Graubünden, Tessin und entlang vom Bodensee wird mit französischen Karten gespielt.
               </p>
+              <p>
+                <strong>Jasskarten-Design:</strong> Das Aussehen der Deutschschweizer Jasskarten geht auf Motive des Schaffhauser Kartenmachers Jakob Peyer aus dem 19. Jahrhundert zurück. Die bekanntesten modernen Reinzeichnungen stammen von der Firma AGMüller (heute Teil des belgischen Cartamundi-Konzerns).
+              </p>
+              <p>
+                In jüngster Zeit erlebt das Jasskarten-Design eine Renaissance: Unabhängige Schweizer Designer wie{' '}
+                <a href="https://schweizerjass.ch" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:underline">schweizerjass.ch</a>{' '}
+                interpretieren die historischen, gemeinfreien Ursprungsmotive neu — mit zeitgemässer Gestaltung und eigenständiger Produktion in der Schweiz.
+              </p>
               <p><strong>Besondere Karten im Trumpf:</strong></p>
               <ul className="list-disc pl-5 space-y-1">
                 <li><Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline font-medium">Puur</Link> (Under der Trumpffarbe) — höchste Karte im Spiel, 20 Punkte</li>
