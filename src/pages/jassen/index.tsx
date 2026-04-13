@@ -10,34 +10,67 @@ import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 const SITE_URL = 'https://jasswiki.ch';
 
 const FAQS = [
+  // 1. Was ist es?
   {
     question: 'Was ist Jassen?',
     answer: 'Jassen ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten.',
   },
+  // 2. Wie funktioniert die beliebteste Variante?
   {
     question: 'Wie geht Schieber?',
     answer: 'Vier Spieler, zwei Teams, 9 Karten pro Person. Ein Spieler wählt Trumpf oder schiebt die Wahl an den Partner. Ziel: möglichst viele der 157 Punkte pro Runde.',
   },
+  // 3. Die wichtigsten Regeln
   {
-    question: 'Welche Jass-Varianten gibt es?',
-    answer: 'Über 40: Schieber, Coiffeur, Differenzler, Molotow, Pandur, Sidi Barrani, Tschau Sepp und viele mehr.',
+    question: 'Was sind die wichtigsten Jassregeln?',
+    answer: 'Man muss die angespielte Farbe bedienen, darf nur untertrumpfen wenn man keine Karte der angespielten Farbe hat, und der Gewinner eines Stichs spielt die nächste Karte aus. Eine Runde hat immer 157 Punkte (152 Kartenpunkte + 5 für den letzten Stich).',
   },
+  // 4. Punkte
   {
-    question: 'Woher kommt das Jassen?',
-    answer: 'Aus den Niederlanden, Ende des 18. Jahrhunderts über Söldner in die Schweiz gelangt. Erste Erwähnung 1796.',
+    question: 'Wie viele Punkte hat eine Jassrunde?',
+    answer: 'Jede Runde hat exakt 157 Punkte: 152 Kartenpunkte plus 5 Bonuspunkte für den letzten Stich.',
   },
+  // 5. Weis
+  {
+    question: 'Was ist ein Weis beim Jassen?',
+    answer: 'Ein Weis ist eine Kartenkombination (z.B. drei oder mehr aufeinanderfolgende Karten gleicher Farbe), die vor dem ersten Stich angesagt wird und Bonuspunkte bringt. Ein Dreiblatt gibt 20 Punkte, ein Vierblatt 50, ein Fünfblatt 100.',
+  },
+  // 6. Stöck-Weis-Stich
+  {
+    question: 'Was bedeutet Stöck-Weis-Stich?',
+    answer: 'Stöck-Weis-Stich ist die offizielle Reihenfolge, in der beim Jassen Punkte gezählt werden: zuerst Stöck (20 Punkte für König und Ober der Trumpffarbe), dann Weis (Bonuspunkte für Kartenkombinationen), dann die Stichpunkte.',
+  },
+  // 7. Matsch
+  {
+    question: 'Was ist ein Matsch beim Jassen?',
+    answer: 'Ein Matsch bedeutet, dass ein Team alle 9 Stiche einer Runde gewonnen hat. Das gibt 100 Bonuspunkte zusätzlich zu den regulären 157 Punkten.',
+  },
+  // 8. Puur
   {
     question: 'Was ist ein Puur?',
     answer: 'Der Under (Bauer) der Trumpffarbe — die höchste und wertvollste Karte im Spiel (20 Punkte).',
   },
+  // 9. Obenabe/Undenufe
   {
     question: 'Was ist der Unterschied zwischen Obenabe und Undenufe?',
-    answer: 'Bei Obenabe sticht die höchste Karte (Ass), bei Undenufe die niedrigste (6).',
+    answer: 'Bei Obenabe sticht die höchste Karte (Ass), bei Undenufe die niedrigste (6). Beide werden ohne Trumpf gespielt.',
   },
+  // 10. Varianten
   {
-    question: 'Was ist ein Weis?',
-    answer: 'Eine Kartenkombination (z.B. drei aufeinanderfolgende gleicher Farbe) die vor dem ersten Stich angesagt wird und Bonuspunkte gibt.',
+    question: 'Welche Jass-Varianten gibt es?',
+    answer: 'Über 40: Schieber (die beliebteste), Coiffeur, Differenzler (bekannt vom Samschtig-Jass), Molotow, Pandur, Sidi Barrani, Tschau Sepp und viele mehr.',
   },
+  // 11. Coiffeur
+  {
+    question: 'Wie geht Coiffeur?',
+    answer: 'Beim Coiffeur muss jede Ansage (Trumpf in allen vier Farben, Obenabe, Undenufe, Slalom etc.) genau einmal gespielt werden. Die Punkte werden je nach Ansage unterschiedlich multipliziert.',
+  },
+  // 12. Herkunft
+  {
+    question: 'Woher kommt das Jassen?',
+    answer: 'Aus den Niederlanden, Ende des 18. Jahrhunderts über Söldner in die Schweiz gelangt. Erste Erwähnung 1796. Im 20. Jahrhundert wurde Jassen durch den Samschtig-Jass auf SRF zum Nationalspiel.',
+  },
+  // 13. Kulturgut
   {
     question: 'Ist Jassen ein offizielles Kulturgut?',
     answer: 'Ja, das Bundesamt für Kultur (BAK) führt Jassen als lebendige Tradition der Schweiz.',
