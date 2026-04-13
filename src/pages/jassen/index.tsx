@@ -258,10 +258,10 @@ const JassenPage: NextPage = () => {
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Schellen</td><td className="py-2">Herz ♥</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Schilten</td><td className="py-2">Ecke ♦</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Rosen</td><td className="py-2">Kreuz ♣</td></tr>
-                    <tr><td className="py-2 pr-4">Eichel</td><td className="py-2">Schaufel ♠</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Rosen</td><td className="py-2">Herz ♥</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Schellen</td><td className="py-2">Ecke ♦</td></tr>
+                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Eichel</td><td className="py-2">Kreuz ♣</td></tr>
+                    <tr><td className="py-2 pr-4">Schilten</td><td className="py-2">Schaufel ♠</td></tr>
                   </tbody>
                 </table>
               </div>
