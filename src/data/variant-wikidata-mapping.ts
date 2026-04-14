@@ -37,8 +37,8 @@ export const VARIANT_WIKIDATA_MAP: Record<string, VariantMetadata> = {
   
   // === KÖNIGSSPIELE (Asymmetrisch) ===
   'variants-strategic-pandur': {
-    wikidataId: 'Q137738834',
-    numberOfPlayers: { min: 3, max: 4 },
+    wikidataId: 'Q1125719',
+    numberOfPlayers: { min: 2, max: 4 },
     difficulty: 5
   },
   'variants-strategic-bieter-vier': {

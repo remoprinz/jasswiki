@@ -54,7 +54,7 @@ const TAXONOMY_TERMS = [
   { name: 'Kreuzjass', wikidataId: 'Q137738899', subclassOf: 'Q786768', description: 'Partner diagonal' },
   
   // Spielarten - Königsspiele
-  { name: 'Pandur', wikidataId: 'Q137738834', link: '/varianten/pandur/', subclassOf: 'Q786768', description: '24-Blatt! Härteste Variante' },
+  { name: 'Pandur', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: 'Q786768', description: '24-Blatt! Härteste Variante' },
   { name: 'Bieter', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: 'Q786768', description: '36-Blatt, flexibler als Pandur' },
   { name: 'Aucho', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: 'Q786768', description: '"Erben"-Prinzip' },
   { name: 'Schafhauser', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: 'Q786768', description: 'Solospieler durch Karten bestimmt' },

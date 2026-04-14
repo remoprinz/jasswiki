@@ -94,3 +94,6 @@ docs/
 
 # TypeScript Config für interne Scripts
 tsconfig.scripts.json
+
+# IndexNow Cache (lokaler Deploy-State)
+.indexnow-cache.json

@@ -149,7 +149,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'B) Königsspiele (Asymmetrisch)',
         description: 'Ein "König" gegen die "Bauernpartei". Oft mit 24-Blatt.',
         items: [
-          { name: 'Pandur', description: '24-Blatt! Härteste Variante, sofortiger Verlust bei Fehler', wikidataId: 'Q137738834', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
+          { name: 'Pandur', description: '24-Blatt! Härteste Variante, sofortiger Verlust bei Fehler', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
           { name: 'Bieter', description: '36-Blatt, flexibler als Pandur', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: WIKIDATA.JASS },
           { name: 'Aucho', description: '"Erben"-Prinzip: Geber erhält Partner-Punkte', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: WIKIDATA.JASS },
           { name: 'Schafhauser', description: 'Kein Bieten, Solospieler durch Karten bestimmt', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: WIKIDATA.JASS },

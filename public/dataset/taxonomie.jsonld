@@ -101,8 +101,8 @@
       "@id": "https://jasswiki.ch/varianten/pandur/",
       "name": "Pandur",
       "description": "24-Blatt! Härteste Variante",
-      "termCode": "Q137738834",
-      "sameAs": "wd:Q137738834",
+      "termCode": "Q1125719",
+      "sameAs": "wd:Q1125719",
       "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
       "broader": "wd:Q786768",
       "url": "https://jasswiki.ch/varianten/pandur/"
