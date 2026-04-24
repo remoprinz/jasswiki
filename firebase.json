@@ -1732,7 +1732,15 @@
         {"source": "/weis-regeln/weis-arten/schreibweise/", "destination": "/regeln/schreiben/schreibweise/", "type": 301},
         {"source": "/geschichte/herkunft/jasskarten-36-karten/", "destination": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/", "type": 301},
         {"source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/", "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/", "type": 301},
-        {"source": "/geschichte/industrialisierung/jasskarten-36-karten/", "destination": "/geschichte/vom-luxusgut-zur-massenware/", "type": 301}
+        {"source": "/geschichte/industrialisierung/jasskarten-36-karten/", "destination": "/geschichte/vom-luxusgut-zur-massenware/", "type": 301},
+        {"source": "/begriffe/kartenbezeichnungen/schilte/", "destination": "/begriffe/kartenbezeichnungen/schilten/", "type": 301},
+        {"source": "/regeln/bergpreis/bergpreis/", "destination": "/regeln/bergpreis/", "type": 301},
+        {"source": "/varianten/koenigsspiel/bieter/", "destination": "/varianten/bieter-4-spieler/", "type": 301},
+        {"source": "/regeln/kartenverteilung/abheben/", "destination": "/regeln/kartenverteilung/abheben-der-karten/", "type": 301},
+        {"source": "/grundlagen-kultur/europaeischer-kontext/jassen-im-europaeischen-vergleich/", "destination": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/", "type": 301},
+        {"source": "/regeln/kartenverteilung/der-jass/", "destination": "/regeln/kartenverteilung/", "type": 301},
+        {"source": "/regeln/sonderregeln/trumpf-bauer-angabe/", "destination": "/regeln/spielablauf/trumpfansage/", "type": 301},
+        {"source": "/regeln/fehler-verstoesse/kartenspiel-nicht-komplett/", "destination": "/regeln/fehler-verstoesse/karten-nicht-komplett/", "type": 301}
       ]
     }
   ]
