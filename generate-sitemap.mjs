@@ -37,7 +37,11 @@ async function generateSitemap() {
         changefreq: 'daily',
         priority: '1.0'
       },
-      // Modulare llms.txt v2.0 (AI-optimiert)
+      // Hinweis: /llms.txt + /llms-*.md sind bewusst NICHT in der Sitemap.
+      // Sie sind für AI-Crawler (GPTBot, ClaudeBot etc.) via robots.txt und
+      // dem `Link: <…llms.txt>; rel="ai-content-source"` Header zugänglich.
+      // Google Search versucht sonst diese Dateien zu indexieren, scheitert
+      // (keine HTML-Pages) und meldet sie als "Crawled – not indexed".
       {
         loc: `${BASE_URL}/jassen/`,
         lastmod: lastModDate,
@@ -49,48 +53,6 @@ async function generateSitemap() {
         lastmod: lastModDate,
         changefreq: 'weekly',
         priority: '0.95'
-      },
-      {
-        loc: `${BASE_URL}/llms.txt`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.95'
-      },
-      {
-        loc: `${BASE_URL}/llms-essentials.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
-      },
-      {
-        loc: `${BASE_URL}/llms-regeln.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
-      },
-      {
-        loc: `${BASE_URL}/llms-begriffe.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
-      },
-      {
-        loc: `${BASE_URL}/llms-varianten.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
-      },
-      {
-        loc: `${BASE_URL}/llms-taktiken.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
-      },
-      {
-        loc: `${BASE_URL}/llms-kultur.md`,
-        lastmod: lastModDate,
-        changefreq: 'weekly',
-        priority: '0.9'
       },
       {
         loc: `${BASE_URL}/quellen/`,

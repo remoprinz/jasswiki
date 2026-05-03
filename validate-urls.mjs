@@ -19,6 +19,7 @@ const __dirname = path.dirname(__filename);
 const JSON_FILE = path.resolve(__dirname, 'src/data/jass-content-v2.json');
 const SITEMAP_FILE = path.resolve(__dirname, 'public/sitemap.xml');
 const CORPUS_FILE = path.resolve(__dirname, 'public/dataset/jasswiki-corpus.jsonl');
+const FIREBASE_FILE = path.resolve(__dirname, 'firebase.json');
 
 async function validateUrls() {
   console.log('🔍 JassWiki URL-Validator');
@@ -151,6 +152,56 @@ async function validateUrls() {
         message: 'Sitemap nicht gefunden - bitte "npm run sitemap" ausführen'
       });
       console.log('   ⚠️  Sitemap nicht gefunden');
+    }
+    console.log('');
+
+    // 2b. Cross-Check: Sitemap-URL darf nicht gleichzeitig Redirect-Source sein
+    //     (sonst meldet Google "Seite mit Weiterleitung" und deindexiert)
+    console.log('📄 Prüfe Sitemap × firebase.json Redirects...');
+    try {
+      const sitemapContent = await fs.readFile(SITEMAP_FILE, 'utf-8');
+      const firebaseConfig = JSON.parse(await fs.readFile(FIREBASE_FILE, 'utf-8'));
+      const hostings = Array.isArray(firebaseConfig.hosting)
+        ? firebaseConfig.hosting
+        : firebaseConfig.hosting ? [firebaseConfig.hosting] : [];
+      const redirectSources = new Set();
+      for (const h of hostings) {
+        for (const r of h.redirects || []) {
+          // Normalisiere auf "ohne Trailing-Slash, mit führendem Slash"
+          let s = String(r.source || '').trim();
+          if (!s) continue;
+          if (!s.startsWith('/')) s = '/' + s;
+          if (s.length > 1 && s.endsWith('/')) s = s.slice(0, -1);
+          redirectSources.add(s);
+        }
+      }
+
+      const sitemapPaths = (sitemapContent.match(/<loc>([^<]+)<\/loc>/g) || [])
+        .map(t => t.replace('<loc>', '').replace('</loc>', ''))
+        .map(u => u.replace('https://jasswiki.ch', ''))
+        .map(p => p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : p);
+
+      let crossErrors = 0;
+      for (const p of sitemapPaths) {
+        if (redirectSources.has(p)) {
+          crossErrors++;
+          errors.push({
+            type: 'SITEMAP_URL_IS_REDIRECT_SOURCE',
+            url: p,
+            message: 'URL ist in der Sitemap UND in firebase.json als Redirect-Source — Google deindexiert sie.'
+          });
+        }
+      }
+      console.log(`   ✅ ${sitemapPaths.length} Sitemap-URLs gegen ${redirectSources.size} Redirect-Sources geprüft`);
+      if (crossErrors > 0) {
+        console.log(`   ❌ ${crossErrors} Konflikte gefunden!`);
+      }
+    } catch (e) {
+      warnings.push({
+        type: 'CROSSCHECK_FAILED',
+        message: `Cross-Check Sitemap × firebase.json fehlgeschlagen: ${e.message}`
+      });
+      console.log(`   ⚠️  Cross-Check fehlgeschlagen: ${e.message}`);
     }
     console.log('');
 

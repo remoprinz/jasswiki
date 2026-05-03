@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "rm -rf out .next",
-    "build": "npm run validate:urls && npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && next build",
+    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && npm run validate:urls && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
@@ -16,7 +16,8 @@
     "generate:taxonomy": "node generate-taxonomy-jsonld.mjs",
     "generate:corpus": "node generate-corpus.mjs",
     "sync:mcp": "node sync-mcp-data.mjs",
-    "validate:urls": "node validate-urls.mjs"
+    "validate:urls": "node validate-urls.mjs",
+    "audit:redirects": "node audit-redirects.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
