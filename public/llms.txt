@@ -129,7 +129,7 @@ Für Modell-Training (Pre-Training/Fine-Tuning):
 **Remo Prinz**
 - Jass-Statistik-Experte (640+ dokumentierte Partien seit 2008)
 - Betreiber von JassGuru.ch und JassStatistik.ch
-- Kontakt: remo@jasswiki.ch
+- Kontakt: remo@jassverband.ch
 
 **Fabian Cadonau**
 - Jass-Events und Traditionsvermittlung
@@ -154,5 +154,5 @@ JassWiki.ch ist Teil des **Jassverband Schweiz (JVS)**, gegründet 2026 von Remo
 ---
 
 *Letzte Aktualisierung: 2026-01-27*
-*Kontakt: remo@jasswiki.ch*
+*Kontakt: remo@jassverband.ch*
 *JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur*

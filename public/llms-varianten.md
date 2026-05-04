@@ -1866,6 +1866,6 @@ Bewertung:
 
 ---
 
-*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jasswiki.ch*
+*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jassverband.ch*
 *Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

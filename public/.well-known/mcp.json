@@ -24,7 +24,7 @@
     "curator": {
       "@type": "Person",
       "name": "Remo Prinz",
-      "email": "remo@jasswiki.ch",
+      "email": "remo@jassverband.ch",
       "url": "https://jasswiki.ch/team/remo-prinz"
     }
   },
@@ -106,9 +106,24 @@
     "attestor": "did:web:jassverband.ch"
   },
   "discovery": {
-    "anthropicMcpDirectory": "pending",
+    "officialMcpRegistry": {
+      "status": "active",
+      "namespace": "ch.jassverband/jasswiki",
+      "version": "1.0.1",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers/ch.jassverband/jasswiki",
+      "publishedAt": "2026-05-04"
+    },
     "nandaIndex": "pending",
     "openaiConnectors": "pending"
+  },
+  "specification": {
+    "name": "AMCP",
+    "version": "0.1",
+    "architect": {
+      "name": "Agentic Relations",
+      "url": "https://agenticrelations.ch",
+      "founder": "Remo Prinz"
+    }
   },
   "license": "CC-BY-SA-4.0",
   "lastUpdated": "2026-05-04",

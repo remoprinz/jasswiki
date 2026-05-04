@@ -63,7 +63,7 @@
     "name": "JassWiki",
     "url": "https://jasswiki.ch",
     "wikidataQid": "Q137900251",
-    "contact": "remo@jasswiki.ch"
+    "contact": "remo@jassverband.ch"
   },
   "attestor": {
     "did": "did:web:jassverband.ch",
@@ -105,5 +105,11 @@
     }
   ],
   "specVersion": "AMCP/0.1",
+  "specArchitect": {
+    "name": "Agentic Relations",
+    "url": "https://agenticrelations.ch",
+    "founder": "Remo Prinz",
+    "specUrl": "https://agenticrelations.ch/specs/amcp"
+  },
   "lastUpdated": "2026-05-04"
 }
