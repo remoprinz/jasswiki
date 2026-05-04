@@ -1,0 +1,109 @@
+{
+  "$schema": "https://glama.ai/schemas/mcp-server-card/v1.json",
+  "name": "JassWiki MCP",
+  "displayName": "JassWiki — Swiss Jass Authority",
+  "description": "First publicly attested MCP knowledge server in Switzerland. AI-accessible encyclopedia for Swiss Jass: 520+ articles on rules, variants, terminology, history and tactics. Authority-attested by Jassverband Schweiz (did:web:jassverband.ch) with Ed25519 cryptographic verification. Recognised as Swiss living tradition by the Federal Office of Culture (BAK).",
+  "tagline": "The first authority-attested MCP server in Switzerland",
+  "homepage": "https://jasswiki.ch",
+  "repository": "https://github.com/remoprinz/jasswiki-mcp",
+  "license": "CC-BY-SA-4.0",
+  "languages": ["de", "fr", "it", "en"],
+  "categories": [
+    "knowledge-base",
+    "documentation",
+    "encyclopedia",
+    "cultural-heritage",
+    "search"
+  ],
+  "tags": [
+    "swiss",
+    "switzerland",
+    "jass",
+    "card-games",
+    "cultural-heritage",
+    "wikidata-anchored",
+    "authority-attested",
+    "did-web",
+    "ed25519",
+    "amcp"
+  ],
+  "endpoints": {
+    "transport": "sse",
+    "sse": "https://us-central1-jassguru.cloudfunctions.net/mcp/sse",
+    "messages": "https://us-central1-jassguru.cloudfunctions.net/mcp/messages",
+    "health": "https://us-central1-jassguru.cloudfunctions.net/mcp/health",
+    "manifest": "https://jasswiki.ch/.well-known/mcp.json"
+  },
+  "tools": [
+    {
+      "name": "search_jass_knowledge",
+      "description": "Fuzzy-search across the official JassWiki encyclopedia (520+ articles). Returns matching titles, IDs, URLs, and content excerpts.",
+      "inputSchema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": {"type": "string", "description": "Search term or natural-language question"},
+          "limit": {"type": "number", "default": 3, "description": "Max number of results"}
+        }
+      }
+    },
+    {
+      "name": "get_term_details",
+      "description": "Retrieve the full official rule or definition for a specific term ID (use after search_jass_knowledge for verification of exact wording).",
+      "inputSchema": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {"type": "string", "description": "Exact term ID (e.g. 'schieber', 'matsch', 'differenzler')"}
+        }
+      }
+    }
+  ],
+  "operator": {
+    "name": "JassWiki",
+    "url": "https://jasswiki.ch",
+    "wikidataQid": "Q137900251",
+    "contact": "remo@jasswiki.ch"
+  },
+  "attestor": {
+    "did": "did:web:jassverband.ch",
+    "name": "Jassverband Schweiz",
+    "url": "https://jassverband.ch",
+    "wikidataQid": "Q139042763",
+    "attestationDocument": "https://jassverband.ch/.well-known/mcp-authority.json",
+    "attestationSignature": "https://jassverband.ch/.well-known/mcp-authority.sig",
+    "attestationDate": "2026-05-04",
+    "attestationResolution": "JVS-VS-2026-05-04-AMCP-01",
+    "verificationKey": "https://jassverband.ch/.well-known/did.json#authority-key-1"
+  },
+  "trustChain": {
+    "wikipediaCitation": "https://de.wikipedia.org/wiki/Jass",
+    "bakRecognition": "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html",
+    "wikidataPresence": [
+      "https://www.wikidata.org/wiki/Q786768",
+      "https://www.wikidata.org/wiki/Q137900251",
+      "https://www.wikidata.org/wiki/Q139042763"
+    ]
+  },
+  "examples": [
+    {
+      "title": "Rule lookup",
+      "prompt": "What are the official rules for Schieber-Jass?",
+      "expectedTool": "search_jass_knowledge",
+      "expectedQuery": "Schieber-Regeln"
+    },
+    {
+      "title": "Variant comparison",
+      "prompt": "Difference between Coiffeur-Schieber and Differenzler?",
+      "expectedTool": "search_jass_knowledge"
+    },
+    {
+      "title": "Tactical reference",
+      "prompt": "Welche Verwerfen-Konventionen gibt es im Schieber?",
+      "expectedTool": "search_jass_knowledge",
+      "expectedQuery": "Verwerfen Schieber Konventionen"
+    }
+  ],
+  "specVersion": "AMCP/0.1",
+  "lastUpdated": "2026-05-04"
+}
