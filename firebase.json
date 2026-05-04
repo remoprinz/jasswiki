@@ -17,12 +17,49 @@
       "public": "out",
       "ignore": [
         "firebase.json",
-        "**/.*",
+        "**/.git/**",
+        "**/.next/**",
+        "**/.DS_Store",
+        "**/.env*",
+        "**/.firebase/**",
         "**/node_modules/**"
       ],
       "cleanUrls": true,
       "trailingSlash": true,
       "headers": [
+        {
+          "source": "/.well-known/mcp.json",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "GET, HEAD, OPTIONS"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=3600"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Link",
+              "value": "<https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\""
+            },
+            {
+              "key": "X-MCP-Authority",
+              "value": "did:web:jassverband.ch"
+            }
+          ]
+        },
         {
           "source": "/dataset/taxonomie.jsonld",
           "headers": [
@@ -48,7 +85,15 @@
             },
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
+            },
+            {
+              "key": "X-MCP-Authority",
+              "value": "did:web:jassverband.ch"
+            },
+            {
+              "key": "X-MCP-Authority-Document",
+              "value": "https://jassverband.ch/.well-known/mcp-authority.json"
             },
             {
               "key": "X-Agentic-Context",
@@ -60,7 +105,7 @@
             },
             {
               "key": "Access-Control-Expose-Headers",
-              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source, X-MCP-Authority, X-MCP-Authority-Document"
             }
           ]
         },
@@ -89,7 +134,15 @@
             },
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\""
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
+            },
+            {
+              "key": "X-MCP-Authority",
+              "value": "did:web:jassverband.ch"
+            },
+            {
+              "key": "X-MCP-Authority-Document",
+              "value": "https://jassverband.ch/.well-known/mcp-authority.json"
             },
             {
               "key": "X-Agentic-Context",
@@ -101,7 +154,7 @@
             },
             {
               "key": "Access-Control-Expose-Headers",
-              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source, X-MCP-Authority, X-MCP-Authority-Document"
             }
           ]
         },
@@ -110,7 +163,7 @@
           "headers": [
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jasswiki.ch/llms.txt>; rel=\"ai-content-source\"; type=\"text/plain\""
+              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jasswiki.ch/llms.txt>; rel=\"ai-content-source\"; type=\"text/plain\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
             },
             {
               "key": "X-Agentic-Context",
@@ -121,8 +174,16 @@
               "value": "https://jasswiki.ch/llms.txt"
             },
             {
+              "key": "X-MCP-Authority",
+              "value": "did:web:jassverband.ch"
+            },
+            {
+              "key": "X-MCP-Authority-Document",
+              "value": "https://jassverband.ch/.well-known/mcp-authority.json"
+            },
+            {
               "key": "Access-Control-Expose-Headers",
-              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source"
+              "value": "Link, X-Agentic-Context, X-AI-Knowledge-Source, X-MCP-Authority, X-MCP-Authority-Document"
             }
           ]
         }

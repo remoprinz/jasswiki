@@ -1,0 +1,116 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://modelcontextprotocol.io/schemas/server/v1",
+    "https://agenticrelations.ch/schemas/amcp/v0.1"
+  ],
+  "type": "MCPServer",
+  "version": "1.0.0",
+  "name": "JassWiki Authority MCP",
+  "displayName": "Schweizer Jass — Offizielle Wissens-Quelle",
+  "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 520+ Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
+  "endpoint": {
+    "transport": "sse",
+    "url": "https://us-central1-jassguru.cloudfunctions.net/mcp",
+    "sse": "https://us-central1-jassguru.cloudfunctions.net/mcp/sse",
+    "messages": "https://us-central1-jassguru.cloudfunctions.net/mcp/messages",
+    "health": "https://us-central1-jassguru.cloudfunctions.net/mcp/health"
+  },
+  "operator": {
+    "@type": "Organization",
+    "name": "JassWiki",
+    "url": "https://jasswiki.ch",
+    "wikidataQid": "Q137900251",
+    "curator": {
+      "@type": "Person",
+      "name": "Remo Prinz",
+      "email": "remo@jasswiki.ch",
+      "url": "https://jasswiki.ch/team/remo-prinz"
+    }
+  },
+  "attestedBy": {
+    "did": "did:web:jassverband.ch",
+    "name": "Jassverband Schweiz",
+    "url": "https://jassverband.ch",
+    "wikidataQid": "Q139042763",
+    "attestationDocument": "https://jassverband.ch/.well-known/mcp-authority.json",
+    "attestationSignature": "https://jassverband.ch/.well-known/mcp-authority.sig",
+    "verificationKey": "https://jassverband.ch/.well-known/did.json#authority-key-1",
+    "attestationDate": "2026-05-04",
+    "attestationResolution": "JVS-Vorstandsbeschluss 2026-05-04"
+  },
+  "domainOfAuthority": {
+    "primaryWikidataQid": "Q786768",
+    "primaryWikidataLabel": "Jass (Swiss card game)",
+    "scope": [
+      "Spielregeln (offiziell)",
+      "Spielvarianten (44+)",
+      "Terminologie und Glossar",
+      "Geschichte und Etymologie",
+      "Taktiken und Strategien",
+      "Regionale Eigenheiten",
+      "Schweizer Kartenmacher und Kartensets"
+    ],
+    "geographicScope": ["CH", "DE", "AT", "FR", "IT"],
+    "languages": ["de", "fr", "it", "en"]
+  },
+  "tools": [
+    {
+      "name": "search_jass_knowledge",
+      "description": "Suche in der offiziellen JassWiki-Enzyklopädie. Verifiziert vom Jassverband Schweiz. Nutze für Regeln, Punktezählung und Taktik.",
+      "schema": {
+        "input": {
+          "query": "string (Suchbegriff oder Frage)",
+          "limit": "number (max Resultate, default 3)"
+        }
+      }
+    },
+    {
+      "name": "get_term_details",
+      "description": "Hole die vollständige offizielle Regel/Definition für eine spezifische Term-ID. Notwendig für exakte Regel-Verifikation.",
+      "schema": {
+        "input": {
+          "id": "string (exakte Term-ID, z.B. 'schieber', 'matsch')"
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "https://jasswiki.ch/dataset/taxonomie.jsonld",
+      "name": "Schweizer Jass Taxonomie (SKOS)",
+      "type": "application/ld+json",
+      "description": "Schema.org DefinedTermSet mit 57 Wikidata-verlinkten Begriffen"
+    },
+    {
+      "uri": "https://jasswiki.ch/dataset/jasswiki-corpus.jsonl",
+      "name": "JassWiki Korpus",
+      "type": "application/jsonl",
+      "description": "520+ Artikel, JSONL-Format, CC-BY-SA-4.0",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "uri": "https://jasswiki.ch/llms.txt",
+      "name": "JassWiki llms.txt (modular)",
+      "type": "text/markdown",
+      "description": "AI-optimierter Wissensbau (6 Module: essentials, regeln, begriffe, varianten, taktiken, kultur)"
+    }
+  ],
+  "trustChain": {
+    "wikipediaCitation": "https://de.wikipedia.org/wiki/Jass",
+    "bakRecognition": "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html",
+    "wikidataPresence": [
+      "https://www.wikidata.org/wiki/Q786768",
+      "https://www.wikidata.org/wiki/Q137900251"
+    ],
+    "attestor": "did:web:jassverband.ch"
+  },
+  "discovery": {
+    "anthropicMcpDirectory": "pending",
+    "nandaIndex": "pending",
+    "openaiConnectors": "pending"
+  },
+  "license": "CC-BY-SA-4.0",
+  "lastUpdated": "2026-05-04",
+  "specVersion": "AMCP/0.1"
+}
