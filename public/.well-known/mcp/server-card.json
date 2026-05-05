@@ -71,10 +71,11 @@
     "url": "https://jassverband.ch",
     "wikidataQid": "Q139042763",
     "attestationDocument": "https://jassverband.ch/.well-known/mcp-authority.json",
-    "attestationSignature": "https://jassverband.ch/.well-known/mcp-authority.sig",
+    "attestationFormat": "W3C Verifiable Credential (Data Model 2.0)",
+    "cryptosuite": "eddsa-jcs-2022",
     "attestationDate": "2026-05-04",
     "attestationResolution": "JVS-VS-2026-05-04-AMCP-01",
-    "verificationKey": "https://jassverband.ch/.well-known/did.json#authority-key-1"
+    "verificationMethod": "did:web:jassverband.ch#authority-key-1"
   },
   "trustChain": {
     "wikipediaCitation": "https://de.wikipedia.org/wiki/Jass",

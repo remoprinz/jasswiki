@@ -34,8 +34,9 @@
     "url": "https://jassverband.ch",
     "wikidataQid": "Q139042763",
     "attestationDocument": "https://jassverband.ch/.well-known/mcp-authority.json",
-    "attestationSignature": "https://jassverband.ch/.well-known/mcp-authority.sig",
-    "verificationKey": "https://jassverband.ch/.well-known/did.json#authority-key-1",
+    "attestationFormat": "W3C Verifiable Credential (Data Model 2.0)",
+    "cryptosuite": "eddsa-jcs-2022",
+    "verificationMethod": "did:web:jassverband.ch#authority-key-1",
     "attestationDate": "2026-05-04",
     "attestationResolution": "JVS-Vorstandsbeschluss 2026-05-04"
   },
