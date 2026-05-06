@@ -45,23 +45,25 @@ export const FaqSection: React.FC<FaqSectionProps> = ({
                   : 'bg-[#f0eee7]/50 border border-white min-h-[60px]'
               }`}
             >
-              <button
-                onClick={() => toggleFaq(index)}
-                className={`w-full flex items-center justify-between px-[16px] py-[16px] text-left hover:bg-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-wiki-green/30 focus:ring-inset ${
-                  isOpen ? 'rounded-t-[8px]' : 'rounded-[8px]'
-                }`}
-                aria-expanded={isOpen}
-                aria-controls={`faq-answer-${index}`}
-              >
-                <span className={`font-capita text-[20px] font-bold pr-[16px] leading-[1.4] ${isOpen ? 'text-[#ff0000]' : 'text-black'}`}>
-                  {faq.question}
-                </span>
-                {isOpen ? (
-                  <ChevronUp className="w-5 h-5 text-black flex-shrink-0" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-black flex-shrink-0" />
-                )}
-              </button>
+              <h3 className="m-0 p-0">
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className={`w-full flex items-center justify-between px-[16px] py-[16px] text-left hover:bg-transparent transition-colors focus:outline-none focus:ring-2 focus:ring-wiki-green/30 focus:ring-inset ${
+                    isOpen ? 'rounded-t-[8px]' : 'rounded-[8px]'
+                  }`}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${index}`}
+                >
+                  <span className={`font-capita text-[20px] font-bold pr-[16px] leading-[1.4] ${isOpen ? 'text-[#ff0000]' : 'text-black'}`}>
+                    {faq.question}
+                  </span>
+                  {isOpen ? (
+                    <ChevronUp className="w-5 h-5 text-black flex-shrink-0" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-black flex-shrink-0" />
+                  )}
+                </button>
+              </h3>
 
               <div 
                 id={`faq-answer-${index}`}
