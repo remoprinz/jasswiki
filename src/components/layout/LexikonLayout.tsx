@@ -162,21 +162,9 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
         </div>
       )}
 
-      {/* ── Mobile Content ── */}
-      <div className="lg:hidden">
-        <div className="bg-white mx-4 mt-3 mb-3 rounded-[12px] min-h-[60vh]">
-          <div className="px-[16px] pt-[14px] pb-[4px]">
-            <Breadcrumbs items={breadcrumbItems} />
-          </div>
-          <div className="px-[16px] pt-[14px] pb-[24px]">
-            <div className="content-formatting max-w-none">{children}</div>
-          </div>
-        </div>
-      </div>
-
-      {/* ── Desktop Layout ── */}
+      {/* ── Desktop Header Bar (absolute positioned, no children) ── */}
       <div className="hidden lg:block">
-        <div className="relative w-[1440px] mx-auto">
+        <div className="relative w-[1440px] mx-auto h-0">
           {/* Header Bar: x=140, y=15, w=1160, h=80 */}
           <div className="jw-desktop-header-bar absolute left-[140px] top-[15px] w-[1160px] h-[80px] rounded-[12px] bg-white z-30" />
 
@@ -189,33 +177,36 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           <div className="jw-desktop-header-search absolute left-[445px] top-[33px] w-[831px] z-40">
             <SearchBar />
           </div>
+        </div>
+      </div>
 
-          {/* Main block starts at y=107 */}
-          <div className="jw-desktop-content pt-[107px] pb-0">
-            <div className="relative flex items-stretch">
-              {/* Sidebar: x=138, w=307 */}
-              <aside
-                className="w-[307px] ml-[138px] flex-shrink-0 self-start"
-                style={desktopSidebarHeight ? { height: `${desktopSidebarHeight}px` } : undefined}
-              >
-                <div className="bg-black/60 rounded-[12px] p-[24px] h-full overflow-y-auto">
-                  <LexikonSidebar />
-                </div>
-              </aside>
-
-              {/* Content panel: x=435, w=865 */}
-              <main className="w-[865px] -ml-[10px] flex-shrink-0">
-                <div ref={mainPanelRef} className="bg-white rounded-tr-[12px] rounded-br-[12px] rounded-tl-none rounded-bl-none min-h-[800px]">
-                  <div className="px-[28px] pt-[20px]">
-                    <Breadcrumbs items={breadcrumbItems} />
-                  </div>
-                  <div className="px-[28px] pt-[18px] pb-[32px]">
-                    <div className="content-formatting max-w-none">{children}</div>
-                  </div>
-                </div>
-              </main>
+      {/* ── Main Content (rendered ONCE, responsive layout per Breakpoint) ── */}
+      <div className="lg:w-[1440px] lg:mx-auto lg:pt-[107px]">
+        <div className="lg:relative lg:flex lg:items-stretch">
+          {/* Desktop-only Sidebar */}
+          <aside
+            className="hidden lg:block w-[307px] ml-[138px] flex-shrink-0 self-start"
+            style={desktopSidebarHeight ? { height: `${desktopSidebarHeight}px` } : undefined}
+          >
+            <div className="bg-black/60 rounded-[12px] p-[24px] h-full overflow-y-auto">
+              <LexikonSidebar />
             </div>
-          </div>
+          </aside>
+
+          {/* Main Content Panel — Mobile-Card-Style + Desktop-Panel-Style responsiv */}
+          <main className="lg:w-[865px] lg:-ml-[10px] lg:flex-shrink-0">
+            <div
+              ref={mainPanelRef}
+              className="bg-white mx-4 mt-3 mb-3 rounded-[12px] min-h-[60vh] lg:mx-0 lg:mt-0 lg:mb-0 lg:rounded-tr-[12px] lg:rounded-br-[12px] lg:rounded-tl-none lg:rounded-bl-none lg:min-h-[800px]"
+            >
+              <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[28px] lg:pt-[20px]">
+                <Breadcrumbs items={breadcrumbItems} />
+              </div>
+              <div className="px-[16px] pt-[14px] pb-[24px] lg:px-[28px] lg:pt-[18px] lg:pb-[32px]">
+                <div className="content-formatting max-w-none">{children}</div>
+              </div>
+            </div>
+          </main>
         </div>
       </div>
 
