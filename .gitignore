@@ -11,6 +11,13 @@ out/
 build/
 
 # ========================================
+# macOS iCloud-Drive-Sync-Konflikte (Pattern: "* 2/")
+# Cleanup-Script: clean-icloud-dupes.sh (in Root, von prebuild aufgerufen)
+# ========================================
+* 2
+* 2/
+
+# ========================================
 # ENVIRONMENT & SECRETS
 # ========================================
 .env

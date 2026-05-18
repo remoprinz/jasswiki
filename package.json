@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "rm -rf out .next",
+    "prebuild": "rm -rf out .next && bash clean-icloud-dupes.sh",
     "build": "npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && npm run validate:urls && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
