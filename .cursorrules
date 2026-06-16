@@ -1,0 +1,22 @@
+# JassWiki — Cursor-Regeln (verbindlich)
+
+Vollständige Konventionen: siehe `CLAUDE.md` im Repo-Root. Die wichtigsten Punkte:
+
+## KRITISCH: iCloud + node_modules
+Repo liegt im iCloud-synchronisierten Documents-Ordner. `node_modules` ist ein Symlink auf `node_modules.nosync` (iCloud-immun).
+- IMMER `npm install`, NIEMALS `npm ci` (löscht den Symlink → Build bricht ab, weil node_modules wieder in iCloud landet).
+- Falls Symlink fehlt: `ln -s node_modules.nosync node_modules`.
+
+## Content
+- Quelle: `src/data/jass-content-v2.json`.
+- NULL Halluzinationen; strittige/taktische Jass-Fakten mit Remo klären (Ghostwriter-Modell).
+- Genus nie raten. Bestätigt: das Nell, das Banner, die Stöck (Einzahl=Mehrzahl), der Weis, der Puur.
+- Keine Gedankenstriche (—), nüchternes Jass-Lehrmittel-Register.
+
+## Struktur/SEO
+- KONSOLIDIEREN statt streuen (Kannibalisierung war der Indexierungs-Killer). Dubletten per 301 (`url-redirects.json` → `scripts/build-redirects.mjs`).
+- Artikel in die Fach-Rubrik platzieren (Weise → /weis-regeln/, Regeln → /regeln/), nicht reflexhaft /begriffe/.
+- Nach Änderungen: 0 tote Crosslinks; `generate-corpus` → `generate-sitemap` → `validate-urls` (0 Fehler).
+
+## Deploy
+`npm run deploy`. SEO/Build immer gegen Live-curl prüfen, nie nur lokales `out/`.

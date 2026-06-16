@@ -32,3 +32,12 @@ if [ "$found" = "0" ]; then
 else
   echo "  → $found Duplikat(e) entfernt."
 fi
+
+# Self-Heal: node_modules MUSS ein Symlink auf node_modules.nosync sein (iCloud-Schutz).
+# iCloud entfernt den Symlink bei Sync-Konflikten -> sonst bricht "next build" mit
+# "next: command not found" ab. Vor jedem Build wiederherstellen.
+if [ -d "node_modules.nosync" ] && [ ! -L "node_modules" ]; then
+  rm -rf "node_modules"
+  ln -s "node_modules.nosync" "node_modules"
+  echo "  🔗 node_modules-Symlink wiederhergestellt (iCloud-Schutz)."
+fi

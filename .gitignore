@@ -1,7 +1,12 @@
 # ========================================
 # DEPENDENCIES
 # ========================================
-node_modules/
+# Ohne Trailing-Slash, damit auch der node_modules-SYMLINK ignoriert wird (sonst '?? node_modules').
+node_modules
+# iCloud-immun: echter Ordner mit .nosync-Endung (von iCloud ignoriert),
+# node_modules ist ein Symlink darauf. Regel: `npm install` (nie `npm ci`, das löscht den Symlink).
+node_modules.nosync/
+node_modules.nosync
 
 # ========================================
 # NEXT.JS BUILD OUTPUT
