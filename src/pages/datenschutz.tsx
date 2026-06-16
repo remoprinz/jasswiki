@@ -1,6 +1,6 @@
-import Head from 'next/head';
 import { useEffect } from 'react';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
+import { SeoHead } from '@/components/layout/SeoHead';
 
 const DatenschutzPage = () => {
   const breadcrumbItems = [
@@ -21,11 +21,10 @@ const DatenschutzPage = () => {
 
   return (
     <>
-      <Head>
-        <title>Datenschutz - JassWiki</title>
-        <meta name="description" content="Datenschutzerklärung von JassWiki" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+      <SeoHead
+        title="Datenschutz - JassWiki"
+        description="Datenschutzerklärung von JassWiki"
+      />
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <h1 className="text-3xl font-bold mb-6 text-white">Datenschutzerklärung</h1>
         

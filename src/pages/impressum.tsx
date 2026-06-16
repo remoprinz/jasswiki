@@ -1,7 +1,7 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
+import { SeoHead } from '@/components/layout/SeoHead';
 
 const ImpressumPage = () => {
   const breadcrumbItems = [
@@ -22,11 +22,10 @@ const ImpressumPage = () => {
 
   return (
     <>
-      <Head>
-        <title>Impressum - JassWiki</title>
-        <meta name="description" content="Impressum und Kontaktinformationen von JassWiki" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+      <SeoHead
+        title="Impressum - JassWiki"
+        description="Impressum und Kontaktinformationen von JassWiki"
+      />
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <h1 className="text-3xl font-bold mb-6 text-white">Impressum</h1>
         

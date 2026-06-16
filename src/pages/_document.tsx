@@ -297,25 +297,11 @@ class MyDocument extends Document {
           {/* Web App Manifest */}
           <link rel="manifest" href="/manifest.json" />
 
-          {/* Open Graph Meta Tags für Social Media & Google */}
-          <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="JassWiki.ch" />
-          <meta property="og:title" content="JassWiki: Alles rund ums Jassen" />
-          <meta property="og:description" content="Die vollständige Jassregeln-Referenz: Offizielle Spielregeln, Weis, Varianten und Strategien für das Schweizer Nationalspiel." />
-          <meta property="og:url" content="https://jasswiki.ch/" />
-          <meta property="og:image" content="https://jasswiki.ch/logo-jasswiki-180x180.png" />
-          <meta property="og:image:width" content="180" />
-          <meta property="og:image:height" content="180" />
-          <meta property="og:image:type" content="image/png" />
-          <meta property="og:logo" content="https://jasswiki.ch/logo-jasswiki-120x120.png" />
-          
-          {/* Twitter Card Meta Tags */}
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@jasswiki" />
-          <meta name="twitter:title" content="JassWiki: Alles rund ums Jassen" />
-          <meta name="twitter:description" content="Die vollständige Jassregeln-Referenz für das Schweizer Nationalspiel." />
-          <meta name="twitter:image" content="https://jasswiki.ch/logo-jasswiki-180x180.png" />
-          
+          {/* Open Graph & Twitter Cards werden pro Seite über SeoHead gesetzt
+              (bzw. lokalen Head bei Sonderseiten), NICHT global. Sonst entstehen
+              doppelte og:image/og:title-Tags auf jeder Seite — was u.a. dazu führte,
+              dass Google für manche URLs das falsche/veraltete Vorschaubild cachte. */}
+
           {/* Zusätzliche Meta-Tags */}
           {/* NOTE: meta description wird von SeoHead pro Seite gesetzt, NICHT global! */}
           <meta name="apple-touch-fullscreen" content="yes" />

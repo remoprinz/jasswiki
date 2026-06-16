@@ -7,7 +7,7 @@ export const LegalFooter = () => {
       <div className="lg:hidden w-full">
         <div className="w-full bg-[#f0eee7] px-4 py-5 flex items-start justify-between gap-4">
           <p className="text-[14px] leading-[1.5] font-inter text-[#6b6b6b]">
-            Gelistet beim Bundesamt fuer Kultur
+            Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz anerkannt. JassWiki führt das offizielle Logo «Lebendige Traditionen» mit Genehmigung des BAK.
           </p>
           <img
             src="/logo_lebendige_traditionen_hellgrau.png"
@@ -46,7 +46,7 @@ export const LegalFooter = () => {
         <div className="w-full bg-[#f0eee7]">
           <div className="max-w-[1160px] mx-auto px-8 py-6 flex items-start justify-between gap-8">
             <p className="text-[15px] leading-[1.6] font-inter text-[#6b6b6b]">
-              Gelistet beim Bundesamt fuer Kultur
+              Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz anerkannt. JassWiki führt das offizielle Logo «Lebendige Traditionen» mit Genehmigung des BAK.
             </p>
             <img
               src="/logo_lebendige_traditionen_hellgrau.png"
