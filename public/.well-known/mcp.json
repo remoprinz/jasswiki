@@ -8,7 +8,7 @@
   "version": "1.0.0",
   "name": "JassWiki Authority MCP",
   "displayName": "Schweizer Jass — Offizielle Wissens-Quelle",
-  "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 520+ Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
+  "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 229 Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
   "endpoint": {
     "transport": "sse",
     "url": "https://us-central1-jassguru.cloudfunctions.net/mcp",
@@ -87,7 +87,7 @@
       "uri": "https://jasswiki.ch/dataset/jasswiki-corpus.jsonl",
       "name": "JassWiki Korpus",
       "type": "application/jsonl",
-      "description": "520+ Artikel, JSONL-Format, CC-BY-SA-4.0",
+      "description": "229 Artikel, JSONL-Format, CC-BY-SA-4.0",
       "license": "CC-BY-SA-4.0"
     },
     {

@@ -190,6 +190,11 @@
       ],
       "redirects": [
         {
+          "source": "/sitemap-0.xml",
+          "destination": "/sitemap.xml",
+          "type": 301
+        },
+        {
           "source": "/taxonomie.jsonld",
           "destination": "/dataset/taxonomie.jsonld",
           "type": 301
@@ -1932,6 +1937,366 @@
         {
           "source": "/regeln/fehler-verstoesse/kartenspiel-nicht-komplett/",
           "destination": "/regeln/fehler-verstoesse/karten-nicht-komplett/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/stoeck-weis-stich/",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/stoeck-weis-stich",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/ausmachregel/",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/ausmachregel",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/ausmachregel-stoeck/",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/ausmachregel-stoeck",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/ausmach-reihenfolge/",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/ausmach-reihenfolge",
+          "destination": "/regeln/ausmachregel/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/jasskarten-werte/",
+          "destination": "/regeln/kartenwerte/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/jasskarten-werte",
+          "destination": "/regeln/kartenwerte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/schneider/",
+          "destination": "/regeln/punktezaehlung/schneider/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/schneider",
+          "destination": "/regeln/punktezaehlung/schneider/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/bedanken-und-sieg/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/bedanken-und-sieg",
+          "destination": "/begriffe/spielaktionen/bedanken/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/bedanken-beendet-partie",
+          "destination": "/begriffe/spielaktionen/bedanken/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/berg/",
+          "destination": "/regeln/bergpreis/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/berg",
+          "destination": "/regeln/bergpreis/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/stoecke/",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/stoecke",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/stoeck/",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/stoeck",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoecke/",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoecke",
+          "destination": "/weis-regeln/stoeck/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoecke/stoecke-bei-hindersi-varianten/",
+          "destination": "/weis-regeln/stoeck/stoeck-bei-hindersi-varianten/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoecke/stoecke-bei-hindersi-varianten",
+          "destination": "/weis-regeln/stoeck/stoeck-bei-hindersi-varianten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weis/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weis",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weismeldung/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weismeldung",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weisdeklaration/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weisdeklaration",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weispunkte/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/weispunkte",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weisen-allgemein/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weisen-allgemein",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/dreiblatt-3-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/dreiblatt-3-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/vierblatt-4-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/vierblatt-4-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/fuenfblatt-5-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/fuenfblatt-5-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/sechsblatt-6-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/sechsblatt-6-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/siebenblatt-7-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/siebenblatt-7-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/achtblatt-8-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/achtblatt-8-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/neunblatt-9-blatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/neunblatt-9-blatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/vier-gleiche-karten/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/weis-arten/vier-gleiche-karten",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/kreuzweis/",
+          "destination": "/weis-regeln/weis-arten/kreuzweis/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/kreuzweis",
+          "destination": "/weis-regeln/weis-arten/kreuzweis/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/eichel/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/eichel",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/rose/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/rose",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schellen/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schellen",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schilten/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schilten",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/ecken/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/ecken",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/herz/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/herz",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/kreuz/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/kreuz",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schaufel/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/schaufel",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/farbe/",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/farbe",
+          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
           "type": 301
         }
       ]
