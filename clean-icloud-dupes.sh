@@ -33,10 +33,14 @@ else
   echo "  → $found Duplikat(e) entfernt."
 fi
 
-# Self-Heal: node_modules MUSS ein Symlink auf node_modules.nosync sein (iCloud-Schutz).
-# iCloud entfernt den Symlink bei Sync-Konflikten -> sonst bricht "next build" mit
-# "next: command not found" ab. Vor jedem Build wiederherstellen.
-if [ -d "node_modules.nosync" ] && [ ! -L "node_modules" ]; then
+# Self-Heal: node_modules MUSS ein lebender Symlink auf node_modules.nosync sein
+# (iCloud-Schutz). iCloud benennt den Symlink bei Sync-Konflikten zu "node_modules 2"
+# um; die Dup-Bereinigung oben löscht ihn dann -> node_modules fehlt -> "next build"
+# bricht mit "next: command not found" ab und JEDER Build/Deploy stirbt. Hier vor
+# jedem Build wiederherstellen. Bedingung greift bei ALLEN kaputten Zuständen:
+# fehlend, toter Symlink (zeigt ins Leere) und echtes Verzeichnis (npm-ci-Altlast).
+# Ein lebender Symlink ([ -L ] UND [ -e ]) bleibt unangetastet.
+if [ -d "node_modules.nosync" ] && ! { [ -L "node_modules" ] && [ -e "node_modules" ]; }; then
   rm -rf "node_modules"
   ln -s "node_modules.nosync" "node_modules"
   echo "  🔗 node_modules-Symlink wiederhergestellt (iCloud-Schutz)."
