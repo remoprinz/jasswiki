@@ -1383,7 +1383,7 @@
   },
   "expressions_kartenfarben": {
     "id": "expressions_kartenfarben",
-    "text": "Jass wird mit zwei Kartensystemen gespielt, die je vier Farben haben. Funktional sind sie gleichwertig, nur die Bilder unterscheiden sich.\n\nDeutschschweizer Karten:\n• Eichel\n• Rosen\n• Schellen\n• Schilten\n\nFranzösische Karten:\n• Kreuz\n• Herz\n• Ecke\n• Schaufel\n\nEntsprechung (funktional, nicht bildgleich):\n• Schellen entspricht Herz\n• Schilten entspricht Ecke\n• Rosen entspricht Kreuz\n• Eichel entspricht Schaufel",
+    "text": "Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.\n\n## Die Deutschschweizer Farben\n\nIn der Deutsch- und Innerschweiz spielt man mit Eichel, Rosen, Schellen und Schilten.\n\n- **Eichel** zeigt eine Eichel, die Frucht der Eiche.\n- **Rosen** zeigt eine stilisierte Rose.\n- **Schellen** zeigt eine runde Schelle, ein Glöckchen.\n- **Schilten** zeigt einen Wappenschild.\n\n## Die französischen Farben\n\nIn der Westschweiz und Teilen des Mittellands sind die französischen Farben gebräuchlich: Schaufel, Kreuz, Herz und Ecke. Es sind dieselben Zeichen wie auf den international verbreiteten französischen Karten, im Jass tragen sie aber eigene Namen.\n\n- **Schaufel** entspricht Pik.\n- **Kreuz** entspricht Kreuz (Treff).\n- **Herz** entspricht Herz.\n- **Ecke** entspricht Karo.\n\n## Funktionale Entsprechung\n\nWer von einem System ins andere wechselt, übersetzt die Farben so:\n\n- Eichel entspricht Schaufel\n- Rosen entspricht Kreuz\n- Schellen entspricht Herz\n- Schilten entspricht Ecke\n\nDie Zuordnung ist rein funktional, nicht bildgleich. Fürs Spiel macht es keinen Unterschied, mit welchem Set man antritt: Trumpf, Stich und die \"Punktewerte\" (siehe Begriff \"general_card_values\") funktionieren identisch.\n\n## Welches System wo?\n\nWelches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\"). Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.\n\n## Alle Karten im Überblick\n\nDie folgenden Tafeln zeigen alle 36 Karten beider Systeme, Farbe für Farbe und von der höchsten zur tiefsten Karte. Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch) (Jens Riedweg), einer modernen Neuillustration des klassischen Schweizer Blatts. Diese Karten werden vom Schweizer Jassverband (JVS) offiziell unterstützt: Schweizer Gestaltung, als Vektorgrafik umgesetzt und in der Schweiz gedruckt.\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").",
     "metadata": {
       "id": "expressions_kartenfarben_meta",
       "category": {
@@ -1433,9 +1433,11 @@
     ],
     "see_also": [
       "general_card_values",
-      "expressions_blatt",
-      "expressions_farbenhalten",
-      "expressions_trumpf"
+      "general_materials",
+      "general_geography_regions",
+      "history_swiss_production",
+      "expressions_trumpf",
+      "expressions_blatt"
     ]
   },
   "expressions_kehr": {
@@ -3657,118 +3659,6 @@
       "bemerkungen_schnorren"
     ]
   },
-  "general_card_basics": {
-    "id": "general_card_basics",
-    "text": "Grundkonzept:\nIn der Schweiz werden Jasskarten in zwei Hauptvarianten verwendet, die sich in den Farben unterscheiden.\n\nDeutschschweizerische Karten:\n• Eicheln (siehe Begriff \"expressions_kartenfarben\")\n• Rosen (siehe Begriff \"expressions_kartenfarben\")\n• Schilten (siehe Begriff \"expressions_kartenfarben\")\n• Schellen (siehe Begriff \"expressions_kartenfarben\")\n\nFranzösische Karten:\n• Ecken (siehe Begriff \"expressions_kartenfarben\") (Carreau)\n• Herz (siehe Begriff \"expressions_kartenfarben\") (Coeur)\n• Schaufel (siehe Begriff \"expressions_kartenfarben\") (Pique)\n• Kreuz (siehe Begriff \"weis_rules_kreuzweis\") (Trèfle)\n\n**Aufbau eines Jasskartenspiels:**\n\nBeim Jassen werden 36 Karten verwendet. Diese Jasskarten bilden die Grundlage für alle Jass-Varianten.\n\nJede der vier Farben enthält neun Karten:\n• As (Ass)\n• König\n• Ober/Dame\n• Under/Bube\n• Banner/Zehn\n• Neuner\n• Achter\n• Siebner\n• Sechser\n\n**Regional unterschiedlich:**\n• In der Deutschschweiz dominieren die deutschen Jasskarten (Eicheln, Rosen, Schilten, Schellen)\n• In der Romandie sind französische Karten üblich (Ecken/Karo, Herz (Coeur), Schaufel/Pik, Kreuz)\n\nTotal: 4 Farben × 9 Karten = 36 Jasskarten. Diese Grundlagen gelten universal.",
-    "metadata": {
-      "id": "general_card_basics_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Kartenwerte",
-        "topic": "Jasskarten: Grundlagen"
-      },
-      "keywords": [
-        "karten",
-        "farben",
-        "deutsch",
-        "französisch",
-        "eicheln",
-        "rosen",
-        "schilten",
-        "schellen",
-        "carreau",
-        "coeur",
-        "pique",
-        "trèfle"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Wie funktioniert Jasskarten: Grundlagen beim Jassen?",
-        "answer": "Grundkonzept:\nIn der Schweiz werden Jasskarten in zwei Hauptvarianten verwendet, die sich in den Farben unterscheiden."
-      },
-      {
-        "question": "Welche Kartentypen gibt es beim Jassen?",
-        "answer": "Beim Jassen werden zwei Hauptvarianten verwendet: Deutschschweizerische Karten (Eicheln, Rosen, Schilten, Schellen) und französische Karten (Ecken, Herz, Schaufel, Kreuz)."
-      },
-      {
-        "question": "Was ist der Unterschied zwischen deutschen und französischen Jasskarten?",
-        "answer": "Der Hauptunterschied liegt in den Farben der Karten. Deutsche Karten haben Eicheln, Rosen, Schilten und Schellen, während französische Karten Ecken, Herz, Schaufel und Kreuz haben."
-      },
-      {
-        "question": "Welche Jasskarten werden in der Deutschschweiz verwendet?",
-        "answer": "In der Deutschschweiz werden hauptsächlich die deutschschweizerischen Karten mit Eicheln, Rosen, Schilten und Schellen verwendet."
-      }
-    ],
-    "see_also": [
-      "expressions_kartenfarben",
-      "variants_specialty_schaufel_dame",
-      "weis_rules_kreuzweis"
-    ]
-  },
-  "general_card_systems": {
-    "id": "general_card_systems",
-    "text": "Definition:\nEs existieren verschiedene Kartensysteme für das Jassen, die sich in Farben, Symbolen und regionalen Besonderheiten unterscheiden.\n\nHauptsysteme:\n• **Schweizer Karten:** Verwendung der typischen Schweizer Farben (siehe Begriff \"expressions_kartenfarben\") (Schellen (siehe Begriff \"expressions_kartenfarben\"), Schilten (siehe Begriff \"expressions_kartenfarben\"), Rosen (siehe Begriff \"expressions_kartenfarben\"), Eicheln (siehe Begriff \"expressions_kartenfarben\"))\n• **Französische Karten:** Alternative mit französischen Farben (Herz, Karo, Pik, Kreuz)\n• **Deutsche Karten:** Weniger verbreitet, aber in einigen Regionen gebräuchlich\n\nRegionale Variationen:\nJe nach geografischer Region werden unterschiedliche Kartensysteme bevorzugt, wobei die Schweizer Karten am weitesten verbreitet sind.\n\nKompatibilität:\nTrotz unterschiedlicher Symbole folgen alle Systeme denselben grundlegenden Spielregeln.",
-    "metadata": {
-      "id": "general_card_systems_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Verschiedene Kartensysteme",
-        "topic": "Verschiedene Kartensysteme"
-      },
-      "keywords": [
-        "französisch",
-        "deutschschweizer",
-        "farben",
-        "symbole",
-        "herz",
-        "kreuz",
-        "karo",
-        "pik",
-        "rosen",
-        "schilten",
-        "schellen",
-        "eicheln",
-        "coeur",
-        "trèfle",
-        "carreau",
-        "pique"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Verschiedene Kartensysteme beim Jassen?",
-        "answer": "Es existieren verschiedene Kartensysteme für das Jassen, die sich in Farben, Symbolen und regionalen Besonderheiten unterscheiden."
-      },
-      {
-        "question": "Welche Kartensysteme gibt es für das Jassen?",
-        "answer": "Es gibt hauptsächlich Schweizer Karten (Schellen, Schilten, Rosen, Eicheln), französische Karten (Herz, Karo, Pik, Kreuz) und seltener deutsche Karten."
-      },
-      {
-        "question": "Welches Kartensystem ist am verbreitetsten?",
-        "answer": "Die Schweizer Karten mit den typischen Schweizer Farben sind am weitesten verbreitet."
-      },
-      {
-        "question": "Kann man mit verschiedenen Kartensystemen spielen?",
-        "answer": "Ja, trotz unterschiedlicher Symbole folgen alle Systeme denselben grundlegenden Spielregeln und sind kompatibel."
-      }
-    ],
-    "see_also": [
-      "expressions_kartenfarben"
-    ]
-  },
   "general_card_values": {
     "id": "general_card_values",
     "text": "Beim Jassen hat jede Karte einen festen Punktwert. Eine Farbe umfasst neun Karten, und je nach Spielart ändern sich einige Werte. Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.\n\nGrundwerte (ohne Trumpf):\n• Ass: 11 Punkte\n• Banner (Zehner): 10 Punkte\n• König: 4 Punkte\n• Ober (Dame): 3 Punkte\n• Under (Puur): 2 Punkte\n• Neuner, Achter, Siebner, Sechser: 0 Punkte\n\nIm Trumpf:\nIn der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.\n\nObenabe und Undenufe:\nIn Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die fehlenden 32 Punkte aus Puur und Nell gleichen die vier Achter aus, sodass das Total bei 157 bleibt.",
@@ -4360,7 +4250,7 @@
   },
   "general_geography_regions": {
     "id": "general_geography_regions",
-    "text": "Übersicht:\n• Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Diese stehen für zahlreiche Spielvarianten, die sich durch unterschiedliche Regelkombinationen, Spielziele und Kartensysteme entwickelt haben.\n\nSpielarten:\n• Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten\n• Als Königsdisziplin gilt der Differenzler, gefolgt von Schieber (siehe Begriff \"expressions_schieben\") und Bieter\n• Beim Differenzler spielt jeder Spieler für sich allein\n• Beim Schieber (siehe Begriff \"expressions_schieben\") bilden Zweiergruppen Teams\n• Der Bieter eignet sich, wenn eine ungerade Spielerzahl zur Verfügung steht\n\nRegionale Kartenverteilung (Jass-Röschtigraben):\n• Die historisch gewachsene Grenze zwischen den Kartensystemen verläuft entlang der Brünig-Napf-Reuss-Linie:\n\nFranzösische Karten (westlich der Linie):\n• Westschweiz\n• Solothurn\n• Beide Basel\n• Graubünden\n• Tessin\n• Westliches Aargau (westlich der Reuss)\n• Thurgauer Bodenseeregion\n\nDeutschschweizer Karten (östlich der Linie):\n• Innerschweiz\n• Luzern\n• Zürich\n• Zug\n• Glarus\n• St. Gallen\n• Östliches Aargau (Bezirk Baden östlich der Reuss, östlich der Aare gelegene Gemeinden des Zurzibiets)\n• Übrige Teile des Kantons Thurgau (ausser Bodenseeregion)\n\nSonderfall Aargau und Thurgau:\n• Diese Kantone sind durch die Trennlinie geteilt\n• Die Kartenverteilung folgt geografischen Grenzen (Flüsse Reuss und Aare)\n\nKartentypen:\n• Französische Karten (siehe Begriff \"general_card_basics\"): Ecken, Herz, Schaufel, Kreuz\n• Deutschschweizer Karten (siehe Begriff \"general_card_basics\"): Eicheln, Rosen, Schilten, Schellen",
+    "text": "Übersicht:\n• Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Diese stehen für zahlreiche Spielvarianten, die sich durch unterschiedliche Regelkombinationen, Spielziele und Kartensysteme entwickelt haben.\n\nSpielarten:\n• Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten\n• Als Königsdisziplin gilt der Differenzler, gefolgt von Schieber (siehe Begriff \"expressions_schieben\") und Bieter\n• Beim Differenzler spielt jeder Spieler für sich allein\n• Beim Schieber (siehe Begriff \"expressions_schieben\") bilden Zweiergruppen Teams\n• Der Bieter eignet sich, wenn eine ungerade Spielerzahl zur Verfügung steht\n\nRegionale Kartenverteilung (Jass-Röschtigraben):\n• Die historisch gewachsene Grenze zwischen den Kartensystemen verläuft entlang der Brünig-Napf-Reuss-Linie:\n\nFranzösische Karten (westlich der Linie):\n• Westschweiz\n• Solothurn\n• Beide Basel\n• Graubünden\n• Tessin\n• Westliches Aargau (westlich der Reuss)\n• Thurgauer Bodenseeregion\n\nDeutschschweizer Karten (östlich der Linie):\n• Innerschweiz\n• Luzern\n• Zürich\n• Zug\n• Glarus\n• St. Gallen\n• Östliches Aargau (Bezirk Baden östlich der Reuss, östlich der Aare gelegene Gemeinden des Zurzibiets)\n• Übrige Teile des Kantons Thurgau (ausser Bodenseeregion)\n\nSonderfall Aargau und Thurgau:\n• Diese Kantone sind durch die Trennlinie geteilt\n• Die Kartenverteilung folgt geografischen Grenzen (Flüsse Reuss und Aare)\n\nKartentypen:\n• Französische Karten (siehe Begriff \"expressions_kartenfarben\"): Ecken, Herz, Schaufel, Kreuz\n• Deutschschweizer Karten (siehe Begriff \"expressions_kartenfarben\"): Eicheln, Rosen, Schilten, Schellen",
     "metadata": {
       "id": "general_geography_regions_meta",
       "category": {
@@ -4438,7 +4328,7 @@
     ],
     "see_also": [
       "expressions_schieben",
-      "general_card_basics"
+      "expressions_kartenfarben"
     ]
   },
   "general_introduction": {
@@ -8955,6 +8845,69 @@
       "expressions_vogel",
       "schreiben",
       "trumpf_bauer"
+    ]
+  },
+  "variants_multi_player_arschloechle": {
+    "id": "variants_multi_player_arschloechle",
+    "text": "Definition:\n«Arschlöchle» (auch Arschloch oder Arschloch-Jass) ist ein beliebtes Ablege- und Aufsteigespiel, das mit Jasskarten gespielt wird. Anders als die meisten Jassarten kennt es keinen Trumpf, keinen Weis und keine Stöck; es geht einzig darum, als Erster alle Karten loszuwerden. Besonders bei Kindern und Jugendlichen zählt es zu den beliebtesten Kartenspielen.\n\nKarten und Rangordnung:\n• Gespielt wird mit 36 oder 52 Karten in vier Farben (siehe Begriff \"expressions_kartenfarben\")\n• Die Farben spielen keine Rolle, es zählt allein der Rang der Karte\n• Höchste Karte ist immer das Ass, danach folgen die Bildkarten (König, Ober beziehungsweise Dame, Under beziehungsweise Bube) und darunter die Zahlenkarten abwärts\n• Tiefste Karte ist die Sechs (bei 36 Karten) beziehungsweise die Zwei (bei 52 Karten)\n\nSpielerzahl und Austeilen:\n• Spielbar zu dritt bis zu sechst\n• Es werden alle Karten ausgeteilt\n• Geht die Kartenzahl nicht gleichmässig auf, erhält das Arschloch die übrig bleibenden Karten und hat damit eine Karte mehr\n\nSpielbeginn (erste Runde):\n• In der ersten Runde gibt es noch keine Ränge\n• Jeder zieht eine Karte; wer die tiefste zieht, muss geben und spielt als Letzter aus, was ein Nachteil ist\n• Die erste Runde wird neutral gespielt, ohne Kartentausch\n\nSpielablauf:\n• Ausgespielt wird eine einzelne Karte oder ein Mehrling (mehrere ranggleiche Karten, also ein Paar, ein Drilling und so weiter)\n• Reihum wird höher überboten: eine einzelne Karte nur durch eine höhere einzelne Karte, ein Mehrling nur durch einen gleich grossen, aber höheren Mehrling. Drei Zehner werden also nur durch drei höhere gleiche Karten überboten, nicht durch eine einzelne Karte und nicht durch eine andere Anzahl\n• Es wird nicht gepasst: Wer an der Reihe ist und überbieten kann, muss legen; wer nicht überbieten kann, setzt aus. Kann niemand mehr überbieten, ist der Durchgang beendet, und wer zuletzt gelegt hat, beginnt den nächsten\n• Wer alle Karten abgelegt hat, scheidet aus und nimmt seinen Rang ein. Gespielt wird, bis nur noch das Arschloch Karten in der Hand hält\n\nDie Ränge:\n• König: wer zuerst alle Karten abgelegt hat\n• Vize-König: der Zweite\n• Bürger: alle Spieler in der Mitte (zu dritt und zu fünft die mittlere Person, zu sechst die beiden mittleren)\n• Vize-Arschloch: der Vorletzte\n• Arschloch: wer als Letzter noch Karten hält\nAls Ausgleich darf das Arschloch in der nächsten Runde zuerst ausspielen.\n\nKartentausch:\n• Ab der zweiten Runde tauschen die äusseren Ränge vor dem Spiel Karten\n• Das Arschloch gibt dem König seine zwei höchsten Karten und muss diese tatsächlich abgeben\n• Der König gibt dem Arschloch zwei Karten zurück; er muss nicht die zwei tiefsten wählen, sondern jene, die ihm am wenigsten passen\n• Vize-Arschloch und Vize-König tauschen auf dieselbe Weise je eine Karte\n• Die Bürger in der Mitte tauschen nicht\n\nSchnorren beim Tausch:\n• Anders als bei den meisten Jassarten darf beim Arschlöchle beim Tausch geschnorrt werden\n• Ein guter König will seinem Arschloch zum Aufstieg verhelfen und fragt deshalb in der Regel, welche Karten es gerade brauchen kann\n\nJoker (Spezialform):\n• Oft wird mit einem Joker (siehe Begriff \"expressions_joker\") gespielt, der alles absticht, auch vier Asse\n• Mit 52 Karten übernimmt der Joker diese Rolle\n• Mit 36 Jasskarten wird eine Karte zum Joker bestimmt, zum Beispiel die Rosen-Sechs; sie sticht dann ebenfalls alles ab",
+    "metadata": {
+      "id": "variants_multi_player_arschloechle_meta",
+      "category": {
+        "main": "Varianten",
+        "sub": "Ablege-/Aufsteigespiel",
+        "topic": "Arschlöchle"
+      },
+      "keywords": [
+        "arschlöchle",
+        "arschloch",
+        "arschloch-jass",
+        "mehrling",
+        "kartentausch",
+        "schnorren",
+        "joker",
+        "ablegespiel",
+        "aufsteigespiel",
+        "jasskarten",
+        "bürger",
+        "könig"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.7,
+      "difficulty": 1,
+      "taxonomy_tier": 2
+    },
+    "faqs": [
+      {
+        "question": "Wie viele Spieler braucht es für Arschlöchle?",
+        "answer": "Drei bis sechs Spieler, gespielt mit 36 oder 52 Jasskarten."
+      },
+      {
+        "question": "Welches ist die höchste Karte beim Arschlöchle?",
+        "answer": "Immer das Ass. Die tiefste Karte ist die Sechs (bei 36 Karten) beziehungsweise die Zwei (bei 52 Karten). Die Farben spielen keine Rolle."
+      },
+      {
+        "question": "Was passiert, wenn die Karten nicht gleichmässig aufgehen?",
+        "answer": "Das Arschloch erhält die übrig bleibenden Karten und spielt mit einer Karte mehr."
+      },
+      {
+        "question": "Welche Karten muss das Arschloch abgeben?",
+        "answer": "Seine zwei höchsten Karten an den König. Der König gibt zwei Karten seiner Wahl zurück, jene, die ihm am wenigsten passen."
+      },
+      {
+        "question": "Was bedeutet Schnorren beim Arschlöchle?",
+        "answer": "Beim Kartentausch darf ausgehandelt werden. Der König fragt sein Arschloch, welche Karten es braucht, und verhilft ihm so zum Aufstieg."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "expressions_joker",
+      "expressions_handkarten",
+      "abheben",
+      "variants_learning_tschau_sepp",
+      "general_variants",
+      "expressions_partie"
     ]
   },
   "variants_specialty_hindersi": {
