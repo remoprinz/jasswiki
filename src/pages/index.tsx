@@ -3,7 +3,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { SeoHead } from '@/components/layout/SeoHead';
-import { FaBalanceScale, FaBook, FaHandPointRight } from 'react-icons/fa';
+import { FaBalanceScale, FaBook, FaHandPointRight, FaBullhorn, FaChessKnight } from 'react-icons/fa';
 import { GiPokerHand } from 'react-icons/gi';
 import { CgSwiss } from 'react-icons/cg';
 import { FaHouse } from 'react-icons/fa6';
@@ -19,6 +19,8 @@ const ICON_COLORS: Record<string, string> = {
     geschichte: 'bg-[#f6b21a]',
     'grundlagen-kultur': 'bg-[#2bb752]',
     schieber: 'bg-[#3b82f6]',
+    ansagen: 'bg-[#db2777]',
+    'taktiken-und-strategien': 'bg-[#0d9488]',
     begriffe: 'bg-[#6366f1]',
     varianten: 'bg-[#a855f7]',
     jassapps: 'bg-[#06b6d4]',
@@ -77,11 +79,23 @@ const WissenHomePage = () => {
             description: 'Kartenwerte, Spielablauf und die kulturelle Bedeutung des Jassens in der Schweiz',
             icon: CgSwiss,
         },
-        { 
-            slug: 'schieber', 
+        {
+            slug: 'schieber',
             name: 'Schieber',
             description: 'Die beliebteste Jassvariante im Detail – Regeln, Strategien und Tipps',
             icon: FaHandPointRight,
+        },
+        {
+            slug: 'ansagen',
+            name: 'Ansagen',
+            description: 'Obenabe, Undenufe, Tutti & Co. – alle Spielmodi, die man ansagen kann',
+            icon: FaBullhorn,
+        },
+        {
+            slug: 'taktiken-und-strategien',
+            name: 'Taktiken & Strategien',
+            description: 'Signalsprache, Verwerfen, Anziehen – wie du mit deinem Partner kommunizierst',
+            icon: FaChessKnight,
         },
         { 
             slug: 'begriffe', 
@@ -119,6 +133,14 @@ const WissenHomePage = () => {
 
             {/* Hero Section */}
             <div className="mb-[24px] sm:mb-[32px] not-prose">
+                <a
+                    href="https://jassverband.ch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-inter text-[12px] sm:text-[13px] font-semibold uppercase tracking-wide text-[#274823] hover:underline mb-[10px] inline-block"
+                >
+                    Eine Initiative vom Jassverband Schweiz
+                </a>
                 <h1 className="font-capita text-[26px] sm:text-[32px] lg:text-[42px] font-bold text-[#ff0000] leading-[1.14] mb-[12px] sm:mb-[16px]">
                     JassWiki: Alles rund ums Jassen
                 </h1>

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import { ALL_CARDS } from './jasskarten';
 
 interface SearchResult {
   id: string;
@@ -12,6 +13,32 @@ interface SearchResult {
   url: string;
   snippet: string;
 }
+
+// Eigenständige Meta-/Übersichtsseiten (keine Artikel im Content) — damit sie
+// trotzdem über die Suchleiste auffindbar sind (z. B. "taxonomie").
+const META_PAGES: SearchResult[] = [
+  {
+    id: 'meta-taxonomie',
+    title: 'Taxonomie',
+    category: 'Referenzen',
+    url: '/taxonomie/',
+    snippet: 'Die vollständige Jass-Taxonomie: Begriffe, Varianten, Kartensysteme und Punktesystem mit Wikidata-Bezug.',
+  },
+  {
+    id: 'meta-referenzen',
+    title: 'Referenzen',
+    category: 'Referenzen',
+    url: '/referenzen/',
+    snippet: 'Quellen, Literatur und Referenzen, auf denen die JassWiki-Inhalte beruhen.',
+  },
+  {
+    id: 'meta-quellen',
+    title: 'Quellenverzeichnis',
+    category: 'Referenzen',
+    url: '/quellenverzeichnis/',
+    snippet: 'Verzeichnis aller im JassWiki verwendeten Quellen.',
+  },
+];
 
 export const SearchBar: React.FC = () => {
   const [query, setQuery] = useState('');
@@ -102,8 +129,32 @@ export const SearchBar: React.FC = () => {
       .sort((a, b) => b.score - a.score)
       .slice(0, 10)
       .map(({ score, ...result }) => result);
-    
-    setResults(searchResults);
+
+    // Karten-Treffer: einzelne Jasskarten (z. B. "rosen ass") direkt zur Karte navigieren
+    const kfEntry = content['expressions_kartenfarben'];
+    const kfUrl = kfEntry
+      ? buildArticleUrl(kfEntry.metadata.category)
+      : '/grundlagen-kultur/jasskarten/';
+    const cardResults: SearchResult[] = ALL_CARDS
+      .filter((c) => c.searchTerms.some((t) => t.toLowerCase().includes(searchQuery)))
+      .slice(0, 6)
+      .map((c) => ({
+        id: `card-${c.slug}`,
+        title: c.name,
+        category: 'Jasskarten',
+        url: `${kfUrl}#${c.slug}`,
+        snippet: `${c.name} – ${c.systemLabel}. Direkt zur Karte.`,
+      }));
+
+    // Meta-/Übersichtsseiten (Taxonomie, Referenzen, Quellen) zuerst, wenn sie passen.
+    const metaResults: SearchResult[] = META_PAGES.filter(
+      (p) =>
+        p.title.toLowerCase().includes(searchQuery) ||
+        p.snippet.toLowerCase().includes(searchQuery) ||
+        p.url.includes(searchQuery)
+    );
+
+    setResults([...metaResults, ...cardResults, ...searchResults]);
     setIsOpen(true);
   }, [query]);
 

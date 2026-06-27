@@ -133,7 +133,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
   });
 
   const sortedStructure: typeof structure = {};
-  const categoryOrder = ['regeln', 'weis-regeln', 'geschichte', 'grundlagen-kultur', 'schieber', 'begriffe', 'varianten', 'jassapps', 'referenzen'];
+  const categoryOrder = ['regeln', 'weis-regeln', 'geschichte', 'grundlagen-kultur', 'schieber', 'ansagen', 'taktiken-und-strategien', 'begriffe', 'varianten', 'jassapps', 'referenzen'];
   
   categoryOrder.forEach(catSlug => {
     if (structure[catSlug]) sortedStructure[catSlug] = structure[catSlug];
@@ -172,8 +172,13 @@ export const LexikonSidebar = () => {
         {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
           // Schieber hat eigene Seiten (/schieber/, /schieber/[group]/) – kein [category]-Route.
           const isOnSchieberPath = router.pathname.startsWith('/schieber');
+          const isOnAnsagenPath = router.pathname.startsWith('/ansagen');
+          const isOnTaktikenPath = router.pathname.startsWith('/taktiken-und-strategien');
           const currentSchieberGroup = isOnSchieberPath ? (router.query.group as string | undefined) : undefined;
-          const isCategoryActive = catSlug === currentCategory || (catSlug === 'schieber' && isOnSchieberPath);
+          const isCategoryActive = catSlug === currentCategory
+            || (catSlug === 'schieber' && isOnSchieberPath)
+            || (catSlug === 'ansagen' && isOnAnsagenPath)
+            || (catSlug === 'taktiken-und-strategien' && isOnTaktikenPath);
 
           const SCHIEBER_SIDEBAR_GROUPS = [
             { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen' },

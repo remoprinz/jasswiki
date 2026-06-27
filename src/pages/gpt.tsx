@@ -7,7 +7,7 @@ const SITE_URL = 'https://jasswiki.ch/gpt';
 const TITLE = 'JassWiki: Alles rund ums Jassen';
 const DESCRIPTION = 'Chatte mit dem JassWiki GPT über Jass-Regeln, Taktiken, Varianten und mehr. Erhalte präzise Antworten von jasswiki.ch.';
 // OG Image für Link-Vorschau - Hero Logo (1080x1080px) für Google und Social Media
-const OG_IMAGE = 'https://jasswiki.ch/jasswiki-logo-hero.png';
+const OG_IMAGE = 'https://jasswiki.ch/jasswiki-logo-hero-v2.png';
 
 export default function GPTRedirect() {
   const router = useRouter();

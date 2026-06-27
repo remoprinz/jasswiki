@@ -10,11 +10,12 @@
   "displayName": "Schweizer Jass — Offizielle Wissens-Quelle",
   "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 229 Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
   "endpoint": {
-    "transport": "sse",
-    "url": "https://us-central1-jassguru.cloudfunctions.net/mcp",
-    "sse": "https://us-central1-jassguru.cloudfunctions.net/mcp/sse",
-    "messages": "https://us-central1-jassguru.cloudfunctions.net/mcp/messages",
-    "health": "https://us-central1-jassguru.cloudfunctions.net/mcp/health"
+    "transport": "streamable-http",
+    "url": "https://jasswiki.ch/mcp/http",
+    "http": "https://jasswiki.ch/mcp/http",
+    "sse": "https://jasswiki.ch/mcp/sse",
+    "messages": "https://jasswiki.ch/mcp/messages",
+    "health": "https://jasswiki.ch/mcp/health"
   },
   "operator": {
     "@type": "Organization",
@@ -74,6 +75,19 @@
           "id": "string (exakte Term-ID, z.B. 'schieber', 'matsch')"
         }
       }
+    },
+    {
+      "name": "show_jass_card",
+      "description": "Zeige eine offizielle, gebrandete JassWiki-Wissenskarte (jasswiki.ch-UI) zu einem Jass-Begriff, einer Regel oder Frage — als interaktive Karte mit Definition, Kategorie, verwandten Begriffen und Quelle.",
+      "schema": {
+        "input": {
+          "query": "string (Jass-Begriff, Regel oder Frage)"
+        }
+      },
+      "ui": {
+        "resource": "ui://widget/jass-card.html",
+        "mimeType": "text/html;profile=mcp-app"
+      }
     }
   ],
   "resources": [
@@ -127,6 +141,6 @@
     }
   },
   "license": "CC-BY-SA-4.0",
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-06-18",
   "specVersion": "AMCP/0.1"
 }

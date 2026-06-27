@@ -2,7 +2,6 @@
   "_comment": "URL-Redirects für JassWiki. Manuell kuratiert für optimale Ziel-URLs.",
   "_source": "Google Search Console 404-Report vom 29.01.2026",
   "_updated": "2026-01-29",
-  
   "redirects": {
     "/geschichte/wortherkunft/geschichte-des-matsch-begriffs/": "/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
     "/varianten/schreibspiel/": "/varianten/",
@@ -48,14 +47,19 @@
     "/weis-regeln/weis-arten/neunblatt-9-blatt/": "/weis-regeln/weispunkte/",
     "/weis-regeln/weis-arten/vier-gleiche-karten/": "/weis-regeln/weispunkte/",
     "/begriffe/spezialvarianten/kreuzweis/": "/weis-regeln/weis-arten/kreuzweis/",
-    "/begriffe/kartenbezeichnungen/eichel/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/rose/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/schellen/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/schilten/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/ecken/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/herz/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/kreuz/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/schaufel/": "/begriffe/kartenbezeichnungen/kartenfarben/",
-    "/begriffe/kartenbezeichnungen/farbe/": "/begriffe/kartenbezeichnungen/kartenfarben/"
+    "/begriffe/kartenbezeichnungen/eichel/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/rose/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/schellen/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/schilten/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/ecken/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/herz/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/kreuz/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/schaufel/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/farbe/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/grundlagen-kultur/verschiedene-kartensysteme/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/regeln/kartenwerte/jasskarten-grundlagen/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/begriffe/kartenbezeichnungen/kartenfarben/": "/begriffe/kartenbezeichnungen/jasskarten/",
+    "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+    "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken/": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/"
   }
 }

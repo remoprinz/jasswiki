@@ -147,12 +147,12 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
           ),
           // Formatiere Überschriften
           h2: ({ node, children, ...props }) => (
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-white" {...props}>
+            <h2 className="font-capita text-[22px] sm:text-[26px] font-bold !text-[#ff0000] mt-8 mb-3 leading-[1.2]" {...props}>
               {children}
             </h2>
           ),
           h3: ({ node, children, ...props }) => (
-            <h3 className="text-xl font-bold mt-6 mb-3 text-white" {...props}>
+            <h3 className="font-capita text-[18px] sm:text-[20px] font-bold !text-[#ff0000] mt-6 mb-2 leading-[1.25]" {...props}>
               {children}
             </h3>
           ),

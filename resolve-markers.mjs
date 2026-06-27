@@ -1,0 +1,40 @@
+/**
+ * Löst die internen (siehe Begriff "id")-Marker in sauberen, maschinenlesbaren
+ * Text auf. Spiegelt die sichtbare Ausgabe von InternalLinker, damit Korpus
+ * (Pinecone/MCP/CustomGPT) und llms-*.md keine rohen Marker enthalten.
+ *
+ * Gemeinsam genutzt von generate-corpus.mjs und generate-sitemap.mjs.
+ */
+
+export function buildIdToTopic(allContent) {
+  const map = {};
+  for (const [id, e] of Object.entries(allContent)) {
+    const topic = e?.metadata?.category?.topic;
+    if (topic) map[id] = topic;
+  }
+  return map;
+}
+
+export function resolveMarkers(text, idToTopic = {}) {
+  if (typeof text !== 'string') return text;
+
+  // 1. "Anzeigetext" (siehe Begriff "id")  ->  Anzeigetext
+  text = text.replace(
+    /[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, display) => display
+  );
+
+  // 2. Wort (siehe Begriff "id")  ->  Wort
+  text = text.replace(
+    /([A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, term) => term
+  );
+
+  // 3. (siehe Begriff "id") allein  ->  (siehe Themen-Titel) oder weg
+  text = text.replace(
+    /\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, id) => (idToTopic[id] ? ` (siehe ${idToTopic[id]})` : '')
+  );
+
+  return text;
+}

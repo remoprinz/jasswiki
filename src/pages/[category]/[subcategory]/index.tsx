@@ -9,6 +9,7 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { BookOpen } from 'lucide-react';
 import { InternalLinker } from '@/components/layout/InternalLinker';
+import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
 import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
@@ -32,6 +33,15 @@ function getArticlesForSubcategory(
       return a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de');
     });
 }
+
+// Optionale Einleitungstexte für Subkategorie-Übersichten (gegen Thin-Content + Kontext
+// für Nutzer und Crawler). Schlüssel = Anzeigename der Subkategorie.
+const SUB_INTROS: Record<string, string[]> = {
+  'Fehler & Verstösse': [
+    'Beim Jassen geht nicht immer alles glatt. Eine Karte rutscht aus der Hand, jemand spielt aus, obwohl er nicht an der Reihe ist, es wird nicht gefarbt oder am Tisch fällt eine Bemerkung, die dem Partner mehr verrät als erlaubt. Für solche Fälle braucht es klare Regeln, damit eine Partie fair bleibt und nicht in endlosen Diskussionen endet.',
+    'Hier sind die häufigsten Fehler und Verstösse gesammelt: vom versehentlichen Missgeschick wie einer heruntergefallenen Karte bis zum bewussten Regelbruch wie dem Spielverrat. Jeder Artikel beschreibt, was gilt, wer entscheidet und was die Konsequenz eines Regelverstosses ist.',
+  ],
+};
 
 interface SubcategoryPageProps {
   category: string;
@@ -152,13 +162,36 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
     const contentItem = articles[0];
     const normalizedPath = canonicalPath!.endsWith('/') ? canonicalPath : `${canonicalPath}/`;
     const canonicalUrl = `${siteUrl}${normalizedPath}`;
-    
+
+    // Leitartikel «Jasskarten»: Karten-Raster zwischen Beschreibung und Geschichte
+    // einschieben (Split an der Geschichts-Überschrift, kein künstlicher Marker im Text).
+    const isKartenfarben = contentItem.id === 'expressions_kartenfarben';
+    const GRID_ANCHOR = 'Das abgebildete Kartenbild';
+    const [cardTextBefore, cardTextAfter] =
+      isKartenfarben && contentItem.text.includes(GRID_ANCHOR)
+        ? (() => {
+            const i = contentItem.text.indexOf(GRID_ANCHOR);
+            return [contentItem.text.slice(0, i), contentItem.text.slice(i)];
+          })()
+        : [contentItem.text, ''];
+
+    // Sub-Leitartikel (flacher Artikel, dessen Subkategorie weitere Artikel hat):
+    // die Geschwister als Karten unter dem Inhalt zeigen (Hub-Charakter wie /ansagen/).
+    const siblings = (Object.values(allContent as JassContentRecord) as JassContentItem[])
+      .filter(
+        (a) =>
+          a.id !== contentItem.id &&
+          toSlug(a.metadata.category.main) === categorySlug &&
+          toSlug(a.metadata.category.sub) === subcategorySlug
+      )
+      .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
+
     const articleData = {
       headline: subcategory,
       description: metaDescription!,
       authorName: 'Jasswiki Redaktion',
       publisherName: 'Jasswiki.ch',
-      publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero.png',
+      publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
       datePublished: defaultPublishedDate,
       dateModified: defaultModifiedDate,
     };
@@ -234,9 +267,52 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             {/* Artikel-Inhalt */}
             <article className="content-formatting max-w-none">
               <div className="content-formatting text-black">
-                <InternalLinker text={contentItem.text} />
+                <InternalLinker text={cardTextBefore} />
               </div>
+              {isKartenfarben && <JassCardGrid />}
+              {isKartenfarben && cardTextAfter && (
+                <div className="content-formatting text-black">
+                  <InternalLinker text={cardTextAfter} />
+                </div>
+              )}
             </article>
+
+            {/* Sub-Leitartikel: Artikel des Bereichs als Karten */}
+            {siblings.length > 0 && (
+              <section className="border-t border-[#f0eee7] pt-8">
+                <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[16px] leading-[1.2]">
+                  Artikel in diesem Bereich
+                </h2>
+                <div className="grid gap-4 sm:gap-5">
+                  {siblings.map((article) => {
+                    const articleSlug = toSlug(article.metadata.category.topic);
+                    const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
+                    const preview = article.text.split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
+                    return (
+                      <Link key={article.id} href={articleUrl} className="group block">
+                        <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
+                          <div className="flex items-start gap-4">
+                            <div className="flex-1 min-w-0">
+                              <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] mb-[6px]">
+                                {article.metadata.category.topic}
+                              </h3>
+                              <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
+                                {preview}...
+                              </p>
+                            </div>
+                            <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
+                              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
 
             {/* FAQ-Sektion – sichtbar für User und Crawler */}
             {contentItem.faqs && contentItem.faqs.length > 0 && (
@@ -268,8 +344,11 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   }
 
   // LISTE-MODE: Zeige Subkategorie-Übersicht
+  const subIntro = SUB_INTROS[subcategory];
   const listPageTitle = `${subcategory} - ${category} | Jassguru.ch`;
-  const listPageDescription = `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`;
+  const listPageDescription = subIntro
+    ? subIntro[0].slice(0, 155)
+    : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`;
 
   return (
     <>
@@ -288,6 +367,13 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
               {sortedArticles.length} {sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
             </p>
+            {subIntro && (
+              <div className="mt-4 space-y-3 font-inter text-[14px] sm:text-[16px] text-[#5f5b53] leading-[1.7]">
+                {subIntro.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Artikel-Liste */}
@@ -362,7 +448,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const catSlug = toSlug(item.metadata.category.main);
     const subSlug = toSlug(item.metadata.category.sub);
     
-    if (catSlug === 'varianten') {
+    if (catSlug === 'varianten' || catSlug === 'ansagen') {
       return;
     }
     
@@ -423,7 +509,21 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
       pageTitle = `${topic}: Jassen lernen & verstehen | Jass-Wiki`;
       metaDescription = `${topic} - Grundlagen und kulturelle Aspekte des Schweizer Jass. Alles Wichtige für Anfänger und Fortgeschrittene auf jasswiki.ch.`;
     }
-    
+
+    // Leitartikel «Jasskarten»: eigener, starker SEO-Titel statt des generischen Schemas.
+    if (flatArticle.id === 'expressions_kartenfarben') {
+      pageTitle = 'Jasskarten: Schweizer Spielkarten beider Kartensysteme | Jass-Wiki';
+      metaDescription =
+        'Alle 36 Jasskarten beider Schweizer Kartensysteme: Deutschschweizer (Eichel, Rosen, Schellen, Schilten) und französische (Schaufel, Kreuz, Herz, Ecke). Mit allen Karten in der Übersicht, der Farb-Zuordnung und der Geschichte des Schweizer Kartenbilds.';
+    }
+
+    // Leitartikel «Kommunikation & Signale»: die Signalsprache zwischen Partnern.
+    if (flatArticle.id === 'schieber_taktiken_advanced') {
+      pageTitle = 'Signalsprache beim Jassen: die Konventionen zwischen Partnern | Jass-Wiki';
+      metaDescription =
+        'Wie sich Jass-Partner ohne Worte verständigen: Anziehen, Verwerfen, Hoch-tief, Nell vor Puur und Nachschmeissen. Die wichtigsten Signale und Konventionen zwischen Partnern, erklärt vom Schweizer Jassverband.';
+    }
+
     return {
       props: {
         category,

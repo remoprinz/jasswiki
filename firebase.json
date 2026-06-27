@@ -61,6 +61,28 @@
           ]
         },
         {
+          "source": "/fonts/**",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400"
+            }
+          ]
+        },
+        {
+          "source": "/jvs-logo-farbig-kurz.svg",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ]
+        },
+        {
           "source": "/dataset/taxonomie.jsonld",
           "headers": [
             {
@@ -188,7 +210,216 @@
           ]
         }
       ],
+      "rewrites": [
+        {
+          "source": "/mcp/**",
+          "run": {
+            "serviceId": "mcp",
+            "region": "us-central1"
+          }
+        }
+      ],
       "redirects": [
+        {
+          "source": "/begriffe/spielaktionen/untertrumpfen/",
+          "destination": "/regeln/spielablauf/untertrumpfen/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/untertrumpfen",
+          "destination": "/regeln/spielablauf/untertrumpfen/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/trumpfansagen/",
+          "destination": "/ansagen/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/trumpfansagen",
+          "destination": "/ansagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/drei-eiserne-regeln",
+          "destination": "/regeln/regelgrundlagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/spielablauf-im-ueberblick",
+          "destination": "/jassen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/zentrale-begriffe/",
+          "destination": "/begriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/zentrale-begriffe",
+          "destination": "/begriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-lernen-und-verstehen/",
+          "destination": "/jassen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-lernen-und-verstehen",
+          "destination": "/jassen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/vielfalt-der-spielvarianten",
+          "destination": "/varianten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/bauernpartei/",
+          "destination": "/begriffe/grundbegriffe/bauernpartei/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/bauernpartei",
+          "destination": "/begriffe/grundbegriffe/bauernpartei/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/koenigspartei/",
+          "destination": "/begriffe/grundbegriffe/koenigspartei/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/koenigspartei",
+          "destination": "/begriffe/grundbegriffe/koenigspartei/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/joker-knecht/",
+          "destination": "/begriffe/grundbegriffe/joker-knecht/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/joker-knecht",
+          "destination": "/begriffe/grundbegriffe/joker-knecht/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/hindersi/",
+          "destination": "/begriffe/grundbegriffe/hindersi/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/hindersi",
+          "destination": "/begriffe/grundbegriffe/hindersi/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/obenabe/",
+          "destination": "/ansagen/obenabe/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/obenabe",
+          "destination": "/ansagen/obenabe/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/undenufe/",
+          "destination": "/ansagen/undenufe/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/undenufe",
+          "destination": "/ansagen/undenufe/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/slalom-zickzack/",
+          "destination": "/ansagen/slalom-zickzack/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/slalom-zickzack",
+          "destination": "/ansagen/slalom-zickzack/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/quer/",
+          "destination": "/ansagen/quer/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/quer",
+          "destination": "/ansagen/quer/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/trio-3-3/",
+          "destination": "/ansagen/trio-3-3/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/trio-3-3",
+          "destination": "/ansagen/trio-3-3/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/tutti/",
+          "destination": "/ansagen/tutti/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/tutti",
+          "destination": "/ansagen/tutti/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/misere/",
+          "destination": "/ansagen/misere/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/misere",
+          "destination": "/ansagen/misere/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/guschti-zwischendurch-quer/",
+          "destination": "/begriffe/spezialvarianten/quer/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/guschti-zwischendurch-quer",
+          "destination": "/begriffe/spezialvarianten/quer/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer-guschti/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer-guschti",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/",
+          "type": 301
+        },
         {
           "source": "/sitemap-0.xml",
           "destination": "/sitemap.xml",
@@ -465,13 +696,53 @@
           "type": 301
         },
         {
+          "source": "/regeln/ausmachen/ausmachregel-bei-schneider/",
+          "destination": "/regeln/ausmachen/ausmachregel-beim-schneider/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/ausmachregel-bei-schneider",
+          "destination": "/regeln/ausmachen/ausmachregel-beim-schneider/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/jasskarten/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/jasskarten",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/das-kartenset",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
           "source": "/geschichte/herkunft/jasskarten-36-karten/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/geschichte/herkunft/jasskarten-36-karten",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -506,12 +777,12 @@
         },
         {
           "source": "/grundlagen-kultur/spielmaterial/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/spielmaterial",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -656,12 +927,12 @@
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/",
-          "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
           "type": 301
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken",
-          "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
           "type": 301
         },
         {
@@ -906,12 +1177,12 @@
         },
         {
           "source": "/grundlagen-kultur/das-kartenset/das-kartenset/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/das-kartenset/das-kartenset",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1421,7 +1692,7 @@
         },
         {
           "source": "/geschichte/schweizer-kartenherstellung/jasskarten-36-karten/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1461,7 +1732,7 @@
         },
         {
           "source": "/geschichte/schweizer-kartenmacher/jasskarten-36-karten/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1486,12 +1757,12 @@
         },
         {
           "source": "/grundlagen-kultur/spielmaterial/das-kartenset/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/kartenwerte/jasskarten-36-karten/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1571,7 +1842,7 @@
         },
         {
           "source": "/grundlagen-kultur/das-kartenset/das-kartenset/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1751,7 +2022,7 @@
         },
         {
           "source": "/grundlagen-kultur/spielmaterial/",
-          "destination": "/grundlagen-kultur/das-kartenset/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1771,7 +2042,7 @@
         },
         {
           "source": "/grundlagen-kultur/kartenfarben/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1876,7 +2147,7 @@
         },
         {
           "source": "/grundlagen-kultur/kartenfarben/jasskarten-36-karten/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
@@ -1891,7 +2162,7 @@
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/",
-          "destination": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
           "type": 301
         },
         {
@@ -2210,93 +2481,113 @@
           "type": 301
         },
         {
-          "source": "/begriffe/kartenbezeichnungen/eichel/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/eichel",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
           "source": "/begriffe/kartenbezeichnungen/rose/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/rosen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/rose",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schellen/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schellen",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schilten/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schilten",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/rosen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/ecken/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/schellen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/ecken",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/schellen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/herz/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/rosen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/herz",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/rosen/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/kreuz/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/eichel/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/kreuz",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/eichel/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/schaufel/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/schilten/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/schaufel",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/begriffe/kartenbezeichnungen/schilten/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/farbe/",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/farbe",
-          "destination": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/verschiedene-kartensysteme/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/verschiedene-kartensysteme",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/jasskarten-grundlagen/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/jasskarten-grundlagen",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/kartenfarben/",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/kartenfarben",
+          "destination": "/grundlagen-kultur/jasskarten/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
           "type": 301
         }
       ]

@@ -28,10 +28,11 @@
     "amcp"
   ],
   "endpoints": {
-    "transport": "sse",
-    "sse": "https://us-central1-jassguru.cloudfunctions.net/mcp/sse",
-    "messages": "https://us-central1-jassguru.cloudfunctions.net/mcp/messages",
-    "health": "https://us-central1-jassguru.cloudfunctions.net/mcp/health",
+    "transport": "streamable-http",
+    "http": "https://jasswiki.ch/mcp/http",
+    "sse": "https://jasswiki.ch/mcp/sse",
+    "messages": "https://jasswiki.ch/mcp/messages",
+    "health": "https://jasswiki.ch/mcp/health",
     "manifest": "https://jasswiki.ch/.well-known/mcp.json"
   },
   "tools": [
@@ -55,6 +56,17 @@
         "required": ["id"],
         "properties": {
           "id": {"type": "string", "description": "Exact term ID (e.g. 'schieber', 'matsch', 'differenzler')"}
+        }
+      }
+    },
+    {
+      "name": "show_jass_card",
+      "description": "Render an official branded JassWiki knowledge card (jasswiki.ch UI) for a Swiss Jass term, rule, variant or question — with definition, category, related terms and source link.",
+      "inputSchema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": {"type": "string", "description": "Swiss Jass term, rule or question to look up"}
         }
       }
     }

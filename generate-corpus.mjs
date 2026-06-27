@@ -11,6 +11,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { toSlug, buildCanonicalUrl, validateUrl } from './url-utils.mjs';
+import { resolveMarkers, buildIdToTopic } from './resolve-markers.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,6 +29,7 @@ async function generateCorpus() {
     const jsonContent = await fs.readFile(JSON_FILE, 'utf-8');
     const allContent = JSON.parse(jsonContent);
     const articles = Object.values(allContent);
+    const idToTopic = buildIdToTopic(allContent);
 
     console.log(`✅ ${articles.length} Artikel aus JSON geladen.`);
 
@@ -71,7 +73,7 @@ async function generateCorpus() {
         synonyms: [],
         see_also: see_also || [],
         language: 'de-CH',
-        body: text.replace(/\n+/g, '\n').trim(),
+        body: resolveMarkers(text, idToTopic).replace(/\n+/g, '\n').trim(),
         canonical_url: canonicalUrl,
         source: 'JassWiki.ch - Official Swiss Jass Encyclopedia',
         license: 'CC-BY-SA-4.0',

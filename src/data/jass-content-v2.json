@@ -1,4 +1,105 @@
 {
+  "expressions_tutti": {
+    "id": "expressions_tutti",
+    "text": "Definition:\nTutti ist eine Spielvariante, die vor allem beim Coiffeur gespielt wird. Es gibt zwei Varianten, die je nach Jassgruppe unterschiedlich gespielt werden. Gebräuchlicher ist die Trumpf-Variante.\n\n## Variante Trumpf (gängige Variante)\nBei der gängigen Variante wechselt der Trumpf (siehe Begriff \"bodentrumpf\") bei jedem Stich: Er wird von der Karte bestimmt, die Vorhand ausspielt.\n\nBeispiel: Spielt Vorhand im vierten Stich Schilten Ober aus, ist Schilten in diesem Stich Trumpf. Dabei gelten die normalen Trumpfregeln, der Schilten Under ist also in diesem Stich der Puur und muss nicht gespielt werden.\n\nZählwert: Puur (siehe Begriff \"trumpf_bauer\") und Nell (siehe Begriff \"expressions_nell\") zählen von jener Farbe, die im ersten Stich zuerst ausgespielt wurde.\n\nVon dieser Variante gibt es zudem eine Form, bei der jeder Puur und alle Nell zählen. Dadurch sind in einer Runde 253 statt der üblichen 157 Punkte möglich.\n\nQuelle: [Club de Jass Romand Biel-Bienne](https://www.jassbielbienne.ch/dokus/cours_tutti.pdf)\n\n## Variante Obenabe\nIn der zweiten Variante wird Tutti als Obenabe (siehe Begriff \"expressions_obenabe\") gespielt, mit zwei Unterschieden zum normalen Obenabe:\n\n- **Stechwert:** Die höchste Karte ist der Puur, die zweithöchste das Nell. Erst danach folgt das Ass.\n- **Zählwert:** Anstatt der Achter zählen der Puur und das Nell.\n\nWie bei der Trumpf-Variante zählen Puur und Nell von jener Farbe, die im ersten Stich zuerst ausgespielt wurde.\n\nDiese Variante spielt zum Beispiel der [Jassclub Tödi](https://www.jctoedi.ch/clubdesk/fileservlet?type=file&id=1000176).",
+    "metadata": {
+      "id": "expressions_tutti_meta",
+      "category": {
+        "main": "Ansagen",
+        "sub": "Trumpf",
+        "topic": "Tutti"
+      },
+      "keywords": [
+        "tutti",
+        "coiffeur",
+        "obenabe",
+        "trumpf",
+        "puur",
+        "nell",
+        "stechwert",
+        "zählwert",
+        "spielvariante"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.8,
+      "difficulty": 3,
+      "taxonomy_tier": 3
+    },
+    "faqs": [
+      {
+        "question": "Was ist Tutti beim Jassen?",
+        "answer": "Tutti ist eine Spielvariante, die vor allem beim Coiffeur gespielt wird. Es gibt zwei Varianten: die gängigere mit wechselndem Trumpf und eine als Obenabe."
+      },
+      {
+        "question": "Wie funktioniert Tutti als Obenabe?",
+        "answer": "Tutti wird als Obenabe gespielt, mit zwei Unterschieden: Die höchste Karte ist der Puur, die zweithöchste das Nell (erst danach folgt das Ass), und anstatt der Achter zählen Puur und Nell. Beide zählen von jener Farbe, die im ersten Stich zuerst ausgespielt wurde."
+      },
+      {
+        "question": "Wie funktioniert Tutti mit Trumpf?",
+        "answer": "Der Trumpf wechselt bei jedem Stich und wird von der Karte bestimmt, die Vorhand ausspielt. Dabei gelten die normalen Trumpfregeln. Puur und Nell zählen wie bei der Obenabe-Variante von der zuerst ausgespielten Farbe."
+      },
+      {
+        "question": "Welche Karte ist beim Tutti die höchste?",
+        "answer": "Der Puur (Under) ist die höchste Karte, gefolgt vom Nell. Beide zählen von jener Farbe, die im ersten Stich zuerst ausgespielt wurde."
+      }
+    ],
+    "see_also": [
+      "expressions_obenabe",
+      "trumpf_bauer",
+      "expressions_nell",
+      "bodentrumpf"
+    ]
+  },
+  "schieber_taktiken_nell_vor_puur": {
+    "id": "schieber_taktiken_nell_vor_puur",
+    "text": "Definition:\nNell vor Puur ist eine Signalkonvention beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell die Neun der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.\n\nDie Aussage:\nWer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner liest daraus eine feste Information.\n\nWieso ist das wichtig?\nSo entstehen keine Überraschungen. Entscheidet das Team nach einmaligem Austrumpfen, nicht noch einmal nachzuziehen, kann der Partner sicher sein, dass der Puur nicht beim Gegner liegt.\n\nAbgrenzung:\nNell und Puur sind von der Hoch-Tief-Konvention ausgenommen. Ihre Reihenfolge im ersten Stich folgt allein der Regel «Nell vor Puur».",
+    "metadata": {
+      "id": "schieber_taktiken_nell_vor_puur_meta",
+      "category": {
+        "main": "Taktiken und Strategien",
+        "sub": "Kommunikation & Signale",
+        "topic": "Nell vor Puur"
+      },
+      "keywords": [
+        "nell vor puur",
+        "nell",
+        "puur",
+        "trumpf signal",
+        "erster stich",
+        "austrumpfen",
+        "kommunikation",
+        "schieber taktik"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.8,
+      "difficulty": 3,
+      "taxonomy_tier": 2
+    },
+    "faqs": [
+      {
+        "question": "Was bedeutet «Nell vor Puur»?",
+        "answer": "Wer Puur und Nell zugleich hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann: Wer mit dem Nell eröffnet, hat auch den Puur."
+      },
+      {
+        "question": "Warum spielt man das Nell vor dem Puur?",
+        "answer": "Damit der Partner sicher weiss, wo der Puur liegt. Wer den Puur nicht hält, eröffnet nie mit dem Nell. So entstehen beim Austrumpfen keine Überraschungen."
+      },
+      {
+        "question": "Gilt «Nell vor Puur» auch bei der Hoch-Tief-Konvention?",
+        "answer": "Nein. Nell und Puur sind von Hoch-Tief ausgenommen. Ihre Reihenfolge folgt allein der Regel «Nell vor Puur»."
+      }
+    ],
+    "see_also": [
+      "schieber_taktiken_hoch_tief",
+      "schieber_taktiken_advanced",
+      "expressions_nell",
+      "trumpf_bauer"
+    ]
+  },
   "abheben": {
     "id": "abheben",
     "text": "Definition:\nBeim Abheben teilt der links vom Kartengeber sitzende Spieler den gemischten Kartenstapel (siehe Begriff \"expressions_stapel\"). Vor dem Abheben hat der Kartengeber die Karten gründlich durchgemischt (siehe Begriff \"mischen\") und den Stapel mit der Bildseite nach unten auf die Tischfläche gelegt.\n\nAbhebregeln:\n• Bei allen Jassvarianten ist das Abheben verpflichtend\n• Der Spieler muss mindestens drei Karten vom Stapel nehmen\n• Die maximale Anzahl ist so begrenzt, dass auf dem Tisch mindestens eine Karte zurückbleibt\n• Durch das Abheben kommt der untere Teil des Stapels zu liegen, der obere Teil wird darunter platziert",
@@ -680,7 +781,7 @@
       "id": "expressions_bauernpartei_meta",
       "category": {
         "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "sub": "Grundbegriffe",
         "topic": "Bauernpartei"
       },
       "keywords": [
@@ -1171,13 +1272,13 @@
   },
   "expressions_guschti": {
     "id": "expressions_guschti",
-    "text": "Definition:\nGuschti (auch Zwischendurch oder Quer genannt) ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\n• Es werden vier oder fünf Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln und vier oder fünf Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln gespielt\n• Die Reihenfolge kann auch umgekehrt sein, also vier oder fünf Stiche Undenufe und dann vier oder fünf Stiche nach Obenabe\n• Der trumpfansagende Spieler bestimmt, ob zuerst vier oder fünf Obe oder vier oder fünf Undenufe angesagt werden.\n\nTipp:\nWenn geschoben wird, ist es sicherer zuerst fünf anzusagen, um in den Stich zu kommen.",
+    "text": "Definition:\nQuer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil wird nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, der andere nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln. Quer wird auch Zwischendurch genannt.\n\nBeim klassischen Quer wählt der Ansager frei, ob er mit Obenabe oder Undenufe beginnt und ob der erste Teil vier oder fünf Stiche umfasst. Gezählt wird nach jener Spielart, mit der begonnen wird.\n\nZwei feste Formen tragen eigene Namen:\n\n## Guschti\nBeim Guschti werden zuerst vier Stiche nach Obenabe und dann die fünf letzten Stiche nach Undenufe gespielt. Die Punkte werden wie beim Obenabe gezählt.\n\n## Mary\nBei der Mary werden zuerst vier Stiche nach Undenufe und dann die fünf letzten Stiche nach Obenabe gespielt. Die Punkte werden wie beim Undenufe gezählt.",
     "metadata": {
       "id": "expressions_guschti_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
-        "topic": "Guschti/Zwischendurch/Quer"
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
+        "topic": "Quer"
       },
       "keywords": [
         "guschti",
@@ -1193,20 +1294,20 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Guschti/Zwischendurch/Quer beim Jassen?",
-        "answer": "Guschti (auch Zwischendurch oder Quer genannt) ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe."
+        "question": "Was ist Quer beim Jassen?",
+        "answer": "Quer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil nach Obenabe, ein Teil nach Undenufe. Quer wird auch Zwischendurch genannt."
       },
       {
-        "question": "Was ist Guschti?",
-        "answer": "Guschti ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der Obenabe und Undenufe kombiniert werden."
+        "question": "Was ist Guschti beim Jassen?",
+        "answer": "Guschti ist eine Variante von Quer: Es werden zuerst vier Stiche nach Obenabe und dann die fünf letzten Stiche nach Undenufe gespielt. Die Punkte werden wie beim Obenabe gezählt."
       },
       {
-        "question": "Wie funktioniert Guschti?",
-        "answer": "Bei Guschti werden vier Stiche nach Obenabe-Regeln und fünf Stiche nach Undenufe-Regeln gespielt."
+        "question": "Was ist Mary beim Jassen?",
+        "answer": "Mary ist eine Variante von Quer: Es werden zuerst vier Stiche nach Undenufe und dann die fünf letzten Stiche nach Obenabe gespielt. Die Punkte werden wie beim Undenufe gezählt."
       },
       {
-        "question": "Kann man die Reihenfolge bei Guschti ändern?",
-        "answer": "Ja, die Reihenfolge (ob zuerst Obenabe oder Undenufe) kann auch umgekehrt sein."
+        "question": "Was ist der Unterschied zwischen Guschti und Mary?",
+        "answer": "Beim Guschti werden zuerst vier Stiche nach Obenabe und dann fünf nach Undenufe gespielt, die Punkte zählen wie beim Obenabe. Bei der Mary zuerst vier Stiche nach Undenufe und dann fünf nach Obenabe, die Punkte zählen wie beim Undenufe."
       }
     ],
     "see_also": [
@@ -1303,7 +1404,7 @@
       "id": "expressions_hindersi_meta",
       "category": {
         "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "sub": "Grundbegriffe",
         "topic": "Hindersi"
       },
       "keywords": [
@@ -1343,7 +1444,7 @@
       "id": "expressions_joker_meta",
       "category": {
         "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "sub": "Grundbegriffe",
         "topic": "Joker/Knecht"
       },
       "keywords": [
@@ -1383,20 +1484,24 @@
   },
   "expressions_kartenfarben": {
     "id": "expressions_kartenfarben",
-    "text": "Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.\n\n## Die Deutschschweizer Farben\n\nIn der Deutsch- und Innerschweiz spielt man mit Eichel, Rosen, Schellen und Schilten.\n\n- **Eichel** zeigt eine Eichel, die Frucht der Eiche.\n- **Rosen** zeigt eine stilisierte Rose.\n- **Schellen** zeigt eine runde Schelle, ein Glöckchen.\n- **Schilten** zeigt einen Wappenschild.\n\n## Die französischen Farben\n\nIn der Westschweiz und Teilen des Mittellands sind die französischen Farben gebräuchlich: Schaufel, Kreuz, Herz und Ecke. Es sind dieselben Zeichen wie auf den international verbreiteten französischen Karten, im Jass tragen sie aber eigene Namen.\n\n- **Schaufel** entspricht Pik.\n- **Kreuz** entspricht Kreuz (Treff).\n- **Herz** entspricht Herz.\n- **Ecke** entspricht Karo.\n\n## Funktionale Entsprechung\n\nWer von einem System ins andere wechselt, übersetzt die Farben so:\n\n- Eichel entspricht Schaufel\n- Rosen entspricht Kreuz\n- Schellen entspricht Herz\n- Schilten entspricht Ecke\n\nDie Zuordnung ist rein funktional, nicht bildgleich. Fürs Spiel macht es keinen Unterschied, mit welchem Set man antritt: Trumpf, Stich und die \"Punktewerte\" (siehe Begriff \"general_card_values\") funktionieren identisch.\n\n## Welches System wo?\n\nWelches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\"). Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.\n\n## Alle Karten im Überblick\n\nDie folgenden Tafeln zeigen alle 36 Karten beider Systeme, Farbe für Farbe und von der höchsten zur tiefsten Karte. Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch) (Jens Riedweg), einer modernen Neuillustration des klassischen Schweizer Blatts. Diese Karten werden vom Schweizer Jassverband (JVS) offiziell unterstützt: Schweizer Gestaltung, als Vektorgrafik umgesetzt und in der Schweiz gedruckt.\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").",
+    "text": "Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.\n\nDer Deutschschweizer Satz hat Eichel, Rosen, Schellen und Schilten, der französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die beiden Sätze entsprechen sich eins zu eins: Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel meinen dieselbe Farbe.\n\n## Alle 36 Karten\n\nFarbe für Farbe, von der höchsten zur tiefsten Karte, beide Systeme im direkten Vergleich.\n\nDas abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch), einer modernen Neuillustration des klassischen Schweizer Blatts. Der Schweizer Grafiker Jens Riedweg hat es als Vektorgrafik gestaltet, gedruckt werden die Karten in der Schweiz. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.\n\n## Welches System wo?\n\nWelches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\"). Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").",
     "metadata": {
       "id": "expressions_kartenfarben_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Kartenbezeichnungen",
-        "topic": "Kartenfarben"
+        "main": "Grundlagen & Kultur",
+        "sub": "Jasskarten",
+        "topic": "Jasskarten"
       },
       "keywords": [
+        "jasskarten",
+        "schweizer spielkarten",
         "kartenfarben",
-        "farben jass",
-        "schellen schilten rosen eichel",
-        "herz ecke kreuz schaufel",
-        "deutschschweizer französische karten"
+        "jass farben",
+        "eichel rosen schellen schilten",
+        "schaufel kreuz herz ecke",
+        "deutschschweizer französische karten",
+        "rosen ass",
+        "schellen könig"
       ],
       "situations": [
         "LEARNING"
@@ -1416,19 +1521,19 @@
       },
       {
         "question": "Welche französische Farbe entspricht Schellen?",
-        "answer": "Herz."
+        "answer": "Ecke (Karo)."
       },
       {
         "question": "Welche französische Farbe entspricht Schilten?",
-        "answer": "Ecke."
+        "answer": "Schaufel (Pik)."
       },
       {
         "question": "Welche französische Farbe entspricht Rosen?",
-        "answer": "Kreuz."
+        "answer": "Herz."
       },
       {
         "question": "Welche französische Farbe entspricht Eichel?",
-        "answer": "Schaufel."
+        "answer": "Kreuz (Trèfle)."
       }
     ],
     "see_also": [
@@ -1572,7 +1677,7 @@
       "id": "expressions_koenigspartei_meta",
       "category": {
         "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "sub": "Grundbegriffe",
         "topic": "Königspartei"
       },
       "keywords": [
@@ -1876,12 +1981,12 @@
   },
   "expressions_misere": {
     "id": "expressions_misere",
-    "text": "Definition:\nMisère ist eine Spezialvariante bei Pandur und Bieter, bei der der Spielübernehmer keinen einzigen Stich machen darf, was diese Variante besonders herausfordernd macht.\n\nVariation:\nBei manchen Spielgruppen wird Misère auch als Schieber-Variante gespielt, was zusätzliche taktische Möglichkeiten eröffnet.",
+    "text": "Definition:\nMisère ist die Spezialvariante beim Ansagen, bei der die Teams möglichst keinen Stich machen wollen. Misère wird bei Pandur und beim Coiffeur gespielt. Bei manchen Jassgruppen wird Misère auch als Schieber-Variante gespielt, was zusätzliche taktische Möglichkeiten eröffnet.\n\nSpeziell beim Misère ist, dass Untertrumpfen (siehe Begriff \"untertrumpfen\") erlaubt ist, wenn der entsprechende Spieler die gespielte Farbe nicht auf der Hand hat.",
     "metadata": {
       "id": "expressions_misere_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "main": "Ansagen",
+        "sub": "Ziel",
         "topic": "Misère"
       },
       "keywords": [
@@ -1899,20 +2004,16 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Misère beim Jassen?",
-        "answer": "Misère ist eine Spezialvariante bei Pandur und Bieter, bei der der Spielübernehmer keinen einzigen Stich machen darf, was diese Variante besonders herausfordernd macht."
+        "question": "Was ist Misère beim Jassen?",
+        "answer": "Misère ist eine Spezialvariante, bei der das Ziel umgekehrt ist: Man will möglichst keinen Stich machen. Gespielt bei Pandur, Coiffeur und teils als Schieber-Variante."
       },
       {
-        "question": "Was ist eine Misère?",
-        "answer": "Die Misère ist eine Spezialvariante, bei der der Spielübernehmer keinen einzigen Stich machen darf."
+        "question": "Darf man bei Misère untertrumpfen?",
+        "answer": "Ja. Beim Misère ist Untertrumpfen auch dann erlaubt, wenn man die ausgespielte Farbe nicht bedienen kann."
       },
       {
-        "question": "Bei welchen Jassvarianten gibt es die Misère?",
-        "answer": "Die Misère gibt es bei Pandur und Bieter, manchmal auch als Schieber-Variante."
-      },
-      {
-        "question": "Warum ist die Misère herausfordernd?",
-        "answer": "Die Misère ist besonders herausfordernd, weil man aktiv vermeiden muss, Stiche zu machen, was eine komplett andere Strategie erfordert."
+        "question": "Wo wird Misère gespielt?",
+        "answer": "Vor allem bei Pandur und beim Coiffeur, bei manchen Jassgruppen auch als eigene Schieber-Variante."
       }
     ],
     "see_also": [
@@ -2067,12 +2168,12 @@
   },
   "expressions_obenabe": {
     "id": "expressions_obenabe",
-    "text": "Definition:\nObenabe ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe, bei der die stechhöchsten Karten von oben nach unten zählen. Dies bedeutet, dass die normalerweise höchsten Karten auch in dieser Variante die stärksten sind.\n\nCharakteristik:\nDiese Regelung macht die Spielweise besonders interessant.",
+    "text": "Definition:\nObenabe ist die Ansage-Variante ohne feste Trumpffarbe, bei der die stechhöchsten Karten die Asse sind, gefolgt von König, Ober (Dame), Under und so weiter.\n\nDa es keinen Puur (siehe Begriff \"trumpf_bauer\") und kein Nell (siehe Begriff \"expressions_nell\") gibt, zählen die Achter je acht Punkte.",
     "metadata": {
       "id": "expressions_obenabe_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
         "topic": "Obenabe"
       },
       "keywords": [
@@ -2088,15 +2189,15 @@
     "faqs": [
       {
         "question": "Was ist Obenabe beim Jassen?",
-        "answer": "Obenabe ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der die hohen Karten stechen (Ass > König > Ober > etc.)."
+        "answer": "Obenabe ist eine Ansage ohne Trumpf, bei der die höchste Karte sticht: Das Ass ist am stärksten, gefolgt von König, Ober, Under und so weiter."
       },
       {
-        "question": "Wie viele Punkte zählen die Karten bei Obenabe?",
-        "answer": "Bei Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte. Die übrigen Kartenwerte bleiben gleich."
+        "question": "Welche Karte ist beim Obenabe die höchste?",
+        "answer": "Das Ass. Danach folgen König, Ober (Dame), Under, Banner und so weiter nach unten."
       },
       {
-        "question": "Was ist der Unterschied zwischen Obenabe und Undenufe?",
-        "answer": "Bei Obenabe stechen die hohen Karten (Ass höchste), bei Undenufe stechen die tiefen Karten (6 höchste)."
+        "question": "Wie zählen die Karten beim Obenabe?",
+        "answer": "Wie im normalen Spiel, aber ohne Puur und Nell. Dafür zählen die Achter je acht Punkte."
       }
     ],
     "see_also": [
@@ -2588,12 +2689,12 @@
   },
   "expressions_slalom": {
     "id": "expressions_slalom",
-    "text": "Definition:\nSlalom (oder Zickzack) ist eine spezielle Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann.\n\nAnforderung:\nDiese Variante erfordert viel Aufmerksamkeit und strategisches Denken.",
+    "text": "Definition:\nSlalom (oder Zickzack) ist eine Ansage-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann. Wer die Ansage macht, bestimmt, ob zuerst Obenabe oder Undenufe sticht. In der Folge wechselt die Reihenfolge bei jedem Stich ab.\n\nVerwerfen:\nBeim Slalom ist das Verwerfen besonders anspruchsvoll, da oft nicht klar ist, ob dem Partner «oben» oder «unten» übergeben werden soll. Es gibt aber eine klare Konvention, vgl. Verwerfen beim Slalom (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
     "metadata": {
       "id": "expressions_slalom_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
         "topic": "Slalom/Zickzack"
       },
       "keywords": [
@@ -2609,24 +2710,16 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Slalom/Zickzack beim Jassen?",
-        "answer": "Slalom (oder Zickzack) ist eine spezielle Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe."
+        "question": "Was ist Slalom (Zickzack) beim Jassen?",
+        "answer": "Slalom ist eine Ansage ohne Trumpf, bei der sich pro Stich Obenabe und Undenufe abwechseln."
       },
       {
-        "question": "Was ist Slalom beim Jassen?",
-        "answer": "Slalom (oder Zickzack) ist eine Spielvariante ohne feste Trumpffarbe, bei der abwechselnd nach Obenabe- und Undenufe-Regeln gespielt wird."
+        "question": "Wie funktioniert Slalom beim Jassen?",
+        "answer": "Wer ansagt, bestimmt, ob der erste Stich Obenabe oder Undenufe sticht. Danach wechselt die Richtung bei jedem Stich ab."
       },
       {
-        "question": "Wie funktioniert der Wechsel beim Slalom?",
-        "answer": "Nach jedem Stich wechselt die Stechordnung: Beim ersten Stich nach Obenabe (hohe Karten stechen), beim zweiten nach Undenufe (tiefe Karten stechen), usw."
-      },
-      {
-        "question": "Wie verwirft man beim Slalom richtig?",
-        "answer": "Beim Slalom sollte man beim Verwerfen beachten, ob der nächste Stich Obenabe oder Undenufe gespielt wird, um entsprechend starke oder schwache Karten loszuwerden."
-      },
-      {
-        "question": "Zählen beim Slalom die Asse oder Sechser 11 Punkte?",
-        "answer": "Beim Slalom zählen entweder die Asse oder die Sechser je 11 Punkte – je nachdem ob mit Obenabe oder Undenufe begonnen wird."
+        "question": "Warum ist das Verwerfen beim Slalom schwierig?",
+        "answer": "Weil oft unklar ist, ob dem Partner hoch oder tief übergeben werden soll. Dafür gibt es die Konvention im Artikel «Verwerfen beim Slalom»."
       }
     ],
     "see_also": [
@@ -2973,12 +3066,12 @@
   },
   "expressions_trio": {
     "id": "expressions_trio",
-    "text": "Definition:\nTrio (oder 3×3) ist eine komplexe Trumpf (siehe Begriff \"bodentrumpf\")-Variante, bei der drei Stiche mit Trumpf, drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden.\n\nTaktische Flexibilität:\nDie Reihenfolge dieser drei Spielarten ist frei wählbar, was dem Spieler taktische Flexibilität gibt.",
+    "text": "Definition:\nTrio (oder 3×3) ist eine Ansage-Variante, bei der drei Stiche mit Trumpf (siehe Begriff \"bodentrumpf\"), drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden. Die Reihenfolge ist frei wählbar.\n\nZählweise:\nGezählt wird in jedem Fall wie beim angesagten Trumpf: Der Puur (siehe Begriff \"trumpf_bauer\") zählt 20, das Nell (siehe Begriff \"expressions_nell\") 14 und die Asse je 11 Punkte.\n\nSpezialvariante:\nWeil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden kann, gibt es eine schwierigere Form: Dabei muss der Trumpf-Teil in der Mitte liegen (also Stich 4 bis 6), und man kann nur bestimmen, ob Obenabe oder Undenufe zuerst oder zuletzt gespielt wird. Das macht Trio insgesamt herausfordernder.",
     "metadata": {
       "id": "expressions_trio_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
         "topic": "Trio/3×3"
       },
       "keywords": [
@@ -2994,16 +3087,16 @@
     },
     "faqs": [
       {
-        "question": "Was ist Trio beim Jassen?",
-        "answer": "Trio ist eine komplexe Trumpf-Variante, bei der drei Stiche mit Trumpf, drei mit Undenufe und drei mit Obenabe gespielt werden."
+        "question": "Was ist Trio (3×3) beim Jassen?",
+        "answer": "Trio ist eine Ansage, bei der je drei Stiche mit Trumpf, nach Undenufe-Regeln und nach Obenabe-Regeln gespielt werden. Die Reihenfolge ist frei wählbar."
       },
       {
-        "question": "Kann man bei Trio die Reihenfolge wählen?",
-        "answer": "Ja, die Reihenfolge der drei Spielarten ist frei wählbar, was taktische Flexibilität gibt."
+        "question": "Wie zählen die Karten beim Trio?",
+        "answer": "In jedem Fall wie beim Trumpf: Der Puur zählt 20, das Nell 14 und die Asse je 11 Punkte."
       },
       {
-        "question": "Wie viele Stiche hat ein Trio-Spiel?",
-        "answer": "Ein Trio-Spiel hat wie üblich 9 Stiche, aufgeteilt in 3×3 (3 Trumpf, 3 Undenufe, 3 Obenabe)."
+        "question": "Gibt es eine schwierigere Trio-Variante?",
+        "answer": "Ja. Dort muss der Trumpf-Teil in der Mitte liegen (Stich 4 bis 6), und man bestimmt nur, ob Obenabe oder Undenufe zuerst oder zuletzt kommt."
       }
     ],
     "see_also": [
@@ -3147,12 +3240,12 @@
   },
   "expressions_undenufe": {
     "id": "expressions_undenufe",
-    "text": "Definition:\nUndenufe ist eine Trumpf (siehe Begriff \"bodentrumpf\")-Variante ohne feste Trumpffarbe, bei der die stechhöchsten Karten von unten nach oben zählen. Dies bedeutet, dass die normalerweise niedrigsten Karten in dieser Variante die stärksten sind.\n\nCharakteristik:\nDiese Umkehrung macht das Spiel besonders spannend und strategisch anspruchsvoll.",
+    "text": "Definition:\nUndenufe ist die Ansage-Variante beim Jassen ohne feste Trumpffarbe, bei der die Sechser die stechhöchsten Karten sind, gefolgt vom Siebner, Achter und so weiter.\n\nBeim Undenufe zählen die Sechser 11 Punkte und die Asse null Punkte. Die Achter zählen acht Punkte.",
     "metadata": {
       "id": "expressions_undenufe_meta",
       "category": {
-        "main": "Begriffe",
-        "sub": "Spezialvarianten",
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
         "topic": "Undenufe"
       },
       "keywords": [
@@ -3168,61 +3261,21 @@
     "faqs": [
       {
         "question": "Was ist Undenufe beim Jassen?",
-        "answer": "Undenufe ist eine Trumpf-Variante ohne feste Trumpffarbe, bei der die tiefen Karten stechen (6 > 7 > 8 > etc.)."
+        "answer": "Undenufe ist eine Ansage ohne Trumpf, bei der die Stechordnung umgekehrt ist: Die Sechser sind die höchsten Karten, gefolgt von Siebner, Achter und so weiter."
       },
       {
-        "question": "Wie viele Punkte zählen die Karten bei Undenufe?",
-        "answer": "Bei Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte. Die übrigen Kartenwerte bleiben gleich."
+        "question": "Welche Karte ist beim Undenufe die höchste?",
+        "answer": "Der Sechser. Danach folgen Siebner, Achter, Neuner und so weiter nach oben."
       },
       {
-        "question": "Welche Karte ist bei Undenufe am stärksten?",
-        "answer": "Bei Undenufe ist die 6 (der Sechser) die stärkste Karte jeder Farbe, gefolgt von 7, 8, 9, 10, Unter, Ober, König, Ass."
+        "question": "Wie zählen die Karten beim Undenufe?",
+        "answer": "Die Sechser zählen 11 Punkte, die Asse null Punkte, die Achter acht Punkte."
       }
     ],
     "see_also": [
       "expressions_obenabe",
       "expressions_slalom",
       "matsch"
-    ]
-  },
-  "expressions_untertrumpfen": {
-    "id": "expressions_untertrumpfen",
-    "text": "Definition:\nUntertrumpfen (siehe Begriff \"untertrumpfen\") bedeutet, dass man einem bereits laufenden Stich eine Trumpfkarte (siehe Begriff \"bodentrumpf\") beigibt, die stechmässig niedriger ist als bereits im Stich vorhandene Trumpfkarten.\n\nVorteil:\n• Diese taktische Spielaktion ermöglicht es, den Stich zu gewinnen, ohne dabei die höchsten Trumpfkarten einsetzen zu müssen",
-    "metadata": {
-      "id": "expressions_untertrumpfen_meta",
-      "category": {
-        "main": "Begriffe",
-        "sub": "Spielaktionen",
-        "topic": "Untertrumpfen"
-      },
-      "keywords": [
-        "untertrumpfen"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Untertrumpfen?",
-        "answer": "Untertrumpfen bedeutet, dass man einem Stich eine Trumpfkarte beigibt, die niedriger ist als bereits vorhandene Trumpfkarten."
-      },
-      {
-        "question": "Wann darf man untertrumpfen?",
-        "answer": "Man darf untertrumpfen, wenn man die ausgespielte Farbe nicht mehr besitzt und nur noch niedrigere Trumpfkarten hat als bereits im Stich liegen."
-      },
-      {
-        "question": "Was ist der Vorteil vom Untertrumpfen?",
-        "answer": "Der Vorteil ist, dass man den Stich gewinnen kann, ohne dabei die höchsten Trumpfkarten einsetzen zu müssen."
-      }
-    ],
-    "see_also": [
-      "bodentrumpf",
-      "ausmachregel",
-      "untertrumpfen"
     ]
   },
   "expressions_unterzug": {
@@ -4043,60 +4096,6 @@
       "bodentrumpf"
     ]
   },
-  "general_game_basics": {
-    "id": "general_game_basics",
-    "text": "Grundkonzept:\nDer Jass ist ein Stichspiel für in der Regel vier Spieler, die in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander antreten.\n\nGrundelemente:\n• **Kartenset:** Gespielt wird mit 36 Karten in vier verschiedenen Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Spielziel:** Ziel ist es, durch geschicktes Ausspielen möglichst viele Punkte zu erzielen\n• **Trumpfsystem:** Eine Farbe oder Sonderregel wird als Trumpf (siehe Begriff \"bodentrumpf\") festgelegt, der besondere Stärke verleiht\n\nSpielablauf:\nNach dem Austeilen der Karten wird der Trumpf bestimmt. Dann spielen die Spieler reihum Karten aus (siehe Begriff \"vorspielen\"), wobei grundsätzlich die Farbe bekannt werden muss.\n\nTeamarbeit:\nPartner sitzen sich gegenüber und versuchen, durch koordiniertes Spiel gemeinsam Stiche und Punkte zu gewinnen.",
-    "metadata": {
-      "id": "general_game_basics_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Spielablauf im Überblick",
-        "topic": "Spielablauf im Überblick"
-      },
-      "keywords": [
-        "partie",
-        "spiel",
-        "umgang",
-        "stich",
-        "vorhand",
-        "solokarte",
-        "begriffe",
-        "grundlagen"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Spielablauf im Überblick beim Jassen?",
-        "answer": "Grundkonzept:\nDer Jass ist ein Stichspiel für in der Regel vier Spieler, die in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander antreten."
-      },
-      {
-        "question": "Wie viele Spieler braucht man für Jass?",
-        "answer": "Jass wird in der Regel mit vier Spielern gespielt, die in zwei Teams gegeneinander antreten."
-      },
-      {
-        "question": "Mit wie vielen Karten wird Jass gespielt?",
-        "answer": "Gespielt wird mit 36 Karten in vier verschiedenen Farben."
-      },
-      {
-        "question": "Was ist das Ziel beim Jassen?",
-        "answer": "Das Ziel ist es, durch geschicktes Ausspielen möglichst viele Punkte zu erzielen, wobei eine Farbe oder Sonderregel als Trumpf festgelegt wird."
-      }
-    ],
-    "see_also": [
-      "bodentrumpf",
-      "expressions_kartenfarben",
-      "ausmachregel",
-      "expressions_team",
-      "general_scoring_rules",
-      "vorspielen"
-    ]
-  },
   "general_game_end": {
     "id": "general_game_end",
     "text": "Regel:\nEin Jass endet unter folgenden Umständen:\n• Ein Team (siehe Begriff \"expressions_team\") hat die Zielpunktzahl erreicht und bedankt (siehe Begriff \"bedanken\")\n• Beide Teams werfen zusammen (siehe Begriff \"zusammenwerfen\") (Einigung auf Neustart)\n• Das Spiel wird annulliert (siehe Begriff \"spiel_annullieren\") (z.B. wegen schwerer Regelverstösse)\n\nNach Spielende:\n• Die Punkte werden gezählt und notiert\n• Bei Erreichen der Gesamtpunktzahl ist die Partie (siehe Begriff \"expressions_partie\") vorbei\n• Ansonsten beginnt eine neue Runde",
@@ -4331,117 +4330,15 @@
       "expressions_kartenfarben"
     ]
   },
-  "general_introduction": {
-    "id": "general_introduction",
-    "text": "Was ist Jass?\nDer Jass ist das beliebteste Kartenspiel der Schweiz und gilt als inoffizielles Nationalspiel.\n\nCharakteristik:\n• **Stichspiel:** Der Jass gehört zur Familie der Stichspiele , bei denen Karten ausgespielt und gestochen werden\n• **Teamspiel:** Meistens spielen vier Personen in zwei Teams (siehe Begriff \"expressions_team\") gegeneinander\n• **Vielfalt:** Es existieren zahlreiche Varianten mit unterschiedlichen Regeln und Strategien\n\nKulturelle Bedeutung:\nDer Jass ist mehr als ein Spiel – er ist ein wichtiger Teil der Schweizer Kultur und Identität, der Generationen und Regionen verbindet.\n\nZugänglichkeit:\nDank einfacher Grundregeln ist der Jass leicht zu erlernen, bietet aber durch strategische Tiefe und Varianten auch für erfahrene Spieler ständig neue Herausforderungen.",
-    "metadata": {
-      "id": "general_introduction_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Jassen lernen und verstehen",
-        "topic": "Jassen lernen und verstehen"
-      },
-      "keywords": [
-        "einführung",
-        "grundregeln",
-        "tradition",
-        "kultur",
-        "kartenspiel",
-        "nationalspiel",
-        "schweiz",
-        "jass"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Jassen lernen und verstehen beim Jassen?",
-        "answer": "Was ist Jass? Der Jass ist das beliebteste Kartenspiel der Schweiz und gilt als inoffizielles Nationalspiel."
-      },
-      {
-        "question": "Was ist Jass?",
-        "answer": "Der Jass ist das beliebteste Kartenspiel der Schweiz und gilt als inoffizielles Nationalspiel."
-      },
-      {
-        "question": "Wie viele Personen spielen Jass?",
-        "answer": "Meistens spielen vier Personen in zwei Teams gegeneinander."
-      },
-      {
-        "question": "Ist Jass schwierig zu lernen?",
-        "answer": "Nein, dank einfacher Grundregeln ist der Jass leicht zu erlernen, bietet aber durch strategische Tiefe auch für erfahrene Spieler ständig neue Herausforderungen."
-      }
-    ],
-    "see_also": [
-      "ausmachregel",
-      "expressions_team"
-    ]
-  },
-  "general_materials": {
-    "id": "general_materials",
-    "text": "Benötigtes Material:\nFür das Jassen wird grundsätzlich nur wenig Material benötigt.\n\nGrundausstattung:\n• **Jasskarten:** Ein Set von 36 Karten in vier Farben (siehe Begriff \"expressions_kartenfarben\"), entweder mit Schweizer oder französischen Symbolen\n• **Schreibzeug:** Papier und Stift zum Notieren der Punkte  (siehe Schreiben (siehe Begriff \"schreiben\"))\n• **Optional - Jasstafel:** Traditionelle oder digitale Tafel (siehe Begriff \"jassapps_jasstafel_pro\") zur Punktenotierung\n\nModerne Alternativen:\n• **Apps:** Digitale Jass-Apps ersetzen Karten und Punktetafel\n• **Online-Plattformen:** Ermöglichen das Spielen ohne physisches Material\n\nTraditionelle Accessoires:\nIn manchen Regionen werden zusätzliche traditionelle Elemente wie besondere Jasstische oder spezielle Kartenhalter verwendet.\n\n**Das Kartenset**\n\nEin vollständiges Jass-Kartenset besteht aus 36 Karten.\n\n**Aufbau des Kartensets:**\n• 4 Farben (Eicheln, Rosen, Schilten, Schellen bei deutschen Karten)\n• 9 Karten pro Farbe (As, König, Ober, Under, Banner, 9, 8, 7, 6)\n• Total: 36 Jasskarten\n\n**Varianten des Kartensets:**\n• **Deutschschweizer Karten:** Deutschschweizer Symbole (Eicheln, Rosen, Schilten, Schellen)\n• **Französische Karten:** Internationale Symbole (Karo, Herz, Pik, Kreuz)\n\n**Qualität und Hersteller:**\nIn der Schweiz werden hochwertige Kartensets von Traditionsherstellern wie AG Müller (gehört zu Carta Mundi aus Belgien) produziert. Die meisten Jasskarten werden daher in Belgien hergestellt. Eine erfreuliche Ausnahme bildet \"Schweizer Jass\" (https://schweizerjass.ch/), die ihre Jasskarten noch in der Schweiz drucken.\n\nProfessionelle Kartensets sind aus stabilem Karton und haben eine spezielle Beschichtung für lange Haltbarkeit.\n\n**Zusätzliches Material:**\n• Schreibzeug/Kreidetafel oder Jassapps wie jassguru.ch für Punktenotierung\n• Jassteppich\n\nDas Kartenset ist in fast jedem Schweizer Haushalt zu finden und ist ein Symbol der Jasskultur.",
-    "metadata": {
-      "id": "general_materials_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Das Kartenset",
-        "topic": "Das Kartenset"
-      },
-      "keywords": [
-        "karten",
-        "jassteppich",
-        "material",
-        "ausrüstung",
-        "deutsch",
-        "französisch",
-        "farben",
-        "kartensatz"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Das Kartenset beim Jassen?",
-        "answer": "Benötigtes Material:\nFür das Jassen wird grundsätzlich nur wenig Material benötigt."
-      },
-      {
-        "question": "Was braucht man zum Jassen?",
-        "answer": "Man braucht ein Set von 36 Jasskarten und Schreibzeug zum Notieren der Punkte, optional eine Jasstafel."
-      },
-      {
-        "question": "Kann man auch digital jassen?",
-        "answer": "Ja, es gibt zahlreiche Jass-Apps und Online-Plattformen, die Karten und Punktetafel ersetzen."
-      },
-      {
-        "question": "Welche Karten braucht man für Jass?",
-        "answer": "Man braucht 36 Karten in vier Farben, entweder mit Schweizer oder französischen Symbolen."
-      }
-    ],
-    "see_also": [
-      "expressions_kartenfarben",
-      "general_scoring_rules",
-      "jassapps_jasstafel",
-      "schreiben"
-    ]
-  },
   "general_most_important_rules": {
     "id": "general_most_important_rules",
-    "text": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels.\n\nKernregeln:\n• **Farbe bekennen:** Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt\n• **Trumpfpflicht:** Kann man die Farbe nicht bedienen, muss man Trumpf (siehe Begriff \"bodentrumpf\") spielen (falls vorhanden)\n• **Übertrumpfen:** Hat ein Mitspieler bereits mit Trumpf gestochen, muss man wenn möglich höher trumpfen (siehe Begriff \"untertrumpfen\")\n• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus\n\nAusnahmen:\nDiese Grundregeln können je nach Variante leicht variieren oder ergänzt werden. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nRegelkonformität:\nDie Einhaltung dieser Regeln ist essentiell für ein faires Spiel und wird bei Verstössen entsprechend geahndet.",
+    "text": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels.\n\nKernregeln:\n• **Farbe bekennen:** Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt.\n• **Nicht untertrumpfen:** Hat ein Mitspieler bereits einen Trumpf gespielt, muss man einen höheren Trumpf spielen. Die Ausnahme sind Hindersi-Varianten, vgl. Untertrumpfen (siehe Begriff \"untertrumpfen\").\n• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.\n\nAusnahmen:\nDiese Grundregeln können je nach Variante leicht variieren oder ergänzt werden. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nRegelkonformität:\nDie Einhaltung dieser Regeln ist essentiell für ein faires Spiel und wird bei Verstössen entsprechend geahndet.",
     "metadata": {
       "id": "general_most_important_rules_meta",
       "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Drei eiserne Regeln",
-        "topic": "Drei eiserne Regeln"
+        "main": "Regeln",
+        "sub": "Regelgrundlagen",
+        "topic": "Regelgrundlagen"
       },
       "keywords": [
         "abheben",
@@ -4464,75 +4361,22 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Drei eiserne Regeln beim Jassen?",
-        "answer": "Grundregeln:\nDiese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels."
+        "question": "Was sind die Grundregeln beim Jassen?",
+        "answer": "Drei Regeln gelten fast überall: die ausgespielte Farbe bedienen, nicht untertrumpfen (man muss höher trumpfen) und wer den Stich macht, spielt aus."
       },
       {
-        "question": "Was sind die wichtigsten Jass-Regeln?",
-        "answer": "Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt. Kann man nicht bedienen, muss man Trumpf spielen. Hat ein Mitspieler bereits gettrumpft, muss man wenn möglich höher trumpfen."
+        "question": "Muss man beim Jassen die Farbe bedienen?",
+        "answer": "Ja. Man muss die ausgespielte Farbe bedienen, sofern man sie auf der Hand hat."
       },
       {
-        "question": "Wer spielt die nächste Karte aus?",
-        "answer": "Wer den Stich macht, spielt die nächste Karte aus."
-      },
-      {
-        "question": "Gelten diese Regeln für alle Jassvarianten?",
-        "answer": "Diese Grundregeln gelten für nahezu alle Jassvarianten, können aber je nach Variante leicht variieren oder ergänzt werden."
+        "question": "Darf man beim Jassen untertrumpfen?",
+        "answer": "Bei normalen Spielen nein, man muss höher trumpfen. Die Ausnahme sind Hindersi-Varianten, dort ist Untertrumpfen erlaubt."
       }
     ],
     "see_also": [
       "bodentrumpf",
       "ausmachregel",
       "untertrumpfen"
-    ]
-  },
-  "general_orientation": {
-    "id": "general_orientation",
-    "text": "Einführung ins Jasswiki:\nDiese Plattform bietet umfassende Informationen zum Jass, von den Grundlagen bis zu fortgeschrittenen Strategien.\n\nStruktur und Navigation:\n• **Grundlagen:** Einführung in Regeln, Karten und Spielablauf (siehe Begriff \"ausspiel\")\n• **Varianten:** Übersicht über die zahlreichen Jassvarianten\n• **Taktik:** Strategien und Tipps für besseres Spiel (siehe Schieber-Taktiken)\n• **Kultur:** Geschichte und kulturelle Bedeutung des Jassens\n• **Digital:** Informationen zu Jass-Apps und Online-Plattformen\n\nZielgruppe:\nDas Jasswiki richtet sich sowohl an Anfänger, die das Spiel erlernen möchten, als auch an erfahrene Spieler, die ihr Wissen vertiefen wollen.\n\nNutzung:\nAlle Artikel sind miteinander verlinkt, sodass Sie thematisch verwandte Inhalte leicht finden können.",
-    "metadata": {
-      "id": "general_orientation_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Zentrale Begriffe",
-        "topic": "Zentrale Begriffe"
-      },
-      "keywords": [
-        "begriffe",
-        "stich",
-        "trumpf",
-        "vorhand",
-        "weis",
-        "richtung",
-        "grundlagen",
-        "orientierung"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Zentrale Begriffe beim Jassen?",
-        "answer": "Einführung ins Jasswiki:\nDiese Plattform bietet umfassende Informationen zum Jass, von den Grundlagen bis zu fortgeschrittenen Strategien."
-      },
-      {
-        "question": "Was bietet das Jasswiki?",
-        "answer": "Das Jasswiki bietet umfassende Informationen zum Jass, von Grundlagen über Varianten und Taktiken bis zu Kultur und digitalen Apps."
-      },
-      {
-        "question": "Für wen ist das Jasswiki gedacht?",
-        "answer": "Das Jasswiki richtet sich sowohl an Anfänger, die das Spiel erlernen möchten, als auch an erfahrene Spieler, die ihr Wissen vertiefen wollen."
-      },
-      {
-        "question": "Wie ist das Jasswiki strukturiert?",
-        "answer": "Es ist in Bereiche wie Grundlagen, Varianten, Taktik, Kultur und Digital unterteilt, wobei alle Artikel miteinander verlinkt sind."
-      }
-    ],
-    "see_also": [
-      "ausspiel"
     ]
   },
   "general_playing_errors": {
@@ -4853,69 +4697,6 @@
       "expressions_nell",
       "general_scoring_rules",
       "trumpf_bauer"
-    ]
-  },
-  "general_variants": {
-    "id": "general_variants",
-    "text": "Variantenvielfalt:\nDer Jass zeichnet sich durch eine bemerkenswerte Vielfalt an Spielvarianten aus.\n\nHauptkategorien:\n• **Klassische Varianten:** Schieber, Coiffeur (siehe Begriff \"variants_family_einzel_coiffeur\"), Differenzler (siehe Begriff \"variants_strategic_differenzler_verdeckt\")\n• **Strategische Varianten:** Bieter, Pandur , Molotow\n• **Spezialvarianten:** Hindersi (siehe Begriff \"expressions_hindersi\"), Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\"), Slalom\n• **Familienvarianten:** Tschau Sepp (siehe Begriff \"variants_learning_tschau_sepp\"), Guggitaler\n\nRegionale Unterschiede:\nVerschiedene Regionen haben eigene bevorzugte Varianten entwickelt, was zur Vielfalt des Spiels beiträgt.\n\nAnpassungsfähigkeit:\nDie Vielfalt ermöglicht es, den Jass an unterschiedliche Spieleranzahlen, Erfahrungsstufen und Spielstile anzupassen.",
-    "metadata": {
-      "id": "general_variants_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Vielfalt der Spielvarianten",
-        "topic": "Vielfalt der Spielvarianten"
-      },
-      "keywords": [
-        "varianten",
-        "schieber",
-        "differenzler",
-        "coiffeur",
-        "handjass",
-        "pandur",
-        "teamjass",
-        "einzeljass"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Vielfalt der Spielvarianten beim Jassen?",
-        "answer": "Variantenvielfalt:\nDer Jass zeichnet sich durch eine bemerkenswerte Vielfalt an Spielvarianten aus."
-      },
-      {
-        "question": "Welche Jassvarianten gibt es (Index)?",
-        "answer": "Klassisch: Schieber, Coiffeur, Differenzler. Strategisch: Bieter, Pandur, Molotow. Spezial: Hindersi, Obeabe, Undenufe, Slalom. Familie/Lernen: Aucho, Tschau Sepp, Guggitaler. (Siehe Detailartikel.)"
-      },
-      {
-        "question": "Was sind die beliebtesten Jass-Varianten?",
-        "answer": "Zu den klassischen und beliebtesten Varianten gehören Schieber, Coiffeur und Differenzler."
-      },
-      {
-        "question": "Welche Lern- und Familienvarianten gibt es?",
-        "answer": "Tschau Sepp, Aucho, Guggitaler. Diese Varianten eignen sich für Einstieg, Familie oder spezielle Runden."
-      },
-      {
-        "question": "Gibt es regionale Unterschiede bei Jass-Varianten?",
-        "answer": "Ja, verschiedene Regionen haben eigene bevorzugte Varianten entwickelt, was zur Vielfalt des Spiels beiträgt."
-      },
-      {
-        "question": "Liste alle Jassvarianten auf!",
-        "answer": "Klassisch: Schieber, Coiffeur, Differenzler. Strategisch: Bieter, Pandur, Molotow. Spezial: Hindersi, Obeabe, Undenufe, Slalom. Familie/Lernen: Aucho, Tschau Sepp, Guggitaler. (Siehe Detailartikel für Regeln.)"
-      }
-    ],
-    "see_also": [
-      "expressions_hindersi",
-      "expressions_obenabe",
-      "expressions_undenufe",
-      "variants_family_einzel_coiffeur",
-      "variants_learning_tschau_sepp",
-      "variants_strategic_differenzler_verdeckt",
-      "variants_strategic_pandur_drei"
     ]
   },
   "hingelegter_matsch": {
@@ -6915,55 +6696,61 @@
   },
   "schieber_taktiken_advanced": {
     "id": "schieber_taktiken_advanced",
-    "text": "Fortgeschrittene Strategien:\nDiese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten.\n\nZentrale Konzepte:\n• **Kartenzählen:** Merken, welche Karten bereits gespielt wurden, um Rückschlüsse auf verbleibende Karten zu ziehen\n• **Wahrscheinlichkeitsrechnung:** Einschätzen der Wahrscheinlichkeit bestimmter Kartenverteilungen\n• **Timing-Optimierung:** Den perfekten Moment für entscheidende Spielzüge wählen\n• **Psychologische Aspekte:** Gegner lesen und eigenes Spiel variabel gestalten\n• **Komplexe Signale:** Raffinierte Kommunikation mit dem Partner\n\nÜbung und Erfahrung:\nDiese fortgeschrittenen Techniken erfordern viel Spielpraxis und ein tiefes Verständnis der Spielmechanik (siehe Begriff \"ausspiel\").",
+    "text": "In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest dieselben Zeichen aus dem Spiel des Partners zurück.\n\nBei fortgeschrittenen Spielern gelten folgende Konventionen:\n\n## Nell vor Puur\n\nHält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.\n\nMehr dazu unter \"Nell vor Puur\" (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n## Anzeigen, wie viele Trümpfe man hält\n\nDer Partner des Vorhand-Spielers verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst \"Hoch-Tief\" (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\n- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.\n- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.\n\nDas Nell und der Puur sind davon ausgenommen.\n\n**Wieso ist das wichtig?**\n\nNichts verhindert mehr Matsche als zu viel Austrumpfen. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.\n\nEin häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Vorhand-Spieler kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.\n\nWichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.\n\n**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.\n\n## Der blutte Puur\n\nHält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss seinem Partner aber kommunizieren, dass er ihn in der Hand hält. Das macht er, indem er ein \"Brättli\" (siehe Begriff \"expressions_braettli\") spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.\n\n**Wieso ist das wichtig?**\n\nDa für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn das dem Trumpfansager mit einem Brättli kommuniziert wurde.\n\n## Nachschmeissen\n\nBei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.\n\n**Wieso ist das wichtig?**\n\nIm ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand (siehe Begriff \"expressions_wand\") durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.\n\nMehr dazu unter \"Nachschmeissen\" (siehe Begriff \"expressions_nachschmeissen\").\n\n## Verwerfen beim Slalom\n\nBeim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst, er möchte tief übergeben bekommen, eine hohe Karte heisst hoch.\n\n**Wieso ist das wichtig?**\n\nBeim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Dass tief für tief steht, hat einen praktischen Grund: So merkt man es sich, genau so, wie die Karte gespielt wurde. Mit der verworfenen Farbe macht man ohnehin keinen Stich. Kein Grund also, umgekehrt zu denken.\n\nDie Einzelheiten stehen unter \"Verwerfen beim Slalom\" (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
     "metadata": {
       "id": "schieber_taktiken_advanced_meta",
       "category": {
         "main": "Taktiken und Strategien",
-        "sub": "Fortgeschrittene Strategien",
-        "topic": "Fortgeschrittene Taktiken"
+        "sub": "Kommunikation & Signale",
+        "topic": "Kommunikation & Signale"
       },
       "keywords": [
-        "querverwerfen",
-        "kreuzschnitt",
-        "trumpfen",
-        "matsch",
-        "technik",
-        "fortgeschritten",
-        "taktik",
-        "strategie",
-        "spezial",
-        "experte",
-        "profi",
-        "meister"
+        "jass-taktik",
+        "schieber taktik",
+        "taktiken beim jassen",
+        "partner signale",
+        "nell vor puur",
+        "hoch-tief",
+        "nachschmeissen",
+        "verwerfen slalom",
+        "blutter puur",
+        "jass konventionen"
       ],
       "situations": [
         "LEARNING"
       ],
-      "importance": 0.9,
-      "difficulty": 2,
+      "importance": 0.95,
+      "difficulty": 3,
       "taxonomy_tier": 2
     },
     "faqs": [
       {
-        "question": "Wie wendet man Fortgeschrittene Taktiken beim Jassen an?",
-        "answer": "Fortgeschrittene Strategien:\nDiese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten."
+        "question": "Was bedeutet Nell vor Puur?",
+        "answer": "Wer Puur und Nell hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann, dass der Nell-Spieler auch den Puur hat."
       },
       {
-        "question": "Was sind fortgeschrittene Jass-Taktiken?",
-        "answer": "Fortgeschrittene Taktiken umfassen Kartenzählen, Wahrscheinlichkeitsrechnung, Timing-Optimierung, psychologische Aspekte und komplexe Signale mit dem Partner."
+        "question": "Wie zeigt man dem Partner, wie viele Trümpfe man hält?",
+        "answer": "Über die Reihenfolge: Mit genau zwei Trümpfen spielt man zuerst den höheren, mit drei oder mehr zuerst den tiefsten. Das Nell und der Puur sind davon ausgenommen."
       },
       {
-        "question": "Für wen sind diese Taktiken geeignet?",
-        "answer": "Diese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten."
+        "question": "Was ist Nachschmeissen?",
+        "answer": "Bei Obenabe, Undenufe, Quer, Slalom und Trio wirft der Partner im ersten Stich auf ein Ass den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ausspieler seine Wand durchspielen kann."
       },
       {
-        "question": "Was braucht man für fortgeschrittene Taktiken?",
-        "answer": "Man braucht viel Spielpraxis und ein tiefes Verständnis der Spielmechanik."
+        "question": "Wie verwirft man beim Slalom?",
+        "answer": "Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst tief, eine hohe Karte heisst hoch."
+      },
+      {
+        "question": "Wie signalisiert man den blutten Puur?",
+        "answer": "Man spielt den blutten Puur meist nicht, signalisiert ihn aber mit einem Brättli (Sechser bis Neuner). Ohne Trumpf spielt man kein Brättli."
       }
     ],
     "see_also": [
-      "ausspiel"
+      "schieber_taktiken_hoch_tief",
+      "expressions_nachschmeissen",
+      "schieber_taktiken_verwerfen_slalom",
+      "expressions_braettli",
+      "expressions_nell"
     ]
   },
   "schieber_taktiken_anziehen": {
@@ -7087,7 +6874,7 @@
   },
   "schieber_taktiken_hoch_tief": {
     "id": "schieber_taktiken_hoch_tief",
-    "text": "Hoch - tief / Tif - hoch - tief\n\nDie Konvention \"Hoch - tief\" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt. Diese Konvention bezieht sich stets auf jenen Spieler, der nicht Trumpf angesagt hat. Ihr Ziel ist es, eine Entscheidungsgrundlage zu schaffen, ob nochmals ausgetrumpft werden soll oder nicht.\n\nDiese Konvention wird sowohl beim Vorhandspiel als auch beim Geschobenen angewendet.\n\nPraktische Beispiele:\n\nBeispiel 1: Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe.\n\nStich 1: Der Vorhand-Spieler spielt das Nell aus. Sein Partner wirft den Sechser zu. Beide Gegner geben Trumpf an. In dieser Situation kann davon ausgegangen werden, dass der Partner noch die restlichen zwei Trümpfe hält. Das bedeutet: Nicht mehr austrumpfen!\n\nBeispiel 2: Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe.\n\nStich 1: Der Vorhand-Spieler spielt das Nell aus. Sein Partner wirft das Ass zu. Nur ein Gegner gibt Trumpf zu. Nun ist klar, dass der Partner höchstens zwei Trümpfe besitzt und weitere Trümpfe beim einen Gegner liegen müssen. Das bedeutet: Unbedingt weiter austrumpfen!\n\nVorhand-Spiel\n\nHat der Partner vom vorhand spielenden Spieler zwei Trumpfkarten in der Hand, dann spielt er beim ersten Stich zuerst seine hohe Karte. Hält er beispielsweise Ass und Achter, dann spielt er mit dem Ass aus.\n\nHat der Partner vom vorhand spielenden Spieler drei oder mehr Trumpfkarten im Blatt, dann spielt er zuerst seine tiefste. Hat er also beispielsweise Sechser, Banner und Ober, dann spielt er zuerst den Sechser aus. Keine Schlaumereien und zuerst das Banner spielen!\n\nWichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell. Hat der Partner des vorhand spielenden Spielers nur eine einzige Trumpfkarte in der Hand, dann spielt er diese selbstverständlich aus.\n\nGeschoben\n\nEin Spieler hat geschoben und der Partner sagt Trumpf an, dann spielt dieser wie folgt aus:\n\nHält er zwei Trumpfkarten in der Hand, dann spielt er beim ersten Stich zuerst seine hohe Karte. Hält er beispielsweise Ass und Achter, dann spielt er mit dem Ass aus.\n\nHält derselbe Spieler drei oder mehr Trumpfkarten im Blatt, dann spielt er zuerst seine tiefste aus. Hat er also beispielsweise Sechser, Banner und Ober, dann spielt er zuerst den Sechser. Von Schlaumeiereien, wie hier zuerst das Banner zu spielen und erst nachher den Ober, ist strikt abzuraten, weil der Vorhand-Spieler nur mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann, wenn er den Sechser gesehen hat.\n\nWichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell. Hat der Partner des vorhand spielenden Spielers nur eine Trumpfkarte in der Hand, dann spielt er diese selbstverständlich aus.",
+    "text": "Die Konvention \"Hoch - tief\" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt. Diese Konvention bezieht sich stets auf den Partner des Spielers, der ansagt, und zwar unabhängig davon, ob zuvor geschoben wurde oder nicht.\n\nDas Ziel ist, eine Entscheidungsgrundlage zu schaffen, ob nochmals ausgetrumpft werden soll oder nicht.\n\n## Hoch - tief bei zwei Trümpfen\n\nHat der Partner vom trumpfansagenden Spieler **zwei Trümpfe** in der Hand, dann spielt er beim ersten Stich zuerst seine **hohe Karte**. Beispiel: Hat er das Ass und den Achter, dann spielt er **zuerst** das Ass.\n\n## Tief - hoch bei drei und mehr Trümpfen\n\nHat der Partner vom Trumpfansager drei oder mehr Trümpfe, dann spielt er zuerst seinen **tiefsten Trumpf**. Beispiel: Hat er den Sechser, das Banner und den Ober, dann spielt er **zuerst den Sechser**! Auf keinen Fall darf das Banner gespielt werden, auch wenn der Zählwert höher ist.\n\nDie zuerst gespielte Karte muss **zwingend die tiefste** sein. Die zweite Karte hingegen muss nicht die höchste sein. Die Information, dass die zweite Karte höher ist, reicht für die Erkenntnis, dass der Partner drei oder noch mehr Trümpfe hat.\n\n**Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell.** Vergleiche dazu auch den Artikel zur [Signalsprache zwischen Partnern](/taktiken-und-strategien/kommunikation-signale/).\n\n## Praktische Beispiele\n\n**Beispiel 1:** Spieler 1 sagt in der Vorhand Trumpf an und hat Puur, Nell sowie zwei weitere Trümpfe. Er spielt gemäss Konvention das Nell aus. Sein Partner spielt den Sechser, während beide Gegner Trumpf angeben. Es bleiben nur zwei Möglichkeiten: Entweder hat der Partner den Sechser blutt (Pech), oder er hält die restlichen zwei Trümpfe. Das bedeutet: Auf keinen Fall ein zweites Mal austrumpfen!\n\n**Beispiel 2:** Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe. Der Vorhand-Spieler spielt das Nell aus. Sein Partner spielt den König. Nur ein Gegner gibt Trumpf zu. Nun ist klar: Der Partner hat höchstens zwei Trümpfe, alle weiteren sind beim Gegner. Das bedeutet: Unbedingt weiter austrumpfen!",
     "metadata": {
       "id": "schieber_taktiken_hoch_tief_meta",
       "category": {
@@ -7117,7 +6904,7 @@
     "faqs": [
       {
         "question": "Wie wendet man Hoch - tief / Tief - hoch - tief beim Jassen an?",
-        "answer": "Hoch - tief / Tif - hoch - tief\n\nDie Konvention \"Hoch - tief\" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt."
+        "answer": "Der Partner des Trumpf-Ansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält: bei genau zwei Trümpfen spielt er im ersten Stich zuerst die hohe Karte, bei drei oder mehr Trümpfen zuerst den tiefsten Trumpf. Puur und Nell sind von dieser Konvention ausgenommen."
       },
       {
         "question": "Wann spielt man hoch und wann tief?",
@@ -7206,7 +6993,7 @@
   },
   "schieber_taktiken_querverwerfen": {
     "id": "schieber_taktiken_querverwerfen",
-    "text": "Definition:\nDas Querverwerfen ist eine spezielle Taktik, bei der man absichtlich eine Karte einer anderen Farbe (siehe Begriff \"expressions_kartenfarben\") abwirft als erwartet.\n\nTaktischer Zweck:\n• **Signal an Partner:** Zeigt dem Partner besondere Informationen über die eigene Hand\n• **Irreführung:** Kann Gegner verwirren oder in die Irre führen\n• **Strategische Kommunikation:** Übermittelt komplexe Botschaften über Kartenstärken\n\nAnwendung:\nDas Querverwerfen ist eine fortgeschrittene Technik, die ein gutes Verständnis der Konventionen und Spielsituation erfordert.\n\nRisiko:\nFalsches Querverwerfen kann den Partner verwirren und sollte daher nur bei klaren Absprachen verwendet werden.",
+    "text": "Das Querverwerfen ist eine spezielle Taktik, bei der die Partner abmachen, eine bestimmte Farbe zu verwerfen, um damit die Stärke bei einer anderen Farbe zu signalisieren.\n\nBeispiel: Verwirft ein Partner zuerst [Rosen](/begriffe/kartenbezeichnungen/rosen/), zeigt er damit an, dass er [Eichel](/begriffe/kartenbezeichnungen/eichel/) sucht.\n\nDer Vorteil dieser Taktik ist, dass früh im Spiel die starke Farbe kommuniziert werden kann. Der Nachteil ist, dass je nachdem die **zweitstärkste Farbe verworfen werden muss**, um die abgemachte Konvention einzuhalten.\n\nIn der Regel wird aufgrund vom [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) (und [Anziehen](/taktiken-und-strategien/kommunikation-signale/anziehen/)) der einzelnen Spieler sowieso klar, bei welchen Spielern die Böcke der entsprechenden Farben liegen, ohne dass diese Taktik angewendet werden müsste. Die Vertreter der Querverwerfen-Konvention sind daher in der Minderheit.",
     "metadata": {
       "id": "schieber_taktiken_querverwerfen_meta",
       "category": {
@@ -7236,15 +7023,15 @@
     "faqs": [
       {
         "question": "Was ist Querverwerfen beim Jassen?",
-        "answer": "Querverwerfen ist eine spezielle Taktik, bei der man absichtlich eine Karte einer anderen Farbe abwirft als erwartet."
+        "answer": "Eine Taktik, bei der Partner abmachen, eine bestimmte Farbe zu verwerfen, um damit Stärke in einer anderen Farbe anzuzeigen. Verwirft jemand zuerst Rosen, sucht er Eichel."
       },
       {
-        "question": "Wozu dient Querverwerfen?",
-        "answer": "Es dient als Signal an den Partner für besondere Informationen, kann Gegner verwirren und übermittelt komplexe Botschaften über Kartenstärken."
+        "question": "Was ist der Nachteil vom Querverwerfen?",
+        "answer": "Man muss unter Umständen die zweitstärkste Farbe abwerfen, nur um die abgemachte Konvention einzuhalten. Das kann das eigene Spiel schwächen."
       },
       {
-        "question": "Ist Querverwerfen schwierig?",
-        "answer": "Ja, es ist eine fortgeschrittene Technik, die ein gutes Verständnis der Konventionen erfordert. Falsches Querverwerfen kann den Partner verwirren."
+        "question": "Lohnt sich Querverwerfen?",
+        "answer": "Selten. Aus dem normalen Verwerfen und Anziehen der Spieler wird ohnehin meist klar, wo die Böcke liegen. Die Konvention hat daher wenige Anhänger."
       }
     ],
     "see_also": [
@@ -7312,115 +7099,6 @@
       "kontermatsch"
     ]
   },
-  "schieber_taktiken_special": {
-    "id": "schieber_taktiken_special",
-    "text": "Spezielle Spielsituationen:\nEs gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern.\n\nSpezialszenarien:\n• **Matsch-Situationen:** Wenn ein Team droht, alle Stiche zu verlieren oder zu gewinnen\n• **Kritische Match-Punkte:** Wenn man kurz vor dem Sieg oder der Niederlage steht\n• **Ungewöhnliche Kartenverteilungen:** Extrem starke oder schwache Hände\n• **Weis-Dominanz:** Wenn Weis-Punkte (siehe Begriff \"expressions_weis\") eine entscheidende Rolle spielen\n\nAnpassungsfähigkeit:\nIn diesen Situationen müssen Standard-Taktiken an die besonderen Umstände angepasst werden.\n\nErfahrung:\nDas Erkennen und richtige Reagieren auf Spezialsituationen kommt mit zunehmender Spielerfahrung.",
-    "metadata": {
-      "id": "schieber_taktiken_special_meta",
-      "category": {
-        "main": "Taktiken und Strategien",
-        "sub": "Fortgeschrittene Strategien",
-        "topic": "Spezielle Taktiken"
-      },
-      "keywords": [
-        "querverwerfen",
-        "kreuzschnitt",
-        "trumpfen",
-        "matsch",
-        "technik",
-        "fortgeschritten",
-        "taktik",
-        "strategie",
-        "spezial",
-        "experte",
-        "profi",
-        "meister"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 2
-    },
-    "faqs": [
-      {
-        "question": "Wie wendet man Spezielle Taktiken beim Jassen an?",
-        "answer": "Spezielle Spielsituationen:\nEs gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern."
-      },
-      {
-        "question": "Was sind spezielle Spielsituationen beim Schieber?",
-        "answer": "Spezielle Situationen umfassen Matsch-Situationen, kritische Match-Punkte, ungewöhnliche Kartenverteilungen und Weis-Dominanz."
-      },
-      {
-        "question": "Wie geht man mit Spezialsituationen um?",
-        "answer": "Man muss Standard-Taktiken an die besonderen Umstände anpassen und flexibel reagieren."
-      },
-      {
-        "question": "Wie lernt man, Spezialsituationen zu erkennen?",
-        "answer": "Das Erkennen und richtige Reagieren auf Spezialsituationen kommt mit zunehmender Spielerfahrung."
-      }
-    ],
-    "see_also": [
-      "ausmachregel",
-      "expressions_weis",
-      "matsch"
-    ]
-  },
-  "schieber_taktiken_trump": {
-    "id": "schieber_taktiken_trump",
-    "text": "Trumpfstrategie:\nDie richtige Wahl und Verwaltung des Trumpfs (siehe Begriff \"bodentrumpf\") ist entscheidend für den Erfolg beim Schieber.\n\nTrumpf-Wahl:\n• **Kartenstärke:** Die eigene Trumpfstärke einschätzen - wie viele hohe Trumpfkarten (siehe Begriff \"bodentrumpf\") besitzt man?\n• **Farbverteilung:** Berücksichtigen der Länge und Stärke anderer Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Weis-Potential:** Einbeziehen möglicher Weis-Punkte (siehe Begriff \"expressions_weis\")\n• **Partnerhand:** Einschätzen, was der Partner haben könnte\n\nTrumpfverwaltung:\n• **Timing:** Wann setzt man Trumpf (siehe Begriff \"bodentrumpf\") ein - früh oder spät?\n• **Anziehen (siehe Begriff \"expressions_anziehen\"):** Gegnerische Trumpfkarten gezielt entfernen\n• **Trumpfsparen:** Trumpf für entscheidende Momente aufbewahren\n\nSonderfälle:\nBei Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gelten besondere strategische Überlegungen.",
-    "metadata": {
-      "id": "schieber_taktiken_trump_meta",
-      "category": {
-        "main": "Taktiken und Strategien",
-        "sub": "Kommunikation & Signale",
-        "topic": "Trumpfansagen"
-      },
-      "keywords": [
-        "trumpf",
-        "bauer",
-        "nell",
-        "ansage",
-        "vorhand",
-        "nachhand",
-        "partner",
-        "kommunikation"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 1,
-      "taxonomy_tier": 2
-    },
-    "faqs": [
-      {
-        "question": "Wie wendet man Trumpfansagen beim Jassen an?",
-        "answer": "Trumpfstrategie:\nDie richtige Wahl und Verwaltung des Trumpfs (siehe Begriff \"bodentrumpf\") ist entscheidend für den Erfolg beim Schieber."
-      },
-      {
-        "question": "Was ist wichtig bei der Trumpf-Wahl?",
-        "answer": "Man sollte die eigene Trumpfstärke, Farbverteilung, Weis-Potential und die mögliche Partnerhand einschätzen."
-      },
-      {
-        "question": "Wann sollte man Trumpf spielen?",
-        "answer": "Das Timing ist entscheidend - ob man früh oder spät Trumpf einsetzt, hängt von der Spielsituation ab. Man kann auch gegnerische Trumpfkarten durch Anziehen entfernen."
-      },
-      {
-        "question": "Gibt es Besonderheiten bei Obenabe und Undenufe?",
-        "answer": "Ja, bei Obenabe und Undenufe gelten besondere strategische Überlegungen, da es keinen klassischen Trumpf gibt."
-      }
-    ],
-    "see_also": [
-      "bodentrumpf",
-      "expressions_anziehen",
-      "expressions_kartenfarben",
-      "expressions_obenabe",
-      "expressions_undenufe",
-      "expressions_weis"
-    ]
-  },
   "schieber_taktiken_verwerfen": {
     "id": "schieber_taktiken_verwerfen",
     "text": "Definition:\nDas Verwerfen ist eine grundlegende Taktik, bei der man Karten aus schwachen Farben (siehe Begriff \"expressions_kartenfarben\") zu einem Stich beigibt.\n\nStrategische Aspekte:\n• **Kommunikation:** Signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt\n• **Kartenverwaltung:** Befreit die Hand von unnötigen Karten\n• **Prioritäten:** Entscheidung, welche Farbe man als erstes «leerspielt»\n\nIntelligentes Verwerfen:\n• **Reihenfolge:** Die Reihenfolge der verworfenen Karten kann zusätzliche Informationen vermitteln\n• **Timing:** Wann man welche Karte verwirft, ist strategisch bedeutsam\n• **Querverwerfen (siehe Begriff \"schieber_taktiken_querverwerfen\"):** Spezielle Technik für fortgeschrittene Spieler\n\nKoordination:\nDas Verwerfen sollte im Einklang mit den Konventionen der Spielgruppe erfolgen, um Missverständnisse zu vermeiden.",
@@ -7474,13 +7152,13 @@
   },
   "schieber_taktiken_verwerfen_quer": {
     "id": "schieber_taktiken_verwerfen_quer",
-    "text": "Grundkonzept:\nBeim Quer (auch Guschti genannt) gelten spezielle Konventionen für das Verwerfen.\n\nVerwerfen bei Quer/Guschti:\nBeim Quer wird davon ausgegangen, dass der ansagende Spieler (sofern er Vorhand macht), seine ersten Stiche von Obe oder Unde durchspielen kann.\n\nKonventionen:\n• Beginnt der Vorhand-Spieler Obe, verwirft der Partner hohe Karten, um Unde ins Spiel eingreifen zu können\n• Beginnt der Vorhand-Spieler Unde, verwirft der Partner tiefe Karten, um dann Obe ins Spiel eingreifen zu können",
+    "text": "Grundkonzept:\nBeim Quer gelten spezielle Konventionen für das Verwerfen.\n\nVerwerfen bei Quer:\nBeim Quer wird davon ausgegangen, dass der ansagende Spieler (sofern er Vorhand macht), seine ersten Stiche von Obe oder Unde durchspielen kann.\n\nKonventionen:\n• Beginnt der Vorhand-Spieler Obe, verwirft der Partner hohe Karten, um Unde ins Spiel eingreifen zu können\n• Beginnt der Vorhand-Spieler Unde, verwirft der Partner tiefe Karten, um dann Obe ins Spiel eingreifen zu können",
     "metadata": {
       "id": "schieber_taktiken_verwerfen_quer_meta",
       "category": {
         "main": "Taktiken und Strategien",
         "sub": "Kommunikation & Signale",
-        "topic": "Verwerfen bei Quer/Guschti"
+        "topic": "Verwerfen bei Quer"
       },
       "keywords": [
         "verwerfen",
@@ -7502,12 +7180,12 @@
     },
     "faqs": [
       {
-        "question": "Wie wendet man Verwerfen bei Quer/Guschti beim Jassen an?",
-        "answer": "Grundkonzept:\nBeim Quer (auch Guschti genannt) gelten spezielle Konventionen für das Verwerfen."
+        "question": "Wie verwirft man bei Quer richtig?",
+        "answer": "Beim Quer gelten spezielle Konventionen für das Verwerfen."
       },
       {
-        "question": "Was bedeutet Verwerfen bei Quer/Guschti?",
-        "answer": "Bei Quer (Guschti) verwirft man Karten, um dem Partner zu signalisieren welche Farben man nicht braucht."
+        "question": "Was bedeutet Verwerfen bei Quer?",
+        "answer": "Beim Quer verwirft man Karten, um dem Partner zu signalisieren, welche Farben man nicht braucht."
       },
       {
         "question": "Welche Karten sollte man bei Quer verwerfen?",
@@ -7515,7 +7193,7 @@
       },
       {
         "question": "Was ist der Unterschied zum normalen Verwerfen?",
-        "answer": "Bei Quer/Guschti gelten spezielle Punktewerte, daher muss man anders abwägen welche Karten wertvoll sind."
+        "answer": "Beim Quer gelten je nach Variante andere Punktewerte, daher muss man anders abwägen, welche Karten wertvoll sind."
       }
     ],
     "see_also": [
@@ -8144,7 +7822,7 @@
   },
   "untertrumpfen": {
     "id": "untertrumpfen",
-    "text": "Definition:\n• Untertrumpfen bedeutet, einen niedrigeren Trumpf (siehe Begriff \"bodentrumpf\") zu spielen als ein vorangegangener höherer Trumpf\n\nRegel:\n• Bei Jassarten die \"vorwärts\" gehen (also möglichst viele Punkte erzielt werden müssen) darf nur untertrumpft werden, wenn ein Spieler nur noch Trumpfkarten besitzt\n• Beispiele: Schieber, Kreuzjass, Handjass, Zuger, Bieter\n\nRegel bei Hindersi-Spielen:\n• Bei Jassarten die \"hindersi\" gehen (siehe Begriff \"expressions_hindersi\") (also Stiche vermieden werden), ist Untertrumpfen auch dann erlaubt, wenn man ausgespielte Farbe nicht farben kann\n• Beispiele: Differenzler, Misère, Hindersi-Jass, Molotow, Mittlere",
+    "text": "Definition:\nUntertrumpfen bedeutet, einen niedrigeren Trumpf zu spielen als ein vorangegangener höherer Trumpf.\n\nRegel:\nBei Jassarten, die «vorwärts» gehen (also möglichst viele Punkte erzielt werden müssen), darf nur untertrumpft werden, wenn ein Spieler nur noch Trumpfkarten besitzt.\nBeispiele: Schieber, Kreuzjass, Handjass, Zuger, Bieter.\n\nRegel bei Hindersi-Spielen:\nBei Jassarten, die «hindersi» gehen (also Stiche vermieden werden), ist Untertrumpfen auch dann erlaubt, wenn man eine ausgespielte Farbe nicht bedienen kann.\nBeispiele: Differenzler, Misère, Hindersi-Jass, Molotow, Mittlere.",
     "metadata": {
       "id": "untertrumpfen_meta",
       "category": {
@@ -8169,24 +7847,16 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Untertrumpfen?",
-        "answer": "Untertrumpfen bedeutet, einen niedrigeren Trumpf zu spielen als ein vorangegangener höherer Trumpf."
+        "question": "Was bedeutet Untertrumpfen beim Jassen?",
+        "answer": "Untertrumpfen heisst, einen niedrigeren Trumpf zu spielen als ein bereits gespielter höherer Trumpf."
       },
       {
-        "question": "Wann darf man bei vorwärts-Spielen untertrumpfen?",
-        "answer": "Bei Jassarten die \"vorwärts\" gehen (also möglichst viele Punkte erzielt werden müssen) darf nur untertrumpft werden, wenn ein Spieler nur noch Trumpfkarten besitzt."
+        "question": "Wann darf man untertrumpfen?",
+        "answer": "Bei Vorwärts-Spielen (z.B. Schieber) nur, wenn man nur noch Trümpfe hat. Bei Hindersi-Spielen (z.B. Differenzler, Misère) auch dann, wenn man die ausgespielte Farbe nicht bedienen kann."
       },
       {
-        "question": "Was sind Beispiele für vorwärts-Spiele?",
-        "answer": "Beispiele für vorwärts-Spiele sind Schieber, Kreuzjass, Handjass, Zuger, Bieter."
-      },
-      {
-        "question": "Wann darf man bei Hindersi-Spielen untertrumpfen?",
-        "answer": "Bei Jassarten die \"hindersi\" gehen (also Stiche vermieden werden), ist Untertrumpfen auch dann erlaubt, wenn man ausgespielte Farbe nicht farben kann."
-      },
-      {
-        "question": "Was sind Beispiele für Hindersi-Spiele?",
-        "answer": "Beispiele für Hindersi-Spiele sind Differenzler, Misère, Hindersi-Jass, Molotow, Mittlere."
+        "question": "Bei welchen Jassarten ist Untertrumpfen erlaubt?",
+        "answer": "Besonders bei Hindersi-Spielen wie Differenzler, Misère, Hindersi-Jass, Molotow und Mittlere, wo es darum geht, möglichst wenige Punkte zu machen."
       }
     ],
     "see_also": [
@@ -8268,7 +7938,7 @@
   },
   "variants_family_einzel_coiffeur": {
     "id": "variants_family_einzel_coiffeur",
-    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilten (siehe Begriff \"expressions_kartenfarben\") (Ecken (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_kartenfarben\") (Kreuz (siehe Begriff \"weis_rules_kreuzweis\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_kartenfarben\") (Schaufel (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_kartenfarben\") (Herz (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Keine Partner-Absprachen möglich\n• Individuelle Punktwertung \n• Direkter Vergleich zwischen allen Spielern\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
+    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilten (siehe Begriff \"expressions_kartenfarben\") (Schaufel (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_kartenfarben\") (Herz (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_kartenfarben\") (Kreuz (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_kartenfarben\") (Ecke (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Keine Partner-Absprachen möglich\n• Individuelle Punktwertung \n• Direkter Vergleich zwischen allen Spielern\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
     "metadata": {
       "id": "variants_family_einzel_coiffeur_meta",
       "category": {
@@ -8388,7 +8058,7 @@
   },
   "variants_family_guggitaler": {
     "id": "variants_family_guggitaler",
-    "text": "Definition:\nDer Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.\n\nSpiel geben:\n• Bei drei Spielern: Ein beliebiger Schreiber verteilt je zwölf Karten in drei Runden zu je vier Karten\n• Bei vier Spielern: Je neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n\nSpielablauf:\n• Der Guggitaler wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n• Weispunkte (siehe Begriff \"expressions_weis\") und die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\") zählen nicht\n• Bei insgesamt fünf Spielen pro Partie (siehe Begriff \"expressions_partie\") gilt für jedes Spiel ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche zu machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellenkarten (siehe Begriff \"expressions_kartenfarben\") (Herzkarten (siehe Begriff \"expressions_kartenfarben\")) zu machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) zu machen (4 Punkte pro Ober/Dame)\n• Viertes Spiel: den Rosen (siehe Begriff \"expressions_kartenfarben\")-König (Kreuz (siehe Begriff \"weis_rules_kreuzweis\")-König) nicht zu machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht zu machen (10 Punkte)\n\nMit Karten-Domino - Gutschriften:\n• 1. Rang: minus 30 Punkte (bei drei Spielern) / minus 25 Punkte (bei vier Spielern)\n• 2. Rang: minus 20 Punkte / minus 16 Punkte\n• 3. Rang: minus 14 Punkte / minus 12 Punkte\n• 4. Rang: minus 8 Punkte (nur bei vier Spielern)\n\nOhne Karten-Domino - Zusätzliche Spiele:\n• Sechstes Spiel: möglichst viele Stiche zu machen\n• Siebentes Spiel: möglichst viele Schellenkarten (Herzkarten) zu machen\n• Achtes Spiel: möglichst viele Ober (Damen) zu machen\n• Neuntes Spiel: der Stich mit dem Rosen-König (Kreuz-König) zu machen\n• Zehntes Spiel: der letzte Stich zu machen",
+    "text": "Definition:\nDer Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.\n\nSpiel geben:\n• Bei drei Spielern: Ein beliebiger Schreiber verteilt je zwölf Karten in drei Runden zu je vier Karten\n• Bei vier Spielern: Je neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n\nSpielablauf:\n• Der Guggitaler wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n• Weispunkte (siehe Begriff \"expressions_weis\") und die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\") zählen nicht\n• Bei insgesamt fünf Spielen pro Partie (siehe Begriff \"expressions_partie\") gilt für jedes Spiel ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche zu machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellenkarten (siehe Begriff \"expressions_kartenfarben\") (Karokarten (siehe Begriff\"expressions_kartenfarben\")) zu machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) zu machen (4 Punkte pro Ober/Dame)\n• Viertes Spiel: den Rosen (siehe Begriff \"expressions_kartenfarben\")-König (Herz (siehe Begriff \"expressions_herz\")-König) nicht zu machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht zu machen (10 Punkte)\n\nMit Karten-Domino - Gutschriften:\n• 1. Rang: minus 30 Punkte (bei drei Spielern) / minus 25 Punkte (bei vier Spielern)\n• 2. Rang: minus 20 Punkte / minus 16 Punkte\n• 3. Rang: minus 14 Punkte / minus 12 Punkte\n• 4. Rang: minus 8 Punkte (nur bei vier Spielern)\n\nOhne Karten-Domino - Zusätzliche Spiele:\n• Sechstes Spiel: möglichst viele Stiche zu machen\n• Siebentes Spiel: möglichst viele Schellenkarten (Karokarten) zu machen\n• Achtes Spiel: möglichst viele Ober (Damen) zu machen\n• Neuntes Spiel: der Stich mit dem Rosen-König (Herz-König) zu machen\n• Zehntes Spiel: der letzte Stich zu machen",
     "metadata": {
       "id": "variants_family_guggitaler_meta",
       "category": {
@@ -8439,7 +8109,7 @@
       },
       {
         "question": "Was passiert, wenn man den Rosen-König im Stich erhält?",
-        "answer": "Beim vierten Spiel bringt der Rosen-König (Kreuz-König) 8 Punkte ein, was vermieden werden soll."
+        "answer": "Beim vierten Spiel bringt der Rosen-König (Herz-König) 8 Punkte ein, was vermieden werden soll."
       }
     ],
     "see_also": [
@@ -8652,7 +8322,7 @@
   },
   "variants_multi_player_ramset": {
     "id": "variants_multi_player_ramset",
-    "text": "Definition:\nBeim Ramset für 2 bis 6 Spieler geht es in einigen Landesgegenden nicht nur ums Jassen, sondern wortwörtlich auch um die Wurst. Nach alter Tradition wird in der Altjahrswoche in den Landbeizen um Würste gespielt.\n\nKartenspiel und Geben:\n• Gespielt wird mit 32 Karten (ohne Sechser)\n• Jeder Spieler erhält 5 Karten\n• Bei 5 und weniger Spielern wird mit einem «Blinden (siehe Begriff \"expressions_blinder\")» gespielt\n• Die oberste Karte des Stocks (siehe Begriff \"expressions_stapel\") zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nStechwerte:\n• Der stechhöchste Trumpf (siehe Begriff \"bodentrumpf\") ist das Ass\n• Der «Belli (siehe Begriff \"expressions_belli\")» (Schellen (siehe Begriff \"expressions_kartenfarben\")-Siebener/Ecken (siehe Begriff \"expressions_kartenfarben\")-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte\n• Danach folgen König, Ober (Dame), Under  (Bube ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")), Neuner, Achter und Siebner der jeweiligen Trumpffarbe\n\nSpielentscheidung:\n• Jeder Spieler muss sich vor Spielbeginn entscheiden, ob er mitspielen will oder nicht\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann als Erster den «Blinden» gegen sein eigenes Blatt tauschen\n• Der Spielgeber kann die aufgedeckte Trumpfkarte rauben (siehe Begriff \"expressions_rauben\")\n\nSpielregeln:\n• Falls Vorhand das Trumpf-Ass hat, muss er mit dieser Karte beginnen\n• Beim Ramset gilt «Leihhalten» oder Trumpf: Solange «Leih» gehalten werden kann, darf nicht mit Trumpf gestochen werden\n\nBewertung:\n• Beim Ramset zählen nicht die Punkte, sondern die Anzahl Stiche \n• Jedem Spieler wird pro Stich 1 Strich (siehe Begriff \"schreiben\") notiert\n• Wer mitspielt und keinen Stich macht, erhält einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")»",
+    "text": "Definition:\nBeim Ramset für 2 bis 6 Spieler geht es in einigen Landesgegenden nicht nur ums Jassen, sondern wortwörtlich auch um die Wurst. Nach alter Tradition wird in der Altjahrswoche in den Landbeizen um Würste gespielt.\n\nKartenspiel und Geben:\n• Gespielt wird mit 32 Karten (ohne Sechser)\n• Jeder Spieler erhält 5 Karten\n• Bei 5 und weniger Spielern wird mit einem «Blinden (siehe Begriff \"expressions_blinder\")» gespielt\n• Die oberste Karte des Stocks (siehe Begriff \"expressions_stapel\") zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nStechwerte:\n• Der stechhöchste Trumpf (siehe Begriff \"bodentrumpf\") ist das Ass\n• Der «Belli (siehe Begriff \"expressions_belli\")» (Schellen (siehe Begriff \"expressions_kartenfarben\")-Siebener/Ecken (siehe Begriff\"expressions_kartenfarben\")-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte\n• Danach folgen König, Ober (Dame), Under  (Bube ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")), Neuner, Achter und Siebner der jeweiligen Trumpffarbe\n\nSpielentscheidung:\n• Jeder Spieler muss sich vor Spielbeginn entscheiden, ob er mitspielen will oder nicht\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann als Erster den «Blinden» gegen sein eigenes Blatt tauschen\n• Der Spielgeber kann die aufgedeckte Trumpfkarte rauben (siehe Begriff \"expressions_rauben\")\n\nSpielregeln:\n• Falls Vorhand das Trumpf-Ass hat, muss er mit dieser Karte beginnen\n• Beim Ramset gilt «Leihhalten» oder Trumpf: Solange «Leih» gehalten werden kann, darf nicht mit Trumpf gestochen werden\n\nBewertung:\n• Beim Ramset zählen nicht die Punkte, sondern die Anzahl Stiche \n• Jedem Spieler wird pro Stich 1 Strich (siehe Begriff \"schreiben\") notiert\n• Wer mitspielt und keinen Stich macht, erhält einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")»",
     "metadata": {
       "id": "variants_multi_player_ramset_meta",
       "category": {
@@ -8906,7 +8576,6 @@
       "expressions_handkarten",
       "abheben",
       "variants_learning_tschau_sepp",
-      "general_variants",
       "expressions_partie"
     ]
   },
@@ -9598,7 +9267,7 @@
   },
   "variants_strategic_bieter_fuenf": {
     "id": "variants_strategic_bieter_fuenf",
-    "text": "Definition:\nBeim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei (siehe Begriff \"expressions_bauernpartei\") bilden.\n\nSpiel geben:\n• Nachdem der Eichel-Siebener (Schaufel-Siebener) aus dem Spiel entfernt wurde, teilt der Spielgeber jedem Spieler zuerst vier, dann drei Karten aus\n• Jeder Spieler erhält somit bei allen Spielen je sieben Karten\n\nBieten und Partner-Bestimmung:\n• Das Mindestgebot liegt bei 600 Punkten\n• Der Meistbietende gehört der Königspartei an\n• Er nennt eine Karte, die für sein Spiel von Interesse ist\n• Wer diese Karte besitzt, ist sein Partner\n\nBesondere Regeln:\n• Die Spieler der Königspartei dürfen nicht nebeneinander sitzen\n• Die beiden Parteien müssen sich gebildet haben, bevor der Spielübernehmer seine erste Karte ausspielt\n• Diese Regel gilt auch dann, wenn der Meistbietende ein Matschspiel in der Hand hält\n\nSchreiben:\n• Bei Gewinn: Der Meistbietende erhält zwei Striche (siehe Begriff \"schreiben\"), sein Partner einen Strich, die Spieler der Bauernpartei schreiben je einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\"))\n• Bei Verlust: Der Meistbietende schreibt zwei «Härdöpfel», sein Partner einen «Härdöpfel», die Spieler der Bauernpartei erhalten je einen Strich\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger (siehe Begriff \"expressions_passen\")) für drei Spieler.",
+    "text": "Definition:\nBeim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei (siehe Begriff \"expressions_bauernpartei\") bilden.\n\nSpiel geben:\n• Nachdem der Eichel-Siebener (Kreuz-Siebener) aus dem Spiel entfernt wurde, teilt der Spielgeber jedem Spieler zuerst vier, dann drei Karten aus\n• Jeder Spieler erhält somit bei allen Spielen je sieben Karten\n\nBieten und Partner-Bestimmung:\n• Das Mindestgebot liegt bei 600 Punkten\n• Der Meistbietende gehört der Königspartei an\n• Er nennt eine Karte, die für sein Spiel von Interesse ist\n• Wer diese Karte besitzt, ist sein Partner\n\nBesondere Regeln:\n• Die Spieler der Königspartei dürfen nicht nebeneinander sitzen\n• Die beiden Parteien müssen sich gebildet haben, bevor der Spielübernehmer seine erste Karte ausspielt\n• Diese Regel gilt auch dann, wenn der Meistbietende ein Matschspiel in der Hand hält\n\nSchreiben:\n• Bei Gewinn: Der Meistbietende erhält zwei Striche (siehe Begriff \"schreiben\"), sein Partner einen Strich, die Spieler der Bauernpartei schreiben je einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\"))\n• Bei Verlust: Der Meistbietende schreibt zwei «Härdöpfel», sein Partner einen «Härdöpfel», die Spieler der Bauernpartei erhalten je einen Strich\n\nSchneider-Regel:\nWer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger (siehe Begriff \"expressions_passen\")) für drei Spieler.",
     "metadata": {
       "id": "variants_strategic_bieter_fuenf_meta",
       "category": {
@@ -10166,7 +9835,7 @@
   },
   "variants_strategic_palette_jass": {
     "id": "variants_strategic_palette_jass",
-    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Kreuz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"expressions_passen\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und macht anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") ein Gebot über die zu erreichenden Punkte am Ende des Spiels\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
+    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Herz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"expressions_passen\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und macht anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") ein Gebot über die zu erreichenden Punkte am Ende des Spiels\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
     "metadata": {
       "id": "variants_strategic_palette_jass_meta",
       "category": {
@@ -11156,7 +10825,7 @@
       "category": {
         "main": "Regeln",
         "sub": "Ausmachen",
-        "topic": "Ausmachregel bei Schneider"
+        "topic": "Ausmachregel beim Schneider"
       },
       "keywords": [
         "schneider",
@@ -11968,5 +11637,318 @@
     "see_also": [
       "regeln_tischregel"
     ]
+  },
+  "expressions_wand": {
+    "id": "expressions_wand",
+    "text": "Eine Wand bezeichnet beim Jassen mehrere Karten derselben Farbe auf einer Hand. Sind es hohe Karten, lassen sie sich nacheinander durchspielen, weil die Mitspieler die Farbe bedienen müssen und mit einer tieferen Karte nicht stechen können.",
+    "metadata": {
+      "id": "expressions_wand_meta",
+      "category": {
+        "main": "Begriffe",
+        "sub": "Grundbegriffe",
+        "topic": "Wand"
+      },
+      "keywords": [
+        "wand",
+        "viele karten",
+        "farbe",
+        "durchspielen",
+        "jass begriff"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.5,
+      "difficulty": 1,
+      "taxonomy_tier": 3
+    },
+    "faqs": [
+      {
+        "question": "Was ist eine Wand beim Jassen?",
+        "answer": "Eine Wand bezeichnet mehrere Karten derselben Farbe auf einer Hand. Hohe Karten einer Wand lassen sich nacheinander durchspielen."
+      }
+    ],
+    "see_also": [
+      "expressions_nachschmeissen",
+      "expressions_kartenfarben"
+    ]
+  },
+  "expressions_mitte": {
+    "id": "expressions_mitte",
+    "text": "Definition:\nMitte (auch Tännli oder Mezzo genannt) ist eine Spielart ohne feste Trumpffarbe. Die mittlere Karte, das Banner (siehe Begriff \"expressions_banner\") (Zehner), ist die höchste Karte. Von dort werden die übrigen Karten von innen nach aussen rangiert. Es gibt zwei Richtungen: Mitte Obenabe und Mitte Undenufe.\n\n## Mitte Obenabe\nStechordnung von der höchsten zur tiefsten Karte:\nBanner, Under, Neuner, Ober (Dame), Achter, König, Siebner, Ass, Sechser.\n\n## Mitte Undenufe\nStechordnung von der höchsten zur tiefsten Karte:\nBanner, Neuner, Under, Achter, Ober (Dame), Siebner, König, Sechser, Ass.\n\nPunkte:\nDie Punkte werden wie bei Obenabe (siehe Begriff \"expressions_obenabe\") oder Undenufe (siehe Begriff \"expressions_undenufe\") gezählt. Es gibt also keinen Puur und kein Nell mit Sonderwerten, dafür zählen die Achter.",
+    "metadata": {
+      "id": "expressions_mitte_meta",
+      "category": {
+        "main": "Ansagen",
+        "sub": "Spielrichtung",
+        "topic": "Mitte"
+      },
+      "keywords": [
+        "mitte",
+        "tännli",
+        "mezzo",
+        "banner",
+        "obenabe",
+        "undenufe",
+        "stechordnung",
+        "spielrichtung"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.7,
+      "difficulty": 3,
+      "taxonomy_tier": 3
+    },
+    "faqs": [
+      {
+        "question": "Was ist Mitte beim Jassen?",
+        "answer": "Mitte (auch Tännli oder Mezzo) ist eine Spielart ohne feste Trumpffarbe, bei der das Banner (Zehner) die höchste Karte ist. Es gibt Mitte Obenabe und Mitte Undenufe."
+      },
+      {
+        "question": "Welche Karte ist bei Mitte die höchste?",
+        "answer": "Das Banner, also der Zehner. Von dort werden die übrigen Karten von innen nach aussen rangiert."
+      },
+      {
+        "question": "Wie werden bei Mitte die Punkte gezählt?",
+        "answer": "Wie bei Obenabe oder Undenufe: Es gibt keinen Puur und kein Nell mit Sonderwerten, dafür zählen die Achter."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Mitte Obenabe und Mitte Undenufe?",
+        "answer": "Bei Mitte Obenabe lautet die Stechordnung Banner, Under, Neuner, Ober, Achter, König, Siebner, Ass, Sechser. Bei Mitte Undenufe Banner, Neuner, Under, Achter, Ober, Siebner, König, Sechser, Ass."
+      }
+    ],
+    "see_also": [
+      "expressions_obenabe",
+      "expressions_undenufe",
+      "expressions_banner"
+    ]
+  },
+  "expressions_trumpffarbe": {
+    "id": "expressions_trumpffarbe",
+    "text": "Einer der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.\n\n## Die vier Farben\n\nAngesagt werden kann jede der vier Farben. Bei den Deutschschweizer Jasskarten sind das Eichel, Rosen, Schellen und Schilten, bei den französischen Karten Kreuz, Herz, Ecke und Schaufel. Beide Sätze meinen dieselben vier Farben.\n\nWelche Farbe als Trumpf angesagt wird, hängt vom Blatt ab. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Den vollständigen Satz aller 36 Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).\n\n## Die Rangordnung in der Trumpffarbe\n\nInnerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei normalerweise durchschnittliche Karten werden zur höchsten und zweithöchsten, sowohl im Stechwert als auch im Zählwert:\n\n- Der Under wird zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und ist die höchste Karte im ganzen Spiel. Er zählt 20 Punkte.\n- Die Neun wird zum [Nell](/begriffe/kartenbezeichnungen/nell/), der zweithöchsten Karte. Sie zählt 14 Punkte.\n\n## Wo wird die Trumpffarbe angesagt?\n\nEine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/) und vom [Coiffeur](/varianten/coiffeur/). Wer nicht selber bestimmen will, kann schieben und die Wahl dem Partner überlassen. Daneben lassen sich auch Modi ganz ohne Trumpf ansagen, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/), oder mit allen vier Farben als Trumpf zugleich, das [Tutti](/ansagen/tutti/).",
+    "faqs": [
+      {
+        "question": "Was ist die höchste Karte beim Jassen?",
+        "answer": "Im Trumpf ist der Puur die höchste Karte. Das ist der Under der angesagten Trumpffarbe, und er zählt 20 Punkte. Zweithöchste ist das Nell, die Neun der Trumpffarbe, mit 14 Punkten."
+      },
+      {
+        "question": "Wie viele Punkte zählen Puur und Nell?",
+        "answer": "Der Puur zählt 20 Punkte, das Nell 14. So hoch zählen Under und Neun nur in der angesagten Trumpffarbe, sonst behalten sie ihren tiefen Wert."
+      },
+      {
+        "question": "Welche Farben kann man als Trumpf ansagen?",
+        "answer": "Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Kreuz, Herz, Ecke und Schaufel."
+      },
+      {
+        "question": "Was bedeutet es, eine Trumpffarbe anzusagen?",
+        "answer": "Man bestimmt eine Farbe zum Trumpf. Jede Karte dieser Farbe sticht dann jede Karte einer anderen Farbe, und in der Trumpffarbe werden Under und Neun zu Puur und Nell."
+      },
+      {
+        "question": "In welcher Reihenfolge stechen die Trumpfkarten?",
+        "answer": "Von hoch nach tief: Puur (Under), Nell (Neun), Ass, König, Ober, Banner (10), 8, 7, 6."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "expressions_nell",
+      "expressions_obenabe",
+      "expressions_tutti"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Ansagen",
+        "sub": "Trumpf",
+        "topic": "Trumpffarbe"
+      },
+      "keywords": [
+        "trumpf",
+        "trumpffarbe",
+        "puur",
+        "nell",
+        "ansagen",
+        "eichel",
+        "rosen",
+        "schellen",
+        "schilten",
+        "höchste karte"
+      ],
+      "difficulty": 1,
+      "id": "expressions_trumpffarbe_meta",
+      "importance": 0.9,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 2
+    }
+  },
+  "color_eichel": {
+    "id": "color_eichel",
+    "text": "Eichel ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Eichel. Auf den französischen Karten, die vor allem in der Westschweiz gebräuchlich sind, heisst dieselbe Farbe Kreuz. Im deutschen Standardblatt und international ist es das Kreuz ♣ (französisch Trèfle, umgangssprachlich auch Treff). Eichel und Kreuz meinen genau dasselbe: Der Eichel-König ist die gleiche Karte wie der Kreuz-König, nur mit anderem Symbol. Wird Eichel als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Eichel-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Wie heisst Eichel auf den französischen Jasskarten?",
+        "answer": "Auf den französischen Karten heisst Eichel Kreuz. Beide bezeichnen dieselbe Farbe, international das Kreuz ♣ (französisch Trèfle)."
+      },
+      {
+        "question": "Welche Karten gehören zur Farbe Eichel?",
+        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Eichel-Under zum Puur und die Eichel-Neun zum Nell."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "trumpf_bauer",
+      "expressions_nell"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Eichel"
+      },
+      "keywords": [
+        "eichel",
+        "kreuz",
+        "treff",
+        "trèfle",
+        "clubs",
+        "farbe",
+        "jasskarten"
+      ],
+      "difficulty": 1,
+      "id": "color_eichel_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_rosen": {
+    "id": "color_rosen",
+    "text": "Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Rose. Auf den französischen Karten heisst dieselbe Farbe Herz. International ist es das Herz ♥ (französisch Cœur). Rosen und Herz meinen genau dasselbe: Der Rosen-König ist die gleiche Karte wie der Herz-König, nur mit anderem Symbol. Wird Rosen als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Rosen-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Wie heisst Rosen auf den französischen Jasskarten?",
+        "answer": "Auf den französischen Karten heisst Rosen Herz. Beide bezeichnen dieselbe Farbe, das Herz ♥ (französisch Cœur)."
+      },
+      {
+        "question": "Welche Karten gehören zur Farbe Rosen?",
+        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Rosen-Under zum Puur und die Rosen-Neun zum Nell."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "trumpf_bauer",
+      "expressions_nell"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Rosen"
+      },
+      "keywords": [
+        "rosen",
+        "herz",
+        "cœur",
+        "coeur",
+        "hearts",
+        "farbe",
+        "jasskarten"
+      ],
+      "difficulty": 1,
+      "id": "color_rosen_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_schellen": {
+    "id": "color_schellen",
+    "text": "Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Schelle, ein kleines Glöckchen. Auf den französischen Karten heisst dieselbe Farbe Ecke, im deutschen Standardblatt Karo. International ist es das Karo ♦ (französisch Carreau). Schellen, Ecke und Karo meinen genau dasselbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Schellen-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Ist Schellen dasselbe wie Karo?",
+        "answer": "Ja. Schellen heisst auf den französischen Karten Ecke und im deutschen Standardblatt Karo. Alle drei bezeichnen dieselbe Farbe, das Karo ♦ (französisch Carreau)."
+      },
+      {
+        "question": "Welche Karten gehören zur Farbe Schellen?",
+        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Schellen-Under zum Puur und die Schellen-Neun zum Nell."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "trumpf_bauer",
+      "expressions_nell"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Schellen"
+      },
+      "keywords": [
+        "schellen",
+        "ecke",
+        "ecken",
+        "karo",
+        "carreau",
+        "diamonds",
+        "farbe",
+        "jasskarten"
+      ],
+      "difficulty": 1,
+      "id": "color_schellen_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_schilten": {
+    "id": "color_schilten",
+    "text": "Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist der Schild. Auf den französischen Karten heisst dieselbe Farbe Schaufel, im deutschen Standardblatt Pik. International ist es das Pik ♠ (französisch Pique). Schilten, Schaufel und Pik meinen genau dasselbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Schilten-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Ist Schilten dasselbe wie Pik?",
+        "answer": "Ja. Schilten heisst auf den französischen Karten Schaufel und im deutschen Standardblatt Pik. Alle drei bezeichnen dieselbe Farbe, das Pik ♠ (französisch Pique)."
+      },
+      {
+        "question": "Welche Karten gehören zur Farbe Schilten?",
+        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Schilten-Under zum Puur und die Schilten-Neun zum Nell."
+      }
+    ],
+    "see_also": [
+      "expressions_kartenfarben",
+      "trumpf_bauer",
+      "expressions_nell"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Schilten"
+      },
+      "keywords": [
+        "schilten",
+        "schaufel",
+        "pik",
+        "pique",
+        "spades",
+        "farbe",
+        "jasskarten"
+      ],
+      "difficulty": 1,
+      "id": "color_schilten_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
   }
 }

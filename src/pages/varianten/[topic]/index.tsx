@@ -78,7 +78,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
     description: metaDescription,
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
-    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero.png',
+    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
     datePublished: defaultPublishedDate,
     dateModified: defaultModifiedDate,
   };

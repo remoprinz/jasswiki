@@ -43,7 +43,7 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
     description: "Der Schieber ist die beliebteste Jassvariante der Schweiz. Alles zu Regeln, Taktik und Philosophie.",
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
-    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero.png',
+    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
     datePublished: '2023-01-01',
     dateModified: new Date().toISOString().split('T')[0],
   };

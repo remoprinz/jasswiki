@@ -7,6 +7,8 @@ node_modules
 # node_modules ist ein Symlink darauf. Regel: `npm install` (nie `npm ci`, das löscht den Symlink).
 node_modules.nosync/
 node_modules.nosync
+# Alle iCloud-immunen .nosync-Mirror generell ignorieren (z. B. public/cards.nosync)
+*.nosync
 
 # ========================================
 # NEXT.JS BUILD OUTPUT
@@ -14,6 +16,10 @@ node_modules.nosync
 .next/
 out/
 build/
+
+# Generierte OG-Banner (via `npm run generate:og`, deterministisch reproduzierbar).
+# Manifest (src/data/og-manifest.json) bleibt getrackt — SeoHead importiert es.
+/public/og/
 
 # ========================================
 # macOS iCloud-Drive-Sync-Konflikte (Pattern: "* 2/")

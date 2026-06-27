@@ -307,12 +307,12 @@ const JassenPage: NextPage = () => {
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Trumpf</strong> — Eine der vier Farben wird Trumpf. <Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline">Puur</Link> und <Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline">Nell</Link> dominieren.</li>
-                <li><Link href="/begriffe/spezialvarianten/obenabe/" className="text-[#ff0000] hover:underline font-medium">Obenabe</Link> — Kein Trumpf. Die höchste Karte sticht. Ass ist die stärkste Karte.</li>
-                <li><Link href="/begriffe/spezialvarianten/undenufe/" className="text-[#ff0000] hover:underline font-medium">Undenufe</Link> — Kein Trumpf. Die niedrigste Karte sticht. Die 6 ist die stärkste Karte.</li>
-                <li><Link href="/begriffe/spezialvarianten/slalom-zickzack/" className="text-[#ff0000] hover:underline font-medium">Slalom</Link> — Abwechselnd Obenabe und Undenufe pro Stich.</li>
-                <li><Link href="/begriffe/spezialvarianten/guschti-zwischendurch-quer/" className="text-[#ff0000] hover:underline font-medium">Guschti (Quer)</Link> — Erst Obenabe, dann Undenufe (oder umgekehrt).</li>
-                <li><Link href="/begriffe/spezialvarianten/trio-3-3/" className="text-[#ff0000] hover:underline font-medium">Trio</Link> — 3 Stiche Trumpf, 3 Stiche Obenabe, 3 Stiche Undenufe. Reihenfolge frei wählbar.</li>
-                <li><Link href="/begriffe/spezialvarianten/misere/" className="text-[#ff0000] hover:underline font-medium">Misère</Link> — Ziel: keinen einzigen Stich machen.</li>
+                <li><Link href="/ansagen/obenabe/" className="text-[#ff0000] hover:underline font-medium">Obenabe</Link> — Kein Trumpf. Die höchste Karte sticht. Ass ist die stärkste Karte.</li>
+                <li><Link href="/ansagen/undenufe/" className="text-[#ff0000] hover:underline font-medium">Undenufe</Link> — Kein Trumpf. Die niedrigste Karte sticht. Die 6 ist die stärkste Karte.</li>
+                <li><Link href="/ansagen/slalom-zickzack/" className="text-[#ff0000] hover:underline font-medium">Slalom</Link> — Abwechselnd Obenabe und Undenufe pro Stich.</li>
+                <li><Link href="/ansagen/quer/" className="text-[#ff0000] hover:underline font-medium">Quer</Link> — Geteilte Hand: ein Teil Obenabe, ein Teil Undenufe. Varianten: Guschti und Mary.</li>
+                <li><Link href="/ansagen/trio-3-3/" className="text-[#ff0000] hover:underline font-medium">Trio</Link> — 3 Stiche Trumpf, 3 Stiche Obenabe, 3 Stiche Undenufe. Reihenfolge frei wählbar.</li>
+                <li><Link href="/ansagen/misere/" className="text-[#ff0000] hover:underline font-medium">Misère</Link> — Ziel: keinen einzigen Stich machen.</li>
               </ul>
               <p>
                 <Link href="/begriffe/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">

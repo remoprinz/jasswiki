@@ -6,6 +6,7 @@ import Link from 'next/link';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
+import { buildArticleUrl } from '@/lib/url-utils';
 import { SeoHead } from '@/components/layout/SeoHead';
 
 // Helper to get subcategories for a specific category
@@ -35,15 +36,58 @@ const getArticlesForCategory = (content: JassContentRecord, categorySlug: string
     .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
 };
 
+// Bereinigt Artikel-Text zu einer kurzen, maschinenlesbaren Definition (löst
+// (siehe Begriff "id")-Marker auf, entfernt Bullets/Labels, kürzt sauber).
+function cleanGlossaryDescription(text: string): string {
+  let t = String(text || '');
+  t = t.replace(/[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"[^"]+"\)/gi, '$1');
+  t = t.replace(/([A-Za-zÄÖÜäöüß][\wÄÖÜäöüß-]*)\s*\(siehe Begriff\s+"[^"]+"\)/gi, '$1');
+  t = t.replace(/\s*\(siehe Begriff\s+"[^"]+"\)/gi, '');
+  t = t.replace(/\b(Definition|Synonyme|Entstehung|Verwendung|Bedeutung|Beispiel|Beispiele)\s*:/gi, ' ');
+  t = t.replace(/[••]/g, ' ').replace(/\s+/g, ' ').trim();
+  if (t.length > 260) t = t.slice(0, 260).replace(/\s+\S*$/, '') + '…';
+  return t;
+}
+
+// schema.org DefinedTermSet — maschinenlesbares Jass-Glossar, nur auf /begriffe/.
+function buildDefinedTermSet(content: JassContentRecord, categorySlug: string) {
+  if (categorySlug !== 'begriffe') return null;
+  const SITE = 'https://jasswiki.ch';
+  const terms = (Object.values(content) as JassContentItem[])
+    .filter((item) => toSlug(item.metadata.category.main) === 'begriffe')
+    .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': `${SITE}/begriffe/`,
+    name: 'JassWiki Glossar: Schweizer Jass-Fachbegriffe',
+    description:
+      'Maschinenlesbares Glossar der Schweizer Jass-Fachbegriffe, herausgegeben vom Jassverband Schweiz (JVS).',
+    inLanguage: 'de-CH',
+    hasDefinedTerm: terms.map((item) => {
+      const url = `${SITE}${buildArticleUrl(item.metadata.category)}`;
+      return {
+        '@type': 'DefinedTerm',
+        '@id': url,
+        name: item.metadata.category.topic,
+        description: cleanGlossaryDescription(item.text),
+        url,
+        inDefinedTermSet: `${SITE}/begriffe/`,
+      };
+    }),
+  };
+}
+
 interface CategoryPageProps {
   category: string;
   categorySlug: string;
   subcategories: Array<{name: string, slug: string, count: number}>;
   articles?: JassContentItem[]; // For flat structure (Varianten)
   isFlat?: boolean; // True for Varianten
+  definedTermSet?: Record<string, unknown> | null; // schema.org DefinedTermSet (nur /begriffe/)
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false }) => {
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null }) => {
   const router = useRouter();
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
@@ -92,6 +136,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
         title={seoTitle}
         description={seoDescription}
       />
+      {definedTermSet && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSet) }}
+        />
+      )}
       <div className="space-y-6 sm:space-y-8">
         {/* Category Header */}
         <div>
@@ -240,9 +290,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
     categories.add(toSlug(item.metadata.category.main));
   });
   
-  // Filter out 'referenzen' and 'schieber' because they have their own static pages
+  // Filter out 'referenzen', 'schieber' and 'taktiken-und-strategien' because they have their own static pages
   const paths = Array.from(categories)
-    .filter(category => category !== 'referenzen' && category !== 'schieber')
+    .filter(category => category !== 'referenzen' && category !== 'schieber' && category !== 'taktiken-und-strategien' && category !== 'ansagen')
     .map(category => ({
       params: { category }
     }));
@@ -291,13 +341,15 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
   }
   
   const subcategories = getSubcategoriesForCategory(allContent, categorySlug);
-  
+  const definedTermSet = buildDefinedTermSet(allContent, categorySlug);
+
   return {
     props: {
       category: categoryName,
       categorySlug,
       subcategories,
-      isFlat: false
+      isFlat: false,
+      definedTermSet
     }
   };
 };

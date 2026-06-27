@@ -120,10 +120,13 @@ const JASSWIKI_SCHEMA = {
       ],
       "parentOrganization": {
         "@type": "Organization",
+        "@id": "https://jassverband.ch/#organization",
         "name": "Jassverband Schweiz (JVS)",
         "alternateName": "JVS",
+        "url": "https://jassverband.ch",
         "description": "Nationaler Verband zur Förderung der Schweizer Jass-Kultur",
-        "foundingDate": "2026"
+        "foundingDate": "2026-01-15",
+        "sameAs": ["https://www.wikidata.org/wiki/Q139042763"]
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -332,6 +335,14 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* Cloudflare Web Analytics (cookieless, kein Consent-Banner nötig).
+              Host-agnostischer Beacon — funktioniert auf Firebase Hosting, ohne
+              dass jasswiki.ch über Cloudflare proxyt. Daten gehen an cloudflareinsights.com. */}
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "f1e87494ceeb44219f004dcc2703b1d8"}'
+          />
         </body>
       </Html>
     );

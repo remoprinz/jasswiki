@@ -14,6 +14,16 @@ import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
+import { JassCardGrid } from '@/components/wissen/JassCardGrid';
+import { FarbeKopf } from '@/components/wissen/FarbeKopf';
+
+// Symbol-Köpfe der vier Farb-Begriffe (Deutschschweizer + französisches Symbol).
+const FARB_KOEPFE: Record<string, { sides: { name: string; img: string; system: string }[]; zeichen: string }> = {
+  color_eichel: { sides: [{ name: 'Eichel', img: '/suits/eichel.png', system: 'Deutschschweizer' }, { name: 'Kreuz', img: '/suits/kreuz.png', system: 'Französisch' }], zeichen: '♣' },
+  color_rosen: { sides: [{ name: 'Rosen', img: '/suits/rosen.png', system: 'Deutschschweizer' }, { name: 'Herz', img: '/suits/herz.png', system: 'Französisch' }], zeichen: '♥' },
+  color_schellen: { sides: [{ name: 'Schellen', img: '/suits/schellen.png', system: 'Deutschschweizer' }, { name: 'Ecke', img: '/suits/ecke.png', system: 'Französisch' }], zeichen: '♦' },
+  color_schilten: { sides: [{ name: 'Schilten', img: '/suits/schilten.png', system: 'Deutschschweizer' }, { name: 'Schaufel', img: '/suits/schaufel.png', system: 'Französisch' }], zeichen: '♠' },
+};
 
 
 interface JassWissenPageProps {
@@ -82,7 +92,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     description: metaDescription,
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
-    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero.png',
+    publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
     datePublished: defaultPublishedDate,
     dateModified: defaultModifiedDate,
   };
@@ -114,6 +124,19 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     const color = colors[slug] || fallbackColor;
     return { borderColor: color, color };
   };
+
+  // Leitartikel «Kartenfarben»: Karten-Raster zwischen Beschreibung und Geschichte
+  // einschieben. Gesplittet wird an der Geschichts-Überschrift (kein künstlicher
+  // Marker im Text, damit Korpus und __NEXT_DATA__ sauber bleiben).
+  const isKartenfarben = contentItem.id === 'expressions_kartenfarben';
+  const GRID_ANCHOR = 'Das abgebildete Kartenbild';
+  const [cardTextBefore, cardTextAfter] =
+    isKartenfarben && contentItem.text.includes(GRID_ANCHOR)
+      ? (() => {
+          const i = contentItem.text.indexOf(GRID_ANCHOR);
+          return [contentItem.text.slice(0, i), contentItem.text.slice(i)];
+        })()
+      : [contentItem.text, ''];
 
   return (
     <>
@@ -162,9 +185,16 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
 
           {/* Artikel-Inhalt */}
           <article className="content-formatting max-w-none">
+            {FARB_KOEPFE[contentItem.id] && <FarbeKopf {...FARB_KOEPFE[contentItem.id]} />}
             <div className="content-formatting text-black">
-              <InternalLinker text={contentItem.text} />
+              <InternalLinker text={cardTextBefore} />
             </div>
+            {isKartenfarben && <JassCardGrid />}
+            {isKartenfarben && cardTextAfter && (
+              <div className="content-formatting text-black">
+                <InternalLinker text={cardTextAfter} />
+              </div>
+            )}
           </article>
 
           {/* FAQ-Sektion - Sichtbar für User und Crawler */}
@@ -216,7 +246,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       const topicSlug = toSlug(item.metadata.category.topic);
       
       // Nur Artikel wo sub !== topic (echte 3-Ebenen-Struktur)
-      return mainCatSlug !== 'varianten' && subCatSlug !== topicSlug;
+      return mainCatSlug !== 'varianten' && mainCatSlug !== 'ansagen' && subCatSlug !== topicSlug;
     })
     .map((item) => {
       const mainCatSlug = toSlug(item.metadata.category.main);
@@ -335,6 +365,20 @@ export const getStaticProps: GetStaticProps = async (context) => {
       pageTitle = `${topic} - ${category} | Das Schweizer Jass-Wiki`;
       metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im umfassendsten Jass-Wiki der Schweiz.`;
       break;
+  }
+
+  // Leitartikel «Jasskarten»: eigener, starker SEO-Titel statt des generischen Begriffe-Schemas.
+  if (contentItem.id === 'expressions_kartenfarben') {
+    pageTitle = 'Jasskarten: Schweizer Spielkarten beider Kartensysteme | Jass-Wiki';
+    metaDescription =
+      'Alle 36 Jasskarten beider Schweizer Kartensysteme: Deutschschweizer (Eichel, Rosen, Schellen, Schilten) und französische (Schaufel, Kreuz, Herz, Ecke). Mit allen Karten in der Übersicht, der Farb-Zuordnung und der Geschichte des Schweizer Kartenbilds.';
+  }
+
+  // Leitartikel «Jass-Taktik»: eigener, starker SEO-Titel für die wichtigste Taktik-Frage.
+  if (contentItem.id === 'schieber_taktiken_advanced') {
+    pageTitle = 'Jass-Taktik: die wichtigsten Konventionen zwischen Partnern | Jass-Wiki';
+    metaDescription =
+      'Die fortgeschrittenen Partner-Konventionen beim Jassen: Nell vor Puur, die Anzahl Trümpfe anzeigen (Hoch-Tief), der blutte Puur, Nachschmeissen und Verwerfen beim Slalom. Die Signalsprache zwischen Partnern, erklärt vom Schweizer Jassverband.';
   }
 
   return {

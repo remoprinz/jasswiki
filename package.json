@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "rm -rf out .next && bash clean-icloud-dupes.sh",
-    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && npm run validate:urls && next build",
+    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && npm run validate:urls && npm run generate:og && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
@@ -17,6 +17,7 @@
     "generate:corpus": "node generate-corpus.mjs",
     "sync:mcp": "node sync-mcp-data.mjs",
     "validate:urls": "node validate-urls.mjs",
+    "generate:og": "node generate-og.mjs",
     "audit:redirects": "node audit-redirects.mjs"
   },
   "dependencies": {
@@ -35,6 +36,7 @@
   "devDependencies": {
     "@google/generative-ai": "^0.1.3",
     "@pinecone-database/pinecone": "^2.0.0",
+    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -42,7 +44,9 @@
     "dotenv": "^16.4.5",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
+    "opentype.js": "^2.0.0",
     "postcss": "^8.5.6",
+    "sharp": "^0.35.2",
     "tailwindcss": "^3.4.18",
     "tsx": "^4.19.2",
     "typescript": "^5"
