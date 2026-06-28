@@ -18,11 +18,25 @@ import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { FarbeKopf } from '@/components/wissen/FarbeKopf';
 
 // Symbol-Köpfe der vier Farb-Begriffe (Deutschschweizer + französisches Symbol).
+// Symbol-Köpfe: 8 separate Farb-Artikel (4 Deutschschweizer + 4 französisch).
+// Jeder Artikel führt mit seinem eigenen Symbol, das Pendant steht daneben.
+const DE_EICHEL = { name: 'Eichel', img: '/suits/eichel.png', system: 'Deutschschweizer' };
+const FR_KREUZ = { name: 'Kreuz', img: '/suits/kreuz.png', system: 'Französisch' };
+const DE_ROSEN = { name: 'Rosen', img: '/suits/rosen.png', system: 'Deutschschweizer' };
+const FR_HERZ = { name: 'Herz', img: '/suits/herz.png', system: 'Französisch' };
+const DE_SCHELLEN = { name: 'Schellen', img: '/suits/schellen.png', system: 'Deutschschweizer' };
+const FR_ECKE = { name: 'Ecke', img: '/suits/ecke.png', system: 'Französisch' };
+const DE_SCHILTEN = { name: 'Schilten', img: '/suits/schilten.png', system: 'Deutschschweizer' };
+const FR_SCHAUFEL = { name: 'Schaufel', img: '/suits/schaufel.png', system: 'Französisch' };
 const FARB_KOEPFE: Record<string, { sides: { name: string; img: string; system: string }[]; zeichen: string }> = {
-  color_eichel: { sides: [{ name: 'Eichel', img: '/suits/eichel.png', system: 'Deutschschweizer' }, { name: 'Kreuz', img: '/suits/kreuz.png', system: 'Französisch' }], zeichen: '♣' },
-  color_rosen: { sides: [{ name: 'Rosen', img: '/suits/rosen.png', system: 'Deutschschweizer' }, { name: 'Herz', img: '/suits/herz.png', system: 'Französisch' }], zeichen: '♥' },
-  color_schellen: { sides: [{ name: 'Schellen', img: '/suits/schellen.png', system: 'Deutschschweizer' }, { name: 'Ecke', img: '/suits/ecke.png', system: 'Französisch' }], zeichen: '♦' },
-  color_schilten: { sides: [{ name: 'Schilten', img: '/suits/schilten.png', system: 'Deutschschweizer' }, { name: 'Schaufel', img: '/suits/schaufel.png', system: 'Französisch' }], zeichen: '♠' },
+  color_eichel: { sides: [DE_EICHEL, FR_KREUZ], zeichen: '♣' },
+  color_kreuz: { sides: [FR_KREUZ, DE_EICHEL], zeichen: '♣' },
+  color_rosen: { sides: [DE_ROSEN, FR_HERZ], zeichen: '♥' },
+  color_herz: { sides: [FR_HERZ, DE_ROSEN], zeichen: '♥' },
+  color_schellen: { sides: [DE_SCHELLEN, FR_ECKE], zeichen: '♦' },
+  color_ecke: { sides: [FR_ECKE, DE_SCHELLEN], zeichen: '♦' },
+  color_schilten: { sides: [DE_SCHILTEN, FR_SCHAUFEL], zeichen: '♠' },
+  color_schaufel: { sides: [FR_SCHAUFEL, DE_SCHILTEN], zeichen: '♠' },
 };
 
 

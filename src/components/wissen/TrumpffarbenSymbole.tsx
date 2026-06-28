@@ -18,10 +18,10 @@ const SYSTEME = [
   {
     label: 'Französische Karten',
     farben: [
-      { name: 'Kreuz', img: '/suits/kreuz.png', href: '/begriffe/kartenbezeichnungen/eichel/' },
-      { name: 'Herz', img: '/suits/herz.png', href: '/begriffe/kartenbezeichnungen/rosen/' },
-      { name: 'Ecke', img: '/suits/ecke.png', href: '/begriffe/kartenbezeichnungen/schellen/' },
-      { name: 'Schaufel', img: '/suits/schaufel.png', href: '/begriffe/kartenbezeichnungen/schilten/' },
+      { name: 'Kreuz', img: '/suits/kreuz.png', href: '/begriffe/kartenbezeichnungen/kreuz/' },
+      { name: 'Herz', img: '/suits/herz.png', href: '/begriffe/kartenbezeichnungen/herz/' },
+      { name: 'Ecke', img: '/suits/ecke.png', href: '/begriffe/kartenbezeichnungen/ecke/' },
+      { name: 'Schaufel', img: '/suits/schaufel.png', href: '/begriffe/kartenbezeichnungen/schaufel/' },
     ],
   },
 ];

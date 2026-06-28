@@ -11784,21 +11784,25 @@
   },
   "color_eichel": {
     "id": "color_eichel",
-    "text": "Eichel ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Eichel. Auf den französischen Karten, die vor allem in der Westschweiz gebräuchlich sind, heisst dieselbe Farbe Kreuz. Im deutschen Standardblatt und international ist es das Kreuz ♣ (französisch Trèfle, umgangssprachlich auch Treff). Eichel und Kreuz meinen genau dasselbe: Der Eichel-König ist die gleiche Karte wie der Kreuz-König, nur mit anderem Symbol. Wird Eichel als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Eichel-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Eichel ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Eichel. Das Pendant auf den französischen Karten, die vor allem in der Westschweiz gebräuchlich sind, ist [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (international das Kreuz ♣, französisch Trèfle). Eichel und Kreuz bezeichnen dieselbe Farbe: Der Eichel-König ist die gleiche Karte wie der Kreuz-König, nur mit anderem Symbol. Wird Eichel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
-        "question": "Wie heisst Eichel auf den französischen Jasskarten?",
-        "answer": "Auf den französischen Karten heisst Eichel Kreuz. Beide bezeichnen dieselbe Farbe, international das Kreuz ♣ (französisch Trèfle)."
+        "question": "Was ist das Pendant zu Eichel?",
+        "answer": "Auf den französischen Karten ist es Kreuz. Eichel und Kreuz bezeichnen dieselbe Farbe (international das Kreuz ♣, französisch Trèfle)."
       },
       {
-        "question": "Welche Karten gehören zur Farbe Eichel?",
-        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Eichel-Under zum Puur und die Eichel-Neun zum Nell."
+        "question": "Wie heisst Eichel auf den französischen Jasskarten?",
+        "answer": "Kreuz. Beide bezeichnen dieselbe Farbe."
+      },
+      {
+        "question": "Was bedeutet Eichel beim Jassen?",
+        "answer": "Eichel ist eine der vier Farben im Deutschschweizer Blatt, dargestellt durch eine Eichel. Sie entspricht dem Kreuz im französischen Blatt."
       }
     ],
     "see_also": [
+      "color_kreuz",
       "expressions_kartenfarben",
-      "trumpf_bauer",
-      "expressions_nell"
+      "trumpf_bauer"
     ],
     "metadata": {
       "category": {
@@ -11811,7 +11815,6 @@
         "kreuz",
         "treff",
         "trèfle",
-        "clubs",
         "farbe",
         "jasskarten"
       ],
@@ -11826,21 +11829,25 @@
   },
   "color_rosen": {
     "id": "color_rosen",
-    "text": "Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Rose. Auf den französischen Karten heisst dieselbe Farbe Herz. International ist es das Herz ♥ (französisch Cœur). Rosen und Herz meinen genau dasselbe: Der Rosen-König ist die gleiche Karte wie der Herz-König, nur mit anderem Symbol. Wird Rosen als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Rosen-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die rote Rose. Das Pendant auf den französischen Karten ist [Herz](/begriffe/kartenbezeichnungen/herz/) (international das Herz ♥, französisch Cœur). Rosen und Herz bezeichnen dieselbe Farbe: Der Rosen-König ist die gleiche Karte wie der Herz-König, nur mit anderem Symbol. Wird Rosen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
-        "question": "Wie heisst Rosen auf den französischen Jasskarten?",
-        "answer": "Auf den französischen Karten heisst Rosen Herz. Beide bezeichnen dieselbe Farbe, das Herz ♥ (französisch Cœur)."
+        "question": "Was ist das Pendant zu Rosen?",
+        "answer": "Auf den französischen Karten ist es Herz. Rosen und Herz bezeichnen dieselbe Farbe (♥, französisch Cœur)."
       },
       {
-        "question": "Welche Karten gehören zur Farbe Rosen?",
-        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Rosen-Under zum Puur und die Rosen-Neun zum Nell."
+        "question": "Wie heisst Rosen auf den französischen Jasskarten?",
+        "answer": "Herz. Beide bezeichnen dieselbe Farbe."
+      },
+      {
+        "question": "Was bedeutet Rosen beim Jassen?",
+        "answer": "Rosen ist eine der vier Farben im Deutschschweizer Blatt, dargestellt durch eine Rose. Sie entspricht dem Herz im französischen Blatt."
       }
     ],
     "see_also": [
+      "color_herz",
       "expressions_kartenfarben",
-      "trumpf_bauer",
-      "expressions_nell"
+      "trumpf_bauer"
     ],
     "metadata": {
       "category": {
@@ -11853,7 +11860,6 @@
         "herz",
         "cœur",
         "coeur",
-        "hearts",
         "farbe",
         "jasskarten"
       ],
@@ -11868,21 +11874,25 @@
   },
   "color_schellen": {
     "id": "color_schellen",
-    "text": "Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist die Schelle, ein kleines Glöckchen. Auf den französischen Karten heisst dieselbe Farbe Ecke, im deutschen Standardblatt Karo. International ist es das Karo ♦ (französisch Carreau). Schellen, Ecke und Karo meinen genau dasselbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Schellen-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Schelle, ein kleines Glöckchen. Das Pendant auf den französischen Karten ist [Ecke](/begriffe/kartenbezeichnungen/ecke/), im deutschen Standardblatt Karo (international das Karo ♦, französisch Carreau). Schellen, Ecke und Karo bezeichnen dieselbe Farbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
-        "question": "Ist Schellen dasselbe wie Karo?",
-        "answer": "Ja. Schellen heisst auf den französischen Karten Ecke und im deutschen Standardblatt Karo. Alle drei bezeichnen dieselbe Farbe, das Karo ♦ (französisch Carreau)."
+        "question": "Was ist das Pendant zu Schellen?",
+        "answer": "Auf den französischen Karten ist es Ecke, im deutschen Standardblatt Karo. Alle drei bezeichnen dieselbe Farbe (♦, französisch Carreau)."
       },
       {
-        "question": "Welche Karten gehören zur Farbe Schellen?",
-        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Schellen-Under zum Puur und die Schellen-Neun zum Nell."
+        "question": "Ist Schellen dasselbe wie Karo?",
+        "answer": "Ja. Schellen heisst auf den französischen Karten Ecke und im deutschen Standardblatt Karo."
+      },
+      {
+        "question": "Wie heisst Schellen auf den französischen Jasskarten?",
+        "answer": "Ecke. Im deutschen Standardblatt heisst die Farbe Karo."
       }
     ],
     "see_also": [
+      "color_ecke",
       "expressions_kartenfarben",
-      "trumpf_bauer",
-      "expressions_nell"
+      "trumpf_bauer"
     ],
     "metadata": {
       "category": {
@@ -11893,10 +11903,8 @@
       "keywords": [
         "schellen",
         "ecke",
-        "ecken",
         "karo",
         "carreau",
-        "diamonds",
         "farbe",
         "jasskarten"
       ],
@@ -11911,21 +11919,25 @@
   },
   "color_schilten": {
     "id": "color_schilten",
-    "text": "Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt; das Symbol ist der Schild. Auf den französischen Karten heisst dieselbe Farbe Schaufel, im deutschen Standardblatt Pik. International ist es das Pik ♠ (französisch Pique). Schilten, Schaufel und Pik meinen genau dasselbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum Puur (20 Punkte) und die Neun zum Nell (14 Punkte) auf. Alle Schilten-Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist der Schild. Das Pendant auf den französischen Karten ist [Schaufel](/begriffe/kartenbezeichnungen/schaufel/), im deutschen Standardblatt Pik (international das Pik ♠, französisch Pique). Schilten, Schaufel und Pik bezeichnen dieselbe Farbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
-        "question": "Ist Schilten dasselbe wie Pik?",
-        "answer": "Ja. Schilten heisst auf den französischen Karten Schaufel und im deutschen Standardblatt Pik. Alle drei bezeichnen dieselbe Farbe, das Pik ♠ (französisch Pique)."
+        "question": "Was ist das Pendant zu Schilten?",
+        "answer": "Auf den französischen Karten ist es Schaufel, im deutschen Standardblatt Pik. Alle drei bezeichnen dieselbe Farbe (♠, französisch Pique)."
       },
       {
-        "question": "Welche Karten gehören zur Farbe Schilten?",
-        "answer": "Neun Karten: Ass, König, Ober, Under, Banner (10), 9, 8, 7 und 6. Als Trumpf wird der Schilten-Under zum Puur und die Schilten-Neun zum Nell."
+        "question": "Ist Schilten dasselbe wie Pik?",
+        "answer": "Ja. Schilten heisst auf den französischen Karten Schaufel und im deutschen Standardblatt Pik."
+      },
+      {
+        "question": "Wie heisst Schilten auf den französischen Jasskarten?",
+        "answer": "Schaufel. Im deutschen Standardblatt heisst die Farbe Pik."
       }
     ],
     "see_also": [
+      "color_schaufel",
       "expressions_kartenfarben",
-      "trumpf_bauer",
-      "expressions_nell"
+      "trumpf_bauer"
     ],
     "metadata": {
       "category": {
@@ -11938,12 +11950,187 @@
         "schaufel",
         "pik",
         "pique",
-        "spades",
         "farbe",
         "jasskarten"
       ],
       "difficulty": 1,
       "id": "color_schilten_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_kreuz": {
+    "id": "color_kreuz",
+    "text": "Kreuz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Kreuz ♣ (französisch Trèfle). Das Pendant auf den Deutschschweizer Karten ist [Eichel](/begriffe/kartenbezeichnungen/eichel/). Kreuz und Eichel bezeichnen dieselbe Farbe: Der Kreuz-König ist die gleiche Karte wie der Eichel-König, nur mit anderem Symbol. Wird Kreuz als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Was ist das Pendant zu Kreuz?",
+        "answer": "Auf den Deutschschweizer Karten ist es Eichel. Kreuz und Eichel bezeichnen dieselbe Farbe."
+      },
+      {
+        "question": "Wie heisst Kreuz auf den Deutschschweizer Jasskarten?",
+        "answer": "Eichel. Beide bezeichnen dieselbe Farbe (♣, französisch Trèfle)."
+      },
+      {
+        "question": "Was ist Kreuz beim Jassen?",
+        "answer": "Eine der vier Farben im französischen Blatt (♣), gleichbedeutend mit Eichel im Deutschschweizer Blatt."
+      }
+    ],
+    "see_also": [
+      "color_eichel",
+      "expressions_kartenfarben"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Kreuz"
+      },
+      "keywords": [
+        "kreuz",
+        "eichel",
+        "treff",
+        "trèfle",
+        "clubs",
+        "farbe"
+      ],
+      "difficulty": 1,
+      "id": "color_kreuz_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_herz": {
+    "id": "color_herz",
+    "text": "Herz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Herz ♥ (französisch Cœur). Das Pendant auf den Deutschschweizer Karten ist [Rosen](/begriffe/kartenbezeichnungen/rosen/). Herz und Rosen bezeichnen dieselbe Farbe: Der Herz-König ist die gleiche Karte wie der Rosen-König, nur mit anderem Symbol. Wird Herz als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Was ist das Pendant zu Herz?",
+        "answer": "Auf den Deutschschweizer Karten ist es Rosen. Herz und Rosen bezeichnen dieselbe Farbe."
+      },
+      {
+        "question": "Wie heisst Herz auf den Deutschschweizer Jasskarten?",
+        "answer": "Rosen. Beide bezeichnen dieselbe Farbe (♥, französisch Cœur)."
+      },
+      {
+        "question": "Welche Farbe ist Herz beim Jassen?",
+        "answer": "Eine der vier Farben im französischen Blatt (♥), gleichbedeutend mit Rosen im Deutschschweizer Blatt."
+      }
+    ],
+    "see_also": [
+      "color_rosen",
+      "expressions_kartenfarben"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Herz"
+      },
+      "keywords": [
+        "herz",
+        "rosen",
+        "cœur",
+        "coeur",
+        "hearts",
+        "farbe"
+      ],
+      "difficulty": 1,
+      "id": "color_herz_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_ecke": {
+    "id": "color_ecke",
+    "text": "Ecke ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Karo ♦ (französisch Carreau); im deutschen Standardblatt heisst die Farbe Karo. Das Pendant auf den Deutschschweizer Karten ist [Schellen](/begriffe/kartenbezeichnungen/schellen/). Ecke, Karo und Schellen bezeichnen dieselbe Farbe: Der Ecke-König ist die gleiche Karte wie der Schellen-König, nur mit anderem Symbol. Wird Ecke als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Was ist das Pendant zu Ecke?",
+        "answer": "Auf den Deutschschweizer Karten ist es Schellen. Im deutschen Standardblatt heisst die Farbe Karo."
+      },
+      {
+        "question": "Heisst Ecke auch Karo?",
+        "answer": "Ja. Ecke ist die Westschweizer Bezeichnung, Karo die deutsche Standardbezeichnung für dieselbe Farbe (♦, französisch Carreau). Im Deutschschweizer Blatt heisst sie Schellen."
+      },
+      {
+        "question": "Was ist Ecke beim Jassen?",
+        "answer": "Eine der vier Farben im französischen Blatt (Karo ♦), gleichbedeutend mit Schellen im Deutschschweizer Blatt."
+      }
+    ],
+    "see_also": [
+      "color_schellen",
+      "expressions_kartenfarben"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Ecke"
+      },
+      "keywords": [
+        "ecke",
+        "karo",
+        "schellen",
+        "carreau",
+        "diamonds",
+        "farbe"
+      ],
+      "difficulty": 1,
+      "id": "color_ecke_meta",
+      "importance": 0.5,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 3
+    }
+  },
+  "color_schaufel": {
+    "id": "color_schaufel",
+    "text": "Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Pik ♠ (französisch Pique); im deutschen Standardblatt heisst die Farbe Pik. Das Pendant auf den Deutschschweizer Karten ist [Schilten](/begriffe/kartenbezeichnungen/schilten/). Schaufel, Pik und Schilten bezeichnen dieselbe Farbe: Der Schaufel-König ist die gleiche Karte wie der Schilten-König, nur mit anderem Symbol. Wird Schaufel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "faqs": [
+      {
+        "question": "Was ist das Pendant zu Schaufel?",
+        "answer": "Auf den Deutschschweizer Karten ist es Schilten. Im deutschen Standardblatt heisst die Farbe Pik."
+      },
+      {
+        "question": "Heisst Schaufel auch Pik?",
+        "answer": "Ja. Schaufel ist die Westschweizer Bezeichnung, Pik die deutsche Standardbezeichnung für dieselbe Farbe (♠, französisch Pique). Im Deutschschweizer Blatt heisst sie Schilten."
+      },
+      {
+        "question": "Was ist Schaufel beim Jassen?",
+        "answer": "Eine der vier Farben im französischen Blatt (Pik ♠), gleichbedeutend mit Schilten im Deutschschweizer Blatt."
+      }
+    ],
+    "see_also": [
+      "color_schilten",
+      "expressions_kartenfarben"
+    ],
+    "metadata": {
+      "category": {
+        "main": "Begriffe",
+        "sub": "Kartenbezeichnungen",
+        "topic": "Schaufel"
+      },
+      "keywords": [
+        "schaufel",
+        "pik",
+        "schilten",
+        "pique",
+        "spades",
+        "farbe"
+      ],
+      "difficulty": 1,
+      "id": "color_schaufel_meta",
       "importance": 0.5,
       "situations": [
         "LEARNING"

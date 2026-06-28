@@ -2492,42 +2492,12 @@
         },
         {
           "source": "/begriffe/kartenbezeichnungen/ecken/",
-          "destination": "/begriffe/kartenbezeichnungen/schellen/",
+          "destination": "/begriffe/kartenbezeichnungen/ecke/",
           "type": 301
         },
         {
           "source": "/begriffe/kartenbezeichnungen/ecken",
-          "destination": "/begriffe/kartenbezeichnungen/schellen/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/herz/",
-          "destination": "/begriffe/kartenbezeichnungen/rosen/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/herz",
-          "destination": "/begriffe/kartenbezeichnungen/rosen/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/kreuz/",
-          "destination": "/begriffe/kartenbezeichnungen/eichel/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/kreuz",
-          "destination": "/begriffe/kartenbezeichnungen/eichel/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schaufel/",
-          "destination": "/begriffe/kartenbezeichnungen/schilten/",
-          "type": 301
-        },
-        {
-          "source": "/begriffe/kartenbezeichnungen/schaufel",
-          "destination": "/begriffe/kartenbezeichnungen/schilten/",
+          "destination": "/begriffe/kartenbezeichnungen/ecke/",
           "type": 301
         },
         {
