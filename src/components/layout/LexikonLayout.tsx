@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LexikonSidebar } from './LexikonSidebar';
 import { Breadcrumbs } from './Breadcrumbs';
+import { ShareButton } from './ShareButton';
 import { LegalFooter } from './LegalFooter';
 import { SearchBar } from '@/components/wissen/SearchBar';
 import { Menu, X, ChevronLeft } from 'lucide-react';
@@ -200,7 +201,10 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
               className="bg-white mx-4 mt-3 mb-3 rounded-[12px] min-h-[60vh] lg:mx-0 lg:mt-0 lg:mb-0 lg:rounded-tr-[12px] lg:rounded-br-[12px] lg:rounded-tl-none lg:rounded-bl-none lg:min-h-[800px]"
             >
               <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[28px] lg:pt-[20px]">
-                <Breadcrumbs items={breadcrumbItems} />
+                <div className="flex items-center justify-between gap-3">
+                  <Breadcrumbs items={breadcrumbItems} />
+                  <ShareButton />
+                </div>
               </div>
               <div className="px-[16px] pt-[14px] pb-[24px] lg:px-[28px] lg:pt-[18px] lg:pb-[32px]">
                 <div className="content-formatting max-w-none">{children}</div>
