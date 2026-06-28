@@ -2689,7 +2689,7 @@
   },
   "expressions_slalom": {
     "id": "expressions_slalom",
-    "text": "Definition:\nSlalom (oder Zickzack) ist eine Ansage-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann. Wer die Ansage macht, bestimmt, ob zuerst Obenabe oder Undenufe sticht. In der Folge wechselt die Reihenfolge bei jedem Stich ab.\n\nVerwerfen:\nBeim Slalom ist das Verwerfen besonders anspruchsvoll, da oft nicht klar ist, ob dem Partner «oben» oder «unten» übergeben werden soll. Es gibt aber eine klare Konvention, vgl. Verwerfen beim Slalom (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
+    "text": "Definition:\nSlalom (oder Zickzack) ist eine Ansage-Variante ohne feste Trumpffarbe.\n\nAblauf:\nEs wird abwechselnd je ein Stich nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und dann nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, wobei die Reihenfolge auch umgekehrt sein kann. Wer die Ansage macht, bestimmt, ob zuerst Obenabe oder Undenufe sticht. In der Folge wechselt die Reihenfolge bei jedem Stich ab.\n\nVerwerfen:\nBeim Slalom trennt sich beim Verwerfen die Spreu vom Weizen. Wie sonst auch wirft man zuerst seine schwächste, dann die zweitschwächste Farbe ab. Entscheidend ist die Nuance: Verwirft man eine hohe Karte (höher als das Banner), signalisiert man dem Partner, dass er **oben** übergeben soll. Verwirft man tief (ein Brättli), möchte man, dass **unten** übergeben wird. Mehr dazu im Artikel Verwerfen beim Slalom (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
     "metadata": {
       "id": "expressions_slalom_meta",
       "category": {
@@ -2723,7 +2723,7 @@
       },
       {
         "question": "Wie verwirft man korrekt beim Slalom?",
-        "answer": "Man wirft zuerst die schwächste Farbe ab, dann die zweitschwächste. Zusätzlich zeigt der Partner des Ausspielers mit der ersten verworfenen Karte an, wie übergeben werden soll: wirft er zuerst eine hohe Karte, will er hoch übergeben bekommen; wirft er zuerst eine tiefe Karte, will er tief übergeben bekommen."
+        "answer": "Wie sonst auch wirft man zuerst die schwächste, dann die zweitschwächste Farbe ab. Die Slalom-Nuance: Verwirft man eine hohe Karte (höher als das Banner), soll der Partner oben übergeben; verwirft man tief (ein Brättli), unten."
       }
     ],
     "see_also": [
