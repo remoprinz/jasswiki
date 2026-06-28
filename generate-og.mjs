@@ -8,7 +8,7 @@
 import opentype from 'opentype.js';
 import { Resvg } from '@resvg/resvg-js';
 import sharp from 'sharp';
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -23,6 +23,7 @@ const PLATE  = path.join(ROOT, 'assets/og-template/og-background.png');
 const FONT   = path.join(ROOT, 'assets/og-template/Inter-ExtraBold.ttf');
 const OUTDIR = path.join(ROOT, 'public/og');
 const MANIFEST = path.join(ROOT, 'src/data/og-manifest.json'); // slug → dateiname, für SeoHead
+const SITEMAP = path.join(ROOT, 'public/sitemap.xml');
 
 // --- kalibrierte Layout-Parameter (aus den Affinity-Boards rückgemessen) ---
 const CANVAS_W = 1200, CANVAS_H = 630;
@@ -39,6 +40,30 @@ const TEST_TITLES = [
   'Verbreitung und gesellschaftliche Bedeutung',
   'Bodentrumpf',
 ];
+
+// Sonder-/Kategorieseiten (NICHT im Artikel-Corpus) bekommen ebenfalls ihr Banner.
+// title = Banner-Hero, jederzeit anpassbar. slug = letztes URL-Segment.
+const EXTRA_PAGES = [
+  { slug: 'schieber', title: 'Schieber' },
+  { slug: 'jassen', title: 'Jassen' },
+  { slug: 'regeln', title: 'Regeln' },
+  { slug: 'begriffe', title: 'Begriffe' },
+  { slug: 'varianten', title: 'Varianten' },
+  { slug: 'weis-regeln', title: 'Weisen' },
+  { slug: 'taktiken-und-strategien', title: 'Taktik & Strategie' },
+  { slug: 'geschichte', title: 'Geschichte' },
+  { slug: 'grundlagen-kultur', title: 'Grundlagen & Kultur' },
+  { slug: 'ansagen', title: 'Ansagen' },
+];
+
+// Rechtliche/Utility-Seiten bleiben ohne eigenes Banner (Default genügt).
+const SKIP_SLUGS = new Set([
+  'impressum', 'datenschutz', 'nutzungsbedingungen', 'quellen', 'referenzen',
+  'quellenverzeichnis', 'taxonomie', 'konto-loeschen',
+]);
+// Fallback-Titel aus dem Slug: "kartenverteilung" → "Kartenverteilung", "nell-vor-puur" → "Nell Vor Puur"
+const titleFromSlug = (slug) =>
+  slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
 // --- Font (nur für Breitenmessung; resvg shaped beim Rendern selbst) ---
 const _fb = readFileSync(FONT);
@@ -107,6 +132,8 @@ function slugify(rec) {
 async function main() {
   const test = process.env.OG_TEST === '1' || process.argv.includes('--test');
   mkdirSync(OUTDIR, { recursive: true });
+  // Alte Banner entfernen, damit keine verwaisten Hash-Dateien liegenbleiben (nur voller Lauf)
+  if (!test) for (const f of readdirSync(OUTDIR)) if (f.endsWith('.png')) rmSync(path.join(OUTDIR, f));
   const plateBuf = readFileSync(PLATE);
   const records = readFileSync(CORPUS, 'utf8').trim().split('\n').map(l => JSON.parse(l));
 
@@ -118,6 +145,15 @@ async function main() {
     const slug = slugify(r);
     if (bySlug.has(slug)) { shared.add(slug); continue; } // erster gewinnt (Titel identisch)
     bySlug.set(slug, r.title);
+  }
+  // Jede Nicht-Corpus-Seite aus der Sitemap abdecken → KEINE Seite (ausser Startseite) auf Default.
+  // Titel = kuratierter Override (EXTRA_PAGES) sonst aus dem Slug abgeleitet.
+  const overrides = Object.fromEntries(EXTRA_PAGES.map((p) => [p.slug, p.title]));
+  const sitemap = readFileSync(SITEMAP, 'utf8');
+  for (const m of sitemap.matchAll(/<loc>https:\/\/jasswiki\.ch\/([^<]*)<\/loc>/g)) {
+    const slug = m[1].replace(/\/+$/, '').split('/').pop();
+    if (!slug || bySlug.has(slug) || SKIP_SLUGS.has(slug)) continue;
+    bySlug.set(slug, overrides[slug] || titleFromSlug(slug));
   }
   let entries = [...bySlug.entries()].map(([slug, title]) => ({ slug, title }));
   if (test) entries = TEST_TITLES.map(t => entries.find(e => e.title === t)).filter(Boolean);
