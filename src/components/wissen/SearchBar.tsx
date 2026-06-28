@@ -154,7 +154,8 @@ export const SearchBar: React.FC = () => {
         p.url.includes(searchQuery)
     );
 
-    setResults([...metaResults, ...cardResults, ...searchResults]);
+    // Artikel zuerst (das sind echte Seiten), dann einzelne Karten-Anker.
+    setResults([...metaResults, ...searchResults, ...cardResults]);
     setIsOpen(true);
   }, [query]);
 
@@ -164,7 +165,7 @@ export const SearchBar: React.FC = () => {
     setIsOpen(false);
   };
 
-  const shownResults = results.slice(0, 4);
+  const shownResults = results.slice(0, 8);
   const showDesktopOverlay = isDesktop && isOpen && query.length >= 2;
   const useActiveInputStyle = showDesktopOverlay || isFocused;
 
