@@ -2629,6 +2629,16 @@
           "source": "/begriffe/spielaktionen/anziehen",
           "destination": "/taktiken-und-strategien/kommunikation-signale/anziehen/",
           "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/verwerfen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/verwerfen",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
+          "type": 301
         }
       ]
     }

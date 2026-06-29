@@ -3318,45 +3318,6 @@
       "variants_strategic_differenzler_verdeckt"
     ]
   },
-  "expressions_verwerfen": {
-    "id": "expressions_verwerfen",
-    "text": "Definition:\nDas Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich. Diese Spielaktion signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt.\n\nZweck:\nAuf diese Weise kann man wichtige Informationen an den Partner weitergeben und die Teamkoordination verbessern.",
-    "metadata": {
-      "id": "expressions_verwerfen_meta",
-      "category": {
-        "main": "Begriffe",
-        "sub": "Spielaktionen",
-        "topic": "Verwerfen"
-      },
-      "keywords": [
-        "verwerfen"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Verwerfen beim Jassen?",
-        "answer": "Verwerfen bezeichnet das Beigeben von Karten aus einer schwachen Farbe zu einem Stich, um dem Partner zu signalisieren, dass man diese Farbe nicht braucht."
-      },
-      {
-        "question": "Wie verwirft man richtig?",
-        "answer": "Man spielt eine Karte einer Farbe ab, die man loswerden möchte. Der Partner versteht: 'Diese Farbe brauch ich nicht, spiel mir etwas anderes.'"
-      },
-      {
-        "question": "Wann sollte man verwerfen?",
-        "answer": "Man verwirft, wenn man eine Farbe nicht bedienen kann und dem Partner zeigen will, welche Farben bei einem schwach sind."
-      }
-    ],
-    "see_also": [
-      "ausmachregel",
-      "schieber_taktiken_verwerfen_quer"
-    ]
-  },
   "expressions_vogel": {
     "id": "expressions_vogel",
     "text": "Definition:\n• Der Vogel wird durch das Notieren eines \"V\" gekennzeichnet\n\nZwick-Jass:\n• Beim Zwick-Jass (siehe Begriff \"variants_multi_player_zwick_jass\") entspricht dies fünf abzuverdienenden Minusstrichen\n\nSchieber:\n• Beim Schieber bedeutet ein Vogel 500 Schreibpunkte\n\nVerwendung:\n• Dieser Begriff wird verwendet, um bestimmte Spielsituationen zu dokumentieren und in die Abrechnung einzubeziehen",
@@ -6887,7 +6848,7 @@
   },
   "schieber_taktiken_verwerfen": {
     "id": "schieber_taktiken_verwerfen",
-    "text": "Definition:\nDas Verwerfen ist eine grundlegende Taktik, bei der man Karten aus schwachen Farben (siehe Begriff \"expressions_kartenfarben\") zu einem Stich beigibt.\n\nStrategische Aspekte:\n• **Kommunikation:** Signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt\n• **Kartenverwaltung:** Befreit die Hand von unnötigen Karten\n• **Prioritäten:** Entscheidung, welche Farbe man als erstes «leerspielt»\n\nIntelligentes Verwerfen:\n• **Reihenfolge:** Die Reihenfolge der verworfenen Karten kann zusätzliche Informationen vermitteln\n• **Timing:** Wann man welche Karte verwirft, ist strategisch bedeutsam\n• **Querverwerfen (siehe Begriff \"schieber_taktiken_querverwerfen\"):** Spezielle Technik für fortgeschrittene Spieler\n\nKoordination:\nDas Verwerfen sollte im Einklang mit den Konventionen der Spielgruppe erfolgen, um Missverständnisse zu vermeiden.",
+    "text": "Verwerfen ist die erste und wichtigste Taktik, die alle Jassenden lernen: Wenn man die ausgespielte Farbe nicht mehr hat, spielt man eine Karte jener Farbe, in der man am schwächsten ist. Bietet sich später die Gelegenheit, auch die zweitschwächste Farbe zu verwerfen, weiss der Partner mit Bestimmtheit, welche die starke Farbe ist.\n\nDa in der Regel alle am Tisch diese Konvention befolgen, zeichnet sich im Verlauf der Runde ein konkretes Bild ab, welche Spieler in welcher Farbe stark sind.\n\n## Häufiger Fehler beim Verwerfen\n\nWenn man im Spielverlauf erkennt, welches die starke Farbe des Partners ist, dann **nicht** alle Karten dieser Farbe verwerfen, sondern **eine** behalten. Denn man braucht sie voraussichtlich, um den Partner ins Spiel zu bringen.\n\n## Verwerfen in der Defensive\n\nSagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft. Denn in der Defensive muss tunlichst vermieden werden, dass beide Partner dieselbe Farbe halten.\n\n**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A muss sich nun auf Schilten fokussieren und gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs opfern.\n\n## Verwerfen beim Slalom und Quer\n\nDas Verwerfen bei den Spielmodi [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist anspruchsvoller und wird in eigenen Artikeln behandelt: [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).\n\n## Querverwerfen\n\nEine Fraktion von Spielern praktiziert das **Querverwerfen**, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Dabei wird nicht die schwächste Farbe zuerst verworfen, sondern die «quere» zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).",
     "metadata": {
       "id": "schieber_taktiken_verwerfen_meta",
       "category": {
@@ -6918,15 +6879,19 @@
     "faqs": [
       {
         "question": "Was bedeutet Verwerfen beim Jassen?",
-        "answer": "Verwerfen ist eine Taktik, bei der man Karten aus schwachen Farben zu einem Stich beigibt und damit dem Partner signalisiert, dass man in dieser Farbe keine guten Karten besitzt."
+        "answer": "Wenn man die ausgespielte Farbe nicht mehr hat, wirft man eine Karte der Farbe ab, in der man am schwächsten ist. Damit zeigt man dem Partner, was man nicht braucht."
       },
       {
-        "question": "Wie verwirft man intelligent?",
-        "answer": "Man sollte die Reihenfolge der verworfenen Karten beachten (kann zusätzliche Informationen vermitteln), das richtige Timing wählen und die Konventionen der Spielgruppe beachten."
+        "question": "Wie zeigt man dem Partner die starke Farbe an?",
+        "answer": "Indem man zuerst die schwächste und dann die zweitschwächste Farbe verwirft. Was übrig bleibt, ist die starke Farbe."
       },
       {
-        "question": "Was ist Querverwerfen?",
-        "answer": "Querverwerfen ist eine spezielle, fortgeschrittene Technik, bei der man absichtlich eine unerwartete Farbe verwirft, um komplexe Informationen zu übermitteln."
+        "question": "Was ist der häufigste Fehler beim Verwerfen?",
+        "answer": "Alle Karten der starken Farbe des Partners abzuwerfen. Man sollte eine behalten, um den Partner später ins Spiel zu bringen."
+      },
+      {
+        "question": "Was beachtet man beim Verwerfen in der Defensive?",
+        "answer": "Den Matsch verhindern und genau beobachten, welche Farben der Partner verwirft, damit nicht beide Partner dieselbe Farbe halten."
       }
     ],
     "see_also": [
