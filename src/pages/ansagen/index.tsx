@@ -135,15 +135,15 @@ const AnsagenLeitartikel: NextPage = () => {
             </h2>
             <div className="grid gap-4 sm:gap-5">
               {[
-                { slug: 'trumpffarbe', name: 'Trumpffarbe', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
-                { slug: 'obenabe', name: 'Obenabe', desc: 'ohne Trumpf, die höchste Karte (Ass) sticht.' },
-                { slug: 'undenufe', name: 'Undenufe', desc: 'ohne Trumpf, die tiefste Karte (6) sticht.' },
-                { slug: 'slalom-zickzack', name: 'Slalom (Zickzack)', desc: 'abwechselnd Obenabe und Undenufe pro Stich.' },
-                { slug: 'quer', name: 'Quer', desc: 'ein Teil der Stiche Obenabe, der andere Undenufe.' },
-                { slug: 'trio-3-3', name: 'Trio (3×3)', desc: 'je drei Stiche Trumpf, Obenabe und Undenufe.' },
-                { slug: 'mitte', name: 'Mitte (Tännli)', desc: 'ohne Trumpf, das Banner (Zehner) ist die höchste Karte.' },
-                { slug: 'tutti', name: 'Tutti', desc: 'vor allem beim Coiffeur, alle Farben sind Trumpf.' },
                 { slug: 'misere', name: 'Misère', desc: 'Ziel ist, möglichst keine Punkte zu machen.' },
+                { slug: 'mitte', name: 'Mitte (Tännli)', desc: 'ohne Trumpf, das Banner (Zehner) ist die höchste Karte.' },
+                { slug: 'obenabe', name: 'Obenabe', desc: 'ohne Trumpf, die höchste Karte (Ass) sticht.' },
+                { slug: 'quer', name: 'Quer', desc: 'ein Teil der Stiche Obenabe, der andere Undenufe.' },
+                { slug: 'slalom-zickzack', name: 'Slalom (Zickzack)', desc: 'abwechselnd Obenabe und Undenufe pro Stich.' },
+                { slug: 'trio-3-3', name: 'Trio (3×3)', desc: 'je drei Stiche Trumpf, Obenabe und Undenufe.' },
+                { slug: 'trumpffarbe', name: 'Trumpffarbe', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
+                { slug: 'tutti', name: 'Tutti', desc: 'vor allem beim Coiffeur, alle Farben sind Trumpf.' },
+                { slug: 'undenufe', name: 'Undenufe', desc: 'ohne Trumpf, die tiefste Karte (6) sticht.' },
               ].map((m) => (
                 <Link key={m.slug} href={`/ansagen/${m.slug}/`} className="group block">
                   <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">

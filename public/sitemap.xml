@@ -31,7 +31,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/trumpf/tutti/</loc>
+    <loc>https://jasswiki.ch/ansagen/tutti/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -193,7 +193,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/quer/</loc>
+    <loc>https://jasswiki.ch/ansagen/quer/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -289,7 +289,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/ziel/misere/</loc>
+    <loc>https://jasswiki.ch/ansagen/misere/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -313,7 +313,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/obenabe/</loc>
+    <loc>https://jasswiki.ch/ansagen/obenabe/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -391,7 +391,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/slalom-zickzack/</loc>
+    <loc>https://jasswiki.ch/ansagen/slalom-zickzack/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -445,7 +445,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/trio-3-3/</loc>
+    <loc>https://jasswiki.ch/ansagen/trio-3-3/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -469,7 +469,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/undenufe/</loc>
+    <loc>https://jasswiki.ch/ansagen/undenufe/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1339,13 +1339,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/mitte/</loc>
+    <loc>https://jasswiki.ch/ansagen/mitte/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/trumpf/trumpffarbe/</loc>
+    <loc>https://jasswiki.ch/ansagen/trumpffarbe/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1459,12 +1459,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/trumpf/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/regeln/kartenverteilung/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -1507,19 +1501,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/ansagen/spielrichtung/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/begriffe/punktebegriffe/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/ansagen/ziel/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>

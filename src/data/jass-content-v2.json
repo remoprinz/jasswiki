@@ -1496,7 +1496,6 @@
     ],
     "see_also": [
       "general_card_values",
-      "general_materials",
       "general_geography_regions",
       "history_swiss_production",
       "expressions_trumpf",
@@ -1583,7 +1582,7 @@
     "see_also": [
       "expressions_bock",
       "expressions_schlecken",
-      "expressions_anziehen"
+      "schieber_taktiken_anziehen"
     ]
   },
   "expressions_knecht": {
@@ -2982,7 +2981,7 @@
     ],
     "see_also": [
       "expressions_schmieren",
-      "expressions_anziehen"
+      "schieber_taktiken_anziehen"
     ]
   },
   "expressions_tisch_weis": {
@@ -3394,7 +3393,7 @@
     ],
     "see_also": [
       "expressions_schieben",
-      "expressions_anziehen",
+      "schieber_taktiken_anziehen",
       "general_dealing"
     ]
   },
@@ -4893,8 +4892,7 @@
     ],
     "see_also": [
       "history_origin",
-      "history_medieval",
-      "general_materials"
+      "history_medieval"
     ]
   },
   "history_linguistics": {
@@ -5496,7 +5494,7 @@
       }
     ],
     "see_also": [
-      "expressions_anziehen",
+      "schieber_taktiken_anziehen",
       "bergpreis",
       "expressions_partie",
       "jassapps_jasstafel",
@@ -6677,7 +6675,6 @@
     ],
     "see_also": [
       "bodentrumpf",
-      "expressions_anziehen",
       "expressions_kartenfarben",
       "ausmachregel"
     ]
@@ -6944,7 +6941,7 @@
       }
     ],
     "see_also": [
-      "expressions_verwerfen",
+      "schieber_taktiken_verwerfen",
       "expressions_slalom",
       "expressions_obenabe"
     ]
@@ -6989,7 +6986,7 @@
       }
     ],
     "see_also": [
-      "expressions_verwerfen",
+      "schieber_taktiken_verwerfen",
       "expressions_slalom",
       "expressions_obenabe"
     ]

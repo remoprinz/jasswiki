@@ -39,7 +39,11 @@ export const toSlug = (str) => {
 };
 
 export function isFlatStructure(mainSlug, subSlug, topicSlug) {
-  if (mainSlug === 'varianten') return true;
+  // Varianten und Ansagen haben IMMER flache Struktur.
+  // MUSS identisch zu src/lib/url-utils.ts bleiben (SSOT-Spiegel) —
+  // sonst baut die Sitemap 3-stufige /ansagen/<sub>/<topic>/-URLs (404),
+  // während die App 2-stufig /ansagen/<topic>/ rendert (200).
+  if (mainSlug === 'varianten' || mainSlug === 'ansagen') return true;
   if (subSlug === topicSlug) return true;
   return false;
 }
