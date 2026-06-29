@@ -6955,7 +6955,7 @@
   },
   "schieber_taktiken_verwerfen_slalom": {
     "id": "schieber_taktiken_verwerfen_slalom",
-    "text": "Grundkonzept:\nBeim Slalom gelten spezielle Konventionen für das Verwerfen.\n\nVerwerfen beim Slalom:\n• Die schwächste Farbe wird zuerst verworfen, dann die zweitschwächste\n\nZusätzliche Konvention beim Slalom:\n• Verwirft der Partner des anspielenden Spielers zuerst eine hohe Karte, dann möchte er, dass hoch übergeben wird\n• Verwirft der Partner des anspielenden Spielers zuerst eine tiefe Karte, dann möchte er, dass tief übergeben wird",
+    "text": "Beim [Slalom](/ansagen/slalom-zickzack/) ist das Verwerfen sowohl in der Offensive als auch in der Defensive anspruchsvoller als bei anderen Varianten.\n\n## Verwerfen in der Offensive\n\nAuch beim Slalom gilt: Wenn man eine Farbe zum ersten Mal nicht spielen kann, verwirft man die schwächste Farbe.\n\n**ABER:** Weil beim Slalom das Übergeben nicht nur von der Farbe abhängt, sondern auch davon, ob hoch oder tief übergeben werden soll, gibt es eine zusätzliche Konvention:\n\n- Ist die verworfene Karte **höher** als das [Banner](/begriffe/kartenbezeichnungen/banner/), signalisiert das Stärke **oben**: Man möchte, dass der Partner oben übergibt.\n- Ist die verworfene Karte **tiefer** als das Banner, signalisiert das Stärke **unten**: Man möchte, dass der Partner unten übergibt.\n\nJasser, die zum ersten Mal von dieser Konvention hören, stellen meist dieselbe Frage: «Wieso hoch verwerfen, wenn man hoch will, und nicht tief? Hoch will man doch!» Die Antwort ist simpel: Eine verworfene Farbe ist beim Slalom ohnehin wertlos, ob hoch oder tief spielt also keine Rolle. Aber hoch = hoch und tief = tief lässt sich deutlich einfacher merken. So hat sich die Konvention eingebürgert.\n\nStatistisch kommt es zudem häufiger vor, dass ein Spieler, der den Slalom «oben» ansagt, seinen letzten Bock ebenfalls oben hat, also in Stich 6 oder 8 übergibt (und umgekehrt). Als Partner spekuliert und signalisiert man darum nach Möglichkeit auf eine Unten-Übergabe, wenn hoch begonnen wurde, und umgekehrt.\n\n## Verwerfen in der Defensive\n\nBeim Slalom ist es noch wichtiger, dass die Partner nicht dieselbe Farbe halten. Zugleich ist es schwieriger als bei jeder anderen Variante, die richtigen [Böcke](/begriffe/kartenbezeichnungen/bock/) zu behalten oder im Spielverlauf zu generieren, um den [Matsch](/begriffe/punktebegriffe/matsch/) abzuwenden. Der häufigste Fehler in der Defensive ist es, von verschiedenen Farben oben und unten möglichst viele Böcke halten zu wollen. Klüger ist es, konsequent **eine** Farbe zu halten, möglichst jene, die der Partner verwirft.\n\nEbenfalls wichtig: Ob ein Slalom hoch oder tief beginnt, ist gerade in der Defensive entscheidend. Wurde hoch begonnen, werden zwei der letzten drei Stiche naturgemäss hoch gestochen (und umgekehrt). Beginnt ein Slalom also oben, setzt man im Zweifel auf Oben-Böcke, und umgekehrt.",
     "metadata": {
       "id": "schieber_taktiken_verwerfen_slalom_meta",
       "category": {
@@ -6980,16 +6980,16 @@
     },
     "faqs": [
       {
-        "question": "Wie verwirft man beim Slalom richtig?",
-        "answer": "Beim Slalom sollte man beachten, ob der nächste Stich nach Obenabe oder Undenufe gespielt wird, und entsprechend starke oder schwache Karten loswerden."
+        "question": "Wie verwirft man beim Slalom?",
+        "answer": "Zuerst die schwächste Farbe, wie sonst auch. Zusätzlich zeigt man mit der Höhe der verworfenen Karte an, ob der Partner oben oder unten übergeben soll: höher als das Banner heisst oben, tiefer als das Banner heisst unten."
       },
       {
-        "question": "Welche Karten sollte man beim Slalom verwerfen?",
-        "answer": "Bei Obenabe-Stichen verwirft man tiefe Karten, bei Undenufe-Stichen hohe Karten die man nicht braucht."
+        "question": "Warum verwirft man beim Slalom hoch, wenn man oben übergeben will?",
+        "answer": "Weil sich hoch = oben und tief = unten leichter merken lässt. Die verworfene Farbe ist beim Slalom ohnehin wertlos, ihre Höhe dient also nur als Merkregel."
       },
       {
-        "question": "Was ist beim Slalom-Verwerfen besonders wichtig?",
-        "answer": "Wichtig ist das Timing: Man muss den Rhythmus des Wechsels (Obenabe/Undenufe) im Kopf behalten."
+        "question": "Was ist der häufigste Fehler beim Slalom in der Defensive?",
+        "answer": "Von mehreren Farben oben und unten Böcke halten zu wollen. Besser ist es, konsequent eine Farbe zu halten, möglichst jene, die der Partner verwirft."
       }
     ],
     "see_also": [
