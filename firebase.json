@@ -2559,6 +2559,66 @@
           "source": "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken",
           "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
           "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/konventionen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/konventionen",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/partnertaktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/partnertaktiken",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/punktetaktiken/",
+          "destination": "/taktiken-und-strategien/punktetaktiken/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/punktetaktiken",
+          "destination": "/taktiken-und-strategien/punktetaktiken/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/taktische-grundlagen",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/nachschmeissen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/nachschmeissen/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/nachschmeissen",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/nachschmeissen/",
+          "type": 301
         }
       ]
     }

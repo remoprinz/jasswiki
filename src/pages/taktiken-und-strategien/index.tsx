@@ -104,10 +104,8 @@ const TaktikenStrategienPage: NextPage = () => {
               </p>
               <p>
                 Wer neu einsteigt, beginnt am besten bei der{' '}
-                <Link href="/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/" className="text-[#ff0000] hover:underline">Signalsprache zwischen Partnern</Link>{' '}
-                und den{' '}
-                <Link href="/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken/" className="text-[#ff0000] hover:underline">grundlegenden Taktiken</Link>{' '}
-                wie{' '}
+                <Link href="/taktiken-und-strategien/kommunikation-signale/" className="text-[#ff0000] hover:underline">Signalsprache zwischen Partnern</Link>{' '}
+                mit Konventionen wie{' '}
                 <Link href="/taktiken-und-strategien/kommunikation-signale/verwerfen/" className="text-[#ff0000] hover:underline">Verwerfen</Link>{' '}
                 oder{' '}
                 <Link href="/taktiken-und-strategien/kommunikation-signale/anziehen/" className="text-[#ff0000] hover:underline">Anziehen</Link>. Die übrigen Artikel vertiefen einzelne Konventionen, beispielsweise wie man beim{' '}
@@ -127,14 +125,14 @@ const TaktikenStrategienPage: NextPage = () => {
                 {
                   slug: 'kommunikation-signale',
                   name: 'Kommunikation & Signale',
-                  desc: 'Wie sich Partner über die Wahl und Reihenfolge ihrer Karten verständigen — ohne ein Wort.',
-                  count: 8,
+                  desc: 'Wie sich Partner über die Wahl und Reihenfolge ihrer Karten verständigen, ganz ohne Worte.',
+                  label: '8 Artikel',
                 },
                 {
-                  slug: 'taktische-grundlagen',
-                  name: 'Taktische Grundlagen',
-                  desc: 'Die strategischen Säulen: Zusammenspiel, Konventionen und bewusste Punkteführung.',
-                  count: 4,
+                  slug: 'punktetaktiken',
+                  name: 'Punktetaktiken',
+                  desc: 'Punkte, Multiplikatoren, Berg und Schneider im Blick behalten, statt nur aufs Blatt zu schauen.',
+                  label: 'Strategie-Artikel',
                 },
               ].map((c) => (
                 <Link
@@ -155,7 +153,7 @@ const TaktikenStrategienPage: NextPage = () => {
                       {c.desc}
                     </p>
                     <span className="font-inter text-[12px] sm:text-[13px] font-medium text-[#2bb752] mt-[10px]">
-                      {c.count} Artikel
+                      {c.label}
                     </span>
                   </div>
                 </Link>
@@ -189,7 +187,7 @@ const TaktikenStrategienPage: NextPage = () => {
                 {' '}Wer mit dem Nell eröffnet, signalisiert dem Partner, dass er auch den Puur hält.
               </li>
               <li>
-                <Link href="/begriffe/spielaktionen/nachschmeissen/" className="text-[#ff0000] hover:underline font-medium">Nachschmeissen</Link>:
+                <Link href="/taktiken-und-strategien/kommunikation-signale/nachschmeissen/" className="text-[#ff0000] hover:underline font-medium">Nachschmeissen</Link>:
                 {' '}Nur im ersten Stich bei Obenabe und Undenufe. Auf das Ass des Partners wirft man den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner).
               </li>
             </ul>
@@ -203,7 +201,7 @@ const TaktikenStrategienPage: NextPage = () => {
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 In einem eingespielten Team verständigen sich die Partner über ihre Karten. Mit der Wahl und der Reihenfolge gibt man Auskunft darüber, was man hält, und liest dieselben Zeichen aus dem Spiel des Partners zurück. Die{' '}
-                <Link href="/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/" className="text-[#ff0000] hover:underline">Signalsprache zwischen Partnern</Link>{' '}
+                <Link href="/taktiken-und-strategien/kommunikation-signale/" className="text-[#ff0000] hover:underline">Signalsprache zwischen Partnern</Link>{' '}
                 fasst diese Konventionen zusammen.
               </p>
               <ul className="list-disc pl-5 space-y-2">
@@ -212,6 +210,7 @@ const TaktikenStrategienPage: NextPage = () => {
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch-tief/" className="text-[#ff0000] hover:underline font-medium">Hoch-tief / Tief-hoch-tief</Link>: die Anzahl Trümpfe anzeigen.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/nell-vor-puur/" className="text-[#ff0000] hover:underline font-medium">Nell vor Puur</Link>: den Besitz vom Puur signalisieren.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/querverwerfen/" className="text-[#ff0000] hover:underline font-medium">Querverwerfen</Link>: gezielt eine andere Farbe abwerfen.</li>
+                <li><Link href="/taktiken-und-strategien/kommunikation-signale/nachschmeissen/" className="text-[#ff0000] hover:underline font-medium">Nachschmeissen</Link>: dem Partner im ersten Stich nachwerfen.</li>
               </ul>
               <p>
                 <Link href="/taktiken-und-strategien/kommunikation-signale/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
@@ -221,25 +220,15 @@ const TaktikenStrategienPage: NextPage = () => {
             </div>
           </section>
 
-          {/* Taktische Grundlagen */}
+          {/* Punkte im Blick */}
           <section className="border-t border-[#f0eee7] pt-8">
             <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[8px] leading-[1.2]">
-              Taktische Grundlagen
+              Punkte im Blick behalten
             </h2>
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
-                Über die Signale hinaus tragen einige Grundprinzipien jede Partie: das Zusammenspiel mit dem Partner, die verbreiteten Konventionen und die Führung der Punkte.
-              </p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li><Link href="/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken/" className="text-[#ff0000] hover:underline font-medium">Grundlegende Taktiken</Link>: die drei taktischen Säulen, die über Sieg und Niederlage entscheiden.</li>
-                <li><Link href="/taktiken-und-strategien/taktische-grundlagen/konventionen/" className="text-[#ff0000] hover:underline font-medium">Konventionen</Link>: ungeschriebene, aber weitverbreitete Signale zwischen Partnern.</li>
-                <li><Link href="/taktiken-und-strategien/taktische-grundlagen/partnertaktiken/" className="text-[#ff0000] hover:underline font-medium">Partnertaktiken</Link>: das Zusammenspiel im Team.</li>
-                <li><Link href="/taktiken-und-strategien/taktische-grundlagen/punktetaktiken/" className="text-[#ff0000] hover:underline font-medium">Punktetaktiken</Link>: die Punktevergabe bewusst gestalten.</li>
-              </ul>
-              <p>
-                <Link href="/taktiken-und-strategien/taktische-grundlagen/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
-                  Alle Artikel zu den taktischen Grundlagen &rarr;
-                </Link>
+                Über die Signale hinaus entscheidet auch, wie man die Punkte führt. Wer nur auf das eigene Blatt schaut und den Punktestand ignoriert, sagt schnell einen hohen Multiplikator an, der dem Gegner den Sieg schenkt. Wann sich ein hoher Multiplikator lohnt und wann nicht, zeigen die{' '}
+                <Link href="/taktiken-und-strategien/punktetaktiken/" className="text-[#ff0000] hover:underline">Punktetaktiken</Link>.
               </p>
             </div>
           </section>
