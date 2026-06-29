@@ -90,6 +90,12 @@ const getNavigationStructure = (content: JassContentRecord) => {
 
     cat.subcategories = sortedSubcats;
 
+    // Flacher Leitartikel einer Subkategorie (sub === topic, z. B. Signalsprache =
+    // «Kommunikation & Signale») nicht doppelt zeigen: die gleichnamige Subkategorie
+    // repräsentiert ihn bereits (ihr Header verlinkt auf dieselbe flache URL).
+    // Echte flache Artikel ohne gleichnamige Sub (z. B. Jasskarten) bleiben erhalten.
+    cat.flatArticles = cat.flatArticles.filter(a => !cat.subcategories[a.slug]);
+
     Object.keys(cat.subcategories).forEach(subCatSlug => {
       const subcat = cat.subcategories[subCatSlug];
 
