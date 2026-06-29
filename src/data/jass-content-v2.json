@@ -6903,7 +6903,7 @@
   },
   "schieber_taktiken_verwerfen_quer": {
     "id": "schieber_taktiken_verwerfen_quer",
-    "text": "Grundkonzept:\nBeim Quer gelten spezielle Konventionen für das Verwerfen.\n\nVerwerfen bei Quer:\nBeim Quer wird davon ausgegangen, dass der ansagende Spieler (sofern er Vorhand macht), seine ersten Stiche von Obe oder Unde durchspielen kann.\n\nKonventionen:\n• Beginnt der Vorhand-Spieler Obe, verwirft der Partner hohe Karten, um Unde ins Spiel eingreifen zu können\n• Beginnt der Vorhand-Spieler Unde, verwirft der Partner tiefe Karten, um dann Obe ins Spiel eingreifen zu können",
+    "text": "Beim [Quer](/ansagen/quer/) geht man davon aus, dass der Trumpf-Ansager, sofern er in Vorhand ist, seine ersten Stiche nach [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/) durchspielt.\n\nSein Partner braucht daher [Böcke](/begriffe/kartenbezeichnungen/bock/) für die zweite Hälfte der Stiche. Entsprechend verwirft er **auf keinen Fall** eine Farbe, die er unten braucht, wenn oben begonnen wurde, oder umgekehrt.\n\nEine einmal verworfene Farbe wird niemals übergeben. Auch nicht beim Quer und auch nicht, wenn die Reihenfolge des Stechwerts wechselt.",
     "metadata": {
       "id": "schieber_taktiken_verwerfen_quer_meta",
       "category": {
@@ -6931,20 +6931,16 @@
     },
     "faqs": [
       {
-        "question": "Wie verwirft man bei Quer richtig?",
-        "answer": "Beim Quer gelten spezielle Konventionen für das Verwerfen."
+        "question": "Wie verwirft man bei Quer?",
+        "answer": "Man verwirft keine Farbe, die man in der zweiten Spielhälfte noch braucht. Wurde oben begonnen, behält man die Karten, die man unten benötigt, und umgekehrt."
       },
       {
-        "question": "Was bedeutet Verwerfen bei Quer?",
-        "answer": "Beim Quer verwirft man Karten, um dem Partner zu signalisieren, welche Farben man nicht braucht."
+        "question": "Warum darf man bei Quer bestimmte Farben nicht verwerfen?",
+        "answer": "Weil der Partner für die zweite Hälfte der Stiche Böcke braucht. Wirft man die falsche Farbe ab, fehlen sie genau dann."
       },
       {
-        "question": "Welche Karten sollte man bei Quer verwerfen?",
-        "answer": "Man verwirft typischerweise Karten aus schwachen Farben, die man nicht zum Stechen braucht."
-      },
-      {
-        "question": "Was ist der Unterschied zum normalen Verwerfen?",
-        "answer": "Beim Quer gelten je nach Variante andere Punktewerte, daher muss man anders abwägen, welche Karten wertvoll sind."
+        "question": "Wird eine verworfene Farbe bei Quer wieder übergeben?",
+        "answer": "Nein. Eine einmal verworfene Farbe wird nie übergeben, auch beim Quer nicht und auch nicht, wenn der Stechwert wechselt."
       }
     ],
     "see_also": [
