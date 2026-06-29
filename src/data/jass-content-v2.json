@@ -644,48 +644,6 @@
       "expressions_kartenfarben"
     ]
   },
-  "expressions_anziehen": {
-    "id": "expressions_anziehen",
-    "text": "Definition:\nAnziehen ist eine Spielaktion beim Jassen, bei der ein Spieler seinem Partner durch das Ausspielen einer bestimmten Karte signalisiert, welche Farbe bei ihm besonders stark ist.\n\nBedeutung:\n• Diese Spielaktion zeigt dem Partner, dass man in dieser Farbe gute Karten besitzt\n• Ermöglicht eine bessere Koordination innerhalb des Teams (siehe Begriff \"expressions_team\")",
-    "metadata": {
-      "id": "expressions_anziehen_meta",
-      "category": {
-        "main": "Begriffe",
-        "sub": "Spielaktionen",
-        "topic": "Anziehen"
-      },
-      "keywords": [
-        "anziehen",
-        "signalisieren",
-        "starke farbe"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3
-    },
-    "faqs": [
-      {
-        "question": "Was bedeutet Anziehen beim Jassen?",
-        "answer": "Anziehen ist eine Spielaktion, bei der man dem Partner durch das Ausspielen einer bestimmten Karte signalisiert, welche Farbe bei einem stark ist."
-      },
-      {
-        "question": "Wie zieht man richtig an?",
-        "answer": "Man spielt eine kleine Karte einer Farbe aus, in der man starke Karten hat. Der Partner versteht: 'Spiel mir diese Farbe zu!'"
-      },
-      {
-        "question": "Was ist der Unterschied zwischen Anziehen und Verwerfen?",
-        "answer": "Anziehen zeigt eine starke Farbe an ('das will ich'), Verwerfen zeigt eine schwache Farbe an ('das brauch ich nicht')."
-      }
-    ],
-    "see_also": [
-      "expressions_verwerfen",
-      "expressions_vorhand",
-      "expressions_schmieren"
-    ]
-  },
   "expressions_banner": {
     "id": "expressions_banner",
     "text": "Das Banner ist der Zehner (10) einer Farbe bei den Deutschschweizer Spielkarten. Bei den französischen Karten entspricht ihm die Zehn, die dort keinen eigenen Namen trägt.\n\nMit 10 Punkten ist das Banner nach dem Ass die punktreichste Karte einer Farbe. Im Stechen ist es hingegen keine hohe Karte: Ass, König, Ober und Under stehen über ihm, das Banner folgt erst an fünfter Stelle der Stechreihenfolge.\n\nDas Banner bringt also viele Punkte, zählt aber nicht zu den hohen Stechkarten.",
@@ -6712,7 +6670,7 @@
   },
   "schieber_taktiken_anziehen": {
     "id": "schieber_taktiken_anziehen",
-    "text": "Definition:\nDas Anziehen (siehe Begriff \"expressions_anziehen\") ist eine wichtige Taktik, bei der man eine Farbe (siehe Begriff \"expressions_kartenfarben\") ausspielt, um die Trumpfkarten (siehe Begriff \"bodentrumpf\") der Gegner zu entfernen.\n\nStrategischer Zweck:\n• **Trumpf-Entzug:** Gegner werden gezwungen, ihre wertvollen Trumpfkarten (siehe Begriff \"bodentrumpf\") einzusetzen\n• **Vorbereitung:** Schafft Voraussetzungen für spätere erfolgreiche Stiche in anderen Farben\n• **Kontrolle:** Man erhält bessere Kontrolle über den weiteren Spielverlauf\n\nTiming:\nDas Anziehen sollte strategisch klug eingesetzt werden - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung.\n\nPartnerkoordination:\nIdeales Anziehen (siehe Begriff \"expressions_anziehen\") erfolgt in Absprache mit dem Partner, um maximalen Nutzen zu erzielen.",
+    "text": "Das Anziehen ist neben dem [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) die wichtigste Taktik beim Jassen, besonders für das Team, das [am Drücker](/begriffe/grundbegriffe/am-druecker/) ist.\n\nAnziehen bedeutet, jene [Farbe](/grundlagen-kultur/jasskarten/) auszuspielen, bei der man selber stark ist. Damit erreicht man zweierlei:\n\n1. Man kommuniziert dem Partner, dass das die starke Farbe ist.\n2. Im wörtlichen Sinn werden Karten dieser Farbe «angezogen». Das erhöht die Chance, aus der Farbe einen oder mehrere [Böcke](/begriffe/kartenbezeichnungen/bock/) zu machen.\n\n## Beispiel 1: Der Klassiker\n\nEin Spieler hat den König und weitere Karten einer Farbe. Er zieht die Farbe an, in der Hoffnung, dass der Partner das Ass hat oder einer der Gegner es spielt (idealerweise so, dass der Partner mit einem Trumpf abstechen kann). Damit ist die Farbe angezogen, der König wird zum Bock, und die weiteren Karten der Farbe womöglich ebenfalls.\n\n## Beispiel 2: Anziehen trotz Ass\n\nSpieler A stellt fest, dass sein Partner B und er selber noch je einen Trumpf haben. A hält das Ass und drei weitere tiefe Karten dieser Farbe. Statt sofort das Ass zu spielen, zieht er die Farbe zuerst tief an. Weshalb?\n\nWird zuerst tief angezogen, sticht B ab und kann seine eigene Farbe anziehen. A setzt seinen Trumpf dann für die angezogene Farbe des Partners ein. A hält weiterhin das Ass: Nach einmal Anziehen und dem Ausspielen des Asses darf er damit rechnen, dass die verbleibenden zwei Karten der Farbe zu Böcken werden.",
     "metadata": {
       "id": "schieber_taktiken_anziehen_meta",
       "category": {
@@ -6745,15 +6703,15 @@
     "faqs": [
       {
         "question": "Was bedeutet Anziehen beim Jassen?",
-        "answer": "Anziehen ist eine Taktik, bei der man eine Farbe ausspielt, um die Trumpfkarten der Gegner zu entfernen."
+        "answer": "Man spielt die Farbe aus, in der man stark ist. Das signalisiert dem Partner die starke Farbe und zieht Karten dieser Farbe heraus, sodass die eigenen hohen Karten zu Böcken werden."
       },
       {
-        "question": "Warum ist Anziehen wichtig?",
-        "answer": "Anziehen entzieht Gegnern wertvolle Trumpfkarten, bereitet spätere erfolgreiche Stiche vor und verschafft bessere Kontrolle über den Spielverlauf."
+        "question": "Was ist der Unterschied zwischen Anziehen und Verwerfen?",
+        "answer": "Anziehen zeigt eine starke Farbe an, indem man sie ausspielt. Verwerfen zeigt eine schwache Farbe an, indem man sie abwirft."
       },
       {
-        "question": "Wann sollte man anziehen?",
-        "answer": "Das Timing ist wichtig - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung. Ideales Anziehen erfolgt in Absprache mit dem Partner."
+        "question": "Soll man das Ass sofort spielen, wenn man eine Farbe anzieht?",
+        "answer": "Nicht immer. Mit dem Ass und tiefen Karten kann es besser sein, die Farbe zuerst tief anzuziehen, um die Trümpfe mit dem Partner zu koordinieren, und das Ass erst später zu spielen."
       }
     ],
     "see_also": [
