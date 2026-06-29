@@ -135,6 +135,7 @@ const AnsagenLeitartikel: NextPage = () => {
             </h2>
             <div className="grid gap-4 sm:gap-5">
               {[
+                { slug: 'trumpffarbe', name: 'Trumpffarbe', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
                 { slug: 'obenabe', name: 'Obenabe', desc: 'ohne Trumpf, die höchste Karte (Ass) sticht.' },
                 { slug: 'undenufe', name: 'Undenufe', desc: 'ohne Trumpf, die tiefste Karte (6) sticht.' },
                 { slug: 'slalom-zickzack', name: 'Slalom (Zickzack)', desc: 'abwechselnd Obenabe und Undenufe pro Stich.' },

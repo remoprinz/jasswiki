@@ -172,22 +172,20 @@ const WissenHomePage = () => {
                             >
                                 <div className="rounded-[12px] border border-[#e8e6df] bg-[#f0eee7]/50 px-[14px] sm:px-[20px] py-[12px] sm:py-[16px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors">
                                     <div className="flex items-center gap-[12px] sm:gap-[16px] mb-[6px] sm:mb-[8px]">
-                                        <div className={`${colorClass} rounded-[10px] sm:rounded-[12px] p-[8px] sm:p-[10px] flex-shrink-0 mt-[4px]`}>
-                                            {category.slug === 'jassen' ? (
+                                        {category.slug === 'jassen' ? (
+                                            <div className="rounded-[10px] sm:rounded-[12px] flex-shrink-0 mt-[4px] w-[34px] h-[34px] sm:w-[42px] sm:h-[42px] overflow-hidden">
                                                 <img
                                                     src="/swiss-cross.png"
                                                     alt="Schweizerkreuz"
-                                                    width={22}
-                                                    height={22}
-                                                    className="w-[18px] h-[18px] sm:w-[22px] sm:h-[22px] rounded-[3px]"
+                                                    className="w-full h-full object-cover"
                                                 />
-                                            ) : (
-                                                <>
-                                                    <Icon size={18} className="text-white sm:hidden" />
-                                                    <Icon size={22} className="text-white hidden sm:block" />
-                                                </>
-                                            )}
-                                        </div>
+                                            </div>
+                                        ) : (
+                                            <div className={`${colorClass} rounded-[10px] sm:rounded-[12px] p-[8px] sm:p-[10px] flex-shrink-0 mt-[4px]`}>
+                                                <Icon size={18} className="text-white sm:hidden" />
+                                                <Icon size={22} className="text-white hidden sm:block" />
+                                            </div>
+                                        )}
                                         <h3 className="font-capita text-[16px] sm:text-[18px] font-bold !text-black leading-[1.3] group-hover:!text-[#ff0000] transition-colors">
                                             {category.name}
                                         </h3>
