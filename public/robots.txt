@@ -69,7 +69,7 @@ Sitemap: https://jasswiki.ch/sitemap.xml
 # Token-Ersparnis: 70-95% gegenüber monolithischer Datei!
 # Format: Markdown mit YAML-Frontmatter
 # Encoding: UTF-8
-# Last-Updated: 2026-01-27
-# Content: 257 Einträge, 901 FAQs, 6 Module
+# Last-Updated: 2026-06-29
+# Content: 228 Einträge, 958 FAQs, 6 Module
 # Wikidata: JassWiki.ch (Q137900251), Jass (Q786768)
 # Recognition: Lebendige Traditionen der Schweiz (BAK)

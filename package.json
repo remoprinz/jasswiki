@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "rm -rf out .next && bash clean-icloud-dupes.sh",
-    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run sync:mcp && npm run sitemap && npm run validate:urls && npm run generate:og && next build",
+    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run generate:llms && npm run sync:mcp && npm run sitemap && npm run validate:urls && npm run generate:og && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
@@ -15,6 +15,7 @@
     "sitemap": "node generate-sitemap.mjs",
     "generate:taxonomy": "node generate-taxonomy-jsonld.mjs",
     "generate:corpus": "node generate-corpus.mjs",
+    "generate:llms": "node agentic/generate-modular-llms.mjs",
     "sync:mcp": "node sync-mcp-data.mjs",
     "validate:urls": "node validate-urls.mjs",
     "generate:og": "node generate-og.mjs",

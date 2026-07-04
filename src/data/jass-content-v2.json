@@ -3661,6 +3661,10 @@
     },
     "faqs": [
       {
+        "question": "Was sind die Kartenwerte beim Jassen?",
+        "answer": "Ohne Trumpf zählt das Ass 11, das Banner (Zehner) 10, der König 4, der Ober 3 und der Under 2 Punkte; Neuner, Achter, Siebner und Sechser zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte). Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich."
+      },
+      {
         "question": "Wie viele Punkte zählt das Ass?",
         "answer": "11 Punkte. In Undenufe übernimmt der Sechser diese Rolle als höchste Karte."
       },
@@ -7648,6 +7652,10 @@
     },
     "faqs": [
       {
+        "question": "Was ist Coiffeur?",
+        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten – die vier Trumpffarben, Obenabe, Undenufe und zwei Joker – genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
+      },
+      {
         "question": "Wie spielt man Coiffeur?",
         "answer": "Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt."
       },
@@ -8022,7 +8030,9 @@
         "familienspiel",
         "kinderspiel",
         "einstieg jassen",
-        "basis kartenspiel"
+        "basis kartenspiel",
+        "tschau sepp regeln",
+        "tschau sepp spielregeln"
       ],
       "situations": [
         "LEARNING"
@@ -8033,8 +8043,16 @@
     },
     "faqs": [
       {
+        "question": "Was ist Tschau Sepp?",
+        "answer": "Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau – ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen."
+      },
+      {
+        "question": "Was sind die Regeln von Tschau Sepp?",
+        "answer": "Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Reihum legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt; wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp» – wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erste:r alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart."
+      },
+      {
         "question": "Wie spielt man Tschau Sepp?",
-        "answer": "Tschau Sepp ist die Schweizer Variante des bekannten Kartenspiels Mau-Mau (auch bekannt als Mau Mau)."
+        "answer": "Man legt reihum eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Wer als Erste:r alle Karten losgeworden ist und «Sepp» angesagt hat, gewinnt."
       },
       {
         "question": "Wie viele Spieler braucht man für Tschau Sepp?",
@@ -9355,6 +9373,14 @@
       "wikidata_id": "Q137731684"
     },
     "faqs": [
+      {
+        "question": "Was ist Differenzler?",
+        "answer": "Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis – je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim."
+      },
+      {
+        "question": "Wie spielt man Differenzler?",
+        "answer": "Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt – die Abweichung (Differenz) ist der Verlust. Eine Schlüsselkarte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält."
+      },
       {
         "question": "Was ist der Unterschied zwischen verdeckter und offener Ansage beim Differenzler?",
         "answer": "Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht. Jeder Spieler schreibt seine geschätzte Punktzahl auf einen Zettel, der bis zum Spielende verdeckt bleibt."

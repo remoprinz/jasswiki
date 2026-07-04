@@ -20,19 +20,19 @@ export function resolveMarkers(text, idToTopic = {}) {
 
   // 1. "Anzeigetext" (siehe Begriff "id")  ->  Anzeigetext
   text = text.replace(
-    /[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    /[«"]([^»"]+)[»"]\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
     (_, display) => display
   );
 
   // 2. Wort (siehe Begriff "id")  ->  Wort
   text = text.replace(
-    /([A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    /([A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\w-]*)\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
     (_, term) => term
   );
 
   // 3. (siehe Begriff "id") allein  ->  (siehe Themen-Titel) oder weg
   text = text.replace(
-    /\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    /\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
     (_, id) => (idToTopic[id] ? ` (siehe ${idToTopic[id]})` : '')
   );
 

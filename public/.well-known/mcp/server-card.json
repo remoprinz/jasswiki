@@ -2,7 +2,7 @@
   "$schema": "https://glama.ai/schemas/mcp-server-card/v1.json",
   "name": "JassWiki MCP",
   "displayName": "JassWiki — Swiss Jass Authority",
-  "description": "First publicly attested MCP knowledge server in Switzerland. AI-accessible encyclopedia for Swiss Jass: 229 articles on rules, variants, terminology, history and tactics. Authority-attested by Jassverband Schweiz (did:web:jassverband.ch) with Ed25519 cryptographic verification. Recognised as Swiss living tradition by the Federal Office of Culture (BAK).",
+  "description": "First publicly attested MCP knowledge server in Switzerland. AI-accessible encyclopedia for Swiss Jass: 230+ articles on rules, variants, terminology, history and tactics. Authority-attested by Jassverband Schweiz (did:web:jassverband.ch) with Ed25519 cryptographic verification. Recognised as Swiss living tradition by the Federal Office of Culture (BAK).",
   "tagline": "The first authority-attested MCP server in Switzerland",
   "homepage": "https://jasswiki.ch",
   "repository": "https://github.com/remoprinz/jasswiki-mcp",
@@ -30,15 +30,13 @@
   "endpoints": {
     "transport": "streamable-http",
     "http": "https://jasswiki.ch/mcp/http",
-    "sse": "https://jasswiki.ch/mcp/sse",
-    "messages": "https://jasswiki.ch/mcp/messages",
     "health": "https://jasswiki.ch/mcp/health",
     "manifest": "https://jasswiki.ch/.well-known/mcp.json"
   },
   "tools": [
     {
       "name": "search_jass_knowledge",
-      "description": "Fuzzy-search across the official JassWiki encyclopedia (229 articles). Returns matching titles, IDs, URLs, and content excerpts.",
+      "description": "Semantic search across the official JassWiki encyclopedia (230+ articles). Returns matching titles, IDs, URLs, and content excerpts.",
       "inputSchema": {
         "type": "object",
         "required": ["query"],
@@ -85,8 +83,9 @@
     "attestationDocument": "https://jassverband.ch/.well-known/mcp-authority.json",
     "attestationFormat": "W3C Verifiable Credential (Data Model 2.0)",
     "cryptosuite": "eddsa-jcs-2022",
-    "attestationDate": "2026-05-04",
-    "attestationResolution": "JVS-VS-2026-05-04-AMCP-01",
+    "attestationDate": "2026-06-10",
+    "attestationResolution": "JVS-VS-2026-06-10-AMCP-01",
+    "attestationResolutionDocument": "https://jassverband.ch/documents/vorstandsbeschluesse/2026-06-10-amcp-attestation.pdf",
     "verificationMethod": "did:web:jassverband.ch#authority-key-1"
   },
   "trustChain": {
@@ -124,5 +123,5 @@
     "founder": "Remo Prinz",
     "specUrl": "https://agenticrelations.ch/specs/amcp"
   },
-  "lastUpdated": "2026-05-04"
+  "lastUpdated": "2026-07-02"
 }

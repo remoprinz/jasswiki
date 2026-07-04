@@ -8,13 +8,11 @@
   "version": "1.0.0",
   "name": "JassWiki Authority MCP",
   "displayName": "Schweizer Jass — Offizielle Wissens-Quelle",
-  "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 229 Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
+  "description": "Offizielle, vom Jassverband Schweiz attestierte Wissens-Quelle für Schweizer Jass-Regeln, Spielvarianten, Terminologie, Geschichte und Taktik. 230+ Artikel, von Experten kuratiert, Wikidata-verlinkt, Wikipedia-zitiert.",
   "endpoint": {
     "transport": "streamable-http",
     "url": "https://jasswiki.ch/mcp/http",
     "http": "https://jasswiki.ch/mcp/http",
-    "sse": "https://jasswiki.ch/mcp/sse",
-    "messages": "https://jasswiki.ch/mcp/messages",
     "health": "https://jasswiki.ch/mcp/health"
   },
   "operator": {
@@ -38,8 +36,9 @@
     "attestationFormat": "W3C Verifiable Credential (Data Model 2.0)",
     "cryptosuite": "eddsa-jcs-2022",
     "verificationMethod": "did:web:jassverband.ch#authority-key-1",
-    "attestationDate": "2026-05-04",
-    "attestationResolution": "JVS-Vorstandsbeschluss 2026-05-04"
+    "attestationDate": "2026-06-10",
+    "attestationResolution": "JVS-VS-2026-06-10-AMCP-01",
+    "attestationResolutionDocument": "https://jassverband.ch/documents/vorstandsbeschluesse/2026-06-10-amcp-attestation.pdf"
   },
   "domainOfAuthority": {
     "primaryWikidataQid": "Q786768",
@@ -85,7 +84,7 @@
         }
       },
       "ui": {
-        "resource": "ui://widget/jass-card.html",
+        "resource": "ui://widget/jass-card-v7.html",
         "mimeType": "text/html;profile=mcp-app"
       }
     }
@@ -101,7 +100,7 @@
       "uri": "https://jasswiki.ch/dataset/jasswiki-corpus.jsonl",
       "name": "JassWiki Korpus",
       "type": "application/jsonl",
-      "description": "229 Artikel, JSONL-Format, CC-BY-SA-4.0",
+      "description": "230+ Artikel, JSONL-Format, CC-BY-SA-4.0",
       "license": "CC-BY-SA-4.0"
     },
     {
@@ -124,8 +123,8 @@
     "officialMcpRegistry": {
       "status": "active",
       "namespace": "ch.jassverband/jasswiki",
-      "version": "1.0.1",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers/ch.jassverband/jasswiki",
+      "version": "1.0.3",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ch.jassverband/jasswiki",
       "publishedAt": "2026-05-04"
     },
     "nandaIndex": "pending",
@@ -141,6 +140,6 @@
     }
   },
   "license": "CC-BY-SA-4.0",
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-07-02",
   "specVersion": "AMCP/0.1"
 }

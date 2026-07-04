@@ -107,7 +107,7 @@
             },
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
+              "value": "<https://jasswiki.ch/mcp/http>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
             },
             {
               "key": "X-MCP-Authority",
@@ -156,7 +156,7 @@
             },
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
+              "value": "<https://jasswiki.ch/mcp/http>; rel=\"mcp-server\"; type=\"application/json\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jassverband.ch/.well-known/did.json>; rel=\"attestor-did\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
             },
             {
               "key": "X-MCP-Authority",
@@ -185,7 +185,7 @@
           "headers": [
             {
               "key": "Link",
-              "value": "<https://us-central1-jassguru.cloudfunctions.net/mcp>; rel=\"mcp-server\"; type=\"application/json\", <https://jasswiki.ch/llms.txt>; rel=\"ai-content-source\"; type=\"text/plain\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
+              "value": "<https://jasswiki.ch/mcp/http>; rel=\"mcp-server\"; type=\"application/json\", <https://jasswiki.ch/llms.txt>; rel=\"ai-content-source\"; type=\"text/plain\", <https://jassverband.ch/.well-known/mcp-authority.json>; rel=\"authority-attestation\"; type=\"application/json\", <https://jasswiki.ch/.well-known/mcp.json>; rel=\"mcp-manifest\"; type=\"application/json\""
             },
             {
               "key": "X-Agentic-Context",
@@ -2638,6 +2638,11 @@
         {
           "source": "/begriffe/spielaktionen/verwerfen",
           "destination": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
+          "type": 301
+        },
+        {
+          "source": "/ansagen/:sub/:topic",
+          "destination": "/ansagen/:topic/",
           "type": 301
         }
       ]

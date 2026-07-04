@@ -15,6 +15,11 @@ const FAQS = [
     question: 'Was ist Jassen?',
     answer: 'Jassen ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten.',
   },
+  // 1b. Grundablauf — wie wird gespielt?
+  {
+    question: 'Wie geht Jassen?',
+    answer: 'Vier Personen bilden zwei Teams (die Partner sitzen sich gegenüber) und erhalten je 9 der 36 Karten. Eine Farbe wird zum Trumpf bestimmt. Reihum spielt jeder eine Karte aus; man muss die angespielte Farbe bedienen, sonst darf man trumpfen oder abwerfen. Den Stich gewinnt die höchste Trumpfkarte – ohne Trumpf die höchste Karte der angespielten Farbe –, und wer gewinnt, spielt zum nächsten Stich aus. Gezählt werden die Kartenpunkte der gewonnenen Stiche, 157 pro Runde. Die häufigste Variante ist der Schieber.',
+  },
   // 2. Wie funktioniert die beliebteste Variante?
   {
     question: 'Wie geht Schieber?',

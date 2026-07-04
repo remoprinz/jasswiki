@@ -78,6 +78,48 @@ function buildDefinedTermSet(content: JassContentRecord, categorySlug: string) {
   };
 }
 
+// Natürliche Einstiegsfragen pro Kategorie-Landing — sichtbar + als FAQPage-Schema.
+// Erdet die häufigsten Suchanfragen ("jassregeln", "weis", "varianten") auf den
+// top-zitierten Übersichtsseiten, die bisher kein FAQ hatten. Alle Antworten sind
+// in den bestehenden Artikeln verankert (keine neuen Mechaniken).
+const CATEGORY_FAQS: Record<string, { question: string; answer: string }[]> = {
+  regeln: [
+    { question: 'Was sind die Jassregeln?', answer: 'Gespielt wird mit 36 Karten. Man muss die angespielte Farbe bedienen; hat man sie nicht, darf man trumpfen oder eine beliebige Karte abwerfen. Den Stich gewinnt die höchste Trumpfkarte – ohne Trumpf die höchste Karte der angespielten Farbe –, und wer gewinnt, spielt zum nächsten Stich aus. Pro Runde sind 157 Punkte zu vergeben: 152 Kartenpunkte und 5 für den letzten Stich.' },
+    { question: 'Wie viele Punkte hat eine Jassrunde?', answer: 'Genau 157 Punkte: 152 aus den Karten plus 5 Bonuspunkte für den letzten Stich.' },
+    { question: 'Muss man beim Jassen Farbe bedienen?', answer: 'Ja. Wer die angespielte Farbe auf der Hand hat, muss sie spielen. Nur wer sie nicht hat, darf trumpfen oder eine andere Karte abwerfen.' },
+    { question: 'Was sind die Kartenwerte beim Jassen?', answer: 'Ohne Trumpf: Ass 11, Banner (Zehner) 10, König 4, Ober 3, Under 2 Punkte; Sechser bis Neuner zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte).' },
+  ],
+  'weis-regeln': [
+    { question: 'Was ist ein Weis beim Jassen?', answer: 'Ein Weis ist eine Kartenkombination – mindestens drei aufeinanderfolgende Karten gleicher Farbe oder vier gleiche Karten –, die vor dem ersten Stich angesagt wird und Bonuspunkte bringt.' },
+    { question: 'Wie viele Punkte gibt ein Weis?', answer: 'Ein Dreiblatt gibt 20 Punkte, ein Vierblatt 50, ein Fünfblatt 100. Vier gleiche Karten zählen 100 bis 200 Punkte. Die Stöck (König und Ober der Trumpffarbe) zählen 20 Punkte.' },
+    { question: 'Wer darf den Weis schreiben?', answer: 'Es zählt nur der höchste Weis am Tisch: Das Team mit dem höchsten Weis darf alle seine Weise schreiben, das gegnerische Team keine.' },
+  ],
+  varianten: [
+    { question: 'Welche Jass-Varianten gibt es?', answer: 'Über 40, darunter Schieber (die beliebteste), Coiffeur, Differenzler, Molotow, Pandur, Sidi Barrani, Bieter, Guggitaler und Tschau Sepp.' },
+    { question: 'Was ist die beliebteste Jass-Variante?', answer: 'Der Schieber – vier Personen in zwei Teams, bei dem man die Trumpffarbe wählt oder die Wahl an den Partner schiebt.' },
+  ],
+  geschichte: [
+    { question: 'Woher kommt das Jassen?', answer: 'Das Jassen gelangte Ende des 18. Jahrhunderts aus den Niederlanden über Söldner in die Schweiz; die erste Erwähnung stammt von 1796. Im 20. Jahrhundert wurde es – unter anderem durch den Samschtig-Jass – zum Nationalspiel.' },
+  ],
+  'grundlagen-kultur': [
+    { question: 'Wie geht Jassen?', answer: 'Vier Personen bilden zwei Teams und erhalten je 9 der 36 Karten. Eine Farbe wird zum Trumpf bestimmt. Reihum spielt jede Person eine Karte aus und muss die angespielte Farbe bedienen. Den Stich gewinnt die höchste Trumpfkarte – ohne Trumpf die höchste Karte der angespielten Farbe. Gezählt werden die Kartenpunkte der gewonnenen Stiche, 157 pro Runde.' },
+    { question: 'Ist Jassen ein Schweizer Kulturgut?', answer: 'Ja, das Bundesamt für Kultur (BAK) führt das Jassen als lebendige Tradition der Schweiz.' },
+  ],
+};
+
+function buildCategoryFaqJsonLd(faqs: { question: string; answer: string }[] | null) {
+  if (!faqs || faqs.length === 0) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  };
+}
+
 interface CategoryPageProps {
   category: string;
   categorySlug: string;
@@ -85,9 +127,10 @@ interface CategoryPageProps {
   articles?: JassContentItem[]; // For flat structure (Varianten)
   isFlat?: boolean; // True for Varianten
   definedTermSet?: Record<string, unknown> | null; // schema.org DefinedTermSet (nur /begriffe/)
+  categoryFaqs?: { question: string; answer: string }[] | null; // Kategorie-FAQ (sichtbar + FAQPage)
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null }) => {
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null, categoryFaqs = null }) => {
   const router = useRouter();
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
@@ -140,6 +183,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSet) }}
+        />
+      )}
+      {categoryFaqs && categoryFaqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildCategoryFaqJsonLd(categoryFaqs)) }}
         />
       )}
       <div className="space-y-6 sm:space-y-8">
@@ -266,6 +315,27 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
           </div>
         )}
 
+        {/* Häufige Fragen (FAQ) — sichtbar, ergänzt das FAQPage-Schema */}
+        {categoryFaqs && categoryFaqs.length > 0 && (
+          <div className="pt-8 border-t border-[#f0eee7]">
+            <h2 className="font-capita text-[22px] sm:text-[28px] font-bold text-black mb-[16px] leading-[1.2]">
+              Häufige Fragen
+            </h2>
+            <div className="space-y-[16px]">
+              {categoryFaqs.map((faq, i) => (
+                <div key={i}>
+                  <h3 className="font-capita text-[16px] sm:text-[18px] font-bold text-black mb-[4px] leading-[1.3]">
+                    {faq.question}
+                  </h3>
+                  <p className="font-inter text-[14px] sm:text-[16px] text-[#88816d] leading-[1.5]">
+                    {faq.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Back to Overview Link */}
         <div className="text-center pt-8 border-t border-[#f0eee7]">
           <Link 
@@ -320,6 +390,8 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
     return { notFound: true };
   }
   
+  const categoryFaqs = CATEGORY_FAQS[categorySlug] || null;
+
   // Spezialfall: Varianten haben flache Struktur (keine Subkategorien)
   const isVarianten = categorySlug === 'varianten';
   
@@ -335,7 +407,8 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
           text: article.text.substring(0, 200),
           metadata: article.metadata
         })),
-        isFlat: true
+        isFlat: true,
+        categoryFaqs
       }
     };
   }
@@ -349,7 +422,8 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
       categorySlug,
       subcategories,
       isFlat: false,
-      definedTermSet
+      definedTermSet,
+      categoryFaqs
     }
   };
 };

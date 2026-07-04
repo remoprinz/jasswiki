@@ -3,8 +3,8 @@ title: "JassWiki.ch - Taktiken & Strategien"
 description: "Fortgeschrittene Spieltaktiken für erfahrene Jasser"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 13
-last_updated: 2026-01-04
+entries_count: 10
+last_updated: 2026-07-04
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -18,167 +18,84 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 
 ---
 
-## Inhaltsverzeichnis
-
-- [Anziehen](#schieber_taktiken_anziehen)
-- [Grundlegende Taktiken](#schieber_taktiken_basics)
-- [Konventionen](#schieber_conventions)
-- [Punktetaktiken](#schieber_taktiken_scoring)
-- [Trumpfansagen](#schieber_taktiken_trump)
-- [Verwerfen](#schieber_taktiken_verwerfen)
-- [Partnertaktiken](#schieber_taktiken_partner)
-- [Fortgeschrittene Taktiken](#schieber_taktiken_advanced)
-- [Spezielle Taktiken](#schieber_taktiken_special)
-- [Querverwerfen](#schieber_taktiken_querverwerfen)
-- [Verwerfen bei Quer/Guschti](#schieber_taktiken_verwerfen_quer)
-- [Verwerfen beim Slalom](#schieber_taktiken_verwerfen_slalom)
-- [Hoch - tief / Tief - hoch - tief](#schieber_taktiken_hoch_tief)
-
----
-
 ## Einträge
 
 ### Anziehen {#schieber_taktiken_anziehen}
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Definition:
-Das Anziehen (siehe Begriff "expressions_anziehen") ist eine wichtige Taktik, bei der man eine Farbe (siehe Begriff "expressions_kartenfarben") ausspielt, um die Trumpfkarten (siehe Begriff "bodentrumpf") der Gegner zu entfernen.
+Das Anziehen ist neben dem [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) die wichtigste Taktik beim Jassen, besonders für das Team, das [am Drücker](/begriffe/grundbegriffe/am-druecker/) ist.
 
-Strategischer Zweck:
-• **Trumpf-Entzug:** Gegner werden gezwungen, ihre wertvollen Trumpfkarten (siehe Begriff "bodentrumpf") einzusetzen
-• **Vorbereitung:** Schafft Voraussetzungen für spätere erfolgreiche Stiche  in anderen Farben
-• **Kontrolle:** Man erhält bessere Kontrolle über den weiteren Spielverlauf
+Anziehen bedeutet, jene [Farbe](/grundlagen-kultur/jasskarten/) auszuspielen, bei der man selber stark ist. Damit erreicht man zweierlei:
 
-Timing:
-Das Anziehen sollte strategisch klug eingesetzt werden - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung.
+1. Man kommuniziert dem Partner, dass das die starke Farbe ist.
+2. Im wörtlichen Sinn werden Karten dieser Farbe «angezogen». Das erhöht die Chance, aus der Farbe einen oder mehrere [Böcke](/begriffe/kartenbezeichnungen/bock/) zu machen.
 
-Partnerkoordination:
-Ideales Anziehen (siehe Begriff "expressions_anziehen") erfolgt in Absprache mit dem Partner, um maximalen Nutzen zu erzielen.
+## Beispiel 1: Der Klassiker
+
+Ein Spieler hat den König und weitere Karten einer Farbe. Er zieht die Farbe an, in der Hoffnung, dass der Partner das Ass hat oder einer der Gegner es spielt (idealerweise so, dass der Partner mit einem Trumpf abstechen kann). Damit ist die Farbe angezogen, der König wird zum Bock, und die weiteren Karten der Farbe womöglich ebenfalls.
+
+## Beispiel 2: Anziehen trotz Ass
+
+Spieler A stellt fest, dass sein Partner B und er selber noch je einen Trumpf haben. A hält das Ass und drei weitere tiefe Karten dieser Farbe. Statt sofort das Ass zu spielen, zieht er die Farbe zuerst tief an. Weshalb?
+
+Wird zuerst tief angezogen, sticht B ab und kann seine eigene Farbe anziehen. A setzt seinen Trumpf dann für die angezogene Farbe des Partners ein. A hält weiterhin das Ass: Nach einmaligem Anziehen und dem Ausspielen des Asses darf er damit rechnen, dass die verbleibenden zwei Karten der Farbe zu Böcken werden.
+
+Bringt Spieler B die Farbe sogar zurück, hat A die Option, sie mit seinem Trumpf nochmals abzustechen, statt das Ass einzusetzen. Er behält so das Ass und zwei weitere Karten. Die Farbe ist jetzt so weit angezogen, dass A mit dem Ass und den zwei weiteren Karten praktisch garantiert drei Stiche macht.
 
 **Häufige Fragen:**
-- **Was bedeutet Anziehen beim Jassen?** Anziehen ist eine Taktik, bei der man eine Farbe ausspielt, um die Trumpfkarten der Gegner zu entfernen.
-- **Warum ist Anziehen wichtig?** Anziehen entzieht Gegnern wertvolle Trumpfkarten, bereitet spätere erfolgreiche Stiche vor und verschafft bessere Kontrolle über den Spielverlauf.
-- **Wann sollte man anziehen?** Das Timing ist wichtig - zu früh kann es verschwenderisch sein, zu spät verpufft die Wirkung. Ideales Anziehen erfolgt in Absprache mit dem Partner.
+- **Was bedeutet Anziehen beim Jassen?** Man spielt die Farbe aus, in der man stark ist. Das signalisiert dem Partner die starke Farbe und zieht Karten dieser Farbe heraus, sodass die eigenen hohen Karten zu Böcken werden.
+- **Was ist der Unterschied zwischen Anziehen und Verwerfen?** Anziehen zeigt eine starke Farbe an, indem man sie ausspielt. Verwerfen zeigt eine schwache Farbe an, indem man sie abwirft.
+- **Soll man das Ass sofort spielen, wenn man eine Farbe anzieht?** Nicht immer. Mit dem Ass und tiefen Karten kann es besser sein, die Farbe zuerst tief anzuziehen, um die Trümpfe mit dem Partner zu koordinieren, und das Ass erst später zu spielen.
 
 *Keywords: anziehen, farbe, under, stark, schwach*
 
 ---
 
-### Grundlegende Taktiken {#schieber_taktiken_basics}
+### Nachschmeissen {#expressions_nachschmeissen}
 
-**Kategorie:** Taktiken und Strategien > Taktische Grundlagen
-
-Grundkonzept:
-Beim Schieber gibt es drei wesentliche taktische Säulen, die über Sieg oder Niederlage entscheiden können.
-
-Kommunikation:
-• Die erste ausgespielte Karte vermittelt häufig Informationen über die eigene Stärke oder Schwäche
-• Das Abwerfen  gibt dem Partner wichtige Hinweise auf die eigenen Farben
-• Auch die Entscheidung, ob gestochen wird oder nicht, dient als Signal
-
-Timing:
-• Den richtigen Moment für verschiedene Aktionen finden, wie Anziehen (siehe Begriff "expressions_anziehen"), Schmieren (siehe Begriff "expressions_schmieren") oder Stechen 
-• Früh spielen vs. spät spielen – Karten zum optimalen Zeitpunkt einsetzen
-
-Kartenverwaltung:
-• Eigene Trumpfkarten (siehe Begriff "bodentrumpf") effizient nutzen
-• Farben (siehe Begriff "expressions_kartenfarben") gezielt aufbauen oder schwächen
-• Stiche  für den Partner vorbereiten
-
-**Häufige Fragen:**
-- **Was sind die wichtigsten Taktiken beim Schieber?** Die drei wesentlichen Säulen sind Kommunikation (durch Kartenspiel), richtiges Timing (wann spielt man welche Karte) und Kartenverwaltung (effiziente Nutzung von Trumpf und Farben).
-- **Wie kommuniziert man mit dem Partner?** Durch die erste ausgespielte Karte, das Abwerfen bestimmter Karten und die Entscheidung, ob man sticht oder nicht.
-- **Was ist wichtig beim Timing?** Man muss den richtigen Moment finden für Aktionen wie Anziehen, Schmieren oder Stechen - ob man früh oder spät spielt, beeinflusst den Erfolg massgeblich.
-- **Welche Taktiken gibt es beim Schieber?** Wichtige Taktiken: Anziehen (Farbe anspielen), Schmieren (Partner unterstützen), Hoch–tief (Trumpfsignale), Verwerfen (Farben loswerden), Querverwerfen (Farbsignale), Stechen/Untertrumpfen. (Siehe Detailartikel.)
-- **Wie kommuniziert man mit dem Partner beim Schieber?** Durch Kartenwahl: Hoch–tief für Trumpflänge, Verwerfen zeigt Schwäche, Anziehen zeigt Stärke, Schmieren unterstützt Partner. Keine verbale Kommunikation (Schnorren verboten).
-
-*Keywords: taktik, strategie, grundregel, kommunikation, timing*
-
----
-
-### Konventionen {#schieber_conventions}
-
-**Kategorie:** Taktiken und Strategien > Taktische Grundlagen
+**Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
 Definition:
-Konventionen sind ungeschriebene, aber weitverbreitete Verhaltensweisen und Signale zwischen Partnern beim Schieber.
+• Unter Nachschmeissen versteht man eine Taktik, wo der Partner des Spielers, der am Drücker ist, eine eigene starke (potentiell eine spätere Bock-Karte) opfert, um seinem Partner den Weg zu ebnen (vgl. auch Am Drücker).
 
-Wichtige Konventionen:
-• **Erste Karte signalisiert:** Die erste ausgespielte Karte gibt oft Hinweise auf Stärke oder Schwäche in dieser Farbe (siehe Begriff "expressions_kartenfarben")
-• **Verwerfen kommuniziert:** Das Abwerfen  bestimmter Karten signalisiert dem Partner Informationen über die eigene Hand
-• **Stechentscheidungen:** Ob und wie man sticht , kann als Signal verstanden werden
+Beispiel:
+• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe – also Schellen – ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, um seinem Partner den Weg zu ebnen.
 
-Wichtigkeit:
-Das Verständnis und die Anwendung dieser Konventionen sind entscheidend für erfolgreiche Teamarbeit beim Schieber.
-
-Variabilität:
-Konventionen können regional oder innerhalb von Spielgruppen variieren, daher ist es ratsam, sich vor dem Spiel abzustimmen.
+Wichtig:
+• Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
 
 **Häufige Fragen:**
-- **Was sind Konventionen beim Jassen?** Konventionen sind ungeschriebene, aber weitverbreitete Verhaltensweisen und Signale zwischen Partnern beim Schieber.
-- **Welche Konventionen gibt es beim Schieber?** Die erste ausgespielte Karte signalisiert Stärke/Schwäche, das Verwerfen kommuniziert Informationen und Stechentscheidungen dienen als Signale.
-- **Sind Konventionen überall gleich?** Nein, Konventionen können regional oder innerhalb von Spielgruppen variieren, daher sollte man sich vor dem Spiel abstimmen.
+- **Was bedeutet Nachschmeissen beim Jassen?** Unter Nachschmeissen versteht man eine Taktik, wo der Partner des Spielers, der am Drücker ist, eine eigene starke (potentiell eine spätere Bock-Karte) opfert, um seinem Partner den Weg zu ebnen.
+- **Wann wird nachgeschmissen?** Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
+- **Was ist ein Beispiel für Nachschmeissen?** Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, und sein Partner den Schellen König hält, spielt er diesen, um seinem Partner den Weg zu ebnen.
 
-*Keywords: konventionen, regeln, teamspiel, kommunikation, verständnis*
+*Keywords: nachschmeissen, nohrüere, taktik, partner, drücker*
 
 ---
 
 ### Punktetaktiken {#schieber_taktiken_scoring}
 
-**Kategorie:** Taktiken und Strategien > Taktische Grundlagen
+**Kategorie:** Taktiken und Strategien > Punktetaktiken
 
-Punktestrategie:
-Die optimale Gestaltung der Punktevergabe  ist ein wichtiger strategischer Aspekt beim Schieber.
+Gerade beim Schieber, wo auf [Striche](/begriffe/punktebegriffe/strich/) gespielt wird, also Zielpunkte für [Berg](/regeln/bergpreis/), Sieg und [Schneider](/regeln/punktezaehlung/schneider/) vorgegeben sind, ist es essenziell, die Punkte im Blick zu haben.
 
-Strategische Überlegungen:
-• **Maximierung:** Versuchen, möglichst viele Punkte  zu erreichen, besonders bei Aussicht auf Matsch (siehe Begriff "kontermatsch")
-• **Schadensbegrenzung:** Bei schlechten Karten versuchen, den Punkteverlust zu minimieren
-• **Match-Situationen (siehe Begriff "expressions_partie"):** In kritischen Momenten gezielt auf bestimmte Punktzahlen hinarbeiten
-• **Weis-Kalkulation:** Einbeziehen von Weis-Punkten (siehe Begriff "expressions_weispunkte") in die Gesamtstrategie
+Das gilt vor allem dann, wenn Multiplikatoren im Spiel sind. Einer der häufigsten Fehler ist es, nur auf das eigene Blatt zu schauen und entsprechend anzusagen.
 
-Timing der Ansage:
-Die Wahl des Trumpfs (siehe Begriff "bodentrumpf") sollte auch im Hinblick auf erreichbare Punktzahlen getroffen werden.
+**ABER:** Es bringt nichts, 100 Punkte bei einem vierfachen Undenufe zu erzielen, wenn man dabei selber nicht herauskommt und den Gegner damit in Schlagdistanz zum Sieg führt. Dasselbe gilt für den [Bergpreis](/regeln/bergpreis/) und den [Schneider](/regeln/punktezaehlung/schneider/).
 
-Teamkoordination:
-Mit dem Partner abgestimmt auf gemeinsame Punkteziele hinarbeiten.
+## Beispielrechnung
+
+Es wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagende Team A hat 2'000 Punkte, die Gegner von Team B 2'200. Team A erreicht mit 100 × 4 bei einem Undenufe 2'400 Punkte. Aber Team B kommt mit 57 × 4 auf 2'428 Punkte. Das ist der fast sichere Sieg.
+
+**Fazit:** Ein Undenufe in dieser Situation anzusagen, ist nur gerechtfertigt, wenn die 125 Punkte zum Sieg realistisch sind. Sonst wäre eine Ansage mit tiefem Multiplikator besser gewesen, um eine Runde zu überleben und das Ziel beim nächsten Mal, mit mehr Punkten auf dem Konto, zu erreichen.
 
 **Häufige Fragen:**
-- **Was ist Punktestrategie beim Schieber?** Punktestrategie umfasst die optimale Gestaltung der Punktevergabe durch Maximierung, Schadensbegrenzung, Match-Situationen und Weis-Kalkulation.
-- **Wann sollte man auf viele Punkte spielen?** Besonders bei Aussicht auf Matsch sollte man versuchen, möglichst viele Punkte zu erreichen.
-- **Was ist bei der Trumpf-Wahl wichtig?** Die Wahl des Trumpfs sollte auch im Hinblick auf erreichbare Punktzahlen getroffen werden, in Abstimmung mit dem Partner.
+- **Soll man beim Jassen immer auf möglichst viele Punkte spielen?** Nein. Gerade bei hohen Multiplikatoren bringt es nichts, viele Punkte zu machen, wenn man seinen Zielpunkt nicht erreicht und dem Gegner damit den Sieg ermöglicht.
+- **Wann soll man einen hohen Multiplikator (z.B. 4× Undenufe) ansagen?** Nur, wenn die zum Sieg nötige Punktzahl realistisch erreichbar ist. Sonst ist eine Ansage mit tiefem Multiplikator sicherer, um eine Runde zu überleben.
+- **Was ist der häufigste taktische Fehler beim Ansagen?** Nur auf das eigene Blatt zu schauen und den Punktestand zu ignorieren, also Berg, Sieg, Schneider und die Multiplikatoren.
 
 *Keywords: punkte, sammeln, strategie, karten, trumpf*
-
----
-
-### Trumpfansagen {#schieber_taktiken_trump}
-
-**Kategorie:** Taktiken und Strategien > Kommunikation & Signale
-
-Trumpfstrategie:
-Die richtige Wahl und Verwaltung des Trumpfs (siehe Begriff "bodentrumpf") ist entscheidend für den Erfolg beim Schieber.
-
-Trumpf-Wahl:
-• **Kartenstärke:** Die eigene Trumpfstärke einschätzen - wie viele hohe Trumpfkarten (siehe Begriff "bodentrumpf") besitzt man?
-• **Farbverteilung:** Berücksichtigen der Länge und Stärke anderer Farben (siehe Begriff "expressions_kartenfarben")
-• **Weis-Potential:** Einbeziehen möglicher Weis-Punkte (siehe Begriff "expressions_weispunkte")
-• **Partnerhand:** Einschätzen, was der Partner haben könnte
-
-Trumpfverwaltung:
-• **Timing:** Wann setzt man Trumpf (siehe Begriff "bodentrumpf") ein - früh oder spät?
-• **Anziehen (siehe Begriff "expressions_anziehen"):** Gegnerische Trumpfkarten gezielt entfernen
-• **Trumpfsparen:** Trumpf für entscheidende Momente aufbewahren
-
-Sonderfälle:
-Bei Obenabe (siehe Begriff "expressions_obenabe") und Undenufe (siehe Begriff "expressions_undenufe") gelten besondere strategische Überlegungen.
-
-**Häufige Fragen:**
-- **Was ist wichtig bei der Trumpf-Wahl?** Man sollte die eigene Trumpfstärke, Farbverteilung, Weis-Potential und die mögliche Partnerhand einschätzen.
-- **Wann sollte man Trumpf spielen?** Das Timing ist entscheidend - ob man früh oder spät Trumpf einsetzt, hängt von der Spielsituation ab. Man kann auch gegnerische Trumpfkarten durch Anziehen entfernen.
-- **Gibt es Besonderheiten bei Obenabe und Undenufe?** Ja, bei Obenabe und Undenufe gelten besondere strategische Überlegungen, da es keinen klassischen Trumpf gibt.
-
-*Keywords: trumpf, bauer, nell, ansage, vorhand*
 
 ---
 
@@ -186,112 +103,132 @@ Bei Obenabe (siehe Begriff "expressions_obenabe") und Undenufe (siehe Begriff "e
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Definition:
-Das Verwerfen  ist eine grundlegende Taktik, bei der man Karten aus schwachen Farben (siehe Begriff "expressions_kartenfarben") zu einem Stich  beigibt.
+Verwerfen ist die erste und wichtigste Taktik, die alle Jassenden lernen: Wenn man die ausgespielte Farbe nicht mehr hat, spielt man eine Karte jener Farbe, in der man am schwächsten ist. Bietet sich später die Gelegenheit, auch die zweitschwächste Farbe zu verwerfen, weiss der Partner mit Bestimmtheit, welche die starke Farbe ist.
 
-Strategische Aspekte:
-• **Kommunikation:** Signalisiert dem Partner, dass man in dieser Farbe keine guten Karten besitzt
-• **Kartenverwaltung:** Befreit die Hand von unnötigen Karten
-• **Prioritäten:** Entscheidung, welche Farbe man als erstes «leerspielt»
+Da in der Regel alle am Tisch diese Konvention befolgen, zeichnet sich im Verlauf der Runde ein konkretes Bild ab, welche Spieler in welcher Farbe stark sind.
 
-Intelligentes Verwerfen:
-• **Reihenfolge:** Die Reihenfolge der verworfenen Karten kann zusätzliche Informationen vermitteln
-• **Timing:** Wann man welche Karte verwirft, ist strategisch bedeutsam
-• **Querverwerfen (siehe Begriff "schieber_taktiken_querverwerfen"):** Spezielle Technik für fortgeschrittene Spieler
+## Häufiger Fehler beim Verwerfen
 
-Koordination:
-Das Verwerfen sollte im Einklang mit den Konventionen der Spielgruppe erfolgen, um Missverständnisse zu vermeiden.
+Wenn man im Spielverlauf erkennt, welches die starke Farbe des Partners ist, dann **nicht** alle Karten dieser Farbe verwerfen, sondern **eine** behalten. Denn man braucht sie voraussichtlich, um den Partner ins Spiel zu bringen.
+
+## Verwerfen in der Defensive
+
+Sagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft. Denn in der Defensive muss tunlichst vermieden werden, dass beide Partner dieselbe Farbe halten.
+
+**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A muss sich nun auf Schilten fokussieren und gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs opfern.
+
+## Verwerfen beim Slalom und Quer
+
+Das Verwerfen bei den Spielmodi [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist anspruchsvoller und wird in eigenen Artikeln behandelt: [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).
+
+## Querverwerfen
+
+Eine Fraktion von Spielern praktiziert das **Querverwerfen**, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Dabei wird nicht die schwächste Farbe zuerst verworfen, sondern die «quere» zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).
 
 **Häufige Fragen:**
-- **Was bedeutet Verwerfen beim Jassen?** Verwerfen ist eine Taktik, bei der man Karten aus schwachen Farben zu einem Stich beigibt und damit dem Partner signalisiert, dass man in dieser Farbe keine guten Karten besitzt.
-- **Wie verwirft man intelligent?** Man sollte die Reihenfolge der verworfenen Karten beachten (kann zusätzliche Informationen vermitteln), das richtige Timing wählen und die Konventionen der Spielgruppe beachten.
-- **Was ist Querverwerfen?** Querverwerfen ist eine spezielle, fortgeschrittene Technik, bei der man absichtlich eine unerwartete Farbe verwirft, um komplexe Informationen zu übermitteln.
+- **Was bedeutet Verwerfen beim Jassen?** Wenn man die ausgespielte Farbe nicht mehr hat, wirft man eine Karte der Farbe ab, in der man am schwächsten ist. Damit zeigt man dem Partner, was man nicht braucht.
+- **Wie zeigt man dem Partner die starke Farbe an?** Indem man zuerst die schwächste und dann die zweitschwächste Farbe verwirft. Was übrig bleibt, ist die starke Farbe.
+- **Was ist der häufigste Fehler beim Verwerfen?** Alle Karten der starken Farbe des Partners abzuwerfen. Man sollte eine behalten, um den Partner später ins Spiel zu bringen.
+- **Was beachtet man beim Verwerfen in der Defensive?** Den Matsch verhindern und genau beobachten, welche Farben der Partner verwirft, damit nicht beide Partner dieselbe Farbe halten.
 
 *Keywords: verwerfen, verrühren, verruehren, abruehren, kommunikation*
 
 ---
 
-### Partnertaktiken {#schieber_taktiken_partner}
+### Kommunikation & Signale {#schieber_taktiken_advanced}
 
-**Kategorie:** Taktiken und Strategien > Taktische Grundlagen
+**Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Partnerschaft:
-Die Zusammenarbeit mit dem Partner (siehe Begriff "expressions_team") ist beim Schieber von zentraler Bedeutung.
+In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest dieselben Zeichen aus dem Spiel des Partners zurück.
 
-Kommunikationsformen:
-• **Kartensprache:** Durch die Wahl der ausgespielten Karten Informationen übermitteln
-• **Verwerfen :** Signalisiert Stärke oder Schwäche in bestimmten Farben (siehe Begriff "expressions_kartenfarben")
-• **Stechverhalten:** Zeigt an, ob man in einer Farbe noch Karten hat oder nicht
-• **Timing-Signale:** Wann man Trumpf (siehe Begriff "bodentrumpf") spielt oder nicht, gibt wichtige Hinweise
+Bei fortgeschrittenen Spielern gelten folgende Konventionen:
 
-Koordinierte Aktionen:
-• **Schmieren (siehe Begriff "expressions_schmieren"):** Dem Partner wertvolle Karten zu seinem Stich  beigeben
-• **Anziehen (siehe Begriff "expressions_anziehen"):** Gemeinsam die Gegner schwächen
-• **Stichvorbereitung:** Dem Partner erfolgreiche Stiche ermöglichen
+## Nell vor Puur
 
-Vertrauen:
-Eine erfolgreiche Partnerschaft basiert auf gegenseitigem Vertrauen und dem Verständnis der Konventionen.
+Hält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.
+
+Mehr dazu unter Nell vor Puur.
+
+## Anzeigen, wie viele Trümpfe man hält
+
+Der Partner des Vorhand-Spielers verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst Hoch-Tief.
+
+- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.
+- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.
+
+Das Nell und der Puur sind davon ausgenommen.
+
+**Wieso ist das wichtig?**
+
+Nichts verhindert mehr Matsche als zu viel Austrumpfen. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.
+
+Ein häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Vorhand-Spieler kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.
+
+Wichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.
+
+**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.
+
+## Der blutte Puur
+
+Hält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss seinem Partner aber kommunizieren, dass er ihn in der Hand hält. Das macht er, indem er ein Brättli spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.
+
+**Wieso ist das wichtig?**
+
+Da für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn das dem Trumpfansager mit einem Brättli kommuniziert wurde.
+
+## Nachschmeissen
+
+Bei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.
+
+**Wieso ist das wichtig?**
+
+Im ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.
+
+Mehr dazu unter Nachschmeissen.
+
+## Verwerfen beim Slalom
+
+Beim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst, er möchte tief übergeben bekommen, eine hohe Karte heisst hoch.
+
+**Wieso ist das wichtig?**
+
+Beim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Dass tief für tief steht, hat einen praktischen Grund: So merkt man es sich, genau so, wie die Karte gespielt wurde. Mit der verworfenen Farbe macht man ohnehin keinen Stich. Kein Grund also, umgekehrt zu denken.
+
+Die Einzelheiten stehen unter Verwerfen beim Slalom.
 
 **Häufige Fragen:**
-- **Wie kommuniziert man mit dem Partner beim Jassen?** Durch Kartensprache (Wahl der ausgespielten Karten), Verwerfen (zeigt Stärke/Schwäche), Stechverhalten und Timing-Signale.
-- **Was sind koordinierte Aktionen mit dem Partner?** Schmieren (wertvolle Karten zum Stich des Partners beigeben), Anziehen (gemeinsam Gegner schwächen) und Stichvorbereitung für den Partner.
-- **Was ist wichtig für erfolgreiche Partnerschaft?** Gegenseitiges Vertrauen und das Verständnis der Konventionen sind die Basis für erfolgreiche Partnerschaft beim Schieber.
+- **Was bedeutet Nell vor Puur?** Wer Puur und Nell hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann, dass der Nell-Spieler auch den Puur hat.
+- **Wie zeigt man dem Partner, wie viele Trümpfe man hält?** Über die Reihenfolge: Mit genau zwei Trümpfen spielt man zuerst den höheren, mit drei oder mehr zuerst den tiefsten. Das Nell und der Puur sind davon ausgenommen.
+- **Was ist Nachschmeissen?** Bei Obenabe, Undenufe, Quer, Slalom und Trio wirft der Partner im ersten Stich auf ein Ass den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ausspieler seine Wand durchspielen kann.
+- **Wie verwirft man beim Slalom?** Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst tief, eine hohe Karte heisst hoch.
+- **Wie signalisiert man den blutten Puur?** Man spielt den blutten Puur meist nicht, signalisiert ihn aber mit einem Brättli (Sechser bis Neuner). Ohne Trumpf spielt man kein Brättli.
 
-*Keywords: timing, tempo, geschwindigkeit, spielstärke, kommunikation*
+*Keywords: jass-taktik, schieber taktik, taktiken beim jassen, partner signale, nell vor puur*
 
 ---
 
-### Fortgeschrittene Taktiken {#schieber_taktiken_advanced}
+### Nell vor Puur {#schieber_taktiken_nell_vor_puur}
 
-**Kategorie:** Taktiken und Strategien > Fortgeschrittene Strategien
+**Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Fortgeschrittene Strategien:
-Diese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten.
+Definition:
+Nell vor Puur ist eine Signalkonvention beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell die Neun der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.
 
-Zentrale Konzepte:
-• **Kartenzählen:** Merken, welche Karten bereits gespielt wurden, um Rückschlüsse auf verbleibende Karten zu ziehen
-• **Wahrscheinlichkeitsrechnung:** Einschätzen der Wahrscheinlichkeit bestimmter Kartenverteilungen
-• **Timing-Optimierung:** Den perfekten Moment für entscheidende Spielzüge wählen
-• **Psychologische Aspekte:** Gegner lesen und eigenes Spiel variabel gestalten
-• **Komplexe Signale:** Raffinierte Kommunikation mit dem Partner
+Die Aussage:
+Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner liest daraus eine feste Information.
 
-Übung und Erfahrung:
-Diese fortgeschrittenen Techniken erfordern viel Spielpraxis und ein tiefes Verständnis der Spielmechanik (siehe Begriff "ausspiel").
+Wieso ist das wichtig?
+So entstehen keine Überraschungen. Entscheidet das Team nach einmaligem Austrumpfen, nicht noch einmal nachzuziehen, kann der Partner sicher sein, dass der Puur nicht beim Gegner liegt.
 
-**Häufige Fragen:**
-- **Was sind fortgeschrittene Jass-Taktiken?** Fortgeschrittene Taktiken umfassen Kartenzählen, Wahrscheinlichkeitsrechnung, Timing-Optimierung, psychologische Aspekte und komplexe Signale mit dem Partner.
-- **Für wen sind diese Taktiken geeignet?** Diese erweiterten Taktiken richten sich an erfahrene Spieler, die ihr Spiel verfeinern möchten.
-- **Was braucht man für fortgeschrittene Taktiken?** Man braucht viel Spielpraxis und ein tiefes Verständnis der Spielmechanik.
-
-*Keywords: querverwerfen, kreuzschnitt, trumpfen, matsch, technik*
-
----
-
-### Spezielle Taktiken {#schieber_taktiken_special}
-
-**Kategorie:** Taktiken und Strategien > Fortgeschrittene Strategien
-
-Spezielle Spielsituationen:
-Es gibt besondere Situationen beim Schieber, die spezielle Taktiken erfordern.
-
-Spezialszenarien:
-• **Matsch -Situationen:** Wenn ein Team droht, alle Stiche  zu verlieren oder zu gewinnen
-• **Kritische Match-Punkte:** Wenn man kurz vor dem Sieg oder der Niederlage steht
-• **Ungewöhnliche Kartenverteilungen:** Extrem starke oder schwache Hände
-• **Weis-Dominanz:** Wenn Weis-Punkte (siehe Begriff "expressions_weispunkte") eine entscheidende Rolle spielen
-
-Anpassungsfähigkeit:
-In diesen Situationen müssen Standard-Taktiken an die besonderen Umstände angepasst werden.
-
-Erfahrung:
-Das Erkennen und richtige Reagieren auf Spezial situationen kommt mit zunehmender Spielerfahrung.
+Abgrenzung:
+Nell und Puur sind von der Hoch-Tief-Konvention ausgenommen. Ihre Reihenfolge im ersten Stich folgt allein der Regel «Nell vor Puur».
 
 **Häufige Fragen:**
-- **Was sind spezielle Spielsituationen beim Schieber?** Spezielle Situationen umfassen Matsch-Situationen, kritische Match-Punkte, ungewöhnliche Kartenverteilungen und Weis-Dominanz.
-- **Wie geht man mit Spezialsituationen um?** Man muss Standard-Taktiken an die besonderen Umstände anpassen und flexibel reagieren.
-- **Wie lernt man, Spezialsituationen zu erkennen?** Das Erkennen und richtige Reagieren auf Spezialsituationen kommt mit zunehmender Spielerfahrung.
+- **Was bedeutet «Nell vor Puur»?** Wer Puur und Nell zugleich hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann: Wer mit dem Nell eröffnet, hat auch den Puur.
+- **Warum spielt man das Nell vor dem Puur?** Damit der Partner sicher weiss, wo der Puur liegt. Wer den Puur nicht hält, eröffnet nie mit dem Nell. So entstehen beim Austrumpfen keine Überraschungen.
+- **Gilt «Nell vor Puur» auch bei der Hoch-Tief-Konvention?** Nein. Nell und Puur sind von Hoch-Tief ausgenommen. Ihre Reihenfolge folgt allein der Regel «Nell vor Puur».
 
-*Keywords: querverwerfen, kreuzschnitt, trumpfen, matsch, technik*
+*Keywords: nell vor puur, nell, puur, trumpf signal, erster stich*
 
 ---
 
@@ -299,42 +236,37 @@ Das Erkennen und richtige Reagieren auf Spezial situationen kommt mit zunehmende
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Definition:
-Das Querverwerfen ist eine spezielle Taktik, bei der man absichtlich eine Karte einer anderen Farbe (siehe Begriff "expressions_kartenfarben") abwirft als erwartet.
+Das Querverwerfen ist eine spezielle Taktik, bei der die Partner abmachen, eine bestimmte Farbe zu verwerfen, um damit die Stärke bei einer anderen Farbe zu signalisieren.
 
-Taktischer Zweck:
-• **Signal an Partner:** Zeigt dem Partner besondere Informationen über die eigene Hand
-• **Irreführung:** Kann Gegner verwirren oder in die Irre führen
-• **Strategische Kommunikation:** Übermittelt komplexe Botschaften über Kartenstärken
+Beispiel: Verwirft ein Partner zuerst [Rosen](/begriffe/kartenbezeichnungen/rosen/), zeigt er damit an, dass er [Eichel](/begriffe/kartenbezeichnungen/eichel/) sucht.
 
-Anwendung:
-Das Querverwerfen ist eine fortgeschrittene Technik, die ein gutes Verständnis der Konventionen und Spielsituation erfordert.
+Der Vorteil dieser Taktik ist, dass früh im Spiel die starke Farbe kommuniziert werden kann. Der Nachteil ist, dass je nachdem die **zweitstärkste Farbe verworfen werden muss**, um die abgemachte Konvention einzuhalten.
 
-Risiko:
-Falsches Querverwerfen kann den Partner verwirren und sollte daher nur bei klaren Absprachen verwendet werden.
+In der Regel wird aufgrund vom [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) (und [Anziehen](/taktiken-und-strategien/kommunikation-signale/anziehen/)) der einzelnen Spieler sowieso klar, bei welchen Spielern die Böcke der entsprechenden Farben liegen, ohne dass diese Taktik angewendet werden müsste. Die Vertreter der Querverwerfen-Konvention sind daher in der Minderheit.
 
 **Häufige Fragen:**
-- **Was ist Querverwerfen beim Jassen?** Querverwerfen ist eine spezielle Taktik, bei der man absichtlich eine Karte einer anderen Farbe abwirft als erwartet.
-- **Wozu dient Querverwerfen?** Es dient als Signal an den Partner für besondere Informationen, kann Gegner verwirren und übermittelt komplexe Botschaften über Kartenstärken.
-- **Ist Querverwerfen schwierig?** Ja, es ist eine fortgeschrittene Technik, die ein gutes Verständnis der Konventionen erfordert. Falsches Querverwerfen kann den Partner verwirren.
+- **Was ist Querverwerfen beim Jassen?** Eine Taktik, bei der Partner abmachen, eine bestimmte Farbe zu verwerfen, um damit Stärke in einer anderen Farbe anzuzeigen. Verwirft jemand zuerst Rosen, sucht er Eichel.
+- **Was ist der Nachteil vom Querverwerfen?** Man muss unter Umständen die zweitstärkste Farbe abwerfen, nur um die abgemachte Konvention einzuhalten. Das kann das eigene Spiel schwächen.
+- **Lohnt sich Querverwerfen?** Selten. Aus dem normalen Verwerfen und Anziehen der Spieler wird ohnehin meist klar, wo die Böcke liegen. Die Konvention hat daher wenige Anhänger.
 
 *Keywords: querverwerfen, verrühren, fortgeschritten, turnier, taktik*
 
 ---
 
-### Verwerfen bei Quer/Guschti {#schieber_taktiken_verwerfen_quer}
+### Verwerfen bei Quer {#schieber_taktiken_verwerfen_quer}
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Grundkonzept:
-Beim Quer (auch Guschti genannt) gelten spezielle Konventionen für das Verwerfen.
+Beim [Quer](/ansagen/quer/) geht man davon aus, dass der Trumpf-Ansager, sofern er in Vorhand ist, seine ersten Stiche nach [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/) durchspielt.
 
-Verwerfen bei Quer/Guschti:
-Beim Quer wird davon ausgegangen, dass der ansagende Spieler (sofern er Vorhand macht), seine ersten Stiche von Obe oder Unde durchspielen kann.
+Sein Partner braucht daher [Böcke](/begriffe/kartenbezeichnungen/bock/) für die zweite Hälfte der Stiche. Entsprechend verwirft er **auf keinen Fall** eine Farbe, die er unten braucht, wenn oben begonnen wurde, oder umgekehrt.
 
-Konventionen:
-• Beginnt der Vorhand-Spieler Obe, verwirft der Partner hohe Karten, um Unde ins Spiel eingreifen zu können
-• Beginnt der Vorhand-Spieler Unde, verwirft der Partner tiefe Karten, um dann Obe ins Spiel eingreifen zu können
+Eine einmal verworfene Farbe wird niemals übergeben. Auch nicht beim Quer und auch nicht, wenn die Reihenfolge des Stechwerts wechselt.
+
+**Häufige Fragen:**
+- **Wie verwirft man bei Quer?** Man verwirft keine Farbe, die man in der zweiten Spielhälfte noch braucht. Wurde oben begonnen, behält man die Karten, die man unten benötigt, und umgekehrt.
+- **Warum darf man bei Quer bestimmte Farben nicht verwerfen?** Weil der Partner für die zweite Hälfte der Stiche Böcke braucht. Wirft man die falsche Farbe ab, fehlen sie genau dann.
+- **Wird eine verworfene Farbe bei Quer wieder übergeben?** Nein. Eine einmal verworfene Farbe wird nie übergeben, auch beim Quer nicht und auch nicht, wenn der Stechwert wechselt.
 
 *Keywords: verwerfen, quer, guschti, zwischendurch, kommunikation*
 
@@ -344,15 +276,31 @@ Konventionen:
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Grundkonzept:
-Beim Slalom gelten spezielle Konventionen für das Verwerfen.
+Beim [Slalom](/ansagen/slalom-zickzack/) ist das Verwerfen sowohl in der Offensive als auch in der Defensive anspruchsvoller als bei anderen Varianten.
 
-Verwerfen beim Slalom:
-• Die schwächste Farbe wird zuerst verworfen, dann die zweitschwächste
+## Verwerfen in der Offensive
 
-Zusätzliche Konvention beim Slalom:
-• Verwirft der Partner des anspielenden Spielers zuerst eine hohe Karte, dann möchte er, dass hoch übergeben wird
-• Verwirft der Partner des anspielenden Spielers zuerst eine tiefe Karte, dann möchte er, dass tief übergeben wird
+Auch beim Slalom gilt: Wenn man eine Farbe zum ersten Mal nicht spielen kann, verwirft man die schwächste Farbe.
+
+**ABER:** Weil beim Slalom das Übergeben nicht nur von der Farbe abhängt, sondern auch davon, ob hoch oder tief übergeben werden soll, gibt es eine zusätzliche Konvention:
+
+- Ist die verworfene Karte **höher** als das [Banner](/begriffe/kartenbezeichnungen/banner/), signalisiert das Stärke **oben**: Man möchte, dass der Partner oben übergibt.
+- Ist die verworfene Karte **tiefer** als das Banner, signalisiert das Stärke **unten**: Man möchte, dass der Partner unten übergibt.
+
+Jasser, die zum ersten Mal von dieser Konvention hören, stellen meist dieselbe Frage: «Wieso hoch verwerfen, wenn man hoch will, und nicht tief? Hoch will man doch!» Die Antwort ist simpel: Eine verworfene Farbe ist beim Slalom ohnehin wertlos, ob hoch oder tief spielt also keine Rolle. Aber hoch = hoch und tief = tief lässt sich deutlich einfacher merken. So hat sich die Konvention eingebürgert.
+
+Statistisch kommt es zudem häufiger vor, dass ein Spieler, der den Slalom «oben» ansagt, seinen letzten Bock ebenfalls oben hat, also in Stich 6 oder 8 übergibt (und umgekehrt). Als Partner spekuliert und signalisiert man darum nach Möglichkeit auf eine Unten-Übergabe, wenn hoch begonnen wurde, und umgekehrt.
+
+## Verwerfen in der Defensive
+
+Beim Slalom ist es noch wichtiger, dass die Partner nicht dieselbe Farbe halten. Zugleich ist es schwieriger als bei jeder anderen Variante, die richtigen [Böcke](/begriffe/kartenbezeichnungen/bock/) zu behalten oder im Spielverlauf zu generieren, um den [Matsch](/begriffe/punktebegriffe/matsch/) abzuwenden. Der häufigste Fehler in der Defensive ist es, von verschiedenen Farben oben und unten möglichst viele Böcke halten zu wollen. Klüger ist es, konsequent **eine** Farbe zu halten, möglichst jene, die der Partner verwirft.
+
+Ebenfalls wichtig: Ob ein Slalom hoch oder tief beginnt, ist gerade in der Defensive entscheidend. Wurde hoch begonnen, werden zwei der letzten drei Stiche naturgemäss hoch gestochen (und umgekehrt). Beginnt ein Slalom also oben, setzt man im Zweifel auf Oben-Böcke, und umgekehrt.
+
+**Häufige Fragen:**
+- **Wie verwirft man beim Slalom?** Zuerst die schwächste Farbe, wie sonst auch. Zusätzlich zeigt man mit der Höhe der verworfenen Karte an, ob der Partner oben oder unten übergeben soll: höher als das Banner heisst oben, tiefer als das Banner heisst unten.
+- **Warum verwirft man beim Slalom hoch, wenn man oben übergeben will?** Weil sich hoch = oben und tief = unten leichter merken lässt. Die verworfene Farbe ist beim Slalom ohnehin wertlos, ihre Höhe dient also nur als Merkregel.
+- **Was ist der häufigste Fehler beim Slalom in der Defensive?** Von mehreren Farben oben und unten Böcke halten zu wollen. Besser ist es, konsequent eine Farbe zu halten, möglichst jene, die der Partner verwirft.
 
 *Keywords: verwerfen, slalom, zickzack, kommunikation, signale*
 
@@ -362,41 +310,30 @@ Zusätzliche Konvention beim Slalom:
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Hoch - tief / Tif - hoch - tief
+Die Konvention "Hoch - tief" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt. Diese Konvention bezieht sich stets auf den Partner des Spielers, der ansagt, und zwar unabhängig davon, ob zuvor geschoben wurde oder nicht.
 
-Die Konvention "Hoch - tief" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt. Diese Konvention bezieht sich stets auf jenen Spieler, der nicht Trumpf angesagt hat. Ihr Ziel ist es, eine Entscheidungsgrundlage zu schaffen, ob nochmals ausgetrumpft werden soll oder nicht.
+Das Ziel ist, eine Entscheidungsgrundlage zu schaffen, ob nochmals ausgetrumpft werden soll oder nicht.
 
-Diese Konvention wird sowohl beim Vorhandspiel als auch beim Geschobenen angewendet.
+## Hoch - tief bei zwei Trümpfen
 
-Praktische Beispiele:
+Hat der Partner vom trumpfansagenden Spieler **zwei Trümpfe** in der Hand, dann spielt er beim ersten Stich zuerst seine **hohe Karte**. Beispiel: Hat er das Ass und den Achter, dann spielt er **zuerst** das Ass.
 
-Beispiel 1: Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe.
+## Tief - hoch bei drei und mehr Trümpfen
 
-Stich 1: Der Vorhand-Spieler spielt das Nell aus. Sein Partner wirft den Sechser zu. Beide Gegner geben Trumpf an. In dieser Situation kann davon ausgegangen werden, dass der Partner noch die restlichen zwei Trümpfe hält. Das bedeutet: Nicht mehr austrumpfen!
+Hat der Partner vom Trumpfansager drei oder mehr Trümpfe, dann spielt er zuerst seinen **tiefsten Trumpf**. Beispiel: Hat er den Sechser, das Banner und den Ober, dann spielt er **zuerst den Sechser**! Auf keinen Fall darf das Banner gespielt werden, auch wenn der Zählwert höher ist.
 
-Beispiel 2: Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe.
+Die zuerst gespielte Karte muss **zwingend die tiefste** sein. Die zweite Karte hingegen muss nicht die höchste sein. Die Information, dass die zweite Karte höher ist, reicht für die Erkenntnis, dass der Partner drei oder noch mehr Trümpfe hat.
 
-Stich 1: Der Vorhand-Spieler spielt das Nell aus. Sein Partner wirft das Ass zu. Nur ein Gegner gibt Trumpf zu. Nun ist klar, dass der Partner höchstens zwei Trümpfe besitzt und weitere Trümpfe beim einen Gegner liegen müssen. Das bedeutet: Unbedingt weiter austrumpfen!
+**Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell.** Vergleiche dazu auch den Artikel zur [Signalsprache zwischen Partnern](/taktiken-und-strategien/kommunikation-signale/).
 
-Vorhand-Spiel
+## Praktische Beispiele
 
-Hat der Partner vom vorhand spielenden Spieler zwei Trumpfkarten in der Hand, dann spielt er beim ersten Stich zuerst seine hohe Karte. Hält er beispielsweise Ass und Achter, dann spielt er mit dem Ass aus.
+**Beispiel 1:** Spieler 1 sagt in der Vorhand Trumpf an und hat Puur, Nell sowie zwei weitere Trümpfe. Er spielt gemäss Konvention das Nell aus. Sein Partner spielt den Sechser, während beide Gegner Trumpf angeben. Es bleiben nur zwei Möglichkeiten: Entweder hat der Partner den Sechser blutt (Pech), oder er hält die restlichen zwei Trümpfe. Das bedeutet: Auf keinen Fall ein zweites Mal austrumpfen!
 
-Hat der Partner vom vorhand spielenden Spieler drei oder mehr Trumpfkarten im Blatt, dann spielt er zuerst seine tiefste. Hat er also beispielsweise Sechser, Banner und Ober, dann spielt er zuerst den Sechser aus. Keine Schlaumereien und zuerst das Banner spielen!
-
-Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell. Hat der Partner des vorhand spielenden Spielers nur eine einzige Trumpfkarte in der Hand, dann spielt er diese selbstverständlich aus.
-
-Geschoben
-
-Ein Spieler hat geschoben und der Partner sagt Trumpf an, dann spielt dieser wie folgt aus:
-
-Hält er zwei Trumpfkarten in der Hand, dann spielt er beim ersten Stich zuerst seine hohe Karte. Hält er beispielsweise Ass und Achter, dann spielt er mit dem Ass aus.
-
-Hält derselbe Spieler drei oder mehr Trumpfkarten im Blatt, dann spielt er zuerst seine tiefste aus. Hat er also beispielsweise Sechser, Banner und Ober, dann spielt er zuerst den Sechser. Von Schlaumeiereien, wie hier zuerst das Banner zu spielen und erst nachher den Ober, ist strikt abzuraten, weil der Vorhand-Spieler nur mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann, wenn er den Sechser gesehen hat.
-
-Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell. Hat der Partner des vorhand spielenden Spielers nur eine Trumpfkarte in der Hand, dann spielt er diese selbstverständlich aus.
+**Beispiel 2:** Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe. Der Vorhand-Spieler spielt das Nell aus. Sein Partner spielt den König. Nur ein Gegner gibt Trumpf zu. Nun ist klar: Der Partner hat höchstens zwei Trümpfe, alle weiteren sind beim Gegner. Das bedeutet: Unbedingt weiter austrumpfen!
 
 **Häufige Fragen:**
+- **Wie wendet man Hoch - tief / Tief - hoch - tief beim Jassen an?** Der Partner des Trumpf-Ansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält: bei genau zwei Trümpfen spielt er im ersten Stich zuerst die hohe Karte, bei drei oder mehr Trümpfen zuerst den tiefsten Trumpf. Puur und Nell sind von dieser Konvention ausgenommen.
 - **Wann spielt man hoch und wann tief?** Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen.
 - **Ich habe zwei Trumpfkarten – spiele ich zuerst die hohe oder die tiefe?** Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen.
 - **Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?** Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien – der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann.
@@ -410,6 +347,6 @@ Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell. Hat der Partne
 
 ---
 
-*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jassverband.ch*
+*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jasswiki.ch*
 *Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

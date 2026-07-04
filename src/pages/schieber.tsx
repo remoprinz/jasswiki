@@ -9,6 +9,7 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
 import { GameSchema } from '@/components/seo/GameSchema';
 import { toSlug } from '@/lib/utils';
+import { buildArticleUrl } from '@/lib/url-utils';
 import { BookOpen, Trophy, Zap, Scale, Users } from 'lucide-react';
 
 interface SchieberPageProps {
@@ -49,12 +50,8 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
   };
 
   const renderLinkCard = (item: JassContentItem, icon: React.ElementType) => {
-      const categorySlug = toSlug(item.metadata.category.main);
-      const subSlug = toSlug(item.metadata.category.sub);
-      const topicSlug = toSlug(item.metadata.category.topic);
-      
-      // Handle flat structure logic if necessary, but standard path usually works
-      const href = `/${categorySlug}/${subSlug}/${topicSlug}/`;
+      // buildArticleUrl beachtet die flache Struktur (Ansagen/Varianten, sub===topic).
+      const href = buildArticleUrl(item.metadata.category);
 
       return (
         <Link 
