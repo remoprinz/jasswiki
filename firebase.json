@@ -2644,6 +2644,11 @@
           "source": "/ansagen/:sub/:topic",
           "destination": "/ansagen/:topic/",
           "type": 301
+        },
+        {
+          "source": "/ansagen/:sub/:topic/",
+          "destination": "/ansagen/:topic/",
+          "type": 301
         }
       ]
     }
