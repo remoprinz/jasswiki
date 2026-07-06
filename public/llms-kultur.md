@@ -3,8 +3,8 @@ title: "JassWiki.ch - Geschichte & Kultur"
 description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 24
-last_updated: 2026-07-04
+entries_count: 25
+last_updated: 2026-07-06
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -25,6 +25,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Jasskarten](#expressions_kartenfarben)
 - [Etymologie des Begriffs Matsch](#history_etymology_matsch)
 - [Die erste urkundliche Erwähnung](#history_first_mention)
+- [Jass-Elo](#jass_elo_meta)
 - [Jassapps Generelles](#jassapps_overview)
 - [Woher kommen Spielkarten?](#history_origin)
 - [Die Liste der lebendigen Traditionen](#history_unesco)
@@ -224,6 +225,156 @@ Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in 
 - **Warum ist das Jahr 1796 wichtig für die Jassgeschichte?** Es markiert den ersten dokumentierten Beleg für das Jassen in der Schweiz und ist somit ein wichtiger Meilenstein in der Geschichte des Spiels.
 
 *Keywords: 1796, schaffhausen, ratsprotokoll, erste erwähnung, verbot*
+
+---
+
+### Jass-Elo {#jass_elo_meta}
+
+**Kategorie:** Grundlagen & Kultur > Jass-Elo
+
+Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/), das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner abbildet. Statt nur Sieg oder Niederlage nutzt es die [Strichdifferenz](/begriffe/punktebegriffe/strich/) als feineres Leistungsmass. Entwickelt vom Jassverband Schweiz (JVS), im Einsatz auf jassguru.ch.
+
+## Warum ein Rating-System?
+
+Beim Schieber hat die Partner- und Gegnerzulosung entscheidenden Einfluss auf die individuelle Gewinnerwartung. Herkömmliche Strich- und Punktelisten dokumentieren Ergebnisse, sagen aber nichts über die individuelle Spielstärke aus. Genau hier setzt das Elo-System an, ursprünglich im Schach entwickelt und heute in vielen Sportarten und E-Sport-Ligen im Einsatz:
+
+- Vor jedem Spiel gibt es eine Erwartung, wie viele Punkte ein Team aufgrund der Erfahrungswerte holen sollte.
+- Nach dem Spiel wird die tatsächliche Leistung gemessen.
+- Wer besser abschneidet als erwartet, steigt im Rating; wer darunter bleibt, verliert Punkte.
+
+Das Ergebnis ist eine laufend aktualisierte Zahl als objektiver Indikator der Spielstärke, unabhängig von Partner oder Gegner.
+
+## Problemstellung
+
+Kumulative Ranglisten sind wertvoll, beantworten aber nicht die zentrale Frage: Wie stark ist ein einzelner Jasser aktuell wirklich einzuschätzen?
+
+Der Schieber ist ein Teamspiel, man spielt mit 18 Karten, nicht mit neun. Neben dem Kartenglück ist die Zulosung der entscheidende Faktor. Unterschiedliche Spielerniveaus (Partnerzulosung) und ungleiche Paarungen verzerren die Aussagekraft. Ein Bewertungssystem muss deshalb Partnerneutralität und Erwartungskorrektur leisten.
+
+Dazu kommt die Trägheit kumulativer Werte: Bei grossem Datensatz verändert ein einzelnes Spiel die Gesamtbilanz kaum, ein starker Jasser ist praktisch nicht mehr einzuholen und die aktuelle Form bleibt unsichtbar. Jass-Elo bewertet jedes Spiel neu im Verhältnis zur Erwartung. So wird die kurzfristige Form sichtbar, ohne die langfristige Stabilität zu verlieren.
+
+## Vergleich mit Schach
+
+Das Elo-System stammt aus dem Schach und misst die Spielstärke am binären Ergebnis (Sieg, Niederlage, Remis). Ein Jass-Spiel liefert mehr Information: die [Strichdifferenz](/begriffe/punktebegriffe/strich/) aus [Berg](/regeln/bergpreis/), Sieg, [Matsch](/begriffe/punktebegriffe/matsch/), Kontermatsch und [Schneider](/regeln/punktezaehlung/schneider/). Jass-Elo übernimmt die Elo-Grundidee, erweitert sie aber: Statt Sieg oder Niederlage zählt der Anteil der erzielten Striche (kontinuierlich, berücksichtigt die Dominanz eines Spiels), und die Partnerkonstellation fliesst über die gemeinsamen Elo-Punkte in den Ausgangswert ein.
+
+## Parameter
+
+| Parameter | Wert |
+|---|---|
+| K-Faktor | 32 |
+| Skala S | 1000 |
+| Start-Rating | 100 |
+
+Die breite Skala S = 1000 trägt dem Umstand Rechnung, dass beim Schieber der Glücksfaktor grösser ist und die Ratings enger beieinander liegen; sie vergrössert die Ausprägungen. Aus demselben Grund liegt das Start-Rating bei 100 (nicht 1000), damit die Unterschiede intuitiv bleiben. Der K-Faktor bestimmt die Anpassungsgeschwindigkeit; er wurde 1970 von der FIDE mit dem Wert 32 eingeführt (im Schach granular: 40 für junge, 20 für normale, 10 für erfahrene Spieler). Beim Jassen kann auf diese Granularität verzichtet werden, da sich ständig neue Teams bilden. Ein fixer K-Faktor von 32 ab dem ersten Spiel hält die Rangliste dynamisch und belohnt zugleich Konstanz.
+
+## Formeln
+
+Teamrating als Mittelwert beider Partner:
+
+$$R_{\text{Team}} = \frac{R_1 + R_2}{2}$$
+
+Erwartungswert für Team A:
+
+$$E_A = \frac{1}{1 + 10^{(R_B - R_A)/1000}}$$
+
+Erwartete und tatsächliche Strichdifferenz:
+
+$$\text{Erwartete Diff.} = (2E_A - 1)\cdot \text{TotalStriche} \qquad \text{Tatsächliche Diff.} = \text{Striche}_A - \text{Striche}_B$$
+
+Abweichung und Leistung von Team A:
+
+$$\text{Deviation} = \text{Tatsächliche Diff.} - \text{Erwartete Diff.} \qquad S_A = \max\left(0,\ \min\left(1,\ 0.5 + \frac{\text{Deviation}}{2 \times 7}\right)\right)$$
+
+Rating-Update (Team und Spieler):
+
+$$\Delta_A = K\,(S_A - E_A), \qquad \Delta_B = -\Delta_A, \qquad \Delta_{\text{Spieler}} = \frac{\Delta_{\text{Team}}}{2}, \qquad K = 32$$
+
+Als höchstmöglicher Sieg wird 7:0 angenommen (1 Berg-, 2 Sieg-, 2 Matsch- und 2 Schneider-Striche). Höhere Strichdifferenzen pro Spiel sind vernachlässigbar; daher dient maxDiff = 7 als maximale erwartete Strichdifferenz, und das Ergebnis wird auf den Bereich von 0 bis 1 beschränkt.
+
+Die 32 bezieht sich auf die Team-Rating-Änderung. Da jeder Spieler die Hälfte der Team-Änderung erhält, entspricht die effektive Änderung pro Spieler einem K-Faktor von 16. Beispiel: Erhält Team A eine Änderung von +8, bekommen beide Spieler von Team A je +4 Punkte, beide von Team B je −4.
+
+## Eigenschaften
+
+- Zero-Sum: Die Summe aller Ratingänderungen eines Spiels ist 0.
+- Kontinuierliche Belohnung und Bestrafung: Die Abweichung vom Erwartungswert bestimmt die Höhe der Änderung.
+- Teamgerecht: Stärkere Teams verlieren bei Unterperformance, schwächere gewinnen bei Überperformance.
+- Responsiv und konstant zugleich: Der K-Faktor reagiert auf einzelne Spiele, belohnt aber langfristige Konstanz.
+- Intuitive Skala und globaler, gruppenübergreifend vergleichbarer Skill.
+
+## Praktische Umsetzung
+
+Neue Spieler starten bei 100. Als Datenbasis dienen Teamaufstellungen, Striche und Zeitstempel; die Verarbeitung erfolgt chronologisch über alle Spiele. Die Ergebnisse werden gruppenunabhängig pro Spieler gespeichert und in Jassgruppen und Turnieren gespiegelt.
+
+**Live-Beispiel:** Eine echte Gruppen-Rangliste mit Jass-Elo siehst du auf [jassguru.ch](https://jassguru.ch/view/group/Tz0wgIHMTlhvTtFastiJ/).
+
+## Beispiele
+
+- Favorit gewinnt knapp ($S_A \approx E_A$): kleine Änderungen.
+- Aussenseiter übertrifft die Erwartung ($S_A \gg E_A$): deutliche Gewinne für das Aussenseiter-Team.
+- Strichgleichstand, etwa 3:3 ($S_A = 0.5$): das favorisierte Team verliert leicht, der Aussenseiter gewinnt leicht.
+
+## Anwendungsfälle
+
+Gruppenstatistiken (Vergleichbarkeit bei wechselnden Partnern und Gegnern), Turniere (eine zweite objektive Rangliste analog zur Brutto-/Netto-Wertung im Golf oder reine Elo-Turniere), ewige Ranglisten über Jahre hinweg, Fairness in Online-Formaten sowie die objektive Einzelbewertung im Liga- und Gruppenformat.
+
+## Ausblick: Punkt-basierte Erweiterung
+
+In vielen Turnieren und Online-Formaten wird auf Punktbasis statt auf Strichbasis gespielt. Jass-Elo ist direkt übertragbar, wenn das Ergebnis analog als Deviation-Formel formuliert wird:
+
+$$\text{Deviation} = (\text{Punkte}_A - \text{Punkte}_B) - (2E_A - 1)\cdot \text{TargetPoints}$$
+
+$$S_A = \max\left(0,\ \min\left(1,\ 0.5 + \frac{\text{Deviation}}{2 \times \text{TargetPoints}}\right)\right)$$
+
+TargetPoints ist die Zielpunktzahl pro Runde (zum Beispiel 2000 oder 5000). Damit werden Multiplikatoren und unterschiedliche Zielpunkte neutralisiert. Da jassguru.ch sowohl die Strich- als auch die Punktbilanz erfasst, lässt sich der K-Faktor zusätzlich pro Regelwerk anhand der Streuung von $S - E$ kalibrieren:
+
+$$K_{\text{Regel}} = K_{\text{Ref}} \cdot \frac{\sigma_{\text{Ref}}}{\sigma_{\text{Regel}}}$$
+
+Dabei ist $\sigma$ die empirische Standardabweichung von $S - E$ und das Strichmodell die Referenz. So entsteht ein universelles Jass-Elo, das sich für Strich- und Punkt-basierte Turniere gleichermassen eignet.
+
+## Rating-Tiers
+
+In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schritten von 5 Punkten ergänzt:
+
+| Ab Rating | Tier |
+|---|---|
+| ≥ 150 | Göpf Egg 👼 |
+| ≥ 145 | Jassgott 🔱 |
+| ≥ 140 | Jasskönig 👑 |
+| ≥ 135 | Grossmeister 🏆 |
+| ≥ 130 | Jasser mit Auszeichnung 🎖 |
+| ≥ 125 | Diamantjasser II 💎 |
+| ≥ 120 | Diamantjasser I 💍 |
+| ≥ 115 | Goldjasser 🥇 |
+| ≥ 110 | Silberjasser 🥈 |
+| ≥ 105 | Bronzejasser 🥉 |
+| ≥ 100 | Jassstudent (Start) 🎓 |
+| ≥ 95 | Kleeblatt vierblättrig 🍀 |
+| ≥ 90 | Kleeblatt dreiblättrig ☘️ |
+| ≥ 85 | Sprössling 🌱 |
+| ≥ 80 | Hahn 🐓 |
+| ≥ 75 | Huhn 🐔 |
+| ≥ 70 | Kücken 🐥 |
+| ≥ 65 | Chlaus 🎅 |
+| ≥ 60 | Chäs 🧀 |
+| ≥ 55 | Ente 🦆 |
+| ≥ 50 | Gurke 🥒 |
+| < 50 | Just Egg 🥚 |
+
+## Quellen
+
+- Elo-Zahl – Wikipedia
+- FIDE Handbook: Rating Regulations (2023)
+- Arpad E. Elo (1978): The Rating of Chessplayers, Past and Present. Arco Publishing.
+- Mark E. Glickman (1999): Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society, Series C, 48(3), 377–394.
+- Mark E. Glickman (1995): The Glicko System. Boston University.
+
+**Häufige Fragen:**
+- **Was ist Jass-Elo?** Jass-Elo ist ein Elo-basiertes Bewertungssystem für den Schieber, das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner in einer laufend aktualisierten Zahl abbildet. Entwickelt vom Jassverband Schweiz, im Einsatz auf jassguru.ch.
+- **Wie unterscheidet sich Jass-Elo vom Schach-Elo?** Jass-Elo nutzt statt Sieg oder Niederlage die Strichdifferenz als kontinuierliches Leistungsmass, verwendet eine breitere Skala von 1000 mit Start-Rating 100 und bezieht die Partnerkonstellation über die gemeinsamen Elo-Punkte beider Partner in den Ausgangswert ein.
+- **Was bedeutet der K-Faktor beim Jass-Elo?** Der K-Faktor bestimmt die Anpassungsgeschwindigkeit pro Spiel. Jass-Elo verwendet einen fixen K-Faktor von 32 für die Team-Änderung. Da jeder Spieler die Hälfte erhält, entspricht das effektiv einem K-Faktor von 16 pro Spieler.
+- **Wie wird mein persönliches Jass-Elo berechnet?** Aus der Abweichung der tatsächlichen von der erwarteten Strichdifferenz, gewichtet mit dem K-Faktor. Beide Partner teilen sich die Team-Ratingänderung je zur Hälfte, und die Summe aller Änderungen eines Spiels ist immer null.
+- **Warum ist das Start-Rating 100 und die Skala 1000?** Beim Schieber ist der Glücksfaktor grösser und die Spielstärken liegen enger beieinander als im Schach. Die breite Skala von 1000 zieht die Unterschiede deutlich auseinander, das Start-Rating von 100 hält sie zugleich intuitiv lesbar.
+
+*Keywords: jass-elo, elo, rating, bewertungssystem, spielstärke*
 
 ---
 

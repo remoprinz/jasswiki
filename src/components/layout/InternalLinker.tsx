@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { buildArticleUrl, toSlug } from '@/lib/url-utils';
@@ -114,7 +116,8 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
   return (
     <div className="prose prose-invert prose-lg max-w-none">
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeKatex]}
         components={{
           // Custom renderer für Links
           a: ({ node, href, children, ...props }) => {

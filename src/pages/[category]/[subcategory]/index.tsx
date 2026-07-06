@@ -186,14 +186,28 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
       )
       .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
 
+    // «Jass-Elo»: eigene Autorschaft (Remo Prinz), TechArticle-Typ + Quellen als citation.
+    const isJassElo = contentItem.id === 'jass_elo_meta';
     const articleData = {
       headline: subcategory,
       description: metaDescription!,
-      authorName: 'Jasswiki Redaktion',
+      authorName: isJassElo ? 'Remo Prinz' : 'Jasswiki Redaktion',
       publisherName: 'Jasswiki.ch',
       publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
-      datePublished: defaultPublishedDate,
+      datePublished: isJassElo ? '2025-09-22' : defaultPublishedDate,
       dateModified: defaultModifiedDate,
+      ...(isJassElo
+        ? {
+            articleType: 'TechArticle',
+            citations: [
+              'Elo-Zahl – Wikipedia',
+              'FIDE Handbook: Rating Regulations (2023)',
+              'Arpad E. Elo (1978): The Rating of Chessplayers, Past and Present. Arco Publishing.',
+              'Mark E. Glickman (1999): Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society, Series C, 48(3), 377–394.',
+              'Mark E. Glickman (1995): The Glicko System. Boston University.',
+            ],
+          }
+        : {}),
     };
 
     const showDifficulty = ['Varianten', 'Schieber', 'Weis-Regeln'].includes(category);
@@ -522,6 +536,13 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
       pageTitle = 'Signalsprache beim Jassen: die Konventionen zwischen Partnern | Jass-Wiki';
       metaDescription =
         'Wie sich Jass-Partner ohne Worte verständigen: Anziehen, Verwerfen, Hoch-tief, Nell vor Puur und Nachschmeissen. Die wichtigsten Signale und Konventionen zwischen Partnern, erklärt vom Schweizer Jassverband.';
+    }
+
+    // «Jass-Elo»: das Rating-System zur Spielstärke-Messung im Schieber.
+    if (flatArticle.id === 'jass_elo_meta') {
+      pageTitle = 'Jass-Elo: das Rating-System für die Spielstärke im Schieber | Jass-Wiki';
+      metaDescription =
+        'Jass-Elo misst die individuelle Spielstärke im Schieber partnerneutral und unabhängig vom Gegner: Erwartungswert, Strichdifferenz, K-Faktor, die vollständigen Formeln und die Rating-Tiers. Entwickelt vom Jassverband Schweiz.';
     }
 
     return {

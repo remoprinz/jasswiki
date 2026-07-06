@@ -13,6 +13,8 @@ interface ArticleData {
   publisherLogoUrl: string;
   datePublished: string;
   dateModified: string;
+  articleType?: string;   // z.B. 'TechArticle'; Default 'Article'
+  citations?: string[];   // Quellenangaben als schema.org citation
 }
 
 interface JsonLdSchemaProps {
@@ -25,7 +27,7 @@ interface JsonLdSchemaProps {
 export const JsonLdSchema: React.FC<JsonLdSchemaProps> = ({ articleData, breadcrumbItems, canonicalUrl, siteUrl }) => {
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': articleData.articleType || 'Article',
     "mainEntityOfPage": {
       '@type': 'WebPage',
       '@id': canonicalUrl,
@@ -49,6 +51,9 @@ export const JsonLdSchema: React.FC<JsonLdSchemaProps> = ({ articleData, breadcr
     },
     "datePublished": articleData.datePublished,
     "dateModified": articleData.dateModified,
+    ...(articleData.citations && articleData.citations.length > 0
+      ? { citation: articleData.citations }
+      : {}),
   };
 
   const breadcrumbSchema = {
