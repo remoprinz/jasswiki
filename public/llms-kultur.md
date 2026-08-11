@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 25
-last_updated: 2026-07-06
+last_updated: 2026-07-13
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -963,6 +963,6 @@ Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Ein
 
 ---
 
-*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jasswiki.ch*
+*Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
 *Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

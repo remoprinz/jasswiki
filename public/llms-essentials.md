@@ -4,7 +4,7 @@ description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 7
-last_updated: 2026-07-06
+last_updated: 2026-07-13
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -288,6 +288,6 @@ Karten, die für einen ungültigen Weis verraten wurden, verlieren ihren Stechwe
 
 ---
 
-*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jasswiki.ch*
+*Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
 *Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 57
-last_updated: 2026-07-06
+last_updated: 2026-07-13
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -570,44 +570,44 @@ Schreiben und Abrechnung:
 **Kategorie:** Varianten > Serienjass
 
 Definition:
-Der Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.
+Der Guggitaler ist ein Serienjass ohne Trumpf, der mit oder ohne Karten-Domino gespielt werden kann. Eine Partie umfasst fünf Spiele, und in jedem gilt ein anderes Ziel.
 
 Spiel geben:
-• Bei drei Spielern: Ein beliebiger Schreiber verteilt je zwölf Karten in drei Runden zu je vier Karten
-• Bei vier Spielern: Je neun Karten in drei Runden zu je drei Karten zum ersten Spiel
+• Bei drei Spielern verteilt ein beliebiger Schreiber je zwölf Karten, in drei Runden zu je vier Karten
+• Bei vier Spielern erhält jeder zum ersten Spiel neun Karten, in drei Runden zu je drei Karten
 
 Spielablauf:
-• Der Guggitaler wird ohne Trumpf gespielt
-• Weispunkte und die fünf Punkte für den letzten Stich zählen nicht
-• Bei insgesamt fünf Spielen pro Partie gilt für jedes Spiel ein anderes Ziel
+• Gespielt wird ohne Trumpf
+• Weispunkte zählen nicht, ebenso wenig die fünf Punkte für den letzten Stich
+• In jedem der fünf Spiele gilt ein anderes Ziel
 
 Die fünf Spiele:
-• Erstes Spiel: möglichst wenige Stiche zu machen (1 Punkt pro Stich)
-• Zweites Spiel: möglichst wenige Schellenkarten (Karokarten) zu machen (2 Punkte pro Karte)
-• Drittes Spiel: möglichst wenige Ober (Damen) zu machen (4 Punkte pro Ober/Dame)
-• Viertes Spiel: den Rosen-König (Herz-König) nicht zu machen (8 Punkte)
-• Fünftes Spiel: den letzten Stich nicht zu machen (10 Punkte)
+• Erstes Spiel: möglichst wenige Stiche machen (1 Punkt pro Stich)
+• Zweites Spiel: möglichst wenige Schellen (im französischen Blatt Karo) machen (2 Punkte pro Karte)
+• Drittes Spiel: möglichst wenige Ober (Damen) machen (4 Punkte pro Ober)
+• Viertes Spiel: den Rosen-König (Herz-König) nicht machen (8 Punkte)
+• Fünftes Spiel: den letzten Stich nicht machen (10 Punkte)
 
-Mit Karten-Domino - Gutschriften:
-• 1. Rang: minus 30 Punkte (bei drei Spielern) / minus 25 Punkte (bei vier Spielern)
-• 2. Rang: minus 20 Punkte / minus 16 Punkte
-• 3. Rang: minus 14 Punkte / minus 12 Punkte
-• 4. Rang: minus 8 Punkte (nur bei vier Spielern)
+Wird mit Karten-Domino gespielt, gibt es je nach Rang eine Gutschrift:
+• Erster Rang: minus 30 Punkte bei drei Spielern, minus 25 Punkte bei vier Spielern
+• Zweiter Rang: minus 20 Punkte bei drei Spielern, minus 16 Punkte bei vier Spielern
+• Dritter Rang: minus 14 Punkte bei drei Spielern, minus 12 Punkte bei vier Spielern
+• Vierter Rang: minus 8 Punkte (nur bei vier Spielern)
 
-Ohne Karten-Domino - Zusätzliche Spiele:
-• Sechstes Spiel: möglichst viele Stiche zu machen
-• Siebentes Spiel: möglichst viele Schellenkarten (Karokarten) zu machen
-• Achtes Spiel: möglichst viele Ober (Damen) zu machen
-• Neuntes Spiel: der Stich mit dem Rosen-König (Herz-König) zu machen
-• Zehntes Spiel: der letzte Stich zu machen
+Wird ohne Karten-Domino gespielt, folgen fünf zusätzliche Spiele, bei denen sich die Ziele umkehren:
+• Sechstes Spiel: möglichst viele Stiche machen
+• Siebtes Spiel: möglichst viele Schellen (Karo) machen
+• Achtes Spiel: möglichst viele Ober (Damen) machen
+• Neuntes Spiel: den Stich mit dem Rosen-König (Herz-König) machen
+• Zehntes Spiel: den letzten Stich machen
 
 **Häufige Fragen:**
-- **Wie spielt man Guggitaler?** Der Guggitaler kann mit oder ohne Karten-Domino gespielt werden und bietet verschiedene Herausforderungen über fünf Spiele hinweg.
+- **Wie spielt man Guggitaler?** Der Guggitaler ist ein Serienjass ohne Trumpf: Eine Partie umfasst fünf Spiele, und in jedem gilt ein anderes Ziel. Gespielt wird mit oder ohne Karten-Domino.
 - **Wird beim Guggitaler mit Trumpf gespielt?** Nein, der Guggitaler wird ohne Trumpf gespielt. Weispunkte und die fünf Punkte für den letzten Stich zählen nicht.
 - **Wie viele Spiele hat eine Guggitaler-Partie?** Mit Karten-Domino hat eine Partie fünf Spiele, ohne Karten-Domino zehn Spiele.
-- **Was ist das Ziel des ersten Spiels beim Guggitaler?** Erstes Spiel: möglichst wenige Stiche zu machen (1 Punkt pro Stich).
-- **Welche Gutschriften gibt es beim Karten-Domino?** Die Gutschriften reichen von minus 30 Punkte (1. Rang bei drei Spielern) bis minus 8 Punkte (4. Rang bei vier Spielern).
-- **Was passiert, wenn man den Rosen-König im Stich erhält?** Beim vierten Spiel bringt der Rosen-König (Herz-König) 8 Punkte ein, was vermieden werden soll.
+- **Was ist das Ziel des ersten Spiels beim Guggitaler?** Im ersten Spiel gilt es, möglichst wenige Stiche zu machen. Jeder Stich zählt 1 Punkt.
+- **Welche Gutschriften gibt es beim Karten-Domino?** Die Gutschriften reichen von minus 30 Punkten für den ersten Rang (bei drei Spielern) bis minus 8 Punkten für den vierten Rang (nur bei vier Spielern).
+- **Was passiert, wenn man den Rosen-König im Stich erhält?** Im vierten Spiel zählt der Rosen-König (Herz-König) 8 Punkte. Ziel ist deshalb, diesen Stich nicht zu machen.
 
 *Keywords: guggitaler, fünf spiele, karten domino, wenige stiche, schellenkarten*
 
@@ -2395,6 +2395,6 @@ Bewertung:
 
 ---
 
-*Dieses Modul wurde automatisch generiert. Für Korrekturen: remo@jasswiki.ch*
+*Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
 *Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

@@ -283,7 +283,7 @@ const ReferencesPage: NextPage = () => {
                 <li>Fortgeschrittene Taktiken und Strategien ergänzt, die in klassischen Regelwerken bisher kaum dokumentiert wurden</li>
               </ul>
               <p className="mt-4 text-black">
-                JassWiki.ch ist ein lebendiges Projekt. Gerne ergänzen wir deine Beiträge. Melde dich dazu bei <a href="mailto:remo@jasswiki.ch" className="text-[#274823] hover:text-[#2bb752] hover:underline">remo@jasswiki.ch</a>.
+                JassWiki.ch ist ein lebendiges Projekt. Gerne ergänzen wir deine Beiträge. Melde dich dazu bei der Redaktion: <a href="mailto:redaktion@jasswiki.ch" className="text-[#274823] hover:text-[#2bb752] hover:underline">redaktion@jasswiki.ch</a>.
               </p>
             </div>
           </div>
