@@ -54,19 +54,8 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
             'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html',
           ],
         },
-        subjectOf: [
-          {
-            '@type': 'WebPage',
-            name: 'Jassen - Lebendige Traditionen der Schweiz',
-            url: 'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html',
-            publisher: {
-              '@type': 'GovernmentOrganization',
-              name: 'Bundesamt für Kultur (BAK)',
-              url: 'https://www.bak.admin.ch'
-            },
-            description: 'Offizielle Anerkennung des Jassens als immaterielles Kulturerbe der Schweiz'
-          }
-        ],
+        // Die BAK-Traditionsseite handelt vom Jassen, nicht von JassWiki.ch —
+        // sie steht darum beim Thing #jass-tradition unter "sameAs", nicht hier.
         knowsAbout: [
           {
             '@type': 'Thing',
@@ -149,7 +138,7 @@ export const RootSchema: React.FC<RootSchemaProps> = ({
         givenName: 'Fabian',
         familyName: 'Cadonau',
         jobTitle: 'Jass-Experte & Event-Organisator',
-        description: 'Schweizer Jass-Experte spezialisiert auf Jass-Events und Traditionsvermittlung. Gelistet bei Lebendige Traditionen der Schweiz.',
+        description: 'Schweizer Jass-Experte spezialisiert auf Jass-Events und Traditionsvermittlung.',
         url: 'https://trumpf-as.ch/',
         sameAs: [
           'https://trumpf-as.ch/',
