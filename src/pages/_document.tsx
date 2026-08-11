@@ -30,19 +30,8 @@ const JASSWIKI_SCHEMA = {
       "description": "Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen.",
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
       "foundingDate": "2025",
-      "subjectOf": [
-        {
-          "@type": "WebPage",
-          "name": "Jassen - Lebendige Traditionen der Schweiz",
-          "url": "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html",
-          "publisher": {
-            "@type": "GovernmentOrganization",
-            "name": "Bundesamt für Kultur (BAK)",
-            "url": "https://www.bak.admin.ch"
-          },
-          "description": "Offizielle Anerkennung des Jassens als immaterielles Kulturerbe der Schweiz"
-        }
-      ],
+      // Die BAK-Traditionsseite handelt vom Jassen, nicht von JassWiki.ch —
+      // sie steht darum beim Thing #jass-tradition unter "sameAs", nicht hier.
       "knowsAbout": [
         {
           "@type": "Thing",
@@ -245,7 +234,10 @@ const JASSWIKI_SCHEMA = {
       }
     },
     // GovernmentService entfernt: JassWiki betreibt keinen Regierungsdienst.
-    // Die BAK-Referenz steht korrekt unter "subjectOf" bei Organization.
+    // Amtliches steht genau an zwei Stellen: die Anerkennung des JASSENS beim
+    // Thing #jass-tradition, die Foerderung als "funding"/Grant bei Organization.
+    // Beides ist belegt. Weitere BAK-Bezuege am Organisations- oder Personen-
+    // Knoten behaupten amtliche Aufmerksamkeit fuer uns, die es nicht gibt.
   ]
 };
 
