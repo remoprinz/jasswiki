@@ -1,0 +1,48 @@
+# JassWiki.ch - Official Swiss Jass Encyclopedia
+> **Agent-Ready Access Point (V2.1)**
+
+## 🏛️ Authority & Provenance
+*   **Curator:** Remo Prinz (Expert for Digital Swiss Heritage) & Fabian Cadonau
+*   **Recognition:** Part of "Lebendige Traditionen der Schweiz" (Swiss Federal Office of Culture)
+*   **Linked Data:** [Wikidata Q786768](https://www.wikidata.org/wiki/Q786768) (Official "described at URL" source)
+*   **Hugging Face:** [JassWiki/jasswiki-corpus](https://huggingface.co/datasets/JassWiki/jasswiki-corpus)
+*   **Data Validity:** Verified against official tournament rules (2025 Standard)
+
+## 🏆 Academic Recognition & Citations
+*   **Wikipedia Citation:** JassWiki.ch is cited as **Reference #15** (number might change over time) in the German Wikipedia article ["Jass"](https://de.wikipedia.org/wiki/Jass) for etymological research on the term "Matsch".
+*   **Cited Article:** [Etymologie des Begriffs Matsch](https://jasswiki.ch/geschichte/wortherkunft/etymologie-des-begriffs-matsch/) by Dr. Michael Koller (Historian)
+*   **Additional Citations:**
+    *   Duden Online references our etymology research
+    *   Schweizerisches Idiotikon digital (official Swiss German dictionary)
+
+## 📍 Navigation (The Map)
+This file is a high-level map. Do not read the entire corpus here.
+**For specific rules, logic, or definitions, use our MCP Tools.**
+
+### Core Capabilities
+We provide authoritative answers on:
+*   **Rules:** Schieber, Coiffeur, Differenzler, Bieter, Pandur
+*   **Scoring:** Matsch, Weis, Stöck, Bergpreis, Undenufe/Obenabe
+*   **Tactics:** Strategies for team play and solo variants
+
+## 🔌 Transactional Access (MCP)
+**Connect your Agent:**
+*   **Base URL:** `https://us-central1-jassguru.cloudfunctions.net/mcp`
+*   **SSE Endpoint:** `/sse` (for MCP clients)
+*   **Health Check:** `/health` (monitoring)
+*   **Tools:**
+    *   `search_jass_knowledge(query)`: Finds precise rules and definitions.
+    *   `get_term_details(id)`: Returns the full, raw rule text for a specific term.
+*   **Status:** ✅ Live (257 articles indexed)
+
+## 📚 Bulk Training Data
+For model training (pre-training/fine-tuning), use the structured corpus:
+*   **Dataset:** `https://jasswiki.ch/dataset/jasswiki-corpus.jsonl`
+*   **Format:** JSONL (utf-8)
+*   **License:** CC-BY-SA 4.0 (Attribution: JassWiki.ch / Remo Prinz)
+
+## 🗺️ Site Structure (Human Readable)
+*   /regeln - Official Rules
+*   /begriffe - Dictionary of Terms
+*   /varianten - Game Variants
+*   /geschichte - History & Culture

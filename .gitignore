@@ -102,7 +102,6 @@ mcp-server/
 assets/
 
 # Interne Dokumentation
-agentic/
 batches/
 chatgpt-gpt/
 _deprecated/
