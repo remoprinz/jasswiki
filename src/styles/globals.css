@@ -359,20 +359,35 @@ body.lexikon-page div[id="__next"] {
   position: absolute;
   top: 1px;
   bottom: 1px;
-  width: 34px;
+  width: 18px;
   pointer-events: none;
 }
 
+/* Schatten, kein Streifen: dicht an der Kante, dann rasch verlaufend.
+   Neutrales Dunkel statt Grün — Farbe läse sich über einer Zebra-Zeile
+   als zusätzliche Spalte. */
 .jw-table-outer[data-rollt='true']::after {
   right: 1px;
   border-radius: 0 11px 11px 0;
-  background: linear-gradient(to left, rgba(39, 72, 35, 0.26), rgba(39, 72, 35, 0));
+  background: linear-gradient(
+    to left,
+    rgba(17, 24, 16, 0.16) 0%,
+    rgba(17, 24, 16, 0.06) 30%,
+    rgba(17, 24, 16, 0.015) 62%,
+    rgba(17, 24, 16, 0) 100%
+  );
 }
 
 .jw-table-outer[data-rollt-links='true']::before {
   left: 1px;
   border-radius: 11px 0 0 11px;
-  background: linear-gradient(to right, rgba(39, 72, 35, 0.26), rgba(39, 72, 35, 0));
+  background: linear-gradient(
+    to right,
+    rgba(17, 24, 16, 0.16) 0%,
+    rgba(17, 24, 16, 0.06) 30%,
+    rgba(17, 24, 16, 0.015) 62%,
+    rgba(17, 24, 16, 0) 100%
+  );
 }
 
 .jw-table {
@@ -445,8 +460,11 @@ body.lexikon-page div[id="__next"] {
 @media (max-width: 640px) {
   .jw-table {
     font-size: 14px;
-    /* je Spalte 9.5rem – darunter zerfällt der Text in Wortfetzen */
-    min-width: calc(var(--jw-cols, 3) * 9.5rem);
+    /* Untergrenze je Spalte, damit Text nicht in Wortfetzen zerfällt – tief
+       genug, dass eine Tabelle, die von sich aus in den Rahmen passt, dort
+       auch stehen bleibt (gemessen: dreispaltige Wertungstabelle 309 px bei
+       375 px Bildschirm). Gerollt wird nur, was wirklich breiter ist. */
+    min-width: calc(var(--jw-cols, 3) * 6rem);
   }
   .jw-table thead th,
   .jw-table tbody td {
