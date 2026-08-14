@@ -15,8 +15,23 @@ export function buildIdToTopic(allContent) {
   return map;
 }
 
+/**
+ * Entfernt die Karten-Marke [[karten: …]] aus dem Text.
+ * Sie steuert allein die Bebilderung im Browser; Korpus, llms-*.md und jede
+ * andere maschinenlesbare Ausgabe bekommen den reinen Satz.
+ * Gegenstück im Browser: src/components/wissen/kartenMarke.ts
+ */
+export function entferneKartenMarken(text) {
+  if (typeof text !== 'string') return text;
+  return text
+    .replace(/^[ \t]*\[\[[^\]\n]*:[^\]\n]*\]\][ \t]*\n?/gm, '')
+    .replace(/\[\[[^\]\n]*:[^\]\n]*\]\]/g, '');
+}
+
 export function resolveMarkers(text, idToTopic = {}) {
   if (typeof text !== 'string') return text;
+
+  text = entferneKartenMarken(text);
 
   // 1. "Anzeigetext" (siehe Begriff "id")  ->  Anzeigetext
   //

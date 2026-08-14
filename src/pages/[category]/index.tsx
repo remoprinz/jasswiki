@@ -7,6 +7,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { buildArticleUrl } from '@/lib/url-utils';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 import { SeoHead } from '@/components/layout/SeoHead';
 
 // Helper to get subcategories for a specific category
@@ -39,7 +40,7 @@ const getArticlesForCategory = (content: JassContentRecord, categorySlug: string
 // Bereinigt Artikel-Text zu einer kurzen, maschinenlesbaren Definition (löst
 // (siehe Begriff "id")-Marker auf, entfernt Bullets/Labels, kürzt sauber).
 function cleanGlossaryDescription(text: string): string {
-  let t = String(text || '');
+  let t = ohneKartenMarken(String(text || ''));
   // Eng gefasst (ohne Zeilenumbruch, ohne Klammern, höchstens 80 Zeichen):
   // die Artikel-IDs stehen selbst in Anführungszeichen, ein weiter Ausdruck
   // verschluckt sonst halbe Absätze.
@@ -232,7 +233,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 const firstLetter = article.metadata.category.topic.charAt(0).toUpperCase();
                 const showLetter = index === 0 || articles[index - 1].metadata.category.topic.charAt(0).toUpperCase() !== firstLetter;
                 
-                const preview = article.text
+                const preview = ohneKartenMarken(article.text)
                   .split('\n')
                   .slice(0, 2)
                   .join(' ')

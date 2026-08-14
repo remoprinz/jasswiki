@@ -8,6 +8,7 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { toSlug } from '@/lib/utils';
 import { buildArticleUrl } from '@/lib/url-utils';
 import { SCHIEBER_GROUPS } from './index';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 interface SchieberGroupPageProps {
   groupTitle: string;
@@ -72,7 +73,7 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
               // buildArticleUrl beachtet die flache Struktur (Ansagen/Varianten, sub===topic).
               const href = buildArticleUrl(item.metadata.category);
 
-              const preview = item.text
+              const preview = ohneKartenMarken(item.text)
                 .split('\n')
                 .slice(0, 2)
                 .join(' ')

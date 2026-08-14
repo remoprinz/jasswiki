@@ -6,6 +6,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 export const SCHIEBER_GROUPS = [
   { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => i.metadata.category.main === 'Regeln' },
@@ -147,7 +148,7 @@ export const getStaticProps: GetStaticProps = async () => {
     .filter(g => g.count > 0);
 
   const intro = mainArticle
-    ? mainArticle.text.split('\n').slice(0, 2).join(' ').substring(0, 280) + '…'
+    ? ohneKartenMarken(mainArticle.text).split('\n').slice(0, 2).join(' ').substring(0, 280) + '…'
     : '';
 
   return {

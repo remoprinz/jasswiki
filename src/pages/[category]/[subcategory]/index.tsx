@@ -15,6 +15,7 @@ import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 
 // Helper: Holt alle Artikel einer Unterkategorie
@@ -301,7 +302,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                   {siblings.map((article) => {
                     const articleSlug = toSlug(article.metadata.category.topic);
                     const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
-                    const preview = article.text.split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
+                    const preview = ohneKartenMarken(article.text).split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
                     return (
                       <Link key={article.id} href={articleUrl} className="group block">
                         <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
@@ -397,7 +398,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
               
               // Extrahiere erste Zeile als Vorschau
-              const preview = article.text
+              const preview = ohneKartenMarken(article.text)
                 .split('\n')
                 .slice(0, 2)
                 .join(' ')

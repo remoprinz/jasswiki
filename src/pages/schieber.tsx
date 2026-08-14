@@ -11,6 +11,7 @@ import { GameSchema } from '@/components/seo/GameSchema';
 import { toSlug } from '@/lib/utils';
 import { buildArticleUrl } from '@/lib/url-utils';
 import { BookOpen, Trophy, Zap, Scale, Users } from 'lucide-react';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 interface SchieberPageProps {
   mainArticle: JassContentItem;
@@ -68,7 +69,7 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
                         {item.metadata.category.topic}
                     </h3>
                     <p className="text-sm text-gray-400 line-clamp-2 mt-1">
-                        {item.text.substring(0, 80)}...
+                        {ohneKartenMarken(item.text).substring(0, 80)}...
                     </p>
                 </div>
             </div>

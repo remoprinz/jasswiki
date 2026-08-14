@@ -45,6 +45,19 @@ export function marketInhaltLesen(inneres: string): KartenMarkeInhalt {
   };
 }
 
+/**
+ * Entfernt jede Karten-Marke aus einem Text.
+ * Für alle Stellen, die den Artikeltext **ohne** Renderer ausspielen:
+ * Suchtreffer, Vorschauen auf den Kategorieseiten, schema.org-Beschreibungen.
+ * Gegenstück in der Node-Welt: resolve-markers.mjs (Korpus, llms-*.md).
+ */
+export function ohneKartenMarken(text: string): string {
+  if (typeof text !== 'string') return text;
+  return text
+    .replace(/^[ \t]*\[\[[^\]\n]*:[^\]\n]*\]\][ \t]*\n?/gm, '')
+    .replace(/\[\[[^\]\n]*:[^\]\n]*\]\]/g, '');
+}
+
 export interface TextStueck {
   art: 'text';
   text: string;
