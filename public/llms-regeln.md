@@ -3,8 +3,8 @@ title: "JassWiki.ch - Spielregeln"
 description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 66
-last_updated: 2026-08-11
+entries_count: 67
+last_updated: 2026-08-14
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -82,6 +82,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Rechte Tafelseite](#weis_rules_notation_numbers)
 - [Spielfehler: Übersicht](#general_playing_errors)
 - [Ausmachregel beim Schneider](#weis_rules_ausmachen_schneider)
+- [Bietrunde](#bietrunde)
 - [Karte fällt runter](#karte_faellt_runter)
 - [Kreuzweis](#weis_rules_kreuzweis)
 - [Sonderregeln beim Verteilen](#general_dealing_special)
@@ -1836,6 +1837,61 @@ Im ersten Stich  erreicht ein Team das Gesamtziel, während das andere Team sich
 - **Welche Regel gilt beim Schneider-Ausmachen?** Es gilt entweder «Stöck - Weis - Stich» oder, falls vereinbart, «Stöck - Stich - Weis».
 
 *Keywords: schneider, ausmachen, gesamtziel, grenze, stöck*
+
+---
+
+### Bietrunde {#bietrunde}
+
+**Kategorie:** Regeln > Spielablauf
+
+Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele; die Zahlen darin setzt jede Jassart selbst.
+
+## Der Ablauf
+
+1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt
+2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot
+3. Reihum in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen
+4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben
+5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart
+
+Jedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) spielt der Meistbietende auch die erste Karte aus.
+
+## Was jede Jassart selbst festlegt
+
+| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |
+|---|---|---|
+| [Bieter zu dritt](/varianten/bieter-3-spieler/) | 600 | 10 |
+| [Bieter zu viert](/varianten/bieter-4-spieler/) | 350 | 10 |
+| [Bieter zu fünft](/varianten/bieter-5-spieler/) | 600 | 10 |
+| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |
+| [Palette](/varianten/palette/) | 110 | 1 |
+| [Sidi-Barrani](/varianten/sidi-barrani/) | frei, Ansageregeln ab 50 | 5 |
+
+## Was ein Gebot nennt
+
+Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
+
+
+Neben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch eine Ansage über alle 157 Kartenpunkte.
+
+## Wer mit wem spielt
+
+Beim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an. Beim Bieter zu fünft und beim Palette ruft er eine Karte, und wer sie hält, wird sein Partner.
+
+## Was das Gebot bindet
+
+Der Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).
+
+Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.
+
+**Häufige Fragen:**
+- **Wie läuft eine Bietrunde beim Jassen ab?** Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot. Reihum überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht mehrmals im Kreis herum und endet, sobald die übrigen Spieler fort gesagt haben. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart.
+- **Wer beginnt das Bieten?** Vorhand eröffnet und nennt das erste Gebot, danach ist reihum in Spielrichtung jeder Spieler an der Reihe.
+- **Wie viel muss ein neues Gebot über dem alten liegen?** Das setzt jede Jassart selbst: beim Bieter 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt, 350 beim Bieter zu viert, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani bleibt die Höhe des ersten Gebots frei.
+- **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich.
+- **Nennt ein Gebot auch die Trumpffarbe?** Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
+
+*Keywords: bietrunde, bieten, steigern, gebot, meistbietender*
 
 ---
 

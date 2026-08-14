@@ -3157,7 +3157,7 @@
   },
   "expressions_trumpf_bauer_kombinationen": {
     "id": "expressions_trumpf_bauer_kombinationen",
-    "text": "Definition:\n• Trumpf-Bauer-Kombinationen sind wichtige Weismeldungen (siehe Begriff \"expressions_weis\"), die aus dem Trumpf-Bauer und weiteren Trumpfkarten (siehe Begriff \"bodentrumpf\") bestehen\n\nKombinationen:\n• \"zu dritt\" (2 weitere), \"zu viert\" (3 weitere), \"zu fünft\" (4 weitere), \"zu sechst\" (5 weitere Trumpfkarten)\n\nWert:\n• Diese Kombinationen erhöhen den Wert des Weises erheblich",
+    "text": "«Puur zu dritt», «Nell zu viert»: So beschreibt ein Jasser, wie stark sein Trumpf ist. Die Zahl nennt, wie viele Karten der Trumpffarbe er insgesamt hält, die genannte Karte eingerechnet.\n\n## Was die Zahl zählt\n\n| Ausdruck | Karten der Trumpffarbe in der Hand |\n|---|---|\n| zu dritt | die genannte Karte und 2 weitere |\n| zu viert | die genannte Karte und 3 weitere |\n| zu fünft | die genannte Karte und 4 weitere |\n| zu sechst | die genannte Karte und 5 weitere |\n\n«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs; die genannte Karte sagt, wie hoch er reicht.\n\n## Wozu die Zählung dient\n\nSie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.\n\nWeispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, misst seine Stechkraft; wer weist, legt eine dieser beiden Figuren vor.\n\n## Beim Bieten\n\nDer [Sidi-Barrani](/varianten/sidi-barrani/) macht aus derselben Zählung eine Leiter von Geboten: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.",
     "metadata": {
       "id": "expressions_trumpf_bauer_kombinationen_meta",
       "category": {
@@ -3167,10 +3167,14 @@
       },
       "keywords": [
         "trumpf-bauer-kombinationen",
+        "puur zu dritt",
+        "nell zu viert",
         "zu-dritt",
         "zu-viert",
         "zu-fünft",
-        "zu-sechst"
+        "zu-sechst",
+        "trumpflänge",
+        "blattstärke"
       ],
       "situations": [
         "LEARNING"
@@ -3181,22 +3185,29 @@
     },
     "faqs": [
       {
-        "question": "Was sind Trumpf-Bauer-Kombinationen?",
-        "answer": "Trumpf-Bauer-Kombinationen sind Weismeldungen aus dem Trumpf-Bauer und weiteren aufeinanderfolgenden Trumpfkarten."
+        "question": "Was heisst «Puur zu dritt»?",
+        "answer": "Der Spieler hält den Puur und zwei weitere Karten der Trumpffarbe, zusammen also drei Trümpfe. Die genannte Karte zählt mit. «Nell zu viert» heisst entsprechend: das Nell und drei weitere Trumpfkarten, zusammen vier."
       },
       {
-        "question": "Wie viele Punkte sind Trumpf-Bauer-Kombinationen wert?",
-        "answer": "\"Zu dritt\" (Bauer, Nell, Ass) = 50 Punkte, \"zu viert\" = 100 Punkte, \"zu fünft\" = 150 Punkte, \"zu sechst\" = 200 Punkte."
+        "question": "Zählt der Puur bei «zu dritt» mit?",
+        "answer": "Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere."
       },
       {
-        "question": "Muss man Trumpf-Bauer-Kombinationen melden?",
-        "answer": "Ja, wie alle Weise müssen auch Trumpf-Bauer-Kombinationen vor dem ersten Ausspiel gemeldet werden."
+        "question": "Bringen Trumpf-Bauer-Kombinationen Weispunkte?",
+        "answer": "Weispunkte bringen die beiden Figuren des Weises: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage."
+      },
+      {
+        "question": "Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?",
+        "answer": "Sie messen die Trumpflänge vor der Ansage. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert."
       }
     ],
     "see_also": [
-      "bodentrumpf",
+      "trumpf_bauer",
+      "expressions_nell",
+      "expressions_trumpffarbe",
       "expressions_weis",
-      "trumpf_bauer"
+      "variants_strategic_sidi_barrani",
+      "bodentrumpf"
     ]
   },
   "expressions_undenufe": {
@@ -5447,7 +5458,7 @@
   },
   "jassapps_jassguru": {
     "id": "jassapps_jassguru",
-    "text": "App-Überblick:\n[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.\n\nKernfunktionen:\n• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen\n• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg (siehe Begriff \"bergpreis\") und Sieg\n• **Profil-System:** Gruppenübergreifende Erfassung von Jasswerten wie Trumpfansagen (siehe Begriff \"expressions_anziehen\"), Rekorden und Serien\n• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen\n\nSpielverwaltung:\n• **Archiv:** Archivierung aller Partien (siehe Begriff \"expressions_partie\") für die Rangliste\n• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe\n• **Runden-Ansicht:** Nachvollziehbare Dokumentation jeder Runde\n• **Navigation:** Navigation zurück und vorwärts durch die Runden zur Fehlerkorrektur\n\nEinstellungen:\nIndividuelle Anpassung von Karten, Farben und Multiplikatoren.\n\nVerfügbarkeit:\nJassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.",
+    "text": "App-Überblick:\n[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.\n\nKernfunktionen:\n• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen\n• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg (siehe Begriff \"bergpreis\") und Sieg\n• **Profil-System:** Gruppenübergreifende Erfassung von Jasswerten wie Trumpfansagen (siehe Begriff \"trumpfansage\"), Rekorden und Serien\n• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen\n\nSpielverwaltung:\n• **Archiv:** Archivierung aller Partien (siehe Begriff \"expressions_partie\") für die Rangliste\n• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe\n• **Runden-Ansicht:** Nachvollziehbare Dokumentation jeder Runde\n• **Navigation:** Navigation zurück und vorwärts durch die Runden zur Fehlerkorrektur\n\nEinstellungen:\nIndividuelle Anpassung von Karten, Farben und Multiplikatoren.\n\nVerfügbarkeit:\nJassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.",
     "metadata": {
       "id": "jassapps_jassguru_meta",
       "category": {
@@ -9987,7 +9998,7 @@
   },
   "variants_strategic_sidi_barrani": {
     "id": "variants_strategic_sidi_barrani",
-    "text": "Der Sidi-Barrani ist eine Schieber (siehe Begriff \"general_schieber\")-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf (siehe Begriff \"bodentrumpf\") und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team (siehe Begriff \"expressions_team\"), die Partner sitzen sich über Kreuz gegenüber.\n\nDer Sidi-Barrani wird unterschiedlich gespielt. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck (siehe Begriff \"weis_rules_stock\") und bei der Abrechnung am Schluss. Was eine Runde vor der Partie (siehe Begriff \"expressions_partie\") abmacht, gilt (Tischregel (siehe Begriff \"regeln_tischregel\")). Der [Jassverband Schweiz](https://jassverband.ch) empfiehlt diese Spielweise:\n\n## Die Grundform\n\n• Vier Spieler in zwei Teams, die Partner sitzen sich über Kreuz gegenüber\n• Neun Karten je Spieler, in drei Runden zu drei Karten gegeben\n• Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte (siehe Begriff \"general_card_values\") gelten unverändert\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Bieten, danach bietet der Reihe nach in Spielrichtung jeder Spieler\n• Ein Gebot besteht aus einer Punktzahl und einer Trumpffarbe\n• Wer «fort» (siehe Begriff \"expressions_fort\") sagt, bleibt für dieses Bieten draussen\n• Wer das höchste Gebot hält, ist der Spielübernehmer und spielt die erste Karte aus (siehe Begriff \"ausspiel\"). Er und sein Partner bilden das trumpfmachende Team\n• Die zuletzt angesagte Farbe ist Trumpf. Jede Trumpffarbe zählt gleich viel\n\n## Das Bieten\n\nDas Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Jedes Gebot liegt mindestens 5 Punkte über dem vorherigen.\n\nEin Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Der Verband empfiehlt diese Ansageregeln:\n\n| Neues Farbgebot | Was der Spieler damit zeigt |\n|---|---|\n| 60, 80, 100, 120 | Under (siehe Begriff \"trumpf_bauer\") der genannten Farbe und dazu 2, 3, 4 oder 5 weitere Karten derselben Farbe |\n| 50, 70, 90, 110 | Nell (siehe Begriff \"expressions_nell\") der genannten Farbe und dazu 2, 3, 4 oder 5 weitere Karten derselben Farbe |\n\nDazu kommen zwei Ansagen, die sich auf ein bereits genanntes Gebot beziehen:\n\n• **5 Punkte über dem laufenden Gebot** zeigen das Ass einer Farbe, während eine andere Farbe Trumpf werden soll\n• **10 oder 20 Punkte über dem Gebot des Partners, in dessen Farbe,** zeigen, dass man in dieser Farbe mithelfen kann\n\nDiese Ansageregeln arbeiten auf den Zehnerzahlen. Solange alle Farbgebote auf einem Zehner liegen, fällt eine Ass-Ansage auf einen Fünfer und bleibt dadurch erkennbar. Bietet jemand daneben, etwa 85, trägt seine Zahl für den Partner keine Auskunft mehr. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.\n\nDie Ansageregeln gelten für Farbgebote bis 120. Runden, die Obenabe, Undenufe oder Slalom zulassen, machen deren Ansagehöhe vorher ab.\n\nEine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler übernimmt ein Spiel in einer Farbe, die er als Trumpf gar nie wollte.\n\n## Ende des Bietens\n\nEin Gebot, das die anderen drei stehen lassen, gilt. Damit ist das Bieten beendet: Die genannte Farbe wird Trumpf, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot.\n\nDie gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**.\n\nFür das erste Gebot einer Partie bleibt die Höhe frei; die Ansageregeln beginnen bei 50 Punkten.\n\n## Doppeln und Kontern\n\nEin Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.\n\n**Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.\n\nDas trumpfmachende Team antwortet mit «kontern», wenn es sein Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.\n\n| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |\n|---|---|---|\n| einfach | 120 | 120 |\n| gedoppelt | 120 | 240 |\n| gedoppelt und gekontert | 120 | 480 |\n\nErreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpunkte zusätzlich zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner die Zielpunkte zusätzlich zu ihren Kartenpunkten.\n\n## Der Matsch\n\nEine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich (siehe Begriff \"letzter_stich\"). Der Matsch (siehe Begriff \"expressions_matsch\"), also alle neun Stiche, ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Doppeln und Kontern wirken darauf wie auf jedes Gebot: Die Zielpunkte steigen auf 314 oder 628, zu holen bleiben die neun Stiche.\n\n| Fall | Wertung |\n|---|---|\n| Matsch angesagt und geholt | Das trumpfmachende Team schreibt die Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 314 |\n| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die Zielpunkte |\n| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte und die 157 Kartenpunkte |\n| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte und dazu die Zielpunkte |\n\nBeim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel (siehe Begriff \"zaehlweise_striche\") gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.\n\n## Schreiben\n\n| Ausgang | Trumpfmachendes Team | Gegner |\n|---|---|---|\n| Gebot erreicht | Zielpunkte und Kartenpunkte | Kartenpunkte |\n| Gebot verfehlt | Kartenpunkte | Kartenpunkte und Zielpunkte |\n\nDas Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich (siehe Begriff \"expressions_stich\"), der Stöck nach dem Ausspielen der zweiten Stöckkarte.\n\n## Partieende\n\nGespielt wird auf 2000 Punkte oder, je nach Abmachung, auf 1500. Anders als bei den übrigen Jassarten, wo die Ausmachregel (siehe Begriff \"ausmachregel\") den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.\n\nEin Team, das die Hälfte des Ziels verfehlt, ist Schneider (siehe Begriff \"schneider\"). Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einer Runde einbringt, macht sie vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.\n\n## Wenn ein Team kurz vor dem Ziel steht\n\nEinem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Verfehlt es sein Gebot, schreiben die Gegner denselben Betrag. Für die Gegner lohnt sich das Doppeln in dieser Lage darum besonders.\n\nZwei Schlussregeln sind verbreitet, beide werden vor der Partie abgemacht:\n\n• **Das letzte Gebot entscheidet:** Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter\n• **Abzug bei verfehltem Gebot:** Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen\n\n## Eine verbreitete Variante\n\nNeben dieser Spielweise mit vier Trumpffarben ist eine erweiterte Variante verbreitet. Wer so spielt, hält es vor der Partie fest:\n\n• Zusätzlich zu den Farben stehen Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") und Slalom (siehe Begriff \"expressions_slalom\") zur Wahl, jede davon auch als Misère (siehe Begriff \"expressions_misere\"). Beim Misère werden die Stiche der Gegenseite gutgeschrieben, es gewinnt also, wer möglichst wenige Punkte macht\n• Weis und Stöck lässt diese Variante weg; gezählt werden die Kartenpunkte\n• Gedoppelt wird in dieser Variante auch noch beim Ausspielen der ersten Karte\n\n## Vor der Partie abmachen\n\nWas eine Runde einmal festlegt und danach jedes Mal gleich handhabt:\n\n1. Die Trumpfarten: die vier Farben, oder zusätzlich Obenabe, Undenufe, Slalom und Misère\n2. Die Ansageregeln: ob die hier beschriebenen gelten, und welche Höhe eine Ansage für Obenabe, Undenufe oder Slalom trägt\n3. Die tiefste Höhe für das erste Gebot und die Mindeststeigerung. Bei 5 Punkten bleibt die Ass-Ansage erkennbar\n4. Doppeln und Kontern: ob damit gespielt wird und bis wann das Doppeln offensteht\n5. Weis und Stöck: ob sie mitzählen\n6. Das Partieziel, die Schlussregel und den Wert des Schneiders",
+    "text": "Der Sidi-Barrani ist eine Schieber (siehe Begriff \"general_schieber\")-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf (siehe Begriff \"bodentrumpf\") und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team (siehe Begriff \"expressions_team\"), die Partner sitzen sich über Kreuz gegenüber.\n\nDer Sidi-Barrani wird unterschiedlich gespielt. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck (siehe Begriff \"weis_rules_stock\") und bei der Abrechnung am Schluss. Was eine Runde vor der Partie (siehe Begriff \"expressions_partie\") abmacht, gilt (Tischregel (siehe Begriff \"regeln_tischregel\")). Der [Jassverband Schweiz](https://jassverband.ch) empfiehlt diese Spielweise:\n\n## Die Grundform\n\n• Vier Spieler in zwei Teams, die Partner sitzen sich über Kreuz gegenüber\n• Neun Karten je Spieler, in drei Runden zu drei Karten gegeben\n• Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte (siehe Begriff \"general_card_values\") gelten unverändert\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Bieten, danach bietet der Reihe nach in Spielrichtung jeder Spieler\n• Ein Gebot besteht aus einer Punktzahl und einer Trumpffarbe\n• Wer «fort» (siehe Begriff \"expressions_fort\") sagt, bleibt für dieses Bieten draussen\n• Wer das höchste Gebot hält, ist der Spielübernehmer und spielt die erste Karte aus (siehe Begriff \"ausspiel\"). Er und sein Partner bilden das trumpfmachende Team\n• Die zuletzt angesagte Farbe ist Trumpf. Jede Trumpffarbe zählt gleich viel\n\n## Das Bieten\n\nDas Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Jedes Gebot liegt mindestens 5 Punkte über dem vorherigen.\n\nEin Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Der Verband empfiehlt diese Ansageregeln:\n\n| Gebot | Blatt in der genannten Farbe |\n|---|---|\n| 50 | Nell zu dritt |\n| 60 | Puur zu dritt |\n| 70 | Nell zu viert |\n| 80 | Puur zu viert |\n| 90 | Nell zu fünft |\n| 100 | Puur zu fünft |\n| 110 | Nell zu sechst |\n| 120 | Puur zu sechst |\n\n«Zu dritt» heisst drei Karten der genannten Farbe, die Ansagekarte eingerechnet; die Zählweise erklären die [Trumpf-Bauer Kombinationen](/begriffe/kartenbezeichnungen/trumpf-bauer-kombinationen/). Jede weitere Karte hebt das Gebot um zwanzig Punkte, und der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) wiegt gegenüber dem [Nell](/begriffe/kartenbezeichnungen/nell/) zehn Punkte mehr.\n\n[[karten: rosen-under, rosen-ass, rosen-8, rosen-6 | 80: der Puur der genannten Farbe und drei weitere Karten derselben Farbe]]\n\n[[karten: rosen-9, rosen-ass, rosen-8, rosen-6 | 70: das Nell an Stelle des Puurs, gleich viele Karten, zehn Punkte tiefer]]\n\nWelche die weiteren Karten sind, bleibt offen: Die Ansage misst die Länge des Blattes.\n\nDazu kommen zwei Ansagen, die sich auf ein bereits genanntes Gebot beziehen:\n\n• **5 Punkte über dem laufenden Gebot** zeigen das Ass einer Farbe, während eine andere Farbe Trumpf werden soll\n• **10 oder 20 Punkte über dem Gebot des Partners, in dessen Farbe,** zeigen, dass man in dieser Farbe mithelfen kann\n\nDiese Ansageregeln arbeiten auf den Zehnerzahlen. Solange alle Farbgebote auf einem Zehner liegen, fällt eine Ass-Ansage auf einen Fünfer und bleibt dadurch erkennbar. Bietet jemand daneben, etwa 85, trägt seine Zahl für den Partner keine Auskunft mehr. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.\n\nDie Ansageregeln gelten für Farbgebote bis 120. Runden, die Obenabe, Undenufe oder Slalom zulassen, machen deren Ansagehöhe vorher ab.\n\nEine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler übernimmt ein Spiel in einer Farbe, die er als Trumpf gar nie wollte.\n\n## Ende des Bietens\n\nEin Gebot, das die anderen drei stehen lassen, gilt. Damit ist das Bieten beendet: Die genannte Farbe wird Trumpf, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot.\n\nDie gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**.\n\nFür das erste Gebot einer Partie bleibt die Höhe frei; die Ansageregeln beginnen bei 50 Punkten.\n\n## Doppeln und Kontern\n\nEin Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.\n\n**Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.\n\nDas trumpfmachende Team antwortet mit «kontern», wenn es sein Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.\n\n| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |\n|---|---|---|\n| einfach | 120 | 120 |\n| gedoppelt | 120 | 240 |\n| gedoppelt und gekontert | 120 | 480 |\n\nErreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpunkte zusätzlich zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner die Zielpunkte zusätzlich zu ihren Kartenpunkten.\n\n## Der Matsch\n\nEine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich (siehe Begriff \"letzter_stich\"). Der Matsch (siehe Begriff \"expressions_matsch\"), also alle neun Stiche, ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Doppeln und Kontern wirken darauf wie auf jedes Gebot: Die Zielpunkte steigen auf 314 oder 628, zu holen bleiben die neun Stiche.\n\n| Fall | Wertung |\n|---|---|\n| Matsch angesagt und geholt | Das trumpfmachende Team schreibt die Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 314 |\n| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die Zielpunkte |\n| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte und die 157 Kartenpunkte |\n| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte und dazu die Zielpunkte |\n\nBeim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel (siehe Begriff \"zaehlweise_striche\") gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.\n\n## Schreiben\n\n| Ausgang | Trumpfmachendes Team | Gegner |\n|---|---|---|\n| Gebot erreicht | Zielpunkte und Kartenpunkte | Kartenpunkte |\n| Gebot verfehlt | Kartenpunkte | Kartenpunkte und Zielpunkte |\n\nDas Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich (siehe Begriff \"expressions_stich\"), der Stöck nach dem Ausspielen der zweiten Stöckkarte.\n\n## Partieende\n\nGespielt wird auf 2000 Punkte oder, je nach Abmachung, auf 1500. Anders als bei den übrigen Jassarten, wo die Ausmachregel (siehe Begriff \"ausmachregel\") den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.\n\nEin Team, das die Hälfte des Ziels verfehlt, ist Schneider (siehe Begriff \"schneider\"). Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einer Runde einbringt, macht sie vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.\n\n## Wenn ein Team kurz vor dem Ziel steht\n\nEinem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Verfehlt es sein Gebot, schreiben die Gegner denselben Betrag. Für die Gegner lohnt sich das Doppeln in dieser Lage darum besonders.\n\nZwei Schlussregeln sind verbreitet, beide werden vor der Partie abgemacht:\n\n• **Das letzte Gebot entscheidet:** Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter\n• **Abzug bei verfehltem Gebot:** Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen\n\n## Eine verbreitete Variante\n\nNeben dieser Spielweise mit vier Trumpffarben ist eine erweiterte Variante verbreitet. Wer so spielt, hält es vor der Partie fest:\n\n• Zusätzlich zu den Farben stehen Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") und Slalom (siehe Begriff \"expressions_slalom\") zur Wahl, jede davon auch als Misère (siehe Begriff \"expressions_misere\"). Beim Misère werden die Stiche der Gegenseite gutgeschrieben, es gewinnt also, wer möglichst wenige Punkte macht\n• Weis und Stöck lässt diese Variante weg; gezählt werden die Kartenpunkte\n• Gedoppelt wird in dieser Variante auch noch beim Ausspielen der ersten Karte\n\n## Vor der Partie abmachen\n\nWas eine Runde einmal festlegt und danach jedes Mal gleich handhabt:\n\n1. Die Trumpfarten: die vier Farben, oder zusätzlich Obenabe, Undenufe, Slalom und Misère\n2. Die Ansageregeln: ob die hier beschriebenen gelten, und welche Höhe eine Ansage für Obenabe, Undenufe oder Slalom trägt\n3. Die tiefste Höhe für das erste Gebot und die Mindeststeigerung. Bei 5 Punkten bleibt die Ass-Ansage erkennbar\n4. Doppeln und Kontern: ob damit gespielt wird und bis wann das Doppeln offensteht\n5. Weis und Stöck: ob sie mitzählen\n6. Das Partieziel, die Schlussregel und den Wert des Schneiders",
     "metadata": {
       "id": "variants_strategic_sidi_barrani_meta",
       "category": {
@@ -10037,6 +10048,10 @@
         "answer": "Für das erste Gebot bleibt die Höhe frei. Die vom Jassverband Schweiz empfohlenen Ansageregeln beginnen bei 50 Punkten. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine feste Untergrenze wollen, legen sie vor der Partie fest."
       },
       {
+        "question": "Was bedeutet ein Gebot von 80 beim Sidi-Barrani?",
+        "answer": "Ein Gebot von 80 zeigt den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlene Ansageleiter läuft in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen."
+      },
+      {
         "question": "Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?",
         "answer": "Das Bieten endet, sobald die anderen drei Spieler «fort» gesagt haben. Das höchste Gebot gilt dann: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe ändern will, tut das während des laufenden Bietens mit einem neuen, höheren Gebot."
       },
@@ -10077,7 +10092,8 @@
       "regeln_tischregel",
       "variants_strategic_bolschewik",
       "expressions_matsch",
-      "zaehlweise_striche"
+      "zaehlweise_striche",
+      "expressions_trumpf_bauer_kombinationen"
     ]
   },
   "variants_three_player_aucho": {
@@ -12003,6 +12019,114 @@
         "question": "Warum ist das Start-Rating 100 und die Skala 1000?",
         "answer": "Beim Schieber ist der Glücksfaktor grösser und die Spielstärken liegen enger beieinander als im Schach. Die breite Skala von 1000 zieht die Unterschiede deutlich auseinander, das Start-Rating von 100 hält sie zugleich intuitiv lesbar."
       }
+    ]
+  },
+  "bietrunde": {
+    "id": "bietrunde",
+    "text": "Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele; die Zahlen darin setzt jede Jassart selbst.\n\n## Der Ablauf\n\n1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt\n2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot\n3. Reihum in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen\n4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben\n5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart\n\nJedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) spielt der Meistbietende auch die erste Karte aus.\n\n## Was jede Jassart selbst festlegt\n\n| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |\n|---|---|---|\n| [Bieter zu dritt](/varianten/bieter-3-spieler/) | 600 | 10 |\n| [Bieter zu viert](/varianten/bieter-4-spieler/) | 350 | 10 |\n| [Bieter zu fünft](/varianten/bieter-5-spieler/) | 600 | 10 |\n| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |\n| [Palette](/varianten/palette/) | 110 | 1 |\n| [Sidi-Barrani](/varianten/sidi-barrani/) | frei, Ansageregeln ab 50 | 5 |\n\n## Was ein Gebot nennt\n\nBeim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Vier Farben stehen zur Wahl; jede bringt ihren Puur als höchsten Trumpf]]\n\nNeben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch eine Ansage über alle 157 Kartenpunkte.\n\n## Wer mit wem spielt\n\nBeim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an. Beim Bieter zu fünft und beim Palette ruft er eine Karte, und wer sie hält, wird sein Partner.\n\n## Was das Gebot bindet\n\nDer Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).\n\nWer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.",
+    "metadata": {
+      "id": "bietrunde_meta",
+      "category": {
+        "main": "Regeln",
+        "sub": "Spielablauf",
+        "topic": "Bietrunde"
+      },
+      "keywords": [
+        "bietrunde",
+        "bieten",
+        "steigern",
+        "gebot",
+        "meistbietender",
+        "spielübernehmer",
+        "bietspiel"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.8,
+      "difficulty": 2,
+      "taxonomy_tier": 2
+    },
+    "faqs": [
+      {
+        "question": "Wie läuft eine Bietrunde beim Jassen ab?",
+        "answer": "Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot. Reihum überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht mehrmals im Kreis herum und endet, sobald die übrigen Spieler fort gesagt haben. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart."
+      },
+      {
+        "question": "Wer beginnt das Bieten?",
+        "answer": "Vorhand eröffnet und nennt das erste Gebot, danach ist reihum in Spielrichtung jeder Spieler an der Reihe."
+      },
+      {
+        "question": "Wie viel muss ein neues Gebot über dem alten liegen?",
+        "answer": "Das setzt jede Jassart selbst: beim Bieter 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt, 350 beim Bieter zu viert, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani bleibt die Höhe des ersten Gebots frei."
+      },
+      {
+        "question": "Was verspricht der Meistbietende?",
+        "answer": "Er verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich."
+      },
+      {
+        "question": "Nennt ein Gebot auch die Trumpffarbe?",
+        "answer": "Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach."
+      }
+    ],
+    "see_also": [
+      "variants_strategic_sidi_barrani",
+      "variants_strategic_bolschewik",
+      "variants_strategic_bieter_drei",
+      "variants_strategic_palette_jass",
+      "expressions_fort",
+      "expressions_doppeln_kontern"
+    ]
+  },
+  "expressions_doppeln_kontern": {
+    "id": "expressions_doppeln_kontern",
+    "text": "Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Kontern ist die Antwort der Gegenseite, die an ihrem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird; die Aufgabe am Tisch bleibt dieselbe.\n\n## Was sich ändert\n\nGedoppelt wird der Schreibwert des Spiels; das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert; verfehlt er sie, schreibt ihn die Gegenseite.\n\nBeim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und jeder Schritt verdoppelt ihn:\n\n| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |\n|---|---|---|\n| einfach | 120 | 120 |\n| gedoppelt | 120 | 240 |\n| gedoppelt und gekontert | 120 | 480 |\n\nNach dem Kontern stehen die Zielpunkte fest.\n\n## Wann gedoppelt wird\n\nDas Doppeln beendet das Bieten; gespielt wird das zuletzt genannte Gebot. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.\n\nBis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.\n\n## Wie stark es wirkt, setzt die Jassart\n\nDer Sidi-Barrani verdoppelt den Schreibwert mit jedem Schritt. Beim Bolschewik trägt ein gebotener Matsch 1028 Punkte, gedoppelt 1542.\n\n## Kontern und Kontermatsch\n\nKontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermatsch](/regeln/punktezaehlung/kontermatsch/) bezeichnet etwas anderes, nämlich den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.",
+    "metadata": {
+      "id": "expressions_doppeln_kontern_meta",
+      "category": {
+        "main": "Begriffe",
+        "sub": "Spielaktionen",
+        "topic": "Doppeln und Kontern"
+      },
+      "keywords": [
+        "doppeln",
+        "kontern",
+        "gedoppelt",
+        "gekontert",
+        "zielpunkte",
+        "schreibwert"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.75,
+      "difficulty": 2,
+      "taxonomy_tier": 3
+    },
+    "faqs": [
+      {
+        "question": "Was heisst doppeln beim Jassen?",
+        "answer": "Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Das Doppeln beendet das Bieten, und der Schreibwert des Spiels steigt für beide Seiten."
+      },
+      {
+        "question": "Ändert das Doppeln das Ziel in Kartenpunkten?",
+        "answer": "Zu holen bleibt die gebotene Punktzahl. Gedoppelt wird der Wert, den eine Seite am Schluss schreibt."
+      },
+      {
+        "question": "Was heisst kontern?",
+        "answer": "Kontern ist die Antwort des Spielübernehmers auf ein Doppeln: Er hält an seinem Gebot fest, und der Schreibwert steigt ein weiteres Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind."
+      },
+      {
+        "question": "Ist Kontern dasselbe wie ein Kontermatsch?",
+        "answer": "Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt."
+      }
+    ],
+    "see_also": [
+      "variants_strategic_sidi_barrani",
+      "variants_strategic_bolschewik",
+      "bietrunde",
+      "kontermatsch",
+      "regeln_tischregel"
     ]
   }
 }

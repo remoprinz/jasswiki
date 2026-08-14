@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 57
-last_updated: 2026-08-11
+last_updated: 2026-08-14
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -55,11 +55,11 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Trio/3×3](#expressions_trio)
 - [Trumpffarbe](#expressions_trumpffarbe)
 - [Tschau Sepp](#variants_learning_tschau_sepp)
+- [Sidi Barrani](#variants_strategic_sidi_barrani)
 - [Cinq Cents](#variants_two_player_cinq_cents)
 - [Coiffeur](#variants_family_coiffeur_schieber)
 - [Differenzler (offen)](#variants_strategic_differenzler_offen)
 - [Handjass](#variants_strategic_handjass)
-- [Sidi Barrani](#variants_strategic_sidi_barrani)
 - [Tutti](#expressions_tutti)
 - [Arschlöchle](#variants_multi_player_arschloechle)
 - [Aucho](#variants_three_player_aucho)
@@ -94,7 +94,7 @@ Spiel geben:
 • Der Spielgeber teilt seinen drei Mitspielern jeweils neun Karten aus, dies geschieht in drei Runden zu je drei Karten
 • Die übrigen neun Karten werden als «Lukas» verdeckt als Stock auf den Tisch gelegt; die unterste Karte wird aufgedeckt
 • Der Spielgeber selbst erhält keine Karten und ist in diesem Spiel nicht aktiv beteiligt
-• Wird das Spiel verloren, erhält der Spielgeber einen «Härdöpfel» (Nuller) eingetragen, und das Geben wechselt reihum zum nächsten Spieler
+• Wird das Spiel verloren, erhält der Spielgeber einen «Härdöpfel» (Nuller) eingetragen, und das Geben wechselt zum nächsten Spieler
 
 Weisen-Regeln:
 • Vier Under  (Buben ) müssen vor Beginn des Spiels angemeldet werden, damit sie als Weis zählen
@@ -354,7 +354,7 @@ Beim Hindersi-Jass für vier Spieler geht es darum, möglichst wenige Punkte zu 
 
 Spiel geben:
 • Ein beliebiger Spieler übernimmt das Geben und verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten
-• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung
+• In den folgenden Spielen wechselt das Geben in Spielrichtung
 
 Trumpffarbe:
 • Die unterste Karte des Stapels bestimmt die Trumpffarbe und kann nicht geraubt werden
@@ -773,7 +773,7 @@ Der Schafhauser, auch als Fischenthaler bekannt, ist ein Königsspiel für drei 
 Spiel geben:
 • Für das erste Spiel bestimmt ein beliebiger Spieler, wer König ist und damit die Karten ausgibt
 • Der König verteilt jedem der drei Spieler zwölf Karten in drei Runden zu je vier Karten
-• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung
+• In den folgenden Spielen wechselt das Geben in Spielrichtung
 • Nach dem Abheben wird die unterste Karte aufgedeckt, welche die Trumpffarbe bestimmt
 • Diese Trumpfkarte gehört dem König und kann von niemandem geraubt werden
 
@@ -815,7 +815,7 @@ Der Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei de
 Spiel geben:
 • Bei vier Spielern: Der Spieler links vom Schreiber verteilt je drei Karten in drei Runden zum ersten Spiel
 • Bei drei Spielern: Je vier Karten in drei Runden
-• In den folgenden Spielen wechselt das Geben reihum in Spielrichtung
+• In den folgenden Spielen wechselt das Geben in Spielrichtung
 
 Spielablauf:
 • Beim Glücksjass spielt jeder Teilnehmer für sich allein
@@ -1404,7 +1404,7 @@ Grundprinzip:
 
 Spielablauf:
 • Zum ersten Spiel mischt und gibt der Schreiber die Karten
-• In den folgenden Runden wechselt das Geben reihum im Gegenuhrzeigersinn
+• In den folgenden Runden wechselt das Geben im Gegenuhrzeigersinn
 • Jeder Spieler erhält fünf Karten, die einzeln ausgeteilt werden
 • Die übrigen Karten bilden den verdeckten Stock
 
@@ -1420,14 +1420,164 @@ Da es häufig regionale Unterschiede bei den Regeln und Funktionskarten gibt, so
 
 **Häufige Fragen:**
 - **Was ist Tschau Sepp?** Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau – ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen.
-- **Was sind die Regeln von Tschau Sepp?** Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Reihum legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt; wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp» – wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erste:r alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart.
-- **Wie spielt man Tschau Sepp?** Man legt reihum eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Wer als Erste:r alle Karten losgeworden ist und «Sepp» angesagt hat, gewinnt.
+- **Was sind die Regeln von Tschau Sepp?** Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Der Reihe nach legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt; wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp» – wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erste:r alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart.
+- **Wie spielt man Tschau Sepp?** Man legt der Reihe nach eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Wer als Erste:r alle Karten losgeworden ist und «Sepp» angesagt hat, gewinnt.
 - **Wie viele Spieler braucht man für Tschau Sepp?** Tschau Sepp eignet sich für 2 bis 8 Spieler. Ab 5 Spielern wird mit zwei Kartenspielen gespielt.
 - **Was passiert, wenn ich vergesse «Tschau» oder «Sepp» zu sagen?** Wenn du die Ansage vergisst, musst du vier Strafkarten aufnehmen.
 - **Wie gewinnt man bei Tschau Sepp?** Gewonnen hat, wer als Erster alle Karten abgelegt und «Sepp» angesagt hat.
 - **Für wen ist Tschau Sepp geeignet?** Tschau Sepp ist ein ideales Lernspiel für Anfänger, um die Kartenfarben und Kartenwerte spielerisch kennenzulernen.
 
 *Keywords: tschau sepp, mau mau, ablegespiel, lernspiel, anfänger*
+
+---
+
+### Sidi Barrani {#variants_strategic_sidi_barrani}
+
+**Kategorie:** Varianten > Bietspiel
+
+Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team, die Partner sitzen sich über Kreuz gegenüber.
+
+Der Sidi-Barrani wird unterschiedlich gespielt. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck und bei der Abrechnung am Schluss. Was eine Runde vor der Partie abmacht, gilt (Tischregel). Der [Jassverband Schweiz](https://jassverband.ch) empfiehlt diese Spielweise:
+
+## Die Grundform
+
+• Vier Spieler in zwei Teams, die Partner sitzen sich über Kreuz gegenüber
+• Neun Karten je Spieler, in drei Runden zu drei Karten gegeben
+• Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte gelten unverändert
+• Vorhand eröffnet das Bieten, danach bietet der Reihe nach in Spielrichtung jeder Spieler
+• Ein Gebot besteht aus einer Punktzahl und einer Trumpffarbe
+• Wer fort sagt, bleibt für dieses Bieten draussen
+• Wer das höchste Gebot hält, ist der Spielübernehmer und spielt die erste Karte aus. Er und sein Partner bilden das trumpfmachende Team
+• Die zuletzt angesagte Farbe ist Trumpf. Jede Trumpffarbe zählt gleich viel
+
+## Das Bieten
+
+Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Jedes Gebot liegt mindestens 5 Punkte über dem vorherigen.
+
+Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Der Verband empfiehlt diese Ansageregeln:
+
+| Gebot | Blatt in der genannten Farbe |
+|---|---|
+| 50 | Nell zu dritt |
+| 60 | Puur zu dritt |
+| 70 | Nell zu viert |
+| 80 | Puur zu viert |
+| 90 | Nell zu fünft |
+| 100 | Puur zu fünft |
+| 110 | Nell zu sechst |
+| 120 | Puur zu sechst |
+
+«Zu dritt» heisst drei Karten der genannten Farbe, die Ansagekarte eingerechnet; die Zählweise erklären die [Trumpf-Bauer Kombinationen](/begriffe/kartenbezeichnungen/trumpf-bauer-kombinationen/). Jede weitere Karte hebt das Gebot um zwanzig Punkte, und der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) wiegt gegenüber dem [Nell](/begriffe/kartenbezeichnungen/nell/) zehn Punkte mehr.
+
+
+
+Welche die weiteren Karten sind, bleibt offen: Die Ansage misst die Länge des Blattes.
+
+Dazu kommen zwei Ansagen, die sich auf ein bereits genanntes Gebot beziehen:
+
+• **5 Punkte über dem laufenden Gebot** zeigen das Ass einer Farbe, während eine andere Farbe Trumpf werden soll
+• **10 oder 20 Punkte über dem Gebot des Partners, in dessen Farbe,** zeigen, dass man in dieser Farbe mithelfen kann
+
+Diese Ansageregeln arbeiten auf den Zehnerzahlen. Solange alle Farbgebote auf einem Zehner liegen, fällt eine Ass-Ansage auf einen Fünfer und bleibt dadurch erkennbar. Bietet jemand daneben, etwa 85, trägt seine Zahl für den Partner keine Auskunft mehr. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.
+
+Die Ansageregeln gelten für Farbgebote bis 120. Runden, die Obenabe, Undenufe oder Slalom zulassen, machen deren Ansagehöhe vorher ab.
+
+Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler übernimmt ein Spiel in einer Farbe, die er als Trumpf gar nie wollte.
+
+## Ende des Bietens
+
+Ein Gebot, das die anderen drei stehen lassen, gilt. Damit ist das Bieten beendet: Die genannte Farbe wird Trumpf, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot.
+
+Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**.
+
+Für das erste Gebot einer Partie bleibt die Höhe frei; die Ansageregeln beginnen bei 50 Punkten.
+
+## Doppeln und Kontern
+
+Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.
+
+**Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.
+
+Das trumpfmachende Team antwortet mit «kontern», wenn es sein Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.
+
+| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |
+|---|---|---|
+| einfach | 120 | 120 |
+| gedoppelt | 120 | 240 |
+| gedoppelt und gekontert | 120 | 480 |
+
+Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpunkte zusätzlich zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner die Zielpunkte zusätzlich zu ihren Kartenpunkten.
+
+## Der Matsch
+
+Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch, also alle neun Stiche, ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Doppeln und Kontern wirken darauf wie auf jedes Gebot: Die Zielpunkte steigen auf 314 oder 628, zu holen bleiben die neun Stiche.
+
+| Fall | Wertung |
+|---|---|
+| Matsch angesagt und geholt | Das trumpfmachende Team schreibt die Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 314 |
+| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die Zielpunkte |
+| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte und die 157 Kartenpunkte |
+| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte und dazu die Zielpunkte |
+
+Beim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
+
+## Schreiben
+
+| Ausgang | Trumpfmachendes Team | Gegner |
+|---|---|---|
+| Gebot erreicht | Zielpunkte und Kartenpunkte | Kartenpunkte |
+| Gebot verfehlt | Kartenpunkte | Kartenpunkte und Zielpunkte |
+
+Das Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte.
+
+## Partieende
+
+Gespielt wird auf 2000 Punkte oder, je nach Abmachung, auf 1500. Anders als bei den übrigen Jassarten, wo die Ausmachregel den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.
+
+Ein Team, das die Hälfte des Ziels verfehlt, ist Schneider. Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einer Runde einbringt, macht sie vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.
+
+## Wenn ein Team kurz vor dem Ziel steht
+
+Einem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Verfehlt es sein Gebot, schreiben die Gegner denselben Betrag. Für die Gegner lohnt sich das Doppeln in dieser Lage darum besonders.
+
+Zwei Schlussregeln sind verbreitet, beide werden vor der Partie abgemacht:
+
+• **Das letzte Gebot entscheidet:** Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
+• **Abzug bei verfehltem Gebot:** Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
+
+## Eine verbreitete Variante
+
+Neben dieser Spielweise mit vier Trumpffarben ist eine erweiterte Variante verbreitet. Wer so spielt, hält es vor der Partie fest:
+
+• Zusätzlich zu den Farben stehen Obenabe, Undenufe und Slalom zur Wahl, jede davon auch als Misère. Beim Misère werden die Stiche der Gegenseite gutgeschrieben, es gewinnt also, wer möglichst wenige Punkte macht
+• Weis und Stöck lässt diese Variante weg; gezählt werden die Kartenpunkte
+• Gedoppelt wird in dieser Variante auch noch beim Ausspielen der ersten Karte
+
+## Vor der Partie abmachen
+
+Was eine Runde einmal festlegt und danach jedes Mal gleich handhabt:
+
+1. Die Trumpfarten: die vier Farben, oder zusätzlich Obenabe, Undenufe, Slalom und Misère
+2. Die Ansageregeln: ob die hier beschriebenen gelten, und welche Höhe eine Ansage für Obenabe, Undenufe oder Slalom trägt
+3. Die tiefste Höhe für das erste Gebot und die Mindeststeigerung. Bei 5 Punkten bleibt die Ass-Ansage erkennbar
+4. Doppeln und Kontern: ob damit gespielt wird und bis wann das Doppeln offensteht
+5. Weis und Stöck: ob sie mitzählen
+6. Das Partieziel, die Schlussregel und den Wert des Schneiders
+
+**Häufige Fragen:**
+- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald drei Spieler «fort» gesagt haben. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus.
+- **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Für das erste Gebot bleibt die Höhe frei. Die vom Jassverband Schweiz empfohlenen Ansageregeln beginnen bei 50 Punkten. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine feste Untergrenze wollen, legen sie vor der Partie fest.
+- **Was bedeutet ein Gebot von 80 beim Sidi-Barrani?** Ein Gebot von 80 zeigt den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlene Ansageleiter läuft in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen.
+- **Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?** Das Bieten endet, sobald die anderen drei Spieler «fort» gesagt haben. Das höchste Gebot gilt dann: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe ändern will, tut das während des laufenden Bietens mit einem neuen, höheren Gebot.
+- **Muss man nach dem Doppeln mehr Punkte holen?** Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte, also den Wert, den eine Seite am Schluss geschrieben bekommt. Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte und schreibt bei Erfolg 240 Zielpunkte zu seinen Kartenpunkten; bleibt er darunter, schreiben die Gegner diese 240 Punkte.
+- **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Fünf Punkte über dem laufenden Gebot zeigen dem Partner das Ass dieser Farbe, während eine andere Farbe Trumpf werden soll. Die Farbgebote liegen auf den Zehnerzahlen, deshalb fällt eine Ass-Ansage auf einen Fünfer. Sie kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
+- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Angesagt und geholt bringt er im einfachen Spiel 157 Zielpunkte und 157 Kartenpunkte, zusammen 314. Angesagt und verfehlt schreibt das trumpfmachende Team allein seine Kartenpunkte, während die Gegner ihre Kartenpunkte und dazu die Zielpunkte schreiben. Doppeln und Kontern heben die Zielpunkte auf 314 oder 628.
+- **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte, gespielt wird auf 2000 oder je nach Abmachung auf 1500 Punkte. Die Strichtafel mit Berg, Sieg, Matsch und Schneider gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
+- **Zählen Weis und Stöck auf das gebotene Ziel?** Das Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
+- **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten: Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten; bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
+- **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen und richtet sich allein nach der Einschätzung des Blattes. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussregeln fangen das auf: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
+
+*Keywords: sidi barrani, bieten, steigern, gebot, taktisch*
 
 ---
 
@@ -1605,42 +1755,6 @@ Spielende:
 
 ---
 
-### Sidi Barrani {#variants_strategic_sidi_barrani}
-
-**Kategorie:** Varianten > Bietspiel
-
-Definition:
-Der Sidi-Barrani ist eine taktisch anspruchsvolle Schieber-Variante mit Bieten, bei der je zwei Spieler ein Team bilden.
-
-Spielprinzip:
-• Im Gegensatz zum Schieber wird nicht zum Partner geschoben, sondern der Reihe nach in Spielrichtung zu jedem Spieler
-• Jeder Spieler kann die Trumpffarbe wählen, indem er ein Gebot macht
-• Beim Bieten werden eine Punktzahl und die Trumpffarbe angesagt, die man mit diesem Trumpf zu erreichen glaubt
-• Das Mindestgebot beginnt bei 90 Punkten
-
-Ansageregeln (Empfehlungen):
-• Gerade Ansagen: 60 = Under (Bube) + 2 Karten der gleichen Farbe / 80 = Under + 3 Karten / 100 = Under + 4 Karten
-• Ungerade Ansagen: 50 = Nell + 2 Karten der gleichen Farbe / 70 = Nell + 3 Karten / 90 = Nell + 4 Karten
-• Asse einer Farbe werden mit 5 Punkten angesagt
-
-Doppeln und Kontern:
-• Ein Gegner kann «doppeln», wenn er überzeugt ist, dass das trumpfmachende Team die Ansage nicht erreicht
-• Gedoppelte Ansagen können gekontert werden
-
-Hinweis:
-Ansageregeln sind nicht verbindlich und dienen lediglich als Orientierungshilfe.
-
-**Häufige Fragen:**
-- **Wie spielt man Sidi Barrani?** Der Sidi-Barrani ist eine taktisch anspruchsvolle Schieber-Variante mit Bieten, bei der je zwei Spieler ein Team bilden.
-- **Was ist der Unterschied zwischen Sidi-Barrani und normalem Schieber?** Beim Sidi-Barrani wird nicht zum Partner geschoben, sondern der Reihe nach in Spielrichtung zu jedem Spieler. Zudem wird die Trumpffarbe durch Bieten bestimmt.
-- **Wie hoch ist das Mindestgebot beim Sidi-Barrani?** Das Mindestgebot beginnt bei 90 Punkten.
-- **Sind die Ansageregeln beim Sidi-Barrani verbindlich?** Nein, die Ansageregeln sind nicht verbindlich und dienen lediglich als Orientierungshilfe.
-- **Was bedeutet «doppeln» beim Sidi-Barrani?** Ein Gegner kann «doppeln», wenn er überzeugt ist, dass das trumpfmachende Team die Ansage nicht erreicht. Gedoppelte Ansagen können gekontert werden.
-
-*Keywords: sidi barrani, bieten, steigern, taktisch, schieber variante*
-
----
-
 ### Tutti {#expressions_tutti}
 
 **Kategorie:** Ansagen > Trumpf
@@ -1704,7 +1818,7 @@ Spielbeginn (erste Runde):
 
 Spielablauf:
 • Ausgespielt wird eine einzelne Karte oder ein Mehrling (mehrere ranggleiche Karten, also ein Paar, ein Drilling und so weiter)
-• Reihum wird höher überboten: eine einzelne Karte nur durch eine höhere einzelne Karte, ein Mehrling nur durch einen gleich grossen, aber höheren Mehrling. Drei Zehner werden also nur durch drei höhere gleiche Karten überboten, nicht durch eine einzelne Karte und nicht durch eine andere Anzahl
+• Der Reihe nach wird höher überboten: eine einzelne Karte nur durch eine höhere einzelne Karte, ein Mehrling nur durch einen gleich grossen, aber höheren Mehrling. Drei Zehner werden also nur durch drei höhere gleiche Karten überboten, nicht durch eine einzelne Karte und nicht durch eine andere Anzahl
 • Es wird nicht gepasst: Wer an der Reihe ist und überbieten kann, muss legen; wer nicht überbieten kann, setzt aus. Kann niemand mehr überbieten, ist der Durchgang beendet, und wer zuletzt gelegt hat, beginnt den nächsten
 • Wer alle Karten abgelegt hat, scheidet aus und nimmt seinen Rang ein. Gespielt wird, bis nur noch das Arschloch Karten in der Hand hält
 
@@ -2049,7 +2163,7 @@ Spielablauf:
 • Zu dritt: Jeder erhält 12 Karten
 • Alle Karten werden verteilt, keine bleiben übrig
 • Der Schreiber verteilt das erste Spiel
-• Folgende Spiele werden reihum in Spielrichtung gegeben
+• Folgende Spiele werden in Spielrichtung gegeben
 
 Spielregeln:
 • Es wird ohne Trumpf gespielt

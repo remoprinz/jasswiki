@@ -3,8 +3,8 @@ title: "JassWiki.ch - Jass-Glossar"
 description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 70
-last_updated: 2026-08-11
+entries_count: 71
+last_updated: 2026-08-14
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -81,6 +81,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Rampo](#expressions_rampo)
 - [Schlecken](#expressions_schlecken)
 - [Unterzug](#expressions_unterzug)
+- [Doppeln und Kontern](#expressions_doppeln_kontern)
 - [Ecke](#color_ecke)
 - [Eichel](#color_eichel)
 - [Herz](#color_herz)
@@ -1213,21 +1214,36 @@ Anforderung:
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Definition:
-• Trumpf-Bauer-Kombinationen sind wichtige Weismeldungen, die aus dem Trumpf-Bauer und weiteren Trumpfkarten bestehen
+«Puur zu dritt», «Nell zu viert»: So beschreibt ein Jasser, wie stark sein Trumpf ist. Die Zahl nennt, wie viele Karten der Trumpffarbe er insgesamt hält, die genannte Karte eingerechnet.
 
-Kombinationen:
-• "zu dritt" (2 weitere), "zu viert" (3 weitere), "zu fünft" (4 weitere), "zu sechst" (5 weitere Trumpfkarten)
+## Was die Zahl zählt
 
-Wert:
-• Diese Kombinationen erhöhen den Wert des Weises erheblich
+| Ausdruck | Karten der Trumpffarbe in der Hand |
+|---|---|
+| zu dritt | die genannte Karte und 2 weitere |
+| zu viert | die genannte Karte und 3 weitere |
+| zu fünft | die genannte Karte und 4 weitere |
+| zu sechst | die genannte Karte und 5 weitere |
+
+«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs; die genannte Karte sagt, wie hoch er reicht.
+
+## Wozu die Zählung dient
+
+Sie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.
+
+Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, misst seine Stechkraft; wer weist, legt eine dieser beiden Figuren vor.
+
+## Beim Bieten
+
+Der [Sidi-Barrani](/varianten/sidi-barrani/) macht aus derselben Zählung eine Leiter von Geboten: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.
 
 **Häufige Fragen:**
-- **Was sind Trumpf-Bauer-Kombinationen?** Trumpf-Bauer-Kombinationen sind Weismeldungen aus dem Trumpf-Bauer und weiteren aufeinanderfolgenden Trumpfkarten.
-- **Wie viele Punkte sind Trumpf-Bauer-Kombinationen wert?** "Zu dritt" (Bauer, Nell, Ass) = 50 Punkte, "zu viert" = 100 Punkte, "zu fünft" = 150 Punkte, "zu sechst" = 200 Punkte.
-- **Muss man Trumpf-Bauer-Kombinationen melden?** Ja, wie alle Weise müssen auch Trumpf-Bauer-Kombinationen vor dem ersten Ausspiel gemeldet werden.
+- **Was heisst «Puur zu dritt»?** Der Spieler hält den Puur und zwei weitere Karten der Trumpffarbe, zusammen also drei Trümpfe. Die genannte Karte zählt mit. «Nell zu viert» heisst entsprechend: das Nell und drei weitere Trumpfkarten, zusammen vier.
+- **Zählt der Puur bei «zu dritt» mit?** Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere.
+- **Bringen Trumpf-Bauer-Kombinationen Weispunkte?** Weispunkte bringen die beiden Figuren des Weises: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage.
+- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Sie messen die Trumpflänge vor der Ansage. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
 
-*Keywords: trumpf-bauer-kombinationen, zu-dritt, zu-viert, zu-fünft, zu-sechst*
+*Keywords: trumpf-bauer-kombinationen, puur zu dritt, nell zu viert, zu-dritt, zu-viert*
 
 ---
 
@@ -1393,6 +1409,50 @@ Taktischer Zweck:
 - **Wann ist ein Unterzug sinnvoll?** Ein Unterzug ist sinnvoll, wenn man eine starke, lange Farbe hat, aber den Stich strategisch nicht gewinnen möchte.
 
 *Keywords: unterzug*
+
+---
+
+### Doppeln und Kontern {#expressions_doppeln_kontern}
+
+**Kategorie:** Begriffe > Spielaktionen
+
+Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Kontern ist die Antwort der Gegenseite, die an ihrem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird; die Aufgabe am Tisch bleibt dieselbe.
+
+## Was sich ändert
+
+Gedoppelt wird der Schreibwert des Spiels; das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert; verfehlt er sie, schreibt ihn die Gegenseite.
+
+Beim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und jeder Schritt verdoppelt ihn:
+
+| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |
+|---|---|---|
+| einfach | 120 | 120 |
+| gedoppelt | 120 | 240 |
+| gedoppelt und gekontert | 120 | 480 |
+
+Nach dem Kontern stehen die Zielpunkte fest.
+
+## Wann gedoppelt wird
+
+Das Doppeln beendet das Bieten; gespielt wird das zuletzt genannte Gebot. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
+
+Bis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.
+
+## Wie stark es wirkt, setzt die Jassart
+
+Der Sidi-Barrani verdoppelt den Schreibwert mit jedem Schritt. Beim Bolschewik trägt ein gebotener Matsch 1028 Punkte, gedoppelt 1542.
+
+## Kontern und Kontermatsch
+
+Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermatsch](/regeln/punktezaehlung/kontermatsch/) bezeichnet etwas anderes, nämlich den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
+
+**Häufige Fragen:**
+- **Was heisst doppeln beim Jassen?** Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Das Doppeln beendet das Bieten, und der Schreibwert des Spiels steigt für beide Seiten.
+- **Ändert das Doppeln das Ziel in Kartenpunkten?** Zu holen bleibt die gebotene Punktzahl. Gedoppelt wird der Wert, den eine Seite am Schluss schreibt.
+- **Was heisst kontern?** Kontern ist die Antwort des Spielübernehmers auf ein Doppeln: Er hält an seinem Gebot fest, und der Schreibwert steigt ein weiteres Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
+- **Ist Kontern dasselbe wie ein Kontermatsch?** Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
+
+*Keywords: doppeln, kontern, gedoppelt, gekontert, zielpunkte*
 
 ---
 
