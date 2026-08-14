@@ -109,6 +109,12 @@ backups/
 jasswiki/
 docs/
 
+# Regelauskunft — Arbeitsraum des SCHIEDSRICHTERS (Präjudiz-Archiv).
+# Enthält Entwürfe, die Remo noch nicht freigegeben hat. Ein ENTWURF im
+# öffentlichen Repo liest sich draussen wie eine erteilte Auskunft des Verbands.
+# Erteilte Auskünfte werden als eigener, freigegebener Akt veröffentlicht.
+regelauskunft/
+
 # TypeScript Config für interne Scripts
 tsconfig.scripts.json
 
