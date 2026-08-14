@@ -7,6 +7,9 @@ import rehypeKatex from 'rehype-katex';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { buildArticleUrl, toSlug } from '@/lib/url-utils';
+import { ArtikelTabelle } from '@/components/wissen/ArtikelTabelle';
+import { JassKartenReihe } from '@/components/wissen/JassKartenReihe';
+import { textInStuecke } from '@/components/wissen/kartenMarke';
 
 // Erstelle eine Map für schnellen Zugriff auf Link-Ziele
 // UND für ID-basierte Lookups (z.B. "expressions_stapel" → "/begriffe/grundbegriffe/stapel")
@@ -48,6 +51,31 @@ function buildCanonicalURL(categoryMain: string, categorySub: string, id: string
 
 interface InternalLinkerProps {
   text: string;
+}
+
+/**
+ * Zählt die Spalten einer Tabelle aus dem gerenderten Baum (erste Zeile).
+ * Die Zahl bestimmt auf schmalen Geräten die Mindestbreite der Tabelle.
+ */
+interface BaumKnoten {
+  tagName?: string;
+  children?: BaumKnoten[];
+}
+
+function spaltenZaehlen(node: unknown): number {
+  const zellenDerErstenZeile = (n: BaumKnoten | undefined): number => {
+    if (!n || typeof n !== 'object') return 0;
+    const kinder: BaumKnoten[] = Array.isArray(n.children) ? n.children : [];
+    if (n.tagName === 'tr') {
+      return kinder.filter((c) => c.tagName === 'th' || c.tagName === 'td').length;
+    }
+    for (const kind of kinder) {
+      const treffer = zellenDerErstenZeile(kind);
+      if (treffer > 0) return treffer;
+    }
+    return 0;
+  };
+  return zellenDerErstenZeile(node as BaumKnoten) || 3;
 }
 
 /**
@@ -103,16 +131,16 @@ function convertReferencesToLinks(text: string): string {
 }
 
 /**
- * Component, der Text rendert und automatisch interne Links zu anderen Wissensartikeln erstellt
+ * Rendert ein Textstück als Markdown (Links, Listen, Überschriften, Tabellen).
  */
-export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
+const MarkdownStueck: React.FC<InternalLinkerProps> = ({ text }) => {
   // Pre-Process 1: Konvertiere technische Verweise zu Markdown-Links
   let processedText = convertReferencesToLinks(text);
-  
+
   // Pre-Process 2: Konvertiere • (Unicode Bullet) zu - (Markdown Bullet)
   // Damit ReactMarkdown die Listen korrekt als <ul> rendert
   const markdownText = processedText.replace(/^•\s/gm, '- ');
-  
+
   return (
     <div className="prose prose-invert prose-lg max-w-none">
       <ReactMarkdown
@@ -159,11 +187,40 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
               {children}
             </h3>
           ),
+          // Tabellen: eigener Rahmen, der auf schmalen Geräten waagrecht rollt.
+          table: ({ node, children }) => (
+            <ArtikelTabelle spalten={spaltenZaehlen(node)}>{children}</ArtikelTabelle>
+          ),
         }}
       >
         {markdownText}
       </ReactMarkdown>
     </div>
+  );
+};
+
+/**
+ * Rendert den Artikeltext: Markdown mit internen Links – und löst die
+ * Karten-Marke [[karten: …]] in eine Reihe echter Jasskarten auf.
+ * Ohne Marke bleibt genau ein Markdown-Block wie bisher.
+ */
+export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
+  const stuecke = textInStuecke(text);
+
+  if (stuecke.length === 1 && stuecke[0].art === 'text') {
+    return <MarkdownStueck text={stuecke[0].text} />;
+  }
+
+  return (
+    <>
+      {stuecke.map((stueck, i) =>
+        stueck.art === 'text' ? (
+          <MarkdownStueck key={`t${i}`} text={stueck.text} />
+        ) : (
+          <JassKartenReihe key={`k${i}`} slugs={stueck.slugs} beschriftung={stueck.beschriftung} />
+        )
+      )}
+    </>
   );
 };
 

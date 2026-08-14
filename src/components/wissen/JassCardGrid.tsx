@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { createPortal } from 'react-dom';
 import { KARTENSYSTEME, JassKarte } from './jasskarten';
+import { KartenLightbox } from './KartenLightbox';
 
 const SITE = 'https://jasswiki.ch';
 const PAGE = '/grundlagen-kultur/jasskarten/';
@@ -45,8 +45,6 @@ export function JassCardGrid() {
   }, []);
 
   const [selected, setSelected] = useState<JassKarte | null>(null);
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
 
   const open = useCallback((k: JassKarte) => {
     setSelected(k);
@@ -72,20 +70,7 @@ export function JassCardGrid() {
     return () => window.removeEventListener('hashchange', fromHash);
   }, [cardBySlug]);
 
-  // Esc schliesst, Scroll sperren solange offen.
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') close();
-    };
-    if (selected) {
-      document.addEventListener('keydown', onKey);
-      document.body.style.overflow = 'hidden';
-    }
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = '';
-    };
-  }, [selected, close]);
+  // Esc und Scroll-Sperre liegen in der KartenLightbox.
 
   return (
     <section className="not-prose my-10" aria-label="Alle Jasskarten beider Kartensysteme">
@@ -134,49 +119,7 @@ export function JassCardGrid() {
         </div>
       ))}
 
-      {selected &&
-        mounted &&
-        createPortal(
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label={selected.name}
-            onClick={close}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4"
-          >
-            <div className="relative flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
-              <button
-                type="button"
-                onClick={close}
-                aria-label="Schliessen"
-                className="absolute -top-9 right-0 text-3xl leading-none text-white/80 hover:text-white"
-              >
-                ×
-              </button>
-              <img
-                src={selected.image}
-                alt={selected.alt}
-                className="max-h-[78vh] w-auto rounded-xl bg-white shadow-2xl"
-              />
-              <div className="mt-3 text-center text-white">
-                <div className="text-lg font-bold text-white">{selected.name}</div>
-                <div className="text-sm text-white/70">{selected.desc}</div>
-                <p className="mt-3 text-sm italic text-white">
-                  Design:{' '}
-                  <a
-                    href="https://schweizerjass.ch"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white underline decoration-white/60 underline-offset-2 transition-colors hover:decoration-white"
-                  >
-                    schweizerjass.ch
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>,
-          document.body
-        )}
+      {selected && <KartenLightbox karte={selected} onClose={close} />}
     </section>
   );
 }

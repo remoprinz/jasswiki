@@ -126,6 +126,49 @@ export const KARTENSYSTEME: JassKartensystem[] = [
   },
 ];
 
+// ---------------------------------------------------------------------------
+// Auflösung einzelner Karten über ihren Slug – Grundlage der Karten-Marke
+// [[karten: …]] im Artikeltext (siehe JassKartenReihe).
+//
+// Jede Karte ist eindeutig bestimmt durch Farbe (Code E/R/S/L) und Rang-Position
+// (0 = Ass … 8 = Sechs). Beide Kartensysteme teilen diese Ordnung, darum lässt
+// sich zu jedem Slug die gleichbedeutende Karte im anderen System finden:
+// 'eichel-under' (deutsch) und 'kreuz-bube' (französisch) zeigen dieselbe Karte.
+// ---------------------------------------------------------------------------
+
+interface KartenOrt {
+  code: JassFarbe['code'];
+  rangIndex: number;
+}
+
+const ORT_JE_SLUG = new Map<string, KartenOrt>();
+const KARTE_JE_ORT = new Map<string, JassKarte>();
+
+KARTENSYSTEME.forEach((sys) =>
+  sys.farben.forEach((farbe) =>
+    farbe.karten.forEach((karte, rangIndex) => {
+      ORT_JE_SLUG.set(karte.slug, { code: farbe.code, rangIndex });
+      KARTE_JE_ORT.set(`${sys.system}:${farbe.code}:${rangIndex}`, karte);
+    })
+  )
+);
+
+/**
+ * Liefert die Karte zu einem Slug im gewünschten Kartensystem.
+ * Der Slug darf aus beiden Systemen stammen; ausgegeben wird immer die Karte
+ * des verlangten Systems. Unbekannter Slug → null (der Aufrufer lässt sie aus).
+ */
+export function karteAusSlug(slug: string, system: System): JassKarte | null {
+  const ort = ORT_JE_SLUG.get(slug.trim().toLowerCase());
+  if (!ort) return null;
+  return KARTE_JE_ORT.get(`${system}:${ort.code}:${ort.rangIndex}`) ?? null;
+}
+
+/** Prüft, ob ein Slug in einem der beiden Kartensysteme existiert. */
+export function istKartenSlug(slug: string): boolean {
+  return ORT_JE_SLUG.has(slug.trim().toLowerCase());
+}
+
 // Flache Liste aller Karten – für die Karten-Suche (Navigation zu /…/jasskarten/#slug).
 export interface KartenSuchItem {
   name: string;

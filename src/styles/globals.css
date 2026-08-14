@@ -326,6 +326,278 @@ body.lexikon-page div[id="__next"] {
   }
 }
 
+/* ---------------------------------------------------------------------------
+   ARTIKEL-TABELLEN (jw-table)
+   Gilt für jede Markdown-Tabelle im Artikeltext (InternalLinker → ArtikelTabelle).
+   Kopfzeile im Wiki-Grün, Trennlinien im Cream-Ton der Seite, Zahlen in gleicher
+   Ziffernbreite. Auf schmalen Geräten trägt jede Spalte eine Mindestbreite: die
+   Tabelle rollt dann im eigenen Rahmen, die Seite bleibt waagrecht ruhig.
+   --------------------------------------------------------------------------- */
+.jw-table-outer {
+  position: relative;
+  margin: 28px 0;
+}
+
+.jw-table-wrap {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #e3dfd2;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.jw-table-wrap:focus-visible {
+  outline: 2px solid #274823;
+  outline-offset: 2px;
+}
+
+/* Kanten links und rechts, solange es in die jeweilige Richtung weitergeht. */
+.jw-table-outer[data-rollt='true']::after,
+.jw-table-outer[data-rollt-links='true']::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  width: 34px;
+  pointer-events: none;
+}
+
+.jw-table-outer[data-rollt='true']::after {
+  right: 1px;
+  border-radius: 0 11px 11px 0;
+  background: linear-gradient(to left, rgba(39, 72, 35, 0.26), rgba(39, 72, 35, 0));
+}
+
+.jw-table-outer[data-rollt-links='true']::before {
+  left: 1px;
+  border-radius: 11px 0 0 11px;
+  background: linear-gradient(to right, rgba(39, 72, 35, 0.26), rgba(39, 72, 35, 0));
+}
+
+.jw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #000000;
+}
+
+.jw-table thead th {
+  background: #274823;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 11px 14px;
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.jw-table thead th:last-child {
+  border-right: 0;
+}
+
+.jw-table tbody td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border-top: 1px solid #ece8dc;
+  border-right: 1px solid #f2efe6;
+  font-variant-numeric: tabular-nums;
+}
+
+.jw-table tbody td:last-child {
+  border-right: 0;
+}
+
+.jw-table tbody tr:nth-child(even) {
+  background: #faf9f5;
+}
+
+/* Erste Spalte trägt den Schlüssel der Zeile. */
+.jw-table tbody td:first-child {
+  font-weight: 600;
+  color: #274823;
+}
+
+/* Wörter bleiben ganz: die globale Bruch-Regel gilt hier gelockert,
+   damit aus «Zielpunkte» nie «Zielpu nkte» wird. */
+.content-formatting .jw-table th,
+.content-formatting .jw-table td {
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+
+/* Links im grünen Kopf bleiben lesbar. */
+.content-formatting .jw-table thead a {
+  color: #ffffff !important;
+  text-decoration-color: rgba(255, 255, 255, 0.6);
+}
+
+.content-formatting .jw-table thead a:hover {
+  color: #ffffff !important;
+  text-decoration-color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .jw-table {
+    font-size: 14px;
+    /* je Spalte 9.5rem – darunter zerfällt der Text in Wortfetzen */
+    min-width: calc(var(--jw-cols, 3) * 9.5rem);
+  }
+  .jw-table thead th,
+  .jw-table tbody td {
+    padding: 10px 12px;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   KARTENREIHE IM FLIESSTEXT (jw-karten-*)
+   Gesetzt im Inhalt über die Marke [[karten: …]], dargestellt von
+   JassKartenReihe. Bilder: schweizerjass.ch (Jens Riedweg).
+   --------------------------------------------------------------------------- */
+.jw-karten-reihe {
+  margin: 28px 0;
+  padding: 14px 16px 12px;
+  border: 1px solid #e8e6df;
+  border-radius: 14px;
+  background: rgba(240, 238, 231, 0.4);
+}
+
+.jw-karten-kopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.jw-karten-marke {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #88816d;
+}
+
+.jw-karten-wahl {
+  display: inline-flex;
+  border: 1px solid #d8d4c6;
+  border-radius: 999px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.jw-karten-wahl-knopf {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 10px 13px;
+  color: #88816d;
+  background: transparent;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.jw-karten-wahl-knopf[aria-pressed='true'] {
+  background: #274823;
+  color: #ffffff;
+}
+
+.jw-karten-band {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.jw-karte {
+  flex: 0 0 auto;
+  width: clamp(58px, 17vw, 118px);
+  cursor: zoom-in;
+  border-radius: 8px;
+}
+
+.jw-karte:focus-visible {
+  outline: 2px solid #274823;
+  outline-offset: 2px;
+}
+
+.jw-karte-bild {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease;
+}
+
+.jw-karte:hover .jw-karte-bild {
+  transform: scale(1.04);
+}
+
+.jw-karte-name {
+  display: block;
+  margin-top: 5px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  line-height: 1.25;
+  text-align: center;
+  color: #88816d;
+}
+
+.jw-karten-fuss {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.jw-karten-text {
+  flex: 1 1 auto;
+}
+
+.jw-karten-link {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 600;
+  color: #274823;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.jw-karten-link:hover {
+  color: #2bb752;
+}
+
+@media (max-width: 640px) {
+  .jw-karten-reihe {
+    padding: 12px 12px 10px;
+  }
+  /* Vier Karten passen am Handy ohne Rollen in die Reihe. */
+  .jw-karten-band {
+    gap: 8px;
+  }
+  .jw-karten-fuss {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
 /* Karten-Titel (innerhalb von .group-Containern): schwarz, nur bei Hover rot. */
 .content-formatting .group h2,
 .content-formatting .group h3,
