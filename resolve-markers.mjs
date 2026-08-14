@@ -19,8 +19,12 @@ export function resolveMarkers(text, idToTopic = {}) {
   if (typeof text !== 'string') return text;
 
   // 1. "Anzeigetext" (siehe Begriff "id")  ->  Anzeigetext
+  //
+  // Eng gefasst: ohne Zeilenumbruch, ohne Klammern, höchstens 80 Zeichen.
+  // Die Artikel-IDs stehen selbst in Anführungszeichen — ein weiter Ausdruck
+  // startet sonst an einem früheren `"` und verschluckt halbe Absätze.
   text = text.replace(
-    /[«"]([^»"]+)[»"]\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
+    /[«"]([^»"\n()]{1,80})[»"]\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
     (_, display) => display
   );
 

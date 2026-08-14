@@ -105,7 +105,13 @@ function convertReferencesToLinks(text: string): string {
   text = text.replace(/(?<!\[)Jassguru\.ch(?!\]\()/g, '[Jassguru.ch](https://jassguru.ch)');
 
   // 1. «Guillemet-Text» oder "Anführungstext" (siehe Begriff "id")
-  text = text.replace(/[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+  //
+  // Der zitierte Text bleibt bewusst eng gefasst: ohne Zeilenumbruch, ohne
+  // Klammern, höchstens 80 Zeichen. Grund: die Artikel-IDs stehen selbst in
+  // Anführungszeichen, ein weit gefasster Ausdruck startet darum an einem
+  // früheren `"` und läuft über halbe Absätze — im Sidi-Barrani stand deshalb
+  // sichtbar «fort](/begriffe/spielaktionen/fort/) statt eines Links.
+  text = text.replace(/[«"]([^»"\n()]{1,80})[»"]\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
     (_, display, refId) => {
       const path = resolve(refId) ?? linkMap.get(display.toLowerCase()) ?? null;
       return path ? `[${display}](${path})` : `"${display}"`;

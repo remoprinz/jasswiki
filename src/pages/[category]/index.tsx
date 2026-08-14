@@ -40,7 +40,10 @@ const getArticlesForCategory = (content: JassContentRecord, categorySlug: string
 // (siehe Begriff "id")-Marker auf, entfernt Bullets/Labels, kürzt sauber).
 function cleanGlossaryDescription(text: string): string {
   let t = String(text || '');
-  t = t.replace(/[«"]([^»"]+)[»"]\s*\(siehe Begriff\s+"[^"]+"\)/gi, '$1');
+  // Eng gefasst (ohne Zeilenumbruch, ohne Klammern, höchstens 80 Zeichen):
+  // die Artikel-IDs stehen selbst in Anführungszeichen, ein weiter Ausdruck
+  // verschluckt sonst halbe Absätze.
+  t = t.replace(/[«"]([^»"\n()]{1,80})[»"]\s*\(siehe Begriff\s+"[^"]+"\)/gi, '$1');
   t = t.replace(/([A-Za-zÄÖÜäöüß][\wÄÖÜäöüß-]*)\s*\(siehe Begriff\s+"[^"]+"\)/gi, '$1');
   t = t.replace(/\s*\(siehe Begriff\s+"[^"]+"\)/gi, '');
   t = t.replace(/\b(Definition|Synonyme|Entstehung|Verwendung|Bedeutung|Beispiel|Beispiele)\s*:/gi, ' ');
