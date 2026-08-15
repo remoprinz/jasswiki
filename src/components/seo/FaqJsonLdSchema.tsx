@@ -1,4 +1,6 @@
 import React from 'react';
+import { verweiseZuText } from '@/components/wissen/verweise';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 interface FaqItem {
   question: string;
@@ -17,12 +19,15 @@ export const FaqJsonLdSchema: React.FC<FaqJsonLdSchemaProps> = ({ faqs }) => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    // Frage und Antwort gehen als reiner Satz ins Schema: die internen Marker
+    // (siehe Begriff "kennung") und die Karten-Marke bleiben der Anzeige
+    // vorbehalten. Bis 15.08. stand der Rohtext samt Marker im FAQPage-Schema.
     mainEntity: faqs.map((faq) => ({
       '@type': 'Question',
-      name: faq.question,
+      name: verweiseZuText(ohneKartenMarken(faq.question)),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: faq.answer,
+        text: verweiseZuText(ohneKartenMarken(faq.answer)),
       },
     })),
   };
