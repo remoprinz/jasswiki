@@ -1,10 +1,49 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { verweiseZuLinks } from '@/components/wissen/verweise';
+import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 interface FaqItem {
   question: string;
   answer: string;
 }
+
+/**
+ * Die Antwort läuft durch denselben Auflöser wie der Fliesstext: aus
+ * (siehe Begriff "kennung") wird ein Link auf den Artikel der Kennung.
+ * Farben wie im Artikel (.content-formatting a): #274823, im Überfahren #2bb752.
+ */
+const FaqAntwort: React.FC<{ text: string }> = ({ text }) => (
+  <ReactMarkdown
+    remarkPlugins={[remarkGfm]}
+    components={{
+      p: ({ children }) => <p className="m-0 mb-[8px] last:mb-0">{children}</p>,
+      // `node` bleibt hier: sonst schreibt es ReactMarkdown als Attribut
+      // node="[object Object]" ins HTML.
+      a: ({ node, href, children, ...props }) =>
+        href?.startsWith('http') ? (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#274823] underline hover:text-[#2bb752]"
+            {...props}
+          >
+            {children}
+          </a>
+        ) : (
+          <Link href={href || '#'} className="text-[#274823] underline hover:text-[#2bb752]">
+            {children}
+          </Link>
+        ),
+    }}
+  >
+    {verweiseZuLinks(ohneKartenMarken(text))}
+  </ReactMarkdown>
+);
 
 interface FaqSectionProps {
   faqs: FaqItem[];
@@ -72,7 +111,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({
                 }`}
               >
                 <div className="px-[16px] pb-[16px] pt-[8px] text-[#000000] font-inter text-[16px] leading-[1.5]">
-                  {faq.answer}
+                  <FaqAntwort text={faq.answer} />
                 </div>
               </div>
             </div>
