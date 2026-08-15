@@ -89,6 +89,7 @@ const zahlenAusText = (text) => {
 
 const lauf = async () => {
   const bestand = JSON.parse(await readFile(QUELLE, 'utf-8'));
+  const alleIds = new Set(Object.values(bestand).map((a) => a.id));
   const fehler = [];
   const hinweise = [];
 
@@ -123,6 +124,17 @@ const lauf = async () => {
         });
       }
     }
+    // E — jeder Begriffs-Verweis muss ein Ziel haben, das es gibt
+    for (const treffer of alles.matchAll(/\(siehe Begriff\s+"([^"]+)"\)/gi)) {
+      if (alleIds.has(treffer[1])) continue;
+      fehler.push({
+        artikel: schluessel,
+        pruefung: 'E · Verweis ins Leere',
+        fund: `«${treffer[1]}»`,
+        warum: 'Der Renderer lässt einen unbekannten Verweis still fallen: kein Fehler, kein 404, bloss ein Wort ohne Link.',
+      });
+    }
+
     if (GEDANKENSTRICH.test(alles)) {
       fehler.push({
         artikel: schluessel,

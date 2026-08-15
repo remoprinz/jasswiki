@@ -120,7 +120,12 @@ function convertReferencesToLinks(text: string): string {
   // 2. Deutsches Wort (inkl. Umlaute, Bindestrich) vor (siehe Begriff "id")
   text = text.replace(/([a-zA-ZäöüÄÖÜß][a-zA-ZäöüÄÖÜß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
     (_, term, refId) => {
-      const path = linkMap.get(term.toLowerCase()) ?? resolve(refId);
+      // Das ausdrücklich genannte Ziel gewinnt IMMER gegen das geratene Stichwort.
+      // Vorher stand linkMap zuerst: «tischregel» ist Stichwort in drei Artikeln, und
+      // weil linkMap beim Bauen überschrieben wird, gewann der zuletzt gelesene.
+      // «Tischregel (siehe Begriff "regeln_tischregel")» landete so auf
+      // /regeln/offizielle-jassregeln/ (Remo, 15.08.2026).
+      const path = resolve(refId) ?? linkMap.get(term.toLowerCase());
       return path ? `[${term}](${path})` : term;
     });
 
