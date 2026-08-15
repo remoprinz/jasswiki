@@ -53,6 +53,7 @@ const FREMDWOERTER = [
   'gedeckelt',
   'Bietsprache',      // eigene Erfindung
   'Fünfling', 'Sechsling', 'Hauptweis', 'Folgeweis',   // Weis, den es nicht gibt
+  'reihum',           // «kein gängiger Begriff» (Remo, 15.08.); Jasssprache: «der Reihe nach»
   'es gilt zu beachten', 'wichtig zu wissen', 'in diesem Zusammenhang',
   'darüber hinaus', 'nicht zuletzt', 'seien Sie sich bewusst',
 ];
