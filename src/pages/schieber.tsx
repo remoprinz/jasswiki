@@ -46,7 +46,7 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
     publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
-    datePublished: '2023-01-01',
+    datePublished: '2025-11-22',
     dateModified: new Date().toISOString().split('T')[0],
   };
 
