@@ -47,7 +47,7 @@ const TaktikenStrategienPage: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Jass-Taktik & Strategie: Verwerfen, Anziehen, Trumpfkonventionen | JassWiki"
+        title="Jass-Taktik & Strategie: Verwerfen, Anziehen, Trumpfkonventionen | Jass-Wiki"
         description="Die wichtigsten Jass-Taktiken und Strategien: Verwerfen, Anziehen, Hoch-tief, Nell vor Puur und Nachschmeissen. Wie sich Partner beim Schieber über ihre Karten verständigen."
         canonicalUrl={canonicalUrl}
       />

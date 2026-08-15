@@ -69,9 +69,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
 }) => {
   const router = useRouter();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
-  const defaultPublishedDate = process.env.NEXT_PUBLIC_DEFAULT_PUBLISHED_DATE || '2023-01-01';
-  const defaultModifiedDate = process.env.NEXT_PUBLIC_DEFAULT_MODIFIED_DATE || '2025-11-05';
-  
+
   // Breadcrumbs: 2 Ebenen für Artikel, 3 Ebenen für Subkategorien
   const breadcrumbItems = isArticle
     ? [
@@ -195,8 +193,8 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
       authorName: isJassElo ? 'Remo Prinz' : 'Jasswiki Redaktion',
       publisherName: 'Jasswiki.ch',
       publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
-      datePublished: isJassElo ? '2025-09-22' : defaultPublishedDate,
-      dateModified: defaultModifiedDate,
+      datePublished: contentItem.metadata.datePublished,
+      dateModified: contentItem.metadata.dateModified,
       ...(isJassElo
         ? {
             articleType: 'TechArticle',
@@ -360,7 +358,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
 
   // LISTE-MODE: Zeige Subkategorie-Übersicht
   const subIntro = SUB_INTROS[subcategory];
-  const listPageTitle = `${subcategory} - ${category} | Jassguru.ch`;
+  const listPageTitle = `${subcategory} - ${category} | Jass-Wiki`;
   const listPageDescription = subIntro
     ? subIntro[0].slice(0, 155)
     : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`;
@@ -544,6 +542,15 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
       pageTitle = 'Jass-Elo: das Rating-System für die Spielstärke im Schieber | Jass-Wiki';
       metaDescription =
         'Jass-Elo misst die individuelle Spielstärke im Schieber partnerneutral und unabhängig vom Gegner: Erwartungswert, Strichdifferenz, K-Faktor, die vollständigen Formeln und die Rating-Tiers. Entwickelt vom Jassverband Schweiz.';
+    }
+
+    // Die Inhaltsdatei hat das letzte Wort: steht dort ein eigener Suchergebnis-Text,
+    // gilt er vor der Vorlage dieser Seite.
+    if (flatArticle.metadata.seoTitle) {
+      pageTitle = flatArticle.metadata.seoTitle;
+    }
+    if (flatArticle.metadata.seoDescription) {
+      metaDescription = flatArticle.metadata.seoDescription;
     }
 
     return {

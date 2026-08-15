@@ -174,7 +174,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
     'Weis-Regeln': 'Jassregeln zum Weisen: Alle Weispunkte, Stöck & Bock erklärt | Jass-Wiki',
     'Schieber': 'Jassregeln für Schieber: Taktiken & Strategien erklärt | Jass-Wiki',
   };
-  const seoTitle = categoryTitles[category] || `${category} | Das Schweizer Jass-Wiki`;
+  const seoTitle = categoryTitles[category] || `${category} | Jass-Wiki`;
   const seoDescription = categoryDescriptions[category] || `Alle Jass-Artikel in der Kategorie ${category} im Jass-Wiki. Entdecke Regeln, Begriffe und Varianten.`;
 
   return (

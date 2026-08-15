@@ -38,8 +38,6 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
   const normalizedPath = canonicalPath.endsWith('/') ? canonicalPath : `${canonicalPath}/`;
   const canonicalUrl = `${siteUrl}${normalizedPath}`;
-  const defaultPublishedDate = process.env.NEXT_PUBLIC_DEFAULT_PUBLISHED_DATE || '2023-01-01';
-  const defaultModifiedDate = process.env.NEXT_PUBLIC_DEFAULT_MODIFIED_DATE || '2025-11-05';
 
   useEffect(() => {
     document.body.classList.add('lexikon-page');
@@ -79,8 +77,8 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
     authorName: 'Jasswiki Redaktion',
     publisherName: 'Jasswiki.ch',
     publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
-    datePublished: defaultPublishedDate,
-    dateModified: defaultModifiedDate,
+    datePublished: contentItem.metadata.datePublished,
+    dateModified: contentItem.metadata.dateModified,
   };
 
   const showDifficulty = true;
@@ -236,8 +234,13 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const topic = contentItem.metadata.category.topic;
   const canonicalPath = `/varianten/${topicSlug}/`;
 
-  const pageTitle = `Anleitung für die Jass-Variante "${topic}" | Jass-Wiki`;
-  const metaDescription = `Lerne die Jass-Variante "${topic}". Spielregeln, Anleitung und Punkte einfach erklärt auf jasswiki.ch.`;
+  // Die Inhaltsdatei hat das letzte Wort: steht dort ein eigener Suchergebnis-Text,
+  // gilt er vor der Vorlage dieser Seite.
+  const pageTitle =
+    contentItem.metadata.seoTitle || `Anleitung für die Jass-Variante "${topic}" | Jass-Wiki`;
+  const metaDescription =
+    contentItem.metadata.seoDescription ||
+    `Lerne die Jass-Variante "${topic}". Spielregeln, Anleitung und Punkte einfach erklärt auf jasswiki.ch.`;
 
   return {
     props: {

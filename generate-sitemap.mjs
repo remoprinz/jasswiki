@@ -12,6 +12,7 @@ const JSON_FILE = path.resolve(__dirname, 'src/data/jass-content-v2.json');
 const SITEMAP_PUBLIC = path.resolve(__dirname, 'public/sitemap.xml');
 const SITEMAP_OUT = path.resolve(__dirname, 'out/sitemap.xml');
 const BASE_URL = 'https://jasswiki.ch';
+const DATUM_MUSTER = /^\d{4}-\d{2}-\d{2}$/;
 
 async function generateSitemap() {
   try {
@@ -22,12 +23,42 @@ async function generateSitemap() {
     const allContent = JSON.parse(jsonContent);
     const articles = Object.values(allContent);
     
-    // Hole Datei-Datum für lastmod (statt immer "heute")
-    const stats = await fs.stat(JSON_FILE);
-    const lastModDate = stats.mtime.toISOString().split('T')[0];
-
     console.log(`✅ ${articles.length} Artikel aus JSON geladen.`);
-    console.log(`📅 Lastmod gesetzt auf: ${lastModDate} (basierend auf content-v2.json)`);
+
+    // lastmod kommt je Artikel aus metadata.dateModified (gesetzt von
+    // scripts/seed-article-dates.mjs aus der Git-Historie).
+    const ohneDatum = articles
+      .filter((a) => !DATUM_MUSTER.test(a?.metadata?.dateModified || ''))
+      .map((a) => a.id || '(ohne id)');
+    if (ohneDatum.length > 0) {
+      console.error(`\n❌ DATUM_FEHLT: ${ohneDatum.length} Artikel ohne gültiges metadata.dateModified:`);
+      ohneDatum.slice(0, 20).forEach((id) => console.error(`   ${id}`));
+      console.error('\n   Abhilfe: node scripts/seed-article-dates.mjs\n');
+      process.exit(1);
+    }
+
+    // Aggregation: jüngstes Änderungsdatum je Bereich
+    const datumProMainCat = new Map();
+    const datumProSubCat = new Map();
+    let datumBestand = '';
+
+    const merke = (map, key, datum) => {
+      const bisher = map.get(key);
+      if (!bisher || datum > bisher) map.set(key, datum);
+    };
+
+    articles.forEach((article) => {
+      const { category } = article.metadata;
+      const datum = article.metadata.dateModified;
+      const mainCatSlug = toSlug(category.main);
+      const subCatSlug = toSlug(category.sub);
+      merke(datumProMainCat, mainCatSlug, datum);
+      merke(datumProSubCat, `${mainCatSlug}/${subCatSlug}`, datum);
+      if (datum > datumBestand) datumBestand = datum;
+    });
+
+    const lastModDate = datumBestand;
+    console.log(`📅 Jüngstes Änderungsdatum im Bestand: ${lastModDate}`);
 
     // Basis-URLs
     const urls = [
@@ -93,7 +124,7 @@ async function generateSitemap() {
       
       urls.push({
         loc: url,
-        lastmod: lastModDate,
+        lastmod: article.metadata.dateModified,
         changefreq: 'weekly',
         priority: '0.8'
       });
@@ -111,7 +142,7 @@ async function generateSitemap() {
     mainCategories.forEach((mainCatSlug) => {
       urls.push({
         loc: `${BASE_URL}/${mainCatSlug}/`,
-        lastmod: lastModDate,
+        lastmod: datumProMainCat.get(mainCatSlug) || lastModDate,
         changefreq: 'weekly',
         priority: '0.9'
       });
@@ -148,7 +179,7 @@ async function generateSitemap() {
       if (!addedUrls.has(url)) {
         urls.push({
           loc: url,
-          lastmod: lastModDate,
+          lastmod: datumProSubCat.get(path) || lastModDate,
           changefreq: 'weekly',
           priority: '0.85'
         });

@@ -402,12 +402,12 @@
         },
         {
           "source": "/begriffe/spezialvarianten/guschti-zwischendurch-quer/",
-          "destination": "/begriffe/spezialvarianten/quer/",
+          "destination": "/ansagen/quer/",
           "type": 301
         },
         {
           "source": "/begriffe/spezialvarianten/guschti-zwischendurch-quer",
-          "destination": "/begriffe/spezialvarianten/quer/",
+          "destination": "/ansagen/quer/",
           "type": 301
         },
         {
@@ -442,12 +442,12 @@
         },
         {
           "source": "/begriffe/spezialvarianten/mis-re/",
-          "destination": "/begriffe/spezialvarianten/misere/",
+          "destination": "/ansagen/misere/",
           "type": 301
         },
         {
           "source": "/begriffe/spezialvarianten/mis-re",
-          "destination": "/begriffe/spezialvarianten/misere/",
+          "destination": "/ansagen/misere/",
           "type": 301
         },
         {
@@ -467,12 +467,12 @@
         },
         {
           "source": "/weis-regeln/weisen-allgemein/weisen-allgemein/",
-          "destination": "/weis-regeln/weisen-allgemein/",
+          "destination": "/weis-regeln/weispunkte/",
           "type": 301
         },
         {
           "source": "/weis-regeln/weisen-allgemein/weisen-allgemein",
-          "destination": "/weis-regeln/weisen-allgemein/",
+          "destination": "/weis-regeln/weispunkte/",
           "type": 301
         },
         {
@@ -787,12 +787,12 @@
         },
         {
           "source": "/grundlagen-kultur/ueberblick/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/ueberblick",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -827,12 +827,12 @@
         },
         {
           "source": "/grundlagen-kultur/spielbegriffe/spielablauf-im-ueberblick/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/spielbegriffe/spielablauf-im-ueberblick",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -857,12 +857,12 @@
         },
         {
           "source": "/weis-regeln/weis-arten/bedanken-beendet-partie/",
-          "destination": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
           "type": 301
         },
         {
           "source": "/weis-regeln/weis-arten/bedanken-beendet-partie",
-          "destination": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
           "type": 301
         },
         {
@@ -927,12 +927,12 @@
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
@@ -967,22 +967,22 @@
         },
         {
           "source": "/grundlagen-kultur/wichtigste-regeln/",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/wichtigste-regeln",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/wichtigste-regeln/drei-eiserne-regeln/",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/wichtigste-regeln/drei-eiserne-regeln",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
@@ -1187,12 +1187,12 @@
         },
         {
           "source": "/grundlagen-kultur/drei-eiserne-regeln/drei-eiserne-regeln/",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/drei-eiserne-regeln/drei-eiserne-regeln",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
@@ -1207,12 +1207,12 @@
         },
         {
           "source": "/grundlagen-kultur/jassen-lernen-und-verstehen/jassen-lernen-und-verstehen/",
-          "destination": "/grundlagen-kultur/jassen-lernen-und-verstehen/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/jassen-lernen-und-verstehen/jassen-lernen-und-verstehen",
-          "destination": "/grundlagen-kultur/jassen-lernen-und-verstehen/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -1237,12 +1237,12 @@
         },
         {
           "source": "/grundlagen-kultur/spielablauf-im-ueberblick/spielablauf-im-ueberblick/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/spielablauf-im-ueberblick/spielablauf-im-ueberblick",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -1257,32 +1257,32 @@
         },
         {
           "source": "/grundlagen-kultur/verschiedene-kartensysteme/verschiedene-kartensysteme/",
-          "destination": "/grundlagen-kultur/verschiedene-kartensysteme/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/verschiedene-kartensysteme/verschiedene-kartensysteme",
-          "destination": "/grundlagen-kultur/verschiedene-kartensysteme/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/vielfalt-der-spielvarianten/vielfalt-der-spielvarianten/",
-          "destination": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "destination": "/varianten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/vielfalt-der-spielvarianten/vielfalt-der-spielvarianten",
-          "destination": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "destination": "/varianten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/zentrale-begriffe/zentrale-begriffe/",
-          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "destination": "/begriffe/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/zentrale-begriffe/zentrale-begriffe",
-          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "destination": "/begriffe/",
           "type": 301
         },
         {
@@ -1637,7 +1637,7 @@
         },
         {
           "source": "/regeln/punktezaehlung/bedanken-und-spielende/",
-          "destination": "/regeln/punktezaehlung/bedanken-und-sieg/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
           "type": 301
         },
         {
@@ -1652,12 +1652,12 @@
         },
         {
           "source": "/schieber/schieber-taktiken/trumpfansagen/",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/trumpfansagen/",
+          "destination": "/ansagen/",
           "type": 301
         },
         {
           "source": "/schieber/schieber-taktiken/konventionen/",
-          "destination": "/taktiken-und-strategien/taktische-grundlagen/konventionen/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
@@ -1667,7 +1667,7 @@
         },
         {
           "source": "/schieber/schieber-taktiken/punktetaktiken/",
-          "destination": "/taktiken-und-strategien/taktische-grundlagen/punktetaktiken/",
+          "destination": "/taktiken-und-strategien/punktetaktiken/",
           "type": 301
         },
         {
@@ -1677,7 +1677,7 @@
         },
         {
           "source": "/schieber/schieber-taktiken/grundlegende-taktiken/",
-          "destination": "/taktiken-und-strategien/taktische-grundlagen/grundlegende-taktiken/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
@@ -1747,12 +1747,12 @@
         },
         {
           "source": "/grundlagen-kultur/kartensysteme/verschiedene-kartensysteme/",
-          "destination": "/grundlagen-kultur/verschiedene-kartensysteme/",
+          "destination": "/grundlagen-kultur/jasskarten/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/grundbegriffe/zentrale-begriffe/",
-          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "destination": "/begriffe/",
           "type": 301
         },
         {
@@ -1767,7 +1767,7 @@
         },
         {
           "source": "/grundlagen-kultur/kartenverteilen/der-jass/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -1787,7 +1787,7 @@
         },
         {
           "source": "/grundlagen-kultur/grundregeln-verteilen/grundlegender-spielablauf/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -1802,12 +1802,12 @@
         },
         {
           "source": "/grundlagen-kultur/ueberblick/jassen-lernen-und-verstehen/",
-          "destination": "/grundlagen-kultur/jassen-lernen-und-verstehen/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/spielvarianten/vielfalt-der-spielvarianten/",
-          "destination": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "destination": "/varianten/",
           "type": 301
         },
         {
@@ -1817,7 +1817,7 @@
         },
         {
           "source": "/weis-regeln/weis-arten/allgemeine-weis/",
-          "destination": "/weis-regeln/weisen-allgemein/",
+          "destination": "/weis-regeln/weispunkte/",
           "type": 301
         },
         {
@@ -1852,7 +1852,7 @@
         },
         {
           "source": "/grundlagen-kultur/zentrale-begriffe/zentrale-begriffe/",
-          "destination": "/grundlagen-kultur/zentrale-begriffe/",
+          "destination": "/begriffe/",
           "type": 301
         },
         {
@@ -1872,7 +1872,7 @@
         },
         {
           "source": "/grundlagen-kultur/drei-eiserne-regeln/drei-eiserne-regeln/",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
@@ -1882,7 +1882,7 @@
         },
         {
           "source": "/weis-regeln/weisen-allgemein/weisen-allgemein/",
-          "destination": "/weis-regeln/weisen-allgemein/",
+          "destination": "/weis-regeln/weispunkte/",
           "type": 301
         },
         {
@@ -1942,12 +1942,12 @@
         },
         {
           "source": "/weis-regeln/stoecke/stoecke/",
-          "destination": "/weis-regeln/stoecke/",
+          "destination": "/weis-regeln/stoeck/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/wichtigste-regeln/drei-eiserne-regeln/",
-          "destination": "/grundlagen-kultur/drei-eiserne-regeln/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
@@ -2087,7 +2087,7 @@
         },
         {
           "source": "/grundlagen-kultur/spielbegriffe/spielablauf-im-ueberblick/",
-          "destination": "/grundlagen-kultur/spielablauf-im-ueberblick/",
+          "destination": "/jassen/",
           "type": 301
         },
         {
@@ -2122,7 +2122,7 @@
         },
         {
           "source": "/grundlagen-kultur/spezialspiele/",
-          "destination": "/grundlagen-kultur/vielfalt-der-spielvarianten/",
+          "destination": "/varianten/",
           "type": 301
         },
         {
@@ -2137,7 +2137,7 @@
         },
         {
           "source": "/weis-regeln/weis-arten/bedanken-beendet-partie/",
-          "destination": "/regeln/ausmachen/bedanken-beendet-partie/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
           "type": 301
         },
         {
@@ -2162,7 +2162,7 @@
         },
         {
           "source": "/schieber/schieber-taktiken/fortgeschrittene-taktiken/",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
@@ -2182,7 +2182,7 @@
         },
         {
           "source": "/varianten/koenigsspiel/bieter/",
-          "destination": "/varianten/bieter-4-spieler/",
+          "destination": "/varianten/bieter/",
           "type": 301
         },
         {
@@ -2542,22 +2542,22 @@
         },
         {
           "source": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
           "source": "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
           "source": "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken/",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {
           "source": "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/",
           "type": 301
         },
         {

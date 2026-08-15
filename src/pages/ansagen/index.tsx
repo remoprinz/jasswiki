@@ -43,7 +43,7 @@ const AnsagenLeitartikel: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Jass-Ansagen: Obenabe, Undenufe, Tutti & mehr erklärt | JassWiki"
+        title="Jass-Ansagen: Obenabe, Undenufe, Tutti & mehr erklärt | Jass-Wiki"
         description="Alle Ansagen beim Jassen im Überblick: Trumpffarben, Obenabe, Undenufe, Slalom, Quer, Trio, Tutti und Misère. Regeln und Punkte einfach erklärt."
         canonicalUrl={canonicalUrl}
       />

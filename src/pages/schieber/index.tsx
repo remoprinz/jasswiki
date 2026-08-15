@@ -42,7 +42,7 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
   return (
     <>
       <SeoHead
-        title="Der Schieber: Regeln, Taktik & Strategie | JassWiki"
+        title="Der Schieber: Regeln, Taktik & Strategie | Jass-Wiki"
         description="Alles über den Schieber: Die beliebteste Jassvariante der Schweiz. Regeln, Taktiken, Trumpfwahl und Teamstrategien einfach erklärt."
         canonicalUrl={`${siteUrl}/schieber/`}
       />
