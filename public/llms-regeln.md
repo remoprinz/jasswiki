@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 67
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1872,7 +1872,7 @@ Jedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barr
 Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
 
 
-Neben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch eine Ansage über alle 157 Kartenpunkte.
+Neben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani verspricht die Ansage 157 alle Kartenpunkte und die Ansage 257 alle neun Stiche.
 
 ## Wer mit wem spielt
 

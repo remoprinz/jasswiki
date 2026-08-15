@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 57
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1435,24 +1435,29 @@ Da es häufig regionale Unterschiede bei den Regeln und Funktionskarten gibt, so
 
 **Kategorie:** Varianten > Bietspiel
 
-Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team, die Partner sitzen sich über Kreuz gegenüber.
+**Der Sidi-Barrani wird unterschiedlich gespielt.** Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck, beim Doppeln und Kontern und bei der Abrechnung am Schluss.
 
-Der Sidi-Barrani wird unterschiedlich gespielt. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck und bei der Abrechnung am Schluss. Was eine Runde vor der Partie abmacht, gilt (Tischregel). Der [Jassverband Schweiz](https://jassverband.ch) empfiehlt diese Spielweise:
+Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team, die Partner sitzen sich über Kreuz gegenüber.
 
 ## Die Grundform
 
-• Vier Spieler in zwei Teams, die Partner sitzen sich über Kreuz gegenüber
+• Vier Spieler in zwei Teams. Gezogen wird aus einem verdeckten Kartenspiel: Die beiden höheren Karten bilden ein Team, die beiden tieferen das andere. Die Partner sitzen sich über Kreuz gegenüber
+• Auch den Spielgeber bestimmt das Ziehen. Wer die tiefste Karte zieht, gibt zum ersten Spiel; danach wird der Reihe nach in Spielrichtung gegeben
 • Neun Karten je Spieler, in drei Runden zu drei Karten gegeben
 • Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte gelten unverändert
 • Vorhand eröffnet das Bieten, danach bietet der Reihe nach in Spielrichtung jeder Spieler
 • Ein Gebot besteht aus einer Punktzahl und einer Trumpffarbe
 • Wer fort sagt, bleibt für dieses Bieten draussen
 • Wer das höchste Gebot hält, ist der Spielübernehmer und spielt die erste Karte aus. Er und sein Partner bilden das trumpfmachende Team
-• Die zuletzt angesagte Farbe ist Trumpf. Jede Trumpffarbe zählt gleich viel
+• Die zuletzt angesagte Farbe ist Trumpf. Alle Trumpffarben werden einfach gewertet, jede Farbe zählt also gleich viel
 
 ## Das Bieten
 
-Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Jedes Gebot liegt mindestens 5 Punkte über dem vorherigen.
+Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Das tiefste Gebot ist 50, und jedes weitere liegt mindestens 5 Punkte über dem vorherigen.
+
+Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte bleiben beim Bieten aussen vor.
+
+**Der Verband empfiehlt: Ein «fort» gilt für dieses Bieten endgültig.** Wer draussen ist, bleibt draussen; so muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Anderswo ist der Wiedereinstieg üblich, etwa nach der Regelsammlung Pagat, wo ein Spieler nach einem «fort» in einer späteren Runde wieder bieten darf. **Welche Fassung gilt, macht die Runde vor Spielbeginn ab.**
 
 Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Der Verband empfiehlt diese Ansageregeln:
 
@@ -1490,11 +1495,15 @@ Ein Gebot, das die anderen drei stehen lassen, gilt. Damit ist das Bieten beende
 
 Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**.
 
-Für das erste Gebot einer Partie bleibt die Höhe frei; die Ansageregeln beginnen bei 50 Punkten.
+Das tiefste Gebot ist 50. Damit fallen die Untergrenze und die unterste Sprosse der Ansageregeln zusammen, und eine Zahl aus der Konvention kann nicht zur Regel aufsteigen.
 
 ## Doppeln und Kontern
 
+**Ob mit Doppeln und Kontern gespielt wird, macht die Runde vor Spielbeginn ab.** Wer damit spielt, hält sich an diese Regeln.
+
 Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.
+
+**Der Verband empfiehlt zum Zeitpunkt: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat.** Bietet A 120, sagt B «fort» und bietet C dann 130, so steht die 130 zum Doppeln offen und die 120 ist vorbei. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Auch das lässt sich vorher anders abmachen.
 
 **Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.
 
@@ -1510,14 +1519,23 @@ Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpun
 
 ## Der Matsch
 
-Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch, also alle neun Stiche, ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Doppeln und Kontern wirken darauf wie auf jedes Gebot: Die Zielpunkte steigen auf 314 oder 628, zu holen bleiben die neun Stiche.
+Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch verlangt mehr, nämlich alle neun Stiche. Wer sämtliche Kartenpunkte holt und dabei einen Stich ohne Zählwert abgibt, hat 157 Punkte und trotzdem keinen Matsch. Darum gibt es beide Ansagen als eigenes Gebot:
+
+| Ansage | Was zu holen ist | Zielpunkte |
+|---|---|---|
+| 157 | alle Kartenpunkte | 157 |
+| 257 | alle neun Stiche | 257 |
+
+Die 257 setzen sich aus den 157 Kartenpunkten und der Matschprämie von 100 Punkten zusammen, die beim Jassen für alle Stiche fällig wird. Doppeln und Kontern wirken auf die Matsch-Ansage wie auf jedes Gebot: Die Zielpunkte steigen auf 514 oder 1028.
 
 | Fall | Wertung |
 |---|---|
-| Matsch angesagt und geholt | Das trumpfmachende Team schreibt die Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 314 |
-| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die Zielpunkte |
-| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte und die 157 Kartenpunkte |
-| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte und dazu die Zielpunkte |
+| Matsch angesagt und geholt | Das trumpfmachende Team schreibt 257 Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 414 |
+| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die 257 Zielpunkte |
+| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte, die 157 Kartenpunkte und die Matschprämie von 100 |
+| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte, die Matschprämie und dazu die Zielpunkte |
+
+Dani Müller führt die Matsch-Ansage in «STÖCK WYS STICH» mit 157. Der Verband nennt sie 257, weil die Matschprämie beim Schieber, beim Coiffeur und beim Bieter gleichermassen gilt und der Matsch sonst weniger einbrächte als ein Gebot von 150. Runden, die Müllers Zahl gewohnt sind, sagen den Matsch mit 157 an und schreiben die Prämie beim Erfolg dazu.
 
 Beim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
 
@@ -1536,14 +1554,14 @@ Gespielt wird auf 2000 Punkte oder, je nach Abmachung, auf 1500. Anders als bei 
 
 Ein Team, das die Hälfte des Ziels verfehlt, ist Schneider. Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einer Runde einbringt, macht sie vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.
 
-## Wenn ein Team kurz vor dem Ziel steht
+## Bekannte Schlussvarianten
 
 Einem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Verfehlt es sein Gebot, schreiben die Gegner denselben Betrag. Für die Gegner lohnt sich das Doppeln in dieser Lage darum besonders.
 
-Zwei Schlussregeln sind verbreitet, beide werden vor der Partie abgemacht:
+Dagegen sind zwei Schlussregeln verbreitet. Bei SwissJass, wo beide eingebaut sind, tragen sie eigene Namen; eine Runde macht die gewünschte vor der Partie ab:
 
-• **Das letzte Gebot entscheidet:** Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
-• **Abzug bei verfehltem Gebot:** Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
+• **Bonus-Schlussregel,** auch «das letzte Gebot entscheidet»: Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
+• **Überbiet-Schlussregel,** auch «Abzug bei verfehltem Gebot»: Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
 
 ## Eine verbreitete Variante
 
@@ -1559,25 +1577,30 @@ Was eine Runde einmal festlegt und danach jedes Mal gleich handhabt:
 
 1. Die Trumpfarten: die vier Farben, oder zusätzlich Obenabe, Undenufe, Slalom und Misère
 2. Die Ansageregeln: ob die hier beschriebenen gelten, und welche Höhe eine Ansage für Obenabe, Undenufe oder Slalom trägt
-3. Die tiefste Höhe für das erste Gebot und die Mindeststeigerung. Bei 5 Punkten bleibt die Ass-Ansage erkennbar
+3. Ob ein «fort» endgültig gilt
 4. Doppeln und Kontern: ob damit gespielt wird und bis wann das Doppeln offensteht
-5. Weis und Stöck: ob sie mitzählen
-6. Das Partieziel, die Schlussregel und den Wert des Schneiders
+5. Die Zahl für die Matsch-Ansage: 257 mit der Matschprämie oder 157 nach Müller
+6. Weis und Stöck: ob sie mitzählen
+7. Ob eine andere Gebotsuntergrenze als 50 und eine andere Mindeststeigerung als 5 gelten sollen. Bei 5 Punkten bleibt die Ass-Ansage erkennbar
+8. Das Partieziel, die Schlussvariante und den Wert des Schneiders
 
 **Häufige Fragen:**
-- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald drei Spieler «fort» gesagt haben. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus.
-- **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Für das erste Gebot bleibt die Höhe frei. Die vom Jassverband Schweiz empfohlenen Ansageregeln beginnen bei 50 Punkten. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine feste Untergrenze wollen, legen sie vor der Partie fest.
+- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald drei Spieler «fort» gesagt haben. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus. Da der Sidi-Barrani unterschiedlich gespielt wird, macht eine Runde abweichende Regeln vor Spielbeginn ab.
+- **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Der Jassverband Schweiz empfiehlt 50 als tiefstes Gebot. Damit fällt die Untergrenze mit der untersten Sprosse der Ansageregeln zusammen. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine andere Untergrenze wollen, legen sie vor der Partie fest.
 - **Was bedeutet ein Gebot von 80 beim Sidi-Barrani?** Ein Gebot von 80 zeigt den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlene Ansageleiter läuft in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen.
 - **Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?** Das Bieten endet, sobald die anderen drei Spieler «fort» gesagt haben. Das höchste Gebot gilt dann: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe ändern will, tut das während des laufenden Bietens mit einem neuen, höheren Gebot.
+- **Darf man nach einem «fort» wieder mitbieten?** Der Jassverband Schweiz empfiehlt, ein «fort» für dieses Bieten als endgültig zu behandeln: Wer draussen ist, bleibt draussen. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Andere Regelwerke lassen den Wiedereinstieg zu, etwa die Regelsammlung Pagat. Welche Fassung gilt, macht die Runde vor Spielbeginn ab.
+- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat. Bietet A 120, sagt B «fort» und bietet C dann 130, so steht die 130 zum Doppeln offen und die 120 ist vorbei. Eine verbreitete Variante lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
 - **Muss man nach dem Doppeln mehr Punkte holen?** Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte, also den Wert, den eine Seite am Schluss geschrieben bekommt. Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte und schreibt bei Erfolg 240 Zielpunkte zu seinen Kartenpunkten; bleibt er darunter, schreiben die Gegner diese 240 Punkte.
 - **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Fünf Punkte über dem laufenden Gebot zeigen dem Partner das Ass dieser Farbe, während eine andere Farbe Trumpf werden soll. Die Farbgebote liegen auf den Zehnerzahlen, deshalb fällt eine Ass-Ansage auf einen Fünfer. Sie kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
-- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch ist beim Sidi-Barrani eine Ansage über diese 157 Punkte und damit ein Gebot wie jedes andere. Angesagt und geholt bringt er im einfachen Spiel 157 Zielpunkte und 157 Kartenpunkte, zusammen 314. Angesagt und verfehlt schreibt das trumpfmachende Team allein seine Kartenpunkte, während die Gegner ihre Kartenpunkte und dazu die Zielpunkte schreiben. Doppeln und Kontern heben die Zielpunkte auf 314 oder 628.
+- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Jassverband Schweiz führt zwei Ansagen: 157 verspricht alle Kartenpunkte, 257 verspricht alle neun Stiche. Die 257 sind die 157 Kartenpunkte und die Matschprämie von 100 Punkten. Angesagt und geholt bringt der Matsch 257 Zielpunkte und 157 Kartenpunkte, zusammen 414. Angesagt und verfehlt schreibt das trumpfmachende Team allein seine Kartenpunkte, während die Gegner ihre Kartenpunkte und dazu die 257 schreiben. Doppeln und Kontern heben die Zielpunkte auf 514 oder 1028. Dani Müller führt die Ansage in «STÖCK WYS STICH» mit 157; Runden, die das so kennen, sagen 157 an und schreiben die Prämie beim Erfolg dazu.
+- **Warum gibt es beim Sidi-Barrani die Ansagen 157 und 257?** Weil beides verschieden schwer ist. Wer sämtliche Kartenpunkte holt und dabei einen Stich ohne Zählwert abgibt, hat 157 Punkte und trotzdem keinen Matsch. Die Ansage 157 verspricht die Kartenpunkte, die Ansage 257 alle neun Stiche samt Matschprämie.
 - **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte, gespielt wird auf 2000 oder je nach Abmachung auf 1500 Punkte. Die Strichtafel mit Berg, Sieg, Matsch und Schneider gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
-- **Zählen Weis und Stöck auf das gebotene Ziel?** Das Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
-- **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten: Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten; bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
-- **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen und richtet sich allein nach der Einschätzung des Blattes. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussregeln fangen das auf: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
+- **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten; Weis- und Stöckpunkte bleiben beim Bieten aussen vor. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
+- **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ob mit Doppeln und Kontern gespielt wird, macht die Runde vor Spielbeginn ab. Wer damit spielt: Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten. Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten; bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
+- **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen und richtet sich allein nach der Einschätzung des Blattes. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussvarianten fangen das auf, bei SwissJass Bonus-Schlussregel und Überbiet-Schlussregel genannt: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
 
-*Keywords: sidi barrani, bieten, steigern, gebot, taktisch*
+*Keywords: 257, ansageregeln, ass-ansage, bieten, doppeln*
 
 ---
 
