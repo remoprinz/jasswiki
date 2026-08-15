@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "rm -rf out .next && bash clean-icloud-dupes.sh",
-    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run generate:llms && npm run sync:mcp && npm run sitemap && npm run validate:urls && npm run generate:og && next build",
+    "build": "npm run generate:taxonomy && npm run generate:corpus && npm run generate:llms && npm run sync:mcp && npm run sitemap && npm run validate:urls && npm run sprache && npm run generate:og && next build",
     "postbuild": "node copy-sitemap-to-out.mjs",
     "start": "next start",
     "lint": "eslint",
@@ -19,7 +19,8 @@
     "sync:mcp": "node sync-mcp-data.mjs",
     "validate:urls": "node validate-urls.mjs",
     "generate:og": "node generate-og.mjs",
-    "audit:redirects": "node audit-redirects.mjs"
+    "audit:redirects": "node audit-redirects.mjs",
+    "sprache": "node sprachwaechter.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

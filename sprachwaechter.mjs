@@ -1,0 +1,195 @@
+/**
+ * DER SPRACHWÄCHTER — Riegel vor dem Deploy (SCHIEDSRICHTER, 15.08.2026)
+ *
+ * Vorbild ist die Doktrin-Sprache der Engine (jassai/netz/woerterbuch.py):
+ * «Geschlossen heisst: Was hier nicht steht, existiert für die Doktrin nicht.
+ *  Der TÜV lehnt unbekannte Wörter laut ab.»
+ *
+ * jasswiki hatte bis heute keine solche Schranke, und drei Fehler in einer Woche
+ * sassen im FAQ-Block, den niemand gegenliest und der als schema.org/FAQPage an
+ * Google und die Sprachmodelle geht:
+ *
+ *   1. «Das Mindestgebot beginnt bei 90 Punkten»  (Zahl aus dem Nachbarartikel)
+ *   2. «Fünfling (5 gleiche), Sechsling (6 gleiche)» (Weis, den es nicht gibt)
+ *   3. Matsch 257/414/1028 in der FAQ, während der Artikeltext längst 157 sagte
+ *
+ * Fall 1 und 3 fängt Prüfung A, Fall 2 fängt Prüfung B.
+ *
+ * HARTE PRÜFUNGEN halten den Build an. WEICHE melden nur.
+ * Was bewusst so bleiben soll, kommt in AUSNAHMEN — jeder Eintrag ist ein Entscheid.
+ */
+
+import { readFile, writeFile } from 'fs/promises';
+
+const QUELLE = new URL('./src/data/jass-content-v2.json', import.meta.url);
+const ALTLAST = new URL('./sprachwaechter-altlasten.json', import.meta.url);
+
+/**
+ * SPERRKLINKE. Der Bestand trug am 15.08.2026 bereits 23 Befunde, fast alle von der
+ * Sorte «die Zahl steht allein in der FAQ». Sie sind echte Altlast und keine
+ * Fehlalarme: `expressions_handkarten` etwa nennt die Neun im Artikeltext nirgends.
+ *
+ * Ein Riegel, der beim Einbau rot ist, wird umgangen. Darum: Was heute dasteht, ist
+ * eingefroren und wird als Schuld ausgewiesen. JEDER NEUE Befund hält den Build an.
+ * Die Liste schrumpft, sobald ein Artikel angefasst wird, und wächst nie.
+ *
+ * Neu erzeugen nach getaner Aufräumarbeit: `node sprachwaechter.mjs --altlast-neu`
+ */
+
+// --- A: Zahlwörter, damit «neun Karten» im Text die «9» in der FAQ deckt ------
+const ZAHLWORT = {
+  0: ['null'], 1: ['ein', 'eine', 'einen', 'einer', 'eins'], 2: ['zwei', 'zweit'],
+  3: ['drei', 'dritt'], 4: ['vier', 'viert'], 5: ['fünf', 'fünft'],
+  6: ['sechs', 'sechst'], 7: ['sieben', 'siebt'], 8: ['acht'], 9: ['neun'],
+  10: ['zehn', 'zehner'], 11: ['elf'], 12: ['zwölf'], 20: ['zwanzig'],
+  36: ['sechsunddreissig'], 50: ['fünfzig'], 100: ['hundert'], 1000: ['tausend'],
+};
+
+// --- B: Wörter, die kein Jasser am Tisch sagt --------------------------------
+// Jedes hier stand einmal in einem Artikel und musste wieder heraus.
+const FREMDWOERTER = [
+  'behaupt',          // «Sie behaupten keine neue Trumpffarbe» (Remo, 15.08.)
+  'Versteigerung',    // Jasssprache ist «Bieten», «Steigern», «Gebot»
+  'gedeckelt',
+  'Bietsprache',      // eigene Erfindung
+  'Fünfling', 'Sechsling', 'Hauptweis', 'Folgeweis',   // Weis, den es nicht gibt
+  'es gilt zu beachten', 'wichtig zu wissen', 'in diesem Zusammenhang',
+  'darüber hinaus', 'nicht zuletzt', 'seien Sie sich bewusst',
+];
+
+// --- C -----------------------------------------------------------------------
+const GEDANKENSTRICH = /—/;
+
+// --- D: weich. Anweisung, die auf einer Verneinung aufbaut --------------------
+const VERNEINUNGEN = [
+  /\bdarf (?:man |der |die |das )?nicht\b/i,
+  /\bdarf kein/i,
+  /\bnie (?:überschreiben|ändern|löschen|senden)\b/i,
+  /\bohne (?:Rücksprache|Absprache)\b/i,
+];
+
+// --- AUSNAHMEN: bewusst so, mit Grund ----------------------------------------
+const AUSNAHMEN = {
+  // Artikel-ID → Zahlen, die in der FAQ stehen dürfen, obwohl der Text sie nicht nennt
+  zahlen: {
+    expressions_matsch: ['257'],        // Schieber-Matsch: 152 + 5 + 100, im Text ausgeschrieben
+    expressions_matschpraemie: ['1028'],// vierfacher Matsch, im Text als Rechnung
+    kontermatsch: ['257'],              // wie der Matsch, Schieber
+  },
+};
+
+const zahlenAusText = (text) => {
+  const set = new Set((text.match(/\d+/g) || []));
+  const klein = text.toLowerCase();
+  for (const [zahl, woerter] of Object.entries(ZAHLWORT)) {
+    if (woerter.some((w) => klein.includes(w))) set.add(String(zahl));
+  }
+  return set;
+};
+
+const lauf = async () => {
+  const bestand = JSON.parse(await readFile(QUELLE, 'utf-8'));
+  const fehler = [];
+  const hinweise = [];
+
+  for (const [schluessel, artikel] of Object.entries(bestand)) {
+    const text = artikel.text || '';
+    const faqs = artikel.faqs || [];
+    const erlaubteZahlen = zahlenAusText(text);
+    const ausnahmeZahlen = AUSNAHMEN.zahlen[schluessel] || [];
+
+    // A — Zahl steht in der FAQ und nirgends im Artikel
+    for (const faq of faqs) {
+      for (const zahl of new Set(faq.answer.match(/\d+/g) || [])) {
+        if (erlaubteZahlen.has(zahl) || ausnahmeZahlen.includes(zahl)) continue;
+        fehler.push({
+          artikel: schluessel,
+          pruefung: 'A · Zahl allein in der FAQ',
+          fund: `«${zahl}» in «${faq.question}»`,
+          warum: 'Die FAQ geht als schema.org/FAQPage hinaus. Eine Zahl, die der Artikel selbst nicht trägt, ist ungeprüft.',
+        });
+      }
+    }
+
+    // B und C — über Text und FAQ zusammen
+    const alles = [text, ...faqs.map((f) => `${f.question} ${f.answer}`)].join('\n');
+    for (const wort of FREMDWOERTER) {
+      if (alles.toLowerCase().includes(wort.toLowerCase())) {
+        fehler.push({
+          artikel: schluessel,
+          pruefung: 'B · Wort, das kein Jasser sagt',
+          fund: `«${wort}»`,
+          warum: 'Jasssprache wird belegt, statt gedichtet. Eichquelle ist der Bestand.',
+        });
+      }
+    }
+    if (GEDANKENSTRICH.test(alles)) {
+      fehler.push({
+        artikel: schluessel,
+        pruefung: 'C · Gedankenstrich',
+        fund: '—',
+        warum: 'Remos Satzzeichen-Regel: Doppelpunkt, Punkt oder Komma.',
+      });
+    }
+
+    // D — weich
+    for (const muster of VERNEINUNGEN) {
+      const treffer = alles.match(muster);
+      if (treffer) {
+        hinweise.push({ artikel: schluessel, fund: treffer[0] });
+      }
+    }
+  }
+
+  const marke = (f) => `${f.artikel} | ${f.pruefung} | ${f.fund}`;
+
+  if (process.argv.includes('--altlast-neu')) {
+    await writeFile(ALTLAST, JSON.stringify(fehler.map(marke).sort(), null, 2) + '\n');
+    console.log(`✍️  Altlast neu geschrieben: ${fehler.length} Befund(e).`);
+    return;
+  }
+
+  let altlast = [];
+  try {
+    altlast = JSON.parse(await readFile(ALTLAST, 'utf-8'));
+  } catch {
+    console.log('ℹ️  Keine Altlast-Liste gefunden, jeder Befund zählt als neu.');
+  }
+  const bekannt = new Set(altlast);
+  const neue = fehler.filter((f) => bekannt.has(marke(f)) === false);
+  const behoben = altlast.filter((m) => fehler.some((f) => marke(f) === m) === false);
+
+  console.log('🔎 Sprachwächter');
+  console.log(`   ${Object.keys(bestand).length} Artikel geprüft`);
+  if (bekannt.size > 0) {
+    console.log(`   ${bekannt.size - behoben.length} Altlast-Befund(e) offen`);
+  }
+  if (behoben.length > 0) {
+    console.log(`   ✨ ${behoben.length} Altlast-Befund(e) behoben. Liste kürzen mit --altlast-neu:`);
+    for (const m of behoben) console.log(`      ${m}`);
+  }
+
+  if (hinweise.length > 0) {
+    console.log(`\n⚠️  ${hinweise.length} Anweisung(en) auf einer Verneinung gebaut:`);
+    for (const h of hinweise) console.log(`   ${h.artikel}: «${h.fund}»`);
+    console.log('   Sag, was gilt. Der Build läuft weiter.');
+  }
+
+  if (neue.length > 0) {
+    console.log(`\n❌ ${neue.length} NEUE(R) Befund(e), der Build hält an:\n`);
+    for (const f of neue) {
+      console.log(`   ${f.artikel}`);
+      console.log(`   ${f.pruefung}: ${f.fund}`);
+      console.log(`   ${f.warum}\n`);
+    }
+    console.log('   Beheben, oder den Fall mit Begründung in AUSNAHMEN eintragen.');
+    process.exit(1);
+  }
+
+  console.log('✅ Sprachwächter: nichts Neues.');
+};
+
+lauf().catch((err) => {
+  console.error('❌ Sprachwächter konnte nicht laufen:', err);
+  process.exit(1);
+});
