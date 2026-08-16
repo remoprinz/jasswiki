@@ -54,6 +54,7 @@ const FREMDWOERTER = [
   'Bietsprache',      // eigene Erfindung
   'Fünfling', 'Sechsling', 'Hauptweis', 'Folgeweis',   // Weis, den es nicht gibt
   'reihum',           // «kein gängiger Begriff» (Remo, 15.08.); Jasssprache: «der Reihe nach»
+  ' der Banner', ' den Banner', 'seinen Banner', 'seine Banner', 'einen Banner',  // es heisst DAS Banner (Remo, 16.08.); «dem Banner» ist richtiger Dativ
   'es gilt zu beachten', 'wichtig zu wissen', 'in diesem Zusammenhang',
   'darüber hinaus', 'nicht zuletzt', 'seien Sie sich bewusst',
 ];
