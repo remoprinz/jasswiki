@@ -17,6 +17,13 @@ export interface JassContentMetadata {
   seoTitle?: string;
   /** Beschreibung für das Suchergebnis. Solange das Feld fehlt, greift die Vorlage der Seite. */
   seoDescription?: string;
+  /**
+   * Der Artikel lässt den Wortwechsel aufs französische Blatt zu: schaltet der
+   * Leser die Karten auf «Französisch», wechseln im sichtbaren Text auch die
+   * Farb- und Kartenwörter (Rosen → Herz, Under → Bube …). Fehlt das Feld,
+   * bleibt der Text wie geschrieben.
+   */
+  farbwechsel?: boolean;
   source?: string;
   chunkInfo?: {
     isPartOfSequence: boolean;

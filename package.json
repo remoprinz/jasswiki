@@ -20,7 +20,8 @@
     "validate:urls": "node validate-urls.mjs",
     "generate:og": "node generate-og.mjs",
     "audit:redirects": "node audit-redirects.mjs",
-    "sprache": "node sprachwaechter.mjs"
+    "sprache": "node sprachwaechter.mjs",
+    "pruefe:farbwoerter": "tsx farbwoerter-pruefen.ts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

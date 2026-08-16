@@ -164,6 +164,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
 
     // Leitartikel «Jasskarten»: Karten-Raster zwischen Beschreibung und Geschichte
     // einschieben (Split an der Geschichts-Überschrift, kein künstlicher Marker im Text).
+    const farbwechsel = contentItem.metadata.farbwechsel === true;
     const isKartenfarben = contentItem.id === 'expressions_kartenfarben';
     const GRID_ANCHOR = 'Das abgebildete Kartenbild';
     const [cardTextBefore, cardTextAfter] =
@@ -280,12 +281,12 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             {/* Artikel-Inhalt */}
             <article className="content-formatting max-w-none">
               <div className="content-formatting text-black">
-                <InternalLinker text={cardTextBefore} />
+                <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
               </div>
               {isKartenfarben && <JassCardGrid />}
               {isKartenfarben && cardTextAfter && (
                 <div className="content-formatting text-black">
-                  <InternalLinker text={cardTextAfter} />
+                  <InternalLinker text={cardTextAfter} farbwechsel={farbwechsel} />
                 </div>
               )}
             </article>

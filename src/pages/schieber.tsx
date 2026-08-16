@@ -108,7 +108,7 @@ const SchieberPage: NextPage<SchieberPageProps> = ({ mainArticle, relatedGroups 
                 {/* Main Article Content */}
                 <div className="prose prose-lg sm:prose-xl max-w-4xl mx-auto prose-invert text-left">
                     <div className="text-gray-200 leading-relaxed">
-                        <InternalLinker text={mainArticle.text} />
+                        <InternalLinker text={mainArticle.text} farbwechsel={mainArticle.metadata.farbwechsel === true} />
                     </div>
                 </div>
             </div>

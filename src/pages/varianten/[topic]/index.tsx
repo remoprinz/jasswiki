@@ -168,7 +168,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
 
           <article className="content-formatting max-w-none">
             <div className="content-formatting text-black">
-              <InternalLinker text={contentItem.text} />
+              <InternalLinker text={contentItem.text} farbwechsel={contentItem.metadata.farbwechsel === true} />
             </div>
           </article>
 
