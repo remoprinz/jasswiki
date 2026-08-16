@@ -10,6 +10,13 @@ import {
 
 const JASSKARTEN_URL = '/grundlagen-kultur/jasskarten/';
 
+/**
+ * Ab so vielen Karten gilt die Reihe als volles Blatt: die Karten teilen sich
+ * ab Tablet-Breite die Artikelbreite, damit alle ohne Rollen sichtbar sind
+ * (Stil .jw-karten-band--voll in globals.css). Kürzere Reihen bleiben unverändert.
+ */
+const VOLLES_BLATT_AB = 7;
+
 interface Props {
   /** Karten-Slugs aus der Marke, z. B. ['eichel-under', 'eichel-ass']. */
   slugs: string[];
@@ -64,7 +71,12 @@ export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung }) => {
         </div>
       </div>
 
-      <div className="jw-karten-band">
+      <div
+        className={
+          karten.length >= VOLLES_BLATT_AB ? 'jw-karten-band jw-karten-band--voll' : 'jw-karten-band'
+        }
+        data-karten={karten.length}
+      >
         {karten.map((karte, i) => (
           <button
             key={`${karte.slug}-${i}`}

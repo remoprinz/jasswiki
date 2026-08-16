@@ -616,6 +616,24 @@ body.lexikon-page div[id="__next"] {
   }
 }
 
+/* Volles Blatt (7–9 Karten, Klasse setzt JassKartenReihe ab VOLLES_BLATT_AB):
+   ab 700 px Fensterbreite teilen sich die Karten die Artikelbreite, damit das
+   ganze Blatt ohne Rollen sichtbar ist (gemessen: 9 Karten = 60 px bei 700,
+   67 px bei 768, 79 px bei 1280). Unter 700 px rollt das Band wie bisher mit
+   den normalen Kartenmassen — neun Karten à 44 px wären auf 375 px trotzdem
+   zu breit (444 px Band auf 285 px Platz) und die Namen darunter unlesbar. */
+@media (min-width: 700px) {
+  .jw-karten-band--voll {
+    gap: 8px;
+  }
+  .jw-karten-band--voll .jw-karte {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    max-width: 118px;
+  }
+}
+
 /* Karten-Titel (innerhalb von .group-Containern): schwarz, nur bei Hover rot. */
 .content-formatting .group h2,
 .content-formatting .group h3,
