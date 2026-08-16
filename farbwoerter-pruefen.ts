@@ -110,7 +110,13 @@ function nurSichtbar(text: string): string {
 
 const inhaltPfad = path.join(hier, 'src', 'data', 'jass-content-v2.json');
 const inhalt = JSON.parse(readFileSync(inhaltPfad, 'utf8')) as Record<string, { text: string }>;
-const kennungen = process.argv.slice(2).length > 0 ? process.argv.slice(2) : ['variants_strategic_sidi_barrani'];
+// Vorgabe: jeder Artikel, der den Wechsel zulässt. Bis zum 17.08.2026 stand hier allein
+// der Sidi-Barrani, und jeder neue Artikel mit `farbwechsel: true` lief im Standardlauf nie
+// mit (gefunden von LOT). Einzelne Kennungen lassen sich weiterhin als Argument übergeben.
+const mitWechsel = Object.entries(inhalt)
+  .filter(([, a]) => (a as { metadata?: { farbwechsel?: boolean } }).metadata?.farbwechsel === true)
+  .map(([k]) => k);
+const kennungen = process.argv.slice(2).length > 0 ? process.argv.slice(2) : mitWechsel;
 
 const pruefMuster = new RegExp(`(^|[^\\p{L}\\p{N}])(${PRUEFWOERTER.join('|')})(?![\\p{L}\\p{N}])`, 'giu');
 

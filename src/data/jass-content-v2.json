@@ -8239,7 +8239,7 @@
   },
   "variants_family_hose_abe": {
     "id": "variants_family_hose_abe",
-    "text": "Definition:\nHose abe, Schnauz oder Schwimmen ist ein geselliges Kartenspiel für 2 bis 10 Spieler, das sich besonders für grössere Runden eignet.\n\nGrundprinzip:\nJeder Teilnehmer erhält drei Karten und versucht, möglichst schnell eine möglichst wertvolle Kombination zu bilden. Eine gültige Kombination entsteht, wenn die drei Karten entweder dieselbe Farbe haben oder denselben Wert aufweisen, beispielsweise drei Asse, drei Könige oder drei Sechser.\n\nDie Kartenkombinationen:\n• «Hose abe»: Ein Ass und zwei Figuren derselben Farbe bringen 31 Punkte ein (höchste Wertung)\n• «Trio»: Drei Karten gleichen Wertes zählen stets 30½ Punkte (zweithöchste Wertung)\n• Farbkombinationen: Drei Karten derselben Farbe werden nach ihren Kartenwerten addiert\n\nSpielablauf:\n• Die Spieler können ihre Karten tauschen oder durch «klopfen (siehe Begriff \"klopfen\")» signalisieren, dass sie zufrieden sind\n• Beim Tauschen ist es möglich, entweder nur eine Karte oder alle drei Karten zu wechseln\n• Besitzt ein Spieler einen «Hose abe», muss er sofort «klopfen» und das Spiel beenden\n\nEinsätze und Ausscheiden:\n• Jeder Spieler startet mit drei Einsätzen\n• Nach jedem Spiel verliert der Teilnehmer mit den wenigsten Punkten einen Einsatz\n• Wer alle drei Einsätze verloren hat, darf noch eine letzte Runde «mitschwimmen», bevor er ausscheidet",
+    "text": "**Hose abe, Schnauz und Schwimmen sind drei Namen für dasselbe Spiel.** Gespielt wird mit Jasskarten (siehe Begriff \"expressions_kartenfarben\"), und doch geht es ganz anders zu als beim Jassen: Jeder hält drei Karten und sucht die höchste Summe in **einer** Farbe. Trumpf, Stiche und Weis bleiben dem Jass vorbehalten.\n\nDer Name sagt, worum es geht: **Wer 31 Punkte in einer Farbe zusammenbringt, ruft «Hose abe», und das Spiel ist aus.** In anderen Gegenden heisst dasselbe Blatt «Schnauz», anderswo «Schwimmen» oder schlicht «31».\n\nDieser Artikel beschreibt die in der Schweiz verbreitete Spielweise mit dem 36er-Blatt. Ausserhalb der Schweiz wird dasselbe Spiel meist mit 32 Karten gespielt, dort fehlen die Sechser. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel (siehe Begriff \"regeln_tischregel\").\n\n## Die Grundform\n\n• 2 bis 11 Spieler, ein volles Blatt mit 36 Karten\n• Jeder erhält drei Karten, dazu kommen drei Karten in die Mitte\n• **Die Zahl 11 ist keine Willkür:** 11 Spieler halten 33 Karten, dazu die drei in der Mitte, und das Blatt ist aufgebraucht\n• Es beginnt, wer zur Linken des Spielgebers sitzt; danach geht es der Reihe nach\n• Wer an der Reihe ist, tauscht eine Karte gegen eine aus der Mitte, tauscht alle drei auf einmal, oder klopft\n• Gezählt wird nur, was in einer Farbe liegt. Drei gleiche Karten sind der einzige Fall, in dem die Farben gleichgültig sind\n• Jeder beginnt mit drei Einsätzen. Nach jedem Spiel gibt die tiefste Punktzahl einen Einsatz ab\n• Wer alle drei Einsätze abgegeben hat, **schwimmt**: Er spielt weiter und scheidet beim nächsten Verlust aus\n• Das nächste Spiel gibt der nächste Spieler im Kreis\n\n## Was die Karten zählen\n\nDie Kartenwerte (siehe Begriff \"general_card_values\") des Jassens gelten hier nicht:\n\n| Karte | Beim Hose abe | Beim Jassen, ohne Trumpf |\n|---|---|---|\n| Ass | 11 | 11 |\n| König | 10 | 4 |\n| Ober | 10 | 3 |\n| Under | 10 | 2 |\n| Banner | 10 | 10 |\n| Neun, Acht, Sieben, Sechs | 9, 8, 7 und 6 | null |\n\n**Zwei Zeilen tragen den Unterschied:** König, Ober und Under zählen hier zehn statt vier, drei und zwei, und die tiefen Karten zählen ihre eigene Zahl statt null. Darum ist eine Sechs hier eine Karte und im Jass ein Blatt Papier.\n\n## Die Blätter, die zählen\n\n[[karten: rosen-ass, rosen-koenig, rosen-banner | «Hose abe»: das Ass und zwei Karten derselben Farbe, die zehn zählen. 11 plus 10 plus 10 macht 31. Höher geht es nicht]]\n\n[[karten: eichel-9, rosen-9, schilten-9 | Drei gleiche Karten zählen 30½, gleich in welchen Farben sie liegen. Manche Runden nennen das den Trio]]\n\n[[karten: schilten-ass, schilten-9, schilten-7 | Eine gewöhnliche Farbkombination: 11 plus 9 plus 7 macht 27]]\n\n**Die Reihenfolge ist damit klar:** Die 31 steht zuoberst, drei Gleiche mit 30½ knapp darunter, und alles andere richtet sich nach seiner Summe. Wer Karten in zwei Farben hält, zählt die höhere der beiden Summen. Liegen alle drei Karten in verschiedenen Farben, zählt die höchste einzelne Karte.\n\nZur 31 führen sechs Wege je Farbe: Das Ass dazu, und zwei aus König, Ober, Under und Banner.\n\n## Wie ein Spiel läuft\n\nDer Spielgeber gibt jedem drei Karten und legt drei verdeckt in die Mitte. Er sieht seine eigenen zuerst an und hat damit eine Wahl, die sonst niemand hat:\n\n• **Er behält sie.** Dann werden die drei Karten in der Mitte aufgedeckt, und das Spiel beginnt\n• **Er legt sie offen in die Mitte** und nimmt dafür die drei verdeckten, ungesehen, wie sie kommen\n\nDann geht es der Reihe nach. Wer an der Reihe ist, hat diese Züge:\n\n| Zug | Was geschieht |\n|---|---|\n| Eine Karte tauschen | Eine Handkarte wandert offen in die Mitte, eine Karte aus der Mitte in die Hand |\n| Alle drei tauschen | Die ganze Hand geht offen in die Mitte, die drei Karten aus der Mitte kommen in die Hand |\n| Klopfen | Der Spieler behält, was er hat, und setzt damit das Ende |\n\n**Nach dem Klopfen ist jeder noch einmal an der Reihe**, bis der Klopfer wieder dran wäre. Dann werden die Karten aufgedeckt und die Summen verglichen.\n\nDas Klopfen dieses Spiels ist ein eigener Zug und hat mit dem Klopfen (siehe Begriff \"klopfen\") am Jasstisch nichts zu tun, das dort als Zeichen an den Partner untersagt ist.\n\nVerbreitet ist ein vierter Zug: **das Schieben.** Wer nichts brauchen kann, lässt aus, ohne zu tauschen und ohne zu klopfen. Schieben alle nacheinander, kommen drei neue Karten in die Mitte. So bleibt kein Spiel stecken, in dem niemand mehr tauschen mag.\n\nZwei Blätter beenden das Spiel sofort, ohne die letzte Runde:\n\n• **Die 31.** Wer sie hält, legt sie auf, und das Spiel ist aus\n• **«Füür im Dach»**, also drei Asse. Diese Fassung macht die Runde vor Spielbeginn ab; ohne sie sind drei Asse drei gleiche Karten und zählen 30½\n\n[[karten: eichel-ass, rosen-ass, schellen-ass | «Füür im Dach»: drei Asse beenden das Spiel auf der Stelle, wo die Runde diese Fassung spielt]]\n\n## Einsätze, schwimmen, ausscheiden\n\nJeder legt drei Einsätze vor sich hin. **Nach jedem Spiel gibt einen Einsatz ab, wer die tiefste Summe hält.** Das gilt auch dann, wenn ein anderer mit einer 31 vorzeitig aufgelegt hat. Halten zwei dieselbe tiefste Summe, macht die Runde vor Spielbeginn ab, ob beide zahlen oder keiner.\n\nWer alle drei Einsätze abgegeben hat, **schwimmt**. Er bleibt am Tisch und spielt weiter, hat aber nichts mehr vor sich liegen: Beim nächsten verlorenen Spiel scheidet er aus. Daher der Name des Spiels, und daher die Redensart, dass einer noch einmal mitschwimmen darf.\n\nGewonnen hat, wer als Letzter am Tisch sitzt.\n\n## Warum es hier steht\n\nHose abe ist kein Jass, und es steht doch in jeder Jassbeiz. Es braucht dasselbe Blatt, drei Karten je Spieler und fünf Minuten Erklärung, und es geht zu zweit ebenso wie zu elft. Damit ist es das Spiel, das an den Tisch kommt, wenn für einen Jass die Zahl der Leute gerade nicht passt.\n",
     "metadata": {
       "id": "variants_family_hose_abe_meta",
       "category": {
@@ -8249,13 +8249,20 @@
       },
       "keywords": [
         "hose abe",
+        "hoseabe",
+        "hosenabe",
         "schnauz",
         "schwimmen",
+        "31",
+        "einunddreissig",
+        "kartenspiel",
         "gesellschaftsspiel",
         "viele spieler",
         "einsätze",
         "tauschen",
-        "trio"
+        "klopfen",
+        "füür im dach",
+        "drei karten"
       ],
       "situations": [
         "LEARNING"
@@ -8264,32 +8271,81 @@
       "difficulty": 1,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-08-17",
+      "farbwechsel": true
     },
     "faqs": [
       {
-        "question": "Wie spielt man Hose abe/Schnauz/Schwimmen?",
-        "answer": "Hose abe, Schnauz oder Schwimmen ist ein geselliges Kartenspiel für 2 bis 10 Spieler, das sich besonders für grössere Runden eignet."
+        "question": "Wie spielt man Hose abe?",
+        "answer": "Jeder erhält drei Karten, drei weitere kommen in die Mitte. Wer an der Reihe ist, tauscht eine Karte oder alle drei gegen die Karten in der Mitte, oder er klopft. Gezählt wird die Summe in einer Farbe; wer 31 zusammenbringt, legt auf, und das Spiel ist aus."
       },
       {
-        "question": "Wie viele Punkte ist ein «Hose abe» wert?",
-        "answer": "Ein «Hose abe» (ein Ass und zwei Figuren derselben Farbe) bringt 31 Punkte ein und ist die höchste Wertung."
+        "question": "Was ist ein «Hose abe»?",
+        "answer": "Das Ass und zwei Karten derselben Farbe, die zehn zählen: 11 plus 10 plus 10 macht 31 Punkte. Das ist die höchste mögliche Summe, und sie beendet das Spiel sofort."
       },
       {
-        "question": "Was ist ein «Trio» und wie viele Punkte zählt es?",
-        "answer": "Ein «Trio» besteht aus drei Karten gleichen Wertes und zählt stets 30½ Punkte, was die zweithöchste Wertung ist."
+        "question": "Wie zählen die Karten beim Hose abe?",
+        "answer": "Das Ass zählt 11, König, Ober, Under und Banner je 10, und Neun, Acht, Sieben und Sechs zählen ihre eigene Zahl. Die Kartenwerte des Jassens gelten hier nicht: Dort zählt der König 4, der Ober 3, der Under 2, und die tiefen Karten zählen null."
       },
       {
-        "question": "Wie viele Einsätze hat jeder Spieler beim Start?",
-        "answer": "Jeder Spieler startet mit drei Einsätzen. Nach jedem Spiel verliert der Spieler mit den wenigsten Punkten einen Einsatz."
+        "question": "Was zählen drei gleiche Karten beim Hose abe?",
+        "answer": "30½ Punkte, gleich in welchen Farben sie liegen. Damit stehen sie knapp unter der 31."
       },
       {
-        "question": "Was passiert, wenn ich einen «Hose abe» habe?",
-        "answer": "Wenn du einen «Hose abe» besitzt, musst du sofort «klopfen» und das Spiel beenden."
+        "question": "Wie viele Spieler können Hose abe spielen?",
+        "answer": "2 bis 11. Bei 11 Spielern sind 33 Karten in den Händen und drei liegen in der Mitte, damit ist das Blatt mit 36 Karten aufgebraucht."
+      },
+      {
+        "question": "Was heisst «schwimmen» beim Hose abe?",
+        "answer": "Jeder beginnt mit drei Einsätzen, und nach jedem Spiel gibt die tiefste Summe einen ab. Wer alle drei abgegeben hat, schwimmt: Er spielt weiter und scheidet beim nächsten verlorenen Spiel aus."
+      },
+      {
+        "question": "Was bedeutet Klopfen beim Hose abe?",
+        "answer": "Wer klopft, behält seine Karten und setzt das Ende. Alle anderen sind noch einmal an der Reihe, bis der Klopfer wieder dran wäre; dann wird aufgedeckt. Mit dem Klopfen am Jasstisch, das als Zeichen an den Partner untersagt ist, hat dieser Zug nichts zu tun."
+      },
+      {
+        "question": "Was ist «Füür im Dach»?",
+        "answer": "Drei Asse. Wo eine Runde diese Fassung spielt, beenden sie das Spiel auf der Stelle. Ohne diese Abmachung sind drei Asse drei gleiche Karten und zählen 30½."
+      },
+      {
+        "question": "Was darf der Spielgeber beim Hose abe?",
+        "answer": "Er sieht seine drei Karten zuerst an und entscheidet: behalten, dann werden die drei Karten in der Mitte aufgedeckt. Oder er legt seine drei offen in die Mitte und nimmt dafür die verdeckten, ungesehen."
+      },
+      {
+        "question": "Was ist Schieben beim Hose abe?",
+        "answer": "Wer nichts brauchen kann, lässt aus, ohne zu tauschen und ohne zu klopfen. Schieben alle nacheinander, kommen drei neue Karten in die Mitte. Dieser Zug ist verbreitet und wird vor Spielbeginn abgemacht."
+      },
+      {
+        "question": "Ist Hose abe dasselbe wie Schnauz oder Schwimmen?",
+        "answer": "Ja, drei Namen für dasselbe Spiel. Verbreitet ist auch «31». In der Schweiz wird es mit dem 36er-Blatt gespielt, anderswo meist mit 32 Karten."
+      },
+      {
+        "question": "Ist Hose abe ein Jass?",
+        "answer": "Gespielt wird es mit Jasskarten, doch Trumpf, Stiche und Weis bleiben dem Jass vorbehalten. Jeder hält nur drei Karten."
       }
     ],
     "see_also": [
-      "klopfen"
+      "klopfen",
+      "expressions_kartenfarben",
+      "general_card_values",
+      "regeln_tischregel"
+    ],
+    "synonyms": [
+      "hose abe",
+      "hoseabe",
+      "hosenabe",
+      "hosen abe",
+      "hose-abe",
+      "hose abe jass",
+      "hosenabe jass",
+      "schnauz",
+      "schwimmen",
+      "31",
+      "einunddreissig",
+      "31er jass",
+      "füür im dach",
+      "hose abe regeln",
+      "schnauz regeln"
     ]
   },
   "variants_learning_bodentrumpf_vier": {
