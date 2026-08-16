@@ -96,6 +96,7 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
   // «Trumpffarbe»: zwei Bild-Blöcke einschieben – die Farb-Symbole unter «Die vier
   // Farben» und das Puur/Nell-Raster nach der Rangordnung. Split an natürlichen
   // Textstellen (keine künstlichen Marker im Text, damit Korpus sauber bleibt).
+  const farbwechsel = contentItem.metadata.farbwechsel === true;
   const isTrumpffarbe = contentItem.id === 'expressions_trumpffarbe';
   const A_SYMBOLE = 'Welche Farbe als Trumpf angesagt wird';
   const A_GRID = '## Wo wird die Trumpffarbe angesagt';
@@ -160,18 +161,18 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
 
           <article className="content-formatting max-w-none">
             <div className="content-formatting text-black">
-              <InternalLinker text={tfSeg1} />
+              <InternalLinker text={tfSeg1} farbwechsel={farbwechsel} />
             </div>
             {isTrumpffarbe && <TrumpffarbenSymbole />}
             {isTrumpffarbe && tfSeg2 && (
               <div className="content-formatting text-black">
-                <InternalLinker text={tfSeg2} />
+                <InternalLinker text={tfSeg2} farbwechsel={farbwechsel} />
               </div>
             )}
             {isTrumpffarbe && <TrumpffarbenGrid />}
             {isTrumpffarbe && tfSeg3 && (
               <div className="content-formatting text-black">
-                <InternalLinker text={tfSeg3} />
+                <InternalLinker text={tfSeg3} farbwechsel={farbwechsel} />
               </div>
             )}
           </article>

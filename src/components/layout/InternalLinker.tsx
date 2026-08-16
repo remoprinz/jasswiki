@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -8,8 +8,23 @@ import { ArtikelTabelle } from '@/components/wissen/ArtikelTabelle';
 import { JassKartenReihe } from '@/components/wissen/JassKartenReihe';
 import { textInStuecke } from '@/components/wissen/kartenMarke';
 import { verweiseZuLinks } from '@/components/wissen/verweise';
+import { farbwoerterFr } from '@/components/wissen/farbwoerter';
+import { kartensystemAusSpeicherHolen, useKartensystem } from '@/components/wissen/kartensystem';
 
 interface InternalLinkerProps {
+  text: string;
+  /**
+   * Der Artikel lässt den Wortwechsel zu (metadata.farbwechsel === true):
+   * steht das Kartensystem des Lesers auf «Französisch», wechseln im
+   * sichtbaren Text und in den Kartenbeschriftungen die Farb- und Kartenwörter
+   * (Rosen → Herz, Under → Bube …). Server-HTML und erster Render bleiben
+   * Deutsch; der Wechsel kommt aus dem gespeicherten Kartensystem, wie bei
+   * den Kartenreihen. Ohne Kennzeichen bleibt der Text Zeichen für Zeichen.
+   */
+  farbwechsel?: boolean;
+}
+
+interface MarkdownStueckProps {
   text: string;
 }
 
@@ -41,7 +56,7 @@ function spaltenZaehlen(node: unknown): number {
 /**
  * Rendert ein Textstück als Markdown (Links, Listen, Überschriften, Tabellen).
  */
-const MarkdownStueck: React.FC<InternalLinkerProps> = ({ text }) => {
+const MarkdownStueck: React.FC<MarkdownStueckProps> = ({ text }) => {
   // Pre-Process 1: Konvertiere technische Verweise zu Markdown-Links
   const processedText = verweiseZuLinks(text);
 
@@ -112,8 +127,28 @@ const MarkdownStueck: React.FC<InternalLinkerProps> = ({ text }) => {
  * Karten-Marke [[karten: …]] in eine Reihe echter Jasskarten auf.
  * Ohne Marke bleibt genau ein Markdown-Block wie bisher.
  */
-export const InternalLinker: React.FC<InternalLinkerProps> = ({ text }) => {
-  const stuecke = textInStuecke(text);
+export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechsel = false }) => {
+  const system = useKartensystem();
+  const wechseln = farbwechsel && system === 'fr';
+
+  // Die gespeicherte Wahl gilt auch für Text ohne Kartenreihe; das Holen ist
+  // einmalig und läuft erst nach dem Einhängen (kein Unterschied zum Server-HTML).
+  useEffect(() => {
+    if (farbwechsel) kartensystemAusSpeicherHolen();
+  }, [farbwechsel]);
+
+  // Die Wörter wechseln vor dem Markdown und nur in den Textstücken und
+  // Beschriftungen — die Karten-Slugs der Marke sind klein geschrieben und
+  // liegen ohnehin ausserhalb der Stücke.
+  const stuecke = useMemo(() => {
+    const roh = textInStuecke(text);
+    if (!wechseln) return roh;
+    return roh.map((s) =>
+      s.art === 'text'
+        ? { ...s, text: farbwoerterFr(s.text) }
+        : { ...s, beschriftung: s.beschriftung ? farbwoerterFr(s.beschriftung) : s.beschriftung }
+    );
+  }, [text, wechseln]);
 
   if (stuecke.length === 1 && stuecke[0].art === 'text') {
     return <MarkdownStueck text={stuecke[0].text} />;

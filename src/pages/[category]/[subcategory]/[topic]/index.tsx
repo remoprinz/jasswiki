@@ -132,6 +132,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
   // Leitartikel «Kartenfarben»: Karten-Raster zwischen Beschreibung und Geschichte
   // einschieben. Gesplittet wird an der Geschichts-Überschrift (kein künstlicher
   // Marker im Text, damit Korpus und __NEXT_DATA__ sauber bleiben).
+  const farbwechsel = contentItem.metadata.farbwechsel === true;
   const isKartenfarben = contentItem.id === 'expressions_kartenfarben';
   const GRID_ANCHOR = 'Das abgebildete Kartenbild';
   const [cardTextBefore, cardTextAfter] =
@@ -191,12 +192,12 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
           <article className="content-formatting max-w-none">
             {FARB_KOEPFE[contentItem.id] && <FarbeKopf {...FARB_KOEPFE[contentItem.id]} />}
             <div className="content-formatting text-black">
-              <InternalLinker text={cardTextBefore} />
+              <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
             </div>
             {isKartenfarben && <JassCardGrid />}
             {isKartenfarben && cardTextAfter && (
               <div className="content-formatting text-black">
-                <InternalLinker text={cardTextAfter} />
+                <InternalLinker text={cardTextAfter} farbwechsel={farbwechsel} />
               </div>
             )}
           </article>
