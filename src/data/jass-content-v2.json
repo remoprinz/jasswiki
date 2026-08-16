@@ -1506,7 +1506,7 @@
   },
   "expressions_kartenfarben": {
     "id": "expressions_kartenfarben",
-    "text": "Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.\n\nDer Deutschschweizer Satz hat Eichel, Rosen, Schellen und Schilten, der französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die beiden Sätze entsprechen sich eins zu eins: Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel meinen dieselbe Farbe.\n\n## Alle 36 Karten\n\nFarbe für Farbe, von der höchsten zur tiefsten Karte, beide Systeme im direkten Vergleich.\n\nDas abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch), einer modernen Neuillustration des klassischen Schweizer Blatts. Der Schweizer Grafiker Jens Riedweg hat es als Vektorgrafik gestaltet, gedruckt werden die Karten in der Schweiz. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.\n\n## Welches System wo?\n\nWelches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\"). Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").",
+    "text": "Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.\n\nDer Deutschschweizer Satz hat Eichel, Rosen, Schellen und Schilten, der französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die beiden Sätze entsprechen sich eins zu eins: Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel meinen dieselbe Farbe.\n\n## Die neun Karten einer Farbe\n\n**Ein Jass-Set hat 36 Karten: vier Farben mit je neun Karten.** Von der höchsten zur tiefsten heissen sie Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen dieselben Karten Ass, König, Dame, Bube, Zehn, Neun, Acht, Sieben und Sechs.\n\nZwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur (siehe Begriff \"trumpf_bauer\") und zählt 20 Punkte, der Neuner heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14. Was jede Karte sonst zählt, steht bei den Kartenwerten (siehe Begriff \"general_card_values\").\n\n## Was die vier Symbole zeigen\n\nDer Deutschschweizer Satz zeigt vier Dinge, die man benennen kann: eine **Eichel** (siehe Begriff \"color_eichel\"), eine rote **Rose** (siehe Begriff \"color_rosen\"), eine **Schelle** (siehe Begriff \"color_schellen\"), also ein kleines Glöckchen, und einen **Schild** (siehe Begriff \"color_schilten\").\n\nDer französische Satz zeigt die vier Zeichen, die auch international gelten:\n\n| Deutschschweizer Symbol | Französisches Symbol | International |\n|---|---|---|\n| Eichel | Kreuz, französisch Trèfle | ♣ |\n| Rosen | Herz, französisch Cœur | ♥ |\n| Schellen | Ecke, französisch Carreau | ♦ (Karo) |\n| Schilten | Schaufel, französisch Pique | ♠ (Pik) |\n\n## Alle 36 Karten\n\nFarbe für Farbe, von der höchsten zur tiefsten Karte, beide Systeme im direkten Vergleich.\n\nDas abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch), einer modernen Neuillustration des klassischen Schweizer Blatts. Der Schweizer Grafiker Jens Riedweg hat es als Vektorgrafik gestaltet, gedruckt werden die Karten in der Schweiz. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.\n\n## Welches System wo?\n\nWelches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\"). Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").\n",
     "metadata": {
       "id": "expressions_kartenfarben_meta",
       "category": {
@@ -1532,24 +1532,40 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-08-17"
     },
     "faqs": [
       {
+        "question": "Wie viele Karten hat ein Jass-Set?",
+        "answer": "36 Karten: vier Farben mit je neun Karten. Das gilt für beide Kartensysteme, das Deutschschweizer wie das französische."
+      },
+      {
+        "question": "Wie heissen die neun Karten einer Farbe?",
+        "answer": "Von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen Ober und Under Dame und Bube, das Banner heisst Zehn."
+      },
+      {
         "question": "Welche Kartenfarben gibt es beim Jassen?",
-        "answer": "Vier je System: Deutschschweizer (Eichel, Rosen, Schellen, Schilten) und Französisch (Kreuz, Herz, Ecke, Schaufel)."
+        "answer": "Vier je System: Deutschschweizer heissen sie Eichel, Rosen, Schellen und Schilten, französisch Kreuz, Herz, Ecke und Schaufel."
+      },
+      {
+        "question": "Was zeigen die Symbole auf den Deutschschweizer Jasskarten?",
+        "answer": "Eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild."
+      },
+      {
+        "question": "Was zeigen die Symbole auf den französischen Jasskarten?",
+        "answer": "Kreuz (Trèfle, ♣), Herz (Cœur, ♥), Ecke (Carreau, ♦, im deutschen Blatt Karo) und Schaufel (Pique, ♠, im deutschen Blatt Pik)."
       },
       {
         "question": "Sind die beiden Kartensysteme gleichwertig?",
-        "answer": "Ja, funktional. Nur die Bilder unterscheiden sich."
+        "answer": "Ja, funktional. Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich."
       },
       {
         "question": "Welche französische Farbe entspricht Schellen?",
-        "answer": "Ecke (Karo)."
+        "answer": "Ecke, im deutschen Standardblatt Karo."
       },
       {
         "question": "Welche französische Farbe entspricht Schilten?",
-        "answer": "Schaufel (Pik)."
+        "answer": "Schaufel, im deutschen Standardblatt Pik."
       },
       {
         "question": "Welche französische Farbe entspricht Rosen?",
@@ -1557,7 +1573,11 @@
       },
       {
         "question": "Welche französische Farbe entspricht Eichel?",
-        "answer": "Kreuz (Trèfle)."
+        "answer": "Kreuz, französisch Trèfle."
+      },
+      {
+        "question": "Welche Karte heisst Puur und welche Nell?",
+        "answer": "In der Trumpffarbe heisst der Under Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14 Punkte."
       }
     ],
     "see_also": [
@@ -1566,6 +1586,18 @@
       "history_swiss_production",
       "expressions_trumpf",
       "expressions_blatt"
+    ],
+    "synonyms": [
+      "jasskarten",
+      "jasskarte",
+      "schweizer jasskarten",
+      "deutsche jasskarten",
+      "französische jasskarten",
+      "jasskarten symbole",
+      "jasskarten namen",
+      "kartenfarben",
+      "jass farben",
+      "schweizer spielkarten"
     ]
   },
   "expressions_kehr": {
