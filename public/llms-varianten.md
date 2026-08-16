@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 57
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1444,16 +1444,16 @@ Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot a
 • Vier Spieler in zwei Teams. Gezogen wird aus einem verdeckten Kartenspiel: Die beiden höheren Karten bilden ein Team, die beiden tieferen das andere. Die Partner sitzen sich über Kreuz gegenüber
 • Auch den Spielgeber bestimmt das Ziehen. Wer die tiefste Karte zieht, gibt zum ersten Spiel; danach wird der Reihe nach in Spielrichtung gegeben
 • Neun Karten je Spieler, in drei Runden zu drei Karten gegeben
-• Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte gelten unverändert
+• Gejasst wird nach den Regeln des Schiebers; Farbzwang und Kartenwerte gelten unverändert. Im Trumpf stechen die Karten in dieser Folge, mit ihrem Zählwert: Puur, also der Under, 20; Nell, also die Neun, 14; Ass 11; König 4; Ober 3; Banner 10; dann Acht, Sieben und Sechs mit null. In den anderen Farben: Ass 11, König 4, Ober 3, Under 2, Banner 10, dann Neun bis Sechs mit null
 • Vorhand eröffnet das Bieten, danach bietet der Reihe nach in Spielrichtung jeder Spieler
 • Ein Gebot besteht aus einer Punktzahl und einer Trumpffarbe
-• Wer fort sagt, bleibt für dieses Bieten draussen
+• Wer fort sagt, bleibt für dieses Bieten draussen; so empfiehlt es der Verband, siehe unten
 • Wer das höchste Gebot hält, ist der Spielübernehmer und spielt die erste Karte aus. Er und sein Partner bilden das trumpfmachende Team
-• Die zuletzt angesagte Farbe ist Trumpf. Alle Trumpffarben werden einfach gewertet, jede Farbe zählt also gleich viel
+• Gespielt wird auf die vier Trumpffarben; die zuletzt angesagte Farbe ist Trumpf. Alle Trumpffarben werden einfach gewertet: Jede Farbe zählt gleich viel, anders als beim Schieber mit seinen Faktoren
 
 ## Das Bieten
 
-Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. **Das Bieten endet, sobald die anderen drei «fort» gesagt haben.** Das tiefste Gebot ist 50, und jedes weitere liegt mindestens 5 Punkte über dem vorherigen.
+Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. Sagt der Partner des Höchstbietenden «fort», lässt er dessen Gebot stehen und überlässt das weitere Bieten seinem Partner. **Das Bieten endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben**, oder sobald ein Gegner dopplet. Das tiefste Gebot ist 50, und jedes weitere liegt mindestens 5 Punkte über dem vorherigen.
 
 Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte bleiben beim Bieten aussen vor.
 
@@ -1476,26 +1476,38 @@ Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierle
 
 
 
-Welche die weiteren Karten sind, bleibt offen: Die Ansage misst die Länge des Blattes.
+Welche die weiteren Karten sind, bleibt offen. Die Ansage sagt, **wie viele Karten man von dieser Farbe hat**, und lässt offen, wie hoch sie sind. Wer eine Farbe eröffnet, sagt damit auch, welche der beiden höchsten Trumpfkarten er hält: 60, 80, 100 und 120 zeigen den Puur, 50, 70, 90 und 110 das Nell.
 
-Dazu kommen zwei Ansagen, die sich auf ein bereits genanntes Gebot beziehen:
+Diese Zahlen gelten für die **Eröffnung**, also das erste Gebot, mit dem eine Farbe am Tisch fällt. Dazu kommen zwei Ansagen, die auf ein Gebot antworten, das schon gefallen ist. Damit jede Zahl eine Bedeutung trägt, empfiehlt der Verband diese Lesart: **Zehner eröffnen und helfen, Fünfer zeigen ein Ass.**
 
-• **5 Punkte über dem laufenden Gebot** zeigen das Ass einer Farbe, während eine andere Farbe Trumpf werden soll
-• **10 oder 20 Punkte über dem Gebot des Partners, in dessen Farbe,** zeigen, dass man in dieser Farbe mithelfen kann
+**Ein Fünfer heisst: «Ich halte das Ass dieser Farbe; als Trumpf meine ich eine andere.»** Die Gegner haben auf 90 gesteigert, Sie sagen «95 auf Schilten»: Sie zeigen dem Partner das Schilten-Ass, und das holt einen Stich, welche Farbe am Ende auch Trumpf wird.
 
-Diese Ansageregeln arbeiten auf den Zehnerzahlen. Solange alle Farbgebote auf einem Zehner liegen, fällt eine Ass-Ansage auf einen Fünfer und bleibt dadurch erkennbar. Bietet jemand daneben, etwa 85, trägt seine Zahl für den Partner keine Auskunft mehr. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.
 
-Die Ansageregeln gelten für Farbgebote bis 120. Runden, die Obenabe, Undenufe oder Slalom zulassen, machen deren Ansagehöhe vorher ab.
+**Ein Zehner in der Farbe des Partners heisst: «In dieser Farbe helfe ich dir.»** Ihr Partner hat «60 auf Eichel» gesagt, Sie sagen «70» oder «80 auf Eichel». Sie bleiben bei seiner Farbe und sagen: In Eichel halte ich auch etwas, zusammen holen wir mehr als deine 60. Diese Antwort heisst hier die Hilfe. Die 70 heisst: Ich halte das Nell zu zweit. Die 80 heisst: das Nell zu dritt oder mit noch mehr Karten. Hat der Partner mit dem Nell eröffnet, gilt dasselbe für den Puur. Hat ein Gegner dazwischen höher geboten, gelten die beiden kleinsten Zehner über dessen Gebot: der untere «zu zweit», der obere «zu dritt oder mehr».
 
-Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler übernimmt ein Spiel in einer Farbe, die er als Trumpf gar nie wollte.
+Wer später in derselben Farbe erhöht, steigert bloss die Zahl; die Auskunft über Puur, Nell und Hilfe gilt aus den ersten Geboten. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.
+
+Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler muss somit eine Trumpfansage übernehmen, die er eigentlich gar nicht wollte. Darum sagt ein Ass an, wer sicher ist, dass danach weitergeboten wird.
+
+**Feinheiten, die am Tisch vorkommen:**
+
+• Für die Ass-Ansage gilt der nächste Fünfer über dem laufenden Gebot. Steht das Gebot schon auf einem Fünfer, ist das der Fünfer zehn darüber, nach einer 85 also die 95
+• Für die Hilfe zählen immer die beiden kleinsten Zehner über dem laufenden Gebot; hat ein Gegner dazwischen geboten, rücken beide entsprechend nach oben
+• Wer Puur und Nell hält, sagt den Puur an. Die Nell-Reihe schliesst den Puur aus, die Puur-Reihe lässt das Nell offen
+• Für die Ansagen gehört eine Farbe dem Team, das sie eröffnet hat, auch wenn die Gegner sie später selbst bieten. Ein Fünfer in der Farbe der Gegner heisst «Ich halte das Ass eurer Farbe»; ein Zehner in der Farbe der Gegner heisst «Wir wollen eure Farbe selbst», ohne weitere Auskunft
+• In der Farbe des eigenen Teams wird auf Zehnern erhöht; das Ass der eigenen Trumpffarbe bleibt ungesagt
+• Wer mit seiner Farbe erst auf eine Zahl käme, die unter dem laufenden Gebot liegt oder gleich hoch ist, hat die Eröffnung verpasst. Dann bleiben «fort», die Ass-Ansage, ein Zehner in der Farbe der Gegner oder später die Hilfe in der Farbe des Partners
+• Die Eröffnung beginnt bei drei Karten und reicht bis 120. Darüber sind alle Zahlen bis 157 Gebote ohne Auskunft über Karten; sie sagen nur, was das Team sich zutraut
+
 
 ## Ende des Bietens
 
-Ein Gebot, das die anderen drei stehen lassen, gilt. Damit ist das Bieten beendet: Die genannte Farbe wird Trumpf, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot.
+**Sobald beide Gegner des Höchstbietenden «fort» gesagt haben, steht das Gebot.** Die genannte Farbe wird Trumpf, und wer die letzte Ansage gemacht hat, ist der Spielübernehmer und spielt die erste Karte aus. Das Gebot bleibt dann, wie es ist; auch der Partner lässt es stehen. Wer Farbe oder Höhe noch ändern will, tut das mit einem neuen, höheren Gebot, solange noch ein Gegner mitbietet.
 
-Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**.
+Sagen alle vier «fort», liegt kein Gebot vor. Dazu schweigen unsere Quellen. Der Verband empfiehlt, in diesem Fall neu zu geben, und zwar durch denselben Spieler: So bleibt die Gebefolge der Partie unangetastet.
 
-Das tiefste Gebot ist 50. Damit fallen die Untergrenze und die unterste Sprosse der Ansageregeln zusammen, und eine Zahl aus der Konvention kann nicht zur Regel aufsteigen.
+Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**. Weil ein Team bei Erfolg genau diese Zahl schreibt, erhöht es später so hoch, wie es sich zutraut, statt bloss eine Stufe über den Gegner: Was es hält, schreibt es.
+
 
 ## Doppeln und Kontern
 
@@ -1503,11 +1515,11 @@ Das tiefste Gebot ist 50. Damit fallen die Untergrenze und die unterste Sprosse 
 
 Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.
 
-**Der Verband empfiehlt zum Zeitpunkt: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat.** Bietet A 120, sagt B «fort» und bietet C dann 130, so steht die 130 zum Doppeln offen und die 120 ist vorbei. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Auch das lässt sich vorher anders abmachen.
+**Der Verband empfiehlt zum Zeitpunkt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, und zwar von jedem der beiden Gegner, sobald das Gebot gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat.** Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei: D hätte gleich nach A's Gebot rufen müssen. Bietet C danach 130, steht die 130 zum Doppeln offen, bis D geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote.
 
 **Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.
 
-Das trumpfmachende Team antwortet mit «kontern», wenn es sein Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.
+Der Spielübernehmer oder sein Partner antwortet gleich darauf, bevor die erste Karte fällt, mit «kontern», wenn er das Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.
 
 | Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |
 |---|---|---|
@@ -1517,27 +1529,6 @@ Das trumpfmachende Team antwortet mit «kontern», wenn es sein Ziel weiterhin f
 
 Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpunkte zusätzlich zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner die Zielpunkte zusätzlich zu ihren Kartenpunkten.
 
-## Der Matsch
-
-Eine Runde bringt 157 Kartenpunkte: 152 aus den Karten und 5 für den letzten Stich. Der Matsch verlangt mehr, nämlich alle neun Stiche. Wer sämtliche Kartenpunkte holt und dabei einen Stich ohne Zählwert abgibt, hat 157 Punkte und trotzdem keinen Matsch. Darum gibt es beide Ansagen als eigenes Gebot:
-
-| Ansage | Was zu holen ist | Zielpunkte |
-|---|---|---|
-| 157 | alle Kartenpunkte | 157 |
-| 257 | alle neun Stiche | 257 |
-
-Die 257 setzen sich aus den 157 Kartenpunkten und der Matschprämie von 100 Punkten zusammen, die beim Jassen für alle Stiche fällig wird. Doppeln und Kontern wirken auf die Matsch-Ansage wie auf jedes Gebot: Die Zielpunkte steigen auf 514 oder 1028.
-
-| Fall | Wertung |
-|---|---|
-| Matsch angesagt und geholt | Das trumpfmachende Team schreibt 257 Zielpunkte und 157 Kartenpunkte, im einfachen Spiel zusammen 414 |
-| Matsch angesagt und verfehlt | Das trumpfmachende Team schreibt seine Kartenpunkte, die Gegner ihre Kartenpunkte und dazu die 257 Zielpunkte |
-| Alle Stiche ohne Matsch-Ansage | Das trumpfmachende Team schreibt seine Zielpunkte, die 157 Kartenpunkte und die Matschprämie von 100 |
-| Alle Stiche für die Gegner | Die Gegner schreiben ihre 157 Kartenpunkte, die Matschprämie und dazu die Zielpunkte |
-
-Dani Müller führt die Matsch-Ansage in «STÖCK WYS STICH» mit 157. Der Verband nennt sie 257, weil die Matschprämie beim Schieber, beim Coiffeur und beim Bieter gleichermassen gilt und der Matsch sonst weniger einbrächte als ein Gebot von 150. Runden, die Müllers Zahl gewohnt sind, sagen den Matsch mit 157 an und schreiben die Prämie beim Erfolg dazu.
-
-Beim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
 
 ## Schreiben
 
@@ -1548,20 +1539,150 @@ Beim Sidi-Barrani zählen die Spieler durchgehend Punkte. Die Strichtafel gehör
 
 Das Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte.
 
+## Der Matsch
+
+Das höchste Gebot heisst Matsch und wird mit 157 angesagt: alle Punkte eines Spiels, 152 aus den Karten und 5 für den letzten Stich. Geschrieben wird er wie jedes andere Gebot. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628. Wer den Matsch ansagt, hat beim Bieten erkannt, dass alle Karten, die es dafür braucht, bei seinem Team liegen.
+
+Gezählt wird beim Sidi-Barrani in Punkten: Jede Partei führt ihre Punktzahl auf der Tafel. Das Strichformat mit Berg und Sieg gehört zu anderen Jassarten.
+
+## Ein Spiel von Anfang bis zur Tafel
+
+A und C sitzen einander gegenüber, B und D ebenso. Vorhand ist A. Jeder Spieler sieht seine neun Karten; was er von den anderen weiss, erfährt er allein aus den Ansagen. Wir zeigen trotzdem alle vier Blätter, damit sich jede Ansage und jeder Stich nachprüfen lässt.
+
+### So liegen die Karten
+
+
+
+
+
+Niemand hat einen Weis, und die Stöck sind getrennt: Der Eichel-König liegt bei D, der Eichel-Ober bei C.
+
+### Das Bieten auf einen Blick
+
+| Spieler | Ansage | Was die Ansage sagt |
+|---|---|---|
+| A | 60 auf Eichel | Puur zu dritt: der Eichel-Under und zwei weitere Eichel |
+| B | 70 auf Schellen | Nell zu viert: das Schellen-Nell und drei weitere Schellen |
+| C | 90 auf Eichel | Der zweite Zehner über B's 70, in A's Farbe: «In Eichel helfe ich dir, mit dem Nell zu dritt oder mehr» |
+| D | 95 auf Rosen | Der nächste Fünfer: «Ich halte das Rosen-Ass; als Trumpf meine ich eine andere Farbe» |
+| A | 100 auf Eichel | Ein Zehner über D's 95: die höchste Zahl, die A seiner Rechnung zutraut |
+| D | «Ich dopple» | Sofort nach A's Gebot, bevor B an der Reihe ist. Damit ist das Bieten beendet |
+| A | verzichtet auf den Konter | Seine Rechnung trägt die 100 als Gebot; für 400 Zielpunkte ist sie ihm zu unsicher |
+
+Eichel ist Trumpf, das Ziel sind 100 Kartenpunkte, es stehen 200 Zielpunkte auf dem Spiel, und A spielt die erste Karte aus. Was jeder Spieler sich dabei gedacht hat, zeigt der Weg Schritt für Schritt.
+
+### A sagt «60 auf Eichel»
+
+
+A hat den Puur zu dritt. Die 60, eine Zahl aus der Puur-Reihe, sagt genau das: den Under der genannten Farbe und dazu zwei weitere Eichel. Dass die beiden anderen Karten eine 8 und eine 6 sind, spielt keine Rolle. **Die Ansage sagt, wie viele Karten man von der Farbe hat, und lässt offen, wie hoch sie sind.** Sein Partner C weiss damit: In Eichel sitzt der höchste Trumpf, und er sitzt bei A. Sein Schilten-Ass und den Schilten-König behält A vorerst für sich.
+
+### B sagt «70 auf Schellen»
+
+
+B hat das Nell zu viert und bietet in seiner eigenen Farbe dagegen. Die 70 steht in der Nell-Reihe 50, 70, 90, 110 und sagt: das Nell und dazu drei weitere Karten. Die Zahl steht mit dem Blatt fest: Vier Schellen mit dem Nell heissen 70. Mit dreien wäre es die 50 gewesen, und die läge unter A's 60; dann wäre die Eröffnung für B verpasst gewesen. Sein Partner D weiss damit auch, was B fehlt: Wer «Nell zu viert» sagt, hält den Puur der Farbe nicht, sonst hätte er ihn angesagt.
+
+### C, der Partner von A, sagt «90 auf Eichel»
+
+
+C bleibt in der Farbe seines Partners. **Das ist eine Antwort auf A's Eröffnung:** In Eichel kann ich dir helfen. Die beiden Zehner über B's 70 heissen 80 und 90: Die 80 hiesse das Nell zu zweit, die 90 heisst das Nell zu dritt oder mehr. C hält das Nell zu dritt, mit dem Ass und dem Ober, also sagt er die 90. A hört daraus mit Sicherheit, dass das Nell bei C liegt und mindestens zwei weitere Eichel dazu; die Karten selbst sieht er erst im Spiel.
+
+### D sagt «95 auf Rosen»
+
+
+Der nächste Fünfer über dem laufenden Gebot ist eine Auskunft an den Partner. D hält das Rosen-Ass und sagt es B. Ein Ass holt einen Stich, welche Farbe am Ende auch Trumpf wird, und B kann das in seine nächste Überlegung einrechnen.
+
+Warum D Rosen zeigt, statt Schellen zu stützen: B hat das Nell angesagt, also verlangt die Hilfe den Schellen-Puur, mindestens zu zweit, und den hat D gar nicht. Für sein Schellen-Ass und den Ober gibt es ebenfalls keine Ansage, weil in der eigenen Teamfarbe auf Zehnern erhöht wird. Dazu weiss er aus B's Ansage, dass ihrem Team der Schellen-Puur fehlt, und gegen mindestens sechs Eichel mit Puur und Nell bei A und C wäre ein Spiel mit Schellen als Trumpf ein teures Unterfangen. D setzt auf die Abwehr und zeigt, womit er sie führen wird: In Rosen hält er Ass, König und die Sieben, zum Eröffnen fehlen ihm Puur und Nell, aber das Ass soll B kennen.
+
+**Die 95 ist die riskanteste Ansage dieses Spiels:** Bliebe sie stehen, müsste D mit Rosen als Trumpf 95 Punkte holen, mit Ass, König und Sieben. D sagt sie trotzdem, weil er sicher ist, dass A und C mit ihren mindestens sechs Eichel weiterbieten.
+
+### A sagt «100 auf Eichel»
+
+Jetzt rechnet A. Er sieht seine neun Karten und hat drei Ansagen gehört. Was er daraus weiss und was er daraus schliesst:
+
+| Was A weiss | Woher |
+|---|---|
+| Der Puur ist bei ihm, dazu zwei weitere Eichel | eigenes Blatt |
+| Das Nell ist bei C, mit mindestens zwei weiteren Eichel | C's 90, die grössere Hilfe in A's Farbe |
+| B hält vier Schellen mit dem Nell | B's 70 |
+| D hält das Rosen-Ass | D's 95 |
+| Schilten-Ass und Schilten-König sind bei ihm; über Schilten hat niemand ein Wort verloren | eigenes Blatt |
+
+**Der Trumpf.** Puur und Nell liegen bei A und C, und zusammen halten sie mindestens sechs Eichel: das weiss A aus den Ansagen. Damit ziehen die beiden den Gegnern die restlichen Trümpfe aus der Hand, und die Zählwerte dieser Trümpfe fallen dabei auf die eigenen Stiche. Von den 62 Punkten der Trumpffarbe kommt fast alles zu A und C; nur ein Gegner mit drei Eichel behielte nach zwei Trumpfrunden noch einen Trumpf.
+
+**Die anderen Farben.** Ein Spiel bringt 157 Punkte: 62 im Trumpf, 90 in den drei anderen Farben, 5 für den letzten Stich. Das Schilten-Ass holt einen Stich, der König dahinter sehr wahrscheinlich einen zweiten, das sind mindestens 15. Den letzten Stich holt, wer den letzten Trumpf hält, also mit grosser Wahrscheinlichkeit A oder C. In Rosen sitzt das Ass bei D, und in Schellen hält B allein schon vier Karten: dort holen A und C wenig.
+
+**Die Summe.** 62 im Trumpf, 15 in Schilten, 5 für den letzten Stich: rund 82 Punkte rechnet A fest ein. Für 100 fehlen etwa 18, und die müssen aus zweierlei kommen: aus den Karten, die auf seine Stiche fallen, und aus dem, was C in den anderen Farben hält. Beides kennt A nicht. **Genau das macht die 100 zu einem Gebot statt zu einer Gewissheit.**
+
+Die 100 ist der kleinste Zehner über D's 95, und A könnte höher gehen. Das Team schreibt bei Erfolg die gebotene Zahl: Wer 110 hält, schreibt 110. Darum nimmt A die höchste Zahl, der er traut, und das ist die 100. 110 wären ihm zu viel, und an einen Matsch ist mit dem Rosen-Ass bei D und den vier Schellen bei B gar nicht zu denken.
+
+Sein Schilten-Ass behält A für sich. Eine Ass-Ansage «105 auf Schilten» hätte es auch B und D verraten, und A hätte den Trumpf danach mit einem noch höheren Gebot nach Eichel zurückholen müssen.
+
+### D dopplet, A verzichtet auf den Konter
+
+D ruft «ich dopple», sofort nach A's 100 und bevor B an der Reihe ist. Das Fenster dafür schliesst sich nach der Empfehlung des Verbands, sobald B geboten oder «fort» gesagt hat. Mit dem Doppeln ist das Bieten beendet.
+
+D rechnet dieselbe Aufgabe von der anderen Seite, aus seinem Blatt und aus den Ansagen. Er weiss aus dem Bieten, dass Puur und Nell der Trumpffarbe beim Gegner liegen; seine eigenen zwei Eichel, König und Banner, sind damit verloren, und die 62 Punkte des Trumpfs schreibt er A und C zu. Für 100 brauchen die beiden also noch 38 aus den anderen Farben. Er hört aber auch, was ungesagt blieb: Von A und C kam keine Auskunft über eine zweite Farbe; das Rosen-Ass hat er selbst gemeldet. Also vermutet er die Stärke von A und C allein im Trumpf.
+
+Was er dagegenhält: Rosen-Ass und Rosen-König, das sind zwei Stiche, falls niemand mehr sticht. Das Schellen-Ass, ein dritter. Und weil B vier Schellen hält, traut D ihm hinter dem Ass einen vierten Stich zu. Vier Stiche mit den Karten, die auf sie fallen, schätzt er auf rund 60 Punkte; dann blieben A und C bei 97 stehen. **Darum dopplet er.** Damit stehen 200 Zielpunkte auf dem Spiel. Zu holen bleiben die gebotenen 100 Kartenpunkte.
+
+A oder C könnten kontern und die Zielpunkte auf 400 heben. A verzichtet, und C überlässt ihm den Entscheid, denn A hat die Zahl gesetzt: Seine Rechnung trägt die 100 als Gebot, für 400 Zielpunkte ist sie ihm zu unsicher.
+
+### Das Spiel
+
+A spielt aus. Die Karten stehen in der Reihenfolge, in der sie fallen; anhand der vier Blätter oben lässt sich jede nachprüfen.
+
+| Stich | Karten | Stich an | Punkte | Stand |
+|---|---|---|---|---|
+| 1 | A Eichel-Under, B Eichel-7, C Eichel-Ober, D Eichel-König | A | 27 | 27 : 0 |
+| 2 | A Eichel-8, B Schellen-7, C Eichel-Nell, D Eichel-Banner | C | 24 | 51 : 0 |
+| 3 | C Schilten-Under, D Schilten-7, A Schilten-König, B Schilten-6 | A | 6 | 57 : 0 |
+| 4 | A Schilten-Ass, B Schilten-Ober, C Schilten-Banner, D Schilten-9 | A | 24 | 81 : 0 |
+| 5 | A Schilten-8, B Rosen-9, C Rosen-Under, D Rosen-7 | A | 2 | 83 : 0 |
+| 6 | A Rosen-6, B Rosen-Banner, C Rosen-8, D Rosen-Ass | D | 21 | 83 : 21 |
+| 7 | D Rosen-König, A Rosen-Ober, B Schellen-9, C Eichel-Ass | C | 18 | 101 : 21 |
+| 8 | C Schellen-8, D Schellen-Ass, A Schellen-Under, B Schellen-Banner | D | 23 | 101 : 44 |
+| 9 | D Schellen-Ober, A Eichel-6, B Schellen-König, C Schellen-6 | A | 7 und 5 | 113 : 44 |
+
+Was in diesem Spiel den Ausschlag gab:
+
+• **Stich 1 und 2:** A spielt Trumpf aus und nimmt den Gegnern ihre Trümpfe, wie es seine Rechnung verlangt. Auf den Puur fallen die Sieben von B und der König von D, auf die zweite Runde das Banner: Nach zwei Zügen sind B und D ohne Trumpf, und alle 62 Trumpfpunkte gehen an A und C, wie A es zusammengerechnet hat
+• **Stich 3 bis 5:** Die Schilten, über die niemand ein Wort verloren hat, bringen alle 30 Punkte der Farbe zu A und C. Beim fünften Stich hat ausser A niemand mehr eine Schilte, B und D haben keinen Trumpf mehr, und C wirft den Rosen-Under ab, zwei Punkte für die eigene Seite
+• **Stich 6:** Das Rosen-Ass von D holt, was D angesagt hat, und B wirft sein Banner dazu
+• **Stich 7:** D's Rosen-König ist die höchste Karte in Rosen, die noch im Spiel ist. Aber C hält in Rosen nichts mehr und sticht mit dem Eichel-Ass. Diesen Stich hatte D auf seiner Seite gerechnet
+• **Stich 8 und 9:** Das Schellen-Ass holt, was D erwartet hat, samt B's Banner. Den letzten Stich sticht A mit dem letzten Trumpf und nimmt die 5 dazu
+
+### Die Tafel
+
+A und C holen 113 Kartenpunkte, das Gebot steht:
+
+| | Zielpunkte | Kartenpunkte | Geschrieben |
+|---|---|---|---|
+| A und C | 200 | 113 | **313** |
+| B und D | | 44 | **44** |
+
+Die Kartenpunkte beider Seiten ergeben zusammen 157. Auf der Tafel stehen die 200, zu holen waren die gebotenen 100. Ohne das Doppeln stünde es 213 zu 44. D's Rechnung ging um zwei Stiche zu kurz: Sein Rosen-König und der zweite Schellen-Stich wurden beide gestochen, weil A und C nach dem Trumpfziehen selbst noch je einen Trumpf hielten. Das Doppeln hat B und D 100 Punkte gekostet.
+
+Zum Vergleich die Tafel, wenn das Gebot fällt, etwa bei 96 Kartenpunkten für A und C:
+
+| | Zielpunkte | Kartenpunkte | Geschrieben |
+|---|---|---|---|
+| A und C | | 96 | **96** |
+| B und D | 200 | 61 | **261** |
+
 ## Partieende
 
-Gespielt wird auf 2000 Punkte oder, je nach Abmachung, auf 1500. Anders als bei den übrigen Jassarten, wo die Ausmachregel den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.
+Gespielt wird auf 2000 Punkte; manche Runden machen 1500 ab. Anders als bei den übrigen Jassarten, wo die Ausmachregel den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.
 
-Ein Team, das die Hälfte des Ziels verfehlt, ist Schneider. Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einer Runde einbringt, macht sie vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.
+Ein Team, das am Ende weniger als die Hälfte des Ziels hat, ist Schneider. Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel; was der Schneider einbringt, macht der Tisch vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.
 
 ## Bekannte Schlussvarianten
 
-Einem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Verfehlt es sein Gebot, schreiben die Gegner denselben Betrag. Für die Gegner lohnt sich das Doppeln in dieser Lage darum besonders.
+Einem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Für die Gegner lohnt sich das Doppeln in dieser Lage besonders: Holt das führende Team sein Gebot, ändert das Doppeln am Ausgang nichts; verfehlt es sein Gebot, schreiben die Gegner den doppelten Betrag.
 
 Dagegen sind zwei Schlussregeln verbreitet. Bei SwissJass, wo beide eingebaut sind, tragen sie eigene Namen; eine Runde macht die gewünschte vor der Partie ab:
 
 • **Bonus-Schlussregel,** auch «das letzte Gebot entscheidet»: Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
-• **Überbiet-Schlussregel,** auch «Abzug bei verfehltem Gebot»: Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein ungedoppeltes Gebot, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
+• **Überbiet-Schlussregel,** auch «Abzug bei verfehltem Gebot»: Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein Gebot, und die Gegner haben es nicht gedoppelt, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
 
 ## Eine verbreitete Variante
 
@@ -1569,7 +1690,16 @@ Neben dieser Spielweise mit vier Trumpffarben ist eine erweiterte Variante verbr
 
 • Zusätzlich zu den Farben stehen Obenabe, Undenufe und Slalom zur Wahl, jede davon auch als Misère. Beim Misère werden die Stiche der Gegenseite gutgeschrieben, es gewinnt also, wer möglichst wenige Punkte macht
 • Weis und Stöck lässt diese Variante weg; gezählt werden die Kartenpunkte
-• Gedoppelt wird in dieser Variante auch noch beim Ausspielen der ersten Karte
+• Das Doppeln steht dort zusätzlich beim Ausspielen der ersten Karte offen
+• Der Matsch trägt dort 257 Zielpunkte, die 157 und die Matschprämie von 100 dazu; zu holen bleiben die 157
+
+## Woher der Name kommt
+
+Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens. Im Dezember 1940 wurde dort gekämpft; die Schlacht eröffnete den britischen Vorstoss gegen die italienische Armee in Nordafrika. Über diesen Feldzug berichtete das Radio täglich, und in der Innerschweiz hörte man mit.
+
+Überliefert ist, dass Luzerner Jasser ihrer Spielart den Namen aus diesen Nachrichten gaben. Gespielt hatten sie bis dahin den Bolschewik, und der Sidi-Barrani ist daraus hervorgegangen. Das erklärt, warum die beiden einander bis heute so ähnlich sehen: Wer den einen kennt, findet sich im anderen auf Anhieb zurecht.
+
+Seine Heimat hat das Spiel in der Innerschweiz, am dichtesten im Luzerner Seetal, um Willisau und im Entlebuch, dazu im Aargauer Seetal, im Freiamt und in Zürich. Es besteht dafür sogar eine eigene Vereinigung, die Sidi-Barrani-Jassvereinigung Luzern und angrenzende Kantone.
 
 ## Vor der Partie abmachen
 
@@ -1579,28 +1709,30 @@ Was eine Runde einmal festlegt und danach jedes Mal gleich handhabt:
 2. Die Ansageregeln: ob die hier beschriebenen gelten, und welche Höhe eine Ansage für Obenabe, Undenufe oder Slalom trägt
 3. Ob ein «fort» endgültig gilt
 4. Doppeln und Kontern: ob damit gespielt wird und bis wann das Doppeln offensteht
-5. Die Zahl für die Matsch-Ansage: 257 mit der Matschprämie oder 157 nach Müller
+5. Die Zielpunkte des Matschs: 157, oder 257 mit der Matschprämie wie in der erweiterten Variante
 6. Weis und Stöck: ob sie mitzählen
 7. Ob eine andere Gebotsuntergrenze als 50 und eine andere Mindeststeigerung als 5 gelten sollen. Bei 5 Punkten bleibt die Ass-Ansage erkennbar
 8. Das Partieziel, die Schlussvariante und den Wert des Schneiders
 
+
 **Häufige Fragen:**
-- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald drei Spieler «fort» gesagt haben. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus. Da der Sidi-Barrani unterschiedlich gespielt wird, macht eine Runde abweichende Regeln vor Spielbeginn ab.
-- **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Der Jassverband Schweiz empfiehlt 50 als tiefstes Gebot. Damit fällt die Untergrenze mit der untersten Sprosse der Ansageregeln zusammen. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine andere Untergrenze wollen, legen sie vor der Partie fest.
-- **Was bedeutet ein Gebot von 80 beim Sidi-Barrani?** Ein Gebot von 80 zeigt den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlene Ansageleiter läuft in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen.
-- **Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?** Das Bieten endet, sobald die anderen drei Spieler «fort» gesagt haben. Das höchste Gebot gilt dann: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und der Spielübernehmer spielt die erste Karte aus. Wer Farbe oder Höhe ändern will, tut das während des laufenden Bietens mit einem neuen, höheren Gebot.
+- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben oder ein Gegner dopplet. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus. Da der Sidi-Barrani unterschiedlich gespielt wird, macht eine Runde abweichende Regeln vor Spielbeginn ab.
+- **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Der Jassverband Schweiz empfiehlt 50 als tiefstes Gebot. Damit fällt die Untergrenze mit der untersten Stufe der Ansageregeln zusammen. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine andere Untergrenze wollen, legen sie vor der Partie fest.
+- **Was bedeutet ein Gebot von 80 beim Sidi-Barrani?** Als erstes Gebot in einer Farbe zeigt 80 den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlenen Ansageregeln laufen in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen. Sagt der Partner nach einer 60 in derselben Farbe 80, und hat dazwischen niemand geboten, ist das die grössere Hilfe: «In dieser Farbe helfe ich dir, mit dem Nell zu dritt oder mehr.»
+- **Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?** Sobald beide Gegner des Höchstbietenden «fort» gesagt haben, steht das Gebot: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und wer die letzte Ansage gemacht hat, spielt die erste Karte aus. Das Gebot bleibt dann, wie es ist, auch der Partner lässt es stehen. Wer Farbe oder Höhe ändern will, tut das mit einem neuen, höheren Gebot, solange noch ein Gegner mitbietet.
 - **Darf man nach einem «fort» wieder mitbieten?** Der Jassverband Schweiz empfiehlt, ein «fort» für dieses Bieten als endgültig zu behandeln: Wer draussen ist, bleibt draussen. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Andere Regelwerke lassen den Wiedereinstieg zu, etwa die Regelsammlung Pagat. Welche Fassung gilt, macht die Runde vor Spielbeginn ab.
-- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat. Bietet A 120, sagt B «fort» und bietet C dann 130, so steht die 130 zum Doppeln offen und die 120 ist vorbei. Eine verbreitete Variante lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
+- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei; bietet C danach 130, steht die 130 offen, bis D geboten oder «fort» gesagt hat. Eine verbreitete Variante lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
 - **Muss man nach dem Doppeln mehr Punkte holen?** Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte, also den Wert, den eine Seite am Schluss geschrieben bekommt. Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte und schreibt bei Erfolg 240 Zielpunkte zu seinen Kartenpunkten; bleibt er darunter, schreiben die Gegner diese 240 Punkte.
-- **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Fünf Punkte über dem laufenden Gebot zeigen dem Partner das Ass dieser Farbe, während eine andere Farbe Trumpf werden soll. Die Farbgebote liegen auf den Zehnerzahlen, deshalb fällt eine Ass-Ansage auf einen Fünfer. Sie kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
-- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Jassverband Schweiz führt zwei Ansagen: 157 verspricht alle Kartenpunkte, 257 verspricht alle neun Stiche. Die 257 sind die 157 Kartenpunkte und die Matschprämie von 100 Punkten. Angesagt und geholt bringt der Matsch 257 Zielpunkte und 157 Kartenpunkte, zusammen 414. Angesagt und verfehlt schreibt das trumpfmachende Team allein seine Kartenpunkte, während die Gegner ihre Kartenpunkte und dazu die 257 schreiben. Doppeln und Kontern heben die Zielpunkte auf 514 oder 1028. Dani Müller führt die Ansage in «STÖCK WYS STICH» mit 157; Runden, die das so kennen, sagen 157 an und schreiben die Prämie beim Erfolg dazu.
-- **Warum gibt es beim Sidi-Barrani die Ansagen 157 und 257?** Weil beides verschieden schwer ist. Wer sämtliche Kartenpunkte holt und dabei einen Stich ohne Zählwert abgibt, hat 157 Punkte und trotzdem keinen Matsch. Die Ansage 157 verspricht die Kartenpunkte, die Ansage 257 alle neun Stiche samt Matschprämie.
-- **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte, gespielt wird auf 2000 oder je nach Abmachung auf 1500 Punkte. Die Strichtafel mit Berg, Sieg, Matsch und Schneider gehört zum Schieber; beim Sidi-Barrani führt jede Partei ihre Punktzahl.
+- **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Ein Fünfer zeigt dem Partner das Ass der genannten Farbe, während eine andere Farbe Trumpf werden soll. Der Jassverband Schweiz empfiehlt die Lesart: Zehner eröffnen und helfen, Fünfer zeigen ein Ass, und zwar der nächste Fünfer über dem laufenden Gebot; nach einer 85 ist das die 95. Die Ansage kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
+- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Matsch ist beim Sidi-Barrani das höchste Gebot und wird mit 157 angesagt: alle Punkte einer Runde, 152 aus den Karten und 5 für den letzten Stich. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628.
+- **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte: Jede Partei führt ihre Punktzahl auf der Tafel, gespielt wird auf 2000 Punkte, manche Runden machen 1500 ab. Das Strichformat mit Berg und Sieg gehört zu anderen Jassarten.
 - **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten; Weis- und Stöckpunkte bleiben beim Bieten aussen vor. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
 - **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ob mit Doppeln und Kontern gespielt wird, macht die Runde vor Spielbeginn ab. Wer damit spielt: Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten. Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten; bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
 - **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen und richtet sich allein nach der Einschätzung des Blattes. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussvarianten fangen das auf, bei SwissJass Bonus-Schlussregel und Überbiet-Schlussregel genannt: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
+- **Woher kommt der Name Sidi-Barrani?** Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens, um den im Dezember 1940 gekämpft wurde. Das Radio berichtete damals täglich über den Feldzug in Nordafrika. Überliefert ist, dass Luzerner Jasser ihrer Spielart den Namen aus diesen Nachrichten gaben; gespielt hatten sie bis dahin den Bolschewik, aus dem der Sidi-Barrani hervorgegangen ist.
+- **Wo wird der Sidi-Barrani gespielt?** Seine Heimat hat das Spiel in der Innerschweiz, am dichtesten im Luzerner Seetal, um Willisau und im Entlebuch, dazu im Aargauer Seetal, im Freiamt und in Zürich. Es besteht dafür eine eigene Vereinigung, die Sidi-Barrani-Jassvereinigung Luzern und angrenzende Kantone.
 
-*Keywords: 257, ansageregeln, ass-ansage, bieten, doppeln*
+*Keywords: 157, 257, ansageregeln, ass-ansage, bietbeispiel*
 
 ---
 

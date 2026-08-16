@@ -10059,7 +10059,7 @@
   },
   "variants_strategic_pandur": {
     "id": "variants_strategic_pandur",
-    "text": "Definition:\nDer Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet.\n\nStrenge Regeln:\n• Verstösse wie falsches oder überflüssiges Weisen, unzulässiges Ausspielen (siehe Begriff \"ausspiel\"), das Umdrehen von Stichen oder Kommentare zum Spielverlauf sind untersagt\n• Verstösse werden mit dem sofortigen Verlust des betreffenden Spiels geahndet\n\nKartenspiel und Geben:\n• Verwendet wird ein reduziertes Kartenspiel mit 24 Karten, wobei Sechser, Siebner und Achter ausgeschlossen bleiben\n• Der Spielgeber verteilt je acht Karten an seine drei Mitspieler, nimmt selbst aber nicht aktiv am Spiel teil\n• Er kann jedoch Punkte «erben (siehe Begriff \"expressions_erben\")», also gutgeschrieben bekommen, wenn sein Team (siehe Begriff \"expressions_team\") gewinnt\n\nSteigerung:\n• Nach der Kartenverteilung beginnt die Steigerung\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Bieten und nennt basierend auf seinen Handkarten (siehe Begriff \"expressions_handkarten\") eine Punktzahl, die er zu erreichen glaubt\n• Die Mindestansage liegt bei 100 Punkten \n• Jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen\n\nSteigerungsreihenfolge:\n• Von 100 bis 200 Punkte in Schritten zu je zehn Punkten\n• Misère ohne Trumpf (siehe Begriff \"bodentrumpf\") (zählt 8 Punkte)\n• Misère mit Trumpf (zählt 10 Punkte)\n• Von 210 bis 250 Punkte in Zehnerschritten\n• Pandur ohne Trumpf (zählt 15 Punkte)\n• Von 260 bis 300 Punkte\n• Pandur mit Trumpf (zählt 16 Punkte)\n\nSpielübernahme:\n• Der Spieler mit dem höchsten abgegebenen Gebot übernimmt das Spiel\n• Die beiden übrigen Teilnehmer bilden gemeinsam die Gegenpartei\n• Die Gegenpartei versucht, den Spielübernehmer daran zu hindern, seine angesagte Punktzahl zu erreichen",
+    "text": "**Der Pandur wird streng nach Regeln gespielt.** Falsches oder überflüssiges Weisen, falsches Ausspielen, das Behalten eines fremden Stichs und Bemerkungen zum Spielverlauf kosten das laufende Spiel; ein «Bock» am Tisch gehört dazu. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel (siehe Begriff \"regeln_tischregel\").\n\nDer Pandur ist ein Bietspiel (siehe Begriff \"bietrunde\") mit einem gegen zwei: Wer das höchste Gebot abgibt, spielt allein gegen die beiden anderen und trägt die Pflicht, die angesagte Punktzahl zu erreichen. Am Tisch sitzen vier, die Karten halten drei.\n\n## Die Grundform\n\n• Gespielt wird mit 24 Karten. Sechser, Siebner und Achter bleiben draussen; im Spiel sind Ass, König, Ober, Under, Banner und Nell in vier Farben\n• Acht Karten je Spieler, in zwei Gängen zu vier gegeben\n• Der Spielgeber gibt und sitzt aus. Er erhält keine Karten und erbt (siehe Begriff \"expressions_erben\") Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt\n• Der erbende Spielgeber schaut zu und schweigt, auch wenn ein Fehler am Tisch zu seinem Nachteil geschieht\n• Ab dem zweiten Spiel wird der Reihe nach in Spielrichtung gegeben, womit auch das Aussetzen wandert\n• Gibt der Spielgeber falsch, gibt derselbe Spieler neu; für dieses Spiel erbt er nichts\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Steigern, danach bietet der Reihe nach in Spielrichtung jeder Spieler\n• Wer das höchste Gebot hält, ist der Spielübernehmer. Er spielt die erste Karte aus (siehe Begriff \"ausspiel\"), die beiden anderen bilden für dieses Spiel ein Team (siehe Begriff \"expressions_team\") gegen ihn\n• Gespielt wird auf 17 Schreibpunkte. Verbreitet sind auch 15, 21 und 23; die Zahl macht die Runde vor der Partie ab\n• Der Pandur kennt keine Matschprämie (siehe Begriff \"expressions_matschpraemie\"). Wer alle Stiche holen will, sagt es an und bekommt dafür die Schreibpunkte seines Gebots\n\n## Was die Karten tragen\n\nDie Kartenwerte (siehe Begriff \"general_card_values\") sind dieselben wie im vollen Blatt. Weil Sechser, Siebner und Achter draussen bleiben und diese drei Karten in der Trumpffarbe wie in jeder anderen Farbe null zählen, ändert sich an der Punktsumme nichts.\n\n| Karte | in der Trumpffarbe | in den anderen Farben |\n|---|---|---|\n| Under, der Puur (siehe Begriff \"trumpf_bauer\") | 20 | 2 |\n| Nell (siehe Begriff \"expressions_nell\"), die Neun | 14 | 0 |\n| Ass | 11 | 11 |\n| Banner (siehe Begriff \"expressions_banner\"), die Zehn | 10 | 10 |\n| König | 4 | 4 |\n| Ober | 3 | 3 |\n\n[[karten: schellen-under, schellen-9, schellen-ass, schellen-banner, schellen-koenig, schellen-ober | Die Trumpffarbe in ihrer Stichfolge: Under 20, Nell 14, Ass 11, Banner 10, König 4, Ober 3]]\n\n[[karten: eichel-ass, eichel-banner, eichel-koenig, eichel-ober, eichel-under, eichel-9 | Jede andere Farbe: Ass 11, Banner 10, König 4, Ober 3, Under 2, Nell 0]]\n\nDie Trumpffarbe trägt 62 Punkte, jede andere Farbe 30. Zusammen sind das 152, dazu die 5 für den letzten Stich (siehe Begriff \"letzter_stich\"): **157 Punkte liegen in einem Spiel, mehr geben die Karten nicht her.**\n\n**An dieser Schranke hängt die ganze Leiter.** Wer 100 bietet, holt sie aus den Karten. Wer 200 bietet, braucht 43 Punkte aus dem Weis (siehe Begriff \"expressions_weis\"). Wer 300 bietet, braucht 143, also fast so viel, wie alle Karten zusammen tragen. **Die hohen Gebote sind Weisgebote**, und darum entscheidet beim Pandur oft der Weis und nicht der Stich.\n\n## Das Steigern\n\nNach dem Geben steigert Vorhand zuerst, danach der Reihe nach in Spielrichtung. Ein Gebot nennt die Punktzahl, die der Bietende am Ende des Spiels erreicht haben will, Kartenpunkte und Weispunkte zusammengerechnet.\n\n• Das tiefste Gebot ist 100\n• Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden\n• Wer «fort» (siehe Begriff \"expressions_fort\") sagt, bleibt für dieses Spiel draussen. Die übrigen steigern in weiteren Umgängen weiter\n• **Das Steigern endet, sobald beide anderen «fort» gesagt haben.** Das höchste Gebot steht damit fest, und sein Bieter ist der Spielübernehmer\n• Wer das Spiel übernehmen will, überbietet das Gebot eines Gegners. Wer als Einziger geboten hat, übernimmt mit seinem eigenen Gebot\n• Sagen alle «fort», gibt der nachfolgende Spieler neu\n• Der Spielübernehmer, der sein Ziel für sicher hält, legt die Karten vor dem ersten Stich offen hin. Sind die Gegner gleicher Ansicht, ist das Spiel damit entschieden; widerspricht einer, wird gespielt\n\nDie Quelle nennt das «fort» ausdrücklich für den ersten Umgang. **Der Verband empfiehlt, es für das ganze Spiel gelten zu lassen:** Wer draussen ist, bleibt draussen, in jedem Umgang. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte.\n\nGesteigert wird in dieser Reihenfolge, von unten nach oben:\n\n| Stufe | Was sie sagt |\n|---|---|\n| 100 bis 200 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |\n| Misère (siehe Begriff \"expressions_misere\") ohne Trumpf | Ich gebe jeden Stich ab, gespielt wird obenabe (siehe Begriff \"expressions_obenabe\") |\n| Misère mit Trumpf | Ich gebe jeden Stich ab, meine erste Karte zeigt den Trumpf |\n| 210 bis 250 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |\n| Pandur ohne Trumpf | Ich hole alle acht Stiche, gespielt wird obenabe |\n| 260 bis 300 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |\n| Pandur mit Trumpf | Ich hole alle acht Stiche, meine erste Karte zeigt den Trumpf |\n\nDie Übergänge zwischen Zahlen und Spezialansagen sind der Teil, der am Tisch am häufigsten strittig ist:\n\n• Ein «Misère ohne» überbietet ein Gebot von 200\n• Ein «Misère mit» überbietet den «Misère ohne»\n• Wer einen Misère überbieten will, steigert auf 210\n• Ein «Pandur ohne» überbietet ein Gebot von 250\n• Wer den «Pandur ohne» überbieten will, sagt mindestens 260 an\n• Ein «Pandur mit» überbietet jedes Gebot bis 300. Darüber geht es mit 310 weiter\n\n## Was ein Blatt wert ist\n\nWie hoch ein Blatt trägt, sagt keine Quelle. Der Verband empfiehlt diese Rechnung, bevor die erste Zahl fällt:\n\n• **Die längste Farbe wird zum Trumpf.** Zähle darin Under 20, Nell 14, Ass 11 und Banner 10. Vier Trümpfe mit dem Under holen ihre Punkte fast immer heim, drei ohne Under selten\n• **Jedes Ass ausserhalb der Trumpffarbe bringt 11 Punkte** und den Stich dazu, solange die Farbe läuft. Im kurzen Blatt gehen die Farben rasch aus, darum spielt man es früh\n• **Könige und Ober tragen nur, wenn die Farbe lang ist.** Im kurzen Blatt sind sie Futter für den Gegner\n• **Der letzte Stich bringt 5 Punkte** und geht meist an den, der noch Trumpf hält\n• **Den Weis zählst du zuletzt und mit Vorbehalt.** Er zählt, solange kein Gegner höher weist\n\nEin Beispiel: Vier Schellen mit Under, Ass, König und Banner sind 45 Punkte in der Trumpffarbe. Dazu ein Ass in einer anderen Farbe, macht 56, dazu der letzte Stich und ein paar Punkte, die die Gegner beilegen. Das trägt ein Gebot von 100 bis 140, also 2 Schreibpunkte. **Alles darüber holt sich der Bietende aus dem Weis.**\n\nWer umgekehrt ein Blatt ohne Ass, ohne Under und ohne lange Farbe hält, prüft den Misère: Was beim Zählspiel nichts wert ist, ist dort gerade recht.\n\n## Was ein Gebot einbringt\n\nGeschrieben werden Schreibpunkte, und wie viele es sind, hängt allein von der Höhe des Gebots ab. Die Kartenpunkte bestimmen bloss, ob das Gebot erreicht ist.\n\n| Gebot | Schreibpunkte | Was gilt |\n|---|---|---|\n| 100 bis 140 | 2 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| 150 bis 190 | 3 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| 200 | 4 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| Misère ohne | 4 | Der Spielübernehmer gibt jeden Stich ab; gespielt wird obenabe ohne Trumpffarbe |\n| Misère mit | 4 | Der Spielübernehmer gibt jeden Stich ab; seine erste Karte zeigt die Trumpffarbe. Wem die ausgespielte Farbe fehlt, darf untertrumpfen (siehe Begriff \"untertrumpfen\") |\n| 210 bis 240 | 4 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| 250 | 5 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| Pandur ohne | 5 | Der Spielübernehmer holt alle acht Stiche; gespielt wird obenabe ohne Trumpffarbe |\n| 260 bis 290 | 5 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| 300 | 6 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n| Pandur mit | 6 | Der Spielübernehmer holt alle acht Stiche; seine erste Karte zeigt die Trumpffarbe |\n| 310 und mehr | 6 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |\n\n**Erreicht der Spielübernehmer sein Gebot, schreibt er diese Punkte.** Verfehlt er es, schreiben beide Gegner **und der Spielgeber** je dieselbe Zahl: Ein misslungenes Gebot bringt drei Spielern etwas ein, dem Bietenden nichts.\n\n**Die letzten Punkte einer Partie holt, wer Karten in der Hand hatte.** Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Was der aussetzende Spielgeber erbt, wartet auf sein nächstes Spiel mit Karten. Für die Gegner, die ein Gebot kippen, empfiehlt der Verband die nächstliegende Lesart: Sie haben gespielt, also zählen ihre Punkte auch als die letzten.\n\nNach jedem Spiel schreibt der Schreiber die Punkte auf, beim Spielübernehmer oder bei den drei anderen. Eine Unstimmigkeit lässt sich während des ganzen folgenden Spiels reklamieren.\n\n## Der Weis\n\nGewiesen wird nach den Weisregeln (siehe Begriff \"expressions_weis\"), und weil das Blatt klein ist, fallen vier Gleiche häufiger als im vollen Spiel. Der Weis gehört zu den Punktansagen: Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt er im Blatt. Bei einer Punktansage kommt eine eigene Regel dazu:\n\n• Der Spielübernehmer meldet seinen Weis\n• Von den Gegnern meldet **nur der erste, dessen Weis höher ist**. Er nimmt dem Spielübernehmer damit die Weispunkte\n• Der zweite Gegner schweigt. Seine Meldung wäre ein Spielverrat (siehe Begriff \"spielverrat\") und kostet das Spiel\n• Meldet der Spielübernehmer nichts, schweigen beide Gegner: Ohne seinen Weis gibt es nichts zu überbieten\n\nDer Grund liegt in der Rechnung: Zum Gebot zählen allein die Punkte des Spielübernehmers. Ein Weis der Gegner hilft ihnen nur, indem er seinen wegnimmt. Ist das getan, trägt jede weitere Meldung bloss noch Auskunft über ein Blatt, und die gehört an diesem Tisch niemandem.\n\n**Für den Bietenden heisst das:** Ein Gebot über 157 steht auf einem Weis, den ihm ein Gegner noch nehmen kann. Wer 200 sagt, wettet darauf, dass am Tisch nichts Höheres liegt.\n\n## Ausspiel, Trumpf und Stich\n\n• Der Spielübernehmer eröffnet den ersten Stich (siehe Begriff \"expressions_stich\")\n• Beim Trumpfspiel zeigt die erste Karte die Trumpffarbe (siehe Begriff \"expressions_trumpffarbe\") an, wenn sie ohne Bemerkung gespielt wird\n• Meint der Spielübernehmer eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler seine Karte gelegt hat, steht der Trumpf fest\n• Ausser beim «Pandur mit» wartet der Spielübernehmer ab, bis beide anderen «fort» gesagt haben: Das ist die Bestätigung, dass sein Gebot das höchste ist. Wer vorher ausspielt oder ein weiteres Gebot überhört haben will, verliert die Schreibpunkte, die sein Gebot getragen hätte\n• Farbzwang gilt wie sonst im Jass. Untertrumpfen bleibt dem vorbehalten, der nur noch Trumpf hält; beim «Misère mit» darf untertrumpfen, wem die ausgespielte Farbe fehlt\n• Nimmt der falsche Spieler einen Stich zu sich, reklamiert der Berechtigte sofort, und der Stich wandert dorthin, wo er hingehört. Hat der Berechtigte zum nächsten Stich bereits gespielt, bleibt der Stich liegen, wo er liegt\n• Die strenge Regel vom Anfang trifft den, der einen fremden Stich behält, statt ihn auf die Reklamation hin herauszugeben: Das kostet das laufende Spiel. So liest es der Verband, denn die Quelle nennt beide Sätze und lässt ihr Verhältnis offen\n\n## Ein Spiel von Anfang bis zur Tafel\n\nVier sitzen am Tisch: A, B und C halten Karten, D hat gegeben und sitzt aus. A ist Vorhand.\n\n[[karten: schellen-9, eichel-9, rosen-9, schilten-9, rosen-ass, schilten-ass, rosen-ober, eichel-ober | A: alle vier Nell, dazu zwei Asse und zwei Ober]]\n\n[[karten: schellen-under, schellen-ass, schellen-koenig, schellen-banner, eichel-ass, eichel-koenig, rosen-koenig, schilten-koenig | B: vier Schellen mit dem Under, alle vier Könige und das Eichel-Ass]]\n\n[[karten: schellen-ober, eichel-under, rosen-under, schilten-under, eichel-banner, rosen-banner, schilten-banner, schilten-ober | C: drei Under, drei Banner, dazu zwei Ober]]\n\n**Das Steigern.**\n\n| Spieler | Gebot | Was ihn dazu bringt |\n|---|---|---|\n| A | 150 | Vier Nell sind 150 Weispunkte. Dazu hält er zwei Asse: Das Gebot steht, bevor der erste Stich fällt |\n| B | 160 | Vier Könige sind 100 Weispunkte, und in Schellen hält er Under, Ass, König und Banner |\n| C | fort | Ohne Ass und ohne Nell trägt sein Blatt keine Punktansage. Für einen Misère trägt es zu viel: Mit zwei Ober und drei Banner holt er Stiche, sobald eine Farbe ausgeht, und als Spielübernehmer müsste er dazu noch ausspielen |\n| A | 190 | Mit Rosen als Trumpf zählt A sein Blatt: Nell, Ass und Ober in der Trumpffarbe, dazu das Schilten-Ass, macht rund vierzig Kartenpunkte zu den 150 aus dem Weis |\n| B | 200 | Vier Trümpfe mit dem Under und das Eichel-Ass tragen gut hundert Kartenpunkte; mit den 100 aus dem Weis ist er bei 200 |\n| A | fort | Über 200 kommt A nur mit einem Gebot, das er selber erfüllen müsste |\n\nB übernimmt das Spiel mit 200, das sind 4 Schreibpunkte. C ist seit dem ersten Umgang draussen und bleibt es.\n\n**Der erste Stich, und der Weis entscheidet.** B spielt den Schellen-Under aus, ohne etwas zu sagen: Damit ist Schellen Trumpf. Nun wird gewiesen.\n\n| Spieler | Was er hält | Was er tut |\n|---|---|---|\n| B | vier Könige, 100 | Der Spielübernehmer meldet zuerst |\n| C | Banner, Under und Ober in Schilten, 20 | C schweigt: Sein Weis ist tiefer als der von B |\n| A | vier Nell, 150 | A ist der erste Gegner mit dem höheren Weis. Er meldet, und B verliert seine 100 |\n\n**Damit steht B ohne Weispunkte da und braucht 200 aus den Karten, wo nur 157 liegen.** Gespielt wird trotzdem zu Ende, und die Rechnung zeigt, wie weit sein Blatt getragen hätte.\n\nB eröffnet die Stiche 1 bis 7, den achten eröffnet A, weil er den siebten geholt hat. Die Spalten stehen darum durchgehend in der Reihenfolge B, C, A.\n\n| Stich | B | C | A | Punkte | geht an |\n|---|---|---|---|---|---|\n| 1 | Schellen-Under 20 | Schellen-Ober 3 | Schellen-Nell 14 | 37 | B |\n| 2 | Schellen-Ass 11 | Rosen-Under 2 | Eichel-Nell 0 | 13 | B |\n| 3 | Schellen-König 4 | Eichel-Under 2 | Rosen-Nell 0 | 6 | B |\n| 4 | Schellen-Banner 10 | Schilten-Under 2 | Schilten-Nell 0 | 12 | B |\n| 5 | Eichel-Ass 11 | Eichel-Banner 10 | Eichel-Ober 3 | 24 | B |\n| 6 | Eichel-König 4 | Schilten-Ober 3 | Rosen-Ober 3 | 10 | B |\n| 7 | Rosen-König 4 | Rosen-Banner 10 | Rosen-Ass 11 | 25 | A und C |\n| 8 | Schilten-König 4 | Schilten-Banner 10 | Schilten-Ass 11 | 25 und 5 für den letzten Stich | A und C |\n\nDie vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34: **102 Kartenpunkte.** A und C halten 55, zusammen sind es die 157, die im Spiel liegen.\n\n**Die Tafel nach diesem Spiel:**\n\n| Spieler | Schreibpunkte | Warum |\n|---|---|---|\n| B | 0 | Er hat 200 angesagt und 102 erreicht |\n| A | 4 | Gegner eines verfehlten Gebots |\n| C | 4 | Gegner eines verfehlten Gebots |\n| D | 4 | Der Spielgeber erbt, obwohl er keine Karte gehalten hat |\n\n**Und die Lehre, die am Tisch bleibt:** Hätte B 100 angesagt, hätten seine 102 Kartenpunkte gereicht, und er hätte 2 Schreibpunkte geschrieben. Sein Gebot von 200 stand auf dem Weis, und der Weis gehörte dem, der ihn behielt.\n\n## Wenn die Partie zu Ende geht\n\n• Wer als Erster 17 Schreibpunkte hat, hat die Partie gewonnen und scheidet aus\n• Die drei übrigen spielen weiter, nun alle mit Karten und ohne aussetzenden Spielgeber\n• Erreicht ein Zweiter das Ziel, spielen die beiden Letzten um den letzten Platz\n\n## Der «Bschiss»\n\nNach der Regelsammlung, der wir folgen, ist der Pandur die einzige Jassart, in der eine Runde vor dem Spiel abmachen kann, dass Bschiisse erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner. Diese Fassung lebt vom Einverständnis aller: Sie wird vor der Partie abgemacht und gilt dann für jeden am Tisch.\n\n## Pandur zu dritt und zu zweit\n\nBeide Fassungen behalten Leiter, Wertung und Spielregeln des Pandur für vier Spieler:\n\n• **Zu dritt** (siehe Begriff \"variants_strategic_pandur_drei\") erhält jeder Spieler acht Karten, und der Spielgeber spielt mit. Damit fällt das Erben weg: Ein verfehltes Gebot schreiben die beiden Gegner\n• **Zu zweit** (siehe Begriff \"variants_strategic_pandur_zwei\") erhält jeder acht Karten. Die übrigen acht bilden den Stock, dessen unterste Karte offen liegt und von beiden angeschaut werden darf\n\n## Was «Pandur» am Tisch heisst\n\n«Pandur» ist die Ansage, alle acht Stiche zu holen. Sie steht zuoberst auf der Leiter, und sie gibt dem Spiel den Namen. Woher das Wort stammt, sagen die von uns geprüften Quellen nicht. Gespielt wird der Pandur vor allem in der Schweiz, und geschrieben wird sein Name auch «Bandur».\n\n",
     "metadata": {
       "id": "variants_strategic_pandur_meta",
       "category": {
@@ -10069,21 +10069,26 @@
       },
       "keywords": [
         "pandur",
+        "bandur",
+        "pandur jass",
+        "bandur jass",
+        "pandur regeln",
         "steigern",
         "bieten",
-        "strategisch",
-        "misère",
-        "strenge regeln",
-        "anspruchsvoll",
         "bietspiel",
-        "königsspiel",
-        "steigerungsjass",
-        "drei spieler",
-        "turnier",
-        "wettkampf",
+        "misère",
+        "misere",
+        "pandur ohne trumpf",
+        "pandur mit trumpf",
+        "schreibpunkte",
+        "erben",
+        "24 karten",
+        "weis",
+        "spielverrat",
+        "strategisch",
+        "anspruchsvoll",
         "gebot",
         "ansage",
-        "profijass",
         "turnierjass",
         "fortgeschritten"
       ],
@@ -10091,51 +10096,103 @@
         "LEARNING"
       ],
       "importance": 0.9,
-      "difficulty": 2,
+      "difficulty": 3,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-08-16",
+      "farbwechsel": true
     },
     "faqs": [
       {
-        "question": "Wie spielt man Pandur?",
-        "answer": "Der Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet."
+        "question": "Wie viele Karten hat der Pandur?",
+        "answer": "Gespielt wird mit 24 Karten: Sechser, Siebner und Achter bleiben draussen. Die drei Spieler mit Karten erhalten je 8, in zwei Gängen zu vier gegeben; der Spielgeber sitzt aus."
       },
       {
-        "question": "Wie viele Karten werden beim Pandur gespielt?",
-        "answer": "Beim Pandur wird ein reduziertes Kartenspiel mit 24 Karten verwendet, wobei Sechser, Siebner und Achter ausgeschlossen bleiben."
+        "question": "Mit wie vielen Spielern wird Pandur gespielt?",
+        "answer": "Am Tisch sitzen vier, die Karten halten drei. Der Spielgeber sitzt aus und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt. Es gibt den Pandur auch zu dritt und zu zweit."
       },
       {
-        "question": "Wie hoch ist die Mindestansage beim Pandur?",
-        "answer": "Die Mindestansage liegt bei 100 Punkten, und jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen."
+        "question": "Wie hoch ist das tiefste Gebot beim Pandur?",
+        "answer": "Das tiefste Gebot ist 100 Punkte. Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden."
       },
       {
-        "question": "Was passiert bei Regelverstössen beim Pandur?",
-        "answer": "Verstösse wie falsches Weisen oder unzulässiges Ausspielen werden mit dem sofortigen Verlust des betreffenden Spiels geahndet."
+        "question": "Wie viele Punkte liegen in einem Pandur-Spiel?",
+        "answer": "Die Karten tragen 152 Punkte, dazu kommen 5 für den letzten Stich: zusammen 157. Wer mehr ansagt, holt den Rest aus dem Weis."
       },
       {
-        "question": "Wie viele Punkte zählt ein Pandur mit Trumpf?",
-        "answer": "Ein Pandur mit Trumpf zählt 16 Punkte, während ein Pandur ohne Trumpf 15 Punkte zählt."
+        "question": "Wie viele Schreibpunkte bringt welches Gebot beim Pandur?",
+        "answer": "100 bis 140 bringen 2 Schreibpunkte, 150 bis 190 bringen 3, 200 bis 240 bringen 4, 250 bis 290 bringen 5, ab 300 sind es 6."
       },
       {
-        "question": "Kann der Spielgeber beim Pandur punkte erben?",
-        "answer": "Ja, der Spielgeber kann Punkte «erben», also gutgeschrieben bekommen, wenn sein Team gewinnt."
+        "question": "Wie viele Schreibpunkte bringt ein Pandur mit Trumpf?",
+        "answer": "Ein Pandur mit Trumpf bringt 6 Schreibpunkte, ein Pandur ohne Trumpf 5. Ein Misère bringt 4, mit Trumpf wie ohne."
+      },
+      {
+        "question": "Was geschieht, wenn der Spielübernehmer sein Gebot verfehlt?",
+        "answer": "Beide Gegner und der Spielgeber schreiben je die Schreibpunkte des Gebots. Ein misslungenes Gebot bringt also drei Spielern etwas ein."
+      },
+      {
+        "question": "Wer darf beim Pandur weisen?",
+        "answer": "Bei einer Punktansage meldet der Spielübernehmer seinen Weis. Von den Gegnern meldet nur der erste, dessen Weis höher ist; er nimmt dem Spielübernehmer damit die Weispunkte. Der zweite Gegner schweigt, seine Meldung wäre ein Spielverrat. Meldet der Spielübernehmer nichts, schweigen beide Gegner. Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt der Weis im Blatt."
+      },
+      {
+        "question": "Was überbietet beim Pandur was?",
+        "answer": "Ein Misère ohne Trumpf überbietet ein Gebot von 200, ein Misère mit Trumpf überbietet den Misère ohne. Wer einen Misère überbieten will, sagt 210 an. Ein Pandur ohne Trumpf überbietet 250; wer ihn überbieten will, sagt mindestens 260 an. Ein Pandur mit Trumpf überbietet jedes Gebot bis 300, darüber geht es mit 310 weiter."
+      },
+      {
+        "question": "Wie wird beim Pandur die Trumpffarbe bestimmt?",
+        "answer": "Die erste Karte des Spielübernehmers zeigt die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Meint er eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler gelegt hat, steht der Trumpf fest."
+      },
+      {
+        "question": "Bis wie viele Schreibpunkte wird eine Pandur-Partie gespielt?",
+        "answer": "Bis 17 Schreibpunkte. Verbreitet sind auch 15, 21 und 23; die Zahl macht die Runde vor der Partie ab."
+      },
+      {
+        "question": "Können die letzten Punkte einer Pandur-Partie geerbt werden?",
+        "answer": "Die letzten Punkte holt, wer Karten in der Hand hatte. Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Was der aussetzende Spielgeber erbt, wartet auf sein nächstes Spiel mit Karten."
+      },
+      {
+        "question": "Was heisst «Pandur» als Ansage?",
+        "answer": "Der Spielübernehmer holt alle acht Stiche. Die Ansage steht zuoberst auf der Leiter: mit Trumpf 6 Schreibpunkte, ohne Trumpf 5."
+      },
+      {
+        "question": "Darf man beim Pandur bschiisse?",
+        "answer": "Der Pandur ist die einzige Jassart, in der eine Runde das vor dem Spiel abmachen kann. Wer dabei ertappt wird, hat das laufende Spiel verloren."
+      },
+      {
+        "question": "Wie unterscheidet sich der Pandur zu dritt und zu zweit?",
+        "answer": "Zu dritt hält auch der Spielgeber 8 Karten, womit das Erben wegfällt. Zu zweit hält jeder 8 Karten, die übrigen 8 bilden den Stock, dessen unterste Karte offen liegt."
       }
     ],
     "see_also": [
-      "ausspiel",
-      "bodentrumpf",
+      "bietrunde",
       "expressions_erben",
-      "expressions_handkarten",
-      "ausmachregel",
-      "expressions_team",
-      "expressions_vorhand",
-      "general_scoring_rules"
+      "expressions_weis",
+      "expressions_misere",
+      "expressions_obenabe",
+      "spielverrat",
+      "untertrumpfen",
+      "letzter_stich",
+      "general_card_values",
+      "variants_strategic_pandur_drei",
+      "variants_strategic_pandur_zwei",
+      "regeln_tischregel"
+    ],
+    "synonyms": [
+      "pandur",
+      "bandur",
+      "pandur jass",
+      "bandur jass",
+      "pandur jassregeln",
+      "bandur jassregeln",
+      "panduren",
+      "pandur zu dritt",
+      "pandur zu zweit"
     ]
   },
   "variants_strategic_pandur_drei": {
     "id": "variants_strategic_pandur_drei",
-    "text": "Definition:\nPandur für 3 Spieler ist ein Dreier-Königsspiel mit denselben Steigerungsregeln wie beim Pandur für 4 Spieler.\n\nSpiel geben:\n• Jeder Spieler erhält 8 Karten (2 x 4 Karten)\n• Der Spielgeber spielt aktiv mit, womit das «Erben (siehe Begriff \"expressions_erben\")» wegfällt\n\nSteigern:\nDie Regeln für das Steigern bleiben gleich wie beim Pandur für 4 Spieler.\n\nSchreiben:\n• Da alle drei Spieler aktiv spielen, werden die Schreibpunkte direkt unter den Spielern aufgeteilt\n• Der Spielübernehmer erhält die entsprechenden Punkte bei Erfolg, bei Misserfolg die beiden Gegner\n\nTaktik:\n• Bei nur drei Spielern ist es schwieriger, sich gegen einen starken Spielübernehmer zu verbünden\n• Jeder Spieler muss mehr auf sich allein gestellt agieren\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.",
+    "text": "Der Pandur zu dritt ist der Pandur (siehe Begriff \"variants_strategic_pandur\") ohne den aussetzenden Spielgeber: Alle drei am Tisch halten Karten.\n\n• Gespielt wird mit 24 Karten, acht je Spieler, in zwei Gängen zu vier gegeben\n• Der Spielgeber spielt mit. Damit fällt das Erben (siehe Begriff \"expressions_erben\") weg\n• Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreiben die beiden Gegner je dieselbe Zahl\n• Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte\n\nDie Gegenwehr ist dieselbe wie am vollen Tisch, denn dort wie hier stehen dem Spielübernehmer zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien. Wer bietet, riskiert damit weniger, und wer gibt, spielt mit, statt zuzuschauen.",
     "metadata": {
       "id": "variants_strategic_pandur_drei_meta",
       "category": {
@@ -10161,37 +10218,43 @@
       "difficulty": 5,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-08-16",
+      "farbwechsel": true
     },
     "faqs": [
       {
-        "question": "Wie spielt man Pandur (3 Spieler)?",
-        "answer": "Pandur für 3 Spieler ist ein Dreier-Königsspiel mit denselben Steigerungsregeln wie beim Pandur für 4 Spieler."
+        "question": "Wie spielt man Pandur zu dritt?",
+        "answer": "Wie den Pandur für vier Spieler, nur hält auch der Spielgeber Karten: 24 Karten, acht je Spieler, tiefstes Gebot 100, Schritte von 10 Punkten."
       },
       {
-        "question": "Wie viele Karten erhält jeder Spieler beim Pandur für 3 Spieler?",
-        "answer": "Jeder Spieler erhält 8 Karten (2 x 4 Karten)."
+        "question": "Wie viele Karten erhält jeder Spieler beim Pandur zu dritt?",
+        "answer": "Acht Karten, in zwei Gängen zu vier gegeben."
       },
       {
-        "question": "Kann der Spielgeber beim Pandur für 3 Spieler punkte erben?",
-        "answer": "Nein, der Spielgeber spielt aktiv mit, womit das «Erben» wegfällt."
+        "question": "Kann der Spielgeber beim Pandur zu dritt erben?",
+        "answer": "Der Spielgeber spielt mit, damit fällt das Erben weg. Ein verfehltes Gebot schreiben die beiden Gegner."
       },
       {
-        "question": "Wie unterscheidet sich die Taktik beim Pandur für 3 Spieler?",
-        "answer": "Bei nur drei Spielern ist es schwieriger, sich gegen einen starken Spielübernehmer zu verbünden. Jeder Spieler muss mehr auf sich allein gestellt agieren."
-      },
-      {
-        "question": "Sind die Steigerungsregeln anders als beim Pandur für 4 Spieler?",
-        "answer": "Nein, die Regeln für das Steigern bleiben gleich wie beim Pandur für 4 Spieler."
+        "question": "Gelten beim Pandur zu dritt dieselben Gebote?",
+        "answer": "Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte."
       }
     ],
     "see_also": [
-      "expressions_erben"
+      "variants_strategic_pandur",
+      "variants_strategic_pandur_zwei",
+      "expressions_erben",
+      "bietrunde"
+    ],
+    "synonyms": [
+      "pandur zu dritt",
+      "pandur 3 spieler",
+      "bandur zu dritt",
+      "pandur dritt"
     ]
   },
   "variants_strategic_pandur_zwei": {
     "id": "variants_strategic_pandur_zwei",
-    "text": "Definition:\nPandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation.\n\nSpiel geben:\n• Jeder Spieler erhält 8 Karten (2 x 4 Karten)\n• Die restlichen 8 Karten bilden den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte eingesehen werden darf\n\nSteigern:\n• Das Bieten erfolgt abwechselnd zwischen den beiden Spielern\n• Jeder kann das Gebot des anderen überbieten oder passen\n• Die gleichen Ansagewerte gelten wie beim Pandur für 4 Spieler\n\nStock-Regeln:\n• Die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert\n• Der Stock selbst wird nicht gespielt, beeinflusst aber die Taktik\n\nSchreiben:\n• Der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus\n• Das macht jeden Stich besonders wertvoll\n\nTaktik:\n• Bei nur zwei Spielern wird jede Karte wichtig\n• Die Kenntnis der untersten Stock-Karte kann entscheidende Hinweise auf die Kartenverteilung geben\n\nÜbrige Regeln:\nIm Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.",
+    "text": "Der Pandur zu zweit ist der Pandur (siehe Begriff \"variants_strategic_pandur\") ohne Team: Einer bietet, einer hält dagegen.\n\n• Gespielt wird mit 24 Karten. Jeder erhält acht, die übrigen acht bilden den Stock\n• Die unterste Karte des Stocks darf eingesehen werden. Sie ist die einzige Auskunft über die acht Karten, die aus dem Spiel bleiben\n• Der Stock bleibt liegen. Ausgespielt werden die 16 Karten der beiden Hände, also acht Stiche\n• Vorhand (siehe Begriff \"expressions_vorhand\") eröffnet das Steigern, danach bieten die beiden abwechselnd. Sagt einer «fort» (siehe Begriff \"expressions_fort\"), steht das Gebot\n• Leiter, Wertung und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte\n• Der Weis gilt auch hier: Weist der Spielübernehmer, meldet sein Gegner, sobald er höher ist, und nimmt ihm damit die Weispunkte\n• Erreicht der Spielübernehmer sein Gebot, schreibt er die Punkte. Verfehlt er es, schreibt sie sein Gegner\n\nZum Rechnen: Die acht Karten im Stock tragen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste. Auf den beiden Händen liegen damit noch rund 107 Punkte, und ein Ass, das im Stock liegt, holt niemand. **Schon das tiefste Gebot von 100 steht darum meist auf einem Weis**, und die unterste Stockkarte ist jeden Blick wert, bevor die erste Zahl fällt.",
     "metadata": {
       "id": "variants_strategic_pandur_zwei_meta",
       "category": {
@@ -10217,34 +10280,40 @@
       "difficulty": 5,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-08-16",
+      "farbwechsel": true
     },
     "faqs": [
       {
-        "question": "Wie spielt man Pandur (2 Spieler)?",
-        "answer": "Pandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation."
+        "question": "Wie spielt man Pandur zu zweit?",
+        "answer": "Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock. Einer bietet, einer hält dagegen; gespielt werden acht Stiche."
       },
       {
-        "question": "Kann ich beim Pandur für 2 Spieler die unterste Stock-Karte einsehen?",
-        "answer": "Ja, die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert."
+        "question": "Was ist der Stock beim Pandur zu zweit?",
+        "answer": "Die acht Karten, die aus dem Spiel bleiben. Ihre unterste Karte darf eingesehen werden und ist die einzige Auskunft über den Stock."
       },
       {
-        "question": "Wie funktioniert das Bieten beim Pandur für 2 Spieler?",
-        "answer": "Das Bieten erfolgt abwechselnd zwischen den beiden Spielern. Jeder kann das Gebot des anderen überbieten oder passen."
+        "question": "Wie wird beim Pandur zu zweit gesteigert?",
+        "answer": "Vorhand eröffnet, danach bieten die beiden abwechselnd. Sagt einer «fort», steht das Gebot. Tiefstes Gebot ist 100, gesteigert wird in Schritten von 10 Punkten."
       },
       {
-        "question": "Erhält der Verlierer beim Pandur für 2 Spieler auch Punkte?",
-        "answer": "Nein, der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus."
-      },
-      {
-        "question": "Warum ist jeder Stich beim Pandur für 2 Spieler besonders wertvoll?",
-        "answer": "Da der Verlierer leer ausgeht und der Gewinner alle Punkte erhält, macht jeder Stich besonders wertvoll."
+        "question": "Wer schreibt beim Pandur zu zweit die Punkte?",
+        "answer": "Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreibt sie sein Gegner. Gespielt wird auf 17 Schreibpunkte, und weil rund 50 Punkte im Stock liegen, steht schon das tiefste Gebot von 100 meist auf einem Weis."
       }
     ],
     "see_also": [
-      "expressions_stapel",
-      "ausmachregel",
-      "variants_strategic_pandur_drei"
+      "variants_strategic_pandur",
+      "variants_strategic_pandur_drei",
+      "expressions_vorhand",
+      "expressions_fort",
+      "bietrunde"
+    ],
+    "synonyms": [
+      "pandur zu zweit",
+      "pandur 2 spieler",
+      "bandur zu zweit",
+      "pandur zweit",
+      "pandur jass zu zweit"
     ]
   },
   "variants_strategic_schafhauser": {

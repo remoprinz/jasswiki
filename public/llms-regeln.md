@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 67
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1352,6 +1352,9 @@ Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vol
 
 Die Stöck sind die Kombination aus Trumpf-König und Trumpf-Ober (Dame). Sie zählen 20 Punkte und gehören zu den Weisen. Die Form bleibt in Einzahl wie Mehrzahl «die Stöck».
 
+
+Entscheidend ist das Wort Trumpf. König und Ober einer anderen Farbe sind zwei gewöhnliche Karten; erst im Trumpf werden sie zu den Stöck.
+
 Wann man die Stöck weist:
 Die Stöck werden in dem Moment angesagt, in dem ein Spieler seine zweite Stöck-Karte ausspielt. Ist diese Karte gedeckt, können sie nicht mehr gemeldet werden. Der Partner darf nicht auf vorhandene Stöck hinweisen.
 
@@ -1452,6 +1455,10 @@ Ausnahme letzter Stich:
 
 Weispunkte sind die Bonuspunkte, die ein Weis einbringt. Ein Weis ist eine Kartenkombination, die vor dem ersten Ausspiel gemeldet wird. Es gibt zwei Arten: aufeinanderfolgende Karten derselben Farbe und vier gleiche Karten.
 
+Eine Blattfolge sind aufeinanderfolgende Karten derselben Farbe, gezählt in der Reihenfolge Ass, König, Ober, Under, Banner, 9, 8, 7, 6.
+
+
+
 Weis-Werte, Blattfolgen (gleiche Farbe):
 • Dreiblatt (3 Karten): 20 Punkte
 • Vierblatt (4): 50
@@ -1460,6 +1467,10 @@ Weis-Werte, Blattfolgen (gleiche Farbe):
 • Siebenblatt (7): 200
 • Achtblatt (8): 250
 • Neunblatt (9): 300
+
+Vier gleiche Karten sind vier Karten desselben Ranges, je eine aus jeder Farbe. Sie haben mit der Blattfolge nichts zu tun und zählen eigene Werte.
+
+
 
 Vier gleiche Karten:
 • Vier Gleiche: 100 Punkte
@@ -1850,7 +1861,7 @@ Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen vers
 
 1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt
 2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot
-3. Reihum in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen
+3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen
 4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben
 5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart
 
@@ -1865,14 +1876,14 @@ Jedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barr
 | [Bieter zu fünft](/varianten/bieter-5-spieler/) | 600 | 10 |
 | [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |
 | [Palette](/varianten/palette/) | 110 | 1 |
-| [Sidi-Barrani](/varianten/sidi-barrani/) | frei, Ansageregeln ab 50 | 5 |
+| [Sidi-Barrani](/varianten/sidi-barrani/) | 50 (Empfehlung des Jassverbands Schweiz) | 5 |
 
 ## Was ein Gebot nennt
 
 Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
 
 
-Neben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani verspricht die Ansage 157 alle Kartenpunkte und die Ansage 257 alle neun Stiche.
+Neben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch das höchste Gebot, angesagt mit 157, alle Punkte einer Runde.
 
 ## Wer mit wem spielt
 
@@ -1885,9 +1896,9 @@ Der Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreib
 Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.
 
 **Häufige Fragen:**
-- **Wie läuft eine Bietrunde beim Jassen ab?** Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot. Reihum überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht mehrmals im Kreis herum und endet, sobald die übrigen Spieler fort gesagt haben. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart.
-- **Wer beginnt das Bieten?** Vorhand eröffnet und nennt das erste Gebot, danach ist reihum in Spielrichtung jeder Spieler an der Reihe.
-- **Wie viel muss ein neues Gebot über dem alten liegen?** Das setzt jede Jassart selbst: beim Bieter 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt, 350 beim Bieter zu viert, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani bleibt die Höhe des ersten Gebots frei.
+- **Wie läuft eine Bietrunde beim Jassen ab?** Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot. Der Reihe nach überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht mehrmals im Kreis herum und endet, sobald die übrigen Spieler fort gesagt haben. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart.
+- **Wer beginnt das Bieten?** Vorhand eröffnet und nennt das erste Gebot, danach kommt in Spielrichtung jeder Spieler an die Reihe.
+- **Wie viel muss ein neues Gebot über dem alten liegen?** Das setzt jede Jassart selbst: beim Bieter 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt, 350 beim Bieter zu viert, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani empfiehlt der Jassverband Schweiz 50 als tiefstes Gebot.
 - **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich.
 - **Nennt ein Gebot auch die Trumpffarbe?** Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
 

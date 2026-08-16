@@ -76,6 +76,12 @@ const FAELLE: ReadonlyArray<readonly [string, string]> = [
   ['Trumpf-Bauer Kombinationen', 'Trumpf-Bauer Kombinationen'],
   ['oder Under', 'oder Bube'],
   ['| 60 auf Eichel | Puur zu dritt: der Eichel-Under |', '| 60 auf Kreuz | Puur zu dritt: der Kreuz-Bube |'],
+  // Nachtrag Pandur (16.08.2026): Zahlwort + nackte Karte, und die Farbe als Trumpfansage
+  ['drei Under, drei Banner, dazu zwei Ober', 'drei Buben, drei Zehnen, dazu zwei Damen'],
+  ['ein Blatt ohne Ass, ohne Under', 'ein Blatt ohne Ass, ohne Buben'],
+  ['Damit ist Schellen Trumpf.', 'Damit ist Ecke Trumpf.'],
+  ['Mit Rosen als Trumpf', 'Mit Herz als Trumpf'],
+  ['Vier Schellen mit Under, Ass, König und Banner', 'Vier Ecken mit Bube, Ass, König und Zehn'],
 ];
 
 let fehler = 0;

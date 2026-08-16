@@ -4,7 +4,7 @@ description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 7
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -239,6 +239,10 @@ Bedeutung:
 
 Weispunkte sind die Bonuspunkte, die ein Weis einbringt. Ein Weis ist eine Kartenkombination, die vor dem ersten Ausspiel gemeldet wird. Es gibt zwei Arten: aufeinanderfolgende Karten derselben Farbe und vier gleiche Karten.
 
+Eine Blattfolge sind aufeinanderfolgende Karten derselben Farbe, gezählt in der Reihenfolge Ass, König, Ober, Under, Banner, 9, 8, 7, 6.
+
+
+
 Weis-Werte, Blattfolgen (gleiche Farbe):
 • Dreiblatt (3 Karten): 20 Punkte
 • Vierblatt (4): 50
@@ -247,6 +251,10 @@ Weis-Werte, Blattfolgen (gleiche Farbe):
 • Siebenblatt (7): 200
 • Achtblatt (8): 250
 • Neunblatt (9): 300
+
+Vier gleiche Karten sind vier Karten desselben Ranges, je eine aus jeder Farbe. Sie haben mit der Blattfolge nichts zu tun und zählen eigene Werte.
+
+
 
 Vier gleiche Karten:
 • Vier Gleiche: 100 Punkte

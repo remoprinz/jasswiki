@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 71
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1434,7 +1434,7 @@ Nach dem Kontern stehen die Zielpunkte fest.
 
 ## Wann gedoppelt wird
 
-Das Doppeln beendet das Bieten; gespielt wird das zuletzt genannte Gebot. Der Jassverband Schweiz empfiehlt dafür ein klares Fenster: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
+Das Doppeln beendet das Bieten; gespielt wird das zuletzt genannte Gebot. Der Jassverband Schweiz empfiehlt dafür ein klares Fenster: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
 
 Bis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.
 
@@ -1451,7 +1451,7 @@ Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermats
 - **Ändert das Doppeln das Ziel in Kartenpunkten?** Zu holen bleibt die gebotene Punktzahl. Gedoppelt wird der Wert, den eine Seite am Schluss schreibt.
 - **Was heisst kontern?** Kontern ist die Antwort des Spielübernehmers auf ein Doppeln: Er hält an seinem Gebot fest, und der Schreibwert steigt ein weiteres Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
 - **Ist Kontern dasselbe wie ein Kontermatsch?** Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
-- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Gedoppelt wird das Gebot, das gerade steht, und zwar so lange, bis der nächste Spieler geboten oder «fort» gesagt hat. Danach ist dieses Gebot überholt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
+- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. Danach ist dieses Gebot fürs Doppeln vorbei. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
 
 *Keywords: doppeln, kontern, gedoppelt, gekontert, zielpunkte*
 

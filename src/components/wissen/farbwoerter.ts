@@ -73,6 +73,23 @@ export const ARTIKELWENDUNGEN: ReadonlyArray<readonly [string, string]> = [
   ['auf Schilten', 'auf Schaufel'],
   ['in Schilten', 'in Schaufel'],
   ['über Schilten', 'über Schaufel'],
+  // Nachtrag Pandur (SCHIEDSRICHTER, 16.08.2026): Zahlwort + nackte Karte steht
+  // im Deutschschweizer Blatt endungslos, im französischen im Plural.
+  ['zwei Under', 'zwei Buben'],
+  ['drei Under', 'drei Buben'],
+  ['vier Under', 'vier Buben'],
+  ['ohne Under', 'ohne Buben'],
+  ['zwei Ober', 'zwei Damen'],
+  ['drei Ober', 'drei Damen'],
+  ['vier Ober', 'vier Damen'],
+  ['ohne Ober', 'ohne Damen'],
+  ['zwei Banner', 'zwei Zehnen'],
+  ['drei Banner', 'drei Zehnen'],
+  ['vier Banner', 'vier Zehnen'],
+  ['Schellen Trumpf', 'Ecke Trumpf'],
+  ['Schilten Trumpf', 'Schaufel Trumpf'],
+  ['Eichel Trumpf', 'Kreuz Trumpf'],
+  ['Rosen Trumpf', 'Herz Trumpf'],
 ];
 
 /** 3. Nackte Wörter (Wortgrenze, Grossschreibung). */
