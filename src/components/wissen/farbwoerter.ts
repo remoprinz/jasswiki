@@ -5,9 +5,9 @@
 // Text: Rosen wird zu Herz, der Under zum Buben, das Banner zur Zehn.
 //
 // Die Wörtertafel gehört dem SCHIEDSRICHTER (Tafel vom 16.08.2026); hier steht
-// sie als Datenliste. Drei Blöcke, und ihre Reihenfolge ist Programm: zuerst die
-// Verbindungen mit Bindestrich, dann die Wendungen mit Artikel (das Genus
-// wechselt), zuletzt die nackten Wörter.
+// sie als Datenliste. Vier Blöcke, und ihre Reihenfolge ist Programm: zuerst die
+// Verbindungen mit Bindestrich, dann deren Beugung mit Artikel (Nachtrag), dann
+// die Wendungen mit Artikel (das Genus wechselt), zuletzt die nackten Wörter.
 //
 // Die Tafel trifft nur Grossschreibung mit Wortgrenze. Adressen, Karten-Slugs
 // und Kennungen sind klein geschrieben und bleiben darum unberührt. Puur und
@@ -22,6 +22,27 @@ export const VERBINDUNGEN: ReadonlyArray<readonly [string, string]> = [
   ['-Under', '-Bube'],
   ['-Ober', '-Dame'],
   ['-Banner', '-Zehn'],
+];
+
+/** Die vier französischen Farben, wie sie nach Block 1 im Text stehen. */
+export const FARBEN_FR = ['Kreuz', 'Herz', 'Ecke', 'Schaufel'] as const;
+
+/**
+ * 1b. Artikel + Verbindung beugen (Nachtrag SCHIEDSRICHTER, 16.08.2026). Läuft
+ * nach den Verbindungen, wenn «Eichel-Ober» schon «Kreuz-Dame» heisst, und vor
+ * den Artikelwendungen. ⟨F⟩ steht für jede der vier französischen Farben; das
+ * erste Wort darf am Satzanfang gross stehen (Der/Den/Dem/Das/Sein/Seinen).
+ */
+export const BEUGUNG_VERBINDUNGEN: ReadonlyArray<readonly [string, string]> = [
+  ['der ⟨F⟩-Dame', 'die ⟨F⟩-Dame'],
+  ['den ⟨F⟩-Dame', 'die ⟨F⟩-Dame'],
+  ['dem ⟨F⟩-Dame', 'der ⟨F⟩-Dame'],
+  ['den ⟨F⟩-Bube', 'den ⟨F⟩-Buben'],
+  ['dem ⟨F⟩-Bube', 'dem ⟨F⟩-Buben'],
+  ['seinen ⟨F⟩-Bube', 'seinen ⟨F⟩-Buben'],
+  ['das ⟨F⟩-Zehn', 'die ⟨F⟩-Zehn'],
+  ['dem ⟨F⟩-Zehn', 'der ⟨F⟩-Zehn'],
+  ['sein ⟨F⟩-Zehn', 'seine ⟨F⟩-Zehn'],
 ];
 
 /**
@@ -115,12 +136,39 @@ function artikelRegel([de, fr]: readonly [string, string]): Regel {
   return { muster, ersatz };
 }
 
+const PLATZHALTER = '⟨F⟩';
+
+/**
+ * «den ⟨F⟩-Bube» → «den ⟨F⟩-Buben» für jede der vier Farben; die getroffene
+ * Farbe wandert unverändert in den Ersatz, das erste Wort behält seine
+ * Schreibweise (Satzanfang).
+ */
+function beugungsRegel([de, fr]: readonly [string, string]): Regel {
+  const [deVor, deNach] = de.split(PLATZHALTER);
+  const [frVor, frNach] = fr.split(PLATZHALTER);
+  const erstes = deVor[0];
+  const grossKlein = `[${erstes.toUpperCase()}${erstes.toLowerCase()}]`;
+  const farben = `(${FARBEN_FR.join('|')})`;
+  const muster = new RegExp(
+    VOR + grossKlein + entkommen(deVor.slice(1)) + farben + entkommen(deNach) + NACH,
+    'gu'
+  );
+  const ersatz: Ersatz = (treffer, vor) => {
+    const wort = treffer.slice(vor.length);
+    const gross = wort[0] === wort[0].toUpperCase();
+    const farbe = FARBEN_FR.find((f) => wort.includes(f)) ?? '';
+    return vor + (gross ? frVor[0].toUpperCase() : frVor[0].toLowerCase()) + frVor.slice(1) + farbe + frNach;
+  };
+  return { muster, ersatz };
+}
+
 function wortRegel([de, fr]: readonly [string, string]): Regel {
   return { muster: new RegExp(VOR + entkommen(de) + NACH, 'gu'), ersatz: (_t, vor) => vor + fr };
 }
 
 const REGELN: Regel[] = [
   ...VERBINDUNGEN.map(verbindungsRegel),
+  ...BEUGUNG_VERBINDUNGEN.map(beugungsRegel),
   ...ARTIKELWENDUNGEN.map(artikelRegel),
   ...NACKTE_WOERTER.map(wortRegel),
 ];
