@@ -10,6 +10,7 @@ import { textInStuecke } from '@/components/wissen/kartenMarke';
 import { verweiseZuLinks } from '@/components/wissen/verweise';
 import { farbwoerterFr } from '@/components/wissen/farbwoerter';
 import { kartensystemAusSpeicherHolen, useKartensystem } from '@/components/wissen/kartensystem';
+import { toSlug } from '@/lib/utils';
 
 interface InternalLinkerProps {
   text: string;
@@ -51,6 +52,23 @@ function spaltenZaehlen(node: unknown): number {
     return 0;
   };
   return zellenDerErstenZeile(node as BaumKnoten) || 3;
+}
+
+/** Sichtbarer Text einer Überschrift, auch wenn er in Links oder Fettdruck steckt. */
+function textAusKindern(kinder: React.ReactNode): string {
+  return React.Children.toArray(kinder)
+    .map((k) => {
+      if (typeof k === 'string' || typeof k === 'number') return String(k);
+      if (React.isValidElement<{ children?: React.ReactNode }>(k)) return textAusKindern(k.props.children);
+      return '';
+    })
+    .join('');
+}
+
+/** Anker einer Überschrift: «Bieter zu fünft» → «bieter-zu-fuenft». */
+function ankerAusKindern(kinder: React.ReactNode): string | undefined {
+  const anker = toSlug(textAusKindern(kinder));
+  return anker.length > 0 ? anker : undefined;
 }
 
 /**
@@ -99,14 +117,16 @@ const MarkdownStueck: React.FC<MarkdownStueckProps> = ({ text }) => {
               {children}
             </ol>
           ),
-          // Formatiere Überschriften
+          // Formatiere Überschriften. Jede trägt einen Anker aus ihrem Text
+          // (SCHIEDSRICHTER, 17.08.2026): Damit lassen sich Abschnitte verlinken,
+          // etwa «/varianten/bieter/#bieter-zu-fuenft» als Ziel der alten Adressen.
           h2: ({ node, children, ...props }) => (
-            <h2 className="font-capita text-[22px] sm:text-[26px] font-bold !text-[#ff0000] mt-8 mb-3 leading-[1.2]" {...props}>
+            <h2 id={ankerAusKindern(children)} className="font-capita text-[22px] sm:text-[26px] font-bold !text-[#ff0000] mt-8 mb-3 leading-[1.2] scroll-mt-24" {...props}>
               {children}
             </h2>
           ),
           h3: ({ node, children, ...props }) => (
-            <h3 className="font-capita text-[18px] sm:text-[20px] font-bold !text-[#ff0000] mt-6 mb-2 leading-[1.25]" {...props}>
+            <h3 id={ankerAusKindern(children)} className="font-capita text-[18px] sm:text-[20px] font-bold !text-[#ff0000] mt-6 mb-2 leading-[1.25] scroll-mt-24" {...props}>
               {children}
             </h3>
           ),

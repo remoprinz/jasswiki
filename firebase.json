@@ -1417,17 +1417,17 @@
         },
         {
           "source": "/varianten/bietspiel/bieter-5-spieler/",
-          "destination": "/varianten/bieter-5-spieler/",
+          "destination": "/varianten/bieter/#bieter-zu-fuenft",
           "type": 301
         },
         {
           "source": "/varianten/bietspiel/bieter-3-spieler/",
-          "destination": "/varianten/bieter-3-spieler/",
+          "destination": "/varianten/bieter/",
           "type": 301
         },
         {
           "source": "/varianten/bietspiel/bieter-4-spieler/",
-          "destination": "/varianten/bieter-4-spieler/",
+          "destination": "/varianten/bieter/#bieter-zu-viert",
           "type": 301
         },
         {
@@ -2648,6 +2648,21 @@
         {
           "source": "/ansagen/:sub/:topic/",
           "destination": "/ansagen/:topic/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bieter-3-spieler/",
+          "destination": "/varianten/bieter/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bieter-4-spieler/",
+          "destination": "/varianten/bieter/#bieter-zu-viert",
+          "type": 301
+        },
+        {
+          "source": "/varianten/bieter-5-spieler/",
+          "destination": "/varianten/bieter/#bieter-zu-fuenft",
           "type": 301
         }
       ]

@@ -4113,7 +4113,7 @@
   },
   "general_dealing_methods": {
     "id": "general_dealing_methods",
-    "text": "**Schweizer Besonderheit: Gegenurzeigersinn**\n\nEine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:\n• Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer im **Gegenurzeigersinn** aus und spielen auch im Gegenurzeigersinn\n• \"Immer der Ohrfeige nach\", wie es so schön heisst – das gilt zumindest für die meisten Rechtshänder\n\n**Standard-Verteilmethode (3×3):**\n\nDie häufigste Methode beim Schieber:\n• Der Kartengeber verteilt jedem Spieler dreimal 3 Karten\n• Im Gegenurzeigersinn, beginnend rechts vom Geber (siehe Begriff \"expressions_vorhand\") (Vorhand)\n• Total: 9 Karten pro Spieler\n\n**Es gibt aber auch Ausnahmen. Zum Beispiel:**\n• Bei Varianten wie Tschau Sepp wird nicht das ganze Deck verteilt\n• Beim Bieter (siehe Begriff \"variants_strategic_bieter_drei\"), wo nur zu Dritt gespielt wird und bei der ersten Runde 2×5 Karten ausgespielt werden pro Spieler\n• Beim Molotow (siehe Begriff \"variants_molotow\"), wo meistens mehr als vier Spieler teilnehmen\n\nDie 3×3-Methode im Gegenurzeigersinn ist aber die klassische Schweizer Variante.",
+    "text": "**Schweizer Besonderheit: Gegenurzeigersinn**\n\nEine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:\n• Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer im **Gegenurzeigersinn** aus und spielen auch im Gegenurzeigersinn\n• \"Immer der Ohrfeige nach\", wie es so schön heisst – das gilt zumindest für die meisten Rechtshänder\n\n**Standard-Verteilmethode (3×3):**\n\nDie häufigste Methode beim Schieber:\n• Der Kartengeber verteilt jedem Spieler dreimal 3 Karten\n• Im Gegenurzeigersinn, beginnend rechts vom Geber (siehe Begriff \"expressions_vorhand\") (Vorhand)\n• Total: 9 Karten pro Spieler\n\n**Es gibt aber auch Ausnahmen. Zum Beispiel:**\n• Bei Varianten wie Tschau Sepp wird nicht das ganze Deck verteilt\n• Beim Bieter (siehe Begriff \"variants_strategic_bieder\"), wo nur zu Dritt gespielt wird und bei der ersten Runde 2×5 Karten ausgespielt werden pro Spieler\n• Beim Molotow (siehe Begriff \"variants_molotow\"), wo meistens mehr als vier Spieler teilnehmen\n\nDie 3×3-Methode im Gegenurzeigersinn ist aber die klassische Schweizer Variante.",
     "metadata": {
       "id": "general_dealing_methods_meta",
       "category": {
@@ -4156,7 +4156,7 @@
       "regeln_tischregel",
       "mischen",
       "abheben",
-      "variants_strategic_bieter_drei"
+      "variants_strategic_bieder"
     ]
   },
   "general_dealing_special": {
@@ -9364,92 +9364,46 @@
   },
   "variants_strategic_bieder": {
     "id": "variants_strategic_bieder",
-    "text": "Definition:\nBieter (auch Steiger (siehe Begriff \"expressions_passen\") genannt) ist ein Königsspiel mit Bieten für 3 Spieler (auch 4 oder 5 Spieler möglich), bei dem ein König gegen eine Bauernpartei (siehe Begriff \"expressions_bauernpartei\") antritt.\n\nSpiel geben - Erstes Spiel:\n• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch\n• Nun verteilt er jedem Spieler nochmals 5 Karten\n• Ab dem zweiten Spiel werden jedem Spieler 12 Karten verteilt\n\nBieten:\n• Falls Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernehmen will, bietet er mindestens 600 Punkte an\n• Die nachfolgenden Spieler können das Gebot beliebig um mindestens 10 Punkte überbieten\n• Wer keine Aussicht auf ein gutes Spiel hat, sagt «fort (siehe Begriff \"expressions_fort\")» oder «ich passe»\n• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei\n\nSpielziele:\n• Ziel des Königs ist, am Ende der Partie (siehe Begriff \"expressions_partie\") sein Gebot zu erreichen\n• Die Bauernpartei muss gemeinsam 1000 Punkte erzielen\n\nKönig-Phase:\n• Der König erhält die 6 auf dem Tisch liegenden Karten und kann 6 beliebige Handkarten (siehe Begriff \"expressions_handkarten\") ablegen\n\nSpielablauf:\n• Zum ersten Spiel bestimmt der König den Trumpf (siehe Begriff \"bodentrumpf\") (Trumpffarbe (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\"), Undenufe (siehe Begriff \"expressions_undenufe\") oder Hindersi (siehe Begriff \"expressions_hindersi\") ohne Trumpf)\n• Beim zweiten Spiel gilt die unterste Karte als Trumpffarbe\n• Der König kann ab dem zweiten Spiel entscheiden, ob er spielen möchte oder nicht\n• Falls er verzichtet, schreibt die Bauernpartei einen Matsch  mit Matschprämie (siehe Begriff \"expressions_matschpraemie\")",
+    "text": "Der Bieter, auch Steiger genannt, ist ein Bietspiel (siehe Begriff \"bietrunde\"), zu Hause am Tisch für drei: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als **Bauernpartei** (siehe Begriff \"expressions_bauernpartei\") dagegen. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner; beide Fassungen stehen weiter unten mit allem, was sich ändert. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel (siehe Begriff \"regeln_tischregel\").\n\n**Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.\n\n## Die Grundform\n\n• Drei Spieler, ein volles Blatt mit 36 Karten\n• Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt\n• Wer am höchsten bietet, ist der König. Die beiden anderen bilden für die ganze Partie die Bauernpartei\n• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte\n• Die Bauernpartei spielt in jeder Partie auf 1000 Punkte\n• Farbzwang und Kartenwerte (siehe Begriff \"general_card_values\") gelten wie sonst im Jass\n• Wird falsch ausgeteilt, gibt der nächste Spieler\n• Eine neue Partie gibt so, dass die Verlierer Vorhand (siehe Begriff \"expressions_vorhand\") haben\n\n## Das Geben\n\nDas erste Spiel wird anders gegeben als alle folgenden, und darin steckt der ganze Reiz des Spiels.\n\n| | Erstes Spiel | Ab dem zweiten Spiel |\n|---|---|---|\n| Je Spieler | 5 Karten, dann nochmals 5, zusammen 10 | 12 Karten, in drei Gängen zu vier |\n| Auf dem Tisch | 3 Karten offen, 3 verdeckt | keine |\n| Wer gibt | ein beliebiger Spieler | im zweiten Spiel der König, danach der Reihe nach im Gegenuhrzeigersinn |\n| Woher der Trumpf kommt | Der König sagt ihn an | Die unterste Karte nach dem Abheben (siehe Begriff \"bodentrumpf\") |\n\nIm ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. **Die Bodentrumpf-Karte gehört dem König, gleich wer gegeben hat**, und rauben (siehe Begriff \"expressions_rauben\") lässt sie sich hier nicht.\n\n## Das Bieten\n\nVorhand beginnt. Wer das Spiel übernehmen will, bietet mindestens 600 Punkte; jedes weitere Gebot liegt mindestens 10 Punkte höher. Der Meistbietende wird König.\n\n**Eine Feinheit, die am Tisch oft falsch gehandhabt wird:** Wer «fort» oder «ich passe» sagt, **bevor überhaupt ein Gebot gefallen ist**, darf später noch einsteigen, sobald jemand bietet. Erst ein «fort» (siehe Begriff \"expressions_fort\") **nach** einem Gebot schliesst für dieses Spiel aus. In den übrigen Bietspielen beendet ein «fort» das Bieten für den Rest der Runde; der Bieter ist hier die Ausnahme.\n\nBietet niemand, gibt der nachfolgende Spieler neu.\n\n## Der König nimmt den Tisch\n\nDer König erhält die sechs Karten vom Tisch und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er ihr die drei Karten, die verdeckt lagen. Dann legt er sechs beliebige Karten aus seiner Hand ab, verdeckt und ohne Einsicht für die Gegner.\n\n**Und hier liegt der Kniff des ganzen Spiels: Die Punkte der abgelegten Karten gehören dem König.** Sie werden am Ende der Partie zu seinen erspielten Kartenpunkten gezählt. Er legt darum ab, was er im Spiel kaum heimbrächte, und behält, was Stiche holt.\n\n[[karten: schellen-under, schellen-9, schellen-ass, rosen-koenig, eichel-banner, schilten-6 | Die sechs Karten vom Tisch: drei lagen offen, drei verdeckt]]\n\n[[karten: rosen-banner, schilten-banner, eichel-ober, eichel-6, schilten-7, rosen-6 | Was der König dafür ablegt: zwei Banner und ein Ober, dazu drei Karten ohne Zählwert. Die 23 Punkte sind ihm sicher]]\n\nLegt er falsch ab, etwa eine Karte zu viel oder zu wenig, schreibt er allein einen allfälligen Weis, und die Bauernpartei schreibt den Matsch mit Prämie.\n\n## Was der König ansagt\n\nZum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm offen:\n\n| Ansage | Was gilt | Was geschrieben wird |\n|---|---|---|\n| Trumpffarbe | Die genannte Farbe sticht, Puur und Nell zählen 20 und 14 | Beide Parteien schreiben ihre Kartenpunkte |\n| Obenabe (siehe Begriff \"expressions_obenabe\") | Kein Trumpf, das Ass ist die höchste Karte, der Achter zählt 8 | Beide Parteien schreiben ihre Kartenpunkte |\n| Undenufe (siehe Begriff \"expressions_undenufe\") | Kein Trumpf, der Sechser ist die höchste Karte und zählt 11 | Beide Parteien schreiben ihre Kartenpunkte |\n| Hindersi (siehe Begriff \"expressions_hindersi\"), der Misère (siehe Begriff \"expressions_misere\") | Kein Trumpf; der König gibt jeden Stich ab | Holt der König einen Stich, schreibt die Bauernpartei den Matsch mit Prämie, und er schreibt allein seinen Weis |\n\n**Jede Ansage kehrt die Reihenfolge um, in der die Karten stechen.** Von links nach rechts, von der stärksten zur schwächsten:\n\n[[karten: schellen-under, schellen-9, schellen-ass, schellen-koenig, schellen-ober, schellen-banner, schellen-8, schellen-7, schellen-6 | Trumpffarbe: Der Puur sticht alles, dann das Nell, dann das Ass. Das Banner behält seine 10 Punkte und sticht doch erst nach dem Ober]]\n\n[[karten: eichel-ass, eichel-koenig, eichel-ober, eichel-under, eichel-banner, eichel-9, eichel-8, eichel-7, eichel-6 | Obenabe: das Ass sticht, der Under fällt zurück, der Achter zählt 8]]\n\n[[karten: eichel-6, eichel-7, eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig, eichel-ass | Undenufe: der Sechser sticht und zählt 11, das Ass ist die schwächste Karte]]\n\n[[karten: rosen-ass, rosen-koenig, rosen-ober, rosen-under, rosen-banner, rosen-9, rosen-8, rosen-7, rosen-6 | Hindersi: Der König gibt jeden Stich ab. Zur Stechordnung sagt die Quelle allein, dass das Ass die höchste Karte bleibt; der Verband liest sie darum wie im Obenabe]]\n\n## Ab dem zweiten Spiel: der König entscheidet, ob er spielt\n\n[[karten: rosen-koenig | Der Bodentrumpf: Die unterste Karte nach dem Abheben macht Rosen zum Trumpf. Sie gehört dem König]]\n\nVom zweiten Spiel an sieht der König sein Blatt, bevor etwas geschrieben ist, und **er darf auf das Spiel verzichten**. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig; allein Stöck (siehe Begriff \"weis_rules_stock\") darf die Bauernpartei zu den 257 dazuschreiben.\n\n**Seinen Stöck schreibt der König nur, wenn er mitspielt.**\n\n**Warum verzichtet einer freiwillig?** Weil der Verzicht den Schaden deckelt. Wer ein hoffnungsloses Blatt hält, gäbe im Spiel leicht 157 Kartenpunkte ab und dazu einen fremden Weis, der beliebig hoch sein kann. Der Verzicht kostet feste 257 und löscht die Weise der Gegner. Wer dagegen selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.\n\n## Weis und Stöck\n\nGewiesen wird nach den Weisregeln (siehe Begriff \"expressions_weis\"). Eine Besonderheit gilt beim Hindersi: **Bei gleich hohen Weisen entscheidet die wertvollere Karte.** Ein Dreiblatt vom König ist mehr als ein Dreiblatt vom Neuner, und das Ass bleibt auch hier die höchste Karte.\n\n## Schreiben\n\nNach jedem Spiel werden die Punkte notiert, beim König und bei der Bauernpartei getrennt.\n\n• Hat eine Seite keinen einzigen Stich geholt, wird ein Matsch mit Prämie (siehe Begriff \"expressions_matschpraemie\") geschrieben, also 257 Punkte\n• Verzichtet der König auf ein Spiel, schreibt die Bauernpartei dieselben 257 Punkte\n• Die Punkte der abgelegten Karten aus dem ersten Spiel kommen am Ende der Partie zu den Punkten des Königs\n\n## Das Rennen: 600 gegen 1000\n\nSo sieht eine Partie in Zahlen aus. Der König hat 600 geboten, die Bauernpartei spielt auf 1000.\n\n| Spiel | Was geschah | König | Bauernpartei |\n|---|---|---|---|\n| 1 | Der König sagt Schellen als Trumpf an und legt sechs Karten ab, die 23 Punkte tragen | 94 | 40 |\n| 2 | Der König gibt, der Bodentrumpf fällt auf Rosen | 71 | 86 |\n| 3 | Der König sieht sein Blatt und verzichtet | 0 | 257 |\n| 4 | Trumpf Eichel; die Bauernpartei holt 96 Kartenpunkte und weist 50 | 61 | 146 |\n| | dazu die abgelegten Karten aus Spiel 1 | 23 | |\n| **Stand** | | **249 von 600** | **529 von 1000** |\n\nIn Spiel 1 stehen 94 und 40 Punkte nebeneinander, zusammen 134 statt 157. Der Rest liegt in den sechs abgelegten Karten des Königs, die gar nicht mitgespielt haben.\n\n**Ein verzichtetes Spiel bringt der Bauernpartei mehr als ein gewonnenes.** Die 257 aus Spiel 3 sind mehr, als ihr Spiel 2 und Spiel 4 zusammen eintrugen. Genau darum liegt der König hier hinten, obwohl er das erste Spiel klar gewonnen hat.\n\n## Warum 600 gegen 1000 fair ist\n\nBeide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, hängt darum allein am Anteil, den der König im Schnitt heimbringt. Die Rechnung dahinter ist kurz: Sein Gebot geteilt durch sein Gebot plus 1000.\n\n| Gebot des Königs | Anteil, den er im Schnitt braucht |\n|---|---|\n| 600 | 37,5 Prozent, also rund 59 von 157 |\n| 700 | 41,2 Prozent |\n| 800 | 44,4 Prozent |\n| 900 | 47,4 Prozent |\n| 1000 | 50 Prozent |\n\n**Mit dem tiefsten Gebot gewinnt der König das Rennen, sobald er gut ein Drittel der Punkte holt.** Das ist der Ausgleich dafür, dass er allein gegen zwei spielt. Und es zeigt, was Steigern wirklich kostet: Jede Stufe hebt die Latte, und bei 1000 muss er die Hälfte aller Punkte holen, Spiel für Spiel.\n\nDie Rechnung gilt, solange kein Spiel verzichtet oder gematscht wird. Ein einziger Verzicht bringt der Bauernpartei 257 Punkte, also mehr als ein Viertel ihres Ziels.\n\n## Ende der Partie\n\n• Der König erreicht seine gebotene Zahl, die Bauernpartei ihre 1000. **Wer zuerst ankommt, hat gewonnen**\n• Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider (siehe Begriff \"schneider\"). Beim Gebot von 600 sind das 300 Punkte, bei der Bauernpartei 500\n• Weiterspielen ist Pflicht: Aufgeben, um bloss den einfachen Einsatz zu verlieren, steht keiner Partei offen\n• Die neue Partie wird so gegeben, dass die Verlierer Vorhand haben\n\n## Taktik: den König in die Mittelhand\n\nDie Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte nimmt: **Der eine Bauer spielt vor ihm aus, der andere legt nach ihm.**\n\n| Wer legt zuerst | dann | dann |\n|---|---|---|\n| Bauer in Vorhand | **König** | Bauer in Hinterhand |\n| gibt die Farbe vor und zieht damit an | bedient, ohne die dritte Karte zu kennen | sticht oder schmiert, weil er beide Karten schon gesehen hat |\n\nDas Handwerk dazu gehört dem vorderen Bauern: **Er muss die Stiche holen und anziehen**, sonst kommt der König nie in die Mitte. Spielt dagegen der König aus und sein Gegner sitzt vor ihm, dreht sich der Vorteil: Dann legt der König die letzte Karte und sieht beide Blätter, bevor er sich entscheidet.\n\n## Zu dritt, zu viert, zu fünft im Vergleich\n\nAlle drei Fassungen behalten Ablauf, Ansagen, Weis, Verzicht und Schneider. Was sich ändert, steht hier nebeneinander; die beiden Abschnitte darunter führen es aus:\n\n| | Zu dritt | Zu viert | Zu fünft |\n|---|---|---|---|\n| Karten im Spiel | 36 | 36 | 35, der Eichel-Siebner bleibt draussen |\n| Erstes Spiel, je Spieler | 5 und 5 | 4 und 4 | 4 und 3, und so in jedem Spiel |\n| Auf dem Tisch | 3 offen, 3 verdeckt | 2 offen, 2 verdeckt | keine |\n| Ab dem zweiten Spiel | 12 Karten | 9 Karten | wieder 7 Karten |\n| Tiefstes Gebot | 600 | 350 | 600 |\n| Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |\n| Ziel der Bauernpartei | 1000 | 1000 | 1000 |\n| Geschrieben wird | in Punkten | in Punkten | in Strichen und «Härdöpfeln» |\n\n## Bieter zu viert\n\nDer König spielt allein gegen drei.\n\n• Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler\n• Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei zeigt er ihr vorher die 2 Karten, die verdeckt lagen. Die Punkte der abgelegten Karten zählen am Ende der Partie zu seinen Kartenpunkten\n• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn\n• Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10\n• Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte\n\nDas tiefere Mindestgebot hat einen Grund: Der König hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien.\n\n## Bieter zu fünft\n\nZwei Spieler bilden die Königspartei (siehe Begriff \"expressions_koenigspartei\"), drei die Bauernpartei. Das ist der Jass, der zu fünft ohne Zuschauer auskommt.\n\n• Der Eichel-Siebner bleibt aus dem Spiel, im französischen Blatt der Kreuz-Siebner. Damit bleiben 35 Karten\n• Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel\n• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts\n• Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte\n• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner.** Damit stehen zwei gegen drei\n• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner\n• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Wie eine Runde vorgeht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen; der Verband empfiehlt, das vor der Partie abzumachen\n• Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf, wie zu dritt\n\n**Zu fünft zählt die Tafel Striche** (siehe Begriff \"zaehlweise_striche\") statt Punkte:\n\n| | Meistbietender | Sein Partner | Jeder Bauer |\n|---|---|---|---|\n| Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 «Härdöpfel» (siehe Begriff \"expressions_haerdoepfel\") |\n| Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |\n\nEin «Härdöpfel» ist der Nuller (siehe Begriff \"expressions_nuller\"), das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider.\n\n## Was der Name sagt\n\n«Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem es anfängt. Der König heisst so, weil er allein gegen alle spielt, und die Gegenpartei heisst danach die Bauernpartei. Geschrieben und gesucht wird der Name auch als «Büter».\n",
     "metadata": {
       "id": "variants_strategic_bieder_meta",
       "category": {
         "main": "Varianten",
-        "sub": "Königsspiel",
+        "sub": "Bietspiel",
         "topic": "Bieter"
       },
       "keywords": [
-        "bieter",
-        "steiger",
-        "königsspiel",
-        "bauernpartei",
-        "bieten",
-        "gebot",
-        "strategisch",
-        "drei spieler"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.7,
-      "difficulty": 2,
-      "taxonomy_tier": 2,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-01-08"
-    },
-    "faqs": [
-      {
-        "question": "Wie hoch ist das Mindestgebot beim Bieder?",
-        "answer": "Falls Vorhand das Spiel übernehmen will, bietet er mindestens 600 Punkte an."
-      },
-      {
-        "question": "Was passiert, wenn der König beim zweiten Spiel verzichtet?",
-        "answer": "Falls der König verzichtet, schreibt die Bauernpartei einen Matsch mit Matschprämie."
-      },
-      {
-        "question": "Welches Ziel muss die Bauernpartei beim Bieder erreichen?",
-        "answer": "Die Bauernpartei muss gemeinsam 1000 Punkte erzielen."
-      },
-      {
-        "question": "Kann der König beim zweiten Spiel den Trumpf selbst wählen?",
-        "answer": "Nein, beim zweiten Spiel gilt automatisch die unterste Karte als Trumpffarbe. Der König kann dann entscheiden, ob er spielen möchte oder nicht."
-      }
-    ],
-    "see_also": [
-      "bodentrumpf",
-      "expressions_bauernpartei",
-      "expressions_fort",
-      "expressions_handkarten",
-      "expressions_hindersi",
-      "expressions_koenigspartei",
-      "expressions_matschpraemie",
-      "expressions_obenabe",
-      "expressions_partie",
-      "expressions_passe",
-      "expressions_undenufe",
-      "expressions_vorhand",
-      "general_scoring_rules",
-      "matsch"
-    ]
-  },
-  "variants_strategic_bieter_drei": {
-    "id": "variants_strategic_bieter_drei",
-    "text": "Der Bieter, auch Steiger genannt, ist ein Bietspiel (siehe Begriff \"bietrunde\") für drei Spieler: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als **Bauernpartei** (siehe Begriff \"expressions_bauernpartei\") dagegen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel (siehe Begriff \"regeln_tischregel\").\n\n**Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.\n\n## Die Grundform\n\n• Drei Spieler, ein volles Blatt mit 36 Karten\n• Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt\n• Wer am höchsten bietet, ist der König. Die beiden anderen bilden für die ganze Partie die Bauernpartei\n• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte\n• Die Bauernpartei spielt in jeder Partie auf 1000 Punkte\n• Farbzwang und Kartenwerte (siehe Begriff \"general_card_values\") gelten wie sonst im Jass\n• Wird falsch ausgeteilt, gibt der nächste Spieler\n• Eine neue Partie gibt so, dass die Verlierer Vorhand (siehe Begriff \"expressions_vorhand\") haben\n\n## Das Geben\n\nDas erste Spiel wird anders gegeben als alle folgenden, und darin steckt der ganze Reiz des Spiels.\n\n| | Erstes Spiel | Ab dem zweiten Spiel |\n|---|---|---|\n| Je Spieler | 5 Karten, dann nochmals 5, zusammen 10 | 12 Karten, in drei Gängen zu vier |\n| Auf dem Tisch | 3 Karten offen, 3 verdeckt | keine |\n| Wer gibt | ein beliebiger Spieler | im zweiten Spiel der König, danach der Reihe nach im Gegenuhrzeigersinn |\n| Woher der Trumpf kommt | Der König sagt ihn an | Die unterste Karte nach dem Abheben (siehe Begriff \"bodentrumpf\") |\n\nIm ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. **Die Bodentrumpf-Karte gehört dem König, gleich wer gegeben hat**, und rauben (siehe Begriff \"expressions_rauben\") lässt sie sich hier nicht.\n\n## Das Bieten\n\nVorhand beginnt. Wer das Spiel übernehmen will, bietet mindestens 600 Punkte; jedes weitere Gebot liegt mindestens 10 Punkte höher. Der Meistbietende wird König.\n\n**Eine Feinheit, die am Tisch oft falsch gehandhabt wird:** Wer «fort» oder «ich passe» sagt, **bevor überhaupt ein Gebot gefallen ist**, darf später noch einsteigen, sobald jemand bietet. Erst ein «fort» (siehe Begriff \"expressions_fort\") **nach** einem Gebot schliesst für dieses Spiel aus. In den übrigen Bietspielen beendet ein «fort» das Bieten für den Rest der Runde; der Bieter ist hier die Ausnahme.\n\nBietet niemand, gibt der nachfolgende Spieler neu.\n\n## Der König nimmt den Tisch\n\nDer König erhält die sechs Karten vom Tisch und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er ihr die drei Karten, die verdeckt lagen. Dann legt er sechs beliebige Karten aus seiner Hand ab, verdeckt und ohne Einsicht für die Gegner.\n\n**Und hier liegt der Kniff des ganzen Spiels: Die Punkte der abgelegten Karten gehören dem König.** Sie werden am Ende der Partie zu seinen erspielten Kartenpunkten gezählt. Er legt darum ab, was er im Spiel kaum heimbrächte, und behält, was Stiche holt.\n\n[[karten: schellen-under, schellen-9, schellen-ass, rosen-koenig, eichel-banner, schilten-6 | Die sechs Karten vom Tisch: drei lagen offen, drei verdeckt]]\n\n[[karten: rosen-banner, schilten-banner, eichel-ober, eichel-6, schilten-7, rosen-6 | Was der König dafür ablegt: zwei Banner und ein Ober, dazu drei Karten ohne Zählwert. Die 23 Punkte sind ihm sicher]]\n\nLegt er falsch ab, etwa eine Karte zu viel oder zu wenig, schreibt er allein einen allfälligen Weis, und die Bauernpartei schreibt den Matsch mit Prämie.\n\n## Was der König ansagt\n\nZum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm offen:\n\n| Ansage | Was gilt | Was geschrieben wird |\n|---|---|---|\n| Trumpffarbe | Die genannte Farbe sticht, Puur und Nell zählen 20 und 14 | Beide Parteien schreiben ihre Kartenpunkte |\n| Obenabe (siehe Begriff \"expressions_obenabe\") | Kein Trumpf, das Ass ist die höchste Karte, der Achter zählt 8 | Beide Parteien schreiben ihre Kartenpunkte |\n| Undenufe (siehe Begriff \"expressions_undenufe\") | Kein Trumpf, der Sechser ist die höchste Karte und zählt 11 | Beide Parteien schreiben ihre Kartenpunkte |\n| Hindersi (siehe Begriff \"expressions_hindersi\"), der Misère (siehe Begriff \"expressions_misere\") | Kein Trumpf; der König gibt jeden Stich ab | Holt der König einen Stich, schreibt die Bauernpartei den Matsch mit Prämie, und er schreibt allein seinen Weis |\n\n**Jede Ansage kehrt die Reihenfolge um, in der die Karten stechen.** Von links nach rechts, von der stärksten zur schwächsten:\n\n[[karten: schellen-under, schellen-9, schellen-ass, schellen-koenig, schellen-ober, schellen-banner, schellen-8, schellen-7, schellen-6 | Trumpffarbe: Der Puur sticht alles, dann das Nell, dann das Ass. Das Banner behält seine 10 Punkte und sticht doch erst nach dem Ober]]\n\n[[karten: eichel-ass, eichel-koenig, eichel-ober, eichel-under, eichel-banner, eichel-9, eichel-8, eichel-7, eichel-6 | Obenabe: das Ass sticht, der Under fällt zurück, der Achter zählt 8]]\n\n[[karten: eichel-6, eichel-7, eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig, eichel-ass | Undenufe: der Sechser sticht und zählt 11, das Ass ist die schwächste Karte]]\n\n[[karten: rosen-ass, rosen-koenig, rosen-ober, rosen-under, rosen-banner, rosen-9, rosen-8, rosen-7, rosen-6 | Hindersi: Der König gibt jeden Stich ab. Zur Stechordnung sagt die Quelle allein, dass das Ass die höchste Karte bleibt; der Verband liest sie darum wie im Obenabe]]\n\n## Ab dem zweiten Spiel: der König entscheidet, ob er spielt\n\n[[karten: rosen-koenig | Der Bodentrumpf: Die unterste Karte nach dem Abheben macht Rosen zum Trumpf. Sie gehört dem König]]\n\nVom zweiten Spiel an sieht der König sein Blatt, bevor etwas geschrieben ist, und **er darf auf das Spiel verzichten**. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig; allein Stöck (siehe Begriff \"weis_rules_stock\") darf die Bauernpartei zu den 257 dazuschreiben.\n\n**Seinen Stöck schreibt der König nur, wenn er mitspielt.**\n\n**Warum verzichtet einer freiwillig?** Weil der Verzicht den Schaden deckelt. Wer ein hoffnungsloses Blatt hält, gäbe im Spiel leicht 157 Kartenpunkte ab und dazu einen fremden Weis, der beliebig hoch sein kann. Der Verzicht kostet feste 257 und löscht die Weise der Gegner. Wer dagegen selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.\n\n## Weis und Stöck\n\nGewiesen wird nach den Weisregeln (siehe Begriff \"expressions_weis\"). Eine Besonderheit gilt beim Hindersi: **Bei gleich hohen Weisen entscheidet die wertvollere Karte.** Ein Dreiblatt vom König ist mehr als ein Dreiblatt vom Neuner, und das Ass bleibt auch hier die höchste Karte.\n\n## Schreiben\n\nNach jedem Spiel werden die Punkte notiert, beim König und bei der Bauernpartei getrennt.\n\n• Hat eine Seite keinen einzigen Stich geholt, wird ein Matsch mit Prämie (siehe Begriff \"expressions_matschpraemie\") geschrieben, also 257 Punkte\n• Verzichtet der König auf ein Spiel, schreibt die Bauernpartei dieselben 257 Punkte\n• Die Punkte der abgelegten Karten aus dem ersten Spiel kommen am Ende der Partie zu den Punkten des Königs\n\n## Das Rennen: 600 gegen 1000\n\nSo sieht eine Partie in Zahlen aus. Der König hat 600 geboten, die Bauernpartei spielt auf 1000.\n\n| Spiel | Was geschah | König | Bauernpartei |\n|---|---|---|---|\n| 1 | Der König sagt Schellen als Trumpf an und legt sechs Karten ab, die 23 Punkte tragen | 94 | 40 |\n| 2 | Der König gibt, der Bodentrumpf fällt auf Rosen | 71 | 86 |\n| 3 | Der König sieht sein Blatt und verzichtet | 0 | 257 |\n| 4 | Trumpf Eichel; die Bauernpartei holt 96 Kartenpunkte und weist 50 | 61 | 146 |\n| | dazu die abgelegten Karten aus Spiel 1 | 23 | |\n| **Stand** | | **249 von 600** | **529 von 1000** |\n\nIn Spiel 1 stehen 94 und 40 Punkte nebeneinander, zusammen 134 statt 157. Der Rest liegt in den sechs abgelegten Karten des Königs, die gar nicht mitgespielt haben.\n\n**Ein verzichtetes Spiel bringt der Bauernpartei mehr als ein gewonnenes.** Die 257 aus Spiel 3 sind mehr, als ihr Spiel 2 und Spiel 4 zusammen eintrugen. Genau darum liegt der König hier hinten, obwohl er das erste Spiel klar gewonnen hat.\n\n## Warum 600 gegen 1000 fair ist\n\nBeide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, hängt darum allein am Anteil, den der König im Schnitt heimbringt. Die Rechnung dahinter ist kurz: Sein Gebot geteilt durch sein Gebot plus 1000.\n\n| Gebot des Königs | Anteil, den er im Schnitt braucht |\n|---|---|\n| 600 | 37,5 Prozent, also rund 59 von 157 |\n| 700 | 41,2 Prozent |\n| 800 | 44,4 Prozent |\n| 900 | 47,4 Prozent |\n| 1000 | 50 Prozent |\n\n**Mit dem tiefsten Gebot gewinnt der König das Rennen, sobald er gut ein Drittel der Punkte holt.** Das ist der Ausgleich dafür, dass er allein gegen zwei spielt. Und es zeigt, was Steigern wirklich kostet: Jede Stufe hebt die Latte, und bei 1000 muss er die Hälfte aller Punkte holen, Spiel für Spiel.\n\nDie Rechnung gilt, solange kein Spiel verzichtet oder gematscht wird. Ein einziger Verzicht bringt der Bauernpartei 257 Punkte, also mehr als ein Viertel ihres Ziels.\n\n## Ende der Partie\n\n• Der König erreicht seine gebotene Zahl, die Bauernpartei ihre 1000. **Wer zuerst ankommt, hat gewonnen**\n• Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider (siehe Begriff \"schneider\"). Beim Gebot von 600 sind das 300 Punkte, bei der Bauernpartei 500\n• Weiterspielen ist Pflicht: Aufgeben, um bloss den einfachen Einsatz zu verlieren, steht keiner Partei offen\n• Die neue Partie wird so gegeben, dass die Verlierer Vorhand haben\n\n## Taktik: den König in die Mittelhand\n\nDie Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte nimmt: **Der eine Bauer spielt vor ihm aus, der andere legt nach ihm.**\n\n| Wer legt zuerst | dann | dann |\n|---|---|---|\n| Bauer in Vorhand | **König** | Bauer in Hinterhand |\n| gibt die Farbe vor und zieht damit an | bedient, ohne die dritte Karte zu kennen | sticht oder schmiert, weil er beide Karten schon gesehen hat |\n\nDas Handwerk dazu gehört dem vorderen Bauern: **Er muss die Stiche holen und anziehen**, sonst kommt der König nie in die Mitte. Spielt dagegen der König aus und sein Gegner sitzt vor ihm, dreht sich der Vorteil: Dann legt der König die letzte Karte und sieht beide Blätter, bevor er sich entscheidet.\n\n## Bieter zu viert und zu fünft\n\nBeide Fassungen behalten Ablauf, Ansagen und Schreibweise des Bieters zu dritt. Was sich ändert, steht hier nebeneinander:\n\n| | Zu dritt | Zu viert (siehe Begriff \"variants_strategic_bieter_vier\") | Zu fünft (siehe Begriff \"variants_strategic_bieter_fuenf\") |\n|---|---|---|---|\n| Karten im Spiel | 36 | 36 | 35, der Eichel-Siebner bleibt draussen |\n| Erstes Spiel, je Spieler | 5 und 5 | 4 und 4 | 4 und 3, und so in jedem Spiel |\n| Auf dem Tisch | 3 offen, 3 verdeckt | 2 offen, 2 verdeckt | keine |\n| Ab dem zweiten Spiel | 12 Karten | 9 Karten | wieder 7 Karten |\n| Tiefstes Gebot | 600 | 350 | 600 |\n| Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |\n| Ziel der Bauernpartei | 1000 | 1000 | 1000 |\n\nZu fünft hat der Meistbietende einen Partner: Er nennt eine Karte, und wer sie hält, spielt mit ihm. Zu fünft wird auch anders geschrieben, nämlich in Strichen (siehe Begriff \"zaehlweise_striche\") und «Härdöpfeln» (siehe Begriff \"expressions_haerdoepfel\").\n\n## Was der Name sagt\n\n«Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem es anfängt. Der König heisst so, weil er allein gegen alle spielt, und die Gegenpartei heisst danach die Bauernpartei. Geschrieben und gesucht wird der Name auch als «Büter».\n\n",
-    "metadata": {
-      "id": "variants_strategic_bieter_drei_meta",
-      "category": {
-        "main": "Varianten",
-        "sub": "Bietspiel",
-        "topic": "Bieter (3 Spieler)"
-      },
-      "keywords": [
-        "bieter",
-        "steiger",
-        "drei spieler",
-        "bieten",
-        "steigern",
-        "könig",
-        "bauernpartei",
+        "350 punkte",
         "600 punkte",
         "Hindersi",
+        "bauernpartei",
+        "bieten",
+        "bieter",
+        "bieter fünf",
+        "bietspiel",
+        "büter",
+        "drei spieler",
+        "eichel siebner",
+        "fünf spieler",
+        "härdöpfel",
+        "jassen zu dritt",
+        "jassen zu fünft",
+        "jassen zu viert",
+        "karte nennen",
+        "könig",
+        "königspartei",
+        "königsspiel",
         "matsch",
-        "schneider",
+        "mindestgebot",
         "misère",
-        "bietspiel"
+        "partner bestimmen",
+        "schneider",
+        "steiger",
+        "steigern",
+        "strategisch",
+        "team bietspiel",
+        "tischkarten",
+        "vier spieler"
       ],
       "situations": [
         "LEARNING"
@@ -9460,8 +9414,8 @@
       "datePublished": "2025-11-22",
       "dateModified": "2026-08-17",
       "farbwechsel": true,
-      "seoTitle": "Bieter (Steiger): der Jass zu dritt, König gegen Bauern | Jass-Wiki",
-      "seoDescription": "Bieter zu dritt: Gebot ab 600 gegen die 1000 der Bauernpartei, sechs Tischkarten, Bodentrumpf ab dem zweiten Spiel, Verzicht des Königs für 257. Mit den Regeln zu viert und zu fünft im Vergleich."
+      "seoTitle": "Bieter (Steiger): Jassen zu dritt, viert und fünft | Jass-Wiki",
+      "seoDescription": "Bieter, auch Steiger oder Büter: der König bietet ab 600 gegen die 1000 der Bauernpartei. Tischkarten, Bodentrumpf, Verzicht für 257, Schneider. Zu dritt ausführlich, zu viert und zu fünft mit allen Abweichungen."
     },
     "faqs": [
       {
@@ -9515,71 +9469,18 @@
       {
         "question": "Warum bietet der König 600, wenn die Bauernpartei nur 1000 braucht?",
         "answer": "Weil beide aus denselben 157 Punkten je Spiel schöpfen. Mit einem Gebot von 600 gewinnt der König das Rennen, sobald er im Schnitt 37,5 Prozent der Punkte heimbringt, also rund 59 von 157. Das ist der Ausgleich dafür, dass er allein gegen zwei spielt."
-      }
-    ],
-    "see_also": [
-      "variants_strategic_bieter_vier",
-      "variants_strategic_bieter_fuenf",
-      "bietrunde",
-      "bodentrumpf",
-      "expressions_hindersi",
-      "expressions_matschpraemie",
-      "expressions_haerdoepfel",
-      "schneider",
-      "weis_rules_stock",
-      "general_card_values"
-    ],
-    "synonyms": [
-      "bieter",
-      "steiger",
-      "büter",
-      "bieter jass",
-      "steiger jass",
-      "bieterjass",
-      "bieter zu dritt",
-      "jassen zu dritt",
-      "bieter jass regeln",
-      "büter regeln"
-    ]
-  },
-  "variants_strategic_bieter_fuenf": {
-    "id": "variants_strategic_bieter_fuenf",
-    "text": "Der Bieter zu fünft ist der Bieter (siehe Begriff \"variants_strategic_bieter_drei\") mit einem Partner: Zwei Spieler bilden die Königspartei (siehe Begriff \"expressions_koenigspartei\"), drei die Bauernpartei (siehe Begriff \"expressions_bauernpartei\").\n\n• Der Eichel-Siebner bleibt aus dem Spiel, im französischen Blatt der Kreuz-Siebner. Damit bleiben 35 Karten\n• Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel\n• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts\n• Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte\n• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner.** Damit stehen zwei gegen drei\n• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner\n• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Wie eine Runde vorgeht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen; der Verband empfiehlt, das vor der Partie abzumachen\n• Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf (siehe Begriff \"bodentrumpf\"), wie beim Bieter zu dritt\n\n## Geschrieben wird in Strichen\n\nZu fünft zählt die Tafel Striche (siehe Begriff \"zaehlweise_striche\") statt Punkte:\n\n| | Meistbietender | Sein Partner | Jeder Bauer |\n|---|---|---|---|\n| Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 «Härdöpfel» (siehe Begriff \"expressions_haerdoepfel\") |\n| Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |\n\nEin «Härdöpfel» ist der Nuller (siehe Begriff \"expressions_nuller\"), das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider (siehe Begriff \"schneider\").\n\nAnsagen, Weis, Verzicht und der Ablauf bleiben wie beim Bieter zu dritt.",
-    "metadata": {
-      "id": "variants_strategic_bieter_fuenf_meta",
-      "category": {
-        "main": "Varianten",
-        "sub": "Bietspiel",
-        "topic": "Bieter (5 Spieler)"
       },
-      "keywords": [
-        "bieter fünf",
-        "fünf spieler",
-        "königspartei",
-        "bauernpartei",
-        "partner bestimmen",
-        "karte nennen",
-        "härdöpfel",
-        "schneider",
-        "eichel siebner",
-        "600 punkte"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 7,
-      "difficulty": 5,
-      "taxonomy_tier": 2,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-08-17",
-      "farbwechsel": true,
-      "seoTitle": "Bieter zu fünft: Jassen zu fünft mit Partner | Jass-Wiki",
-      "seoDescription": "Bieter für 5 Spieler: 35 Karten, je 7, der Meistbietende ruft eine Karte und findet so seinen Partner. Zwei gegen drei, geschrieben in Strichen und Härdöpfeln."
-    },
-    "faqs": [
       {
-        "question": "Wie spielt man Bieter zu fünft?",
-        "answer": "Der Eichel-Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte; wer sie hält, ist sein Partner. So stehen zwei gegen drei."
+        "question": "Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?",
+        "answer": "Im ersten Spiel 8 Karten, in zwei Gängen zu 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten."
+      },
+      {
+        "question": "Warum ist das Mindestgebot zu viert tiefer?",
+        "answer": "Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien."
+      },
+      {
+        "question": "Wer gibt beim Bieter zu viert ab dem zweiten Spiel?",
+        "answer": "Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf."
       },
       {
         "question": "Wie findet der Meistbietende zu fünft seinen Partner?",
@@ -9594,99 +9495,50 @@
         "answer": "35: Der Eichel-Siebner bleibt draussen, damit jeder der fünf Spieler 7 Karten hält."
       },
       {
-        "question": "Wo sitzt beim Bieter zu fünft der Partner?",
-        "answer": "Die beiden Spieler der Königspartei sitzen getrennt, mit mindestens einem Bauern zwischen sich."
-      },
-      {
-        "question": "Auf wie viele Punkte spielt die Bauernpartei zu fünft?",
-        "answer": "Auf 1000 Punkte, wie zu dritt und zu viert. Der Meistbietende bietet mindestens 600."
-      }
-    ],
-    "see_also": [
-      "variants_strategic_bieter_drei",
-      "variants_strategic_bieter_vier",
-      "zaehlweise_striche",
-      "expressions_haerdoepfel",
-      "expressions_nuller",
-      "schneider"
-    ],
-    "synonyms": [
-      "bieter zu fünft",
-      "steiger zu fünft",
-      "bieter 5 spieler",
-      "jassen zu fünft",
-      "büter zu fünft",
-      "jass zu fünft"
-    ]
-  },
-  "variants_strategic_bieter_vier": {
-    "id": "variants_strategic_bieter_vier",
-    "text": "Der Bieter zu viert ist der Bieter (siehe Begriff \"variants_strategic_bieter_drei\") mit einem Gegner mehr: Der König spielt allein gegen drei.\n\n• Gespielt wird mit 36 Karten. Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler\n• Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei (siehe Begriff \"expressions_bauernpartei\") zeigt er ihr vorher die 2 Karten, die verdeckt lagen\n• Die Punkte der abgelegten Karten zählen am Ende der Partie zu seinen Kartenpunkten\n• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf (siehe Begriff \"bodentrumpf\"). Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn\n• Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10\n• Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte\n\nDas tiefere Mindestgebot hat einen Grund: Der König hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien. Ansagen, Weis, Verzicht, Schneider und das Schreiben bleiben wie beim Bieter zu dritt.",
-    "metadata": {
-      "id": "variants_strategic_bieter_vier_meta",
-      "category": {
-        "main": "Varianten",
-        "sub": "Bietspiel",
-        "topic": "Bieter (4 Spieler)"
-      },
-      "keywords": [
-        "bieter",
-        "steiger",
-        "vier spieler",
-        "350 punkte",
-        "könig",
-        "bauernpartei",
-        "team bietspiel",
-        "tischkarten",
-        "mindestgebot",
-        "strategisch"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 7,
-      "difficulty": 5,
-      "taxonomy_tier": 2,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-08-17",
-      "farbwechsel": true,
-      "seoTitle": "Bieter zu viert: Regeln, Mindestgebot 350 | Jass-Wiki",
-      "seoDescription": "Bieter für 4 Spieler: der König gegen drei, vier Tischkarten, Gebot ab 350. Was gleich bleibt wie zu dritt und was sich ändert."
-    },
-    "faqs": [
-      {
         "question": "Wie spielt man Bieter zu viert?",
-        "answer": "Wie den Bieter zu dritt, nur spielt der König gegen drei Gegner. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000."
+        "answer": "Wie zu dritt, nur spielt der König gegen drei Gegner. Im ersten Spiel erhält jeder 8 Karten, 4 liegen auf dem Tisch; ab dem zweiten Spiel je 9. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000."
       },
       {
-        "question": "Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?",
-        "answer": "Im ersten Spiel 8 Karten, in zwei Gängen zu 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten."
-      },
-      {
-        "question": "Warum ist das Mindestgebot zu viert tiefer?",
-        "answer": "Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien."
-      },
-      {
-        "question": "Was macht der König zu viert mit den Tischkarten?",
-        "answer": "Er nimmt die 4 Karten auf und legt dafür 4 beliebige ab. Ihre Punkte zählen am Ende der Partie zu seinen Kartenpunkten."
-      },
-      {
-        "question": "Wer gibt beim Bieter zu viert ab dem zweiten Spiel?",
-        "answer": "Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf."
+        "question": "Wie spielt man Bieter zu fünft?",
+        "answer": "Der Eichel-Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte; wer sie hält, ist sein Partner. So stehen zwei gegen drei, geschrieben wird in Strichen und Härdöpfeln."
       }
     ],
     "see_also": [
-      "variants_strategic_bieter_drei",
-      "variants_strategic_bieter_fuenf",
       "bietrunde",
-      "bodentrumpf"
+      "bodentrumpf",
+      "expressions_hindersi",
+      "expressions_matschpraemie",
+      "expressions_haerdoepfel",
+      "schneider",
+      "weis_rules_stock",
+      "general_card_values"
     ],
     "synonyms": [
-      "bieter zu viert",
-      "steiger zu viert",
+      "bieter",
+      "bieter 3 spieler",
       "bieter 4 spieler",
+      "bieter 5 spieler",
+      "bieter jass",
+      "bieter jass regeln",
+      "bieter jass zu dritt",
+      "bieter jass zu viert",
+      "bieter zu dritt",
+      "bieter zu fünft",
+      "bieter zu viert",
+      "bieterjass",
+      "bieterjass zu dritt",
+      "büter",
+      "büter regeln",
+      "büter zu fünft",
       "büter zu viert",
-      "bieter jass zu viert"
+      "jass zu fünft",
+      "jassen zu dritt",
+      "jassen zu dritt bieter",
+      "jassen zu fünft",
+      "steiger",
+      "steiger jass",
+      "steiger zu fünft",
+      "steiger zu viert"
     ]
   },
   "variants_strategic_bolschewik": {
@@ -12761,7 +12613,7 @@
   },
   "bietrunde": {
     "id": "bietrunde",
-    "text": "Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele; die Zahlen darin setzt jede Jassart selbst.\n\n## Der Ablauf\n\n1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt\n2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot\n3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen\n4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben\n5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart\n\nJedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) spielt der Meistbietende auch die erste Karte aus.\n\n## Was jede Jassart selbst festlegt\n\n| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |\n|---|---|---|\n| [Bieter zu dritt](/varianten/bieter-3-spieler/) | 600 | 10 |\n| [Bieter zu viert](/varianten/bieter-4-spieler/) | 350 | 10 |\n| [Bieter zu fünft](/varianten/bieter-5-spieler/) | 600 | 10 |\n| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |\n| [Palette](/varianten/palette/) | 110 | 1 |\n| [Sidi-Barrani](/varianten/sidi-barrani/) | 50 (Empfehlung des Jassverbands Schweiz) | 5 |\n\n## Was ein Gebot nennt\n\nBeim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Vier Farben stehen zur Wahl; jede bringt ihren Puur als höchsten Trumpf]]\n\nNeben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch das höchste Gebot, angesagt mit 157, alle Punkte einer Runde.\n\n## Wer mit wem spielt\n\nBeim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an. Beim Bieter zu fünft und beim Palette ruft er eine Karte, und wer sie hält, wird sein Partner.\n\n## Was das Gebot bindet\n\nDer Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).\n\nWer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.",
+    "text": "Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele; die Zahlen darin setzt jede Jassart selbst.\n\n## Der Ablauf\n\n1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt\n2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot\n3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen\n4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben\n5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart\n\nJedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) spielt der Meistbietende auch die erste Karte aus.\n\n## Was jede Jassart selbst festlegt\n\n| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |\n|---|---|---|\n| [Bieter zu dritt](/varianten/bieter/) | 600 | 10 |\n| [Bieter zu viert](/varianten/bieter/#bieter-zu-viert) | 350 | 10 |\n| [Bieter zu fünft](/varianten/bieter/#bieter-zu-fuenft) | 600 | 10 |\n| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |\n| [Palette](/varianten/palette/) | 110 | 1 |\n| [Sidi-Barrani](/varianten/sidi-barrani/) | 50 (Empfehlung des Jassverbands Schweiz) | 5 |\n\n## Was ein Gebot nennt\n\nBeim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Vier Farben stehen zur Wahl; jede bringt ihren Puur als höchsten Trumpf]]\n\nNeben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Den Abschluss der Leiter bildet vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch das höchste Gebot, angesagt mit 157, alle Punkte einer Runde.\n\n## Wer mit wem spielt\n\nBeim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an. Beim Bieter zu fünft und beim Palette ruft er eine Karte, und wer sie hält, wird sein Partner.\n\n## Was das Gebot bindet\n\nDer Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).\n\nWer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.",
     "metadata": {
       "id": "bietrunde_meta",
       "category": {
@@ -12812,7 +12664,7 @@
     "see_also": [
       "variants_strategic_sidi_barrani",
       "variants_strategic_bolschewik",
-      "variants_strategic_bieter_drei",
+      "variants_strategic_bieder",
       "variants_strategic_palette_jass",
       "expressions_fort",
       "expressions_doppeln_kontern"

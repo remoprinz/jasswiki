@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 57
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -141,44 +141,177 @@ Gespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann 
 
 **Kategorie:** Varianten > Bietspiel
 
-Definition:
-Bieter (auch Steiger genannt) für 3 Spieler ist ein klassisches Bietspiel, bei dem ein König gegen eine Bauernpartei antritt.
+Der Bieter, auch Steiger genannt, ist ein Bietspiel für drei Spieler: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als **Bauernpartei** (siehe Bauernpartei) dagegen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
-Spiel geben - Erstes Spiel:
-• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch
-• Nun verteilt er jedem Spieler nochmals 5 Karten
-• Ab dem zweiten Spiel werden jedem Spieler 12 Karten (3 x 4 Karten) verteilt
+**Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.
 
-Weisen-Regel:
-• Beim Hindersi (Misère) entscheidet bei gleich hohen Weisen die wertvollere Karte
-• Beispiel: Ein Dreiblatt von einem König ist besser als ein Dreiblatt von einem Neuner
+## Die Grundform
 
-Bieten:
-• Falls Vorhand das Spiel übernehmen will, bietet er mindestens 600 Punkte an
-• Die nachfolgenden Spieler können der Reihe nach das Gebot beliebig um mindestens 10 Punkte überbieten (steigern)
-• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei
+• Drei Spieler, ein volles Blatt mit 36 Karten
+• Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt
+• Wer am höchsten bietet, ist der König. Die beiden anderen bilden für die ganze Partie die Bauernpartei
+• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte
+• Die Bauernpartei spielt in jeder Partie auf 1000 Punkte
+• Farbzwang und Kartenwerte gelten wie sonst im Jass
+• Wird falsch ausgeteilt, gibt der nächste Spieler
+• Eine neue Partie gibt so, dass die Verlierer Vorhand haben
 
-König-Phase:
-• Der König erhält nun die 6 auf dem Tisch liegenden Karten, wobei er auf Wunsch die 3 verdeckten Karten der Bauernpartei zeigen muss
-• Nachdem der König die Karten gesehen hat, kann er an deren Stelle 6 beliebige Handkarten ablegen
+## Das Geben
 
-Spielablauf:
-• Zum ersten Spiel bestimmt der König den Trumpf: Er kann wählen zwischen einer Trumpffarbe, einem Obenabe, einem Undenufe oder einem Hindersi ohne Trumpf
-• Beim Hindersi darf der König keinen Stich  erzielen, sonst schreibt die Bauernpartei einen Matsch  mit Matschprämie
+Das erste Spiel wird anders gegeben als alle folgenden, und darin steckt der ganze Reiz des Spiels.
 
-Spielziele:
-• Der König hat die von ihm gebotene Zahl zu erreichen
-• Die Bauernpartei muss 1000 Punkte erzielen
-• Gewonnen hat, wer sein Ziel zuerst erreicht
+| | Erstes Spiel | Ab dem zweiten Spiel |
+|---|---|---|
+| Je Spieler | 5 Karten, dann nochmals 5, zusammen 10 | 12 Karten, in drei Gängen zu vier |
+| Auf dem Tisch | 3 Karten offen, 3 verdeckt | keine |
+| Wer gibt | ein beliebiger Spieler | im zweiten Spiel der König, danach der Reihe nach im Gegenuhrzeigersinn |
+| Woher der Trumpf kommt | Der König sagt ihn an | Die unterste Karte nach dem Abheben |
 
-Schneider-Regel:
-Wer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.
+Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. **Die Bodentrumpf-Karte gehört dem König, gleich wer gegeben hat**, und rauben lässt sie sich hier nicht.
+
+## Das Bieten
+
+Vorhand beginnt. Wer das Spiel übernehmen will, bietet mindestens 600 Punkte; jedes weitere Gebot liegt mindestens 10 Punkte höher. Der Meistbietende wird König.
+
+**Eine Feinheit, die am Tisch oft falsch gehandhabt wird:** Wer «fort» oder «ich passe» sagt, **bevor überhaupt ein Gebot gefallen ist**, darf später noch einsteigen, sobald jemand bietet. Erst ein fort **nach** einem Gebot schliesst für dieses Spiel aus. In den übrigen Bietspielen beendet ein «fort» das Bieten für den Rest der Runde; der Bieter ist hier die Ausnahme.
+
+Bietet niemand, gibt der nachfolgende Spieler neu.
+
+## Der König nimmt den Tisch
+
+Der König erhält die sechs Karten vom Tisch und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er ihr die drei Karten, die verdeckt lagen. Dann legt er sechs beliebige Karten aus seiner Hand ab, verdeckt und ohne Einsicht für die Gegner.
+
+**Und hier liegt der Kniff des ganzen Spiels: Die Punkte der abgelegten Karten gehören dem König.** Sie werden am Ende der Partie zu seinen erspielten Kartenpunkten gezählt. Er legt darum ab, was er im Spiel kaum heimbrächte, und behält, was Stiche holt.
+
+
+
+Legt er falsch ab, etwa eine Karte zu viel oder zu wenig, schreibt er allein einen allfälligen Weis, und die Bauernpartei schreibt den Matsch mit Prämie.
+
+## Was der König ansagt
+
+Zum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm offen:
+
+| Ansage | Was gilt | Was geschrieben wird |
+|---|---|---|
+| Trumpffarbe | Die genannte Farbe sticht, Puur und Nell zählen 20 und 14 | Beide Parteien schreiben ihre Kartenpunkte |
+| Obenabe | Kein Trumpf, das Ass ist die höchste Karte, der Achter zählt 8 | Beide Parteien schreiben ihre Kartenpunkte |
+| Undenufe | Kein Trumpf, der Sechser ist die höchste Karte und zählt 11 | Beide Parteien schreiben ihre Kartenpunkte |
+| Hindersi, der Misère | Kein Trumpf; der König gibt jeden Stich ab | Holt der König einen Stich, schreibt die Bauernpartei den Matsch mit Prämie, und er schreibt allein seinen Weis |
+
+**Jede Ansage kehrt die Reihenfolge um, in der die Karten stechen.** Von links nach rechts, von der stärksten zur schwächsten:
+
+
+
+
+
+## Ab dem zweiten Spiel: der König entscheidet, ob er spielt
+
+
+Vom zweiten Spiel an sieht der König sein Blatt, bevor etwas geschrieben ist, und **er darf auf das Spiel verzichten**. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig; allein Stöck darf die Bauernpartei zu den 257 dazuschreiben.
+
+**Seinen Stöck schreibt der König nur, wenn er mitspielt.**
+
+**Warum verzichtet einer freiwillig?** Weil der Verzicht den Schaden deckelt. Wer ein hoffnungsloses Blatt hält, gäbe im Spiel leicht 157 Kartenpunkte ab und dazu einen fremden Weis, der beliebig hoch sein kann. Der Verzicht kostet feste 257 und löscht die Weise der Gegner. Wer dagegen selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.
+
+## Weis und Stöck
+
+Gewiesen wird nach den Weisregeln. Eine Besonderheit gilt beim Hindersi: **Bei gleich hohen Weisen entscheidet die wertvollere Karte.** Ein Dreiblatt vom König ist mehr als ein Dreiblatt vom Neuner, und das Ass bleibt auch hier die höchste Karte.
+
+## Schreiben
+
+Nach jedem Spiel werden die Punkte notiert, beim König und bei der Bauernpartei getrennt.
+
+• Hat eine Seite keinen einzigen Stich geholt, wird ein Matsch mit Prämie geschrieben, also 257 Punkte
+• Verzichtet der König auf ein Spiel, schreibt die Bauernpartei dieselben 257 Punkte
+• Die Punkte der abgelegten Karten aus dem ersten Spiel kommen am Ende der Partie zu den Punkten des Königs
+
+## Das Rennen: 600 gegen 1000
+
+So sieht eine Partie in Zahlen aus. Der König hat 600 geboten, die Bauernpartei spielt auf 1000.
+
+| Spiel | Was geschah | König | Bauernpartei |
+|---|---|---|---|
+| 1 | Der König sagt Schellen als Trumpf an und legt sechs Karten ab, die 23 Punkte tragen | 94 | 40 |
+| 2 | Der König gibt, der Bodentrumpf fällt auf Rosen | 71 | 86 |
+| 3 | Der König sieht sein Blatt und verzichtet | 0 | 257 |
+| 4 | Trumpf Eichel; die Bauernpartei holt 96 Kartenpunkte und weist 50 | 61 | 146 |
+| | dazu die abgelegten Karten aus Spiel 1 | 23 | |
+| **Stand** | | **249 von 600** | **529 von 1000** |
+
+In Spiel 1 stehen 94 und 40 Punkte nebeneinander, zusammen 134 statt 157. Der Rest liegt in den sechs abgelegten Karten des Königs, die gar nicht mitgespielt haben.
+
+**Ein verzichtetes Spiel bringt der Bauernpartei mehr als ein gewonnenes.** Die 257 aus Spiel 3 sind mehr, als ihr Spiel 2 und Spiel 4 zusammen eintrugen. Genau darum liegt der König hier hinten, obwohl er das erste Spiel klar gewonnen hat.
+
+## Warum 600 gegen 1000 fair ist
+
+Beide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, hängt darum allein am Anteil, den der König im Schnitt heimbringt. Die Rechnung dahinter ist kurz: Sein Gebot geteilt durch sein Gebot plus 1000.
+
+| Gebot des Königs | Anteil, den er im Schnitt braucht |
+|---|---|
+| 600 | 37,5 Prozent, also rund 59 von 157 |
+| 700 | 41,2 Prozent |
+| 800 | 44,4 Prozent |
+| 900 | 47,4 Prozent |
+| 1000 | 50 Prozent |
+
+**Mit dem tiefsten Gebot gewinnt der König das Rennen, sobald er gut ein Drittel der Punkte holt.** Das ist der Ausgleich dafür, dass er allein gegen zwei spielt. Und es zeigt, was Steigern wirklich kostet: Jede Stufe hebt die Latte, und bei 1000 muss er die Hälfte aller Punkte holen, Spiel für Spiel.
+
+Die Rechnung gilt, solange kein Spiel verzichtet oder gematscht wird. Ein einziger Verzicht bringt der Bauernpartei 257 Punkte, also mehr als ein Viertel ihres Ziels.
+
+## Ende der Partie
+
+• Der König erreicht seine gebotene Zahl, die Bauernpartei ihre 1000. **Wer zuerst ankommt, hat gewonnen**
+• Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider. Beim Gebot von 600 sind das 300 Punkte, bei der Bauernpartei 500
+• Weiterspielen ist Pflicht: Aufgeben, um bloss den einfachen Einsatz zu verlieren, steht keiner Partei offen
+• Die neue Partie wird so gegeben, dass die Verlierer Vorhand haben
+
+## Taktik: den König in die Mittelhand
+
+Die Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte nimmt: **Der eine Bauer spielt vor ihm aus, der andere legt nach ihm.**
+
+| Wer legt zuerst | dann | dann |
+|---|---|---|
+| Bauer in Vorhand | **König** | Bauer in Hinterhand |
+| gibt die Farbe vor und zieht damit an | bedient, ohne die dritte Karte zu kennen | sticht oder schmiert, weil er beide Karten schon gesehen hat |
+
+Das Handwerk dazu gehört dem vorderen Bauern: **Er muss die Stiche holen und anziehen**, sonst kommt der König nie in die Mitte. Spielt dagegen der König aus und sein Gegner sitzt vor ihm, dreht sich der Vorteil: Dann legt der König die letzte Karte und sieht beide Blätter, bevor er sich entscheidet.
+
+## Bieter zu viert und zu fünft
+
+Beide Fassungen behalten Ablauf, Ansagen und Schreibweise des Bieters zu dritt. Was sich ändert, steht hier nebeneinander:
+
+| | Zu dritt | Zu viert | Zu fünft |
+|---|---|---|---|
+| Karten im Spiel | 36 | 36 | 35, der Eichel-Siebner bleibt draussen |
+| Erstes Spiel, je Spieler | 5 und 5 | 4 und 4 | 4 und 3, und so in jedem Spiel |
+| Auf dem Tisch | 3 offen, 3 verdeckt | 2 offen, 2 verdeckt | keine |
+| Ab dem zweiten Spiel | 12 Karten | 9 Karten | wieder 7 Karten |
+| Tiefstes Gebot | 600 | 350 | 600 |
+| Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |
+| Ziel der Bauernpartei | 1000 | 1000 | 1000 |
+
+Zu fünft hat der Meistbietende einen Partner: Er nennt eine Karte, und wer sie hält, spielt mit ihm. Zu fünft wird auch anders geschrieben, nämlich in Strichen und Härdöpfeln.
+
+## Was der Name sagt
+
+«Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem es anfängt. Der König heisst so, weil er allein gegen alle spielt, und die Gegenpartei heisst danach die Bauernpartei. Geschrieben und gesucht wird der Name auch als «Büter».
+
+
 
 **Häufige Fragen:**
-- **Wie hoch ist das Mindestgebot beim Bieter für 3 Spieler?** Das Mindestgebot liegt bei 600 Punkten, wenn Vorhand das Spiel übernehmen will.
-- **Was ist die Aufgabe der Bauernpartei beim Bieter?** Die Bauernpartei muss gemeinsam 1000 Punkte erzielen, um zu gewinnen.
-- **Was passiert beim Hindersi, wenn der König einen Stich macht?** Beim Hindersi darf der König keinen Stich erzielen. Macht er trotzdem einen Stich, schreibt die Bauernpartei einen Matsch mit Matschprämie.
-- **Wie viele Karten erhält jeder Spieler beim ersten Spiel beim Bieter?** Beim ersten Spiel teilt der Spielgeber jedem Spieler zunächst 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch, dann nochmals 5 Karten.
+- **Wie spielt man Bieter zu dritt?** Einer bietet eine Punktzahl und spielt als König allein gegen die beiden anderen, die Bauernpartei. Das tiefste Gebot ist 600 Punkte, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat die Partie gewonnen.
+- **Wie viele Karten bekommt beim Bieter jeder Spieler?** Im ersten Spiel 10 Karten, in zwei Gängen zu 5, dazu liegen 6 Karten auf dem Tisch: 3 offen und 3 verdeckt. Ab dem zweiten Spiel erhält jeder 12 Karten, in drei Gängen zu vier, und der Tisch bleibt leer.
+- **Wie hoch ist das Mindestgebot beim Bieter?** Zu dritt und zu fünft 600 Punkte, zu viert 350. Gesteigert wird um mindestens 10 Punkte.
+- **Was macht der König mit den sechs Tischkarten?** Er nimmt sie auf und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er die drei, die verdeckt lagen. Dann legt er sechs beliebige Karten ab; ihre Punkte werden am Ende der Partie zu seinen Kartenpunkten gezählt.
+- **Zählen die abgelegten Karten des Königs?** Ja, sie gehören ihm. Darum legt er ab, was er im Spiel kaum heimbrächte, und behält die Karten, die Stiche holen.
+- **Was darf der König ansagen?** Eine Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf. Beim Hindersi gibt er jeden Stich ab; holt er einen, schreibt die Bauernpartei den Matsch mit Prämie.
+- **Woher kommt der Trumpf ab dem zweiten Spiel?** Vom Boden: Nach dem Abheben gilt die unterste Karte als Trumpffarbe. Sie gehört dem König und lässt sich nicht rauben.
+- **Darf der König ein Spiel auslassen?** Ab dem zweiten Spiel darf er verzichten. Dann schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte, und darf Stöckpunkte dazuschreiben. Ein Weis zählt in diesem Spiel für niemanden, und seine eigenen Stöcke schreibt der König nur, wenn er mitspielt.
+- **Wann scheidet man beim Bieten aus?** Wer nach einem Gebot «fort» oder «ich passe» sagt, bleibt für dieses Spiel draussen. Wer passt, bevor überhaupt ein Gebot gefallen ist, darf später noch einsteigen.
+- **Wie viele Punkte hat ein Bieter-Spiel?** 157, wie in jedem Jass-Spiel. Weil das Gebot für die ganze Partie gilt, braucht der König mehrere Spiele, um seine 600 zusammenzubringen.
+- **Was ist der Schneider beim Bieter?** Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz: beim Gebot von 600 sind das 300 Punkte, bei der Bauernpartei 500.
+- **Was heisst Bieter, Steiger und Büter?** Drei Namen für dasselbe Spiel. Sie stammen alle vom Bieten, mit dem jedes Spiel anfängt.
+- **Warum bietet der König 600, wenn die Bauernpartei nur 1000 braucht?** Weil beide aus denselben 157 Punkten je Spiel schöpfen. Mit einem Gebot von 600 gewinnt der König das Rennen, sobald er im Schnitt 37,5 Prozent der Punkte heimbringt, also rund 59 von 157. Das ist der Ausgleich dafür, dass er allein gegen zwei spielt.
 
 *Keywords: bieter, steiger, drei spieler, bieten, steigern*
 
@@ -219,36 +352,23 @@ In allen anderen Belangen entsprechen die Regeln denen des Aucho für vier Spiel
 
 **Kategorie:** Varianten > Bietspiel
 
-Definition:
-Bieter (auch Steiger genannt) für 4 Spieler ist ein Team-Bietspiel, bei dem ein König gegen eine Bauernpartei aus drei Spielern antritt.
+Der Bieter zu viert ist der Bieter mit einem Gegner mehr: Der König spielt allein gegen drei.
 
-Spiel geben - Erstes Spiel:
-• Beim ersten Spiel teilt der Spielgeber jedem Spieler 4 Karten aus und legt 2 Karten verdeckt und 2 Karten offen auf den Tisch
-• Anschliessend verteilt er jedem Spieler nochmals 4 Karten
-• Ab dem zweiten Spiel werden jedem Spieler 9 Karten verteilt
+• Gespielt wird mit 36 Karten. Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler
+• Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei zeigt er ihr vorher die 2 Karten, die verdeckt lagen
+• Die Punkte der abgelegten Karten zählen am Ende der Partie zu seinen Kartenpunkten
+• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn
+• Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10
+• Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte
 
-Bieten:
-• Das Mindestgebot liegt bei 350 Punkten
-• Der König erhält die 4 auf dem Tisch liegenden Karten und muss nach ihrer Einsichtnahme 4 beliebige Handkarten ablegen
-• Seine 3 Gegner bilden die Bauernpartei
-
-Unterschiede zur Dreier-Variante:
-• Niedrigeres Mindestgebot (350 statt 600 Punkte)
-• Weniger Tischkarten (4 statt 6)
-• Mehr Gegner in der Bauernpartei
-
-Spielziele:
-• Der König muss seine gebotene Punktzahl erreichen
-• Die Bauernpartei gemeinsam 1000 Punkte
-
-Übrige Regeln:
-Im Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger) für 3 Spieler.
+Das tiefere Mindestgebot hat einen Grund: Der König hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien. Ansagen, Weis, Verzicht, Schneider und das Schreiben bleiben wie beim Bieter zu dritt.
 
 **Häufige Fragen:**
-- **Wie hoch ist das Mindestgebot beim Bieter für 4 Spieler?** Das Mindestgebot liegt bei 350 Punkten, was niedriger ist als bei der Dreier-Variante (600 Punkte).
-- **Wie viele Karten liegen beim Bieter für 4 Spieler auf dem Tisch?** Beim ersten Spiel liegen 4 Karten auf dem Tisch (2 verdeckt und 2 offen), während es bei der Dreier-Variante 6 Karten sind.
-- **Wie viele Gegner hat der König beim Bieter für 4 Spieler?** Der König hat drei Gegner, die gemeinsam die Bauernpartei bilden.
-- **Welches Ziel muss die Bauernpartei beim Bieter für 4 Spieler erreichen?** Die Bauernpartei muss gemeinsam 1000 Punkte erzielen, genau wie bei der Dreier-Variante.
+- **Wie spielt man Bieter zu viert?** Wie den Bieter zu dritt, nur spielt der König gegen drei Gegner. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
+- **Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?** Im ersten Spiel 8 Karten, in zwei Gängen zu 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten.
+- **Warum ist das Mindestgebot zu viert tiefer?** Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien.
+- **Was macht der König zu viert mit den Tischkarten?** Er nimmt die 4 Karten auf und legt dafür 4 beliebige ab. Ihre Punkte zählen am Ende der Partie zu seinen Kartenpunkten.
+- **Wer gibt beim Bieter zu viert ab dem zweiten Spiel?** Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf.
 
 *Keywords: bieter, steiger, vier spieler, 350 punkte, könig*
 
@@ -258,40 +378,37 @@ Im Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger) für 3 Spieler.
 
 **Kategorie:** Varianten > Bietspiel
 
-Definition:
-Beim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei bilden.
+Der Bieter zu fünft ist der Bieter mit einem Partner: Zwei Spieler bilden die Königspartei, drei die Bauernpartei.
 
-Spiel geben:
-• Nachdem der Eichel-Siebener (Kreuz-Siebener) aus dem Spiel entfernt wurde, teilt der Spielgeber jedem Spieler zuerst vier, dann drei Karten aus
-• Jeder Spieler erhält somit bei allen Spielen je sieben Karten
+• Der Eichel-Siebner bleibt aus dem Spiel, im französischen Blatt der Kreuz-Siebner. Damit bleiben 35 Karten
+• Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel
+• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts
+• Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte
+• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner.** Damit stehen zwei gegen drei
+• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner
+• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Wie eine Runde vorgeht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen; der Verband empfiehlt, das vor der Partie abzumachen
+• Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf, wie beim Bieter zu dritt
 
-Bieten und Partner-Bestimmung:
-• Das Mindestgebot liegt bei 600 Punkten
-• Der Meistbietende gehört der Königspartei an
-• Er nennt eine Karte, die für sein Spiel von Interesse ist
-• Wer diese Karte besitzt, ist sein Partner
+## Geschrieben wird in Strichen
 
-Besondere Regeln:
-• Die Spieler der Königspartei dürfen nicht nebeneinander sitzen
-• Die beiden Parteien müssen sich gebildet haben, bevor der Spielübernehmer seine erste Karte ausspielt
-• Diese Regel gilt auch dann, wenn der Meistbietende ein Matschspiel in der Hand hält
+Zu fünft zählt die Tafel Striche statt Punkte:
 
-Schreiben:
-• Bei Gewinn: Der Meistbietende erhält zwei Striche, sein Partner einen Strich, die Spieler der Bauernpartei schreiben je einen «Härdöpfel» (Nuller)
-• Bei Verlust: Der Meistbietende schreibt zwei «Härdöpfel», sein Partner einen «Härdöpfel», die Spieler der Bauernpartei erhalten je einen Strich
+| | Meistbietender | Sein Partner | Jeder Bauer |
+|---|---|---|---|
+| Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 Härdöpfel |
+| Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |
 
-Schneider-Regel:
-Wer die Hälfte seines Ziels nicht erreicht, verliert den doppelten Einsatz.
+Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider.
 
-Übrige Regeln:
-Im Übrigen gelten die gleichen Regeln wie beim Bieter (Steiger) für drei Spieler.
+Ansagen, Weis, Verzicht und der Ablauf bleiben wie beim Bieter zu dritt.
 
 **Häufige Fragen:**
-- **Wie spielt man Bieter (5 Spieler)?** Beim Bieter für fünf Spieler bilden zwei Spieler die Königspartei, während drei Spieler die Bauernpartei bilden.
-- **Wie wird der Partner beim Bieter für fünf Spieler bestimmt?** Der Meistbietende nennt eine Karte, die für sein Spiel von Interesse ist. Wer diese Karte besitzt, wird sein Partner und bildet mit ihm die Königspartei.
-- **Wie viele Spieler bilden die Königspartei beim Bieter für fünf Spieler?** Die Königspartei besteht aus zwei Spielern (dem Meistbietenden und seinem Partner), während drei Spieler die Bauernpartei bilden.
-- **Dürfen die Spieler der Königspartei nebeneinander sitzen?** Nein, die Spieler der Königspartei dürfen nicht nebeneinander sitzen.
-- **Wie viele Karten erhält jeder Spieler beim Bieter für fünf Spieler?** Jeder Spieler erhält bei allen Spielen je sieben Karten (zuerst vier, dann drei Karten).
+- **Wie spielt man Bieter zu fünft?** Der Eichel-Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte; wer sie hält, ist sein Partner. So stehen zwei gegen drei.
+- **Wie findet der Meistbietende zu fünft seinen Partner?** Er nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, spielt mit ihm. Hält er selbst ein Matschspiel, nennt er eine beliebige Karte und bestimmt so trotzdem einen Partner.
+- **Wie wird beim Bieter zu fünft geschrieben?** Gewinnt die Königspartei, schreibt der Meistbietende 2 Striche, sein Partner 1 Strich, und jeder Bauer schreibt 1 «Härdöpfel». Verliert sie, schreibt der Meistbietende 2 «Härdöpfel», sein Partner 1, und jeder Bauer erhält 1 Strich.
+- **Wie viele Karten sind beim Bieter zu fünft im Spiel?** 35: Der Eichel-Siebner bleibt draussen, damit jeder der fünf Spieler 7 Karten hält.
+- **Wo sitzt beim Bieter zu fünft der Partner?** Die beiden Spieler der Königspartei sitzen getrennt, mit mindestens einem Bauern zwischen sich.
+- **Auf wie viele Punkte spielt die Bauernpartei zu fünft?** Auf 1000 Punkte, wie zu dritt und zu viert. Der Meistbietende bietet mindestens 600.
 
 *Keywords: bieter fünf, fünf spieler, königspartei, bauernpartei, partner bestimmen*
 
@@ -731,33 +848,20 @@ Im Übrigen gelten die gleichen Regeln wie beim Hindersi-Jass für 4 Spieler.
 
 **Kategorie:** Varianten > Königsspiel
 
-Definition:
-Pandur für 3 Spieler ist ein Dreier-Königsspiel mit denselben Steigerungsregeln wie beim Pandur für 4 Spieler.
+Der Pandur zu dritt ist der Pandur ohne den aussetzenden Spielgeber: Alle drei am Tisch halten Karten.
 
-Spiel geben:
-• Jeder Spieler erhält 8 Karten (2 x 4 Karten)
-• Der Spielgeber spielt aktiv mit, womit das «Erben» wegfällt
+• Gespielt wird mit 24 Karten, acht je Spieler, in zwei Gängen zu vier gegeben
+• Der Spielgeber spielt mit. Damit fällt das Erben weg
+• Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreiben die beiden Gegner je dieselbe Zahl
+• Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
 
-Steigern:
-Die Regeln für das Steigern bleiben gleich wie beim Pandur für 4 Spieler.
-
-Schreiben:
-• Da alle drei Spieler aktiv spielen, werden die Schreibpunkte direkt unter den Spielern aufgeteilt
-• Der Spielübernehmer erhält die entsprechenden Punkte bei Erfolg, bei Misserfolg die beiden Gegner
-
-Taktik:
-• Bei nur drei Spielern ist es schwieriger, sich gegen einen starken Spielübernehmer zu verbünden
-• Jeder Spieler muss mehr auf sich allein gestellt agieren
-
-Übrige Regeln:
-Im Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.
+Die Gegenwehr ist dieselbe wie am vollen Tisch, denn dort wie hier stehen dem Spielübernehmer zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien. Wer bietet, riskiert damit weniger, und wer gibt, spielt mit, statt zuzuschauen.
 
 **Häufige Fragen:**
-- **Wie spielt man Pandur (3 Spieler)?** Pandur für 3 Spieler ist ein Dreier-Königsspiel mit denselben Steigerungsregeln wie beim Pandur für 4 Spieler.
-- **Wie viele Karten erhält jeder Spieler beim Pandur für 3 Spieler?** Jeder Spieler erhält 8 Karten (2 x 4 Karten).
-- **Kann der Spielgeber beim Pandur für 3 Spieler punkte erben?** Nein, der Spielgeber spielt aktiv mit, womit das «Erben» wegfällt.
-- **Wie unterscheidet sich die Taktik beim Pandur für 3 Spieler?** Bei nur drei Spielern ist es schwieriger, sich gegen einen starken Spielübernehmer zu verbünden. Jeder Spieler muss mehr auf sich allein gestellt agieren.
-- **Sind die Steigerungsregeln anders als beim Pandur für 4 Spieler?** Nein, die Regeln für das Steigern bleiben gleich wie beim Pandur für 4 Spieler.
+- **Wie spielt man Pandur zu dritt?** Wie den Pandur für vier Spieler, nur hält auch der Spielgeber Karten: 24 Karten, acht je Spieler, tiefstes Gebot 100, Schritte von 10 Punkten.
+- **Wie viele Karten erhält jeder Spieler beim Pandur zu dritt?** Acht Karten, in zwei Gängen zu vier gegeben.
+- **Kann der Spielgeber beim Pandur zu dritt erben?** Der Spielgeber spielt mit, damit fällt das Erben weg. Ein verfehltes Gebot schreiben die beiden Gegner.
+- **Gelten beim Pandur zu dritt dieselben Gebote?** Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte.
 
 *Keywords: pandur drei, drei spieler pandur, ohne erben, aktiver spielgeber, direkter wettkampf*
 
@@ -892,39 +996,23 @@ In allen anderen Belangen entsprechen die Regeln denen des Handjass mit «Besser
 
 **Kategorie:** Varianten > Königsspiel
 
-Definition:
-Pandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation.
+Der Pandur zu zweit ist der Pandur ohne Team: Einer bietet, einer hält dagegen.
 
-Spiel geben:
-• Jeder Spieler erhält 8 Karten (2 x 4 Karten)
-• Die restlichen 8 Karten bilden den Stock, dessen unterste Karte eingesehen werden darf
+• Gespielt wird mit 24 Karten. Jeder erhält acht, die übrigen acht bilden den Stock
+• Die unterste Karte des Stocks darf eingesehen werden. Sie ist die einzige Auskunft über die acht Karten, die aus dem Spiel bleiben
+• Der Stock bleibt liegen. Ausgespielt werden die 16 Karten der beiden Hände, also acht Stiche
+• Vorhand eröffnet das Steigern, danach bieten die beiden abwechselnd. Sagt einer fort, steht das Gebot
+• Leiter, Wertung und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
+• Der Weis gilt auch hier: Weist der Spielübernehmer, meldet sein Gegner, sobald er höher ist, und nimmt ihm damit die Weispunkte
+• Erreicht der Spielübernehmer sein Gebot, schreibt er die Punkte. Verfehlt er es, schreibt sie sein Gegner
 
-Steigern:
-• Das Bieten erfolgt abwechselnd zwischen den beiden Spielern
-• Jeder kann das Gebot des anderen überbieten oder passen
-• Die gleichen Ansagewerte gelten wie beim Pandur für 4 Spieler
-
-Stock-Regeln:
-• Die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert
-• Der Stock selbst wird nicht gespielt, beeinflusst aber die Taktik
-
-Schreiben:
-• Der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus
-• Das macht jeden Stich besonders wertvoll
-
-Taktik:
-• Bei nur zwei Spielern wird jede Karte wichtig
-• Die Kenntnis der untersten Stock-Karte kann entscheidende Hinweise auf die Kartenverteilung geben
-
-Übrige Regeln:
-Im Übrigen gelten die gleichen Regeln wie beim Pandur für 4 Spieler.
+Zum Rechnen: Die acht Karten im Stock tragen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste. Auf den beiden Händen liegen damit noch rund 107 Punkte, und ein Ass, das im Stock liegt, holt niemand. **Schon das tiefste Gebot von 100 steht darum meist auf einem Weis**, und die unterste Stockkarte ist jeden Blick wert, bevor die erste Zahl fällt.
 
 **Häufige Fragen:**
-- **Wie spielt man Pandur (2 Spieler)?** Pandur für 2 Spieler ist ein Zweier-Königsspiel mit besonderem Fokus auf direkte Konfrontation.
-- **Kann ich beim Pandur für 2 Spieler die unterste Stock-Karte einsehen?** Ja, die unterste Karte des Stocks darf eingesehen werden, was zusätzliche Informationen für das Bieten und Spielen liefert.
-- **Wie funktioniert das Bieten beim Pandur für 2 Spieler?** Das Bieten erfolgt abwechselnd zwischen den beiden Spielern. Jeder kann das Gebot des anderen überbieten oder passen.
-- **Erhält der Verlierer beim Pandur für 2 Spieler auch Punkte?** Nein, der Gewinner eines Spiels erhält die entsprechenden Schreibpunkte, der Verlierer geht leer aus.
-- **Warum ist jeder Stich beim Pandur für 2 Spieler besonders wertvoll?** Da der Verlierer leer ausgeht und der Gewinner alle Punkte erhält, macht jeder Stich besonders wertvoll.
+- **Wie spielt man Pandur zu zweit?** Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock. Einer bietet, einer hält dagegen; gespielt werden acht Stiche.
+- **Was ist der Stock beim Pandur zu zweit?** Die acht Karten, die aus dem Spiel bleiben. Ihre unterste Karte darf eingesehen werden und ist die einzige Auskunft über den Stock.
+- **Wie wird beim Pandur zu zweit gesteigert?** Vorhand eröffnet, danach bieten die beiden abwechselnd. Sagt einer «fort», steht das Gebot. Tiefstes Gebot ist 100, gesteigert wird in Schritten von 10 Punkten.
+- **Wer schreibt beim Pandur zu zweit die Punkte?** Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreibt sie sein Gegner. Gespielt wird auf 17 Schreibpunkte, und weil rund 50 Punkte im Stock liegen, steht schon das tiefste Gebot von 100 meist auf einem Weis.
 
 *Keywords: pandur zwei, zwei spieler pandur, stock einsehen, mann gegen mann, direkter wettkampf*
 
@@ -1236,47 +1324,236 @@ Speziell beim Misère ist, dass Untertrumpfen erlaubt ist, wenn der entsprechend
 
 **Kategorie:** Varianten > Steigerungsspiel
 
-Definition:
-Der Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet.
+**Der Pandur wird streng nach Regeln gespielt.** Falsches oder überflüssiges Weisen, falsches Ausspielen, das Behalten eines fremden Stichs und Bemerkungen zum Spielverlauf kosten das laufende Spiel; ein «Bock» am Tisch gehört dazu. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
-Strenge Regeln:
-• Verstösse wie falsches oder überflüssiges Weisen, unzulässiges Ausspielen, das Umdrehen von Stichen oder Kommentare zum Spielverlauf sind untersagt
-• Verstösse werden mit dem sofortigen Verlust des betreffenden Spiels geahndet
+Der Pandur ist ein Bietspiel mit einem gegen zwei: Wer das höchste Gebot abgibt, spielt allein gegen die beiden anderen und trägt die Pflicht, die angesagte Punktzahl zu erreichen. Am Tisch sitzen vier, die Karten halten drei.
 
-Kartenspiel und Geben:
-• Verwendet wird ein reduziertes Kartenspiel mit 24 Karten, wobei Sechser, Siebner und Achter ausgeschlossen bleiben
-• Der Spielgeber verteilt je acht Karten an seine drei Mitspieler, nimmt selbst aber nicht aktiv am Spiel teil
-• Er kann jedoch Punkte «erben», also gutgeschrieben bekommen, wenn sein Team gewinnt
+## Die Grundform
 
-Steigerung:
-• Nach der Kartenverteilung beginnt die Steigerung
-• Vorhand eröffnet das Bieten und nennt basierend auf seinen Handkarten eine Punktzahl, die er zu erreichen glaubt
-• Die Mindestansage liegt bei 100 Punkten 
-• Jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen
+• Gespielt wird mit 24 Karten. Sechser, Siebner und Achter bleiben draussen; im Spiel sind Ass, König, Ober, Under, Banner und Nell in vier Farben
+• Acht Karten je Spieler, in zwei Gängen zu vier gegeben
+• Der Spielgeber gibt und sitzt aus. Er erhält keine Karten und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt
+• Der erbende Spielgeber schaut zu und schweigt, auch wenn ein Fehler am Tisch zu seinem Nachteil geschieht
+• Ab dem zweiten Spiel wird der Reihe nach in Spielrichtung gegeben, womit auch das Aussetzen wandert
+• Gibt der Spielgeber falsch, gibt derselbe Spieler neu; für dieses Spiel erbt er nichts
+• Vorhand eröffnet das Steigern, danach bietet der Reihe nach in Spielrichtung jeder Spieler
+• Wer das höchste Gebot hält, ist der Spielübernehmer. Er spielt die erste Karte aus, die beiden anderen bilden für dieses Spiel ein Team gegen ihn
+• Gespielt wird auf 17 Schreibpunkte. Verbreitet sind auch 15, 21 und 23; die Zahl macht die Runde vor der Partie ab
+• Der Pandur kennt keine Matschprämie. Wer alle Stiche holen will, sagt es an und bekommt dafür die Schreibpunkte seines Gebots
 
-Steigerungsreihenfolge:
-• Von 100 bis 200 Punkte in Schritten zu je zehn Punkten
-• Misère ohne Trumpf (zählt 8 Punkte)
-• Misère mit Trumpf (zählt 10 Punkte)
-• Von 210 bis 250 Punkte in Zehnerschritten
-• Pandur ohne Trumpf (zählt 15 Punkte)
-• Von 260 bis 300 Punkte
-• Pandur mit Trumpf (zählt 16 Punkte)
+## Was die Karten tragen
 
-Spielübernahme:
-• Der Spieler mit dem höchsten abgegebenen Gebot übernimmt das Spiel
-• Die beiden übrigen Teilnehmer bilden gemeinsam die Gegenpartei
-• Die Gegenpartei versucht, den Spielübernehmer daran zu hindern, seine angesagte Punktzahl zu erreichen
+Die Kartenwerte sind dieselben wie im vollen Blatt. Weil Sechser, Siebner und Achter draussen bleiben und diese drei Karten in der Trumpffarbe wie in jeder anderen Farbe null zählen, ändert sich an der Punktsumme nichts.
+
+| Karte | in der Trumpffarbe | in den anderen Farben |
+|---|---|---|
+| Under, der Puur | 20 | 2 |
+| Nell, die Neun | 14 | 0 |
+| Ass | 11 | 11 |
+| Banner, die Zehn | 10 | 10 |
+| König | 4 | 4 |
+| Ober | 3 | 3 |
+
+
+
+Die Trumpffarbe trägt 62 Punkte, jede andere Farbe 30. Zusammen sind das 152, dazu die 5 für den letzten Stich: **157 Punkte liegen in einem Spiel, mehr geben die Karten nicht her.**
+
+**An dieser Schranke hängt die ganze Leiter.** Wer 100 bietet, holt sie aus den Karten. Wer 200 bietet, braucht 43 Punkte aus dem Weis. Wer 300 bietet, braucht 143, also fast so viel, wie alle Karten zusammen tragen. **Die hohen Gebote sind Weisgebote**, und darum entscheidet beim Pandur oft der Weis und nicht der Stich.
+
+## Das Steigern
+
+Nach dem Geben steigert Vorhand zuerst, danach der Reihe nach in Spielrichtung. Ein Gebot nennt die Punktzahl, die der Bietende am Ende des Spiels erreicht haben will, Kartenpunkte und Weispunkte zusammengerechnet.
+
+• Das tiefste Gebot ist 100
+• Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden
+• Wer fort sagt, bleibt für dieses Spiel draussen. Die übrigen steigern in weiteren Umgängen weiter
+• **Das Steigern endet, sobald beide anderen «fort» gesagt haben.** Das höchste Gebot steht damit fest, und sein Bieter ist der Spielübernehmer
+• Wer das Spiel übernehmen will, überbietet das Gebot eines Gegners. Wer als Einziger geboten hat, übernimmt mit seinem eigenen Gebot
+• Sagen alle «fort», gibt der nachfolgende Spieler neu
+• Der Spielübernehmer, der sein Ziel für sicher hält, legt die Karten vor dem ersten Stich offen hin. Sind die Gegner gleicher Ansicht, ist das Spiel damit entschieden; widerspricht einer, wird gespielt
+
+Die Quelle nennt das «fort» ausdrücklich für den ersten Umgang. **Der Verband empfiehlt, es für das ganze Spiel gelten zu lassen:** Wer draussen ist, bleibt draussen, in jedem Umgang. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte.
+
+Gesteigert wird in dieser Reihenfolge, von unten nach oben:
+
+| Stufe | Was sie sagt |
+|---|---|
+| 100 bis 200 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |
+| Misère ohne Trumpf | Ich gebe jeden Stich ab, gespielt wird obenabe |
+| Misère mit Trumpf | Ich gebe jeden Stich ab, meine erste Karte zeigt den Trumpf |
+| 210 bis 250 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |
+| Pandur ohne Trumpf | Ich hole alle acht Stiche, gespielt wird obenabe |
+| 260 bis 300 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |
+| Pandur mit Trumpf | Ich hole alle acht Stiche, meine erste Karte zeigt den Trumpf |
+
+Die Übergänge zwischen Zahlen und Spezialansagen sind der Teil, der am Tisch am häufigsten strittig ist:
+
+• Ein «Misère ohne» überbietet ein Gebot von 200
+• Ein «Misère mit» überbietet den «Misère ohne»
+• Wer einen Misère überbieten will, steigert auf 210
+• Ein «Pandur ohne» überbietet ein Gebot von 250
+• Wer den «Pandur ohne» überbieten will, sagt mindestens 260 an
+• Ein «Pandur mit» überbietet jedes Gebot bis 300. Darüber geht es mit 310 weiter
+
+## Was ein Blatt wert ist
+
+Wie hoch ein Blatt trägt, sagt keine Quelle. Der Verband empfiehlt diese Rechnung, bevor die erste Zahl fällt:
+
+• **Die längste Farbe wird zum Trumpf.** Zähle darin Under 20, Nell 14, Ass 11 und Banner 10. Vier Trümpfe mit dem Under holen ihre Punkte fast immer heim, drei ohne Under selten
+• **Jedes Ass ausserhalb der Trumpffarbe bringt 11 Punkte** und den Stich dazu, solange die Farbe läuft. Im kurzen Blatt gehen die Farben rasch aus, darum spielt man es früh
+• **Könige und Ober tragen nur, wenn die Farbe lang ist.** Im kurzen Blatt sind sie Futter für den Gegner
+• **Der letzte Stich bringt 5 Punkte** und geht meist an den, der noch Trumpf hält
+• **Den Weis zählst du zuletzt und mit Vorbehalt.** Er zählt, solange kein Gegner höher weist
+
+Ein Beispiel: Vier Schellen mit Under, Ass, König und Banner sind 45 Punkte in der Trumpffarbe. Dazu ein Ass in einer anderen Farbe, macht 56, dazu der letzte Stich und ein paar Punkte, die die Gegner beilegen. Das trägt ein Gebot von 100 bis 140, also 2 Schreibpunkte. **Alles darüber holt sich der Bietende aus dem Weis.**
+
+Wer umgekehrt ein Blatt ohne Ass, ohne Under und ohne lange Farbe hält, prüft den Misère: Was beim Zählspiel nichts wert ist, ist dort gerade recht.
+
+## Was ein Gebot einbringt
+
+Geschrieben werden Schreibpunkte, und wie viele es sind, hängt allein von der Höhe des Gebots ab. Die Kartenpunkte bestimmen bloss, ob das Gebot erreicht ist.
+
+| Gebot | Schreibpunkte | Was gilt |
+|---|---|---|
+| 100 bis 140 | 2 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| 150 bis 190 | 3 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| 200 | 4 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| Misère ohne | 4 | Der Spielübernehmer gibt jeden Stich ab; gespielt wird obenabe ohne Trumpffarbe |
+| Misère mit | 4 | Der Spielübernehmer gibt jeden Stich ab; seine erste Karte zeigt die Trumpffarbe. Wem die ausgespielte Farbe fehlt, darf untertrumpfen |
+| 210 bis 240 | 4 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| 250 | 5 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| Pandur ohne | 5 | Der Spielübernehmer holt alle acht Stiche; gespielt wird obenabe ohne Trumpffarbe |
+| 260 bis 290 | 5 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| 300 | 6 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+| Pandur mit | 6 | Der Spielübernehmer holt alle acht Stiche; seine erste Karte zeigt die Trumpffarbe |
+| 310 und mehr | 6 | Der Spielübernehmer wählt die Trumpffarbe; Karten- und Weispunkte zählen |
+
+**Erreicht der Spielübernehmer sein Gebot, schreibt er diese Punkte.** Verfehlt er es, schreiben beide Gegner **und der Spielgeber** je dieselbe Zahl: Ein misslungenes Gebot bringt drei Spielern etwas ein, dem Bietenden nichts.
+
+**Die letzten Punkte einer Partie holt, wer Karten in der Hand hatte.** Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Was der aussetzende Spielgeber erbt, wartet auf sein nächstes Spiel mit Karten. Für die Gegner, die ein Gebot kippen, empfiehlt der Verband die nächstliegende Lesart: Sie haben gespielt, also zählen ihre Punkte auch als die letzten.
+
+Nach jedem Spiel schreibt der Schreiber die Punkte auf, beim Spielübernehmer oder bei den drei anderen. Eine Unstimmigkeit lässt sich während des ganzen folgenden Spiels reklamieren.
+
+## Der Weis
+
+Gewiesen wird nach den Weisregeln, und weil das Blatt klein ist, fallen vier Gleiche häufiger als im vollen Spiel. Der Weis gehört zu den Punktansagen: Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt er im Blatt. Bei einer Punktansage kommt eine eigene Regel dazu:
+
+• Der Spielübernehmer meldet seinen Weis
+• Von den Gegnern meldet **nur der erste, dessen Weis höher ist**. Er nimmt dem Spielübernehmer damit die Weispunkte
+• Der zweite Gegner schweigt. Seine Meldung wäre ein Spielverrat und kostet das Spiel
+• Meldet der Spielübernehmer nichts, schweigen beide Gegner: Ohne seinen Weis gibt es nichts zu überbieten
+
+Der Grund liegt in der Rechnung: Zum Gebot zählen allein die Punkte des Spielübernehmers. Ein Weis der Gegner hilft ihnen nur, indem er seinen wegnimmt. Ist das getan, trägt jede weitere Meldung bloss noch Auskunft über ein Blatt, und die gehört an diesem Tisch niemandem.
+
+**Für den Bietenden heisst das:** Ein Gebot über 157 steht auf einem Weis, den ihm ein Gegner noch nehmen kann. Wer 200 sagt, wettet darauf, dass am Tisch nichts Höheres liegt.
+
+## Ausspiel, Trumpf und Stich
+
+• Der Spielübernehmer eröffnet den ersten Stich
+• Beim Trumpfspiel zeigt die erste Karte die Trumpffarbe an, wenn sie ohne Bemerkung gespielt wird
+• Meint der Spielübernehmer eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler seine Karte gelegt hat, steht der Trumpf fest
+• Ausser beim «Pandur mit» wartet der Spielübernehmer ab, bis beide anderen «fort» gesagt haben: Das ist die Bestätigung, dass sein Gebot das höchste ist. Wer vorher ausspielt oder ein weiteres Gebot überhört haben will, verliert die Schreibpunkte, die sein Gebot getragen hätte
+• Farbzwang gilt wie sonst im Jass. Untertrumpfen bleibt dem vorbehalten, der nur noch Trumpf hält; beim «Misère mit» darf untertrumpfen, wem die ausgespielte Farbe fehlt
+• Nimmt der falsche Spieler einen Stich zu sich, reklamiert der Berechtigte sofort, und der Stich wandert dorthin, wo er hingehört. Hat der Berechtigte zum nächsten Stich bereits gespielt, bleibt der Stich liegen, wo er liegt
+• Die strenge Regel vom Anfang trifft den, der einen fremden Stich behält, statt ihn auf die Reklamation hin herauszugeben: Das kostet das laufende Spiel. So liest es der Verband, denn die Quelle nennt beide Sätze und lässt ihr Verhältnis offen
+
+## Ein Spiel von Anfang bis zur Tafel
+
+Vier sitzen am Tisch: A, B und C halten Karten, D hat gegeben und sitzt aus. A ist Vorhand.
+
+
+
+
+**Das Steigern.**
+
+| Spieler | Gebot | Was ihn dazu bringt |
+|---|---|---|
+| A | 150 | Vier Nell sind 150 Weispunkte. Dazu hält er zwei Asse: Das Gebot steht, bevor der erste Stich fällt |
+| B | 160 | Vier Könige sind 100 Weispunkte, und in Schellen hält er Under, Ass, König und Banner |
+| C | fort | Ohne Ass und ohne Nell trägt sein Blatt keine Punktansage. Für einen Misère trägt es zu viel: Mit zwei Ober und drei Banner holt er Stiche, sobald eine Farbe ausgeht, und als Spielübernehmer müsste er dazu noch ausspielen |
+| A | 190 | Mit Rosen als Trumpf zählt A sein Blatt: Nell, Ass und Ober in der Trumpffarbe, dazu das Schilten-Ass, macht rund vierzig Kartenpunkte zu den 150 aus dem Weis |
+| B | 200 | Vier Trümpfe mit dem Under und das Eichel-Ass tragen gut hundert Kartenpunkte; mit den 100 aus dem Weis ist er bei 200 |
+| A | fort | Über 200 kommt A nur mit einem Gebot, das er selber erfüllen müsste |
+
+B übernimmt das Spiel mit 200, das sind 4 Schreibpunkte. C ist seit dem ersten Umgang draussen und bleibt es.
+
+**Der erste Stich, und der Weis entscheidet.** B spielt den Schellen-Under aus, ohne etwas zu sagen: Damit ist Schellen Trumpf. Nun wird gewiesen.
+
+| Spieler | Was er hält | Was er tut |
+|---|---|---|
+| B | vier Könige, 100 | Der Spielübernehmer meldet zuerst |
+| C | Banner, Under und Ober in Schilten, 20 | C schweigt: Sein Weis ist tiefer als der von B |
+| A | vier Nell, 150 | A ist der erste Gegner mit dem höheren Weis. Er meldet, und B verliert seine 100 |
+
+**Damit steht B ohne Weispunkte da und braucht 200 aus den Karten, wo nur 157 liegen.** Gespielt wird trotzdem zu Ende, und die Rechnung zeigt, wie weit sein Blatt getragen hätte.
+
+B eröffnet die Stiche 1 bis 7, den achten eröffnet A, weil er den siebten geholt hat. Die Spalten stehen darum durchgehend in der Reihenfolge B, C, A.
+
+| Stich | B | C | A | Punkte | geht an |
+|---|---|---|---|---|---|
+| 1 | Schellen-Under 20 | Schellen-Ober 3 | Schellen-Nell 14 | 37 | B |
+| 2 | Schellen-Ass 11 | Rosen-Under 2 | Eichel-Nell 0 | 13 | B |
+| 3 | Schellen-König 4 | Eichel-Under 2 | Rosen-Nell 0 | 6 | B |
+| 4 | Schellen-Banner 10 | Schilten-Under 2 | Schilten-Nell 0 | 12 | B |
+| 5 | Eichel-Ass 11 | Eichel-Banner 10 | Eichel-Ober 3 | 24 | B |
+| 6 | Eichel-König 4 | Schilten-Ober 3 | Rosen-Ober 3 | 10 | B |
+| 7 | Rosen-König 4 | Rosen-Banner 10 | Rosen-Ass 11 | 25 | A und C |
+| 8 | Schilten-König 4 | Schilten-Banner 10 | Schilten-Ass 11 | 25 und 5 für den letzten Stich | A und C |
+
+Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34: **102 Kartenpunkte.** A und C halten 55, zusammen sind es die 157, die im Spiel liegen.
+
+**Die Tafel nach diesem Spiel:**
+
+| Spieler | Schreibpunkte | Warum |
+|---|---|---|
+| B | 0 | Er hat 200 angesagt und 102 erreicht |
+| A | 4 | Gegner eines verfehlten Gebots |
+| C | 4 | Gegner eines verfehlten Gebots |
+| D | 4 | Der Spielgeber erbt, obwohl er keine Karte gehalten hat |
+
+**Und die Lehre, die am Tisch bleibt:** Hätte B 100 angesagt, hätten seine 102 Kartenpunkte gereicht, und er hätte 2 Schreibpunkte geschrieben. Sein Gebot von 200 stand auf dem Weis, und der Weis gehörte dem, der ihn behielt.
+
+## Wenn die Partie zu Ende geht
+
+• Wer als Erster 17 Schreibpunkte hat, hat die Partie gewonnen und scheidet aus
+• Die drei übrigen spielen weiter, nun alle mit Karten und ohne aussetzenden Spielgeber
+• Erreicht ein Zweiter das Ziel, spielen die beiden Letzten um den letzten Platz
+
+## Der «Bschiss»
+
+Nach der Regelsammlung, der wir folgen, ist der Pandur die einzige Jassart, in der eine Runde vor dem Spiel abmachen kann, dass Bschiisse erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner. Diese Fassung lebt vom Einverständnis aller: Sie wird vor der Partie abgemacht und gilt dann für jeden am Tisch.
+
+## Pandur zu dritt und zu zweit
+
+Beide Fassungen behalten Leiter, Wertung und Spielregeln des Pandur für vier Spieler:
+
+• **Zu dritt** (siehe Pandur (3 Spieler)) erhält jeder Spieler acht Karten, und der Spielgeber spielt mit. Damit fällt das Erben weg: Ein verfehltes Gebot schreiben die beiden Gegner
+• **Zu zweit** (siehe Pandur (2 Spieler)) erhält jeder acht Karten. Die übrigen acht bilden den Stock, dessen unterste Karte offen liegt und von beiden angeschaut werden darf
+
+## Was «Pandur» am Tisch heisst
+
+«Pandur» ist die Ansage, alle acht Stiche zu holen. Sie steht zuoberst auf der Leiter, und sie gibt dem Spiel den Namen. Woher das Wort stammt, sagen die von uns geprüften Quellen nicht. Gespielt wird der Pandur vor allem in der Schweiz, und geschrieben wird sein Name auch «Bandur».
+
+
 
 **Häufige Fragen:**
-- **Wie spielt man Pandur?** Der Pandur ist ein anspruchsvolles Königsspiel für vier Spieler (auch mit drei oder zwei Spielern möglich), das sich durch strikte Regelbefolgung auszeichnet.
-- **Wie viele Karten werden beim Pandur gespielt?** Beim Pandur wird ein reduziertes Kartenspiel mit 24 Karten verwendet, wobei Sechser, Siebner und Achter ausgeschlossen bleiben.
-- **Wie hoch ist die Mindestansage beim Pandur?** Die Mindestansage liegt bei 100 Punkten, und jedes neue Gebot muss mindestens zehn Punkte über dem vorherigen liegen.
-- **Was passiert bei Regelverstössen beim Pandur?** Verstösse wie falsches Weisen oder unzulässiges Ausspielen werden mit dem sofortigen Verlust des betreffenden Spiels geahndet.
-- **Wie viele Punkte zählt ein Pandur mit Trumpf?** Ein Pandur mit Trumpf zählt 16 Punkte, während ein Pandur ohne Trumpf 15 Punkte zählt.
-- **Kann der Spielgeber beim Pandur punkte erben?** Ja, der Spielgeber kann Punkte «erben», also gutgeschrieben bekommen, wenn sein Team gewinnt.
+- **Wie viele Karten hat der Pandur?** Gespielt wird mit 24 Karten: Sechser, Siebner und Achter bleiben draussen. Die drei Spieler mit Karten erhalten je 8, in zwei Gängen zu vier gegeben; der Spielgeber sitzt aus.
+- **Mit wie vielen Spielern wird Pandur gespielt?** Am Tisch sitzen vier, die Karten halten drei. Der Spielgeber sitzt aus und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt. Es gibt den Pandur auch zu dritt und zu zweit.
+- **Wie hoch ist das tiefste Gebot beim Pandur?** Das tiefste Gebot ist 100 Punkte. Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden.
+- **Wie viele Punkte liegen in einem Pandur-Spiel?** Die Karten tragen 152 Punkte, dazu kommen 5 für den letzten Stich: zusammen 157. Wer mehr ansagt, holt den Rest aus dem Weis.
+- **Wie viele Schreibpunkte bringt welches Gebot beim Pandur?** 100 bis 140 bringen 2 Schreibpunkte, 150 bis 190 bringen 3, 200 bis 240 bringen 4, 250 bis 290 bringen 5, ab 300 sind es 6.
+- **Wie viele Schreibpunkte bringt ein Pandur mit Trumpf?** Ein Pandur mit Trumpf bringt 6 Schreibpunkte, ein Pandur ohne Trumpf 5. Ein Misère bringt 4, mit Trumpf wie ohne.
+- **Was geschieht, wenn der Spielübernehmer sein Gebot verfehlt?** Beide Gegner und der Spielgeber schreiben je die Schreibpunkte des Gebots. Ein misslungenes Gebot bringt also drei Spielern etwas ein.
+- **Wer darf beim Pandur weisen?** Bei einer Punktansage meldet der Spielübernehmer seinen Weis. Von den Gegnern meldet nur der erste, dessen Weis höher ist; er nimmt dem Spielübernehmer damit die Weispunkte. Der zweite Gegner schweigt, seine Meldung wäre ein Spielverrat. Meldet der Spielübernehmer nichts, schweigen beide Gegner. Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt der Weis im Blatt.
+- **Was überbietet beim Pandur was?** Ein Misère ohne Trumpf überbietet ein Gebot von 200, ein Misère mit Trumpf überbietet den Misère ohne. Wer einen Misère überbieten will, sagt 210 an. Ein Pandur ohne Trumpf überbietet 250; wer ihn überbieten will, sagt mindestens 260 an. Ein Pandur mit Trumpf überbietet jedes Gebot bis 300, darüber geht es mit 310 weiter.
+- **Wie wird beim Pandur die Trumpffarbe bestimmt?** Die erste Karte des Spielübernehmers zeigt die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Meint er eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler gelegt hat, steht der Trumpf fest.
+- **Bis wie viele Schreibpunkte wird eine Pandur-Partie gespielt?** Bis 17 Schreibpunkte. Verbreitet sind auch 15, 21 und 23; die Zahl macht die Runde vor der Partie ab.
+- **Können die letzten Punkte einer Pandur-Partie geerbt werden?** Die letzten Punkte holt, wer Karten in der Hand hatte. Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Was der aussetzende Spielgeber erbt, wartet auf sein nächstes Spiel mit Karten.
+- **Was heisst «Pandur» als Ansage?** Der Spielübernehmer holt alle acht Stiche. Die Ansage steht zuoberst auf der Leiter: mit Trumpf 6 Schreibpunkte, ohne Trumpf 5.
+- **Darf man beim Pandur bschiisse?** Der Pandur ist die einzige Jassart, in der eine Runde das vor dem Spiel abmachen kann. Wer dabei ertappt wird, hat das laufende Spiel verloren.
+- **Wie unterscheidet sich der Pandur zu dritt und zu zweit?** Zu dritt hält auch der Spielgeber 8 Karten, womit das Erben wegfällt. Zu zweit hält jeder 8 Karten, die übrigen 8 bilden den Stock, dessen unterste Karte offen liegt.
 
-*Keywords: pandur, steigern, bieten, strategisch, misère*
+*Keywords: pandur, bandur, pandur jass, bandur jass, pandur regeln*
 
 ---
 
@@ -2132,35 +2409,104 @@ Spielstrategie:
 
 **Kategorie:** Varianten > Gesellschaftsspiel
 
-Definition:
-Hose abe, Schnauz oder Schwimmen ist ein geselliges Kartenspiel für 2 bis 10 Spieler, das sich besonders für grössere Runden eignet.
+**Hose abe, Schnauz und Schwimmen sind drei Namen für dasselbe Spiel.** Gespielt wird mit Jasskarten, und doch geht es ganz anders zu als beim Jassen: Jeder hält drei Karten und sucht die höchste Summe in **einer** Farbe. Trumpf, Stiche und Weis bleiben dem Jass vorbehalten.
 
-Grundprinzip:
-Jeder Teilnehmer erhält drei Karten und versucht, möglichst schnell eine möglichst wertvolle Kombination zu bilden. Eine gültige Kombination entsteht, wenn die drei Karten entweder dieselbe Farbe haben oder denselben Wert aufweisen, beispielsweise drei Asse, drei Könige oder drei Sechser.
+Der Name sagt, worum es geht: **Wer 31 Punkte in einer Farbe zusammenbringt, ruft «Hose abe», und das Spiel ist aus.** In anderen Gegenden heisst dasselbe Blatt «Schnauz», anderswo «Schwimmen» oder schlicht «31».
 
-Die Kartenkombinationen:
-• «Hose abe»: Ein Ass und zwei Figuren derselben Farbe bringen 31 Punkte ein (höchste Wertung)
-• «Trio»: Drei Karten gleichen Wertes zählen stets 30½ Punkte (zweithöchste Wertung)
-• Farbkombinationen: Drei Karten derselben Farbe werden nach ihren Kartenwerten addiert
+Dieser Artikel beschreibt die in der Schweiz verbreitete Spielweise mit dem 36er-Blatt. Ausserhalb der Schweiz wird dasselbe Spiel meist mit 32 Karten gespielt, dort fehlen die Sechser. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
-Spielablauf:
-• Die Spieler können ihre Karten tauschen oder durch «klopfen» signalisieren, dass sie zufrieden sind
-• Beim Tauschen ist es möglich, entweder nur eine Karte oder alle drei Karten zu wechseln
-• Besitzt ein Spieler einen «Hose abe», muss er sofort «klopfen» und das Spiel beenden
+## Die Grundform
 
-Einsätze und Ausscheiden:
-• Jeder Spieler startet mit drei Einsätzen
-• Nach jedem Spiel verliert der Teilnehmer mit den wenigsten Punkten einen Einsatz
-• Wer alle drei Einsätze verloren hat, darf noch eine letzte Runde «mitschwimmen», bevor er ausscheidet
+• 2 bis 11 Spieler, ein volles Blatt mit 36 Karten
+• Jeder erhält drei Karten, dazu kommen drei Karten in die Mitte
+• **Die Zahl 11 ist keine Willkür:** 11 Spieler halten 33 Karten, dazu die drei in der Mitte, und das Blatt ist aufgebraucht
+• Es beginnt, wer zur Linken des Spielgebers sitzt; danach geht es der Reihe nach
+• Wer an der Reihe ist, tauscht eine Karte gegen eine aus der Mitte, tauscht alle drei auf einmal, oder klopft
+• Gezählt wird nur, was in einer Farbe liegt. Drei gleiche Karten sind der einzige Fall, in dem die Farben gleichgültig sind
+• Jeder beginnt mit drei Einsätzen. Nach jedem Spiel gibt die tiefste Punktzahl einen Einsatz ab
+• Wer alle drei Einsätze abgegeben hat, **schwimmt**: Er spielt weiter und scheidet beim nächsten Verlust aus
+• Das nächste Spiel gibt der nächste Spieler im Kreis
+
+## Was die Karten zählen
+
+Die Kartenwerte des Jassens gelten hier nicht:
+
+| Karte | Beim Hose abe | Beim Jassen, ohne Trumpf |
+|---|---|---|
+| Ass | 11 | 11 |
+| König | 10 | 4 |
+| Ober | 10 | 3 |
+| Under | 10 | 2 |
+| Banner | 10 | 10 |
+| Neun, Acht, Sieben, Sechs | 9, 8, 7 und 6 | null |
+
+**Zwei Zeilen tragen den Unterschied:** König, Ober und Under zählen hier zehn statt vier, drei und zwei, und die tiefen Karten zählen ihre eigene Zahl statt null. Darum ist eine Sechs hier eine Karte und im Jass ein Blatt Papier.
+
+## Die Blätter, die zählen
+
+
+
+
+**Die Reihenfolge ist damit klar:** Die 31 steht zuoberst, drei Gleiche mit 30½ knapp darunter, und alles andere richtet sich nach seiner Summe. Wer Karten in zwei Farben hält, zählt die höhere der beiden Summen. Liegen alle drei Karten in verschiedenen Farben, zählt die höchste einzelne Karte.
+
+**Weil König, Ober, Under und Banner hier alle zehn zählen, führen sechs Wege zur 31**, in jeder Farbe: das Ass dazu, und zwei beliebige aus diesen vieren. Wer mit Jass-Werten rechnet, kommt in einer Farbe höchstens auf 25 und wundert sich, woher der Name «31» kommt.
+
+## Wie ein Spiel läuft
+
+Der Spielgeber gibt jedem drei Karten und legt drei verdeckt in die Mitte. Er sieht seine eigenen zuerst an und hat damit eine Wahl, die sonst niemand hat:
+
+• **Er behält sie.** Dann werden die drei Karten in der Mitte aufgedeckt, und das Spiel beginnt
+• **Er legt sie offen in die Mitte** und nimmt dafür die drei verdeckten, ungesehen, wie sie kommen
+
+Dann geht es der Reihe nach. Wer an der Reihe ist, hat diese Züge:
+
+| Zug | Was geschieht |
+|---|---|
+| Eine Karte tauschen | Eine Handkarte wandert offen in die Mitte, eine Karte aus der Mitte in die Hand |
+| Alle drei tauschen | Die ganze Hand geht offen in die Mitte, die drei Karten aus der Mitte kommen in die Hand |
+| Klopfen | Der Spieler behält, was er hat, und setzt damit das Ende |
+
+**Nach dem Klopfen ist jeder noch einmal an der Reihe**, bis der Klopfer wieder dran wäre. Dann werden die Karten aufgedeckt und die Summen verglichen.
+
+Das Klopfen dieses Spiels ist ein eigener Zug und hat mit dem Klopfen am Jasstisch nichts zu tun, das dort als Zeichen an den Partner untersagt ist.
+
+Verbreitet ist ein vierter Zug: **das Schieben.** Wer nichts brauchen kann, lässt aus, ohne zu tauschen und ohne zu klopfen. Schieben alle nacheinander, kommen drei neue Karten in die Mitte. So bleibt kein Spiel stecken, in dem niemand mehr tauschen mag.
+
+Zwei Blätter beenden das Spiel sofort, ohne die letzte Runde:
+
+• **Die 31.** Wer sie hält, legt sie auf, und das Spiel ist aus
+• **«Füür im Dach»**, also drei Asse. Diese Fassung macht die Runde vor Spielbeginn ab; ohne sie sind drei Asse drei gleiche Karten und zählen 30½
+
+
+## Einsätze, schwimmen, ausscheiden
+
+Jeder legt drei Einsätze vor sich hin. **Nach jedem Spiel gibt einen Einsatz ab, wer die tiefste Summe hält.** Das gilt auch dann, wenn ein anderer mit einer 31 vorzeitig aufgelegt hat. Halten zwei dieselbe tiefste Summe, macht die Runde vor Spielbeginn ab, ob beide zahlen oder keiner.
+
+Wer alle drei Einsätze abgegeben hat, **schwimmt**. Er bleibt am Tisch und spielt weiter, hat aber nichts mehr vor sich liegen: Beim nächsten verlorenen Spiel scheidet er aus. Daher der Name des Spiels, und daher die Redensart, dass einer noch einmal mitschwimmen darf.
+
+Gewonnen hat, wer als Letzter am Tisch sitzt.
+
+## Warum es hier steht
+
+Hose abe ist kein Jass, und es steht doch in jeder Jassbeiz. Es braucht dasselbe Blatt, drei Karten je Spieler und fünf Minuten Erklärung, und es geht zu zweit ebenso wie zu elft. Damit ist es das Spiel, das an den Tisch kommt, wenn für einen Jass die Zahl der Leute gerade nicht passt.
+
+
 
 **Häufige Fragen:**
-- **Wie spielt man Hose abe/Schnauz/Schwimmen?** Hose abe, Schnauz oder Schwimmen ist ein geselliges Kartenspiel für 2 bis 10 Spieler, das sich besonders für grössere Runden eignet.
-- **Wie viele Punkte ist ein «Hose abe» wert?** Ein «Hose abe» (ein Ass und zwei Figuren derselben Farbe) bringt 31 Punkte ein und ist die höchste Wertung.
-- **Was ist ein «Trio» und wie viele Punkte zählt es?** Ein «Trio» besteht aus drei Karten gleichen Wertes und zählt stets 30½ Punkte, was die zweithöchste Wertung ist.
-- **Wie viele Einsätze hat jeder Spieler beim Start?** Jeder Spieler startet mit drei Einsätzen. Nach jedem Spiel verliert der Spieler mit den wenigsten Punkten einen Einsatz.
-- **Was passiert, wenn ich einen «Hose abe» habe?** Wenn du einen «Hose abe» besitzt, musst du sofort «klopfen» und das Spiel beenden.
+- **Wie spielt man Hose abe?** Jeder erhält drei Karten, drei weitere kommen in die Mitte. Wer an der Reihe ist, tauscht eine Karte oder alle drei gegen die Karten in der Mitte, oder er klopft. Gezählt wird die Summe in einer Farbe; wer 31 zusammenbringt, legt auf, und das Spiel ist aus.
+- **Was ist ein «Hose abe»?** Das Ass und zwei Karten derselben Farbe, die zehn zählen: 11 plus 10 plus 10 macht 31 Punkte. Das ist die höchste mögliche Summe, und sie beendet das Spiel sofort.
+- **Wie zählen die Karten beim Hose abe?** Das Ass zählt 11, König, Ober, Under und Banner je 10, und Neun, Acht, Sieben und Sechs zählen ihre eigene Zahl. Die Kartenwerte des Jassens gelten hier nicht: Dort zählt der König 4, der Ober 3, der Under 2, und die tiefen Karten zählen null.
+- **Was zählen drei gleiche Karten beim Hose abe?** 30½ Punkte, gleich in welchen Farben sie liegen. Damit stehen sie knapp unter der 31.
+- **Wie viele Spieler können Hose abe spielen?** 2 bis 11. Bei 11 Spielern sind 33 Karten in den Händen und drei liegen in der Mitte, damit ist das Blatt mit 36 Karten aufgebraucht.
+- **Was heisst «schwimmen» beim Hose abe?** Jeder beginnt mit drei Einsätzen, und nach jedem Spiel gibt die tiefste Summe einen ab. Wer alle drei abgegeben hat, schwimmt: Er spielt weiter und scheidet beim nächsten verlorenen Spiel aus.
+- **Was bedeutet Klopfen beim Hose abe?** Wer klopft, behält seine Karten und setzt das Ende. Alle anderen sind noch einmal an der Reihe, bis der Klopfer wieder dran wäre; dann wird aufgedeckt. Mit dem Klopfen am Jasstisch, das als Zeichen an den Partner untersagt ist, hat dieser Zug nichts zu tun.
+- **Was ist «Füür im Dach»?** Drei Asse. Wo eine Runde diese Fassung spielt, beenden sie das Spiel auf der Stelle. Ohne diese Abmachung sind drei Asse drei gleiche Karten und zählen 30½.
+- **Was darf der Spielgeber beim Hose abe?** Er sieht seine drei Karten zuerst an und entscheidet: behalten, dann werden die drei Karten in der Mitte aufgedeckt. Oder er legt seine drei offen in die Mitte und nimmt dafür die verdeckten, ungesehen.
+- **Was ist Schieben beim Hose abe?** Wer nichts brauchen kann, lässt aus, ohne zu tauschen und ohne zu klopfen. Schieben alle nacheinander, kommen drei neue Karten in die Mitte. Dieser Zug ist verbreitet und wird vor Spielbeginn abgemacht.
+- **Ist Hose abe dasselbe wie Schnauz oder Schwimmen?** Ja, drei Namen für dasselbe Spiel. Verbreitet ist auch «31». In der Schweiz wird es mit dem 36er-Blatt gespielt, anderswo meist mit 32 Karten.
+- **Ist Hose abe ein Jass?** Gespielt wird es mit Jasskarten, doch Trumpf, Stiche und Weis bleiben dem Jass vorbehalten. Jeder hält nur drei Karten.
 
-*Keywords: hose abe, schnauz, schwimmen, gesellschaftsspiel, viele spieler*
+*Keywords: hose abe, hoseabe, hosenabe, schnauz, schwimmen*
 
 ---
 

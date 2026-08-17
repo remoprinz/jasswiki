@@ -4,7 +4,7 @@ description: "Fortgeschrittene Spieltaktiken für erfahrene Jasser"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 10
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
 ---

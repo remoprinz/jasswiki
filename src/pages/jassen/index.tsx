@@ -225,7 +225,7 @@ const JassenPage: NextPage = () => {
             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black mb-3">Königsspiele (einer gegen alle)</h3>
             <ul className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-2 mb-6 list-disc pl-5">
               <li><Link href="/varianten/pandur/" className="text-[#ff0000] hover:underline font-medium">Pandur</Link> — Der Höchstbietende spielt allein gegen die anderen. 24 Karten. Betrügen erlaubt.</li>
-              <li><Link href="/varianten/bieter-4-spieler/" className="text-[#ff0000] hover:underline font-medium">Bieter</Link> — Verwandt mit Pandur, aber mit 36 Karten.</li>
+              <li><Link href="/varianten/bieter/" className="text-[#ff0000] hover:underline font-medium">Bieter</Link> — Verwandt mit Pandur, aber mit 36 Karten.</li>
             </ul>
 
             {/* Gesellschaftsspiele */}

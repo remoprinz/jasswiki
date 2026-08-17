@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 25
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -150,6 +150,43 @@ Farbe für Farbe, von der höchsten zur tiefsten Karte, beide Systeme im direkte
 
 Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch), einer modernen Neuillustration des klassischen Schweizer Blatts. Der Schweizer Grafiker Jens Riedweg hat es als Vektorgrafik gestaltet, gedruckt werden die Karten in der Schweiz. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.
 
+## Die neun Karten einer Farbe
+
+**Ein Jass-Set hat 36 Karten: vier Farben mit je neun Karten.** Von der höchsten zur tiefsten heissen sie Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen dieselben Karten Ass, König, Dame, Bube, Zehn, Neun, Acht, Sieben und Sechs.
+
+Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14. Was jede Karte zählt, steht weiter unten.
+
+## Was die vier Symbole zeigen
+
+Der Deutschschweizer Satz zeigt vier Dinge, die man benennen kann: eine **Eichel** (siehe Eichel), eine rote **Rose** (siehe Rosen), eine **Schelle** (siehe Schellen), also ein kleines Glöckchen, und einen **Schild** (siehe Schilten).
+
+Der französische Satz zeigt die vier Zeichen, die auch international gelten:
+
+| Deutschschweizer Symbol | Französisches Symbol | International |
+|---|---|---|
+| Eichel | Kreuz, französisch Trèfle | ♣ |
+| Rosen | Herz, französisch Cœur | ♥ |
+| Schellen | Ecke, französisch Carreau | ♦ (Karo) |
+| Schilten | Schaufel, französisch Pique | ♠ (Pik) |
+
+## Was jede Karte zählt
+
+Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen überall gleich viel:
+
+| Karte | In der Trumpffarbe | In den anderen Farben |
+|---|---|---|
+| Under, der Puur | 20 | 2 |
+| Nell, die Neun | 14 | 0 |
+| Ass | 11 | 11 |
+| Banner, die Zehn | 10 | 10 |
+| König | 4 | 4 |
+| Ober | 3 | 3 |
+| Acht, Sieben, Sechs | 0 | 0 |
+
+**Ein Spiel trägt 157 Punkte:** 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg; dort zählt die Acht 8 Punkte, und in Undenufe übernimmt der Sechser die 11 des Asses. Die Summe bleibt in jeder Spielart bei 157. Alles dazu steht bei den Kartenwerten.
+
+Diese Werte gelten für das Jassen. **Kartenspiele, die bloss dasselbe Blatt benutzen, rechnen anders**: Beim Hose abe etwa zählen König, Ober und Under je zehn.
+
 ## Welches System wo?
 
 Welches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel Jass-Regionen. Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.
@@ -160,13 +197,23 @@ Das heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Fig
 
 Mehr zur Herkunft der Spielkarten steht unter Woher kommen Spielkarten?, mehr zur Herstellung unter Schweizer Kartenmacher.
 
+
+
+
 **Häufige Fragen:**
-- **Welche Kartenfarben gibt es beim Jassen?** Vier je System: Deutschschweizer (Eichel, Rosen, Schellen, Schilten) und Französisch (Kreuz, Herz, Ecke, Schaufel).
-- **Sind die beiden Kartensysteme gleichwertig?** Ja, funktional. Nur die Bilder unterscheiden sich.
-- **Welche französische Farbe entspricht Schellen?** Ecke (Karo).
-- **Welche französische Farbe entspricht Schilten?** Schaufel (Pik).
+- **Wie viele Karten hat ein Jass-Set?** 36 Karten: vier Farben mit je neun Karten. Das gilt für beide Kartensysteme, das Deutschschweizer wie das französische.
+- **Wie heissen die neun Karten einer Farbe?** Von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen Ober und Under Dame und Bube, das Banner heisst Zehn.
+- **Welche Kartenfarben gibt es beim Jassen?** Vier je System: Deutschschweizer heissen sie Eichel, Rosen, Schellen und Schilten, französisch Kreuz, Herz, Ecke und Schaufel.
+- **Was zeigen die Symbole auf den Deutschschweizer Jasskarten?** Eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild.
+- **Was zeigen die Symbole auf den französischen Jasskarten?** Kreuz (Trèfle, ♣), Herz (Cœur, ♥), Ecke (Carreau, ♦, im deutschen Blatt Karo) und Schaufel (Pique, ♠, im deutschen Blatt Pik).
+- **Sind die beiden Kartensysteme gleichwertig?** Ja, funktional. Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.
+- **Welche französische Farbe entspricht Schellen?** Ecke, im deutschen Standardblatt Karo.
+- **Welche französische Farbe entspricht Schilten?** Schaufel, im deutschen Standardblatt Pik.
 - **Welche französische Farbe entspricht Rosen?** Herz.
-- **Welche französische Farbe entspricht Eichel?** Kreuz (Trèfle).
+- **Welche französische Farbe entspricht Eichel?** Kreuz, französisch Trèfle.
+- **Welche Karte heisst Puur und welche Nell?** In der Trumpffarbe heisst der Under Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14 Punkte.
+- **Wie viele Punkte zählt jede Jasskarte?** In der Trumpffarbe: Under (Puur) 20, Neun (Nell) 14, Ass 11, Banner 10, König 4, Ober 3, und Acht, Sieben, Sechs je null. In den anderen Farben: Ass 11, Banner 10, König 4, Ober 3, Under 2, und Neun bis Sechs null.
+- **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt in jeder Spielart gleich.
 
 *Keywords: jasskarten, schweizer spielkarten, kartenfarben, jass farben, eichel rosen schellen schilten*
 

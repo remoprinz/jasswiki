@@ -4,7 +4,7 @@ description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 7
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
 ---
