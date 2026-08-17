@@ -463,7 +463,7 @@ Kommentare über eine unschlagbare Karte (z.B.
 - **Was passiert bei Spielverrat durch Bemerkungen?** Die Gegner entscheiden, ob das Spiel annulliert wird oder der Fehler ohne Einfluss bleibt.
 - **Sind nonverbale Zeichen erlaubt?** Nein, auch nonverbale Zeichen wie Gestik oder Mimik sind nicht erlaubt.
 - **Gibt es Ausnahmen von der Schnorren-Regel?** Ja, beim Aucho gelten eigene Regeln für Bemerkungen. Generell sind nur neutrale Aussagen ohne Informationsgehalt erlaubt.
-- **Was gilt als Spielverrat (Schnorren)?** Bemerkungen über Karten, Punkte, Taktik; nonverbale Zeichen; Antworten auf Fragen. Ausnahme: Beim Aucho gelten eigene Regeln. Konsequenz: Gegner entscheiden ob Spiel annulliert wird.
+- **Was gilt als Spielverrat (Schnorren)?** Bemerkungen über Karten, Punkte und Taktik, nonverbale Zeichen, Antworten auf Fragen. Ausnahme: Beim Aucho gelten eigene Regeln. Konsequenz: Gegner entscheiden ob Spiel annulliert wird.
 
 *Keywords: bemerkungen, kommentare, schnorren, spielverrat, zeichengeben*
 
@@ -804,7 +804,7 @@ Obenabe und Undenufe:
 In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die fehlenden 32 Punkte aus Puur und Nell gleichen die vier Achter aus, sodass das Total bei 157 bleibt.
 
 **Häufige Fragen:**
-- **Was sind die Kartenwerte beim Jassen?** Ohne Trumpf zählt das Ass 11, das Banner (Zehner) 10, der König 4, der Ober 3 und der Under 2 Punkte; Neuner, Achter, Siebner und Sechser zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte). Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.
+- **Was sind die Kartenwerte beim Jassen?** Ohne Trumpf zählt das Ass 11, das Banner (Zehner) 10, der König 4, der Ober 3 und der Under 2 Punkte. Neuner, Achter, Siebner und Sechser zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte). Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.
 - **Wie viele Punkte zählt das Ass?** 11 Punkte. In Undenufe übernimmt der Sechser diese Rolle als höchste Karte.
 - **Wie viele Punkte zählt der Puur?** 20 Punkte, die höchste Karte im Trumpf. Der Nell folgt mit 14.
 - **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten plus 5 für den letzten Stich.
@@ -1351,7 +1351,7 @@ Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vol
 Die Stöck sind die Kombination aus Trumpf-König und Trumpf-Ober (Dame). Sie zählen 20 Punkte und gehören zu den Weisen. Die Form bleibt in Einzahl wie Mehrzahl «die Stöck».
 
 
-Entscheidend ist das Wort Trumpf. König und Ober einer anderen Farbe sind zwei gewöhnliche Karten; erst im Trumpf werden sie zu den Stöck.
+Entscheidend ist das Wort Trumpf. König und Ober einer anderen Farbe sind zwei gewöhnliche Karten. Erst im Trumpf werden sie zu den Stöck.
 
 Wann man die Stöck weist:
 Die Stöck werden in dem Moment angesagt, in dem ein Spieler seine zweite Stöck-Karte ausspielt. Ist diese Karte gedeckt, können sie nicht mehr gemeldet werden. Der Partner darf nicht auf vorhandene Stöck hinweisen.
@@ -1451,11 +1451,11 @@ Ausnahme letzter Stich:
 
 **Kategorie:** Weis-Regeln > Weispunkte
 
-**Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt.** Wer sie hält, meldet sie mit seiner ersten Karte; wer sie behält, schreibt sie. Es gibt zwei Arten, und beide sind auf einen Blick erkennbar: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+**Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt.** Wer sie hält, meldet sie mit seiner ersten Karte. Wer sie behält, schreibt sie. Es gibt zwei Arten, und beide sind auf einen Blick erkennbar: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Die Blattfolge
 
-Eine Blattfolge sind drei oder mehr aufeinanderfolgende Karten derselben Farbe. **Die Rangfolge ist in jeder Farbe dieselbe, gleich, was Trumpf ist:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass, von der tiefsten zur höchsten Karte. Puur und Nell bleiben für den Weis an ihrem Platz; ihre Trumpfkraft zählt beim Stechen, beim Weisen zählt die Farbfolge. Alle Kartenreihen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts.
+Eine Blattfolge sind drei oder mehr aufeinanderfolgende Karten derselben Farbe. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, ihre Trumpfkraft zählt beim Stechen. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Blattfolgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts. Die Stöck stehen so, wie man sie nennt: König und Ober.
 
 Jede Karte mehr hebt den Weis um eine Stufe, ab dem Vierblatt um 50 Punkte je Karte.
 
@@ -1490,7 +1490,7 @@ Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten
 | Siebenblatt | 7 in Folge | 200 |
 | Achtblatt | 8 in Folge | 250 |
 | Neunblatt | 9 in Folge, die ganze Farbe | 300 |
-| Vier Gleiche | Ass, König, Ober, Banner, Acht, Sieben oder Sechs | 100 |
+| Vier Gleiche | Sechs, Sieben, Acht, Banner, Ober, König oder Ass | 100 |
 | Vier Nell | die vier Neuner | 150 |
 | Vier Puur | die vier Under | 200 |
 | Stöck | König und Ober im Trumpf | 20 |
@@ -1499,7 +1499,7 @@ Beim Schieber wird der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart mu
 
 ## Wer schreibt: der höchste einzelne Weis entscheidet
 
-**Es zählt der höchste einzelne Weis am Tisch.** Die Partei, die ihn hält, schreibt alle ihre Weise, auch die kleinen; die Gegenpartei schreibt keinen. Zwei Dreiblatt auf der einen Seite sind zusammen 40 und verlieren gegen ein einziges Vierblatt mit 50 auf der anderen: Die Vierblatt-Partei schreibt 50, die andere nichts.
+**Es zählt der höchste einzelne Weis am Tisch.** Die Partei, die ihn hält, schreibt alle ihre Weise, auch die kleinen. Zwei Dreiblatt auf der einen Seite sind zusammen 40 und verlieren gegen ein einziges Vierblatt mit 50 auf der anderen: Die Vierblatt-Partei schreibt 50, die andere nichts.
 
 Ausgenommen sind die Stöck: Sie schreibt ihre Partei in jedem Fall.
 
@@ -1523,16 +1523,16 @@ Schritt 2 heisst zugleich: **Eine Blattfolge schlägt vier Gleiche desselben Wer
 
 ## Melden: so läuft es am Tisch
 
-Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird zuerst allein die Punktzahl. Die Karten bleiben in der Hand; gezeigt wird ein Weis erst, wenn die Gegenpartei ihn nach dem ersten Stich sehen will.
+Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird zuerst allein die Punktzahl. Die Karten bleiben in der Hand. Aufgelegt wird ein Weis, sobald ein Mitspieler ihn nach dem ersten Stich sehen will.
 
 | Wer | Sagt | Was es heisst |
 |---|---|---|
 | Vorhand, mit der ersten Karte | «Fünfzig» | Ich halte einen Weis von 50 |
-| Gegner, mit seiner Karte | «Fünfzig auch» | Ich halte ebenso viel; jetzt wird verglichen |
+| Gegner, mit seiner Karte | «Fünfzig auch» | Ich halte ebenso viel, jetzt wird verglichen |
 | Vorhand | «Vom Ass» | Meine Folge reicht bis zum Ass |
-| Gegner | «Gut» | Deiner ist höher; meine Partei schreibt nichts |
+| Gegner | «Gut» | Deiner ist höher, meine Partei schreibt nichts |
 
-Reicht auch die Karte für den Entscheid nicht, folgt «Trumpf?» und zuletzt die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise; der wertvollere Weis einer Hand wird zuerst genannt.
+Reicht auch die Karte für den Entscheid nicht, folgt «Trumpf?» und zuletzt die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise. Der wertvollere Weis einer Hand wird zuerst genannt. **Nach dem ersten Stich nennt der Gewinner seinen Weis mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Genannt wird er spätestens vor dem Ausspiel zum zweiten Stich, danach ist er verfallen. So hält es das Schweizer Jassverzeichnis mit Berufung auf das Reglement.
 
 ## Kreuzweis: eine Karte in zwei Weisen
 
@@ -1543,30 +1543,30 @@ Mehr dazu im Artikel Kreuzweis.
 
 ## Weis in Obenabe und Undenufe
 
-Blattfolgen und vier Gleiche gelten in jeder Spielart. **In Undenufe ist die tiefste Karte massgebend**, weil dort der Sechser die höchste Karte ist: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. In Obenabe gilt die gewohnte Ordnung vom Ass her. Stöck gibt es in beiden nicht, weil kein Trumpf da ist.
+Blattfolgen und vier Gleiche gelten in jeder Spielart. **In Undenufe ist die tiefste Karte massgebend**, weil dort der Sechser die höchste Karte ist: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. In Obenabe gilt die gewohnte Ordnung vom Ass her. Vier Nell zählen 150 und vier Puur 200 auch dort, wo kein Trumpf ist. Die Stöck setzen Trumpf voraus und fallen in beiden Spielarten weg.
 
 
 
 ## Zwei Regeln, die Streit vermeiden
 
 • **Ein Weis zählt unabhängig vom Stichverlauf.** Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem
-• **Ein falsch gemeldeter Weis wird gestrichen.** Was der Melder dafür gezeigt hat, kennen die Gegner nun; eine weitergehende Strafe macht die Runde vor der Partie ab
+• **Ein falsch gemeldeter Weis wird gestrichen.** So halten es die Tische, ein Reglement dazu nennen die Quellen keines. Was der Melder dafür gezeigt hat, kennen die Gegner nun. Eine weitergehende Strafe macht die Runde vor der Partie ab
 
 
 **Häufige Fragen:**
-- **Was ist ein Weis beim Jassen?** Eine Kartenverbindung, die Punkte bringt, bevor der erste Stich fällt: drei oder mehr aufeinanderfolgende Karten derselben Farbe, oder vier gleiche Karten. Gemeldet wird sie mit der ersten Karte.
+- **Was ist ein Weis beim Jassen?** Eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt: drei oder mehr aufeinanderfolgende Karten derselben Farbe, oder vier gleiche Karten. Gemeldet wird sie mit der ersten Karte.
 - **Welche Kartenkombinationen zählen beim Jassen als Weis?** Blattfolgen von drei bis neun Karten derselben Farbe (Dreiblatt bis Neunblatt), vier gleiche Karten (vier Gleiche, vier Nell, vier Puur) und die Stöck, also König und Ober der Trumpffarbe.
 - **Wie viele Punkte gibt ein Dreiblatt?** 20 Punkte.
 - **Wie viele Punkte gibt ein Vierblatt?** 50 Punkte.
 - **Wie viele Punkte gibt ein Fünfblatt?** 100 Punkte. Danach steigt es je Karte um 50: Sechsblatt 150, Siebenblatt 200, Achtblatt 250, Neunblatt 300.
-- **Wie viele Punkte geben vier Gleiche?** 100 Punkte für vier Asse, Könige, Ober oder Banner. Vier Nell zählen 150, vier Puur 200.
-- **Zählen vier Sechser, Siebner oder Achter als Weis?** Ja, je 100 Punkte, wie vier Asse. Ältere Regeln liessen sie nicht gelten; wer so spielt, macht es vor der Partie ab.
-- **In welcher Reihenfolge zählt die Blattfolge?** In jeder Farbe gleich, von der tiefsten zur höchsten Karte: Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass, gleich, was Trumpf ist. Puur und Nell bleiben für den Weis an ihrem Platz.
+- **Wie viele Punkte geben vier Gleiche?** 100 Punkte für vier Sechser, Siebner, Achter, Banner, Ober, Könige oder Asse. Vier Nell zählen 150, vier Puur 200.
+- **Zählen vier Sechser, Siebner oder Achter als Weis?** Ja, je 100 Punkte, wie vier Asse. Ältere Regeln liessen sie nicht gelten. Wer so spielt, macht es vor der Partie ab.
+- **In welcher Reihenfolge zählt die Blattfolge?** Welche Karten eine Folge bilden, ist in jeder Farbe und Spielart gleich: Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz. Bei Trumpf und Obenabe ist das Ass das obere Ende, in Undenufe der Sechser.
 - **Welcher Weis ist höher, wenn beide gleich viel zählen?** Zuerst mehr Karten (ein Fünfblatt schlägt vier Könige), dann die höhere Karte (Dreiblatt vom Ass schlägt Dreiblatt vom König), dann Trumpf, und ist alles gleich, wer zuerst gemeldet hat.
 - **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keinen. Zwei Dreiblatt (40) verlieren gegen ein Vierblatt (50). Die Stöck schreibt ihre Partei in jedem Fall.
-- **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl; gezeigt wird der Weis erst, wenn die Gegenpartei ihn nach dem ersten Stich sehen will.
-- **Was ist ein Kreuzweis?** Eine Karte, die zugleich zu einer Blattfolge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte.
-- **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist die tiefste Karte massgebend: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Stöck gibt es dort keine, weil kein Trumpf da ist.
+- **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt der Gewinner seinen Weis mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt ihn auf, sobald ein Mitspieler es verlangt.
+- **Was ist ein Kreuzweis?** Der Fall, dass eine Karte zugleich zu einer Blattfolge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte.
+- **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist die tiefste Karte massgebend: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Ein gemeldeter Weis zählt unabhängig vom Stichverlauf.
 - **Was passiert bei einem falschen Weis?** Er wird gestrichen, und die Gegner kennen die gezeigten Karten. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 - **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.
@@ -1921,13 +1921,13 @@ Im ersten Stich  erreicht ein Team das Gesamtziel, während das andere Team sich
 
 **Kategorie:** Regeln > Spielablauf
 
-Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele; die Zahlen darin setzt jede Jassart selbst.
+Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele. Die Zahlen darin setzt jede Jassart selbst.
 
 ## Der Ablauf
 
 1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt
 2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet und nennt ein Gebot
-3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für diese Bietrunde draussen
+3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/) und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort bindet ein «fort» erst, wenn schon ein Gebot gefallen ist
 4. Das Bieten geht mehrmals im Kreis herum. Es endet, sobald die übrigen Spieler fort gesagt haben
 5. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart
 
@@ -1957,7 +1957,7 @@ Beim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe
 
 ## Was das Gebot bindet
 
-Der Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).
+Der Spielübernehmer verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite. Verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).
 
 Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen fort gesagt haben, steht das Spiel fest.
 
@@ -1965,7 +1965,7 @@ Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem n
 - **Wie läuft eine Bietrunde beim Jassen ab?** Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot. Der Reihe nach überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht mehrmals im Kreis herum und endet, sobald die übrigen Spieler fort gesagt haben. Der Meistbietende übernimmt das Spiel und bestimmt die Spielart.
 - **Wer beginnt das Bieten?** Vorhand eröffnet und nennt das erste Gebot, danach kommt in Spielrichtung jeder Spieler an die Reihe.
 - **Wie viel muss ein neues Gebot über dem alten liegen?** Das setzt jede Jassart selbst: beim Bieter 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt, 350 beim Bieter zu viert, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani empfiehlt der Jassverband Schweiz 50 als tiefstes Gebot.
-- **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite; verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich.
+- **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Erreicht er sie, schreibt seine Seite. Verfehlt er sie, schreibt die Gegenseite. Wie viel dabei auf die Tafel kommt, regelt jede Jassart für sich.
 - **Nennt ein Gebot auch die Trumpffarbe?** Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
 
 *Keywords: bietrunde, bieten, steigern, gebot, meistbietender*
@@ -2008,24 +2008,23 @@ Definition:
 Diese Regel ermöglicht es, eine einzelne Karte für zwei verschiedene Weismeldungen zu verwenden.
 
 Beispiel:
-• Ein Vierblatt (4 Blatt) beginnend beim Ass in Schilten kombiniert mit vier Königen ergibt zusammen 150 Punkte
+• Ein Vierblatt vom Ass in Schilten kombiniert mit vier Königen ergibt zusammen 150 Punkte
 • Die verwendeten Karten dürfen sich durchaus überschneiden
 
 Gültigkeit:
 • Kreuzweise sind bei allen Spielarten erlaubt, die Weisen zulassen
 
 Wichtige Regel:
-• Der wertvollere Weis  muss vor dem ersten Ausspiel gemeldet werden
+• Der wertvollere Weis wird mit dem ersten Ausspiel gemeldet
 • Der weniger wertvolle darf erst dann angesagt werden, wenn der höhere Weis erfolgreich war
 
 Grundvoraussetzung:
 • Beide Weise müssen für sich genommen gültig sein
 
 **Häufige Fragen:**
-- **Wie funktioniert Kreuzweis beim Jassen?** Diese Regel ermöglicht es, eine einzelne Karte für zwei verschiedene Weismeldungen zu verwenden.
 - **Was ist ein Kreuzweis?** Ein Kreuzweis ermöglicht es, eine einzelne Karte für zwei verschiedene Weismeldungen zu verwenden.
 - **Dürfen sich die Karten überschneiden?** Ja, die verwendeten Karten dürfen sich durchaus überschneiden.
-- **Welcher Weis muss zuerst gemeldet werden?** Der wertvollere Weis muss vor dem ersten Ausspiel gemeldet werden, der weniger wertvolle darf erst dann angesagt werden, wenn der höhere Weis erfolgreich war.
+- **Welcher Weis muss zuerst gemeldet werden?** Der wertvollere Weis wird mit dem ersten Ausspiel gemeldet, der weniger wertvolle darf erst dann angesagt werden, wenn der höhere Weis erfolgreich war.
 - **Was ist die Voraussetzung für einen Kreuzweis?** Beide Weise müssen für sich genommen gültig sein.
 
 *Keywords: kreuzweis, kombi, kombiniert, doppel, überschneidung*

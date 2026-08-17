@@ -90,6 +90,18 @@ export function verweiseZuLinks(text: string): string {
     }
   );
 
+  // 1b. **Fetter Text** (siehe Begriff "kennung") → **[Fetter Text](pfad)**
+  // (SCHIEDSRICHTER, 18.08.2026): Ohne diese Stufe brach der Fettdruck den
+  // Treffer von Stufe 2, und Stufe 3 setzte «mehr» oder ein Stichwort hinter
+  // das Wort — auf der Jasskarten-Seite stand «einen Schild jasskarten».
+  text = text.replace(
+    /\*\*([^*\n]{1,80})\*\*\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    (_, display: string, refId: string) => {
+      const path = zielDerKennung(refId) ?? zielDesWortes(display);
+      return path ? `**[${display}](${path})**` : `**${display}**`;
+    }
+  );
+
   // 2. Deutsches Wort (inkl. Umlaute, Bindestrich) vor (siehe Begriff "kennung")
   text = text.replace(
     /([a-zA-ZäöüÄÖÜß][a-zA-ZäöüÄÖÜß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,

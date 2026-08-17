@@ -43,6 +43,12 @@ export function resolveMarkers(text, idToTopic = {}) {
     (_, display) => display
   );
 
+  // 1b. **Fetter Text** (siehe Begriff "id")  ->  Fetter Text
+  text = text.replace(
+    /\*\*([^*\n]{1,80})\*\*\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
+    (_, display) => display
+  );
+
   // 2. Wort (siehe Begriff "id")  ->  Wort
   text = text.replace(
     /([A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\w-]*)\s*\(siehe Begriff\s*"([^"]+)"\)/gi,

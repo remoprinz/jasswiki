@@ -121,7 +121,7 @@ export const KARTENSYSTEME: JassKartensystem[] = [
   {
     system: 'fr',
     label: 'Französische Karten',
-    hint: 'Schaufel, Kreuz, Herz, Ecke – in der Westschweiz gebräuchlich',
+    hint: 'Kreuz, Herz, Ecke, Schaufel, westlich der Brünig-Napf-Reuss-Linie gebräuchlich',
     farben: buildFarben(SUITS_FR, 'fr', RANKS_FR),
   },
 ];
