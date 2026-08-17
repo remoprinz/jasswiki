@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielregeln"
 description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 67
+entries_count: 66
 last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
@@ -86,7 +86,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Karte fällt runter](#karte_faellt_runter)
 - [Kreuzweis](#weis_rules_kreuzweis)
 - [Sonderregeln beim Verteilen](#general_dealing_special)
-- [Stöck bei Hindersi-Varianten](#weis_rules_stock_hindersi)
 
 ---
 
@@ -1348,28 +1347,90 @@ Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vol
 
 **Kategorie:** Weis-Regeln > Stöck
 
-Die Stöck sind die Kombination aus Trumpf-König und Trumpf-Ober (Dame). Sie zählen 20 Punkte und gehören zu den Weisen. Die Form bleibt in Einzahl wie Mehrzahl «die Stöck».
+**Die Stöck sind König und Ober der Trumpffarbe in einer Hand.** Sie zählen 20 Punkte und sind der Weis mit eigenen Regeln: Sie werden mit der zweiten der beiden Karten gemeldet, und sie zählen für ihre Partei in jedem Fall, auch wenn die Gegner den höheren Weis halten oder ihr keinen Stich lassen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+
+## Was die Stöck sind
 
 
-Entscheidend ist das Wort Trumpf. König und Ober einer anderen Farbe sind zwei gewöhnliche Karten. Erst im Trumpf werden sie zu den Stöck.
 
-Wann man die Stöck weist:
-Die Stöck werden in dem Moment angesagt, in dem ein Spieler seine zweite Stöck-Karte ausspielt. Ist diese Karte gedeckt, können sie nicht mehr gemeldet werden. Der Partner darf nicht auf vorhandene Stöck hinweisen.
+Entscheidend ist das Wort Trumpf. König und Ober werden zu den Stöck erst dadurch, dass ihre Farbe Trumpf ist. Wechselt der Trumpf mit dem nächsten Spiel, sind es wieder zwei gewöhnliche Karten. In Obenabe und Undenufe gibt es darum keine Stöck.
 
-Eintragung:
-Die 20 Punkte werden sofort oder spätestens bis zum folgenden Stich notiert.
+Am Tisch heisst es **die Stöck**, Mehrzahl. Wer «Stöcke» sagt, wird verstanden.
 
-Besonderheiten:
-Ein Weis mit den Stöck bleibt unter allen Umständen gültig, auch wenn das Team keinen Stich macht oder ein Match angenommen wurde. Beim Ausmachen dürfen die Stöck jederzeit vorgewiesen werden, sofern die 20 Punkte zum Ziel reichen. Das gilt auch für den Bergpreis.
+## Wann und wie die Stöck gemeldet werden
+
+Ein gewöhnlicher Weis wird mit der ersten Karte gemeldet, die Stöck mit der zweiten ihrer beiden Karten. Wer den König ausspielt und den Ober noch hält, sagt noch nichts. Erst wenn die zweite Karte fällt, sagt er «Stöck», gleich in welchem Stich das geschieht.
+
+| Wann | Was gilt |
+|---|---|
+| Die erste der beiden Karten fällt | Noch keine Meldung, die Stöck sind noch zu melden |
+| Die zweite der beiden Karten fällt | «Stöck», und die 20 kommen sofort auf die Tafel |
+| Der nächste Spieler hat die zweite Karte gedeckt | Zu spät, die Stöck bleiben ungeschrieben |
+| Der Partner merkt, dass die Meldung fehlt | Er schweigt. Melden kann nur, wer die Stöck hält. Sagt es der Partner für ihn, bleiben die Stöck ungeschrieben |
+| Die zweite Karte fällt als letzte des Stichs | Die Meldung gilt, bis der Stich eingezogen ist, wie beim gewöhnlichen Weis. So liest es der Verband, die Quellen schweigen dazu |
+
+Ist die zweite Karte gedeckt oder das Spiel vorbei, bleiben die Stöck ungeschrieben, ein Nachtragen gibt es weder im Spiel noch danach. So hält es das Schweizer Jassverzeichnis mit Berufung auf das Reglement, und so empfiehlt es der Verband.
+
+**Zwei Ausnahmen kennen die Regeln, beide erlauben die Meldung früher:**
+
+• **Die Stöck stecken in einem anderen Weis.** Wer ein Dreiblatt vom Trumpf-Ass hält, hält König und Ober darin. Er meldet mit seiner ersten Karte beides, Dreiblatt und Stöck. Die Stöck schreibt er in jedem Fall, das Dreiblatt, wenn kein höherer Weis am Tisch liegt
+• **Die Stöck reichen zum Ausmachen.** Fehlen einer Partei 20 Punkte oder weniger zum Ziel, darf sie die Stöck jederzeit vorweisen, auch bevor eine der beiden Karten gespielt ist, spätestens aber mit der zweiten. Dasselbe gilt für den Bergpreis
+
+
+Die Stöck rechnen neben jedem anderen Weis für sich, König und Ober dürfen darum in beiden stehen. Für Blattfolge und vier Gleiche regelt das der Kreuzweis.
+
+## Die Stöck zählen immer
+
+Bei allen anderen Weisen schreibt nur die Partei mit dem höchsten einzelnen Weis. Die Stöck stehen ausserhalb dieses Vergleichs:
+
+| Lage | Gewöhnlicher Weis | Stöck |
+|---|---|---|
+| Die Gegner halten den höheren Weis | verfällt | zählen |
+| Die eigene Partei macht keinen Stich, die Gegner den Matsch | zählt heute, verfiel nach den alten Regeln | zählen, damals wie heute |
+| Trumpf zählt doppelt | mit dem Faktor | mit dem Faktor, also 40 |
+
+Nach den alten Jassregeln, die bis Ende des 20. Jahrhunderts galten, durfte eine Partei ihren Weis nur schreiben, wenn sie mindestens einen Stich machte. Die Stöck durften immer geschrieben werden. Daher stammt die Reihenfolge «Stöck, Stich, Wys», die mancherorts noch gilt (siehe unten).
+
+Beim Schieber mit Faktoren gilt der Faktor der Trumpffarbe für Kartenpunkte, Weis und Stöck gleichermassen: Bei einer Trumpffarbe, die doppelt zählt, schreiben die Stöck 40.
+
+## Stöck, Wys, Stich
+
+Der Spruch nennt die Ausmachregel: Erreichen beide Parteien im ersten Stich des letzten Spiels das Ziel, entscheidet die Reihenfolge Stöck vor Weis vor Stich, gleich, wer sich zuerst bedankt hat.
+
+| Stand vor dem letzten Spiel, Ziel 1000 | Partei A | Partei B |
+|---|---|---|
+| Vor dem Spiel | 981 | 971 |
+| Der erste Stich, 30 Punkte, geht an B | 981 | 1001 |
+| A meldet die Stöck | 1001 | 1001 |
+| Wer gewinnt | **A, denn Stöck stehen vor dem Stich** | |
+
+Diese Reihenfolge gilt allein im ersten Stich. Sobald zum zweiten Stich ausgespielt ist, gewinnt, wer sich zuerst mit genügend Punkten bedankt, und wer seine Stöck erst nach dem Bedanken der Gegner meldet, kommt zu spät. Darum lohnt es sich, die Stöck vorzuweisen, sobald sie zum Ziel reichen. Andere Reihenfolgen, etwa Stöck, Stich, Wys, macht eine Runde vor der Partie ab.
+
+## Stöck in einzelnen Jassarten
+
+• **Schieber:** wie oben, mit dem Faktor der Trumpffarbe
+• Bieter: Verzichtet der König auf ein Spiel, schreibt die Bauernpartei zu den 257 Punkten ihre Stöck dazu. Der König schreibt seine Stöck nur, wenn er mitspielt
+• Differenzler zu dritt: Wo eine Runde es so abmacht, können die 20 Stöckpunkte dazugezählt oder abgezogen werden
+• Hindersi: Beim Hindersi zählen weder Weis noch Stöck. Manche Runden rechnen die Stöck als 20 unerwünschte Punkte, und dann melden die Gegner sie für den, der sie hält. Wer so spielt, macht es vor der Partie ab
+
+
 
 **Häufige Fragen:**
-- **Was sind die Stöck beim Jassen?** Trumpf-König und Trumpf-Ober zusammen, ein Weis von 20 Punkten.
-- **Wie viele Punkte zählen die Stöck?** 20 Punkte.
-- **Wann meldet man die Stöck?** Beim Ausspielen der zweiten Stöck-Karte. Danach nicht mehr.
-- **Darf der Partner auf die Stöck hinweisen?** Nein.
-- **Heisst es Stöck oder Stöcke?** Die richtige Form ist «die Stöck», in Einzahl wie Mehrzahl.
+- **Was sind Stöck beim Jassen?** König und Ober der Trumpffarbe in einer Hand. Sie zählen 20 Punkte und sind ein Weis mit eigenen Regeln: gemeldet mit der zweiten der beiden Karten, und sie zählen für ihre Partei in jedem Fall.
+- **Wie viele Punkte zählen die Stöck?** 20 Punkte. Beim Schieber mit Faktoren gilt der Faktor der Trumpffarbe, bei doppelt zählendem Trumpf also 40.
+- **Wann weist man die Stöck?** Mit der zweiten der beiden Karten, gleich in welchem Stich sie fällt. Wer den König spielt und den Ober noch hält, sagt noch nichts. Fällt die zweite Karte, sagt er «Stöck», und die 20 kommen sofort auf die Tafel.
+- **Kann man die Stöck nachträglich melden?** Hat der nächste Spieler die zweite Karte gedeckt oder ist das Spiel vorbei, bleiben die Stöck ungeschrieben, im Spiel wie danach. Früher melden darf man sie in zwei Fällen: Stecken sie in einem anderen Weis, werden sie mit ihm gemeldet. Reichen sie zum Ausmachen, dürfen sie jederzeit vorgewiesen werden, spätestens aber mit der zweiten Karte.
+- **Darf der Partner auf die Stöck hinweisen?** Nein, er schweigt. Melden kann nur, wer die Stöck hält. Sagt es der Partner für ihn, bleiben die Stöck ungeschrieben.
+- **Zählen die Stöck auch, wenn die Gegner den höheren Weis haben?** Ja. Die Stöck stehen ausserhalb des Weisvergleichs und zählen für ihre Partei in jedem Fall, auch ohne eigenen Stich und auch, wenn die Gegner den Matsch machen.
+- **Was heisst Stöck, Wys, Stich?** Die Ausmachregel: Erreichen beide Parteien im ersten Stich des letzten Spiels das Ziel, gewinnt zuerst, wer es mit den Stöck erreicht, dann, wer es mit dem Weis erreicht, zuletzt, wer es mit dem Stich erreicht, gleich, wer sich zuerst bedankt hat.
+- **Gilt Stöck, Wys, Stich auch im zweiten Stich?** Nein, allein im ersten Stich. Danach gewinnt, wer sich zuerst mit genügend Punkten bedankt.
+- **Darf man die Stöck vorweisen, wenn sie zum Ausmachen reichen?** Ja, jederzeit, auch bevor eine der beiden Karten gespielt ist, spätestens aber mit der zweiten. Dasselbe gilt für den Bergpreis.
+- **Gibt es Stöck bei Obenabe und Undenufe?** Nein. Die Stöck setzen eine Trumpffarbe voraus, König und Ober sind dort gewöhnliche Karten.
+- **Zählen die Stöck beim Hindersi?** Beim Hindersi zählen weder Weis noch Stöck. Manche Runden rechnen die Stöck als 20 unerwünschte Punkte, dann melden die Gegner sie für den, der sie hält. Das macht die Runde vor der Partie ab.
+- **Was gilt beim Bieter, wenn der König verzichtet?** Die Bauernpartei schreibt zu den 257 Punkten ihre Stöck dazu. Der König schreibt seine Stöck nur, wenn er mitspielt.
+- **Heisst es Stöck oder Stöcke?** Am Tisch heisst es «die Stöck», Mehrzahl. «Stöcke» wird verstanden.
 
-*Keywords: stöck, stöcke, trumpf könig ober, 20 punkte weis, stöck weisen*
+*Keywords: stöck, stöcke, stöck jassen, stöck weisen, stöckweis*
 
 ---
 
@@ -2046,37 +2107,6 @@ Sonderregeln bei der Kartenverteilung:
 - **Was bedeutet Abheben beim Jassen?** Abheben bedeutet, dass der Spieler rechts vom Kartengeber die Karten teilen kann, bevor sie verteilt werden.
 
 *Keywords: sonderregeln, bodentrumpf, fehlende karte, platzwechsel, trumpffarbe*
-
----
-
-### Stöck bei Hindersi-Varianten {#weis_rules_stock_hindersi}
-
-**Kategorie:** Weis-Regeln > Stöck
-
-Besondere Regelung:
-Bei Jass-Varianten mit Hindersi-Charakter gelten andere Regeln (z.B. Hindersi für 4 Spieler, Hindersi für 3 Spieler). Das Ziel ist, möglichst wenige Punkte zu erzielen.
-
-Wer weist die Stöck:
-• Das gegnerische Team muss die Stöck für die Gegner weisen
-• Nicht das Team, das die Stöck hält
-
-Grund:
-• Bei Hindersi-Varianten sind Punkte negativ
-• Stöck bringen 20 unerwünschte Punkte
-• Daher werden sie vom anderen Team gewiesen
-
-Beispiele:
-• Hindersi (Ziel: Möglichst wenige Punkte)
-• Andere Varianten mit Minuspunkt-Charakter
-
-**Häufige Fragen:**
-- **Wie funktioniert Stöcke bei Hindersi-Varianten beim Jassen?** Besondere Regelung:
-Bei Jass-Varianten mit Hindersi-Charakter gelten andere Regeln (z.B. Hindersi für 4 Spieler, Hindersi für 3 Spieler).
-- **Wer weist die Stöcke bei Hindersi?** Bei Hindersi muss das gegnerische Team die Stöcke für die Gegner weisen, nicht das Team, das die Stöcke hält.
-- **Warum weist das gegnerische Team die Stöcke?** Bei Hindersi-Varianten sind Punkte negativ, und Stöcke bringen 20 unerwünschte Punkte, daher werden sie vom anderen Team gewiesen.
-- **Was ist das Ziel bei Hindersi?** Das Ziel bei Hindersi ist, möglichst wenige Punkte zu erzielen.
-
-*Keywords: stöcke, Hindersi, gegnerisch, minuspunkte, negativ*
 
 ---
 

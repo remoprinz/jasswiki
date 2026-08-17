@@ -206,7 +206,7 @@ Zum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm
 
 Vom zweiten Spiel an sieht der König sein Blatt, bevor etwas geschrieben ist, und **er darf auf das Spiel verzichten**. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig. Allein Stöck darf die Bauernpartei zu den 257 dazuschreiben.
 
-**Seinen Stöck schreibt der König nur, wenn er mitspielt.**
+**Seine Stöck schreibt der König nur, wenn er mitspielt.**
 
 **Warum verzichtet einer freiwillig?** Weil der Verzicht den Schaden deckelt. Wer ein hoffnungsloses Blatt hält und im Spiel keinen Stich holt, gibt 257 ab und dazu jeden fremden Weis, der beliebig hoch sein kann. Der Verzicht kostet dieselben 257 und löscht die Weise der Gegner bis auf die Stöck. Wer dagegen selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.
 

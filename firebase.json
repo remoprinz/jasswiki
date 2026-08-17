@@ -2674,6 +2674,16 @@
           "source": "/varianten/pandur-2-spieler/",
           "destination": "/varianten/pandur/#pandur-zu-zweit",
           "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoeck/stoeck-bei-hindersi-varianten/",
+          "destination": "/weis-regeln/stoeck/#stoeck-in-einzelnen-jassarten",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/stoeck/stoeck-bei-hindersi-varianten",
+          "destination": "/weis-regeln/stoeck/#stoeck-in-einzelnen-jassarten",
+          "type": 301
         }
       ]
     }
