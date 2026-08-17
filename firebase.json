@@ -1387,7 +1387,7 @@
         },
         {
           "source": "/varianten/koenigsspiel/pandur-3-spieler/",
-          "destination": "/varianten/pandur-3-spieler/",
+          "destination": "/varianten/pandur/#pandur-zu-dritt",
           "type": 301
         },
         {
@@ -1397,7 +1397,7 @@
         },
         {
           "source": "/varianten/koenigsspiel/pandur-2-spieler/",
-          "destination": "/varianten/pandur-2-spieler/",
+          "destination": "/varianten/pandur/#pandur-zu-zweit",
           "type": 301
         },
         {
@@ -2663,6 +2663,16 @@
         {
           "source": "/varianten/bieter-5-spieler/",
           "destination": "/varianten/bieter/#bieter-zu-fuenft",
+          "type": 301
+        },
+        {
+          "source": "/varianten/pandur-3-spieler/",
+          "destination": "/varianten/pandur/#pandur-zu-dritt",
+          "type": 301
+        },
+        {
+          "source": "/varianten/pandur-2-spieler/",
+          "destination": "/varianten/pandur/#pandur-zu-zweit",
           "type": 301
         }
       ]

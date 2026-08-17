@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielvarianten"
 description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 57
+entries_count: 54
 last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
@@ -21,10 +21,8 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 ## Inhaltsverzeichnis
 
 - [Aucho (4 Spieler)](#variants_strategic_aucho_vier)
-- [Bieter (3 Spieler)](#variants_strategic_bieter_drei)
+- [Bieter](#variants_strategic_bieder)
 - [Aucho (3 Spieler)](#variants_strategic_aucho_drei)
-- [Bieter (4 Spieler)](#variants_strategic_bieter_vier)
-- [Bieter (5 Spieler)](#variants_strategic_bieter_fuenf)
 - [Differenzler](#variants_strategic_differenzler_drei)
 - [Hindersi (4 Spieler)](#variants_specialty_hindersi_vier)
 - [Palette](#variants_strategic_palette_jass)
@@ -63,7 +61,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Tutti](#expressions_tutti)
 - [Arschlöchle](#variants_multi_player_arschloechle)
 - [Aucho](#variants_three_player_aucho)
-- [Bieter](#variants_strategic_bieder)
 - [Differenzler (verdeckt)](#variants_strategic_differenzler_verdeckt)
 - [Hose abe/Schnauz/Schwimmen](#variants_family_hose_abe)
 - [Kaiserjass](#variants_traditional_kaiserjass)
@@ -137,11 +134,11 @@ Gespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann 
 
 ---
 
-### Bieter (3 Spieler) {#variants_strategic_bieter_drei}
+### Bieter {#variants_strategic_bieder}
 
 **Kategorie:** Varianten > Bietspiel
 
-Der Bieter, auch Steiger genannt, ist ein Bietspiel für drei Spieler: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als **Bauernpartei** (siehe Bauernpartei) dagegen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Der Bieter, auch Steiger genannt, ist ein Bietspiel, zu Hause am Tisch für drei: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als **Bauernpartei** (siehe Bauernpartei) dagegen. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner; beide Fassungen stehen weiter unten mit allem, was sich ändert. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 **Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.
 
@@ -276,9 +273,9 @@ Die Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte 
 
 Das Handwerk dazu gehört dem vorderen Bauern: **Er muss die Stiche holen und anziehen**, sonst kommt der König nie in die Mitte. Spielt dagegen der König aus und sein Gegner sitzt vor ihm, dreht sich der Vorteil: Dann legt der König die letzte Karte und sieht beide Blätter, bevor er sich entscheidet.
 
-## Bieter zu viert und zu fünft
+## Zu dritt, zu viert, zu fünft im Vergleich
 
-Beide Fassungen behalten Ablauf, Ansagen und Schreibweise des Bieters zu dritt. Was sich ändert, steht hier nebeneinander:
+Alle drei Fassungen behalten Ablauf, Ansagen, Weis, Verzicht und Schneider. Was sich ändert, steht hier nebeneinander; die beiden Abschnitte darunter führen es aus:
 
 | | Zu dritt | Zu viert | Zu fünft |
 |---|---|---|---|
@@ -289,13 +286,45 @@ Beide Fassungen behalten Ablauf, Ansagen und Schreibweise des Bieters zu dritt. 
 | Tiefstes Gebot | 600 | 350 | 600 |
 | Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |
 | Ziel der Bauernpartei | 1000 | 1000 | 1000 |
+| Geschrieben wird | in Punkten | in Punkten | in Strichen und «Härdöpfeln» |
 
-Zu fünft hat der Meistbietende einen Partner: Er nennt eine Karte, und wer sie hält, spielt mit ihm. Zu fünft wird auch anders geschrieben, nämlich in Strichen und Härdöpfeln.
+## Bieter zu viert
+
+Der König spielt allein gegen drei.
+
+• Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler
+• Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei zeigt er ihr vorher die 2 Karten, die verdeckt lagen. Die Punkte der abgelegten Karten zählen am Ende der Partie zu seinen Kartenpunkten
+• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn
+• Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10
+• Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte
+
+Das tiefere Mindestgebot hat einen Grund: Der König hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien.
+
+## Bieter zu fünft
+
+Zwei Spieler bilden die Königspartei, drei die Bauernpartei. Das ist der Jass, der zu fünft ohne Zuschauer auskommt.
+
+• Der Eichel-Siebner bleibt aus dem Spiel, im französischen Blatt der Kreuz-Siebner. Damit bleiben 35 Karten
+• Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel
+• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts
+• Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte
+• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner.** Damit stehen zwei gegen drei
+• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner
+• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Wie eine Runde vorgeht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen; der Verband empfiehlt, das vor der Partie abzumachen
+• Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf, wie zu dritt
+
+**Zu fünft zählt die Tafel Striche** (siehe Zählweise Striche) statt Punkte:
+
+| | Meistbietender | Sein Partner | Jeder Bauer |
+|---|---|---|---|
+| Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 Härdöpfel |
+| Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |
+
+Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider.
 
 ## Was der Name sagt
 
 «Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem es anfängt. Der König heisst so, weil er allein gegen alle spielt, und die Gegenpartei heisst danach die Bauernpartei. Geschrieben und gesucht wird der Name auch als «Büter».
-
 
 
 **Häufige Fragen:**
@@ -312,8 +341,16 @@ Zu fünft hat der Meistbietende einen Partner: Er nennt eine Karte, und wer sie 
 - **Was ist der Schneider beim Bieter?** Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz: beim Gebot von 600 sind das 300 Punkte, bei der Bauernpartei 500.
 - **Was heisst Bieter, Steiger und Büter?** Drei Namen für dasselbe Spiel. Sie stammen alle vom Bieten, mit dem jedes Spiel anfängt.
 - **Warum bietet der König 600, wenn die Bauernpartei nur 1000 braucht?** Weil beide aus denselben 157 Punkten je Spiel schöpfen. Mit einem Gebot von 600 gewinnt der König das Rennen, sobald er im Schnitt 37,5 Prozent der Punkte heimbringt, also rund 59 von 157. Das ist der Ausgleich dafür, dass er allein gegen zwei spielt.
+- **Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?** Im ersten Spiel 8 Karten, in zwei Gängen zu 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten.
+- **Warum ist das Mindestgebot zu viert tiefer?** Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien.
+- **Wer gibt beim Bieter zu viert ab dem zweiten Spiel?** Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf.
+- **Wie findet der Meistbietende zu fünft seinen Partner?** Er nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, spielt mit ihm. Hält er selbst ein Matschspiel, nennt er eine beliebige Karte und bestimmt so trotzdem einen Partner.
+- **Wie wird beim Bieter zu fünft geschrieben?** Gewinnt die Königspartei, schreibt der Meistbietende 2 Striche, sein Partner 1 Strich, und jeder Bauer schreibt 1 «Härdöpfel». Verliert sie, schreibt der Meistbietende 2 «Härdöpfel», sein Partner 1, und jeder Bauer erhält 1 Strich.
+- **Wie viele Karten sind beim Bieter zu fünft im Spiel?** 35: Der Eichel-Siebner bleibt draussen, damit jeder der fünf Spieler 7 Karten hält.
+- **Wie spielt man Bieter zu viert?** Wie zu dritt, nur spielt der König gegen drei Gegner. Im ersten Spiel erhält jeder 8 Karten, 4 liegen auf dem Tisch; ab dem zweiten Spiel je 9. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
+- **Wie spielt man Bieter zu fünft?** Der Eichel-Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte; wer sie hält, ist sein Partner. So stehen zwei gegen drei, geschrieben wird in Strichen und Härdöpfeln.
 
-*Keywords: bieter, steiger, drei spieler, bieten, steigern*
+*Keywords: 350 punkte, 600 punkte, Hindersi, bauernpartei, bieten*
 
 ---
 
@@ -345,72 +382,6 @@ In allen anderen Belangen entsprechen die Regeln denen des Aucho für vier Spiel
 - **Gibt es beim Aucho zu dritt einen «Lukas»?** Nein, beim Aucho für drei Spieler entfällt der «Lukas». Die verbleibenden Karten bilden einen Stock, der nur für den «Kehr» verwendet werden kann.
 
 *Keywords: aucho drei, drei spieler, ohne erben, kehr, stock*
-
----
-
-### Bieter (4 Spieler) {#variants_strategic_bieter_vier}
-
-**Kategorie:** Varianten > Bietspiel
-
-Der Bieter zu viert ist der Bieter mit einem Gegner mehr: Der König spielt allein gegen drei.
-
-• Gespielt wird mit 36 Karten. Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler
-• Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei zeigt er ihr vorher die 2 Karten, die verdeckt lagen
-• Die Punkte der abgelegten Karten zählen am Ende der Partie zu seinen Kartenpunkten
-• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn
-• Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10
-• Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte
-
-Das tiefere Mindestgebot hat einen Grund: Der König hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien. Ansagen, Weis, Verzicht, Schneider und das Schreiben bleiben wie beim Bieter zu dritt.
-
-**Häufige Fragen:**
-- **Wie spielt man Bieter zu viert?** Wie den Bieter zu dritt, nur spielt der König gegen drei Gegner. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
-- **Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?** Im ersten Spiel 8 Karten, in zwei Gängen zu 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten.
-- **Warum ist das Mindestgebot zu viert tiefer?** Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien.
-- **Was macht der König zu viert mit den Tischkarten?** Er nimmt die 4 Karten auf und legt dafür 4 beliebige ab. Ihre Punkte zählen am Ende der Partie zu seinen Kartenpunkten.
-- **Wer gibt beim Bieter zu viert ab dem zweiten Spiel?** Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf.
-
-*Keywords: bieter, steiger, vier spieler, 350 punkte, könig*
-
----
-
-### Bieter (5 Spieler) {#variants_strategic_bieter_fuenf}
-
-**Kategorie:** Varianten > Bietspiel
-
-Der Bieter zu fünft ist der Bieter mit einem Partner: Zwei Spieler bilden die Königspartei, drei die Bauernpartei.
-
-• Der Eichel-Siebner bleibt aus dem Spiel, im französischen Blatt der Kreuz-Siebner. Damit bleiben 35 Karten
-• Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel
-• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts
-• Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte
-• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner.** Damit stehen zwei gegen drei
-• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner
-• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Wie eine Runde vorgeht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen; der Verband empfiehlt, das vor der Partie abzumachen
-• Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf, wie beim Bieter zu dritt
-
-## Geschrieben wird in Strichen
-
-Zu fünft zählt die Tafel Striche statt Punkte:
-
-| | Meistbietender | Sein Partner | Jeder Bauer |
-|---|---|---|---|
-| Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 Härdöpfel |
-| Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |
-
-Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, verliert den doppelten Einsatz, also den Schneider.
-
-Ansagen, Weis, Verzicht und der Ablauf bleiben wie beim Bieter zu dritt.
-
-**Häufige Fragen:**
-- **Wie spielt man Bieter zu fünft?** Der Eichel-Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte; wer sie hält, ist sein Partner. So stehen zwei gegen drei.
-- **Wie findet der Meistbietende zu fünft seinen Partner?** Er nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, spielt mit ihm. Hält er selbst ein Matschspiel, nennt er eine beliebige Karte und bestimmt so trotzdem einen Partner.
-- **Wie wird beim Bieter zu fünft geschrieben?** Gewinnt die Königspartei, schreibt der Meistbietende 2 Striche, sein Partner 1 Strich, und jeder Bauer schreibt 1 «Härdöpfel». Verliert sie, schreibt der Meistbietende 2 «Härdöpfel», sein Partner 1, und jeder Bauer erhält 1 Strich.
-- **Wie viele Karten sind beim Bieter zu fünft im Spiel?** 35: Der Eichel-Siebner bleibt draussen, damit jeder der fünf Spieler 7 Karten hält.
-- **Wo sitzt beim Bieter zu fünft der Partner?** Die beiden Spieler der Königspartei sitzen getrennt, mit mindestens einem Bauern zwischen sich.
-- **Auf wie viele Punkte spielt die Bauernpartei zu fünft?** Auf 1000 Punkte, wie zu dritt und zu viert. Der Meistbietende bietet mindestens 600.
-
-*Keywords: bieter fünf, fünf spieler, königspartei, bauernpartei, partner bestimmen*
 
 ---
 
@@ -2327,47 +2298,6 @@ Schreiben:
 - **Was passiert, wenn weder Trumpf gemacht noch ein Kehr verlangt wird?** In diesem Fall hat der Spielgeber das Recht, mit dem «Lukas» das Spiel zu übernehmen und gegen die drei Mitspieler zu spielen.
 
 *Keywords: aucho, lukas, kehr, rauben, erben*
-
----
-
-### Bieter {#variants_strategic_bieder}
-
-**Kategorie:** Varianten > Königsspiel
-
-Definition:
-Bieter (auch Steiger genannt) ist ein Königsspiel mit Bieten für 3 Spieler (auch 4 oder 5 Spieler möglich), bei dem ein König gegen eine Bauernpartei antritt.
-
-Spiel geben - Erstes Spiel:
-• Beim ersten Spiel teilt der Spielgeber jedem Spieler 5 Karten aus und legt je 3 Karten verdeckt und offen auf den Tisch
-• Nun verteilt er jedem Spieler nochmals 5 Karten
-• Ab dem zweiten Spiel werden jedem Spieler 12 Karten verteilt
-
-Bieten:
-• Falls Vorhand das Spiel übernehmen will, bietet er mindestens 600 Punkte an
-• Die nachfolgenden Spieler können das Gebot beliebig um mindestens 10 Punkte überbieten
-• Wer keine Aussicht auf ein gutes Spiel hat, sagt «fort» oder «ich passe»
-• Der Meistbietende wird König, seine Gegner bilden die Bauernpartei
-
-Spielziele:
-• Ziel des Königs ist, am Ende der Partie sein Gebot zu erreichen
-• Die Bauernpartei muss gemeinsam 1000 Punkte erzielen
-
-König-Phase:
-• Der König erhält die 6 auf dem Tisch liegenden Karten und kann 6 beliebige Handkarten ablegen
-
-Spielablauf:
-• Zum ersten Spiel bestimmt der König den Trumpf (Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf)
-• Beim zweiten Spiel gilt die unterste Karte als Trumpffarbe
-• Der König kann ab dem zweiten Spiel entscheiden, ob er spielen möchte oder nicht
-• Falls er verzichtet, schreibt die Bauernpartei einen Matsch  mit Matschprämie
-
-**Häufige Fragen:**
-- **Wie hoch ist das Mindestgebot beim Bieder?** Falls Vorhand das Spiel übernehmen will, bietet er mindestens 600 Punkte an.
-- **Was passiert, wenn der König beim zweiten Spiel verzichtet?** Falls der König verzichtet, schreibt die Bauernpartei einen Matsch mit Matschprämie.
-- **Welches Ziel muss die Bauernpartei beim Bieder erreichen?** Die Bauernpartei muss gemeinsam 1000 Punkte erzielen.
-- **Kann der König beim zweiten Spiel den Trumpf selbst wählen?** Nein, beim zweiten Spiel gilt automatisch die unterste Karte als Trumpffarbe. Der König kann dann entscheiden, ob er spielen möchte oder nicht.
-
-*Keywords: bieter, steiger, königsspiel, bauernpartei, bieten*
 
 ---
 

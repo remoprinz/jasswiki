@@ -1871,9 +1871,9 @@ Jedes Gebot liegt über dem vorherigen. Beim [Sidi-Barrani](/varianten/sidi-barr
 
 | Bietspiel | Tiefstes Gebot | Kleinste Steigerung |
 |---|---|---|
-| [Bieter zu dritt](/varianten/bieter-3-spieler/) | 600 | 10 |
-| [Bieter zu viert](/varianten/bieter-4-spieler/) | 350 | 10 |
-| [Bieter zu fünft](/varianten/bieter-5-spieler/) | 600 | 10 |
+| [Bieter zu dritt](/varianten/bieter/) | 600 | 10 |
+| [Bieter zu viert](/varianten/bieter/#bieter-zu-viert) | 350 | 10 |
+| [Bieter zu fünft](/varianten/bieter/#bieter-zu-fuenft) | 600 | 10 |
 | [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |
 | [Palette](/varianten/palette/) | 110 | 1 |
 | [Sidi-Barrani](/varianten/sidi-barrani/) | 50 (Empfehlung des Jassverbands Schweiz) | 5 |
