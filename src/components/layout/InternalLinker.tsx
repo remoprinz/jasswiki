@@ -174,13 +174,22 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
     return <MarkdownStueck text={stuecke[0].text} />;
   }
 
+  // Der Umschalter Deutsch/Französisch steht einmal je Artikel, über der
+  // ersten Kartenreihe; die Wahl gilt für alle Reihen der Seite.
+  const ersteReihe = stuecke.findIndex((s) => s.art !== 'text');
+
   return (
     <>
       {stuecke.map((stueck, i) =>
         stueck.art === 'text' ? (
           <MarkdownStueck key={`t${i}`} text={stueck.text} />
         ) : (
-          <JassKartenReihe key={`k${i}`} slugs={stueck.slugs} beschriftung={stueck.beschriftung} />
+          <JassKartenReihe
+            key={`k${i}`}
+            slugs={stueck.slugs}
+            beschriftung={stueck.beschriftung}
+            mitWahl={i === ersteReihe}
+          />
         )
       )}
     </>

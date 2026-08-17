@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielvarianten"
 description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 54
+entries_count: 52
 last_updated: 2026-08-17
 format: "markdown"
 encoding: "utf-8"
@@ -33,11 +33,9 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Handjass-Taktiken (3 Spieler)](#variants_strategic_handjass_bessern_drei)
 - [Handjass-Taktiken (Blinder)](#variants_strategic_handjass_blinder)
 - [Hindersi (3 Spieler)](#variants_specialty_hindersi_drei)
-- [Pandur (3 Spieler)](#variants_strategic_pandur_drei)
 - [Schafhauser (3 Spieler)](#variants_strategic_schafhauser)
 - [Glücksjass](#variants_family_gluecksjass)
 - [Handjass-Taktiken (2 Spieler)](#variants_two_player_handjass_bessern)
-- [Pandur (2 Spieler)](#variants_strategic_pandur_zwei)
 - [Schaggi-Haas](#variants_two_player_schaggi_haas)
 - [Schaufel](#variants_specialty_schaufel_dame)
 - [Schnüffler (2 Spieler)](#variants_two_player_schnueffler)
@@ -815,29 +813,6 @@ Im Übrigen gelten die gleichen Regeln wie beim Hindersi-Jass für 4 Spieler.
 
 ---
 
-### Pandur (3 Spieler) {#variants_strategic_pandur_drei}
-
-**Kategorie:** Varianten > Königsspiel
-
-Der Pandur zu dritt ist der Pandur ohne den aussetzenden Spielgeber: Alle drei am Tisch halten Karten.
-
-• Gespielt wird mit 24 Karten, acht je Spieler, in zwei Gängen zu vier gegeben
-• Der Spielgeber spielt mit. Damit fällt das Erben weg
-• Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreiben die beiden Gegner je dieselbe Zahl
-• Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
-
-Die Gegenwehr ist dieselbe wie am vollen Tisch, denn dort wie hier stehen dem Spielübernehmer zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien. Wer bietet, riskiert damit weniger, und wer gibt, spielt mit, statt zuzuschauen.
-
-**Häufige Fragen:**
-- **Wie spielt man Pandur zu dritt?** Wie den Pandur für vier Spieler, nur hält auch der Spielgeber Karten: 24 Karten, acht je Spieler, tiefstes Gebot 100, Schritte von 10 Punkten.
-- **Wie viele Karten erhält jeder Spieler beim Pandur zu dritt?** Acht Karten, in zwei Gängen zu vier gegeben.
-- **Kann der Spielgeber beim Pandur zu dritt erben?** Der Spielgeber spielt mit, damit fällt das Erben weg. Ein verfehltes Gebot schreiben die beiden Gegner.
-- **Gelten beim Pandur zu dritt dieselben Gebote?** Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte.
-
-*Keywords: pandur drei, drei spieler pandur, ohne erben, aktiver spielgeber, direkter wettkampf*
-
----
-
 ### Schafhauser (3 Spieler) {#variants_strategic_schafhauser}
 
 **Kategorie:** Varianten > Königsspiel
@@ -960,32 +935,6 @@ In allen anderen Belangen entsprechen die Regeln denen des Handjass mit «Besser
 - **Wie viele Striche erhält der Gewinner beim Handjass zu zweit?** Der Gewinner eines Spiels erhält zwei Striche gutgeschrieben.
 
 *Keywords: handjass bessern zwei, zwei spieler, 6 karten bessern, trump sechser, stock einsehen*
-
----
-
-### Pandur (2 Spieler) {#variants_strategic_pandur_zwei}
-
-**Kategorie:** Varianten > Königsspiel
-
-Der Pandur zu zweit ist der Pandur ohne Team: Einer bietet, einer hält dagegen.
-
-• Gespielt wird mit 24 Karten. Jeder erhält acht, die übrigen acht bilden den Stock
-• Die unterste Karte des Stocks darf eingesehen werden. Sie ist die einzige Auskunft über die acht Karten, die aus dem Spiel bleiben
-• Der Stock bleibt liegen. Ausgespielt werden die 16 Karten der beiden Hände, also acht Stiche
-• Vorhand eröffnet das Steigern, danach bieten die beiden abwechselnd. Sagt einer fort, steht das Gebot
-• Leiter, Wertung und Spielregeln bleiben dieselben wie beim Pandur für vier Spieler: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
-• Der Weis gilt auch hier: Weist der Spielübernehmer, meldet sein Gegner, sobald er höher ist, und nimmt ihm damit die Weispunkte
-• Erreicht der Spielübernehmer sein Gebot, schreibt er die Punkte. Verfehlt er es, schreibt sie sein Gegner
-
-Zum Rechnen: Die acht Karten im Stock tragen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste. Auf den beiden Händen liegen damit noch rund 107 Punkte, und ein Ass, das im Stock liegt, holt niemand. **Schon das tiefste Gebot von 100 steht darum meist auf einem Weis**, und die unterste Stockkarte ist jeden Blick wert, bevor die erste Zahl fällt.
-
-**Häufige Fragen:**
-- **Wie spielt man Pandur zu zweit?** Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock. Einer bietet, einer hält dagegen; gespielt werden acht Stiche.
-- **Was ist der Stock beim Pandur zu zweit?** Die acht Karten, die aus dem Spiel bleiben. Ihre unterste Karte darf eingesehen werden und ist die einzige Auskunft über den Stock.
-- **Wie wird beim Pandur zu zweit gesteigert?** Vorhand eröffnet, danach bieten die beiden abwechselnd. Sagt einer «fort», steht das Gebot. Tiefstes Gebot ist 100, gesteigert wird in Schritten von 10 Punkten.
-- **Wer schreibt beim Pandur zu zweit die Punkte?** Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreibt sie sein Gegner. Gespielt wird auf 17 Schreibpunkte, und weil rund 50 Punkte im Stock liegen, steht schon das tiefste Gebot von 100 meist auf einem Weis.
-
-*Keywords: pandur zwei, zwei spieler pandur, stock einsehen, mann gegen mann, direkter wettkampf*
 
 ---
 
@@ -1494,16 +1443,35 @@ Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34:
 
 Nach der Regelsammlung, der wir folgen, ist der Pandur die einzige Jassart, in der eine Runde vor dem Spiel abmachen kann, dass Bschiisse erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner. Diese Fassung lebt vom Einverständnis aller: Sie wird vor der Partie abgemacht und gilt dann für jeden am Tisch.
 
-## Pandur zu dritt und zu zweit
+## Pandur zu dritt
 
-Beide Fassungen behalten Leiter, Wertung und Spielregeln des Pandur für vier Spieler:
+Der Pandur ohne den aussetzenden Spielgeber: Alle drei am Tisch halten Karten.
 
-• **Zu dritt** (siehe Pandur (3 Spieler)) erhält jeder Spieler acht Karten, und der Spielgeber spielt mit. Damit fällt das Erben weg: Ein verfehltes Gebot schreiben die beiden Gegner
-• **Zu zweit** (siehe Pandur (2 Spieler)) erhält jeder acht Karten. Die übrigen acht bilden den Stock, dessen unterste Karte offen liegt und von beiden angeschaut werden darf
+• Gespielt wird mit 24 Karten, acht je Spieler, in zwei Gängen zu vier gegeben
+• Der Spielgeber spielt mit. Damit fällt das Erben weg
+• Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreiben die beiden Gegner je dieselbe Zahl
+• Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
+
+Die Gegenwehr ist dieselbe wie am vollen Tisch, denn dort wie hier stehen dem Spielübernehmer zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien. Wer bietet, riskiert damit weniger, und wer gibt, spielt mit, statt zuzuschauen.
+
+## Pandur zu zweit
+
+Der Pandur ohne Team: Einer bietet, einer hält dagegen.
+
+• Gespielt wird mit 24 Karten. Jeder erhält acht, die übrigen acht bilden den Stock
+• Die unterste Karte des Stocks darf eingesehen werden. Sie ist die einzige Auskunft über die acht Karten, die aus dem Spiel bleiben
+• Der Stock bleibt liegen. Ausgespielt werden die 16 Karten der beiden Hände, also acht Stiche
+• Vorhand eröffnet das Steigern, danach bieten die beiden abwechselnd. Sagt einer «fort», steht das Gebot
+• Leiter, Wertung und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
+• Der Weis gilt auch hier: Weist der Spielübernehmer, meldet sein Gegner, sobald er höher ist, und nimmt ihm damit die Weispunkte
+• Erreicht der Spielübernehmer sein Gebot, schreibt er die Punkte. Verfehlt er es, schreibt sie sein Gegner
+
+Zum Rechnen: Die acht Karten im Stock tragen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste. Auf den beiden Händen liegen damit noch rund 107 Punkte, und ein Ass, das im Stock liegt, holt niemand. **Schon das tiefste Gebot von 100 steht darum meist auf einem Weis**, und die unterste Stockkarte ist jeden Blick wert, bevor die erste Zahl fällt.
 
 ## Was «Pandur» am Tisch heisst
 
 «Pandur» ist die Ansage, alle acht Stiche zu holen. Sie steht zuoberst auf der Leiter, und sie gibt dem Spiel den Namen. Woher das Wort stammt, sagen die von uns geprüften Quellen nicht. Gespielt wird der Pandur vor allem in der Schweiz, und geschrieben wird sein Name auch «Bandur».
+
 
 
 
@@ -1522,9 +1490,11 @@ Beide Fassungen behalten Leiter, Wertung und Spielregeln des Pandur für vier Sp
 - **Können die letzten Punkte einer Pandur-Partie geerbt werden?** Die letzten Punkte holt, wer Karten in der Hand hatte. Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Was der aussetzende Spielgeber erbt, wartet auf sein nächstes Spiel mit Karten.
 - **Was heisst «Pandur» als Ansage?** Der Spielübernehmer holt alle acht Stiche. Die Ansage steht zuoberst auf der Leiter: mit Trumpf 6 Schreibpunkte, ohne Trumpf 5.
 - **Darf man beim Pandur bschiisse?** Der Pandur ist die einzige Jassart, in der eine Runde das vor dem Spiel abmachen kann. Wer dabei ertappt wird, hat das laufende Spiel verloren.
-- **Wie unterscheidet sich der Pandur zu dritt und zu zweit?** Zu dritt hält auch der Spielgeber 8 Karten, womit das Erben wegfällt. Zu zweit hält jeder 8 Karten, die übrigen 8 bilden den Stock, dessen unterste Karte offen liegt.
+- **Wie spielt man Pandur zu dritt?** Wie zu viert, nur hält auch der Spielgeber Karten: 24 Karten, acht je Spieler, tiefstes Gebot 100. Das Erben fällt weg, ein verfehltes Gebot schreiben die beiden Gegner.
+- **Wie spielt man Pandur zu zweit?** Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock, dessen unterste Karte eingesehen werden darf. Einer bietet, einer hält dagegen; gespielt werden acht Stiche. Leiter und Wertung bleiben wie zu viert.
+- **Was ist der Stock beim Pandur zu zweit?** Die acht Karten, die aus dem Spiel bleiben. Ihre unterste Karte darf eingesehen werden und ist die einzige Auskunft über den Stock. Weil dort rund 50 Punkte liegen, steht schon das tiefste Gebot meist auf einem Weis.
 
-*Keywords: pandur, bandur, pandur jass, bandur jass, pandur regeln*
+*Keywords: 24 karten, aktiver spielgeber, ansage, anspruchsvoll, bandur*
 
 ---
 

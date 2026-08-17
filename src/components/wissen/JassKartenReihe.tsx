@@ -22,6 +22,12 @@ interface Props {
   slugs: string[];
   /** Beschriftung unter der Reihe (optional). */
   beschriftung?: string;
+  /**
+   * Zeigt den Umschalter Deutsch/Französisch über der Reihe. Der Renderer
+   * setzt ihn nur bei der ersten Kartenreihe eines Artikels (Remo, 17.08.2026);
+   * die Wahl gilt für alle Reihen der Seite.
+   */
+  mitWahl?: boolean;
 }
 
 /**
@@ -32,7 +38,7 @@ interface Props {
  *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg).
  */
-export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung }) => {
+export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung, mitWahl = true }) => {
   const system = useKartensystem();
   const [gross, setGross] = useState<JassKarte | null>(null);
 
@@ -51,24 +57,26 @@ export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung }) => {
     <figure className="jw-karten-reihe not-prose">
       <div className="jw-karten-kopf">
         <span className="jw-karten-marke">Jasskarten</span>
-        <div className="jw-karten-wahl" role="group" aria-label="Kartensystem wählen">
-          <button
-            type="button"
-            onClick={() => kartensystemSetzen('de')}
-            aria-pressed={system === 'de'}
-            className="jw-karten-wahl-knopf"
-          >
-            Deutsch
-          </button>
-          <button
-            type="button"
-            onClick={() => kartensystemSetzen('fr')}
-            aria-pressed={system === 'fr'}
-            className="jw-karten-wahl-knopf"
-          >
-            Französisch
-          </button>
-        </div>
+        {mitWahl && (
+          <div className="jw-karten-wahl" role="group" aria-label="Kartensystem wählen">
+            <button
+              type="button"
+              onClick={() => kartensystemSetzen('de')}
+              aria-pressed={system === 'de'}
+              className="jw-karten-wahl-knopf"
+            >
+              Deutsch
+            </button>
+            <button
+              type="button"
+              onClick={() => kartensystemSetzen('fr')}
+              aria-pressed={system === 'fr'}
+              className="jw-karten-wahl-knopf"
+            >
+              Französisch
+            </button>
+          </div>
+        )}
       </div>
 
       <div

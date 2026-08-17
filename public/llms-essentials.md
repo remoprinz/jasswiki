@@ -237,59 +237,127 @@ Bedeutung:
 
 **Kategorie:** Weis-Regeln > Weispunkte
 
-Weispunkte sind die Bonuspunkte, die ein Weis einbringt. Ein Weis ist eine Kartenkombination, die vor dem ersten Ausspiel gemeldet wird. Es gibt zwei Arten: aufeinanderfolgende Karten derselben Farbe und vier gleiche Karten.
+**Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt.** Wer sie hält, meldet sie mit seiner ersten Karte; wer sie behält, schreibt sie. Es gibt zwei Arten, und beide sind auf einen Blick erkennbar: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise; was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
-Eine Blattfolge sind aufeinanderfolgende Karten derselben Farbe, gezählt in der Reihenfolge Ass, König, Ober, Under, Banner, 9, 8, 7, 6.
+## Die Blattfolge
 
+Eine Blattfolge sind drei oder mehr aufeinanderfolgende Karten derselben Farbe. **Die Rangfolge ist in jeder Farbe dieselbe, gleich, was Trumpf ist:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass, von der tiefsten zur höchsten Karte. Puur und Nell bleiben für den Weis an ihrem Platz; ihre Trumpfkraft zählt beim Stechen, beim Weisen zählt die Farbfolge. Alle Kartenreihen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts.
 
-
-Weis-Werte, Blattfolgen (gleiche Farbe):
-• Dreiblatt (3 Karten): 20 Punkte
-• Vierblatt (4): 50
-• Fünfblatt (5): 100
-• Sechsblatt (6): 150
-• Siebenblatt (7): 200
-• Achtblatt (8): 250
-• Neunblatt (9): 300
-
-Vier gleiche Karten sind vier Karten desselben Ranges, je eine aus jeder Farbe. Sie haben mit der Blattfolge nichts zu tun und zählen eigene Werte.
+Jede Karte mehr hebt den Weis um eine Stufe, ab dem Vierblatt um 50 Punkte je Karte.
 
 
 
-Vier gleiche Karten:
-• Vier Gleiche: 100 Punkte
-• Vier Nell (Neuner): 150
-• Vier Puuren (Under): 200
 
-Die Stöck (König und Ober im Trumpf) sind ein eigener Weis von 20 Punkten.
 
-Melden:
-Alle Weise werden vor dem ersten Ausspiel gemeldet. Der letzte Spieler darf noch melden, bis der erste Stich zusammengenommen ist. Zweite Weise dürfen bis zum zweiten Stich nachgemeldet werden. Der wertvollste Weis wird zuerst genannt, bei gleichwertigem Weis antwortet der zweite Melder mit «gut».
 
-Wer die Weise schreibt:
-Es zählt der höchste einzelne Weis. Die Partei, die ihn hält, schreibt alle ihre Weise, die Gegenpartei keine.
 
-Wichtig:
-Karten, die für einen ungültigen Weis verraten wurden, verlieren ihren Stechwert.
+
+## Vier Gleiche
+
+Vier Karten desselben Rangs, je eine aus jeder Farbe. Sie haben mit der Blattfolge nichts zu tun und tragen eigene Werte:
+
+
+
+
+
+## Die Stöck
+
+
+Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten der beiden Karten, wann immer sie fällt, und sie zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis halten. Alles dazu steht im Artikel Stöck.
+
+## Alle Weise auf einen Blick
+
+| Weis | Karten | Punkte |
+|---|---|---|
+| Dreiblatt | 3 in Folge, eine Farbe | 20 |
+| Vierblatt | 4 in Folge | 50 |
+| Fünfblatt | 5 in Folge | 100 |
+| Sechsblatt | 6 in Folge | 150 |
+| Siebenblatt | 7 in Folge | 200 |
+| Achtblatt | 8 in Folge | 250 |
+| Neunblatt | 9 in Folge, die ganze Farbe | 300 |
+| Vier Gleiche | Ass, König, Ober, Banner, Acht, Sieben oder Sechs | 100 |
+| Vier Nell | die vier Neuner | 150 |
+| Vier Puur | die vier Under | 200 |
+| Stöck | König und Ober im Trumpf | 20 |
+
+Beim Schieber wird der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart multipliziert: Ein Dreiblatt bei einer Trumpfart, die doppelt zählt, schreibt 40.
+
+## Wer schreibt: der höchste einzelne Weis entscheidet
+
+**Es zählt der höchste einzelne Weis am Tisch.** Die Partei, die ihn hält, schreibt alle ihre Weise, auch die kleinen; die Gegenpartei schreibt keinen. Zwei Dreiblatt auf der einen Seite sind zusammen 40 und verlieren gegen ein einziges Vierblatt mit 50 auf der anderen: Die Vierblatt-Partei schreibt 50, die andere nichts.
+
+Ausgenommen sind die Stöck: Sie schreibt ihre Partei in jedem Fall.
+
+## Welcher Weis ist höher?
+
+Zwei Weise werden in dieser Reihenfolge verglichen. Sobald ein Schritt entscheidet, ist Schluss:
+
+| Schritt | Was entscheidet | Beispiel |
+|---|---|---|
+| 1 | Die höhere Punktzahl | Vierblatt 50 schlägt Dreiblatt 20 |
+| 2 | Bei gleicher Punktzahl: mehr Karten | Fünfblatt 100 schlägt vier Könige 100 |
+| 3 | Bei gleich vielen Karten: die höhere Karte | Dreiblatt vom Ass schlägt Dreiblatt vom König |
+| 4 | Bei gleich hoher Karte: Trumpf | Dreiblatt vom Ass in der Trumpffarbe schlägt dasselbe in einer anderen Farbe |
+| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Vorhand vor den Spielern nach ihr |
+
+Schritt 2 heisst zugleich: **Eine Blattfolge schlägt vier Gleiche desselben Werts**, denn sie hat immer mehr Karten. Bei den vier Gleichen untereinander entscheidet der Rang: vier Puur über vier Nell, und bei gleichem Wert die höhere Karte, vier Asse über vier Könige.
+
+
+
+
+
+## Melden: so läuft es am Tisch
+
+Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird zuerst allein die Punktzahl. Die Karten bleiben in der Hand; gezeigt wird ein Weis erst, wenn die Gegenpartei ihn nach dem ersten Stich sehen will.
+
+| Wer | Sagt | Was es heisst |
+|---|---|---|
+| Vorhand, mit der ersten Karte | «Fünfzig» | Ich halte einen Weis von 50 |
+| Gegner, mit seiner Karte | «Fünfzig auch» | Ich halte ebenso viel; jetzt wird verglichen |
+| Vorhand | «Vom Ass» | Meine Folge reicht bis zum Ass |
+| Gegner | «Gut» | Deiner ist höher; meine Partei schreibt nichts |
+
+Reicht auch die Karte für den Entscheid nicht, folgt «Trumpf?» und zuletzt die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise; der wertvollere Weis einer Hand wird zuerst genannt.
+
+## Kreuzweis: eine Karte in zwei Weisen
+
+Eine Karte darf gleichzeitig zu einer Blattfolge und zu vier Gleichen gehören. Beide Weise müssen für sich gültig sein, und der wertvollere wird zuerst gemeldet.
+
+
+Mehr dazu im Artikel Kreuzweis.
+
+## Weis in Obenabe und Undenufe
+
+Blattfolgen und vier Gleiche gelten in jeder Spielart. **In Undenufe ist die tiefste Karte massgebend**, weil dort der Sechser die höchste Karte ist: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. In Obenabe gilt die gewohnte Ordnung vom Ass her. Stöck gibt es in beiden nicht, weil kein Trumpf da ist.
+
+
+
+## Zwei Regeln, die Streit vermeiden
+
+• **Ein Weis zählt unabhängig vom Stichverlauf.** Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem
+• **Ein falsch gemeldeter Weis wird gestrichen.** Was der Melder dafür gezeigt hat, kennen die Gegner nun; eine weitergehende Strafe macht die Runde vor der Partie ab
+
 
 **Häufige Fragen:**
-- **Was sind Weispunkte beim Jassen?** Bonuspunkte für gemeldete Kartenkombinationen, die Weise genannt werden.
-- **Was ist ein Weis?** Eine Kartenkombination, die vor dem ersten Ausspiel gemeldet wird und Bonuspunkte bringt.
-- **Welche Weise gibt es?** Blattfolgen von drei bis neun Karten derselben Farbe und vier gleiche Karten.
+- **Was ist ein Weis beim Jassen?** Eine Kartenverbindung, die Punkte bringt, bevor der erste Stich fällt: drei oder mehr aufeinanderfolgende Karten derselben Farbe, oder vier gleiche Karten. Gemeldet wird sie mit der ersten Karte.
+- **Welche Kartenkombinationen zählen beim Jassen als Weis?** Blattfolgen von drei bis neun Karten derselben Farbe (Dreiblatt bis Neunblatt), vier gleiche Karten (vier Gleiche, vier Nell, vier Puur) und die Stöck, also König und Ober der Trumpffarbe.
 - **Wie viele Punkte gibt ein Dreiblatt?** 20 Punkte.
 - **Wie viele Punkte gibt ein Vierblatt?** 50 Punkte.
-- **Wie viele Punkte gibt ein Fünfblatt?** 100 Punkte.
-- **Wie viele Punkte gibt ein Sechsblatt?** 150 Punkte.
-- **Wie viele Punkte gibt ein Siebenblatt?** 200 Punkte.
-- **Wie viele Punkte gibt ein Achtblatt?** 250 Punkte.
-- **Wie viele Punkte gibt ein Neunblatt?** 300 Punkte.
-- **Wie viele Punkte geben vier Gleiche?** 100 Punkte.
-- **Wie viele Punkte geben vier Nell?** 150 Punkte.
-- **Wie viele Punkte geben vier Puuren?** 200 Punkte.
-- **Wann muss man Weise melden?** Vor dem ersten Ausspiel.
-- **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keine.
+- **Wie viele Punkte gibt ein Fünfblatt?** 100 Punkte. Danach steigt es je Karte um 50: Sechsblatt 150, Siebenblatt 200, Achtblatt 250, Neunblatt 300.
+- **Wie viele Punkte geben vier Gleiche?** 100 Punkte für vier Asse, Könige, Ober oder Banner. Vier Nell zählen 150, vier Puur 200.
+- **Zählen vier Sechser, Siebner oder Achter als Weis?** Ja, je 100 Punkte, wie vier Asse. Ältere Regeln liessen sie nicht gelten; wer so spielt, macht es vor der Partie ab.
+- **In welcher Reihenfolge zählt die Blattfolge?** In jeder Farbe gleich, von der tiefsten zur höchsten Karte: Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass, gleich, was Trumpf ist. Puur und Nell bleiben für den Weis an ihrem Platz.
+- **Welcher Weis ist höher, wenn beide gleich viel zählen?** Zuerst mehr Karten (ein Fünfblatt schlägt vier Könige), dann die höhere Karte (Dreiblatt vom Ass schlägt Dreiblatt vom König), dann Trumpf, und ist alles gleich, wer zuerst gemeldet hat.
+- **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keinen. Zwei Dreiblatt (40) verlieren gegen ein Vierblatt (50). Die Stöck schreibt ihre Partei in jedem Fall.
+- **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl; gezeigt wird der Weis erst, wenn die Gegenpartei ihn nach dem ersten Stich sehen will.
+- **Was ist ein Kreuzweis?** Eine Karte, die zugleich zu einer Blattfolge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte.
+- **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist die tiefste Karte massgebend: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Stöck gibt es dort keine, weil kein Trumpf da ist.
+- **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Ein gemeldeter Weis zählt unabhängig vom Stichverlauf.
+- **Was passiert bei einem falschen Weis?** Er wird gestrichen, und die Gegner kennen die gezeigten Karten. Eine weitergehende Strafe macht die Runde vor der Partie ab.
+- **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.
 
-*Keywords: weispunkte, weis, weisen, dreiblatt vierblatt punkte, vier gleiche*
+*Keywords: weisen, weis, weise, wys, weispunkte*
 
 ---
 
