@@ -140,38 +140,40 @@ Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punkte
 
 **Kategorie:** Grundlagen & Kultur > Jasskarten
 
-Beim Schweizer Jass kommen zwei Kartensysteme zum Einsatz. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Funktional sind die Systeme gleichwertig: Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.
+Beim Schweizer Jass sind zwei Blätter im Gebrauch, das Deutschschweizer und das französische. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Gespielt wird mit beiden nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich. Wer «deutsche Jasskarten» sagt, meint das Deutschschweizer Blatt.
 
-Der Deutschschweizer Satz hat Eichel, Rosen, Schellen und Schilten, der französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die beiden Sätze entsprechen sich eins zu eins: Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel meinen dieselbe Farbe.
+Das Deutschschweizer Blatt hat Eichel, Rosen, Schellen und Schilten, das französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die gängige Zuordnung setzt Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel gleich.
 
 ## Alle 36 Karten
 
-Farbe für Farbe, von der höchsten zur tiefsten Karte, beide Systeme im direkten Vergleich.
+Farbe für Farbe, beide Blätter im direkten Vergleich. Gezeigt ist die Reihenfolge, in der die Karten ausserhalb der Trumpffarbe stechen, von der höchsten zur tiefsten.
 
-Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch), einer modernen Neuillustration des klassischen Schweizer Blatts. Der Schweizer Grafiker Jens Riedweg hat es als Vektorgrafik gestaltet, gedruckt werden die Karten in der Schweiz. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.
+Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch): Der Schweizer Grafiker Jens Riedweg hat das klassische Deutschschweizer Blatt und das französische Blatt als Vektorgrafik neu gezeichnet. Nach Angaben des Anbieters werden die Karten in der Schweiz gedruckt. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.
 
 ## Die neun Karten einer Farbe
 
-**Ein Jass-Set hat 36 Karten: vier Farben mit je neun Karten.** Von der höchsten zur tiefsten heissen sie Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen dieselben Karten Ass, König, Dame, Bube, Zehn, Neun, Acht, Sieben und Sechs.
+**Ein Jassblatt hat 36 Karten: vier Farben mit je neun Karten.** Ausserhalb der Trumpffarbe stechen sie in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.
 
-Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14. Was jede Karte zählt, steht weiter unten.
+Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, die Neun heisst Nell und zählt 14. **Im Trumpf rücken die beiden an die Spitze:** Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs. Was jede Karte zählt, steht weiter unten.
+
+Zwei Namen erklären sich aus dem Bild: Das Banner zeigt eine Fahne mit der Zahl 10 darauf, und das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.
 
 ## Was die vier Symbole zeigen
 
-Der Deutschschweizer Satz zeigt vier Dinge, die man benennen kann: eine **Eichel** (siehe Eichel), eine rote **Rose** (siehe Rosen), eine **Schelle** (siehe Schellen), also ein kleines Glöckchen, und einen **Schild** (siehe Schilten).
+Das Deutschschweizer Blatt zeigt eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild.
 
-Der französische Satz zeigt die vier Zeichen, die auch international gelten:
+Das französische Blatt zeigt die vier Zeichen, die auch international gelten:
 
 | Deutschschweizer Symbol | Französisches Symbol | International |
 |---|---|---|
 | Eichel | Kreuz, französisch Trèfle | ♣ |
 | Rosen | Herz, französisch Cœur | ♥ |
-| Schellen | Ecke, französisch Carreau | ♦ (Karo) |
-| Schilten | Schaufel, französisch Pique | ♠ (Pik) |
+| Schellen | Ecke, französisch Carreau | ♦, in Deutschland Karo |
+| Schilten | Schaufel, französisch Pique | ♠, in Deutschland Pik |
 
 ## Was jede Karte zählt
 
-Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen überall gleich viel:
+Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen in allen Farben gleich viel:
 
 | Karte | In der Trumpffarbe | In den anderen Farben |
 |---|---|---|
@@ -183,37 +185,37 @@ Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen überall glei
 | Ober | 3 | 3 |
 | Acht, Sieben, Sechs | 0 | 0 |
 
-**Ein Spiel trägt 157 Punkte:** 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg; dort zählt die Acht 8 Punkte, und in Undenufe übernimmt der Sechser die 11 des Asses. Die Summe bleibt in jeder Spielart bei 157. Alles dazu steht bei den Kartenwerten.
+**In einem Spiel liegen 157 Punkte:** 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe übernimmt der Sechser die 11 des Asses. Die Summe bleibt bei jeder Jass-Ansage, Trumpf, Obenabe oder Undenufe, bei 157. Alles dazu steht bei den Kartenwerten.
 
 Diese Werte gelten für das Jassen. **Kartenspiele, die bloss dasselbe Blatt benutzen, rechnen anders**: Beim Hose abe etwa zählen König, Ober und Under je zehn.
 
-## Welches System wo?
+## Welches Blatt wo?
 
-Welches Set auf den Tisch kommt, hängt von der Region ab. Grob folgt die Grenze dem Röstigraben, doch sie ist jünger und weniger scharf, als viele meinen. Mehr dazu im Artikel Jass-Regionen. Viele Jasserinnen und Jasser beherrschen ohnehin beide Sätze.
+Welches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuft mitten durch die Deutschschweiz, entlang der Brünig-Napf-Reuss-Linie: Westlich davon, in der Romandie und in Bern, Solothurn, Basel, Freiburg und im Wallis, liegen französische Karten auf dem Tisch, östlich davon, in Zürich, der Zentral- und der Ostschweiz, Deutschschweizer Karten. Der Röstigraben liegt 50 bis 100 Kilometer weiter westlich. Mehr dazu im Artikel Jass-Regionen. Viele Jasserinnen und Jasser beherrschen ohnehin beide Blätter.
 
 ## Wie sich das Schweizer Kartenbild entwickelt hat
 
-Das heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Die französischen Karten gelangten um 1860 in die Schweiz und verankerten sich um und nach 1900 als Jasskarten. Auch die verbreitete Vorstellung, der Röstigraben trenne die beiden Kartenwelten seit jeher, trifft nicht zu: Als Grenze der Kartenbilder entstand er erst um 1900.
+Das heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und verankerte sich um und nach 1900 als Jasskarten. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und lag um 1900 fest. Belegt ist das bei Walter Haas, «Die ‹französischen Jasskarten›», Schweizerisches Archiv für Volkskunde 109 (2013).
 
 Mehr zur Herkunft der Spielkarten steht unter Woher kommen Spielkarten?, mehr zur Herstellung unter Schweizer Kartenmacher.
 
 
-
-
 **Häufige Fragen:**
-- **Wie viele Karten hat ein Jass-Set?** 36 Karten: vier Farben mit je neun Karten. Das gilt für beide Kartensysteme, das Deutschschweizer wie das französische.
-- **Wie heissen die neun Karten einer Farbe?** Von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neuner, Achter, Siebner, Sechser. Im französischen Satz heissen Ober und Under Dame und Bube, das Banner heisst Zehn.
-- **Welche Kartenfarben gibt es beim Jassen?** Vier je System: Deutschschweizer heissen sie Eichel, Rosen, Schellen und Schilten, französisch Kreuz, Herz, Ecke und Schaufel.
+- **Wie viele Karten hat ein Jass-Set?** 36 Karten: vier Farben mit je neun Karten. Das gilt für beide Blätter, das Deutschschweizer wie das französische.
+- **Wie heissen die neun Karten einer Farbe?** Ausserhalb der Trumpffarbe von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober und Under Dame und Bube, das Banner heisst Zehn. Im Trumpf rücken Under (Puur) und Neun (Nell) an die Spitze.
+- **Welche Kartenfarben gibt es beim Jassen?** Vier je Blatt: Im Deutschschweizer Blatt heissen sie Eichel, Rosen, Schellen und Schilten, im französischen Kreuz, Herz, Ecke und Schaufel.
 - **Was zeigen die Symbole auf den Deutschschweizer Jasskarten?** Eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild.
-- **Was zeigen die Symbole auf den französischen Jasskarten?** Kreuz (Trèfle, ♣), Herz (Cœur, ♥), Ecke (Carreau, ♦, im deutschen Blatt Karo) und Schaufel (Pique, ♠, im deutschen Blatt Pik).
-- **Sind die beiden Kartensysteme gleichwertig?** Ja, funktional. Gespielt wird nach denselben Regeln, nur die Bilder auf den Karten unterscheiden sich.
-- **Welche französische Farbe entspricht Schellen?** Ecke, im deutschen Standardblatt Karo.
-- **Welche französische Farbe entspricht Schilten?** Schaufel, im deutschen Standardblatt Pik.
+- **Was zeigen die Symbole auf den französischen Jasskarten?** Kreuz (Trèfle, ♣), Herz (Cœur, ♥), Ecke (Carreau, ♦, in Deutschland Karo) und Schaufel (Pique, ♠, in Deutschland Pik).
+- **Sind die beiden Blätter gleichwertig?** Ja. Gespielt wird nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich.
+- **Welche französische Farbe entspricht Schellen?** Ecke, französisch Carreau, in Deutschland Karo.
+- **Welche französische Farbe entspricht Schilten?** Schaufel, französisch Pique, in Deutschland Pik.
 - **Welche französische Farbe entspricht Rosen?** Herz.
 - **Welche französische Farbe entspricht Eichel?** Kreuz, französisch Trèfle.
 - **Welche Karte heisst Puur und welche Nell?** In der Trumpffarbe heisst der Under Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14 Punkte.
 - **Wie viele Punkte zählt jede Jasskarte?** In der Trumpffarbe: Under (Puur) 20, Neun (Nell) 14, Ass 11, Banner 10, König 4, Ober 3, und Acht, Sieben, Sechs je null. In den anderen Farben: Ass 11, Banner 10, König 4, Ober 3, Under 2, und Neun bis Sechs null.
-- **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt in jeder Spielart gleich.
+- **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt bei jeder Jass-Ansage gleich, Trumpf, Obenabe oder Undenufe.
+- **Wo spielt man mit deutschen und wo mit französischen Jasskarten?** Die Grenze verläuft entlang der Brünig-Napf-Reuss-Linie mitten durch die Deutschschweiz: westlich davon, in der Romandie, in Bern, Solothurn, Basel, Freiburg und im Wallis, liegen französische Karten auf dem Tisch, östlich davon Deutschschweizer Karten.
+- **Welche Karte ist im Trumpf die höchste?** Der Under der Trumpffarbe, der Puur, gefolgt von der Neun, dem Nell. Danach kommen Ass, König, Ober, Banner, Acht, Sieben, Sechs.
 
 *Keywords: jasskarten, schweizer spielkarten, kartenfarben, jass farben, eichel rosen schellen schilten*
 
@@ -243,7 +245,7 @@ Quellen / Hinweise:
 **Häufige Fragen:**
 - **Was ist Etymologie des Begriffs Matsch?** In Deutschschweizer Kartenspielen bedeutet en Matsch mache alle Stiche eines Spiels zu machen.
 - **Was bedeutet «en Matsch mache» beim Jassen?** In Deutschschweizer Kartenspielen bedeutet «en Matsch mache», alle Stiche eines Spiels zu machen. Beim Schieber gibt es dafür üblicherweise einen Bonus von 100 Punkten (ausser an Turnieren).
-- **Woher kommt der Begriff «Matsch»?** Dem Begriff liegt laut Michael Koller das italienische Adjektiv «marcio» (verfault, morsch, verrottet) zugrunde; der Begriff wurde möglicherweise aus der Spielersprache italienischer Arbeiter im 19. Jahrhundert entlehnt.
+- **Woher kommt der Begriff «Matsch»?** Dem Begriff liegt laut Michael Koller das italienische Adjektiv «marcio» (verfault, morsch, verrottet) zugrunde. Der Begriff wurde möglicherweise aus der Spielersprache italienischer Arbeiter im 19. Jahrhundert entlehnt.
 - **Warum schreibt man heute oft «Match» statt «Matsch»?** Ab den 1930er Jahren setzte sich zunehmend die englische Schreibweise «Match» durch (Anglisierung), u. a. im Umfeld sportlicher Begriffe wie «Match» und «Matchball».
 - **Welche Quellen nennt der Gastbeitrag?** Genannt werden u. a. das Schweizerische Idiotikon («Matsch»), der Duden («Matsch»), Wikipedia («Schneider (Kartenspiel)»), NZZ (10.2.1918 und 15.7.1949) sowie Kluge (2011, «Matsch»).
 
@@ -287,7 +289,7 @@ Beim Schieber hat die Partner- und Gegnerzulosung entscheidenden Einfluss auf di
 
 - Vor jedem Spiel gibt es eine Erwartung, wie viele Punkte ein Team aufgrund der Erfahrungswerte holen sollte.
 - Nach dem Spiel wird die tatsächliche Leistung gemessen.
-- Wer besser abschneidet als erwartet, steigt im Rating; wer darunter bleibt, verliert Punkte.
+- Wer besser abschneidet als erwartet, steigt im Rating. Wer darunter bleibt, verliert Punkte.
 
 Das Ergebnis ist eine laufend aktualisierte Zahl als objektiver Indikator der Spielstärke, unabhängig von Partner oder Gegner.
 
@@ -311,7 +313,7 @@ Das Elo-System stammt aus dem Schach und misst die Spielstärke am binären Erge
 | Skala S | 1000 |
 | Start-Rating | 100 |
 
-Die breite Skala S = 1000 trägt dem Umstand Rechnung, dass beim Schieber der Glücksfaktor grösser ist und die Ratings enger beieinander liegen; sie vergrössert die Ausprägungen. Aus demselben Grund liegt das Start-Rating bei 100 (nicht 1000), damit die Unterschiede intuitiv bleiben. Der K-Faktor bestimmt die Anpassungsgeschwindigkeit; er wurde 1970 von der FIDE mit dem Wert 32 eingeführt (im Schach granular: 40 für junge, 20 für normale, 10 für erfahrene Spieler). Beim Jassen kann auf diese Granularität verzichtet werden, da sich ständig neue Teams bilden. Ein fixer K-Faktor von 32 ab dem ersten Spiel hält die Rangliste dynamisch und belohnt zugleich Konstanz.
+Die breite Skala S = 1000 trägt dem Umstand Rechnung, dass beim Schieber der Glücksfaktor grösser ist und die Ratings enger beieinander liegen. Sie vergrössert die Ausprägungen. Aus demselben Grund liegt das Start-Rating bei 100 (nicht 1000), damit die Unterschiede intuitiv bleiben. Der K-Faktor bestimmt die Anpassungsgeschwindigkeit. Er wurde 1970 von der FIDE mit dem Wert 32 eingeführt (im Schach granular: 40 für junge, 20 für normale, 10 für erfahrene Spieler). Beim Jassen kann auf diese Granularität verzichtet werden, da sich ständig neue Teams bilden. Ein fixer K-Faktor von 32 ab dem ersten Spiel hält die Rangliste dynamisch und belohnt zugleich Konstanz.
 
 ## Formeln
 
@@ -335,7 +337,7 @@ Rating-Update (Team und Spieler):
 
 $$\Delta_A = K\,(S_A - E_A), \qquad \Delta_B = -\Delta_A, \qquad \Delta_{\text{Spieler}} = \frac{\Delta_{\text{Team}}}{2}, \qquad K = 32$$
 
-Als höchstmöglicher Sieg wird 7:0 angenommen (1 Berg-, 2 Sieg-, 2 Matsch- und 2 Schneider-Striche). Höhere Strichdifferenzen pro Spiel sind vernachlässigbar; daher dient maxDiff = 7 als maximale erwartete Strichdifferenz, und das Ergebnis wird auf den Bereich von 0 bis 1 beschränkt.
+Als höchstmöglicher Sieg wird 7:0 angenommen (1 Berg-, 2 Sieg-, 2 Matsch- und 2 Schneider-Striche). Höhere Strichdifferenzen pro Spiel sind vernachlässigbar. Daher dient maxDiff = 7 als maximale erwartete Strichdifferenz, und das Ergebnis wird auf den Bereich von 0 bis 1 beschränkt.
 
 Die 32 bezieht sich auf die Team-Rating-Änderung. Da jeder Spieler die Hälfte der Team-Änderung erhält, entspricht die effektive Änderung pro Spieler einem K-Faktor von 16. Beispiel: Erhält Team A eine Änderung von +8, bekommen beide Spieler von Team A je +4 Punkte, beide von Team B je −4.
 
@@ -349,7 +351,7 @@ Die 32 bezieht sich auf die Team-Rating-Änderung. Da jeder Spieler die Hälfte 
 
 ## Praktische Umsetzung
 
-Neue Spieler starten bei 100. Als Datenbasis dienen Teamaufstellungen, Striche und Zeitstempel; die Verarbeitung erfolgt chronologisch über alle Spiele. Die Ergebnisse werden gruppenunabhängig pro Spieler gespeichert und in Jassgruppen und Turnieren gespiegelt.
+Neue Spieler starten bei 100. Als Datenbasis dienen Teamaufstellungen, Striche und Zeitstempel. Die Verarbeitung erfolgt chronologisch über alle Spiele. Die Ergebnisse werden gruppenunabhängig pro Spieler gespeichert und in Jassgruppen und Turnieren gespiegelt.
 
 **Live-Beispiel:** Eine echte Gruppen-Rangliste mit Jass-Elo siehst du auf [jassguru.ch](https://jassguru.ch/view/group/Tz0wgIHMTlhvTtFastiJ/).
 

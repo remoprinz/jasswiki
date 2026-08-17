@@ -995,14 +995,14 @@ Definition:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Fort ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte.
+Fort ist die Bemerkung, mit der ein Spieler beim Bieten erklärt, dass er kein Gebot mehr macht. «Ich passe» heisst dasselbe.
 
 Verwendung:
-Diese Spielaktion kommt besonders bei der Jassart Bieter (auch Steiger genannt) zum Einsatz und beendet für diesen Spieler die Bietphase.
+Die Bemerkung gehört zu allen Bietspielen: Sidi-Barrani, Pandur, Bieter und weitere. Was ein «fort» bewirkt, regelt jede Jassart selbst. Beim Sidi-Barrani und beim Pandur empfiehlt der Verband, dass es für dieses Bieten endgültig gilt: Wer draussen ist, bleibt draussen. Beim Bieter bindet ein «fort» erst, wenn schon ein Gebot gefallen ist. Wer vorher passt, darf einsteigen, sobald jemand bietet.
 
 **Häufige Fragen:**
-- **Was bedeutet Fort beim Jassen?** Fort ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte.
-- **Wann sagt man Fort?** Man sagt Fort besonders bei der Jassart Bieter (auch Steiger genannt), um die Bietphase für sich zu beenden.
+- **Was bedeutet Fort beim Jassen?** Fort ist die Bemerkung, mit der ein Spieler beim Bieten erklärt, dass er kein Gebot mehr macht. «Ich passe» heisst dasselbe.
+- **Wann sagt man Fort?** Beim Bieten, sobald ein Spieler das laufende Gebot stehen lässt. Beim Sidi-Barrani und beim Pandur gilt es nach Empfehlung des Verbands für dieses Bieten endgültig, beim Bieter bindet es erst nach dem ersten Gebot.
 - **Ist Fort das gleiche wie Passen?** Ja, Fort und Passen bedeuten dasselbe beim Jassen.
 
 *Keywords: fort, bieter, steiger*
@@ -1225,13 +1225,13 @@ Anforderung:
 | zu fünft | die genannte Karte und 4 weitere |
 | zu sechst | die genannte Karte und 5 weitere |
 
-«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs; die genannte Karte sagt, wie hoch er reicht.
+«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs. Die genannte Karte sagt, wie hoch er reicht.
 
 ## Wozu die Zählung dient
 
 Sie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.
 
-Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, misst seine Stechkraft; wer weist, legt eine dieser beiden Figuren vor.
+Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, misst seine Stechkraft. Wer weist, legt eine dieser beiden Figuren vor.
 
 ## Beim Bieten
 
@@ -1416,11 +1416,11 @@ Taktischer Zweck:
 
 **Kategorie:** Begriffe > Spielaktionen
 
-Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Kontern ist die Antwort der Gegenseite, die an ihrem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird; die Aufgabe am Tisch bleibt dieselbe.
+Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Kontern ist die Antwort der Gegenseite, die an ihrem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird. Die Aufgabe am Tisch bleibt dieselbe.
 
 ## Was sich ändert
 
-Gedoppelt wird der Schreibwert des Spiels; das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert; verfehlt er sie, schreibt ihn die Gegenseite.
+Gedoppelt wird der Schreibwert des Spiels. Das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert. Verfehlt er sie, schreibt ihn die Gegenseite.
 
 Beim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und jeder Schritt verdoppelt ihn:
 
@@ -1434,7 +1434,7 @@ Nach dem Kontern stehen die Zielpunkte fest.
 
 ## Wann gedoppelt wird
 
-Das Doppeln beendet das Bieten; gespielt wird das zuletzt genannte Gebot. Der Jassverband Schweiz empfiehlt dafür ein klares Fenster: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
+Das Doppeln beendet das Bieten. Gespielt wird das zuletzt genannte Gebot. Der Jassverband Schweiz empfiehlt dafür ein klares Fenster: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
 
 Bis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.
 
@@ -1461,10 +1461,10 @@ Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermats
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Ecke ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Karo ♦ (französisch Carreau); im deutschen Standardblatt heisst die Farbe Karo. Das Pendant auf den Deutschschweizer Karten ist [Schellen](/begriffe/kartenbezeichnungen/schellen/). Ecke, Karo und Schellen bezeichnen dieselbe Farbe: Der Ecke-König ist die gleiche Karte wie der Schellen-König, nur mit anderem Symbol. Wird Ecke als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Ecke ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Karo ♦ (französisch Carreau). In Deutschland heisst die Farbe Karo. Das Pendant auf den Deutschschweizer Karten ist [Schellen](/begriffe/kartenbezeichnungen/schellen/). Ecke, Karo und Schellen bezeichnen dieselbe Farbe: Der Ecke-König ist die gleiche Karte wie der Schellen-König, nur mit anderem Symbol. Wird Ecke als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Ecke?** Auf den Deutschschweizer Karten ist es Schellen. Im deutschen Standardblatt heisst die Farbe Karo.
+- **Was ist das Pendant zu Ecke?** Auf den Deutschschweizer Karten ist es Schellen. In Deutschland heisst die Farbe Karo.
 - **Heisst Ecke auch Karo?** Ja. Ecke ist die Westschweizer Bezeichnung, Karo die deutsche Standardbezeichnung für dieselbe Farbe (♦, französisch Carreau). Im Deutschschweizer Blatt heisst sie Schellen.
 - **Was ist Ecke beim Jassen?** Eine der vier Farben im französischen Blatt (Karo ♦), gleichbedeutend mit Schellen im Deutschschweizer Blatt.
 
@@ -1536,10 +1536,10 @@ Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol i
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Pik ♠ (französisch Pique); im deutschen Standardblatt heisst die Farbe Pik. Das Pendant auf den Deutschschweizer Karten ist [Schilten](/begriffe/kartenbezeichnungen/schilten/). Schaufel, Pik und Schilten bezeichnen dieselbe Farbe: Der Schaufel-König ist die gleiche Karte wie der Schilten-König, nur mit anderem Symbol. Wird Schaufel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Pik ♠ (französisch Pique). In Deutschland heisst die Farbe Pik. Das Pendant auf den Deutschschweizer Karten ist [Schilten](/begriffe/kartenbezeichnungen/schilten/). Schaufel, Pik und Schilten bezeichnen dieselbe Farbe: Der Schaufel-König ist die gleiche Karte wie der Schilten-König, nur mit anderem Symbol. Wird Schaufel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schaufel?** Auf den Deutschschweizer Karten ist es Schilten. Im deutschen Standardblatt heisst die Farbe Pik.
+- **Was ist das Pendant zu Schaufel?** Auf den Deutschschweizer Karten ist es Schilten. In Deutschland heisst die Farbe Pik.
 - **Heisst Schaufel auch Pik?** Ja. Schaufel ist die Westschweizer Bezeichnung, Pik die deutsche Standardbezeichnung für dieselbe Farbe (♠, französisch Pique). Im Deutschschweizer Blatt heisst sie Schilten.
 - **Was ist Schaufel beim Jassen?** Eine der vier Farben im französischen Blatt (Pik ♠), gleichbedeutend mit Schilten im Deutschschweizer Blatt.
 
@@ -1551,12 +1551,12 @@ Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor all
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Schelle, ein kleines Glöckchen. Das Pendant auf den französischen Karten ist [Ecke](/begriffe/kartenbezeichnungen/ecke/), im deutschen Standardblatt Karo (international das Karo ♦, französisch Carreau). Schellen, Ecke und Karo bezeichnen dieselbe Farbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Schelle, ein kleines Glöckchen. Das Pendant auf den französischen Karten ist [Ecke](/begriffe/kartenbezeichnungen/ecke/), in Deutschland Karo (international das Karo ♦, französisch Carreau). Schellen, Ecke und Karo bezeichnen dieselbe Farbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schellen?** Auf den französischen Karten ist es Ecke, im deutschen Standardblatt Karo. Alle drei bezeichnen dieselbe Farbe (♦, französisch Carreau).
-- **Ist Schellen dasselbe wie Karo?** Ja. Schellen heisst auf den französischen Karten Ecke und im deutschen Standardblatt Karo.
-- **Wie heisst Schellen auf den französischen Jasskarten?** Ecke. Im deutschen Standardblatt heisst die Farbe Karo.
+- **Was ist das Pendant zu Schellen?** Auf den französischen Karten ist es Ecke, in Deutschland Karo. Alle drei bezeichnen dieselbe Farbe (♦, französisch Carreau).
+- **Ist Schellen dasselbe wie Karo?** Ja. Schellen heisst auf den französischen Karten Ecke und in Deutschland Karo.
+- **Wie heisst Schellen auf den französischen Jasskarten?** Ecke. In Deutschland heisst die Farbe Karo.
 
 *Keywords: schellen, ecke, karo, carreau, farbe*
 
@@ -1566,12 +1566,12 @@ Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbo
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist der Schild. Das Pendant auf den französischen Karten ist [Schaufel](/begriffe/kartenbezeichnungen/schaufel/), im deutschen Standardblatt Pik (international das Pik ♠, französisch Pique). Schilten, Schaufel und Pik bezeichnen dieselbe Farbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist der Schild. Das Pendant auf den französischen Karten ist [Schaufel](/begriffe/kartenbezeichnungen/schaufel/), in Deutschland Pik (international das Pik ♠, französisch Pique). Schilten, Schaufel und Pik bezeichnen dieselbe Farbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schilten?** Auf den französischen Karten ist es Schaufel, im deutschen Standardblatt Pik. Alle drei bezeichnen dieselbe Farbe (♠, französisch Pique).
-- **Ist Schilten dasselbe wie Pik?** Ja. Schilten heisst auf den französischen Karten Schaufel und im deutschen Standardblatt Pik.
-- **Wie heisst Schilten auf den französischen Jasskarten?** Schaufel. Im deutschen Standardblatt heisst die Farbe Pik.
+- **Was ist das Pendant zu Schilten?** Auf den französischen Karten ist es Schaufel, in Deutschland Pik. Alle drei bezeichnen dieselbe Farbe (♠, französisch Pique).
+- **Ist Schilten dasselbe wie Pik?** Ja. Schilten heisst auf den französischen Karten Schaufel und in Deutschland Pik.
+- **Wie heisst Schilten auf den französischen Jasskarten?** Schaufel. In Deutschland heisst die Farbe Pik.
 
 *Keywords: schilten, schaufel, pik, pique, farbe*
 
