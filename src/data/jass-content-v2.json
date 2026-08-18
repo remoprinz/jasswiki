@@ -402,7 +402,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Bemerkungen/Schnorren beim Jassen?",
+        "question": "Was ist Schnorren beim Jassen?",
         "answer": "Schnorren (Bemerkungen während dem Spiel) ist grundsätzlich verboten. Verbotene Bemerkungen:\nKommentare über eine unschlagbare Karte (z.B."
       },
       {
@@ -3952,7 +3952,7 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Jassen als Kulturgut beim Jassen?",
+        "question": "Warum gilt der Jass als Schweizer Kulturgut?",
         "answer": "Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet."
       },
       {
@@ -4007,8 +4007,8 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Jasskarten: Verteilung beim Jassen?",
-        "answer": "**Grundregeln der Kartenverteilung:**\n\nBeim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt."
+        "question": "Wie werden die Karten beim Jassen verteilt?",
+        "answer": "Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler rechts von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei."
       },
       {
         "question": "Wie viele Karten erhält jeder Spieler beim Jassen?",
@@ -4249,7 +4249,7 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Jassen im europäischen Vergleich beim Jassen?",
+        "question": "Mit welchen europäischen Kartenspielen ist der Jass verwandt?",
         "answer": "Der Jass ist Teil einer grösseren Familie europäischer Kartenspiele."
       },
       {
@@ -4481,7 +4481,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Jass-Regionen beim Jassen?",
+        "question": "Was sind Schweizer Karten?",
         "answer": "Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind."
       },
       {
@@ -4595,7 +4595,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Spielfehler: Übersicht beim Jassen?",
+        "question": "Welche Spielfehler gibt es beim Jassen?",
         "answer": "Beim Jassen können verschiedene Spielfehler auftreten, die unterschiedliche Konsequenzen haben."
       },
       {
@@ -4742,7 +4742,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Wichtige Punkteregeln beim Jassen?",
+        "question": "Welche Punkteregeln muss man beim Jassen kennen?",
         "answer": "Beim Jassen gibt es wichtige Punkteregeln, die das Zählen und Stechen betreffen."
       },
       {
@@ -4874,7 +4874,7 @@
     ],
     "faqs": [
       {
-        "question": "Wie funktioniert Trumpfwerte: Grundlagen beim Jassen?",
+        "question": "Welche Karten zählen im Trumpf mehr?",
         "answer": "Im Trumpf-Spiel (siehe Begriff \"bodentrumpf\") gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel."
       },
       {
@@ -5506,8 +5506,8 @@
     },
     "faqs": [
       {
-        "question": "Was ist Schweizer Kartenmacher?",
-        "answer": "Die Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben\n• **Heute:** Neben klassischen Herstellern gibt es moderne Neuinterpretationen wie [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg (gemäss Anbieter: Druck in der Schweiz)."
+        "question": "Wer stellt in der Schweiz Jasskarten her?",
+        "answer": "Die industrielle Kartenproduktion begann im 19. Jahrhundert in Schweizer Manufakturen, aus denen Häuser wie AG Müller hervorgingen. Damals setzte sich auch das typische Schweizer Kartenbild durch. Heute kommen neben den klassischen Herstellern moderne Neuinterpretationen dazu, etwa schweizerjass.ch von Jens Riedweg."
       },
       {
         "question": "Wann begann die industrielle Kartenproduktion in der Schweiz?",
@@ -6544,7 +6544,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Mischen beim Jassen?",
+        "question": "Wie werden die Karten gemischt?",
         "answer": "Vor jeder Runde müssen die Karten gründlich gemischt werden."
       },
       {
@@ -6679,7 +6679,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Nichtfarben beim Jassen?",
+        "question": "Muss man die ausgespielte Farbe bedienen?",
         "answer": "Wer Karten der ausgespielten Farbe besitzt, muss diese bekennen."
       },
       {
@@ -6744,10 +6744,6 @@
       "dateModified": "2026-02-02"
     },
     "faqs": [
-      {
-        "question": "Wie funktioniert Plätze tauschen beim Jassen?",
-        "answer": "Während einer laufenden Partie (siehe Begriff \"expressions_partie\") ist Platztausch nicht erlaubt."
-      },
       {
         "question": "Darf man während einer Partie die Plätze tauschen?",
         "answer": "Nein, während einer laufenden Partie ist Platztausch nicht erlaubt."
@@ -8167,7 +8163,7 @@
     },
     "faqs": [
       {
-        "question": "Wie spielt man Einfacher Jass: Taktiken?",
+        "question": "Was ist der Glücksjass?",
         "answer": "Der Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei dem das Glück eine wichtigere Rolle spielt als komplexe Strategien."
       },
       {
@@ -9646,7 +9642,7 @@
     },
     "faqs": [
       {
-        "question": "Wie spielt man Differenzler: Taktiken?",
+        "question": "Wie funktioniert Differenzler zu dritt?",
         "answer": "Differenzler mit offener Ansage für 3 Spieler ist ein Dreier-Schätzspiel, bei dem jeder Spieler vorab ansagt, wie viele Kartenpunkte er zu erzielen glaubt."
       },
       {
@@ -11040,7 +11036,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Frühzeitiges Bedanken beim Jassen?",
+        "question": "Was passiert, wenn sich jemand zu früh bedankt?",
         "answer": "Spieler, der sich bedankt (siehe Begriff \"bedanken\"), obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie (siehe Begriff \"expressions_partie\")."
       },
       {
@@ -11280,8 +11276,8 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Korrekturregeln beim Jassen?",
-        "answer": "Bei nur einer Person für die Eintragung der Resultate gilt eine besondere Regelung."
+        "question": "Wie lange kann man einen Eintrag auf der Tafel korrigieren?",
+        "answer": "Alle Mitspieler können während des ganzen nächsten Spiels einen Korrekturwunsch äussern, wenn sie einen Fehler vermuten. Die Gegner dürfen jederzeit eine übersichtliche Darstellung aller bisherigen Einträge verlangen."
       },
       {
         "question": "Wann kann man Korrekturen verlangen?",
@@ -11565,10 +11561,6 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Zusammenwerfen beim Jassen?",
-        "answer": "Zusammenwerfen bedeutet, dass sich beide Teams (siehe Begriff \"expressions_team\") darauf einigen, das aktuelle Spiel abzubrechen und neu zu beginnen."
-      },
-      {
         "question": "Was bedeutet Zusammenwerfen?",
         "answer": "Zusammenwerfen bedeutet, dass sich beide Teams darauf einigen, das aktuelle Spiel abzubrechen und neu zu beginnen."
       },
@@ -11618,8 +11610,8 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Zwei Karten spielen beim Jassen?",
-        "answer": "Regelverstoss beim gleichzeitigen Spielen von zwei Karten mit sichtbaren Kartenbildern."
+        "question": "Was passiert, wenn jemand zwei Karten aufs Mal legt?",
+        "answer": "Legt jemand zwei Karten aufs Mal mit sichtbarem Bild, verlieren beide ihren Stechwert, der Zählwert bleibt. Die Gegner bestimmen, welche der beiden zum Stich zählt."
       },
       {
         "question": "Was passiert, wenn man zwei Karten gleichzeitig spielt?",
