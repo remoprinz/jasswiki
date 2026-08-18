@@ -147,7 +147,7 @@ Die Grundform des Spiels. Zu viert und zu fünft folgen weiter unten mit dem, wa
 • Drei Spieler, ein volles Blatt mit 36 Karten
 • Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt
 • Wer am höchsten bietet, ist der König. Die beiden anderen bilden für die ganze Partie die Bauernpartei
-• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte
+• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte. Viele Runden fangen tiefer an, bei 500 mit Schritten von 5
 • Die Bauernpartei spielt in jeder Partie auf 1000 Punkte
 • Farbzwang und Kartenwerte gelten wie sonst im Jass, und die erste Karte spielt wie sonst die Vorhand aus
 • Wird falsch ausgeteilt, gibt der nächste Spieler
@@ -169,6 +169,8 @@ Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem 
 ## Das Bieten
 
 Vorhand beginnt. Wer das Spiel übernehmen will, bietet mindestens 600 Punkte. Jedes weitere Gebot liegt mindestens 10 Punkte höher. Der Meistbietende wird König.
+
+**Die 600 sind die Zahl des Reglements, am Tisch wird oft tiefer angefangen.** Das Schweizer Jassverzeichnis spielt in der Innerschweiz mit einem Startgebot von 500 und Schritten von 5 Punkten und nennt 500, 600 und 650 als die gebräuchlichen Zahlen. Der Verband hält sich an die 600 des Reglements. Wer tiefer anfängt, senkt die Latte für den König: Bei 500 gegen 1000 genügen ihm rund 33 Prozent der Kartenpunkte, bei 600 sind es 37,5. Welche Zahl gilt, macht der Tisch vor der Partie ab.
 
 **Eine Feinheit, die am Tisch oft falsch gehandhabt wird:** Wer «fort» oder «ich passe» sagt, **bevor überhaupt ein Gebot gefallen ist**, darf später noch einsteigen, sobald jemand bietet. Erst ein fort **nach** einem Gebot schliesst für dieses Spiel aus. Beim Sidi-Barrani empfiehlt der Verband, dass ein «fort» endgültig gilt. Der Bieter regelt es nach seiner Quelle anders.
 
@@ -247,6 +249,7 @@ Beide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, h
 
 | Gebot des Königs | Anteil, den er im Schnitt braucht |
 |---|---|
+| 500 | 33,3 Prozent, also rund 52 von 157 |
 | 600 | 37,5 Prozent, also rund 59 von 157 |
 | 700 | 41,2 Prozent |
 | 800 | 44,4 Prozent |
@@ -285,7 +288,7 @@ Alle drei Fassungen behalten Ablauf, Ansagen, Weis, Verzicht und Schneider. Was 
 | Erstes Spiel, je Spieler | 5 und 5 | 4 und 4 | 4 und 3, und so in jedem Spiel |
 | Auf dem Tisch | 3 offen, 3 verdeckt | 2 offen, 2 verdeckt | keine |
 | Ab dem zweiten Spiel | 12 Karten | 9 Karten | wieder 7 Karten |
-| Tiefstes Gebot | 600 | 350 | 600 |
+| Tiefstes Gebot | 600, am Tisch oft 500 | 350 | 600 |
 | Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |
 | Ziel der Bauernpartei | 1000 | 1000 | 1000 |
 | Geschrieben wird | in Punkten | in Punkten | in Punkten |
@@ -334,7 +337,7 @@ Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte 
 **Häufige Fragen:**
 - **Wie spielt man Bieter zu dritt?** Einer bietet eine Punktzahl und spielt als König allein gegen die beiden anderen, die Bauernpartei. Das tiefste Gebot ist 600 Punkte, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat die Partie gewonnen.
 - **Wie viele Karten bekommt beim Bieter jeder Spieler?** Im ersten Spiel 10 Karten, zweimal 5, dazu liegen 6 Karten auf dem Tisch: 3 offen und 3 verdeckt. Ab dem zweiten Spiel erhält jeder 12 Karten, dreimal vier, und der Tisch bleibt leer.
-- **Wie hoch ist das Mindestgebot beim Bieter?** Zu dritt und zu fünft 600 Punkte, zu viert 350. Gesteigert wird um mindestens 10 Punkte.
+- **Wie hoch ist das Mindestgebot beim Bieter?** Zu dritt und zu fünft 600 Punkte, zu viert 350. Gesteigert wird um mindestens 10 Punkte. So steht es im Reglement. Viele Runden fangen zu dritt bei 500 an und steigern um 5, das Schweizer Jassverzeichnis nennt 500, 600 und 650 als gebräuchliche Zahlen. Welche Zahl gilt, macht der Tisch vor der Partie ab.
 - **Was macht der König mit den sechs Tischkarten?** Er nimmt sie auf und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er die drei, die verdeckt lagen. Dann legt er sechs beliebige Karten ab. Ihre Punkte zählen zu seinen Kartenpunkten, am Tisch schreibt man sie ihm gleich gut. Gewiesen wird mit den Karten, die in der Hand bleiben.
 - **Zählen die abgelegten Karten des Königs?** Ja, sie gehören ihm. Darum legt er ab, was er im Spiel kaum heimbrächte, und behält die Karten, die Stiche holen.
 - **Was darf der König ansagen?** Eine Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf. Beim Hindersi gibt er jeden Stich ab. Bleibt er ohne Stich, schreibt er den Matsch mit Prämie, 257 Punkte, so liest es der Verband. Holt er einen Stich, schreibt ihn die Bauernpartei.
@@ -354,7 +357,7 @@ Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte 
 - **Wie spielt man Bieter zu viert?** Wie zu dritt, nur spielt der König gegen drei Gegner. Im ersten Spiel erhält jeder 8 Karten, 4 liegen auf dem Tisch, ab dem zweiten Spiel je 9. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
 - **Wie spielt man Bieter zu fünft?** Ein Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte. Wer sie hält, ist sein Partner für die ganze Partie. So stehen zwei gegen drei. Geschrieben werden Punkte, das Ergebnis der Partie steht in Strichen und Härdöpfeln.
 
-*Keywords: 350 punkte, 600 punkte, Hindersi, bauernpartei, bieten*
+*Keywords: 350 punkte, 500 punkte, 600 punkte, Hindersi, bauernpartei*
 
 ---
 
