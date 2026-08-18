@@ -59,6 +59,26 @@ const FREMDWOERTER = [
   'darüber hinaus', 'nicht zuletzt', 'seien Sie sich bewusst',
 ];
 
+// --- F: Wendungen, die am Jasstisch niemand ausspricht ------------------------
+/**
+ * WORTLAUT-EICHUNG (Remo, 18.08.2026). Er fand die Überschrift «Der König nimmt den
+ * Tisch»: sachlich richtig, quellentreu, in keinem KI-Tell-Katalog — und trotzdem
+ * frei erfunden. Sein Wort dazu: «wöööt? der könig nimmt den tisch??? was soll das
+ * bedeuten????»
+ *
+ * Verfahren und Eichquelle: regelauskunft/WORTLAUT-EICHUNG.md und
+ * regelauskunft/EICHQUELLE/ (326 000 Wörter Jassverzeichnis, Wikipedia, Remos eigene
+ * Sätze). Eine Wendung steht im Artikel, wenn sie dort vorkommt.
+ *
+ * Jede Zeile hier ist ein Entscheid, der einmal gefallen ist. Sie kommt nie zurück.
+ */
+const WENDUNGEN = [
+  [/nimmt den Tisch|den Tisch nehmen/i, 'Der Tisch ist das Möbel. Gemeint sind die Karten in der Mitte: «aufnehmen».'],
+  [/läuft zusammen auf/i, 'Gemeint ist «zählt gegen das Gebot».'],
+  [/in die Mittelhand/i, 'Am Tisch heisst das «den König in die Zange nehmen» (Remo, 18.08.).'],
+  [/das Spiel in die Hand nehmen/i, 'Bild aus der Sportberichterstattung.'],
+];
+
 // --- C -----------------------------------------------------------------------
 const GEDANKENSTRICH = /—/;
 
@@ -126,6 +146,19 @@ const lauf = async () => {
         });
       }
     }
+    // F — Wendung, die am Tisch niemand ausspricht
+    for (const [muster, warum] of WENDUNGEN) {
+      const treffer = alles.match(muster);
+      if (treffer) {
+        fehler.push({
+          artikel: schluessel,
+          pruefung: 'F · Wendung ohne Beleg',
+          fund: `«${treffer[0]}»`,
+          warum: `${warum} Prüfen mit: grep -ric "…" regelauskunft/EICHQUELLE/`,
+        });
+      }
+    }
+
     // E — jeder Begriffs-Verweis muss ein Ziel haben, das es gibt
     for (const treffer of alles.matchAll(/\(siehe Begriff\s+"([^"]+)"\)/gi)) {
       if (alleIds.has(treffer[1])) continue;
