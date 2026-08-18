@@ -312,12 +312,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   switch (category) {
     case 'Regeln':
-      pageTitle = `Jassregeln für ${topic}: ${subcategory} im Detail erklärt | Jass-Wiki`;
-      metaDescription = `Die offiziellen Jassregeln für "${topic}" (${subcategory}). Alle Details, Ausnahmen und Beispiele verständlich erklärt auf jasswiki.ch.`;
+      pageTitle = `${topic} beim Jassen: die Regel, mit Beispiel | Jass-Wiki`;
+      metaDescription = `Die Jassregel «${topic}» (${subcategory}): was gilt, wo Runden abweichen, mit Beispiel. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
     case 'Weis-Regeln':
-      pageTitle = `${topic}: Die Regeln für Weispunkte, Stöck & Bock | Jass-Wiki`;
-      metaDescription = `Alles über den Jass-Weis "${topic}". Erfahre die Regeln, Punktewerte und strategischen Tipps für ${subcategory} im Jass-Wiki.`;
+      pageTitle = `${topic} beim Jassen: Weisregel und Punkte | Jass-Wiki`;
+      metaDescription = `Die Weisregel «${topic}»: was zählt, wann gemeldet wird, mit Beispiel. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
     case 'Schieber':
       // Spezialfall für den Hauptartikel "Der Schieber"
@@ -330,12 +330,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
       }
       break;
     case 'Begriffe':
-      pageTitle = `Was bedeutet "${topic}" beim Jassen? | Jass-Begriffe A-Z | Jass-Wiki`;
-      metaDescription = `Die Definition und Bedeutung des Jass-Begriffs "${topic}". Einfach und verständlich erklärt im grossen Jass-Lexikon der Schweiz.`;
+      pageTitle = `${topic} beim Jassen: Bedeutung und Regel | Jass-Wiki`;
+      metaDescription = `Was «${topic}» beim Jassen heisst und wann es gilt, kurz erklärt. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
     case 'Varianten':
-      pageTitle = `Anleitung für die Jass-Variante "${topic}" | Jass-Wiki`;
-      metaDescription = `Lerne die Jass-Variante "${topic}" (${subcategory}). Spielregeln, Anleitung und Punkte einfach erklärt auf jasswiki.ch.`;
+      pageTitle = `${topic} Jass: Regeln, Ablauf und Punkte | Jass-Wiki`;
+      metaDescription = `So wird ${topic} gejasst: Spieler, Karten, Ablauf, Wertung und was Runden anders abmachen. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
     case 'Jassapps':
       // Spezielle SEO-Titel für Jassapps

@@ -237,10 +237,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
   // Die Inhaltsdatei hat das letzte Wort: steht dort ein eigener Suchergebnis-Text,
   // gilt er vor der Vorlage dieser Seite.
   const pageTitle =
-    contentItem.metadata.seoTitle || `Anleitung für die Jass-Variante "${topic}" | Jass-Wiki`;
+    contentItem.metadata.seoTitle || `${topic} Jass: Regeln, Ablauf und Punkte | Jass-Wiki`;
   const metaDescription =
     contentItem.metadata.seoDescription ||
-    `Lerne die Jass-Variante "${topic}". Spielregeln, Anleitung und Punkte einfach erklärt auf jasswiki.ch.`;
+    `So wird ${topic} gejasst: Spieler, Karten, Ablauf, Wertung und was Runden anders abmachen. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
 
   return {
     props: {

@@ -161,18 +161,24 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
   const categoryDescriptions: Record<string, string> = {
     'Geschichte': 'Entdecke die faszinierende Geschichte des Schweizer Jass: Von mittelalterlichen Ursprüngen bis zur modernen Kulturikone. Erfahre alles über die Entwicklung des Nationalspiel.',
     'Grundlagen & Kultur': 'Lerne die Grundlagen des Jassens: Kartenwerte, Spielablauf, Verteilmethoden und die kulturelle Bedeutung des Schweizer Nationalspiel.',
-    'Weis-Regeln': 'Meistere die Weis-Regeln: Dreiblatt, Vierblatt, Stöck und mehr. Alle offiziellen Weis-Kategorien und Punktewertungen verständlich erklärt.',
+    'Weis-Regeln': 'Die Weisregeln beim Jassen: Dreiblatt bis Neunblatt, vier Gleiche, Stöck, welcher Weis höher ist, wer schreibt, Ausmachen. Jede Regel mit Kartenbildern.',
     'Schieber': 'Werde zum Schieber-Profi: Taktiken, Konventionen und Strategien für die beliebteste Jassvariante der Schweiz.',
-    'Begriffe': 'Das komplette Jass-ABC: Von Ablupf bis Weis - alle Fachbegriffe des Schweizer Jass verständlich erklärt.',
-    'Varianten': 'Entdecke die Vielfalt: Coiffeur, Differenzler, Molotov und über 40 weitere Jass-Varianten im Detail erklärt.',
-    'Regeln': 'Alle offiziellen Jass-Regeln: Bergpreis, Matsch, Ausmacharegel und Sonderregeln - klar strukturiert und verständlich.',
+    'Begriffe': 'Das Jass-ABC: 71 Begriffe von Ablupf bis Weis, jeder mit Bedeutung, Regel und Beispiel.',
+    'Varianten': '43 Jassarten mit Regeln: Schieber, Coiffeur, Differenzler, Sidi-Barrani, Pandur, Bieter, Molotow, Hose abe und weitere, jede mit Ablauf, Wertung und Beispielen.',
+    'Regeln': 'Die Jassregeln: Kartenwerte, Geben, Spielablauf, Punkte zählen, Matsch, Bergpreis, Ausmachregel und Sonderfälle. Klar geordnet, mit Beispielen.',
     'Referenzen': 'Quellen, Literatur und Expertenwissen: Die wissenschaftliche Grundlage unseres Jass-Portals.'
   };
 
+  // Suchergebnis-Titel der Rubriken (SCHIEDSRICHTER, 18.08.2026): sagen, was drin ist.
   const categoryTitles: Record<string, string> = {
-    'Regeln': 'Alle Jassregeln im Detail: Offizielles Regelwerk & Sonderfälle | Jass-Wiki',
-    'Weis-Regeln': 'Jassregeln zum Weisen: Alle Weispunkte, Stöck & Bock erklärt | Jass-Wiki',
-    'Schieber': 'Jassregeln für Schieber: Taktiken & Strategien erklärt | Jass-Wiki',
+    Regeln: 'Jassregeln: Kartenwerte, Geben, Spielablauf, Punkte, Ausmachen | Jass-Wiki',
+    'Weis-Regeln': 'Weisregeln beim Jassen: Weispunkte, Stöck, Ausmachen | Jass-Wiki',
+    Schieber: 'Schieber jassen: Regeln, Taktik und Konventionen | Jass-Wiki',
+    Varianten: 'Jassarten und Jass-Varianten: 43 Spiele mit Regeln | Jass-Wiki',
+    Begriffe: 'Jass-Begriffe von A bis Z: Bedeutung und Regel | Jass-Wiki',
+    Jassapps: 'Jassapps: Jasstafel, Online-Jass und Vergleich | Jass-Wiki',
+    'Grundlagen & Kultur': 'Jassen: Grundlagen und Kultur, Karten, Regionen | Jass-Wiki',
+    Geschichte: 'Geschichte des Jassens: Herkunft, Wörter, Kartenmacher | Jass-Wiki',
   };
   const seoTitle = categoryTitles[category] || `${category} | Jass-Wiki`;
   const seoDescription = categoryDescriptions[category] || `Alle Jass-Artikel in der Kategorie ${category} im Jass-Wiki. Entdecke Regeln, Begriffe und Varianten.`;
