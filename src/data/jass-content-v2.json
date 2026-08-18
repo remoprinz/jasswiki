@@ -3055,10 +3055,6 @@
     },
     "faqs": [
       {
-        "question": "Was bedeutet Strich beim Jassen?",
-        "answer": "Unter Strich bzw."
-      },
-      {
         "question": "Wie funktioniert die Strich-Wertung beim Jass?",
         "answer": "Striche sind das primäre Wertungssystem beim Schieber. Wer am Ende einer Partie mehr Striche erzielt hat, gewinnt."
       },
@@ -7665,7 +7661,7 @@
     "faqs": [
       {
         "question": "Wie funktioniert Spielverlust beim Jassen?",
-        "answer": "Bei einem Spielverlust (z.B."
+        "answer": "Wer ein Spiel verliert, weil er die Karten zusammenwirft oder falsch weist, geht leer aus. Das Spiel wird ohne Wiederholung abgeschlossen, und die Gegenpartei schreibt den Matsch."
       },
       {
         "question": "Was ist ein Spielverlust?",
