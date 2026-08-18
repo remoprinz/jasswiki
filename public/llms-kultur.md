@@ -87,7 +87,7 @@ Auszug aus dem Reglement:
 4. Es ist verboten, die Karten der Gegenpartei nachzusehen.
 
 Bedeutung:
-Das Ramstein-Reglement markiert einen wichtigen Meilenstein in der Geschichte des Schweizer Jassens. Es war das erste systematische Regelwerk, das die verschiedenen Jassvarianten und Grundsätze dokumentierte und damit zur Standardisierung des Spiels beitrug. Die Prinzipien von Fairness, Anstand und Stillschweigen, die bereits 1895 festgehalten wurden, sind bis heute essentiell für das Jassspiel.
+Das Ramstein-Reglement ist der Anfang der geschriebenen Jassregeln in der Schweiz. Es war das erste systematische Regelwerk, das die verschiedenen Jassvarianten und Grundsätze dokumentierte und damit zur Standardisierung des Spiels beitrug. Die Prinzipien von Fairness, Anstand und Stillschweigen, die bereits 1895 festgehalten wurden, gelten bis heute am Jasstisch.
 
 **Häufige Fragen:**
 - **Wann wurde das älteste Jassreglement der Schweiz veröffentlicht?** Das älteste bekannte Jassreglement der Schweiz wurde im März 1895 von J.N. Ramstein und Leo Philipona in Freiburg veröffentlicht.
@@ -109,14 +109,14 @@ App-Überblick:
 Kernfunktionen:
 • **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen
 • **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg und Sieg
-• **Profil-System:** Gruppenübergreifende Erfassung von Jasswerten wie Trumpfansagen, Rekorden und Serien
+• **Profil:** Trumpfansagen, Rekorde und Serien eines Jassers zählen über alle seine Gruppen zusammen
 • **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen
 
 Spielverwaltung:
-• **Archiv:** Archivierung aller Partien für die Rangliste
+• **Archiv:** Jede gespielte Partie bleibt gespeichert und zählt für die Rangliste
 • **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe
-• **Runden-Ansicht:** Nachvollziehbare Dokumentation jeder Runde
-• **Navigation:** Navigation zurück und vorwärts durch die Runden zur Fehlerkorrektur
+• **Runden:** Jede Runde bleibt einzeln nachlesbar
+• **Blättern:** Vor und zurück durch die Runden, um eine falsche Eingabe zu verbessern
 
 Einstellungen:
 Individuelle Anpassung von Karten, Farben und Multiplikatoren.
@@ -125,8 +125,7 @@ Verfügbarkeit:
 Jassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.
 
 **Häufige Fragen:**
-- **Was ist jassguru.ch?** App-Überblick:
-Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
+- **Was ist jassguru.ch?** Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
 - **Was ist Jassguru.ch?** Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
 - **Rechnet Jassguru automatisch?** Ja, der integrierte Kalkulator berechnet automatisch die Resultate für beide Teams, inklusive Restpunkte zu Berg und Sieg.
 - **Welche Statistiken bietet Jassguru?** Jassguru bietet umfassende Statistiken wie Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten, Matsch-Bilanzen sowie detaillierte Profil-Auswertungen gruppenübergreifend.
@@ -154,7 +153,7 @@ Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.c
 
 Ausserhalb der Trumpffarbe stechen die neun Karten einer Farbe in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.
 
-Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, die Neun heisst Nell und zählt 14. Im Trumpf rücken die beiden an die Spitze: Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs. Was jede Karte zählt, steht weiter unten.
+Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, die Neun heisst Nell und zählt 14. Im Trumpf sind die beiden die höchsten Karten: Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs. Was jede Karte zählt, steht weiter unten.
 
 Zwei Namen erklären sich aus dem Bild: Das Banner ist die Zehn und zeigt eine Fahne mit dem Farbzeichen, daher der Name. Das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.
 
@@ -185,7 +184,7 @@ Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen in allen Farb
 | Ober | 3 | 3 |
 | Acht, Sieben, Sechs | 0 | 0 |
 
-In einem Spiel liegen 157 Punkte, 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe zählt der Sechser 11 und das Ass null. Die Summe bleibt bei jeder Jass-Ansage, Trumpf, Obenabe oder Undenufe, bei 157. Alles dazu steht bei den Kartenwerten.
+Jedes Spiel zählt 157 Punkte, 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe zählt der Sechser 11 und das Ass null. Die Summe bleibt bei jeder Ansage gleich, ob Trumpf, Obenabe oder Undenufe. Alles dazu steht bei den Kartenwerten.
 
 Diese Werte gelten für das Jassen. Kartenspiele, die nur dasselbe Blatt benutzen, rechnen anders: Beim Hose abe etwa zählen König, Ober und Under je zehn.
 
@@ -195,7 +194,7 @@ Welches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuf
 
 ## Wie sich das Schweizer Kartenbild entwickelt hat
 
-Das heutige Deutschschweizer Kartenbild stammt aus dem 19. Jahrhundert. Die Figuren mit ihren Gesichtern und Gewändern gehen nach Wikipedia auf Jakob Peyer und den Kartenhersteller A. Bühlmann in Hasle zurück, das heutige doppelköpfige Bild druckte J. Müller in Schaffhausen ab den 1920er-Jahren. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und verankerte sich um und nach 1900 als Jasskarten. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und festigte sich um und nach 1900. Zum französischen Bild und zur Kartengrenze: Walter Haas, «Die ‹französischen Jasskarten›. Über den Wandel von Objekten der Alltagskultur», Schweizerisches Archiv für Volkskunde 109 (2013), S. 133–148.
+Das heutige Deutschschweizer Kartenbild stammt aus dem 19. Jahrhundert. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer und den Kartenhersteller A. Bühlmann in Hasle zurück, das heutige doppelköpfige Bild druckte J. Müller in Schaffhausen ab den 1920er-Jahren. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und setzte sich um und nach 1900 als Jasskarten durch. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und festigte sich um und nach 1900. Zum französischen Bild und zur Kartengrenze: Walter Haas, «Die ‹französischen Jasskarten›. Über den Wandel von Objekten der Alltagskultur», Schweizerisches Archiv für Volkskunde 109 (2013), S. 133–148.
 
 Mehr zur Herkunft der Spielkarten steht unter Woher kommen Spielkarten?, mehr zur Herstellung unter Schweizer Kartenmacher.
 
@@ -209,7 +208,7 @@ Mehr zur Herkunft der Spielkarten steht unter Woher kommen Spielkarten?, mehr zu
 - **Sind die beiden Blätter gleichwertig?** Ja. Gespielt wird nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich.
 - **Welche Karte heisst Puur und welche Nell?** In der Trumpffarbe heisst der Under Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14 Punkte.
 - **Wie viele Punkte zählt jede Jasskarte?** In der Trumpffarbe: Under (Puur) 20, Neun (Nell) 14, Ass 11, Banner 10, König 4, Ober 3, und Acht, Sieben, Sechs je null. In den anderen Farben: Ass 11, Banner 10, König 4, Ober 3, Under 2, und Neun bis Sechs null.
-- **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt bei jeder Jass-Ansage gleich, Trumpf, Obenabe oder Undenufe.
+- **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt bei jeder Ansage gleich, ob Trumpf, Obenabe oder Undenufe.
 - **Wo spielt man mit deutschen und wo mit französischen Jasskarten?** Die Grenze verläuft entlang der Brünig-Napf-Reuss-Linie mitten durch die Deutschschweiz. Westlich davon, in der Romandie, in Bern, Solothurn, beiden Basel, im Wallis und im westlichen Aargau, liegen französische Karten auf dem Tisch, östlich davon, in der Zentralschweiz, in Zürich und in der Ostschweiz, Deutschschweizer Karten. Der Aargau ist entlang der Reuss geteilt. Französische Karten liegen zudem im Tessin, in Teilen Graubündens und nach Walter Haas auch im Thurgau auf dem Tisch.
 - **Welche Karte ist im Trumpf die höchste?** Der Under der Trumpffarbe, der Puur, gefolgt von der Neun, dem Nell. Danach kommen Ass, König, Ober, Banner, Acht, Sieben, Sechs.
 - **Wie heissen Eichel, Rosen, Schellen und Schilten im französischen Blatt?** Eichel heisst Kreuz, Rosen Herz, Schellen Ecke und Schilten Schaufel. Auf Französisch Trèfle, Cœur, Carreau und Pique, in Deutschland Kreuz, Herz, Karo und Pik.
@@ -264,8 +263,7 @@ Dokumentation:
 Die Erwähnung markiert einen wichtigen Meilenstein in der dokumentierten Geschichte des Schweizer Jassens.
 
 **Häufige Fragen:**
-- **Was ist Die erste urkundliche Erwähnung?** Historischer Kontext:
-Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.
+- **Was ist Die erste urkundliche Erwähnung?** Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.
 - **Wann wurde der Jass erstmals schriftlich erwähnt?** Die erste bekannte schriftliche Erwähnung stammt aus dem Jahr 1796 in der Schweiz.
 - **Was bedeutet diese frühe Erwähnung?** Sie zeigt, dass das Spiel bereits im 18. Jahrhundert in der Schweiz verbreitet war und sich zu einem wichtigen Teil der Schweizer Spielkultur entwickelt hatte.
 - **Warum ist das Jahr 1796 wichtig für die Jassgeschichte?** Es markiert den ersten dokumentierten Beleg für das Jassen in der Schweiz und ist somit ein wichtiger Meilenstein in der Geschichte des Spiels.
@@ -282,7 +280,7 @@ Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/),
 
 ## Warum ein Rating-System?
 
-Beim Schieber hat die Partner- und Gegnerzulosung entscheidenden Einfluss auf die individuelle Gewinnerwartung. Herkömmliche Strich- und Punktelisten dokumentieren Ergebnisse, sagen aber nichts über die individuelle Spielstärke aus. Genau hier setzt das Elo-System an, ursprünglich im Schach entwickelt und heute in vielen Sportarten und E-Sport-Ligen im Einsatz:
+Beim Schieber hängt die individuelle Gewinnerwartung stark davon ab, wie Partner und Gegner ausgelost werden. Herkömmliche Strich- und Punktelisten dokumentieren Ergebnisse, sagen aber nichts über die individuelle Spielstärke aus. Das Elo-System schliesst diese Lücke. Es stammt aus dem Schach und ist heute in vielen Sportarten und E-Sport-Ligen im Einsatz:
 
 - Vor jedem Spiel gibt es eine Erwartung, wie viele Punkte ein Team aufgrund der Erfahrungswerte holen sollte.
 - Nach dem Spiel wird die tatsächliche Leistung gemessen.
@@ -294,7 +292,7 @@ Das Ergebnis ist eine laufend aktualisierte Zahl als objektiver Indikator der Sp
 
 Kumulative Ranglisten sind wertvoll, beantworten aber nicht die zentrale Frage: Wie stark ist ein einzelner Jasser aktuell wirklich einzuschätzen?
 
-Der Schieber ist ein Teamspiel, man spielt mit 18 Karten, nicht mit neun. Neben dem Kartenglück ist die Zulosung der entscheidende Faktor. Unterschiedliche Spielerniveaus (Partnerzulosung) und ungleiche Paarungen verzerren die Aussagekraft. Ein Bewertungssystem muss deshalb Partnerneutralität und Erwartungskorrektur leisten.
+Der Schieber ist ein Teamspiel: Das Blatt des Partners entscheidet mit. Neben dem Kartenglück ist die Zulosung der entscheidende Faktor. Unterschiedlich starke Partner und ungleiche Paarungen verzerren die Aussagekraft. Ein Bewertungssystem muss deshalb Partnerneutralität und Erwartungskorrektur leisten.
 
 Dazu kommt die Trägheit kumulativer Werte: Bei grossem Datensatz verändert ein einzelnes Spiel die Gesamtbilanz kaum, ein starker Jasser ist praktisch nicht mehr einzuholen und die aktuelle Form bleibt unsichtbar. Jass-Elo bewertet jedes Spiel neu im Verhältnis zur Erwartung. So wird die kurzfristige Form sichtbar, ohne die langfristige Stabilität zu verlieren.
 
@@ -428,8 +426,8 @@ In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schr
 
 **Kategorie:** Jassapps > Jassapps Generelles
 
-Digitale Jass-Landschaft:
-Die Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebracht.
+Jassen am Bildschirm:
+Für das Jassen am Bildschirm gibt es drei Arten von Angeboten.
 
 Hauptkategorien:
 • **Spiel-Apps:** Apps zum aktiven Spielen wie Jassch, Jassguru, JassPro und Swissjass 
@@ -439,14 +437,13 @@ Hauptkategorien:
 Vorteile:
 • **Zugänglichkeit:** Jederzeit und überall spielbar
 • **Lernhilfe:** Viele Apps bieten Tutorials und Taktiktipps
-• **Social Features:** Online-Spiel gegen Freunde oder die Community
+• **Mit Freunden spielen:** gegen Bekannte oder gegen fremde Jasser aus der ganzen Schweiz
 
 Moderne Entwicklung:
 Die Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.
 
 **Häufige Fragen:**
-- **Was ist Jassapps Generelles?** Digitale Jass-Landschaft:
-Die Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebracht.
+- **Was ist Jassapps Generelles?** Die Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebracht.
 - **Welche Arten von Jass-Apps gibt es?** Es gibt Spiel-Apps zum aktiven Jassen, Notier-Apps für Punktetafeln und Online-Plattformen.
 - **Was sind die Vorteile von Jass-Apps?** Jass-Apps bieten Zugänglichkeit (jederzeit spielbar), Lernhilfen mit Tutorials und Taktiktipps sowie Social Features für Online-Spiel.
 - **Helfen Jass-Apps, die Tradition zu bewahren?** Ja, die Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.
@@ -459,20 +456,19 @@ Die Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebrach
 
 **Kategorie:** Geschichte > Woher kommen Spielkarten?
 
-Geografische Verortung:
+Woher der Jass kommt:
 Der Ursprung des Jass liegt in den Niederlanden. Von dort aus verbreitete sich das Spiel zunächst nach Frankreich und gelangte schliesslich in die Schweiz.
 
 Verbreitungsweg:
 • **Niederlande (17. Jahrhundert):** Entstehung der ersten Vorläuferformen
 • **Frankreich (18. Jahrhundert):** Weiterentwicklung und Anpassung an lokale Spielgewohnheiten
-• **Schweiz (spätes 18. Jahrhundert):** Etablierung und Entwicklung zur Schweizer Nationalspiel
+• **Schweiz (spätes 18. Jahrhundert):** Der Jass fasst Fuss und wird zum Schweizer Nationalspiel
 
 Kulturelle Transformation:
 In der Schweiz entwickelte sich das Spiel zu einer eigenständigen Tradition mit zahlreichen regionalen Varianten und wurde zu einem wichtigen Bestandteil der Schweizer Identität.
 
 **Häufige Fragen:**
-- **Was ist Woher kommen Spielkarten??** Geografische Verortung:
-Der Ursprung des Jass liegt in den Niederlanden. Von dort aus verbreitete sich das Spiel zunächst nach Frankreich und gelangte schliesslich in die Schweiz.
+- **Was ist Woher kommen Spielkarten??** Der Ursprung des Jass liegt in den Niederlanden. Von dort aus verbreitete sich das Spiel zunächst nach Frankreich und gelangte schliesslich in die Schweiz.
 - **Wo hat der Jass seinen Ursprung?** Der Jass hat seinen Ursprung in den Niederlanden und verbreitete sich von dort nach Frankreich und schliesslich in die Schweiz.
 - **Wann kam der Jass in die Schweiz?** Der Jass kam im späten 18. Jahrhundert in die Schweiz.
 - **Wie wurde der Jass zum Schweizer Nationalspiel?** In der Schweiz entwickelte sich das Spiel zu einer eigenständigen Tradition mit zahlreichen regionalen Varianten und wurde zu einem wichtigen Bestandteil der Schweizer Identität.
@@ -524,8 +520,8 @@ Die «Liste der lebendigen Traditionen in der Schweiz» dokumentiert über 200 S
 - **Ist der Jass ein UNESCO-Kulturerbe?** Der Jass steht auf der «Liste der lebendigen Traditionen in der Schweiz», die im Rahmen des UNESCO-Übereinkommens zur Bewahrung des immateriellen Kulturerbes erstellt wurde. Es handelt sich um eine nationale Liste, nicht um die internationale UNESCO-Liste des immateriellen Kulturerbes der Menschheit.
 - **Was bedeutet die Aufnahme in die Liste der lebendigen Traditionen für den Jass?** Die Aufnahme unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft und trägt dazu bei, das Spiel und seine Traditionen für zukünftige Generationen zu bewahren. Sie signalisiert die kulturhistorische Relevanz des Jassens als lebendige Tradition.
 - **Warum wurde der Jass in die Liste der lebendigen Traditionen aufgenommen?** Der Jass wurde nicht nur als Kartenspiel, sondern als lebendige Tradition anerkannt, die soziale Bindungen schafft, kulturelle Werte vermittelt und identitätsstiftend für die Schweizer Gesellschaft ist. Er wird hier und jetzt in der Schweiz praktiziert und ist Teil der kulturellen Vielfalt und Identität.
-- **Was meint das Bundesamt für Kultur zum Jassen?** Das Bundesamt für Kultur (BAK) hat das Jassen 2011 in die «Liste der lebendigen Traditionen in der Schweiz» aufgenommen. Diese Aufnahme durch das BAK unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft und würdigt es als lebendige Tradition, die soziale Bindungen schafft und kulturelle Werte vermittelt.
-- **Was ist die Rolle des BAK beim Jassen?** Das Bundesamt für Kultur (BAK) hat das Jassen in die Liste der lebendigen Traditionen aufgenommen und damit seine kulturhistorische Relevanz anerkannt. Das BAK erstellt und pflegt diese Liste im Rahmen des UNESCO-Übereinkommens zur Bewahrung des immateriellen Kulturerbes.
+- **Was hat das Bundesamt für Kultur mit dem Jassen zu tun?** Das Bundesamt für Kultur (BAK) hat das Jassen 2011 in die «Liste der lebendigen Traditionen in der Schweiz» aufgenommen. Diese Aufnahme durch das BAK unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft und würdigt es als lebendige Tradition, die soziale Bindungen schafft und kulturelle Werte vermittelt.
+- **Welche Rolle hat das BAK bei der Anerkennung des Jassens?** Das Bundesamt für Kultur (BAK) hat das Jassen in die Liste der lebendigen Traditionen aufgenommen und damit seine kulturhistorische Relevanz anerkannt. Das BAK erstellt und pflegt diese Liste im Rahmen des UNESCO-Übereinkommens zur Bewahrung des immateriellen Kulturerbes.
 
 *Keywords: unesco, tradition, anerkennung, 2011, kulturerbe*
 
@@ -547,8 +543,7 @@ Unsicherheit:
 Die genaue Verbindung zwischen mittelalterlichen Kartenspielen und dem modernen Jass bleibt jedoch spekulativ, da es an eindeutigen historischen Belegen fehlt.
 
 **Häufige Fragen:**
-- **Was ist Frühe Spielkarten in Europa?** Historische Einordnung:
-Die Wurzeln des Jass lassen sich möglicherweise bis ins Mittelalter zurückverfolgen.
+- **Wann kamen die ersten Spielkarten nach Europa?** Die Wurzeln des Jass lassen sich möglicherweise bis ins Mittelalter zurückverfolgen.
 - **Gibt es mittelalterliche Wurzeln des Jass?** Die Wurzeln lassen sich möglicherweise bis ins Mittelalter zurückverfolgen, aber die genaue Verbindung bleibt spekulativ.
 - **Wann tauchten Kartenspiele erstmals in Europa auf?** Kartenspiele tauchten erstmals im 14. Jahrhundert in Europa auf.
 - **Wie entwickelte sich der Jass aus mittelalterlichen Spielen?** Es wird vermutet, dass frühe europäische Kartenspiele die Grundlage bildeten und sich im Alpenraum eigenständige Spieltraditionen entwickelten, aber eindeutige historische Belege fehlen.
@@ -576,8 +571,7 @@ Verfügbarkeit:
 Jassch ist in den jeweiligen App-Stores für iOS und Android verfügbar.
 
 **Häufige Fragen:**
-- **Was ist Jass.ch (Swisslos)?** App-Überblick:
-Jassch ist eine mobile Jass-App für iOS und Android.
+- **Was ist Jass.ch (Swisslos)?** Jassch ist eine mobile Jass-App für iOS und Android.
 - **Was ist Jassch?** Jassch ist eine mobile Jass-App für iOS und Android, die sowohl Offline- als auch Online-Spiel ermöglicht.
 - **Kann man Jassch ohne Internet spielen?** Ja, Jassch bietet einen Offline-Modus zum Spielen gegen Computer-Gegner.
 - **Welche Jassvarianten unterstützt Jassch?** Jassch unterstützt gängige Jassvarianten wie Schieber und Coiffeur.
@@ -605,8 +599,7 @@ Identitätsstiftung:
 Das Jassen verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg und stärkt das Gemeinschaftsgefühl.
 
 **Häufige Fragen:**
-- **Was bedeutet Jassen als Kulturgut beim Jassen?** Kulturelle Verankerung:
-Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.
+- **Warum gilt der Jass als Schweizer Kulturgut?** Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.
 - **Warum ist Jass so wichtig für die Schweizer Kultur?** Der Jass ist tief in der Schweizer Kultur verwurzelt, wird als Nationalspiel betrachtet und verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg.
 - **Wo wird in der Schweiz gejasst?** Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt.
 - **Hat die Digitalisierung den Jass verdrängt?** Nein, trotz Digitalisierung bleibt der Jass lebendig - traditionelle Treffen und moderne Jass-Apps existieren nebeneinander.
@@ -619,23 +612,22 @@ Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel 
 
 **Kategorie:** Grundlagen & Kultur > Jassen im europäischen Vergleich
 
-Europäische Einbettung:
+Der Jass in Europa:
 Der Jass ist Teil einer grösseren Familie europäischer Kartenspiele.
 
 Verwandte Spiele:
-• **Belote (Frankreich):** Ähnliche Spielmechanik und Trumpfsystem
-• **Klaverjas (Niederlande):** Direkter Verwandter des Schweizer Jass, teilt viele Regeln
+• **Belote (Frankreich):** Wird ähnlich gespielt, auch mit Trumpf
+• **Klaverjas (Niederlande):** Der nächste Verwandte des Schweizer Jass, viele Regeln sind gleich
 • **Briscola (Italien):** Verwandtes Stichspiel mit unterschiedlicher Struktur
 
 Gemeinsame Wurzeln:
-Diese Spiele teilen historische und spielmechanische Gemeinsamkeiten, entwickelten sich aber in ihren jeweiligen Regionen zu eigenständigen Traditionen.
+Alle stammen aus derselben Familie und haben sich in ihrer Gegend eigen weiterentwickelt.
 
 Schweizer Besonderheit:
 Trotz dieser Verwandtschaft hat der Jass in der Schweiz eine einzigartige kulturelle Bedeutung und Vielfalt an Varianten entwickelt.
 
 **Häufige Fragen:**
-- **Was bedeutet Jassen im europäischen Vergleich beim Jassen?** Europäische Einbettung:
-Der Jass ist Teil einer grösseren Familie europäischer Kartenspiele.
+- **Mit welchen europäischen Kartenspielen ist der Jass verwandt?** Der Jass ist Teil einer grösseren Familie europäischer Kartenspiele.
 - **Gibt es ähnliche Spiele wie Jass in anderen Ländern?** Ja, verwandte Spiele sind Belote in Frankreich, Klaverjas in den Niederlanden und Briscola in Italien.
 - **Was haben diese Spiele gemeinsam?** Sie teilen historische und spielmechanische Gemeinsamkeiten wie ähnliche Trumpfsysteme und Spielmechaniken.
 - **Was macht den Schweizer Jass besonders?** Trotz der Verwandtschaft zu anderen europäischen Kartenspielen hat der Jass in der Schweiz eine einzigartige kulturelle Bedeutung und eine besondere Vielfalt an Varianten entwickelt.
@@ -649,12 +641,12 @@ Der Jass ist Teil einer grösseren Familie europäischer Kartenspiele.
 **Kategorie:** Jassapps > Tisch-Jass
 
 App-Überblick:
-Jasstafel ist eine digitale App zum Notieren der Punkte beim Jassen.
+Jasstafel ist eine App zum Notieren der Punkte beim Jassen.
 
 Hauptfunktionen:
 • **Digitale Punktetafel:** Ersetzt Papier und Stift durch eine übersichtliche digitale Anzeige
 • **Automatische Berechnung:** Summiert die Punkte automatisch und zeigt den aktuellen Spielstand
-• **Verschiedene Modi:** Unterstützt unterschiedliche Spielvarianten und Punktesysteme
+• **Verschiedene Spielarten:** Für Schieber, Coiffeur und weitere Spielarten, mit ihren Zählweisen
 • **Übersichtlich:** Klare Darstellung des Spielverlaufs und der Zwischenstände
 
 Praktischer Nutzen:
@@ -664,11 +656,9 @@ Verfügbarkeit:
 Jasstafel ist für mobile Geräte verfügbar.
 
 **Häufige Fragen:**
-- **Was ist Jasstafel?** App-Überblick:
-Jasstafel ist eine digitale App zum Notieren der Punkte beim Jassen.
-- **Was ist Jasstafel?** Jasstafel ist eine digitale App zum Notieren der Punkte beim Jassen, die Papier und Stift ersetzt.
+- **Was ist Jasstafel?** Jasstafel ist eine App, mit der man am Tisch die Punkte schreibt, statt auf Papier.
 - **Rechnet Jasstafel automatisch?** Ja, Jasstafel summiert die Punkte automatisch und zeigt den aktuellen Spielstand.
-- **Für welche Varianten ist Jasstafel geeignet?** Jasstafel unterstützt unterschiedliche Spielvarianten und Punktesysteme.
+- **Für welche Varianten ist Jasstafel geeignet?** Jasstafel kennt die verschiedenen Spielarten mit ihren Zählweisen.
 
 *Keywords: jasstafel, punktezählen, tisch-jass, schieber, coiffeur*
 
@@ -687,20 +677,19 @@ Soziale Funktionen:
 • **Identitätsstiftend:** Der Jass ist ein Symbol der Schweizer Identität und wird als Teil des immateriellen Kulturerbes geschätzt
 
 Moderne Bedeutung:
-Auch im digitalen Zeitalter behält der Jass seine Relevanz durch Apps und Online-Plattformen, die das traditionelle Spiel mit moderner Technologie verbinden.
+Heute wird auch am Handy gejasst. Apps und Online-Turniere bringen jüngere Spieler an den Tisch.
 
 **Historischer Kontext:**
-Die Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Wie die "Lebendigen Traditionen" bestätigen, fördert das Jassen den Zusammenhalt über Generationen hinweg und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.
+Die Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Das Bundesamt für Kultur führt das Jassen als lebendige Tradition. Es verbindet die Generationen und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.
 
 **Regionale Besonderheiten:**
-Während der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede ("Jassgraben"). In der Deutschschweiz dominiert der Schieber mit deutschen Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.
+Während der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede ("Jassgraben"). In der Deutschschweiz spielt man Schieber mit deutschschweizer Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.
 
 **Häufige Fragen:**
-- **Was ist Verbreitung und gesellschaftliche Bedeutung?** Gesellschaftliche Rolle:
-Der Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.
+- **Welche Rolle spielt der Jass in der Schweiz?** Der Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.
 - **Welche soziale Bedeutung hat der Jass in der Schweiz?** Der Jass verbindet Generationen, fördert Gemeinschaft in Vereinen und Gasthäusern und ist ein Symbol der Schweizer Identität.
 - **Wird Jass nur von älteren Menschen gespielt?** Nein, das Spiel ist generationenübergreifend und verbindet Jung und Alt, wird in Familien weitergegeben.
-- **Hat der Jass auch im digitalen Zeitalter noch Bedeutung?** Ja, durch Apps und Online-Plattformen behält der Jass seine Relevanz und verbindet traditionelles Spiel mit moderner Technologie.
+- **Hat der Jass auch im digitalen Zeitalter noch Bedeutung?** Ja. Apps und Online-Turniere bringen jüngere Spieler an den Tisch, gespielt wird dasselbe Spiel.
 
 *Keywords: gesellschaft, tradition, verbreitung, soziales, generationen*
 
@@ -716,7 +705,7 @@ Die Etymologie des Wortes «Jass» ist nicht eindeutig geklärt. Es existieren v
 Theorien zur Wortherkunft:
 • **Niederländische Herkunft:** Mögliche Ableitung vom niederländischen Wort «Jas» (Jacke), das auf die Trumpfkarte Trumpf-Bauer (Puur ) hinweisen könnte
 • **Lateinische Wurzeln:** Herleitung vom lateinischen «Iocus» (Spiel, Scherz), was auf die gesellige Natur des Spiels hindeuten würde
-• **Französischer Einfluss:** Verbindung zum französischen «Jasser» (schwatzen, plaudern), was die kommunikative Atmosphäre beim Jassen unterstreicht
+• **Französischer Einfluss:** Verbindung zum französischen «Jasser» (schwatzen, plaudern), was zum Reden am Jasstisch passt
 
 Linguistische Bedeutung:
 Die verschiedenen Theorien spiegeln die vielfältigen kulturellen Einflüsse wider, die das Jassen geprägt haben.
@@ -740,20 +729,18 @@ Jass24 ist eine Online-Plattform zum Jassen im Internet.
 Hauptmerkmale:
 • **Online-Spiel:** Ermöglicht das Spielen gegen andere Spieler oder gegen Computer-Gegner
 • **Verschiedene Varianten:** Unterstützt mehrere Jassvarianten
-• **Community:** Bietet eine aktive Spieler-Community mit Turnieren und Rankings
+• **Community:** Es gibt Turniere und Ranglisten
 
 Zielgruppe:
-Die Plattform richtet sich an Jass-Enthusiasten, die online gegen andere Spieler antreten möchten.
+Jass24 richtet sich an Jasser, die online gegen andere spielen wollen.
 
 Zugänglichkeit:
-Jass24 ist browserbasiert und erfordert keine Installation, wodurch es einfach zugänglich ist.
+Jass24 läuft im Browser.
 
 **Häufige Fragen:**
-- **Was ist Jass24?** Plattform-Überblick:
-Jass24 ist eine Online-Plattform zum Jassen im Internet.
 - **Was ist Jass24?** Jass24 ist eine Online-Plattform zum Jassen im Internet, die verschiedene Jassvarianten unterstützt.
 - **Kann man bei Jass24 gegen echte Spieler spielen?** Ja, Jass24 ermöglicht das Spielen gegen andere Spieler oder gegen Computer-Gegner.
-- **Muss man Jass24 installieren?** Nein, Jass24 ist browserbasiert und erfordert keine Installation.
+- **Muss man Jass24 installieren?** Nein, Jass24 läuft im Browser.
 
 *Keywords: jass24, online-jass, schieber, differenzler, webcam*
 
@@ -768,9 +755,9 @@ JassPro ist eine professionelle Jass-App für anspruchsvolle Spieler.
 
 Hauptmerkmale:
 • **Erweiterte Funktionen:** Detaillierte Statistiken und Analysen zum eigenen Spielverhalten
-• **Online-Turniere:** Teilnahme an kompetitiven Turnieren mit anderen Spielern
+• **Online-Turniere:** Turniere gegen andere Spieler
 • **Variantenreich:** Unterstützt zahlreiche Jassvarianten, auch seltene Spezialvarianten
-• **Anpassbar:** Umfangreiche Einstellungsmöglichkeiten für individuelles Spielerlebnis
+• **Anpassbar:** Viele Einstellungen, die jeder für sich wählen kann
 
 Zielgruppe:
 JassPro richtet sich an erfahrene Jass-Spieler, die eine fortgeschrittene App mit umfangreichen Features suchen.
@@ -779,8 +766,6 @@ Verfügbarkeit:
 JassPro ist für mobile Plattformen verfügbar.
 
 **Häufige Fragen:**
-- **Was ist JassPro?** App-Überblick:
-JassPro ist eine professionelle Jass-App für anspruchsvolle Spieler.
 - **Was ist JassPro?** JassPro ist eine professionelle Jass-App für anspruchsvolle Spieler mit erweiterten Funktionen wie Statistiken und Online-Turnieren.
 - **Für wen ist JassPro geeignet?** JassPro richtet sich an erfahrene Jass-Spieler, die eine fortgeschrittene App mit umfangreichen Features suchen.
 - **Welche Besonderheiten bietet JassPro?** JassPro bietet detaillierte Statistiken, Online-Turniere, zahlreiche Jassvarianten (auch Spezialvarianten) und umfangreiche Anpassungsmöglichkeiten.
@@ -798,10 +783,10 @@ Jasstafel Pro ist die erweiterte Version der Jasstafel-App mit zusätzlichen pro
 
 Erweiterte Funktionen:
 • **Erweiterte Statistiken:** Detaillierte Auswertungen über mehrere Spiele hinweg
-• **Match-Historie:** Speicherung und Analyse vergangener Partien
+• **Frühere Partien:** gespeichert und auswertbar
 • **Export-Funktionen:** Möglichkeit, Spielstände und Statistiken zu exportieren
 • **Turniermodus:** Spezielle Funktionen für die Verwaltung von Turnieren
-• **Anpassungen:** Umfangreiche Personalisierungsoptionen für die Punkteanzeige 
+• **Anpassungen:** Die Punkteanzeige lässt sich einrichten, wie man mag
 
 Zielgruppe:
 Jasstafel Pro richtet sich an ambitionierte Spieler und Turnierorganisatoren, die professionelle Funktionen benötigen.
@@ -810,8 +795,7 @@ Verfügbarkeit:
 Jasstafel Pro ist als Premium-Version für mobile Geräte verfügbar.
 
 **Häufige Fragen:**
-- **Was ist Jasstafel Pro?** App-Überblick:
-Jasstafel Pro ist die erweiterte Version der Jasstafel-App mit zusätzlichen professionellen Funktionen.
+- **Was ist Jasstafel Pro?** Jasstafel Pro ist die erweiterte Version der Jasstafel-App mit zusätzlichen professionellen Funktionen.
 - **Was ist der Unterschied zwischen Jasstafel und Jasstafel Pro?** Jasstafel Pro bietet erweiterte Funktionen wie detaillierte Statistiken, Match-Historie, Export-Funktionen und einen Turniermodus.
 - **Für wen ist Jasstafel Pro geeignet?** Jasstafel Pro richtet sich an ambitionierte Spieler und Turnierorganisatoren, die professionelle Funktionen benötigen.
 - **Kann man mit Jasstafel Pro Turniere verwalten?** Ja, Jasstafel Pro hat einen speziellen Turniermodus für die Verwaltung von Turnieren.
@@ -839,8 +823,7 @@ Kulturelle Zentren:
 Bestimmte Ortschaften und Regionen gelten als besondere Jass-Hochburgen mit eigenen Traditionen und Turnieren.
 
 **Häufige Fragen:**
-- **Was bedeutet Regionale Eigenheiten beim Jassen?** Geografische Verbreitung:
-Der Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben.
+- **Wo in der Schweiz wird welcher Jass gespielt?** Der Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben.
 - **Wo wird Jass in der Schweiz gespielt?** Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten entwickelt haben.
 - **In welcher Region ist Jass am beliebtesten?** In der Deutschschweiz ist der Jass am weitesten verbreitet, mit Varianten wie Schieber und Coiffeur.
 - **Wird Jass auch ausserhalb der Schweiz gespielt?** Ja, Jass wird auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
@@ -860,7 +843,7 @@ Historische Entwicklung:
 • **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen
 • **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller
 • **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben
-• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg – eine moderne Neuillustration des Schweizer Kartenbilds, die der Szene spürbar neuen Schwung gibt. Besonders bemerkenswert: Die Karten werden gemäss Anbieter in der Schweiz gedruckt.
+• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg – ein neu gezeichnetes Schweizer Kartenbild. Gedruckt wird gemäss Anbieter in der Schweiz.
 
 Qualität und Tradition:
 Schweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.
@@ -869,14 +852,7 @@ Moderne Produktion:
 Auch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen – gemäss Anbieter mit Druck in der Schweiz.
 
 **Häufige Fragen:**
-- **Was ist Schweizer Kartenmacher?** Schweizer Kartenherstellung:
-Die Produktion von Jasskarten hat in der Schweiz eine lange Tradition.
-
-Historische Entwicklung:
-• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen
-• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller
-• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben
-• **Heute:** Neben klassischen Herstellern gibt es moderne Neuinterpretationen wie [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg (gemäss Anbieter: Druck in der Schweiz).
+- **Wer stellt in der Schweiz Jasskarten her?** Die industrielle Kartenproduktion begann im 19. Jahrhundert in Schweizer Manufakturen, aus denen Häuser wie AG Müller hervorgingen. Damals setzte sich auch das typische Schweizer Kartenbild durch. Heute kommen neben den klassischen Herstellern moderne Neuinterpretationen dazu, etwa schweizerjass.ch von Jens Riedweg.
 - **Wann begann die industrielle Kartenproduktion in der Schweiz?** Die industrielle Kartenproduktion begann im 19. Jahrhundert in Schweizer Manufakturen.
 - **Welche Schweizer Kartenhersteller sind bekannt?** Zu den renommierten Herstellern gehört AG Müller, die für hochwertige Jasskarten bekannt ist.
 - **Was zeichnet Schweizer Jasskarten aus?** Sie zeichnen sich durch hochwertige Verarbeitung, traditionelles Design und das charakteristische Schweizer Kartensystem mit typischen Schweizer Farben aus.
@@ -906,8 +882,7 @@ Verfügbarkeit:
 Swissjass ist für mobile Plattformen verfügbar.
 
 **Häufige Fragen:**
-- **Was ist SwissJass+?** App-Überblick:
-Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis.
+- **Was ist SwissJass+?** Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis.
 - **Was ist Swissjass?** Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis und traditionellem Design.
 - **Welche Besonderheit hat Swissjass?** Swissjass legt besonderen Wert auf die Bewahrung der Schweizer Jass-Tradition im digitalen Format mit authentischen Schweizer Karten.
 - **Kann man mit Swissjass online spielen?** Ja, Swissjass bietet sowohl Online-Spiel gegen andere Spieler als auch Offline-Spiel gegen Computer.
@@ -961,7 +936,7 @@ Das Übereinkommen zur Bewahrung des immateriellen Kulturerbes wurde am 17.
 Historischer Wendepunkt:
 Die Industrialisierung im 19. Jahrhundert hatte einen massiven Einfluss auf die Verbreitung des Jass in der Schweiz.
 
-Verbreitungsmechanismen:
+Wie sich der Jass ausbreitete:
 • **Urbanisierung:** Die Menschen zogen in die Städte und brachten das Spiel mit, wodurch es sich über regionale Grenzen hinweg ausbreitete
 • **Arbeiterkultur:** In Fabriken und Gasthäusern wurde der Jass zum beliebten Freizeitvergnügen der Arbeiterklasse
 • **Mobilität:** Verbesserte Verkehrswege ermöglichten den Austausch verschiedener Varianten zwischen den Regionen
@@ -970,8 +945,7 @@ Soziale Bedeutung:
 Der Jass entwickelte sich vom regionalen Zeitvertreib zu einem schweizweiten Kulturgut, das alle Gesellschaftsschichten verband.
 
 **Häufige Fragen:**
-- **Was ist Vom Luxusgut zur Massenware?** Historischer Wendepunkt:
-Die Industrialisierung im 19. Jahrhundert hatte einen massiven Einfluss auf die Verbreitung des Jass in der Schweiz.
+- **Was änderte die Industrialisierung für den Jass?** Die Industrialisierung im 19. Jahrhundert hatte einen massiven Einfluss auf die Verbreitung des Jass in der Schweiz.
 - **Wie beeinflusste die Industrialisierung den Jass?** Die Industrialisierung führte zur Urbanisierung, wodurch Menschen das Spiel in die Städte brachten und es sich über regionale Grenzen hinweg ausbreitete.
 - **Warum wurde Jass in der Industrialisierung beliebter?** In Fabriken und Gasthäusern wurde der Jass zum beliebten Freizeitvergnügen der Arbeiterklasse, und verbesserte Verkehrswege ermöglichten den Austausch zwischen Regionen.
 - **Welche soziale Bedeutung hatte die Industrialisierung für den Jass?** Der Jass entwickelte sich vom regionalen Zeitvertreib zu einem schweizweiten Kulturgut, das alle Gesellschaftsschichten verband.
@@ -996,8 +970,7 @@ Kulturelle Bedeutung:
 Diese sprachliche Vielfalt spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut.
 
 **Häufige Fragen:**
-- **Was ist Die Sprache rund um den Jasstisch?** Sprachliche Vielfalt:
-Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.
+- **Was ist Die Sprache rund um den Jasstisch?** Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.
 - **Welche Sprachen haben die Jass-Terminologie beeinflusst?** Die Jass-Terminologie wurde hauptsächlich von Schweizerdeutsch und Französisch geprägt, mit vielen regionalen Dialektvarianten.
 - **Warum gibt es so viele verschiedene Begriffe beim Jassen?** Die sprachliche Vielfalt spiegelt die verschiedenen Dialekte und Sprachregionen der Schweiz wider, wodurch unterschiedliche Bezeichnungen für dieselben Karten oder Spielaktionen entstanden sind.
 - **Was zeigt die sprachliche Vielfalt des Jass?** Sie spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut.

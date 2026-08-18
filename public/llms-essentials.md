@@ -32,11 +32,11 @@ Auf einen Blick:
 • Punkte pro Runde: 157 (inkl. 5 für letzten Stich)
 • Spielziel: Als Team mehr Punkte sammeln als die Gegner
 • Besonderheit: Trumpfwahl kann zum Partner «geschoben» werden
-• Schwierigkeit: Einfach zu lernen, schwer zu meistern
+• Regeln: in zehn Minuten erklärt
 • Verbreitung: Häufigste Variante in der Schweiz
 
-Die Philosophie der 18 Karten:
-Ein erfahrener Schieber-Spieler denkt nicht nur an seine 9 Handkarten, sondern stets an 18 Karten – die eigenen und die des Partners. Dieses «blinde Verständnis» zwischen den Partnern macht den Schieber einzigartig. Man antizipiert die Züge des Partners, schmiert ihm Punkte zu und spielt strategisch zusammen.
+Zu zweit denken:
+Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
 Spielprinzip:
 • Der Vorhandspieler bestimmt die Trumpffarbe
@@ -45,15 +45,15 @@ Spielprinzip:
 • Weis und Stöck bringen Zusatzpunkte
 
 Warum der Schieber so beliebt ist:
-Der Schieber verbindet Strategie, Teamwork und Spannung wie keine andere Jassvariante. Er ist einfach genug für Einsteiger, bietet aber genug taktische Tiefe für Experten. In der ganzen Schweiz gelten einheitliche Regeln, was Turniere und Jassrunden überall möglich macht.
+Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
 
 **Häufige Fragen:**
-- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann spielen alle Stiche. Das Team mit mehr Punkten (max. 157 pro Runde) gewinnt. Ziel ist gemeinsames Stechen und Punkte sammeln mit dem Partner.
+- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
 - **Wie spielt man Schieber?** Man braucht vier Spieler und 36 Schweizer Jasskarten. Zwei Partner sitzen sich gegenüber. Vorhand bestimmt die Trumpffarbe oder gibt die Wahl an den Partner ab (daher «Schieber»). Gespielt wird wie beim normalen Jass: Farben bedienen, Trumpf sticht, 157 Punkte pro Runde. Das Team mit den meisten Punkten gewinnt die Runde.
 - **Was ist der Schieber?** Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, wobei sich je zwei Partner gegenübersitzen.
 - **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass der Vorhandspieler die Trumpfwahl zu seinem Partner 'schieben' kann, wenn er selbst keine gute Trumpffarbe hat.
 - **Wie viele Spieler braucht man für den Schieber?** Der Schieber wird zu viert gespielt. Je zwei Partner bilden ein Team und sitzen sich kreuzweise gegenüber.
-- **Was bedeutet die Philosophie der 18 Karten?** Ein Jasser spielt nicht nur mit seinen 9 eigenen Karten, sondern metaphorisch mit 18 Karten – den eigenen und denen des Partners. Teamplay ist entscheidend.
+- **Was heisst «mit 18 Karten spielen»?** Ein Jasser rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Wer weiss, was der Partner hält, spielt ihm zu.
 - **Ist der Schieber die häufigste Jassvariante?** Ja, der Schieber ist mit Abstand die verbreitetste und beliebteste Jassvariante in der Schweiz.
 - **Was unterscheidet den Schieber vom Differenzler?** Der Schieber ist ein Teamspiel, beim Differenzler spielt jeder für sich alleine. Der Schieber basiert auf Zusammenspiel, der Differenzler auf individuellem Geschick.
 - **Kann man den Schieber auch zu dritt spielen?** Nein, der klassische Schieber wird immer zu viert gespielt. Für drei Spieler gibt es andere Varianten wie den Handjass.
@@ -74,11 +74,11 @@ Auf einen Blick:
 • Punkte pro Runde: 157 (inkl. 5 für letzten Stich)
 • Spielziel: Als Team mehr Punkte sammeln als die Gegner
 • Besonderheit: Trumpfwahl kann zum Partner «geschoben» werden
-• Schwierigkeit: Einfach zu lernen, schwer zu meistern
+• Regeln: in zehn Minuten erklärt
 • Verbreitung: Häufigste Variante in der Schweiz
 
-Die Philosophie der 18 Karten:
-Ein erfahrener Schieber-Spieler denkt nicht nur an seine 9 Handkarten, sondern stets an 18 Karten – die eigenen und die des Partners. Dieses «blinde Verständnis» zwischen den Partnern macht den Schieber einzigartig. Man antizipiert die Züge des Partners, schmiert ihm Punkte zu und spielt strategisch zusammen.
+Zu zweit denken:
+Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
 Spielprinzip:
 • Der Vorhandspieler bestimmt die Trumpffarbe
@@ -87,15 +87,15 @@ Spielprinzip:
 • Weis und Stöck bringen Zusatzpunkte
 
 Warum der Schieber so beliebt ist:
-Der Schieber verbindet Strategie, Teamwork und Spannung wie keine andere Jassvariante. Er ist einfach genug für Einsteiger, bietet aber genug taktische Tiefe für Experten. In der ganzen Schweiz gelten einheitliche Regeln, was Turniere und Jassrunden überall möglich macht.
+Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
 
 **Häufige Fragen:**
-- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann spielen alle Stiche. Das Team mit mehr Punkten (max. 157 pro Runde) gewinnt. Ziel ist gemeinsames Stechen und Punkte sammeln mit dem Partner.
+- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
 - **Wie spielt man Schieber?** Man braucht vier Spieler und 36 Schweizer Jasskarten. Zwei Partner sitzen sich gegenüber. Vorhand bestimmt die Trumpffarbe oder gibt die Wahl an den Partner ab (daher «Schieber»). Gespielt wird wie beim normalen Jass: Farben bedienen, Trumpf sticht, 157 Punkte pro Runde. Das Team mit den meisten Punkten gewinnt die Runde.
 - **Was ist der Schieber?** Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, wobei sich je zwei Partner gegenübersitzen.
 - **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass der Vorhandspieler die Trumpfwahl zu seinem Partner 'schieben' kann, wenn er selbst keine gute Trumpffarbe hat.
 - **Wie viele Spieler braucht man für den Schieber?** Der Schieber wird zu viert gespielt. Je zwei Partner bilden ein Team und sitzen sich kreuzweise gegenüber.
-- **Was bedeutet die Philosophie der 18 Karten?** Ein Jasser spielt nicht nur mit seinen 9 eigenen Karten, sondern metaphorisch mit 18 Karten – den eigenen und denen des Partners. Teamplay ist entscheidend.
+- **Was heisst «mit 18 Karten spielen»?** Ein Jasser rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Wer weiss, was der Partner hält, spielt ihm zu.
 - **Ist der Schieber die häufigste Jassvariante?** Ja, der Schieber ist mit Abstand die verbreitetste und beliebteste Jassvariante in der Schweiz.
 - **Was unterscheidet den Schieber vom Differenzler?** Der Schieber ist ein Teamspiel, beim Differenzler spielt jeder für sich alleine. Der Schieber basiert auf Zusammenspiel, der Differenzler auf individuellem Geschick.
 - **Kann man den Schieber auch zu dritt spielen?** Nein, der klassische Schieber wird immer zu viert gespielt. Für drei Spieler gibt es andere Varianten wie den Handjass.
@@ -141,21 +141,21 @@ In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattd
 **Kategorie:** Regeln > Regelgrundlagen
 
 Grundregeln:
-Diese fundamentalen Regeln gelten für nahezu alle Jassvarianten und bilden die Basis des Spiels.
+Diese Regeln gelten in fast allen Jassarten.
 
 Kernregeln:
-• **Farbe bekennen:** Man muss die ausgespielte Farbe bedienen, wenn man sie besitzt.
-• **Nicht untertrumpfen:** Hat ein Mitspieler bereits einen Trumpf gespielt, muss man einen höheren Trumpf spielen. Die Ausnahme sind Hindersi-Varianten, vgl. Untertrumpfen.
+• **Farbe bedienen (farben):** Man muss die ausgespielte Farbe spielen, wenn man sie hat.
+• **Übertrumpfen:** Liegt schon ein Trumpf im Stich, muss man höher trumpfen. Die Ausnahme sind Hindersi-Varianten, vgl. Untertrumpfen.
 • **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
 
 Ausnahmen:
-Diese Grundregeln können je nach Variante leicht variieren oder ergänzt werden. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
+Je nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
 
-Regelkonformität:
-Die Einhaltung dieser Regeln ist essentiell für ein faires Spiel und wird bei Verstössen entsprechend geahndet.
+Wenn jemand gegen eine Regel verstösst:
+Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
 
 **Häufige Fragen:**
-- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: die ausgespielte Farbe bedienen, nicht untertrumpfen (man muss höher trumpfen) und wer den Stich macht, spielt aus.
+- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: die ausgespielte Farbe bedienen, höher trumpfen, und wer den Stich macht, spielt aus.
 - **Muss man beim Jassen die Farbe bedienen?** Ja. Man muss die ausgespielte Farbe bedienen, sofern man sie auf der Hand hat.
 - **Darf man beim Jassen untertrumpfen?** Bei normalen Spielen nein, man muss höher trumpfen. Die Ausnahme sind Hindersi-Varianten, dort ist Untertrumpfen erlaubt.
 
@@ -171,17 +171,17 @@ Grundregeln des Spielverlaufs:
 • Spieler müssen bedienen, wenn möglich
 • Trumpf kann alle anderen Farben stechen
 • Wer den Stich gewinnt, spielt die nächste Karte aus
-• Nach neun Stichen ist die Runde vorbei
+• Nach neun Stichen ist das Spiel fertig
 
 Punktezählung:
-• Punkte werden gezählt: Kartenwerte, Weise, Match-Bonus
+• Punkte werden gezählt: Kartenwerte, Weise, Matsch-Bonus und der letzte Stich
 
 **Spielverlauf: Grundlagen**
 
 Der Spielverlauf beim Jassen folgt klaren Grundregeln, die für alle Varianten gelten:
 
 **Spielreihenfolge:**
-• Im Gegenurzeigersinn (Schweizer Besonderheit)
+• Gespielt wird im Gegenuhrzeigersinn, also nach rechts
 • Vorhand (rechts vom Geber) spielt aus
 • Wer den Stich gewinnt, spielt die nächste Karte aus
 
@@ -190,21 +190,21 @@ Der Spielverlauf beim Jassen folgt klaren Grundregeln, die für alle Varianten g
 • Kann nicht bedient werden, darf eine beliebige Karte gespielt werden
 
 **Stiche:**
-• Jede Runde besteht aus 9 Stichen (4 Karten pro Stich)
+• Jedes Spiel besteht aus neun Stichen, vier Karten pro Stich
 • Der höchste Trumpf oder die höchste Karte der ausgespielten Farbe gewinnt
 • Trumpf sticht alle anderen Farben
 
 **Punktezählung:**
 • Nach 9 Stichen werden die Punkte gezählt
 • Punkte ergeben sich aus: Kartenwerten, Weisen, Matsch-Bonus und dem letzten Stich
-• Das Team mit mehr Punkten gewinnt die Runde
+• Das Team mit mehr Punkten gewinnt das Spiel
 
-Diese Grundlagen des Spielverlaufs bilden das Fundament für alle Jass-Varianten.
+Jede Jassart baut auf diesem Ablauf auf, ändert aber Kartenzahl, Stichzahl und Wertung.
 
 **Häufige Fragen:**
 - **Muss man beim Jassen bedienen?** Ja, Spieler müssen bedienen (die ausgespielte Farbe spielen), wenn möglich.
 - **Kann Trumpf alle Farben stechen?** Ja, Trumpf kann alle anderen Farben stechen.
-- **Wie viele Stiche hat eine Jass-Runde?** Nach neun Stichen ist eine Jass-Runde vorbei.
+- **Wie viele Stiche hat ein Jass-Spiel?** Nach neun Stichen ist ein Jass-Spiel fertig.
 - **Wer spielt nach einem Stich aus?** Wer den Stich gewinnt, spielt die nächste Karte aus.
 
 *Keywords: ablauf, reihenfolge, vorhand, stich, spielregeln*
@@ -219,14 +219,14 @@ Definition:
 • Trumpf sind jene Karten, die alle übrigen Farben stechen können
 
 Bestimmung:
-• Die Trumpffarbe wird durch die Trumpfansage oder durch die spezifische Spielart bestimmt
+• Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor
 
 Bedeutung:
-• Trumpfkarten haben somit die höchste Stechkraft und sind entscheidend für den Spielverlauf
+• Ein Trumpf sticht jede andere Farbe
 
 **Häufige Fragen:**
 - **Was ist Trumpf beim Jassen?** Trumpf sind Karten einer bestimmten Farbe, die alle übrigen Farben stechen können.
-- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe wird durch die Trumpfansage oder durch die spezifische Spielart bestimmt.
+- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor.
 - **Welche ist die stärkste Trumpfkarte?** Der Trumpf-Bauer (Puur) ist die stärkste Trumpfkarte, gefolgt vom Nell (Trumpf-Neuner).
 
 *Keywords: trumpf, trumpfkarten, trumpfansage*
@@ -237,11 +237,11 @@ Bedeutung:
 
 **Kategorie:** Weis-Regeln > Weispunkte
 
-Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt. Wer sie hält, meldet sie mit seiner ersten Karte. Schreiben darf die Partei mit dem höchsten Weis am Tisch. Es gibt zwei Arten: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Wer sie hält, meldet sie mit seiner ersten Karte. Schreiben darf die Partei mit dem höchsten Weis am Tisch. Es gibt zwei Arten: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Dreiblatt bis Neunblatt: die Folgen
 
-Eine Folge sind drei oder mehr aufeinanderfolgende Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, ihre Trumpfkraft zählt beim Stechen. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts. Die Stöck stehen so, wie man sie nennt: König und Ober.
+Eine Folge besteht aus drei oder mehr aufeinanderfolgenden Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, beim Stechen gelten sie als höchste Trümpfe. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts. Die Stöck stehen so, wie man sie nennt: König und Ober.
 
 Jede Karte mehr hebt den Weis um eine Stufe, ab dem Vierblatt um 50 Punkte je Karte.
 
@@ -285,7 +285,7 @@ Wo der Schieber mit Faktoren gespielt wird, zählt der Weis wie die Kartenpunkte
 
 ## Wer schreibt
 
-**Es zählt der höchste einzelne Weis am Tisch.** Die Partei, die ihn hält, schreibt alle ihre Weise, auch die kleinen. Zwei Dreiblatt auf der einen Seite sind zusammen 40 und verlieren gegen ein einziges Vierblatt mit 50 auf der anderen: Die Vierblatt-Partei schreibt 50, die andere nichts.
+**Es zählt der höchste einzelne Weis am Tisch.** Die Partei, die ihn hält, schreibt alle ihre Weise, auch die kleinen. Zwei Dreiblatt auf der einen Seite sind zusammen 40 und verlieren gegen ein einziges Vierblatt mit 50 auf der anderen: Die Partei mit dem Vierblatt schreibt 50, die andere nichts.
 
 Ausgenommen sind die Stöck: Ihre Partei schreibt sie in jedem Fall.
 
@@ -299,7 +299,7 @@ Zwei Weise werden in dieser Reihenfolge verglichen. Sobald ein Schritt entscheid
 | 2 | Bei gleicher Punktzahl: mehr Karten | Fünfblatt 100 schlägt vier Könige 100 |
 | 3 | Bei gleich vielen Karten: die höhere Karte | Dreiblatt vom Ass schlägt Dreiblatt vom König |
 | 4 | Bei gleich hoher Karte: Trumpf | Dreiblatt vom Ass in der Trumpffarbe schlägt dasselbe in einer anderen Farbe |
-| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Vorhand vor den Spielern nach ihr |
+| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Die Vorhand zuerst, dann der Reihe nach |
 
 Schritt 2 heisst zugleich: **Eine Folge schlägt vier Gleiche desselben Werts**, denn sie hat immer mehr Karten. Bei den vier Gleichen untereinander entscheiden zuerst die Punkte, vier Puur mit 200 über vier Nell mit 150, und bei gleichen Punkten die höhere Karte, vier Asse über vier Könige.
 
@@ -309,7 +309,7 @@ Schritt 2 heisst zugleich: **Eine Folge schlägt vier Gleiche desselben Werts**,
 
 ## Melden am Tisch
 
-Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird zuerst allein die Punktzahl. Hat der nächste Spieler seine Karte gelegt, ist es dafür zu spät, der letzte im Stich hat Zeit, bis der Stich gekehrt ist. Die Karten bleiben in der Hand. Aufgelegt wird ein Weis, sobald ein Mitspieler ihn nach dem ersten Stich sehen will.
+Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird zuerst nur die Punktzahl. Hat der nächste Spieler seine Karte gelegt, ist es dafür zu spät, der letzte im Stich hat Zeit, bis der Stich gekehrt ist. Die Karten bleiben in der Hand. Aufgelegt wird ein Weis, sobald ein Mitspieler ihn nach dem ersten Stich sehen will.
 
 | Wer | Sagt | Was es heisst |
 |---|---|---|
@@ -318,7 +318,7 @@ Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird
 | Vorhand | «Vom Ass» | Meine Folge reicht bis zum Ass |
 | Gegner | «Gut» | Deiner ist höher |
 
-Reicht auch die Karte für den Entscheid nicht, folgt «Trumpf?» und zuletzt die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise, ebenfalls bevor er zum zweiten Stich spielt. Der wertvollere Weis einer Hand wird zuerst genannt. **Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt, danach ist der Weis verfallen. So liest es das Schweizer Jassverzeichnis aus dem Offiziellen Schweizer Jassreglement.
+Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das nicht, entscheidet die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise, ebenfalls bevor er zum zweiten Stich spielt. Wer mehrere Weise hält, nennt den wertvolleren zuerst. **Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt, danach ist der Weis verfallen. So steht es im Offiziellen Schweizer Jassreglement.
 
 ## Kreuzweis
 
@@ -329,7 +329,7 @@ Mehr dazu im Artikel Kreuzweis.
 
 ## Weis in Obenabe und Undenufe
 
-Folgen und vier Gleiche gelten in jeder Spielart. **In Undenufe zählt das Ende beim Sechser**, weil dort der Sechser die stärkste Karte ist: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. In Obenabe gilt die gewohnte Ordnung vom Ass her. Vier Nell zählen 150 und vier Puur 200 auch dort, wo kein Trumpf ist. Die Stöck setzen Trumpf voraus und fallen in beiden Spielarten weg.
+Folgen und vier Gleiche gelten in jeder Spielart. **In Undenufe ist der Sechser das obere Ende der Folge**, weil er dort die stärkste Karte ist: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. In Obenabe gilt die gewohnte Ordnung vom Ass her. Vier Nell zählen 150 und vier Puur 200 auch dort, wo kein Trumpf ist. Die Stöck setzen Trumpf voraus und fallen in beiden Spielarten weg.
 
 
 
@@ -344,7 +344,7 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 
 
 **Häufige Fragen:**
-- **Was ist ein Weis beim Jassen?** Eine Kartenkombination, die Punkte bringt, bevor der erste Stich fällt: drei oder mehr aufeinanderfolgende Karten derselben Farbe, oder vier gleiche Karten. Gemeldet wird sie mit der ersten Karte, die man ausspielt.
+- **Was ist ein Weis beim Jassen?** Eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist: drei oder mehr aufeinanderfolgende Karten derselben Farbe, oder vier gleiche Karten. Gemeldet wird sie mit der ersten Karte, die man ausspielt.
 - **Welche Kartenkombinationen zählen beim Jassen als Weis?** Folgen von drei bis neun Karten derselben Farbe (Dreiblatt bis Neunblatt), vier gleiche Karten (vier Gleiche, vier Nell, vier Puur) und die Stöck, also König und Ober der Trumpffarbe.
 - **Wie viele Punkte gibt ein Dreiblatt?** 20 Punkte.
 - **Wie viele Punkte gibt ein Vierblatt?** 50 Punkte.
@@ -356,7 +356,7 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keinen. Zwei Dreiblatt (40) verlieren gegen ein Vierblatt (50). Die Stöck schreibt ihre Partei in jedem Fall.
 - **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt sie auf, sobald ein Mitspieler es verlangt. Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt.
 - **Was ist ein Kreuzweis?** Der Fall, dass eine Karte zugleich zu einer Folge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte. Manche Runden lassen den Kreuzweis nicht gelten und machen das vor der Partie ab.
-- **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe zählt das Ende beim Sechser: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
+- **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist der Sechser das obere Ende der Folge: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 - **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 - **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.

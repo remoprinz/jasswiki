@@ -80,7 +80,12 @@ const WENDUNGEN = [
 ];
 
 // --- C -----------------------------------------------------------------------
-const GEDANKENSTRICH = /—/;
+// Der Geviertstrich «—» und der als Gedankenstrich gesetzte Halbgeviertstrich
+// «–» (mit Leerzeichen ringsum). Ein Halbgeviertstrich OHNE Leerzeichen bleibt
+// erlaubt, er verbindet Zahlen: «S. 133–148», «1940–1945».
+// Die Lücke fiel am 19.08.2026 auf: 48 Halbgeviertstriche standen im Bestand,
+// während der Riegel nur den Geviertstrich kannte.
+const GEDANKENSTRICH = /—| – /;
 
 // --- D: weich. Anweisung, die auf einer Verneinung aufbaut --------------------
 const VERNEINUNGEN = [

@@ -106,7 +106,7 @@ Regeln:
 • Siehe Artikel Abheben der Karten für die Regeln beim Ablupfen
 
 Beispiel:
-• Hat ein Spieler Vorhand gute Karten, dann ist das das Resultat eines guten Ablupfes
+• Hat ein Spieler in Vorhand gute Karten, war der Ablupf gut
 
 Bemerkung:
 • Es gibt Spieler, die das Ablupfen als das Wichtigste beim Jassen überhaupt bezeichnen
@@ -114,7 +114,7 @@ Bemerkung:
 
 **Häufige Fragen:**
 - **Was ist der Ablupf beim Jassen?** Als Ablupf wird einerseits der Akt des Abhebens bezeichnet wie auch das Resultat des Abhebens.
-- **Was bedeutet ein guter Ablupf?** Hat ein Spieler Vorhand gute Karten, dann ist das das Resultat eines guten Ablupfes.
+- **Was bedeutet ein guter Ablupf?** Hat ein Spieler in Vorhand gute Karten, war der Ablupf gut.
 - **Warum ist der Ablupf für manche Spieler so wichtig?** Es gibt Spieler, die das Ablupfen als das Wichtigste beim Jassen überhaupt bezeichnen und mit abergläubischem Eifer und theatralischen Ritualen ablupfen, um das Kartenglück möglichst positiv zu beeinflussen.
 - **Wo finde ich die Regeln zum Ablupfen?** Die Regeln beim Ablupfen finden sich im Artikel "Abheben der Karten".
 
@@ -127,13 +127,13 @@ Bemerkung:
 **Kategorie:** Begriffe > Grundbegriffe
 
 Definition:
-• Am Drücker ist das Team (oder noch spezifischer der Spieler), das den Trumpf ansagt. Der Partner vom Spieler, der am Drücker ist, sollte seine eigene Taktik dem Spieler unterordnen, der am Drücker ist.
+• Am Drücker ist das Team und der Spieler, der den Trumpf angesagt hat. Sein Partner spielt auf ihn: Der Ansager gibt vor, wie das Spiel läuft.
 
 Beispiel:
 • Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe ein starkes Blatt hat.
 
 **Häufige Fragen:**
-- **Was bedeutet «am Drücker» beim Jassen?** Am Drücker ist das Team (oder noch spezifischer der Spieler), das den Trumpf ansagt.
+- **Was bedeutet «am Drücker» beim Jassen?** Am Drücker ist das Team und der Spieler, der den Trumpf angesagt hat.
 - **Wie sollte sich der Partner verhalten, wenn sein Team am Drücker ist?** Der Partner vom Spieler, der am Drücker ist, sollte seine eigene Taktik dem Spieler unterordnen, der am Drücker ist.
 - **Was ist ein Beispiel für am Drücker sein?** Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe ein starkes Blatt hat.
 
@@ -147,14 +147,14 @@ Beispiel:
 
 Das Banner ist der Zehner (10) einer Farbe bei den Deutschschweizer Spielkarten. Bei den französischen Karten entspricht ihm die Zehn, die dort keinen eigenen Namen trägt.
 
-Mit 10 Punkten ist das Banner nach dem Ass die punktreichste Karte einer Farbe. Im Stechen ist es hingegen keine hohe Karte: Ass, König, Ober und Under stehen über ihm, das Banner folgt erst an fünfter Stelle der Stechreihenfolge.
+Mit 10 Punkten zählt das Banner nach dem Ass am meisten in einer Farbe. Im Stechen ist es hingegen keine hohe Karte: Ass, König, Ober und Under stehen über ihm, vier Karten stehen also über ihm.
 
 Das Banner bringt also viele Punkte, zählt aber nicht zu den hohen Stechkarten.
 
 **Häufige Fragen:**
 - **Was ist ein Banner beim Jassen?** Das Banner ist der Zehner (10) einer Farbe bei den Deutschschweizer Spielkarten. Bei den französischen Karten ist es die Zehn.
-- **Wie viele Punkte zählt das Banner?** Das Banner zählt 10 Punkte und ist damit nach dem Ass die punktreichste Karte einer Farbe.
-- **Wie stark ist das Banner im Stechen?** Im Stechen ist das Banner keine hohe Karte. Ass, König, Ober und Under sind höher, das Banner steht an fünfter Stelle einer Farbe.
+- **Wie viele Punkte zählt das Banner?** Das Banner zählt 10 Punkte und damit nach dem Ass am meisten in einer Farbe.
+- **Wie stark ist das Banner im Stechen?** Im Stechen ist das Banner keine hohe Karte. Ass, König, Ober und Under sind höher, vier Karten stehen über ihm.
 - **Welche Karte entspricht dem Banner bei französischen Karten?** Die Zehn. Bei den französischen Karten trägt sie keinen eigenen Namen.
 
 *Keywords: banner, Zehner*
@@ -165,10 +165,10 @@ Das Banner bringt also viele Punkte, zählt aber nicht zu den hohen Stechkarten.
 
 **Kategorie:** Begriffe > Spielaktionen
 
-Das Bedanken ist eine verbindliche Aussage, mit der ein Team das laufende Spiel für beendet erklärt. Gewonnen hat, wer sich zuerst bedankt und das vereinbarte Punktziel erreicht hat.
+Mit dem Bedanken beendet ein Team die Partie. Gewonnen hat, wer sich zuerst bedankt und das vereinbarte Punktziel erreicht hat.
 
 Formulierungen:
-Bindend ist jede Wortmeldung, die als Bedanken zu verstehen ist. Neben «Wir bedanken uns» gelten «Wir sind draussen», «Wir haben genug», «Mir sind dusse» oder ähnliche Siegesmeldungen gleichwertig.
+Bindend ist jeder Satz, den die anderen als Bedanken verstehen: «Wir bedanken uns», «Wir sind draussen», «Wir haben genug», «Mir sind dusse».
 
 Zeitpunkt:
 Jeder kann sich jederzeit bedanken, ob er an der Reihe ist oder nicht und unabhängig davon, wer gerade schreibt. Spielt ein Spieler mitten im Stich eine Bockkarte, darf er sich bedanken, sofern die Stechwerte aller in diesem Stich bereits gelegten Karten zum Sieg reichen. Noch nicht ausgespielte Karten zählen nicht mehr mit.
@@ -180,8 +180,8 @@ Bedanken und Matsch:
 Wer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Matsch spielen. Das Team riskiert damit, die Partie zu verlieren, falls sich der Gegner zuerst bedankt. Umgekehrt darf man sich nicht zu früh bedanken, nur um dem Gegner die Chance auf den Matsch zu nehmen. Der Gegner darf die Runde zu Ende spielen, sofern er sich noch nicht bedankt hat, und sich anschliessend bedanken.
 
 **Häufige Fragen:**
-- **Was bedeutet Bedanken beim Jassen?** Eine verbindliche Aussage, mit der ein Team das Spiel beendet. Wer zuerst bedankt und das Ziel erreicht hat, gewinnt.
-- **Welche Formulierungen zählen als Bedanken?** Alle als Sieg gemeinten Wortmeldungen, etwa «Wir sind draussen», «Wir haben genug» oder «Mir sind dusse».
+- **Was bedeutet Bedanken beim Jassen?** Eine verbindliche Aussage, mit der ein Team die Partie beendet. Wer sich zuerst bedankt und das Ziel erreicht hat, gewinnt.
+- **Welche Formulierungen zählen als Bedanken?** Jeder Satz, der als Sieg gemeint ist, etwa «Wir sind draussen», «Wir haben genug» oder «Mir sind dusse».
 - **Kann man sich während eines laufenden Stichs bedanken?** Ja, wenn die bereits gelegten Karten dieses Stichs zum Sieg reichen.
 - **Ist Bedanken für den Partner verbindlich?** Ja, es gilt automatisch auch für den Partner.
 - **Kann man das Bedanken zurücknehmen?** Nein, es ist verbindlich.
@@ -196,7 +196,7 @@ Wer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Mat
 
 Definition:
 • Belli bezeichnet den Schellen-Siebner oder Ecken-Siebner als zweithöchste Stechkarte bei Ramset
-• Bei der Jassart Zwick-Jass gelten alle Siebner als zweit- bis fünft-höchste Stechkarten, was ihnen eine besondere strategische Bedeutung verleiht
+• Beim Zwick-Jass stehen alle vier Siebner gleich hinter dem Trumpf-Ass, auf den Rängen zwei bis fünf
 
 **Häufige Fragen:**
 - **Was ist der Belli beim Jassen?** Belli ist der Schellen-Siebner oder Ecken-Siebner, der bei Ramset die zweithöchste Stechkarte ist.
@@ -212,14 +212,14 @@ Definition:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Das Bessern bezeichnet den Austausch von vermeintlich schlechten Karten gegen möglicherweise bessere.
+Bessern heisst: Man gibt schlechte Karten ab und zieht neue.
 
 Charakteristik:
 • Diese taktische Spielaktion ist ein wichtiges Element in bestimmten Spielvarianten
 • Erfordert eine gute Einschätzung der eigenen Chancen
 
 **Häufige Fragen:**
-- **Was bedeutet Bessern beim Jassen?** Bessern bezeichnet den Austausch von vermeintlich schlechten Karten gegen möglicherweise bessere Karten.
+- **Was bedeutet Bessern beim Jassen?** Bessern heisst: Man gibt schlechte Karten ab und zieht neue.
 - **In welchen Jassvarianten kann man bessern?** Das Bessern ist ein Element in bestimmten Spielvarianten, wie zum Beispiel beim Handjass.
 - **Wann sollte man bessern?** Das Bessern erfordert eine gute Einschätzung der eigenen Chancen - man sollte bessern, wenn man glaubt, dass die neuen Karten besser sein werden als die alten.
 
@@ -236,7 +236,7 @@ Definition:
 • Karten sind mit französischen oder deutschschweizerischen Motiven gestaltet
 
 Verwendung des Begriffs:
-• Begriff findet sich in Verbindung mit Weisen wieder
+• Das Wort steckt in den Weisnamen: Dreiblatt, Vierblatt, Fünfblatt
 • Beispiel: Dreiblatt (spezielle Kartenkombination)
 
 Im Spiel:
@@ -244,7 +244,7 @@ Im Spiel:
 
 **Häufige Fragen:**
 - **Was bedeutet "Blatt" beim Jassen?** Als Blatt werden die Spielkarten bezeichnet. Es kann auch die Karten in der Hand eines Spielers meinen.
-- **Wo wird der Begriff "Blatt" verwendet?** Der Begriff findet sich vor allem in Verbindung mit Weisen wieder, wie beim Dreiblatt, Vierblatt, etc.
+- **Wo wird der Begriff "Blatt" verwendet?** Das Wort steckt in den Weisnamen: Dreiblatt, Vierblatt, Fünfblatt.
 - **Welche Kartensysteme gibt es?** Es gibt französische und deutschschweizerische Spielkarten mit unterschiedlichen Motiven.
 
 *Keywords: blatt, spielkarten, dreiblatt*
@@ -256,7 +256,7 @@ Im Spiel:
 **Kategorie:** Begriffe > Grundbegriffe
 
 Definition:
-• Ein Blinder ist ein Austauschblatt, das in verschiedenen Spielvarianten verwendet wird
+• Ein Blinder ist ein zusätzliches Blatt, das beim Austeilen auf den Tisch gelegt wird
 
 Bei der Jassart Schnüffler:
 • Diese Karten erhalten eine besondere Bedeutung
@@ -264,8 +264,8 @@ Bei der Jassart Schnüffler:
 • Dies macht das Spiel zusätzlich spannend
 
 **Häufige Fragen:**
-- **Was ist ein Blinder beim Jassen?** Ein Blinder ist ein Austauschblatt, das in verschiedenen Spielvarianten verwendet wird.
-- **Bei welcher Jassart sind Blinde wichtig?** Blinde spielen vor allem beim Schnüffler eine wichtige Rolle.
+- **Was ist ein Blinder beim Jassen?** Ein Blinder ist ein zusätzliches Blatt, das beim Austeilen auf den Tisch gelegt wird.
+- **Bei welcher Jassart sind Blinde wichtig?** Blinde gibt es beim Schnüffler.
 - **Was macht man mit dem Blinden beim Schnüffler?** Beim Schnüffler müssen die Spieler die Karten des Blinden erraten, ohne sie zu sehen.
 
 *Keywords: blinder, austauschblatt, schnüffler*
@@ -277,11 +277,11 @@ Bei der Jassart Schnüffler:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Als Bock wird die höchste Karte einer Farbe bezeichnet, die nicht gestochen werden kann
-• Diese Karte hat eine besondere Stellung und ist sehr wertvoll, da sie nur durch Trumpfkarten oder durch eine höhere Karte der gleichen Farbe geschlagen werden kann
+• Als Bock wird die höchste Karte bezeichnet, die in einer Farbe noch im Spiel ist
+• In ihrer Farbe schlägt sie jede andere Karte, stechen kann sie nur ein Trumpf
 
 **Häufige Fragen:**
-- **Was ist ein Bock beim Jassen?** Ein Bock ist die höchste Karte einer Farbe, die nicht gestochen werden kann.
+- **Was ist ein Bock beim Jassen?** Ein Bock ist die höchste Karte, die in einer Farbe noch im Spiel ist. Nur ein Trumpf sticht sie.
 - **Wie kann ein Bock geschlagen werden?** Ein Bock kann nur durch Trumpfkarten oder durch eine höhere Karte der gleichen Farbe geschlagen werden.
 - **Wann hat man einen Bock?** Man hat einen Bock, wenn man die höchste Karte einer bestimmten Farbe hält, die im Spiel noch nicht gefallen ist.
 
@@ -296,7 +296,7 @@ Definition:
 Definition:
 • Der Bodentrumpf ist die unterste Karte, die nach dem Abheben sichtbar wird
 • Diese Karte zeigt die Trumpffarbe an und bestimmt damit, welche Farbe im aktuellen Spiel die stärkste ist
-• Sie ist von zentraler Bedeutung für den Spielverlauf und die taktischen Entscheidungen der Spieler
+• Alle spielen also mit demselben Trumpf, den keiner gewählt hat
 
 **Häufige Fragen:**
 - **Was ist der Bodentrumpf?** Der Bodentrumpf ist die unterste Karte, die nach dem Abheben sichtbar wird und die Trumpffarbe anzeigt.
@@ -312,8 +312,8 @@ Definition:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Brättli ist die Sammelbezeichnung für die Sechser, Siebner, Achter und Neuner
-• Diese Karten besitzen einen geringen Punktwert und werden oft für taktische Spielzüge verwendet, um höherwertige Karten zu schonen oder dem Partner zu signalisieren
+• Brättli heissen die Sechser, Siebner, Achter und Neuner
+• Sie zählen wenig und werden oft für taktische Spielzüge gebraucht, um höherwertige Karten zu schonen oder dem Partner zu signalisieren
 
 **Häufige Fragen:**
 - **Was sind Brättli beim Jassen?** Brättli sind die Sechser, Siebner, Achter und Neuner – die Karten mit geringem Punktwert.
@@ -332,7 +332,7 @@ Definition:
 Farben oder Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine solche Karte besitzt.
 
 Wichtig:
-Diese Regel zählt zu den grundlegenden Spielregeln beim Jassen und muss von jedem Spieler strikt befolgt werden.
+Das ist die Grundregel jedes Stichs.
 
 **Häufige Fragen:**
 - **Was bedeutet Farben halten?** Farben halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine solche Karte besitzt.
@@ -350,7 +350,7 @@ Diese Regel zählt zu den grundlegenden Spielregeln beim Jassen und muss von jed
 Grundkonzept:
 • Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels
 • Diese Terminologie umfasst die wichtigsten Begriffe, die jeder Spieler kennen sollte
-• Notwendig, um erfolgreich beim Jassen zu können
+• Wer sie kennt, kommt am Tisch mit
 
 Dazu gehören:
 • Bezeichnungen für Karten
@@ -361,7 +361,7 @@ Dazu gehören:
 **Zentrale Grundbegriffe:**
 
 **Karten-Bezeichnungen:**
-• Trumpf: Die mächtige Farbe im aktuellen Spiel
+• Trumpf: die Farbe, die in diesem Spiel alle anderen sticht
 • Puur/Bauer: Der höchste Trumpf (20 Punkte)
 • Nell: Der zweithöchste Trumpf (14 Punkte)
 • Banner: Der Zehner bei deutschen Karten
@@ -377,14 +377,14 @@ Dazu gehören:
 • Stich: Die vier ausgespielten Karten
 • Vorhand: Erster Spieler der Runde
 • Matsch: Alle neun Stiche gewonnen
-• Berg: Hälfte der Punkte (157)
+• Berg: die Hälfte der Punktzahl, die eine Partie braucht
 
 Diese Grundlagen werden in allen Jassvarianten verwendet und sind essentiell für erfolgreiches Jassen.
 
 **Häufige Fragen:**
 - **Welche Grundbegriffe sollte man beim Jassen kennen?** Wichtige Grundbegriffe sind Bezeichnungen für Karten, Spielaktionen und Spielsituationen, die in allen Jassvarianten verwendet werden.
-- **Warum sind Jass-Grundbegriffe wichtig?** Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels und sind notwendig, um erfolgreich beim Jassen zu können.
-- **Wo kann ich die wichtigsten Jass-Begriffe lernen?** Die zentrale Begriffserklärung finden Sie unter "Zentrale Begriffe" im Grundlagenbereich.
+- **Warum sind Jass-Grundbegriffe wichtig?** Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels und wer sie kennt, kommt am Tisch mit.
+- **Wo kann ich die wichtigsten Jass-Begriffe lernen?** Die wichtigsten sind Trumpf, Puur, Nell, Stich, Weis, Matsch und Berg. Zu jedem steht hier ein eigener Artikel.
 
 *Keywords: grundbegriffe, basis, terminologie*
 
@@ -418,15 +418,15 @@ Grundkonzept:
 **Taktischer Hintergrund:**
 • Der Spieler hält den Bock zurück ("klemmt" ihn)
 • Ziel ist es, diese starke Karte zu einem späteren, günstigeren Zeitpunkt einzusetzen
-• Beispiel: Man klemmt den Eichel-Ass, um später damit einen wertvolleren Stich zu stechen oder dem Partner die Führung zu übergeben
+• Beispiel: Man klemmt das Eichel-Ass, um später damit einen wertvolleren Stich zu stechen oder den Partner ans Ausspiel zu bringen
 
 **Risiko:**
 • Wird der Bock zu lange geklemmt, kann er möglicherweise gar nicht mehr ausgespielt werden
 
 **Häufige Fragen:**
-- **Was bedeutet Klemmen beim Jassen?** Klemmen bedeutet, dass ein Spieler einen Bock bewusst nicht ausspielt, obwohl er damit den Stich machen könnte, um ihn später strategisch günstiger einzusetzen.
-- **Warum klemmt man einen Bock?** Man klemmt einen Bock, um ihn zu einem günstigeren Zeitpunkt einzusetzen, z.B. um einen wertvolleren Stich zu stechen oder dem Partner die Führung zu übergeben.
-- **Was ist das Risiko beim Klemmen?** Wird der Bock zu lange geklemmt, kann es passieren, dass man ihn gar nicht mehr ausspielen kann und damit Chancen vergibt.
+- **Was bedeutet Klemmen beim Jassen?** Klemmen bedeutet, dass ein Spieler einen Bock bewusst nicht ausspielt, obwohl er damit den Stich machen könnte, um ihn später besser zu brauchen.
+- **Warum klemmt man einen Bock?** Man klemmt einen Bock, um ihn zu einem günstigeren Zeitpunkt einzusetzen, z.B. um einen wertvolleren Stich zu stechen oder den Partner ans Ausspiel zu bringen.
+- **Was ist das Risiko beim Klemmen?** Wird der Bock zu lange geklemmt, kann es passieren, dass man ihn gar nicht mehr ausspielen kann und den Stich damit verschenkt.
 
 *Keywords: klemmen, bock, zurückhalten, taktik, spielstrategie*
 
@@ -482,12 +482,12 @@ Diese Regel sorgt für eine faire Spielweise und klare Spielmechanik.
 
 Definition:
 • Als Lukas wird beim Jassen der Stock oder die nicht verteilten Karten bei der Jassart Aucho bezeichnet
-• Diese Karten spielen eine besondere Rolle im Spielverlauf und werden im Rahmen des Kehrs einzeln aufgedeckt
+• Beim Kehr werden sie einzeln aufgedeckt
 
 **Häufige Fragen:**
 - **Was ist der Lukas beim Jassen?** Der Lukas ist der Stock oder die nicht verteilten Karten bei der Jassart Aucho.
-- **Bei welcher Jassart gibt es den Lukas?** Der Begriff Lukas wird vor allem bei Aucho verwendet.
-- **Was macht man mit dem Lukas?** Die Karten des Lukas werden im Rahmen des Kehrs einzeln aufgedeckt und spielen eine besondere Rolle im Spielverlauf.
+- **Bei welcher Jassart gibt es den Lukas?** Der Lukas gehört zum Aucho.
+- **Was macht man mit dem Lukas?** Beim Kehr werden die Karten des Lukas einzeln aufgedeckt.
 
 *Keywords: lukas, stock, aucho*
 
@@ -498,7 +498,7 @@ Definition:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Matsch bedeutet, dass ein Team alle Stiche eines Umlaufs erzielt
+• Matsch heisst: Ein Team macht alle neun Stiche eines Spiels
 
 Belohnung:
 • Das wird in der Regel mit einer Matschprämie belohnt, die je nach Spielvariante unterschiedlich hoch ausfällt
@@ -507,7 +507,7 @@ Seltenheit:
 • Beim Schieber beträgt die Matschprämie 100 Extrapunkte.
 
 **Häufige Fragen:**
-- **Was ist ein Matsch beim Jassen?** Ein Matsch bedeutet, dass ein Team alle 9 Stiche eines Umlaufs erzielt.
+- **Was ist ein Matsch beim Jassen?** Ein Matsch heisst: Ein Team macht alle neun Stiche eines Spiels.
 - **Wie viele Punkte gibt ein Matsch?** Ein Matsch gibt 257 Punkte (alle Kartenpunkte + 5 für letzten Stich + Matschprämie von 100 Punkten).
 - **Wie viele Striche gibt ein Matsch?** Ein Matsch gibt 1 Strich.
 - **Was ist der Unterschied zwischen Matsch und Kontermatsch?** Matsch: Das trumpfansagende Team macht alle Stiche (1 Strich). Kontermatsch: Das nicht-trumpfansagende Team macht alle Stiche (2 Striche).
@@ -521,7 +521,7 @@ Seltenheit:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Falls keine andere Vereinbarung getroffen wurde erhält die Partei bei einem Matsch zusätzlich 100 Extrapunkte
+• Wer einen Matsch macht, schreibt 100 Extrapunkte zusätzlich, wenn die Runde nichts anderes abgemacht hat
 
 Multiplikator:
 • Spielt man mit einem Multiplikator wird die Matschprämie ebenfalls mit diesem Faktor multipliziert
@@ -533,7 +533,7 @@ Beispiel:
 - **Was ist die Matschprämie?** Die Matschprämie sind zusätzliche 100 Punkte, die ein Team erhält, wenn es einen Matsch erzielt, sofern nicht anders vereinbart.
 - **Wie hoch ist die Matschprämie?** Standardmässig beträgt die Matschprämie 100 Extrapunkte, kann aber durch Vereinbarung abweichend festgelegt werden.
 - **Wie wird die Matschprämie mit einem Multiplikator berechnet?** Wird mit einem Multiplikator gespielt, wird die Matschprämie ebenfalls mit diesem Faktor multipliziert.
-- **Wie viele Punkte ergeben ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch ergibt 157 Punkte plus 100 Matschprämie multipliziert mit 4, was insgesamt 1028 Punkte ergibt.
+- **Wie viele Punkte gibt ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch gibt 157 Punkte plus 100 Matschprämie, mal vier gerechnet: zusammen 1028 Punkte.
 - **Kann die Matschprämie abweichend vereinbart werden?** Ja, die Höhe der Matschprämie kann abweichend von den Standard-100 Punkten vereinbart werden.
 
 *Keywords: matschprämie, matsch, prämie, multiplikator, extrapunkte*
@@ -544,9 +544,9 @@ Beispiel:
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Das Nell ist der Neuner (9) der Trumpffarbe. Im Trumpf erhält der Neuner einen Sonderrang: Mit 14 Punkten und als zweithöchste Stechkarte ist das Nell nach dem Under (Puur) die wertvollste Trumpfkarte. Auch das Trumpf-Ass schlägt es nicht. Liegen Nell und Ass beide im Trumpf, gewinnt das Nell den Stich.
+Das Nell ist der Neuner (9) der Trumpffarbe. Im Trumpf steigt der Neuner: Mit 14 Punkten und als zweithöchste Stechkarte ist das Nell nach dem Under (Puur) die wertvollste Trumpfkarte. Auch das Trumpf-Ass schlägt es nicht. Fallen Nell und Trumpf-Ass im selben Stich, gewinnt das Nell.
 
-Den Sonderrang hat der Neuner ausschliesslich in der Trumpffarbe. In einer Nebenfarbe ist die 9 eine gewöhnliche Karte ohne Punktwert und ohne besondere Stechkraft.
+Das gilt allein in der Trumpffarbe. In einer Nebenfarbe ist die 9 eine gewöhnliche Karte ohne Punktwert und ohne Sonderrang.
 
 Zusammen mit dem Under (Puur) bildet das Nell die beiden höchsten Karten des Trumpfs.
 
@@ -566,7 +566,7 @@ Zusammen mit dem Under (Puur) bildet das Nell die beiden höchsten Karten des Tr
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Ein Nuller entspricht einem Minusstrich, der mit einem Strich verrechnet wird
+• Ein Nuller hebt einen Strich auf: Wer einen bekommt, streicht einen bereits geschriebenen Strich
 
 Synonyme:
 • Dieser Begriff ist auch bekannt als Sack oder Härdöpfel
@@ -575,7 +575,7 @@ Entstehung:
 • Wird verwendet, um Minuspunkte zu bezeichnen, die ein Spieler bei Differenz-Jassarten erhält, wenn er sein angesagtes Ziel nicht erreicht
 
 **Häufige Fragen:**
-- **Was ist ein Nuller beim Jassen?** Ein Nuller ist ein Minusstrich, der mit einem Strich verrechnet wird.
+- **Was ist ein Nuller beim Jassen?** Ein Nuller hebt einen Strich auf: Wer einen bekommt, streicht einen bereits geschriebenen Strich.
 - **Wann bekommt man einen Nuller?** Man bekommt einen Nuller bei Differenz-Jassarten, wenn man sein angesagtes Ziel nicht erreicht.
 - **Welche anderen Begriffe gibt es für Nuller?** Nuller wird auch als Sack oder Härdöpfel bezeichnet.
 
@@ -589,9 +589,8 @@ Entstehung:
 
 Grundkonzept:
 • Eine Partie setzt sich aus mehreren zusammengehörenden Spielen zusammen
-• Erst am Ende dieser Spielserie wird festgestellt, welche Seite gewonnen oder verloren hat
-• Die Partie ist somit die übergeordnete Spieleinheit
-• Entscheidet über den finalen Ausgang
+• Erst am Ende der Partie steht fest, welche Partei gewonnen hat
+• Über Sieg und Niederlage entscheidet die ganze Partie
 
 **Häufige Fragen:**
 - **Was ist eine Partie beim Jassen?** Eine Partie ist eine Spielserie aus mehreren zusammengehörenden Spielen.
@@ -625,7 +624,7 @@ Definition:
 **Kategorie:** Begriffe > Grundbegriffe
 
 Definition:
-• Mit Rest wird die Bemerkung bezeichnet, wenn ein Spieler ankündigt, die restlichen Stiche machen zu können
+• Wer sicher ist, dass ihm alle restlichen Stiche gehören, legt die Karten hin und sagt «Rest»
 
 Wichtiger Hinweis:
 • Diese Ansage ist in den meisten Spielvarianten nicht erlaubt
@@ -645,21 +644,21 @@ Wichtiger Hinweis:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Sack ist eine Bezeichnung für einen Nuller oder Minusstrich
+• Sack ist ein anderes Wort für einen Nuller
 
 Synonym:
-• Dieser Begriff wird auch als Härdöpfel bezeichnet
+• Am selben Tisch heisst der Sack auch Härdöpfel
 
 Entstehung:
 • Bezeichnet Minuspunkte, die ein Spieler erhält, wenn er bei Differenz-Jassarten sein angesagtes Ziel nicht erreicht
 
 Ausgleich:
-• Der Sack muss später durch positive Leistungen ausgeglichen werden
+• Wer einen Sack hat, muss ihn mit Punkten in den nächsten Spielen wieder aufholen
 
 **Häufige Fragen:**
-- **Was ist ein Sack beim Jassen?** Ein Sack ist eine Bezeichnung für einen Nuller oder Minusstrich bei Differenz-Jassarten.
+- **Was ist ein Sack beim Jassen?** Ein Sack ist ein anderes Wort für einen Nuller bei Differenz-Jassarten.
 - **Wann bekommt man einen Sack?** Man bekommt einen Sack, wenn man bei Differenz-Jassarten sein angesagtes Ziel nicht erreicht.
-- **Wie gleicht man einen Sack aus?** Ein Sack muss später durch positive Leistungen ausgeglichen werden.
+- **Wie gleicht man einen Sack aus?** Wer einen Sack hat, muss ihn mit Punkten in den nächsten Spielen wieder aufholen.
 
 *Keywords: sack, nuller, härdöpfel, minusstrich*
 
@@ -673,8 +672,8 @@ Definition:
 Das Schieben bedeutet, dass die Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
 
 Beim Schieber:
-• Die Vorhand überträgt diese wichtige Entscheidung ihrem Partner
-• Gibt dem Spiel seinen charakteristischen Namen und rückt die Teamarbeit in den Vordergrund
+• Die Vorhand schiebt, der Partner sagt an
+• Vom Schieben hat der Schieber seinen Namen
 
 **Häufige Fragen:**
 - **Was bedeutet Schieben beim Jassen?** Schieben bedeutet, dass die Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
@@ -693,18 +692,18 @@ Beim Schieber:
 • Schmieren bedeutet, dem Partner punktemässig wertvolle Karten zu seinem Stich beizugeben
 
 **Beispiele:**
-• Partner sticht mit dem Trumpf-Ass → man gibt ihm das Zehner (10 Punkte)
+• Partner sticht mit dem Trumpf-Ass → man gibt ihm das Banner (10 Punkte)
 • Partner hat sicheren Bock → man "schmiert" ihm ein Ass oder Zehner
 
 **Taktische Bedeutung:**
 • Schmieren ist eine wichtige Teamtaktik
-• Maximiert die Punkteausbeute eines sicheren Stichs
-• Erfordert gutes Timing und Einschätzung der Spielsituation
+• So holt man aus einem sicheren Stich möglichst viele Punkte
+• Dazu muss man abschätzen, ob der Stich wirklich sicher ist
 
 **Häufige Fragen:**
 - **Was bedeutet Schmieren beim Jassen?** Schmieren bedeutet, dass man seinem Partner punktemässig wertvolle Karten zu seinem Stich beigibt.
 - **Wann sollte man schmieren?** Man sollte schmieren, wenn der Partner einen Stich macht, um möglichst viele Punkte für das Team zu sammeln.
-- **Warum ist Schmieren wichtig?** Schmieren ist eine wichtige taktische Spielaktion, die die Teamarbeit stärkt und hilft, möglichst viele Punkte zu sammeln.
+- **Warum ist Schmieren wichtig?** Weil ein sicherer Stich des Partners so viel mehr Punkte bringt.
 
 *Keywords: schmieren*
 
@@ -740,14 +739,14 @@ Beim Schieber:
 **Kategorie:** Begriffe > Grundbegriffe
 
 Grundkonzept:
-• Der Stapel umfasst Karten, die während des Spiels möglicherweise aufgenommen werden können
+• Der Stapel ist der Haufen, von dem gegeben wird. Bei manchen Jassarten werden daraus im Spiel noch Karten aufgenommen
 
 Wichtiger Unterschied:
 • Der Stapel unterscheidet sich vom Stock: So heissen Karten, die aus dem Spiel bleiben, etwa die acht Karten beim Pandur zu zweit
 • Beide Begriffe werden manchmal ähnlich verwendet, sind aber nicht identisch
 
 **Häufige Fragen:**
-- **Was ist der Stapel beim Jassen?** Der Stapel umfasst Karten, die während des Spiels möglicherweise aufgenommen werden können.
+- **Was ist der Stapel beim Jassen?** Der Stapel ist der Haufen, von dem gegeben wird. Bei manchen Jassarten werden daraus im Spiel noch Karten aufgenommen.
 - **Was ist der Unterschied zwischen Stapel und Stock?** Der Stapel ist der Haufen, von dem gegeben wird. Der Stock sind Karten, die aus dem Spiel bleiben, etwa die acht Karten beim Pandur zu zweit. Die Stöck sind etwas anderes: König und Ober der Trumpffarbe, ein Weis.
 - **Wer nimmt Karten vom Stapel?** Der Spieler links vom Geber nimmt die Karten beim Abheben (Ablupf) vom Stapel.
 
@@ -760,17 +759,17 @@ Wichtiger Unterschied:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Stechkarten sind stechmässig höhere Karten als die im laufenden Stich gespielten
+• Eine Stechkarte ist eine Karte, die den laufenden Stich noch nehmen kann
 
 Bedeutung:
-• Diese Karten sind wichtig für die taktische Spielplanung, da sie die Möglichkeit bieten, den Stich zu gewinnen
+• Mit diesen Karten kann man den Stich holen
 
 Hierarchie:
-• Das Verständnis der Stechhierarchie ist entscheidend für erfolgreiches Jassen
+• Wer weiss, welche Karte welche sticht, spielt besser
 
 **Häufige Fragen:**
-- **Was sind Stechkarten beim Jassen?** Stechkarten sind stechmässig höhere Karten als die im laufenden Stich bereits gespielten Karten.
-- **Warum sind Stechkarten wichtig?** Stechkarten sind wichtig für die taktische Spielplanung, da sie die Möglichkeit bieten, den Stich zu gewinnen.
+- **Was sind Stechkarten beim Jassen?** Eine Stechkarte ist eine Karte, die den laufenden Stich noch nehmen kann.
+- **Warum sind Stechkarten wichtig?** Mit Stechkarten kann man den Stich holen.
 - **Was ist die höchste Stechkarte?** Die höchste Stechkarte hängt von der Spielart ab. Bei Trumpf ist es der Trumpf-Bauer, bei anderen Farben normalerweise das Ass.
 
 *Keywords: stechkarten, höhere karten*
@@ -802,14 +801,14 @@ Definition:
 
 Definition:
 • Als Streichpasse wird jene Passe bezeichnet, die bei einem Turnier gestrichen wird
-• Handelt es sich in der Regel um die schlechteste Leistung eines Teilnehmers
+• Gestrichen wird in der Regel die schlechteste Passe eines Spielers
 • Diese Passe geht nicht in die Wertung ein
-• Sichert so die faire Bewertung
+• So wirft eine einzelne misslungene Passe niemanden aus dem Rennen
 
 **Häufige Fragen:**
 - **Was ist eine Streichpasse?** Eine Streichpasse ist die Passe, die bei einem Turnier gestrichen wird und nicht in die Wertung eingeht.
 - **Welche Passe wird gestrichen?** In der Regel wird die schlechteste Passe eines Teilnehmers gestrichen.
-- **Warum gibt es Streichpassen?** Streichpassen sorgen für eine fairere Bewertung, indem Ausreisser nach unten nicht zu stark ins Gewicht fallen.
+- **Warum gibt es Streichpassen?** So wirft eine einzelne misslungene Passe niemanden aus dem Rennen.
 
 *Keywords: streichpasse*
 
@@ -820,16 +819,15 @@ Definition:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Unter Strich bzw. Striche versteht man das primäre Wertungssystem vorwiegend beim Schieber
+• Beim Schieber wird meist mit Strichen geschrieben
 • Wer bei einer Partie über mehrere Spiele hinweg mehr Striche erzielt, gewinnt die Partie (vgl. auch Zählweise Striche)
 
 Verbreitung:
-• Das Strich-System wird vor allem bei privaten Runden angewendet
+• In privaten Runden wird meist mit Strichen gejasst
 • Bei Turnieren wird meistens auf Punkte gejasst
 
 **Häufige Fragen:**
-- **Was bedeutet Strich beim Jassen?** Unter Strich bzw.
-- **Wie funktioniert die Strich-Wertung beim Jass?** Striche sind das primäre Wertungssystem beim Schieber. Wer am Ende einer Partie mehr Striche erzielt hat, gewinnt.
+- **Wie funktioniert die Strich-Wertung beim Jass?** Beim Schieber wird mit Strichen geschrieben. Wer am Ende einer Partie mehr Striche hat, gewinnt.
 - **Wie viele Striche gibt ein Matsch?** Ein Matsch gibt 1 Strich.
 - **Wie viele Striche gibt ein Kontermatsch?** Ein Kontermatsch gibt 2 Striche.
 - **Wie viele Striche gibt der Berg?** Der Bergpreis gibt 1 Strich.
@@ -846,14 +844,14 @@ Verbreitung:
 
 Grundkonzept:
 • Ein Team besteht aus zwei oder drei Spielern
-• Spieler treten gemeinsam gegen eine gegnerische Mannschaft an
-• Zusammenarbeit im Team ist entscheidend für den Spielerfolg
+• Die beiden spielen zusammen gegen die andere Partei
+• Die beiden Partner gewinnen zusammen oder gar nicht
 • Erfordert gutes Zusammenspiel und Taktik
 
 **Häufige Fragen:**
 - **Wie viele Spieler hat ein Team beim Jassen?** Ein Team besteht normalerweise aus zwei Spielern, bei manchen Varianten auch aus drei Spielern.
-- **Wie wichtig ist die Teamarbeit beim Jassen?** Die Zusammenarbeit im Team ist entscheidend für den Spielerfolg und erfordert gutes Zusammenspiel und Taktik.
-- **Wer sitzt im Team zusammen?** Die Teamspieler sitzen sich beim Schieber gegenüber (Vorhand und Hinterhand).
+- **Wie wichtig ist die Teamarbeit beim Jassen?** Die beiden Partner gewinnen zusammen oder gar nicht.
+- **Wer sitzt im Team zusammen?** Beim Schieber sitzen sich die beiden Partner gegenüber.
 
 *Keywords: team*
 
@@ -867,14 +865,14 @@ Definition:
 • Trumpf sind jene Karten, die alle übrigen Farben stechen können
 
 Bestimmung:
-• Die Trumpffarbe wird durch die Trumpfansage oder durch die spezifische Spielart bestimmt
+• Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor
 
 Bedeutung:
-• Trumpfkarten haben somit die höchste Stechkraft und sind entscheidend für den Spielverlauf
+• Ein Trumpf sticht jede andere Farbe
 
 **Häufige Fragen:**
 - **Was ist Trumpf beim Jassen?** Trumpf sind Karten einer bestimmten Farbe, die alle übrigen Farben stechen können.
-- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe wird durch die Trumpfansage oder durch die spezifische Spielart bestimmt.
+- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor.
 - **Welche ist die stärkste Trumpfkarte?** Der Trumpf-Bauer (Puur) ist die stärkste Trumpfkarte, gefolgt vom Nell (Trumpf-Neuner).
 
 *Keywords: trumpf, trumpfkarten, trumpfansage*
@@ -886,7 +884,7 @@ Bedeutung:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Der Puur (auch Buur oder Bauer) ist die stechhöchste Karte bei einem Trumpspiel
+• Der Puur (auch Buur oder Bauer) ist die höchste Karte in einem Trumpfspiel
 
 Entstehung:
 • Der Under von der Trumpffarbe wird zum Puur
@@ -895,13 +893,13 @@ Spezialfall:
 • Der Puur muss nicht angegeben werden
 
 Eigenschaften:
-• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist sowohl wert- als auch stechmässig die höchste Karte einer Trumpffarbe
+• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste Karte der Trumpffarbe, im Stechen wie im Zählen
 
 **Häufige Fragen:**
-- **Was ist der Puur?** Der Puur (auch Buur oder Bauer) ist die stechhöchste Karte bei einem Trumpspiel.
+- **Was ist der Puur?** Der Puur (auch Buur oder Bauer) ist die höchste Karte in einem Trumpfspiel.
 - **Wie entsteht der Puur?** Der Under von der Trumpffarbe wird zum Puur.
 - **Muss der Puur angegeben werden?** Nein, der Puur muss nicht angegeben werden.
-- **Welche Eigenschaften hat der Trumpf-Bauer?** Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist sowohl wert- als auch stechmässig die höchste Karte einer Trumpffarbe.
+- **Welche Eigenschaften hat der Trumpf-Bauer?** Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste Karte der Trumpffarbe, im Stechen wie im Zählen.
 
 *Keywords: trumpf, puur, bauer, buur, bueb*
 
@@ -912,19 +910,19 @@ Eigenschaften:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist sowohl wert- als auch stechmässig die höchste Karte einer Trumpffarbe
+• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste und zugleich die wertvollste Karte einer Trumpffarbe
 
 Besonderheit:
 • Der Trumpf Puur muss als einzige Karte nicht gefarbt werden, wenn Trumpf ausgespielt ist.
 
-Ausnahme Nichtfarben Puur:
+Ausnahme beim Trio/3x3:
 • Bei der Trumpf-Variante Trio/3x3 muss der Puur während Obenabe oder Undenufe gespielt werden
 
 **Häufige Fragen:**
 - **Was ist der Trumpf-Bauer?** Der Trumpf-Bauer (Puur) ist die höchste Karte einer Trumpffarbe und die wertvollste Karte im Spiel.
 - **Wie viele Punkte ist der Trumpf-Bauer wert?** Der Trumpf-Bauer ist 20 Punkte wert.
 - **Kann der Trumpf-Bauer geschlagen werden?** Nein, der Trumpf-Bauer kann von keiner anderen Karte geschlagen werden.
-- **Muss der Trumpf Puur ausgespielt werden, wenn Trumpf ausgespielt ist?** Nein. Der Trumpf Puur ist die einzige Karte, die bei ausgespieltem Trumpf nicht gefarbt werden muss. Eine Ausnahme gilt bei Trio/3x3: Während Obenabe oder Undenufe muss der Puur gespielt werden.
+- **Muss ich den Trumpf Puur zugeben, wenn Trumpf verlangt ist?** Nein. Der Trumpf Puur ist die einzige Karte, die bei ausgespieltem Trumpf nicht gefarbt werden muss. Eine Ausnahme gilt bei Trio/3x3: Während Obenabe oder Undenufe muss der Puur gespielt werden.
 
 *Keywords: trumpf-bauer, trumpf-under, trumpf-bube*
 
@@ -938,13 +936,13 @@ Definition:
 • Die Vorhand ist der Spieler, der rechts vom Geber sitzt
 • Sie spielt als Erste eine Karte aus
 
-Strategische Vorteile:
-• Die Position bietet strategische Vorteile
-• Der Spieler hat den ersten Zug und kann damit den Rhythmus des Spiels mitbestimmen
+Was die Vorhand bringt:
+• Vorhand spielt die erste Karte und bestimmt damit die Farbe des ersten Stichs
+• Wer anzieht, gibt den anderen vor, was sie bedienen müssen
 
 **Häufige Fragen:**
 - **Was ist die Vorhand beim Jassen?** Die Vorhand ist der Spieler, der rechts vom Geber sitzt und als Erster eine Karte ausspielt.
-- **Welche Vorteile hat die Vorhand?** Die Vorhand hat den ersten Zug und kann damit den Rhythmus des Spiels mitbestimmen.
+- **Welche Vorteile hat die Vorhand?** Die Vorhand spielt die erste Karte und bestimmt damit die Farbe des ersten Stichs.
 - **Wer sitzt wo beim Schieber?** Die Vorhand sitzt rechts vom Geber. Ihr Partner, die Hinterhand, sitzt ihr gegenüber, also links vom Geber. Die Mittelhand sitzt dem Geber gegenüber.
 
 *Keywords: vorhand*
@@ -959,12 +957,12 @@ Definition:
 Die Bauernpartei ist das gegnerische Team des Meistbietenden bei der Jassart Bieter (auch Steiger genannt).
 
 Bedeutung:
-Diese Spielergruppe übernimmt eine wichtige taktische Rolle im Spielverlauf und muss strategisch gegen das überbietende Team vorgehen.
+Die beiden Bauern spielen zusammen gegen den König und müssen ihn daran hindern, seine gebotene Punktzahl zu erreichen.
 
 **Häufige Fragen:**
 - **Was bedeutet Bauernpartei beim Jassen?** Die Bauernpartei ist das gegnerische Team des Meistbietenden bei der Jassart Bieter (auch Steiger genannt).
 - **Was ist die Bauernpartei?** Die Bauernpartei ist das gegnerische Team des Meistbietenden bei der Jassart Bieter.
-- **Welche Rolle hat die Bauernpartei?** Die Bauernpartei muss strategisch gegen das überbietende Team (Königspartei) vorgehen.
+- **Welche Rolle hat die Bauernpartei?** Die Bauernpartei spielt gegen die Königspartei, die das Gebot gewonnen hat.
 - **Bei welcher Jassvariante gibt es die Bauernpartei?** Die Bauernpartei gibt es bei der Jassart Bieter (auch Steiger genannt).
 
 *Keywords: bauernpartei, bieter, steiger*
@@ -976,12 +974,12 @@ Diese Spielergruppe übernimmt eine wichtige taktische Rolle im Spielverlauf und
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Die Bockkarte ist die stechmässig höchste Karte jeder Farbe
-• Sie stellt somit das stärkste Blatt einer Farbe dar und kann nur durch Trumpfkarten geschlagen werden
+• Die Bockkarte, kurz der Bock, ist die höchste Karte einer Farbe
+• Solange sie oben ist, holt sie den Stich, und nur ein Trumpf kann sie noch schlagen
 • Diese Position macht sie zu einer besonders wertvollen Karte im Spiel
 
 **Häufige Fragen:**
-- **Was ist eine Bockkarte?** Die Bockkarte ist die stechmässig höchste Karte jeder Farbe.
+- **Was ist eine Bockkarte?** Die Bockkarte, kurz der Bock, ist die höchste Karte einer Farbe.
 - **Wie kann eine Bockkarte geschlagen werden?** Eine Bockkarte kann nur durch Trumpfkarten geschlagen werden.
 - **Welche Karte ist die Bockkarte bei Trumpf?** Bei Trumpffarben ist der Trumpf-Bauer (Puur) die höchste Karte. Bei anderen Farben ist es normalerweise das Ass.
 
@@ -995,7 +993,7 @@ Definition:
 
 Fort ist die Ansage, mit der ein Spieler beim Bieten aussteigt: Er macht kein Gebot mehr. «Ich passe» heisst dasselbe.
 
-Die Ansage gibt es in allen Bietspielen: Sidi-Barrani, Pandur, Bieter und weitere. Was ein «fort» bewirkt, regelt jede Jassart selbst. Beim Pandur gilt es endgültig, Müller sagt das für den ersten Umgang, der Verband für das ganze Bieten, und beim Sidi-Barrani empfiehlt der Verband dasselbe: Wer draussen ist, bleibt draussen. Beim Bieter bindet ein «fort» erst, wenn schon ein Gebot gefallen ist. Wer vorher passt, darf einsteigen, sobald jemand bietet.
+Die Ansage gibt es in allen Bietspielen: Sidi-Barrani, Pandur, Bieter und weitere. Was ein «fort» bewirkt, regelt jede Jassart selbst. Beim Pandur und beim Sidi-Barrani gilt es endgültig: Wer draussen ist, bleibt draussen. So empfiehlt es der Verband für das ganze Bieten. Beim Bieter bindet ein «fort» erst, wenn schon ein Gebot gefallen ist. Wer vorher passt, darf einsteigen, sobald jemand bietet.
 
 **Häufige Fragen:**
 - **Was bedeutet Fort beim Jassen?** Fort ist die Ansage, mit der ein Spieler beim Bieten aussteigt. «Ich passe» heisst dasselbe.
@@ -1014,11 +1012,11 @@ Definition:
 Hindersi sind Spielvarianten mit umgekehrter Punktezählung (z.B. Misère oder Molotow).
 
 Spielziel:
-Das Ziel ist es, möglichst wenige Kartenpunkte zu erreichen, was eine völlig andere Spielstrategie erfordert als beim normalen Jass. Wer die wenigsten Punkte sammelt, gewinnt diese Variante.
+Das Ziel ist es, möglichst wenige Kartenpunkte zu erreichen, Hohe Karten sind hier eine Last: Wer sticht, sammelt Punkte, die er nicht will. Wer am Schluss am wenigsten Punkte hat, gewinnt.
 
 **Häufige Fragen:**
 - **Was bedeutet Hindersi beim Jassen?** Hindersi bezeichnet Spielvarianten mit umgekehrter Punktezählung, bei denen das Ziel ist, möglichst wenige Kartenpunkte zu sammeln.
-- **Bei welchen Jassarten muss man wenig Stiche machen?** Bei Hindersi-Varianten wie Misère oder Molotow muss man möglichst wenige Stiche bzw. Punkte machen. Diese Spielarten erfordern eine völlig andere Strategie.
+- **Bei welchen Jassarten muss man wenig Stiche machen?** Bei Hindersi-Varianten wie Misère oder Molotow muss man möglichst wenige Stiche bzw. Punkte machen. Hohe Karten sind hier eine Last: Wer sticht, sammelt Punkte, die er nicht will.
 - **Darf man bei Hindersi-Varianten untertrumpfen?** Ja, bei Hindersi-Varianten ist Untertrumpfen auch dann erlaubt, wenn man die ausgespielte Farbe nicht bedienen kann.
 
 *Keywords: hindersi*
@@ -1054,7 +1052,7 @@ Definition:
 Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter (auch Steiger genannt), wenn mit fünf Spielern gespielt wird.
 
 Bedeutung:
-Diese strategisch wichtige Spielergruppe muss gemeinsam gegen die Bauernpartei antreten und koordiniert vorgehen.
+Die Königspartei spielt gegen die drei übrigen Spieler, die Bauernpartei.
 
 **Häufige Fragen:**
 - **Was bedeutet Königspartei beim Jassen?** Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter (auch Steiger genannt), wenn mit fünf Spielern gespielt wird.
@@ -1089,18 +1087,18 @@ Definition:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Minuspunkte entstehen bei Differenz-Jassarten, wenn die geschätzte Karten- und Weispunktzahl nicht erreicht wird
+• Minuspunkte entstehen bei Differenz-Jassarten, wenn die angesagten Karten- und Weispunkte nicht erreicht werden
 
 Synonyme:
 • Auch als Nuller, Sack oder Härdöpfel bezeichnet
 
 Ausgleich:
-• Müssen später durch positive Leistungen ausgeglichen werden
+• Wer Minuspunkte hat, muss sie in den nächsten Spielen wieder aufholen
 
 **Häufige Fragen:**
-- **Was sind Minuspunkte beim Jassen?** Minuspunkte entstehen bei Differenz-Jassarten, wenn die geschätzte Karten- und Weispunktzahl nicht erreicht wird.
+- **Was sind Minuspunkte beim Jassen?** Minuspunkte entstehen bei Differenz-Jassarten, wenn die angesagten Karten- und Weispunkte nicht erreicht werden.
 - **Welche anderen Begriffe gibt es für Minuspunkte?** Minuspunkte werden auch als Nuller, Sack oder Härdöpfel bezeichnet.
-- **Wie gleicht man Minuspunkte aus?** Minuspunkte müssen später durch positive Leistungen ausgeglichen werden.
+- **Wie gleicht man Minuspunkte aus?** Wer Minuspunkte hat, muss sie in den nächsten Spielen wieder aufholen.
 
 *Keywords: minuspunkte, nuller, sack, härdöpfel*
 
@@ -1113,16 +1111,16 @@ Ausgleich:
 Definition:
 • Die offene Ansage ist die geschätzte Kartenpunktzahl bei der Jassart Differenzler
 
-Transparenz:
-• Wird für alle Spieler offen angesagt, sodass jeder die Ansagen der anderen kennt
+Wer was ansagt:
+• Angesagt wird offen, sodass jeder die Ansagen der anderen kennt
 
-Strategie:
-• Ermöglicht bessere Planung, da alle Teilnehmer die Einschätzungen der anderen einbeziehen können
+Was das bringt:
+• Jeder hört die Ansagen der anderen und kann sich danach richten
 
 **Häufige Fragen:**
 - **Was ist die offene Ansage beim Jassen?** Die offene Ansage ist die geschätzte Kartenpunktzahl beim Differenzler, die für alle Spieler sichtbar ist.
 - **Was ist der Unterschied zur verdeckten Ansage?** Bei der offenen Ansage kennen alle Spieler die Ansagen der anderen, bei der verdeckten Ansage bleiben sie geheim.
-- **Welche Strategie ermöglicht die offene Ansage?** Die offene Ansage ermöglicht bessere Planung, da alle Teilnehmer die Einschätzungen der anderen einbeziehen können.
+- **Welche Strategie ermöglicht die offene Ansage?** Bei der offenen Ansage hört jeder die Ansagen der anderen und kann sich danach richten.
 
 *Keywords: offene ansage, differenzler*
 
@@ -1133,14 +1131,14 @@ Strategie:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Das Rauben bezeichnet eine Trumpfkarte, die mit einer bestimmten anderen Karte getauscht werden kann.
+Rauben heisst: Ein Spieler tauscht eine bestimmte eigene Karte gegen die aufgedeckte Trumpfkarte.
 
 Wichtig:
 • Die genaue Regelung dieser Spielaktion variiert je nach gespielter Jassart
 • Sollte daher vor dem Spiel genau geklärt werden, um Missverständnisse zu vermeiden
 
 **Häufige Fragen:**
-- **Was bedeutet Rauben beim Jassen?** Rauben bezeichnet eine Trumpfkarte, die mit einer bestimmten anderen Karte getauscht werden kann.
+- **Was bedeutet Rauben beim Jassen?** Rauben heisst: Ein Spieler tauscht eine bestimmte eigene Karte gegen die aufgedeckte Trumpfkarte.
 - **Ist das Rauben bei allen Jassvarianten gleich?** Nein, die genaue Regelung des Raubens variiert je nach gespielter Jassart.
 - **Was sollte man vor dem Spiel klären?** Man sollte vor dem Spiel genau klären, wie das Rauben gehandhabt wird, um Missverständnisse zu vermeiden.
 
@@ -1154,12 +1152,12 @@ Wichtig:
 
 Definition:
 • Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt
-• Diese Situation ist taktisch bedeutsam, da sie sowohl Möglichkeiten als auch Risiken birgt
-• Der Spieler muss entscheiden, wann der richtige Zeitpunkt ist, diese Karte zu spielen
+• Wer sie spielt, kann in dieser Farbe danach verwerfen
+• Wann er sie spielt, überlegt er sich gut
 
 **Häufige Fragen:**
 - **Was ist eine Solokarte beim Jassen?** Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt.
-- **Ist eine Solokarte gut oder schlecht?** Eine Solokarte kann beides sein – sie bietet taktische Möglichkeiten, birgt aber auch Risiken, da man nach ihrem Einsatz in dieser Farbe abwerfen kann.
+- **Ist eine Solokarte gut oder schlecht?** Eine Solokarte kann beides sein – sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann.
 - **Wann spielt man eine Solokarte?** Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab – manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen.
 
 *Keywords: solokarte, einzelkarte*
@@ -1182,7 +1180,7 @@ Anforderung:
 **Häufige Fragen:**
 - **Was sind Tisch-Weise?** Tisch-Weise sind Weise, die bei Molotow direkt auf dem Tisch durch das Spielen der Karten entstehen.
 - **Wann werden Tisch-Weise gemeldet?** Tisch-Weise werden nicht vorab gemeldet, sondern ergeben sich im Verlauf des Spiels durch die gespielten Karten.
-- **Bei welcher Jassart gibt es Tisch-Weise?** Tisch-Weise gibt es vor allem bei der Jassart Molotow.
+- **Bei welcher Jassart gibt es Tisch-Weise?** Tisch-Weise gibt es beim Molotow.
 
 *Keywords: tisch-weis, molotow, weise*
 
@@ -1209,7 +1207,7 @@ Anforderung:
 
 Sie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.
 
-Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, misst seine Stechkraft. Wer weist, legt eine dieser beiden Figuren vor.
+Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, weiss, was er noch stechen kann. Wer weist, legt eine dieser beiden Figuren vor.
 
 ## Beim Bieten
 
@@ -1219,7 +1217,7 @@ Der [Sidi-Barrani](/varianten/sidi-barrani/) macht aus derselben Zählung eine L
 - **Was heisst «Puur zu dritt»?** Der Spieler hält den Puur und zwei weitere Karten der Trumpffarbe, zusammen also drei Trümpfe. Die genannte Karte zählt mit. «Nell zu viert» heisst entsprechend: das Nell und drei weitere Trumpfkarten, zusammen vier.
 - **Zählt der Puur bei «zu dritt» mit?** Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere.
 - **Bringen Trumpf-Bauer-Kombinationen Weispunkte?** Weispunkte bringen die beiden Figuren des Weises: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage.
-- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Sie messen die Trumpflänge vor der Ansage. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
+- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Sie zählen vor der Ansage, wie viele Trümpfe sie haben. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
 
 *Keywords: trumpf-bauer-kombinationen, puur zu dritt, nell zu viert, zu-dritt, zu-viert*
 
@@ -1236,12 +1234,12 @@ Geheimhaltung:
 • Sie wird für alle Spieler verdeckt angesagt, sodass kein Spieler die Ansagen der anderen kennt
 
 Strategie:
-• Diese Variante erhöht die Spannung und erfordert eine präzise Einschätzung der eigenen Chancen ohne Kenntnis der gegnerischen Pläne
+• Wer verdeckt ansagt, muss seine Punkte einschätzen, ohne zu wissen, was die anderen angesagt haben
 
 **Häufige Fragen:**
 - **Was ist die verdeckte Ansage beim Jassen?** Die verdeckte Ansage ist die geschätzte Kartenpunktzahl beim Differenzler, die für alle Spieler geheim bleibt.
 - **Was ist der Unterschied zur offenen Ansage?** Bei der verdeckten Ansage kennen die Spieler die Ansagen der anderen nicht, bei der offenen Ansage sind sie für alle sichtbar.
-- **Welche Strategie erfordert die verdeckte Ansage?** Die verdeckte Ansage erfordert eine präzise Einschätzung der eigenen Chancen ohne Kenntnis der gegnerischen Pläne.
+- **Welche Strategie erfordert die verdeckte Ansage?** Wer verdeckt ansagt, muss seine Punkte einschätzen, ohne zu wissen, was die anderen angesagt haben.
 
 *Keywords: verdeckte ansage, differenzler, punktzahl*
 
@@ -1252,10 +1250,10 @@ Strategie:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Der Vogel wird durch das Notieren eines "V" gekennzeichnet
+• Ein Vogel wird als «V» angeschrieben
 
 Zwick-Jass:
-• Beim Zwick-Jass entspricht dies fünf abzuverdienenden Minusstrichen
+• Beim Zwick-Jass entspricht dies fünf Nullern, die abverdient werden müssen
 
 Schieber:
 • Beim Schieber bedeutet ein Vogel 500 Schreibpunkte
@@ -1264,9 +1262,9 @@ Verwendung:
 • Dieser Begriff wird verwendet, um bestimmte Spielsituationen zu dokumentieren und in die Abrechnung einzubeziehen
 
 **Häufige Fragen:**
-- **Was ist ein Vogel beim Jassen?** Ein Vogel ist ein Notationszeichen ("V"), das je nach Spielvariante unterschiedliche Bedeutungen hat.
+- **Was ist ein Vogel beim Jassen?** Ein Vogel ist ein «V» auf der Tafel. Was er zählt, hängt von der Jassart ab.
 - **Was bedeutet ein Vogel beim Schieber?** Beim Schieber bedeutet ein Vogel 500 Schreibpunkte.
-- **Was bedeutet ein Vogel beim Zwick-Jass?** Beim Zwick-Jass entspricht ein Vogel fünf abzuverdienenden Minusstrichen.
+- **Was bedeutet ein Vogel beim Zwick-Jass?** Beim Zwick-Jass entspricht ein Vogel fünf Nullern, die abverdient werden müssen.
 
 *Keywords: vogel, minusstriche, schreibpunkte*
 
@@ -1277,15 +1275,15 @@ Verwendung:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Wenn ein Spielgeber nicht mitspielt, erhält er die vereinbarten Schreibpunkte. Dies wird als Erben bezeichnet.
+Wenn ein Kartengeber nicht mitspielt, erhält er die vereinbarten Schreibpunkte. Dies wird als Erben bezeichnet.
 
 Zweck:
-Diese Regelung sorgt für eine faire Beteiligung, auch bei Spielern, die gerade nicht aktiv am Spiel teilnehmen.
+So bekommt auch der Geber seine Punkte, wenn er einmal aussetzt.
 
 **Häufige Fragen:**
-- **Was bedeutet Erben beim Jassen?** Erben bedeutet, dass ein Spielgeber, der nicht mitspielt, trotzdem die vereinbarten Schreibpunkte erhält.
+- **Was bedeutet Erben beim Jassen?** Erben bedeutet, dass ein Kartengeber, der nicht mitspielt, trotzdem die vereinbarten Schreibpunkte erhält.
 - **Warum gibt es die Erben-Regelung?** Diese Regelung sorgt für eine faire Beteiligung, auch bei Spielern, die gerade nicht aktiv am Spiel teilnehmen.
-- **Wer erbt beim Jassen?** Der Spielgeber, also derjenige, der die Karten verteilt hat, erbt die vereinbarten Punkte, wenn er selbst nicht mitspielt.
+- **Wer erbt beim Jassen?** Der Kartengeber, also derjenige, der die Karten verteilt hat, erbt die vereinbarten Punkte, wenn er selbst nicht mitspielt.
 
 *Keywords: erben*
 
@@ -1316,8 +1314,7 @@ Definition:
 Der Kehr ist eine Spielübernahme bei der Jassart Aucho (oder Augen).
 
 Ablauf:
-• Die Karten werden einzeln vom Lukas (Stock) aufgedeckt und umgedreht, bis die Entscheidung über die Trumpffarbe getroffen wird
-• Diese besondere Spielweise bringt zusätzliche Spannung ins Spiel
+• Die Karten werden einzeln vom Lukas (Stock) aufgedeckt, bis die Trumpffarbe feststeht
 
 **Häufige Fragen:**
 - **Was ist ein Kehr beim Jassen?** Der Kehr ist eine Spielübernahme bei der Jassart Aucho, bei der Karten einzeln aufgedeckt werden, bis die Trumpffarbe bestimmt ist.
@@ -1333,18 +1330,18 @@ Ablauf:
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Rampo ist ein notierter Querstrich bei der Jassart Schellenjass, auch Herzjass genannt
+• Rampo ist ein Strich, der beim Schellenjass (auch Herzjass genannt) notiert wird
 
 Bedingung:
 • Dieser wird notiert, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen müssen
 
 Bedeutung:
-• Das Rampo ist ein wichtiger Bestandteil der Spielabrechnung und beeinflusst den Spielverlauf erheblich
+• Der Rampo gehört zur Abrechnung des Spiels
 
 **Häufige Fragen:**
-- **Was ist ein Rampo beim Jassen?** Rampo ist ein notierter Querstrich bei der Jassart Schellenjass (Herzjass), der notiert wird, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen.
+- **Was ist ein Rampo beim Jassen?** Rampo ist ein Strich, der beim Schellenjass (Herzjass) notiert wird, wenn mindestens zwei Spieler gleich viele Schellenkarten stechen.
 - **Wie funktioniert die Rampo-Regel?** Wenn mindestens zwei Spieler gleich viele Schellenkarten stechen müssen, wird ein Rampo (Querstrich) notiert, der die Spielabrechnung beeinflusst.
-- **Bei welcher Jassart gibt es Rampo?** Rampo gibt es beim Schellenjass, auch Herzjass genannt. Es ist ein wichtiger Bestandteil der Spielabrechnung dieser Variante.
+- **Bei welcher Jassart gibt es Rampo?** Rampo gibt es beim Schellenjass, auch Herzjass genannt. Er gehört dort zur Abrechnung des Spiels.
 
 *Keywords: rampo, schellenjass, herzjass*
 
@@ -1358,13 +1355,13 @@ Definition:
 Beim Schlecken kann ein Spieler nach dem Ablupf bei der Jassart Zwick-Jass die unterste Karte des Stocks (Lukas) nehmen.
 
 Vorteil:
-• Diese besondere Spielaktion eröffnet zusätzliche taktische Möglichkeiten
+• Wer schleckt, bekommt eine Karte mehr zur Auswahl
 • Macht diese Variante besonders interessant
 
 **Häufige Fragen:**
 - **Was ist Schlecken beim Jassen?** Beim Schlecken kann ein Spieler nach dem Ablupf die unterste Karte des Stocks nehmen.
 - **Bei welcher Jassvariante gibt es das Schlecken?** Das Schlecken kommt bei der Jassart Zwick-Jass vor.
-- **Was ist der Vorteil des Schleckens?** Das Schlecken eröffnet zusätzliche taktische Möglichkeiten und macht diese Variante besonders interessant.
+- **Was ist der Vorteil des Schleckens?** Wer schleckt, bekommt eine Karte mehr zur Auswahl.
 
 *Keywords: schlecken*
 
@@ -1375,16 +1372,16 @@ Vorteil:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Beim Unterzug spielt man absichtlich eine stechmässig niedrige Karte aus einer starken und langen Farbe, mit dem Ziel, den Stich nicht zu gewinnen.
+Beim Unterzug spielt man absichtlich eine tiefe Karte aus einer starken und langen Farbe, mit dem Ziel, den Stich nicht zu gewinnen.
 
 Taktischer Zweck:
-• Diese Spielaktion wird eingesetzt, wenn man den Stich lieber dem Partner oder einem Gegner überlassen möchte
+• Man zieht unter, wenn man den Stich lieber dem Partner oder einem Gegner lässt
 • Hohe Karten werden für spätere entscheidende Stiche aufgehoben
 
 **Häufige Fragen:**
 - **Was ist ein Unterzug beim Jassen?** Beim Unterzug spielt man absichtlich eine niedrige Karte aus einer starken Farbe, um den Stich nicht zu gewinnen.
 - **Warum macht man einen Unterzug?** Man macht einen Unterzug, wenn man den Stich lieber dem Partner oder einem Gegner überlassen möchte und hohe Karten für später aufheben will.
-- **Wann ist ein Unterzug sinnvoll?** Ein Unterzug ist sinnvoll, wenn man eine starke, lange Farbe hat, aber den Stich strategisch nicht gewinnen möchte.
+- **Wann ist ein Unterzug sinnvoll?** Ein Unterzug ist sinnvoll, wenn man eine starke, lange Farbe hat, aber den Stich absichtlich abgeben will.
 
 *Keywords: unterzug*
 
@@ -1394,7 +1391,7 @@ Taktischer Zweck:
 
 **Kategorie:** Begriffe > Spielaktionen
 
-Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und erhöht den Einsatz. Kontern ist die Antwort des trumpfmachenden Teams, das an seinem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird. Die Aufgabe am Tisch bleibt dieselbe.
+Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und verdoppelt, was am Schluss geschrieben wird. Kontern ist die Antwort des trumpfmachenden Teams, das an seinem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird. Die zu holenden Kartenpunkte bleiben dieselben.
 
 ## Was sich ändert
 
@@ -1404,7 +1401,7 @@ Beim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und
 
 ## Wann gedoppelt wird
 
-Das Doppeln beendet das Bieten. Gespielt wird das zuletzt genannte Gebot. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So empfiehlt es der Jassverband Schweiz, Genaueres steht beim Sidi-Barrani. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
+Das Doppeln beendet das Bieten. Gespielt wird das zuletzt genannte Gebot. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So empfiehlt es der Jassverband Schweiz, Genaueres steht beim Sidi-Barrani. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) wird die erste Karte ausgespielt, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
 
 Bis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.
 
@@ -1417,7 +1414,7 @@ Der Sidi-Barrani verdoppelt die Zielpunkte mit jedem Schritt. Beim Bolschewik le
 Kontern verdoppelt die Zielpunkte ein zweites Mal. Der [Kontermatsch](/regeln/punktezaehlung/kontermatsch/) bezeichnet etwas anderes, nämlich den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
 
 **Häufige Fragen:**
-- **Was heisst doppeln beim Jassen?** Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und erhöht den Einsatz. Das Doppeln beendet das Bieten, und was am Schluss geschrieben wird, steigt für beide Seiten.
+- **Was heisst doppeln beim Jassen?** Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und verdoppelt, was am Schluss geschrieben wird. Das Doppeln beendet das Bieten, und was am Schluss geschrieben wird, steigt für beide Seiten.
 - **Ändert das Doppeln das Ziel in Kartenpunkten?** Zu holen bleibt die gebotene Punktzahl. Gedoppelt wird der Wert, den eine Seite am Schluss schreibt.
 - **Was heisst kontern?** Kontern ist die Antwort des trumpfmachenden Teams auf ein Doppeln: Der Spielübernehmer oder sein Partner hält am Gebot fest, und die Zielpunkte verdoppeln sich ein zweites Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, zu holen bleiben 120 Kartenpunkte.
 - **Ist Kontern dasselbe wie ein Kontermatsch?** Kontern ist die Antwort auf ein Doppeln und verdoppelt die Zielpunkte ein zweites Mal. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
@@ -1476,11 +1473,11 @@ Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch C
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/), der Kreuz-König und der Eichel-König sind dieselbe Karte in zwei Blättern. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Der Kreuz-König und der Eichel-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Kreuz im Deutschschweizer Blatt?** Eichel. Der Kreuz-König und der Eichel-König sind dieselbe Karte.
-- **Was zeigt die Farbe Kreuz?** Das schwarze Kreuz ♣, französisch Trèfle.
+- **Welches Zeichen hat Kreuz?** Das schwarze Kreuz ♣, französisch Trèfle.
 - **Was gilt, wenn Kreuz Trumpf ist?** Der Kreuz-Bube sticht als Puur alles und zählt 20, die Kreuz-Neun als Nell 14.
 
 *Keywords: kreuz, eichel, treff, trèfle, clubs*
@@ -1495,7 +1492,7 @@ Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die 
 
 **Häufige Fragen:**
 - **Wie heisst Rosen im französischen Blatt?** Herz, mit dem Zeichen ♥, französisch Cœur.
-- **Welche Farbe hat die Rose auf den Jasskarten?** Gelb mit roter Mitte, auf jeder Rosen-Karte des Deutschschweizer Blatts.
+- **Wie sieht die Rose auf den Jasskarten aus?** Gelb mit roter Mitte, auf jeder Rosen-Karte des Deutschschweizer Blatts.
 - **Was gilt, wenn Rosen Trumpf ist?** Dann sind der Rosen-Under und die Rosen-Neun die beiden höchsten Karten im Spiel: der Puur mit 20 Punkten, das Nell mit 14.
 
 *Keywords: rosen, herz, cœur, coeur, farbe*

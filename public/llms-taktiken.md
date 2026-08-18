@@ -28,10 +28,10 @@ Das Anziehen ist neben dem [Verwerfen](/taktiken-und-strategien/kommunikation-si
 
 Anziehen bedeutet, jene [Farbe](/grundlagen-kultur/jasskarten/) auszuspielen, bei der man selber stark ist. Damit erreicht man zweierlei:
 
-1. Man kommuniziert dem Partner, dass das die starke Farbe ist.
-2. Im wörtlichen Sinn werden Karten dieser Farbe «angezogen». Das erhöht die Chance, aus der Farbe einen oder mehrere [Böcke](/begriffe/kartenbezeichnungen/bock/) zu machen.
+1. Man zeigt dem Partner, welches die starke Farbe ist.
+2. Im wörtlichen Sinn werden Karten dieser Farbe «angezogen». Das erhöht die Chance, dass die eigenen hohen Karten dieser Farbe zu [Böcken](/begriffe/kartenbezeichnungen/bock/) werden.
 
-## Beispiel 1: Der Klassiker
+## Beispiel 1: König ohne Ass
 
 Ein Spieler hat den König und weitere Karten einer Farbe. Er zieht die Farbe an, in der Hoffnung, dass der Partner das Ass hat oder einer der Gegner es spielt (idealerweise so, dass der Partner mit einem Trumpf abstechen kann). Damit ist die Farbe angezogen, der König wird zum Bock, und die weiteren Karten der Farbe womöglich ebenfalls.
 
@@ -39,14 +39,14 @@ Ein Spieler hat den König und weitere Karten einer Farbe. Er zieht die Farbe an
 
 Spieler A stellt fest, dass sein Partner B und er selber noch je einen Trumpf haben. A hält das Ass und drei weitere tiefe Karten dieser Farbe. Statt sofort das Ass zu spielen, zieht er die Farbe zuerst tief an. Weshalb?
 
-Wird zuerst tief angezogen, sticht B ab und kann seine eigene Farbe anziehen. A setzt seinen Trumpf dann für die angezogene Farbe des Partners ein. A hält weiterhin das Ass: Nach einmaligem Anziehen und dem Ausspielen des Asses darf er damit rechnen, dass die verbleibenden zwei Karten der Farbe zu Böcken werden.
+Wird zuerst tief angezogen, sticht B ab und kann seine eigene Farbe anziehen. Kommt die Farbe des Partners, sticht A mit seinem Trumpf. A hält weiterhin das Ass: Nach einmaligem Anziehen und dem Ausspielen des Asses darf er damit rechnen, dass die verbleibenden zwei Karten der Farbe zu Böcken werden.
 
 Bringt Spieler B die Farbe sogar zurück, hat A die Option, sie mit seinem Trumpf nochmals abzustechen, statt das Ass einzusetzen. Er behält so das Ass und zwei weitere Karten. Die Farbe ist jetzt so weit angezogen, dass A mit dem Ass und den zwei weiteren Karten praktisch garantiert drei Stiche macht.
 
 **Häufige Fragen:**
 - **Was bedeutet Anziehen beim Jassen?** Man spielt die Farbe aus, in der man stark ist. Das signalisiert dem Partner die starke Farbe und zieht Karten dieser Farbe heraus, sodass die eigenen hohen Karten zu Böcken werden.
 - **Was ist der Unterschied zwischen Anziehen und Verwerfen?** Anziehen zeigt eine starke Farbe an, indem man sie ausspielt. Verwerfen zeigt eine schwache Farbe an, indem man sie abwirft.
-- **Soll man das Ass sofort spielen, wenn man eine Farbe anzieht?** Nicht immer. Mit dem Ass und tiefen Karten kann es besser sein, die Farbe zuerst tief anzuziehen, um die Trümpfe mit dem Partner zu koordinieren, und das Ass erst später zu spielen.
+- **Soll man das Ass sofort spielen, wenn man eine Farbe anzieht?** Nicht immer. Mit dem Ass und tiefen Karten kann es besser sein, die Farbe zuerst tief anzuziehen, damit beide Trümpfe zum Zug kommen, und das Ass erst später zu spielen.
 
 *Keywords: anziehen, farbe, under, stark, schwach*
 
@@ -57,18 +57,18 @@ Bringt Spieler B die Farbe sogar zurück, hat A die Option, sie mit seinem Trump
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
 Definition:
-• Unter Nachschmeissen versteht man eine Taktik, wo der Partner des Spielers, der am Drücker ist, eine eigene starke (potentiell eine spätere Bock-Karte) opfert, um seinem Partner den Weg zu ebnen (vgl. auch Am Drücker).
+• Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker).
 
 Beispiel:
-• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe – also Schellen – ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, um seinem Partner den Weg zu ebnen.
+• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe – also Schellen – ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
 
 Wichtig:
-• Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
+• Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
 
 **Häufige Fragen:**
-- **Was bedeutet Nachschmeissen beim Jassen?** Unter Nachschmeissen versteht man eine Taktik, wo der Partner des Spielers, der am Drücker ist, eine eigene starke (potentiell eine spätere Bock-Karte) opfert, um seinem Partner den Weg zu ebnen.
+- **Was bedeutet Nachschmeissen beim Jassen?** Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte.
 - **Wann wird nachgeschmissen?** Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
-- **Was ist ein Beispiel für Nachschmeissen?** Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, und sein Partner den Schellen König hält, spielt er diesen, um seinem Partner den Weg zu ebnen.
+- **Was ist ein Beispiel für Nachschmeissen?** Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, und sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
 
 *Keywords: nachschmeissen, nohrüere, taktik, partner, drücker*
 
@@ -103,9 +103,9 @@ Es wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagend
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Verwerfen ist die erste und wichtigste Taktik, die alle Jassenden lernen: Wenn man die ausgespielte Farbe nicht mehr hat, spielt man eine Karte jener Farbe, in der man am schwächsten ist. Bietet sich später die Gelegenheit, auch die zweitschwächste Farbe zu verwerfen, weiss der Partner mit Bestimmtheit, welche die starke Farbe ist.
+Verwerfen ist die erste und wichtigste Taktik, die jeder Jasser lernt: Wenn man die ausgespielte Farbe nicht mehr hat, spielt man eine Karte jener Farbe, in der man am schwächsten ist. Bietet sich später die Gelegenheit, auch die zweitschwächste Farbe zu verwerfen, weiss der Partner genau, welches die starke Farbe ist.
 
-Da in der Regel alle am Tisch diese Konvention befolgen, zeichnet sich im Verlauf der Runde ein konkretes Bild ab, welche Spieler in welcher Farbe stark sind.
+Da in der Regel alle am Tisch diese Konvention befolgen, sieht man im Verlauf der Runde, wer in welcher Farbe stark ist.
 
 ## Häufiger Fehler beim Verwerfen
 
@@ -113,17 +113,17 @@ Wenn man im Spielverlauf erkennt, welches die starke Farbe des Partners ist, dan
 
 ## Verwerfen in der Defensive
 
-Sagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft. Denn in der Defensive muss tunlichst vermieden werden, dass beide Partner dieselbe Farbe halten.
+Sagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft. Denn in der Defensive halten die beiden Partner immer verschiedene Farben.
 
-**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A muss sich nun auf Schilten fokussieren und gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs opfern.
+**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A spielt nun auf Schilten und gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs opfern.
 
 ## Verwerfen beim Slalom und Quer
 
-Das Verwerfen bei den Spielmodi [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist anspruchsvoller und wird in eigenen Artikeln behandelt: [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).
+Das Verwerfen bei den Ansagen [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist anspruchsvoller und wird in eigenen Artikeln behandelt: [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).
 
 ## Querverwerfen
 
-Eine Fraktion von Spielern praktiziert das **Querverwerfen**, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Dabei wird nicht die schwächste Farbe zuerst verworfen, sondern die «quere» zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).
+Manche Jasser **verwerfen quer**, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Dabei wird nicht die schwächste Farbe zuerst verworfen, sondern die «quere» zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).
 
 **Häufige Fragen:**
 - **Was bedeutet Verwerfen beim Jassen?** Wenn man die ausgespielte Farbe nicht mehr hat, wirft man eine Karte der Farbe ab, in der man am schwächsten ist. Damit zeigt man dem Partner, was man nicht braucht.
@@ -242,7 +242,7 @@ Beispiel: Verwirft ein Partner zuerst [Rosen](/begriffe/kartenbezeichnungen/rose
 
 Der Vorteil dieser Taktik ist, dass früh im Spiel die starke Farbe kommuniziert werden kann. Der Nachteil ist, dass je nachdem die **zweitstärkste Farbe verworfen werden muss**, um die abgemachte Konvention einzuhalten.
 
-In der Regel wird aufgrund vom [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) (und [Anziehen](/taktiken-und-strategien/kommunikation-signale/anziehen/)) der einzelnen Spieler sowieso klar, bei welchen Spielern die Böcke der entsprechenden Farben liegen, ohne dass diese Taktik angewendet werden müsste. Die Vertreter der Querverwerfen-Konvention sind daher in der Minderheit.
+In der Regel wird aufgrund vom [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/) (und [Anziehen](/taktiken-und-strategien/kommunikation-signale/anziehen/)) der einzelnen Spieler sowieso klar, bei welchen Spielern die Böcke der entsprechenden Farben liegen, ohne dass diese Taktik angewendet werden müsste. Querverwerfen wird darum nur an wenigen Tischen gespielt.
 
 **Häufige Fragen:**
 - **Was ist Querverwerfen beim Jassen?** Eine Taktik, bei der Partner abmachen, eine bestimmte Farbe zu verwerfen, um damit Stärke in einer anderen Farbe anzuzeigen. Verwirft jemand zuerst Rosen, sucht er Eichel.
@@ -259,7 +259,7 @@ In der Regel wird aufgrund vom [Verwerfen](/taktiken-und-strategien/kommunikatio
 
 Beim [Quer](/ansagen/quer/) geht man davon aus, dass der Trumpf-Ansager, sofern er in Vorhand ist, seine ersten Stiche nach [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/) durchspielt.
 
-Sein Partner braucht daher [Böcke](/begriffe/kartenbezeichnungen/bock/) für die zweite Hälfte der Stiche. Entsprechend verwirft er **auf keinen Fall** eine Farbe, die er unten braucht, wenn oben begonnen wurde, oder umgekehrt.
+Sein Partner braucht daher [Böcke](/begriffe/kartenbezeichnungen/bock/) für die zweite Hälfte der Stiche. Hat der Ansager oben begonnen, behält der Partner die Farben, die er oben braucht. Hat er unten begonnen, behält er die Farben für unten. Verworfen wird nur, was in dieser Richtung nichts mehr bringt.
 
 Eine einmal verworfene Farbe wird niemals übergeben. Auch nicht beim Quer und auch nicht, wenn die Reihenfolge des Stechwerts wechselt.
 
@@ -287,9 +287,9 @@ Auch beim Slalom gilt: Wenn man eine Farbe zum ersten Mal nicht spielen kann, ve
 - Ist die verworfene Karte **höher** als das [Banner](/begriffe/kartenbezeichnungen/banner/), signalisiert das Stärke **oben**: Man möchte, dass der Partner oben übergibt.
 - Ist die verworfene Karte **tiefer** als das Banner, signalisiert das Stärke **unten**: Man möchte, dass der Partner unten übergibt.
 
-Jasser, die zum ersten Mal von dieser Konvention hören, stellen meist dieselbe Frage: «Wieso hoch verwerfen, wenn man hoch will, und nicht tief? Hoch will man doch!» Die Antwort ist simpel: Eine verworfene Farbe ist beim Slalom ohnehin wertlos, ob hoch oder tief spielt also keine Rolle. Aber hoch = hoch und tief = tief lässt sich deutlich einfacher merken. So hat sich die Konvention eingebürgert.
+Jasser, die zum ersten Mal von dieser Konvention hören, stellen meist dieselbe Frage: «Wieso hoch verwerfen, wenn man hoch will, und nicht tief? Hoch will man doch!» Eine verworfene Farbe ist beim Slalom ohnehin wertlos, ob hoch oder tief spielt also keine Rolle. Aber hoch = hoch und tief = tief lässt sich deutlich einfacher merken. So hat sich die Konvention eingebürgert.
 
-Statistisch kommt es zudem häufiger vor, dass ein Spieler, der den Slalom «oben» ansagt, seinen letzten Bock ebenfalls oben hat, also in Stich 6 oder 8 übergibt (und umgekehrt). Als Partner spekuliert und signalisiert man darum nach Möglichkeit auf eine Unten-Übergabe, wenn hoch begonnen wurde, und umgekehrt.
+Statistisch kommt es zudem häufiger vor, dass ein Spieler, der den Slalom «oben» ansagt, seinen letzten Bock ebenfalls oben hat, also in Stich 6 oder 8 übergibt (und umgekehrt). Als Partner rechnet man darum eher damit, dass unten übergeben wird, wenn oben begonnen wurde, und zeigt das auch so an.
 
 ## Verwerfen in der Defensive
 
@@ -310,9 +310,9 @@ Ebenfalls wichtig: Ob ein Slalom hoch oder tief beginnt, ist gerade in der Defen
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Die Konvention "Hoch - tief" zählt zu den wichtigsten Methoden, um festzustellen, wie viele Trümpfe der Partner besitzt. Diese Konvention bezieht sich stets auf den Partner des Spielers, der ansagt, und zwar unabhängig davon, ob zuvor geschoben wurde oder nicht.
+Die Konvention "Hoch - tief" ist das wichtigste Zeichen dafür, wie viele Trümpfe der Partner hält. Diese Konvention bezieht sich stets auf den Partner des Spielers, der ansagt, und zwar unabhängig davon, ob zuvor geschoben wurde oder nicht.
 
-Das Ziel ist, eine Entscheidungsgrundlage zu schaffen, ob nochmals ausgetrumpft werden soll oder nicht.
+So weiss der Trumpfansager, ob er ein zweites Mal austrumpfen soll.
 
 ## Hoch - tief bei zwei Trümpfen
 
@@ -337,8 +337,8 @@ Die zuerst gespielte Karte muss **zwingend die tiefste** sein. Die zweite Karte 
 - **Wann spielt man hoch und wann tief?** Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen.
 - **Ich habe zwei Trumpfkarten – spiele ich zuerst die hohe oder die tiefe?** Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen.
 - **Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?** Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien – der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann.
-- **Was ist der Vorteil vom Tiefspiel?** Tiefspiel ermöglicht es, hohe Karten für spätere entscheidende Momente aufzubewahren und dem Partner die Möglichkeit zu geben, den Stich zu machen.
-- **Wovon hängt die Entscheidung ab?** Die Wahl zwischen hoch und tief hängt von der Spielsituation, der eigenen Hand und der Partnerkoordination ab.
+- **Was bringt es, tief zu spielen?** Wer tief spielt, behält die hohen Karten für später und lässt dem Partner den Stich.
+- **Gilt Hoch–tief immer?** Ja. Der Partner des Trumpfansagers spielt im ersten Trumpfstich nach dieser Regel. Puur und Nell bleiben aussen vor.
 
 *Keywords: hoch, tief, kommunikation, signale, fortgeschritten*
 

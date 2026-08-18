@@ -56,7 +56,7 @@
   },
   "schieber_taktiken_nell_vor_puur": {
     "id": "schieber_taktiken_nell_vor_puur",
-    "text": "Definition:\nNell vor Puur ist eine Signalkonvention beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell die Neun der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.\n\nDie Aussage:\nWer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner liest daraus eine feste Information.\n\nWieso ist das wichtig?\nSo entstehen keine Überraschungen. Entscheidet das Team nach einmaligem Austrumpfen, nicht noch einmal nachzuziehen, kann der Partner sicher sein, dass der Puur nicht beim Gegner liegt.\n\nAbgrenzung:\nNell und Puur sind von der Hoch-Tief-Konvention ausgenommen. Ihre Reihenfolge im ersten Stich folgt allein der Regel «Nell vor Puur».",
+    "text": "Definition:\nNell vor Puur ist ein festes Zeichen unter Partnern beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell der Neuner der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.\n\nDie Aussage:\nWer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner weiss damit sicher, wo der Puur liegt.\n\nWieso ist das wichtig?\nSo entstehen keine Überraschungen. Entscheidet das Team nach einmaligem Austrumpfen, nicht noch einmal nachzuziehen, kann der Partner sicher sein, dass der Puur nicht beim Gegner liegt.\n\nAbgrenzung:\nNell und Puur sind von der Hoch-Tief-Konvention ausgenommen. Ihre Reihenfolge im ersten Stich folgt allein der Regel «Nell vor Puur».",
     "metadata": {
       "id": "schieber_taktiken_nell_vor_puur_meta",
       "category": {
@@ -436,7 +436,7 @@
   },
   "bergpreis": {
     "id": "bergpreis",
-    "text": "Der Bergpreis (auch Berg genannt) ist eine Zusatzprämie für das Team, das als Erstes die Hälfte des vereinbarten Spielziels erreicht. Bei einer Partie auf 2000 Punkte liegt er also bei 1000.\n\nSo gewinnt man den Bergpreis:\nDas Team, das als Erstes die Hälfte des Ziels erreicht, sagt «Berg» oder «Bergpreis» an und gewinnt einen Strich. Der Bergpreis wird separat notiert und zählt zur Gesamtwertung.\n\nSonderfall erster Stich:\nErreichen beide Teams im ersten Stich gleichzeitig den Bergpreis, eines durch Weis, das andere durch Kartenpunkte, entscheidet die Ausmachregel (siehe Begriff \"ausmachregel\") Stöck-Weis-Stich. Die Stöck dürfen dabei vorausgewiesen werden.\n\nFalsches Bedanken:\nWer sich fälschlich für den Bergpreis bedankt, ohne die Punktzahl erreicht zu haben, verliert ihn an den Gegner.",
+    "text": "Der Bergpreis (auch Berg genannt) ist eine Zusatzprämie für das Team, das als Erstes die Hälfte des vereinbarten Spielziels erreicht. Bei einer Partie auf 2000 Punkte liegt er also bei 1000.\n\nSo gewinnt man den Bergpreis:\nDas Team, das als Erstes die Hälfte des Ziels erreicht, bedankt sich für den «Berg» und erhält einen Strich. Der Bergpreis wird separat notiert und zählt am Schluss mit.\n\nSonderfall erster Stich:\nErreichen beide Teams im ersten Stich gleichzeitig den Bergpreis, eines durch Weis, das andere durch Kartenpunkte, entscheidet die Ausmachregel (siehe Begriff \"ausmachregel\") Stöck-Weis-Stich. Die Stöck dürfen dabei vorgewiesen werden.\n\nFalsches Bedanken:\nWer sich fälschlich für den Bergpreis bedankt, ohne die Punktzahl erreicht zu haben, verliert ihn an den Gegner.",
     "metadata": {
       "id": "bergpreis_meta",
       "category": {
@@ -471,7 +471,7 @@
       },
       {
         "question": "Wie gewinnt man den Bergpreis?",
-        "answer": "Indem man als Erstes die Hälfte des Ziels erreicht und «Berg» ansagt."
+        "answer": "Indem man als Erstes die Hälfte des Ziels erreicht und sich für den «Berg» bedankt."
       },
       {
         "question": "Gilt die Ausmachregel auch beim Bergpreis?",
@@ -1138,7 +1138,7 @@
     "faqs": [
       {
         "question": "Was sind Brättli beim Jassen?",
-        "answer": "Brättli sind die Sechser, Siebner, Achter und Neuner – die Karten mit geringem Punktwert."
+        "answer": "Brättli sind die Sechser, Siebner, Achter und Neuner, die Karten mit geringem Punktwert."
       },
       {
         "question": "Wofür verwendet man Brättli?",
@@ -1343,7 +1343,7 @@
   },
   "expressions_haerdoepfel": {
     "id": "expressions_haerdoepfel",
-    "text": "Definition:\n• Härdöpfel ist eine weitere Bezeichnung für Nuller (siehe Begriff \"expressions_nuller\") oder Sack (siehe Begriff \"expressions_sack\")\n• Dieser Begriff wird vor allem in der Schweiz verwendet und bezeichnet Minuspunkte (siehe Begriff \"expressions_minuspunkte\"), die ein Spieler erhalten kann, wenn er sein Ziel nicht erreicht",
+    "text": "Definition:\n• Härdöpfel ist eine weitere Bezeichnung für Nuller (siehe Begriff \"expressions_nuller\") oder Sack (siehe Begriff \"expressions_sack\")\n• Gemeint sind Minuspunkte (siehe Begriff \"expressions_minuspunkte\"), die ein Spieler bekommt, wenn er sein Ziel nicht erreicht",
     "metadata": {
       "id": "expressions_haerdoepfel_meta",
       "category": {
@@ -1375,7 +1375,7 @@
       },
       {
         "question": "Ist Härdöpfel ein offizieller Begriff?",
-        "answer": "Nein, Härdöpfel ist ein umgangssprachlicher, vor allem in der Schweiz verwendeter Begriff für Minuspunkte."
+        "answer": "Nein, Härdöpfel ist die umgangssprachliche Bezeichnung. Auf der Tafel steht ein Nuller."
       }
     ],
     "see_also": [
@@ -1386,7 +1386,7 @@
   },
   "expressions_handkarten": {
     "id": "expressions_handkarten",
-    "text": "Grundkonzept:\n• Handkarten sind das Blatt oder die Karten, die ein Spieler gefächert in der Hand hält\n• Diese Karten bilden das persönliche Spielmaterial jedes Teilnehmers\n• Bestimmen die taktischen Möglichkeiten während der Partie (siehe Begriff \"expressions_partie\")",
+    "text": "Grundkonzept:\n• Handkarten sind das Blatt oder die Karten, die ein Spieler gefächert in der Hand hält\n• Jeder Spieler sieht nur seine eigenen Handkarten\n• Sie entscheiden, was in dieser Partie (siehe Begriff \"expressions_partie\") möglich ist",
     "metadata": {
       "id": "expressions_handkarten_meta",
       "category": {
@@ -1797,7 +1797,7 @@
   },
   "expressions_kontermatsch": {
     "id": "expressions_kontermatsch",
-    "text": "Definition:\n• Kontermatsch bezeichnet die Situation, in der das nicht trumpfmachende Team (siehe Begriff \"expressions_team\") alle Stiche erzielt\n• Auch hier gibt es die Matschprämie (siehe Begriff \"expressions_matschpraemie\"), allerdings für die gegnerische Seite\n• Da dieses Ereignis sehr selten vorkommt, werden oft zwei Striche notiert, um die besondere Leistung zu würdigen",
+    "text": "Definition:\n• Ein Kontermatsch ist, wenn die Gegenpartei alle Stiche macht, also das Team (siehe Begriff \"expressions_team\"), das den Trumpf nicht angesagt hat\n• Auch hier gibt es die Matschprämie (siehe Begriff \"expressions_matschpraemie\"), allerdings für die gegnerische Seite\n• Das kommt fast nie vor, darum schreibt man dafür oft gleich zwei Striche",
     "metadata": {
       "id": "expressions_kontermatsch_meta",
       "category": {
@@ -1840,7 +1840,7 @@
   },
   "expressions_leih_halten": {
     "id": "expressions_leih_halten",
-    "text": "Definition:\nLeih halten bedeutet, die Farbe (siehe Begriff \"expressions_kartenfarben\") zu bekennen, also eine Karte der ausgespielten Farbe anzugeben.\n\nRegel:\nDies ist eine grundlegende Spielregel im Jass und muss strikt befolgt werden, sofern der Spieler eine entsprechende Karte besitzt.\n\nFunktion:\nDiese Regel sorgt für eine faire Spielweise und klare Spielmechanik.",
+    "text": "Definition:\nLeih halten bedeutet, die ausgespielte Farbe (siehe Begriff \"expressions_kartenfarben\") zu bedienen, also eine Karte dieser Farbe zu spielen.\n\nRegel:\nWer von der ausgespielten Farbe eine Karte hat, muss sie spielen. Das ist eine Grundregel des Jassens.\n\nFunktion:\nSie hält den Stich lesbar: Wer eine Farbe nicht bedient, hat sie wirklich nicht.",
     "metadata": {
       "id": "expressions_leih_halten_meta",
       "category": {
@@ -1867,7 +1867,7 @@
         "answer": "Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine besitzt."
       },
       {
-        "question": "Muss man immer Farbe bekennen?",
+        "question": "Muss man immer die ausgespielte Farbe bedienen?",
         "answer": "Ja, wer eine Karte der angespielten Farbe besitzt, muss diese spielen. Nur wenn man keine Karte dieser Farbe hat, darf man trumpfen oder verwerfen."
       },
       {
@@ -2118,7 +2118,7 @@
   },
   "expressions_nachschmeissen": {
     "id": "expressions_nachschmeissen",
-    "text": "Definition:\n• Nachschmeissen heisst: Der Partner des Spielers, der am Drücker (siehe Begriff \"expressions_am_druecker\") ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker (siehe Begriff \"expressions_am_druecker\")).\n\nBeispiel:\n• Sagt ein Spieler Vorhand Obe (siehe Begriff \"expressions_obenabe\") an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe (siehe Begriff \"expressions_kartenfarben\") – also Schellen – ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.\n\nWichtig:\n• Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.",
+    "text": "Definition:\n• Nachschmeissen heisst: Der Partner des Spielers, der am Drücker (siehe Begriff \"expressions_am_druecker\") ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker (siehe Begriff \"expressions_am_druecker\")).\n\nBeispiel:\n• Sagt ein Spieler Vorhand Obe (siehe Begriff \"expressions_obenabe\") an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe (siehe Begriff \"expressions_kartenfarben\"), also Schellen, ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.\n\nWichtig:\n• Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.",
     "metadata": {
       "id": "expressions_nachschmeissen_meta",
       "category": {
@@ -2394,7 +2394,7 @@
   },
   "expressions_passe": {
     "id": "expressions_passe",
-    "text": "Definition:\n• Eine Passe bezeichnet einen Durchgang aus mehreren Spielen innerhalb eines Turniers\n• Zusammensetzung der Spieler bleibt dabei unverändert\n• Ermöglicht eine kontinuierliche Bewertung über mehrere Runden hinweg",
+    "text": "Definition:\n• Eine Passe bezeichnet einen Durchgang aus mehreren Spielen innerhalb eines Turniers\n• Dieselben Spieler bleiben dabei am Tisch\n• Erst danach wird neu gemischt, wer mit wem spielt",
     "metadata": {
       "id": "expressions_passe_meta",
       "category": {
@@ -2421,7 +2421,7 @@
       },
       {
         "question": "Wie lange dauert eine Passe?",
-        "answer": "Die Dauer einer Passe variiert je nach Turnierregeln, typischerweise umfasst sie mehrere Spiele oder eine festgelegte Zeitspanne."
+        "answer": "Das sagt die Turnierausschreibung: entweder eine feste Zahl Spiele oder eine feste Zeit."
       },
       {
         "question": "Was ist eine Streichpasse?",
@@ -2728,7 +2728,7 @@
   },
   "expressions_schnorren": {
     "id": "expressions_schnorren",
-    "text": "**Definition:**\n• Schnorren bezeichnet verbotene Bemerkungen während des Spiels, die Andeutungen auf Karten oder Taktiken geben\n\n**Beispiele für verbotenes Schnorren:**\n• \"Ich habe einen guten Trumpf\"\n• \"Spiel mal Schellen\"\n• Seufzen oder übertriebenes Zögern\n\n**Konsequenzen:**\n• Schnorren ist Spielverrat und kann je nach Tischregel bestraft werden\n• Bei groben Verstössen kann das Spiel annulliert werden",
+    "text": "**Definition:**\n• Schnorren sind verbotene Bemerkungen während des Spiels, die etwas über die eigenen Karten oder die Taktik verraten\n\n**Beispiele für verbotenes Schnorren:**\n• \"Ich habe einen guten Trumpf\"\n• \"Spiel mal Schellen\"\n• Seufzen oder übertriebenes Zögern\n\n**Konsequenzen:**\n• Schnorren ist Spielverrat und kann je nach Tischregel bestraft werden\n• Bei groben Verstössen kann das Spiel annulliert werden",
     "metadata": {
       "id": "expressions_schnorren_meta",
       "category": {
@@ -2756,7 +2756,7 @@
     "faqs": [
       {
         "question": "Was bedeutet Schnorren beim Jassen?",
-        "answer": "Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die Andeutungen auf Karten oder Taktiken geben. Schnorren ist daher grundsätzlich verboten."
+        "answer": "Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die etwas über die eigenen Karten oder die Taktik verraten. Schnorren ist daher grundsätzlich verboten."
       },
       {
         "question": "Ist Schnorren erlaubt?",
@@ -2764,7 +2764,7 @@
       },
       {
         "question": "Was sind Beispiele für Schnorren?",
-        "answer": "Schnorren sind Bemerkungen, die Andeutungen auf Karten oder Taktiken geben, wie z.B. Kommentare über gelaufene Karten oder Andeutungen über Bock-Karten."
+        "answer": "«Ich habe einen guten Trumpf», «Spiel mal Schellen», dazu Seufzen und übertriebenes Zögern."
       }
     ],
     "see_also": [
@@ -2851,11 +2851,11 @@
       },
       {
         "question": "Ist eine Solokarte gut oder schlecht?",
-        "answer": "Eine Solokarte kann beides sein – sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann."
+        "answer": "Eine Solokarte kann beides sein, sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann."
       },
       {
         "question": "Wann spielt man eine Solokarte?",
-        "answer": "Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab – manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen."
+        "answer": "Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab, manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen."
       }
     ],
     "see_also": [
@@ -3308,7 +3308,7 @@
   },
   "expressions_trumpf_bauer_kombinationen": {
     "id": "expressions_trumpf_bauer_kombinationen",
-    "text": "«Puur zu dritt», «Nell zu viert»: So beschreibt ein Jasser, wie stark sein Trumpf ist. Die Zahl nennt, wie viele Karten der Trumpffarbe er insgesamt hält, die genannte Karte eingerechnet.\n\n## Was die Zahl zählt\n\n| Ausdruck | Karten der Trumpffarbe in der Hand |\n|---|---|\n| zu dritt | die genannte Karte und 2 weitere |\n| zu viert | die genannte Karte und 3 weitere |\n| zu fünft | die genannte Karte und 4 weitere |\n| zu sechst | die genannte Karte und 5 weitere |\n\n«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs. Die genannte Karte sagt, wie hoch er reicht.\n\n## Wozu die Zählung dient\n\nSie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.\n\nWeispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, weiss, was er noch stechen kann. Wer weist, legt eine dieser beiden Figuren vor.\n\n## Beim Bieten\n\nDer [Sidi-Barrani](/varianten/sidi-barrani/) macht aus derselben Zählung eine Leiter von Geboten: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.",
+    "text": "«Puur zu dritt», «Nell zu viert»: So beschreibt ein Jasser, wie stark sein Trumpf ist. Die Zahl nennt, wie viele Karten der Trumpffarbe er insgesamt hält, die genannte Karte eingerechnet.\n\n## Was die Zahl zählt\n\n| Ausdruck | Karten der Trumpffarbe in der Hand |\n|---|---|\n| zu dritt | die genannte Karte und 2 weitere |\n| zu viert | die genannte Karte und 3 weitere |\n| zu fünft | die genannte Karte und 4 weitere |\n| zu sechst | die genannte Karte und 5 weitere |\n\n«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs. Die genannte Karte sagt, wie hoch er reicht.\n\n## Wozu die Zählung dient\n\nSie sagt einem Spieler vor der Ansage, wie viel sein Blatt trägt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.\n\nWeispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Arten: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, weiss, was er noch stechen kann. Wer weist, legt eine davon auf den Tisch.\n\n## Beim Bieten\n\nBeim [Sidi-Barrani](/varianten/sidi-barrani/) hat jede dieser Zählungen ein festes Gebot: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.",
     "metadata": {
       "id": "expressions_trumpf_bauer_kombinationen_meta",
       "category": {
@@ -3346,12 +3346,12 @@
         "answer": "Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere."
       },
       {
-        "question": "Bringen Trumpf-Bauer-Kombinationen Weispunkte?",
-        "answer": "Weispunkte bringen die beiden Figuren des Weises: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage."
+        "question": "Ist «Puur zu dritt» ein Weis?",
+        "answer": "Weispunkte bringen die beiden Arten von Weis: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage."
       },
       {
         "question": "Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?",
-        "answer": "Sie zählen vor der Ansage, wie viele Trümpfe sie haben. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert."
+        "answer": "Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert."
       }
     ],
     "see_also": [
@@ -3812,7 +3812,7 @@
   },
   "fragen_waehrend_spiel": {
     "id": "fragen_waehrend_spiel",
-    "text": "Grundregel:\nWährend einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen (siehe Begriff \"bemerkungen_schnorren\").\n\nBeispiele verbotener Fragen:\n• Ist Schellen schon mal gelaufen?\n• Ist das Ass schon gegangen?\n\nGrundsätzliche Fragen zum Spiel:\n• Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt\n\nBeispiele erlaubter Fragen:\n• Wer ist an der Reihe?\n• Wieviel Punkte haben wir?",
+    "text": "Grundregel:\nWährend einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen (siehe Begriff \"bemerkungen_schnorren\").\n\nBeispiele verbotener Fragen:\n• Ist Schellen schon mal gelaufen?\n• Ist das Ass schon gegangen?\n\nErlaubte Fragen:\n• Allgemeine Fragen zum Spiel, solange die Antwort nichts über die Karten verrät\n\nBeispiele erlaubter Fragen:\n• Wer ist an der Reihe?\n• Wie viel Punkte haben wir?",
     "metadata": {
       "id": "fragen_waehrend_spiel_meta",
       "category": {
@@ -3840,7 +3840,7 @@
     },
     "faqs": [
       {
-        "question": "Darf man während dem Spiel Fragen zu bereits gespielten Stichen stellen?",
+        "question": "Darf man während des Spiels Fragen zu bereits gespielten Stichen stellen?",
         "answer": "Nein, während einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen."
       },
       {
@@ -3849,7 +3849,7 @@
       },
       {
         "question": "Welche Fragen sind erlaubt?",
-        "answer": "Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt, z.B. «Wer ist an der Reihe?» oder «Wieviel Punkte haben wir?»"
+        "answer": "Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt, z.B. «Wer ist an der Reihe?» oder «Wie viel Punkte haben wir?»"
       }
     ],
     "see_also": [
@@ -3858,7 +3858,7 @@
   },
   "general_card_values": {
     "id": "general_card_values",
-    "text": "Beim Jassen hat jede Karte einen festen Punktwert. Eine Farbe umfasst neun Karten, und je nach Spielart ändern sich einige Werte. Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.\n\nGrundwerte (ohne Trumpf):\n• Ass: 11 Punkte\n• Banner (Zehner): 10 Punkte\n• König: 4 Punkte\n• Ober (Dame): 3 Punkte\n• Under (Puur): 2 Punkte\n• Neuner, Achter, Siebner, Sechser: 0 Punkte\n\nIm Trumpf:\nIn der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.\n\nObenabe und Undenufe:\nIn Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die fehlenden 32 Punkte aus Puur und Nell gleichen die vier Achter aus, sodass das Total bei 157 bleibt.",
+    "text": "Beim Jassen hat jede Karte einen festen Punktwert. Eine Farbe umfasst neun Karten, und je nach Spielart ändern sich einige Werte. Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.\n\nGrundwerte (ohne Trumpf):\n• Ass: 11 Punkte\n• Banner (Zehner): 10 Punkte\n• König: 4 Punkte\n• Ober (Dame): 3 Punkte\n• Under: 2 Punkte\n• Neuner, Achter, Siebner, Sechser: 0 Punkte\n\nIm Trumpf:\nIn der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.\n\nObenabe und Undenufe:\nIn Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.",
     "metadata": {
       "id": "general_card_values_meta",
       "category": {
@@ -3883,7 +3883,7 @@
       "datePublished": "2025-11-22",
       "dateModified": "2026-08-18",
       "seoTitle": "Kartenwerte beim Jassen: Trumpf, Obenabe, Undenufe | Jass-Wiki",
-      "seoDescription": "Was jede Karte zählt: Ass 11, König 4, Ober 3, Under 2, Banner 10, im Trumpf Puur 20 und Nell 14, Achter 8 ohne Trumpf, 157 je Spiel. Mit Tabelle und Rechenbeispiel."
+      "seoDescription": "Was jede Karte zählt: Ass 11, König 4, Ober 3, Under 2, Banner 10, im Trumpf Puur 20 und Nell 14, Achter 8 ohne Trumpf, 157 je Spiel. Dazu, warum der Achter ohne Trumpf 8 zählt."
     },
     "faqs": [
       {
@@ -3892,7 +3892,7 @@
       },
       {
         "question": "Wie viele Punkte zählt das Ass?",
-        "answer": "11 Punkte. In Undenufe übernimmt der Sechser diese Rolle als höchste Karte."
+        "answer": "11 Punkte. In Undenufe zählt dafür der Sechser 11, er ist dort die höchste Karte."
       },
       {
         "question": "Wie viele Punkte zählt der Puur?",
@@ -3976,7 +3976,7 @@
   },
   "general_dealing": {
     "id": "general_dealing",
-    "text": "**Grundregeln der Kartenverteilung:**\n\nBeim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.\n\n**Schweizer Besonderheit:**\n• Die Karten werden im **Gegenurzeigersinn** verteilt – typisch für die Schweiz!\n• \"Immer der Ohrfeige nach\" wie man so schön sagt\n\n**Verteilung:**\n• Jeder Spieler erhält 9 Karten\n• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)\n• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)\n• Nach dem Verteilen können die Karten aufgenommen werden\n\n**Verantwortlichkeiten:**\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler rechts vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
+    "text": "**Grundregeln der Kartenverteilung:**\n\nBeim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte bekommt.\n\n**Schweizer Besonderheit:**\n• Die Karten werden im **Gegenuhrzeigersinn** verteilt, also nach rechts\n• Am Tisch heisst das «immer der Ohrfeige nach»\n\n**Verteilung:**\n• Jeder Spieler erhält 9 Karten\n• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)\n• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)\n• Nach dem Verteilen können die Karten aufgenommen werden\n\n**Wer was macht:**\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler rechts vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
     "metadata": {
       "id": "general_dealing_meta",
       "category": {
@@ -4016,15 +4016,15 @@
       },
       {
         "question": "In welche Richtung werden die Karten beim Jassen verteilt?",
-        "answer": "Im Gegenurzeigersinn – das ist eine typisch schweizerische Eigenheit!"
+        "answer": "Im Gegenuhrzeigersinn, «immer der Ohrfeige nach»."
       },
       {
         "question": "In welche Richtung werden die Karten verteilt?",
-        "answer": "Die Karten werden im Uhrzeigersinn verteilt, beginnend beim Spieler links vom Kartengeber."
+        "answer": "Im Gegenuhrzeigersinn. Der Kartengeber beginnt beim Spieler rechts von sich."
       },
       {
         "question": "Werden die Karten einzeln oder in Paketen verteilt?",
-        "answer": "Die Karten werden einzeln verteilt, nicht in Paketen."
+        "answer": "In der Regel dreimal drei Karten auf einmal, bis jeder neun hat."
       },
       {
         "question": "Wer darf die Karten abheben?",
@@ -4038,7 +4038,7 @@
   },
   "general_dealing_basics": {
     "id": "general_dealing_basics",
-    "text": "**Grundregeln für die Kartenverteilung:**\n\n• Der Kartengeber ist für das Mischen (siehe Begriff \"mischen\") und Verteilen verantwortlich\n• Die Karten werden in der Regel 3×3 verteilt (dreimal drei Karten pro Spieler)\n• **Wichtig:** Die Verteilung erfolgt im **Gegenuhrzeigersinn**, beginnend beim Spieler **rechts** vom Kartengeber (Vorhand)\n• Das ist eine typisch schweizerische Eigenheit – in der übrigen Welt wird meist im Uhrzeigersinn gespielt\n• «Der Ohrfeige nach» ist der bekannte Spruch dazu",
+    "text": "**Grundregeln für die Kartenverteilung:**\n\n• Der Kartengeber ist für das Mischen (siehe Begriff \"mischen\") und Verteilen verantwortlich\n• Die Karten werden in der Regel 3×3 verteilt (dreimal drei Karten pro Spieler)\n• **Wichtig:** Die Verteilung erfolgt im **Gegenuhrzeigersinn**, beginnend beim Spieler **rechts** vom Kartengeber (Vorhand)\n• Das ist eine typisch schweizerische Eigenheit, in der übrigen Welt wird meist im Uhrzeigersinn gespielt\n• «Der Ohrfeige nach» ist der bekannte Spruch dazu",
     "metadata": {
       "id": "general_dealing_basics_meta",
       "category": {
@@ -4124,7 +4124,7 @@
   },
   "general_dealing_methods": {
     "id": "general_dealing_methods",
-    "text": "**Schweizer Besonderheit: gegen den Uhrzeigersinn**\n\nEine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:\n• Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer **gegen den Uhrzeigersinn** aus und spielen auch gegen den Uhrzeigersinn\n• \"Immer der Ohrfeige nach\", wie es so schön heisst – das gilt zumindest für die meisten Rechtshänder\n\n**Standard-Verteilmethode (3×3):**\n\nDie häufigste Methode beim Schieber:\n• Der Kartengeber verteilt jedem Spieler dreimal 3 Karten\n• Gegen den Uhrzeigersinn, beginnend rechts vom Geber (siehe Begriff \"expressions_vorhand\") (Vorhand)\n• Total: 9 Karten pro Spieler\n\n**Es gibt aber auch Ausnahmen. Zum Beispiel:**\n• Bei Varianten wie Tschau Sepp kommt nur ein Teil der 36 Karten auf die Hand\n• Beim Bieter zu dritt (siehe Begriff \"variants_strategic_bieder\"), wo im ersten Spiel zweimal 5 Karten je Spieler gegeben werden und sechs auf dem Tisch liegen\n• Beim Molotow (siehe Begriff \"variants_molotow\"), wo meistens mehr als vier Spieler teilnehmen\n\nDie 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Variante.",
+    "text": "**Schweizer Besonderheit: gegen den Uhrzeigersinn**\n\nEine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:\n• Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer **gegen den Uhrzeigersinn** aus und spielen auch gegen den Uhrzeigersinn\n• \"Immer der Ohrfeige nach\", wie es so schön heisst, das gilt zumindest für die meisten Rechtshänder\n\n**Standard-Verteilmethode (3×3):**\n\nDie häufigste Methode beim Schieber:\n• Der Kartengeber verteilt jedem Spieler dreimal 3 Karten\n• Gegen den Uhrzeigersinn, beginnend rechts vom Geber (siehe Begriff \"expressions_vorhand\") (Vorhand)\n• Total: 9 Karten pro Spieler\n\n**Es gibt aber auch Ausnahmen. Zum Beispiel:**\n• Bei Varianten wie Tschau Sepp kommt nur ein Teil der 36 Karten auf die Hand\n• Beim Bieter zu dritt (siehe Begriff \"variants_strategic_bieder\"), wo im ersten Spiel zweimal 5 Karten je Spieler gegeben werden und sechs auf dem Tisch liegen\n• Beim Molotow (siehe Begriff \"variants_molotow\"), wo meistens mehr als vier Spieler teilnehmen\n\nDie 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Variante.",
     "metadata": {
       "id": "general_dealing_methods_meta",
       "category": {
@@ -4158,7 +4158,7 @@
       },
       {
         "question": "Warum verteilt man beim Jassen gegen den Uhrzeigersinn?",
-        "answer": "Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn – \"Immer der Ohrfeige nach\"."
+        "answer": "Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn, \"Immer der Ohrfeige nach\"."
       },
       {
         "question": "Gibt es Ausnahmen bei der Kartenverteilung?",
@@ -4174,7 +4174,7 @@
   },
   "general_dealing_special": {
     "id": "general_dealing_special",
-    "text": "Sonderregeln bei der Kartenverteilung:\n• Abheben (siehe Begriff \"abheben\"): Spieler rechts vom Kartengeber kann Karten teilen\n• Vorspielen (siehe Begriff \"vorspielen\"): Spezielle Regel für erstes Ausspiel\n• Schieber: Besondere Regeln beim Schieben des Trumpfs (siehe Begriff \"bodentrumpf\")\n• Regionale Unterschiede können vorhanden sein",
+    "text": "Sonderregeln bei der Kartenverteilung:\n• Abheben (siehe Begriff \"abheben\"): Spieler rechts vom Kartengeber kann Karten teilen\n• Vorspielen (siehe Begriff \"vorspielen\"): Spezielle Regel für erstes Ausspiel\n• Schieber: Besondere Regeln beim Schieben des Trumpfs (siehe Begriff \"bodentrumpf\")\n• Von Gegend zu Gegend wird unterschiedlich gegeben",
     "metadata": {
       "id": "general_dealing_special_meta",
       "category": {
@@ -4272,7 +4272,7 @@
   },
   "general_game_end": {
     "id": "general_game_end",
-    "text": "Regel:\nEin Jass endet unter folgenden Umständen:\n• Ein Team (siehe Begriff \"expressions_team\") hat die Zielpunktzahl erreicht und bedankt (siehe Begriff \"bedanken\")\n• Beide Teams werfen zusammen (siehe Begriff \"zusammenwerfen\") (Einigung auf Neustart)\n• Das Spiel wird annulliert (siehe Begriff \"spiel_annullieren\") (z.B. wegen schwerer Regelverstösse)\n\nNach Spielende:\n• Die Punkte werden gezählt und notiert\n• Bei Erreichen der Gesamtpunktzahl ist die Partie (siehe Begriff \"expressions_partie\") vorbei\n• Ansonsten beginnt eine neue Runde",
+    "text": "Regel:\nEin Jass endet in drei Fällen:\n• Ein Team (siehe Begriff \"expressions_team\") hat die Zielpunktzahl erreicht und bedankt (siehe Begriff \"bedanken\") sich\n• Beide Teams werfen zusammen (siehe Begriff \"zusammenwerfen\") (Einigung auf Neustart)\n• Das Spiel wird annulliert (siehe Begriff \"spiel_annullieren\") (z.B. wegen schwerer Regelverstösse)\n\nNach Spielende:\n• Die Punkte werden gezählt und notiert\n• Ist die Zielpunktzahl erreicht, ist die Partie (siehe Begriff \"expressions_partie\") vorbei\n• Ansonsten beginnt eine neue Runde",
     "metadata": {
       "id": "general_game_end_meta",
       "category": {
@@ -4302,7 +4302,7 @@
     "faqs": [
       {
         "question": "Wann endet ein Jass?",
-        "answer": "Ein Jass endet, wenn ein Team die Zielpunktzahl erreicht und bedankt, beide Teams zusammenwerfen oder das Spiel annulliert wird."
+        "answer": "Ein Jass endet, wenn ein Team die Zielpunktzahl erreicht und sich bedankt, wenn beide Teams zusammenwerfen oder wenn das Spiel annulliert wird."
       },
       {
         "question": "Was passiert nach dem Spielende?",
@@ -4833,7 +4833,7 @@
   },
   "general_trump_values": {
     "id": "general_trump_values",
-    "text": "Grundregel:\nIm Trumpf-Spiel (siehe Begriff \"bodentrumpf\") gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel.\n\nTrumpf-Sonderwerte:\n• Der Under (Puur) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte\n• Der Neuner der Trumpffarbe heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte\n• Diese beiden Karten sind die höchsten Trümpfe im gesamten Spiel",
+    "text": "Grundregel:\nWird mit Trumpf (siehe Begriff \"bodentrumpf\") gespielt, zählen zwei Karten der Trumpffarbe viel mehr als in den anderen Farben: der Under und die Neun.\n\nTrumpf-Sonderwerte:\n• Der Under (Puur) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte\n• Der Neuner der Trumpffarbe heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14 Punkte\n• Diese beiden Karten sind die höchsten Trümpfe im gesamten Spiel",
     "metadata": {
       "id": "general_trump_values_meta",
       "category": {
@@ -4886,7 +4886,7 @@
         "answer": "Das Nell ist der Neuner der Trumpffarbe und zählt 14 Punkte. Es ist die zweithöchste Trumpfkarte nach dem Puur."
       },
       {
-        "question": "Welche sind die höchsten Karten im Trumpf-Spiel?",
+        "question": "Welches sind die höchsten Trümpfe?",
         "answer": "Die höchsten Trümpfe sind der Puur (Under) mit 20 Punkten und das Nell (Neuner) mit 14 Punkten."
       }
     ],
@@ -4899,7 +4899,7 @@
   },
   "hingelegter_matsch": {
     "id": "hingelegter_matsch",
-    "text": "Definition:\n• Ein hingelegter Matsch bezeichnet ein Blatt, bei dem der trumpfansagende Spieler garantiert neun Stiche macht, also sein Blatt hinlegen kann – ohne dass die Runde ausgespielt werden muss (vgl. auch Rest machen (siehe Begriff \"rest_machen\")).\n\nAblauf:\n• Der Spieler legt in diesem Fall sein Blatt offen auf den Tisch und sagt «hingelegt!»\n\nKonsequenz falls nicht «hingelegt»:\n• Wird festgestellt, dass es sich nicht um neun sichere Bock-Karten handelt, kassiert das fehlbare Team einen Kontermatsch (siehe Begriff \"kontermatsch\")\n• Das gilt auch dann, wenn die Wahrscheinlichkeit sehr gering ist, eine Karte theoretisch halten zu können",
+    "text": "Definition:\n• Ein hingelegter Matsch bezeichnet ein Blatt, bei dem der trumpfansagende Spieler garantiert neun Stiche macht, also sein Blatt hinlegen kann, ohne dass die Runde ausgespielt werden muss (vgl. auch Rest machen (siehe Begriff \"rest_machen\")).\n\nAblauf:\n• Der Spieler legt in diesem Fall sein Blatt offen auf den Tisch und sagt «hingelegt!»\n\nKonsequenz falls nicht «hingelegt»:\n• Wird festgestellt, dass es sich nicht um neun sichere Bock-Karten handelt, kassiert das fehlbare Team einen Kontermatsch (siehe Begriff \"kontermatsch\")\n• Das gilt auch dann, wenn die Wahrscheinlichkeit sehr gering ist, eine Karte theoretisch halten zu können",
     "metadata": {
       "id": "hingelegter_matsch_meta",
       "category": {
@@ -5079,7 +5079,7 @@
   },
   "history_first_mention": {
     "id": "history_first_mention",
-    "text": "Historischer Kontext:\nDie erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.\n\nBedeutung für die Jassgeschichte:\nDieser frühe Beleg zeigt, dass das Spiel bereits im 18. Jahrhundert in der Schweiz verbreitet war und sich zu einem wichtigen Teil der Schweizer Spielkultur entwickelt hatte.\n\nDokumentation:\nDie Erwähnung markiert einen wichtigen Meilenstein in der dokumentierten Geschichte des Schweizer Jassens.",
+    "text": "Historischer Kontext:\nDie erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.\n\nBedeutung für die Jassgeschichte:\nUm 1796 war der Jass in der Schweiz also schon so verbreitet, dass man ihn im Wirtshaus antraf, und beim Namen nannte.\n\nDokumentation:\nDer älteste Beleg stammt aus Schaffhausen: 1796 verklagten zwei Pfarrer zwei Bauern, die «um ein Glas Wein» spielten, mit einem Spiel, «welches man das Jassen nenne».",
     "metadata": {
       "id": "history_first_mention_meta",
       "category": {
@@ -5105,7 +5105,7 @@
     },
     "faqs": [
       {
-        "question": "Was ist Die erste urkundliche Erwähnung?",
+        "question": "Wo steht die erste Erwähnung des Jassens?",
         "answer": "Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz."
       },
       {
@@ -5114,7 +5114,7 @@
       },
       {
         "question": "Was bedeutet diese frühe Erwähnung?",
-        "answer": "Sie zeigt, dass das Spiel bereits im 18. Jahrhundert in der Schweiz verbreitet war und sich zu einem wichtigen Teil der Schweizer Spielkultur entwickelt hatte."
+        "answer": "Sie zeigt, dass das Jassen 1796 in der Schweiz schon so verbreitet war, dass man es im Wirtshaus antraf und beim Namen nannte."
       },
       {
         "question": "Warum ist das Jahr 1796 wichtig für die Jassgeschichte?",
@@ -5185,7 +5185,7 @@
   },
   "history_linguistics": {
     "id": "history_linguistics",
-    "text": "Sprachliche Vielfalt:\nDie Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.\n\nSprachliche Schichten:\n• **Deutsche Basis:** Viele grundlegende Begriffe stammen aus dem Schweizerdeutschen\n• **Französische Einflüsse:** Begriffe wie «Puur » (Bauer) oder «Nell (siehe Begriff \"expressions_nell\")» (Neun) zeigen französische Wurzeln\n• **Regionale Variationen:** Unterschiedliche Bezeichnungen für dieselben Karten oder Spielaktionen (siehe Begriff \"ausspiel\") in verschiedenen Schweizer Regionen\n\nKulturelle Bedeutung:\nDiese sprachliche Vielfalt spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut.",
+    "text": "Sprachliche Vielfalt:\nWie man beim Jassen redet, hängt davon ab, wo man jasst.\n\nSprachliche Schichten:\n• **Deutsche Basis:** Viele grundlegende Begriffe stammen aus dem Schweizerdeutschen\n• **Niederländische Wurzeln:** Der Jass kam aus den Niederlanden in die Schweiz. Der Jas (Bauer) und die Trumpfneun (Nell (siehe Begriff \"expressions_nell\")) erinnern bis heute daran\n• **Regionale Variationen:** Unterschiedliche Bezeichnungen für dieselben Karten oder Spielaktionen (siehe Begriff \"ausspiel\") in verschiedenen Schweizer Regionen\n\nKulturelle Bedeutung:\nSo hört man am Jasstisch, aus welcher Ecke der Schweiz einer kommt.",
     "metadata": {
       "id": "history_linguistics_meta",
       "category": {
@@ -5218,12 +5218,12 @@
     },
     "faqs": [
       {
-        "question": "Was ist Die Sprache rund um den Jasstisch?",
+        "question": "Woher kommen die Jass-Ausdrücke?",
         "answer": "Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt."
       },
       {
         "question": "Welche Sprachen haben die Jass-Terminologie beeinflusst?",
-        "answer": "Die Jass-Terminologie wurde hauptsächlich von Schweizerdeutsch und Französisch geprägt, mit vielen regionalen Dialektvarianten."
+        "answer": "Der Jass kam aus den Niederlanden, daran erinnern der Jas (Bauer) und das Nell. Geredet wird am Tisch schweizerdeutsch, in der Westschweiz französisch."
       },
       {
         "question": "Warum gibt es so viele verschiedene Begriffe beim Jassen?",
@@ -5231,7 +5231,7 @@
       },
       {
         "question": "Was zeigt die sprachliche Vielfalt des Jass?",
-        "answer": "Sie spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut."
+        "answer": "Man hört am Jasstisch, aus welcher Ecke der Schweiz einer kommt."
       }
     ],
     "see_also": [
@@ -5469,7 +5469,7 @@
   },
   "history_swiss_production": {
     "id": "history_swiss_production",
-    "text": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg – ein neu gezeichnetes Schweizer Kartenbild. Gedruckt wird gemäss Anbieter in der Schweiz.\n\nQualität und Tradition:\nSchweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.\n\nModerne Produktion:\nAuch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen – gemäss Anbieter mit Druck in der Schweiz.",
+    "text": "Schweizer Kartenherstellung:\nDie Produktion von Jasskarten hat in der Schweiz eine lange Tradition.\n\nHistorische Entwicklung:\n• **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen\n• **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller\n• **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben (siehe Begriff \"expressions_kartenfarben\")\n• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg, ein neu gezeichnetes Schweizer Kartenbild. Gedruckt wird gemäss Anbieter in der Schweiz.\n\nQualität und Tradition:\nSchweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.\n\nModerne Produktion:\nAuch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen, gemäss Anbieter mit Druck in der Schweiz.",
     "metadata": {
       "id": "history_swiss_production_meta",
       "category": {
@@ -6062,7 +6062,7 @@
   },
   "karte_faellt_runter": {
     "id": "karte_faellt_runter",
-    "text": "Definition:\nKarte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.\n\nEntscheidung durch Gegner:\nDie Gegner entscheiden, wie in dieser Situation verfahren wird:\n\n• Option 1 - Weiterspielen: Die Karte wird ignoriert und das Spiel wird normal fortgesetzt\n• Option 2 - Spiel annullieren: Das Spiel wird für ungültig erklärt und neu begonnen\n• Option 3 - Stich geht an das nicht fehlbare Team: Die betroffene Karte verliert ihren Stechwert und der Spieler rechts vom Spieler, dem die Karte runtergefallen ist, spielt als nächstes aus, analog zum Verfahren bei Nichtfarben (siehe Begriff \"nichtfarben\")\n\nKonsequenz:\n• In jedem Fall verliert die heruntergefallene Karte ihren Stechwert",
+    "text": "Definition:\nFällt einem Spieler während des Spiels versehentlich eine Karte aus der Hand, sodass die anderen sie sehen, entscheidet die Gegenpartei, wie es weitergeht.\n\nEntscheidung durch Gegner:\nDie Gegner entscheiden, wie in dieser Situation verfahren wird:\n\n• Option 1 - Weiterspielen: Die Karte wird ignoriert und das Spiel wird normal fortgesetzt\n• Option 2 - Spiel annullieren: Das Spiel wird für ungültig erklärt und neu begonnen\n• Option 3 - Der Stich geht an die Gegenpartei: Die Karte verliert ihren Stechwert, und ausgespielt wird rechts vom fehlbaren Spieler, wie bei den Nichtfarben (siehe Begriff \"nichtfarben\")\n\nKonsequenz:\n• In jedem Fall verliert die heruntergefallene Karte ihren Stechwert",
     "metadata": {
       "id": "karte_faellt_runter_meta",
       "category": {
@@ -6091,7 +6091,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Karte fällt runter beim Jassen?",
+        "question": "Was gilt, wenn einem eine Karte runterfällt?",
         "answer": "Karte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird."
       },
       {
@@ -6155,7 +6155,7 @@
       },
       {
         "question": "Was passiert, wenn man beim Nehmen einer Karte Zeichen gibt?",
-        "answer": "Das Nehmen einer Karte während eines laufenden Stichs ist nur erlaubt, wenn keine Zeichen gegeben werden. Andernfalls liegt Spielverrat vor."
+        "answer": "Während eines laufenden Stichs darf man eine Karte in die Hand nehmen. Wer dabei ein Zeichen gibt, verrät das Spiel."
       }
     ],
     "see_also": [
@@ -6210,7 +6210,7 @@
   },
   "kartenspiel_nicht_komplett": {
     "id": "kartenspiel_nicht_komplett",
-    "text": "Regel:\n• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, ist das Kartenspiel gegebenenfalls zu ersetzen. Die Kartenverteilung erfolgt durch denselben Kartengeber erneut.",
+    "text": "Regel:\n• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.",
     "metadata": {
       "id": "kartenspiel_nicht_komplett_meta",
       "category": {
@@ -6238,11 +6238,11 @@
     },
     "faqs": [
       {
-        "question": "Was passiert, wenn eine Karte nicht komplett oder beschädigt ist?",
+        "question": "Was passiert, wenn eine Karte fehlt oder beschädigt ist?",
         "answer": "Wird nach dem Verteilen, aber noch vor Spielbeginn festgestellt, dass eine Karte fehlt oder beschädigt ist, kann das Kartenspiel ersetzt werden und die Karten werden vom selben Kartengeber neu verteilt."
       },
       {
-        "question": "Wann muss eine unvollständige Karte ersetzt werden?",
+        "question": "Wann muss das Kartenspiel ersetzt werden?",
         "answer": "Wenn nach dem Verteilen, aber noch vor Spielbeginn festgestellt wird, dass das Kartenspiel nicht komplett ist oder eine Karte beschädigt ist."
       },
       {
@@ -6406,7 +6406,7 @@
   },
   "liegengelassene_stiche": {
     "id": "liegengelassene_stiche",
-    "text": "Definition:\nLiegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.\n\nRegeln:\n• Stiche müssen umgehend gekehrt werden\n• Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner",
+    "text": "Definition:\nWer einen Stich macht, kehrt ihn sofort zu sich. Bleibt er offen liegen, bis der nächste Stich fertig ist, gehören die Karten der Gegenpartei.\n\nRegeln:\n• Stiche müssen umgehend gekehrt werden\n• Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner",
     "metadata": {
       "id": "liegengelassene_stiche_meta",
       "category": {
@@ -6434,7 +6434,7 @@
     },
     "faqs": [
       {
-        "question": "Wie funktioniert Liegengelassene Stiche beim Jassen?",
+        "question": "Was passiert mit einem Stich, den niemand kehrt?",
         "answer": "Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden."
       },
       {
@@ -6456,7 +6456,7 @@
   },
   "matsch": {
     "id": "matsch",
-    "text": "Was die Karten zählen, hängt von der Ansage ab:\n\n**Obenabe:**\n• Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte\n\n**Undenufe:**\n• Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte\n\n**Slalom:**\n• Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**Quer/Guschti:**\n• Wie beim Slalom zählen beim Quer entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**3x3/Trio:**\n• Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte\n• Ob die Asse oder die Sechser 11 Punkte zählen, hält jede Jassgruppe anders\n• Das Jass-Wiki empfiehlt, dass nur die Asse 11 Punkte geben – gleich, ob Obe oder Unde begonnen wird",
+    "text": "Was die Karten zählen, hängt von der Ansage ab:\n\n**Obenabe:**\n• Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte\n\n**Undenufe:**\n• Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte\n\n**Slalom:**\n• Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**Quer/Guschti:**\n• Wie beim Slalom zählen beim Quer entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird\n• Die Achter zählen 8 Punkte\n\n**3x3/Trio:**\n• Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte\n• Ob die Asse oder die Sechser 11 Punkte zählen, hält jede Jassgruppe anders\n• Das Jass-Wiki empfiehlt, dass nur die Asse 11 Punkte geben, gleich, ob Obe oder Unde begonnen wird",
     "metadata": {
       "id": "matsch_meta",
       "category": {
@@ -6498,11 +6498,11 @@
       },
       {
         "question": "Was gilt beim Slalom?",
-        "answer": "Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte."
+        "answer": "Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte."
       },
       {
         "question": "Wie unterscheidet sich die Punktezählung beim Trio?",
-        "answer": "Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte. Bei den Assen und Sechsern empfiehlt das Jass-Wiki, dass nur die Asse 11 Punkte geben – gleich, wo begonnen wird."
+        "answer": "Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte. Bei den Assen und Sechsern empfiehlt das Jass-Wiki, dass nur die Asse 11 Punkte geben, gleich, wo begonnen wird."
       }
     ],
     "see_also": [
@@ -6625,7 +6625,7 @@
   },
   "nichtfarben": {
     "id": "nichtfarben",
-    "text": "Grundregel:\nWer die ausgespielte Farbe noch hat, muss farben. Mit einer Trumpfkarte darf die ausgespielte Farbe immer abgestochen werden (ausser bei Untertrumpfen (siehe Begriff \"untertrumpfen\")).\n\nWas die Strafe kostet:\n\nFall 1: Wird der Regelverstoss noch während des laufenden Stiches festgestellt (Karten sind noch nicht gekehrt):\n• Der laufende Stich geht an die Gegner\n• Die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht\n• Beide Karten verlieren den Stechwert, während der Zählwert erhalten bleibt\n\nSpezialfall mehrere Karten:\n• Hält der fehlbare Spieler noch mehrere nicht gefarbte Karten in der Hand, dann muss er die höchste abgeben (ausser den Puur (siehe Begriff \"trumpf_bauer\"), da dieser sowieso nicht ausgespielt werden muss)\n\nNächster Stich:\n• Den nächsten Stich (falls noch einer folgt) spielt der rechts vom fehlbaren Spieler sitzende Jasser aus\n• Ausnahme: Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter\n\nFall 2: Späte Entdeckung (Karten sind schon gekehrt):\n• Wird das Nichtfarben zu spät festgestellt, gehen dieser Stich und alle weiteren an die Gegenpartei – auch wenn das einen Matsch (siehe Begriff \"matsch\") oder Kontermatsch (siehe Begriff \"kontermatsch\") bedeutet\n\nAusnahmefälle:\n• Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (z.B. Misère), wird die Regel nicht angewendet\n\nHinweis zur Praxis:\n• Viele Runden nehmen es weniger streng\n• Beide Karten verlieren zwar den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden",
+    "text": "Grundregel:\nWer die ausgespielte Farbe noch hat, muss farben. Mit einer Trumpfkarte darf die ausgespielte Farbe immer abgestochen werden (ausser bei Untertrumpfen (siehe Begriff \"untertrumpfen\")).\n\nWas die Strafe kostet:\n\nFall 1: Wird der Regelverstoss noch während des laufenden Stiches festgestellt (Karten sind noch nicht gekehrt):\n• Der laufende Stich geht an die Gegner\n• Die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht\n• Beide Karten verlieren den Stechwert, während der Zählwert erhalten bleibt\n\nSpezialfall mehrere Karten:\n• Hält der fehlbare Spieler noch mehrere nicht gefarbte Karten in der Hand, dann muss er die höchste abgeben (ausser den Puur (siehe Begriff \"trumpf_bauer\"), da dieser sowieso nicht ausgespielt werden muss)\n\nNächster Stich:\n• Den nächsten Stich (falls noch einer folgt) spielt der rechts vom fehlbaren Spieler sitzende Jasser aus\n• Ausnahme: Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter\n\nFall 2: Späte Entdeckung (Karten sind schon gekehrt):\n• Wird das Nichtfarben zu spät festgestellt, gehen dieser Stich und alle weiteren an die Gegenpartei, auch wenn das einen Matsch (siehe Begriff \"matsch\") oder Kontermatsch (siehe Begriff \"kontermatsch\") bedeutet\n\nAusnahmefälle:\n• Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (z.B. Misère), wird die Regel nicht angewendet\n\nHinweis zur Praxis:\n• Viele Runden nehmen es weniger streng\n• Beide Karten verlieren zwar den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden",
     "metadata": {
       "id": "nichtfarben_meta",
       "category": {
@@ -6696,7 +6696,7 @@
       },
       {
         "question": "Was passiert, wenn Nichtfarben zu spät entdeckt wird?",
-        "answer": "Dieser Stich und alle weiteren gehen an die Gegenpartei – auch wenn das einen Matsch oder Kontermatsch bedeutet."
+        "answer": "Dieser Stich und alle weiteren gehen an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet."
       },
       {
         "question": "Gilt die Nichtfarben-Regel auch bei Misère?",
@@ -6910,7 +6910,7 @@
   },
   "schieber_taktiken_advanced": {
     "id": "schieber_taktiken_advanced",
-    "text": "In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest dieselben Zeichen aus dem Spiel des Partners zurück.\n\nBei fortgeschrittenen Spielern gelten folgende Konventionen:\n\n## Nell vor Puur\n\nHält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.\n\nMehr dazu unter \"Nell vor Puur\" (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n## Anzeigen, wie viele Trümpfe man hält\n\nDer Partner des Vorhand-Spielers verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst \"Hoch-Tief\" (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\n- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.\n- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.\n\nDas Nell und der Puur sind davon ausgenommen.\n\n**Wieso ist das wichtig?**\n\nNichts verhindert mehr Matsche als zu viel Austrumpfen. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.\n\nEin häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Vorhand-Spieler kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.\n\nWichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.\n\n**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.\n\n## Der blutte Puur\n\nHält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss seinem Partner aber kommunizieren, dass er ihn in der Hand hält. Das macht er, indem er ein \"Brättli\" (siehe Begriff \"expressions_braettli\") spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.\n\n**Wieso ist das wichtig?**\n\nDa für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn das dem Trumpfansager mit einem Brättli kommuniziert wurde.\n\n## Nachschmeissen\n\nBei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.\n\n**Wieso ist das wichtig?**\n\nIm ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand (siehe Begriff \"expressions_wand\") durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.\n\nMehr dazu unter \"Nachschmeissen\" (siehe Begriff \"expressions_nachschmeissen\").\n\n## Verwerfen beim Slalom\n\nBeim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst, er möchte tief übergeben bekommen, eine hohe Karte heisst hoch.\n\n**Wieso ist das wichtig?**\n\nBeim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Dass tief für tief steht, hat einen praktischen Grund: So merkt man es sich, genau so, wie die Karte gespielt wurde. Mit der verworfenen Farbe macht man ohnehin keinen Stich. Kein Grund also, umgekehrt zu denken.\n\nDie Einzelheiten stehen unter \"Verwerfen beim Slalom\" (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
+    "text": "In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest umgekehrt aus den Karten des Partners, was der hält.\n\nBei fortgeschrittenen Spielern gelten folgende Konventionen:\n\n## Nell vor Puur\n\nHält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.\n\nMehr dazu unter \"Nell vor Puur\" (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n## Anzeigen, wie viele Trümpfe man hält\n\nDer Partner der Vorhand verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst \"Hoch-Tief\" (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\n- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.\n- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.\n\nDas Nell und der Puur sind davon ausgenommen.\n\n**Wieso ist das wichtig?**\n\nZu viel Austrumpfen kostet die meisten Matsche. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.\n\nEin häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Die Vorhand kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn sie die tiefste Karte gesehen hat.\n\nWichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.\n\n**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.\n\n## Der blutte Puur\n\nHält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss ihn dem Partner aber anzeigen. Das macht er, indem er ein \"Brättli\" (siehe Begriff \"expressions_braettli\") spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.\n\n**Wieso ist das wichtig?**\n\nDa für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn der Trumpfansager das Brättli gesehen hat.\n\n## Nachschmeissen\n\nBei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.\n\n**Wieso ist das wichtig?**\n\nIm ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand (siehe Begriff \"expressions_wand\") durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.\n\nMehr dazu unter \"Nachschmeissen\" (siehe Begriff \"expressions_nachschmeissen\").\n\n## Verwerfen beim Slalom\n\nBeim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst: unten übergeben. Eine hohe Karte: oben übergeben.\n\n**Wieso ist das wichtig?**\n\nBeim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Die Karte zeigt, was sie meint: tief heisst unten, hoch heisst oben. Mit der verworfenen Farbe macht man ohnehin keinen Stich.\n\nDie Einzelheiten stehen unter \"Verwerfen beim Slalom\" (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
     "metadata": {
       "id": "schieber_taktiken_advanced_meta",
       "category": {
@@ -6954,7 +6954,7 @@
       },
       {
         "question": "Wie verwirft man beim Slalom?",
-        "answer": "Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst tief, eine hohe Karte heisst hoch."
+        "answer": "Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst unten, eine hohe Karte heisst oben."
       },
       {
         "question": "Wie signalisiert man den blutten Puur?",
@@ -7064,12 +7064,12 @@
         "answer": "Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen."
       },
       {
-        "question": "Ich habe zwei Trumpfkarten – spiele ich zuerst die hohe oder die tiefe?",
+        "question": "Ich habe zwei Trumpfkarten, spiele ich zuerst die hohe oder die tiefe?",
         "answer": "Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen."
       },
       {
         "question": "Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?",
-        "answer": "Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien – der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann."
+        "answer": "Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien, der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann."
       },
       {
         "question": "Was bringt es, tief zu spielen?",
@@ -7136,7 +7136,7 @@
   },
   "schieber_taktiken_scoring": {
     "id": "schieber_taktiken_scoring",
-    "text": "Gerade beim Schieber, wo auf [Striche](/begriffe/punktebegriffe/strich/) gespielt wird, also Zielpunkte für [Berg](/regeln/bergpreis/), Sieg und [Schneider](/regeln/punktezaehlung/schneider/) vorgegeben sind, ist es essenziell, die Punkte im Blick zu haben.\n\nDas gilt vor allem dann, wenn Multiplikatoren im Spiel sind. Einer der häufigsten Fehler ist es, nur auf das eigene Blatt zu schauen und entsprechend anzusagen.\n\n**ABER:** Es bringt nichts, 100 Punkte bei einem vierfachen Undenufe zu erzielen, wenn man dabei selber nicht herauskommt und den Gegner damit in Schlagdistanz zum Sieg führt. Dasselbe gilt für den [Bergpreis](/regeln/bergpreis/) und den [Schneider](/regeln/punktezaehlung/schneider/).\n\n## Beispielrechnung\n\nEs wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagende Team A hat 2'000 Punkte, die Gegner von Team B 2'200. Team A erreicht mit 100 × 4 bei einem Undenufe 2'400 Punkte. Aber Team B kommt mit 57 × 4 auf 2'428 Punkte. Das ist der fast sichere Sieg.\n\n**Fazit:** Ein Undenufe in dieser Situation anzusagen, ist nur gerechtfertigt, wenn die 125 Punkte zum Sieg realistisch sind. Sonst wäre eine Ansage mit tiefem Multiplikator besser gewesen, um eine Runde zu überleben und das Ziel beim nächsten Mal, mit mehr Punkten auf dem Konto, zu erreichen.",
+    "text": "Gerade beim Schieber, wo auf [Striche](/begriffe/punktebegriffe/strich/) gespielt wird, also Zielpunkte für [Berg](/regeln/bergpreis/), Sieg und [Schneider](/regeln/punktezaehlung/schneider/) vorgegeben sind, muss man den Punktestand mitverfolgen.\n\nDas gilt vor allem dann, wenn Multiplikatoren im Spiel sind. Einer der häufigsten Fehler ist es, nur auf das eigene Blatt zu schauen und entsprechend anzusagen.\n\n**ABER:** Es bringt nichts, 100 Punkte bei einem vierfachen Undenufe zu erzielen, wenn man dabei selber nicht herauskommt und den Gegner damit in Schlagdistanz zum Sieg führt. Dasselbe gilt für den [Bergpreis](/regeln/bergpreis/) und den [Schneider](/regeln/punktezaehlung/schneider/).\n\n## Beispielrechnung\n\nEs wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagende Team A hat 2'000 Punkte, die Gegner von Team B 2'200. Team A erreicht mit 100 × 4 bei einem Undenufe 2'400 Punkte. Aber Team B kommt mit 57 × 4 auf 2'428 Punkte. Das ist der fast sichere Sieg.\n\n**Fazit:** Ein Undenufe in dieser Situation anzusagen, lohnt sich nur, wenn die 125 Punkte zum Sieg realistisch sind. Sonst wäre eine Ansage mit tiefem Multiplikator besser gewesen, um eine Runde zu überleben und das Ziel beim nächsten Mal, mit mehr Punkten auf dem Konto, zu erreichen.",
     "metadata": {
       "id": "schieber_taktiken_scoring_meta",
       "category": {
@@ -7454,7 +7454,7 @@
   },
   "spiel_annullieren": {
     "id": "spiel_annullieren",
-    "text": "Definition:\n• Wird ein Spiel annulliert (siehe Abschnitt «Spielverrat»), werden für das laufende Spiel keine Punkte geschrieben\n• Auch bereits notierte Weispunkte werden storniert\n• Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt",
+    "text": "Definition:\n• Wird ein Spiel annulliert, etwa wegen Spielverrat, werden für das laufende Spiel keine Punkte geschrieben\n• Schon angeschriebene Weispunkte werden wieder gestrichen\n• Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt",
     "metadata": {
       "id": "spiel_annullieren_meta",
       "category": {
@@ -7483,11 +7483,11 @@
     "faqs": [
       {
         "question": "Was passiert, wenn ein Spiel annulliert wird?",
-        "answer": "Wird ein Spiel annulliert, werden für das laufende Spiel keine Punkte geschrieben. Auch bereits notierte Weispunkte werden storniert. Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt."
+        "answer": "Wird ein Spiel annulliert, werden für das laufende Spiel keine Punkte geschrieben. Schon angeschriebene Weispunkte werden wieder gestrichen. Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt."
       },
       {
         "question": "Werden Weispunkte bei Annullierung storniert?",
-        "answer": "Ja, auch bereits notierte Weispunkte werden bei einer Annullierung storniert."
+        "answer": "Ja, schon angeschriebene Weispunkte werden bei einer Annullierung wieder gestrichen."
       },
       {
         "question": "Wer verteilt die Karten nach einer Annullierung?",
@@ -7688,7 +7688,7 @@
   },
   "spielverrat": {
     "id": "spielverrat",
-    "text": "Definition:\n• Alle Handlungen wie Klopfen (siehe Begriff \"klopfen\") oder Bemerkungen (siehe Begriff \"expressions_schnorren\"), die das Spiel verraten, sind verboten\n\nBeispiele:\n• Bemerkungen über gelaufene Karten\n• Andeutungen über Bock-Karten\n• Wiederholungen von angezogenen oder verworfenen Farben\n• Bemerkungen zu Taktiken\n• Fragen, die das Spiel verraten, sind ebenfalls verboten\n• Zeichen ohne Worte: Blicke, Gesten, Mienenspiel\n\nKonsequenzen bei Spielverrat:\n• Die Gegner können verlangen, dass das Spiel – inklusive bereits geschriebener Punkte – annulliert wird",
+    "text": "Definition:\n• Alle Handlungen wie Klopfen (siehe Begriff \"klopfen\") oder Bemerkungen (siehe Begriff \"expressions_schnorren\"), die das Spiel verraten, sind verboten\n\nBeispiele:\n• Bemerkungen über gelaufene Karten\n• Andeutungen über Bock-Karten\n• Wiederholungen von angezogenen oder verworfenen Farben\n• Bemerkungen zu Taktiken\n• Fragen, die das Spiel verraten, sind ebenfalls verboten\n• Zeichen ohne Worte: Blicke, Gesten, Mienenspiel\n\nKonsequenzen bei Spielverrat:\n• Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird",
     "metadata": {
       "id": "spielverrat_meta",
       "category": {
@@ -7726,7 +7726,7 @@
       },
       {
         "question": "Was sind die Konsequenzen bei Spielverrat?",
-        "answer": "Die Gegner können verlangen, dass das Spiel – inklusive bereits geschriebener Punkte – annulliert wird."
+        "answer": "Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird."
       },
       {
         "question": "Sind auch Zeichen ohne Worte verboten?",
@@ -8033,7 +8033,7 @@
     "faqs": [
       {
         "question": "Was ist Coiffeur?",
-        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten – die vier Trumpffarben, Obenabe, Undenufe und zwei Joker – genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
+        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
       },
       {
         "question": "Wie spielt man Coiffeur?",
@@ -8132,7 +8132,7 @@
   },
   "variants_family_gluecksjass": {
     "id": "variants_family_gluecksjass",
-    "text": "Definition:\nDer Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei dem das Glück eine wichtigere Rolle spielt als komplexe Strategien.\n\nSpiel geben:\n• Bei vier Spielern: Der Spieler links vom Schreiber verteilt je drei Karten in drei Runden zum ersten Spiel\n• Bei drei Spielern: Je vier Karten in drei Runden\n• In den folgenden Spielen wechselt das Geben in Spielrichtung\n\nSpielablauf:\n• Beim Glücksjass spielt jeder Teilnehmer für sich allein\n• Die Entscheidung über die Trumpffarbe (siehe Begriff \"bodentrumpf\") hat Vorhand (siehe Begriff \"expressions_vorhand\")\n• Alle Trumpffarben werden einfach gewertet\n• Eine Partie (siehe Begriff \"expressions_partie\") besteht aus zwölf Spielen, was drei Umgängen bei vier Spielern oder vier Umgängen bei drei Spielern entspricht\n\nSchreiben:\n• Nach jedem Spiel notiert der Schreiber die erzielten Kartenpunkte sowie die gültigen Weisen für jeden Spieler in der entsprechenden Spalte\n• Ab dem zweiten Spiel werden die Punkte fortlaufend zusammengezählt, sodass alle Spieler stets über die aktuellen Punktestände informiert sind\n\nSpielende:\n• Wer nach zwölf Spielen die höchste Punktzahl  erzielt hat, gewinnt die Partie. Wer am wenigsten Punkte aufweist, hat verloren\n• Die Karten für die neue Partie werden vom links sitzenden Spieler des Verlierers verteilt\n\nSpielvarianten:\n• Der Glücksjass kann mit den zusätzlichen Varianten Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gespielt werden\n• Diese Varianten werden ebenfalls einfach, also ohne Multiplikatoren, gewertet\n\nCharakter:\nWie der Name bereits andeutet, spielt beim Glücksjass das Glück eine wichtige Rolle, da keine besonderen strategischen Überlegungen notwendig sind und die Kartenverteilung entscheidend ist.",
+    "text": "Definition:\nDer Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei dem das Glück eine wichtigere Rolle spielt als komplexe Strategien.\n\nSpiel geben:\n• Bei vier Spielern: Der Spieler links vom Schreiber verteilt je drei Karten in drei Runden zum ersten Spiel\n• Bei drei Spielern: Je vier Karten in drei Runden\n• In den folgenden Spielen wechselt das Geben in Spielrichtung\n\nSpielablauf:\n• Beim Glücksjass spielt jeder Teilnehmer für sich allein\n• Vorhand (siehe Begriff \"expressions_vorhand\") bestimmt den Trumpf (siehe Begriff \"bodentrumpf\")\n• Alle Trumpffarben werden einfach gewertet\n• Eine Partie (siehe Begriff \"expressions_partie\") besteht aus zwölf Spielen: zu viert gibt jeder dreimal, zu dritt viermal\n\nSchreiben:\n• Nach jedem Spiel notiert der Schreiber die erzielten Kartenpunkte sowie die gültigen Weisen für jeden Spieler in der entsprechenden Spalte\n• Ab dem zweiten Spiel werden die Punkte fortlaufend zusammengezählt, so sieht jeder jederzeit, wo er steht\n\nSpielende:\n• Wer nach zwölf Spielen die höchste Punktzahl hat, gewinnt die Partie. Wer am wenigsten Punkte hat, hat verloren\n• Zur neuen Partie gibt der Spieler links vom Verlierer\n\nSpielvarianten:\n• Der Glücksjass kann mit den zusätzlichen Varianten Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") gespielt werden\n• Diese Varianten werden ebenfalls einfach, also ohne Multiplikatoren, gewertet\n\nCharakter:\nWie der Name bereits andeutet, spielt beim Glücksjass das Glück eine wichtige Rolle, da keine besonderen strategischen Überlegungen notwendig sind und die Kartenverteilung entscheidend ist.",
     "metadata": {
       "id": "variants_family_gluecksjass_meta",
       "category": {
@@ -8168,11 +8168,11 @@
       },
       {
         "question": "Wer bestimmt die Trumpffarbe beim Glücksjass?",
-        "answer": "Die Entscheidung über die Trumpffarbe hat Vorhand, also der Spieler rechts vom Kartengeber."
+        "answer": "Vorhand bestimmt den Trumpf, also der Spieler rechts vom Kartengeber."
       },
       {
         "question": "Wie viele Spiele umfasst eine Glücksjass-Partie?",
-        "answer": "Eine Partie besteht aus zwölf Spielen, was drei Umgängen bei vier Spielern oder vier Umgängen bei drei Spielern entspricht."
+        "answer": "Eine Partie besteht aus zwölf Spielen: zu viert gibt jeder dreimal, zu dritt viermal."
       },
       {
         "question": "Können Obenabe und Undenufe beim Glücksjass gespielt werden?",
@@ -8495,11 +8495,11 @@
     "faqs": [
       {
         "question": "Was ist Tschau Sepp?",
-        "answer": "Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau – ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen."
+        "answer": "Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau, ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen."
       },
       {
         "question": "Was sind die Regeln von Tschau Sepp?",
-        "answer": "Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Der Reihe nach legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp» – wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erster alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart."
+        "answer": "Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Der Reihe nach legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp», wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erster alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart."
       },
       {
         "question": "Wie spielt man Tschau Sepp?",
@@ -8675,7 +8675,7 @@
   },
   "variants_multi_player_zwick_jass": {
     "id": "variants_multi_player_zwick_jass",
-    "text": "Definition:\nDer Zwick-Jass wird in der Regel zu viert gespielt und ist ein geselliges Spiel mit besonderen Regeln zum «Schlecken (siehe Begriff \"expressions_schlecken\")» und «Schieben (siehe Begriff \"expressions_schieben\")».\n\nKartenspiel und Geben:\n• Gespielt wird mit 28 Karten, wobei Sechser und Achter entfernt werden\n• Der Kartengeber legt die gemischten Karten verdeckt als Stapel (siehe Begriff \"expressions_stapel\") auf den Tisch und lässt sie vom links sitzenden Spieler abheben (siehe Begriff \"abheben\")\n\nSchlecken:\n• Dieser kann bis zu fünf Karten des Ablupfs  «schlecken», das heisst, die jeweils unterste Karte des Stapels einsehen, und falls sie wertvoll ist, für sich behalten\n• «Schleckt» er keine Karte, kann der Kartengeber mit dem gleichen Ablupf bis zu fünf Karten «schlecken»\n\nStechwerte:\n• Die höchste Karte ist stets das Trumpf (siehe Begriff \"bodentrumpf\")-Ass\n• Danach folgen die «Bellis (siehe Begriff \"expressions_belli\")» (die Siebener von Schellen (siehe Begriff \"expressions_kartenfarben\"), Schilten (siehe Begriff \"expressions_kartenfarben\"), Rosen (siehe Begriff \"expressions_kartenfarben\"), Eichel (siehe Begriff \"expressions_kartenfarben\"))\n• Anschliessend folgen König, Ober (Dame), Under  (Bauer ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")) und Neuner der jeweiligen Trumpffarbe (siehe Begriff \"bodentrumpf\")\n\nTrumpfwahl durch Schieben:\n• Der Kartengeber schiebt den Stock (siehe Begriff \"expressions_stapel\") zum nachfolgenden Spieler\n• Dieser kann die oberste Karte aufdecken und als Trumpffarbe wählen\n• Ist er nicht zufrieden, kann er die nächste Karte aufdecken\n• Hat er keine Aussicht auf mindestens einen Stich , schiebt er den Stock weiter\n• Wer eine Karte aufdeckt und damit die Trumpffarbe bestimmt, muss mitspielen\n• Verzichten alle Mitspieler auf eine Spielteilnahme, erhält der Spieler, der den Trumpf aufgedeckt hat, fünf Striche (siehe Begriff \"schreiben\") gutgeschrieben\n\nBewertung:\n• Für jeden Stich wird ein Strich notiert\n• Wer mitspielt, aber keinen Stich erzielt, erhält einen «Vogel (siehe Begriff \"expressions_vogel\")» (fünf Nuller)\n\nSpielende:\nGewonnen hat, wer zuerst 16 Striche «erzwickt» und sämtliche «Vögel» abverdient hat.",
+    "text": "Definition:\nDer Zwick-Jass wird in der Regel zu viert gespielt und ist ein geselliges Spiel mit besonderen Regeln zum «Schlecken (siehe Begriff \"expressions_schlecken\")» und «Schieben (siehe Begriff \"expressions_schieben\")».\n\nKartenspiel und Geben:\n• Gespielt wird mit 28 Karten, wobei Sechser und Achter entfernt werden\n• Der Kartengeber legt die gemischten Karten verdeckt als Stapel (siehe Begriff \"expressions_stapel\") auf den Tisch und lässt sie vom links sitzenden Spieler abheben (siehe Begriff \"abheben\")\n\nSchlecken:\n• Der Spieler links vom Kartengeber kann bis zu fünf Karten des Ablupfs  «schlecken», das heisst, die jeweils unterste Karte des Stapels einsehen, und falls sie wertvoll ist, für sich behalten\n• «Schleckt» er keine Karte, kann der Kartengeber mit dem gleichen Ablupf bis zu fünf Karten «schlecken»\n\nStechwerte:\n• Die höchste Karte ist stets das Trumpf (siehe Begriff \"bodentrumpf\")-Ass\n• Danach folgen die «Bellis (siehe Begriff \"expressions_belli\")» (die Siebner von Schellen (siehe Begriff \"expressions_kartenfarben\"), Schilten (siehe Begriff \"expressions_kartenfarben\"), Rosen (siehe Begriff \"expressions_kartenfarben\"), Eichel (siehe Begriff \"expressions_kartenfarben\"))\n• Anschliessend folgen König, Ober (Dame), Under  (Bauer ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")) und Neuner der jeweiligen Trumpffarbe (siehe Begriff \"bodentrumpf\")\n\nTrumpfwahl durch Schieben:\n• Der Kartengeber schiebt den Stock (siehe Begriff \"expressions_stapel\") zum nachfolgenden Spieler\n• Dieser kann die oberste Karte aufdecken und als Trumpffarbe wählen\n• Ist er nicht zufrieden, kann er die nächste Karte aufdecken\n• Hat er keine Aussicht auf mindestens einen Stich , schiebt er den Stock weiter\n• Wer eine Karte aufdeckt und damit die Trumpffarbe bestimmt, muss mitspielen\n• Spielt niemand mit, erhält fünf Striche (siehe Begriff \"schreiben\"), wer den Trumpf aufgedeckt hat\n\nBewertung:\n• Für jeden Stich wird ein Strich notiert\n• Wer mitspielt, aber keinen Stich erzielt, erhält einen «Vogel (siehe Begriff \"expressions_vogel\")» (fünf Nuller)\n\nSpielende:\nGewonnen hat, wer zuerst 16 Striche «erzwickt» und sämtliche «Vögel» abverdient hat.",
     "metadata": {
       "id": "variants_multi_player_zwick_jass_meta",
       "category": {
@@ -8711,11 +8711,11 @@
       },
       {
         "question": "Was sind «Bellis» beim Zwick-Jass?",
-        "answer": "Die «Bellis» sind die Siebener von Schellen, Schilten, Rosen und Eichel. Sie sind die zweithöchsten Stechkarten (nach dem Trumpf-Ass)."
+        "answer": "Die «Bellis» sind die Siebner von Schellen, Schilten, Rosen und Eichel. Sie sind die zweithöchsten Stechkarten (nach dem Trumpf-Ass)."
       },
       {
         "question": "Was ist ein «Vogel» beim Zwick-Jass?",
-        "answer": "Ein «Vogel» sind fünf Nuller. Wer mitspielt, aber keinen Stich erzielt, erhält einen «Vogel»."
+        "answer": "Ein «Vogel» kostet fünf Nuller. Den bekommt, wer mitspielt und keinen Stich macht."
       },
       {
         "question": "Wie viele Striche brauche ich zum Sieg beim Zwick-Jass?",
@@ -8723,7 +8723,7 @@
       },
       {
         "question": "Was passiert, wenn alle Mitspieler verzichten?",
-        "answer": "Verzichten alle Mitspieler auf eine Spielteilnahme, erhält der Spieler, der den Trumpf aufgedeckt hat, fünf Striche gutgeschrieben."
+        "answer": "Spielt niemand mit, erhält fünf Striche, wer den Trumpf aufgedeckt hat."
       }
     ],
     "see_also": [
@@ -9009,7 +9009,7 @@
   },
   "variants_specialty_schaufel_dame": {
     "id": "variants_specialty_schaufel_dame",
-    "text": "Definition:\nDer Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann.\n\nSpiel geben:\n• Ein beliebiger Spieler verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten zum ersten Spiel\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nBesonderheit:\n• Die Schaufel-Dame (Pik-Dame) bringt demjenigen, der sie im Stich erhält, automatisch 100 Minuspunkte ein\n• Alle anderen Karten werden nach ihren normalen Werten gewertet\n• Es wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n\nSpielablauf und Taktik:\n• Ziel ist es, möglichst viele Punkte zu sammeln, aber die gefährliche Schaufel-Dame zu vermeiden\n• Der Spieler mit der Schaufel-Dame auf der Hand (siehe Begriff \"expressions_handkarten\") hat die schwierige Aufgabe, sie geschickt loszuwerden\n• Wer die Schaufel-Dame hat, versucht sie bei einem gegnerischen Stich abzulegen\n• Die anderen Spieler müssen vorsichtig agieren, um nicht ungewollt die Dame zu bekommen\n• Hohe Schaufel-Karten sind besonders gefährlich, da sie Stiche  machen könnten\n\nSchreiben:\nNach jedem Spiel werden die normalen Kartenpunkte plus die 100 Minuspunkte für die Schaufel-Dame verrechnet.\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") kann über eine bestimmte Anzahl Spiele gespielt werden. Gewinner ist der Spieler mit den meisten Pluspunkten am Ende.",
+    "text": "Definition:\nDer Schaufel-Dame-Jass ist ein Spiel zu viert, ohne Trumpf. Jeder sammelt Punkte, und eine einzige Karte, die Schaufel-Dame, bringt 100 Minuspunkte.\n\nSpiel geben:\n• Zum ersten Spiel gibt ein beliebiger Spieler: neun Karten, dreimal drei\n• Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben\n\nBesonderheit:\n• Die Schaufel-Dame (Pik-Dame) bringt demjenigen, der sie im Stich erhält, automatisch 100 Minuspunkte ein\n• Alle anderen Karten werden nach ihren normalen Werten gewertet\n• Es wird ohne Trumpf (siehe Begriff \"bodentrumpf\") gespielt\n\nSpielablauf und Taktik:\n• Ziel ist es, möglichst viele Punkte zu sammeln, aber die gefährliche Schaufel-Dame zu vermeiden\n• Der Spieler mit der Schaufel-Dame auf der Hand (siehe Begriff \"expressions_handkarten\") hat die schwierige Aufgabe, sie geschickt loszuwerden\n• Wer die Schaufel-Dame hat, versucht sie bei einem gegnerischen Stich abzulegen\n• Die anderen Spieler müssen vorsichtig agieren, um nicht ungewollt die Dame zu bekommen\n• Hohe Schaufel-Karten sind besonders gefährlich, da sie Stiche  machen könnten\n\nSchreiben:\nNach jedem Spiel werden die normalen Kartenpunkte plus die 100 Minuspunkte für die Schaufel-Dame verrechnet.\n\nSpielende:\nEine Partie (siehe Begriff \"expressions_partie\") kann über eine bestimmte Anzahl Spiele gespielt werden. Gewinner ist der Spieler mit den meisten Pluspunkten am Ende.",
     "metadata": {
       "id": "variants_specialty_schaufel_dame_meta",
       "category": {
@@ -9040,8 +9040,8 @@
     },
     "faqs": [
       {
-        "question": "Wie spielt man Schaufel?",
-        "answer": "Der Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann."
+        "question": "Wie spielt man den Schaufel-Dame-Jass?",
+        "answer": "Der Schaufel-Dame-Jass ist ein Spiel zu viert, ohne Trumpf. Jeder sammelt Punkte, und eine einzige Karte, die Schaufel-Dame, bringt 100 Minuspunkte."
       },
       {
         "question": "Wie viele Minuspunkte bringt die Schaufel-Dame?",
@@ -9131,7 +9131,7 @@
   },
   "variants_specialty_zuger_drei": {
     "id": "variants_specialty_zuger_drei",
-    "text": "Definition:\nZuger für 3 Spieler ist eine Schreibspiel-Variante, bei der der Kartengeber nicht aktiv mitspielt, sondern 10 Schreibpunkte erhält.\n\nSpiel geben:\n• Zwei Spieler erhalten je 12 Karten (3 x 4 Karten)\n• Der dritte Spieler ist der Kartengeber und erhält keine Karten, sondern 10 Schreibpunkte (siehe Begriff \"schreiben\") gutgeschrieben\n\nSpielentscheidung:\nDie beiden aktiven Spieler entscheiden vor Spielbeginn, ob sie mitspielen möchten.\n\nSchreibregeln:\n• Wie beim Zuger für 4 Spieler wird nur der zehnte Teil der Kartenpunkte geschrieben\n• Wer unter 21 Punkte bleibt, fällt herunter und erhält 10 Minuspunkte\n\nDer Papagei (Kartengeber):\nErhält immer 10 Schreibpunkte, unabhängig vom Spielausgang.\n\nSpielende:\n• Gespielt wird auf 150 Schreibpunkte\n• Die Partie (siehe Begriff \"expressions_partie\") endet, wenn gleich viele Plus- wie Minuspunkte auf der Tafel stehen",
+    "text": "Definition:\nZuger für 3 Spieler ist eine Schreibspiel-Variante, bei der der Kartengeber nicht aktiv mitspielt, sondern 10 Schreibpunkte erhält.\n\nSpiel geben:\n• Zwei Spieler erhalten je 12 Karten (3 x 4 Karten)\n• Der dritte Spieler ist der Kartengeber und erhält keine Karten, sondern 10 Schreibpunkte (siehe Begriff \"schreiben\") gutgeschrieben\n\nSpielentscheidung:\nVor dem Geben sagen die beiden anderen, ob sie das Spiel annehmen.\n\nSchreibregeln:\n• Wie beim Zuger für 4 Spieler wird nur der zehnte Teil der Kartenpunkte geschrieben\n• Wer unter 21 Punkte bleibt, fällt herunter und erhält 10 Minuspunkte\n\nDer Papagei (Kartengeber):\nErhält immer 10 Schreibpunkte, unabhängig vom Spielausgang.\n\nSpielende:\n• Gespielt wird auf 150 Schreibpunkte\n• Die Partie (siehe Begriff \"expressions_partie\") endet, wenn gleich viele Plus- wie Minuspunkte auf der Tafel stehen",
     "metadata": {
       "id": "variants_specialty_zuger_drei_meta",
       "category": {
@@ -9249,7 +9249,7 @@
   },
   "variants_strategic_aucho_vier": {
     "id": "variants_strategic_aucho_vier",
-    "text": "Definition:\nDiese Königsspiel-Variante für vier Spieler zeichnet sich durch das besondere «Lukas (siehe Begriff \"expressions_lukas\")»-Prinzip und das «Erben (siehe Begriff \"expressions_erben\")» von Punkten aus.\n\nSpiel geben:\n• Erstes Spiel: Jeder zieht eine Karte, wer die niedrigste hat, gibt das erste Spiel\n• Der Kartengeber teilt seinen drei Mitspielern je neun Karten aus, dreimal drei\n• Die übrigen neun Karten werden als «Lukas» verdeckt als Stock (siehe Begriff \"expressions_stapel\") auf den Tisch gelegt. Die unterste Karte wird aufgedeckt\n• Der Kartengeber gibt alle Karten weg und schaut diesem Spiel zu\n• Wird das Spiel verloren, schreibt der Kartengeber einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\")), und das Geben wechselt zum nächsten Spieler\n\nWeisen-Regeln:\n• Vier Under  (Buben ) müssen vor Beginn des Spiels angemeldet werden, damit sie als Weis zählen\n• Wer diese Meldung versäumt und zu spät weist, erhält als Strafe einen «Härdöpfel»\n\nSpielablauf - Trumpf machen:\n• Vorhand (siehe Begriff \"expressions_vorhand\") macht Trumpf (siehe Begriff \"bodentrumpf\") und nennt dazu eine beliebige Farbe\n• In diesem Fall muss er am Ende des Spiels mindestens einen Punkt mehr erreichen als seine beiden Gegenspieler zusammen, wobei Weispunkte (siehe Begriff \"expressions_weis\") mitzählen\n• Macht Vorhand keinen Trumpf, ist der zweite Spieler an der Reihe, danach der dritte\n\nSpielablauf - «Kehr (siehe Begriff \"expressions_kehr\")»:\n• Alternativ kann jeder Spieler statt Trumpf zu machen einen «Kehr» verlangen\n• Der Kartengeber deckt dann die Karten des «Lukas»-Stocks einzeln von oben nach unten auf\n• Jede dieser Karten – ausser der letzten – kann vom Sechser derselben Farbe geraubt (siehe Begriff \"expressions_rauben\") werden\n• Passt einem Spieler die aufgedeckte Farbe, ruft er «Halt» und übernimmt das Spiel mit dieser Farbe als Trumpf\n• Übernimmt bis zur vorletzten Karte des «Lukas» niemand, schreibt der, der den «Kehr» verlangt hat, zur Strafe einen «Härdöpfel», und seine Gegner schreiben je einen Strich (siehe Begriff \"schreiben\")\n\nKartengeber-Spiel:\n• Macht niemand Trumpf und verlangt niemand einen «Kehr», darf der Kartengeber das Spiel mit dem «Lukas» übernehmen\n• Er spielt dann mit diesen neun Karten gegen seine drei Mitspieler und muss ebenfalls mindestens einen Punkt mehr als sie zusammen erreichen\n\nSchreiben:\n• Wer ein Spiel gewinnt, erhält zwei Striche. Der Kartengeber «erbt» in diesem Fall ebenfalls zwei Striche\n• Verliert ein Spieler, wird ihm ein «Härdöpfel» angeschrieben\n• Gelingt es einem Spieler, mit dem «Lukas» zu gewinnen, erhält er vier Striche gutgeschrieben\n• Verliert er jedoch den «Lukas», bekommt er zwei «Härdöpfel» eingetragen, und seine drei Gegner erhalten je einen Strich\n\nEnde der Partie:\nGespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann als Sieger aus der Partie (siehe Begriff \"expressions_partie\") aus.",
+    "text": "Definition:\nDiese Königsspiel-Variante für vier Spieler zeichnet sich durch das besondere «Lukas (siehe Begriff \"expressions_lukas\")»-Prinzip und das «Erben (siehe Begriff \"expressions_erben\")» von Punkten aus.\n\nSpiel geben:\n• Erstes Spiel: Jeder zieht eine Karte, wer die niedrigste hat, gibt das erste Spiel\n• Der Kartengeber teilt seinen drei Mitspielern je neun Karten aus, dreimal drei\n• Die übrigen neun Karten werden als «Lukas» verdeckt als Stock (siehe Begriff \"expressions_stapel\") auf den Tisch gelegt. Die unterste Karte wird aufgedeckt\n• Der Kartengeber gibt alle Karten weg und schaut diesem Spiel zu\n• Wird das Spiel verloren, schreibt der Kartengeber einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")» (Nuller (siehe Begriff \"expressions_nuller\")), und das Geben wechselt zum nächsten Spieler\n\nWeisen-Regeln:\n• Vier Under  (Buben ) müssen vor Beginn des Spiels angemeldet werden, damit sie als Weis zählen\n• Wer diese Meldung versäumt und zu spät weist, erhält als Strafe einen «Härdöpfel»\n\nSpielablauf - Trumpf machen:\n• Vorhand (siehe Begriff \"expressions_vorhand\") macht Trumpf (siehe Begriff \"bodentrumpf\") und nennt dazu eine beliebige Farbe\n• In diesem Fall muss er am Ende des Spiels mindestens einen Punkt mehr erreichen als seine beiden Gegenspieler zusammen, wobei Weispunkte (siehe Begriff \"expressions_weis\") mitzählen\n• Macht Vorhand keinen Trumpf, ist der zweite Spieler an der Reihe, danach der dritte\n\nSpielablauf - «Kehr (siehe Begriff \"expressions_kehr\")»:\n• Alternativ kann jeder Spieler statt Trumpf zu machen einen «Kehr» verlangen\n• Der Kartengeber deckt dann die Karten des «Lukas»-Stocks einzeln von oben nach unten auf\n• Jede dieser Karten, ausser der letzten, kann vom Sechser derselben Farbe geraubt (siehe Begriff \"expressions_rauben\") werden\n• Passt einem Spieler die aufgedeckte Farbe, ruft er «Halt» und übernimmt das Spiel mit dieser Farbe als Trumpf\n• Übernimmt bis zur vorletzten Karte des «Lukas» niemand, schreibt der, der den «Kehr» verlangt hat, zur Strafe einen «Härdöpfel», und seine Gegner schreiben je einen Strich (siehe Begriff \"schreiben\")\n\nKartengeber-Spiel:\n• Macht niemand Trumpf und verlangt niemand einen «Kehr», darf der Kartengeber das Spiel mit dem «Lukas» übernehmen\n• Er spielt dann mit diesen neun Karten gegen seine drei Mitspieler und muss ebenfalls mindestens einen Punkt mehr als sie zusammen erreichen\n\nSchreiben:\n• Wer ein Spiel gewinnt, erhält zwei Striche. Der Kartengeber «erbt» in diesem Fall ebenfalls zwei Striche\n• Verliert ein Spieler, wird ihm ein «Härdöpfel» angeschrieben\n• Gelingt es einem Spieler, mit dem «Lukas» zu gewinnen, erhält er vier Striche gutgeschrieben\n• Verliert er jedoch den «Lukas», bekommt er zwei «Härdöpfel» eingetragen, und seine drei Gegner erhalten je einen Strich\n\nEnde der Partie:\nGespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann als Sieger aus der Partie (siehe Begriff \"expressions_partie\") aus.",
     "metadata": {
       "id": "variants_strategic_aucho_vier_meta",
       "category": {
@@ -9325,7 +9325,7 @@
   },
   "variants_strategic_aucho_zwei": {
     "id": "variants_strategic_aucho_zwei",
-    "text": "Definition:\nDiese Zweier-Variante des Aucho funktioniert nach ähnlichen Prinzipien wie die grösseren Versionen, bringt aber spezielle Raubregeln (siehe Begriff \"expressions_rauben\") mit sich.\n\nSpiel geben:\n• Der Kartengeber verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten\n• Die 19. Karte wird aufgedeckt und bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Diese aufgedeckte Karte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt (siehe Begriff \"expressions_rauben\") werden\n• Das Rauben kann hinausgezögert werden, bis Vorhand (siehe Begriff \"expressions_vorhand\") seine erste Karte gespielt hat\n• Die übrigen Karten bilden den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte eingesehen werden darf\n\nBesonderheiten für zwei Spieler:\n• Vier Under  (Buben ) müssen nicht mehr zwingend vor Spielbeginn angemeldet werden\n• Aus der Hand darf ausschliesslich die aufgedeckte Farbe als Trumpf (siehe Begriff \"bodentrumpf\") bestimmt werden (Vorhand (siehe Begriff \"expressions_vorhand\") geniesst dabei den Vorrang)\n• Möchte ein Spieler das Spiel in einer anderen Farbe übernehmen, muss er einen «Kehr (siehe Begriff \"expressions_kehr\")» verlangen\n• Der Gewinner eines Spiels erhält zwei Striche (siehe Begriff \"schreiben\")\n\nÜbrige Regeln:\nIn allen anderen Punkten entsprechen die Regeln denen des Aucho für vier beziehungsweise drei Spieler.",
+    "text": "Definition:\nDer Aucho zu zweit läuft gleich wie der Aucho zu dritt und zu viert, nur beim Rauben (siehe Begriff \"expressions_rauben\") gelten eigene Regeln.\n\nSpiel geben:\n• Der Kartengeber verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten\n• Die 19. Karte wird aufgedeckt und bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Diese aufgedeckte Karte kann mit dem Trumpf-Sechser (siehe Begriff \"bodentrumpf\") geraubt (siehe Begriff \"expressions_rauben\") werden\n• Das Rauben kann hinausgezögert werden, bis Vorhand (siehe Begriff \"expressions_vorhand\") seine erste Karte gespielt hat\n• Die übrigen Karten bilden den Stock (siehe Begriff \"expressions_stapel\"), dessen unterste Karte eingesehen werden darf\n\nBesonderheiten für zwei Spieler:\n• Vier Under  (Buben ) müssen nicht mehr zwingend vor Spielbeginn angemeldet werden\n• Aus der Hand gilt nur die aufgedeckte Farbe als Trumpf (siehe Begriff \"bodentrumpf\"), und Vorhand (siehe Begriff \"expressions_vorhand\") hat dabei den Vorrang\n• Möchte ein Spieler das Spiel in einer anderen Farbe übernehmen, muss er einen «Kehr (siehe Begriff \"expressions_kehr\")» verlangen\n• Der Gewinner eines Spiels erhält zwei Striche (siehe Begriff \"schreiben\")\n\nÜbrige Regeln:\nIn allen anderen Punkten entsprechen die Regeln denen des Aucho für vier beziehungsweise drei Spieler.",
     "metadata": {
       "id": "variants_strategic_aucho_zwei_meta",
       "category": {
@@ -9541,7 +9541,7 @@
   },
   "variants_strategic_bolschewik": {
     "id": "variants_strategic_bolschewik",
-    "text": "Definition:\nDer Bolschewik ist ähnlich wie der Sidi-Barrani (siehe Begriff \"variants_strategic_sidi_barrani\"), wird jedoch mit einem Doppelkart (2 Kartenspiele) gespielt.\n\nKartenspiel und Regeln:\n• Gespielt wird mit einem Doppelkart ohne die Sechser, Siebner und Achter (insgesamt 48 Karten)\n• Von den restlichen Karten (Ass bis Neuner) sind je 2 gleiche Karten im Spiel\n• Die zweitgespielte Karte schlägt die erstausgespielte gleiche Karte\n\nTeambildung:\n• Jeder Spieler zieht aus einem verdeckten Kartenspiel eine Karte\n• Die beiden Spieler mit den höheren Karten bilden ein Team (siehe Begriff \"expressions_team\"), die beiden mit den niedrigeren Karten sind das gegnerische Team\n• Die Partner sitzen sich kreuzweise gegenüber\n\nSteigern:\n• Beim Bolschewik wird Trumpf (siehe Begriff \"bodentrumpf\") oder «Bock (siehe Begriff \"expressions_bock\")» (Obenabe (siehe Begriff \"expressions_obenabe\")-Spiel ohne Trumpf) der Kartenfarbe (siehe Begriff \"expressions_kartenfarben\") in Zahlen gesteigert\n• Das Mindestgebot liegt bei 90 Punkten \n• Die nachfolgenden Spieler können der Reihe nach dieses Gebot beliebig um mindestens 5 Punkte überbieten\n\nBewertung:\n• Doppelkart bei Trumpf: 314 Punkte (letzter Stich (siehe Begriff \"letzter_stich\") 10 Punkte)\n• Doppelkart bei «Bock»: 250 Punkte (letzter Stich 10 Punkte)\n• Matsch : 514 Punkte\n• Matsch geboten: 1028 Punkte\n• Matsch geboten und gedoppelt: 1542 Punkte\n\nSpielablauf:\n• Die erste Karte darf erst ausgespielt werden, wenn alle anderen Spieler «passen» oder ein Gegner «doppelt»\n• Der Letztsteigernde ist der Spielübernehmer und spielt die erste Karte aus\n\nBesondere Regeln:\n• Die beiden Trumpf-Bauern  (Under ) müssen nicht angegeben werden\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man von der ausgespielten Farbe keine Karte hat\n\nEnde der Partie:\nGewonnen hat, wer die vereinbarte Punktzahl (2000, 3000 oder 5000) zuerst erreicht.",
+    "text": "Definition:\nDer Bolschewik ist ähnlich wie der Sidi-Barrani (siehe Begriff \"variants_strategic_sidi_barrani\"), wird jedoch mit einem Doppelkart (2 Kartenspiele) gespielt.\n\nKartenspiel und Regeln:\n• Gespielt wird mit einem Doppelkart ohne die Sechser, Siebner und Achter (insgesamt 48 Karten)\n• Von den restlichen Karten (Ass bis Neuner) sind je 2 gleiche Karten im Spiel\n• Von zwei gleichen Karten sticht die zweite die erste\n\nTeambildung:\n• Jeder Spieler zieht aus einem verdeckten Kartenspiel eine Karte\n• Die beiden Spieler mit den höheren Karten bilden ein Team (siehe Begriff \"expressions_team\"), die beiden mit den niedrigeren Karten sind das gegnerische Team\n• Die Partner sitzen sich kreuzweise gegenüber\n\nSteigern:\n• Beim Bolschewik wird in Punkten gesteigert. Wer steigert, nennt dazu eine Farbe (siehe Begriff \"expressions_kartenfarben\") als Trumpf (siehe Begriff \"bodentrumpf\") oder «Bock (siehe Begriff \"expressions_bock\")», ein Obenabe (siehe Begriff \"expressions_obenabe\")-Spiel ohne Trumpf\n• Das Mindestgebot liegt bei 90 Punkten \n• Die nachfolgenden Spieler können der Reihe nach überbieten, jedes Mal um mindestens 5 Punkte\n\nBewertung:\n• Doppelkart bei Trumpf: 314 Punkte (letzter Stich (siehe Begriff \"letzter_stich\") 10 Punkte)\n• Doppelkart bei «Bock»: 250 Punkte (letzter Stich 10 Punkte)\n• Matsch : 514 Punkte\n• Matsch geboten: 1028 Punkte\n• Matsch geboten und gedoppelt: 1542 Punkte\n\nSpielablauf:\n• Die erste Karte darf erst ausgespielt werden, wenn alle anderen Spieler «passen» oder ein Gegner «doppelt»\n• Wer zuletzt gesteigert hat, ist der Spielübernehmer und spielt die erste Karte aus\n\nBesondere Regeln:\n• Die beiden Trumpf-Bauern  (Under ) müssen nicht angegeben werden\n• Untertrumpfen (siehe Begriff \"untertrumpfen\") ist erlaubt, sofern man von der ausgespielten Farbe keine Karte hat\n\nEnde der Partie:\nGewonnen hat, wer die vereinbarte Punktzahl (2000, 3000 oder 5000) zuerst erreicht.",
     "metadata": {
       "id": "variants_strategic_bolschewik_meta",
       "category": {
@@ -9781,11 +9781,11 @@
     "faqs": [
       {
         "question": "Was ist Differenzler?",
-        "answer": "Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis – je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim."
+        "answer": "Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis, je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim."
       },
       {
         "question": "Wie spielt man Differenzler?",
-        "answer": "Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt – die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält."
+        "answer": "Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält."
       },
       {
         "question": "Was ist der Unterschied zwischen verdeckter und offener Ansage beim Differenzler?",
@@ -10021,7 +10021,7 @@
   },
   "variants_strategic_palette_jass": {
     "id": "variants_strategic_palette_jass",
-    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Herz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"bietrunde\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und macht anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") ein Gebot über die zu erreichenden Punkte am Ende des Spiels\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
+    "text": "Definition:\nDer Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).\n\nSpiel geben:\n• Wer schreibt, verteilt die Karten zum ersten Spiel\n• Bei vier Spielern: je drei Karten in drei Runden\n• Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Herz-Siebener wird aus dem Spiel entfernt)\n\nBieten (Steigern (siehe Begriff \"bietrunde\")):\n• Nach dem Verteilen der Karten wird gesteigert\n• Vorhand (siehe Begriff \"expressions_vorhand\") beginnt und bietet nach ihren Handkarten (siehe Begriff \"expressions_handkarten\"), wie viele Punkte sie am Ende haben will\n• Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann\n• Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden\n• Ein «Matsch alleine» kann nicht überboten werden\n\nSpielablauf:\n• Alle Varianten (Trumpffarben (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\")) werden einfach gewertet\n• Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n• Beim Obenabe zählen die Asse (11 Punkte) und die Achter (8 Punkte), beim Undenufe die Sechser (11 Punkte) und die Achter (8 Punkte)\n\nPartner-Bestimmung:\n• Der Meistbietende übernimmt das Spiel und kann eine Karte der Gegner verlangen, die ihm für sein Spiel nützlich erscheint\n• Wer die verlangte Karte besitzt, wird Partner des Spielübernehmers\n• Er darf sich jedoch bis zum Ausspiel (siehe Begriff \"ausspiel\") dieser Karte nicht anmerken lassen, dass er sie hat\n\nBewertung:\n110 bis 119 Punkte: 2 Schreibpunkte\n120 bis 129 Punkte: 4 Schreibpunkte\n130 bis 139 Punkte: 6 Schreibpunkte\n140 bis 149 Punkte: 8 Schreibpunkte\n150 bis 157 Punkte: 10 Schreibpunkte\nMatsch mit Partner: 12 Schreibpunkte\nMatsch alleine: 20 Schreibpunkte\n\nSpielende:\nNach zwölf Spielen ist die Partie (siehe Begriff \"expressions_partie\") zu Ende. Gewinner ist der Spieler mit den meisten Punkten.",
     "metadata": {
       "id": "variants_strategic_palette_jass_meta",
       "category": {
@@ -10302,7 +10302,7 @@
   },
   "variants_strategic_schellenjass": {
     "id": "variants_strategic_schellenjass",
-    "text": "Schellenjass ist eine Vermeidungsvariante, bei der es darum geht, möglichst wenig Schellenkarten in den eigenen Stichen zu sammeln – oder gezielt alle 9 Schellenkarten zu erzielen. Es wird ohne Trumpf gespielt.\n\nAuf einen Blick:\n• Spieleranzahl: 3 oder 4 Spieler\n• Trumpf: Keiner (trumpflos)\n• Karten: 12 pro Spieler (3 Spieler) oder 9 pro Spieler (4 Spieler)\n• Ziel: Wenig Schellenkarten sammeln (oder alle 9)\n• Besonderheit: Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Schwierigkeit: Mittel bis anspruchsvoll\n• Alternative Namen: Kreuzjass (franz. Schweiz mit Kreuzkarten)\n\nSpielablauf:\n• Zu viert: Jeder erhält 9 Karten\n• Zu dritt: Jeder erhält 12 Karten\n• Alle Karten werden verteilt, keine bleiben übrig\n• Der Schreiber verteilt das erste Spiel\n• Folgende Spiele werden in Spielrichtung gegeben\n\nSpielregeln:\n• Es wird ohne Trumpf gespielt\n• Farbe muss bedient werden (Farbzwang)\n• Wer keine Karte der ausgespielten Farbe hat, kann eine beliebige Karte abwerfen\n• Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Jeder Spieler will möglichst wenig Schellenkarten in seinen Stichen haben\n\nSchreibweise:\nNach jedem Spiel notiert der Schreiber jedem Spieler die Anzahl der erhaltenen Schellenkarten. Wer alle 9 Schellenkarten erzielt, belastet die anderen Spieler mit je 9 Punkten (oder erhält selbst 9 Minuspunkte). Eine Partie hat üblicherweise 12 Spiele. Der Spieler mit den meisten Schellenkarten verliert.\n\nRampo-Regel:\nErreichen zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten, wird ein Rampo (siehe Begriff \"expressions_rampo\") (Querstrich) notiert. Dieser muss in den nächsten Spielen abgearbeitet werden.\n\nVariante mit Strichen:\nEs kann auch mit Strichen gespielt werden. Nach jedem Spiel werden zu viert 3 Striche, zu dritt 2 Striche verteilt. Der Spieler mit den meisten Schellenkarten erhält keinen Strich. Wer zuerst 7 Striche erreicht, scheidet als Gewinner aus.\n\nTaktik:\nDas Spiel erfordert präzises Kartenzählen und Antizipation. Mit guten Bockkarten (siehe Begriff \"expressions_bock\") (höchste Karten einer Farbe) kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Spieler müssen verhindern, dass ein Gegner alle 9 Schellenkarten erzielt, da dies die anderen bestraft.",
+    "text": "Beim Schellenjass will jeder möglichst wenig Schellenkarten in seinen Stichen haben, oder gleich alle neun. Gespielt wird ohne Trumpf.\n\nAuf einen Blick:\n• Spieleranzahl: 3 oder 4 Spieler\n• Trumpf: Keiner (trumpflos)\n• Karten: 12 pro Spieler (3 Spieler) oder 9 pro Spieler (4 Spieler)\n• Ziel: Wenig Schellenkarten sammeln (oder alle 9)\n• Besonderheit: Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Schwierigkeit: Mittel bis anspruchsvoll\n• Alternative Namen: Herzjass (mit französischen Karten, Herz statt Schellen)\n\nSpielablauf:\n• Zu viert: Jeder erhält 9 Karten\n• Zu dritt: Jeder erhält 12 Karten\n• Alle Karten werden verteilt, keine bleiben übrig\n• Der Schreiber verteilt das erste Spiel\n• Folgende Spiele werden in Spielrichtung gegeben\n\nSpielregeln:\n• Es wird ohne Trumpf gespielt\n• Farbe muss bedient werden (Farbzwang)\n• Wer keine Karte der ausgespielten Farbe hat, kann eine beliebige Karte abwerfen\n• Keine Weis-, Stöck- oder letzte-Stich-Punkte\n• Jeder Spieler will möglichst wenig Schellenkarten in seinen Stichen haben\n\nSchreibweise:\nNach jedem Spiel notiert der Schreiber jedem Spieler die Anzahl der erhaltenen Schellenkarten. Wer alle 9 Schellenkarten macht, lässt den anderen je 9 Punkte notieren (oder notiert sich selbst 9 Minuspunkte). Eine Partie hat üblicherweise 12 Spiele. Der Spieler mit den meisten Schellenkarten verliert.\n\nRampo-Regel:\nErreichen zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten, wird ein Rampo (siehe Begriff \"expressions_rampo\") (Querstrich) notiert. Der Rampo bleibt stehen, bis ihn einer der Betroffenen im nächsten Spiel löst.\n\nVariante mit Strichen:\nEs kann auch mit Strichen gespielt werden. Nach jedem Spiel werden zu viert 3 Striche, zu dritt 2 Striche verteilt. Der Spieler mit den meisten Schellenkarten erhält keinen Strich. Wer zuerst 7 Striche erreicht, scheidet als Gewinner aus.\n\nTaktik:\nWer hier gewinnen will, zählt mit und merkt sich, welche Schellen noch draussen sind. Mit guten Bockkarten (siehe Begriff \"expressions_bock\") (höchste Karten einer Farbe) kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Spieler müssen verhindern, dass ein Gegner alle 9 Schellenkarten erzielt, da dies die anderen bestraft.",
     "metadata": {
       "id": "variants_strategic_schellenjass_meta",
       "category": {
@@ -10338,11 +10338,11 @@
       },
       {
         "question": "Was ist Schellenjass?",
-        "answer": "Schellenjass ist eine Vermeidungsvariante für 3 oder 4 Spieler. Es wird ohne Trumpf, Weis und Stöck gespielt. Ziel ist es, möglichst wenig Schellenkarten zu erhalten – oder gezielt alle 9 Schellen zu sammeln, um die anderen zu bestrafen."
+        "answer": "Schellenjass ist eine Vermeidungsvariante für 3 oder 4 Spieler. Es wird ohne Trumpf, Weis und Stöck gespielt. Ziel ist es, möglichst wenig Schellenkarten zu erhalten, oder gezielt alle 9 Schellen zu sammeln, um die anderen zu bestrafen."
       },
       {
         "question": "Wie zählt man beim Schellenjass?",
-        "answer": "Nach jedem Spiel wird die Anzahl der Schellenkarten pro Spieler notiert. Wer alle 9 Schellenkarten erzielt, belastet die anderen mit je 9 Punkten. Nach 12 Spielen verliert der Spieler mit den meisten Schellenkarten."
+        "answer": "Nach jedem Spiel wird die Anzahl der Schellenkarten pro Spieler notiert. Wer alle 9 Schellenkarten macht, lässt den anderen je 9 Punkte notieren. Nach 12 Spielen verliert der Spieler mit den meisten Schellenkarten."
       },
       {
         "question": "Wie viele Karten erhält jeder Spieler beim Schellenjass?",
@@ -10350,7 +10350,7 @@
       },
       {
         "question": "Was ist ein Rampo beim Schellenjass?",
-        "answer": "Ein Rampo wird notiert, wenn zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten haben. Der Rampo muss in den nächsten Spielen durch weniger Schellenkarten abgearbeitet werden."
+        "answer": "Ein Rampo wird notiert, wenn zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten haben. Der Rampo bleibt stehen, bis einer der Betroffenen im nächsten Spiel weniger Schellenkarten macht als die anderen."
       },
       {
         "question": "Welche Taktik ist beim Schellenjass wichtig?",
@@ -10502,7 +10502,7 @@
   },
   "variants_three_player_aucho": {
     "id": "variants_three_player_aucho",
-    "text": "Definition:\nAucho ist ein traditionelles Spiel für vier Spieler (auch drei oder zwei Spieler sind möglich), bei dem ein sogenannter «Lukas (siehe Begriff \"expressions_lukas\")» als Stock (siehe Begriff \"expressions_stapel\") fungiert.\n\nSpiel geben:\n• Der Kartengeber verteilt seinen drei Mitspielern je neun Karten\n• Die restlichen neun Karten bilden den «Lukas» und werden verdeckt als Stock auf den Tisch gelegt, wobei die unterste Karte aufgedeckt wird\n• Der Kartengeber selbst erhält keine Karten\n\nSpielablauf - Trumpf machen:\n• Wenn Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel übernimmt, kann er eine beliebige Farbe als Trumpf (siehe Begriff \"bodentrumpf\") wählen\n• Er muss am Ende mindestens einen Punkt mehr als seine beiden Gegner zusammen erzielen\n• Verzichtet Vorhand, geht das Recht auf den zweiten, dann den dritten Spieler über\n\nSpielablauf - «Kehr (siehe Begriff \"expressions_kehr\")»:\n• Anstatt Trumpf zu machen kann jeder Spieler einen «Kehr» verlangen\n• Der Kartengeber muss dann die Karten des «Lukas» einzeln von oben nach unten aufdecken\n• Dabei kann jede Karte (ausser der letzten) vom Sechser der gleichen Farbe geraubt (siehe Begriff \"expressions_rauben\") werden\n• Jeder Spieler kann beim Erscheinen einer ihm zusagenden Farbe «Halt» sagen und das Spiel in der betreffenden Farbe übernehmen\n\nKartengeber-Spiel mit «Lukas»:\n• Wenn weder Trumpf gemacht noch ein «Kehr» verlangt wird, hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen\n• Er spielt mit diesem Stock gegen die drei Mitspieler\n\nSchreiben:\n• Wer ein Spiel gewinnt, erhält zwei Striche (siehe Begriff \"schreiben\"), der Kartengeber «erbt (siehe Begriff \"expressions_erben\")» dabei ebenfalls zwei Striche\n• Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben",
+    "text": "Definition:\nAucho ist ein traditionelles Spiel für vier Spieler (auch zu dritt oder zu zweit). Die übrigen Karten bleiben als Stock (siehe Begriff \"expressions_stapel\") auf dem Tisch liegen, dieser Stock heisst «Lukas (siehe Begriff \"expressions_lukas\")».\n\nSpiel geben:\n• Der Kartengeber verteilt seinen drei Mitspielern je neun Karten\n• Die restlichen neun Karten bilden den «Lukas» und werden verdeckt als Stock auf den Tisch gelegt, wobei die unterste Karte aufgedeckt wird\n• Der Kartengeber selbst erhält keine Karten\n\nSpielablauf - Trumpf machen:\n• Übernimmt die Vorhand (siehe Begriff \"expressions_vorhand\") das Spiel, wählt sie eine beliebige Farbe als Trumpf (siehe Begriff \"bodentrumpf\")\n• Sie muss am Ende mindestens einen Punkt mehr als ihre beiden Gegner zusammen erzielen\n• Verzichtet Vorhand, geht das Recht auf den zweiten, dann den dritten Spieler über\n\nSpielablauf - «Kehr (siehe Begriff \"expressions_kehr\")»:\n• Anstatt Trumpf zu machen kann jeder Spieler einen «Kehr» verlangen\n• Der Kartengeber muss dann die Karten des «Lukas» einzeln von oben nach unten aufdecken\n• Dabei kann jede Karte (ausser der letzten) vom Sechser der gleichen Farbe geraubt (siehe Begriff \"expressions_rauben\") werden\n• Wem eine Farbe passt, der sagt «Halt» und übernimmt das Spiel in dieser Farbe\n\nKartengeber-Spiel mit «Lukas»:\n• Wenn weder Trumpf gemacht noch ein «Kehr» verlangt wird, hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen\n• Er spielt mit diesem Stock gegen die drei Mitspieler\n\nSchreiben:\n• Wer ein Spiel gewinnt, erhält zwei Striche (siehe Begriff \"schreiben\"), der Kartengeber «erbt (siehe Begriff \"expressions_erben\")» dabei ebenfalls zwei Striche\n• Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben",
     "metadata": {
       "id": "variants_three_player_aucho_meta",
       "category": {
@@ -10531,7 +10531,7 @@
     "faqs": [
       {
         "question": "Was ist der «Lukas» beim Aucho?",
-        "answer": "Der «Lukas» sind die neun restlichen Karten, die verdeckt als Stock auf den Tisch gelegt werden. Der Kartengeber erhält diese Karten nicht."
+        "answer": "Als «Lukas» liegen die neun übrigen Karten verdeckt als Stock auf dem Tisch. Der Kartengeber erhält diese Karten nicht."
       },
       {
         "question": "Wie viele Striche erhält man, wenn man mit dem «Lukas» gewinnt?",
@@ -10559,7 +10559,7 @@
   },
   "variants_three_player_mittlere": {
     "id": "variants_three_player_mittlere",
-    "text": "Definition:\nMittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe (siehe Begriff \"bodentrumpf\") erst durch die erste Fehlfarbe bestimmt wird.\n\nGrundregeln:\n• Diese Jassart kann nur zu dritt gespielt werden\n• Jeder Spieler erhält 12 Karten\n• Jeder spielt für sich, Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n\nSpielablauf:\n• Vorerst wird ein Obenabe (siehe Begriff \"expressions_obenabe\") gespielt, d.h. ohne Trumpffarbe\n• Die Kartenwerte zählen dabei jedoch wie bei einem Trumpfspiel (siehe Begriff \"bodentrumpf\")\n• Wer im laufenden Stich eine oder mehrere Karten von der ausgespielten Farbe hat, muss diese spielen\n\nTrumpfbestimmung:\n• Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen\n• Die erste Fehlfarbe wird somit zur Trumpffarbe, die dann bis zum Ende des Spiels gilt\n• Sobald die Trumpffarbe bekannt ist, kann auch mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen werden\n\nSchreiben:\n• Pro Spiel werden immer 2 Striche (siehe Begriff \"schreiben\") und 2 Nuller (siehe Begriff \"expressions_nuller\") verteilt\n• Die beiden Spieler mit der höchsten und der niedrigsten Punktzahl  erhalten nach jedem Spiel je 1 Strich\n• Der Spieler mit der mittleren Punktzahl erhält 2 Nuller\n\nBesondere Regeln:\n• Können alle Spieler in allen 12 Stichen farben und kann deswegen keine Trumpffarbe bestimmt werden, wird das Spiel annulliert\n• Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen und seine Mitspieler erhalten je 1 Strich\n• Wer nicht mindestens 1 Stich erzielt, erhält 2 Nuller\n• Ein Matschspiel  wird mit 2 Strichen belohnt",
+    "text": "Definition:\nMittlere ist ein Spiel zu dritt. Jeder spielt für sich, und die Trumpffarbe (siehe Begriff \"bodentrumpf\") steht erst fest, wenn einem Spieler die ausgespielte Farbe fehlt: diese Fehlfarbe wird Trumpf.\n\nGrundregeln:\n• Diese Jassart kann nur zu dritt gespielt werden\n• Jeder Spieler erhält 12 Karten\n• Jeder spielt für sich, Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht\n\nSpielablauf:\n• Vorerst wird ein Obenabe (siehe Begriff \"expressions_obenabe\") gespielt, d.h. ohne Trumpffarbe\n• Die Kartenwerte zählen dabei jedoch wie bei einem Trumpfspiel (siehe Begriff \"bodentrumpf\")\n• Wer eine Karte der ausgespielten Farbe hat, muss sie spielen\n\nTrumpfbestimmung:\n• Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen\n• Die erste Fehlfarbe wird somit zur Trumpffarbe, die dann bis zum Ende des Spiels gilt\n• Sobald die Trumpffarbe bekannt ist, kann auch mit Trumpf (siehe Begriff \"bodentrumpf\") eingestochen werden\n\nSchreiben:\n• Pro Spiel werden immer 2 Striche (siehe Begriff \"schreiben\") und 2 Nuller (siehe Begriff \"expressions_nuller\") verteilt\n• Die beiden Spieler mit der höchsten und der niedrigsten Punktzahl  erhalten nach jedem Spiel je 1 Strich\n• Der Spieler mit der mittleren Punktzahl erhält 2 Nuller\n\nBesondere Regeln:\n• Können alle Spieler in allen 12 Stichen farben und kann deswegen keine Trumpffarbe bestimmt werden, wird das Spiel annulliert\n• Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen und seine Mitspieler erhalten je 1 Strich\n• Wer nicht mindestens 1 Stich erzielt, erhält 2 Nuller\n• Ein Matschspiel  wird mit 2 Strichen belohnt",
     "metadata": {
       "id": "variants_three_player_mittlere_meta",
       "category": {
@@ -10587,7 +10587,7 @@
     "faqs": [
       {
         "question": "Wie spielt man Mittlere?",
-        "answer": "Mittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe (siehe Begriff \"bodentrumpf\") erst durch die erste Fehlfarbe bestimmt wird."
+        "answer": "Mittlere ist ein Spiel zu dritt. Jeder spielt für sich, und die Trumpffarbe (siehe Begriff \"bodentrumpf\") steht erst fest, wenn einem Spieler die ausgespielte Farbe fehlt: diese Fehlfarbe wird Trumpf."
       },
       {
         "question": "Wie wird die Trumpffarbe beim Mittlere bestimmt?",
@@ -10602,8 +10602,8 @@
         "answer": "Kann keine Trumpffarbe bestimmt werden, wird das Spiel annulliert."
       },
       {
-        "question": "Wie viele Punkte brauche ich, um 2 Nuller zu erhalten?",
-        "answer": "Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen, oder wer keinen Stich erzielt, erhält ebenfalls 2 Nuller."
+        "question": "Wann bekommt man 2 Nuller?",
+        "answer": "Wer 100 oder mehr Kartenpunkte holt, bekommt 2 Nuller. Ebenso, wer keinen einzigen Stich macht."
       }
     ],
     "see_also": [
@@ -11007,7 +11007,7 @@
   },
   "weis_rules_ausmachen_early_thanking": {
     "id": "weis_rules_ausmachen_early_thanking",
-    "text": "Grundregel:\nSpieler, der sich bedankt (siehe Begriff \"bedanken\"), obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie (siehe Begriff \"expressions_partie\").\n\nErlaubtes Bedanken:\n• Spieler legt eine Karte und die Punkte aus allen bereits in diesem Stich  gelegten Karten (inklusive seiner eigenen) reichen zum Sieg aus\n• Der Spieler kann sich sofort bedanken\n\nVerbotenes Verhalten:\n• Während eines laufenden Spiels Karten zählen, um herauszufinden, ob die Punkte zum Sieg ausreichen\n• Wer dies tut und sich bedankt, verliert die Partie, falls sich herausstellt, dass das Ziel nicht erreicht wurde\n\nZweck dieser Regel:\n• Verhindert, dass während des Spiels gezählt wird\n• Verhindert die Suche nach zusätzlichen Bockkarten (siehe Begriff \"expressions_bockkarte\")\n\nSonderfall – Falsch gespielte Karte:\n• Falls sich ein Team bedankt und dabei Punkte einer versehentlich falsch gespielten Karte des Gegners mitzählt, wird das Bedanken als ungültig gewertet\n• Dies gilt nur, wenn nach korrigierter Kartenverteilung die erforderliche Punktzahl nicht mehr erreicht wird",
+    "text": "Grundregel:\nWer sich bedankt (siehe Begriff \"bedanken\"), ohne das Ziel erreicht zu haben, verliert die Partie (siehe Begriff \"expressions_partie\").\n\nErlaubtes Bedanken:\n• Spieler legt eine Karte und die Punkte aus allen bereits in diesem Stich  gelegten Karten (inklusive seiner eigenen) reichen zum Sieg aus\n• Der Spieler kann sich sofort bedanken\n\nVerbotenes Verhalten:\n• Während eines laufenden Spiels Karten zählen, um herauszufinden, ob die Punkte zum Sieg ausreichen\n• Wer dies tut und sich bedankt, verliert die Partie, falls sich herausstellt, dass das Ziel nicht erreicht wurde\n\nZweck dieser Regel:\n• Verhindert, dass während des Spiels gezählt wird\n• Verhindert die Suche nach zusätzlichen Bockkarten (siehe Begriff \"expressions_bockkarte\")\n\nSonderfall, Falsch gespielte Karte:\n• Falls sich ein Team bedankt und dabei Punkte einer versehentlich falsch gespielten Karte des Gegners mitzählt, wird das Bedanken als ungültig gewertet\n• Dies gilt nur, wenn nach korrigierter Kartenverteilung die erforderliche Punktzahl nicht mehr erreicht wird",
     "metadata": {
       "id": "weis_rules_ausmachen_early_thanking_meta",
       "category": {
@@ -11048,8 +11048,8 @@
         "answer": "Man darf bedanken, wenn die Punkte aus allen bereits im aktuellen Stich gelegten Karten (inklusive der eigenen) zum Sieg ausreichen."
       },
       {
-        "question": "Darf man während des Spiels Punkte zählen?",
-        "answer": "Nein, während des laufenden Spiels Karten zu zählen ist verboten. Wer dies tut und sich bedankt, verliert die Partie, falls das Ziel nicht erreicht wurde."
+        "question": "Darf man während des Spiels die Punkte zusammenzählen?",
+        "answer": "Nein. Wer während des Spiels die Punkte zusammenrechnet und sich dann bedankt, verliert die Partie, wenn das Ziel doch nicht erreicht war."
       },
       {
         "question": "Was ist der Zweck dieser Regel?",
@@ -11132,7 +11132,7 @@
   },
   "weis_rules_kreuzweis": {
     "id": "weis_rules_kreuzweis",
-    "text": "Von einem Kreuzweis spricht man, wenn eine Karte zugleich zu einer Folge und zu vier Gleichen gehört. Beide Weise (siehe Begriff \"expressions_weis\") gelten, jeder für sich. Schreibt die Partei, schreibt sie beide.\n\n[[karten: rosen-ober, rosen-koenig, rosen-ass, eichel-koenig, schellen-koenig, schilten-koenig | Kreuzweis, sechs Karten: Rosen-Ober, Rosen-König und Rosen-Ass sind das Dreiblatt, 20 Punkte. Der Rosen-König zählt zugleich mit den drei anderen Königen als vier Könige, 100 Punkte. Zusammen 120]]\n\n## Wie der Kreuzweis gemeldet wird\n\nMit der ersten Karte, die er ausspielt, nennt der Spieler den wertvolleren der beiden Weise. Den zweiten meldet er, sobald feststeht, dass seine Partei den höchsten Weis am Tisch hält und schreiben darf. Beide Weise müssen für sich gültig sein: das Dreiblatt als lückenlose Folge einer Farbe, die vier Gleichen aus allen vier Farben.\n\nDie Stöck (siehe Begriff \"weis_rules_stock\") stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürfen zugleich in einer Folge stecken, die Stöck rechnen immer für sich.\n\n## Wo der Kreuzweis gilt\n\nDer Kreuzweis gilt in jeder Spielart, die das Weisen zulässt. Manche Runden lassen ihn nicht gelten. Wer so spielt, macht es vor der Partie ab (siehe Begriff \"regeln_tischregel\").",
+    "text": "Von einem Kreuzweis spricht man, wenn eine Karte zugleich zu einer Folge und zu vier Gleichen gehört. Beide Weise (siehe Begriff \"expressions_weis\") gelten, jeder für sich. Schreibt die Partei, schreibt sie beide.\n\n[[karten: rosen-ober, rosen-koenig, rosen-ass, eichel-koenig, schellen-koenig, schilten-koenig | Kreuzweis, sechs Karten: Rosen-Ober, Rosen-König und Rosen-Ass sind das Dreiblatt, 20 Punkte. Der Rosen-König zählt zugleich mit den drei anderen Königen als vier Könige, 100 Punkte. Zusammen 120]]\n\n## Wie der Kreuzweis gemeldet wird\n\nMit der ersten Karte, die er ausspielt, meldet der Spieler den wertvolleren der beiden Weise. Den zweiten meldet er, sobald feststeht, dass seine Partei den höchsten Weis am Tisch hält und schreiben darf. Beide Weise müssen für sich gültig sein: das Dreiblatt als lückenlose Folge einer Farbe, die vier Gleichen aus allen vier Farben.\n\nDie Stöck (siehe Begriff \"weis_rules_stock\") stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürfen zugleich in einer Folge stecken, die Stöck zählen immer für sich.\n\n## Wo der Kreuzweis gilt\n\nDer Kreuzweis gilt in jeder Spielart, die das Weisen zulässt. Manche Runden lassen ihn nicht gelten. Wer so spielt, macht es vor der Partie ab (siehe Begriff \"regeln_tischregel\").",
     "metadata": {
       "id": "weis_rules_kreuzweis_meta",
       "category": {
@@ -11247,7 +11247,7 @@
   },
   "weis_rules_notation_correction": {
     "id": "weis_rules_notation_correction",
-    "text": "Regel bei nur einem Schreiber:\nBei nur einer Person für die Eintragung der Resultate gilt eine besondere Regelung.\n\nKorrekturmöglichkeiten:\n• Alle Teilnehmer können im Verlauf des nächsten Spiels Korrekturwünsche äussern\n• Korrekturwünsche sind möglich bei vermuteten Fehlern\n• Diese Möglichkeit besteht während der kompletten Dauer der folgenden Runde\n\nRecht auf übersichtliche Darstellung:\n• Gegenspieler können jederzeit eine klar strukturierte Darstellung verlangen\n• Die Darstellung muss übersichtlich sein und alle bisherigen Notierungen umfassen",
+    "text": "Regel bei nur einem Schreiber:\nSchreibt nur einer, gilt eine besondere Regel.\n\nKorrekturmöglichkeiten:\n• Wer meint, es sei etwas falsch angeschrieben, sagt es\n• Korrekturwünsche sind möglich bei vermuteten Fehlern\n• Das geht das ganze nächste Spiel lang\n\nRecht auf übersichtliche Darstellung:\n• Jeder darf jederzeit verlangen, dass die Tafel übersichtlich geführt wird\n• Alle Punkte von Anfang an müssen darauf ablesbar sein",
     "metadata": {
       "id": "weis_rules_notation_correction_meta",
       "category": {
@@ -11632,7 +11632,7 @@
   },
   "variants_molotow": {
     "id": "variants_molotow",
-    "text": "Definition:\nMolotow spielen 3 bis 6 Personen (optimal 4–5). Es gewinnt, wer am wenigsten Punkte sammelt. Der Name geht auf den russischen Politiker Molotow zurück.\n\nTrumpf-Bestimmung:\n• Das Spiel beginnt ohne Trumpf (wie Obenabe)\n• Die Trumpffarbe wird dynamisch bestimmt: Der erste Spieler, der die ausgespielte Farbe nicht bedienen kann und eine andere Farbe spielt, bestimmt damit die Trumpffarbe für den Rest der Runde\n• Diese Trumpffarbe gilt für alle folgenden Stiche\n\nWeis, umgekehrt gezählt:\n• Weis aus den Handkarten: zählt als Minuspunkte – das ist GUT!\n• Ein Tischweis, also ein Weis, der im Stich zu liegen kommt, zählt plus und schadet\n• Stöck zählt minus und hilft\n\nSpielablauf:\n• Jeder Spieler erhält 9 Karten (bei 4 Spielern) oder entsprechend weniger bei mehr Spielern\n• Die Stiche werden wie beim normalen Jass gespielt\n• Wer den Stich gewinnt, schreibt dessen Punkte auf\n\nDoppelrunde:\n• Die letzte Runde zählt doppelt\n\nSpielende:\n• Nach einer festgelegten Anzahl Runden wird abgerechnet\n• Gewinner ist der Spieler mit den wenigsten Punkten\n\nBesonderheiten:\n• Untertrumpfen ist erlaubt\n• Taktisch heikel ist der Moment, in dem man den Trumpf bestimmt",
+    "text": "Definition:\nMolotow spielen 3 bis 6 Personen (optimal 4–5). Es gewinnt, wer am wenigsten Punkte sammelt. Der Name geht auf den russischen Politiker Molotow zurück.\n\nTrumpf-Bestimmung:\n• Das Spiel beginnt ohne Trumpf (wie Obenabe)\n• Die Trumpffarbe wird dynamisch bestimmt: Der erste Spieler, der die ausgespielte Farbe nicht bedienen kann und eine andere Farbe spielt, bestimmt damit die Trumpffarbe für den Rest der Runde\n• Diese Trumpffarbe gilt für alle folgenden Stiche\n\nWeis, umgekehrt gezählt:\n• Weis aus den Handkarten: zählt als Minuspunkte, das ist GUT!\n• Ein Tischweis, also ein Weis, der im Stich zu liegen kommt, zählt plus und schadet\n• Stöck zählt minus und hilft\n\nSpielablauf:\n• Jeder Spieler erhält 9 Karten (bei 4 Spielern) oder entsprechend weniger bei mehr Spielern\n• Die Stiche werden wie beim normalen Jass gespielt\n• Wer den Stich gewinnt, schreibt dessen Punkte auf\n\nDoppelrunde:\n• Die letzte Runde zählt doppelt\n\nSpielende:\n• Nach einer festgelegten Anzahl Runden wird abgerechnet\n• Gewinner ist der Spieler mit den wenigsten Punkten\n\nBesonderheiten:\n• Untertrumpfen ist erlaubt\n• Taktisch heikel ist der Moment, in dem man den Trumpf bestimmt",
     "metadata": {
       "id": "variants_molotow_meta",
       "category": {
@@ -11671,7 +11671,7 @@
       },
       {
         "question": "Was ist das Ziel beim Molotow?",
-        "answer": "Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln – das Gegenteil des klassischen Jass."
+        "answer": "Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln, das Gegenteil des klassischen Jass."
       },
       {
         "question": "Wie wird der Trumpf beim Molotow bestimmt?",
@@ -11848,7 +11848,7 @@
   },
   "regeln_offizielle_jassregeln": {
     "id": "regeln_offizielle_jassregeln",
-    "text": "Im JassWiki stehen die offiziellen Regeln des Jassverbands Schweiz zum ersten Mal vollständig und gratis im Netz.\n\nGrundlage der offiziellen Jassregeln:\nDie Basis bilden [«PUUR NÄLL ASS – Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.\n\nDani Müller hat mit [«STÖCK WYS STICH – Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.\n\nDie offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Der Verband entwickelt sie an einzelnen Punkten weiter. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.",
+    "text": "Im JassWiki stehen die offiziellen Regeln des Jassverbands Schweiz zum ersten Mal vollständig und gratis im Netz.\n\nGrundlage der offiziellen Jassregeln:\nDie Basis bilden [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.\n\nDani Müller hat mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.\n\nDie offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Der Verband entwickelt sie an einzelnen Punkten weiter. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.",
     "metadata": {
       "id": "regeln_offizielle_jassregeln_meta",
       "category": {
@@ -11882,11 +11882,11 @@
     "faqs": [
       {
         "question": "Gibt es ein offizielles Jass-Regelwerk?",
-        "answer": "Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt."
+        "answer": "Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt."
       },
       {
         "question": "Welche Bücher bilden die Grundlage der offiziellen Jassregeln?",
-        "answer": "«PUUR NÄLL ASS – Offizielles Schweizer Jassreglement» von Göpf Egg und Albert Hagenbucher sowie «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015)."
+        "answer": "«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement» von Göpf Egg und Albert Hagenbucher sowie «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015)."
       },
       {
         "question": "Haben Tischregeln Vorrang vor den offiziellen Jassregeln?",
@@ -12359,7 +12359,7 @@
       },
       {
         "question": "Was gilt, wenn Ecke Trumpf ist?",
-        "answer": "Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14, beide stechen jede andere Karte."
+        "answer": "Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14. Der Puur sticht alles, das Nell alles ausser dem Puur."
       }
     ],
     "see_also": [
@@ -12395,7 +12395,7 @@
   },
   "color_schaufel": {
     "id": "color_schaufel",
-    "text": "Schaufel heisst in der Schweiz die Farbe mit dem schwarzen Blatt ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Gejasst wird mit Schaufel westlich der Brünig-Napf-Reuss-Linie. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Westlich der Brünig-Napf-Reuss-Linie liegt statt Schilten die Schaufel auf dem Tisch. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
         "question": "Heisst Schaufel auch Pik?",
@@ -12443,7 +12443,7 @@
   },
   "jass_elo_meta": {
     "id": "jass_elo_meta",
-    "text": "Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/), das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner abbildet. Statt nur Sieg oder Niederlage nutzt es die [Strichdifferenz](/begriffe/punktebegriffe/strich/) als feineres Leistungsmass. Entwickelt vom Jassverband Schweiz (JVS), im Einsatz auf jassguru.ch.\n\n## Warum ein Rating-System?\n\nBeim Schieber hängt die individuelle Gewinnerwartung stark davon ab, wie Partner und Gegner ausgelost werden. Herkömmliche Strich- und Punktelisten dokumentieren Ergebnisse, sagen aber nichts über die individuelle Spielstärke aus. Das Elo-System schliesst diese Lücke. Es stammt aus dem Schach und ist heute in vielen Sportarten und E-Sport-Ligen im Einsatz:\n\n- Vor jedem Spiel gibt es eine Erwartung, wie viele Punkte ein Team aufgrund der Erfahrungswerte holen sollte.\n- Nach dem Spiel wird die tatsächliche Leistung gemessen.\n- Wer besser abschneidet als erwartet, steigt im Rating. Wer darunter bleibt, verliert Punkte.\n\nDas Ergebnis ist eine laufend aktualisierte Zahl als objektiver Indikator der Spielstärke, unabhängig von Partner oder Gegner.\n\n## Problemstellung\n\nKumulative Ranglisten sind wertvoll, beantworten aber nicht die zentrale Frage: Wie stark ist ein einzelner Jasser aktuell wirklich einzuschätzen?\n\nDer Schieber ist ein Teamspiel: Das Blatt des Partners entscheidet mit. Neben dem Kartenglück ist die Zulosung der entscheidende Faktor. Unterschiedlich starke Partner und ungleiche Paarungen verzerren die Aussagekraft. Ein Bewertungssystem muss deshalb Partnerneutralität und Erwartungskorrektur leisten.\n\nDazu kommt die Trägheit kumulativer Werte: Bei grossem Datensatz verändert ein einzelnes Spiel die Gesamtbilanz kaum, ein starker Jasser ist praktisch nicht mehr einzuholen und die aktuelle Form bleibt unsichtbar. Jass-Elo bewertet jedes Spiel neu im Verhältnis zur Erwartung. So wird die kurzfristige Form sichtbar, ohne die langfristige Stabilität zu verlieren.\n\n## Vergleich mit Schach\n\nDas Elo-System stammt aus dem Schach und misst die Spielstärke am binären Ergebnis (Sieg, Niederlage, Remis). Ein Jass-Spiel liefert mehr Information: die [Strichdifferenz](/begriffe/punktebegriffe/strich/) aus [Berg](/regeln/bergpreis/), Sieg, [Matsch](/begriffe/punktebegriffe/matsch/), Kontermatsch und [Schneider](/regeln/punktezaehlung/schneider/). Jass-Elo übernimmt die Elo-Grundidee, erweitert sie aber: Statt Sieg oder Niederlage zählt der Anteil der erzielten Striche (kontinuierlich, berücksichtigt die Dominanz eines Spiels), und die Partnerkonstellation fliesst über die gemeinsamen Elo-Punkte in den Ausgangswert ein.\n\n## Parameter\n\n| Parameter | Wert |\n|---|---|\n| K-Faktor | 32 |\n| Skala S | 1000 |\n| Start-Rating | 100 |\n\nDie breite Skala S = 1000 trägt dem Umstand Rechnung, dass beim Schieber der Glücksfaktor grösser ist und die Ratings enger beieinander liegen. Sie vergrössert die Ausprägungen. Aus demselben Grund liegt das Start-Rating bei 100 (nicht 1000), damit die Unterschiede intuitiv bleiben. Der K-Faktor bestimmt die Anpassungsgeschwindigkeit. Er wurde 1970 von der FIDE mit dem Wert 32 eingeführt (im Schach granular: 40 für junge, 20 für normale, 10 für erfahrene Spieler). Beim Jassen kann auf diese Granularität verzichtet werden, da sich ständig neue Teams bilden. Ein fixer K-Faktor von 32 ab dem ersten Spiel hält die Rangliste dynamisch und belohnt zugleich Konstanz.\n\n## Formeln\n\nTeamrating als Mittelwert beider Partner:\n\n$$R_{\\text{Team}} = \\frac{R_1 + R_2}{2}$$\n\nErwartungswert für Team A:\n\n$$E_A = \\frac{1}{1 + 10^{(R_B - R_A)/1000}}$$\n\nErwartete und tatsächliche Strichdifferenz:\n\n$$\\text{Erwartete Diff.} = (2E_A - 1)\\cdot \\text{TotalStriche} \\qquad \\text{Tatsächliche Diff.} = \\text{Striche}_A - \\text{Striche}_B$$\n\nAbweichung und Leistung von Team A:\n\n$$\\text{Deviation} = \\text{Tatsächliche Diff.} - \\text{Erwartete Diff.} \\qquad S_A = \\max\\left(0,\\ \\min\\left(1,\\ 0.5 + \\frac{\\text{Deviation}}{2 \\times 7}\\right)\\right)$$\n\nRating-Update (Team und Spieler):\n\n$$\\Delta_A = K\\,(S_A - E_A), \\qquad \\Delta_B = -\\Delta_A, \\qquad \\Delta_{\\text{Spieler}} = \\frac{\\Delta_{\\text{Team}}}{2}, \\qquad K = 32$$\n\nAls höchstmöglicher Sieg wird 7:0 angenommen (1 Berg-, 2 Sieg-, 2 Matsch- und 2 Schneider-Striche). Höhere Strichdifferenzen pro Spiel sind vernachlässigbar. Daher dient maxDiff = 7 als maximale erwartete Strichdifferenz, und das Ergebnis wird auf den Bereich von 0 bis 1 beschränkt.\n\nDie 32 bezieht sich auf die Team-Rating-Änderung. Da jeder Spieler die Hälfte der Team-Änderung erhält, entspricht die effektive Änderung pro Spieler einem K-Faktor von 16. Beispiel: Erhält Team A eine Änderung von +8, bekommen beide Spieler von Team A je +4 Punkte, beide von Team B je −4.\n\n## Eigenschaften\n\n- Zero-Sum: Die Summe aller Ratingänderungen eines Spiels ist 0.\n- Kontinuierliche Belohnung und Bestrafung: Die Abweichung vom Erwartungswert bestimmt die Höhe der Änderung.\n- Teamgerecht: Stärkere Teams verlieren bei Unterperformance, schwächere gewinnen bei Überperformance.\n- Responsiv und konstant zugleich: Der K-Faktor reagiert auf einzelne Spiele, belohnt aber langfristige Konstanz.\n- Intuitive Skala und globaler, gruppenübergreifend vergleichbarer Skill.\n\n## Praktische Umsetzung\n\nNeue Spieler starten bei 100. Als Datenbasis dienen Teamaufstellungen, Striche und Zeitstempel. Die Verarbeitung erfolgt chronologisch über alle Spiele. Die Ergebnisse werden gruppenunabhängig pro Spieler gespeichert und in Jassgruppen und Turnieren gespiegelt.\n\n**Live-Beispiel:** Eine echte Gruppen-Rangliste mit Jass-Elo siehst du auf [jassguru.ch](https://jassguru.ch/view/group/Tz0wgIHMTlhvTtFastiJ/).\n\n## Beispiele\n\n- Favorit gewinnt knapp ($S_A \\approx E_A$): kleine Änderungen.\n- Aussenseiter übertrifft die Erwartung ($S_A \\gg E_A$): deutliche Gewinne für das Aussenseiter-Team.\n- Strichgleichstand, etwa 3:3 ($S_A = 0.5$): das favorisierte Team verliert leicht, der Aussenseiter gewinnt leicht.\n\n## Anwendungsfälle\n\nGruppenstatistiken (Vergleichbarkeit bei wechselnden Partnern und Gegnern), Turniere (eine zweite objektive Rangliste analog zur Brutto-/Netto-Wertung im Golf oder reine Elo-Turniere), ewige Ranglisten über Jahre hinweg, Fairness in Online-Formaten sowie die objektive Einzelbewertung im Liga- und Gruppenformat.\n\n## Ausblick: Punkt-basierte Erweiterung\n\nIn vielen Turnieren und Online-Formaten wird auf Punktbasis statt auf Strichbasis gespielt. Jass-Elo ist direkt übertragbar, wenn das Ergebnis analog als Deviation-Formel formuliert wird:\n\n$$\\text{Deviation} = (\\text{Punkte}_A - \\text{Punkte}_B) - (2E_A - 1)\\cdot \\text{TargetPoints}$$\n\n$$S_A = \\max\\left(0,\\ \\min\\left(1,\\ 0.5 + \\frac{\\text{Deviation}}{2 \\times \\text{TargetPoints}}\\right)\\right)$$\n\nTargetPoints ist die Zielpunktzahl pro Runde (zum Beispiel 2000 oder 5000). Damit werden Multiplikatoren und unterschiedliche Zielpunkte neutralisiert. Da jassguru.ch sowohl die Strich- als auch die Punktbilanz erfasst, lässt sich der K-Faktor zusätzlich pro Regelwerk anhand der Streuung von $S - E$ kalibrieren:\n\n$$K_{\\text{Regel}} = K_{\\text{Ref}} \\cdot \\frac{\\sigma_{\\text{Ref}}}{\\sigma_{\\text{Regel}}}$$\n\nDabei ist $\\sigma$ die empirische Standardabweichung von $S - E$ und das Strichmodell die Referenz. So entsteht ein universelles Jass-Elo, das sich für Strich- und Punkt-basierte Turniere gleichermassen eignet.\n\n## Rating-Tiers\n\nIn der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schritten von 5 Punkten ergänzt:\n\n| Ab Rating | Tier |\n|---|---|\n| ≥ 150 | Göpf Egg 👼 |\n| ≥ 145 | Jassgott 🔱 |\n| ≥ 140 | Jasskönig 👑 |\n| ≥ 135 | Grossmeister 🏆 |\n| ≥ 130 | Jasser mit Auszeichnung 🎖 |\n| ≥ 125 | Diamantjasser II 💎 |\n| ≥ 120 | Diamantjasser I 💍 |\n| ≥ 115 | Goldjasser 🥇 |\n| ≥ 110 | Silberjasser 🥈 |\n| ≥ 105 | Bronzejasser 🥉 |\n| ≥ 100 | Jassstudent (Start) 🎓 |\n| ≥ 95 | Kleeblatt vierblättrig 🍀 |\n| ≥ 90 | Kleeblatt dreiblättrig ☘️ |\n| ≥ 85 | Sprössling 🌱 |\n| ≥ 80 | Hahn 🐓 |\n| ≥ 75 | Huhn 🐔 |\n| ≥ 70 | Kücken 🐥 |\n| ≥ 65 | Chlaus 🎅 |\n| ≥ 60 | Chäs 🧀 |\n| ≥ 55 | Ente 🦆 |\n| ≥ 50 | Gurke 🥒 |\n| < 50 | Just Egg 🥚 |\n\n## Quellen\n\n- Elo-Zahl – Wikipedia\n- FIDE Handbook: Rating Regulations (2023)\n- Arpad E. Elo (1978): The Rating of Chessplayers, Past and Present. Arco Publishing.\n- Mark E. Glickman (1999): Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society, Series C, 48(3), 377–394.\n- Mark E. Glickman (1995): The Glicko System. Boston University.",
+    "text": "Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/), das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner abbildet. Statt nur Sieg oder Niederlage nutzt es die [Strichdifferenz](/begriffe/punktebegriffe/strich/) als feineres Leistungsmass. Entwickelt vom Jassverband Schweiz (JVS), im Einsatz auf jassguru.ch.\n\n## Warum ein Rating-System?\n\nBeim Schieber hängt die individuelle Gewinnerwartung stark davon ab, wie Partner und Gegner ausgelost werden. Herkömmliche Strich- und Punktelisten dokumentieren Ergebnisse, sagen aber nichts über die individuelle Spielstärke aus. Das Elo-System schliesst diese Lücke. Es stammt aus dem Schach und ist heute in vielen Sportarten und E-Sport-Ligen im Einsatz:\n\n- Vor jedem Spiel gibt es eine Erwartung, wie viele Punkte ein Team aufgrund der Erfahrungswerte holen sollte.\n- Nach dem Spiel wird die tatsächliche Leistung gemessen.\n- Wer besser abschneidet als erwartet, steigt im Rating. Wer darunter bleibt, verliert Punkte.\n\nDas Ergebnis ist eine laufend aktualisierte Zahl als objektiver Indikator der Spielstärke, unabhängig von Partner oder Gegner.\n\n## Problemstellung\n\nKumulative Ranglisten sind wertvoll, beantworten aber nicht die zentrale Frage: Wie stark ist ein einzelner Jasser aktuell wirklich einzuschätzen?\n\nDer Schieber ist ein Teamspiel: Das Blatt des Partners entscheidet mit. Neben dem Kartenglück ist die Zulosung der entscheidende Faktor. Unterschiedlich starke Partner und ungleiche Paarungen verzerren die Aussagekraft. Ein Bewertungssystem muss deshalb Partnerneutralität und Erwartungskorrektur leisten.\n\nDazu kommt die Trägheit kumulativer Werte: Bei grossem Datensatz verändert ein einzelnes Spiel die Gesamtbilanz kaum, ein starker Jasser ist praktisch nicht mehr einzuholen und die aktuelle Form bleibt unsichtbar. Jass-Elo bewertet jedes Spiel neu im Verhältnis zur Erwartung. So wird die kurzfristige Form sichtbar, ohne die langfristige Stabilität zu verlieren.\n\n## Vergleich mit Schach\n\nDas Elo-System stammt aus dem Schach und misst die Spielstärke am binären Ergebnis (Sieg, Niederlage, Remis). Ein Jass-Spiel liefert mehr Information: die [Strichdifferenz](/begriffe/punktebegriffe/strich/) aus [Berg](/regeln/bergpreis/), Sieg, [Matsch](/begriffe/punktebegriffe/matsch/), Kontermatsch und [Schneider](/regeln/punktezaehlung/schneider/). Jass-Elo übernimmt die Elo-Grundidee, erweitert sie aber: Statt Sieg oder Niederlage zählt der Anteil der erzielten Striche (kontinuierlich, berücksichtigt die Dominanz eines Spiels), und die Partnerkonstellation fliesst über die gemeinsamen Elo-Punkte in den Ausgangswert ein.\n\n## Parameter\n\n| Parameter | Wert |\n|---|---|\n| K-Faktor | 32 |\n| Skala S | 1000 |\n| Start-Rating | 100 |\n\nDie breite Skala S = 1000 trägt dem Umstand Rechnung, dass beim Schieber der Glücksfaktor grösser ist und die Ratings enger beieinander liegen. Sie vergrössert die Ausprägungen. Aus demselben Grund liegt das Start-Rating bei 100 (nicht 1000), damit die Unterschiede intuitiv bleiben. Der K-Faktor bestimmt die Anpassungsgeschwindigkeit. Er wurde 1970 von der FIDE mit dem Wert 32 eingeführt (im Schach granular: 40 für junge, 20 für normale, 10 für erfahrene Spieler). Beim Jassen kann auf diese Granularität verzichtet werden, da sich ständig neue Teams bilden. Ein fixer K-Faktor von 32 ab dem ersten Spiel hält die Rangliste dynamisch und belohnt zugleich Konstanz.\n\n## Formeln\n\nTeamrating als Mittelwert beider Partner:\n\n$$R_{\\text{Team}} = \\frac{R_1 + R_2}{2}$$\n\nErwartungswert für Team A:\n\n$$E_A = \\frac{1}{1 + 10^{(R_B - R_A)/1000}}$$\n\nErwartete und tatsächliche Strichdifferenz:\n\n$$\\text{Erwartete Diff.} = (2E_A - 1)\\cdot \\text{TotalStriche} \\qquad \\text{Tatsächliche Diff.} = \\text{Striche}_A - \\text{Striche}_B$$\n\nAbweichung und Leistung von Team A:\n\n$$\\text{Deviation} = \\text{Tatsächliche Diff.} - \\text{Erwartete Diff.} \\qquad S_A = \\max\\left(0,\\ \\min\\left(1,\\ 0.5 + \\frac{\\text{Deviation}}{2 \\times 7}\\right)\\right)$$\n\nRating-Update (Team und Spieler):\n\n$$\\Delta_A = K\\,(S_A - E_A), \\qquad \\Delta_B = -\\Delta_A, \\qquad \\Delta_{\\text{Spieler}} = \\frac{\\Delta_{\\text{Team}}}{2}, \\qquad K = 32$$\n\nAls höchstmöglicher Sieg wird 7:0 angenommen (1 Berg-, 2 Sieg-, 2 Matsch- und 2 Schneider-Striche). Höhere Strichdifferenzen pro Spiel sind vernachlässigbar. Daher dient maxDiff = 7 als maximale erwartete Strichdifferenz, und das Ergebnis wird auf den Bereich von 0 bis 1 beschränkt.\n\nDie 32 bezieht sich auf die Team-Rating-Änderung. Da jeder Spieler die Hälfte der Team-Änderung erhält, entspricht die effektive Änderung pro Spieler einem K-Faktor von 16. Beispiel: Erhält Team A eine Änderung von +8, bekommen beide Spieler von Team A je +4 Punkte, beide von Team B je −4.\n\n## Eigenschaften\n\n- Zero-Sum: Die Summe aller Ratingänderungen eines Spiels ist 0.\n- Kontinuierliche Belohnung und Bestrafung: Die Abweichung vom Erwartungswert bestimmt die Höhe der Änderung.\n- Teamgerecht: Stärkere Teams verlieren bei Unterperformance, schwächere gewinnen bei Überperformance.\n- Responsiv und konstant zugleich: Der K-Faktor reagiert auf einzelne Spiele, belohnt aber langfristige Konstanz.\n- Intuitive Skala und globaler, gruppenübergreifend vergleichbarer Skill.\n\n## Praktische Umsetzung\n\nNeue Spieler starten bei 100. Als Datenbasis dienen Teamaufstellungen, Striche und Zeitstempel. Die Verarbeitung erfolgt chronologisch über alle Spiele. Die Ergebnisse werden gruppenunabhängig pro Spieler gespeichert und in Jassgruppen und Turnieren gespiegelt.\n\n**Live-Beispiel:** Eine echte Gruppen-Rangliste mit Jass-Elo siehst du auf [jassguru.ch](https://jassguru.ch/view/group/Tz0wgIHMTlhvTtFastiJ/).\n\n## Beispiele\n\n- Favorit gewinnt knapp ($S_A \\approx E_A$): kleine Änderungen.\n- Aussenseiter übertrifft die Erwartung ($S_A \\gg E_A$): deutliche Gewinne für das Aussenseiter-Team.\n- Strichgleichstand, etwa 3:3 ($S_A = 0.5$): das favorisierte Team verliert leicht, der Aussenseiter gewinnt leicht.\n\n## Anwendungsfälle\n\nGruppenstatistiken (Vergleichbarkeit bei wechselnden Partnern und Gegnern), Turniere (eine zweite objektive Rangliste analog zur Brutto-/Netto-Wertung im Golf oder reine Elo-Turniere), ewige Ranglisten über Jahre hinweg, Fairness in Online-Formaten sowie die objektive Einzelbewertung im Liga- und Gruppenformat.\n\n## Ausblick: Punkt-basierte Erweiterung\n\nIn vielen Turnieren und Online-Formaten wird auf Punktbasis statt auf Strichbasis gespielt. Jass-Elo ist direkt übertragbar, wenn das Ergebnis analog als Deviation-Formel formuliert wird:\n\n$$\\text{Deviation} = (\\text{Punkte}_A - \\text{Punkte}_B) - (2E_A - 1)\\cdot \\text{TargetPoints}$$\n\n$$S_A = \\max\\left(0,\\ \\min\\left(1,\\ 0.5 + \\frac{\\text{Deviation}}{2 \\times \\text{TargetPoints}}\\right)\\right)$$\n\nTargetPoints ist die Zielpunktzahl pro Runde (zum Beispiel 2000 oder 5000). Damit werden Multiplikatoren und unterschiedliche Zielpunkte neutralisiert. Da jassguru.ch sowohl die Strich- als auch die Punktbilanz erfasst, lässt sich der K-Faktor zusätzlich pro Regelwerk anhand der Streuung von $S - E$ kalibrieren:\n\n$$K_{\\text{Regel}} = K_{\\text{Ref}} \\cdot \\frac{\\sigma_{\\text{Ref}}}{\\sigma_{\\text{Regel}}}$$\n\nDabei ist $\\sigma$ die empirische Standardabweichung von $S - E$ und das Strichmodell die Referenz. So entsteht ein universelles Jass-Elo, das sich für Strich- und Punkt-basierte Turniere gleichermassen eignet.\n\n## Rating-Tiers\n\nIn der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schritten von 5 Punkten ergänzt:\n\n| Ab Rating | Tier |\n|---|---|\n| ≥ 150 | Göpf Egg 👼 |\n| ≥ 145 | Jassgott 🔱 |\n| ≥ 140 | Jasskönig 👑 |\n| ≥ 135 | Grossmeister 🏆 |\n| ≥ 130 | Jasser mit Auszeichnung 🎖 |\n| ≥ 125 | Diamantjasser II 💎 |\n| ≥ 120 | Diamantjasser I 💍 |\n| ≥ 115 | Goldjasser 🥇 |\n| ≥ 110 | Silberjasser 🥈 |\n| ≥ 105 | Bronzejasser 🥉 |\n| ≥ 100 | Jassstudent (Start) 🎓 |\n| ≥ 95 | Kleeblatt vierblättrig 🍀 |\n| ≥ 90 | Kleeblatt dreiblättrig ☘️ |\n| ≥ 85 | Sprössling 🌱 |\n| ≥ 80 | Hahn 🐓 |\n| ≥ 75 | Huhn 🐔 |\n| ≥ 70 | Kücken 🐥 |\n| ≥ 65 | Chlaus 🎅 |\n| ≥ 60 | Chäs 🧀 |\n| ≥ 55 | Ente 🦆 |\n| ≥ 50 | Gurke 🥒 |\n| < 50 | Just Egg 🥚 |\n\n## Quellen\n\n- Elo-Zahl, Wikipedia\n- FIDE Handbook: Rating Regulations (2023)\n- Arpad E. Elo (1978): The Rating of Chessplayers, Past and Present. Arco Publishing.\n- Mark E. Glickman (1999): Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society, Series C, 48(3), 377–394.\n- Mark E. Glickman (1995): The Glicko System. Boston University.",
     "metadata": {
       "id": "jass_elo_meta",
       "category": {
@@ -12504,7 +12504,7 @@
   },
   "bietrunde": {
     "id": "bietrunde",
-    "text": "Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele. Die Zahlen darin setzt jede Jassart selbst.\n\n## Der Ablauf\n\n1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt\n2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet: Sie nennt ein Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/). Sagen alle Spieler «fort», wird neu gegeben\n3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt «fort» und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort bindet ein «fort» erst, wenn schon ein Gebot gefallen ist\n4. Das Bieten geht so lange im Kreis herum, bis die Gegner des Höchstbietenden «fort» gesagt haben. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) beendet auch ein Doppeln das Bieten, beim [Pandur](/varianten/pandur/) die Ansage «Pandur mit»\n5. Der Meistbietende übernimmt das Spiel: Er ist der Spielübernehmer, beim Bieter heisst er König. Er bestimmt die Spielart, wo die Jassart sie ihm überlässt\n\nJedes Gebot liegt über dem vorherigen. Beim Sidi-Barrani, beim Bolschewik und beim Pandur spielt der Meistbietende auch die erste Karte aus, beim Bieter im ersten Spiel der König.\n\n## Was jede Jassart selbst festlegt\n\n| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |\n|---|---|---|\n| [Bieter zu dritt](/varianten/bieter/) | 600, in der Innerschweiz 500 | 10, in der Innerschweiz 5 |\n| [Bieter zu viert](/varianten/bieter/#bieter-zu-viert) | 350 | 10 |\n| [Bieter zu fünft](/varianten/bieter/#bieter-zu-fuenft) | 600 | 10 |\n| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |\n| [Palette](/varianten/palette/) | 110 | 1 |\n| [Pandur](/varianten/pandur/) | 100 | 10 |\n| [Sidi-Barrani](/varianten/sidi-barrani/) | 50 | 5 (beides Empfehlung des Jassverbands Schweiz) |\n\n## Was ein Gebot nennt\n\nBeim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter, beim Pandur und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Vier Farben stehen zur Wahl, jede bringt ihren Puur als höchsten Trumpf]]\n\nNeben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Das höchste Gebot ist vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch das höchste Gebot, angesagt mit 157, alle Punkte eines Spiels.\n\n## Wer mit wem spielt\n\nBeim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an, beim Pandur spielt er allein gegen die beiden anderen. Beim Bieter zu fünft nennt er eine Karte, beim Palette darf er eine verlangen, und wer sie hält, wird sein Partner.\n\n## Was das Gebot bindet\n\nBeim Sidi-Barrani, beim Bolschewik und beim Pandur gilt das Gebot für ein Spiel: Erreicht der Spielübernehmer die Zahl, schreibt seine Seite, verfehlt er sie, schreibt die Gegenseite, beim Pandur dazu der aussetzende Kartengeber. Beim Sidi-Barrani zählen dafür allein die Kartenpunkte, beim Pandur Kartenpunkte und Weis zusammen. Beim Bieter gilt das Gebot für die ganze Partie: Der König sammelt seine Punkte über mehrere Spiele und gewinnt, sobald er sein Gebot vor den 1000 der Bauernpartei erreicht. Wie viel jeweils auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).\n\nWer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen «fort» gesagt haben, steht das Spiel fest.",
+    "text": "Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. So läuft es in allen Bietspielen. Die Zahlen dazu legt jede Jassart selbst fest.\n\n## Der Ablauf\n\n1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt\n2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet: Sie nennt ein Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/). Sagen alle Spieler «fort», wird neu gegeben\n3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt «fort» und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort gilt ein «fort» erst endgültig, wenn vorher jemand geboten hat\n4. Das Bieten geht so lange im Kreis herum, bis die Gegner des Höchstbietenden «fort» gesagt haben. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) beendet auch ein Doppeln das Bieten, beim [Pandur](/varianten/pandur/) die Ansage «Pandur mit»\n5. Der Meistbietende übernimmt das Spiel: Er ist der Spielübernehmer, beim Bieter heisst er König. Er bestimmt die Spielart, sofern die Jassart ihm die Wahl lässt\n\nJedes Gebot liegt über dem vorherigen. Beim Sidi-Barrani, beim Bolschewik und beim Pandur spielt der Meistbietende auch die erste Karte aus, beim Bieter im ersten Spiel der König.\n\n## Was jede Jassart selbst festlegt\n\n| Bietspiel | Tiefstes Gebot | Kleinste Steigerung |\n|---|---|---|\n| [Bieter zu dritt](/varianten/bieter/) | 600, in der Innerschweiz 500 | 10, in der Innerschweiz 5 |\n| [Bieter zu viert](/varianten/bieter/#bieter-zu-viert) | 350 | 10 |\n| [Bieter zu fünft](/varianten/bieter/#bieter-zu-fuenft) | 600 | 10 |\n| [Bolschewik](/varianten/bolschewik-4-spieler/) | 90 | 5 |\n| [Palette](/varianten/palette/) | 110 | 1 |\n| [Pandur](/varianten/pandur/) | 100 | 10 |\n| [Sidi-Barrani](/varianten/sidi-barrani/) | 50 | 5 (beides Empfehlung des Jassverbands Schweiz) |\n\n## Was ein Gebot nennt\n\nBeim Sidi-Barrani und beim Bolschewik nennt ein Gebot beides: die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter, beim Pandur und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Vier Farben stehen zur Wahl, jede bringt ihren Puur als höchsten Trumpf]]\n\nNeben den vier Farben lassen mehrere Bietspiele Spielarten ohne Trumpf zu, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/). Das höchste Gebot ist vielerorts der [Matsch](/begriffe/punktebegriffe/matsch/): Beim Palette lässt sich ein «Matsch mit Partner» allein mit einem «Matsch alleine» überbieten, beim Sidi-Barrani ist der Matsch das höchste Gebot, angesagt mit 157, alle Punkte eines Spiels.\n\n## Wer mit wem spielt\n\nBeim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe/team/) vor dem Bieten fest. Beim Bieter zu dritt und zu viert tritt der Meistbietende als König gegen die übrigen Spieler an, beim Pandur spielt er allein gegen die beiden anderen. Beim Bieter zu fünft nennt er eine Karte, beim Palette darf er eine verlangen, und wer sie hält, wird sein Partner.\n\n## Was das Gebot bindet\n\nBeim Sidi-Barrani, beim Bolschewik und beim Pandur gilt das Gebot für ein Spiel: Erreicht der Spielübernehmer die Zahl, werden die Punkte seiner Seite gutgeschrieben, verfehlt er sie, der Gegenseite, beim Pandur dazu dem aussetzenden Kartengeber. Beim Sidi-Barrani zählen dafür allein die Kartenpunkte, beim Pandur Kartenpunkte und Weis zusammen. Beim Bieter gilt das Gebot für die ganze Partie: Der König sammelt seine Punkte über mehrere Spiele und gewinnt, sobald er sein Gebot vor den 1000 der Bauernpartei erreicht. Wie viel jeweils auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).\n\nWer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen «fort» gesagt haben, steht das Spiel fest.",
     "metadata": {
       "id": "bietrunde_meta",
       "category": {
@@ -12547,7 +12547,7 @@
       },
       {
         "question": "Was verspricht der Meistbietende?",
-        "answer": "Er verspricht die gebotene Punktzahl. Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt sie für ein Spiel: Erreicht er sie, schreibt seine Seite, verfehlt er sie, schreibt die Gegenseite, beim Pandur dazu der aussetzende Kartengeber. Beim Bieter gilt das Gebot für die ganze Partie, der König sammelt seine Punkte über mehrere Spiele."
+        "answer": "Er verspricht die gebotene Punktzahl. Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt sie für ein Spiel: Erreicht er sie, werden die Punkte seiner Seite gutgeschrieben, verfehlt er sie, der Gegenseite, beim Pandur dazu dem aussetzenden Kartengeber. Beim Bieter gilt das Gebot für die ganze Partie, der König sammelt seine Punkte über mehrere Spiele."
       },
       {
         "question": "Nennt ein Gebot auch die Trumpffarbe?",
