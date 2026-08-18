@@ -136,11 +136,13 @@ Gespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann 
 
 **Kategorie:** Varianten > Bietspiel
 
-Der Bieter, auch Steiger genannt, ist ein Bietspiel, zu Hause am Tisch für drei: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als Bauernpartei dagegen. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner. Beide Fassungen stehen weiter unten mit allem, was sich ändert. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Der Bieter, auch Steiger genannt, ist ein Bietspiel, zu Hause am Tisch für drei: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als Bauernpartei dagegen. **König** heisst auf dieser Seite durchgehend dieser Spieler, und der Name bleibt ihm die ganze Partie. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner. Beide Fassungen stehen weiter unten mit allem, was sich ändert. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 **Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.
 
-## Die Grundform
+## Bieter zu dritt
+
+Die Grundform des Spiels. Zu viert und zu fünft folgen weiter unten mit dem, was dort abweicht.
 
 • Drei Spieler, ein volles Blatt mit 36 Karten
 • Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt
