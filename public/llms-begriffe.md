@@ -3,7 +3,7 @@ title: "JassWiki.ch - Jass-Glossar"
 description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 71
+entries_count: 70
 last_updated: 2026-08-18
 format: "markdown"
 encoding: "utf-8"
@@ -68,7 +68,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Kontermatsch](#expressions_kontermatsch)
 - [Minuspunkte](#expressions_minuspunkte)
 - [Offene Ansage](#expressions_offene_ansage)
-- [Passen/Fort](#expressions_passen)
 - [Rauben](#expressions_rauben)
 - [Solokarte](#expressions_solokarte)
 - [Tisch-Weis](#expressions_tisch_weis)
@@ -744,12 +743,12 @@ Grundkonzept:
 • Der Stapel umfasst Karten, die während des Spiels möglicherweise aufgenommen werden können
 
 Wichtiger Unterschied:
-• Der Stapel unterscheidet sich vom Stöck
+• Der Stapel unterscheidet sich vom Stock: So heissen Karten, die aus dem Spiel bleiben, etwa die acht Karten beim Pandur zu zweit
 • Beide Begriffe werden manchmal ähnlich verwendet, sind aber nicht identisch
 
 **Häufige Fragen:**
 - **Was ist der Stapel beim Jassen?** Der Stapel umfasst Karten, die während des Spiels möglicherweise aufgenommen werden können.
-- **Was ist der Unterschied zwischen Stapel und Stöck?** Der Stapel und der Stöck werden manchmal ähnlich verwendet, bezeichnen aber unterschiedliche Kartenstapel je nach Spielvariante.
+- **Was ist der Unterschied zwischen Stapel und Stock?** Der Stapel ist der Haufen, von dem gegeben wird. Der Stock sind Karten, die aus dem Spiel bleiben, etwa die acht Karten beim Pandur zu zweit. Die Stöck sind etwas anderes: König und Ober der Trumpffarbe, ein Weis.
 - **Wer nimmt Karten vom Stapel?** Der Spieler links vom Geber nimmt die Karten beim Abheben (Ablupf) vom Stapel.
 
 *Keywords: stapel*
@@ -946,7 +945,7 @@ Strategische Vorteile:
 **Häufige Fragen:**
 - **Was ist die Vorhand beim Jassen?** Die Vorhand ist der Spieler, der rechts vom Geber sitzt und als Erster eine Karte ausspielt.
 - **Welche Vorteile hat die Vorhand?** Die Vorhand hat den ersten Zug und kann damit den Rhythmus des Spiels mitbestimmen.
-- **Wer sitzt wo beim Schieber?** Die Vorhand sitzt rechts vom Geber, gegenüber sitzt die Hinterhand (Partner), links vom Geber die Mittelhand.
+- **Wer sitzt wo beim Schieber?** Die Vorhand sitzt rechts vom Geber. Ihr Partner, die Hinterhand, sitzt ihr gegenüber, also links vom Geber. Die Mittelhand sitzt dem Geber gegenüber.
 
 *Keywords: vorhand*
 
@@ -994,15 +993,13 @@ Definition:
 
 **Kategorie:** Begriffe > Spielaktionen
 
-Definition:
-Fort ist die Bemerkung, mit der ein Spieler beim Bieten erklärt, dass er kein Gebot mehr macht. «Ich passe» heisst dasselbe.
+Fort ist die Ansage, mit der ein Spieler beim Bieten aussteigt: Er macht kein Gebot mehr. «Ich passe» heisst dasselbe.
 
-Verwendung:
-Die Bemerkung gehört zu allen Bietspielen: Sidi-Barrani, Pandur, Bieter und weitere. Was ein «fort» bewirkt, regelt jede Jassart selbst. Beim Sidi-Barrani und beim Pandur empfiehlt der Verband, dass es für dieses Bieten endgültig gilt: Wer draussen ist, bleibt draussen. Beim Bieter bindet ein «fort» erst, wenn schon ein Gebot gefallen ist. Wer vorher passt, darf einsteigen, sobald jemand bietet.
+Die Ansage gibt es in allen Bietspielen: Sidi-Barrani, Pandur, Bieter und weitere. Was ein «fort» bewirkt, regelt jede Jassart selbst. Beim Pandur gilt es endgültig, Müller sagt das für den ersten Umgang, der Verband für das ganze Bieten, und beim Sidi-Barrani empfiehlt der Verband dasselbe: Wer draussen ist, bleibt draussen. Beim Bieter bindet ein «fort» erst, wenn schon ein Gebot gefallen ist. Wer vorher passt, darf einsteigen, sobald jemand bietet.
 
 **Häufige Fragen:**
-- **Was bedeutet Fort beim Jassen?** Fort ist die Bemerkung, mit der ein Spieler beim Bieten erklärt, dass er kein Gebot mehr macht. «Ich passe» heisst dasselbe.
-- **Wann sagt man Fort?** Beim Bieten, sobald ein Spieler das laufende Gebot stehen lässt. Beim Sidi-Barrani und beim Pandur gilt es nach Empfehlung des Verbands für dieses Bieten endgültig, beim Bieter bindet es erst nach dem ersten Gebot.
+- **Was bedeutet Fort beim Jassen?** Fort ist die Ansage, mit der ein Spieler beim Bieten aussteigt. «Ich passe» heisst dasselbe.
+- **Wann sagt man Fort?** Beim Bieten, sobald ein Spieler das laufende Gebot stehen lässt. Beim Pandur und nach Empfehlung des Verbands auch beim Sidi-Barrani gilt es für dieses Bieten endgültig, beim Bieter bindet es erst nach dem ersten Gebot.
 - **Ist Fort das gleiche wie Passen?** Ja, Fort und Passen bedeuten dasselbe beim Jassen.
 
 *Keywords: fort, bieter, steiger*
@@ -1014,7 +1011,7 @@ Die Bemerkung gehört zu allen Bietspielen: Sidi-Barrani, Pandur, Bieter und wei
 **Kategorie:** Begriffe > Grundbegriffe
 
 Definition:
-Hindersi sind Spielvarianten mit umgekehrter Punktezählung (z.B. Misère oder Monotov).
+Hindersi sind Spielvarianten mit umgekehrter Punktezählung (z.B. Misère oder Molotow).
 
 Spielziel:
 Das Ziel ist es, möglichst wenige Kartenpunkte zu erreichen, was eine völlig andere Spielstrategie erfordert als beim normalen Jass. Wer die wenigsten Punkte sammelt, gewinnt diese Variante.
@@ -1128,25 +1125,6 @@ Strategie:
 - **Welche Strategie ermöglicht die offene Ansage?** Die offene Ansage ermöglicht bessere Planung, da alle Teilnehmer die Einschätzungen der anderen einbeziehen können.
 
 *Keywords: offene ansage, differenzler*
-
----
-
-### Passen/Fort {#expressions_passen}
-
-**Kategorie:** Begriffe > Spielaktionen
-
-Definition:
-Passen (oder Fort) ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte.
-
-Besonders relevant:
-Diese Spielaktion kommt besonders bei der Jassart Bieter (auch Steiger genannt) häufig zum Einsatz und beendet die Bietphase für den jeweiligen Spieler.
-
-**Häufige Fragen:**
-- **Was bedeutet Passen beim Jassen?** Passen ist die Bemerkung, die ein Spieler äussert, wenn er kein Angebot mehr machen kann oder möchte.
-- **Wann sagt man Passen?** Man sagt Passen besonders bei der Jassart Bieter, um anzuzeigen, dass man nicht mehr mitbieten möchte.
-- **Ist Passen das gleiche wie Fort?** Ja, Passen und Fort sind synonyme Begriffe und bedeuten dasselbe.
-
-*Keywords: passen, fort*
 
 ---
 
@@ -1416,42 +1394,34 @@ Taktischer Zweck:
 
 **Kategorie:** Begriffe > Spielaktionen
 
-Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Kontern ist die Antwort der Gegenseite, die an ihrem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird. Die Aufgabe am Tisch bleibt dieselbe.
+Doppeln heisst: Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und erhöht den Einsatz. Kontern ist die Antwort des trumpfmachenden Teams, das an seinem Gebot festhält. Beides erhöht, was am Schluss geschrieben wird. Die Aufgabe am Tisch bleibt dieselbe.
 
 ## Was sich ändert
 
-Gedoppelt wird der Schreibwert des Spiels. Das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert. Verfehlt er sie, schreibt ihn die Gegenseite.
+Gedoppelt wird, was am Schluss geschrieben wird. Das Ziel in Kartenpunkten bleibt, wie es geboten wurde. Wer 120 geboten hat und gedoppelt wird, hat weiterhin 120 Kartenpunkte zu holen. Erreicht er sie, schreibt seine Seite den erhöhten Wert. Verfehlt er sie, schreibt ihn die Gegenseite.
 
-Beim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und jeder Schritt verdoppelt ihn:
-
-| Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |
-|---|---|---|
-| einfach | 120 | 120 |
-| gedoppelt | 120 | 240 |
-| gedoppelt und gekontert | 120 | 480 |
-
-Nach dem Kontern stehen die Zielpunkte fest.
+Beim [Sidi-Barrani](/varianten/sidi-barrani/) heisst dieser Wert Zielpunkte, und jeder Schritt verdoppelt ihn: Aus 120 werden gedoppelt 240 und gekontert 480, zu holen bleiben 120 Kartenpunkte. Nach dem Kontern stehen die Zielpunkte fest.
 
 ## Wann gedoppelt wird
 
-Das Doppeln beendet das Bieten. Gespielt wird das zuletzt genannte Gebot. Der Jassverband Schweiz empfiehlt dafür ein klares Fenster: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
+Das Doppeln beendet das Bieten. Gespielt wird das zuletzt genannte Gebot. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. So empfiehlt es der Jassverband Schweiz, Genaueres steht beim Sidi-Barrani. Beim [Bolschewik](/varianten/bolschewik-4-spieler/) fällt die erste Karte, sobald alle übrigen Spieler passen oder ein Gegner doppelt. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln auch noch beim Ausspielen der ersten Karte zu.
 
 Bis wann das Doppeln offensteht, macht die Runde vor der Partie ab. Diese Abmachung gilt als [Tischregel](/regeln/tischregel/) für die ganze Partie.
 
-## Wie stark es wirkt, setzt die Jassart
+## Was das Doppeln wert ist, regelt jede Jassart
 
-Der Sidi-Barrani verdoppelt den Schreibwert mit jedem Schritt. Beim Bolschewik trägt ein gebotener Matsch 1028 Punkte, gedoppelt 1542.
+Der Sidi-Barrani verdoppelt die Zielpunkte mit jedem Schritt. Beim Bolschewik legt das Doppeln den Wert des Matschs noch einmal dazu: Der gebotene Matsch zählt 1028 Punkte, gedoppelt 1542.
 
 ## Kontern und Kontermatsch
 
-Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermatsch](/regeln/punktezaehlung/kontermatsch/) bezeichnet etwas anderes, nämlich den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
+Kontern verdoppelt die Zielpunkte ein zweites Mal. Der [Kontermatsch](/regeln/punktezaehlung/kontermatsch/) bezeichnet etwas anderes, nämlich den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
 
 **Häufige Fragen:**
-- **Was heisst doppeln beim Jassen?** Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und setzt dagegen. Das Doppeln beendet das Bieten, und der Schreibwert des Spiels steigt für beide Seiten.
+- **Was heisst doppeln beim Jassen?** Ein Gegner hält das Gebot des Spielübernehmers für zu hoch und erhöht den Einsatz. Das Doppeln beendet das Bieten, und was am Schluss geschrieben wird, steigt für beide Seiten.
 - **Ändert das Doppeln das Ziel in Kartenpunkten?** Zu holen bleibt die gebotene Punktzahl. Gedoppelt wird der Wert, den eine Seite am Schluss schreibt.
-- **Was heisst kontern?** Kontern ist die Antwort des Spielübernehmers auf ein Doppeln: Er hält an seinem Gebot fest, und der Schreibwert steigt ein weiteres Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
-- **Ist Kontern dasselbe wie ein Kontermatsch?** Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
-- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. Danach ist dieses Gebot fürs Doppeln vorbei. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
+- **Was heisst kontern?** Kontern ist die Antwort des trumpfmachenden Teams auf ein Doppeln: Der Spielübernehmer oder sein Partner hält am Gebot fest, und die Zielpunkte verdoppeln sich ein zweites Mal. Beim Sidi-Barrani werden aus einem Gebot von 120 auf diesem Weg 240 und schliesslich 480 Zielpunkte, zu holen bleiben 120 Kartenpunkte.
+- **Ist Kontern dasselbe wie ein Kontermatsch?** Kontern ist die Antwort auf ein Doppeln und verdoppelt die Zielpunkte ein zweites Mal. Der Kontermatsch bezeichnet den Fall, dass das nicht trumpfmachende Team sämtliche Stiche holt.
+- **Bis wann darf gedoppelt werden?** Solange das Gebot steht, also bis der nächste Spieler bietet oder «fort» sagt. So empfiehlt es der Jassverband Schweiz. Eine verbreitete Variante des Sidi-Barrani lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu.
 
 *Keywords: doppeln, kontern, gedoppelt, gekontert, zielpunkte*
 
@@ -1461,12 +1431,12 @@ Kontern ist die Antwort auf ein Doppeln und betrifft die Punkte. Der [Kontermats
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Ecke ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Karo ♦ (französisch Carreau). In Deutschland heisst die Farbe Karo. Das Pendant auf den Deutschschweizer Karten ist [Schellen](/begriffe/kartenbezeichnungen/schellen/). Ecke, Karo und Schellen bezeichnen dieselbe Farbe: Der Ecke-König ist die gleiche Karte wie der Schellen-König, nur mit anderem Symbol. Wird Ecke als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Ecke?** Auf den Deutschschweizer Karten ist es Schellen. In Deutschland heisst die Farbe Karo.
-- **Heisst Ecke auch Karo?** Ja. Ecke ist die Westschweizer Bezeichnung, Karo die deutsche Standardbezeichnung für dieselbe Farbe (♦, französisch Carreau). Im Deutschschweizer Blatt heisst sie Schellen.
-- **Was ist Ecke beim Jassen?** Eine der vier Farben im französischen Blatt (Karo ♦), gleichbedeutend mit Schellen im Deutschschweizer Blatt.
+- **Heisst Ecke auch Karo?** Ja. Ecke ist das Schweizer Wort, in Deutschland heisst die Farbe Karo, auf Französisch Carreau.
+- **Wie heisst Ecke im Deutschschweizer Blatt?** Schellen. Der Ecke-König und der Schellen-König sind dieselbe Karte.
+- **Was gilt, wenn Ecke Trumpf ist?** Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14, beide stechen jede andere Karte.
 
 *Keywords: ecke, karo, schellen, carreau, diamonds*
 
@@ -1476,12 +1446,12 @@ Ecke ist eine der vier Farben im französischen Jasskartenblatt, das vor allem i
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Eichel ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Eichel. Das Pendant auf den französischen Karten, die vor allem in der Westschweiz gebräuchlich sind, ist [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (international das Kreuz ♣, französisch Trèfle). Eichel und Kreuz bezeichnen dieselbe Farbe: Der Eichel-König ist die gleiche Karte wie der Kreuz-König, nur mit anderem Symbol. Wird Eichel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle), der Eichel-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Eichel?** Auf den französischen Karten ist es Kreuz. Eichel und Kreuz bezeichnen dieselbe Farbe (international das Kreuz ♣, französisch Trèfle).
-- **Wie heisst Eichel auf den französischen Jasskarten?** Kreuz. Beide bezeichnen dieselbe Farbe.
-- **Was bedeutet Eichel beim Jassen?** Eichel ist eine der vier Farben im Deutschschweizer Blatt, dargestellt durch eine Eichel. Sie entspricht dem Kreuz im französischen Blatt.
+- **Wie heisst Eichel im französischen Blatt?** Kreuz, mit dem Zeichen ♣, französisch Trèfle.
+- **Was zeigt die Farbe Eichel?** Eine Eichel. Das Ass zeigt zwei, die Sechs bis Neun so viele, wie ihre Zahl sagt, das Banner eine Fahne mit dem Zeichen.
+- **Was gilt, wenn Eichel Trumpf ist?** Der Eichel-Under ist der Puur mit 20 Punkten und die Eichel-Neun das Nell mit 14, die beiden höchsten Karten im Spiel.
 
 *Keywords: eichel, kreuz, treff, trèfle, farbe*
 
@@ -1491,12 +1461,12 @@ Eichel ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol 
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Herz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das rote Herz ♥ (französisch Cœur). Das Pendant auf den Deutschschweizer Karten ist [Rosen](/begriffe/kartenbezeichnungen/rosen/). Herz und Rosen bezeichnen dieselbe Farbe: Der Herz-König ist die gleiche Karte wie der Rosen-König, nur mit anderem Symbol. Wird Herz als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch Cœur. Gejasst wird damit westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Rosen](/begriffe/kartenbezeichnungen/rosen/). Wird Herz Trumpf, sind der Herz-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Herz-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Herz?** Auf den Deutschschweizer Karten ist es Rosen. Herz und Rosen bezeichnen dieselbe Farbe.
-- **Wie heisst Herz auf den Deutschschweizer Jasskarten?** Rosen. Beide bezeichnen dieselbe Farbe (♥, französisch Cœur).
-- **Welche Farbe ist Herz beim Jassen?** Eine der vier Farben im französischen Blatt (♥), gleichbedeutend mit Rosen im Deutschschweizer Blatt.
+- **Wie heisst Herz im Deutschschweizer Blatt?** Rosen. Der Herz-König und der Rosen-König sind dieselbe Karte.
+- **Was zeigt die Farbe Herz?** Das rote Herz ♥, französisch Cœur.
+- **Was gilt, wenn Herz Trumpf ist?** Herz-Bube und Herz-Neun rücken an die Spitze: Puur 20 Punkte, Nell 14.
 
 *Keywords: herz, rosen, cœur, coeur, hearts*
 
@@ -1506,12 +1476,12 @@ Herz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem i
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Kreuz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Kreuz ♣ (französisch Trèfle). Das Pendant auf den Deutschschweizer Karten ist [Eichel](/begriffe/kartenbezeichnungen/eichel/). Kreuz und Eichel bezeichnen dieselbe Farbe: Der Kreuz-König ist die gleiche Karte wie der Eichel-König, nur mit anderem Symbol. Wird Kreuz als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/), der Kreuz-König und der Eichel-König sind dieselbe Karte in zwei Blättern. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Kreuz?** Auf den Deutschschweizer Karten ist es Eichel. Kreuz und Eichel bezeichnen dieselbe Farbe.
-- **Wie heisst Kreuz auf den Deutschschweizer Jasskarten?** Eichel. Beide bezeichnen dieselbe Farbe (♣, französisch Trèfle).
-- **Was ist Kreuz beim Jassen?** Eine der vier Farben im französischen Blatt (♣), gleichbedeutend mit Eichel im Deutschschweizer Blatt.
+- **Wie heisst Kreuz im Deutschschweizer Blatt?** Eichel. Der Kreuz-König und der Eichel-König sind dieselbe Karte.
+- **Was zeigt die Farbe Kreuz?** Das schwarze Kreuz ♣, französisch Trèfle.
+- **Was gilt, wenn Kreuz Trumpf ist?** Der Kreuz-Bube sticht als Puur alles und zählt 20, die Kreuz-Neun als Nell 14.
 
 *Keywords: kreuz, eichel, treff, trèfle, clubs*
 
@@ -1521,12 +1491,12 @@ Kreuz ist eine der vier Farben im französischen Jasskartenblatt, das vor allem 
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die rote Rose. Das Pendant auf den französischen Karten ist [Herz](/begriffe/kartenbezeichnungen/herz/) (international das Herz ♥, französisch Cœur). Rosen und Herz bezeichnen dieselbe Farbe: Der Rosen-König ist die gleiche Karte wie der Herz-König, nur mit anderem Symbol. Wird Rosen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die Rose, gelb mit roter Mitte, und der Rosen-Under hält auf dem Kartenbild eine Rose in der Hand und raucht Pfeife. Im französischen Blatt heisst dieselbe Farbe [Herz](/begriffe/kartenbezeichnungen/herz/) (♥, französisch Cœur). Wird Rosen Trumpf, sind der Rosen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Rosen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Rosen?** Auf den französischen Karten ist es Herz. Rosen und Herz bezeichnen dieselbe Farbe (♥, französisch Cœur).
-- **Wie heisst Rosen auf den französischen Jasskarten?** Herz. Beide bezeichnen dieselbe Farbe.
-- **Was bedeutet Rosen beim Jassen?** Rosen ist eine der vier Farben im Deutschschweizer Blatt, dargestellt durch eine Rose. Sie entspricht dem Herz im französischen Blatt.
+- **Wie heisst Rosen im französischen Blatt?** Herz, mit dem Zeichen ♥, französisch Cœur.
+- **Welche Farbe hat die Rose auf den Jasskarten?** Gelb mit roter Mitte, auf jeder Rosen-Karte des Deutschschweizer Blatts.
+- **Was gilt, wenn Rosen Trumpf ist?** Dann sind der Rosen-Under und die Rosen-Neun die beiden höchsten Karten im Spiel: der Puur mit 20 Punkten, das Nell mit 14.
 
 *Keywords: rosen, herz, cœur, coeur, farbe*
 
@@ -1536,12 +1506,12 @@ Rosen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol i
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor allem in der Westschweiz gebräuchlich ist. Ihr Symbol ist das schwarze Pik ♠ (französisch Pique). In Deutschland heisst die Farbe Pik. Das Pendant auf den Deutschschweizer Karten ist [Schilten](/begriffe/kartenbezeichnungen/schilten/). Schaufel, Pik und Schilten bezeichnen dieselbe Farbe: Der Schaufel-König ist die gleiche Karte wie der Schilten-König, nur mit anderem Symbol. Wird Schaufel als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schaufel heisst in der Schweiz die Farbe mit dem schwarzen Blatt ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Gejasst wird mit Schaufel westlich der Brünig-Napf-Reuss-Linie. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schaufel?** Auf den Deutschschweizer Karten ist es Schilten. In Deutschland heisst die Farbe Pik.
-- **Heisst Schaufel auch Pik?** Ja. Schaufel ist die Westschweizer Bezeichnung, Pik die deutsche Standardbezeichnung für dieselbe Farbe (♠, französisch Pique). Im Deutschschweizer Blatt heisst sie Schilten.
-- **Was ist Schaufel beim Jassen?** Eine der vier Farben im französischen Blatt (Pik ♠), gleichbedeutend mit Schilten im Deutschschweizer Blatt.
+- **Heisst Schaufel auch Pik?** Ja. Schaufel ist das Schweizer Wort, in Deutschland heisst die Farbe Pik, auf Französisch Pique.
+- **Wie heisst Schaufel im Deutschschweizer Blatt?** Schilten. Der Schaufel-König und der Schilten-König sind dieselbe Karte.
+- **Was gilt, wenn Schaufel Trumpf ist?** Dann ist der Schaufel-Bube der Puur mit 20 Punkten und die Schaufel-Neun das Nell mit 14.
 
 *Keywords: schaufel, pik, schilten, pique, spades*
 
@@ -1551,12 +1521,12 @@ Schaufel ist eine der vier Farben im französischen Jasskartenblatt, das vor all
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist die Schelle, ein kleines Glöckchen. Das Pendant auf den französischen Karten ist [Ecke](/begriffe/kartenbezeichnungen/ecke/), in Deutschland Karo (international das Karo ♦, französisch Carreau). Schellen, Ecke und Karo bezeichnen dieselbe Farbe: Der Schellen-König ist die gleiche Karte wie der Ecke-König, nur mit anderem Symbol. Wird Schellen als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau), in Deutschland Karo. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schellen?** Auf den französischen Karten ist es Ecke, in Deutschland Karo. Alle drei bezeichnen dieselbe Farbe (♦, französisch Carreau).
-- **Ist Schellen dasselbe wie Karo?** Ja. Schellen heisst auf den französischen Karten Ecke und in Deutschland Karo.
-- **Wie heisst Schellen auf den französischen Jasskarten?** Ecke. In Deutschland heisst die Farbe Karo.
+- **Wie heisst Schellen im französischen Blatt?** Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo.
+- **Ist Schellen dasselbe wie Karo?** Ja. Schellen im Deutschschweizer Blatt, Ecke im französischen und Karo in Deutschland sind dieselbe Farbe.
+- **Was zeigt die Farbe Schellen?** Eine Schelle, also ein kleines Glöckchen.
 
 *Keywords: schellen, ecke, karo, carreau, farbe*
 
@@ -1566,12 +1536,12 @@ Schellen ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbo
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schilten ist eine der vier Farben im Deutschschweizer Jasskartenblatt. Ihr Symbol ist der Schild. Das Pendant auf den französischen Karten ist [Schaufel](/begriffe/kartenbezeichnungen/schaufel/), in Deutschland Pik (international das Pik ♠, französisch Pique). Schilten, Schaufel und Pik bezeichnen dieselbe Farbe: Der Schilten-König ist die gleiche Karte wie der Schaufel-König, nur mit anderem Symbol. Wird Schilten als Trumpf angesagt, steigt der Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) (20 Punkte) und die Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) (14 Punkte) auf. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schilten ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist der Schild. Der Schilten-Under trägt auf dem Kartenbild einen Brief in der Hand. Im französischen Blatt heisst dieselbe Farbe [Schaufel](/begriffe/kartenbezeichnungen/schaufel/) (♠, französisch Pique), in Deutschland Pik, der Schilten-König und der Schaufel-König sind dieselbe Karte. Ist Schilten Trumpf, wird der Schilten-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schilten-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Was ist das Pendant zu Schilten?** Auf den französischen Karten ist es Schaufel, in Deutschland Pik. Alle drei bezeichnen dieselbe Farbe (♠, französisch Pique).
-- **Ist Schilten dasselbe wie Pik?** Ja. Schilten heisst auf den französischen Karten Schaufel und in Deutschland Pik.
-- **Wie heisst Schilten auf den französischen Jasskarten?** Schaufel. In Deutschland heisst die Farbe Pik.
+- **Wie heisst Schilten im französischen Blatt?** Schaufel, mit dem Zeichen ♠, französisch Pique. In Deutschland heisst die Farbe Pik.
+- **Ist Schilten dasselbe wie Pik?** Ja. Schilten im Deutschschweizer Blatt, Schaufel im französischen und Pik in Deutschland sind dieselbe Farbe.
+- **Was zeigt die Farbe Schilten?** Einen Schild, das Ass zeigt zwei.
 
 *Keywords: schilten, schaufel, pik, pique, farbe*
 

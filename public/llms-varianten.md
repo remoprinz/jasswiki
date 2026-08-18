@@ -136,26 +136,29 @@ Gespielt wird bis ein Spieler sieben Striche erreicht hat. Dieser scheidet dann 
 
 **Kategorie:** Varianten > Bietspiel
 
-Der Bieter, auch Steiger genannt, ist ein Bietspiel, zu Hause am Tisch für drei: Einer bietet eine Punktzahl und spielt als **König** allein, die beiden anderen halten als Bauernpartei dagegen. **König** heisst auf dieser Seite durchgehend dieser Spieler, und der Name bleibt ihm die ganze Partie. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner. Beide Fassungen stehen weiter unten mit allem, was sich ändert. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Der Bieter, auch Steiger genannt, ist ein Bietspiel für drei: Einer bietet eine Punktzahl und spielt als König allein, die beiden anderen halten als Bauernpartei dagegen. König heisst hier der Spieler, der das Spiel übernommen hat. Wo die Karte gemeint ist, steht sie in einer Kartenfolge, etwa im Dreiblatt vom König. Zu viert spielt der König gegen drei, zu fünft holt er sich einen Partner. Beide Fassungen stehen weiter unten mit allem, was sich ändert.
 
-**Das Ungewöhnliche am Bieter: Das Gebot gilt für die ganze Partie.** Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel trägt 157 Punkte, also braucht es mehrere.
+Grundlage dieses Artikels sind das Kapitel «Bieter (Steiger)» in Dani Müllers Jassführer «Stöck Wys Stich» (2015) und die Seite «Bieterjass» des Schweizer Jassverzeichnisses, die die Innerschweizer Praxis beschreibt. Wo Müller schweigt, steht die Empfehlung des [Jassverbands Schweiz](https://jassverband.ch), so gekennzeichnet. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+
+Beim Bieter gilt das Gebot für die ganze Partie. Der König sagt an, wie viele Punkte er bis zum Schluss zusammenbringt, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat gewonnen. Ein einzelnes Spiel hat 157 Punkte, also braucht es mehrere.
 
 ## Bieter zu dritt
 
-Die Grundform des Spiels. Zu viert und zu fünft folgen weiter unten mit dem, was dort abweicht.
+Die Grundform des Spiels. Alle Abschnitte bis zur Vergleichstabelle beschreiben diese Fassung, zu viert und zu fünft folgen danach mit dem, was dort abweicht.
 
 • Drei Spieler, ein volles Blatt mit 36 Karten
 • Im ersten Spiel liegen sechs Karten auf dem Tisch, drei offen und drei verdeckt. Sie gehören dem, der das Spiel übernimmt
 • Wer am höchsten bietet, ist der König. Die beiden anderen bilden für die ganze Partie die Bauernpartei
-• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte. Viele Runden fangen tiefer an, bei 500 mit Schritten von 5
+• Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte. In der Innerschweiz wird mit 500 begonnen und um 5 gesteigert
 • Die Bauernpartei spielt in jeder Partie auf 1000 Punkte
-• Farbzwang und Kartenwerte gelten wie sonst im Jass, und die erste Karte spielt wie sonst die Vorhand aus
+• Farbzwang und Kartenwerte gelten wie sonst im Jass
+• Im ersten Spiel spielt der König aus, ab dem zweiten Spiel die Vorhand. So hält es das Jassverzeichnis, Müller sagt dazu nichts
 • Wird falsch ausgeteilt, gibt der nächste Spieler
 • Eine neue Partie wird so gegeben, dass die Verlierer Vorhand haben
 
 ## Das Geben
 
-Das erste Spiel wird anders gegeben als alle folgenden, und darin steckt der ganze Reiz des Spiels.
+Das erste Spiel wird anders gegeben als alle folgenden.
 
 | | Erstes Spiel | Ab dem zweiten Spiel |
 |---|---|---|
@@ -164,15 +167,15 @@ Das erste Spiel wird anders gegeben als alle folgenden, und darin steckt der gan
 | Wer gibt | ein beliebiger Spieler | im zweiten Spiel der König, danach der Reihe nach im Gegenuhrzeigersinn |
 | Woher der Trumpf kommt | Der König sagt ihn an | Die unterste Karte nach dem Abheben |
 
-Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. **Im zweiten Spiel gibt der König, und die aufgedeckte Karte gehört ihm.** Sie bleibt, wo sie ist: Rauben gibt es in diesem Spiel keines. Für die folgenden Spiele, in denen der Reihe nach ein Bauer gibt, sagt die Quelle nichts. Der Verband empfiehlt die einfachste Fassung, die auch das Schweizer Jassverzeichnis hält: Die aufgedeckte Karte gehört dem, der gegeben hat.
+Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. Im zweiten Spiel gibt der König, und die aufgedeckte Karte gehört ihm: Sie ist eine seiner zwölf Karten und bleibt offen liegen, bis Vorhand ausspielt. Rauben gibt es in diesem Spiel keines. In den folgenden Spielen gehört die aufgedeckte Karte dem, der gegeben hat. So hält es das Jassverzeichnis, und so empfiehlt es der Verband, Müller sagt dazu nichts.
 
 ## Das Bieten
 
 Vorhand beginnt. Wer das Spiel übernehmen will, bietet mindestens 600 Punkte. Jedes weitere Gebot liegt mindestens 10 Punkte höher. Der Meistbietende wird König.
 
-**Die 600 sind die Zahl des Reglements, am Tisch wird oft tiefer angefangen.** Das Schweizer Jassverzeichnis spielt in der Innerschweiz mit einem Startgebot von 500 und Schritten von 5 Punkten und nennt 500, 600 und 650 als die gebräuchlichen Zahlen. Der Verband hält sich an die 600 des Reglements. Wer tiefer anfängt, senkt die Latte für den König: Bei 500 gegen 1000 genügen ihm rund 33 Prozent der Kartenpunkte, bei 600 sind es 37,5. Welche Zahl gilt, macht der Tisch vor der Partie ab.
+Die 600 stehen bei Müller, und das Jassverzeichnis nennt sie als Zahl des Reglements. Selbst spielt das Jassverzeichnis in der Innerschweiz mit 500 und Schritten von 5 und nennt 500, 600 und 650 als Beispiele. Der Verband hält sich an die 600. Wer tiefer anfängt, verlangt vom König weniger: Bei 500 gegen 1000 genügen ihm rund 33 Prozent der Kartenpunkte, bei 600 sind es 37,5. Welche Zahl gilt, macht der Tisch vor der Partie ab.
 
-**Eine Feinheit, die am Tisch oft falsch gehandhabt wird:** Wer «fort» oder «ich passe» sagt, **bevor überhaupt ein Gebot gefallen ist**, darf später noch einsteigen, sobald jemand bietet. Erst ein fort **nach** einem Gebot schliesst für dieses Spiel aus. Beim Sidi-Barrani empfiehlt der Verband, dass ein «fort» endgültig gilt. Der Bieter regelt es nach seiner Quelle anders.
+Ein fort vor dem ersten Gebot bindet nicht: Wer so passt, darf einsteigen, sobald jemand bietet. Erst ein «fort» nach einem Gebot schliesst für dieses Spiel aus. So steht es bei Müller. In der Innerschweiz gilt jedes «fort» endgültig. Welche Regel gilt, macht der Tisch vor der Partie ab.
 
 Bietet niemand, gibt der nachfolgende Spieler neu.
 
@@ -180,7 +183,7 @@ Bietet niemand, gibt der nachfolgende Spieler neu.
 
 Der König erhält die sechs Karten vom Tisch und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er ihr die drei Karten, die verdeckt lagen. Dann legt er sechs beliebige Karten aus seiner Hand ab, verdeckt und ohne Einsicht für die Gegner.
 
-**Und hier liegt der Kniff des ganzen Spiels: Die Punkte der abgelegten Karten gehören dem König.** Die Quelle rechnet sie am Ende der Partie zu seinen erspielten Kartenpunkten. Am Tisch schreibt man sie ihm gleich nach dem ersten Spiel gut, dann zeigt die Tafel jederzeit den Stand, und es läuft auf dasselbe hinaus. Er legt darum ab, was er im Spiel kaum heimbrächte, und behält, was Stiche holt. Gewiesen wird mit den Karten, die nach dem Ablegen in der Hand bleiben. So hält es das Schweizer Jassverzeichnis, die Quelle schweigt dazu.
+Die Punkte der abgelegten Karten gehören dem König. Müller zählt sie ihm am Ende der Partie zu den erspielten Kartenpunkten. Der Verband empfiehlt, sie gleich nach dem ersten Spiel zu schreiben, dann zeigt die Tafel jederzeit den Stand. Der König legt ab, was im Spiel kaum einen Stich holt, und behält, was sticht. Gewiesen wird mit den Karten, die nach dem Ablegen in der Hand bleiben. So hält es das Jassverzeichnis. Für das Ziel zählen die abgelegten Punkte so oder so.
 
 
 
@@ -195,11 +198,11 @@ Zum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm
 | Trumpffarbe | Die genannte Farbe sticht, Puur und Nell zählen 20 und 14 | Beide Parteien schreiben ihre Kartenpunkte |
 | Obenabe | Kein Trumpf, das Ass ist die höchste Karte, der Achter zählt 8 | Beide Parteien schreiben ihre Kartenpunkte |
 | Undenufe | Kein Trumpf, der Sechser ist die höchste Karte und zählt 11 | Beide Parteien schreiben ihre Kartenpunkte |
-| Hindersi, die Misère | Kein Trumpf, der König gibt jeden Stich ab | Bleibt der König ohne Stich, schreibt er den Matsch mit Prämie, 257. Holt er einen Stich, schreibt ihn die Bauernpartei, und er schreibt nur seinen Weis |
+| Hindersi, die Misère | Kein Trumpf, der König gibt jeden Stich ab | Bleibt der König ohne Stich, schreibt er den Matsch mit Prämie, 257. Holt er einen Stich, schreibt die Bauernpartei den Matsch mit Prämie, und er schreibt nur seinen Weis |
 
-**Was das Hindersi einbringt, sagt die Quelle nur für den Fehlschlag:** Holt der König einen Stich, schreibt die Bauernpartei den Matsch mit Prämie. Zum Gelingen schweigt sie. Der Verband liest die Ansage als Umkehrung des Matsches: Bleibt der König ohne Stich, hat er sein Ziel erreicht und schreibt die 257, die sonst die Bauernpartei schriebe. Wer es anders hält, macht es vor der Partie ab.
+Was ein gelungenes Hindersi einbringt, sagt Müller nur für den Fehlschlag: Holt der König einen Stich, schreibt die Bauernpartei den Matsch mit Prämie. Der Verband liest die Ansage als Umkehrung des Matsches: Bleibt der König ohne Stich, schreibt er die 257, und die Bauernpartei geht leer aus. Für die Stichfolge im Hindersi empfiehlt der Verband die Ordnung des Obenabe, Müller sagt dazu allein, dass das Ass die höchste Karte bleibt.
 
-**Jede Ansage hat ihre eigene Stichfolge.** Von links nach rechts, von der stärksten zur schwächsten:
+Jede Ansage hat ihre eigene Stichfolge, von der stärksten zur schwächsten Karte:
 
 
 
@@ -208,44 +211,41 @@ Zum ersten Spiel bestimmt der König, wie gespielt wird. Vier Ansagen stehen ihm
 ## Ab dem zweiten Spiel: der König entscheidet, ob er spielt
 
 
-Vom zweiten Spiel an sieht der König sein Blatt, bevor etwas geschrieben ist, und **er darf auf das Spiel verzichten**. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig. Allein Stöck darf die Bauernpartei zu den 257 dazuschreiben.
+Vom zweiten Spiel an darf der König auf das Spiel verzichten. Er sagt es, bevor die erste Karte fällt, so hält es das Jassverzeichnis. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig, allein Stöck darf die Bauernpartei zu den 257 dazuschreiben. Seine Stöck schreibt der König nur, wenn er mitspielt.
 
-**Seine Stöck schreibt der König nur, wenn er mitspielt.**
-
-**Warum verzichtet einer freiwillig?** Weil der Verzicht den Schaden deckelt. Wer ein hoffnungsloses Blatt hält und im Spiel keinen Stich holt, gibt 257 ab und dazu jeden fremden Weis, der beliebig hoch sein kann. Der Verzicht kostet dieselben 257 und löscht die Weise der Gegner bis auf die Stöck. Wer dagegen selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.
+Der Verzicht kostet 257 und löscht die Weise der Gegner bis auf die Stöck. Wer mitspielt und keinen Stich holt, gibt dieselben 257 ab und dazu jeden fremden Weis. Darum verzichtet, wer ein hoffnungsloses Blatt hält. Wer selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.
 
 ## Weis und Stöck
 
-Gewiesen wird nach den Weisregeln. Eine Besonderheit gilt beim Hindersi: **Bei gleich hohen Weisen entscheidet die wertvollere Karte.** Ein Dreiblatt vom König ist mehr als ein Dreiblatt vom Neuner, und das Ass bleibt auch hier die höchste Karte.
+Gewiesen wird nach den Weisregeln. Beim Hindersi gilt für den Weis die gewöhnliche Ordnung: Das Ass bleibt die höchste Karte, ein Dreiblatt vom König schlägt eines vom Neuner.
 
 ## Schreiben
 
 Nach jedem Spiel werden die Punkte notiert, beim König und bei der Bauernpartei getrennt.
 
-• Holt eine Seite alle Stiche, schreibt sie den Matsch mit Prämie, also 257 Punkte. Beim Hindersi ist es umgekehrt: Dort schreibt der König die 257, wenn er ohne Stich bleibt
+• Holt eine Seite alle Stiche, schreibt sie den Matsch mit Prämie, also 257 Punkte. Beim Hindersi ist es umgekehrt: Bleibt der König ohne Stich, schreibt er die 257, und die Bauernpartei geht leer aus. So liest es der Verband
 • Verzichtet der König auf ein Spiel, schreibt die Bauernpartei dieselben 257 Punkte
 • Die Punkte der abgelegten Karten aus dem ersten Spiel zählen zu den Punkten des Königs
 
-## Das Rennen: 600 gegen 1000
+## Eine Partie in Zahlen
 
-So sieht eine Partie in Zahlen aus. Der König hat 600 geboten, die Bauernpartei spielt auf 1000.
+So sieht eine Partie aus. Der König hat 600 geboten, die Bauernpartei spielt auf 1000.
 
 | Spiel | Was geschah | König | Bauernpartei |
 |---|---|---|---|
-| 1 | Der König sagt Schellen als Trumpf an und legt sechs Karten ab, die 23 Punkte tragen | 94 | 40 |
+| 1 | Der König sagt Schellen als Trumpf an. Er holt 94 Punkte, dazu schreibt er die 23 aus den abgelegten Karten | 117 | 40 |
 | 2 | Der König gibt, der Bodentrumpf fällt auf Rosen | 71 | 86 |
 | 3 | Der König sieht sein Blatt und verzichtet | 0 | 257 |
 | 4 | Trumpf Eichel, die Bauernpartei holt 96 Kartenpunkte und weist 50 | 61 | 146 |
-| | dazu die abgelegten Karten aus Spiel 1 | 23 | |
 | **Stand** | | **249 von 600** | **529 von 1000** |
 
-In Spiel 1 stehen 94 und 40 Punkte nebeneinander, zusammen 134 statt 157. Der Rest liegt in den sechs abgelegten Karten des Königs, die gar nicht mitgespielt haben.
+In Spiel 1 holt der König 94 und die Bauernpartei 40 Kartenpunkte, zusammen 134 statt 157. Der Rest liegt in den sechs abgelegten Karten des Königs, die gar nicht mitgespielt haben.
 
-**Ein verzichtetes Spiel bringt der Bauernpartei mehr als ein gewonnenes.** Die 257 aus Spiel 3 sind mehr, als ihr Spiel 2 und Spiel 4 zusammen eintrugen. Genau darum liegt der König hier hinten, obwohl er das erste Spiel klar gewonnen hat.
+Die 257 aus Spiel 3 sind mehr, als Spiel 2 und Spiel 4 der Bauernpartei zusammen einbrachten. Darum liegt der König hinten, obwohl er das erste Spiel klar gewonnen hat.
 
-## Warum 600 gegen 1000 fair ist
+## Was das Gebot rechnerisch verlangt
 
-Beide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, hängt darum allein am Anteil, den der König im Schnitt heimbringt. Die Rechnung dahinter ist kurz: Sein Gebot geteilt durch sein Gebot plus 1000.
+Beide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, hängt darum allein am Anteil, den der König im Schnitt heimbringt: sein Gebot geteilt durch sein Gebot plus 1000.
 
 | Gebot des Königs | Anteil, den er im Schnitt braucht |
 |---|---|
@@ -256,27 +256,25 @@ Beide Seiten schöpfen aus denselben 157 Punkten je Spiel. Wer zuerst ankommt, h
 | 900 | 47,4 Prozent |
 | 1000 | 50 Prozent |
 
-**Mit dem tiefsten Gebot gewinnt der König das Rennen, sobald er gut ein Drittel der Punkte holt.** Das ist der Ausgleich dafür, dass er allein gegen zwei spielt. Und es zeigt, was Steigern wirklich kostet: Jede Stufe hebt die Latte, und bei 1000 muss er im Schnitt die Hälfte aller Punkte holen.
-
-Die Rechnung gilt, solange kein Spiel verzichtet oder gematscht wird. Ein einziger Verzicht bringt der Bauernpartei 257 Punkte, also mehr als ein Viertel ihres Ziels.
+Mit 600 gegen 1000 braucht der König im Schnitt 37,5 Prozent der Punkte, also rund 59 von 157. Jede Stufe höher hebt diesen Anteil, bei 1000 sind es 50 Prozent. Die Rechnung gilt, solange kein Spiel verzichtet oder gematscht wird. Ein einziger Verzicht bringt der Bauernpartei 257 Punkte, also mehr als ein Viertel ihres Ziels.
 
 ## Ende der Partie
 
-• Der König erreicht seine gebotene Zahl, die Bauernpartei ihre 1000. **Wer zuerst ankommt, hat gewonnen**
+• Der König erreicht seine gebotene Zahl, die Bauernpartei ihre 1000. Wer zuerst ankommt, hat gewonnen
 • Wer die Hälfte seines Ziels verfehlt, ist im Schneider und verliert den doppelten Einsatz. Beim Gebot von 600 liegt die Grenze bei 300 Punkten, bei der Bauernpartei bei 500. Was der Einsatz ist, Striche, Rappen oder die nächste Runde, macht der Tisch vor der Partie ab
 • Weiterspielen ist Pflicht: Gespielt wird bis zum Ziel, auch wenn eine Partei lieber mit dem einfachen Einsatz aufhörte
 • Die neue Partie wird so gegeben, dass die Verlierer Vorhand haben
 
 ## Taktik: den König in die Mittelhand
 
-Die Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte nimmt: **Der eine Bauer spielt vor ihm aus, der andere legt nach ihm.**
+Die Bauernpartei nimmt das Spiel in die Hand, indem sie den König in die Mitte nimmt: Der eine Bauer spielt vor ihm aus, der andere legt nach ihm.
 
 | Wer legt zuerst | dann | dann |
 |---|---|---|
 | Bauer in Vorhand | **König** | Bauer in Hinterhand |
 | gibt die Farbe vor und zieht damit an | bedient, ohne die dritte Karte zu kennen | sticht oder schmiert, weil er beide Karten schon gesehen hat |
 
-Das Handwerk dazu gehört dem vorderen Bauern: **Er muss die Stiche holen und anziehen**, sonst kommt der König nie in die Mitte. Spielt dagegen der hintere Bauer aus, dreht sich der Vorteil: Dann legt der König die letzte Karte des Stichs und sieht beide Blätter, bevor er sich entscheidet.
+Der vordere Bauer holt die Stiche und zieht an. So bleibt der König in der Mitte. Spielt dagegen der hintere Bauer aus, dreht sich der Vorteil: Dann legt der König die letzte Karte des Stichs und sieht beide Blätter, bevor er sich entscheidet.
 
 ## Zu dritt, zu viert, zu fünft im Vergleich
 
@@ -288,7 +286,7 @@ Alle drei Fassungen behalten Ablauf, Ansagen, Weis, Verzicht und Schneider. Was 
 | Erstes Spiel, je Spieler | 5 und 5 | 4 und 4 | 4 und 3, und so in jedem Spiel |
 | Auf dem Tisch | 3 offen, 3 verdeckt | 2 offen, 2 verdeckt | keine |
 | Ab dem zweiten Spiel | 12 Karten | 9 Karten | wieder 7 Karten |
-| Tiefstes Gebot | 600, am Tisch oft 500 | 350 | 600 |
+| Tiefstes Gebot | 600, in der Innerschweiz 500 | 350 | 600 |
 | Wer gegen wen | 1 gegen 2 | 1 gegen 3 | 2 gegen 3 |
 | Ziel der Bauernpartei | 1000 | 1000 | 1000 |
 | Geschrieben wird | in Punkten | in Punkten | in Punkten |
@@ -304,58 +302,49 @@ Der König spielt allein gegen drei.
 • Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10
 • Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte
 
-Das tiefere Mindestgebot passt zur Lage des Königs: Er hält im ersten Spiel 8 statt 10 Karten und tauscht 4 statt 6, und er steht drei Gegnern gegenüber statt zweien.
-
 ## Bieter zu fünft
 
-Zwei Spieler bilden die Königspartei, drei die Bauernpartei. Ein Jass, bei dem zu fünft alle spielen.
+Zwei Spieler bilden die Königspartei, drei die Bauernpartei. Zu fünft spielen alle mit.
 
-• Ein Siebner bleibt aus dem Spiel: der Eichel-Siebner, im französischen Blatt nach der Quelle der Schaufel-Siebner. Damit bleiben 35 Karten
+• Ein Siebner bleibt aus dem Spiel, damit bleiben 35 Karten
 • Jeder Spieler erhält zuerst 4, dann 3 Karten, also 7 in jedem Spiel
-• Auf dem Tisch liegt nichts, und getauscht wird darum auch nichts
+• Auf dem Tisch liegt nichts, getauscht wird nichts
 • Das tiefste Gebot ist 600 Punkte, gesteigert wird um mindestens 10. Die Bauernpartei spielt auf 1000 Punkte
-• **Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, ist sein Partner**, und zwar für die ganze Partie. Damit stehen zwei gegen drei
-• Die beiden Parteien stehen fest, bevor der Spielübernehmer seine erste Karte ausspielt. Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner
-• Nach der Quelle sitzen die beiden Spieler der Königspartei getrennt. Was geschieht, wenn die genannte Karte doch beim Nachbarn liegt, lässt die Quelle offen. Der Verband empfiehlt die einfachste Fassung: Der Partner tauscht den Platz mit einem Bauern, so dass zwischen den beiden Königsspielern auf jeder Seite ein Bauer sitzt. Wer es anders hält, macht es vor der Partie ab
+• Der Meistbietende nennt eine Karte, die ihm für sein Spiel dient, bevor er seine erste Karte ausspielt. Wer sie hält, ist sein Partner, und zwar für die ganze Partie. Damit stehen zwei gegen drei
+• Das gilt auch dann, wenn er ein Matschspiel in der Hand hält: Dann nennt er eine beliebige Karte und bestimmt so seinen Partner
+• Nach Müller sitzen die beiden Spieler der Königspartei getrennt. Was geschieht, wenn die genannte Karte doch beim Nachbarn liegt, lässt er offen. Der Verband empfiehlt: Der Partner tauscht den Platz mit einem Bauern, so dass zwischen den beiden Königsspielern auf jeder Seite ein Bauer sitzt
 • Zum ersten Spiel sagt der Meistbietende an, wie gespielt wird. Ab dem zweiten Spiel fällt der Trumpf als Bodentrumpf, wie zu dritt
 
-Geschrieben werden auch zu fünft Punkte, der König läuft auf sein Gebot, die Bauernpartei auf 1000. Das Ergebnis der Partie steht dann in Strichen:
+Geschrieben werden auch zu fünft Punkte: Die Königspartei läuft zusammen auf das Gebot, die Bauernpartei auf 1000. Das Ergebnis der Partie steht dann in Strichen:
 
 | | Meistbietender | Sein Partner | Jeder Bauer |
 |---|---|---|---|
 | Königspartei gewinnt die Partie | 2 Striche | 1 Strich | 1 Härdöpfel |
 | Königspartei verliert die Partie | 2 «Härdöpfel» | 1 «Härdöpfel» | 1 Strich |
 
-Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, ist im Schneider und verliert den doppelten Einsatz. Was das in Strichen heisst, sagt die Quelle nicht. Der Verband empfiehlt: Im Schneider zählt jeder Strich und jedes Härdöpfel dieser Partie doppelt.
+Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte seines Ziels verfehlt, ist im Schneider und verliert den doppelten Einsatz. Was das in Strichen heisst, sagt Müller nicht. Der Verband empfiehlt: Im Schneider zählt jeder Strich und jedes Härdöpfel dieser Partie doppelt.
 
 ## Was der Name sagt
 
-«Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem jede Partie anfängt. Der König steht dem Namen nach allein gegen die Bauern, so heisst darum die Gegenpartei. Geschrieben und gesucht wird der Name auch als «Büter».
-
+«Bieter» und «Steiger» meinen dasselbe Spiel: Beide Wörter stammen vom Bieten, mit dem jede Partie anfängt. Die Gegenpartei heisst Bauernpartei, weil sie gegen den König spielt. Das Jassverzeichnis nennt das Spiel auch «Büter».
 
 
 **Häufige Fragen:**
 - **Wie spielt man Bieter zu dritt?** Einer bietet eine Punktzahl und spielt als König allein gegen die beiden anderen, die Bauernpartei. Das tiefste Gebot ist 600 Punkte, die Bauernpartei spielt immer auf 1000. Wer sein Ziel zuerst erreicht, hat die Partie gewonnen.
-- **Wie viele Karten bekommt beim Bieter jeder Spieler?** Im ersten Spiel 10 Karten, zweimal 5, dazu liegen 6 Karten auf dem Tisch: 3 offen und 3 verdeckt. Ab dem zweiten Spiel erhält jeder 12 Karten, dreimal vier, und der Tisch bleibt leer.
-- **Wie hoch ist das Mindestgebot beim Bieter?** Zu dritt und zu fünft 600 Punkte, zu viert 350. Gesteigert wird um mindestens 10 Punkte. So steht es im Reglement. Viele Runden fangen zu dritt bei 500 an und steigern um 5, das Schweizer Jassverzeichnis nennt 500, 600 und 650 als gebräuchliche Zahlen. Welche Zahl gilt, macht der Tisch vor der Partie ab.
-- **Was macht der König mit den sechs Tischkarten?** Er nimmt sie auf und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er die drei, die verdeckt lagen. Dann legt er sechs beliebige Karten ab. Ihre Punkte zählen zu seinen Kartenpunkten, am Tisch schreibt man sie ihm gleich gut. Gewiesen wird mit den Karten, die in der Hand bleiben.
-- **Zählen die abgelegten Karten des Königs?** Ja, sie gehören ihm. Darum legt er ab, was er im Spiel kaum heimbrächte, und behält die Karten, die Stiche holen.
-- **Was darf der König ansagen?** Eine Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf. Beim Hindersi gibt er jeden Stich ab. Bleibt er ohne Stich, schreibt er den Matsch mit Prämie, 257 Punkte, so liest es der Verband. Holt er einen Stich, schreibt ihn die Bauernpartei.
-- **Woher kommt der Trumpf ab dem zweiten Spiel?** Vom Boden: Nach dem Abheben gilt die unterste Karte als Trumpffarbe. Sie gehört dem, der gegeben hat, im zweiten Spiel also dem König, und sie bleibt, wo sie ist. Rauben gibt es in diesem Spiel keines.
-- **Darf der König ein Spiel auslassen?** Ab dem zweiten Spiel darf er verzichten. Dann schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte, und darf Stöckpunkte dazuschreiben. Andere Weise zählen in diesem Spiel für niemanden, und seine eigenen Stöcke schreibt der König nur, wenn er mitspielt.
-- **Wann scheidet man beim Bieten aus?** Wer nach einem Gebot «fort» oder «ich passe» sagt, bleibt für dieses Spiel draussen. Wer passt, bevor überhaupt ein Gebot gefallen ist, darf später noch einsteigen.
+- **Wie viele Karten bekommt beim Bieter jeder Spieler?** Im ersten Spiel 10 Karten, zweimal 5, dazu liegen 6 Karten auf dem Tisch: 3 offen und 3 verdeckt. Ab dem zweiten Spiel erhält jeder 12 Karten, dreimal vier, und der Tisch bleibt leer. Zu viert sind es 8 und 4 auf dem Tisch, danach 9, zu fünft immer 7.
+- **Wie hoch ist das Mindestgebot beim Bieter?** Zu dritt und zu fünft 600 Punkte, zu viert 350, gesteigert wird um mindestens 10. In der Innerschweiz wird zu dritt mit 500 begonnen und um 5 gesteigert. Welche Zahl gilt, macht der Tisch vor der Partie ab.
+- **Was macht der König mit den sechs Tischkarten?** Er nimmt sie auf und hält damit 16 Karten. Auf Wunsch der Bauernpartei zeigt er die drei, die verdeckt lagen. Dann legt er sechs beliebige Karten ab. Gewiesen wird mit den Karten, die in der Hand bleiben.
+- **Zählen die abgelegten Karten des Königs?** Ja, ihre Punkte gehören ihm. Müller zählt sie am Ende der Partie dazu, der Verband empfiehlt, sie gleich nach dem ersten Spiel zu schreiben. Der König legt darum ab, was kaum einen Stich holt, und behält, was sticht.
+- **Was darf der König ansagen?** Eine Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf. Beim Hindersi gibt er jeden Stich ab. Bleibt er ohne Stich, schreibt er den Matsch mit Prämie, 257 Punkte, so liest es der Verband. Holt er einen Stich, schreibt die Bauernpartei den Matsch mit Prämie.
+- **Woher kommt der Trumpf ab dem zweiten Spiel?** Vom Boden: Nach dem Abheben gilt die unterste Karte als Trumpffarbe. Sie gehört dem, der gegeben hat, im zweiten Spiel also dem König. Rauben gibt es in diesem Spiel keines.
+- **Darf der König ein Spiel auslassen?** Ab dem zweiten Spiel darf er verzichten, bevor die erste Karte fällt. Dann schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte, und darf ihre Stöck dazuschreiben. Andere Weise zählen in diesem Spiel für niemanden, und seine eigenen Stöck schreibt der König nur, wenn er mitspielt.
+- **Wann scheidet man beim Bieten aus?** Wer nach einem Gebot «fort» oder «ich passe» sagt, bleibt für dieses Spiel draussen. Wer passt, bevor ein Gebot gefallen ist, darf später noch einsteigen. In der Innerschweiz gilt jedes «fort» endgültig.
 - **Wie viele Punkte hat ein Bieter-Spiel?** 157, wie in jedem Jass-Spiel. Weil das Gebot für die ganze Partie gilt, braucht der König mehrere Spiele, um seine 600 zusammenzubringen.
 - **Was ist der Schneider beim Bieter?** Wer die Hälfte seines Ziels verfehlt, ist im Schneider und verliert den doppelten Einsatz: Beim Gebot von 600 liegt die Grenze bei 300 Punkten, bei der Bauernpartei bei 500.
+- **Warum braucht der König nur 600 und die Bauernpartei 1000?** Beide schöpfen aus denselben 157 Punkten je Spiel. Mit 600 gegen 1000 kommt der König zuerst an, sobald er im Schnitt 37,5 Prozent der Punkte holt, also rund 59 von 157. Bei 500 sind es 33,3 Prozent, bei 1000 wären es 50.
+- **Wie spielt man Bieter zu viert?** Wie zu dritt, nur spielt der König gegen drei Gegner. Im ersten Spiel erhält jeder 8 Karten, 4 liegen auf dem Tisch, 2 offen und 2 verdeckt, ab dem zweiten Spiel je 9. Der König tauscht 4 Karten. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
+- **Wie spielt man Bieter zu fünft?** Ein Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt, bevor er seine erste Karte ausspielt, eine Karte, wer sie hält, ist sein Partner für die ganze Partie. So stehen zwei gegen drei. Geschrieben werden Punkte, das Ergebnis der Partie steht in Strichen: Gewinnt die Königspartei, schreibt der Meistbietende 2 Striche, sein Partner 1, jeder Bauer 1 Härdöpfel, verliert sie, ist es umgekehrt.
 - **Was heisst Bieter, Steiger und Büter?** Drei Namen für dasselbe Spiel. Sie stammen alle vom Bieten, mit dem jede Partie anfängt.
-- **Warum bietet der König 600, wenn die Bauernpartei nur 1000 braucht?** Weil beide aus denselben 157 Punkten je Spiel schöpfen. Mit einem Gebot von 600 gewinnt der König das Rennen, sobald er im Schnitt 37,5 Prozent der Punkte heimbringt, also rund 59 von 157. Das ist der Ausgleich dafür, dass er allein gegen zwei spielt.
-- **Wie viele Karten bekommt beim Bieter zu viert jeder Spieler?** Im ersten Spiel 8 Karten, zweimal 4, dazu liegen 4 Karten auf dem Tisch: 2 offen und 2 verdeckt. Ab dem zweiten Spiel erhält jeder 9 Karten.
-- **Warum ist das Mindestgebot zu viert tiefer?** Der König hält im ersten Spiel 8 statt 10 Karten, tauscht 4 statt 6 und steht drei Gegnern gegenüber statt zweien.
-- **Wer gibt beim Bieter zu viert ab dem zweiten Spiel?** Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn. Der Trumpf fällt dann als Bodentrumpf.
-- **Wie findet der Meistbietende zu fünft seinen Partner?** Er nennt eine Karte, die ihm für sein Spiel dient. Wer sie hält, spielt mit ihm. Hält er selbst ein Matschspiel, nennt er eine beliebige Karte und bestimmt so trotzdem einen Partner.
-- **Wie wird beim Bieter zu fünft geschrieben?** Gewinnt die Königspartei, schreibt der Meistbietende 2 Striche, sein Partner 1 Strich, und jeder Bauer schreibt 1 «Härdöpfel». Verliert sie, schreibt der Meistbietende 2 «Härdöpfel», sein Partner 1, und jeder Bauer erhält 1 Strich.
-- **Wie viele Karten sind beim Bieter zu fünft im Spiel?** 35: Ein Siebner bleibt draussen, der Eichel-Siebner, im französischen Blatt nach der Quelle der Schaufel-Siebner. So hält jeder der fünf Spieler 7 Karten.
-- **Wie spielt man Bieter zu viert?** Wie zu dritt, nur spielt der König gegen drei Gegner. Im ersten Spiel erhält jeder 8 Karten, 4 liegen auf dem Tisch, ab dem zweiten Spiel je 9. Das tiefste Gebot ist 350 Punkte, die Bauernpartei spielt auf 1000.
-- **Wie spielt man Bieter zu fünft?** Ein Siebner bleibt draussen, jeder erhält 7 Karten. Das tiefste Gebot ist 600 Punkte. Der Meistbietende nennt eine Karte. Wer sie hält, ist sein Partner für die ganze Partie. So stehen zwei gegen drei. Geschrieben werden Punkte, das Ergebnis der Partie steht in Strichen und Härdöpfeln.
 
 *Keywords: 350 punkte, 500 punkte, 600 punkte, Hindersi, bauernpartei*
 
@@ -1251,18 +1240,20 @@ Speziell beim Misère ist, dass Untertrumpfen erlaubt ist, wenn der entsprechend
 
 ### Pandur {#variants_strategic_pandur}
 
-**Kategorie:** Varianten > Steigerungsspiel
+**Kategorie:** Varianten > Bietspiel
 
-**Der Pandur wird streng nach Regeln gespielt.** Falsches oder überflüssiges Weisen, falsches Ausspielen, das Behalten eines fremden Stichs und Bemerkungen zum Spielverlauf kosten das laufende Spiel. Ein «Bock» am Tisch, also der Ruf, dass eine Karte sicher sticht, gehört dazu. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Der Pandur wird streng nach Regeln gespielt. Falsches oder überflüssiges Weisen, falsches Ausspielen, das Behalten eines fremden Stichs und Bemerkungen zum Spielverlauf kosten das laufende Spiel. Ein Bock am Tisch, also der Ruf, dass eine Karte sicher sticht, gehört dazu.
 
-Der Pandur ist ein Bietspiel mit einem gegen zwei: Wer das höchste Gebot abgibt, spielt allein gegen die beiden anderen und trägt die Pflicht, die angesagte Punktzahl zu erreichen. Am Tisch sitzen vier, die Karten halten drei.
+Der Pandur ist ein Bietspiel mit einem gegen zwei: Wer das höchste Gebot abgibt, spielt allein gegen die beiden anderen und hat die angesagte Punktzahl zu erreichen. Vier sitzen am Tisch, drei halten Karten, der Geber setzt aus.
+
+Grundlage dieses Artikels ist das Kapitel «Pandur» in Dani Müllers Jassführer «Stöck Wys Stich» (2015), die Wertungstabelle deckt sich mit der Seite «Pandur» des Schweizer Jassverzeichnisses. Wo Müller schweigt, steht die Empfehlung des [Jassverbands Schweiz](https://jassverband.ch), so gekennzeichnet. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Die Grundform
 
 • Gespielt wird mit 24 Karten. Sechser, Siebner und Achter bleiben draussen. Im Spiel sind Ass, König, Ober, Under, Banner und Nell in vier Farben
-• Acht Karten je Spieler, in zwei Gängen zu vier gegeben
-• Der Spielgeber gibt und sitzt aus. Er erhält keine Karten und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt
-• Der erbende Spielgeber schaut zu und schweigt, auch wenn ein Fehler am Tisch zu seinem Nachteil geschieht
+• Acht Karten je Spieler, zweimal vier
+• Der Spielgeber gibt und setzt aus. Er erhält keine Karten und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt
+• Der erbende Spielgeber schaut zu und schweigt, auch wenn am Tisch ein Fehler geschieht
 • Ab dem zweiten Spiel wird der Reihe nach in Spielrichtung gegeben, womit auch das Aussetzen wandert
 • Gibt der Spielgeber falsch, gibt derselbe Spieler neu, und für dieses Spiel erbt er nichts
 • Vorhand eröffnet das Steigern, danach bietet der Reihe nach in Spielrichtung jeder Spieler
@@ -1270,7 +1261,7 @@ Der Pandur ist ein Bietspiel mit einem gegen zwei: Wer das höchste Gebot abgibt
 • Gespielt wird auf 17 Schreibpunkte. Verbreitet sind auch 15 und 21. Die Zahl macht die Runde vor der Partie ab
 • Der Pandur kennt keine Matschprämie. Wer alle Stiche holen will, sagt es an und bekommt dafür die Schreibpunkte seines Gebots
 
-## Was die Karten tragen
+## Was in den Karten liegt
 
 Die Kartenwerte sind dieselben wie im vollen Blatt. Weil Sechser, Siebner und Achter draussen bleiben und diese drei Karten in der Trumpffarbe wie in jeder anderen Farbe null zählen, ändert sich an der Punktsumme nichts.
 
@@ -1285,9 +1276,9 @@ Die Kartenwerte sind dieselben wie im vollen Blatt. Weil Sechser, Siebner und Ac
 
 
 
-Die Trumpffarbe trägt 62 Punkte, jede andere Farbe 30. Zusammen sind das 152, dazu die 5 für den letzten Stich: **157 Punkte liegen in einem Spiel, mehr geben die Karten nicht her.**
+Die Trumpffarbe hat 62 Punkte, jede andere Farbe 30. Zusammen sind das 152, dazu die 5 für den letzten Stich: **157 Punkte liegen in einem Spiel**, mehr geben die Karten nicht her.
 
-**An dieser Schranke hängt die ganze Leiter.** Wer 100 bietet, holt sie aus den Karten. Wer 200 bietet, braucht 43 Punkte aus dem Weis. Wer 300 bietet, braucht 143, also fast so viel, wie alle Karten zusammen tragen. **Die hohen Gebote sind Weisgebote**, und darum entscheidet beim Pandur oft der Weis und nicht der Stich.
+Mehr als 157 Punkte gibt es aus den Karten nicht. Wer 100 bietet, holt sie aus den Karten. Wer 200 bietet, braucht 43 Punkte aus dem Weis, wer 300 bietet, 143. Die hohen Gebote stehen auf dem Weis, und darum entscheidet beim Pandur oft der Weis.
 
 ## Das Steigern
 
@@ -1297,11 +1288,11 @@ Nach dem Geben steigert Vorhand zuerst, danach der Reihe nach in Spielrichtung. 
 • Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden
 • Wer fort sagt, bleibt für dieses Spiel draussen. Die übrigen steigern in weiteren Umgängen weiter
 • **Das Steigern endet, sobald beide anderen «fort» gesagt haben.** Das höchste Gebot steht damit fest, und sein Bieter ist der Spielübernehmer
-• Wer das Spiel übernehmen will, überbietet das Gebot eines Gegners. Wer als Einziger geboten hat, übernimmt mit seinem eigenen Gebot
+• Wer das Spiel übernehmen will, überbietet das Gebot eines Mitspielers. Wer als Einziger geboten hat, übernimmt mit seinem eigenen Gebot
 • Sagen alle «fort», gibt der nachfolgende Spieler neu
 • Der Spielübernehmer, der sein Ziel für sicher hält, legt die Karten vor dem ersten Stich offen hin. Sind die Gegner gleicher Ansicht, ist das Spiel damit entschieden. Widerspricht einer, wird gespielt
 
-Die Quelle nennt das «fort» ausdrücklich für den ersten Umgang. **Der Verband empfiehlt, es für das ganze Spiel gelten zu lassen:** Wer draussen ist, bleibt draussen, in jedem Umgang. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Das Schweizer Jassverzeichnis hält es ebenso.
+Müller nennt das «fort» ausdrücklich für den ersten Umgang. Der Verband empfiehlt, es für das ganze Spiel gelten zu lassen: Wer draussen ist, bleibt draussen, in jedem Umgang. Das Schweizer Jassverzeichnis hält es ebenso.
 
 Gesteigert wird in dieser Reihenfolge, von unten nach oben:
 
@@ -1313,37 +1304,37 @@ Gesteigert wird in dieser Reihenfolge, von unten nach oben:
 | 210 bis 250 in Zehnerschritten | So viele Punkte hole ich, Karten und Weis zusammen |
 | Pandur ohne Trumpf | Ich hole alle acht Stiche, gespielt wird obenabe |
 | 260 bis 300 in Zehnerschritten, darüber 310 und mehr | So viele Punkte hole ich, Karten und Weis zusammen |
-| Pandur mit Trumpf | Ich hole alle acht Stiche, meine erste Karte zeigt den Trumpf. Das höchste Gebot der Leiter |
+| Pandur mit Trumpf | Ich hole alle acht Stiche, meine erste Karte zeigt den Trumpf. Das höchste Gebot |
 
-Die Übergänge zwischen Zahlen und Spezialansagen sind der Teil, der am Tisch am häufigsten strittig ist:
+Die Übergänge zwischen Zahlen und den Ansagen Misère und Pandur:
 
 • Ein «Misère ohne» überbietet ein Gebot von 200
 • Ein «Misère mit» überbietet den «Misère ohne»
 • Wer einen Misère überbieten will, steigert auf 210
 • Ein «Pandur ohne» überbietet ein Gebot von 250
 • Wer den «Pandur ohne» überbieten will, sagt mindestens 260 an
-• Über 300 geht es in Zehnerschritten weiter, 310, 320 und so fort. Solche Gebote stehen fast ganz auf dem Weis, denn die Karten tragen 157
+• Über 300 geht es in Zehnerschritten weiter, 310, 320 und so fort. Solche Gebote stehen fast ganz auf dem Weis, denn die Karten geben 157 her
 • **Der «Pandur mit» steht zuoberst und ist durch nichts zu überbieten.** Wer ihn ansagt, spielt sofort aus: Das Steigern ist mit dieser Ansage zu Ende
 
-Die Wertungstabelle der Quelle führt «310 und mehr» als letzte Zeile, ihre Steigerleiter endet beim «Pandur mit», und nur der «Pandur mit» darf ohne Bestätigung ausspielen. Aus diesen drei Sätzen ergibt sich eine einzige stimmige Ordnung, und das Schweizer Jassverzeichnis liest sie ebenso: **Die Zahlengebote über 300 liegen zwischen 300 und dem «Pandur mit», und der «Pandur mit» ist das Dach.** Der Verband empfiehlt diese Lesart.
+Wo die Zahlen über 300 stehen, ordnet der Verband so: Sie liegen zwischen 300 und dem «Pandur mit», der «Pandur mit» ist das höchste Gebot. Müllers Wertungstabelle führt «310 und mehr» als letzte Zeile, seine Reihenfolge der Gebote endet beim «Pandur mit», und allein der «Pandur mit» darf ohne Bestätigung ausspielen. Das Schweizer Jassverzeichnis setzt 310 und mehr in seiner Tabelle über den «Pandur mit», lässt nach einem angesagten «Pandur mit» aber ebenfalls kein Gebot mehr zu.
 
 ## Was ein Blatt wert ist
 
-Wie hoch ein Blatt trägt, sagt keine Quelle. Der Verband empfiehlt diese Rechnung, bevor die erste Zahl fällt:
+Was ein Blatt wert ist, sagt keine Quelle. Der Verband empfiehlt diese Rechnung, bevor die erste Zahl fällt:
 
-• **Die längste Farbe wird zum Trumpf.** Zähle darin Under 20, Nell 14, Ass 11 und Banner 10. Vier Trümpfe mit dem Under holen ihre Punkte fast immer heim, drei ohne Under selten
-• **Jedes Ass ausserhalb der Trumpffarbe bringt 11 Punkte** und den Stich dazu, solange die Farbe läuft. Im kurzen Blatt gehen die Farben rasch aus, darum spielt man es früh
-• **Könige und Ober tragen nur, wenn die Farbe lang ist.** Im kurzen Blatt sind sie Futter für den Gegner
-• **Der letzte Stich bringt 5 Punkte** und geht meist an den, der noch Trumpf hält
-• **Der Weis kommt zuletzt und mit Vorbehalt.** Er zählt, solange kein Gegner höher weist
+• Die längste Farbe wird zum Trumpf. Gezählt werden darin Under 20, Nell 14, Ass 11 und Banner 10. Vier Trümpfe mit dem Under holen ihre Punkte fast immer nach Hause, drei ohne Under selten
+• Jedes Ass ausserhalb der Trumpffarbe bringt 11 Punkte und den Stich dazu, solange die Farbe läuft. Im kurzen Blatt gehen die Farben rasch aus, darum spielt man es früh
+• Könige und Ober holen nur Punkte, wenn die Farbe lang ist. Im kurzen Blatt fallen sie den Gegnern in den Stich
+• Der letzte Stich bringt 5 Punkte und geht meist an den, der noch Trumpf hält
+• Der Weis kommt zuletzt und mit Vorbehalt. Er zählt, solange kein Gegner höher weist
 
-Ein Beispiel: Vier Schellen mit Under, Ass, König und Banner sind 45 Punkte in der Trumpffarbe. Dazu ein Ass in einer anderen Farbe, macht 56, dazu der letzte Stich und ein paar Punkte, die die Gegner beilegen. Das trägt ein Gebot der untersten Stufe, 100 und wenig darüber, also 2 Schreibpunkte. Das durchgespielte Spiel weiter unten zeigt genau dieses Blatt: Es holt 102. **Alles darüber holt sich der Bietende aus dem Weis.**
+Ein Beispiel: Vier Schellen mit Under, Ass, König und Banner sind 45 Punkte in der Trumpffarbe. Dazu ein Ass in einer anderen Farbe, macht 56, dazu der letzte Stich und ein paar Punkte, die die Gegner beilegen. Das reicht für ein Gebot der untersten Stufe, 100 und wenig darüber, also 2 Schreibpunkte. Das durchgespielte Spiel weiter unten zeigt dieses Blatt: Es holt 102. Alles darüber holt sich der Bietende aus dem Weis.
 
-Wer umgekehrt ein Blatt ohne Ass, ohne Under und ohne lange Farbe hält, prüft den Misère: Was beim Zählspiel nichts wert ist, ist dort gerade recht.
+Ein Blatt ohne Ass, ohne Under und ohne lange Farbe taugt für den Misère.
 
 ## Was ein Gebot einbringt
 
-Geschrieben werden Schreibpunkte, und wie viele es sind, hängt allein von der Höhe des Gebots ab. Die Kartenpunkte bestimmen bloss, ob das Gebot erreicht ist.
+Geschrieben werden Schreibpunkte, und wie viele es sind, hängt allein von der Höhe des Gebots ab. Karten- und Weispunkte bestimmen bloss, ob das Gebot erreicht ist.
 
 | Gebot | Schreibpunkte | Was gilt |
 |---|---|---|
@@ -1357,12 +1348,12 @@ Geschrieben werden Schreibpunkte, und wie viele es sind, hängt allein von der H
 | Pandur ohne | 5 | Der Spielübernehmer holt alle acht Stiche, gespielt wird obenabe ohne Trumpffarbe |
 | 260 bis 290 | 5 | Der Spielübernehmer wählt die Trumpffarbe, Karten- und Weispunkte zählen |
 | 300 | 6 | Der Spielübernehmer wählt die Trumpffarbe, Karten- und Weispunkte zählen |
-| Pandur mit | 6 | Der Spielübernehmer holt alle acht Stiche, seine erste Karte zeigt die Trumpffarbe |
 | 310 und mehr | 6 | Der Spielübernehmer wählt die Trumpffarbe, Karten- und Weispunkte zählen |
+| Pandur mit | 6 | Der Spielübernehmer holt alle acht Stiche, seine erste Karte zeigt die Trumpffarbe |
 
 **Erreicht der Spielübernehmer sein Gebot, schreibt er diese Punkte.** Verfehlt er es, schreiben beide Gegner **und der Spielgeber** je dieselbe Zahl: Ein misslungenes Gebot bringt drei Spielern etwas ein, dem Bietenden nichts.
 
-**Die letzten Punkte einer Partie holt, wer Karten in der Hand hatte.** Geerbte Punkte kommen sofort auf die Tafel, machen aber niemanden fertig. Ein Zahlenbeispiel: Der Spielgeber steht auf 15 und erbt 4. Auf der Tafel steht er nun auf 19, die Partie hat er damit noch offen. Fertig ist er, sobald er in einem Spiel mit Karten Punkte holt, und sei es ein einziger Schreibpunkt über die 17 hinaus. Für den Spielübernehmer heisst das: Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Für die Gegner, die ein Gebot kippen, empfiehlt der Verband die nächstliegende Lesart: Sie haben gespielt, also zählen ihre Punkte auch als die letzten. Das Schweizer Jassverzeichnis liest es enger und lässt allein den Spielübernehmer fertig werden. Welche Fassung gilt, macht die Runde vor der Partie ab.
+Die letzten Punkte einer Partie holt, wer Karten in der Hand hatte. Geerbte Punkte machen niemanden fertig. Der Verband empfiehlt, sie trotzdem sofort zu schreiben: Wer auf 15 steht und 4 erbt, steht auf 19 und ist fertig, sobald er in einem Spiel mit Karten Schreibpunkte holt. Das Schweizer Jassverzeichnis schreibt geerbte Punkte, die über das Ziel führen, gar nicht erst an, der Spieler bleibt dort auf 15. Für den Spielübernehmer heisst das: Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Für die Gegner, die ein Gebot zu Fall bringen, empfiehlt der Verband: Sie haben gespielt, also zählen ihre Punkte auch als die letzten. Das Schweizer Jassverzeichnis lässt allein den Spielübernehmer fertig werden. Welche Fassung gilt, macht die Runde vor der Partie ab.
 
 Nach jedem Spiel kommen die Punkte auf die Tafel, beim Spielübernehmer oder bei den drei anderen. Wer schreibt, bestimmt die Runde am Anfang, im Zweifel der erste Spielgeber. Eine Unstimmigkeit lässt sich während des ganzen folgenden Spiels reklamieren.
 
@@ -1371,53 +1362,53 @@ Nach jedem Spiel kommen die Punkte auf die Tafel, beim Spielübernehmer oder bei
 Gewiesen wird nach den Weisregeln, und weil das Blatt klein ist, fallen vier Gleiche häufiger als im vollen Spiel. Der Weis gehört zu den Punktansagen: Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt er im Blatt. Bei einer Punktansage kommt eine eigene Regel dazu:
 
 • Der Spielübernehmer meldet seinen Weis
-• Von den Gegnern meldet **nur der erste in Spielrichtung, dessen Weis höher ist**. Er nimmt dem Spielübernehmer damit die Weispunkte
-• Der zweite Gegner schweigt. Seine Meldung wäre ein Spielverrat und kostet das Spiel
+• Von den Gegnern meldet einer, und zwar der mit dem höheren Weis. Er nimmt dem Spielübernehmer damit die Weispunkte
+• Der andere Gegner schweigt. Seine Meldung wäre ein Spielverrat und kostet das Spiel
 • Meldet der Spielübernehmer nichts, schweigen beide Gegner: Ohne seinen Weis gibt es nichts zu überbieten
 
-Der Grund liegt in der Rechnung: Zum Gebot zählen allein die Punkte des Spielübernehmers. Ein Weis der Gegner hilft ihnen nur, indem er seinen wegnimmt. Ist das getan, trägt jede weitere Meldung bloss noch Auskunft über ein Blatt, und die gehört an diesem Tisch niemandem.
+Halten beide Gegner einen höheren Weis als der Spielübernehmer, empfiehlt der Verband: Es meldet der erste in Spielrichtung, der zweite schweigt. Müller sagt nur, dass der erste Gegner mit dem höheren Weis meldet. Das Schweizer Jassverzeichnis lässt den Gegner mit dem höchsten Weis melden, gleich wo er sitzt.
 
-**Für den Bietenden heisst das:** Ein Gebot über 157 steht auf einem Weis, den ihm ein Gegner noch nehmen kann. Wer 200 sagt, wettet darauf, dass am Tisch nichts Höheres liegt.
+Ein Weis der Gegner nimmt dem Spielübernehmer nur die Weispunkte. Mehr bringt eine zweite Meldung nicht, sie verrät bloss ein Blatt. Ein Gebot über 157 steht auf einem Weis, den ihm ein Gegner noch nehmen kann. Wer 200 sagt, rechnet damit, dass kein Gegner höher weist.
 
 ## Ausspiel, Trumpf und Stich
 
 • Der Spielübernehmer eröffnet den ersten Stich
-• Beim Trumpfspiel zeigt die erste Karte die Trumpffarbe an, wenn sie ohne Bemerkung gespielt wird
-• Meint der Spielübernehmer eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler seine Karte gelegt hat, steht der Trumpf fest
-• Ausser beim «Pandur mit» wartet der Spielübernehmer ab, bis beide anderen «fort» gesagt haben: Das ist die Bestätigung, dass sein Gebot das höchste ist. Wer vorher ausspielt oder ein weiteres Gebot überhört haben will, hat das Spiel verloren: Er schreibt nichts, und die drei anderen schreiben die Schreibpunkte seines Gebots, wie bei einem verfehlten Gebot. So liest der Verband die Quelle, die dazu allein sagt, dass er die Punkte seines Gebots verliert
+• Bei einer Punktansage zeigt die erste Karte die Trumpffarbe an, wenn sie ohne Bemerkung gespielt wird. Meint der Spielübernehmer eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler seine Karte gelegt hat, steht der Trumpf fest
+• Beim «Misère mit» und beim «Pandur mit» ist die Farbe der ersten Karte der Trumpf
+• Ausser beim «Pandur mit» wartet der Spielübernehmer ab, bis beide anderen «fort» gesagt haben: Das ist die Bestätigung, dass sein Gebot das höchste ist. Wer vorher ausspielt, hat das Spiel verloren: Er schreibt nichts, und die drei anderen schreiben die Schreibpunkte seines Gebots, wie bei einem verfehlten Gebot. Müller sagt dazu allein, dass er die Punkte seines Gebots verliert, so liest es der Verband
 • Farbzwang gilt wie sonst im Jass. Untertrumpfen bleibt dem vorbehalten, der nur noch Trumpf hält. Beim «Misère mit» darf untertrumpfen, wem die ausgespielte Farbe fehlt
 • Nimmt der falsche Spieler einen Stich zu sich, reklamiert der Berechtigte sofort, und der Stich wandert dorthin, wo er hingehört. Hat der Berechtigte zum nächsten Stich bereits gespielt, bleibt der Stich liegen, wo er liegt
-• Die strenge Regel vom Anfang trifft den, der einen fremden Stich behält, statt ihn auf die Reklamation hin herauszugeben: Das kostet das laufende Spiel. So liest es der Verband, denn die Quelle nennt beide Sätze und lässt ihr Verhältnis offen
+• Wer einen fremden Stich behält, statt ihn auf die Reklamation hin herauszugeben, verliert das laufende Spiel. Müller nennt beide Sätze und lässt ihr Verhältnis offen, so liest es der Verband
 
 ## Ein Spiel von Anfang bis zur Tafel
 
-Vier sitzen am Tisch: A, B und C halten Karten, D hat gegeben und sitzt aus. A ist Vorhand.
+Vier sitzen am Tisch: A, B und C halten Karten, D hat gegeben und setzt aus. A ist Vorhand.
 
 
 
 
-**Das Steigern.**
+Das Steigern:
 
 | Spieler | Gebot | Was ihn dazu bringt |
 |---|---|---|
 | A | 150 | Vier Nell sind 150 Weispunkte. Dazu hält er zwei Asse: Das Gebot steht, bevor der erste Stich fällt |
 | B | 160 | Vier Könige sind 100 Weispunkte, und in Schellen hält er Under, Ass, König und Banner |
-| C | fort | Ohne Ass und ohne Nell trägt sein Blatt keine Punktansage. Für einen Misère trägt es zu viel: Mit zwei Ober und drei Banner holt er Stiche, sobald eine Farbe ausgeht, und als Spielübernehmer müsste er dazu noch ausspielen |
+| C | fort | Ohne Ass und ohne Nell reicht sein Blatt für keine Punktansage. Für einen Misère hält er zu viel: Mit zwei Ober und drei Banner holt er Stiche, sobald eine Farbe ausgeht, und als Spielübernehmer müsste er dazu noch ausspielen |
 | A | 190 | Mit Rosen als Trumpf zählt A sein Blatt: Nell, Ass und Ober in der Trumpffarbe, dazu das Schilten-Ass, macht rund vierzig Kartenpunkte zu den 150 aus dem Weis |
-| B | 200 | Vier Trümpfe mit dem Under und das Eichel-Ass tragen gut hundert Kartenpunkte, mit den 100 aus dem Weis ist er bei 200 |
+| B | 200 | Vier Trümpfe mit dem Under und das Eichel-Ass holen gut hundert Kartenpunkte, mit den 100 aus dem Weis ist er bei 200 |
 | A | fort | Über 200 steht als Nächstes der Misère, und den spielt A mit zwei Assen und vier Nell verloren. Die 210 danach liegt über seinem Blatt: 150 aus dem Weis und rund vierzig aus den Karten sind 190 |
 
 B übernimmt das Spiel mit 200, das sind 4 Schreibpunkte. C ist seit dem ersten Umgang draussen und bleibt es.
 
-**Der erste Stich, und der Weis entscheidet.** B spielt den Schellen-Under aus, ohne etwas zu sagen: Damit ist Schellen Trumpf. Nun wird gewiesen.
+Der erste Stich, und der Weis entscheidet: B spielt den Schellen-Under aus, ohne etwas zu sagen. Damit ist Schellen Trumpf. Nun wird gewiesen.
 
 | Spieler | Was er hält | Was er tut |
 |---|---|---|
 | B | vier Könige, 100 | Der Spielübernehmer meldet zuerst |
 | C | Banner, Under und Ober in Schilten, 20 | C schweigt: Sein Weis ist tiefer als der von B |
-| A | vier Nell, 150 | A ist der erste Gegner mit dem höheren Weis. Er meldet, und B verliert seine 100 |
+| A | vier Nell, 150 | A hält den höheren Weis. Er meldet, und B verliert seine 100 |
 
-**Damit steht B ohne Weispunkte da und braucht 200 aus den Karten, wo nur 157 liegen.** Gespielt wird trotzdem zu Ende, und die Rechnung zeigt, wie weit sein Blatt getragen hätte.
+Damit steht B ohne Weispunkte da und braucht 200 aus den Karten, wo nur 157 liegen. Gespielt wird trotzdem zu Ende, und die Rechnung zeigt, wie weit sein Blatt gereicht hätte.
 
 B eröffnet die Stiche 1 bis 7, den achten eröffnet A, weil er den siebten geholt hat. Die Spalten stehen darum durchgehend in der Reihenfolge B, C, A.
 
@@ -1432,9 +1423,9 @@ B eröffnet die Stiche 1 bis 7, den achten eröffnet A, weil er den siebten geho
 | 7 | Rosen-König 4 | Rosen-Banner 10 | Rosen-Ass 11 | 25 | A und C |
 | 8 | Schilten-König 4 | Schilten-Banner 10 | Schilten-Ass 11 | 25 und 5 für den letzten Stich | A und C |
 
-Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34: **102 Kartenpunkte.** A und C halten 55, zusammen sind es die 157, die im Spiel liegen.
+Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34: **102 Kartenpunkte**. A und C halten 55, zusammen sind es die 157, die im Spiel liegen.
 
-**Die Tafel nach diesem Spiel:**
+Die Tafel nach diesem Spiel:
 
 | Spieler | Schreibpunkte | Warum |
 |---|---|---|
@@ -1443,7 +1434,7 @@ Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34:
 | C | 4 | Gegner eines verfehlten Gebots |
 | D | 4 | Der Spielgeber erbt, obwohl er keine Karte gehalten hat |
 
-**Und die Lehre, die am Tisch bleibt:** Ohne Weis trug B's Blatt ein Gebot der untersten Stufe, seine 102 Kartenpunkte zeigen es. Jedes Gebot, das A überbot, stand auf den vier Königen, und die hatten gegen die vier Nell keinen Bestand. Sein Gebot von 200 stand auf dem Weis, und der Weis gehörte A.
+Ohne Weis reichte das Blatt von B für ein Gebot der untersten Stufe, die 102 Kartenpunkte zeigen es. Die 200 standen auf den vier Königen, und gegen die vier Nell hielten sie nicht.
 
 ## Wenn die Partie zu Ende geht
 
@@ -1453,18 +1444,18 @@ Die vier Trumpfstiche holen B 68 Punkte, die beiden Stiche in Eichel weitere 34:
 
 ## Der «Bschiss»
 
-Die Regelsammlung, der wir folgen, führt beim Pandur eine Fassung für Fortgeschrittene: Eine Runde kann vor dem Spiel abmachen, dass Bschiisse erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner. Diese Fassung lebt vom Einverständnis aller: Sie wird vor der Partie abgemacht und gilt dann für jeden am Tisch.
+Müller führt beim Pandur eine Fassung für Fortgeschrittene: Eine Runde kann vor dem Spiel abmachen, dass Mogeln erlaubt ist, «Bschiisse». Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner.
 
 ## Pandur zu dritt
 
 Der Pandur ohne den aussetzenden Spielgeber: Alle drei am Tisch halten Karten.
 
-• Gespielt wird mit 24 Karten, acht je Spieler, in zwei Gängen zu vier gegeben
+• Gespielt wird mit 24 Karten, acht je Spieler, zweimal vier
 • Der Spielgeber spielt mit. Damit fällt das Erben weg
 • Erreicht der Spielübernehmer sein Gebot, schreibt er die Schreibpunkte. Verfehlt er es, schreiben die beiden Gegner je dieselbe Zahl
-• Leiter, Wertung, Weisregel und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
+• Reihenfolge der Gebote, Wertung, Weisregel und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
 
-Die Gegenwehr ist dieselbe wie am vollen Tisch, denn dort wie hier stehen dem Spielübernehmer zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien, und wer gibt, spielt mit, statt zuzuschauen.
+Dem Spielübernehmer stehen wie am vollen Tisch zwei Gegner gegenüber. Der Unterschied liegt auf der Tafel: Ein verfehltes Gebot bringt zwei Spielern etwas ein statt dreien, und wer gibt, spielt mit, statt zuzuschauen.
 
 ## Pandur zu zweit
 
@@ -1474,40 +1465,36 @@ Der Pandur ohne Team: Einer bietet, einer hält dagegen.
 • Die unterste Karte des Stocks darf eingesehen werden. Sie ist die einzige Auskunft über die acht Karten, die aus dem Spiel bleiben
 • Der Stock bleibt liegen. Ausgespielt werden die 16 Karten der beiden Hände, also acht Stiche
 • Vorhand eröffnet das Steigern, danach bieten die beiden abwechselnd. Sagt einer «fort», steht das letzte Gebot. Sagen beide «fort», gibt der andere neu
-• Leiter, Wertung und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
+• Reihenfolge der Gebote, Wertung und Spielregeln bleiben dieselben: tiefstes Gebot 100, Schritte von 10 Punkten, 2 bis 6 Schreibpunkte je nach Höhe des Gebots, Partie auf 17 Schreibpunkte
 • Der Weis gilt auch hier: Weist der Spielübernehmer, meldet sein Gegner, wenn er höher ist, und nimmt ihm damit die Weispunkte
 • Erreicht der Spielübernehmer sein Gebot, schreibt er die Punkte. Verfehlt er es, schreibt sie sein Gegner
 
-Zum Rechnen: Die acht Karten im Stock tragen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste. Auf den beiden Händen liegen damit noch rund 107 Punkte, und ein Ass, das im Stock liegt, holt niemand. **Schon das tiefste Gebot von 100 steht darum meist auf einem Weis**, und die unterste Stockkarte ist jeden Blick wert, bevor die erste Zahl fällt.
+Zum Rechnen: Im Stock liegen im Mittel rund 50 der 152 Kartenpunkte, und wer bietet, kennt von ihnen bloss die unterste Karte. Auf den beiden Händen liegen damit noch rund 100 Kartenpunkte, dazu die 5 für den letzten Stich, und ein Ass, das im Stock liegt, holt niemand. Schon das tiefste Gebot von 100 braucht darum meist einen Weis. Wer bietet, sieht sich vorher die unterste Stockkarte an.
 
 ## Was «Pandur» am Tisch heisst
 
-«Pandur» ist die Ansage, alle acht Stiche zu holen. Sie steht zuoberst auf der Leiter, und sie gibt dem Spiel den Namen. Woher das Wort stammt, sagen die von uns geprüften Quellen nicht. Gespielt wird der Pandur vor allem in der Schweiz. Wer ihn sucht, schreibt den Namen oft «Bandur», gemeint ist dasselbe Spiel.
-
-
-
-
+«Pandur» ist die Ansage, alle acht Stiche zu holen. Der «Pandur mit» steht zuoberst in der Reihenfolge der Gebote, der «Pandur ohne» eine Stufe über 250. Die Ansage gibt dem Spiel den Namen. Woher das Wort stammt, sagen Müller und das Jassverzeichnis nicht.
 
 **Häufige Fragen:**
-- **Wie viele Karten hat der Pandur?** Gespielt wird mit 24 Karten: Sechser, Siebner und Achter bleiben draussen. Die drei Spieler mit Karten erhalten je 8, in zwei Gängen zu vier gegeben. Der Spielgeber sitzt aus.
-- **Mit wie vielen Spielern wird Pandur gespielt?** Am Tisch sitzen vier, die Karten halten drei. Der Spielgeber sitzt aus und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt. Es gibt den Pandur auch zu dritt und zu zweit.
+- **Wie viele Karten hat der Pandur?** Gespielt wird mit 24 Karten: Sechser, Siebner und Achter bleiben draussen. Die drei Spieler mit Karten erhalten je 8, zweimal vier. Der Spielgeber setzt aus.
+- **Mit wie vielen Spielern wird Pandur gespielt?** Vier sitzen am Tisch, drei halten Karten. Der Spielgeber setzt aus und erbt Schreibpunkte, wenn der Spielübernehmer sein Gebot verfehlt. Es gibt den Pandur auch zu dritt und zu zweit.
 - **Wie hoch ist das tiefste Gebot beim Pandur?** Das tiefste Gebot ist 100 Punkte. Jedes weitere Gebot liegt mindestens 10 Punkte über dem laufenden.
-- **Wie viele Punkte liegen in einem Pandur-Spiel?** Die Karten tragen 152 Punkte, dazu kommen 5 für den letzten Stich: zusammen 157. Wer mehr ansagt, holt den Rest aus dem Weis.
+- **Wie viele Punkte liegen in einem Pandur-Spiel?** In den Karten liegen 152 Punkte, dazu kommen 5 für den letzten Stich: zusammen 157. Wer mehr ansagt, holt den Rest aus dem Weis.
 - **Wie viele Schreibpunkte bringt welches Gebot beim Pandur?** 100 bis 140 bringen 2 Schreibpunkte, 150 bis 190 bringen 3, 200 bis 240 bringen 4, 250 bis 290 bringen 5, ab 300 sind es 6.
 - **Wie viele Schreibpunkte bringt ein Pandur mit Trumpf?** Ein Pandur mit Trumpf bringt 6 Schreibpunkte, ein Pandur ohne Trumpf 5. Ein Misère bringt 4, mit Trumpf wie ohne.
 - **Was geschieht, wenn der Spielübernehmer sein Gebot verfehlt?** Beide Gegner und der Spielgeber schreiben je die Schreibpunkte des Gebots. Ein misslungenes Gebot bringt also drei Spielern etwas ein.
-- **Wer darf beim Pandur weisen?** Bei einer Punktansage meldet der Spielübernehmer seinen Weis. Von den Gegnern meldet nur der erste in Spielrichtung, dessen Weis höher ist. Er nimmt dem Spielübernehmer damit die Weispunkte. Der zweite Gegner schweigt, seine Meldung wäre ein Spielverrat. Meldet der Spielübernehmer nichts, schweigen beide Gegner. Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt der Weis im Blatt.
-- **Was überbietet beim Pandur was?** Ein Misère ohne Trumpf überbietet ein Gebot von 200, ein Misère mit Trumpf überbietet den Misère ohne. Wer einen Misère überbieten will, sagt 210 an. Ein Pandur ohne Trumpf überbietet 250. Wer ihn überbieten will, sagt mindestens 260 an. Über 300 geht es mit 310, 320 und so fort weiter. Zuoberst steht der Pandur mit Trumpf: Ihn überbietet nichts, und wer ihn ansagt, spielt sofort aus.
-- **Wie wird beim Pandur die Trumpffarbe bestimmt?** Die erste Karte des Spielübernehmers zeigt die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Meint er eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler gelegt hat, steht der Trumpf fest.
+- **Wer darf beim Pandur weisen?** Bei einer Punktansage meldet der Spielübernehmer seinen Weis. Von den Gegnern meldet einer, und zwar der mit dem höheren Weis. Er nimmt dem Spielübernehmer damit die Weispunkte. Der andere Gegner schweigt, seine Meldung wäre ein Spielverrat. Halten beide Gegner einen höheren Weis, meldet nach Empfehlung des Verbands der erste in Spielrichtung, nach dem Schweizer Jassverzeichnis der mit dem höchsten Weis. Meldet der Spielübernehmer nichts, schweigen beide Gegner. Beim Misère und beim Pandur zählen Stiche statt Punkte, dort bleibt der Weis im Blatt.
+- **Welches Gebot überbietet beim Pandur welches?** Ein Misère ohne Trumpf überbietet ein Gebot von 200, ein Misère mit Trumpf überbietet den Misère ohne. Wer einen Misère überbieten will, sagt 210 an. Ein Pandur ohne Trumpf überbietet 250. Wer ihn überbieten will, sagt mindestens 260 an. Über 300 geht es mit 310, 320 und so fort weiter. Zuoberst steht der Pandur mit Trumpf: Ihn überbietet nichts, und wer ihn ansagt, spielt sofort aus.
+- **Wie wird beim Pandur die Trumpffarbe bestimmt?** Bei einer Punktansage zeigt die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Meint er eine andere Farbe, benennt er sie beim Ausspiel. Sobald der nächste Spieler gelegt hat, steht der Trumpf fest. Beim Misère mit und beim Pandur mit ist die Farbe der ersten Karte der Trumpf.
 - **Bis wie viele Schreibpunkte wird eine Pandur-Partie gespielt?** Bis 17 Schreibpunkte. Verbreitet sind auch 15 und 21. Die Zahl macht die Runde vor der Partie ab.
-- **Können die letzten Punkte einer Pandur-Partie geerbt werden?** Geerbte Punkte kommen sofort auf die Tafel, machen aber niemanden fertig. Wer auf 15 steht und 4 erbt, steht auf 19 und ist fertig, sobald er in einem Spiel mit Karten Punkte holt. Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Der Verband lässt auch die Gegner eines verfehlten Gebots fertig werden, das Schweizer Jassverzeichnis allein den Spielübernehmer. Welche Fassung gilt, macht die Runde vor der Partie ab.
-- **Was heisst «Pandur» als Ansage?** Der Spielübernehmer holt alle acht Stiche. Die Ansage steht zuoberst auf der Leiter: mit Trumpf 6 Schreibpunkte, ohne Trumpf 5.
-- **Darf man beim Pandur bschiisse?** Nach der Regelsammlung, der wir folgen, kann eine Runde beim Pandur vor dem Spiel abmachen, dass Bschiisse erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner.
+- **Können die letzten Punkte einer Pandur-Partie geerbt werden?** Geerbte Punkte machen niemanden fertig. Der Verband empfiehlt, sie trotzdem sofort zu schreiben: Wer auf 15 steht und 4 erbt, steht auf 19 und ist fertig, sobald er in einem Spiel mit Karten Punkte holt. Das Schweizer Jassverzeichnis schreibt solche Punkte gar nicht erst an. Wer mit seiner Ansage die 17 erreichen will, übernimmt dafür das Spiel. Der Verband lässt auch die Gegner eines verfehlten Gebots fertig werden, das Jassverzeichnis allein den Spielübernehmer. Welche Fassung gilt, macht die Runde vor der Partie ab.
+- **Was heisst «Pandur» als Ansage?** Der Spielübernehmer holt alle acht Stiche. Mit Trumpf ist es das höchste Gebot und bringt 6 Schreibpunkte, ohne Trumpf steht es über 250 und bringt 5.
+- **Darf man beim Pandur mogeln?** Müller führt beim Pandur eine Fassung für Fortgeschrittene, «Bschiisse»: Eine Runde kann vor dem Spiel abmachen, dass Mogeln erlaubt ist. Wer dabei ertappt wird, hat das laufende Spiel verloren, und mit ihm ein allfälliger Partner.
 - **Wie spielt man Pandur zu dritt?** Wie zu viert, nur hält auch der Spielgeber Karten: 24 Karten, acht je Spieler, tiefstes Gebot 100. Das Erben fällt weg, ein verfehltes Gebot schreiben die beiden Gegner.
-- **Wie spielt man Pandur zu zweit?** Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock, dessen unterste Karte eingesehen werden darf. Einer bietet, einer hält dagegen, gespielt werden acht Stiche. Leiter und Wertung bleiben wie zu viert.
+- **Wie spielt man Pandur zu zweit?** Jeder erhält acht der 24 Karten, die übrigen acht bilden den Stock, dessen unterste Karte eingesehen werden darf. Einer bietet, einer hält dagegen, gespielt werden acht Stiche. Gebote und Wertung bleiben wie zu viert.
 - **Was ist der Stock beim Pandur zu zweit?** Die acht Karten, die aus dem Spiel bleiben. Ihre unterste Karte darf eingesehen werden und ist die einzige Auskunft über den Stock. Weil dort rund 50 Punkte liegen, steht schon das tiefste Gebot meist auf einem Weis.
 
-*Keywords: 24 karten, aktiver spielgeber, ansage, anspruchsvoll, bandur*
+*Keywords: pandur, pandur jass, pandur regeln, bandur, pandur zu dritt*
 
 ---
 
@@ -1666,7 +1653,7 @@ Da es häufig regionale Unterschiede bei den Regeln und Funktionskarten gibt, so
 
 **Kategorie:** Varianten > Bietspiel
 
-**Der Sidi-Barrani wird unterschiedlich gespielt.** Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck, beim Doppeln und Kontern und bei der Abrechnung am Schluss.
+Der Sidi-Barrani wird unterschiedlich gespielt. Grundlage dieses Artikels sind das Kapitel «Sidi-Barrani» in Dani Müllers Jassführer «Stöck Wys Stich» (2015), die Seite des Schweizer Jassverzeichnisses, die englische Regelsammlung pagat.com und die Regeln des Jassprogramms SwissJass. Wo sie auseinandergehen oder schweigen, steht die Empfehlung des [Jassverbands Schweiz](https://jassverband.ch), so gekennzeichnet. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel. Die Unterschiede liegen bei den erlaubten Trumpfarten, bei Weis und Stöck, beim Doppeln und Kontern und bei der Abrechnung am Schluss.
 
 Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot abgibt, bestimmt den Trumpf und übernimmt die Pflicht, die angesagte Punktzahl zu erreichen. Je zwei Spieler bilden ein Team, die Partner sitzen sich über Kreuz gegenüber.
 
@@ -1684,13 +1671,13 @@ Der Sidi-Barrani ist eine Schieber-Variante mit Bieten: Wer das höchste Gebot a
 
 ## Das Bieten
 
-Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. Sagt der Partner des Höchstbietenden «fort», lässt er dessen Gebot stehen und überlässt das weitere Bieten seinem Partner. **Das Bieten endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben**, oder sobald ein Gegner dopplet. Das tiefste Gebot ist 50, und jedes weitere liegt mindestens 5 Punkte über dem vorherigen.
+Das Bieten geht mehrmals im Kreis herum. Wer an der Reihe ist, überbietet das höchste Gebot oder sagt «fort» und bleibt damit für dieses Bieten draussen. Sagt der Partner des Höchstbietenden «fort», lässt er dessen Gebot stehen und überlässt das weitere Bieten seinem Partner. **Das Bieten endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben**, oder sobald ein Gegner doppelt. Der Verband empfiehlt 50 als tiefstes Gebot, die unterste Stufe der Ansageregeln. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen.
 
 Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte bleiben beim Bieten aussen vor.
 
-**Der Verband empfiehlt: Ein «fort» gilt für dieses Bieten endgültig.** Wer draussen ist, bleibt draussen. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Anderswo ist der Wiedereinstieg üblich, etwa nach der Regelsammlung Pagat, wo ein Spieler nach einem «fort» in einer späteren Runde wieder bieten darf. **Welche Fassung gilt, macht die Runde vor Spielbeginn ab.**
+Der Verband empfiehlt: Ein «fort» gilt für dieses Bieten endgültig, wer draussen ist, bleibt draussen. Anderswo ist der Wiedereinstieg üblich, etwa nach der englischen Regelsammlung pagat.com, wo ein Spieler nach einem «fort» in einer späteren Runde wieder bieten darf. **Welche Fassung gilt, macht die Runde vor Spielbeginn ab.**
 
-Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Der Verband empfiehlt diese Ansageregeln:
+Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierlei: Sie nennt das Ziel, und sie zeigt dem Partner, welche Karten der Spieler dafür hält. Nach dem Schweizer Jassverzeichnis stehen diese Ansageregeln im Jassreglement, Müller führt sie ebenso, verbindlich sind sie nirgends. Der Verband empfiehlt sie:
 
 | Gebot | Blatt in der genannten Farbe |
 |---|---|
@@ -1709,18 +1696,18 @@ Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierle
 
 Welche die weiteren Karten sind, bleibt offen. Die Ansage sagt, **wie viele Karten man von dieser Farbe hat**, und lässt offen, wie hoch sie sind. Wer eine Farbe eröffnet, sagt damit auch, welche der beiden höchsten Trumpfkarten er hält: 60, 80, 100 und 120 zeigen den Puur, 50, 70, 90 und 110 das Nell.
 
-Diese Zahlen gelten für die **Eröffnung**, also das erste Gebot, mit dem eine Farbe am Tisch fällt. Dazu kommen zwei Ansagen, die auf ein Gebot antworten, das schon gefallen ist. Damit jede Zahl eine Bedeutung trägt, empfiehlt der Verband diese Lesart: **Zehner eröffnen und helfen, Fünfer zeigen ein Ass.**
+Diese Zahlen gelten für die **Eröffnung**, also das erste Gebot, mit dem eine Farbe am Tisch fällt. Dazu kommen zwei Ansagen, die auf ein Gebot antworten, das schon gefallen ist. Damit jede Zahl eine Bedeutung hat, empfiehlt der Verband diese Lesart: **Zehner eröffnen und helfen, Fünfer zeigen ein Ass.**
 
-**Ein Fünfer heisst: «Ich halte das Ass dieser Farbe, als Trumpf meine ich eine andere.»** Die Gegner haben auf 90 gesteigert, Sie sagen «95 auf Schilten»: Sie zeigen dem Partner das Schilten-Ass, und das holt einen Stich, welche Farbe am Ende auch Trumpf wird.
+Ein Fünfer heisst: «Ich halte das Ass dieser Farbe, als Trumpf meine ich eine andere.» Die Gegner haben auf 70 gesteigert. Wer jetzt «75 auf Rosen» sagt, zeigt dem Partner das Rosen-Ass, und das holt einen Stich, welche Farbe am Ende auch Trumpf wird.
 
 
-**Ein Zehner in der Farbe des Partners heisst: «In dieser Farbe helfe ich dir.»** Ihr Partner hat «60 auf Eichel» gesagt, Sie sagen «70» oder «80 auf Eichel». Sie bleiben bei seiner Farbe und sagen: In Eichel halte ich auch etwas, zusammen holen wir mehr als deine 60. Diese Antwort heisst hier die Hilfe. Die 70 heisst: Ich halte das Nell zu zweit. Die 80 heisst: das Nell zu dritt oder mit noch mehr Karten. Hat der Partner mit dem Nell eröffnet, gilt dasselbe für den Puur. Hat ein Gegner dazwischen höher geboten, gelten die beiden kleinsten Zehner über dessen Gebot: der untere «zu zweit», der obere «zu dritt oder mehr».
+Ein Zehner in der Farbe des Partners heisst: «In dieser Farbe helfe ich dir.» Hat der Partner «60 auf Eichel» gesagt, antwortet die 70 oder die 80 auf Eichel: In Eichel halte ich auch etwas, zusammen holen wir mehr als deine 60. Der Verband nennt diese Antwort die Hilfe. Müller und das Jassverzeichnis nennen für sie zehn oder zwanzig Punkte mehr, ohne Kartenzahl. Der Verband empfiehlt diese Lesart: Die 70 heisst: Ich halte das Nell zu zweit. Die 80 heisst: das Nell zu dritt oder mit noch mehr Karten. Hat der Partner mit dem Nell eröffnet, gilt dasselbe für den Puur. Hat ein Gegner dazwischen höher geboten, gelten die beiden kleinsten Zehner über dessen Gebot: der untere «zu zweit», der obere «zu dritt oder mehr».
 
-Wer später in derselben Farbe erhöht, steigert bloss die Zahl. Die Auskunft über Puur, Nell und Hilfe gilt aus den ersten Geboten. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.
+Wer später in derselben Farbe erhöht, steigert bloss die Zahl. Die Auskunft über Puur, Nell und Hilfe stammt aus den ersten Geboten. Ein Team einigt sich beim Bieten auf eine Farbe, denn die zuletzt genannte gilt.
 
-Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler muss somit eine Trumpfansage übernehmen, die er eigentlich gar nicht wollte. Darum sagt ein Ass an, wer sicher ist, dass danach weitergeboten wird.
+Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot: Die genannte Farbe wird Trumpf, die genannte Zahl das Ziel, und der Spieler muss somit eine Trumpfansage übernehmen, die er nicht wollte. Darum sagt ein Ass an, wer sicher ist, dass danach weitergeboten wird.
 
-**Feinheiten, die am Tisch vorkommen:**
+Sonderfälle am Tisch:
 
 • Für die Ass-Ansage gilt der nächste Fünfer über dem laufenden Gebot. Steht das Gebot schon auf einem Fünfer, ist das der Fünfer zehn darüber, nach einer 85 also die 95
 • Für die Hilfe zählen immer die beiden kleinsten Zehner über dem laufenden Gebot. Hat ein Gegner dazwischen geboten, rücken beide entsprechend nach oben
@@ -1728,16 +1715,16 @@ Eine Ass-Ansage kann den Spieler ins Spiel zwingen. Bleibt sie als höchstes Geb
 • Für die Ansagen gehört eine Farbe dem Team, das sie eröffnet hat, auch wenn die Gegner sie später selbst bieten. Ein Fünfer in der Farbe der Gegner heisst «Ich halte das Ass eurer Farbe», ein Zehner in der Farbe der Gegner heisst «Wir wollen eure Farbe selbst», ohne weitere Auskunft
 • In der Farbe des eigenen Teams wird auf Zehnern erhöht. Das Ass der eigenen Trumpffarbe bleibt ungesagt
 • Wer mit seiner Farbe erst auf eine Zahl käme, die unter dem laufenden Gebot liegt oder gleich hoch ist, hat die Eröffnung verpasst. Dann bleiben «fort», die Ass-Ansage, ein Zehner in der Farbe der Gegner oder später die Hilfe in der Farbe des Partners
-• Die Eröffnung beginnt bei drei Karten und reicht bis 120. Darüber sind alle Zahlen bis 157 Gebote ohne Auskunft über Karten. Sie sagen nur, was das Team sich zutraut
+• Die Eröffnung beginnt bei drei Karten und reicht bis 120. Über 120 sagen die Zahlen bis 150 nur, was das Team sich zutraut. Als letztes Gebot folgt der Matsch mit 157
 
 
 ## Ende des Bietens
 
 **Sobald beide Gegner des Höchstbietenden «fort» gesagt haben, steht das Gebot.** Die genannte Farbe wird Trumpf, und wer die letzte Ansage gemacht hat, ist der Spielübernehmer und spielt die erste Karte aus. Das Gebot bleibt dann, wie es ist. Auch der Partner lässt es stehen. Wer Farbe oder Höhe noch ändern will, tut das mit einem neuen, höheren Gebot, solange noch ein Gegner mitbietet.
 
-Sagen alle vier «fort», liegt kein Gebot vor. Dazu schweigen unsere Quellen. Der Verband empfiehlt, in diesem Fall neu zu geben, und zwar durch denselben Spieler: So bleibt die Gebefolge der Partie unangetastet.
+Sagen alle vier «fort», liegt kein Gebot vor. Pagat lässt dann den nächsten Spieler geben. Der Verband empfiehlt, dass derselbe Spieler noch einmal gibt: So bleibt die Gebefolge der Partie unangetastet.
 
-Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**. Weil ein Team bei Erfolg genau diese Zahl schreibt, erhöht es später so hoch, wie es sich zutraut, statt bloss eine Stufe über den Gegner: Was es hält, schreibt es.
+Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kartenpunkten zu holen ist, und sie ist zugleich der Wert, den eine Seite am Schluss geschrieben bekommt. Dieser Wert heisst **Zielpunkte**. Ein Team schreibt bei Erfolg genau die gebotene Zahl. Darum lohnt es sich, so hoch zu bieten, wie das Blatt hergibt.
 
 
 ## Doppeln und Kontern
@@ -1746,7 +1733,7 @@ Die gebotene Punktzahl leistet ab jetzt zweierlei: Sie ist das Ziel, das in Kart
 
 Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das Doppeln beendet das Bieten, gespielt wird das zuletzt genannte Gebot.
 
-**Der Verband empfiehlt zum Zeitpunkt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, und zwar von jedem der beiden Gegner, sobald das Gebot gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat.** Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei: D hätte gleich nach A's Gebot rufen müssen. Bietet C danach 130, steht die 130 zum Doppeln offen, bis D geboten oder «fort» gesagt hat. So bleibt am Tisch eine einzige Zahl im Kopf statt einer Liste älterer Gebote.
+Wann gedoppelt werden darf, lässt Müller offen, das Jassverzeichnis legt es der Runde vor. Der Verband empfiehlt das Fenster, das auch Pagat kennt: Gedoppelt wird das Gebot, das gerade steht, und zwar von jedem der beiden Gegner, auch von einem, der schon «fort» gesagt hat, sobald das Gebot gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei: D hätte gleich nach dem Gebot von A rufen müssen. Bietet C danach 130, steht die 130 zum Doppeln offen, bis D geboten oder «fort» gesagt hat, und auch B darf sie doppeln.
 
 **Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.
 
@@ -1768,11 +1755,11 @@ Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpun
 | Gebot erreicht | Zielpunkte und Kartenpunkte | Kartenpunkte |
 | Gebot verfehlt | Kartenpunkte | Kartenpunkte und Zielpunkte |
 
-Das Gebot wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte.
+Das Gebot wird mit Kartenpunkten erreicht. Kartenpunkte heisst hier: die Punkte aus den Stichen samt den 5 für den letzten Stich. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten fällt.
 
 ## Der Matsch
 
-Das höchste Gebot heisst Matsch und wird mit 157 angesagt: alle Punkte eines Spiels, 152 aus den Karten und 5 für den letzten Stich. Geschrieben wird er wie jedes andere Gebot. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628. Wer den Matsch ansagt, hat beim Bieten erkannt, dass alle Karten, die es dafür braucht, bei seinem Team liegen.
+Das höchste Gebot heisst Matsch und wird mit 157 angesagt: alle Punkte eines Spiels, 152 aus den Karten und 5 für den letzten Stich. Geschrieben wird er wie jedes andere Gebot. Eine Matschprämie kommt dazu, wenn die Runde sie vor der Partie abmacht, wie in der erweiterten Variante mit 257. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628. Wer den Matsch ansagt, hat beim Bieten erkannt, dass alle Karten, die es dafür braucht, bei seinem Team liegen.
 
 Gezählt wird beim Sidi-Barrani in Punkten: Jede Partei führt ihre Punktzahl auf der Tafel. Das Strichformat mit Berg und Sieg gehört zu anderen Jassarten.
 
@@ -1794,11 +1781,11 @@ Niemand hat einen Weis, und die Stöck sind getrennt: Der Eichel-König liegt be
 |---|---|---|
 | A | 60 auf Eichel | Puur zu dritt: der Eichel-Under und zwei weitere Eichel |
 | B | 70 auf Schellen | Nell zu viert: das Schellen-Nell und drei weitere Schellen |
-| C | 90 auf Eichel | Der zweite Zehner über B's 70, in A's Farbe: «In Eichel helfe ich dir, mit dem Nell zu dritt oder mehr» |
+| C | 90 auf Eichel | Der zweite Zehner über der 70 von B, in der Farbe von A: «In Eichel helfe ich dir, mit dem Nell zu dritt oder mehr» |
 | D | 95 auf Rosen | Der nächste Fünfer: «Ich halte das Rosen-Ass, als Trumpf meine ich eine andere Farbe» |
-| A | 100 auf Eichel | Ein Zehner über D's 95: die höchste Zahl, die A seiner Rechnung zutraut |
-| D | «Ich dopple» | Sofort nach A's Gebot, bevor B an der Reihe ist. Damit ist das Bieten beendet |
-| A | verzichtet auf den Konter | Seine Rechnung trägt die 100 als Gebot. Für 400 Zielpunkte ist sie ihm zu unsicher |
+| A | 100 auf Eichel | Ein Zehner über der 95 von D: die höchste Zahl, die A seiner Rechnung zutraut |
+| D | «Ich dopple» | Sofort nach dem Gebot von A, bevor B an der Reihe ist. Damit ist das Bieten beendet |
+| A | verzichtet auf den Konter | Seine Rechnung reicht für die 100 als Gebot. Für 400 Zielpunkte ist sie ihm zu unsicher |
 
 Eichel ist Trumpf, das Ziel sind 100 Kartenpunkte, es stehen 200 Zielpunkte auf dem Spiel, und A spielt die erste Karte aus. Was jeder Spieler sich dabei gedacht hat, zeigt der Weg Schritt für Schritt.
 
@@ -1810,21 +1797,21 @@ A hat den Puur zu dritt. Die 60, eine Zahl aus der Puur-Reihe, sagt genau das: d
 ### B sagt «70 auf Schellen»
 
 
-B hat das Nell zu viert und bietet in seiner eigenen Farbe dagegen. Die 70 steht in der Nell-Reihe 50, 70, 90, 110 und sagt: das Nell und dazu drei weitere Karten. Die Zahl steht mit dem Blatt fest: Vier Schellen mit dem Nell heissen 70. Mit dreien wäre es die 50 gewesen, und die läge unter A's 60. Dann wäre die Eröffnung für B verpasst gewesen. Sein Partner D weiss damit auch, was B fehlt: Wer «Nell zu viert» sagt, hält den Puur der Farbe nicht, sonst hätte er ihn angesagt.
+B hat das Nell zu viert und bietet in seiner eigenen Farbe dagegen. Die 70 steht in der Nell-Reihe 50, 70, 90, 110 und sagt: das Nell und dazu drei weitere Karten. Die Zahl steht mit dem Blatt fest: Vier Schellen mit dem Nell heissen 70. Mit dreien wäre es die 50 gewesen, und die läge unter der 60 von A. Dann wäre die Eröffnung für B verpasst gewesen. Sein Partner D weiss damit auch, was B fehlt: Wer «Nell zu viert» sagt, hält den Puur der Farbe nicht, sonst hätte er ihn angesagt.
 
 ### C, der Partner von A, sagt «90 auf Eichel»
 
 
-C bleibt in der Farbe seines Partners. **Das ist eine Antwort auf A's Eröffnung:** In Eichel kann ich dir helfen. Die beiden Zehner über B's 70 heissen 80 und 90: Die 80 hiesse das Nell zu zweit, die 90 heisst das Nell zu dritt oder mehr. C hält das Nell zu dritt, mit dem Ass und dem Ober, also sagt er die 90. A hört daraus mit Sicherheit, dass das Nell bei C liegt und mindestens zwei weitere Eichel dazu. Die Karten selbst sieht er erst im Spiel.
+C bleibt in der Farbe seines Partners. Das ist eine Antwort auf die Eröffnung von A: In Eichel kann ich dir helfen. Die beiden Zehner über der 70 von B heissen 80 und 90: Die 80 hiesse das Nell zu zweit, die 90 heisst das Nell zu dritt oder mehr. C hält das Nell zu dritt, mit dem Ass und dem Ober, also sagt er die 90. A hört daraus mit Sicherheit, dass das Nell bei C liegt und mindestens zwei weitere Eichel dazu. Die Karten selbst sieht er erst im Spiel.
 
 ### D sagt «95 auf Rosen»
 
 
 Der nächste Fünfer über dem laufenden Gebot ist eine Auskunft an den Partner. D hält das Rosen-Ass und sagt es B. Ein Ass holt einen Stich, welche Farbe am Ende auch Trumpf wird, und B kann das in seine nächste Überlegung einrechnen.
 
-Warum D Rosen zeigt, statt Schellen zu stützen: B hat das Nell angesagt, also verlangt die Hilfe den Schellen-Puur, mindestens zu zweit, und den hat D gar nicht. Für sein Schellen-Ass und den Ober gibt es ebenfalls keine Ansage, weil in der eigenen Teamfarbe auf Zehnern erhöht wird. Dazu weiss er aus B's Ansage, dass ihrem Team der Schellen-Puur fehlt, und gegen mindestens sechs Eichel mit Puur und Nell bei A und C wäre ein Spiel mit Schellen als Trumpf ein teures Unterfangen. D setzt auf die Abwehr und zeigt, womit er sie führen wird: In Rosen hält er Ass, König und die Sieben, zum Eröffnen fehlen ihm Puur und Nell, aber das Ass soll B kennen.
+Warum D Rosen zeigt, statt Schellen zu stützen: B hat das Nell angesagt, also verlangt die Hilfe den Schellen-Puur, mindestens zu zweit, und den hält D nicht. Für sein Schellen-Ass und den Ober gibt es ebenfalls keine Ansage, weil in der eigenen Teamfarbe auf Zehnern erhöht wird. Dazu weiss er aus der Ansage von B, dass ihrem Team der Schellen-Puur fehlt, und gegen mindestens sechs Eichel mit Puur und Nell bei A und C verlöre D ein Spiel mit Schellen als Trumpf. D setzt auf die Abwehr und zeigt, womit er sie führen wird: In Rosen hält er Ass, König und die Sieben, zum Eröffnen fehlen ihm Puur und Nell, aber das Ass soll B kennen.
 
-**Die 95 ist die riskanteste Ansage dieses Spiels:** Bliebe sie stehen, müsste D mit Rosen als Trumpf 95 Punkte holen, mit Ass, König und Sieben. D sagt sie trotzdem, weil er sicher ist, dass A und C mit ihren mindestens sechs Eichel weiterbieten.
+Bliebe die 95 als höchstes Gebot stehen, müsste D mit Rosen als Trumpf 95 Punkte holen, mit Ass, König und Sieben. D sagt sie trotzdem, weil er sicher ist, dass A und C mit ihren mindestens sechs Eichel weiterbieten.
 
 ### A sagt «100 auf Eichel»
 
@@ -1833,30 +1820,30 @@ Jetzt rechnet A. Er sieht seine neun Karten und hat drei Ansagen gehört. Was er
 | Was A weiss | Woher |
 |---|---|
 | Der Puur ist bei ihm, dazu zwei weitere Eichel | eigenes Blatt |
-| Das Nell ist bei C, mit mindestens zwei weiteren Eichel | C's 90, die grössere Hilfe in A's Farbe |
-| B hält vier Schellen mit dem Nell | B's 70 |
-| D hält das Rosen-Ass | D's 95 |
+| Das Nell ist bei C, mit mindestens zwei weiteren Eichel | die 90 von C, die grössere Hilfe in der Farbe von A |
+| B hält vier Schellen mit dem Nell | die 70 von B |
+| D hält das Rosen-Ass | die 95 von D |
 | Schilten-Ass und Schilten-König sind bei ihm, über Schilten hat niemand ein Wort verloren | eigenes Blatt |
 
-**Der Trumpf.** Puur und Nell liegen bei A und C, und zusammen halten sie mindestens sechs Eichel: das weiss A aus den Ansagen. Damit ziehen die beiden den Gegnern die restlichen Trümpfe aus der Hand, und die Zählwerte dieser Trümpfe fallen dabei auf die eigenen Stiche. Von den 62 Punkten der Trumpffarbe kommt fast alles zu A und C. Nur ein Gegner mit drei Eichel behielte nach zwei Trumpfrunden noch einen Trumpf.
+Der Trumpf: Puur und Nell liegen bei A und C, und zusammen halten sie mindestens sechs Eichel: das weiss A aus den Ansagen. Damit ziehen die beiden den Gegnern die restlichen Trümpfe aus der Hand, und die Zählwerte dieser Trümpfe fallen dabei auf die eigenen Stiche. Von den 62 Punkten der Trumpffarbe kommt fast alles zu A und C. Nur ein Gegner mit drei Eichel behielte nach zwei Trumpfrunden noch einen Trumpf.
 
-**Die anderen Farben.** Ein Spiel bringt 157 Punkte: 62 im Trumpf, 90 in den drei anderen Farben, 5 für den letzten Stich. Das Schilten-Ass holt einen Stich, der König dahinter sehr wahrscheinlich einen zweiten, das sind mindestens 15. Den letzten Stich holt, wer den letzten Trumpf hält, also mit grosser Wahrscheinlichkeit A oder C. In Rosen sitzt das Ass bei D, und in Schellen hält B allein schon vier Karten: dort holen A und C wenig.
+Die anderen Farben: Ein Spiel bringt 157 Punkte: 62 im Trumpf, 90 in den drei anderen Farben, 5 für den letzten Stich. Das Schilten-Ass holt einen Stich, der König dahinter sehr wahrscheinlich einen zweiten, das sind mindestens 15. Den letzten Stich holt, wer den letzten Trumpf hält, also mit grosser Wahrscheinlichkeit A oder C. In Rosen sitzt das Ass bei D, und in Schellen hält B allein schon vier Karten: dort holen A und C wenig.
 
-**Die Summe.** 62 im Trumpf, 15 in Schilten, 5 für den letzten Stich: rund 82 Punkte rechnet A fest ein. Für 100 fehlen etwa 18, und die müssen aus zweierlei kommen: aus den Karten, die auf seine Stiche fallen, und aus dem, was C in den anderen Farben hält. Beides kennt A nicht. **Genau das macht die 100 zu einem Gebot statt zu einer Gewissheit.**
+Die Summe: 62 im Trumpf, 15 in Schilten, 5 für den letzten Stich: rund 82 Punkte rechnet A fest ein. Für 100 fehlen etwa 18, und die müssen aus zweierlei kommen: aus den Karten, die auf seine Stiche fallen, und aus dem, was C in den anderen Farben hält, und beides kennt A nicht. Diese 18 Punkte sind der Teil der Rechnung, den A nicht kennt, darum bietet er 100 und keinen Zehner mehr.
 
-Die 100 ist der kleinste Zehner über D's 95, und A könnte höher gehen. Das Team schreibt bei Erfolg die gebotene Zahl: Wer 110 hält, schreibt 110. Darum nimmt A die höchste Zahl, der er traut, und das ist die 100. 110 wären ihm zu viel, und an einen Matsch ist mit dem Rosen-Ass bei D und den vier Schellen bei B gar nicht zu denken.
+Die 100 ist der kleinste Zehner über der 95 von D, und A könnte höher gehen. Das Team schreibt bei Erfolg die gebotene Zahl: Wer 110 hält, schreibt 110. Darum nimmt A die höchste Zahl, der er traut, und das ist die 100. 110 wären ihm zu viel, und an einen Matsch ist mit dem Rosen-Ass bei D und den vier Schellen bei B nicht zu denken.
 
 Sein Schilten-Ass behält A für sich. Eine Ass-Ansage «105 auf Schilten» hätte es auch B und D verraten, und A hätte den Trumpf danach mit einem noch höheren Gebot nach Eichel zurückholen müssen.
 
-### D dopplet, A verzichtet auf den Konter
+### D doppelt, A verzichtet auf den Konter
 
-D ruft «ich dopple», sofort nach A's 100 und bevor B an der Reihe ist. Das Fenster dafür schliesst sich nach der Empfehlung des Verbands, sobald B geboten oder «fort» gesagt hat. Mit dem Doppeln ist das Bieten beendet.
+D ruft «ich dopple», sofort nach der 100 von A und bevor B an der Reihe ist. Das Fenster dafür schliesst sich nach der Empfehlung des Verbands, sobald B geboten oder «fort» gesagt hat. Mit dem Doppeln ist das Bieten beendet.
 
-D rechnet dieselbe Aufgabe von der anderen Seite, aus seinem Blatt und aus den Ansagen. Er weiss aus dem Bieten, dass Puur und Nell der Trumpffarbe beim Gegner liegen. Seine eigenen zwei Eichel, König und Banner, sind damit verloren, und die 62 Punkte des Trumpfs schreibt er A und C zu. Für 100 brauchen die beiden also noch 38 aus den anderen Farben. Er hört aber auch, was ungesagt blieb: Von A und C kam keine Auskunft über eine zweite Farbe. Das Rosen-Ass hat er selbst gemeldet. Also vermutet er die Stärke von A und C allein im Trumpf.
+D rechnet dieselbe Aufgabe von der anderen Seite, aus seinem Blatt und aus den Ansagen. Er weiss aus dem Bieten, dass Puur und Nell der Trumpffarbe beim Gegner liegen. Seine eigenen zwei Eichel, König und Banner, sind damit verloren, und die 62 Punkte des Trumpfs schreibt er A und C zu. Für 100 brauchen die beiden also noch 38 aus den anderen Farben. Er hört aber auch, was ungesagt blieb: Von A und C kam keine Auskunft über eine zweite Farbe. Das Rosen-Ass hat er selbst gemeldet. Er vermutet die Stärke von A und C darum allein im Trumpf.
 
-Was er dagegenhält: Rosen-Ass und Rosen-König, das sind zwei Stiche, falls niemand mehr sticht. Das Schellen-Ass, ein dritter. Und weil B vier Schellen hält, traut D ihm hinter dem Ass einen vierten Stich zu. Vier Stiche mit den Karten, die auf sie fallen, schätzt er auf rund 60 Punkte. Dann blieben A und C bei 97 stehen. **Darum dopplet er.** Damit stehen 200 Zielpunkte auf dem Spiel. Zu holen bleiben die gebotenen 100 Kartenpunkte.
+Was er dagegenhält: Rosen-Ass und Rosen-König, das sind zwei Stiche, falls niemand mehr sticht. Das Schellen-Ass, ein dritter. Weil B vier Schellen hält, traut D ihm hinter dem Ass einen vierten Stich zu. Vier Stiche mit den Karten, die auf sie fallen, schätzt er auf rund 60 Punkte. Dann blieben A und C bei 97 stehen, und D doppelt. Damit stehen 200 Zielpunkte auf dem Spiel. Zu holen bleiben die gebotenen 100 Kartenpunkte.
 
-A oder C könnten kontern und die Zielpunkte auf 400 heben. A verzichtet, und C überlässt ihm den Entscheid, denn A hat die Zahl gesetzt: Seine Rechnung trägt die 100 als Gebot, für 400 Zielpunkte ist sie ihm zu unsicher.
+A oder C könnten kontern und die Zielpunkte auf 400 heben. A verzichtet, und C überlässt ihm den Entscheid, denn A hat die Zahl gesetzt: Seine Rechnung reicht für die 100 als Gebot, für 400 Zielpunkte ist sie ihm zu unsicher.
 
 ### Das Spiel
 
@@ -1876,11 +1863,11 @@ A spielt aus. Die Karten stehen in der Reihenfolge, in der sie fallen. Anhand de
 
 Was in diesem Spiel den Ausschlag gab:
 
-• **Stich 1 und 2:** A spielt Trumpf aus und nimmt den Gegnern ihre Trümpfe, wie es seine Rechnung verlangt. Auf den Puur fallen die Sieben von B und der König von D, auf die zweite Runde das Banner: Nach zwei Zügen sind B und D ohne Trumpf, und alle 62 Trumpfpunkte gehen an A und C, wie A es zusammengerechnet hat
-• **Stich 3 bis 5:** Die Schilten, über die niemand ein Wort verloren hat, bringen alle 30 Punkte der Farbe zu A und C. Beim fünften Stich hat ausser A niemand mehr eine Schilte, B und D haben keinen Trumpf mehr, und C wirft den Rosen-Under ab, zwei Punkte für die eigene Seite
-• **Stich 6:** Das Rosen-Ass von D holt, was D angesagt hat, und B wirft sein Banner dazu
-• **Stich 7:** D's Rosen-König ist die höchste Karte in Rosen, die noch im Spiel ist. Aber C hält in Rosen nichts mehr und sticht mit dem Eichel-Ass. Diesen Stich hatte D auf seiner Seite gerechnet
-• **Stich 8 und 9:** Das Schellen-Ass holt, was D erwartet hat, samt B's Banner. Den letzten Stich sticht A mit dem letzten Trumpf und nimmt die 5 dazu
+• Stich 1 und 2: A spielt Trumpf aus und nimmt den Gegnern ihre Trümpfe, wie es seine Rechnung verlangt. Auf den Puur fallen die Sieben von B und der König von D, auf die zweite Runde das Banner: Nach zwei Zügen sind B und D ohne Trumpf, und alle 62 Trumpfpunkte gehen an A und C, wie A es zusammengerechnet hat
+• Stich 3 bis 5: Die Schilten, über die niemand ein Wort verloren hat, bringen alle 30 Punkte der Farbe zu A und C. Beim fünften Stich hat ausser A niemand mehr eine Schilte, B und D haben keinen Trumpf mehr, und C wirft den Rosen-Under ab, zwei Punkte für die eigene Seite
+• Stich 6: Das Rosen-Ass von D holt, was D angesagt hat, und B wirft sein Banner dazu
+• Stich 7: Der Rosen-König von D ist die höchste Karte in Rosen, die noch im Spiel ist. Aber C hält in Rosen nichts mehr und sticht mit dem Eichel-Ass. Diesen Stich hatte D auf seiner Seite gerechnet
+• Stich 8 und 9: Das Schellen-Ass holt, was D erwartet hat, samt dem Banner von B. Den letzten Stich sticht A mit dem letzten Trumpf und nimmt die 5 dazu
 
 ### Die Tafel
 
@@ -1891,7 +1878,7 @@ A und C holen 113 Kartenpunkte, das Gebot steht:
 | A und C | 200 | 113 | **313** |
 | B und D | | 44 | **44** |
 
-Die Kartenpunkte beider Seiten ergeben zusammen 157. Auf der Tafel stehen die 200, zu holen waren die gebotenen 100. Ohne das Doppeln stünde es 213 zu 44. D's Rechnung ging um zwei Stiche zu kurz: Sein Rosen-König und der zweite Schellen-Stich wurden beide gestochen, weil A und C nach dem Trumpfziehen selbst noch je einen Trumpf hielten. Das Doppeln hat B und D 100 Punkte gekostet.
+Die Kartenpunkte beider Seiten ergeben zusammen 157. Auf der Tafel stehen die 200, zu holen waren die gebotenen 100. Ohne das Doppeln stünde es 213 zu 44. Die Rechnung von D ging um zwei Stiche zu kurz: Sein Rosen-König und der zweite Schellen-Stich wurden beide gestochen, weil A und C nach dem Trumpfziehen selbst noch je einen Trumpf hielten. Das Doppeln hat B und D 100 Punkte gekostet.
 
 Zum Vergleich die Tafel, wenn das Gebot fällt, etwa bei 96 Kartenpunkten für A und C:
 
@@ -1902,7 +1889,7 @@ Zum Vergleich die Tafel, wenn das Gebot fällt, etwa bei 96 Kartenpunkten für A
 
 ## Partieende
 
-Gespielt wird auf 2000 Punkte. Manche Runden machen 1500 ab. Anders als bei den übrigen Jassarten, wo die Ausmachregel den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.
+Gespielt wird auf 2000 Punkte. Manche Runden machen 1500 ab. Anders als beim Schieber, wo die Ausmachregel den Moment des Überschreitens festhält, entscheidet beim Sidi-Barrani die Abrechnung nach dem letzten Spiel. Es wird zu Ende gejasst, weil die Zielpunkte und ein allfälliges Doppeln mitzählen. Stehen am Ende beide Teams am Ziel oder darüber, gewinnt die höhere Endpunktzahl.
 
 Ein Team, das am Ende weniger als die Hälfte des Ziels hat, ist Schneider. Auch darüber entscheidet erst die Abrechnung nach dem letzten Spiel. Was der Schneider einbringt, macht der Tisch vor der Partie ab. Zur neuen Partie wird so gegeben, dass die Verlierer Vorhand erhalten.
 
@@ -1910,10 +1897,10 @@ Ein Team, das am Ende weniger als die Hälfte des Ziels hat, ist Schneider. Auch
 
 Einem Team, dem nur noch wenige Punkte fehlen, nützt ein hohes Gebot wenig: Ob es 120 oder gedoppelt 240 Zielpunkte schreibt, es gewinnt gleich. Für die Gegner lohnt sich das Doppeln in dieser Lage besonders: Holt das führende Team sein Gebot, ändert das Doppeln am Ausgang nichts. Verfehlt es sein Gebot, schreiben die Gegner den doppelten Betrag.
 
-Dagegen sind zwei Schlussregeln verbreitet. Bei SwissJass, wo beide eingebaut sind, tragen sie eigene Namen. Eine Runde macht die gewünschte vor der Partie ab:
+Dagegen sind zwei Schlussregeln verbreitet. Im Jassprogramm SwissJass, wo beide eingebaut sind, tragen sie eigene Namen. Eine Runde macht die gewünschte vor der Partie ab:
 
-• **Bonus-Schlussregel,** auch «das letzte Gebot entscheidet»: Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
-• **Überbiet-Schlussregel,** auch «Abzug bei verfehltem Gebot»: Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein Gebot, und die Gegner haben es nicht gedoppelt, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
+• **Bonus-Schlussregel:** Gewonnen hat, wer das Ziel erreicht hat, vor dem Gegner liegt und im letzten Spiel sein Gebot geholt hat. Verfehlt das führende Team sein Gebot, geht die Partie weiter
+• **Überbiet-Schlussregel:** Erreicht das führende Team das Ziel und liegt vorn, verfehlt aber sein Gebot, und die Gegner haben es nicht gedoppelt, so wird nach der normalen Abrechnung beiden Teams die gebotene Punktzahl abgezogen. Damit bleibt die Partie offen
 
 ## Eine verbreitete Variante
 
@@ -1926,11 +1913,11 @@ Neben dieser Spielweise mit vier Trumpffarben ist eine erweiterte Variante verbr
 
 ## Woher der Name kommt
 
-Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens. Im Dezember 1940 wurde dort gekämpft. Die Schlacht eröffnete den britischen Vorstoss gegen die italienische Armee in Nordafrika. Über diesen Feldzug berichtete das Radio täglich, und in der Innerschweiz hörte man mit.
+Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens. Im Dezember 1940 wurde dort gekämpft. Die Schlacht eröffnete den britischen Vorstoss gegen die italienische Armee in Nordafrika. Über diesen Feldzug berichtete Radio Beromünster immer wieder.
 
-Überliefert ist, dass Luzerner Jasser ihrer Spielart den Namen aus diesen Nachrichten gaben. Gespielt hatten sie bis dahin den Bolschewik, und der Sidi-Barrani ist daraus hervorgegangen. Das erklärt, warum die beiden einander bis heute so ähnlich sehen: Wer den einen kennt, findet sich im anderen auf Anhieb zurecht.
+Nach dem Schweizer Jassverzeichnis gaben Luzerner Jasser um Hochdorf ihrer Spielart den Namen aus diesen Nachrichten. Gespielt hatten sie bis dahin den Bolschewik, und der Sidi-Barrani ist daraus hervorgegangen. Die beiden Spiele gleichen sich bis heute.
 
-Seine Heimat hat das Spiel in der Innerschweiz, am dichtesten im Luzerner Seetal, um Willisau und im Entlebuch, dazu im Aargauer Seetal, im Freiamt und in Zürich. Es besteht dafür sogar eine eigene Vereinigung, die Sidi-Barrani-Jassvereinigung Luzern und angrenzende Kantone.
+Seine Heimat hat das Spiel in der Innerschweiz, am dichtesten im Luzerner Seetal, um Willisau und im Entlebuch, dazu im Aargauer Seetal, im Freiamt und in Zürich. Es besteht dafür eine eigene Vereinigung, die Sidi-Barrani-Jassvereinigung Luzern und angrenzende Kantone.
 
 ## Vor der Partie abmachen
 
@@ -1947,20 +1934,20 @@ Was eine Runde einmal festlegt und danach jedes Mal gleich handhabt:
 
 
 **Häufige Fragen:**
-- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben oder ein Gegner dopplet. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus. Da der Sidi-Barrani unterschiedlich gespielt wird, macht eine Runde abweichende Regeln vor Spielbeginn ab.
+- **Wie spielt man Sidi-Barrani?** Der Sidi-Barrani ist eine Schieber-Variante mit Bieten. Vier Spieler bilden zwei Teams und erhalten je neun Karten. Der Reihe nach nennt jeder Spieler ein Gebot aus Punktzahl und Trumpffarbe, und das Bieten geht mehrmals im Kreis herum. Es endet, sobald beide Gegner des Höchstbietenden «fort» gesagt haben oder ein Gegner doppelt. Wer das höchste Gebot hält, ist der Spielübernehmer: Die genannte Farbe wird Trumpf, die genannte Punktzahl ist sein Ziel, und er spielt die erste Karte aus.
 - **Wie hoch ist das tiefste Gebot beim Sidi-Barrani?** Der Jassverband Schweiz empfiehlt 50 als tiefstes Gebot. Damit fällt die Untergrenze mit der untersten Stufe der Ansageregeln zusammen. Jedes weitere Gebot liegt mindestens 5 Punkte über dem vorherigen. Runden, die eine andere Untergrenze wollen, legen sie vor der Partie fest.
 - **Was bedeutet ein Gebot von 80 beim Sidi-Barrani?** Als erstes Gebot in einer Farbe zeigt 80 den Puur der genannten Farbe und drei weitere Karten derselben Farbe, zusammen vier. Die vom Jassverband Schweiz empfohlenen Ansageregeln laufen in Zehnerschritten: 50 Nell zu dritt, 60 Puur zu dritt, 70 Nell zu viert, 80 Puur zu viert, 90 Nell zu fünft, 100 Puur zu fünft, 110 Nell zu sechst, 120 Puur zu sechst. Die Ansagekarte zählt dabei mit, und welche die weiteren Karten sind, bleibt offen. Sagt der Partner nach einer 60 in derselben Farbe 80, und hat dazwischen niemand geboten, ist das die grössere Hilfe: «In dieser Farbe helfe ich dir, mit dem Nell zu dritt oder mehr.»
 - **Darf der Höchstbietende nochmals erhöhen, wenn alle anderen gepasst haben?** Sobald beide Gegner des Höchstbietenden «fort» gesagt haben, steht das Gebot: Die genannte Farbe wird Trumpf, die genannte Punktzahl das Ziel, und wer die letzte Ansage gemacht hat, spielt die erste Karte aus. Das Gebot bleibt dann, wie es ist, auch der Partner lässt es stehen. Wer Farbe oder Höhe ändern will, tut das mit einem neuen, höheren Gebot, solange noch ein Gegner mitbietet.
-- **Darf man nach einem «fort» wieder mitbieten?** Der Jassverband Schweiz empfiehlt, ein «fort» für dieses Bieten als endgültig zu behandeln: Wer draussen ist, bleibt draussen. So muss am Tisch niemand mitverfolgen, wer wann wieder einsteigen dürfte. Andere Regelwerke lassen den Wiedereinstieg zu, etwa die Regelsammlung Pagat. Welche Fassung gilt, macht die Runde vor Spielbeginn ab.
-- **Bis wann darf gedoppelt werden?** Der Jassverband Schweiz empfiehlt: Doppeln ist ein Zwischenruf. Gedoppelt wird das Gebot, das gerade steht, von jedem der beiden Gegner, sobald es gefallen ist und bis der nächste Spieler geboten oder «fort» gesagt hat. Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei. Bietet C danach 130, steht die 130 offen, bis D geboten oder «fort» gesagt hat. Eine verbreitete Variante lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu. Die Runde macht es vor Spielbeginn ab.
+- **Darf man nach einem «fort» wieder mitbieten?** Der Jassverband Schweiz empfiehlt, ein «fort» für dieses Bieten als endgültig zu behandeln: Wer draussen ist, bleibt draussen. Andere Regelwerke lassen den Wiedereinstieg zu, etwa die englische Regelsammlung pagat.com. Welche Fassung gilt, macht die Runde vor Spielbeginn ab.
+- **Bis wann darf gedoppelt werden?** Solange das Gebot steht, also bis der nächste Spieler geboten oder «fort» gesagt hat, so empfiehlt es der Jassverband Schweiz. Bietet A 120 und sagt B «fort», ist die 120 fürs Doppeln vorbei. Bietet C danach 130, steht die 130 offen, bis D geboten oder «fort» gesagt hat. Eine verbreitete Variante lässt das Doppeln zusätzlich beim Ausspielen der ersten Karte zu.
 - **Muss man nach dem Doppeln mehr Punkte holen?** Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte, also den Wert, den eine Seite am Schluss geschrieben bekommt. Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte und schreibt bei Erfolg 240 Zielpunkte zu seinen Kartenpunkten. Bleibt er darunter, schreiben die Gegner diese 240 Punkte.
 - **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Ein Fünfer zeigt dem Partner das Ass der genannten Farbe, während eine andere Farbe Trumpf werden soll. Der Jassverband Schweiz empfiehlt die Lesart: Zehner eröffnen und helfen, Fünfer zeigen ein Ass, und zwar der nächste Fünfer über dem laufenden Gebot. Nach einer 85 ist das die 95. Die Ansage kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
-- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Matsch ist beim Sidi-Barrani das höchste Gebot und wird mit 157 angesagt: alle Punkte einer Runde, 152 aus den Karten und 5 für den letzten Stich. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628.
+- **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Matsch ist beim Sidi-Barrani das höchste Gebot und wird mit 157 angesagt: alle Punkte eines Spiels, 152 aus den Karten und 5 für den letzten Stich. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628.
 - **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte: Jede Partei führt ihre Punktzahl auf der Tafel, gespielt wird auf 2000 Punkte, manche Runden machen 1500 ab. Das Strichformat mit Berg und Sieg gehört zu anderen Jassarten.
-- **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte bleiben beim Bieten aussen vor. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, der Stöck nach dem Ausspielen der zweiten Stöckkarte. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
+- **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte bleiben beim Bieten aussen vor. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten fällt. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
 - **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ob mit Doppeln und Kontern gespielt wird, macht die Runde vor Spielbeginn ab. Wer damit spielt: Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten. Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
-- **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen und richtet sich allein nach der Einschätzung des Blattes. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussvarianten fangen das auf, bei SwissJass Bonus-Schlussregel und Überbiet-Schlussregel genannt: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
-- **Woher kommt der Name Sidi-Barrani?** Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens, um den im Dezember 1940 gekämpft wurde. Das Radio berichtete damals täglich über den Feldzug in Nordafrika. Überliefert ist, dass Luzerner Jasser ihrer Spielart den Namen aus diesen Nachrichten gaben. Gespielt hatten sie bis dahin den Bolschewik, aus dem der Sidi-Barrani hervorgegangen ist.
+- **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussvarianten fangen das auf, im Jassprogramm SwissJass Bonus-Schlussregel und Überbiet-Schlussregel genannt: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
+- **Woher kommt der Name Sidi-Barrani?** Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens, um den im Dezember 1940 gekämpft wurde. Radio Beromünster berichtete damals immer wieder über den Feldzug in Nordafrika. Nach dem Schweizer Jassverzeichnis gaben Luzerner Jasser um Hochdorf ihrer Spielart den Namen aus diesen Nachrichten. Gespielt hatten sie bis dahin den Bolschewik, aus dem der Sidi-Barrani hervorgegangen ist.
 - **Wo wird der Sidi-Barrani gespielt?** Seine Heimat hat das Spiel in der Innerschweiz, am dichtesten im Luzerner Seetal, um Willisau und im Entlebuch, dazu im Aargauer Seetal, im Freiamt und in Zürich. Es besteht dafür eine eigene Vereinigung, die Sidi-Barrani-Jassvereinigung Luzern und angrenzende Kantone.
 
 *Keywords: 157, 257, ansageregeln, ass-ansage, bietbeispiel*
@@ -2322,27 +2309,27 @@ Spielstrategie:
 
 **Kategorie:** Varianten > Gesellschaftsspiel
 
-**Hose abe, Schnauz und Schwimmen sind drei Namen für dasselbe Spiel.** Gespielt wird mit Jasskarten, und doch geht es ganz anders zu als beim Jassen: Jeder hält drei Karten und sucht die höchste Summe in **einer** Farbe. Trumpf, Stiche und Weis bleiben dem Jass vorbehalten.
+Hose abe, Schnauz und Schwimmen sind drei Namen für dasselbe Spiel. Gespielt wird mit Jasskarten, und doch geht es ganz anders zu als beim Jassen: Jeder hält drei Karten und sucht die höchste Summe in **einer** Farbe. Trumpf, Stiche und Weis bleiben dem Jass vorbehalten.
 
-**Wer 31 Punkte in einer Farbe zusammenbringt, zeigt sie, und das Spiel ist aus.** Diese 31 heisst «Hose abe», in anderen Gegenden «Schnauz» oder schlicht «31». «Schwimmen» heisst das Spiel nach seiner Regel mit den Einsätzen, die weiter unten steht.
+Wer 31 Punkte in einer Farbe zusammenbringt, zeigt sie, und das Spiel ist aus. Diese 31 heisst «Hose abe», in anderen Gegenden «Schnauz» oder schlicht «31». Wer alle Einsätze verloren hat, «schwimmt», daher der dritte Name.
 
-Dieser Artikel beschreibt die in der Schweiz verbreitete Spielweise mit dem 36er-Blatt. Ausserhalb der Schweiz wird dasselbe Spiel meist mit 32 Karten gespielt, dort fehlen die Sechser. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Dieser Artikel beschreibt die in der Schweiz verbreitete Spielweise mit dem 36er-Blatt. Grundlage sind die Regelseite «Hose-Abe-Jass» des Schweizer Jassverzeichnisses und der Artikel «Schwimmen» der deutschen Wikipedia. Wo beide schweigen, steht die Empfehlung des Jassverbands Schweiz. Ausserhalb der Schweiz wird dasselbe Spiel meist mit 32 Karten gespielt, dort fehlen die Sechser. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Die Grundform
 
-• 2 bis 11 Spieler, ein volles Blatt mit 36 Karten
+• 2 bis 11 Spieler, ein volles Blatt mit 36 Karten. Jeder spielt für sich
 • Jeder erhält drei Karten, dazu kommen drei Karten in die Mitte
-• **Die Zahl 11 ist keine Willkür:** 11 Spieler halten 33 Karten, dazu die drei in der Mitte, und das Blatt ist aufgebraucht
+• 11 Spieler halten 33 Karten, dazu die drei in der Mitte, damit ist das Blatt aufgebraucht
 • Es beginnt, wer rechts vom Spielgeber sitzt, und danach geht es herum wie beim Jassen, im Gegenuhrzeigersinn
 • Wer an der Reihe ist, tauscht eine Karte gegen eine aus der Mitte, tauscht alle drei auf einmal, oder klopft
 • Gezählt wird nur, was in einer Farbe liegt. Drei gleiche Karten sind der einzige Fall, in dem die Farben gleichgültig sind
-• Jeder beginnt mit drei Einsätzen. Nach jedem Spiel gibt die tiefste Punktzahl einen Einsatz ab
+• Ein Einsatz ist eine Münze, ein Chip oder ein Bierdeckel. Jeder legt drei davon vor sich hin. Nach jedem Spiel gibt einen Einsatz ab, wer die tiefste Summe hält
 • Wer alle drei Einsätze abgegeben hat, **schwimmt**: Er spielt weiter und scheidet beim nächsten Verlust aus
-• Das nächste Spiel gibt der nächste Spieler im Kreis
+• Das nächste Spiel gibt der Nächste im Kreis, wie beim Jassen. So empfiehlt es der Jassverband Schweiz
 
 ## Was die Karten zählen
 
-Hier gelten eigene Kartenwerte, die Spalte daneben zeigt zum Vergleich die Werte des Jassens:
+Hier gelten eigene Kartenwerte, die Spalte daneben zeigt zum Vergleich die Grundwerte des Jassens:
 
 | Karte | Beim Hose abe | Beim Jassen, ohne Trumpf |
 |---|---|---|
@@ -2353,23 +2340,23 @@ Hier gelten eigene Kartenwerte, die Spalte daneben zeigt zum Vergleich die Werte
 | Banner | 10 | 10 |
 | Neun, Acht, Sieben, Sechs | 9, 8, 7 und 6 | null |
 
-**Zwei Unterschiede tragen alles:** König, Ober und Under zählen hier zehn statt vier, drei und zwei, und die tiefen Karten zählen ihre eigene Zahl statt null. Darum ist eine Sechs hier eine Karte und im Jass ein Blatt Papier.
+König, Ober und Under zählen hier zehn statt vier, drei und zwei, und die tiefen Karten zählen ihre eigene Zahl statt null.
 
 ## Die Blätter, die zählen
 
 
 
 
-**Die Reihenfolge ist damit klar:** Die 31 steht zuoberst, drei Gleiche mit 30½ knapp darunter, und alles andere richtet sich nach seiner Summe. Wer Karten in zwei Farben hält, zählt die höhere der beiden Summen. Liegen alle drei Karten in verschiedenen Farben, zählt die höchste einzelne Karte.
+Die Reihenfolge ist damit klar: Die 31 steht zuoberst, drei Gleiche mit 30½ knapp darunter, und alles andere richtet sich nach seiner Summe. Wer Karten in zwei Farben hält, zählt die höhere der beiden Summen. Liegen alle drei Karten in verschiedenen Farben, zählt die höchste einzelne Karte.
 
-**Weil König, Ober, Under und Banner hier alle zehn zählen, führen sechs Wege zur 31**, in jeder Farbe: das Ass dazu, und zwei beliebige aus diesen vieren. Wer mit Jass-Werten rechnet, kommt in einer Farbe höchstens auf 25 und wundert sich, woher der Name «31» kommt.
+Weil König, Ober, Under und Banner hier alle zehn zählen, führen in jeder Farbe sechs Wege zur 31: das Ass dazu, und zwei beliebige aus diesen vieren. Wer mit den Grundwerten des Jassens rechnet, kommt in einer Farbe höchstens auf 25: Ass 11, Banner 10, König 4.
 
 ## Wie ein Spiel läuft
 
-Der Spielgeber gibt jedem drei Karten und legt drei verdeckt in die Mitte. Bevor die Mitte aufgedeckt wird, sieht er seine drei an und hat damit eine Wahl, die sonst niemand hat:
+Der Spielgeber gibt jedem drei Karten und legt drei verdeckt in die Mitte. Bevor die Mitte aufgedeckt wird, sieht er seine drei an und entscheidet:
 
 • **Er behält sie.** Dann werden die drei Karten in der Mitte aufgedeckt, und das Spiel beginnt
-• **Er legt sie offen in die Mitte** und nimmt dafür die drei verdeckten, ungesehen, wie sie kommen. In kleiner Runde nehmen manche stattdessen die drei nächsten vom Stapel
+• **Er legt sie offen in die Mitte** und nimmt dafür die drei verdeckten, ungesehen, wie sie kommen
 
 Dann geht es der Reihe nach. Wer an der Reihe ist, hat diese Züge:
 
@@ -2377,46 +2364,43 @@ Dann geht es der Reihe nach. Wer an der Reihe ist, hat diese Züge:
 |---|---|
 | Eine Karte tauschen | Eine Handkarte wandert offen in die Mitte, eine Karte aus der Mitte in die Hand |
 | Alle drei tauschen | Die ganze Hand geht offen in die Mitte, die drei Karten aus der Mitte kommen in die Hand |
-| Klopfen | Der Spieler behält, was er hat, und läutet damit die letzte Runde ein |
+| Klopfen | Der Spieler behält, was er hat |
 
-**Nach dem Klopfen ist jeder noch einmal an der Reihe**, bis der Klopfer wieder dran wäre. Dann werden die Karten aufgedeckt und die Summen verglichen.
+Nach dem Klopfen ist jeder noch einmal an der Reihe, bis der Klopfer wieder dran wäre. Dann werden die Karten aufgedeckt und die Summen verglichen.
 
 Das Klopfen dieses Spiels ist ein eigener Zug und hat mit dem Klopfen am Jasstisch nichts zu tun, das dort als Zeichen an den Partner untersagt ist.
 
-Verbreitet ist ein vierter Zug: **das Schieben.** Wer nichts brauchen kann, schiebt, das heisst, seine Karten bleiben, wie sie sind, und der Nächste ist dran. Schieben alle nacheinander, kommen drei neue Karten vom Stapel in die Mitte, und es geht bei dem weiter, der zu schieben begonnen hat. Am vollen Tisch mit elf Spielern ist der Stapel aufgebraucht. Dann wird nach der Schieberunde aufgedeckt, so empfiehlt es der Verband.
+Manche Runden machen einen vierten Zug ab, **das Schieben**: Wer nichts brauchen kann, lässt seine Karten, wie sie sind, und der Nächste ist dran. Schieben alle nacheinander, kommen die drei Karten aus der Mitte weg, drei neue vom Stapel werden aufgedeckt, und es geht bei dem weiter, der zu schieben begonnen hat. Ist der Stapel aufgebraucht, wird nach der Schieberunde aufgedeckt, so hält es der Jassverband Schweiz.
 
 Zwei Blätter beenden das Spiel sofort, ohne die letzte Runde:
 
-• **Die 31.** Wer sie hält, zeigt sie sofort, auch gleich nach dem Geben, und das Spiel ist aus. Die tiefste Summe am Tisch gibt einen Einsatz ab
-• **«Füür im Dach»**, also drei Asse. Sie beenden das Spiel auf der Stelle, und alle anderen am Tisch geben einen Einsatz ab. Diese Fassung macht die Runde vor Spielbeginn ab. Ohne sie sind drei Asse drei gleiche Karten und zählen 30½
+• **Die 31.** Wer sie hält, zeigt sie sofort, auch gleich nach dem Geben, und das Spiel ist aus. Wer sie zu spät zeigt, gibt allein einen Einsatz ab. Sonst gibt einen Einsatz ab, wer die tiefste Summe hält
+• **«Füür im Dach»**, also drei Asse. Sie beenden das Spiel auf der Stelle, und alle anderen am Tisch geben einen Einsatz ab. Die Runde macht diese Fassung vor Spielbeginn ab. Ohne sie sind drei Asse drei gleiche Karten und zählen 30½
 
 
 ## Einsätze, schwimmen, ausscheiden
 
 Jeder legt drei Einsätze vor sich hin. **Nach jedem Spiel gibt einen Einsatz ab, wer die tiefste Summe hält.** Das gilt auch dann, wenn ein anderer mit einer 31 vorzeitig aufgelegt hat. Halten mehrere dieselbe tiefste Summe, zahlen alle.
 
-Wer alle drei Einsätze abgegeben hat, **schwimmt**. Er bleibt am Tisch und spielt weiter, hat aber nichts mehr vor sich liegen: Beim nächsten verlorenen Spiel scheidet er aus. Daher der Name des Spiels.
+Wer alle drei Einsätze abgegeben hat, **schwimmt**. Er bleibt im Spiel, hat aber nichts mehr vor sich liegen: Beim nächsten verlorenen Spiel scheidet er aus.
 
-Gewonnen hat, wer als Letzter am Tisch sitzt, und er nimmt die Einsätze.
+Gewonnen hat, wer als Letzter im Spiel ist, und er nimmt die Einsätze.
 
 ## Warum es hier steht
 
-Hose abe ist kein Jass, und es steht doch in jeder Jassbeiz. Es braucht dasselbe Blatt, drei Karten je Spieler und fünf Minuten Erklärung, und es geht zu zweit ebenso wie zu elft. Damit ist es das Spiel, das an den Tisch kommt, wenn für einen Jass die Zahl der Leute gerade nicht passt.
-
-
-
+Hose abe ist kein Jass, wird aber mit dem Jassblatt gespielt, zu zweit bis zu elft. Darum steht es hier.
 
 **Häufige Fragen:**
-- **Wie spielt man Hose abe?** Jeder erhält drei Karten, drei weitere kommen in die Mitte. Wer an der Reihe ist, tauscht eine Karte oder alle drei gegen die Karten in der Mitte, oder er klopft und läutet damit die letzte Runde ein. Gezählt wird die Summe in einer Farbe. Wer 31 zusammenbringt, zeigt sie sofort, und das Spiel ist aus. Die tiefste Summe gibt einen Einsatz ab.
+- **Wie spielt man Hose abe?** Jeder erhält drei Karten, drei weitere kommen in die Mitte. Wer an der Reihe ist, tauscht eine Karte oder alle drei gegen die Karten in der Mitte, oder er klopft, dann ist jeder noch einmal an der Reihe. Gezählt wird die Summe in einer Farbe. Wer 31 zusammenbringt, zeigt sie sofort, und das Spiel ist aus. Einen Einsatz gibt ab, wer die tiefste Summe hält.
 - **Was ist ein «Hose abe»?** Das Ass und zwei Karten derselben Farbe, die zehn zählen, also König, Ober, Under oder Banner: 11 plus 10 plus 10 macht 31 Punkte. Das ist die höchste mögliche Summe, und wer sie hält, zeigt sie sofort. Damit ist das Spiel aus.
-- **Wie zählen die Karten beim Hose abe?** Das Ass zählt 11, König, Ober, Under und Banner je 10, und Neun, Acht, Sieben und Sechs zählen ihre eigene Zahl. Beim Jassen zählt der König 4, der Ober 3, der Under 2, und die tiefen Karten zählen null. Hose abe hat also eigene Werte.
+- **Wie zählen die Karten beim Hose abe?** Das Ass zählt 11, König, Ober, Under und Banner je 10, und Neun, Acht, Sieben und Sechs zählen ihre eigene Zahl. Beim Jassen ohne Trumpf zählt der König 4, der Ober 3, der Under 2, und Neun bis Sechs zählen null. Hose abe hat also eigene Werte.
 - **Was zählen drei gleiche Karten beim Hose abe?** 30½ Punkte, obwohl sie in drei Farben liegen. Damit stehen sie knapp unter der 31.
 - **Wie viele Spieler können Hose abe spielen?** 2 bis 11. Bei 11 Spielern sind 33 Karten in den Händen und drei liegen in der Mitte, damit ist das Blatt mit 36 Karten aufgebraucht.
-- **Was heisst «schwimmen» beim Hose abe?** Jeder beginnt mit drei Einsätzen, und nach jedem Spiel gibt die tiefste Summe einen ab. Wer alle drei abgegeben hat, schwimmt: Er spielt weiter und scheidet beim nächsten verlorenen Spiel aus.
-- **Was bedeutet Klopfen beim Hose abe?** Wer klopft, behält seine Karten und setzt das Ende. Alle anderen sind noch einmal an der Reihe, bis der Klopfer wieder dran wäre. Dann wird aufgedeckt. Mit dem Klopfen am Jasstisch, das als Zeichen an den Partner untersagt ist, hat dieser Zug nichts zu tun.
+- **Was heisst «schwimmen» beim Hose abe?** Jeder beginnt mit drei Einsätzen, und nach jedem Spiel gibt einen ab, wer die tiefste Summe hält. Wer alle drei abgegeben hat, schwimmt: Er spielt weiter und scheidet beim nächsten verlorenen Spiel aus.
+- **Was bedeutet Klopfen beim Hose abe?** Wer klopft, behält seine Karten. Alle anderen sind noch einmal an der Reihe, bis der Klopfer wieder dran wäre. Dann wird aufgedeckt. Mit dem Klopfen am Jasstisch, das als Zeichen an den Partner untersagt ist, hat dieser Zug nichts zu tun.
 - **Was ist «Füür im Dach»?** Drei Asse. Wo eine Runde diese Fassung spielt, beenden sie das Spiel auf der Stelle, und alle anderen am Tisch geben einen Einsatz ab. Ohne diese Abmachung sind drei Asse drei gleiche Karten und zählen 30½.
 - **Was darf der Spielgeber beim Hose abe?** Bevor die Mitte aufgedeckt wird, sieht er seine drei Karten an und entscheidet: behalten, dann werden die drei Karten in der Mitte aufgedeckt. Oder er legt seine drei offen in die Mitte und nimmt dafür die verdeckten, ungesehen.
-- **Was ist Schieben beim Hose abe?** Wer nichts brauchen kann, schiebt: Seine Karten bleiben, wie sie sind, und der Nächste ist dran. Schieben alle nacheinander, kommen drei neue Karten vom Stapel in die Mitte, und es geht bei dem weiter, der zu schieben begonnen hat. Dieser Zug ist verbreitet und wird vor Spielbeginn abgemacht.
+- **Was ist Schieben beim Hose abe?** Wer nichts brauchen kann, schiebt: Seine Karten bleiben, wie sie sind, und der Nächste ist dran. Schieben alle nacheinander, kommen die drei Karten aus der Mitte weg, drei neue vom Stapel werden aufgedeckt, und es geht bei dem weiter, der zu schieben begonnen hat. Ob mit Schieben gespielt wird, macht die Runde vor Spielbeginn ab.
 - **Ist Hose abe dasselbe wie Schnauz oder Schwimmen?** Ja, drei Namen für dasselbe Spiel. Verbreitet ist auch «31». In der Schweiz wird es mit dem 36er-Blatt gespielt, anderswo meist mit 32 Karten.
 - **Ist Hose abe ein Jass?** Nein. Gespielt wird es mit Jasskarten, doch Trumpf, Stiche und Weis bleiben dem Jass vorbehalten. Jeder hält drei Karten und sucht die höchste Summe in einer Farbe.
 

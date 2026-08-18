@@ -104,7 +104,7 @@ export function verweiseZuLinks(text: string): string {
 
   // 2. Deutsches Wort (inkl. Umlaute, Bindestrich) vor (siehe Begriff "kennung")
   text = text.replace(
-    /([a-zA-ZäöüÄÖÜß][a-zA-ZäöüÄÖÜß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    /([a-zA-ZäöüÄÖÜßàâäèéêëîïôöùûüç][a-zA-ZäöüÄÖÜßàâäèéêëîïôöùûüç\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
     (_, term: string, refId: string) => {
       const path = zielDerKennung(refId) ?? zielDesWortes(term);
       return path ? `[${term}](${path})` : term;
@@ -138,7 +138,7 @@ export function verweiseZuText(text: string): string {
   );
 
   text = text.replace(
-    /([a-zA-ZäöüÄÖÜß][a-zA-ZäöüÄÖÜß\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
+    /([a-zA-ZäöüÄÖÜßàâäèéêëîïôöùûüç][a-zA-ZäöüÄÖÜßàâäèéêëîïôöùûüç\w-]*)\s*\(siehe Begriff\s+"([^"]+)"\)/gi,
     (_, term: string) => term
   );
 

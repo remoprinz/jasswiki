@@ -51,7 +51,7 @@ export function resolveMarkers(text, idToTopic = {}) {
 
   // 2. Wort (siehe Begriff "id")  ->  Wort
   text = text.replace(
-    /([A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß\w-]*)\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
+    /([A-Za-zÄÖÜäöüßàâèéêîôûç][A-Za-zÄÖÜäöüßàâèéêîôûç\w-]*)\s*\(siehe Begriff\s*"([^"]+)"\)/gi,
     (_, term) => term
   );
 

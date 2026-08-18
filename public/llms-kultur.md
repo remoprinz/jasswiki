@@ -144,23 +144,23 @@ Beim Schweizer Jass sind zwei Blätter im Gebrauch, das Deutschschweizer und das
 
 Das Deutschschweizer Blatt hat Eichel, Rosen, Schellen und Schilten, das französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die gängige Zuordnung setzt Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel gleich.
 
-## Alle 36 Karten
+## Beide Blätter, alle Karten
 
-Farbe für Farbe, beide Blätter im direkten Vergleich. Gezeigt ist die Reihenfolge, in der die Karten ausserhalb der Trumpffarbe stechen, von der höchsten zur tiefsten.
+Zuerst das Deutschschweizer, darunter das französische Blatt, je Farbe eine Spalte. Gezeigt ist die Stichfolge ausserhalb der Trumpffarbe, oben die höchste Karte, unten die tiefste.
 
-Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch): Der Schweizer Grafiker Jens Riedweg hat das klassische Deutschschweizer Blatt und das französische Blatt als Vektorgrafik neu gezeichnet. Nach Angaben des Anbieters werden die Karten in der Schweiz gedruckt. Der Schweizer Jassverband (JVS) unterstützt dieses Kartenbild.
+Das abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch): Der Schweizer Grafiker Jens Riedweg hat das klassische Deutschschweizer Blatt und das französische Blatt als Vektorgrafik neu gezeichnet. Nach Angaben des Anbieters werden die Karten in der Schweiz gedruckt. Auf jassverband.ch ist schweizerjass.ch als Bezugsquelle für Jasskarten aufgeführt.
 
 ## Die neun Karten einer Farbe
 
-**Ein Jassblatt hat 36 Karten: vier Farben mit je neun Karten.** Ausserhalb der Trumpffarbe stechen sie in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.
+Ausserhalb der Trumpffarbe stechen die neun Karten einer Farbe in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.
 
-Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, die Neun heisst Nell und zählt 14. **Im Trumpf rücken die beiden an die Spitze:** Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs. Was jede Karte zählt, steht weiter unten.
+Zwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur und zählt 20 Punkte, die Neun heisst Nell und zählt 14. Im Trumpf rücken die beiden an die Spitze: Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs. Was jede Karte zählt, steht weiter unten.
 
-Zwei Namen erklären sich aus dem Bild: Das Banner zeigt eine Fahne mit der Zahl 10 darauf, und das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.
+Zwei Namen erklären sich aus dem Bild: Das Banner ist die Zehn und zeigt eine Fahne mit dem Farbzeichen, daher der Name. Das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.
 
 ## Was die vier Symbole zeigen
 
-Das Deutschschweizer Blatt zeigt eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild.
+Das Deutschschweizer Blatt zeigt eine Eichel, eine gelbe Rose mit roter Mitte, eine Schelle, also ein kleines Glöckchen, und einen Schild.
 
 Das französische Blatt zeigt die vier Zeichen, die auch international gelten:
 
@@ -185,37 +185,34 @@ Zwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen in allen Farb
 | Ober | 3 | 3 |
 | Acht, Sieben, Sechs | 0 | 0 |
 
-**In einem Spiel liegen 157 Punkte:** 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe übernimmt der Sechser die 11 des Asses. Die Summe bleibt bei jeder Jass-Ansage, Trumpf, Obenabe oder Undenufe, bei 157. Alles dazu steht bei den Kartenwerten.
+In einem Spiel liegen 157 Punkte, 152 aus den Karten und 5 für den letzten Stich. In Obenabe und Undenufe fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe zählt der Sechser 11 und das Ass null. Die Summe bleibt bei jeder Jass-Ansage, Trumpf, Obenabe oder Undenufe, bei 157. Alles dazu steht bei den Kartenwerten.
 
-Diese Werte gelten für das Jassen. **Kartenspiele, die bloss dasselbe Blatt benutzen, rechnen anders**: Beim Hose abe etwa zählen König, Ober und Under je zehn.
+Diese Werte gelten für das Jassen. Kartenspiele, die nur dasselbe Blatt benutzen, rechnen anders: Beim Hose abe etwa zählen König, Ober und Under je zehn.
 
 ## Welches Blatt wo?
 
-Welches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuft mitten durch die Deutschschweiz, entlang der Brünig-Napf-Reuss-Linie: Westlich davon, in der Romandie und in Bern, Solothurn, Basel, Freiburg und im Wallis, liegen französische Karten auf dem Tisch, östlich davon, in Zürich, der Zentral- und der Ostschweiz, Deutschschweizer Karten. Der Röstigraben liegt 50 bis 100 Kilometer weiter westlich. Mehr dazu im Artikel Jass-Regionen. Viele Jasserinnen und Jasser beherrschen ohnehin beide Blätter.
+Welches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuft mitten durch die Deutschschweiz, entlang der Brünig-Napf-Reuss-Linie: Westlich davon, in der Romandie, in Bern, Solothurn, beiden Basel, im Wallis und im westlichen Aargau, liegen französische Karten auf dem Tisch, östlich davon, in der Zentralschweiz, in Zürich und in der Ostschweiz, Deutschschweizer Karten. Der Aargau ist entlang der Reuss geteilt. Französische Karten liegen zudem im Tessin, in Teilen Graubündens und nach Walter Haas auch im Thurgau auf dem Tisch. Die Sprachgrenze zwischen Deutsch und Französisch, der Röstigraben, liegt 50 bis 100 Kilometer weiter westlich. Mehr dazu im Artikel Jass-Regionen.
 
 ## Wie sich das Schweizer Kartenbild entwickelt hat
 
-Das heutige Deutschschweizer Kartenbild ist jünger, als viele vermuten. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer zurück, der in den 1870er-Jahren beim Kartenhersteller A. Bühlmann eintrat und mit grosser Wahrscheinlichkeit der Schöpfer des heute bekannten Kartenbilds ist. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und verankerte sich um und nach 1900 als Jasskarten. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und lag um 1900 fest. Belegt ist das bei Walter Haas, «Die ‹französischen Jasskarten›», Schweizerisches Archiv für Volkskunde 109 (2013).
+Das heutige Deutschschweizer Kartenbild stammt aus dem 19. Jahrhundert. Die Figuren mit ihren Gesichtern und Gewändern gehen nach Wikipedia auf Jakob Peyer und den Kartenhersteller A. Bühlmann in Hasle zurück, das heutige doppelköpfige Bild druckte J. Müller in Schaffhausen ab den 1920er-Jahren. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und verankerte sich um und nach 1900 als Jasskarten. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und festigte sich um und nach 1900. Zum französischen Bild und zur Kartengrenze: Walter Haas, «Die ‹französischen Jasskarten›. Über den Wandel von Objekten der Alltagskultur», Schweizerisches Archiv für Volkskunde 109 (2013), S. 133–148.
 
 Mehr zur Herkunft der Spielkarten steht unter Woher kommen Spielkarten?, mehr zur Herstellung unter Schweizer Kartenmacher.
 
 
 **Häufige Fragen:**
-- **Wie viele Karten hat ein Jass-Set?** 36 Karten: vier Farben mit je neun Karten. Das gilt für beide Blätter, das Deutschschweizer wie das französische.
+- **Wie viele Karten hat ein Jassblatt?** 36 Karten: vier Farben mit je neun Karten. Das gilt für beide Blätter, das Deutschschweizer wie das französische.
 - **Wie heissen die neun Karten einer Farbe?** Ausserhalb der Trumpffarbe von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober und Under Dame und Bube, das Banner heisst Zehn. Im Trumpf rücken Under (Puur) und Neun (Nell) an die Spitze.
 - **Welche Kartenfarben gibt es beim Jassen?** Vier je Blatt: Im Deutschschweizer Blatt heissen sie Eichel, Rosen, Schellen und Schilten, im französischen Kreuz, Herz, Ecke und Schaufel.
-- **Was zeigen die Symbole auf den Deutschschweizer Jasskarten?** Eine Eichel, eine rote Rose, eine Schelle, also ein kleines Glöckchen, und einen Schild.
+- **Was zeigen die Symbole auf den Deutschschweizer Jasskarten?** Eine Eichel, eine gelbe Rose mit roter Mitte, eine Schelle, also ein kleines Glöckchen, und einen Schild.
 - **Was zeigen die Symbole auf den französischen Jasskarten?** Kreuz (Trèfle, ♣), Herz (Cœur, ♥), Ecke (Carreau, ♦, in Deutschland Karo) und Schaufel (Pique, ♠, in Deutschland Pik).
 - **Sind die beiden Blätter gleichwertig?** Ja. Gespielt wird nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich.
-- **Welche französische Farbe entspricht Schellen?** Ecke, französisch Carreau, in Deutschland Karo.
-- **Welche französische Farbe entspricht Schilten?** Schaufel, französisch Pique, in Deutschland Pik.
-- **Welche französische Farbe entspricht Rosen?** Herz.
-- **Welche französische Farbe entspricht Eichel?** Kreuz, französisch Trèfle.
 - **Welche Karte heisst Puur und welche Nell?** In der Trumpffarbe heisst der Under Puur und zählt 20 Punkte, der Neuner heisst Nell und zählt 14 Punkte.
 - **Wie viele Punkte zählt jede Jasskarte?** In der Trumpffarbe: Under (Puur) 20, Neun (Nell) 14, Ass 11, Banner 10, König 4, Ober 3, und Acht, Sieben, Sechs je null. In den anderen Farben: Ass 11, Banner 10, König 4, Ober 3, Under 2, und Neun bis Sechs null.
 - **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten und 5 für den letzten Stich. Diese Summe bleibt bei jeder Jass-Ansage gleich, Trumpf, Obenabe oder Undenufe.
-- **Wo spielt man mit deutschen und wo mit französischen Jasskarten?** Die Grenze verläuft entlang der Brünig-Napf-Reuss-Linie mitten durch die Deutschschweiz: westlich davon, in der Romandie, in Bern, Solothurn, Basel, Freiburg und im Wallis, liegen französische Karten auf dem Tisch, östlich davon Deutschschweizer Karten.
+- **Wo spielt man mit deutschen und wo mit französischen Jasskarten?** Die Grenze verläuft entlang der Brünig-Napf-Reuss-Linie mitten durch die Deutschschweiz. Westlich davon, in der Romandie, in Bern, Solothurn, beiden Basel, im Wallis und im westlichen Aargau, liegen französische Karten auf dem Tisch, östlich davon, in der Zentralschweiz, in Zürich und in der Ostschweiz, Deutschschweizer Karten. Der Aargau ist entlang der Reuss geteilt. Französische Karten liegen zudem im Tessin, in Teilen Graubündens und nach Walter Haas auch im Thurgau auf dem Tisch.
 - **Welche Karte ist im Trumpf die höchste?** Der Under der Trumpffarbe, der Puur, gefolgt von der Neun, dem Nell. Danach kommen Ass, König, Ober, Banner, Acht, Sieben, Sechs.
+- **Wie heissen Eichel, Rosen, Schellen und Schilten im französischen Blatt?** Eichel heisst Kreuz, Rosen Herz, Schellen Ecke und Schilten Schaufel. Auf Französisch Trèfle, Cœur, Carreau und Pique, in Deutschland Kreuz, Herz, Karo und Pik.
 
 *Keywords: jasskarten, schweizer spielkarten, kartenfarben, jass farben, eichel rosen schellen schilten*
 
