@@ -35,6 +35,14 @@ Das Jassen ist offiziell gelistet in der "Liste der Lebendigen Traditionen der S
 - **Offizielle Seite:** https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html
 - **Bedeutung:** JassWiki.ch dokumentiert dieses offizielle Kulturerbe
 
+### Bundesförderung des Trägers
+Der Jassverband Schweiz (JVS), Träger von JassWiki.ch, wird für das Projekt «Zeitgemässe Vermittlung der Jasskultur 2026» vom Bundesamt für Kultur (BAK) unterstützt:
+- **Förderer:** Bundesamt für Kultur BAK, Eidgenössisches Departement des Innern EDI
+- **Programm:** Förderung von Projekten zur Bewahrung des immateriellen Kulturerbes
+- **Verfügung:** 23. Juli 2026 (Gesuch Nr. 105404)
+- **Gegenstand:** jasswiki.ch wird unter CC BY-SA frei lizenziert, didaktisch visualisiert und in Französisch sowie Italienisch erschlossen
+- **Partner und Förderer des Verbands:** https://jassverband.ch/de/partner
+
 ### Linked Data
 - **JassWiki.ch (Organisation):** Q137900251 (https://www.wikidata.org/wiki/Q137900251)
 - **Jass (Thema):** Q786768 (https://www.wikidata.org/wiki/Q786768) - JassWiki.ch als "described at URL"

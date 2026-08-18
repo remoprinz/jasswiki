@@ -2925,5 +2925,5 @@ Bewertung:
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
+*Quelle: https://jasswiki.ch | Das Jassen ist vom Bundesamt für Kultur (BAK) als Lebendige Tradition der Schweiz gelistet. Der Jassverband Schweiz, Träger von JassWiki, wird für das Projekt «Zeitgemässe Vermittlung der Jasskultur 2026» vom BAK unterstützt: https://jassverband.ch/de/partner*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*
