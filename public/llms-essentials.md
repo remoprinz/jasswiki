@@ -115,18 +115,18 @@ Grundwerte (ohne Trumpf):
 • Banner (Zehner): 10 Punkte
 • König: 4 Punkte
 • Ober (Dame): 3 Punkte
-• Under (Puur): 2 Punkte
+• Under: 2 Punkte
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
 In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
-In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die fehlenden 32 Punkte aus Puur und Nell gleichen die vier Achter aus, sodass das Total bei 157 bleibt.
+In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.
 
 **Häufige Fragen:**
 - **Was sind die Kartenwerte beim Jassen?** Ohne Trumpf zählt das Ass 11, das Banner (Zehner) 10, der König 4, der Ober 3 und der Under 2 Punkte. Neuner, Achter, Siebner und Sechser zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte). Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.
-- **Wie viele Punkte zählt das Ass?** 11 Punkte. In Undenufe übernimmt der Sechser diese Rolle als höchste Karte.
+- **Wie viele Punkte zählt das Ass?** 11 Punkte. In Undenufe zählt dafür der Sechser 11, er ist dort die höchste Karte.
 - **Wie viele Punkte zählt der Puur?** 20 Punkte, die höchste Karte im Trumpf. Das Nell folgt mit 14.
 - **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten plus 5 für den letzten Stich.
 - **Welche Karten zählen null Punkte?** Ohne Trumpf der Neuner, Achter, Siebner und Sechser. Im Trumpf wird der Neuner zum Nell, in Obenabe und Undenufe zählt der Achter 8.

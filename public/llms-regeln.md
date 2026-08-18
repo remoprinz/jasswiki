@@ -98,15 +98,15 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 Im JassWiki stehen die offiziellen Regeln des Jassverbands Schweiz zum ersten Mal vollständig und gratis im Netz.
 
 Grundlage der offiziellen Jassregeln:
-Die Basis bilden [«PUUR NÄLL ASS – Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.
+Die Basis bilden [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.
 
-Dani Müller hat mit [«STÖCK WYS STICH – Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.
+Dani Müller hat mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.
 
 Die offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Der Verband entwickelt sie an einzelnen Punkten weiter. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.
 
 **Häufige Fragen:**
-- **Gibt es ein offizielles Jass-Regelwerk?** Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt.
-- **Welche Bücher bilden die Grundlage der offiziellen Jassregeln?** «PUUR NÄLL ASS – Offizielles Schweizer Jassreglement» von Göpf Egg und Albert Hagenbucher sowie «STÖCK WYS STICH – Der neue Schweizer Jassführer» von Dani Müller (2015).
+- **Gibt es ein offizielles Jass-Regelwerk?** Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt.
+- **Welche Bücher bilden die Grundlage der offiziellen Jassregeln?** «PUUR NÄLL ASS, Offizielles Schweizer Jassreglement» von Göpf Egg und Albert Hagenbucher sowie «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015).
 - **Haben Tischregeln Vorrang vor den offiziellen Jassregeln?** Ja, Tischregeln haben Vorrang vor den offiziellen Jassregeln.
 - **Wie werden Schneider und Kontermatsch neu bewertet?** Aufgrund des seltenen Vorkommens werden Schneider und Kontermatsch neu mit 2 Strichen bewertet.
 
@@ -216,13 +216,13 @@ Schieber, Kreuzjass, Bieter (Steiger) und Sidi-Barrani werden grundsätzlich mit
 **Kategorie:** Regeln > Spielende
 
 Definition:
-• Wird ein Spiel annulliert (siehe Abschnitt «Spielverrat»), werden für das laufende Spiel keine Punkte geschrieben
-• Auch bereits notierte Weispunkte werden storniert
+• Wird ein Spiel annulliert, etwa wegen Spielverrat, werden für das laufende Spiel keine Punkte geschrieben
+• Schon angeschriebene Weispunkte werden wieder gestrichen
 • Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt
 
 **Häufige Fragen:**
-- **Was passiert, wenn ein Spiel annulliert wird?** Wird ein Spiel annulliert, werden für das laufende Spiel keine Punkte geschrieben. Auch bereits notierte Weispunkte werden storniert. Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt.
-- **Werden Weispunkte bei Annullierung storniert?** Ja, auch bereits notierte Weispunkte werden bei einer Annullierung storniert.
+- **Was passiert, wenn ein Spiel annulliert wird?** Wird ein Spiel annulliert, werden für das laufende Spiel keine Punkte geschrieben. Schon angeschriebene Weispunkte werden wieder gestrichen. Das Spiel wird wiederholt und die Karten werden vom selben Kartengeber nochmals verteilt.
+- **Werden Weispunkte bei Annullierung storniert?** Ja, schon angeschriebene Weispunkte werden bei einer Annullierung wieder gestrichen.
 - **Wer verteilt die Karten nach einer Annullierung?** Nach einer Annullierung werden die Karten vom selben Kartengeber nochmals verteilt.
 
 *Keywords: annullieren, spielverrat, punkte, weispunkte, wiederholen*
@@ -266,12 +266,12 @@ Beispiele:
 • Zeichen ohne Worte: Blicke, Gesten, Mienenspiel
 
 Konsequenzen bei Spielverrat:
-• Die Gegner können verlangen, dass das Spiel – inklusive bereits geschriebener Punkte – annulliert wird
+• Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird
 
 **Häufige Fragen:**
 - **Was ist Spielverrat beim Jassen?** Spielverrat sind alle Handlungen wie Klopfen oder Bemerkungen, welche das Spiel verraten. Diese sind verboten.
 - **Was sind Beispiele für Spielverrat?** Beispiele für Spielverrat sind Bemerkungen über gelaufene Karten, Andeutungen über Bock-Karten, Wiederholungen von angezogenen oder verworfenen Farben, Bemerkungen zu Taktiken, Fragen, die das Spiel verraten, und Zeichen ohne Worte wie Blicke oder Gesten.
-- **Was sind die Konsequenzen bei Spielverrat?** Die Gegner können verlangen, dass das Spiel – inklusive bereits geschriebener Punkte – annulliert wird.
+- **Was sind die Konsequenzen bei Spielverrat?** Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird.
 - **Sind auch Zeichen ohne Worte verboten?** Ja, auch Zeichen ohne Worte wie Blicke oder Gesten, die das Spiel verraten, sind verboten.
 
 *Keywords: spielverrat, klopfen, bemerkungen, schnorren, gestik*
@@ -474,10 +474,10 @@ Ausnahmen:
 Der Bergpreis (auch Berg genannt) ist eine Zusatzprämie für das Team, das als Erstes die Hälfte des vereinbarten Spielziels erreicht. Bei einer Partie auf 2000 Punkte liegt er also bei 1000.
 
 So gewinnt man den Bergpreis:
-Das Team, das als Erstes die Hälfte des Ziels erreicht, sagt «Berg» oder «Bergpreis» an und gewinnt einen Strich. Der Bergpreis wird separat notiert und zählt zur Gesamtwertung.
+Das Team, das als Erstes die Hälfte des Ziels erreicht, bedankt sich für den «Berg» und erhält einen Strich. Der Bergpreis wird separat notiert und zählt am Schluss mit.
 
 Sonderfall erster Stich:
-Erreichen beide Teams im ersten Stich gleichzeitig den Bergpreis, eines durch Weis, das andere durch Kartenpunkte, entscheidet die Ausmachregel Stöck-Weis-Stich. Die Stöck dürfen dabei vorausgewiesen werden.
+Erreichen beide Teams im ersten Stich gleichzeitig den Bergpreis, eines durch Weis, das andere durch Kartenpunkte, entscheidet die Ausmachregel Stöck-Weis-Stich. Die Stöck dürfen dabei vorgewiesen werden.
 
 Falsches Bedanken:
 Wer sich fälschlich für den Bergpreis bedankt, ohne die Punktzahl erreicht zu haben, verliert ihn an den Gegner.
@@ -485,7 +485,7 @@ Wer sich fälschlich für den Bergpreis bedankt, ohne die Punktzahl erreicht zu 
 **Häufige Fragen:**
 - **Was ist der Bergpreis beim Jassen?** Eine Zusatzprämie für das Team, das als Erstes die Hälfte des Spielziels erreicht. Bei Ziel 2000 also bei 1000.
 - **Wie viele Striche gibt der Bergpreis?** Einen Strich.
-- **Wie gewinnt man den Bergpreis?** Indem man als Erstes die Hälfte des Ziels erreicht und «Berg» ansagt.
+- **Wie gewinnt man den Bergpreis?** Indem man als Erstes die Hälfte des Ziels erreicht und sich für den «Berg» bedankt.
 - **Gilt die Ausmachregel auch beim Bergpreis?** Ja. Erreichen beide Teams im ersten Stich gleichzeitig den Bergpreis, entscheidet Stöck-Weis-Stich.
 
 *Keywords: bergpreis, berg, berg jass, halbes ziel, zusatzprämie*
@@ -579,17 +579,17 @@ Beispiele verbotener Fragen:
 • Ist Schellen schon mal gelaufen?
 • Ist das Ass schon gegangen?
 
-Grundsätzliche Fragen zum Spiel:
-• Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt
+Erlaubte Fragen:
+• Allgemeine Fragen zum Spiel, solange die Antwort nichts über die Karten verrät
 
 Beispiele erlaubter Fragen:
 • Wer ist an der Reihe?
-• Wieviel Punkte haben wir?
+• Wie viel Punkte haben wir?
 
 **Häufige Fragen:**
-- **Darf man während dem Spiel Fragen zu bereits gespielten Stichen stellen?** Nein, während einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen.
+- **Darf man während des Spiels Fragen zu bereits gespielten Stichen stellen?** Nein, während einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen.
 - **Welche Fragen sind verboten?** Verboten sind Fragen wie «Ist Schellen schon mal gelaufen?» oder «Ist das Ass schon gegangen?». Diese stellen Spielverrat dar.
-- **Welche Fragen sind erlaubt?** Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt, z.B. «Wer ist an der Reihe?» oder «Wieviel Punkte haben wir?»
+- **Welche Fragen sind erlaubt?** Grundsätzliche Fragen zum Spiel, welche keinen Spielverrat darstellen, sind erlaubt, z.B. «Wer ist an der Reihe?» oder «Wie viel Punkte haben wir?»
 
 *Keywords: fragen, spielverrat, regelverstoss, kommunikation, stiche*
 
@@ -645,7 +645,7 @@ Besonderheit Obenabe:
 **Kategorie:** Regeln > Punktezählung
 
 Definition:
-• Ein hingelegter Matsch bezeichnet ein Blatt, bei dem der trumpfansagende Spieler garantiert neun Stiche macht, also sein Blatt hinlegen kann – ohne dass die Runde ausgespielt werden muss (vgl. auch Rest machen).
+• Ein hingelegter Matsch bezeichnet ein Blatt, bei dem der trumpfansagende Spieler garantiert neun Stiche macht, also sein Blatt hinlegen kann, ohne dass die Runde ausgespielt werden muss (vgl. auch Rest machen).
 
 Ablauf:
 • Der Spieler legt in diesem Fall sein Blatt offen auf den Tisch und sagt «hingelegt!»
@@ -734,7 +734,7 @@ Erlaubnis:
 **Häufige Fragen:**
 - **Darf man Karten vor einem neuen Stich in die Hand nehmen?** Nein, Karten in die Hand zu nehmen, bevor ein neuer Stich begonnen hat, ist untersagt.
 - **Darf man während eines laufenden Stichs eine Karte in die Hand nehmen?** Ja, während eines laufenden Stichs darf eine Karte schon in die Hand genommen werden, solange damit keine Zeichen gegeben werden.
-- **Was passiert, wenn man beim Nehmen einer Karte Zeichen gibt?** Das Nehmen einer Karte während eines laufenden Stichs ist nur erlaubt, wenn keine Zeichen gegeben werden. Andernfalls liegt Spielverrat vor.
+- **Was passiert, wenn man beim Nehmen einer Karte Zeichen gibt?** Während eines laufenden Stichs darf man eine Karte in die Hand nehmen. Wer dabei ein Zeichen gibt, verrät das Spiel.
 
 *Keywords: karte, hand, stich, frühzeitig, spielverrat*
 
@@ -745,11 +745,11 @@ Erlaubnis:
 **Kategorie:** Regeln > Fehler & Verstösse
 
 Regel:
-• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, ist das Kartenspiel gegebenenfalls zu ersetzen. Die Kartenverteilung erfolgt durch denselben Kartengeber erneut.
+• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.
 
 **Häufige Fragen:**
-- **Was passiert, wenn eine Karte nicht komplett oder beschädigt ist?** Wird nach dem Verteilen, aber noch vor Spielbeginn festgestellt, dass eine Karte fehlt oder beschädigt ist, kann das Kartenspiel ersetzt werden und die Karten werden vom selben Kartengeber neu verteilt.
-- **Wann muss eine unvollständige Karte ersetzt werden?** Wenn nach dem Verteilen, aber noch vor Spielbeginn festgestellt wird, dass das Kartenspiel nicht komplett ist oder eine Karte beschädigt ist.
+- **Was passiert, wenn eine Karte fehlt oder beschädigt ist?** Wird nach dem Verteilen, aber noch vor Spielbeginn festgestellt, dass eine Karte fehlt oder beschädigt ist, kann das Kartenspiel ersetzt werden und die Karten werden vom selben Kartengeber neu verteilt.
+- **Wann muss das Kartenspiel ersetzt werden?** Wenn nach dem Verteilen, aber noch vor Spielbeginn festgestellt wird, dass das Kartenspiel nicht komplett ist oder eine Karte beschädigt ist.
 - **Wer verteilt die Karten nach dem Ersetzen?** Derselbe Kartengeber verteilt die Karten erneut, nachdem das Kartenspiel ersetzt wurde.
 
 *Keywords: karte, komplett, beschädigt, verteilen, ersetzen*
@@ -765,7 +765,7 @@ Regel:
 • Der Kartengeber ist für das Mischen und Verteilen verantwortlich
 • Die Karten werden in der Regel 3×3 verteilt (dreimal drei Karten pro Spieler)
 • **Wichtig:** Die Verteilung erfolgt im **Gegenuhrzeigersinn**, beginnend beim Spieler **rechts** vom Kartengeber (Vorhand)
-• Das ist eine typisch schweizerische Eigenheit – in der übrigen Welt wird meist im Uhrzeigersinn gespielt
+• Das ist eine typisch schweizerische Eigenheit, in der übrigen Welt wird meist im Uhrzeigersinn gespielt
 • «Der Ohrfeige nach» ist der bekannte Spruch dazu
 
 **Häufige Fragen:**
@@ -787,18 +787,18 @@ Grundwerte (ohne Trumpf):
 • Banner (Zehner): 10 Punkte
 • König: 4 Punkte
 • Ober (Dame): 3 Punkte
-• Under (Puur): 2 Punkte
+• Under: 2 Punkte
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
 In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
-In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die fehlenden 32 Punkte aus Puur und Nell gleichen die vier Achter aus, sodass das Total bei 157 bleibt.
+In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.
 
 **Häufige Fragen:**
 - **Was sind die Kartenwerte beim Jassen?** Ohne Trumpf zählt das Ass 11, das Banner (Zehner) 10, der König 4, der Ober 3 und der Under 2 Punkte. Neuner, Achter, Siebner und Sechser zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte). Pro Spiel sind 157 Punkte zu vergeben: 152 aus den Karten und 5 für den letzten Stich.
-- **Wie viele Punkte zählt das Ass?** 11 Punkte. In Undenufe übernimmt der Sechser diese Rolle als höchste Karte.
+- **Wie viele Punkte zählt das Ass?** 11 Punkte. In Undenufe zählt dafür der Sechser 11, er ist dort die höchste Karte.
 - **Wie viele Punkte zählt der Puur?** 20 Punkte, die höchste Karte im Trumpf. Das Nell folgt mit 14.
 - **Wie viele Punkte hat ein Jass-Spiel insgesamt?** 157: 152 aus den Karten plus 5 für den letzten Stich.
 - **Welche Karten zählen null Punkte?** Ohne Trumpf der Neuner, Achter, Siebner und Sechser. Im Trumpf wird der Neuner zum Nell, in Obenabe und Undenufe zählt der Achter 8.
@@ -876,14 +876,14 @@ Ausnahmen:
 **Kategorie:** Regeln > Sonderregeln
 
 Definition:
-Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
+Wer einen Stich macht, kehrt ihn sofort zu sich. Bleibt er offen liegen, bis der nächste Stich fertig ist, gehören die Karten der Gegenpartei.
 
 Regeln:
 • Stiche müssen umgehend gekehrt werden
 • Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner
 
 **Häufige Fragen:**
-- **Wie funktioniert Liegengelassene Stiche beim Jassen?** Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
+- **Was passiert mit einem Stich, den niemand kehrt?** Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
 - **Was sind liegengelassene Stiche?** Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
 - **Müssen Stiche sofort gekehrt werden?** Ja, Stiche müssen umgehend gekehrt werden.
 - **Was passiert, wenn Stiche zu lange offen liegen bleiben?** Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner.
@@ -963,7 +963,7 @@ Nächster Stich:
 • Ausnahme: Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter
 
 Fall 2: Späte Entdeckung (Karten sind schon gekehrt):
-• Wird das Nichtfarben zu spät festgestellt, gehen dieser Stich und alle weiteren an die Gegenpartei – auch wenn das einen Matsch oder Kontermatsch bedeutet
+• Wird das Nichtfarben zu spät festgestellt, gehen dieser Stich und alle weiteren an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet
 
 Ausnahmefälle:
 • Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (z.B. Misère), wird die Regel nicht angewendet
@@ -977,7 +977,7 @@ Hinweis zur Praxis:
 - **Was bedeutet Nichtfarben?** Nichtfarben bedeutet, dass ein Spieler die ausgespielte Farbe nicht bedient, obwohl er sie noch besitzt. Mit einer Trumpfkarte darf die ausgespielte Farbe immer abgestochen werden, ausser bei Untertrumpfen.
 - **Was passiert bei Nichtfarben, wenn der Fehler während des Stiches festgestellt wird?** Der laufende Stich geht an die Gegner, die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht und beide Karten verlieren den Stechwert, während der Zählwert erhalten bleibt.
 - **Was passiert, wenn der fehlbare Spieler mehrere nicht gefarbte Karten hat?** Er muss die höchste abgeben, ausser den Puur, da dieser sowieso nicht ausgespielt werden muss.
-- **Was passiert, wenn Nichtfarben zu spät entdeckt wird?** Dieser Stich und alle weiteren gehen an die Gegenpartei – auch wenn das einen Matsch oder Kontermatsch bedeutet.
+- **Was passiert, wenn Nichtfarben zu spät entdeckt wird?** Dieser Stich und alle weiteren gehen an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet.
 - **Gilt die Nichtfarben-Regel auch bei Misère?** Nein, bei Spielarten wie Misère, bei denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren, wird die Regel nicht angewendet.
 - **Können Gegner beim Nichtfarben kulant sein?** Ja, oft zeigen sich die Gegner kulant. Beide Karten verlieren dann den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden.
 
@@ -1061,23 +1061,23 @@ Was die Karten zählen, hängt von der Ansage ab:
 • Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte
 
 **Slalom:**
-• Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird
+• Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird
 • Die Achter zählen 8 Punkte
 
 **Quer/Guschti:**
-• Wie beim Slalom zählen beim Quer entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird
+• Wie beim Slalom zählen beim Quer entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird
 • Die Achter zählen 8 Punkte
 
 **3x3/Trio:**
 • Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte
 • Ob die Asse oder die Sechser 11 Punkte zählen, hält jede Jassgruppe anders
-• Das Jass-Wiki empfiehlt, dass nur die Asse 11 Punkte geben – gleich, ob Obe oder Unde begonnen wird
+• Das Jass-Wiki empfiehlt, dass nur die Asse 11 Punkte geben, gleich, ob Obe oder Unde begonnen wird
 
 **Häufige Fragen:**
 - **Wie werden Punkte beim Obenabe gezählt?** Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte.
 - **Wie werden Punkte beim Undenufe gezählt?** Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte.
-- **Was gilt beim Slalom?** Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte – je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte.
-- **Wie unterscheidet sich die Punktezählung beim Trio?** Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte. Bei den Assen und Sechsern empfiehlt das Jass-Wiki, dass nur die Asse 11 Punkte geben – gleich, wo begonnen wird.
+- **Was gilt beim Slalom?** Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte.
+- **Wie unterscheidet sich die Punktezählung beim Trio?** Beim Trio zählt der Puur 20 Punkte und das Nell 14 Punkte. Bei den Assen und Sechsern empfiehlt das Jass-Wiki, dass nur die Asse 11 Punkte geben, gleich, wo begonnen wird.
 
 *Keywords: schieber, varianten, obenabe, undenufe, slalom*
 
@@ -1225,18 +1225,18 @@ Neuverteilung:
 **Kategorie:** Regeln > Spielende
 
 Regel:
-Ein Jass endet unter folgenden Umständen:
-• Ein Team hat die Zielpunktzahl erreicht und bedankt
+Ein Jass endet in drei Fällen:
+• Ein Team hat die Zielpunktzahl erreicht und bedankt sich
 • Beide Teams werfen zusammen (Einigung auf Neustart)
 • Das Spiel wird annulliert (z.B. wegen schwerer Regelverstösse)
 
 Nach Spielende:
 • Die Punkte werden gezählt und notiert
-• Bei Erreichen der Gesamtpunktzahl ist die Partie vorbei
+• Ist die Zielpunktzahl erreicht, ist die Partie vorbei
 • Ansonsten beginnt eine neue Runde
 
 **Häufige Fragen:**
-- **Wann endet ein Jass?** Ein Jass endet, wenn ein Team die Zielpunktzahl erreicht und bedankt, beide Teams zusammenwerfen oder das Spiel annulliert wird.
+- **Wann endet ein Jass?** Ein Jass endet, wenn ein Team die Zielpunktzahl erreicht und sich bedankt, wenn beide Teams zusammenwerfen oder wenn das Spiel annulliert wird.
 - **Was passiert nach dem Spielende?** Nach dem Spielende werden die Punkte gezählt und notiert. Bei Erreichen der Gesamtpunktzahl ist die Partie vorbei, ansonsten beginnt eine neue Runde.
 - **Können beide Teams ein Spiel beenden?** Ja, beide Teams können sich darauf einigen, zusammenzuwerfen und das Spiel neu zu beginnen.
 
@@ -1417,7 +1417,7 @@ Diese Reihenfolge gilt allein im ersten Stich. Sobald zum zweiten Stich ausgespi
 **Kategorie:** Regeln > Kartenwerte
 
 Grundregel:
-Im Trumpf-Spiel gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel.
+Wird mit Trumpf gespielt, zählen zwei Karten der Trumpffarbe viel mehr als in den anderen Farben: der Under und die Neun.
 
 Trumpf-Sonderwerte:
 • Der Under (Puur) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte
@@ -1428,7 +1428,7 @@ Trumpf-Sonderwerte:
 - **Welche Karten zählen im Trumpf mehr?** Im Trumpf-Spiel gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel.
 - **Wie viele Punkte ist der Trumpf-Puur wert?** Der Trumpf-Puur (Under der Trumpffarbe) zählt 20 Punkte und ist die höchste Trumpfkarte.
 - **Was ist das Nell?** Das Nell ist der Neuner der Trumpffarbe und zählt 14 Punkte. Es ist die zweithöchste Trumpfkarte nach dem Puur.
-- **Welche sind die höchsten Karten im Trumpf-Spiel?** Die höchsten Trümpfe sind der Puur (Under) mit 20 Punkten und das Nell (Neuner) mit 14 Punkten.
+- **Welches sind die höchsten Trümpfe?** Die höchsten Trümpfe sind der Puur (Under) mit 20 Punkten und das Nell (Neuner) mit 14 Punkten.
 
 *Keywords: trumpf, puur, näll, spezialwerte, under*
 
@@ -1742,7 +1742,7 @@ Regeln bei fehlerhafter Kartenverteilung:
 **Kategorie:** Regeln > Ausmachen
 
 Grundregel:
-Spieler, der sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie.
+Wer sich bedankt, ohne das Ziel erreicht zu haben, verliert die Partie.
 
 Erlaubtes Bedanken:
 • Spieler legt eine Karte und die Punkte aus allen bereits in diesem Stich  gelegten Karten (inklusive seiner eigenen) reichen zum Sieg aus
@@ -1756,7 +1756,7 @@ Zweck dieser Regel:
 • Verhindert, dass während des Spiels gezählt wird
 • Verhindert die Suche nach zusätzlichen Bockkarten
 
-Sonderfall – Falsch gespielte Karte:
+Sonderfall, Falsch gespielte Karte:
 • Falls sich ein Team bedankt und dabei Punkte einer versehentlich falsch gespielten Karte des Gegners mitzählt, wird das Bedanken als ungültig gewertet
 • Dies gilt nur, wenn nach korrigierter Kartenverteilung die erforderliche Punktzahl nicht mehr erreicht wird
 
@@ -1764,7 +1764,7 @@ Sonderfall – Falsch gespielte Karte:
 - **Was passiert, wenn sich jemand zu früh bedankt?** Spieler, der sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie.
 - **Was passiert, wenn man zu früh bedankt?** Wer sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie.
 - **Wann darf man frühzeitig bedanken?** Man darf bedanken, wenn die Punkte aus allen bereits im aktuellen Stich gelegten Karten (inklusive der eigenen) zum Sieg ausreichen.
-- **Darf man während des Spiels Punkte zählen?** Nein, während des laufenden Spiels Karten zu zählen ist verboten. Wer dies tut und sich bedankt, verliert die Partie, falls das Ziel nicht erreicht wurde.
+- **Darf man während des Spiels die Punkte zusammenzählen?** Nein. Wer während des Spiels die Punkte zusammenrechnet und sich dann bedankt, verliert die Partie, wenn das Ziel doch nicht erreicht war.
 - **Was ist der Zweck dieser Regel?** Die Regel verhindert, dass während des Spiels gezählt wird und nach zusätzlichen Bockkarten gesucht wird.
 
 *Keywords: bedanken, frühzeitig, verlieren, zählen, bockkarten*
@@ -1779,7 +1779,7 @@ Sonderfall – Falsch gespielte Karte:
 
 Eine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:
 • Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer **gegen den Uhrzeigersinn** aus und spielen auch gegen den Uhrzeigersinn
-• "Immer der Ohrfeige nach", wie es so schön heisst – das gilt zumindest für die meisten Rechtshänder
+• "Immer der Ohrfeige nach", wie es so schön heisst, das gilt zumindest für die meisten Rechtshänder
 
 **Standard-Verteilmethode (3×3):**
 
@@ -1797,7 +1797,7 @@ Die 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Varia
 
 **Häufige Fragen:**
 - **Wie werden Karten beim Jassen verteilt?** Die klassische Schweizer Methode ist 3×3 gegen den Uhrzeigersinn, beginnend rechts vom Geber (Vorhand). Der Kartengeber verteilt jedem Spieler dreimal 3 Karten.
-- **Warum verteilt man beim Jassen gegen den Uhrzeigersinn?** Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn – "Immer der Ohrfeige nach".
+- **Warum verteilt man beim Jassen gegen den Uhrzeigersinn?** Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn, "Immer der Ohrfeige nach".
 - **Gibt es Ausnahmen bei der Kartenverteilung?** Ja, bei Varianten wie Tschau Sepp, Bieter (2×5 Karten bei erster Runde) oder Molotow (mehr als 4 Spieler) wird anders verteilt.
 
 *Keywords: verteilen, methoden, kartenanzahl, spielarten, verteilregeln*
@@ -1810,11 +1810,11 @@ Die 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Varia
 
 **Grundregeln der Kartenverteilung:**
 
-Beim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.
+Beim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte bekommt.
 
 **Schweizer Besonderheit:**
-• Die Karten werden im **Gegenurzeigersinn** verteilt – typisch für die Schweiz!
-• "Immer der Ohrfeige nach" wie man so schön sagt
+• Die Karten werden im **Gegenuhrzeigersinn** verteilt, also nach rechts
+• Am Tisch heisst das «immer der Ohrfeige nach»
 
 **Verteilung:**
 • Jeder Spieler erhält 9 Karten
@@ -1822,16 +1822,16 @@ Beim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.
 • Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)
 • Nach dem Verteilen können die Karten aufgenommen werden
 
-**Verantwortlichkeiten:**
+**Wer was macht:**
 • Der Kartengeber mischt und gibt die Karten
 • Der Spieler rechts vom Kartengeber kann beim Abheben die Karten teilen
 
 **Häufige Fragen:**
 - **Wie werden die Karten beim Jassen verteilt?** Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler rechts von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei.
 - **Wie viele Karten erhält jeder Spieler beim Jassen?** Jeder Spieler erhält 9 Karten.
-- **In welche Richtung werden die Karten beim Jassen verteilt?** Im Gegenurzeigersinn – das ist eine typisch schweizerische Eigenheit!
-- **In welche Richtung werden die Karten verteilt?** Die Karten werden im Uhrzeigersinn verteilt, beginnend beim Spieler links vom Kartengeber.
-- **Werden die Karten einzeln oder in Paketen verteilt?** Die Karten werden einzeln verteilt, nicht in Paketen.
+- **In welche Richtung werden die Karten beim Jassen verteilt?** Im Gegenuhrzeigersinn, «immer der Ohrfeige nach».
+- **In welche Richtung werden die Karten verteilt?** Im Gegenuhrzeigersinn. Der Kartengeber beginnt beim Spieler rechts von sich.
+- **Werden die Karten einzeln oder in Paketen verteilt?** In der Regel dreimal drei Karten auf einmal, bis jeder neun hat.
 - **Wer darf die Karten abheben?** Der Spieler rechts vom Kartengeber kann die Karten abheben (teilen).
 
 *Keywords: austeilen, mischen, abheben, geben, gegenurzeigersinn*
@@ -1843,16 +1843,16 @@ Beim Jassen wird die Kartenverteilung nach festen Regeln durchgeführt.
 **Kategorie:** Regeln > Schreiben
 
 Regel bei nur einem Schreiber:
-Bei nur einer Person für die Eintragung der Resultate gilt eine besondere Regelung.
+Schreibt nur einer, gilt eine besondere Regel.
 
 Korrekturmöglichkeiten:
-• Alle Teilnehmer können im Verlauf des nächsten Spiels Korrekturwünsche äussern
+• Wer meint, es sei etwas falsch angeschrieben, sagt es
 • Korrekturwünsche sind möglich bei vermuteten Fehlern
-• Diese Möglichkeit besteht während der kompletten Dauer der folgenden Runde
+• Das geht das ganze nächste Spiel lang
 
 Recht auf übersichtliche Darstellung:
-• Gegenspieler können jederzeit eine klar strukturierte Darstellung verlangen
-• Die Darstellung muss übersichtlich sein und alle bisherigen Notierungen umfassen
+• Jeder darf jederzeit verlangen, dass die Tafel übersichtlich geführt wird
+• Alle Punkte von Anfang an müssen darauf ablesbar sein
 
 **Häufige Fragen:**
 - **Wie lange kann man einen Eintrag auf der Tafel korrigieren?** Alle Mitspieler können während des ganzen nächsten Spiels einen Korrekturwunsch äussern, wenn sie einen Fehler vermuten. Die Gegner dürfen jederzeit eine übersichtliche Darstellung aller bisherigen Einträge verlangen.
@@ -1954,15 +1954,15 @@ Wenn ein Weis über den Strich hilft:
 
 **Kategorie:** Regeln > Spielablauf
 
-Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. Diesen Ablauf teilen alle Bietspiele. Die Zahlen darin setzt jede Jassart selbst.
+Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen versprechen. Wer am meisten bietet, übernimmt das Spiel. So läuft es in allen Bietspielen. Die Zahlen dazu legt jede Jassart selbst fest.
 
 ## Der Ablauf
 
 1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt
 2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet: Sie nennt ein Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/). Sagen alle Spieler «fort», wird neu gegeben
-3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt «fort» und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort bindet ein «fort» erst, wenn schon ein Gebot gefallen ist
+3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt «fort» und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort gilt ein «fort» erst endgültig, wenn vorher jemand geboten hat
 4. Das Bieten geht so lange im Kreis herum, bis die Gegner des Höchstbietenden «fort» gesagt haben. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) beendet auch ein Doppeln das Bieten, beim [Pandur](/varianten/pandur/) die Ansage «Pandur mit»
-5. Der Meistbietende übernimmt das Spiel: Er ist der Spielübernehmer, beim Bieter heisst er König. Er bestimmt die Spielart, wo die Jassart sie ihm überlässt
+5. Der Meistbietende übernimmt das Spiel: Er ist der Spielübernehmer, beim Bieter heisst er König. Er bestimmt die Spielart, sofern die Jassart ihm die Wahl lässt
 
 Jedes Gebot liegt über dem vorherigen. Beim Sidi-Barrani, beim Bolschewik und beim Pandur spielt der Meistbietende auch die erste Karte aus, beim Bieter im ersten Spiel der König.
 
@@ -1991,7 +1991,7 @@ Beim Sidi-Barrani und beim Bolschewik stehen die [Teams](/begriffe/grundbegriffe
 
 ## Was das Gebot bindet
 
-Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt das Gebot für ein Spiel: Erreicht der Spielübernehmer die Zahl, schreibt seine Seite, verfehlt er sie, schreibt die Gegenseite, beim Pandur dazu der aussetzende Kartengeber. Beim Sidi-Barrani zählen dafür allein die Kartenpunkte, beim Pandur Kartenpunkte und Weis zusammen. Beim Bieter gilt das Gebot für die ganze Partie: Der König sammelt seine Punkte über mehrere Spiele und gewinnt, sobald er sein Gebot vor den 1000 der Bauernpartei erreicht. Wie viel jeweils auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).
+Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt das Gebot für ein Spiel: Erreicht der Spielübernehmer die Zahl, werden die Punkte seiner Seite gutgeschrieben, verfehlt er sie, der Gegenseite, beim Pandur dazu dem aussetzenden Kartengeber. Beim Sidi-Barrani zählen dafür allein die Kartenpunkte, beim Pandur Kartenpunkte und Weis zusammen. Beim Bieter gilt das Gebot für die ganze Partie: Der König sammelt seine Punkte über mehrere Spiele und gewinnt, sobald er sein Gebot vor den 1000 der Bauernpartei erreicht. Wie viel jeweils auf die Tafel kommt, regelt jede Jassart für sich, und mehrere Bietspiele erhöhen diesen Wert durch [Doppeln und Kontern](/begriffe/spielaktionen/doppeln-und-kontern/).
 
 Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem neuen, höheren Gebot. Sobald die übrigen «fort» gesagt haben, steht das Spiel fest.
 
@@ -1999,7 +1999,7 @@ Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem n
 - **Wie läuft eine Bietrunde beim Jassen ab?** Die Karten werden gegeben, danach eröffnet Vorhand mit einem Gebot oder mit «fort». Der Reihe nach überbietet jeder Spieler das laufende Gebot oder sagt «fort» und bleibt für diese Bietrunde draussen. Das Bieten geht so lange im Kreis herum, bis die übrigen Spieler «fort» gesagt haben. Der Meistbietende übernimmt das Spiel. Sagen alle «fort», wird neu gegeben.
 - **Wer beginnt das Bieten?** Vorhand eröffnet, mit einem Gebot oder mit «fort», danach kommt in Spielrichtung jeder Spieler an die Reihe.
 - **Wie viel muss ein neues Gebot über dem alten liegen?** Das setzt jede Jassart selbst: beim Bieter und beim Pandur 10 Punkte, beim Bolschewik und beim Sidi-Barrani 5 Punkte, beim Palette 1 Punkt. Ebenso verschieden ist das tiefste Gebot, etwa 600 beim Bieter zu dritt (in der Innerschweiz 500), 350 beim Bieter zu viert, 100 beim Pandur, 90 beim Bolschewik und 110 beim Palette. Beim Sidi-Barrani empfiehlt der Jassverband Schweiz 50 als tiefstes Gebot.
-- **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt sie für ein Spiel: Erreicht er sie, schreibt seine Seite, verfehlt er sie, schreibt die Gegenseite, beim Pandur dazu der aussetzende Kartengeber. Beim Bieter gilt das Gebot für die ganze Partie, der König sammelt seine Punkte über mehrere Spiele.
+- **Was verspricht der Meistbietende?** Er verspricht die gebotene Punktzahl. Beim Sidi-Barrani, beim Bolschewik und beim Pandur gilt sie für ein Spiel: Erreicht er sie, werden die Punkte seiner Seite gutgeschrieben, verfehlt er sie, der Gegenseite, beim Pandur dazu dem aussetzenden Kartengeber. Beim Bieter gilt das Gebot für die ganze Partie, der König sammelt seine Punkte über mehrere Spiele.
 - **Nennt ein Gebot auch die Trumpffarbe?** Beim Sidi-Barrani und beim Bolschewik nennt ein Gebot die Punktzahl und die Farbe, die Trumpf werden soll. Beim Bieter, beim Pandur und beim Palette nennt es allein die Punktzahl, und der Meistbietende wählt die Spielart danach.
 
 *Keywords: bietrunde, bieten, steigern, gebot, meistbietender*
@@ -2011,20 +2011,20 @@ Wer Höhe oder Farbe noch ändern will, tut das während des Bietens mit einem n
 **Kategorie:** Regeln > Fehler & Verstösse
 
 Definition:
-Karte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.
+Fällt einem Spieler während des Spiels versehentlich eine Karte aus der Hand, sodass die anderen sie sehen, entscheidet die Gegenpartei, wie es weitergeht.
 
 Entscheidung durch Gegner:
 Die Gegner entscheiden, wie in dieser Situation verfahren wird:
 
 • Option 1 - Weiterspielen: Die Karte wird ignoriert und das Spiel wird normal fortgesetzt
 • Option 2 - Spiel annullieren: Das Spiel wird für ungültig erklärt und neu begonnen
-• Option 3 - Stich geht an das nicht fehlbare Team: Die betroffene Karte verliert ihren Stechwert und der Spieler rechts vom Spieler, dem die Karte runtergefallen ist, spielt als nächstes aus, analog zum Verfahren bei Nichtfarben
+• Option 3 - Der Stich geht an die Gegenpartei: Die Karte verliert ihren Stechwert, und ausgespielt wird rechts vom fehlbaren Spieler, wie bei den Nichtfarben
 
 Konsequenz:
 • In jedem Fall verliert die heruntergefallene Karte ihren Stechwert
 
 **Häufige Fragen:**
-- **Wie funktioniert Karte fällt runter beim Jassen?** Karte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.
+- **Was gilt, wenn einem eine Karte runterfällt?** Karte fällt runter ist ein versehentlicher Spielfehler, bei dem einem Spieler während eines laufenden Umgangs eine Karte aus der Hand fällt und für die Mitspieler sichtbar wird.
 - **Was passiert, wenn eine Karte runterfällt?** Die Gegner entscheiden, ob das Spiel normal fortgesetzt wird, annulliert wird oder der Stich an sie geht. In jedem Fall verliert die Karte ihren Stechwert.
 - **Wer entscheidet bei heruntergefallenen Karten?** Die Gegner des betroffenen Spielers entscheiden über das weitere Vorgehen.
 - **Verliert eine heruntergefallene Karte ihren Wert?** Ja, in jedem Fall verliert die heruntergefallene Karte ihren Stechwert.
@@ -2043,9 +2043,9 @@ Von einem Kreuzweis spricht man, wenn eine Karte zugleich zu einer Folge und zu 
 
 ## Wie der Kreuzweis gemeldet wird
 
-Mit der ersten Karte, die er ausspielt, nennt der Spieler den wertvolleren der beiden Weise. Den zweiten meldet er, sobald feststeht, dass seine Partei den höchsten Weis am Tisch hält und schreiben darf. Beide Weise müssen für sich gültig sein: das Dreiblatt als lückenlose Folge einer Farbe, die vier Gleichen aus allen vier Farben.
+Mit der ersten Karte, die er ausspielt, meldet der Spieler den wertvolleren der beiden Weise. Den zweiten meldet er, sobald feststeht, dass seine Partei den höchsten Weis am Tisch hält und schreiben darf. Beide Weise müssen für sich gültig sein: das Dreiblatt als lückenlose Folge einer Farbe, die vier Gleichen aus allen vier Farben.
 
-Die Stöck stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürfen zugleich in einer Folge stecken, die Stöck rechnen immer für sich.
+Die Stöck stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürfen zugleich in einer Folge stecken, die Stöck zählen immer für sich.
 
 ## Wo der Kreuzweis gilt
 
@@ -2068,7 +2068,7 @@ Sonderregeln bei der Kartenverteilung:
 • Abheben: Spieler rechts vom Kartengeber kann Karten teilen
 • Vorspielen: Spezielle Regel für erstes Ausspiel
 • Schieber: Besondere Regeln beim Schieben des Trumpfs
-• Regionale Unterschiede können vorhanden sein
+• Von Gegend zu Gegend wird unterschiedlich gegeben
 
 **Häufige Fragen:**
 - **Gibt es Sonderregeln beim Kartenverteilen?** Ja, es gibt mehrere Sonderregeln wie das Abheben, spezielle Regeln für das erste Ausspiel und regionale Unterschiede.

@@ -257,15 +257,15 @@ Historischer Kontext:
 Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.
 
 Bedeutung für die Jassgeschichte:
-Dieser frühe Beleg zeigt, dass das Spiel bereits im 18. Jahrhundert in der Schweiz verbreitet war und sich zu einem wichtigen Teil der Schweizer Spielkultur entwickelt hatte.
+Um 1796 war der Jass in der Schweiz also schon so verbreitet, dass man ihn im Wirtshaus antraf, und beim Namen nannte.
 
 Dokumentation:
-Die Erwähnung markiert einen wichtigen Meilenstein in der dokumentierten Geschichte des Schweizer Jassens.
+Der älteste Beleg stammt aus Schaffhausen: 1796 verklagten zwei Pfarrer zwei Bauern, die «um ein Glas Wein» spielten, mit einem Spiel, «welches man das Jassen nenne».
 
 **Häufige Fragen:**
-- **Was ist Die erste urkundliche Erwähnung?** Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.
+- **Wo steht die erste Erwähnung des Jassens?** Die erste bekannte schriftliche Erwähnung des Jass stammt aus dem Jahr 1796 in der Schweiz.
 - **Wann wurde der Jass erstmals schriftlich erwähnt?** Die erste bekannte schriftliche Erwähnung stammt aus dem Jahr 1796 in der Schweiz.
-- **Was bedeutet diese frühe Erwähnung?** Sie zeigt, dass das Spiel bereits im 18. Jahrhundert in der Schweiz verbreitet war und sich zu einem wichtigen Teil der Schweizer Spielkultur entwickelt hatte.
+- **Was bedeutet diese frühe Erwähnung?** Sie zeigt, dass das Jassen 1796 in der Schweiz schon so verbreitet war, dass man es im Wirtshaus antraf und beim Namen nannte.
 - **Warum ist das Jahr 1796 wichtig für die Jassgeschichte?** Es markiert den ersten dokumentierten Beleg für das Jassen in der Schweiz und ist somit ein wichtiger Meilenstein in der Geschichte des Spiels.
 
 *Keywords: 1796, schaffhausen, ratsprotokoll, erste erwähnung, verbot*
@@ -405,7 +405,7 @@ In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schr
 
 ## Quellen
 
-- Elo-Zahl – Wikipedia
+- Elo-Zahl, Wikipedia
 - FIDE Handbook: Rating Regulations (2023)
 - Arpad E. Elo (1978): The Rating of Chessplayers, Past and Present. Arco Publishing.
 - Mark E. Glickman (1999): Parameter estimation in large dynamic paired comparison experiments. Journal of the Royal Statistical Society, Series C, 48(3), 377–394.
@@ -843,13 +843,13 @@ Historische Entwicklung:
 • **19. Jahrhundert:** Beginn der industriellen Kartenproduktion in Schweizer Manufakturen
 • **Lokale Hersteller:** Etablierung renommierter Schweizer Kartenproduzenten wie AG Müller
 • **Standardisierung:** Entwicklung des typischen Schweizer Kartensystems mit den charakteristischen Schweizer Farben
-• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg – ein neu gezeichnetes Schweizer Kartenbild. Gedruckt wird gemäss Anbieter in der Schweiz.
+• **Moderne Neuinterpretationen:** Ein aktuelles Beispiel ist [schweizerjass.ch](https://schweizerjass.ch/) von Jens Riedweg, ein neu gezeichnetes Schweizer Kartenbild. Gedruckt wird gemäss Anbieter in der Schweiz.
 
 Qualität und Tradition:
 Schweizer Jasskarten zeichnen sich durch hochwertige Verarbeitung und traditionelles Design aus, das die regionale Kultur widerspiegelt.
 
 Moderne Produktion:
-Auch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen – gemäss Anbieter mit Druck in der Schweiz.
+Auch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, wobei traditionelle Designs mit modernen Drucktechniken kombiniert werden. Ein Beispiel für diese moderne Entwicklung ist [schweizerjass.ch](https://schweizerjass.ch/) (Jens Riedweg), wo Tradition und zeitgemässe Gestaltung zusammenkommen, gemäss Anbieter mit Druck in der Schweiz.
 
 **Häufige Fragen:**
 - **Wer stellt in der Schweiz Jasskarten her?** Die industrielle Kartenproduktion begann im 19. Jahrhundert in Schweizer Manufakturen, aus denen Häuser wie AG Müller hervorgingen. Damals setzte sich auch das typische Schweizer Kartenbild durch. Heute kommen neben den klassischen Herstellern moderne Neuinterpretationen dazu, etwa schweizerjass.ch von Jens Riedweg.
@@ -959,21 +959,21 @@ Der Jass entwickelte sich vom regionalen Zeitvertreib zu einem schweizweiten Kul
 **Kategorie:** Geschichte > Die Sprache rund um den Jasstisch
 
 Sprachliche Vielfalt:
-Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.
+Wie man beim Jassen redet, hängt davon ab, wo man jasst.
 
 Sprachliche Schichten:
 • **Deutsche Basis:** Viele grundlegende Begriffe stammen aus dem Schweizerdeutschen
-• **Französische Einflüsse:** Begriffe wie «Puur » (Bauer) oder «Nell» (Neun) zeigen französische Wurzeln
+• **Niederländische Wurzeln:** Der Jass kam aus den Niederlanden in die Schweiz. Der Jas (Bauer) und die Trumpfneun (Nell) erinnern bis heute daran
 • **Regionale Variationen:** Unterschiedliche Bezeichnungen für dieselben Karten oder Spielaktionen in verschiedenen Schweizer Regionen
 
 Kulturelle Bedeutung:
-Diese sprachliche Vielfalt spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut.
+So hört man am Jasstisch, aus welcher Ecke der Schweiz einer kommt.
 
 **Häufige Fragen:**
-- **Was ist Die Sprache rund um den Jasstisch?** Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.
-- **Welche Sprachen haben die Jass-Terminologie beeinflusst?** Die Jass-Terminologie wurde hauptsächlich von Schweizerdeutsch und Französisch geprägt, mit vielen regionalen Dialektvarianten.
+- **Woher kommen die Jass-Ausdrücke?** Die Terminologie des Jass ist stark durch regionale Dialekte und sprachliche Einflüsse geprägt.
+- **Welche Sprachen haben die Jass-Terminologie beeinflusst?** Der Jass kam aus den Niederlanden, daran erinnern der Jas (Bauer) und das Nell. Geredet wird am Tisch schweizerdeutsch, in der Westschweiz französisch.
 - **Warum gibt es so viele verschiedene Begriffe beim Jassen?** Die sprachliche Vielfalt spiegelt die verschiedenen Dialekte und Sprachregionen der Schweiz wider, wodurch unterschiedliche Bezeichnungen für dieselben Karten oder Spielaktionen entstanden sind.
-- **Was zeigt die sprachliche Vielfalt des Jass?** Sie spiegelt die mehrsprachige und kulturelle Identität der Schweiz wider und macht den Jass zu einem lebendigen linguistischen Kulturgut.
+- **Was zeigt die sprachliche Vielfalt des Jass?** Man hört am Jasstisch, aus welcher Ecke der Schweiz einer kommt.
 
 *Keywords: sprache, dialekt, begriffe, entwicklung, regional*
 

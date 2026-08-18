@@ -316,7 +316,7 @@ Definition:
 • Sie zählen wenig und werden oft für taktische Spielzüge gebraucht, um höherwertige Karten zu schonen oder dem Partner zu signalisieren
 
 **Häufige Fragen:**
-- **Was sind Brättli beim Jassen?** Brättli sind die Sechser, Siebner, Achter und Neuner – die Karten mit geringem Punktwert.
+- **Was sind Brättli beim Jassen?** Brättli sind die Sechser, Siebner, Achter und Neuner, die Karten mit geringem Punktwert.
 - **Wofür verwendet man Brättli?** Brättli werden oft für taktische Spielzüge verwendet, um höherwertige Karten zu schonen oder dem Partner zu signalisieren.
 - **Wie viele Punkte sind Brättli wert?** Brättli haben einen geringen oder gar keinen Punktwert, je nach Spielart. Bei Obenabe und Undenufe haben sie spezielle Werte.
 
@@ -396,8 +396,8 @@ Diese Grundlagen werden in allen Jassvarianten verwendet und sind essentiell fü
 
 Grundkonzept:
 • Handkarten sind das Blatt oder die Karten, die ein Spieler gefächert in der Hand hält
-• Diese Karten bilden das persönliche Spielmaterial jedes Teilnehmers
-• Bestimmen die taktischen Möglichkeiten während der Partie
+• Jeder Spieler sieht nur seine eigenen Handkarten
+• Sie entscheiden, was in dieser Partie möglich ist
 
 **Häufige Fragen:**
 - **Was sind Handkarten beim Jassen?** Handkarten sind das Blatt oder die Karten, die ein Spieler gefächert in der Hand hält.
@@ -459,17 +459,17 @@ Rolle:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Leih halten bedeutet, die Farbe zu bekennen, also eine Karte der ausgespielten Farbe anzugeben.
+Leih halten bedeutet, die ausgespielte Farbe zu bedienen, also eine Karte dieser Farbe zu spielen.
 
 Regel:
-Dies ist eine grundlegende Spielregel im Jass und muss strikt befolgt werden, sofern der Spieler eine entsprechende Karte besitzt.
+Wer von der ausgespielten Farbe eine Karte hat, muss sie spielen. Das ist eine Grundregel des Jassens.
 
 Funktion:
-Diese Regel sorgt für eine faire Spielweise und klare Spielmechanik.
+Sie hält den Stich lesbar: Wer eine Farbe nicht bedient, hat sie wirklich nicht.
 
 **Häufige Fragen:**
 - **Was bedeutet Leih halten beim Jassen?** Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine besitzt.
-- **Muss man immer Farbe bekennen?** Ja, wer eine Karte der angespielten Farbe besitzt, muss diese spielen. Nur wenn man keine Karte dieser Farbe hat, darf man trumpfen oder verwerfen.
+- **Muss man immer die ausgespielte Farbe bedienen?** Ja, wer eine Karte der angespielten Farbe besitzt, muss diese spielen. Nur wenn man keine Karte dieser Farbe hat, darf man trumpfen oder verwerfen.
 - **Was ist der Unterschied zwischen Leih halten und Farben halten?** Die Begriffe bedeuten dasselbe: Man muss die angespielte Farbe bedienen, wenn man kann.
 
 *Keywords: leih halten, farbe bekennen*
@@ -607,12 +607,12 @@ Grundkonzept:
 
 Definition:
 • Eine Passe bezeichnet einen Durchgang aus mehreren Spielen innerhalb eines Turniers
-• Zusammensetzung der Spieler bleibt dabei unverändert
-• Ermöglicht eine kontinuierliche Bewertung über mehrere Runden hinweg
+• Dieselben Spieler bleiben dabei am Tisch
+• Erst danach wird neu gemischt, wer mit wem spielt
 
 **Häufige Fragen:**
 - **Was ist eine Passe beim Jassen?** Eine Passe ist ein Durchgang aus mehreren Spielen innerhalb eines Turniers mit unveränderter Spielerzusammensetzung.
-- **Wie lange dauert eine Passe?** Die Dauer einer Passe variiert je nach Turnierregeln, typischerweise umfasst sie mehrere Spiele oder eine festgelegte Zeitspanne.
+- **Wie lange dauert eine Passe?** Das sagt die Turnierausschreibung: entweder eine feste Zahl Spiele oder eine feste Zeit.
 - **Was ist eine Streichpasse?** Eine Streichpasse ist die schlechteste Passe eines Teilnehmers, die bei der Turnierwertung nicht gezählt wird.
 
 *Keywords: passe*
@@ -714,7 +714,7 @@ Beim Schieber:
 **Kategorie:** Begriffe > Grundbegriffe
 
 **Definition:**
-• Schnorren bezeichnet verbotene Bemerkungen während des Spiels, die Andeutungen auf Karten oder Taktiken geben
+• Schnorren sind verbotene Bemerkungen während des Spiels, die etwas über die eigenen Karten oder die Taktik verraten
 
 **Beispiele für verbotenes Schnorren:**
 • "Ich habe einen guten Trumpf"
@@ -726,9 +726,9 @@ Beim Schieber:
 • Bei groben Verstössen kann das Spiel annulliert werden
 
 **Häufige Fragen:**
-- **Was bedeutet Schnorren beim Jassen?** Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die Andeutungen auf Karten oder Taktiken geben. Schnorren ist daher grundsätzlich verboten.
+- **Was bedeutet Schnorren beim Jassen?** Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die etwas über die eigenen Karten oder die Taktik verraten. Schnorren ist daher grundsätzlich verboten.
 - **Ist Schnorren erlaubt?** Nein, Schnorren ist grundsätzlich verboten.
-- **Was sind Beispiele für Schnorren?** Schnorren sind Bemerkungen, die Andeutungen auf Karten oder Taktiken geben, wie z.B. Kommentare über gelaufene Karten oder Andeutungen über Bock-Karten.
+- **Was sind Beispiele für Schnorren?** «Ich habe einen guten Trumpf», «Spiel mal Schellen», dazu Seufzen und übertriebenes Zögern.
 
 *Keywords: schnorren, bemerkungen, verboten, spielverrat, andeutungen*
 
@@ -1069,9 +1069,9 @@ Die Königspartei spielt gegen die drei übrigen Spieler, die Bauernpartei.
 **Kategorie:** Begriffe > Punktebegriffe
 
 Definition:
-• Kontermatsch bezeichnet die Situation, in der das nicht trumpfmachende Team alle Stiche erzielt
+• Ein Kontermatsch ist, wenn die Gegenpartei alle Stiche macht, also das Team, das den Trumpf nicht angesagt hat
 • Auch hier gibt es die Matschprämie, allerdings für die gegnerische Seite
-• Da dieses Ereignis sehr selten vorkommt, werden oft zwei Striche notiert, um die besondere Leistung zu würdigen
+• Das kommt fast nie vor, darum schreibt man dafür oft gleich zwei Striche
 
 **Häufige Fragen:**
 - **Was ist ein Kontermatsch?** Ein Kontermatsch ist, wenn das nicht trumpfmachende Team alle Stiche erzielt.
@@ -1157,8 +1157,8 @@ Definition:
 
 **Häufige Fragen:**
 - **Was ist eine Solokarte beim Jassen?** Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt.
-- **Ist eine Solokarte gut oder schlecht?** Eine Solokarte kann beides sein – sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann.
-- **Wann spielt man eine Solokarte?** Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab – manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen.
+- **Ist eine Solokarte gut oder schlecht?** Eine Solokarte kann beides sein, sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann.
+- **Wann spielt man eine Solokarte?** Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab, manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen.
 
 *Keywords: solokarte, einzelkarte*
 
@@ -1205,19 +1205,19 @@ Anforderung:
 
 ## Wozu die Zählung dient
 
-Sie misst ein Blatt in dem Moment, in dem ein Spieler entscheidet, ob er eine Farbe als Trumpf ansagt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.
+Sie sagt einem Spieler vor der Ansage, wie viel sein Blatt trägt. Als Faustregel für die [Trumpffarbe](/ansagen/trumpffarbe/) gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand.
 
-Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Figuren: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, weiss, was er noch stechen kann. Wer weist, legt eine dieser beiden Figuren vor.
+Weispunkte entstehen auf einem anderen Weg. Der [Weis](/weis-regeln/weispunkte/) kennt zwei Arten: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. Wer seine Trümpfe zählt, weiss, was er noch stechen kann. Wer weist, legt eine davon auf den Tisch.
 
 ## Beim Bieten
 
-Der [Sidi-Barrani](/varianten/sidi-barrani/) macht aus derselben Zählung eine Leiter von Geboten: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.
+Beim [Sidi-Barrani](/varianten/sidi-barrani/) hat jede dieser Zählungen ein festes Gebot: 60 steht für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert. Jede weitere Karte hebt das Gebot um zwanzig Punkte.
 
 **Häufige Fragen:**
 - **Was heisst «Puur zu dritt»?** Der Spieler hält den Puur und zwei weitere Karten der Trumpffarbe, zusammen also drei Trümpfe. Die genannte Karte zählt mit. «Nell zu viert» heisst entsprechend: das Nell und drei weitere Trumpfkarten, zusammen vier.
 - **Zählt der Puur bei «zu dritt» mit?** Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere.
-- **Bringen Trumpf-Bauer-Kombinationen Weispunkte?** Weispunkte bringen die beiden Figuren des Weises: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage.
-- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Sie zählen vor der Ansage, wie viele Trümpfe sie haben. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani wird aus derselben Zählung eine Leiter von Geboten: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
+- **Ist «Puur zu dritt» ein Weis?** Weispunkte bringen die beiden Arten von Weis: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage.
+- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
 
 *Keywords: trumpf-bauer-kombinationen, puur zu dritt, nell zu viert, zu-dritt, zu-viert*
 
@@ -1295,12 +1295,12 @@ So bekommt auch der Geber seine Punkte, wenn er einmal aussetzt.
 
 Definition:
 • Härdöpfel ist eine weitere Bezeichnung für Nuller oder Sack
-• Dieser Begriff wird vor allem in der Schweiz verwendet und bezeichnet Minuspunkte, die ein Spieler erhalten kann, wenn er sein Ziel nicht erreicht
+• Gemeint sind Minuspunkte, die ein Spieler bekommt, wenn er sein Ziel nicht erreicht
 
 **Häufige Fragen:**
 - **Was sind Härdöpfel beim Jassen?** Härdöpfel ist eine umgangssprachliche Bezeichnung für Minuspunkte (Nuller oder Sack).
 - **Wann bekommt man Härdöpfel?** Man bekommt Härdöpfel, wenn man bei Differenz-Jassarten sein angesagtes Ziel nicht erreicht.
-- **Ist Härdöpfel ein offizieller Begriff?** Nein, Härdöpfel ist ein umgangssprachlicher, vor allem in der Schweiz verwendeter Begriff für Minuspunkte.
+- **Ist Härdöpfel ein offizieller Begriff?** Nein, Härdöpfel ist die umgangssprachliche Bezeichnung. Auf der Tafel steht ein Nuller.
 
 *Keywords: härdöpfel, haerdoepfel*
 
@@ -1433,7 +1433,7 @@ Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen B
 **Häufige Fragen:**
 - **Heisst Ecke auch Karo?** Ja. Ecke ist das Schweizer Wort, in Deutschland heisst die Farbe Karo, auf Französisch Carreau.
 - **Wie heisst Ecke im Deutschschweizer Blatt?** Schellen. Der Ecke-König und der Schellen-König sind dieselbe Karte.
-- **Was gilt, wenn Ecke Trumpf ist?** Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14, beide stechen jede andere Karte.
+- **Was gilt, wenn Ecke Trumpf ist?** Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14. Der Puur sticht alles, das Nell alles ausser dem Puur.
 
 *Keywords: ecke, karo, schellen, carreau, diamonds*
 
@@ -1503,7 +1503,7 @@ Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die 
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schaufel heisst in der Schweiz die Farbe mit dem schwarzen Blatt ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Gejasst wird mit Schaufel westlich der Brünig-Napf-Reuss-Linie. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Westlich der Brünig-Napf-Reuss-Linie liegt statt Schilten die Schaufel auf dem Tisch. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Heisst Schaufel auch Pik?** Ja. Schaufel ist das Schweizer Wort, in Deutschland heisst die Farbe Pik, auf Französisch Pique.

@@ -103,7 +103,7 @@ Spielablauf - Trumpf machen:
 Spielablauf - «Kehr»:
 • Alternativ kann jeder Spieler statt Trumpf zu machen einen «Kehr» verlangen
 • Der Kartengeber deckt dann die Karten des «Lukas»-Stocks einzeln von oben nach unten auf
-• Jede dieser Karten – ausser der letzten – kann vom Sechser derselben Farbe geraubt werden
+• Jede dieser Karten, ausser der letzten, kann vom Sechser derselben Farbe geraubt werden
 • Passt einem Spieler die aufgedeckte Farbe, ruft er «Halt» und übernimmt das Spiel mit dieser Farbe als Trumpf
 • Übernimmt bis zur vorletzten Karte des «Lukas» niemand, schreibt der, der den «Kehr» verlangt hat, zur Strafe einen «Härdöpfel», und seine Gegner schreiben je einen Strich
 
@@ -500,13 +500,13 @@ Definition:
 Der Palette-Jass ist eine abwechslungsreiche Jassart für fortgeschrittene Schieber-Spieler (4 oder 5 Spieler).
 
 Spiel geben:
-• Ein beliebiger Schreiber verteilt die Karten zum ersten Spiel
+• Wer schreibt, verteilt die Karten zum ersten Spiel
 • Bei vier Spielern: je drei Karten in drei Runden
 • Bei fünf Spielern: abwechselnd drei und vier Karten (der Rosen-Siebener bzw. Herz-Siebener wird aus dem Spiel entfernt)
 
 Bieten (Steigern):
 • Nach dem Verteilen der Karten wird gesteigert
-• Vorhand beginnt und macht anhand seiner Handkarten ein Gebot über die zu erreichenden Punkte am Ende des Spiels
+• Vorhand beginnt und bietet nach ihren Handkarten, wie viele Punkte sie am Ende haben will
 • Das Mindestgebot beginnt bei 110 Punkten, das von den nachfolgenden Spielern um jeweils mindestens einen Punkt überboten werden kann
 • Ein «Matsch mit Partner» kann nur mit einem «Matsch alleine» überboten werden
 • Ein «Matsch alleine» kann nicht überboten werden
@@ -522,7 +522,13 @@ Partner-Bestimmung:
 • Er darf sich jedoch bis zum Ausspiel dieser Karte nicht anmerken lassen, dass er sie hat
 
 Bewertung:
-110 bis 119 Punkte: 2 Schreibpunkte (höhere Wertungen wurden im Original nicht vollständig angegeben)
+110 bis 119 Punkte: 2 Schreibpunkte
+120 bis 129 Punkte: 4 Schreibpunkte
+130 bis 139 Punkte: 6 Schreibpunkte
+140 bis 149 Punkte: 8 Schreibpunkte
+150 bis 157 Punkte: 10 Schreibpunkte
+Matsch mit Partner: 12 Schreibpunkte
+Matsch alleine: 20 Schreibpunkte
 
 Spielende:
 Nach zwölf Spielen ist die Partie zu Ende. Gewinner ist der Spieler mit den meisten Punkten.
@@ -543,7 +549,7 @@ Nach zwölf Spielen ist die Partie zu Ende. Gewinner ist der Spieler mit den mei
 **Kategorie:** Varianten > Königsspiel
 
 Definition:
-Diese Zweier-Variante des Aucho funktioniert nach ähnlichen Prinzipien wie die grösseren Versionen, bringt aber spezielle Raubregeln mit sich.
+Der Aucho zu zweit läuft gleich wie der Aucho zu dritt und zu viert, nur beim Rauben gelten eigene Regeln.
 
 Spiel geben:
 • Der Kartengeber verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten
@@ -554,7 +560,7 @@ Spiel geben:
 
 Besonderheiten für zwei Spieler:
 • Vier Under  (Buben ) müssen nicht mehr zwingend vor Spielbeginn angemeldet werden
-• Aus der Hand darf ausschliesslich die aufgedeckte Farbe als Trumpf bestimmt werden (Vorhand geniesst dabei den Vorrang)
+• Aus der Hand gilt nur die aufgedeckte Farbe als Trumpf, und Vorhand hat dabei den Vorrang
 • Möchte ein Spieler das Spiel in einer anderen Farbe übernehmen, muss er einen «Kehr» verlangen
 • Der Gewinner eines Spiels erhält zwei Striche
 
@@ -582,7 +588,7 @@ Der Bolschewik ist ähnlich wie der Sidi-Barrani, wird jedoch mit einem Doppelka
 Kartenspiel und Regeln:
 • Gespielt wird mit einem Doppelkart ohne die Sechser, Siebner und Achter (insgesamt 48 Karten)
 • Von den restlichen Karten (Ass bis Neuner) sind je 2 gleiche Karten im Spiel
-• Die zweitgespielte Karte schlägt die erstausgespielte gleiche Karte
+• Von zwei gleichen Karten sticht die zweite die erste
 
 Teambildung:
 • Jeder Spieler zieht aus einem verdeckten Kartenspiel eine Karte
@@ -590,9 +596,9 @@ Teambildung:
 • Die Partner sitzen sich kreuzweise gegenüber
 
 Steigern:
-• Beim Bolschewik wird Trumpf oder «Bock» (Obenabe-Spiel ohne Trumpf) der Kartenfarbe in Zahlen gesteigert
+• Beim Bolschewik wird in Punkten gesteigert. Wer steigert, nennt dazu eine Farbe als Trumpf oder «Bock», ein Obenabe-Spiel ohne Trumpf
 • Das Mindestgebot liegt bei 90 Punkten 
-• Die nachfolgenden Spieler können der Reihe nach dieses Gebot beliebig um mindestens 5 Punkte überbieten
+• Die nachfolgenden Spieler können der Reihe nach überbieten, jedes Mal um mindestens 5 Punkte
 
 Bewertung:
 • Doppelkart bei Trumpf: 314 Punkte (letzter Stich 10 Punkte)
@@ -603,7 +609,7 @@ Bewertung:
 
 Spielablauf:
 • Die erste Karte darf erst ausgespielt werden, wenn alle anderen Spieler «passen» oder ein Gegner «doppelt»
-• Der Letztsteigernde ist der Spielübernehmer und spielt die erste Karte aus
+• Wer zuletzt gesteigert hat, ist der Spielübernehmer und spielt die erste Karte aus
 
 Besondere Regeln:
 • Die beiden Trumpf-Bauern  (Under ) müssen nicht angegeben werden
@@ -881,17 +887,17 @@ Spiel geben:
 
 Spielablauf:
 • Beim Glücksjass spielt jeder Teilnehmer für sich allein
-• Die Entscheidung über die Trumpffarbe hat Vorhand
+• Vorhand bestimmt den Trumpf
 • Alle Trumpffarben werden einfach gewertet
-• Eine Partie besteht aus zwölf Spielen, was drei Umgängen bei vier Spielern oder vier Umgängen bei drei Spielern entspricht
+• Eine Partie besteht aus zwölf Spielen: zu viert gibt jeder dreimal, zu dritt viermal
 
 Schreiben:
 • Nach jedem Spiel notiert der Schreiber die erzielten Kartenpunkte sowie die gültigen Weisen für jeden Spieler in der entsprechenden Spalte
-• Ab dem zweiten Spiel werden die Punkte fortlaufend zusammengezählt, sodass alle Spieler stets über die aktuellen Punktestände informiert sind
+• Ab dem zweiten Spiel werden die Punkte fortlaufend zusammengezählt, so sieht jeder jederzeit, wo er steht
 
 Spielende:
-• Wer nach zwölf Spielen die höchste Punktzahl  erzielt hat, gewinnt die Partie. Wer am wenigsten Punkte aufweist, hat verloren
-• Die Karten für die neue Partie werden vom links sitzenden Spieler des Verlierers verteilt
+• Wer nach zwölf Spielen die höchste Punktzahl hat, gewinnt die Partie. Wer am wenigsten Punkte hat, hat verloren
+• Zur neuen Partie gibt der Spieler links vom Verlierer
 
 Spielvarianten:
 • Der Glücksjass kann mit den zusätzlichen Varianten Obenabe und Undenufe gespielt werden
@@ -902,8 +908,8 @@ Wie der Name bereits andeutet, spielt beim Glücksjass das Glück eine wichtige 
 
 **Häufige Fragen:**
 - **Was ist der Glücksjass?** Der Glücksjass ist ein einfacher Einzeljass für vier oder drei Spieler, bei dem das Glück eine wichtigere Rolle spielt als komplexe Strategien.
-- **Wer bestimmt die Trumpffarbe beim Glücksjass?** Die Entscheidung über die Trumpffarbe hat Vorhand, also der Spieler rechts vom Kartengeber.
-- **Wie viele Spiele umfasst eine Glücksjass-Partie?** Eine Partie besteht aus zwölf Spielen, was drei Umgängen bei vier Spielern oder vier Umgängen bei drei Spielern entspricht.
+- **Wer bestimmt die Trumpffarbe beim Glücksjass?** Vorhand bestimmt den Trumpf, also der Spieler rechts vom Kartengeber.
+- **Wie viele Spiele umfasst eine Glücksjass-Partie?** Eine Partie besteht aus zwölf Spielen: zu viert gibt jeder dreimal, zu dritt viermal.
 - **Können Obenabe und Undenufe beim Glücksjass gespielt werden?** Ja, der Glücksjass kann mit den zusätzlichen Varianten Obenabe und Undenufe gespielt werden, diese werden jedoch ebenfalls einfach (ohne Multiplikatoren) gewertet.
 - **Warum heisst es Glücksjass?** Das Glück spielt eine wichtigere Rolle als komplexe Strategien, da die Kartenverteilung entscheidend ist und keine besonderen strategischen Überlegungen notwendig sind.
 
@@ -999,10 +1005,10 @@ Eine Partie geht auf 1000 Punkte. Wer diese Punktzahl  zuerst erreicht, hat gewo
 **Kategorie:** Varianten > Minus-Spiel
 
 Definition:
-Der Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann.
+Der Schaufel-Dame-Jass ist ein Spiel zu viert, ohne Trumpf. Jeder sammelt Punkte, und eine einzige Karte, die Schaufel-Dame, bringt 100 Minuspunkte.
 
 Spiel geben:
-• Ein beliebiger Spieler verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten zum ersten Spiel
+• Zum ersten Spiel gibt ein beliebiger Spieler: neun Karten, dreimal drei
 • Die folgenden Spiele werden der Reihe nach in Spielrichtung gegeben
 
 Besonderheit:
@@ -1024,7 +1030,7 @@ Spielende:
 Eine Partie kann über eine bestimmte Anzahl Spiele gespielt werden. Gewinner ist der Spieler mit den meisten Pluspunkten am Ende.
 
 **Häufige Fragen:**
-- **Wie spielt man Schaufel?** Der Schaufel-Dame-Jass ist ein spannendes Spiel für vier Spieler, bei dem eine einzige Karte zum Verhängnis werden kann.
+- **Wie spielt man den Schaufel-Dame-Jass?** Der Schaufel-Dame-Jass ist ein Spiel zu viert, ohne Trumpf. Jeder sammelt Punkte, und eine einzige Karte, die Schaufel-Dame, bringt 100 Minuspunkte.
 - **Wie viele Minuspunkte bringt die Schaufel-Dame?** Die Schaufel-Dame bringt demjenigen, der sie im Stich erhält, automatisch 100 Minuspunkte ein.
 - **Wird beim Schaufel-Dame-Jass mit Trumpf gespielt?** Nein, es wird ohne Trumpf gespielt. Alle Karten werden nach ihren normalen Werten gewertet.
 - **Was ist die beste Taktik, wenn ich die Schaufel-Dame habe?** Der Spieler mit der Schaufel-Dame versucht sie bei einem gegnerischen Stich abzulegen, um die Minuspunkte zu vermeiden.
@@ -1135,7 +1141,7 @@ Spiel geben:
 • Der dritte Spieler ist der Kartengeber und erhält keine Karten, sondern 10 Schreibpunkte gutgeschrieben
 
 Spielentscheidung:
-Die beiden aktiven Spieler entscheiden vor Spielbeginn, ob sie mitspielen möchten.
+Vor dem Geben sagen die beiden anderen, ob sie das Spiel annehmen.
 
 Schreibregeln:
 • Wie beim Zuger für 4 Spieler wird nur der zehnte Teil der Kartenpunkte geschrieben
@@ -1650,8 +1656,8 @@ Regelung:
 Da es häufig regionale Unterschiede bei den Regeln und Funktionskarten gibt, sollte man vor Spielbeginn gemeinsam festlegen, welche Regeln gelten sollen.
 
 **Häufige Fragen:**
-- **Was ist Tschau Sepp?** Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau – ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen.
-- **Was sind die Regeln von Tschau Sepp?** Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Der Reihe nach legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp» – wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erster alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart.
+- **Was ist Tschau Sepp?** Tschau Sepp ist die Schweizer Variante des Kartenspiels Mau-Mau, ein Ablegespiel für 2 bis 8 Personen, gespielt mit Jasskarten. Ideal, um spielerisch Kartenfarben und -werte kennenzulernen.
+- **Was sind die Regeln von Tschau Sepp?** Jede Person erhält fünf Karten, der Rest bildet den verdeckten Stock. Der Reihe nach legt man eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Bei der zweitletzten Karte ruft man «Tschau», bei der letzten «Sepp», wer das vergisst, nimmt vier Strafkarten. Gewonnen hat, wer als Erster alle Karten abgelegt und «Sepp» gesagt hat. Die Funktionskarten (Spezialwirkungen) variieren regional und werden vor Spielbeginn vereinbart.
 - **Wie spielt man Tschau Sepp?** Man legt der Reihe nach eine Karte ab, die in Farbe oder Wert zur obersten offenen Karte passt. Wer nicht ablegen kann, zieht eine Karte vom Stock. Wer als Erster alle Karten losgeworden ist und «Sepp» angesagt hat, gewinnt.
 - **Wie viele Spieler braucht man für Tschau Sepp?** Tschau Sepp eignet sich für 2 bis 8 Spieler. Ab 5 Spielern wird mit zwei Kartenspielen gespielt.
 - **Was passiert, wenn ich vergesse «Tschau» oder «Sepp» zu sagen?** Wenn du die Ansage vergisst, musst du vier Strafkarten aufnehmen.
@@ -2042,7 +2048,7 @@ Spielstrategie:
 • Ein Spieler, der aufgrund seiner Handkarten gute Chancen sieht, kann die Joker-Variante nutzen, um zwischen Trumpf, Obenabe oder Undenufe zu wählen
 
 **Häufige Fragen:**
-- **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten – die vier Trumpffarben, Obenabe, Undenufe und zwei Joker – genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
+- **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
 - **Wie spielt man Coiffeur?** Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.
 - **Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?** Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss.
 - **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker-Varianten sind Variante 7 und 8, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist. Bei diesen Varianten können Stöck- und Weispunkte nicht gemeldet werden.
@@ -2246,7 +2252,7 @@ Joker (Spezialform):
 **Kategorie:** Varianten > Traditionelles Spiel
 
 Definition:
-Aucho ist ein traditionelles Spiel für vier Spieler (auch drei oder zwei Spieler sind möglich), bei dem ein sogenannter «Lukas» als Stock fungiert.
+Aucho ist ein traditionelles Spiel für vier Spieler (auch zu dritt oder zu zweit). Die übrigen Karten bleiben als Stock auf dem Tisch liegen, dieser Stock heisst «Lukas».
 
 Spiel geben:
 • Der Kartengeber verteilt seinen drei Mitspielern je neun Karten
@@ -2254,15 +2260,15 @@ Spiel geben:
 • Der Kartengeber selbst erhält keine Karten
 
 Spielablauf - Trumpf machen:
-• Wenn Vorhand das Spiel übernimmt, kann er eine beliebige Farbe als Trumpf wählen
-• Er muss am Ende mindestens einen Punkt mehr als seine beiden Gegner zusammen erzielen
+• Übernimmt die Vorhand das Spiel, wählt sie eine beliebige Farbe als Trumpf
+• Sie muss am Ende mindestens einen Punkt mehr als ihre beiden Gegner zusammen erzielen
 • Verzichtet Vorhand, geht das Recht auf den zweiten, dann den dritten Spieler über
 
 Spielablauf - «Kehr»:
 • Anstatt Trumpf zu machen kann jeder Spieler einen «Kehr» verlangen
 • Der Kartengeber muss dann die Karten des «Lukas» einzeln von oben nach unten aufdecken
 • Dabei kann jede Karte (ausser der letzten) vom Sechser der gleichen Farbe geraubt werden
-• Jeder Spieler kann beim Erscheinen einer ihm zusagenden Farbe «Halt» sagen und das Spiel in der betreffenden Farbe übernehmen
+• Wem eine Farbe passt, der sagt «Halt» und übernimmt das Spiel in dieser Farbe
 
 Kartengeber-Spiel mit «Lukas»:
 • Wenn weder Trumpf gemacht noch ein «Kehr» verlangt wird, hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen
@@ -2273,7 +2279,7 @@ Schreiben:
 • Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben
 
 **Häufige Fragen:**
-- **Was ist der «Lukas» beim Aucho?** Der «Lukas» sind die neun restlichen Karten, die verdeckt als Stock auf den Tisch gelegt werden. Der Kartengeber erhält diese Karten nicht.
+- **Was ist der «Lukas» beim Aucho?** Als «Lukas» liegen die neun übrigen Karten verdeckt als Stock auf dem Tisch. Der Kartengeber erhält diese Karten nicht.
 - **Wie viele Striche erhält man, wenn man mit dem «Lukas» gewinnt?** Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben. Gewinnt ein normaler Spieler, erhält er zwei Striche, der Kartengeber «erbt» dabei ebenfalls zwei Striche.
 - **Was ist ein «Kehr» beim Aucho?** Ein «Kehr» kann verlangt werden, um die Karten des «Lukas» einzeln aufzudecken. Erscheint eine passende Farbe, kann das Spiel mit dieser Farbe als Trumpf übernommen werden.
 - **Was passiert, wenn weder Trumpf gemacht noch ein Kehr verlangt wird?** In diesem Fall hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen und gegen die drei Mitspieler zu spielen.
@@ -2305,8 +2311,8 @@ Spielstrategie:
 • Er sollte für einen strategisch wichtigen Moment zurückgehalten werden
 
 **Häufige Fragen:**
-- **Was ist Differenzler?** Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis – je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim.
-- **Wie spielt man Differenzler?** Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt – die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält.
+- **Was ist Differenzler?** Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis, je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim.
+- **Wie spielt man Differenzler?** Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält.
 - **Was ist der Unterschied zwischen verdeckter und offener Ansage beim Differenzler?** Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht. Jeder Spieler schreibt seine geschätzte Punktzahl auf einen Zettel, der bis zum Spielende verdeckt bleibt.
 - **Wie schätzt man am besten beim Differenzler mit verdeckter Ansage?** Für eine präzise Schätzung zählt man die Werte der Trumpfkarten doppelt und addiert für jeden möglichen Stich mit einem Ass zusätzlich elf Punkte.
 - **Warum ist der Trumpf-Bauer beim Differenzler so wichtig?** Der Trumpfbauer ist eine Schlüsselkarte: Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht zugeben. Darum hält man ihn für einen wichtigen Moment zurück.
@@ -2521,7 +2527,7 @@ Trumpf-Bestimmung:
 • Diese Trumpffarbe gilt für alle folgenden Stiche
 
 Weis, umgekehrt gezählt:
-• Weis aus den Handkarten: zählt als Minuspunkte – das ist GUT!
+• Weis aus den Handkarten: zählt als Minuspunkte, das ist GUT!
 • Ein Tischweis, also ein Weis, der im Stich zu liegen kommt, zählt plus und schadet
 • Stöck zählt minus und hilft
 
@@ -2543,7 +2549,7 @@ Besonderheiten:
 
 **Häufige Fragen:**
 - **Wie spielt man Molotow?** Molotow spielen 3 bis 6 Personen (optimal 4–5). Es gewinnt, wer am wenigsten Punkte sammelt.
-- **Was ist das Ziel beim Molotow?** Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln – das Gegenteil des klassischen Jass.
+- **Was ist das Ziel beim Molotow?** Beim Molotow geht es darum, möglichst wenige Punkte zu sammeln, das Gegenteil des klassischen Jass.
 - **Wie wird der Trumpf beim Molotow bestimmt?** Der Trumpf wird dynamisch bestimmt: Der erste Spieler, der die ausgespielte Farbe nicht bedienen kann und eine andere Farbe spielt, bestimmt damit die Trumpffarbe.
 - **Was ist beim Molotow der Unterschied zwischen Tischweis und einem Weis aus den Handkarten?** Ein Weis aus den Handkarten zählt als Minuspunkte (gut!), ein Tischweis (Karten, die im Stich einen Weis ergeben) als Pluspunkte (schlecht!).
 - **Wie viele Spieler können Molotow spielen?** Molotow kann mit 3 bis 6 Spielern gespielt werden, wobei 4 bis 5 Spieler optimal sind.
@@ -2557,7 +2563,7 @@ Besonderheiten:
 
 **Kategorie:** Varianten > Schellenjass
 
-Schellenjass ist eine Vermeidungsvariante, bei der es darum geht, möglichst wenig Schellenkarten in den eigenen Stichen zu sammeln – oder gezielt alle 9 Schellenkarten zu erzielen. Es wird ohne Trumpf gespielt.
+Beim Schellenjass will jeder möglichst wenig Schellenkarten in seinen Stichen haben, oder gleich alle neun. Gespielt wird ohne Trumpf.
 
 Auf einen Blick:
 • Spieleranzahl: 3 oder 4 Spieler
@@ -2566,7 +2572,7 @@ Auf einen Blick:
 • Ziel: Wenig Schellenkarten sammeln (oder alle 9)
 • Besonderheit: Keine Weis-, Stöck- oder letzte-Stich-Punkte
 • Schwierigkeit: Mittel bis anspruchsvoll
-• Alternative Namen: Kreuzjass (franz. Schweiz mit Kreuzkarten)
+• Alternative Namen: Herzjass (mit französischen Karten, Herz statt Schellen)
 
 Spielablauf:
 • Zu viert: Jeder erhält 9 Karten
@@ -2583,23 +2589,23 @@ Spielregeln:
 • Jeder Spieler will möglichst wenig Schellenkarten in seinen Stichen haben
 
 Schreibweise:
-Nach jedem Spiel notiert der Schreiber jedem Spieler die Anzahl der erhaltenen Schellenkarten. Wer alle 9 Schellenkarten erzielt, belastet die anderen Spieler mit je 9 Punkten (oder erhält selbst 9 Minuspunkte). Eine Partie hat üblicherweise 12 Spiele. Der Spieler mit den meisten Schellenkarten verliert.
+Nach jedem Spiel notiert der Schreiber jedem Spieler die Anzahl der erhaltenen Schellenkarten. Wer alle 9 Schellenkarten macht, lässt den anderen je 9 Punkte notieren (oder notiert sich selbst 9 Minuspunkte). Eine Partie hat üblicherweise 12 Spiele. Der Spieler mit den meisten Schellenkarten verliert.
 
 Rampo-Regel:
-Erreichen zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten, wird ein Rampo (Querstrich) notiert. Dieser muss in den nächsten Spielen abgearbeitet werden.
+Erreichen zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten, wird ein Rampo (Querstrich) notiert. Der Rampo bleibt stehen, bis ihn einer der Betroffenen im nächsten Spiel löst.
 
 Variante mit Strichen:
 Es kann auch mit Strichen gespielt werden. Nach jedem Spiel werden zu viert 3 Striche, zu dritt 2 Striche verteilt. Der Spieler mit den meisten Schellenkarten erhält keinen Strich. Wer zuerst 7 Striche erreicht, scheidet als Gewinner aus.
 
 Taktik:
-Das Spiel erfordert präzises Kartenzählen und Antizipation. Mit guten Bockkarten (höchste Karten einer Farbe) kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Spieler müssen verhindern, dass ein Gegner alle 9 Schellenkarten erzielt, da dies die anderen bestraft.
+Wer hier gewinnen will, zählt mit und merkt sich, welche Schellen noch draussen sind. Mit guten Bockkarten (höchste Karten einer Farbe) kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Spieler müssen verhindern, dass ein Gegner alle 9 Schellenkarten erzielt, da dies die anderen bestraft.
 
 **Häufige Fragen:**
 - **Wie spielt man Schellenjass?** Beim Schellenjass geht es darum, möglichst wenig Schellenkarten in den eigenen Stichen zu sammeln. Es wird ohne Trumpf gespielt. Zu viert erhält jeder 9 Karten, zu dritt je 12 Karten. Wer die meisten Schellenkarten hat, verliert.
-- **Was ist Schellenjass?** Schellenjass ist eine Vermeidungsvariante für 3 oder 4 Spieler. Es wird ohne Trumpf, Weis und Stöck gespielt. Ziel ist es, möglichst wenig Schellenkarten zu erhalten – oder gezielt alle 9 Schellen zu sammeln, um die anderen zu bestrafen.
-- **Wie zählt man beim Schellenjass?** Nach jedem Spiel wird die Anzahl der Schellenkarten pro Spieler notiert. Wer alle 9 Schellenkarten erzielt, belastet die anderen mit je 9 Punkten. Nach 12 Spielen verliert der Spieler mit den meisten Schellenkarten.
+- **Was ist Schellenjass?** Schellenjass ist eine Vermeidungsvariante für 3 oder 4 Spieler. Es wird ohne Trumpf, Weis und Stöck gespielt. Ziel ist es, möglichst wenig Schellenkarten zu erhalten, oder gezielt alle 9 Schellen zu sammeln, um die anderen zu bestrafen.
+- **Wie zählt man beim Schellenjass?** Nach jedem Spiel wird die Anzahl der Schellenkarten pro Spieler notiert. Wer alle 9 Schellenkarten macht, lässt den anderen je 9 Punkte notieren. Nach 12 Spielen verliert der Spieler mit den meisten Schellenkarten.
 - **Wie viele Karten erhält jeder Spieler beim Schellenjass?** Zu viert erhält jeder 9 Karten, zu dritt je 12 Karten. Alle Karten werden verteilt.
-- **Was ist ein Rampo beim Schellenjass?** Ein Rampo wird notiert, wenn zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten haben. Der Rampo muss in den nächsten Spielen durch weniger Schellenkarten abgearbeitet werden.
+- **Was ist ein Rampo beim Schellenjass?** Ein Rampo wird notiert, wenn zwei oder mehr Spieler die gleiche höchste Anzahl Schellenkarten haben. Der Rampo bleibt stehen, bis einer der Betroffenen im nächsten Spiel weniger Schellenkarten macht als die anderen.
 - **Welche Taktik ist beim Schellenjass wichtig?** Kartenzählen ist entscheidend. Mit guten Bockkarten kann man alle 9 Schellenkarten sammeln, auch ohne selbst Schellen zu haben. Man muss verhindern, dass ein Gegner alle 9 erzielt.
 
 *Keywords: schellenjass, kreuzjass, vermeidungsspiel, schellenkarten, ohne trumpf*
@@ -2706,7 +2712,7 @@ Nach vier Partien wird die Abrechnung vorgenommen. Gewinner ist der Spieler mit 
 **Kategorie:** Varianten > Einzelspiel
 
 Definition:
-Mittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe erst durch die erste Fehlfarbe bestimmt wird.
+Mittlere ist ein Spiel zu dritt. Jeder spielt für sich, und die Trumpffarbe steht erst fest, wenn einem Spieler die ausgespielte Farbe fehlt: diese Fehlfarbe wird Trumpf.
 
 Grundregeln:
 • Diese Jassart kann nur zu dritt gespielt werden
@@ -2716,7 +2722,7 @@ Grundregeln:
 Spielablauf:
 • Vorerst wird ein Obenabe gespielt, d.h. ohne Trumpffarbe
 • Die Kartenwerte zählen dabei jedoch wie bei einem Trumpfspiel
-• Wer im laufenden Stich eine oder mehrere Karten von der ausgespielten Farbe hat, muss diese spielen
+• Wer eine Karte der ausgespielten Farbe hat, muss sie spielen
 
 Trumpfbestimmung:
 • Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen
@@ -2735,11 +2741,11 @@ Besondere Regeln:
 • Ein Matschspiel  wird mit 2 Strichen belohnt
 
 **Häufige Fragen:**
-- **Wie spielt man Mittlere?** Mittlere ist ein spannendes Spiel zu dritt, bei dem die Trumpffarbe erst durch die erste Fehlfarbe bestimmt wird.
+- **Wie spielt man Mittlere?** Mittlere ist ein Spiel zu dritt. Jeder spielt für sich, und die Trumpffarbe steht erst fest, wenn einem Spieler die ausgespielte Farbe fehlt: diese Fehlfarbe wird Trumpf.
 - **Wie wird die Trumpffarbe beim Mittlere bestimmt?** Die Trumpffarbe wird durch die erste Fehlfarbe bestimmt: Wer keine Karte in der ausgespielten Farbe hat, kann die Trumpffarbe bestimmen.
 - **Wie viele Striche und Nuller werden pro Spiel verteilt?** Pro Spiel werden immer 2 Striche und 2 Nuller verteilt: Die beiden Spieler mit höchster und niedrigster Punktzahl erhalten je 1 Strich, der Spieler mit mittlerer Punktzahl erhält 2 Nuller.
 - **Was passiert, wenn alle Spieler in allen 12 Stichen farben können?** Kann keine Trumpffarbe bestimmt werden, wird das Spiel annulliert.
-- **Wie viele Punkte brauche ich, um 2 Nuller zu erhalten?** Wer 100 und mehr Kartenpunkte erreicht, muss sich 2 Nuller notieren lassen, oder wer keinen Stich erzielt, erhält ebenfalls 2 Nuller.
+- **Wann bekommt man 2 Nuller?** Wer 100 oder mehr Kartenpunkte holt, bekommt 2 Nuller. Ebenso, wer keinen einzigen Stich macht.
 
 *Keywords: mittlere, drei spieler, trumpfbestimmung, fehlfarbe, obenabe*
 
@@ -2842,12 +2848,12 @@ Kartenspiel und Geben:
 • Der Kartengeber legt die gemischten Karten verdeckt als Stapel auf den Tisch und lässt sie vom links sitzenden Spieler abheben
 
 Schlecken:
-• Dieser kann bis zu fünf Karten des Ablupfs  «schlecken», das heisst, die jeweils unterste Karte des Stapels einsehen, und falls sie wertvoll ist, für sich behalten
+• Der Spieler links vom Kartengeber kann bis zu fünf Karten des Ablupfs  «schlecken», das heisst, die jeweils unterste Karte des Stapels einsehen, und falls sie wertvoll ist, für sich behalten
 • «Schleckt» er keine Karte, kann der Kartengeber mit dem gleichen Ablupf bis zu fünf Karten «schlecken»
 
 Stechwerte:
 • Die höchste Karte ist stets das Trumpf-Ass
-• Danach folgen die «Bellis» (die Siebener von Schellen, Schilten, Rosen, Eichel)
+• Danach folgen die «Bellis» (die Siebner von Schellen, Schilten, Rosen, Eichel)
 • Anschliessend folgen König, Ober (Dame), Under  (Bauer ), Banner (Zehner) und Neuner der jeweiligen Trumpffarbe
 
 Trumpfwahl durch Schieben:
@@ -2856,7 +2862,7 @@ Trumpfwahl durch Schieben:
 • Ist er nicht zufrieden, kann er die nächste Karte aufdecken
 • Hat er keine Aussicht auf mindestens einen Stich , schiebt er den Stock weiter
 • Wer eine Karte aufdeckt und damit die Trumpffarbe bestimmt, muss mitspielen
-• Verzichten alle Mitspieler auf eine Spielteilnahme, erhält der Spieler, der den Trumpf aufgedeckt hat, fünf Striche gutgeschrieben
+• Spielt niemand mit, erhält fünf Striche, wer den Trumpf aufgedeckt hat
 
 Bewertung:
 • Für jeden Stich wird ein Strich notiert
@@ -2867,10 +2873,10 @@ Gewonnen hat, wer zuerst 16 Striche «erzwickt» und sämtliche «Vögel» abver
 
 **Häufige Fragen:**
 - **Was bedeutet «Schlecken» beim Zwick-Jass?** «Schlecken» bedeutet, bis zu fünf Karten des Ablupfs einzusehen (die jeweils unterste Karte des Stapels) und falls sie wertvoll ist, für sich zu behalten.
-- **Was sind «Bellis» beim Zwick-Jass?** Die «Bellis» sind die Siebener von Schellen, Schilten, Rosen und Eichel. Sie sind die zweithöchsten Stechkarten (nach dem Trumpf-Ass).
-- **Was ist ein «Vogel» beim Zwick-Jass?** Ein «Vogel» sind fünf Nuller. Wer mitspielt, aber keinen Stich erzielt, erhält einen «Vogel».
+- **Was sind «Bellis» beim Zwick-Jass?** Die «Bellis» sind die Siebner von Schellen, Schilten, Rosen und Eichel. Sie sind die zweithöchsten Stechkarten (nach dem Trumpf-Ass).
+- **Was ist ein «Vogel» beim Zwick-Jass?** Ein «Vogel» kostet fünf Nuller. Den bekommt, wer mitspielt und keinen Stich macht.
 - **Wie viele Striche brauche ich zum Sieg beim Zwick-Jass?** Gewonnen hat, wer zuerst 16 Striche «erzwickt» und sämtliche «Vögel» abverdient hat.
-- **Was passiert, wenn alle Mitspieler verzichten?** Verzichten alle Mitspieler auf eine Spielteilnahme, erhält der Spieler, der den Trumpf aufgedeckt hat, fünf Striche gutgeschrieben.
+- **Was passiert, wenn alle Mitspieler verzichten?** Spielt niemand mit, erhält fünf Striche, wer den Trumpf aufgedeckt hat.
 
 *Keywords: zwick jass, schlecken, bellis, vogel, gesellig*
 

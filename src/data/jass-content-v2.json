@@ -3351,7 +3351,7 @@
       },
       {
         "question": "Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?",
-        "answer": "Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert."
+        "answer": "Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert."
       }
     ],
     "see_also": [
@@ -3976,7 +3976,7 @@
   },
   "general_dealing": {
     "id": "general_dealing",
-    "text": "**Grundregeln der Kartenverteilung:**\n\nBeim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte bekommt.\n\n**Schweizer Besonderheit:**\n• Die Karten werden im **Gegenuhrzeigersinn** verteilt, also nach rechts\n• Am Tisch heisst das «immer der Ohrfeige nach»\n\n**Verteilung:**\n• Jeder Spieler erhält 9 Karten\n• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)\n• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)\n• Nach dem Verteilen können die Karten aufgenommen werden\n\n**Wer was macht:**\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler rechts vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
+    "text": "**Grundregeln der Kartenverteilung:**\n\nBeim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte bekommt.\n\n**Schweizer Besonderheit:**\n• Die Karten werden im **Gegenuhrzeigersinn** verteilt, also nach rechts\n• Am Tisch heisst das «immer der Ohrfeige nach»\n\n**Verteilung:**\n• Jeder Spieler erhält 9 Karten\n• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)\n• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)\n• Nach dem Verteilen können die Karten aufgenommen werden\n\n**Wer was macht:**\n• Der Kartengeber mischt (siehe Begriff \"mischen\") und gibt die Karten\n• Der Spieler links vom Kartengeber kann beim Abheben (siehe Begriff \"abheben\") die Karten teilen",
     "metadata": {
       "id": "general_dealing_meta",
       "category": {
@@ -4008,7 +4008,7 @@
     "faqs": [
       {
         "question": "Wie werden die Karten beim Jassen verteilt?",
-        "answer": "Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler rechts von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei."
+        "answer": "Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler links von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei."
       },
       {
         "question": "Wie viele Karten erhält jeder Spieler beim Jassen?",
@@ -4028,7 +4028,7 @@
       },
       {
         "question": "Wer darf die Karten abheben?",
-        "answer": "Der Spieler rechts vom Kartengeber kann die Karten abheben (teilen)."
+        "answer": "Der Spieler links vom Kartengeber kann die Karten abheben (teilen)."
       }
     ],
     "see_also": [
@@ -4174,7 +4174,7 @@
   },
   "general_dealing_special": {
     "id": "general_dealing_special",
-    "text": "Sonderregeln bei der Kartenverteilung:\n• Abheben (siehe Begriff \"abheben\"): Spieler rechts vom Kartengeber kann Karten teilen\n• Vorspielen (siehe Begriff \"vorspielen\"): Spezielle Regel für erstes Ausspiel\n• Schieber: Besondere Regeln beim Schieben des Trumpfs (siehe Begriff \"bodentrumpf\")\n• Von Gegend zu Gegend wird unterschiedlich gegeben",
+    "text": "Sonderregeln bei der Kartenverteilung:\n• Abheben (siehe Begriff \"abheben\"): Der Spieler links vom Kartengeber kann die Karten teilen\n• Vorspielen (siehe Begriff \"vorspielen\"): Spezielle Regel für erstes Ausspiel\n• Schieber: Besondere Regeln beim Schieben des Trumpfs (siehe Begriff \"bodentrumpf\")\n• Von Gegend zu Gegend wird unterschiedlich gegeben",
     "metadata": {
       "id": "general_dealing_special_meta",
       "category": {
@@ -4207,7 +4207,7 @@
       },
       {
         "question": "Was bedeutet Abheben beim Jassen?",
-        "answer": "Abheben bedeutet, dass der Spieler rechts vom Kartengeber die Karten teilen kann, bevor sie verteilt werden."
+        "answer": "Abheben bedeutet, dass der Spieler links vom Kartengeber die Karten teilen kann, bevor sie verteilt werden."
       }
     ],
     "see_also": [
@@ -6433,10 +6433,6 @@
       "dateModified": "2026-02-02"
     },
     "faqs": [
-      {
-        "question": "Was passiert mit einem Stich, den niemand kehrt?",
-        "answer": "Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden."
-      },
       {
         "question": "Was sind liegengelassene Stiche?",
         "answer": "Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden."

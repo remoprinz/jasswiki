@@ -60,7 +60,7 @@ Definition:
 • Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker).
 
 Beispiel:
-• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe – also Schellen – ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
+• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe, also Schellen, ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
 
 Wichtig:
 • Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
@@ -78,7 +78,7 @@ Wichtig:
 
 **Kategorie:** Taktiken und Strategien > Punktetaktiken
 
-Gerade beim Schieber, wo auf [Striche](/begriffe/punktebegriffe/strich/) gespielt wird, also Zielpunkte für [Berg](/regeln/bergpreis/), Sieg und [Schneider](/regeln/punktezaehlung/schneider/) vorgegeben sind, ist es essenziell, die Punkte im Blick zu haben.
+Gerade beim Schieber, wo auf [Striche](/begriffe/punktebegriffe/strich/) gespielt wird, also Zielpunkte für [Berg](/regeln/bergpreis/), Sieg und [Schneider](/regeln/punktezaehlung/schneider/) vorgegeben sind, muss man den Punktestand mitverfolgen.
 
 Das gilt vor allem dann, wenn Multiplikatoren im Spiel sind. Einer der häufigsten Fehler ist es, nur auf das eigene Blatt zu schauen und entsprechend anzusagen.
 
@@ -88,7 +88,7 @@ Das gilt vor allem dann, wenn Multiplikatoren im Spiel sind. Einer der häufigst
 
 Es wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagende Team A hat 2'000 Punkte, die Gegner von Team B 2'200. Team A erreicht mit 100 × 4 bei einem Undenufe 2'400 Punkte. Aber Team B kommt mit 57 × 4 auf 2'428 Punkte. Das ist der fast sichere Sieg.
 
-**Fazit:** Ein Undenufe in dieser Situation anzusagen, ist nur gerechtfertigt, wenn die 125 Punkte zum Sieg realistisch sind. Sonst wäre eine Ansage mit tiefem Multiplikator besser gewesen, um eine Runde zu überleben und das Ziel beim nächsten Mal, mit mehr Punkten auf dem Konto, zu erreichen.
+**Fazit:** Ein Undenufe in dieser Situation anzusagen, lohnt sich nur, wenn die 125 Punkte zum Sieg realistisch sind. Sonst wäre eine Ansage mit tiefem Multiplikator besser gewesen, um eine Runde zu überleben und das Ziel beim nächsten Mal, mit mehr Punkten auf dem Konto, zu erreichen.
 
 **Häufige Fragen:**
 - **Soll man beim Jassen immer auf möglichst viele Punkte spielen?** Nein. Gerade bei hohen Multiplikatoren bringt es nichts, viele Punkte zu machen, wenn man seinen Zielpunkt nicht erreicht und dem Gegner damit den Sieg ermöglicht.
@@ -139,7 +139,7 @@ Manche Jasser **verwerfen quer**, wenn sie [am Drücker](/begriffe/grundbegriffe
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest dieselben Zeichen aus dem Spiel des Partners zurück.
+In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest umgekehrt aus den Karten des Partners, was der hält.
 
 Bei fortgeschrittenen Spielern gelten folgende Konventionen:
 
@@ -151,7 +151,7 @@ Mehr dazu unter Nell vor Puur.
 
 ## Anzeigen, wie viele Trümpfe man hält
 
-Der Partner des Vorhand-Spielers verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst Hoch-Tief.
+Der Partner der Vorhand verrät mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst Hoch-Tief.
 
 - **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.
 - **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.
@@ -160,9 +160,9 @@ Das Nell und der Puur sind davon ausgenommen.
 
 **Wieso ist das wichtig?**
 
-Nichts verhindert mehr Matsche als zu viel Austrumpfen. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.
+Zu viel Austrumpfen kostet die meisten Matsche. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.
 
-Ein häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Vorhand-Spieler kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.
+Ein häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Die Vorhand kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn sie die tiefste Karte gesehen hat.
 
 Wichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.
 
@@ -170,11 +170,11 @@ Wichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. 
 
 ## Der blutte Puur
 
-Hält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss seinem Partner aber kommunizieren, dass er ihn in der Hand hält. Das macht er, indem er ein Brättli spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.
+Hält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss ihn dem Partner aber anzeigen. Das macht er, indem er ein Brättli spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.
 
 **Wieso ist das wichtig?**
 
-Da für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn das dem Trumpfansager mit einem Brättli kommuniziert wurde.
+Da für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn der Trumpfansager das Brättli gesehen hat.
 
 ## Nachschmeissen
 
@@ -188,11 +188,11 @@ Mehr dazu unter Nachschmeissen.
 
 ## Verwerfen beim Slalom
 
-Beim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst, er möchte tief übergeben bekommen, eine hohe Karte heisst hoch.
+Beim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst: unten übergeben. Eine hohe Karte: oben übergeben.
 
 **Wieso ist das wichtig?**
 
-Beim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Dass tief für tief steht, hat einen praktischen Grund: So merkt man es sich, genau so, wie die Karte gespielt wurde. Mit der verworfenen Farbe macht man ohnehin keinen Stich. Kein Grund also, umgekehrt zu denken.
+Beim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Die Karte zeigt, was sie meint: tief heisst unten, hoch heisst oben. Mit der verworfenen Farbe macht man ohnehin keinen Stich.
 
 Die Einzelheiten stehen unter Verwerfen beim Slalom.
 
@@ -200,7 +200,7 @@ Die Einzelheiten stehen unter Verwerfen beim Slalom.
 - **Was bedeutet Nell vor Puur?** Wer Puur und Nell hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann, dass der Nell-Spieler auch den Puur hat.
 - **Wie zeigt man dem Partner, wie viele Trümpfe man hält?** Über die Reihenfolge: Mit genau zwei Trümpfen spielt man zuerst den höheren, mit drei oder mehr zuerst den tiefsten. Das Nell und der Puur sind davon ausgenommen.
 - **Was ist Nachschmeissen?** Bei Obenabe, Undenufe, Quer, Slalom und Trio wirft der Partner im ersten Stich auf ein Ass den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ausspieler seine Wand durchspielen kann.
-- **Wie verwirft man beim Slalom?** Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst tief, eine hohe Karte heisst hoch.
+- **Wie verwirft man beim Slalom?** Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst unten, eine hohe Karte heisst oben.
 - **Wie signalisiert man den blutten Puur?** Man spielt den blutten Puur meist nicht, signalisiert ihn aber mit einem Brättli (Sechser bis Neuner). Ohne Trumpf spielt man kein Brättli.
 
 *Keywords: jass-taktik, schieber taktik, taktiken beim jassen, partner signale, nell vor puur*
@@ -212,10 +212,10 @@ Die Einzelheiten stehen unter Verwerfen beim Slalom.
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
 Definition:
-Nell vor Puur ist eine Signalkonvention beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell die Neun der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.
+Nell vor Puur ist ein festes Zeichen unter Partnern beim Schieber. Der Puur ist der Under der Trumpffarbe und die höchste Karte im Spiel, das Nell der Neuner der Trumpffarbe und die zweithöchste. Hält die Vorhand beide zugleich auf der Hand, spielt sie im ersten Stich zuerst das Nell.
 
 Die Aussage:
-Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner liest daraus eine feste Information.
+Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet darum nie mit dem Nell, sondern beginnt mit einer anderen, meist hohen Trumpfkarte. Der Partner weiss damit sicher, wo der Puur liegt.
 
 Wieso ist das wichtig?
 So entstehen keine Überraschungen. Entscheidet das Team nach einmaligem Austrumpfen, nicht noch einmal nachzuziehen, kann der Partner sicher sein, dass der Puur nicht beim Gegner liegt.
@@ -335,8 +335,8 @@ Die zuerst gespielte Karte muss **zwingend die tiefste** sein. Die zweite Karte 
 **Häufige Fragen:**
 - **Wie wendet man Hoch - tief / Tief - hoch - tief beim Jassen an?** Der Partner des Trumpf-Ansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält: bei genau zwei Trümpfen spielt er im ersten Stich zuerst die hohe Karte, bei drei oder mehr Trümpfen zuerst den tiefsten Trumpf. Puur und Nell sind von dieser Konvention ausgenommen.
 - **Wann spielt man hoch und wann tief?** Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen.
-- **Ich habe zwei Trumpfkarten – spiele ich zuerst die hohe oder die tiefe?** Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen.
-- **Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?** Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien – der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann.
+- **Ich habe zwei Trumpfkarten, spiele ich zuerst die hohe oder die tiefe?** Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen.
+- **Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?** Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien, der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann.
 - **Was bringt es, tief zu spielen?** Wer tief spielt, behält die hohen Karten für später und lässt dem Partner den Stich.
 - **Gilt Hoch–tief immer?** Ja. Der Partner des Trumpfansagers spielt im ersten Trumpfstich nach dieser Regel. Puur und Nell bleiben aussen vor.
 
