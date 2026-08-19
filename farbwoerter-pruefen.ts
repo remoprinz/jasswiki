@@ -14,6 +14,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { farbwoerterFr, PRUEFWOERTER } from './src/components/wissen/farbwoerter';
+import { tischInhaltLesen } from './src/components/wissen/tischMarke';
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 
@@ -82,6 +83,11 @@ const FAELLE: ReadonlyArray<readonly [string, string]> = [
   ['Damit ist Schellen Trumpf.', 'Damit ist Ecke Trumpf.'],
   ['Mit Rosen als Trumpf', 'Mit Herz als Trumpf'],
   ['Vier Schellen mit Under, Ass, König und Banner', 'Vier Ecken mit Bube, Ass, König und Zehn'],
+  // Jasstisch (19.08.2026): Slugs und Sitzwörter bleiben, sichtbarer Text wechselt.
+  [
+    '[[tisch: trumpf eichel | ich eichel-9 | partner eichel-under | Der Partner legt den Under]]',
+    '[[tisch: trumpf eichel | ich eichel-9 | partner eichel-under | Der Partner legt den Buben]]',
+  ],
 ];
 
 let fehler = 0;
@@ -104,6 +110,12 @@ function nurSichtbar(text: string): string {
     .replace(/\[\[\s*karten\s*:([^\]\n|]*)(\|[^\]\n]*)?\]\]/gi, (_m, _slugs: string, besch?: string) =>
       besch ? besch.slice(1) : ''
     )
+    // Am Jasstisch sind allein Beschriftung und die Bemerkungen an den Plätzen
+    // sichtbar; Slugs, Sitzwörter und Schlüssel bleiben aussen vor.
+    .replace(/\[\[\s*tisch\s*:([^\]\n]*)\]\]/gi, (_m, inneres: string) => {
+      const t = tischInhaltLesen(inneres);
+      return [t.beschriftung ?? '', ...t.sitze.map((s) => s.notiz ?? '')].join(' ');
+    })
     .replace(/\(siehe Begriff\s+"[^"]+"\)/gi, '')
     .replace(/\]\([^)\s]+\)/g, ']()');
 }

@@ -187,3 +187,43 @@ export const ALL_CARDS: KartenSuchItem[] = KARTENSYSTEME.flatMap((sys) =>
     }))
   )
 );
+
+// ---------------------------------------------------------------------------
+// Farbe eines Slugs — Grundlage des Jasstischs [[tisch: …]]:
+// Trumpfzeichen in der Mitte und die Frage, ob eine Karte gefarbt, gestochen
+// oder verworfen wurde. Der Code (E/R/S/L) gilt in beiden Kartensystemen.
+// ---------------------------------------------------------------------------
+
+export type FarbCode = JassFarbe['code'];
+
+export interface FarbAnzeige {
+  code: FarbCode;
+  /** Farbwort im gewählten System, z. B. 'Eichel' oder 'Kreuz'. */
+  name: string;
+  /** Zeichen aus dem Pictogramm-Set, z. B. '/suits/eichel.png'. */
+  bild: string;
+}
+
+const FARB_ANZEIGE = new Map<string, FarbAnzeige>();
+[
+  { system: 'de' as System, suits: SUITS_DE },
+  { system: 'fr' as System, suits: SUITS_FR },
+].forEach(({ system, suits }) =>
+  suits.forEach((suit) =>
+    FARB_ANZEIGE.set(`${system}:${suit.code}`, {
+      code: suit.code,
+      name: suit.name,
+      bild: `/suits/${suit.file}.png`,
+    })
+  )
+);
+
+/** Farbcode zu einem Karten-Slug; unbekannter Slug → null. */
+export function farbCodeAusSlug(slug: string): FarbCode | null {
+  return ORT_JE_SLUG.get(slug.trim().toLowerCase())?.code ?? null;
+}
+
+/** Farbwort und Zeichen im gewählten Kartensystem. */
+export function farbAnzeige(code: FarbCode, system: System): FarbAnzeige | null {
+  return FARB_ANZEIGE.get(`${system}:${code}`) ?? null;
+}

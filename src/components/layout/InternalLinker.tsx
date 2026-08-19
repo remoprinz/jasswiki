@@ -6,6 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import { ArtikelTabelle } from '@/components/wissen/ArtikelTabelle';
 import { JassKartenReihe } from '@/components/wissen/JassKartenReihe';
+import { JassTisch } from '@/components/wissen/JassTisch';
 import { textInStuecke } from '@/components/wissen/kartenMarke';
 import { verweiseZuLinks } from '@/components/wissen/verweise';
 import { farbwoerterFr } from '@/components/wissen/farbwoerter';
@@ -163,11 +164,21 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
   const stuecke = useMemo(() => {
     const roh = textInStuecke(text);
     if (!wechseln) return roh;
-    return roh.map((s) =>
-      s.art === 'text'
-        ? { ...s, text: farbwoerterFr(s.text) }
-        : { ...s, beschriftung: s.beschriftung ? farbwoerterFr(s.beschriftung) : s.beschriftung }
-    );
+    return roh.map((s) => {
+      if (s.art === 'text') return { ...s, text: farbwoerterFr(s.text) };
+      const beschriftung = s.beschriftung ? farbwoerterFr(s.beschriftung) : s.beschriftung;
+      if (s.art !== 'tisch') return { ...s, beschriftung };
+      // Am Tisch wechseln auch die Bemerkungen an den Plätzen — sie sind
+      // sichtbarer Text; die Karten-Slugs bleiben, wie sie geschrieben stehen.
+      return {
+        ...s,
+        beschriftung,
+        titel: s.titel ? farbwoerterFr(s.titel) : s.titel,
+        sitze: s.sitze.map((sitz) =>
+          sitz.notiz ? { ...sitz, notiz: farbwoerterFr(sitz.notiz) } : sitz
+        ),
+      };
+    });
   }, [text, wechseln]);
 
   if (stuecke.length === 1 && stuecke[0].art === 'text') {
@@ -180,18 +191,31 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
 
   return (
     <>
-      {stuecke.map((stueck, i) =>
-        stueck.art === 'text' ? (
-          <MarkdownStueck key={`t${i}`} text={stueck.text} />
-        ) : (
+      {stuecke.map((stueck, i) => {
+        if (stueck.art === 'text') return <MarkdownStueck key={`t${i}`} text={stueck.text} />;
+        if (stueck.art === 'tisch')
+          return (
+            <JassTisch
+              key={`s${i}`}
+              sitze={stueck.sitze}
+              trumpf={stueck.trumpf}
+              sicht={stueck.sicht}
+              titel={stueck.titel}
+              zug={stueck.zug}
+              blatt={stueck.blatt}
+              beschriftung={stueck.beschriftung}
+              mitWahl={i === ersteReihe}
+            />
+          );
+        return (
           <JassKartenReihe
             key={`k${i}`}
             slugs={stueck.slugs}
             beschriftung={stueck.beschriftung}
             mitWahl={i === ersteReihe}
           />
-        )
-      )}
+        );
+      })}
     </>
   );
 };

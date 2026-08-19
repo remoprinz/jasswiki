@@ -11,9 +11,13 @@
 // kostet also die Abbildung, niemals den Artikel.
 
 import { istKartenSlug } from './jasskarten';
+import { tischInhaltLesen, type TischInhalt } from './tischMarke';
 
 /** Erkennt die Marke im Text. Erlaubt Leerzeichen und Gross-/Kleinschreibung. */
 export const KARTEN_MARKE = /\[\[\s*karten\s*:([^\]\n]*?)\]\]/gi;
+
+/** Der Jasstisch [[tisch: …]] — vier Plätze statt einer Reihe. */
+export const TISCH_MARKE = /\[\[\s*tisch\s*:([^\]\n]*?)\]\]/gi;
 
 /**
  * Erkennt jede Marken-artige Klammer mit Doppelpunkt, also auch verschriebene
@@ -67,7 +71,10 @@ export interface KartenStueck {
   slugs: string[];
   beschriftung?: string;
 }
-export type Stueck = TextStueck | KartenStueck;
+export interface TischStueck extends TischInhalt {
+  art: 'tisch';
+}
+export type Stueck = TextStueck | KartenStueck | TischStueck;
 
 /**
  * Zerlegt einen Artikeltext in Textstücke und Kartenreihen.
@@ -86,6 +93,21 @@ export function textInStuecke(text: string): Stueck[] {
   while ((treffer = MARKEN_KLAMMER.exec(text)) !== null) {
     const davor = text.slice(zeiger, treffer.index);
     if (davor.trim()) stuecke.push({ art: 'text', text: davor });
+
+    // Jasstisch zuerst: eine Tisch-Marke ist nie zugleich eine Kartenreihe.
+    TISCH_MARKE.lastIndex = 0;
+    const tischTreffer = TISCH_MARKE.exec(treffer[0]);
+    if (tischTreffer) {
+      const tisch = tischInhaltLesen(tischTreffer[1] ?? '');
+      if (tisch.sitze.length > 0 || tisch.blatt.length > 0) {
+        stuecke.push({ art: 'tisch', ...tisch });
+      } else if (process.env.NODE_ENV !== 'production') {
+        // eslint-disable-next-line no-console
+        console.warn('[Tisch-Marke] kein Platz und kein Blatt in:', treffer[0]);
+      }
+      zeiger = treffer.index + treffer[0].length;
+      continue;
+    }
 
     KARTEN_MARKE.lastIndex = 0;
     const kartenTreffer = KARTEN_MARKE.exec(treffer[0]);
