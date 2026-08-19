@@ -3,7 +3,7 @@ title: "JassWiki.ch - Taktiken & Strategien"
 description: "Fortgeschrittene Spieltaktiken für erfahrene Jasser"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 10
+entries_count: 11
 last_updated: 2026-08-19
 format: "markdown"
 encoding: "utf-8"
@@ -15,6 +15,22 @@ encoding: "utf-8"
 
 **Dieses Modul ist Teil der modularen JassWiki-Wissensbasis.**
 Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
+
+---
+
+## Inhaltsverzeichnis
+
+- [Anziehen](#schieber_taktiken_anziehen)
+- [Nachschmeissen](#expressions_nachschmeissen)
+- [Punktetaktiken](#schieber_taktiken_scoring)
+- [Verwerfen](#schieber_taktiken_verwerfen)
+- [Kommunikation & Signale](#schieber_taktiken_advanced)
+- [Austrumpfen](#schieber_taktiken_austrumpfen)
+- [Nell vor Puur](#schieber_taktiken_nell_vor_puur)
+- [Querverwerfen](#schieber_taktiken_querverwerfen)
+- [Verwerfen bei Quer](#schieber_taktiken_verwerfen_quer)
+- [Verwerfen beim Slalom](#schieber_taktiken_verwerfen_slalom)
+- [Austrumpfen: hoch oder tief](#schieber_taktiken_hoch_tief)
 
 ---
 
@@ -204,6 +220,59 @@ Die Einzelheiten stehen unter Verwerfen beim Slalom.
 - **Wie signalisiert man den blutten Puur?** Man spielt den blutten Puur meist nicht, signalisiert ihn aber mit einem Brättli (Sechser bis Neuner). Ohne Trumpf spielt man kein Brättli.
 
 *Keywords: jass-taktik, schieber taktik, taktiken beim jassen, partner signale, nell vor puur*
+
+---
+
+### Austrumpfen {#schieber_taktiken_austrumpfen}
+
+**Kategorie:** Taktiken und Strategien > Austrumpfen
+
+Austrumpfen heisst, Trumpf auszuspielen, bis die Gegner keinen Trumpf mehr halten. Es ist die erste Arbeit des Trumpfansagers, und sie entscheidet, ob seine Böcke später Stiche machen.
+
+## Was Austrumpfen bringt
+
+Ein Bock ist eine Karte, die den Stich macht, sobald ihre Farbe gespielt wird. Solange ein Gegner noch einen Trumpf hält, steht dieser Bock auf wackligen Beinen: Der Gegner farbt einmal, und beim zweiten Mal sticht er ab.
+
+
+Darum kommt der Trumpf zuerst. Jeder Trumpf, den ein Gegner spielen muss, kann später keinen Bock mehr abstechen.
+
+## Wer austrumpft
+
+Der Trumpfansager und sein Partner. Sie haben die Farbe angesagt, weil sie darin stark sind, und sie sind das Team, das seine Böcke durchbringen will.
+
+Spielt ein Gegner einen hohen Trumpf aus, ist das etwas anderes: Er spielt damit seinen sichersten Stich, weil ihm die Trumpffarbe gerade den Bock stellt.
+
+## Wann
+
+In den ersten Stichen. Wer den Stich macht, spielt gleich wieder Trumpf, solange die Rechnung offen ist. Ab dem vierten Stich geht es um Böcke und Punkte.
+
+## Wie oft: zweimal
+
+Neun Trümpfe gibt es. Farben alle, so sind nach zwei Runden acht davon gespielt, und der neunte liegt bei irgendjemandem. Daher die Faustregel: **zweimal austrumpfen.**
+
+
+Ein drittes Mal kostet oft den Matsch, weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende steht man mit dem letzten Trumpf allein da, und die Böcke des Partners fallen den Gegnern in die Hände.
+
+## Womit anfangen
+
+Mit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Nell-vor-Puur. Sie kostet einen hohen Trumpf und sagt dem Partner dafür, wo der Puur liegt.
+
+## Wann aufhören
+
+Das sagt der Partner. Mit der Reihenfolge seiner Trümpfe zeigt er im ersten Trumpfstich, wie viele er hält, und daraus rechnet der Ansager, ob noch einer bei den Gegnern liegt. Diese Konvention heisst Hoch-tief.
+
+Bleibt die Rechnung offen, gilt am Tisch die einfache Regel: Liegt der letzte Trumpf eher beim Partner, ist Schluss. Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch.
+
+**Häufige Fragen:**
+- **Was heisst austrumpfen beim Jassen?** Trumpf ausspielen, bis die Gegner keinen Trumpf mehr halten. Das macht das Team des Trumpfansagers, damit seine Böcke in den Nebenfarben später den Stich machen.
+- **Wie oft soll man austrumpfen?** Die Faustregel lautet zweimal. Neun Trümpfe gibt es, nach zwei Runden sind acht davon gespielt, wenn alle farben.
+- **Wer trumpft aus?** Der Trumpfansager und sein Partner. Spielt ein Gegner einen hohen Trumpf aus, spielt er damit seinen sichersten Stich.
+- **Womit trumpft man aus?** Mit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Nell vor Puur: Sie kostet einen hohen Trumpf und zeigt dem Partner dafür, wo der Puur liegt.
+- **Wann hört man mit dem Austrumpfen auf?** Sobald die übrigen Trümpfe beim eigenen Partner liegen. Das zeigt er mit der Reihenfolge seiner Trümpfe im ersten Trumpfstich, nach der Konvention Hoch-tief.
+- **Warum kostet zu langes Austrumpfen den Matsch?** Weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende hält der Ansager den letzten Trumpf allein, und die Böcke des Partners gehen an die Gegner.
+- **Was ist wichtiger, ein Trumpf beim Gegner oder ein Trumpf beim Partner?** Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch. Bleibt die Rechnung offen, hört man daher lieber auf.
+
+*Keywords: austrumpfen, trumpf ausspielen, ausgetrumpft, bock, matsch*
 
 ---
 

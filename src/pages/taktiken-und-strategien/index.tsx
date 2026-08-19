@@ -123,6 +123,12 @@ const TaktikenStrategienPage: NextPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[12px] sm:gap-[16px]">
               {[
                 {
+                  slug: 'austrumpfen',
+                  name: 'Austrumpfen',
+                  desc: 'Die erste Arbeit des Trumpfansagers: warum er Trumpf spielt, wie oft, und woran er merkt, dass Schluss ist.',
+                  label: 'Grundlagen-Artikel',
+                },
+                {
                   slug: 'kommunikation-signale',
                   name: 'Kommunikation & Signale',
                   desc: 'Wie sich Partner über die Wahl und Reihenfolge ihrer Karten verständigen, ganz ohne Worte.',

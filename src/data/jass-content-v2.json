@@ -12645,5 +12645,75 @@
       "kontermatsch",
       "regeln_tischregel"
     ]
+  },
+  "schieber_taktiken_austrumpfen": {
+    "id": "schieber_taktiken_austrumpfen",
+    "text": "Austrumpfen heisst, Trumpf auszuspielen, bis die Gegner keinen Trumpf mehr halten. Es ist die erste Arbeit des Trumpfansagers, und sie entscheidet, ob seine Böcke später Stiche machen.\n\n## Was Austrumpfen bringt\n\nEin Bock (siehe Begriff \"expressions_bock\") ist eine Karte, die den Stich macht, sobald ihre Farbe gespielt wird. Solange ein Gegner noch einen Trumpf hält, steht dieser Bock auf wackligen Beinen: Der Gegner farbt einmal, und beim zweiten Mal sticht er ab.\n\n[[karten: rosen-ass, schellen-ass | Zwei Böcke in Nebenfarben. Sie machen den Stich, sobald die Gegner ausgetrumpft sind]]\n\nDarum kommt der Trumpf zuerst. Jeder Trumpf, den ein Gegner spielen muss, kann später keinen Bock mehr abstechen.\n\n## Wer austrumpft\n\nDer Trumpfansager und sein Partner. Sie haben die Farbe angesagt, weil sie darin stark sind, und sie sind das Team, das seine Böcke durchbringen will.\n\nSpielt ein Gegner einen hohen Trumpf aus, ist das etwas anderes: Er spielt damit seinen sichersten Stich, weil ihm die Trumpffarbe gerade den Bock stellt.\n\n## Wann\n\nIn den ersten Stichen. Wer den Stich macht, spielt gleich wieder Trumpf, solange die Rechnung offen ist. Ab dem vierten Stich geht es um Böcke und Punkte.\n\n## Wie oft: zweimal\n\nNeun Trümpfe gibt es. Farben alle, so sind nach zwei Runden acht davon gespielt, und der neunte liegt bei irgendjemandem. Daher die Faustregel: **zweimal austrumpfen.**\n\n[[karten: eichel-under, eichel-9, eichel-koenig, eichel-7 | Vier Trümpfe in der Hand des Ansagers. Nach zwei Runden sind acht der neun Trümpfe gespielt]]\n\nEin drittes Mal kostet oft den Matsch (siehe Begriff \"expressions_matsch\"), weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende steht man mit dem letzten Trumpf allein da, und die Böcke des Partners fallen den Gegnern in die Hände.\n\n## Womit anfangen\n\nMit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Nell-vor-Puur (siehe Begriff \"schieber_taktiken_nell_vor_puur\"). Sie kostet einen hohen Trumpf und sagt dem Partner dafür, wo der Puur liegt.\n\n## Wann aufhören\n\nDas sagt der Partner. Mit der Reihenfolge seiner Trümpfe zeigt er im ersten Trumpfstich, wie viele er hält, und daraus rechnet der Ansager, ob noch einer bei den Gegnern liegt. Diese Konvention heisst Hoch-tief (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\nBleibt die Rechnung offen, gilt am Tisch die einfache Regel: Liegt der letzte Trumpf eher beim Partner, ist Schluss. Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch.",
+    "metadata": {
+      "id": "schieber_taktiken_austrumpfen_meta",
+      "category": {
+        "main": "Taktiken und Strategien",
+        "sub": "Austrumpfen",
+        "topic": "Austrumpfen"
+      },
+      "keywords": [
+        "austrumpfen",
+        "trumpf ausspielen",
+        "ausgetrumpft",
+        "bock",
+        "matsch",
+        "schieber taktik",
+        "trumpfansager",
+        "zweimal austrumpfen"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 0.9,
+      "difficulty": 2,
+      "taxonomy_tier": 2,
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-08-20",
+      "seoTitle": "Austrumpfen beim Jassen: wie oft und wann aufhören?",
+      "seoDescription": "Der Trumpfansager zieht die Trümpfe, damit seine Böcke Stiche machen. Warum, wie oft, womit man anfängt und woran man merkt, dass Schluss ist.",
+      "farbwechsel": true
+    },
+    "see_also": [
+      "schieber_taktiken_hoch_tief",
+      "schieber_taktiken_nell_vor_puur",
+      "expressions_bock",
+      "expressions_matsch"
+    ],
+    "synonyms": null,
+    "faqs": [
+      {
+        "question": "Was heisst austrumpfen beim Jassen?",
+        "answer": "Trumpf ausspielen, bis die Gegner keinen Trumpf mehr halten. Das macht das Team des Trumpfansagers, damit seine Böcke in den Nebenfarben später den Stich machen."
+      },
+      {
+        "question": "Wie oft soll man austrumpfen?",
+        "answer": "Die Faustregel lautet zweimal. Neun Trümpfe gibt es, nach zwei Runden sind acht davon gespielt, wenn alle farben."
+      },
+      {
+        "question": "Wer trumpft aus?",
+        "answer": "Der Trumpfansager und sein Partner. Spielt ein Gegner einen hohen Trumpf aus, spielt er damit seinen sichersten Stich."
+      },
+      {
+        "question": "Womit trumpft man aus?",
+        "answer": "Mit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Nell vor Puur: Sie kostet einen hohen Trumpf und zeigt dem Partner dafür, wo der Puur liegt."
+      },
+      {
+        "question": "Wann hört man mit dem Austrumpfen auf?",
+        "answer": "Sobald die übrigen Trümpfe beim eigenen Partner liegen. Das zeigt er mit der Reihenfolge seiner Trümpfe im ersten Trumpfstich, nach der Konvention Hoch-tief."
+      },
+      {
+        "question": "Warum kostet zu langes Austrumpfen den Matsch?",
+        "answer": "Weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende hält der Ansager den letzten Trumpf allein, und die Böcke des Partners gehen an die Gegner."
+      },
+      {
+        "question": "Was ist wichtiger, ein Trumpf beim Gegner oder ein Trumpf beim Partner?",
+        "answer": "Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch. Bleibt die Rechnung offen, hört man daher lieber auf."
+      }
+    ]
   }
 }
