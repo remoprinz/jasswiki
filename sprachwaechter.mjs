@@ -73,6 +73,15 @@ const FREMDWOERTER = [
  * Jede Zeile hier ist ein Entscheid, der einmal gefallen ist. Sie kommt nie zurück.
  */
 const WENDUNGEN = [
+  // Fügungen: das falsche Verb am richtigen Substantiv (Remo, 19.08.2026).
+  // Tafel mit Belegzahlen: regelauskunft/JASSDEUTSCH-WOERTERBUCH.md
+  [/\bzugeben\b|\bzugibt\b|gibt zu\b/i, '«zugeben» ist kein Jasswort (0 Belege). Es heisst spielen oder ausspielen.'],
+  [/Trümpfe? (ziehen|zieht|herausholen|holt heraus)/i, 'Trümpfe zieht man weder noch holt man sie heraus. Es heisst austrumpfen.'],
+  [/Trümpfe? (fallen|fällt)|gefallene? Trümpfe|Gefallen sind/i, 'Trümpfe fallen nicht, sie werden gespielt oder ausgezogen (Remo, 19.08.).'],
+  // «die Karte, die Vorhand ausspielt» ist ein Relativsatz und bleibt erlaubt,
+  // darum der Ausschluss von «, die Vorhand».
+  [/(?<!, )\b[Dd]ie Vorhand\b|\b[Dd]er Vorhand\b|\b[Dd]ie Hinterhand\b|\b[Dd]ie Mittelhand\b/, 'Vorhand steht ohne Artikel (Remo, 19.08.).'],
+  [/Karte werfen|wirft eine Karte/i, 'Es heisst spielen, oder verwerfen, wenn eine Fremdfarbe gemeint ist.'],
   [/nimmt den Tisch|den Tisch nehmen/i, 'Der Tisch ist das Möbel. Gemeint sind die Karten in der Mitte: «aufnehmen».'],
   [/läuft zusammen auf/i, 'Gemeint ist «zählt gegen das Gebot».'],
   [/in die Mittelhand/i, 'Am Tisch heisst das «den König in die Zange nehmen» (Remo, 18.08.).'],
