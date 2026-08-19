@@ -335,7 +335,7 @@ Immer der Partner des Trumpfansagers, und immer im ersten Trumpfstich. Ob vorher
 
 Das Signal für sich allein sagt wenig. Scharf wird es erst, wenn der Ansager dazuzählt, was er ohnehin weiss: Neun Trümpfe gibt es. So viele hält er selbst, so viele liegen im Stich, der Rest ist verteilt. Das Signal sagt ihm, auf welcher Seite.
 
-In den drei folgenden Beispielen ist Eichel Trumpf, und der Ansager hält jedes Mal dasselbe Blatt. Er spielt das Nell aus, weil er auch den Puur hält.
+In den drei folgenden Beispielen ist Eichel Trumpf, und der Ansager hält jedes Mal dasselbe Blatt. Er spielt das Nell aus, weil er auch den Puur hält. So will es die Konvention Nell-vor-Puur.
 
 
 ## Der Partner legt tief: aufhören
