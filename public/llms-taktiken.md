@@ -306,7 +306,7 @@ Ebenfalls wichtig: Ob ein Slalom hoch oder tief beginnt, ist gerade in der Defen
 
 ---
 
-### Hoch-tief {#schieber_taktiken_hoch_tief}
+### Hoch-tief / Tief-hoch {#schieber_taktiken_hoch_tief}
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 

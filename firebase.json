@@ -2722,7 +2722,12 @@
         },
         {
           "source": "/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch-tief",
-          "destination": "/taktiken-und-strategien/kommunikation-signale/hoch-tief/",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/hoch-tief",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch/",
           "type": 301
         }
       ]
