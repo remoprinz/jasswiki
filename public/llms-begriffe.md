@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 70
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -520,17 +520,14 @@ Seltenheit:
 
 **Kategorie:** Begriffe > Punktebegriffe
 
-Definition:
-• Wer einen Matsch macht, schreibt 100 Extrapunkte zusätzlich, wenn die Runde nichts anderes abgemacht hat
+Wer einen Matsch macht, schreibt 100 Punkte zusätzlich. Diese 100 heissen Matschprämie oder Matchbonus, beide Wörter sind am Tisch gebräuchlich. Eine Runde kann vor der Partie eine andere Höhe abmachen.
 
-Multiplikator:
-• Spielt man mit einem Multiplikator wird die Matschprämie ebenfalls mit diesem Faktor multipliziert
+## Mit einem Multiplikator
 
-Beispiel:
-• Bei einem vierfachen Matsch ergibt sich aus 157 Punkten plus 100 Matschprämie multipliziert mit 4 ein Ergebnis von 1028 Punkten
+Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Kartenpunkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.
 
 **Häufige Fragen:**
-- **Was ist die Matschprämie?** Die Matschprämie sind zusätzliche 100 Punkte, die ein Team erhält, wenn es einen Matsch erzielt, sofern nicht anders vereinbart.
+- **Was ist die Matschprämie?** Die Matschprämie, am Tisch auch Matchbonus genannt, sind 100 Punkte zusätzlich für die Partei, die einen Matsch macht.
 - **Wie hoch ist die Matschprämie?** Standardmässig beträgt die Matschprämie 100 Extrapunkte, kann aber durch Vereinbarung abweichend festgelegt werden.
 - **Wie wird die Matschprämie mit einem Multiplikator berechnet?** Wird mit einem Multiplikator gespielt, wird die Matschprämie ebenfalls mit diesem Faktor multipliziert.
 - **Wie viele Punkte gibt ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch gibt 157 Punkte plus 100 Matschprämie, mal vier gerechnet: zusammen 1028 Punkte.
@@ -1150,15 +1147,14 @@ Wichtig:
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Definition:
-• Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt
-• Wer sie spielt, kann in dieser Farbe danach verwerfen
-• Wann er sie spielt, überlegt er sich gut
+Eine Solokarte ist die einzige Karte einer Farbe im Blatt. Am Tisch heisst sie auch blutte Karte: «Er hat den Sechser blutt.»
+
+Wer sie spielt, ist die Farbe los und kann von da an in dieser Farbe verwerfen. Solange sie in der Hand bleibt, muss er sie bedienen, sobald die Farbe kommt, und sie fällt dann oft ohne Nutzen. Reicht sie für einen Stich, lohnt sich das Warten, sonst geht sie besser früh weg.
 
 **Häufige Fragen:**
-- **Was ist eine Solokarte beim Jassen?** Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt.
-- **Ist eine Solokarte gut oder schlecht?** Eine Solokarte kann beides sein, sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann.
-- **Wann spielt man eine Solokarte?** Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab, manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen.
+- **Was ist eine Solokarte beim Jassen?** Eine Solokarte ist die einzige Karte einer Farbe im Blatt. Am Tisch heisst sie auch blutte Karte.
+- **Ist eine Solokarte gut oder schlecht?** Beides. Wer sie spielt, ist die Farbe los und kann darin verwerfen. Solange sie in der Hand bleibt, muss er sie bedienen, sobald die Farbe kommt.
+- **Wann spielt man eine Solokarte?** Reicht sie für einen Stich, lohnt sich das Warten. Sonst geht sie besser früh weg, damit er in dieser Farbe verwerfen kann.
 
 *Keywords: solokarte, einzelkarte*
 
@@ -1217,7 +1213,7 @@ Beim [Sidi-Barrani](/varianten/sidi-barrani/) hat jede dieser Zählungen ein fes
 - **Was heisst «Puur zu dritt»?** Der Spieler hält den Puur und zwei weitere Karten der Trumpffarbe, zusammen also drei Trümpfe. Die genannte Karte zählt mit. «Nell zu viert» heisst entsprechend: das Nell und drei weitere Trumpfkarten, zusammen vier.
 - **Zählt der Puur bei «zu dritt» mit?** Ja. «Zu dritt» sind drei Trumpfkarten insgesamt: der Puur und zwei weitere. Ebenso ist «zu viert» der Puur und drei weitere.
 - **Ist «Puur zu dritt» ein Weis?** Weispunkte bringen die beiden Arten von Weis: drei bis neun Karten derselben Farbe in Folge, und vier gleiche Karten. «Puur zu dritt» beschreibt dagegen die Länge des Trumpfs und dient dem Spieler als Mass für seine Ansage.
-- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel hat einen starken Trumpf in der Hand, wer den Puur zu dritt oder das Nell zu viert hält. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
+- **Wozu dienen die Ausdrücke «zu dritt» und «zu viert»?** Mit ihnen zählt ein Spieler vor der Ansage, wie viele Trümpfe er hat. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Beim Sidi-Barrani hat jede dieser Zählungen ein festes Gebot: 60 für den Puur zu dritt, 80 für den Puur zu viert, 50 für das Nell zu dritt, 70 für das Nell zu viert.
 
 *Keywords: trumpf-bauer-kombinationen, puur zu dritt, nell zu viert, zu-dritt, zu-viert*
 
@@ -1249,17 +1245,9 @@ Strategie:
 
 **Kategorie:** Begriffe > Punktebegriffe
 
-Definition:
-• Ein Vogel wird als «V» angeschrieben
+Ein Vogel ist ein «V» auf der Tafel. Was er zählt, hängt von der Jassart ab.
 
-Zwick-Jass:
-• Beim Zwick-Jass entspricht dies fünf Nullern, die abverdient werden müssen
-
-Schieber:
-• Beim Schieber bedeutet ein Vogel 500 Schreibpunkte
-
-Verwendung:
-• Dieser Begriff wird verwendet, um bestimmte Spielsituationen zu dokumentieren und in die Abrechnung einzubeziehen
+Beim Zwick-Jass steht ein Vogel für fünf Nuller, die abverdient werden müssen. Beim Schieber zählt er 500 Schreibpunkte.
 
 **Häufige Fragen:**
 - **Was ist ein Vogel beim Jassen?** Ein Vogel ist ein «V» auf der Tafel. Was er zählt, hängt von der Jassart ab.

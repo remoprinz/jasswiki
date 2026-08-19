@@ -7031,13 +7031,13 @@
   },
   "schieber_taktiken_hoch_tief": {
     "id": "schieber_taktiken_hoch_tief",
-    "text": "Die Konvention \"Hoch - tief\" ist das wichtigste Zeichen dafür, wie viele Trümpfe der Partner hält. Diese Konvention bezieht sich stets auf den Partner des Spielers, der ansagt, und zwar unabhängig davon, ob zuvor geschoben wurde oder nicht.\n\nSo weiss der Trumpfansager, ob er ein zweites Mal austrumpfen soll.\n\n## Hoch - tief bei zwei Trümpfen\n\nHat der Partner vom trumpfansagenden Spieler **zwei Trümpfe** in der Hand, dann spielt er beim ersten Stich zuerst seine **hohe Karte**. Beispiel: Hat er das Ass und den Achter, dann spielt er **zuerst** das Ass.\n\n## Tief - hoch bei drei und mehr Trümpfen\n\nHat der Partner vom Trumpfansager drei oder mehr Trümpfe, dann spielt er zuerst seinen **tiefsten Trumpf**. Beispiel: Hat er den Sechser, das Banner und den Ober, dann spielt er **zuerst den Sechser**! Auf keinen Fall darf das Banner gespielt werden, auch wenn der Zählwert höher ist.\n\nDie zuerst gespielte Karte muss **zwingend die tiefste** sein. Die zweite Karte hingegen muss nicht die höchste sein. Die Information, dass die zweite Karte höher ist, reicht für die Erkenntnis, dass der Partner drei oder noch mehr Trümpfe hat.\n\n**Wichtig: Von dieser Konvention ausgeschlossen sind Puur und Nell.** Vergleiche dazu auch den Artikel zur [Signalsprache zwischen Partnern](/taktiken-und-strategien/kommunikation-signale/).\n\n## Praktische Beispiele\n\n**Beispiel 1:** Spieler 1 sagt in der Vorhand Trumpf an und hat Puur, Nell sowie zwei weitere Trümpfe. Er spielt gemäss Konvention das Nell aus. Sein Partner spielt den Sechser, während beide Gegner Trumpf angeben. Es bleiben nur zwei Möglichkeiten: Entweder hat der Partner den Sechser blutt (Pech), oder er hält die restlichen zwei Trümpfe. Das bedeutet: Auf keinen Fall ein zweites Mal austrumpfen!\n\n**Beispiel 2:** Spieler 1 sagt Trumpf an und hält Puur, Nell sowie zwei weitere Trümpfe. Der Vorhand-Spieler spielt das Nell aus. Sein Partner spielt den König. Nur ein Gegner gibt Trumpf zu. Nun ist klar: Der Partner hat höchstens zwei Trümpfe, alle weiteren sind beim Gegner. Das bedeutet: Unbedingt weiter austrumpfen!",
+    "text": "«Hoch-tief» beantwortet die teuerste Frage des Schiebers: Soll der Trumpfansager ein zweites Mal austrumpfen?\n\nZieht er zu wenig Trumpf, behalten die Gegner welchen und stechen ihm später seine Böcke ab. Zieht er zu viel, zieht er die Trümpfe seines eigenen Partners mit und steht am Schluss allein da. Zu viel Austrumpfen kostet die meisten Matsche. Reden darf am Tisch niemand, also sagt es der Partner mit der Reihenfolge, in der er seine Trümpfe legt.\n\n## Das Signal\n\nDer Partner des Trumpfansagers legt im ersten Trumpfstich:\n\n[[karten: eichel-ass, eichel-8 | Genau zwei Trümpfe: zuerst die hohe Karte, dann die tiefe. Das ist «hoch-tief»]]\n\n[[karten: eichel-6, eichel-banner, eichel-ober | Drei oder mehr Trümpfe: zuerst die tiefste. Das ist «tief-hoch»]]\n\nZwingend ist allein die erste Karte. Bei drei und mehr Trümpfen muss sie die tiefste sein, sonst stimmt die Auskunft nicht. Die zweite darf irgendeine höhere sein, denn schon der Sprung nach oben sagt alles.\n\nPuur und Nell stehen ausserhalb dieser Konvention. Was mit ihnen gilt, steht weiter unten.\n\n## Wer das Signal setzt\n\nImmer der Partner des Trumpfansagers, und immer im ersten Trumpfstich. Ob vorher geschoben wurde, ändert nur, wie er es tut:\n\n• Macht die Vorhand (siehe Begriff \"expressions_vorhand\") selbst Trumpf, spielt sie aus. Ihr Partner setzt das Signal, indem er zugibt\n• Hat die Vorhand geschoben und ihr Partner Trumpf gemacht, spielt die Vorhand aus. Sie ist jetzt die Partnerin des Ansagers und setzt das Signal mit ihrer ersten Karte\n\n## Die Rechnung mit neun Trümpfen\n\nDas Signal für sich allein sagt wenig. Scharf wird es erst, wenn der Ansager dazuzählt, was er ohnehin weiss: Neun Trümpfe gibt es. So viele hält er selbst, so viele liegen im Stich, der Rest ist verteilt. Das Signal sagt ihm, auf welcher Seite.\n\nIn den drei folgenden Beispielen ist Eichel Trumpf, und der Ansager hält jedes Mal dasselbe Blatt. Er spielt das Nell aus, weil er auch den Puur hält (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n[[karten: eichel-under, eichel-9, eichel-koenig, eichel-7 | Die vier Trümpfe des Ansagers: Puur, Nell, König und der Siebner. Das Nell geht als erste Karte hinaus]]\n\n## Der Partner legt tief: aufhören\n\n[[karten: eichel-9, eichel-6, eichel-ass, eichel-8 | Der erste Stich, in der Reihenfolge des Legens: Der Ansager spielt das Nell, sein Partner die Sechs, beide Gegner farben Trumpf]]\n\nDer Ansager rechnet: Gefallen sind Nell, Sechs, Ass und Achter, das sind vier. In seiner Hand liegen Puur, König und Siebner, das sind drei. Von neun bleiben **zwei** übrig, der Ober und das Banner.\n\nSein Partner hat mit der Sechs die tiefste Karte gelegt, also hält er drei oder mehr. Eine davon ist gefallen, mindestens zwei hat er noch. Genau zwei sind übrig, also liegen beide bei ihm.\n\n**Die Gegner sind ausgetrumpft.** Ein zweites Mal ziehen würde nur noch dem eigenen Partner die Trümpfe aus der Hand.\n\n## Der Partner legt hoch: nochmals ziehen\n\nDasselbe Blatt, dasselbe Ausspiel. Diesmal legt der Partner eine hohe Karte.\n\n[[karten: eichel-9, eichel-ass, eichel-ober, eichel-banner | Derselbe erste Stich mit einer anderen Antwort: Der Partner legt das Ass, beide Gegner farben]]\n\nGefallen sind Nell, Ass, Ober und Banner, das sind vier. Der Ansager hält Puur, König und Siebner. Übrig bleiben **zwei**: der Achter und die Sechs.\n\nSein Partner hat hoch gelegt, also hält er genau zwei. Eine ist gefallen, eine bleibt ihm. Die andere liegt beim Gegner.\n\n**Nochmals austrumpfen.** Der Ansager spielt den Puur, der Partner gibt seine letzte, der Gegner die seine, der vierte Spieler verwirft. Danach hält der Ansager König und Siebner und ist der Einzige am Tisch mit Trumpf.\n\n## Wenn es zwei Stiche braucht\n\nWieder dasselbe Blatt. Diesmal verwirft schon im ersten Stich ein Gegner.\n\n[[karten: eichel-9, eichel-6, eichel-8, rosen-7 | Der erste Stich: Nell, die Sechs des Partners, der Achter des einen Gegners. Der andere verwirft und hat damit keinen Trumpf mehr]]\n\nGefallen sind drei Trümpfe. Der Ansager hält drei. Übrig bleiben **drei**: Ass, Ober und Banner. Sein Partner hat tief gelegt, hält also mindestens zwei davon. Höchstens einer liegt beim Gegner, der noch Trumpf hat. Für den lohnt sich ein zweiter Zug.\n\n[[karten: eichel-under, eichel-banner, eichel-ass, rosen-8 | Der zweite Stich: Der Ansager spielt den Puur, sein Partner das Banner, der Gegner sein Ass. Der vierte verwirft wieder]]\n\nJetzt sind sechs Trümpfe gefallen. Der Ansager hält König und Siebner, und übrig bleibt genau einer: der Ober. Sein Partner zeigte drei oder mehr und hat erst zwei gelegt, also gehört der Ober ihm.\n\n**Nach dem zweiten Stich aufhören.** Der Ansager hat zwei Trümpfe, sein Partner einen, die Gegner keinen.\n\n## Vom besten Fall ausgehen\n\nIn all diesen Rechnungen bleibt eine Lücke: Der Partner könnte die Sechs blutt gehabt haben, dann hat er nichts gezeigt, sondern nur seine einzige Karte gelegt.\n\nTrotzdem hört der Ansager auf. Der Grund ist eine Rechnung über viele Partien: Hat der Partner wirklich drei, winken die Matschprämie (siehe Begriff \"expressions_matschpraemie\") von 100 Punkten und beim Strichspiel ein Strich für den Matsch (siehe Begriff \"expressions_matsch\"). Das wiegt schwerer als der eine Fall, in dem es schiefgeht. Darum gilt am Tisch: **Man geht vom besten Fall aus.** Geht er einmal daneben, war es Pech.\n\n## Der Fehler, der das Signal löscht\n\n[[karten: eichel-banner, eichel-6, eichel-ober | So bitte nicht: Wer mit dem Banner beginnt, weil es zehn Punkte zählt, sagt seinem Partner nichts]]\n\nWer mit einer mittleren Karte anfängt, hat aus der Sicht des Ansagers hoch gelegt. Der zählt dann mit zwei Trümpfen beim Partner und zieht ein zweites Mal, obwohl er es lassen könnte. Die zehn Punkte des Banners sind gerettet, das Spiel ist verloren.\n\n## Puur und Nell\n\nSobald der Partner des Ansagers den Puur oder das Nell hält, lässt sich aus dem Signal nichts mehr schliessen. Er spielt den Puur im ersten Stich oder das Nell im zweiten, und damit ist nach der Faustregel ohnehin zweimal ausgetrumpft. Ein drittes Mal fällt weg: Man geht vom besten Fall aus, auch wenn irgendwo noch ein unbekannter Trumpf liegt.\n\nFür die drei Lagen, die dabei am Tisch vorkommen, wechselt die Sicht. **Der Leser ist jetzt der Partner.**\n\n### Der Ansager spielt den Puur, ich halte Nell und König\n\n[[karten: eichel-9, eichel-koenig | Meine zwei Trümpfe. Der Ansager hat den Puur ausgespielt, also hält er das Nell nicht (siehe Begriff \"schieber_taktiken_nell_vor_puur\")]]\n\nIch lege den **König**. Das Signal gilt hier voll: Mein Partner liest daraus, dass ich genau zwei halte. Das Nell bleibt liegen, obwohl es die höhere der beiden ist.\n\nEr trumpft ein zweites Mal aus, und jetzt kommt mein Nell und macht den Stich.\n\n### Der Ansager spielt das Ass, ich halte den Puur und einen Trumpf\n\nEin Trumpf-Ass als Ausspiel sagt: **Der Ansager hat den Puur nicht.** Hätte er ihn, hätte er ihn gespielt. Hätte er Nell und Puur, wäre das Nell gekommen. Das Nell allein behält er zurück, weil er sonst den Puur mit andeuten würde.\n\n[[karten: eichel-under, eichel-8 | Meine zwei Trümpfe, der Puur dabei]]\n\nIch spiele den **Puur** und mache den Stich. Danach trumpfe ich selbst nochmals aus.\n\n### Ich halte den Puur blutt\n\nDer Puur ist der einzige Trumpf in meiner Hand. Dann muss ich ihn zum Trumpfausspiel nicht geben, und genau das nutze ich.\n\n[[karten: rosen-7 | Statt des Puurs verwerfe ich ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen: Ich habe den Puur (siehe Begriff \"schieber_taktiken_advanced\")]]\n\nMein Partner bleibt im Stich und wagt darauf im zweiten Stich das Nell, um die Gegner auszutrumpfen. Mein Puur bleibt eine Waffe für das weitere Spiel.\n\nDiese Freiheit gilt allein für den blutten Puur. Liegt ein zweiter Trumpf in der Hand, gilt der Farbzwang, und ich muss farben.",
     "metadata": {
       "id": "schieber_taktiken_hoch_tief_meta",
       "category": {
         "main": "Taktiken und Strategien",
         "sub": "Kommunikation & Signale",
-        "topic": "Hoch - tief / Tief - hoch - tief"
+        "topic": "Hoch-tief"
       },
       "keywords": [
         "hoch",
@@ -7058,32 +7058,47 @@
       "difficulty": 3,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-08-19",
+      "farbwechsel": true,
+      "seoTitle": "Hoch-tief beim Jassen: wie viele Trümpfe hat mein Partner?",
+      "seoDescription": "Der Partner des Trumpfansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält. Drei Spielsituationen mit Karten, dazu Puur und Nell."
     },
     "faqs": [
       {
-        "question": "Wie wendet man Hoch - tief / Tief - hoch - tief beim Jassen an?",
-        "answer": "Der Partner des Trumpf-Ansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält: bei genau zwei Trümpfen spielt er im ersten Stich zuerst die hohe Karte, bei drei oder mehr Trümpfen zuerst den tiefsten Trumpf. Puur und Nell sind von dieser Konvention ausgenommen."
+        "question": "Wie zeigt mein Partner, wie viele Trümpfe er hat?",
+        "answer": "Mit der Reihenfolge, in der er sie legt. Im ersten Trumpfstich spielt er bei genau zwei Trümpfen zuerst die hohe Karte, bei drei oder mehr zuerst die tiefste. Puur und Nell stehen ausserhalb dieser Konvention."
       },
       {
-        "question": "Wann spielt man hoch und wann tief?",
-        "answer": "Hoch spielen um Stiche zu sichern und Kontrolle zu übernehmen, tief spielen für Unterzug, um Karten zu sparen oder dem Partner den Stich zu ermöglichen."
+        "question": "Ich habe zwei Trümpfe, welchen spiele ich zuerst?",
+        "answer": "Die hohe Karte, danach die tiefe. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass."
       },
       {
-        "question": "Ich habe zwei Trumpfkarten, spiele ich zuerst die hohe oder die tiefe?",
-        "answer": "Nach der Konvention Hoch–tief / Tief–hoch–tief spielst du mit zwei Trümpfen zuerst die hohe (z. B. Ass vor Achter). Puur und Nell sind von der Konvention ausgeschlossen."
+        "question": "Ich habe drei oder mehr Trümpfe, welchen spiele ich zuerst?",
+        "answer": "Zwingend die tiefste. Hältst du Sechs, Banner und Ober, kommt zuerst die Sechs. Die zweite Karte darf irgendeine höhere sein, schon der Sprung nach oben sagt deinem Partner alles."
       },
       {
-        "question": "Ich habe drei (oder mehr) Trümpfe. Welche spiele ich zuerst?",
-        "answer": "Mit drei oder mehr Trümpfen spielst du zuerst die tiefste (z. B. Sechser vor Banner vor Ober). Keine Schlaumeiereien, der Partner muss die tiefste Karte sehen, damit er mit Gewissheit auf ein zweites Mal austrumpfen verzichten kann."
+        "question": "Wer setzt das Signal, wenn geschoben wurde?",
+        "answer": "Immer der Partner des Trumpfansagers. Hat die Vorhand geschoben und ihr Partner Trumpf gemacht, so ist die Vorhand seine Partnerin und setzt das Signal mit der ersten Karte, die sie ausspielt."
       },
       {
-        "question": "Was bringt es, tief zu spielen?",
-        "answer": "Wer tief spielt, behält die hohen Karten für später und lässt dem Partner den Stich."
+        "question": "Was passiert, wenn ich mit dem Banner beginne?",
+        "answer": "Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht."
       },
       {
-        "question": "Gilt Hoch–tief immer?",
-        "answer": "Ja. Der Partner des Trumpfansagers spielt im ersten Trumpfstich nach dieser Regel. Puur und Nell bleiben aussen vor."
+        "question": "Wann hört der Trumpfansager mit dem Austrumpfen auf?",
+        "answer": "Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die im Stich gefallenen und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr, liegen die übrigen bei ihm, und die Gegner sind ausgetrumpft."
+      },
+      {
+        "question": "Was gilt, wenn ich den Puur oder das Nell halte?",
+        "answer": "Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft."
+      },
+      {
+        "question": "Was mache ich mit dem blutten Puur?",
+        "answer": "Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben."
+      },
+      {
+        "question": "Ist Hoch-tief eine Regel?",
+        "answer": "Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind."
       }
     ],
     "see_also": [

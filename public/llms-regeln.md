@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -883,7 +883,6 @@ Regeln:
 • Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner
 
 **Häufige Fragen:**
-- **Was passiert mit einem Stich, den niemand kehrt?** Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
 - **Was sind liegengelassene Stiche?** Liegengelassene Stiche sind Stiche, die nicht sofort nach dem Gewinnen an sich genommen werden.
 - **Müssen Stiche sofort gekehrt werden?** Ja, Stiche müssen umgehend gekehrt werden.
 - **Was passiert, wenn Stiche zu lange offen liegen bleiben?** Werden Stiche solange offen liegengelassen, bis der nachfolgende Stich beendet ist, gehen die liegengelassenen Karten an den Gegner.
@@ -1824,15 +1823,15 @@ Beim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte 
 
 **Wer was macht:**
 • Der Kartengeber mischt und gibt die Karten
-• Der Spieler rechts vom Kartengeber kann beim Abheben die Karten teilen
+• Der Spieler links vom Kartengeber kann beim Abheben die Karten teilen
 
 **Häufige Fragen:**
-- **Wie werden die Karten beim Jassen verteilt?** Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler rechts von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei.
+- **Wie werden die Karten beim Jassen verteilt?** Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler links von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei.
 - **Wie viele Karten erhält jeder Spieler beim Jassen?** Jeder Spieler erhält 9 Karten.
 - **In welche Richtung werden die Karten beim Jassen verteilt?** Im Gegenuhrzeigersinn, «immer der Ohrfeige nach».
 - **In welche Richtung werden die Karten verteilt?** Im Gegenuhrzeigersinn. Der Kartengeber beginnt beim Spieler rechts von sich.
 - **Werden die Karten einzeln oder in Paketen verteilt?** In der Regel dreimal drei Karten auf einmal, bis jeder neun hat.
-- **Wer darf die Karten abheben?** Der Spieler rechts vom Kartengeber kann die Karten abheben (teilen).
+- **Wer darf die Karten abheben?** Der Spieler links vom Kartengeber kann die Karten abheben (teilen).
 
 *Keywords: austeilen, mischen, abheben, geben, gegenurzeigersinn*
 
@@ -2065,14 +2064,14 @@ Der Kreuzweis gilt in jeder Spielart, die das Weisen zulässt. Manche Runden las
 **Kategorie:** Regeln > Kartenverteilung
 
 Sonderregeln bei der Kartenverteilung:
-• Abheben: Spieler rechts vom Kartengeber kann Karten teilen
+• Abheben: Der Spieler links vom Kartengeber kann die Karten teilen
 • Vorspielen: Spezielle Regel für erstes Ausspiel
 • Schieber: Besondere Regeln beim Schieben des Trumpfs
 • Von Gegend zu Gegend wird unterschiedlich gegeben
 
 **Häufige Fragen:**
 - **Gibt es Sonderregeln beim Kartenverteilen?** Ja, es gibt mehrere Sonderregeln wie das Abheben, spezielle Regeln für das erste Ausspiel und regionale Unterschiede.
-- **Was bedeutet Abheben beim Jassen?** Abheben bedeutet, dass der Spieler rechts vom Kartengeber die Karten teilen kann, bevor sie verteilt werden.
+- **Was bedeutet Abheben beim Jassen?** Abheben bedeutet, dass der Spieler links vom Kartengeber die Karten teilen kann, bevor sie verteilt werden.
 
 *Keywords: sonderregeln, bodentrumpf, fehlende karte, platzwechsel, trumpffarbe*
 

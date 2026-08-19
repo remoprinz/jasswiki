@@ -2694,6 +2694,11 @@
           "source": "/begriffe/spielaktionen/passen-fort",
           "destination": "/begriffe/spielaktionen/fort/",
           "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch-tief",
+          "destination": "/taktiken-und-strategien/kommunikation-signale/hoch-tief/",
+          "type": 301
         }
       ]
     }
