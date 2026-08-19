@@ -77,7 +77,18 @@ const WENDUNGEN = [
   // Tafel mit Belegzahlen: regelauskunft/JASSDEUTSCH-WOERTERBUCH.md
   [/\bzugeben\b|\bzugibt\b|gibt zu\b/i, '«zugeben» ist kein Jasswort (0 Belege). Es heisst spielen oder ausspielen.'],
   [/Trümpfe? (ziehen|zieht|herausholen|holt heraus)/i, 'Trümpfe zieht man weder noch holt man sie heraus. Es heisst austrumpfen.'],
+  // Dieselbe Fügung mit umgestellten Wörtern: «Zieht er zu wenig Trumpf», «zieht er die
+  // Trümpfe seines Partners mit». Beide standen am 19.08. im Hoch-tief-Artikel und kamen
+  // an der Zeile darüber vorbei. «Ausziehen» bleibt erlaubt: Remo, 19.08.: «sie werden
+  // gespielt oder sie werden ausgezogen».
+  // Das \b vorne lässt «anziehen» und «ausziehen» als eigene Wörter durch.
+  [/\b(zieht|ziehen|zog|zogen)\b[^.!?]{0,40}\bTrümpfe?\b(?![^.!?]{0,40}\baus\b)/i,
+   'Trumpf zieht man nicht. Es heisst austrumpfen, oder «die Trümpfe ausziehen».'],
   [/Trümpfe? (fallen|fällt)|gefallene? Trümpfe|Gefallen sind/i, 'Trümpfe fallen nicht, sie werden gespielt oder ausgezogen (Remo, 19.08.).'],
+  // Dieselbe Fügung als Partizip: «die im Stich gefallenen Karten» (19.08. in einer FAQ).
+  // Das \b vorne lässt die «heruntergefallene Karte» durch, die wirklich am Boden liegt.
+  [/\bgefallene[nr]?\b|im Stich gefallen|(Karte|Karten|Trumpf|Trümpfe|Ass|Nell|Puur)\s+ist gefallen/i,
+   '«Gefallen» gehört nicht zu den Karten. Es heisst «gespielt» oder «ausgezogen».'],
   // «die Karte, die Vorhand ausspielt» ist ein Relativsatz und bleibt erlaubt,
   // darum der Ausschluss von «, die Vorhand».
   [/(?<!, )\b[Dd]ie Vorhand\b|\b[Dd]er Vorhand\b|\b[Dd]ie Hinterhand\b|\b[Dd]ie Mittelhand\b/, 'Vorhand steht ohne Artikel (Remo, 19.08.).'],

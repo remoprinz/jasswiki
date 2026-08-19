@@ -152,7 +152,7 @@ Die Grundform des Spiels. Alle Abschnitte bis zur Vergleichstabelle beschreiben 
 • Das tiefste Gebot ist 600, gesteigert wird um mindestens 10 Punkte. In der Innerschweiz wird mit 500 begonnen und um 5 gesteigert
 • Die Bauernpartei spielt in jeder Partie auf 1000 Punkte
 • Farbzwang und Kartenwerte gelten wie sonst im Jass
-• Im ersten Spiel spielt der König aus, ab dem zweiten Spiel die Vorhand
+• Im ersten Spiel spielt der König aus, ab dem zweiten Spiel Vorhand
 • Wird falsch ausgeteilt, gibt der nächste Spieler
 • Eine neue Partie wird so gegeben, dass die Verlierer Vorhand haben
 
@@ -1844,7 +1844,7 @@ Jetzt rechnet A. Er sieht seine neun Karten und hat drei Ansagen gehört. Was er
 | D hält das Rosen-Ass | die 95 von D |
 | Schilten-Ass und Schilten-König sind bei ihm, über Schilten hat niemand ein Wort verloren | eigenes Blatt |
 
-Der Trumpf: Puur und Nell liegen bei A und C, und zusammen halten sie mindestens sechs Eichel: das weiss A aus den Ansagen. Damit ziehen die beiden den Gegnern die restlichen Trümpfe aus der Hand, und die Zählwerte dieser Trümpfe fallen dabei auf die eigenen Stiche. Von den 62 Punkten der Trumpffarbe kommt fast alles zu A und C. Nur ein Gegner mit drei Eichel behielte nach zwei Trumpfrunden noch einen Trumpf.
+Der Trumpf: Puur und Nell liegen bei A und C, und zusammen halten sie mindestens sechs Eichel: das weiss A aus den Ansagen. Damit ziehen die beiden den Gegnern die restlichen Trümpfe aus der Hand, und die Zählwerte dieser Trümpfe kommen dabei in die eigenen Stiche. Von den 62 Punkten der Trumpffarbe kommt fast alles zu A und C. Nur ein Gegner mit drei Eichel behielte nach zwei Trumpfrunden noch einen Trumpf.
 
 Die anderen Farben: Ein Spiel bringt 157 Punkte: 62 im Trumpf, 90 in den drei anderen Farben, 5 für den letzten Stich. Das Schilten-Ass holt einen Stich, der König dahinter sehr wahrscheinlich einen zweiten, das sind mindestens 15. Den letzten Stich holt, wer den letzten Trumpf hält, also mit grosser Wahrscheinlichkeit A oder C. In Rosen sitzt das Ass bei D, und in Schellen hält B allein schon vier Karten: dort holen A und C wenig.
 
@@ -2260,7 +2260,7 @@ Spiel geben:
 • Der Kartengeber selbst erhält keine Karten
 
 Spielablauf - Trumpf machen:
-• Übernimmt die Vorhand das Spiel, wählt sie eine beliebige Farbe als Trumpf
+• Übernimmt Vorhand das Spiel, wählt sie eine beliebige Farbe als Trumpf
 • Sie muss am Ende mindestens einen Punkt mehr als ihre beiden Gegner zusammen erzielen
 • Verzichtet Vorhand, geht das Recht auf den zweiten, dann den dritten Spieler über
 
@@ -2307,7 +2307,7 @@ Schätzung:
 Spielstrategie:
 • Neben der Genauigkeit der Schätzung ist auch das taktische Spielen auf die angesagte Punktzahl entscheidend
 • Es ist vorteilhaft, Karten, die einen Stich versprechen, möglichst früh im Spielverlauf einzusetzen, um später mit schwächeren Karten aussteigen zu können
-• Eine Schlüsselkarte ist der Trumpfbauer (Under): Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht zugeben
+• Eine Schlüsselkarte ist der Trumpfbauer (Under): Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht spielen
 • Er sollte für einen strategisch wichtigen Moment zurückgehalten werden
 
 **Häufige Fragen:**
@@ -2315,7 +2315,7 @@ Spielstrategie:
 - **Wie spielt man Differenzler?** Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält.
 - **Was ist der Unterschied zwischen verdeckter und offener Ansage beim Differenzler?** Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht. Jeder Spieler schreibt seine geschätzte Punktzahl auf einen Zettel, der bis zum Spielende verdeckt bleibt.
 - **Wie schätzt man am besten beim Differenzler mit verdeckter Ansage?** Für eine präzise Schätzung zählt man die Werte der Trumpfkarten doppelt und addiert für jeden möglichen Stich mit einem Ass zusätzlich elf Punkte.
-- **Warum ist der Trumpf-Bauer beim Differenzler so wichtig?** Der Trumpfbauer ist eine Schlüsselkarte: Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht zugeben. Darum hält man ihn für einen wichtigen Moment zurück.
+- **Warum ist der Trumpf-Bauer beim Differenzler so wichtig?** Der Trumpfbauer ist eine Schlüsselkarte: Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht spielen. Darum hält man ihn für einen wichtigen Moment zurück.
 - **Ist der Differenzler mit verdeckter Ansage fair?** Ja, er gilt als anspruchsvoll, aber fair, da er sowohl mit guten als auch mit schwächeren Handkarten gewonnen werden kann.
 
 *Keywords: differenzler, verdeckt, ansage, fair, schätzen*

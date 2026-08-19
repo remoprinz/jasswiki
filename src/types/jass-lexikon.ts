@@ -13,6 +13,12 @@ export interface JassContentMetadata {
   datePublished: string;
   /** Jüngstes Datum, an dem sich `text` oder `faqs` geändert haben (YYYY-MM-DD). */
   dateModified: string;
+  /**
+   * Überschrift auf der Seite. Solange das Feld fehlt, steht dort `category.topic`.
+   * Das Feld trennt die sichtbare Überschrift von der Adresse: `topic` bestimmt die
+   * URL und bleibt kurz, `titel` darf ein ganzer Satz sein (Remo, 19.08.2026).
+   */
+  titel?: string;
   /** Titel für das Suchergebnis. Solange das Feld fehlt, greift die Vorlage der Seite. */
   seoTitle?: string;
   /** Beschreibung für das Suchergebnis. Solange das Feld fehlt, greift die Vorlage der Seite. */

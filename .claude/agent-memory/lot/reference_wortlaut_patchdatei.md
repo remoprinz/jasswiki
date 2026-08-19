@@ -52,6 +52,45 @@ Mehrzeilige Blöcke: jede Zeile einzeln zählen **und** die Nachbarschaft mit
    `jq -r 'to_entries[] | select(.value.text // "" | test("<Formel>")) | .key' …` —
    zwei Treffer heisst Bericht statt Patch.
 
+## Der Zwilling Text/FAQ lässt sich doch patchen (19.08., Paket 9)
+
+Falle 1 braucht die Handarbeit nicht. Zwei Paare hintereinander schreiben und **beiden
+denselben neuen Text geben**:
+
+```
+Definition:
+<der Satz>
+====
+Definition:
+<der neue Satz>
+@@@@
+<der Satz>
+====
+<der neue Satz>
+```
+Arbeitet der Anwender der Reihe nach, trifft Paar 1 den Text und Paar 2 danach nur noch
+die FAQ. Ersetzt er global, decken beide Paare dasselbe ab. **In jeder Reihenfolge
+dasselbe Ergebnis** — Voraussetzung ist, dass der neue Satz an beiden Stellen passt.
+Im Bericht ausweisen, warum zwei Paare denselben Text tragen.
+
+## Schlussprobe in einem Zug
+
+```bash
+grep -B1 '^====$' PATCH-N.txt | grep -v '^====$' | grep -v '^--$' > alt_letzte.txt
+while IFS= read -r s; do n=$(grep -F -o "$s" felder.txt | wc -l | tr -d ' ');
+  [ "$n" = 1 ] || echo "TREFFER=$n :: $s"; done < alt_letzte.txt
+```
+Prüft die **letzte Zeile** jedes Altblocks (deckt ein- und mehrzeilige Blöcke ab). Alles
+ausser den bewusst doppelten Zwillingspaaren muss `1` sein.
+
+## Zuletzt prüfen, nicht beim Schreiben
+
+Am 19.08. sprang der geteilte Checkout **mitten in der Lesung** von `87d95746` auf
+`f118557` (Wellen 1–3 eingespielt). Vier Muster aus Paket 9 waren dadurch tot
+(«trumpfaufdeckende Spieler», «Minusstriche», «Spielgeber», der ganze Artikel `klopfen`).
+Darum: Felder-Dump und Musterprüfung **am Schluss neu ziehen**, und Commit-SHA + `md5`
+der `jass-content-v2.json` in den Bericht schreiben, gegen den geprüft wurde.
+
 ## Was der Renderer schluckt
 
 Die Marken `(siehe Begriff "…")` sind die gespeicherte Verweis-Syntax; der Renderer

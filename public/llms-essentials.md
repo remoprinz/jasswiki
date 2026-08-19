@@ -39,7 +39,7 @@ Zu zweit denken:
 Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
 Spielprinzip:
-• Der Vorhandspieler bestimmt die Trumpffarbe
+• Vorhand bestimmt die Trumpffarbe
 • Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»
 • Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen
 • Weis und Stöck bringen Zusatzpunkte
@@ -48,10 +48,10 @@ Warum der Schieber so beliebt ist:
 Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
 
 **Häufige Fragen:**
-- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
+- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
 - **Wie spielt man Schieber?** Man braucht vier Spieler und 36 Schweizer Jasskarten. Zwei Partner sitzen sich gegenüber. Vorhand bestimmt die Trumpffarbe oder gibt die Wahl an den Partner ab (daher «Schieber»). Gespielt wird wie beim normalen Jass: Farben bedienen, Trumpf sticht, 157 Punkte pro Runde. Das Team mit den meisten Punkten gewinnt die Runde.
 - **Was ist der Schieber?** Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, wobei sich je zwei Partner gegenübersitzen.
-- **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass der Vorhandspieler die Trumpfwahl zu seinem Partner 'schieben' kann, wenn er selbst keine gute Trumpffarbe hat.
+- **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass Vorhand die Trumpfwahl zum Partner schieben kann, wenn sie selbst keine gute Trumpffarbe hat.
 - **Wie viele Spieler braucht man für den Schieber?** Der Schieber wird zu viert gespielt. Je zwei Partner bilden ein Team und sitzen sich kreuzweise gegenüber.
 - **Was heisst «mit 18 Karten spielen»?** Ein Jasser rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Wer weiss, was der Partner hält, spielt ihm zu.
 - **Ist der Schieber die häufigste Jassvariante?** Ja, der Schieber ist mit Abstand die verbreitetste und beliebteste Jassvariante in der Schweiz.
@@ -81,7 +81,7 @@ Zu zweit denken:
 Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
 Spielprinzip:
-• Der Vorhandspieler bestimmt die Trumpffarbe
+• Vorhand bestimmt die Trumpffarbe
 • Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»
 • Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen
 • Weis und Stöck bringen Zusatzpunkte
@@ -90,10 +90,10 @@ Warum der Schieber so beliebt ist:
 Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
 
 **Häufige Fragen:**
-- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Der Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
+- **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
 - **Wie spielt man Schieber?** Man braucht vier Spieler und 36 Schweizer Jasskarten. Zwei Partner sitzen sich gegenüber. Vorhand bestimmt die Trumpffarbe oder gibt die Wahl an den Partner ab (daher «Schieber»). Gespielt wird wie beim normalen Jass: Farben bedienen, Trumpf sticht, 157 Punkte pro Runde. Das Team mit den meisten Punkten gewinnt die Runde.
 - **Was ist der Schieber?** Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, wobei sich je zwei Partner gegenübersitzen.
-- **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass der Vorhandspieler die Trumpfwahl zu seinem Partner 'schieben' kann, wenn er selbst keine gute Trumpffarbe hat.
+- **Warum heisst der Schieber 'Schieber'?** Der Name kommt daher, dass Vorhand die Trumpfwahl zum Partner schieben kann, wenn sie selbst keine gute Trumpffarbe hat.
 - **Wie viele Spieler braucht man für den Schieber?** Der Schieber wird zu viert gespielt. Je zwei Partner bilden ein Team und sitzen sich kreuzweise gegenüber.
 - **Was heisst «mit 18 Karten spielen»?** Ein Jasser rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Wer weiss, was der Partner hält, spielt ihm zu.
 - **Ist der Schieber die häufigste Jassvariante?** Ja, der Schieber ist mit Abstand die verbreitetste und beliebteste Jassvariante in der Schweiz.
@@ -299,7 +299,7 @@ Zwei Weise werden in dieser Reihenfolge verglichen. Sobald ein Schritt entscheid
 | 2 | Bei gleicher Punktzahl: mehr Karten | Fünfblatt 100 schlägt vier Könige 100 |
 | 3 | Bei gleich vielen Karten: die höhere Karte | Dreiblatt vom Ass schlägt Dreiblatt vom König |
 | 4 | Bei gleich hoher Karte: Trumpf | Dreiblatt vom Ass in der Trumpffarbe schlägt dasselbe in einer anderen Farbe |
-| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Die Vorhand zuerst, dann der Reihe nach |
+| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Vorhand zuerst, dann der Reihe nach |
 
 Schritt 2 heisst zugleich: **Eine Folge schlägt vier Gleiche desselben Werts**, denn sie hat immer mehr Karten. Bei den vier Gleichen untereinander entscheiden zuerst die Punkte, vier Puur mit 200 über vier Nell mit 150, und bei gleichen Punkten die höhere Karte, vier Asse über vier Könige.
 

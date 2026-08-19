@@ -184,7 +184,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
               )}
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
-              {topic}
+              {contentItem.metadata.titel || topic}
             </h1>
           </header>
 

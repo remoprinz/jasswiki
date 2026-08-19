@@ -770,7 +770,7 @@ Regel:
 
 **Häufige Fragen:**
 - **Wer ist für das Mischen verantwortlich?** Der Kartengeber ist für das Mischen und Verteilen der Karten verantwortlich.
-- **Bei wem beginnt die Kartenverteilung?** Die Kartenverteilung beginnt beim Spieler rechts vom Kartengeber, der Vorhand.
+- **Bei wem beginnt die Kartenverteilung?** Die Kartenverteilung beginnt beim Spieler rechts vom Kartengeber, also bei Vorhand.
 
 *Keywords: verteilen, mischen, abheben, regeln, spielgeber*
 
@@ -1550,7 +1550,7 @@ Zwei Weise werden in dieser Reihenfolge verglichen. Sobald ein Schritt entscheid
 | 2 | Bei gleicher Punktzahl: mehr Karten | Fünfblatt 100 schlägt vier Könige 100 |
 | 3 | Bei gleich vielen Karten: die höhere Karte | Dreiblatt vom Ass schlägt Dreiblatt vom König |
 | 4 | Bei gleich hoher Karte: Trumpf | Dreiblatt vom Ass in der Trumpffarbe schlägt dasselbe in einer anderen Farbe |
-| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Die Vorhand zuerst, dann der Reihe nach |
+| 5 | Ist auch das gleich: wer zuerst gemeldet hat | Vorhand zuerst, dann der Reihe nach |
 
 Schritt 2 heisst zugleich: **Eine Folge schlägt vier Gleiche desselben Werts**, denn sie hat immer mehr Karten. Bei den vier Gleichen untereinander entscheiden zuerst die Punkte, vier Puur mit 200 über vier Nell mit 150, und bei gleichen Punkten die höhere Karte, vier Asse über vier Könige.
 

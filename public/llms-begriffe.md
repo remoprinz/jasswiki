@@ -666,16 +666,16 @@ Ausgleich:
 **Kategorie:** Begriffe > Spielaktionen
 
 Definition:
-Das Schieben bedeutet, dass die Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
+Das Schieben bedeutet, dass Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
 
 Beim Schieber:
-• Die Vorhand schiebt, der Partner sagt an
+• Vorhand schiebt, der Partner sagt an
 • Vom Schieben hat der Schieber seinen Namen
 
 **Häufige Fragen:**
-- **Was bedeutet Schieben beim Jassen?** Schieben bedeutet, dass die Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
-- **Wer entscheidet beim Schieber über den Trumpf?** Beim Schieber überträgt die Vorhand die Trumpf-Entscheidung ihrem Partner.
-- **Warum heisst der Schieber so?** Der Name "Schieber" kommt davon, dass die Vorhand die Trumpf-Entscheidung zum Partner "schiebt".
+- **Was bedeutet Schieben beim Jassen?** Schieben bedeutet, dass Vorhand die Entscheidung über den Trumpf einem anderen Spieler überlässt.
+- **Wer entscheidet beim Schieber über den Trumpf?** Beim Schieber überträgt Vorhand die Trumpf-Entscheidung ihrem Partner.
+- **Warum heisst der Schieber so?** Der Name «Schieber» kommt davon, dass Vorhand die Trumpf-Entscheidung zum Partner schiebt.
 
 *Keywords: schieben*
 
@@ -686,7 +686,7 @@ Beim Schieber:
 **Kategorie:** Begriffe > Spielaktionen
 
 **Definition:**
-• Schmieren bedeutet, dem Partner punktemässig wertvolle Karten zu seinem Stich beizugeben
+• Schmieren bedeutet, dem Partner wertvolle Karten in seinen Stich zu spielen
 
 **Beispiele:**
 • Partner sticht mit dem Trumpf-Ass → man gibt ihm das Banner (10 Punkte)
@@ -919,7 +919,7 @@ Ausnahme beim Trio/3x3:
 - **Was ist der Trumpf-Bauer?** Der Trumpf-Bauer (Puur) ist die höchste Karte einer Trumpffarbe und die wertvollste Karte im Spiel.
 - **Wie viele Punkte ist der Trumpf-Bauer wert?** Der Trumpf-Bauer ist 20 Punkte wert.
 - **Kann der Trumpf-Bauer geschlagen werden?** Nein, der Trumpf-Bauer kann von keiner anderen Karte geschlagen werden.
-- **Muss ich den Trumpf Puur zugeben, wenn Trumpf verlangt ist?** Nein. Der Trumpf Puur ist die einzige Karte, die bei ausgespieltem Trumpf nicht gefarbt werden muss. Eine Ausnahme gilt bei Trio/3x3: Während Obenabe oder Undenufe muss der Puur gespielt werden.
+- **Muss ich den Trumpf-Puur spielen, wenn Trumpf verlangt ist?** Nein. Der Trumpf Puur ist die einzige Karte, die bei ausgespieltem Trumpf nicht gefarbt werden muss. Eine Ausnahme gilt bei Trio/3x3: Während Obenabe oder Undenufe muss der Puur gespielt werden.
 
 *Keywords: trumpf-bauer, trumpf-under, trumpf-bube*
 
@@ -930,17 +930,17 @@ Ausnahme beim Trio/3x3:
 **Kategorie:** Begriffe > Grundbegriffe
 
 Definition:
-• Die Vorhand ist der Spieler, der rechts vom Geber sitzt
+• Vorhand ist der Spieler, der rechts vom Geber sitzt
 • Sie spielt als Erste eine Karte aus
 
-Was die Vorhand bringt:
+Was Vorhand bringt:
 • Vorhand spielt die erste Karte und bestimmt damit die Farbe des ersten Stichs
 • Wer anzieht, gibt den anderen vor, was sie bedienen müssen
 
 **Häufige Fragen:**
-- **Was ist die Vorhand beim Jassen?** Die Vorhand ist der Spieler, der rechts vom Geber sitzt und als Erster eine Karte ausspielt.
-- **Welche Vorteile hat die Vorhand?** Die Vorhand spielt die erste Karte und bestimmt damit die Farbe des ersten Stichs.
-- **Wer sitzt wo beim Schieber?** Die Vorhand sitzt rechts vom Geber. Ihr Partner, die Hinterhand, sitzt ihr gegenüber, also links vom Geber. Die Mittelhand sitzt dem Geber gegenüber.
+- **Was ist Vorhand beim Jassen?** Vorhand ist der Spieler, der rechts vom Geber sitzt und als Erster eine Karte ausspielt.
+- **Welche Vorteile hat Vorhand?** Vorhand spielt die erste Karte und bestimmt damit die Farbe des ersten Stichs.
+- **Wer sitzt wo beim Schieber?** Vorhand sitzt rechts vom Geber. Ihr Partner sitzt ihr gegenüber, also links vom Geber. Die beiden Gegner sind der Geber selbst und der Spieler ihm gegenüber.
 
 *Keywords: vorhand*
 

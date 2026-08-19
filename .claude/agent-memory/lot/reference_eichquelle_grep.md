@@ -242,6 +242,103 @@ Handweis (0) nicht — die Quelle schreibt «Weisen aus den Handkarten» · Guts
 «markers repointed (`expressions_streichpasse` → `expressions_passe`» — unser eigener
 Artikelschlüssel in einer Arbeitsnotiz.
 
+## Am 19.08. geeicht (Paket 9, 22 Artikel) — 3 E · 51 S · 9 F
+
+**Korrektur an der Paket-0-Liste oben: «stechhöchste» ist BELEGT.** 0/0/3, und
+`remo-transkript.txt:9180` ist Remos eigene Stimme: «muss klar sein, dass man NICHT die
+stechhöchste karte legt! weil das WIRD ja erst zum bock. das gilt übrigens auch für
+undenufe!». Wer nur jassverzeichnis + Wikipedia zählt, spricht Remos eigenes Wort
+schuldig.
+
+**Belegt, bleibt:** Wand (Remo: «die wand anziehen», «wand etablieren») · Auskunft als
+Signalwort («die Auskunft steckt in der Zahl», «seine Auskunft, keine Vermutung») ·
+Trumpf-Bauer (21/0/3) · Belli (1/0/4) · rauben/geraubt (11 bzw. 13) · Nuller (23/2/4) ·
+Fehlfarbe (2/1/0) · eingestochen (4/0/0) · «den Bergpreis erreichen» (jassverzeichnis
+wörtlich) · Nachschmeissen (0/0/73, Remo Z.696 im Klartext) · Dreiblatt · vier Gleiche ·
+Bube (43/16/7) · Trumpf machen (6/0/0) · erstausgespielt (2/0/0) · einsehen (Karten
+anschauen: «2.8.9 Gekehrte Stiche einsehen»).
+
+**0 Treffer, also unsere Erfindung:** zurücklesen · Signalkonvention (1 Treffer =
+Agentenrapport über Engine-Arbeit) · kommunizieren (Kreisschluss: der Treffer ist unser
+eigener Satz) · Spielteilnahme · trumpfaufdeckend · zweitgespielt · Letztsteigernd ·
+zusagend · Verhängnis · Gesamtwertung · vorausgewiesen · Zusatzprämie · Kartensituation ·
+Spielmechanik · Bock-Karte (1 Treffer = Engine-Quelltext) · Glöckchen.
+
+**Vier Wortpaare mit Beleg auf der anderen Seite:**
+- «Farbe bekennen» (Troccas!) ↔ **bedienen**, Wikipedia Z. 417 wörtlich: «Während des
+  Spiels ist es Pflicht, die ausgespielte Farbe zu bedienen» (2/6/34).
+- «vorausweisen» (0) ↔ **vorweisen**: «hätte sich … die Stöck vorweisen können und sich
+  so bedanken dürfen».
+- «Siebener» (1/0/0) ↔ **Siebner** (7/0/6).
+- Slalom **oben/unten** übergeben (Remo Z. 5580) ↔ unser «hoch/tief».
+
+**«Narr» ist besetzt.** 21/0/7, aber alle jassverzeichnis-Treffer stehen im
+Troccas/Tarock-Teil («Neben den 21 Trogge und dem Narr (Le Mat)»). `color_schellen` nennt
+den Schellen-Under «den Narr des Blatts» — unbelegt, dazu trägt in
+`public/cards/de/rosen-under.webp` sichtbar der **Rosen**-Under die Pfeife.
+
+**🚨 Abheben: das Reglement sagt LINKS, der Bestand viermal RECHTS.** jassverzeichnis
+Z. 6226, Abschnitt «2.6.3 Abheben»: «Der Spieler **links** vom Kartenverteiler macht das
+Abheben («Ablupf»).» `general_dealing` (Text + zwei FAQ) und `general_dealing_special`
+schreiben «rechts vom Kartengeber» — dort sitzt die **Vorhand** (Z. 6114, 11465). Der
+Zwick-Artikel macht es richtig. Steht als F bei Remo, gehört nie in einen Wortlaut-Patch.
+
+**Der Bestand bewegt sich während der Lesung.** Der Checkout sprang mitten in der Arbeit
+von `87d95746` auf `f118557` (Wellen 1–3 eingespielt). Vier Funde waren beim Nachprüfen
+schon geheilt, «Spielgeber» hiess überall «Kartengeber», und ein Artikel (klopfen) war
+komplett neu formuliert. **Patch-Muster erst ganz am Schluss verifizieren, nie beim
+Schreiben** — und den Stand (Commit + md5) in den Bericht schreiben.
+
+## Am 19.08. geeicht (Paket 8, 22 Artikel) — 13 E · 42 S · 6 F
+
+**Korrektur an zwei früheren Listen: «Kontermatsch» und «Matschprämie» sind BELEGT.**
+Das jassverzeichnis schreibt «Kontermatch» (4) und «Matchprämie» (6) — mit der
+Haus-Schreibung «Matsch» sind das unsere Wörter. Die Paket-3-Notiz («Matsch-Prämie
+erfunden») galt nur der Bindestrich-Form, die Paket-0-Notiz («die Quelle sagt
+Matchbonus») war unvollständig: die Quelle sagt **beides**.
+
+**«Figur» ist besetzt.** 7/1/17, im jassverzeichnis ausschliesslich die **Bildkarte**
+(«eine Figur (Königin oder Reiter)», «Re, Regina, Fante»), im Transkript HTML-`figure`
+und «Guru-Figur». `expressions_trumpf_bauer_kombinationen` nannte die zwei Weis-Arten
+«zwei Figuren» — falsches Fachwort.
+
+**Zwei Stellen, an denen die Eichquelle fertige Substanz liefert:**
+- Erstbeleg: `wikipedia.txt` Z. 9 hat die ganze Geschichte — «aus dem Jahre 1796 aus
+  **Schaffhausen: zwei Pfarrer verklagen zwei Bauern, die „um ein Glas Wein" spielten,
+  mit einem Spiel „welches man das Jassen nenne"**». Der Artikel `history_first_mention`
+  sagte dreimal «Meilenstein» und die Sache gar nicht.
+- Schellenjass heisst mit französischen Karten **Herzjass** (jassverzeichnis: «Anleitung
+  Schellenjass spielen (auch: Herzjass)», «anstatt der Farbe ‹Schellen› die Farbe Herz»).
+  Unser «Kreuzjass» ist falsch: der eine Wikipedia-Treffer meint **Vorarlberg = Schieber**
+  («Krüzjassa bzw. Kreuzjassen»).
+
+**Farbzuordnung: die Quelle widerspricht `color_ecke`.** `jassverzeichnis.txt` Z. 24
+tabelliert «Eichle **Ecke ♦** · Schellen **Kreuz ♣** · Schilte Schaufel ♠ · Rose Herz ♥»
+(Multiplikator-Logik), unser Bestand setzt Ecke = Schellen (Kartenbild-Logik). Sachfrage
+für SCHIRI, kein Wortlaut-Fund.
+
+**Belegt, bleibt:** «Puur zu dritt» / «Nell zu viert» (0/0/23 bzw. 0/0/8 — kein
+Kreisschluss: Remo spricht sie frei aus und hält fest «wortgleich bei Müller S. 132 und
+bei jassverzeichnis.ch») · **Schlagdistanz** (0/0/2, Remo: «matsch-schlagdistanz») ·
+«Punkte auf dem Konto» (JVZ wörtlich) · «scheidet als Gewinner aus» (JVZ Z. 23266) ·
+umgehend (2/0/0) · Vorrang (19) · eingesehen (7) · abwechslungsreich (7) · annulliert (5)
+· «fort» **und** «passe» als Bietruf (JVZ: «sagt ‹fort›, ‹pass› oder ähnlich») ·
+Trumpf-Spiel (3) · Spielverrat (7) · Zeichen (19) · gutgeschrieben (3/4/4).
+
+**0 Treffer, also unsere Erfindung:** Vermeidungsvariante · Antizipation · belastet ·
+abgearbeitet · Notierung · Korrekturwunsch · Eintragung · essenziell · «im Blick» ·
+gerechtfertigt · Meilenstein · linguistisch · Terminologie (0/0/2 Projektnotizen) ·
+Zeitspanne · Stechkraft · Trumpflänge · Sonderwert · «im normalen Spiel» · untersagt ·
+Anweisung · storniert · Spielerlebnis · Erfahrungsstufe · Schieber-Spieler · Einzeljass ·
+Papagei · Querstrich · Schreibspiel · «herauskommen» (für Zielpunkt erreichen).
+
+**Neu für die Patch-Praxis: was der Patch nicht kann.** `liegengelassene_stiche` hat in
+FAQ 1 und FAQ 2 **wortgleiche Antworten**. Zwei identische Zeichenketten sind nie
+eindeutig ansprechbar — der Fix muss von Hand kommen (oder eine FAQ entfällt). Der
+Gegenfall ist nützlich: derselbe Satz in **Text und FAQ** wird eindeutig, sobald man den
+Etikettenkopf mitnimmt («Definition:\n…», «Grundregel:\n…»), und die FAQ-Zwillinge kann
+man **danach** als eigene Paare nachreichen — nach dem Textfix sind sie eindeutig.
+
 **Patch-Datei (`PATCH-VOKABULAR.txt`, Format alt/====/neu/@@@@):** vor Abgabe jedes ALT-Muster
 gegen einen Dump aller Feldwerte zählen (`jq -r 'to_entries[] | ([.value.text] +
 [.value.faqs[]?|.question] + [.value.faqs[]?|.answer] + [.value.metadata.seoDescription])
