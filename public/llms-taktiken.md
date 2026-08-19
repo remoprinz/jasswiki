@@ -314,9 +314,11 @@ Schon im ersten Stich zeigt der Partner des Trumpfansagers, wie viele Trümpfe e
 
 Sie beantwortet dem Ansager die Frage, an der der Matsch hängt: Reicht einmal Austrumpfen, oder braucht es ein zweites Mal?
 
-## Das Signal
+## Hoch-tief und tief-hoch: das Signal
 
-Der Partner des Trumpfansagers legt im ersten Trumpfstich:
+**Hoch-tief** heisst: Der Partner spielt zuerst die hohe Karte, dann die tiefe. Er hält genau zwei Trümpfe. **Tief-hoch** heisst: Er beginnt mit der tiefsten Karte. Er hält drei oder mehr.
+
+Beides zeigt er im ersten Trumpfstich:
 
 
 
@@ -425,6 +427,7 @@ Diese Freiheit gilt allein für den blutten Puur. Liegt ein zweiter Trumpf in de
 - **Was gilt, wenn ich den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft.
 - **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
+- **Was heisst tief-hoch beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seine tiefste Trumpfkarte. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
 
 *Keywords: hoch, tief, kommunikation, signale, fortgeschritten*
 

@@ -179,7 +179,7 @@ const TaktikenStrategienPage: NextPage = () => {
                 {' '}Eine Farbe ausspielen, in der man stark ist, und den Partner zum Nachspielen auffordern.
               </li>
               <li>
-                <Link href="/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch-tief/" className="text-[#ff0000] hover:underline font-medium">Hoch-tief / Tief-hoch-tief</Link>:
+                <Link href="/taktiken-und-strategien/kommunikation-signale/hoch-tief/" className="text-[#ff0000] hover:underline font-medium">Hoch-tief und tief-hoch</Link>:
                 {' '}An der Reihenfolge der Trümpfe ablesen, wie viele der Partner hält.
               </li>
               <li>
@@ -207,7 +207,7 @@ const TaktikenStrategienPage: NextPage = () => {
               <ul className="list-disc pl-5 space-y-2">
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/anziehen/" className="text-[#ff0000] hover:underline font-medium">Anziehen</Link>: eine starke Farbe anzeigen.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/verwerfen/" className="text-[#ff0000] hover:underline font-medium">Verwerfen</Link>: eine schwache Farbe abwerfen und damit informieren.</li>
-                <li><Link href="/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch-tief/" className="text-[#ff0000] hover:underline font-medium">Hoch-tief / Tief-hoch-tief</Link>: die Anzahl Trümpfe anzeigen.</li>
+                <li><Link href="/taktiken-und-strategien/kommunikation-signale/hoch-tief/" className="text-[#ff0000] hover:underline font-medium">Hoch-tief und tief-hoch</Link>: die Anzahl Trümpfe anzeigen.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/nell-vor-puur/" className="text-[#ff0000] hover:underline font-medium">Nell vor Puur</Link>: den Besitz vom Puur signalisieren.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/querverwerfen/" className="text-[#ff0000] hover:underline font-medium">Querverwerfen</Link>: gezielt eine andere Farbe abwerfen.</li>
                 <li><Link href="/taktiken-und-strategien/kommunikation-signale/nachschmeissen/" className="text-[#ff0000] hover:underline font-medium">Nachschmeissen</Link>: dem Partner im ersten Stich nachwerfen.</li>

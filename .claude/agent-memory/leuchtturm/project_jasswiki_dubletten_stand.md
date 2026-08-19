@@ -23,6 +23,19 @@ Gemessen am 15.08.2026 gegen die Live-Site (curl mit Browser-UA, `main` sauber):
 - **Offen 3 (Entscheid SCHIRI):** `/jassapps/generelles/` trug 13 Klicks und leitet auf die
   hässlichere kanonische `/jassapps/jassapps-generelles/`.
 
+**Nachmessung 19.08.2026** (firebase.json jetzt 496 Weiterleitungen, Sitemap 257 URLs):
+
+- **Ketten: 0.** Statischer Vollabgleich aller Quellen gegen alle Ziele (Schrägstrich normalisiert)
+  findet kein Ziel, das selbst wieder Quelle ist. Live-Stichprobe 3/3 je ein Sprung auf 200.
+  «Offen 1» von oben gilt als erledigt.
+- **Neuer Befund: vier Begriffe stehen unter zwei eigenständigen, je selbstkanonischen Adressen.**
+  `/regeln/spielablauf/bodentrumpf/` + `/begriffe/kartenbezeichnungen/bodentrumpf/` (identischer
+  Slug, zwei Sektionen) · `/begriffe/grundbegriffe/knecht/` + `/begriffe/grundbegriffe/joker-knecht/`
+  (gleicher Ordner) · `/begriffe/grundbegriffe/schnorren/` + `/regeln/sonderregeln/bemerkungen-schnorren/`
+  · `/begriffe/spielaktionen/leih-halten/` + `/begriffe/spielaktionen/farben-leih-halten/`.
+  Das ist echte Selbstkonkurrenz um denselben Begriff, entschieden wird sie inhaltlich (SCHIRI:
+  zusammenlegen oder klar trennen), technisch danach per 301 auf die bleibende Adresse.
+
 **Why:** SCHIRI las aus den ersten GSC-Daten «14 Artikel unter zwei bis drei Adressen erreichbar»;
 die Live-Messung zeigt, dass das der historische Zustand ist und die Reparatur bereits läuft.
 
