@@ -188,11 +188,20 @@ obwohl der Artikel sonst jede JV-Abweichung nennt. jassverzeichnis-API weiterhin
   (König spielt im 1. Spiel aus), `01-…Karten-und-Gebot` = Vorhand (rechts der Geberin) bietet zuerst.
 
 **Nachtrag 19.08. (Wortlaut-Eichung Paket 3, Bericht + Patch-Datei):**
-- **Verweis-Marker `(siehe Begriff "…")` sind NIE ein Fund.** `src/components/wissen/verweise.ts`
-  wandelt sie in Links, `src/components/seo/FaqJsonLdSchema.tsx` schickt Frage und Antwort vor dem
-  FAQPage-Schema durch `verweiseZuText(ohneKartenMarken(…))`. Live steht sauberer Text. Ich habe
-  einen solchen «Marker in FAQ-Antwort» als schwersten Fund des Pakets gemeldet — falsch, und ein
-  anderer Leser hatte denselben Fehler schon gemacht. Vor dem Melden: Renderer lesen.
+- **Verweis-Marker `(siehe Begriff "…")` sind in Fliesstext und FAQ NIE ein Fund.**
+  `src/components/wissen/verweise.ts` wandelt sie in Links, `src/components/seo/FaqJsonLdSchema.tsx`
+  schickt Frage und Antwort vor dem FAQPage-Schema durch `verweiseZuText(ohneKartenMarken(…))`.
+  Live steht sauberer Text. Ich habe einen solchen «Marker in FAQ-Antwort» als schwersten Fund des
+  Pakets gemeldet — falsch, und ein anderer Leser hatte denselben Fehler schon gemacht.
+- **🚨 KORREKTUR 20.08.: in BILDLEGENDEN überlebt der Marker bis ins ausgelieferte HTML.**
+  Gemessen an `/taktiken-und-strategien/kommunikation-signale/austrumpfen-hoch-oder-tief/`:
+  im `<p>` wird `(siehe Begriff "expressions_matsch")` sauber zum `<a href="/begriffe/…/matsch/">`,
+  im `<span class="jw-karten-text">` steht «… Nell-vor-Puur (siehe Begriff
+  &quot;schieber_taktiken_nell_vor_puur&quot;)» sichtbar auf der Seite (2 Fälle). Der einzige
+  Link der Legende (`jw-karten-link`) zeigt pauschal auf `/grundlagen-kultur/jasskarten/`.
+  **Also: Marker im Fliesstext/FAQ ignorieren, Marker in `[[karten: … | Legende]]` immer per
+  curl gegen das Live-HTML prüfen** (`grep -oE ".{140}siehe Begriff.{80}" live.html` — die
+  Treffer mit `&quot;` und `<span` sind gerendert, die mit `\"` und `\n\n` sind nur `__NEXT_DATA__`).
 - **Patch-Paare gegen einen jq-Auszug prüfen, nie gegen das Paket-Dokument.**
   `jq -r '.[] | (.text // ""), (.metadata.seoDescription // ""), ((.faqs // [])[] | .question, .answer)'
   → flat.txt, dann `while IFS= read -r l; do grep -c -F -- "$l" flat.txt; done`. Treffer muss **1**

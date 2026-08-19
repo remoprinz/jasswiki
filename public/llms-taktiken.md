@@ -387,7 +387,7 @@ Sie beantwortet dem Ansager die Frage, an der der Matsch hängt: Reicht einmal A
 
 **Hoch-tief** heisst: Der Partner spielt zuerst die hohe Karte, dann die tiefe. Er hält genau zwei Trümpfe. **Tief-hoch** heisst: Er beginnt mit der tiefsten Karte. Er hält drei oder mehr.
 
-Beides zeigt er im ersten Trumpfstich:
+Die erste dieser Karten spielt er im ersten Trumpfstich, die zweite im nächsten:
 
 
 
@@ -468,7 +468,7 @@ Für die drei Lagen, die dabei am Tisch vorkommen, wechselt die Sicht. **Ich bin
 ### Der Ansager spielt den Puur, ich halte Nell und König
 
 
-Ich spiele den **König**. Das Signal gilt hier voll: Mein Partner liest daraus, dass ich genau zwei halte. Das Nell bleibt liegen, obwohl es die höhere der beiden ist.
+Ich spiele den **König**. Das Nell bleibt liegen, obwohl es die höhere der beiden ist, denn es ist mein Bock im Trumpf.
 
 Er trumpft ein zweites Mal aus, und jetzt kommt mein Nell und macht den Stich.
 
@@ -490,11 +490,11 @@ Diese Freiheit gilt allein für den blutten Puur. Liegt ein zweiter Trumpf in de
 
 **Häufige Fragen:**
 - **Wie zeigt mein Partner, wie viele Trümpfe er hat?** Mit der Reihenfolge, in der er sie legt. Im ersten Trumpfstich spielt er bei genau zwei Trümpfen zuerst die hohe Karte, bei drei oder mehr zuerst die tiefste. Puur und Nell stehen ausserhalb dieser Konvention.
-- **Ich habe zwei Trümpfe, welchen spiele ich zuerst?** Die hohe Karte, danach die tiefe. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass.
+- **Ich habe zwei Trümpfe, welchen spiele ich zuerst?** Die hohe Karte, danach die tiefe. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass. Für Puur und Nell gilt eine eigene Reihenfolge, sie steht im letzten Abschnitt des Artikels.
 - **Ich habe drei oder mehr Trümpfe, welchen spiele ich zuerst?** Zwingend die tiefste. Hältst du Sechs, Banner und Ober, kommt zuerst die Sechs. Die zweite Karte darf irgendeine höhere sein, schon der Sprung nach oben sagt deinem Partner alles.
 - **Wer setzt das Signal, wenn geschoben wurde?** Immer der Partner des Trumpfansagers, im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 - **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht.
-- **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr, liegen die übrigen bei ihm, und die Gegner sind ausgetrumpft.
+- **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr und bleiben genau zwei übrig, so liegen beide bei ihm, und die Gegner sind ausgetrumpft. Bleiben drei übrig, trumpft er nochmals aus.
 - **Was gilt, wenn ich den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft.
 - **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
