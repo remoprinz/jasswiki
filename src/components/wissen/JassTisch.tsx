@@ -1,12 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import {
-  farbAnzeige,
-  farbCodeAusSlug,
-  karteAusSlug,
-  type FarbCode,
-  type JassKarte,
-} from './jasskarten';
+import { farbAnzeige, karteAusSlug, type FarbCode, type JassKarte } from './jasskarten';
 import { KartenLightbox } from './KartenLightbox';
 import { sitzeOrdnen, type SitzBild, type SitzWort, type TischSitz } from './tischMarke';
 import {
@@ -25,9 +19,13 @@ const JASSKARTEN_URL = '/grundlagen-kultur/jasskarten/';
  * niemandem gehört eine davon. Erst der Platz sagt, wer sie gelegt hat — und
  * genau daraus rechnet der Leser beim Hoch-tief, wo die übrigen Trümpfe liegen.
  *
- * Drei Dinge liest das Bild von selbst ab, damit sie nie falsch stehen können:
- * die Reihenfolge (gegen den Uhrzeigersinn ab dem Ausspiel), der Platz, der als
- * nächster legt, und ob eine Karte gefarbt, gestochen oder verworfen wurde.
+ * Quadratischer Filz wie in der Arena (Remo, 19.08.2026): die Trumpfansage
+ * steht oben am Rand, die Mitte gehört den vier Karten. Nüchtern bleibt der
+ * Tisch dabei — er zeigt, was liegt, und deutet nichts.
+ *
+ * Zwei Dinge liest das Bild von selbst ab, damit sie nie falsch stehen können:
+ * die Reihenfolge (gegen den Uhrzeigersinn ab dem Ausspiel) und der Platz, der
+ * als nächster legt.
  *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg). Farbzeichen: JassGuru-Set.
  */
@@ -38,7 +36,7 @@ interface Props {
   trumpf?: FarbCode;
   /** Wer unten sitzt — aus seiner Sicht ist die Lage erzählt. */
   sicht?: 'ansager' | 'partner';
-  /** Überschrift auf dem Filz, z. B. «1. Stich». */
+  /** Aufschrift links oben auf dem Filz, z. B. «1. Stich». */
   titel?: string;
   /** Platz, der als Nächstes legt — sonst rechnet der Tisch ihn aus. */
   zug?: SitzWort;
@@ -47,18 +45,6 @@ interface Props {
   beschriftung?: string;
   /** Umschalter Deutsch/Französisch — einmal je Seite, beim ersten Kartenblock. */
   mitWahl?: boolean;
-}
-
-/** Wie die Karte zum Ausspiel steht: gefarbt, gestochen oder verworfen. */
-function bemerkungAbleiten(
-  slug: string,
-  ausspielFarbe: FarbCode | null,
-  trumpf?: FarbCode
-): string | undefined {
-  const farbe = farbCodeAusSlug(slug);
-  if (!farbe || !ausspielFarbe || farbe === ausspielFarbe) return undefined;
-  if (trumpf && farbe === trumpf) return 'sticht';
-  return 'verworfen';
 }
 
 /** Rollen der vier Plätze — der Leser sitzt unten. */
@@ -86,10 +72,6 @@ export const JassTisch: React.FC<Props> = ({
   }, []);
 
   const plaetze: SitzBild[] = useMemo(() => sitzeOrdnen(sitze, zug), [sitze, zug]);
-  const ausspielFarbe = useMemo(() => {
-    const erster = plaetze.find((p) => p.nummer === 1 && p.slug);
-    return erster?.slug ? farbCodeAusSlug(erster.slug) : null;
-  }, [plaetze]);
 
   const handkarten = useMemo(
     () => (blatt ?? []).map((s) => karteAusSlug(s, system)).filter((k): k is JassKarte => Boolean(k)),
@@ -103,29 +85,13 @@ export const JassTisch: React.FC<Props> = ({
 
   const platzBild = (p: SitzBild) => {
     const karte = p.slug ? karteAusSlug(p.slug, system) : null;
-    const bemerkung = p.notiz ?? (p.slug ? bemerkungAbleiten(p.slug, ausspielFarbe, trumpf) : undefined);
-    const verworfen = !p.notiz && bemerkung === 'verworfen';
-
-    const name = (
-      <span
-        className={`jw-tisch-name ${
-          p.sitz === 'ich'
-            ? 'jw-tisch-name--sicht'
-            : p.sitz === 'partner'
-              ? 'jw-tisch-name--wir'
-              : 'jw-tisch-name--sie'
-        }`}
-      >
-        {rolle[p.sitz]}
-      </span>
-    );
 
     const platz = karte ? (
       <button
         type="button"
         onClick={() => setGross(karte)}
         aria-label={`${karte.name}, als ${p.nummer}. gelegt — ${rolle[p.sitz]}. Vergrössern`}
-        className={`jw-tisch-karte${verworfen ? ' jw-tisch-karte--verworfen' : ''}`}
+        className="jw-tisch-karte"
         data-sitz={p.sitz}
       >
         <img
@@ -151,29 +117,23 @@ export const JassTisch: React.FC<Props> = ({
       </div>
     );
 
-    const notiz = bemerkung ? (
-      <span className={`jw-tisch-notiz${verworfen ? ' jw-tisch-notiz--warn' : ''}`}>{bemerkung}</span>
-    ) : p.amZug ? (
-      <span className="jw-tisch-notiz">ist am Zug</span>
-    ) : p.luecke ? (
-      <span className="jw-tisch-notiz">hat gelegt</span>
-    ) : null;
+    const notiz = p.notiz ?? (p.amZug ? 'ist am Zug' : p.luecke ? 'hat gelegt' : undefined);
 
     return (
       <div key={p.sitz} className={`jw-tisch-sitz jw-tisch-sitz--${p.sitz}`}>
-        {p.sitz === 'partner' ? (
-          <>
-            {name}
-            {platz}
-            {notiz}
-          </>
-        ) : (
-          <>
-            {platz}
-            {name}
-            {notiz}
-          </>
-        )}
+        <span
+          className={`jw-tisch-name ${
+            p.sitz === 'ich'
+              ? 'jw-tisch-name--sicht'
+              : p.sitz === 'partner'
+                ? 'jw-tisch-name--wir'
+                : 'jw-tisch-name--sie'
+          }`}
+        >
+          {rolle[p.sitz]}
+        </span>
+        {platz}
+        {notiz ? <span className="jw-tisch-notiz">{notiz}</span> : null}
       </div>
     );
   };
@@ -205,50 +165,42 @@ export const JassTisch: React.FC<Props> = ({
       </div>
 
       <div className="jw-tisch-filz">
-        {titel ? <span className="jw-tisch-titel">{titel}</span> : null}
-        <div className="jw-tisch-raster">
-          {plaetze.map(platzBild)}
-          <div className="jw-tisch-mitte">
-            {trumpfBild ? (
-              <span className="jw-tisch-trumpf">
-                <img src={trumpfBild.bild} alt="" aria-hidden width={20} height={20} />
-                <span className="jw-tisch-trumpf-wort">
-                  Trumpf
-                  <strong>{trumpfBild.name}</strong>
-                </span>
+        <div className="jw-tisch-rand">
+          {titel ? <span className="jw-tisch-titel">{titel}</span> : <span />}
+          {trumpfBild ? (
+            <span className="jw-tisch-trumpf">
+              <img src={trumpfBild.bild} alt="" aria-hidden width={18} height={18} />
+              <span className="jw-tisch-trumpf-wort">
+                Trumpf <strong>{trumpfBild.name}</strong>
               </span>
-            ) : null}
-          </div>
+            </span>
+          ) : null}
         </div>
+        {plaetze.map(platzBild)}
       </div>
 
       {handkarten.length > 0 && (
         <div className="jw-tisch-blatt">
-          <span className="jw-tisch-blatt-marke">
-            {sicht === 'partner' ? 'Das Blatt des Partners' : 'Das Blatt des Ansagers'}
-          </span>
-          <div className="jw-tisch-blatt-band">
-            {handkarten.map((karte, i) => (
-              <button
-                key={`${karte.slug}-${i}`}
-                type="button"
-                onClick={() => setGross(karte)}
-                aria-label={`${karte.name} vergrössern`}
-                className="jw-karte"
-              >
-                <img
-                  src={karte.image}
-                  alt={karte.alt}
-                  title={karte.name}
-                  width={120}
-                  height={180}
-                  loading="lazy"
-                  className="jw-karte-bild"
-                />
-                <span className="jw-karte-name">{karte.name}</span>
-              </button>
-            ))}
-          </div>
+          {handkarten.map((karte, i) => (
+            <button
+              key={`${karte.slug}-${i}`}
+              type="button"
+              onClick={() => setGross(karte)}
+              aria-label={`${karte.name} vergrössern`}
+              className="jw-karte"
+            >
+              <img
+                src={karte.image}
+                alt={karte.alt}
+                title={karte.name}
+                width={120}
+                height={180}
+                loading="lazy"
+                className="jw-karte-bild"
+              />
+              <span className="jw-karte-name">{karte.name}</span>
+            </button>
+          ))}
         </div>
       )}
 

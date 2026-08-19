@@ -638,21 +638,24 @@ body.lexikon-page div[id="__next"] {
    JASSTISCH IM FLIESSTEXT (jw-tisch-*)
    Gesetzt im Inhalt über die Marke [[tisch: …]], dargestellt von JassTisch.
    Vier Plätze im Kreuz, der Leser sitzt unten, sein Partner gegenüber.
-   Der Filz ist gemalt (Verlauf + Gewebe), nicht fotografiert: so trägt er jedes
-   Seitenverhältnis — am Handy hochkant, am Schirm breit.
-   Grundton aus dem Arena-Teppich gemessen (Mitte #284F26, Rand #1B351A).
+
+   QUADRATISCHER Filz wie der Arena-Teppich (Remo, 19.08.2026); die Trumpfansage
+   steht oben am Rand, die Mitte gehört den vier Karten. Der Filz ist gemalt
+   (Verlauf + Gewebe), Grundton aus dem Arena-Teppich gemessen (Mitte #284F26,
+   Rand #1B351A).
+
+   Die Plätze sitzen in Prozent der Filzbreite, verankert an der Kartenmitte —
+   so bleibt das Bild bei jeder Grösse dasselbe, vom Handy bis zum Schirm. Die
+   Karte misst 22 % der Breite, ihre Höhe folgt dem Kartenformat 2:3.
    --------------------------------------------------------------------------- */
-/* Der Tisch ist ein Gegenstand, keine Bahn: er bleibt so breit wie nötig und
-   steht mittig im Satzspiegel. Sonst schwimmt das Kreuz auf einem Filz, der
-   dreimal so breit ist wie die Karten (gemessen: 809 px Artikel, 387 px Kreuz). */
 .jw-tisch {
-  max-width: 520px;
+  max-width: 480px;
   margin: 28px auto;
 }
 
 .jw-tisch-filz {
   position: relative;
-  padding: 14px 14px 16px;
+  aspect-ratio: 1 / 1;
   border-radius: 20px;
   background: radial-gradient(115% 95% at 50% 40%, #2e5a2b 0%, #264923 48%, #1b351a 100%);
   box-shadow:
@@ -683,11 +686,20 @@ body.lexikon-page div[id="__next"] {
   pointer-events: none;
 }
 
+/* Obere Kante: links der Stich, rechts die Ansage. */
+.jw-tisch-rand {
+  position: absolute;
+  top: 3.2%;
+  left: 5.5%;
+  right: 5.5%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .jw-tisch-titel {
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: 2px 0 6px 4px;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 11px;
   font-weight: 700;
@@ -696,50 +708,62 @@ body.lexikon-page div[id="__next"] {
   color: rgba(240, 238, 231, 0.62);
 }
 
-/* Kreuz: oben der Partner, unten der Leser, links und rechts die Gegner.
-   Die Breite ist an die Kartenbreite gebunden — auf einem breiten Filz bleibt
-   das Kreuz beisammen, statt in die Ecken zu wandern. */
-.jw-tisch-raster {
-  --jw-tisch-karte: clamp(62px, 17.5vw, 96px);
-  position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-areas:
-    '. oben .'
-    'links mitte rechts'
-    '. unten .';
+.jw-tisch-trumpf {
+  display: inline-flex;
   align-items: center;
-  justify-items: center;
-  gap: 6px 8px;
-  max-width: calc(var(--jw-tisch-karte) * 3.5);
-  margin: 0 auto;
+  gap: 6px;
+  padding: 4px 10px 4px 7px;
+  border-radius: 999px;
+  background: rgba(12, 26, 11, 0.32);
+  box-shadow: inset 0 0 0 1px rgba(240, 238, 231, 0.12);
+}
+.jw-tisch-trumpf img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+}
+.jw-tisch-trumpf-wort {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(240, 238, 231, 0.55);
+}
+.jw-tisch-trumpf-wort strong {
+  margin-left: 3px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #f0eee7;
 }
 
+/* Die vier Plätze. */
+/* Die Masse sind am 311-px-Filz des Handys nachgerechnet und gemessen: drei
+   Kartenhöhen, die Kopfzeile und vier Namensschilder teilen sich ein Quadrat.
+   Wer die Kartenbreite ändert, misst die vier Plätze neu nach. */
 .jw-tisch-sitz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  transform: translate(-50%, -50%);
 }
 .jw-tisch-sitz--partner {
-  grid-area: oben;
-}
-.jw-tisch-sitz--links {
-  grid-area: links;
-}
-.jw-tisch-sitz--rechts {
-  grid-area: rechts;
+  left: 50%;
+  top: 33.5%;
 }
 .jw-tisch-sitz--ich {
-  grid-area: unten;
+  left: 50%;
+  top: 70.5%;
 }
-.jw-tisch-mitte {
-  grid-area: mitte;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
+.jw-tisch-sitz--links {
+  left: 25%;
+  top: 53%;
+}
+.jw-tisch-sitz--rechts {
+  left: 75%;
+  top: 53%;
 }
 
 /* Die gelegte Karte. Der leichte Wurfwinkel je Platz ist fest, nicht zufällig:
@@ -747,7 +771,7 @@ body.lexikon-page div[id="__next"] {
 .jw-tisch-karte {
   position: relative;
   display: block;
-  width: var(--jw-tisch-karte);
+  width: 100%;
   cursor: zoom-in;
   transition: transform 0.15s ease;
 }
@@ -780,15 +804,6 @@ body.lexikon-page div[id="__next"] {
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.45);
 }
 
-/* Verworfen: die Fremdfarbe im Stich. Sie ist der Hinweis, auf den es ankommt,
-   darum bekommt sie als Einzige einen Rand — warm, damit sie sich vom Filz und
-   von den Kreidetönen abhebt, ohne die Karte zu verdecken. */
-.jw-tisch-karte--verworfen .jw-tisch-karte-bild {
-  box-shadow:
-    0 0 0 2px rgba(224, 176, 85, 0.85),
-    0 3px 9px rgba(0, 0, 0, 0.45);
-}
-
 /* Nummer im Stich: 1 = ausgespielt. Sitzt an der Kartenecke, halb daneben, und
    verdeckt darum kein Kartenbild. */
 .jw-tisch-nr {
@@ -812,7 +827,7 @@ body.lexikon-page div[id="__next"] {
    seiner Nummer — daran liest man, wie der Stich weitergeht. */
 .jw-tisch-leer {
   position: relative;
-  width: var(--jw-tisch-karte);
+  width: 100%;
   aspect-ratio: 2 / 3;
   border-radius: 7px;
   border: 1px dashed rgba(240, 238, 231, 0.22);
@@ -830,11 +845,15 @@ body.lexikon-page div[id="__next"] {
 }
 
 /* Rollen. Drei Stufen aus einer einzigen Kreide-Skala: gefüllt = der Leser,
-   umrandet hell = sein Partner, umrandet matt = die Gegner. */
+   umrandet hell = sein Partner, umrandet matt = die Gegner.
+   Der Name steht ausserhalb der Karte, beim Partner oben, sonst unten. */
 .jw-tisch-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 7px);
   display: inline-flex;
   align-items: center;
-  gap: 5px;
   padding: 3px 9px;
   border-radius: 999px;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -842,6 +861,10 @@ body.lexikon-page div[id="__next"] {
   font-weight: 700;
   line-height: 1.1;
   white-space: nowrap;
+}
+.jw-tisch-sitz--partner .jw-tisch-name {
+  top: auto;
+  bottom: calc(100% + 7px);
 }
 .jw-tisch-name--sicht {
   background: #f0eee7;
@@ -857,6 +880,11 @@ body.lexikon-page div[id="__next"] {
 }
 
 .jw-tisch-notiz {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 28px);
+  width: 170%;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 11px;
   font-weight: 600;
@@ -864,77 +892,30 @@ body.lexikon-page div[id="__next"] {
   text-align: center;
   color: rgba(200, 193, 171, 0.85);
 }
-.jw-tisch-notiz--warn {
-  color: #e0b055;
-}
-
-/* Mitte: die Ansage, die für die ganze Lage gilt — als eingelassenes Medaillon,
-   damit sie zwischen vier Karten standhält, statt als Fleck zu verschwinden. */
-.jw-tisch-trumpf {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  padding: 9px 12px 8px;
-  border-radius: 999px;
-  background: rgba(12, 26, 11, 0.3);
-  box-shadow: inset 0 0 0 1px rgba(240, 238, 231, 0.12);
-}
-.jw-tisch-trumpf img {
-  width: 26px;
-  height: 26px;
-  object-fit: contain;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
-}
-.jw-tisch-trumpf-wort {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(240, 238, 231, 0.55);
-}
-.jw-tisch-trumpf-wort strong {
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  text-transform: none;
-  color: #f0eee7;
+.jw-tisch-sitz--partner .jw-tisch-notiz {
+  top: calc(100% + 5px);
 }
 
 /* Das Blatt des Lesers, unter dem Tisch — dieselbe Sprache wie die Kartenreihe,
-   damit es als Hand gelesen wird und nicht als zweiter Stich. */
+   damit es als Hand gelesen wird und nicht als zweiter Stich. Ohne Aufschrift:
+   der Platz unter dem Tisch gehört später dem Knopf zum Nachspielen. */
 .jw-tisch-blatt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
   margin-top: 10px;
-  padding: 10px 12px 12px;
+  padding: 11px 12px 12px;
   border: 1px solid #e8e6df;
   border-radius: 14px;
   background: rgba(240, 238, 231, 0.4);
-}
-.jw-tisch-blatt-marke {
-  display: block;
-  margin-bottom: 8px;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #88816d;
-}
-.jw-tisch-blatt-band {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
   overflow-x: auto;
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
 }
 /* Die Hand steht unter dem Tisch, also auch unter ihm in der Grösse: der
    gelegte Stich bleibt das Hauptbild. */
-.jw-tisch-blatt-band .jw-karte {
+.jw-tisch-blatt .jw-karte {
   width: clamp(52px, 14vw, 84px);
 }
 
@@ -943,10 +924,7 @@ body.lexikon-page div[id="__next"] {
 }
 
 @media (max-width: 640px) {
-  .jw-tisch-filz {
-    padding: 12px 10px 14px;
-  }
-  .jw-tisch-blatt-band {
+  .jw-tisch-blatt {
     gap: 8px;
   }
   .jw-tisch .jw-karten-fuss {
