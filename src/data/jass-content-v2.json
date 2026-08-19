@@ -1973,7 +1973,7 @@
   },
   "expressions_matschpraemie": {
     "id": "expressions_matschpraemie",
-    "text": "Definition:\n• Wer einen Matsch (siehe Begriff \"matsch\") macht, schreibt 100 Extrapunkte zusätzlich, wenn die Runde nichts anderes abgemacht hat\n\nMultiplikator:\n• Spielt man mit einem Multiplikator wird die Matschprämie ebenfalls mit diesem Faktor multipliziert\n\nBeispiel:\n• Bei einem vierfachen Matsch ergibt sich aus 157 Punkten plus 100 Matschprämie multipliziert mit 4 ein Ergebnis von 1028 Punkten",
+    "text": "Wer einen Matsch (siehe Begriff \"matsch\") macht, schreibt 100 Punkte zusätzlich. Diese 100 heissen Matschprämie oder Matchbonus, beide Wörter sind am Tisch gebräuchlich. Eine Runde kann vor der Partie eine andere Höhe abmachen.\n\n## Mit einem Multiplikator\n\nSpielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Kartenpunkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.",
     "metadata": {
       "id": "expressions_matschpraemie_meta",
       "category": {
@@ -2001,7 +2001,7 @@
     "faqs": [
       {
         "question": "Was ist die Matschprämie?",
-        "answer": "Die Matschprämie sind zusätzliche 100 Punkte, die ein Team erhält, wenn es einen Matsch erzielt, sofern nicht anders vereinbart."
+        "answer": "Die Matschprämie, am Tisch auch Matchbonus genannt, sind 100 Punkte zusätzlich für die Partei, die einen Matsch macht."
       },
       {
         "question": "Wie hoch ist die Matschprämie?",
@@ -2024,6 +2024,11 @@
       "matsch",
       "ausmachregel",
       "expressions_team"
+    ],
+    "synonyms": [
+      "Matchbonus",
+      "Matschprämie",
+      "Matsch-Prämie"
     ]
   },
   "expressions_minuspunkte": {
@@ -2823,7 +2828,7 @@
   },
   "expressions_solokarte": {
     "id": "expressions_solokarte",
-    "text": "Definition:\n• Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt\n• Wer sie spielt, kann in dieser Farbe danach verwerfen\n• Wann er sie spielt, überlegt er sich gut",
+    "text": "Eine Solokarte ist die einzige Karte einer Farbe im Blatt. Am Tisch heisst sie auch blutte Karte: «Er hat den Sechser blutt.»\n\nWer sie spielt, ist die Farbe los und kann von da an in dieser Farbe verwerfen (siehe Begriff \"schieber_taktiken_verwerfen\"). Solange sie in der Hand bleibt, muss er sie bedienen, sobald die Farbe kommt, und sie fällt dann oft ohne Nutzen. Reicht sie für einen Stich, lohnt sich das Warten, sonst geht sie besser früh weg.",
     "metadata": {
       "id": "expressions_solokarte_meta",
       "category": {
@@ -2847,19 +2852,24 @@
     "faqs": [
       {
         "question": "Was ist eine Solokarte beim Jassen?",
-        "answer": "Eine Solokarte ist die einzige Karte einer Farbe, die ein Spieler in seinem Blatt besitzt."
+        "answer": "Eine Solokarte ist die einzige Karte einer Farbe im Blatt. Am Tisch heisst sie auch blutte Karte."
       },
       {
         "question": "Ist eine Solokarte gut oder schlecht?",
-        "answer": "Eine Solokarte kann beides sein, sie bietet taktische Möglichkeiten, birgt aber auch Risiken, weil man in dieser Farbe danach verwerfen kann."
+        "answer": "Beides. Wer sie spielt, ist die Farbe los und kann darin verwerfen. Solange sie in der Hand bleibt, muss er sie bedienen, sobald die Farbe kommt."
       },
       {
         "question": "Wann spielt man eine Solokarte?",
-        "answer": "Der richtige Zeitpunkt zum Spielen einer Solokarte hängt von der taktischen Situation ab, manchmal will man schnell abwerfen können, manchmal eine wichtige Karte schützen."
+        "answer": "Reicht sie für einen Stich, lohnt sich das Warten. Sonst geht sie besser früh weg, damit er in dieser Farbe verwerfen kann."
       }
     ],
     "see_also": [
       "expressions_weis"
+    ],
+    "synonyms": [
+      "blutte Karte",
+      "blutt",
+      "Solokarte"
     ]
   },
   "expressions_stapel": {
@@ -3491,7 +3501,7 @@
   },
   "expressions_vogel": {
     "id": "expressions_vogel",
-    "text": "Definition:\n• Ein Vogel wird als «V» angeschrieben\n\nZwick-Jass:\n• Beim Zwick-Jass (siehe Begriff \"variants_multi_player_zwick_jass\") entspricht dies fünf Nullern, die abverdient werden müssen\n\nSchieber:\n• Beim Schieber bedeutet ein Vogel 500 Schreibpunkte\n\nVerwendung:\n• Dieser Begriff wird verwendet, um bestimmte Spielsituationen zu dokumentieren und in die Abrechnung einzubeziehen",
+    "text": "Ein Vogel ist ein «V» auf der Tafel. Was er zählt, hängt von der Jassart ab.\n\nBeim Zwick-Jass (siehe Begriff \"variants_multi_player_zwick_jass\") steht ein Vogel für fünf Nuller (siehe Begriff \"expressions_nuller\"), die abverdient werden müssen. Beim Schieber zählt er 500 Schreibpunkte.",
     "metadata": {
       "id": "expressions_vogel_meta",
       "category": {
