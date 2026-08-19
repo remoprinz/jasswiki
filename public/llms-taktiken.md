@@ -306,7 +306,7 @@ Ebenfalls wichtig: Ob ein Slalom hoch oder tief beginnt, ist gerade in der Defen
 
 ---
 
-### Hoch-tief / Tief-hoch {#schieber_taktiken_hoch_tief}
+### Austrumpfen: hoch oder tief {#schieber_taktiken_hoch_tief}
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
@@ -321,6 +321,8 @@ Sie beantwortet dem Ansager die Frage, an der der Matsch hängt: Reicht einmal A
 Beides zeigt er im ersten Trumpfstich:
 
 
+
+**Tief-hoch macht den Matsch, hoch-tief nicht.** Wer drei Trümpfe zeigt, sagt dem Ansager, dass er aufhören kann, und genau das lässt dem Partner die Trümpfe, die den Matsch holen.
 
 Zwingend ist allein die erste Karte. Bei drei und mehr Trümpfen muss sie die tiefste sein, sonst stimmt die Auskunft nicht. Die zweite darf irgendeine höhere sein, denn schon der Sprung nach oben sagt alles.
 
