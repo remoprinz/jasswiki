@@ -634,6 +634,412 @@ body.lexikon-page div[id="__next"] {
   }
 }
 
+/* ---------------------------------------------------------------------------
+   JASSTISCH IM FLIESSTEXT (jw-tisch-*)
+   Gesetzt im Inhalt über die Marke [[tisch: …]], dargestellt von JassTisch.
+   Vier Plätze im Kreuz, unten sitzt, wer erzählt, sein Partner gegenüber.
+
+   Die Plätze tragen SCHIRM-Namen (--unten/--rechts/--oben/--links), nicht die
+   Sitznamen der Marke: `sicht partner` dreht den Filz um einen halben Tisch, und
+   dann sitzt der Ansager oben. Wer hier etwas verschiebt, verschiebt einen Platz
+   auf dem Schirm — die Zuordnung Sitz → Platz rechnet tischMarke.schirmPlatz.
+
+   QUADRATISCHER Filz wie der Arena-Teppich (Remo, 19.08.2026); die Trumpfansage
+   steht oben am Rand, die Mitte gehört den vier Karten. Der Filz ist gemalt
+   (Verlauf + Gewebe), Grundton aus dem Arena-Teppich gemessen (Mitte #284F26,
+   Rand #1B351A).
+
+   Die Plätze sitzen in Prozent der Filzbreite, verankert an der Kartenmitte —
+   so bleibt das Bild bei jeder Grösse dasselbe, vom Handy bis zum Schirm. Die
+   Karte misst 22 % der Breite, ihre Höhe folgt dem Kartenformat 2:3.
+   --------------------------------------------------------------------------- */
+.jw-tisch {
+  max-width: 480px;
+  margin: 28px auto;
+}
+
+/* Kopfzeile: links die Marke und darunter der Blickwinkel, rechts der
+   Umschalter. Die zwei Zeilen sind zusammen so hoch wie der Umschalter — die
+   Perspektive kostet damit keine zusätzliche Höhe (Remo, 19.08.2026:
+   «aus welcher perspektive?»). */
+.jw-tisch-kopf-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.jw-tisch-sicht {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #274823;
+}
+
+.jw-tisch-filz {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+  background: radial-gradient(115% 95% at 50% 40%, #2e5a2b 0%, #264923 48%, #1b351a 100%);
+  box-shadow:
+    inset 0 0 42px rgba(0, 0, 0, 0.38),
+    0 10px 24px -14px rgba(0, 0, 0, 0.6);
+}
+
+/* Gewebe: zwei feine Schraffuren übereinander, kaum sichtbar, aber der Filz
+   wirkt damit gewoben statt gestrichen. */
+.jw-tisch-filz::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0 1px, transparent 1px 3px);
+}
+
+/* Einfassung wie am Arena-Teppich: eine helle Naht knapp innerhalb der Kante. */
+.jw-tisch-filz::after {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border-radius: 14px;
+  border: 1px solid rgba(240, 238, 231, 0.1);
+  pointer-events: none;
+}
+
+/* Obere Kante: links der Stich, rechts die Ansage. */
+.jw-tisch-rand {
+  position: absolute;
+  top: 3.2%;
+  left: 5.5%;
+  right: 5.5%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.jw-tisch-titel {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(240, 238, 231, 0.62);
+}
+
+.jw-tisch-trumpf {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 7px;
+  border-radius: 999px;
+  background: rgba(12, 26, 11, 0.32);
+  box-shadow: inset 0 0 0 1px rgba(240, 238, 231, 0.12);
+}
+.jw-tisch-trumpf img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+}
+.jw-tisch-trumpf-wort {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(240, 238, 231, 0.55);
+}
+.jw-tisch-trumpf-wort strong {
+  margin-left: 3px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #f0eee7;
+}
+
+/* Die vier Plätze. */
+/* Die Masse sind am 311-px-Filz des Handys nachgerechnet und gemessen: drei
+   Kartenhöhen, die Kopfzeile und vier Namensschilder teilen sich ein Quadrat.
+   Wer die Kartenbreite ändert, misst die vier Plätze neu nach. */
+.jw-tisch-sitz {
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  transform: translate(-50%, -50%);
+}
+.jw-tisch-sitz--oben {
+  left: 50%;
+  top: 33.5%;
+}
+.jw-tisch-sitz--unten {
+  left: 50%;
+  top: 70.5%;
+}
+.jw-tisch-sitz--links {
+  left: 25%;
+  top: 53%;
+}
+.jw-tisch-sitz--rechts {
+  left: 75%;
+  top: 53%;
+}
+
+/* Die gelegte Karte. Der leichte Wurfwinkel je Platz ist fest, nicht zufällig:
+   dasselbe Bild bei jedem Aufruf, und man sieht, dass geworfen wurde. */
+.jw-tisch-karte {
+  position: relative;
+  display: block;
+  width: 100%;
+  cursor: zoom-in;
+  transition: transform 0.15s ease;
+}
+.jw-tisch-karte[data-platz='unten'] {
+  transform: rotate(2.5deg);
+}
+.jw-tisch-karte[data-platz='rechts'] {
+  transform: rotate(7deg);
+}
+.jw-tisch-karte[data-platz='oben'] {
+  transform: rotate(-3deg);
+}
+.jw-tisch-karte[data-platz='links'] {
+  transform: rotate(-7deg);
+}
+.jw-tisch-karte:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+.jw-tisch-karte:focus-visible {
+  outline: 2px solid #f0eee7;
+  outline-offset: 3px;
+}
+
+.jw-tisch-karte-bild {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  border-radius: 7px;
+  background: #ffffff;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.45);
+}
+
+/* Nummer im Stich: 1 = ausgespielt. Sitzt an der Kartenecke, halb daneben, und
+   verdeckt darum kein Kartenbild. */
+.jw-tisch-nr {
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  width: 21px;
+  height: 21px;
+  border-radius: 999px;
+  background: #f0eee7;
+  color: #1b351a;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+/* Platz ohne Karte. Wer als Nächster legt, bekommt den offenen Umriss samt
+   seiner Nummer — daran liest man, wie der Stich weitergeht. */
+.jw-tisch-leer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 7px;
+  border: 1px dashed rgba(240, 238, 231, 0.22);
+}
+.jw-tisch-leer--zug {
+  border-color: rgba(240, 238, 231, 0.5);
+  background: rgba(240, 238, 231, 0.05);
+}
+.jw-tisch-nr--offen {
+  background: transparent;
+  color: #f0eee7;
+  border: 1px dashed rgba(240, 238, 231, 0.6);
+  line-height: 19px;
+  box-shadow: none;
+}
+
+/* Rollen. Drei Stufen aus einer einzigen Kreide-Skala: gefüllt = der Leser,
+   umrandet hell = sein Partner, umrandet matt = die Gegner.
+   Der Name steht ausserhalb der Karte, beim Partner oben, sonst unten. */
+.jw-tisch-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 7px);
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.jw-tisch-sitz--oben .jw-tisch-name {
+  top: auto;
+  bottom: calc(100% + 7px);
+}
+.jw-tisch-name--sicht {
+  background: #f0eee7;
+  color: #1b351a;
+}
+.jw-tisch-name--wir {
+  color: #f0eee7;
+  border: 1px solid rgba(240, 238, 231, 0.55);
+}
+.jw-tisch-name--sie {
+  color: #c8c1ab;
+  border: 1px solid rgba(200, 193, 171, 0.3);
+}
+
+/* Bemerkung an einem Platz. Sie liegt VOR allem anderen und trägt eine eigene
+   dunkle Unterlage: am schmalen Filz streift sie sonst die Nummer der
+   nachbarlichen Karte, und ein Wort, das halb hinter einem Kreis steht, ist
+   schlimmer als eines, das eine Spur Filz verdeckt (gemessen 20.08.2026). */
+.jw-tisch-notiz {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 28px);
+  width: max-content;
+  max-width: 165%;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(16, 33, 15, 0.78);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(219, 213, 196, 0.92);
+}
+/* Am oberen Platz fällt die Bemerkung in die Mitte des Filzes, wo die Nummer
+   der unteren Karte sitzt. Sie rückt darum eng an ihre Karte, und die Nummer
+   unten weicht ihr um vier Pixel aus — gemessen: damit berühren sich die
+   beiden auch am 311er-Filz nicht mehr. */
+.jw-tisch-sitz--oben .jw-tisch-notiz {
+  top: calc(100% + 2px);
+  padding: 0 6px;
+}
+.jw-tisch-sitz--unten .jw-tisch-nr {
+  top: -4px;
+}
+
+/* Im leeren Umriss steht die Bemerkung mittig, unter der Nummer — dort ist
+   Raum, und sie braucht dann keine Unterlage. */
+.jw-tisch-notiz--innen {
+  top: auto;
+  bottom: 16%;
+  max-width: 96%;
+  padding: 0;
+  background: none;
+}
+
+/* Das Blatt des Erzählers, unter dem Tisch — dieselbe Sprache wie die
+   Kartenreihe, damit es als Hand gelesen wird und nicht als zweiter Stich. Ohne
+   Aufschrift: der Platz unter dem Tisch gehört später dem Knopf zum Nachspielen.
+
+   Die Hand UMBRICHT, statt zu rollen. Ein Bild, das seitlich weiterläuft,
+   verschweigt Karten — und eine Hand mit neun Karten passt bei keiner Breite in
+   eine Zeile (gemessen 20.08.2026: fünf Karten rollten schon am 480er-Schirm). */
+.jw-tisch-blatt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 11px 12px 12px;
+  border: 1px solid #e8e6df;
+  border-radius: 14px;
+  background: rgba(240, 238, 231, 0.4);
+}
+/* Die Hand steht unter dem Tisch, also auch unter ihm in der Grösse: der
+   gelegte Stich bleibt das Hauptbild. */
+.jw-tisch-blatt .jw-karte {
+  width: clamp(52px, 14vw, 84px);
+}
+
+.jw-tisch .jw-karten-fuss {
+  margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+  .jw-tisch-blatt {
+    gap: 8px;
+  }
+  .jw-tisch .jw-karten-fuss {
+    flex-direction: column;
+    gap: 6px;
+  }
+  /* Am 311er-Filz rückt die Kopfleiste dem oberen Namensschild auf die Pelle
+     (gemessen 20.08.2026: 6 px Überschneidung). Sie rutscht darum höher und
+     trägt ein kleineres Trumpfzeichen; ab 480 px bleibt alles wie gehabt. */
+  .jw-tisch-rand {
+    top: 2.4%;
+  }
+  .jw-tisch-trumpf {
+    padding: 2px 8px 2px 6px;
+  }
+  .jw-tisch-trumpf img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* Gedruckt bleibt der Filz weiss: ein volles Grün auf Papier frisst Toner und
+   drückt die Karten weg. Die Rollen tragen dann Rand statt Fläche. */
+@media print {
+  .jw-tisch-filz {
+    background: #ffffff;
+    border: 1px solid #c8c1ab;
+    box-shadow: none;
+  }
+  .jw-tisch-filz::before,
+  .jw-tisch-filz::after {
+    display: none;
+  }
+  .jw-tisch-titel,
+  .jw-tisch-trumpf-wort,
+  .jw-tisch-trumpf-wort strong {
+    color: #1b351a;
+  }
+  .jw-tisch-trumpf {
+    background: #f0eee7;
+    box-shadow: inset 0 0 0 1px #c8c1ab;
+  }
+  .jw-tisch-name--sicht {
+    background: #1b351a;
+    color: #ffffff;
+  }
+  .jw-tisch-name--wir,
+  .jw-tisch-name--sie {
+    color: #1b351a;
+    border-color: #88816d;
+  }
+  .jw-tisch-notiz {
+    color: #444444;
+    background: none;
+  }
+  .jw-tisch-nr {
+    border: 1px solid #1b351a;
+  }
+  .jw-tisch-leer {
+    border-color: #c8c1ab;
+  }
+}
 /* Karten-Titel (innerhalb von .group-Containern): schwarz, nur bei Hover rot. */
 .content-formatting .group h2,
 .content-formatting .group h3,

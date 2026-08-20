@@ -23,6 +23,11 @@ interface Props {
   /** Beschriftung unter der Reihe (optional). */
   beschriftung?: string;
   /**
+   * Aufschrift über der Reihe, dritter Teil der Marke — z. B. «Mein Blatt»,
+   * «Der Stich», «Weis». Fehlt sie, steht dort «Jasskarten».
+   */
+  aufschrift?: string;
+  /**
    * Zeigt den Umschalter Deutsch/Französisch über der Reihe. Der Renderer
    * setzt ihn nur bei der ersten Kartenreihe eines Artikels (Remo, 17.08.2026);
    * die Wahl gilt für alle Reihen der Seite.
@@ -32,13 +37,24 @@ interface Props {
 
 /**
  * Eine Reihe echter Jasskarten im Artikeltext.
- * Gesetzt wird sie im Inhalt über die Marke [[karten: slug, slug | Beschriftung]];
- * der Renderer (InternalLinker) löst sie auf. Das Kartensystem folgt der Wahl
- * des Lesers, Vorgabe ist das Deutschschweizer Blatt.
+ * Gesetzt wird sie im Inhalt über die Marke
+ * [[karten: slug, slug | Beschriftung | Aufschrift]]; der Renderer
+ * (InternalLinker) löst sie auf. Das Kartensystem folgt der Wahl des Lesers,
+ * Vorgabe ist das Deutschschweizer Blatt.
+ *
+ * Die Aufschrift sagt, WAS die Reihe zeigt (SCHIEDSRICHTER, 20.08.2026): Zwei
+ * Bänder untereinander sahen bis dahin gleich aus, obwohl das eine eine Hand
+ * zeigte und das andere die Karten eines Stichs — genau daran blieb Remo am
+ * 20.08. hängen. Fehlt der dritte Teil, steht dort «Jasskarten» wie bisher.
  *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg).
  */
-export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung, mitWahl = true }) => {
+export const JassKartenReihe: React.FC<Props> = ({
+  slugs,
+  beschriftung,
+  aufschrift,
+  mitWahl = true,
+}) => {
   const system = useKartensystem();
   const [gross, setGross] = useState<JassKarte | null>(null);
 
@@ -56,7 +72,7 @@ export const JassKartenReihe: React.FC<Props> = ({ slugs, beschriftung, mitWahl 
   return (
     <figure className="jw-karten-reihe not-prose">
       <div className="jw-karten-kopf">
-        <span className="jw-karten-marke">Jasskarten</span>
+        <span className="jw-karten-marke">{aufschrift?.trim() || 'Jasskarten'}</span>
         {mitWahl && (
           <div className="jw-karten-wahl" role="group" aria-label="Kartensystem wählen">
             <button

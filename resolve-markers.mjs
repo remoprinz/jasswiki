@@ -16,16 +16,29 @@ export function buildIdToTopic(allContent) {
 }
 
 /**
- * Entfernt die Karten-Marke [[karten: …]] aus dem Text.
- * Sie steuert allein die Bebilderung im Browser; Korpus, llms-*.md und jede
- * andere maschinenlesbare Ausgabe bekommen den reinen Satz.
+ * Bauform jeder Marke: [[schlüssel: inhalt]] — Schlüssel auf einer Zeile, der
+ * Inhalt darf umbrechen. Wortgleich mit MARKE_BAUFORM in
+ * src/components/wissen/kartenMarke.ts; wer eine Seite ändert, ändert beide.
+ */
+const MARKE_BAUFORM = String.raw`\[\[[^\[\]\n]{0,40}:(?:[^\[\]\n]|\n(?![ \t]*\n)){0,800}?\]\]`;
+
+/** Notbremse: was danach noch nach einer Marke aussieht, geht auch. */
+const MARKE_RUINE = /\[\[[^\[\]\n]{0,40}:[^\n]*/g;
+const MARKE_SCHLUSS_ALLEIN = /^[ \t]*\]\][ \t]*\n?/gm;
+
+/**
+ * Entfernt jede Marke ([[karten: …]], [[tisch: …]] und jede weitere) aus dem
+ * Text. Sie steuert allein die Bebilderung im Browser; Korpus, llms-*.md und
+ * jede andere maschinenlesbare Ausgabe bekommen den reinen Satz.
  * Gegenstück im Browser: src/components/wissen/kartenMarke.ts
  */
 export function entferneKartenMarken(text) {
   if (typeof text !== 'string') return text;
   return text
-    .replace(/^[ \t]*\[\[[^\]\n]*:[^\]\n]*\]\][ \t]*\n?/gm, '')
-    .replace(/\[\[[^\]\n]*:[^\]\n]*\]\]/g, '');
+    .replace(new RegExp(String.raw`^[ \t]*${MARKE_BAUFORM}[ \t]*\n?`, 'gm'), '')
+    .replace(new RegExp(MARKE_BAUFORM, 'g'), '')
+    .replace(MARKE_RUINE, '')
+    .replace(MARKE_SCHLUSS_ALLEIN, '');
 }
 
 export function resolveMarkers(text, idToTopic = {}) {

@@ -187,3 +187,89 @@ export const ALL_CARDS: KartenSuchItem[] = KARTENSYSTEME.flatMap((sys) =>
     }))
   )
 );
+
+// ---------------------------------------------------------------------------
+// Farbe eines Slugs — Grundlage des Jasstischs [[tisch: …]]:
+// Trumpfzeichen in der Mitte und die Frage, ob eine Karte gefarbt, gestochen
+// oder verworfen wurde. Der Code (E/R/S/L) gilt in beiden Kartensystemen.
+// ---------------------------------------------------------------------------
+
+export type FarbCode = JassFarbe['code'];
+
+export interface FarbAnzeige {
+  code: FarbCode;
+  /** Farbwort im gewählten System, z. B. 'Eichel' oder 'Kreuz'. */
+  name: string;
+  /** Zeichen aus dem Pictogramm-Set, z. B. '/suits/eichel.png'. */
+  bild: string;
+}
+
+const FARB_ANZEIGE = new Map<string, FarbAnzeige>();
+[
+  { system: 'de' as System, suits: SUITS_DE },
+  { system: 'fr' as System, suits: SUITS_FR },
+].forEach(({ system, suits }) =>
+  suits.forEach((suit) =>
+    FARB_ANZEIGE.set(`${system}:${suit.code}`, {
+      code: suit.code,
+      name: suit.name,
+      bild: `/suits/${suit.file}.png`,
+    })
+  )
+);
+
+/** Farbcode zu einem Karten-Slug; unbekannter Slug → null. */
+export function farbCodeAusSlug(slug: string): FarbCode | null {
+  return ORT_JE_SLUG.get(slug.trim().toLowerCase())?.code ?? null;
+}
+
+/** Farbwort und Zeichen im gewählten Kartensystem. */
+export function farbAnzeige(code: FarbCode, system: System): FarbAnzeige | null {
+  return FARB_ANZEIGE.get(`${system}:${code}`) ?? null;
+}
+
+// ---------------------------------------------------------------------------
+// DIE ORDNUNG DES BLATTS (Remo, 20.08.2026, regelauskunft/KARTENBILD.md):
+// «die tiefste karte muss immer links sein. die höchste rechts!!! wobei nell und
+// puur einfach als 9 und U gelten. also immer von links nach rechts
+// 6, 7, 8, 9, 10, U, O, K, A — immer!!!»
+//
+// Sie gilt für jede Kartenreihe im Wiki und darum auch für die Handkarten am
+// Jasstisch [[tisch: …]]. Farben stehen am Stück, jede Farbe einmal; die
+// Trumpffarbe steht voran. Geprüft wird die Ordnung im Sprachwächter
+// («G · Kartenreihe verkehrt sortiert»), der dieselbe Folge kennt.
+// ---------------------------------------------------------------------------
+
+// Rang-Positionen (0 = Ass … 8 = Sechs) von der tiefsten zur höchsten Karte.
+const BLATT_FOLGE: readonly number[] = [8, 7, 6, 5, 4, 3, 2, 1, 0];
+
+/**
+ * Sortiert Karten-Slugs in die Ordnung des Blatts: links die tiefste Karte,
+ * rechts die höchste. Die Trumpffarbe steht voran, die übrigen Farben folgen in
+ * der Reihenfolge ihres ersten Auftretens — jede Farbe am Stück. Unbekannte
+ * Slugs bleiben in ihrer Reihenfolge am Schluss stehen.
+ */
+export function blattOrdnen(slugs: string[], trumpf?: FarbCode | null): string[] {
+  const eintraege = slugs.map((slug, i) => ({
+    slug,
+    i,
+    ort: ORT_JE_SLUG.get(slug.trim().toLowerCase()),
+  }));
+
+  // Farbfolge: Trumpf zuerst, danach so, wie die Farben geschrieben stehen.
+  const farbFolge: FarbCode[] = trumpf ? [trumpf] : [];
+  for (const e of eintraege) {
+    if (e.ort && !farbFolge.includes(e.ort.code)) farbFolge.push(e.ort.code);
+  }
+
+  return eintraege
+    .sort((a, b) => {
+      if (!a.ort || !b.ort) return (a.ort ? 0 : 1) - (b.ort ? 0 : 1) || a.i - b.i;
+      return (
+        farbFolge.indexOf(a.ort.code) - farbFolge.indexOf(b.ort.code) ||
+        BLATT_FOLGE.indexOf(a.ort.rangIndex) - BLATT_FOLGE.indexOf(b.ort.rangIndex) ||
+        a.i - b.i
+      );
+    })
+    .map((e) => e.slug);
+}
