@@ -59,6 +59,19 @@ const FREMDWOERTER = [
   'darüber hinaus', 'nicht zuletzt', 'seien Sie sich bewusst',
 ];
 
+// --- G: die Ordnung des Blatts ------------------------------------------------
+/**
+ * Remo, 20.08.2026: «die tiefste karte muss immer links sein. die höchste rechts!!!
+ * wobei nell und puur einfach als 9 und U gelten. also immer von links nach rechts
+ * 6, 7, 8, 9, 10, U, O, K, A — immer!!! auch wenn wir ein hoch-tief beispiel haben
+ * muss das ass rechts sein.»
+ *
+ * Der Rang der Karte im Spiel bleibt davon unberührt: Puur und Nell stechen weiterhin
+ * alles, sie stehen bloss dort, wo das Auge sie sucht. Was eine Reihe zeigen soll,
+ * sagt die Bildlegende, nie die Reihenfolge. Ganze Doktrin: regelauskunft/KARTENBILD.md
+ */
+const KARTEN_ORDNUNG = ['6', '7', '8', '9', 'banner', 'under', 'ober', 'koenig', 'ass'];
+
 // --- F: Wendungen, die am Jasstisch niemand ausspricht ------------------------
 /**
  * WORTLAUT-EICHUNG (Remo, 18.08.2026). Er fand die Überschrift «Der König nimmt den
@@ -123,6 +136,21 @@ const AUSNAHMEN = {
     expressions_matschpraemie: ['1028'],// vierfacher Matsch, im Text als Rechnung
     kontermatsch: ['257'],              // wie der Matsch, Schieber
   },
+  // Artikel-ID → Kartenreihen, die absichtlich anders stehen als das Blatt.
+  // Erlaubt ist genau ein Grund: Die Reihe ZEIGT eine Rangfolge, ihre Ordnung ist
+  // also der Inhalt. Sortiert man sie ins Blatt, zeigt sie nichts mehr. Alles
+  // andere folgt der Ordnung 6 7 8 9 Banner Under Ober König Ass.
+  kartenreihen: {
+    variants_strategic_bieder: [
+      'schellen-under, schellen-9',   // Stichfolge im Trumpf
+      'eichel-ass, eichel-koenig',    // Stichfolge im Obenabe
+      'rosen-ass, rosen-koenig',      // Stichfolge im Hindersi
+    ],
+    variants_strategic_pandur: [
+      'schellen-under, schellen-9',   // Trumpffarbe in ihrer Stichfolge
+      'eichel-ass, eichel-koenig',    // jede andere Farbe in ihrer Stichfolge
+    ],
+  },
 };
 
 const zahlenAusText = (text) => {
@@ -181,6 +209,46 @@ const lauf = async () => {
           fund: `«${treffer[0]}»`,
           warum: `${warum} Prüfen mit: grep -ric "…" regelauskunft/EICHQUELLE/`,
         });
+      }
+    }
+
+    // G — Kartenreihen stehen immer in der Ordnung des Blatts
+    for (const reihe of text.matchAll(/\[\[karten:\s*([^|\]]+)/g)) {
+      const slugs = reihe[1].split(',').map((s) => s.trim()).filter(Boolean);
+      if (AUSNAHMEN.kartenreihen?.[schluessel]?.some((a) => reihe[0].includes(a))) continue;
+      const gesehen = [];
+      let vorigeFarbe = null;
+      let vorigerRang = -1;
+      for (const slug of slugs) {
+        const strich = slug.lastIndexOf('-');
+        const farbe = slug.slice(0, strich);
+        const rang = KARTEN_ORDNUNG.indexOf(slug.slice(strich + 1));
+        if (rang < 0) continue;
+        if (farbe !== vorigeFarbe) {
+          if (gesehen.includes(farbe)) {
+            fehler.push({
+              artikel: schluessel,
+              pruefung: 'G · Kartenreihe verkehrt sortiert',
+              fund: `Farbe «${farbe}» kommt in «${slugs.join(', ')}» zweimal vor`,
+              warum: 'Eine Reihe ordnet nach Farbe, jede Farbe steht am Stück (Remo, 20.08.).',
+            });
+            break;
+          }
+          gesehen.push(farbe);
+          vorigeFarbe = farbe;
+          vorigerRang = rang;
+          continue;
+        }
+        if (rang < vorigerRang) {
+          fehler.push({
+            artikel: schluessel,
+            pruefung: 'G · Kartenreihe verkehrt sortiert',
+            fund: `«${slugs.join(', ')}»`,
+            warum: 'Links steht die tiefste Karte, rechts die höchste: 6, 7, 8, 9, Banner, Under, Ober, König, Ass. Nell und Puur zählen dabei als Neun und Under (Remo, 20.08.). Was gemeint ist, sagt die Bildlegende.',
+          });
+          break;
+        }
+        vorigerRang = rang;
       }
     }
 
