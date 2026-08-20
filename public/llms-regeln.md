@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 format: "markdown"
 encoding: "utf-8"
 ---

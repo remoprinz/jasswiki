@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 70
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 format: "markdown"
 encoding: "utf-8"
 ---

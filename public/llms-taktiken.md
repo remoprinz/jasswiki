@@ -4,7 +4,7 @@ description: "Fortgeschrittene Spieltaktiken für erfahrene Jasser"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 11
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -395,13 +395,25 @@ Die erste dieser Karten spielt er im ersten Trumpfstich, die zweite im nächsten
 
 Zwingend ist allein die erste Karte. Bei drei und mehr Trümpfen muss sie die tiefste sein, sonst stimmt die Auskunft nicht. Die zweite darf irgendeine höhere sein, denn schon der Sprung nach oben sagt alles.
 
-Puur und Nell stehen ausserhalb dieser Konvention. Was mit ihnen gilt, steht weiter unten.
+Hält der Partner den Puur oder das Nell, so steht er ausserhalb dieser Konvention. Was dann gilt, steht weiter unten.
 
 ## Wer das Signal setzt
 
 Das Signal setzt immer der Partner des Trumpfansagers, und immer im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 
-Sobald der Partner Puur oder Nell hat, gilt die Konvention nicht. Wie in diesem Fall gespielt wird, steht im letzten Abschnitt.
+Entscheidend ist dabei, in wessen Hand Puur und Nell liegen. **Hält sie der Ansager selbst, gilt die Konvention weiter.** Hält sie sein Partner, ruht sie, und wie dann gespielt wird, steht im letzten Abschnitt.
+
+## Woran der Ansager hoch von tief unterscheidet
+
+Hoch und tief sind keine festen Ränge. Der Ansager liest sie aus seinem eigenen Blatt und dem Stich, der vor ihm liegt.
+
+
+
+Der Achter meines Partners sieht tief aus. Ich rechne trotzdem nach. Gespielt sind Nell, Ober, Achter und Banner, in meiner Hand liegen Sechser, Puur und König. Von neun bleiben **zwei** übrig, das Ass und der Siebner.
+
+Hielte mein Partner drei Trümpfe, so wäre der Siebner darunter, und den hätte er gespielt. Den Sechser halte ich selbst. Also hat er entweder den Achter blutt oder genau zwei, den Achter und den Siebner.
+
+**Der Achter war hier hoch.** Ich trumpfe nochmals aus.
 
 ## Weshalb die Konvention wichtig ist
 
@@ -495,10 +507,11 @@ Diese Freiheit gilt allein für den blutten Puur. Liegt ein zweiter Trumpf in de
 - **Wer setzt das Signal, wenn geschoben wurde?** Immer der Partner des Trumpfansagers, im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 - **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht.
 - **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr und bleiben genau zwei übrig, so liegen beide bei ihm, und die Gegner sind ausgetrumpft. Bleiben drei übrig, trumpft er nochmals aus.
-- **Was gilt, wenn ich den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft.
+- **Was gilt, wenn ich als Partner den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft. Hält umgekehrt der Trumpfansager Puur oder Nell, so gilt die Konvention für dich weiter.
 - **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
 - **Was heisst tief-hoch beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seine tiefste Trumpfkarte. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
+- **Woran erkennt der Trumpfansager, ob die Karte seines Partners hoch oder tief war?** An seinem eigenen Blatt und am Stich. Er zählt, welche Trümpfe übrig bleiben. Liegt darunter eine tiefere als die gespielte Karte, so hätte sein Partner diese gespielt, wenn er drei oder mehr hielte. Also war die gespielte Karte hoch.
 
 *Keywords: hoch, tief, kommunikation, signale, fortgeschritten*
 
