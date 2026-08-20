@@ -405,11 +405,13 @@ Entscheidend ist dabei, in wessen Hand Puur und Nell liegen. **Hält sie der Ans
 
 ## Woran der Ansager hoch von tief unterscheidet
 
-Hoch und tief sind keine festen Ränge. Der Ansager liest sie aus seinem eigenen Blatt und dem Stich, der vor ihm liegt.
+Hoch und tief sind keine festen Ränge. Der Ansager liest sie aus seinem eigenen Blatt und den Karten, die schon gespielt sind.
 
 
+Ich spiele das Nell aus. Der Gegner zur Rechten farbt den Ober, mein Partner legt den Achter, der Gegner zur Linken das Banner.
 
-Der Achter meines Partners sieht tief aus. Ich rechne trotzdem nach. Gespielt sind Nell, Ober, Achter und Banner, in meiner Hand liegen Sechser, Puur und König. Von neun bleiben **zwei** übrig, das Ass und der Siebner.
+
+Der Achter sieht tief aus. Ich rechne trotzdem nach. Gespielt sind Nell, Ober, Achter und Banner, in meiner Hand liegen Sechser, Puur und König. Von neun bleiben **zwei** übrig, das Ass und der Siebner.
 
 Hielte mein Partner drei Trümpfe, so wäre der Siebner darunter, und den hätte er gespielt. Den Sechser halte ich selbst. Also hat er entweder den Achter blutt oder genau zwei, den Achter und den Siebner.
 
@@ -430,6 +432,8 @@ In den drei folgenden Beispielen ist Eichel Trumpf, und der Ansager hält jedes 
 
 ## Beispiel 1: Der Partner spielt tief
 
+Der Ansager spielt das Nell aus, der Gegner zur Rechten farbt das Ass, der Partner legt die Sechs, der Gegner zur Linken den Achter.
+
 
 Der Ansager rechnet: Gespielt sind Nell, Sechs, Ass und Achter, das sind vier. In seiner Hand liegen Puur, König und Siebner, das sind drei. Von neun bleiben **zwei** übrig, der Ober und das Banner.
 
@@ -440,6 +444,8 @@ Sein Partner hat mit der Sechs die tiefste Karte gespielt, also hält er drei od
 ## Beispiel 2: Der Partner spielt hoch
 
 Dasselbe Blatt, dasselbe Ausspiel. Diesmal spielt der Partner eine hohe Karte.
+
+Der Ansager spielt wieder das Nell, der Gegner zur Rechten den Ober, der Partner das Ass, der Gegner zur Linken das Banner.
 
 
 Gespielt sind Nell, Ass, Ober und Banner, das sind vier. Der Ansager hält Puur, König und Siebner. Übrig bleiben **zwei**: der Achter und die Sechs.
@@ -452,8 +458,12 @@ Sein Partner hat hoch gespielt, also hält er genau zwei. Eine ist gespielt, ein
 
 Wieder dasselbe Blatt. Diesmal hat schon im ersten Stich ein Gegner keinen Trumpf mehr und spielt eine andere Farbe.
 
+Der Ansager spielt das Nell, der Gegner zur Rechten den Achter, der Partner die Sechs. Der Gegner zur Linken hat keinen Trumpf mehr und spielt ein Brättli in Rosen.
+
 
 Gespielt sind drei Trümpfe. Der Ansager hält drei. Übrig bleiben **drei**: Ass, Ober und Banner. Sein Partner hat tief gespielt, hält also mindestens zwei davon. Höchstens einer liegt beim Gegner, der noch Trumpf hat. Für diesen einen trumpft er nochmals aus.
+
+Der Ansager spielt den Puur, der Gegner zur Rechten sein Ass, der Partner das Banner, der vierte wieder eine andere Farbe.
 
 
 Jetzt sind sechs Trümpfe gespielt. Der Ansager hält König und Siebner, und übrig bleibt genau einer: der Ober. Sein Partner zeigte drei oder mehr und hat erst zwei gespielt, also gehört der Ober ihm.
