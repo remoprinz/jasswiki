@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-08-20
+last_updated: 2026-08-22
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1488,7 +1488,7 @@ Ausnahme letzter Stich:
 
 **Kategorie:** Weis-Regeln > Weispunkte
 
-Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Wer sie hält, meldet sie mit seiner ersten Karte. Schreiben darf die Partei mit dem höchsten Weis am Tisch. Es gibt zwei Arten: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
+Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Am Tisch heisst er auf Schweizerdeutsch **Wys**. Wer einen hält, meldet ihn mit seiner ersten Karte. Schreiben darf die Partei mit dem höchsten Weis am Tisch. Es gibt zwei Arten: **aufeinanderfolgende Karten derselben Farbe** und **vier gleiche Karten**. Dazu kommen die Stöck, die eigenen Regeln folgen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Dreiblatt bis Neunblatt: die Folgen
 
@@ -1611,8 +1611,9 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 - **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 - **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.
+- **Was heisst Wys beim Jassen?** Wys ist die schweizerdeutsche Form von Weis. Gemeint ist dasselbe: eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Am Tisch hört man Wys häufiger als Weis.
 
-*Keywords: weisen, weis, weise, wys, weispunkte*
+*Keywords: achtblatt, blattfolge, dreiblatt, dreiblatt vom ass, fünfblatt*
 
 ---
 
