@@ -1576,6 +1576,9 @@ Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das 
 Eine Karte darf gleichzeitig zu einer Folge und zu vier Gleichen gehören. Beide Weise müssen für sich gültig sein, und der wertvollere wird zuerst gemeldet. Manche Runden lassen den Kreuzweis nicht gelten. Wer so spielt, macht es vor der Partie ab.
 
 
+
+Der Rosen-König gehört zu beiden. Zusammen zählt der Kreuzweis 120 Punkte.
+
 Mehr dazu im Artikel Kreuzweis.
 
 ## Weis in Obenabe und Undenufe
@@ -2040,6 +2043,9 @@ Konsequenz:
 
 Von einem Kreuzweis spricht man, wenn eine Karte zugleich zu einer Folge und zu vier Gleichen gehört. Beide Weise gelten, jeder für sich. Schreibt die Partei, schreibt sie beide.
 
+
+
+Der Rosen-König gehört zu beiden. Zusammen zählt der Kreuzweis 120 Punkte.
 
 ## Wie der Kreuzweis gemeldet wird
 
