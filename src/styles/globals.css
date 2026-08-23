@@ -485,11 +485,19 @@ body.lexikon-page div[id="__next"] {
   background: rgba(240, 238, 231, 0.4);
 }
 
+/* Kopfzeile der Kartenreihe: links die Aufschrift, rechts der Umschalter.
+   Die Zeile UMBRICHT, statt den Umschalter zu quetschen (gemessen 23.08.2026):
+   Er trägt `overflow: hidden` und schnitt, sobald die Aufschrift lang wurde, sein
+   eigenes Wort «Französisch» ab — auf 375 px bis 25 px, auf 320 px bis 53 px.
+   Jetzt behält er sein Mass (`flex: 0 0 auto`) und rückt bei Bedarf auf eine
+   zweite Zeile. Damit ist die Länge der Aufschrift frei: «Stichfolge im
+   Undenufe» steht am Handy vollständig da, «Französisch» ebenso. */
 .jw-karten-kopf {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px 12px;
   margin-bottom: 10px;
 }
 
@@ -500,9 +508,12 @@ body.lexikon-page div[id="__next"] {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #88816d;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .jw-karten-wahl {
+  flex: 0 0 auto;
   display: inline-flex;
   border: 1px solid #d8d4c6;
   border-radius: 999px;
@@ -526,6 +537,12 @@ body.lexikon-page div[id="__next"] {
   color: #ffffff;
 }
 
+/* Fenster um das Band: trägt den Zeiger «hier geht es weiter» an seiner Kante.
+   Ohne eigene Masse — es ist ein Anker für die Lage, nicht ein Kasten. */
+.jw-karten-fenster {
+  position: relative;
+}
+
 .jw-karten-band {
   display: flex;
   align-items: flex-start;
@@ -534,6 +551,66 @@ body.lexikon-page div[id="__next"] {
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 2px;
+}
+
+/* WEITER GEHT ES DORT: Ein Band, das rollt, läuft an der Kante aus.
+   Bis zum 23.08.2026 endete es an einer harten, geraden Kante — am Handy zeigten
+   darum 22 von 63 Reihen genau vier Karten und sahen dabei fertig aus (das
+   Neunblatt wie ein Vierblatt). Der Verlauf sagt: hier steht noch etwas.
+
+   Wann er steht, entscheidet die gemessene Lage des Bandes, nicht die Fensterbreite:
+   JassKartenReihe setzt `data-roll` aus scrollWidth/scrollLeft. Ein Band, das ganz
+   sichtbar ist, bleibt darum unverändert — am Schirm hat es keine Wirkung —, und am
+   rechten Ende der Fahrt verschwindet der Verlauf wieder. */
+.jw-karten-band[data-roll='rechts'] {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+}
+.jw-karten-band[data-roll='beide'] {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 22px,
+    #000 calc(100% - 34px),
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 22px,
+    #000 calc(100% - 34px),
+    transparent
+  );
+}
+.jw-karten-band[data-roll='links'] {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 22px);
+  mask-image: linear-gradient(to right, transparent, #000 22px);
+}
+
+/* Der Zeiger auf der Kante: Er sitzt IM Verlauf, dort, wo die nächste Karte
+   beginnt. Der Verlauf allein sagt «da ist noch etwas» — der Zeiger sagt, in
+   welche Richtung. Er steht auf der Höhe der Kartenbilder, nimmt keine Klicks
+   an (die Karte darunter bleibt anfassbar) und erscheint nur, solange rechts
+   noch etwas steht. */
+.jw-karten-weiter {
+  position: absolute;
+  right: 0;
+  /* Mitte des Kartenbildes: 37 % der Bandhöhe, gemessen 23.08.2026 (Bild 96 von
+     130 px am Handy). Als Anteil geschrieben, damit es bei jedem Kartenmass
+     stimmt. */
+  top: 37%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: 1px solid #d8d4c6;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  color: #736d5c;
+  pointer-events: none;
 }
 
 .jw-karte {
@@ -965,8 +1042,13 @@ body.lexikon-page div[id="__next"] {
 }
 
 /* Das Blatt des Erzählers, unter dem Tisch — dieselbe Sprache wie die
-   Kartenreihe, damit es als Hand gelesen wird und nicht als zweiter Stich. Ohne
-   Aufschrift: der Platz unter dem Tisch gehört später dem Knopf zum Nachspielen.
+   Kartenreihe, damit es als Hand gelesen wird und nicht als zweiter Stich.
+
+   Es trägt seit dem 23.08.2026 eine Aufschrift, Vorgabe «Mein Blatt»: Der Kasten
+   stand zuvor stumm da, und der Text daneben nennt regelmässig mehr Karten, als das
+   Blatt zeigt (die ausgespielte liegt schon auf dem Filz). Erst die Aufschrift sagt,
+   dass hier die Hand NACH dem Ausspielen steht. Zusammen mit der gefüllten Pille
+   unten am Filz steht die Perspektive damit senkrecht untereinander.
 
    Die Hand UMBRICHT, statt zu rollen. Ein Bild, das seitlich weiterläuft,
    verschweigt Karten — und eine Hand mit neun Karten passt bei keiner Breite in
@@ -983,6 +1065,13 @@ body.lexikon-page div[id="__next"] {
   border-radius: 14px;
   background: rgba(240, 238, 231, 0.4);
 }
+/* Die Aufschrift nimmt die ganze Zeile — die Karten darunter bleiben mittig, die
+   Aufschrift steht links wie über jeder Kartenreihe. */
+.jw-tisch-blatt-marke {
+  flex: 0 0 100%;
+  margin-bottom: 2px;
+}
+
 /* Die Hand steht unter dem Tisch, also auch unter ihm in der Grösse: der
    gelegte Stich bleibt das Hauptbild. */
 .jw-tisch-blatt .jw-karte {

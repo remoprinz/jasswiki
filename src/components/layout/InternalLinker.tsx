@@ -161,8 +161,33 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
   // Die Wörter wechseln vor dem Markdown und nur in den Textstücken und
   // Beschriftungen — die Karten-Slugs der Marke sind klein geschrieben und
   // liegen ohnehin ausserhalb der Stücke.
+  const roh = useMemo(() => textInStuecke(text), [text]);
+
+  /**
+   * Sprungziel je Abbildung, gebildet aus ihrer Aufschrift: «Fünfblatt» wird zu
+   * `#bild-fuenfblatt`. Damit ist jede Kartenreihe anspringbar und zitierbar —
+   * bis zum 23.08.2026 trug keine einzige eine Adresse (LEUCHTTURM).
+   *
+   * Gebildet wird der Anker aus dem DEUTSCHEN Wortlaut, auch wenn der Leser das
+   * französische Blatt gewählt hat: Eine Adresse, die mit dem Kartenbild
+   * wechselt, wäre keine.
+   *
+   * Kommt dieselbe Aufschrift mehrmals vor, zählt der zweite Anker hoch
+   * (`…-2`). Die Zählung läuft über den ganzen Text eines Renders.
+   */
+  const anker = useMemo(() => {
+    const gezaehlt = new Map<string, number>();
+    return roh.map((s) => {
+      if (s.art === 'text') return undefined;
+      const wort = s.art === 'tisch' ? 'Jasstisch' : s.aufschrift?.trim() || 'Jasskarten';
+      const stamm = `bild-${toSlug(wort)}`;
+      const male = (gezaehlt.get(stamm) ?? 0) + 1;
+      gezaehlt.set(stamm, male);
+      return male === 1 ? stamm : `${stamm}-${male}`;
+    });
+  }, [roh]);
+
   const stuecke = useMemo(() => {
-    const roh = textInStuecke(text);
     if (!wechseln) return roh;
     return roh.map((s) => {
       if (s.art === 'text') return { ...s, text: farbwoerterFr(s.text) };
@@ -180,12 +205,13 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
         ...s,
         beschriftung,
         titel: s.titel ? farbwoerterFr(s.titel) : s.titel,
+        blattAufschrift: s.blattAufschrift ? farbwoerterFr(s.blattAufschrift) : s.blattAufschrift,
         sitze: s.sitze.map((sitz) =>
           sitz.notiz ? { ...sitz, notiz: farbwoerterFr(sitz.notiz) } : sitz
         ),
       };
     });
-  }, [text, wechseln]);
+  }, [roh, wechseln]);
 
   if (stuecke.length === 1 && stuecke[0].art === 'text') {
     return <MarkdownStueck text={stuecke[0].text} />;
@@ -209,8 +235,10 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
               titel={stueck.titel}
               zug={stueck.zug}
               blatt={stueck.blatt}
+              blattAufschrift={stueck.blattAufschrift}
               beschriftung={stueck.beschriftung}
               mitWahl={i === ersteReihe}
+              anker={anker[i]}
             />
           );
         return (
@@ -221,6 +249,7 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
             beschriftung={stueck.beschriftung}
             aufschrift={stueck.aufschrift}
             mitWahl={i === ersteReihe}
+            anker={anker[i]}
           />
         );
       })}

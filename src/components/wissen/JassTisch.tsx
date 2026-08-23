@@ -47,7 +47,8 @@ const JASSKARTEN_URL = '/grundlagen-kultur/jasskarten/';
  * im Text immer am Ansager. `sicht` dreht den Filz auf die erzählende Seite, statt
  * die Sitze umzudeuten — derselbe Stich aus zwei Blickwinkeln zeigt darum
  * zwingend dieselben Karten. Wer erzählt, steht als Wort über dem Filz und sitzt
- * unten, sein Blatt liegt direkt darunter.
+ * unten, sein Blatt liegt direkt darunter — beschriftet mit «Mein Blatt», damit
+ * der Kasten als Hand nach dem Ausspielen gelesen wird (KELLE, 23.08.2026).
  *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg). Farbzeichen: JassGuru-Set.
  */
@@ -64,10 +65,20 @@ interface Props {
   zug?: SitzWort;
   /** Das Blatt dessen, der unten sitzt. */
   blatt?: string[];
+  /**
+   * Aufschrift über dem Blatt, aus der Marke («blatt-aufschrift …»).
+   * Vorgabe: «Mein Blatt» — dasselbe Wort tragen die Kartenreihen daneben.
+   */
+  blattAufschrift?: string;
   beschriftung?: string;
   /** Umschalter Deutsch/Französisch — einmal je Seite, beim ersten Kartenblock. */
   mitWahl?: boolean;
+  /** Sprungziel der Abbildung, gebildet aus der Aufschrift (InternalLinker). */
+  anker?: string;
 }
+
+/** Aufschrift über dem Blatt unter dem Filz, wenn die Marke keine nennt. */
+const BLATT_AUFSCHRIFT = 'Mein Blatt';
 
 /** Rollen der vier Plätze. Sie hängen am Sitz, nicht am Blickwinkel. */
 const ROLLE: Record<SitzWort, string> = {
@@ -89,8 +100,10 @@ export const JassTisch: React.FC<Props> = ({
   titel,
   zug,
   blatt,
+  blattAufschrift,
   beschriftung,
   mitWahl = true,
+  anker,
 }) => {
   const system = useKartensystem();
   const [gross, setGross] = useState<JassKarte | null>(null);
@@ -179,10 +192,16 @@ export const JassTisch: React.FC<Props> = ({
   };
 
   return (
-    <figure className="jw-tisch not-prose">
+    <figure
+      className="jw-tisch not-prose scroll-mt-24"
+      id={anker}
+      aria-labelledby={anker ? `${anker}-marke` : undefined}
+    >
       <div className="jw-karten-kopf">
         <span className="jw-tisch-kopf-links">
-          <span className="jw-karten-marke">Jasstisch</span>
+          <span className="jw-karten-marke" id={anker ? `${anker}-marke` : undefined}>
+            Jasstisch
+          </span>
           <span className="jw-tisch-sicht">{SICHT_WORT[sicht]}</span>
         </span>
         {mitWahl && (
@@ -224,6 +243,9 @@ export const JassTisch: React.FC<Props> = ({
 
       {handkarten.length > 0 && (
         <div className="jw-tisch-blatt">
+          <span className="jw-karten-marke jw-tisch-blatt-marke">
+            {blattAufschrift?.trim() || BLATT_AUFSCHRIFT}
+          </span>
           {handkarten.map((karte, i) => (
             <button
               key={`${karte.slug}-${i}`}

@@ -4,6 +4,7 @@
 //            ansager eichel-under | rechts rosen-7 | partner eichel-6 |
 //            links schilten-8 |
 //            blatt eichel-under, eichel-9, eichel-ass, rosen-koenig |
+//            blatt-aufschrift Mein Blatt |
 //            Der Partner legt tief]]
 //
 // Aufbau: Die Teile stehen durch «|» getrennt, wie bei [[karten: …]]. Zeilen-
@@ -63,6 +64,8 @@ const SCHLUESSEL = new Set([
   'stich',
   'titel',
   'blatt',
+  'blatt-aufschrift',
+  'blattaufschrift',
 ]);
 
 export interface TischSitz {
@@ -90,6 +93,8 @@ export interface TischInhalt {
   zug?: SitzWort;
   /** Das Blatt dessen, der unten sitzt. */
   blatt: string[];
+  /** Aufschrift über dem Blatt. Vorgabe der Darstellung: «Mein Blatt». */
+  blattAufschrift?: string;
   beschriftung?: string;
   /** Teile, die stolperten — sie verschwinden aus der Ausgabe. */
   unbekannt: string[];
@@ -127,6 +132,7 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
   let sicht: Sicht = 'ansager';
   let titel: string | undefined;
   let zug: SitzWort | undefined;
+  let blattAufschrift: string | undefined;
 
   for (const teil of teile) {
     const [kopfRoh, ...restWoerter] = teil.split(' ');
@@ -180,6 +186,15 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
       continue;
     }
 
+    // Aufschrift über dem Blatt, für den Fall, dass dort etwas anderes stehen
+    // soll als «Mein Blatt» — etwa «Was mir bleibt». Beide Schreibweisen
+    // gelten, mit Bindestrich und ohne.
+    if (kopf === 'blatt-aufschrift' || kopf === 'blattaufschrift') {
+      if (rest) blattAufschrift = rest;
+      else unbekannt.push(teil);
+      continue;
+    }
+
     if (kopf === 'blatt') {
       const slugs = rest
         .split(',')
@@ -204,6 +219,7 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
     titel,
     zug,
     blatt,
+    blattAufschrift,
     beschriftung: beschriftungen.join(' ') || undefined,
     unbekannt,
   };
