@@ -18,4 +18,9 @@ Mess-Aufbau für jasswiki-Frontend-Arbeit im eigenen Worktree (`/private/tmp/jas
 - **Roh-Zählung im HTML zählt den Next-Payload mit**: `getStaticProps` serialisiert den ganzen Artikeltext samt Marken nach `__NEXT_DATA__`. Vor jeder Zählung von sichtbarem Text die Skript-Blöcke entfernen (`perl -0pe 's|<script[^>]*>.*?</script>||gs'`), sonst meldet man rohe Marker, die niemand sieht.
 - **Der Dev-Server malt ins Bild**: «Compiling …»-Blase und der runde N-Anzeiger von `next dev` landen in Element-Screenshots. Zwei Bilder byteweise zu vergleichen (z. B. hell gegen dunkel) schlägt daran fehl, obwohl die Fläche gleich ist — am breiten Schirm liegen die Blasen ausserhalb, dort ist der Vergleich sauber.
 - **Kasten-Überschneidung ist noch keine Farb-Überschneidung**: Ein absolut gesetztes Textstück mit `width: 170%` überlappt im `getBoundingClientRect` die Nachbarkarte, obwohl der zentrierte Text sie nie berührt. Entweder `width: max-content` setzen (dann ist der Kasten die Schrift) oder die Überschneidungs-TIEFE in px ausgeben und alles unter ~2 px durchwinken.
+- **«Das Bild bleibt gleich» beweist der A/B-Diff, nicht das Auge**: dieselbe Seite zweimal
+  messen — einmal mit dem neuen Merkmal in der Marke, einmal ohne — und die beiden
+  Mess-JSON mit `diff <(jq -S …) <(jq -S …)` gegeneinanderhalten. Bleiben nur die gewollten
+  Felder übrig (Klasse, Farbe, aria), ist Geometrie-Gleichheit belegt statt behauptet. Je
+  Karte messen: x, Breite, Höhe, Bildmass, Bandbreite (client/scroll), Figurenhöhe.
 - Zum Messen des eigenen Bauteils **Prüf-Marken in zwei Artikel spritzen** — einen mit `sub !== topic` (Artikelseite `[category]/[subcategory]/[topic]`) und einen mit `sub === topic` (flache Leitartikel-Seite `[category]/[subcategory]`). Beide Seitenarten rendern über `InternalLinker`, aber nur so ist beides belegt. Danach `git checkout -- src/data/jass-content-v2.json`.
