@@ -46,4 +46,16 @@ Mess-Aufbau für jasswiki-Frontend-Arbeit im eigenen Worktree (`/private/tmp/jas
   nachher belegen, dass nur die Marken wanderten: beide Fassungen mit
   `gsub("\\[\\[karten:[^\\]]*\\]\\]"; "MARKE")` vergleichen und zusätzlich
   `del(.text)` gegeneinanderhalten.
+- **Den A/B-Beweis liefert derselbe Worktree, nicht zwei Checkouts:** messen,
+  dann `git stash push` (der Dev-Server lädt den alten Stand nach), nochmals
+  messen, `git stash pop`. Inhalt vorher zurücksetzen, damit beide Läufe
+  denselben Text sehen. Vergleichen mit Lage RELATIV zur eigenen Abbildung
+  (`karte.x - figur.x`) plus Figurenmass — absolute y-Werte wandern, sobald
+  eine Abbildung darüber höher wird, und melden dann falschen Alarm.
+- **Ein Arena-Zustand lässt sich in jasstafel messen, ohne zu spielen:** eine
+  temporäre Seite bauen, die das echte Bauteil rendert, danach löschen. Sie
+  muss unter `/arena/…` liegen — `isPublicPath` erlaubt genau diese Präfixe,
+  jede andere neue Route wirft der Auth-Guard rund eine Sekunde nach der
+  Hydration auf `/` (Symptom: Puppeteer misst die Startseite und meldet «Bauteil
+  fehlt»).
 - Zum Messen des eigenen Bauteils **Prüf-Marken in zwei Artikel spritzen** — einen mit `sub !== topic` (Artikelseite `[category]/[subcategory]/[topic]`) und einen mit `sub === topic` (flache Leitartikel-Seite `[category]/[subcategory]`). Beide Seitenarten rendern über `InternalLinker`, aber nur so ist beides belegt. Danach `git checkout -- src/data/jass-content-v2.json`.

@@ -31,6 +31,24 @@ nicht begründet findet (gebaut 23.08.2026, Branch `kelle/bild-welle2`):
   (`…-2`), gezählt je Renderdurchgang eines Textes — eine Seite mit ZWEI
   `InternalLinker` (Kartenfarben, Trumpffarben) könnte theoretisch kollidieren,
   am 23.08. tat es keine der neun Seiten.
+- **Die hervorgehobene Karte («slug!») trägt den Griff der Arena, nicht deren
+  Farbe** (23.08.2026, Remo: «so, wie wenn man das erste Mal tippt beim
+  Kartenlegen»). Am `PlayerHandFan` gemessen: Hub 26 von 144 px, z-index über
+  die Nachbarn, `0 0 0 2px #00FF46, 0 0 14px rgba(0,255,70,.55)`, ohne
+  Bewegung. Übernommen sind Hub, Ring und Schein; der Ton wechselt auf
+  `#2BB752`, weil das Neongrün auf dem hellen Kasten bei 1,2 : 1 verschwände.
+  Justierbar an je einer Stelle: `--jw-hub` (Reihe und Blatt getrennt),
+  `--jw-hervor`.
+- **Raum für den Hub gibt es nur, wo eine Karte ihn braucht** (Klasse
+  `--hebt` an der Abbildung). Grund: Das Band rollt (`overflow-x: auto`), und
+  ein Rollkasten schneidet auch nach OBEN — die angehobene Karte wäre gekappt.
+  Innenabstand plus negativer Aussenabstand geben den Raum wieder her, darum
+  bleibt jede Abbildung ohne «!» Pixel für Pixel, wie sie war (A/B belegt).
+- **Eine markierte Karte, die niemand sieht, ist keine Markierung:** Am Handy
+  zeigt ein Neunblatt vier von neun Karten. `JassKartenReihe` rollt das Band
+  darum beim Aufbau so weit, dass die markierte Karte ganz und ausserhalb des
+  Kantenverlaufs steht (34 px rechts, 22 px links) — ohne Bewegung und nur im
+  Band, die Seite selbst rührt sich nie.
 - **Was bewusst offen blieb:** der Kachel-Kontrast (11 px `#88816d` = 3,66 : 1).
   Vorschlag 13 px / `#736d5c` = 4,86 : 1 liegt bereit, ist aber ein sichtbarer
   Stil-Change über 62 Reihen und 7 Tische und gehört vor Remos Auge.
