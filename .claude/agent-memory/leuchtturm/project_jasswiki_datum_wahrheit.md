@@ -1,32 +1,28 @@
 ---
 name: jasswiki-datum-wahrheit
-description: jasswiki meldet zwei falsche Aktualitätsdaten (Schema 2025-11-05 fix, Sitemap für alle 264 URLs gleich); die echte Wahrheit je Artikel ist aus 32 Commits rekonstruierbar
+description: jasswiki-Aktualitätsdatum — der Umbau auf metadata.dateModified je Artikel ist erledigt, die neue Schwachstelle ist das Handpflegen: Textänderungen gehen live, das Datum bleibt stehen
 metadata:
   type: project
 ---
 
-Gemessen am 15.08.2026, live und im Repo:
+**Erledigt (Stand 23.08.2026):** `metadata.dateModified` steht je Artikel in
+`jass-content-v2.json`, `generate-sitemap.mjs` liest es (Zeile 127), das `Article`-JSON-LD liest
+es ebenfalls. Für alle neun geprüften Seiten stimmen Sitemap-`lastmod` und Schema-`dateModified`
+überein. Die Sitemap trägt über zehn verschiedene Datumswerte statt eines Template-Bodens.
+Das eingefrorene `2025-11-05` und die wandernde `fs.stat`-mtime aus der Messung vom 15.08. sind weg.
 
-- **JSON-LD:** 231 von 231 Artikelseiten liefern `"dateModified":"2025-11-05"`. Quelle ist
-  `NEXT_PUBLIC_DEFAULT_MODIFIED_DATE` mit Fallback-Literal in vier Vorlagen:
-  `src/pages/[category]/[subcategory]/[topic]/index.tsx`, `src/pages/[category]/[subcategory]/index.tsx`,
-  `src/pages/varianten/[topic]/index.tsx`, `src/pages/ansagen/[topic]/index.tsx`.
-  32 Übersichtsseiten führen gar kein `dateModified`, `/taxonomie/` führt 2026-01-10.
-- **Sitemap:** alle 264 `<lastmod>` tragen denselben Wert, nämlich die mtime von
-  `src/data/jass-content-v2.json` (`generate-sitemap.mjs`, eine `fs.stat` für die ganze Datei).
-  Bei jedem Deploy springen alle 264 Daten auf das Deploy-Datum (belegt: 07.07., 14.08., 15.08.).
-- **Beide Richtungen falsch:** das Schema ist für jeden Artikel zu alt (älteste echte Änderung
-  22.11.2025), die Sitemap ist für 225 von 231 zu neu.
-- **Die Wahrheit ist billig zu haben:** nur 32 Commits berühren die Inhaltsdatei. Ein Durchlauf
-  über diese Commits (Artikel-Text plus FAQ je Fassung vergleichen) liefert für alle 231 Artikel
-  ein echtes Änderungsdatum, verteilt auf 15 Daten von 2025-11-22 bis 2026-08-15
-  (75× 02.02.26, 55× 22.11.25, 29× 16.06.26, 28× 28.06.26, Rest kleiner).
-  Mess-Skripte liegen im Scratchpad-Muster «snap.sh + dates.sh» (Snapshot je Commit via
-  `git show <sha>:datei | jq`, danach `comm -13` zwischen den Fassungen).
+**Die neue Schwachstelle:** das Feld wird von Hand gepflegt, und die Hand vergisst.
+Belegt am 23.08.: `weis_rules_kreuzweis` und `expressions_weis` wurden am 22.08. (`5c0a951`,
+`7fd3a09`) und am 23.08. (`655a380`) im `text`-Feld geändert, ihr `dateModified` steht auf
+2026-08-18 beziehungsweise 2026-08-20. Der `DATUM_FEHLT`-Riegel im Generator prüft nur, **ob**
+ein Datum da ist, nie **ob es stimmt**.
 
-**Why:** SCHIRI fragte nach dem eingefrorenen Schema-Datum; die Messung zeigt, dass auch die
-Sitemap keine Pro-Seiten-Wahrheit sagt, sondern ein wanderndes Template-Datum.
+**Why:** Ein Freshness-Signal, das nach der Änderung stehen bleibt, ist genauso wertlos wie ein
+eingefrorenes — Google hat keinen Grund, neu zu bewerten. Der Umbau hat den einen Fehler durch
+einen leiseren ersetzt.
 
-**How to apply:** Spezifikation lautet: ein Feld `metadata.dateModified` je Artikel in
-`jass-content-v2.json`, einmalig aus der Git-Historie befüllt, danach von der Redaktion
-mitgeführt; Sitemap und JSON-LD lesen beide dieses Feld. Siehe [[jasswiki-dubletten-stand]].
+**How to apply:** Vorschlag ist ein Build-Riegel, der je Eintrag das Datum des letzten Commits an
+seinem `text`/`faqs`-Feld gegen `dateModified` hält und beim Auseinanderlaufen den Build stoppt —
+dieselbe Härte wie `DATUM_FEHLT`. Prüfrezept ohne Skript:
+`git show <sha> -- src/data/jass-content-v2.json | grep -E '^[+-][^+-]'` zeigt, welche `text`-Felder
+ein Commit angefasst hat. Siehe [[jasswiki-kreuzweis-kannibalisierung]].

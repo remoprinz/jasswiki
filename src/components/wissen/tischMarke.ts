@@ -44,7 +44,11 @@ export type Sicht = 'ansager' | 'partner';
 /** Ältere Schreibweise: «ich» meinte den Erzähler, das ist der Ansager. */
 const SITZ_ALIAS: Record<string, SitzWort> = {
   ansager: 'ansager',
-  ich: 'ansager',
+  // «ich» stand hier als Alias für den Ansager und frass Legenden: Eine
+  // Beschriftung, die mit «Ich lege …» beginnt, wurde als Sitzangabe gelesen,
+  // fand keinen Kartenslug und fiel still weg — drei von sieben Tisch-Legenden
+  // fehlten so auf der Live-Seite (LOT/KELLE, 23.08.2026). Alle Marken im
+  // Bestand schreiben «ansager», der Alias war tot.
   partner: 'partner',
   links: 'links',
   rechts: 'rechts',

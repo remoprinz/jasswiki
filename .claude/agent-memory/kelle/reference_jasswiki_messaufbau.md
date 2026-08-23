@@ -23,4 +23,17 @@ Mess-Aufbau für jasswiki-Frontend-Arbeit im eigenen Worktree (`/private/tmp/jas
   Mess-JSON mit `diff <(jq -S …) <(jq -S …)` gegeneinanderhalten. Bleiben nur die gewollten
   Felder übrig (Klasse, Farbe, aria), ist Geometrie-Gleichheit belegt statt behauptet. Je
   Karte messen: x, Breite, Höhe, Bildmass, Bandbreite (client/scroll), Figurenhöhe.
+- **Für eine reine PRÜFUNG braucht es weder Worktree noch Dev-Server**: Puppeteer direkt
+  gegen `https://jasswiki.ch` laufen lassen. Spart das 630-MB-node_modules-Kopieren, und
+  das Ergebnis ist per Definition das, was der Leser sieht. Vorher einmal belegen, dass
+  live dem lokalen main entspricht (ein frisches Merkmal aus dem letzten Commit im
+  Live-HTML suchen). Kartenbilder haben `loading="lazy"` — vor dem Messen die ganze Seite
+  durchscrollen und ~1,5 s warten, sonst sind Bildmasse 0.
+- **Eine Marke kann still verschwinden — das JSON ist KEIN Beweis für die Seite.**
+  `tischInhaltLesen`/`marketInhaltLesen` werfen jeden Teil weg, der stolpert (Absicht:
+  ein Tippfehler kostet die Abbildung, nie den Artikel). Darum nach jeder Inhaltsarbeit
+  gegen das **gerenderte** Bild prüfen, ob Legende und Aufschrift wirklich dastehen —
+  z. B. `beschriftung: null` im Mess-JSON zählen. Gegenprobe, die den Fall beweist: der
+  Satz steht im `__NEXT_DATA__` (roher `curl`), im sichtbaren HTML (Skript-Blöcke per
+  `perl -0pe` entfernt) steht er null mal.
 - Zum Messen des eigenen Bauteils **Prüf-Marken in zwei Artikel spritzen** — einen mit `sub !== topic` (Artikelseite `[category]/[subcategory]/[topic]`) und einen mit `sub === topic` (flache Leitartikel-Seite `[category]/[subcategory]`). Beide Seitenarten rendern über `InternalLinker`, aber nur so ist beides belegt. Danach `git checkout -- src/data/jass-content-v2.json`.

@@ -308,3 +308,27 @@ mehrzeilige Paare inbegriffen (das kann csplit/grep nicht). Läuft in einer Seku
   «Härdöpfel»)»; der einzige «Sack»-Treffer meint den Sack-Spieler beim Hammerjass.
 - **Autorenname:** «Albert Hagenbucher» (Wikipedia 3×, jassverzeichnis 1×). Das jasswiki schreibt
   im Text «Haggenbucher» und in der seoDescription «Hagenbuch» — zwei verschiedene Fehler.
+
+## Generalprüfung 23.08. (neun Artikel, Brille SPRACHE) — wo der Riegel wegschaut
+
+- **🚨 `sprachwaechter.mjs` prüft NUR `text` und `faqs`** (Zeile 172/191: `const alles = [text,
+  ...faqs...]`). `metadata.seoDescription`, `seoTitle` und `titel` laufen durch **keine** Prüfung —
+  und genau dort sass der schwerste Fund: die seoDescription von `schieber_taktiken_austrumpfen`
+  sagt «Der Trumpfansager **zieht die Trümpfe**», wofür Muster `:98` extra gebaut wurde.
+  **Griff: bei jedem «der Sprachwächter ist grün» zuerst die Metadaten von Hand prüfen.**
+- **Verbotene Fügungen überleben in drei Formen, die kein Muster fängt:** (1) Präsens statt Perfekt
+  («die Karte **fällt**», 13 Stellen — die Muster `:100`/`:103` kennen nur «ist gefallen»/«gefallene»),
+  (2) **ohne Umlaut** («der **Trumpf** fällt» — `/Trümpfe? (fallen|fällt)/` verlangt den Umlaut),
+  (3) als **Hauptwort** («nach dem **Trumpfziehen**» — kein Verb, kein Muster).
+- **Gegenprobe, die den Fund erst scharf macht:** «Karte fällt» hat 0/0/12, und **alle zwölf** meinen
+  «Karte fällt **runter**» — den Spielfehler, der im Bestand einen eigenen Artikel hat
+  (`karte_faellt_runter`). Ein Wort, zwei Bedeutungen im selben Haus.
+- **`metadata.titel` ist bei 224 von 225 Artikeln `null`** — der einzige gefüllte ist
+  `schieber_taktiken_hoch_tief`. Vor jedem Titel-Befund erst `jq '[.[]|select(.metadata.titel!=null)]|length'`.
+- **Zitate vor der Abgabe stapelweise verifizieren:** Werte-Dump (`jq` über text+faq+seoDescription)
+  und dann `while read -r p; do grep -Foc "$p"; done <<'EOF'`-Liste. 34 Zitate in einem Lauf, jedes
+  mit Treffer 1–2 — so steht kein falsch abgeschriebener Satz im Bericht.
+- **Hausformeln zählen statt schätzen:** «So liest es der Verband» 4× im ganzen Bestand, alle vier in
+  diesem Paket · «ist Schneider» 1× gegen «im Schneider» 14× · «Wir zeigen» 1× (das Wiki spricht sonst
+  nie in der ersten Person) · Tischregel-Formel in vier Fassungen («vor der Partie ab» 22, «vor
+  Spielbeginn ab» 6, «vor der Partie fest» 2).

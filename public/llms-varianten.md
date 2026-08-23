@@ -167,7 +167,7 @@ Das erste Spiel wird anders gegeben als alle folgenden.
 | Wer gibt | ein beliebiger Spieler | im zweiten Spiel der König, danach der Reihe nach im Gegenuhrzeigersinn |
 | Woher der Trumpf kommt | Der König sagt ihn an | Die unterste Karte nach dem Abheben |
 
-Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und der Trumpf fällt, statt angesagt zu werden. Im zweiten Spiel gibt der König, und die aufgedeckte Karte gehört ihm: Sie ist eine seiner zwölf Karten und bleibt offen liegen, bis Vorhand ausspielt. Rauben gibt es in diesem Spiel keines. In den folgenden Spielen gehört die aufgedeckte Karte dem, der gegeben hat. So empfiehlt es der Verband.
+Im ersten Spiel sind also 30 Karten in drei Händen und 6 auf dem Tisch. Ab dem zweiten Spiel liegen alle 36 in den Händen, und den Trumpf bestimmt der Bodentrumpf statt einer Ansage. Im zweiten Spiel gibt der König, und die aufgedeckte Karte gehört ihm: Sie ist eine seiner zwölf Karten und bleibt offen liegen, bis Vorhand ausspielt. Rauben gibt es in diesem Spiel keines. In den folgenden Spielen gehört die aufgedeckte Karte dem, der gegeben hat. So empfiehlt es der Verband.
 
 ## Das Bieten
 
@@ -200,7 +200,7 @@ Der König behält, was sticht, und legt ab, was ihm im Spiel wenig nützt. Eine
 
 
 
-Holt er damit fast alle Stiche, schreibt er rund 150 Kartenpunkte, dazu 20 für den Weis und die 17 aus den abgelegten Karten: gegen 190 von 620. Die übrigen gut 430 holt er in den folgenden Spielen, in denen er zwölf Karten hält und keine mehr ablegt.
+Holt er damit fast alle Stiche, schreibt er gegen 140 Kartenpunkte, dazu 20 für den Weis und die 17 aus den abgelegten Karten: rund 175 von 620. Die übrigen gut 440 holt er in den folgenden Spielen, in denen er zwölf Karten hält und keine mehr ablegt.
 
 Legt er falsch ab, etwa eine Karte zu viel oder zu wenig, schreibt er nur einen allfälligen Weis, und die Bauernpartei schreibt den Matsch mit Prämie.
 
@@ -226,7 +226,7 @@ Jede Ansage hat ihre eigene Stichfolge, von der stärksten zur schwächsten Kart
 ## Ab dem zweiten Spiel: der König entscheidet, ob er spielt
 
 
-Vom zweiten Spiel an darf der König auf das Spiel verzichten. Er sagt es, bevor die erste Karte fällt. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig, allein Stöck darf die Bauernpartei zu den 257 dazuschreiben. Seine Stöck schreibt der König nur, wenn er mitspielt.
+Vom zweiten Spiel an darf der König auf das Spiel verzichten. Er sagt es, bevor die erste Karte gespielt ist. Verzichtet er, schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte. Die übrigen Weise werden hinfällig, allein Stöck darf die Bauernpartei zu den 257 dazuschreiben. Seine Stöck schreibt der König nur, wenn er mitspielt.
 
 Der Verzicht kostet 257, und von den Weisen der Gegner zählen allein die Stöck. Wer mitspielt und keinen Stich holt, gibt dieselben 257 ab und dazu jeden fremden Weis. Darum verzichtet, wer ein hoffnungsloses Blatt hält. Wer selber Weis und Stiche im Blatt hat, spielt, denn beides schreibt er nur mit Karten in der Hand.
 
@@ -249,7 +249,7 @@ So sieht eine Partie aus. Der König hat 600 geboten, die Bauernpartei spielt au
 | Spiel | Was geschah | König | Bauernpartei |
 |---|---|---|---|
 | 1 | Der König sagt Schellen als Trumpf an. Er holt 94 Punkte, dazu schreibt er die 23 aus den abgelegten Karten | 117 | 40 |
-| 2 | Der König gibt, der Bodentrumpf fällt auf Rosen | 71 | 86 |
+| 2 | Der König gibt, der Bodentrumpf zeigt Rosen | 71 | 86 |
 | 3 | Der König sieht sein Blatt und verzichtet | 0 | 257 |
 | 4 | Trumpf Eichel, die Bauernpartei holt 96 Kartenpunkte und weist 50 | 61 | 146 |
 | **Stand** | | **249 von 600** | **529 von 1000** |
@@ -313,7 +313,7 @@ Der König spielt allein gegen drei.
 
 • Im ersten Spiel erhält jeder Spieler 4 Karten, dann liegen 2 Karten offen und 2 verdeckt auf dem Tisch, danach nochmals 4 Karten je Spieler
 • Der König erhält die 4 Tischkarten und legt dafür 4 beliebige Karten ab. Auf Wunsch der Bauernpartei zeigt er ihr vorher die 2 Karten, die verdeckt lagen. Die Punkte der abgelegten Karten zählen zu seinen Kartenpunkten
-• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und der Trumpf fällt als Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn
+• Ab dem zweiten Spiel erhält jeder Spieler 9 Karten, und den Trumpf bestimmt der Bodentrumpf. Das zweite Spiel gibt der König, die folgenden der Reihe nach im Gegenuhrzeigersinn
 • Das tiefste Gebot ist 350 Punkte, gesteigert wird um mindestens 10
 • Die drei Gegner bilden die Bauernpartei und spielen auf 1000 Punkte
 
@@ -352,7 +352,7 @@ Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte 
 - **Zählen die abgelegten Karten des Königs?** Ja, ihre Punkte gehören ihm. Verbreitet ist, sie am Ende der Partie dazuzuzählen, der Verband empfiehlt, sie gleich nach dem ersten Spiel zu schreiben. Der König legt darum ab, was kaum einen Stich holt, und behält, was sticht.
 - **Was darf der König ansagen?** Eine Trumpffarbe, Obenabe, Undenufe oder Hindersi ohne Trumpf. Beim Hindersi gibt er jeden Stich ab. Bleibt er ohne Stich, schreibt er den Matsch mit Prämie, 257 Punkte, so liest es der Verband. Holt er einen Stich, schreibt die Bauernpartei den Matsch mit Prämie.
 - **Woher kommt der Trumpf ab dem zweiten Spiel?** Vom Boden: Nach dem Abheben gilt die unterste Karte als Trumpffarbe. Sie gehört dem, der gegeben hat, im zweiten Spiel also dem König. Rauben gibt es in diesem Spiel keines.
-- **Darf der König ein Spiel auslassen?** Ab dem zweiten Spiel darf er verzichten, bevor die erste Karte fällt. Dann schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte, und darf ihre Stöck dazuschreiben. Andere Weise zählen in diesem Spiel für niemanden, und seine eigenen Stöck schreibt der König nur, wenn er mitspielt.
+- **Darf der König ein Spiel auslassen?** Ab dem zweiten Spiel darf er verzichten, bevor die erste Karte gespielt ist. Dann schreibt die Bauernpartei den Matsch mit Prämie, also 257 Punkte, und darf ihre Stöck dazuschreiben. Andere Weise zählen in diesem Spiel für niemanden, und seine eigenen Stöck schreibt der König nur, wenn er mitspielt.
 - **Wann scheidet man beim Bieten aus?** Wer nach einem Gebot «fort» oder «ich passe» sagt, bleibt für dieses Spiel draussen. Wer passt, bevor ein Gebot gefallen ist, darf später noch einsteigen. In der Innerschweiz gilt jedes «fort» endgültig.
 - **Wie viele Punkte hat ein Bieter-Spiel?** 157, wie in jedem Jass-Spiel. Weil das Gebot für die ganze Partie gilt, braucht der König mehrere Spiele, um seine 600 zusammenzubringen.
 - **Was ist der Schneider beim Bieter?** Wer die Hälfte seines Ziels verfehlt, ist im Schneider und verliert den doppelten Einsatz: Beim Gebot von 600 liegt die Grenze bei 300 Punkten, bei der Bauernpartei bei 500.
@@ -1715,7 +1715,7 @@ Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierle
 
 Welche die weiteren Karten sind, bleibt offen. Die Ansage sagt, **wie viele Karten man von dieser Farbe hat**, und lässt offen, wie hoch sie sind. Wer eine Farbe eröffnet, sagt damit auch, welche der beiden höchsten Trumpfkarten er hält: 60, 80, 100 und 120 zeigen den Puur, 50, 70, 90 und 110 das Nell.
 
-Diese Zahlen gelten für die **Eröffnung**, also das erste Gebot, mit dem eine Farbe am Tisch fällt. Dazu kommen zwei Ansagen, die auf ein Gebot antworten, das schon gefallen ist. Damit jede Zahl eine Bedeutung hat, empfiehlt der Verband diese Lesart: **Zehner eröffnen und helfen, Fünfer zeigen ein Ass.**
+Diese Zahlen gelten für die **Eröffnung**, also das erste Gebot, mit dem eine Farbe am Tisch genannt wird. Dazu kommen zwei Ansagen, die auf ein Gebot antworten, das schon gefallen ist. Damit jede Zahl eine Bedeutung hat, empfiehlt der Verband diese Lesart: **Zehner eröffnen und helfen, Fünfer zeigen ein Ass.**
 
 Ein Fünfer heisst: «Ich halte das Ass dieser Farbe, als Trumpf meine ich eine andere.» Die Gegner haben auf 70 gesteigert. Wer jetzt «75 auf Rosen» sagt, zeigt dem Partner das Rosen-Ass, und das holt einen Stich, welche Farbe am Ende auch Trumpf wird.
 
@@ -1756,7 +1756,7 @@ Wann gedoppelt werden darf, ist nirgends verbindlich geregelt. Der Verband empfi
 
 **Zu holen bleibt die gebotene Punktzahl. Das Doppeln verdoppelt allein die Zielpunkte.** Wer 120 geboten hat und gedoppelt wird, braucht weiterhin 120 Kartenpunkte.
 
-Der Spielübernehmer oder sein Partner antwortet gleich darauf, bevor die erste Karte fällt, mit «kontern», wenn er das Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.
+Der Spielübernehmer oder sein Partner antwortet gleich darauf, bevor die erste Karte gespielt ist, mit «kontern», wenn er das Ziel weiterhin für erreichbar hält. Damit verdoppeln sich die Zielpunkte erneut, und danach stehen sie fest.
 
 | Gebot 120 | Zu holen in Kartenpunkten | Zielpunkte |
 |---|---|---|
@@ -1774,7 +1774,7 @@ Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die Zielpun
 | Gebot erreicht | Zielpunkte und Kartenpunkte | Kartenpunkte |
 | Gebot verfehlt | Kartenpunkte | Kartenpunkte und Zielpunkte |
 
-Das Gebot wird mit Kartenpunkten erreicht. Kartenpunkte heisst hier: die Punkte aus den Stichen samt den 5 für den letzten Stich. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten fällt.
+Das Gebot wird mit Kartenpunkten erreicht. Kartenpunkte heisst hier: die Punkte aus den Stichen samt den 5 für den letzten Stich. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten gespielt ist.
 
 ## Der Matsch
 
@@ -1897,7 +1897,7 @@ A und C holen 113 Kartenpunkte, das Gebot steht:
 | A und C | 200 | 113 | **313** |
 | B und D | | 44 | **44** |
 
-Die Kartenpunkte beider Seiten ergeben zusammen 157. Auf der Tafel stehen die 200, zu holen waren die gebotenen 100. Ohne das Doppeln stünde es 213 zu 44. Die Rechnung von D ging um zwei Stiche zu kurz: Sein Rosen-König und der zweite Schellen-Stich wurden beide gestochen, weil A und C nach dem Trumpfziehen selbst noch je einen Trumpf hielten. Das Doppeln hat B und D 100 Punkte gekostet.
+Die Kartenpunkte beider Seiten ergeben zusammen 157. Auf der Tafel stehen die 200, zu holen waren die gebotenen 100. Ohne das Doppeln stünde es 213 zu 44. Die Rechnung von D ging um zwei Stiche zu kurz: Sein Rosen-König und der zweite Schellen-Stich wurden beide gestochen, weil A und C nach dem Austrumpfen selbst noch je einen Trumpf hielten. Das Doppeln hat B und D 100 Punkte gekostet.
 
 Zum Vergleich die Tafel, wenn das Gebot verfehlt wird, etwa bei 96 Kartenpunkten für A und C:
 
@@ -1963,7 +1963,7 @@ Was eine Runde einmal festlegt und danach jedes Mal gleich handhabt:
 - **Was bedeutet eine Ansage von 95, nachdem 90 geboten wurde?** Ein Fünfer zeigt dem Partner das Ass der genannten Farbe, während eine andere Farbe Trumpf werden soll. Der Jassverband Schweiz empfiehlt die Lesart: Zehner eröffnen und helfen, Fünfer zeigen ein Ass, und zwar der nächste Fünfer über dem laufenden Gebot. Nach einer 85 ist das die 95. Die Ansage kann den Spieler ins Spiel zwingen: Bleibt sie als höchstes Gebot stehen, gilt sie wie jedes andere Gebot, und die genannte Farbe wird Trumpf.
 - **Wie viele Punkte gibt der Matsch beim Sidi-Barrani?** Der Matsch ist beim Sidi-Barrani das höchste Gebot und wird mit 157 angesagt: alle Punkte eines Spiels, 152 aus den Karten und 5 für den letzten Stich. Geholt, schreibt das trumpfmachende Team 157 Zielpunkte und die 157 Kartenpunkte, zusammen 314. Verfehlt, schreibt es seine Kartenpunkte, und die Gegner schreiben ihre Kartenpunkte und dazu die 157. Gedoppelt stehen 314 Zielpunkte auf dem Spiel, gekontert 628.
 - **Wie viele Striche gibt es beim Sidi-Barrani?** Beim Sidi-Barrani zählen die Spieler durchgehend Punkte: Jede Partei führt ihre Punktzahl auf der Tafel, gespielt wird auf 2000 Punkte, manche Runden machen 1500 ab. Mit Strichen, Berg und Sieg wird bei anderen Jassarten geschrieben.
-- **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte zählen beim Bieten noch nicht mit. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten fällt. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
+- **Zählen Weis und Stöck auf das gebotene Ziel?** Wer bietet, rechnet allein mit Kartenpunkten. Weis- und Stöckpunkte zählen beim Bieten noch nicht mit. Auch das Gebot selbst wird mit Kartenpunkten erreicht. Weis- und Stöckpunkte werden sofort auf die Tafel geschrieben und zählen für die Partie: der Weis nach dem ersten Stich, die Stöck, sobald die zweite der beiden Karten gespielt ist. Eine verbreitete erweiterte Variante lässt Weis und Stöck weg und zählt allein die Kartenpunkte.
 - **Was bedeutet «doppeln» und «kontern» beim Sidi-Barrani?** Ob mit Doppeln und Kontern gespielt wird, macht die Runde vor Spielbeginn ab. Wer damit spielt: Ein Gegner, der das Gebot für zu hoch hält, sagt «ich dopple». Das beendet das Bieten und verdoppelt die Zielpunkte für beide Seiten. Erreicht das trumpfmachende Team die gebotene Punktzahl, schreibt es die doppelten Zielpunkte zu seinen Kartenpunkten. Bleibt es darunter, schreiben die Gegner sie. Mit «kontern» hält das trumpfmachende Team dagegen und verdoppelt die Zielpunkte erneut. Aus einem Gebot von 120 werden so 240 und schliesslich 480 Zielpunkte, während weiterhin 120 Kartenpunkte zu holen sind.
 - **Darf man doppeln, wenn ein Team kurz vor dem Sieg steht?** Ja, das Doppeln steht jedem Gegner offen. In dieser Lage lohnt es sich für die Gegner besonders, weil dem führenden Team ein hohes Gebot wenig nützt. Zwei Schlussvarianten fangen das auf, Bonus-Schlussregel und Überbiet-Schlussregel genannt: Entweder zählt der Sieg erst, wenn das führende Team im letzten Spiel sein Gebot geholt hat, oder beiden Teams wird nach der Abrechnung die gebotene Punktzahl abgezogen, wenn das führende Team sein ungedoppeltes Gebot verfehlt. Die Runde macht eine der beiden vor der Partie ab.
 - **Woher kommt der Name Sidi-Barrani?** Sidi Barrani ist ein Ort an der Mittelmeerküste im Nordwesten Ägyptens, um den im Dezember 1940 gekämpft wurde. Radio Beromünster berichtete damals immer wieder über den Feldzug in Nordafrika. Luzerner Jasser um Hochdorf gaben ihrer Spielart den Namen aus diesen Nachrichten. Gespielt hatten sie bis dahin den Bolschewik, aus dem der Sidi-Barrani hervorgegangen ist.

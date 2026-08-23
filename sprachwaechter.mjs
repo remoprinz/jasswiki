@@ -98,6 +98,13 @@ const WENDUNGEN = [
   [/\b(zieht|ziehen|zog|zogen)\b[^.!?]{0,40}\bTrümpfe?\b(?![^.!?]{0,40}\baus\b)/i,
    'Trumpf zieht man nicht. Es heisst austrumpfen, oder «die Trümpfe ausziehen».'],
   [/Trümpfe? (fallen|fällt)|gefallene? Trümpfe|Gefallen sind/i, 'Trümpfe fallen nicht, sie werden gespielt oder ausgezogen (Remo, 19.08.).'],
+  // Dieselbe Fügung im Präsens, ohne Umlaut und als Hauptwort — alle drei Formen
+  // gingen am 23.08. durch die Zeile darüber: «die Karte fällt» (13 Stellen),
+  // «der Trumpf fällt», «nach dem Trumpfziehen». Im Korpus meint «Karte fällt»
+  // ausschliesslich den Spielfehler (karte_faellt_runter) — der bleibt erlaubt.
+  [/(Karten?|Trump(f|fs)|Ass|Nell|Puur|Ober|König|Banner) fällt(?! (runter|herunter|zu Boden))|fallen (die|zwei|drei|vier) (Karten|Trümpfe)/i,
+   'Karten fallen nur zu Boden. Gespielte Karten werden gespielt, gelegt oder gestochen.'],
+  [/Trumpfziehen|Trumpf-Ziehen/i, 'Das Hauptwort zur gestrichenen Fügung. Es heisst «das Austrumpfen».'],
   // Dieselbe Fügung als Partizip: «die im Stich gefallenen Karten» (19.08. in einer FAQ).
   // Das \b vorne lässt die «heruntergefallene Karte» durch, die wirklich am Boden liegt.
   [/\bgefallene[nr]?\b|im Stich gefallen|(Karte|Karten|Trumpf|Trümpfe|Ass|Nell|Puur)\s+ist gefallen/i,
@@ -188,7 +195,16 @@ const lauf = async () => {
     }
 
     // B und C — über Text und FAQ zusammen
-    const alles = [text, ...faqs.map((f) => `${f.question} ${f.answer}`)].join('\n');
+    // Auch die Metadaten laufen durch jede Wortprüfung: Am 23.08.2026 stand
+    // «zieht die Trümpfe» in einer seoDescription — die Fügung, für die der
+    // Riegel gebaut war, ging als Suchergebnis hinaus, weil hier nur Text und
+    // FAQ standen.
+    const meta = artikel.metadata || {};
+    const alles = [
+      text,
+      ...faqs.map((f) => `${f.question} ${f.answer}`),
+      meta.seoTitle || '', meta.seoDescription || '', meta.titel || '',
+    ].join('\n');
     for (const wort of FREMDWOERTER) {
       if (alles.toLowerCase().includes(wort.toLowerCase())) {
         fehler.push({

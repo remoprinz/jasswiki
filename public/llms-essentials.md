@@ -241,7 +241,7 @@ Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich ge
 
 ## Dreiblatt bis Neunblatt: die Folgen
 
-Eine Folge besteht aus drei oder mehr aufeinanderfolgenden Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, beim Stechen gelten sie als höchste Trümpfe. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts. Die Stöck stehen so, wie man sie nennt: König und Ober.
+Eine Folge besteht aus drei oder mehr aufeinanderfolgenden Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, beim Stechen gelten sie als höchste Trümpfe. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts.
 
 Jede Karte mehr hebt den Weis um eine Stufe, ab dem Vierblatt um 50 Punkte je Karte.
 
@@ -322,13 +322,10 @@ Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das 
 
 ## Kreuzweis
 
-Eine Karte darf gleichzeitig zu einer Folge und zu vier Gleichen gehören. Beide Weise müssen für sich gültig sein, und der wertvollere wird zuerst gemeldet. Manche Runden lassen den Kreuzweis nicht gelten. Wer so spielt, macht es vor der Partie ab.
+Eine Karte darf gleichzeitig zu einer Folge und zu vier Gleichen gehören: Das ist der Kreuzweis. Beide Weise gelten, zusammen zählen beide Punktzahlen.
 
 
-
-Der Rosen-König gehört zu beiden. Zusammen zählt der Kreuzweis 120 Punkte.
-
-Mehr dazu im Artikel Kreuzweis.
+Die Meldung, die Rangfolge und die Runden, die ihn ausschliessen: Alles dazu steht im Artikel Kreuzweis.
 
 ## Weis in Obenabe und Undenufe
 
@@ -358,7 +355,6 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Welcher Weis ist höher, wenn beide gleich viel zählen?** Zuerst mehr Karten (ein Fünfblatt schlägt vier Könige), dann die höhere Karte (Dreiblatt vom Ass schlägt Dreiblatt vom König), dann Trumpf, und ist alles gleich, wer zuerst gemeldet hat.
 - **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keinen. Zwei Dreiblatt (40) verlieren gegen ein Vierblatt (50). Die Stöck schreibt ihre Partei in jedem Fall.
 - **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt sie auf, sobald ein Mitspieler es verlangt. Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt.
-- **Was ist ein Kreuzweis?** Der Fall, dass eine Karte zugleich zu einer Folge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte. Manche Runden lassen den Kreuzweis nicht gelten und machen das vor der Partie ab.
 - **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist der Sechser das obere Ende der Folge: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 - **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.

@@ -1337,15 +1337,15 @@ Am Tisch heisst es **die Stöck**, in der Einzahl wie in der Mehrzahl.
 
 ## Wann und wie die Stöck gewiesen werden
 
-Ein gewöhnlicher Weis wird gewiesen, wenn der Spieler seine erste Karte des Spiels ausspielt, gleich welche. Die Stöck werden erst mit der zweiten ihrer beiden Karten gewiesen. Wer den König ausspielt und den Ober noch hält, sagt noch nichts. Erst wenn die zweite Karte fällt, sagt er «Stöck», gleich in welchem Stich das geschieht.
+Ein gewöhnlicher Weis wird gewiesen, wenn der Spieler seine erste Karte des Spiels ausspielt, gleich welche. Die Stöck werden erst mit der zweiten ihrer beiden Karten gewiesen. Wer den König ausspielt und den Ober noch hält, sagt noch nichts. Erst mit der zweiten Karte sagt er «Stöck», gleich in welchem Stich das geschieht.
 
 | Wann | Was gilt |
 |---|---|
-| Die erste der beiden Karten fällt | Noch nichts sagen. Gewiesen wird mit der zweiten |
-| Die zweite der beiden Karten fällt | «Stöck», und die 20 kommen sofort auf die Tafel |
+| Die erste der beiden Karten ist gespielt | Noch nichts sagen. Gewiesen wird mit der zweiten |
+| Die zweite der beiden Karten ist gespielt | «Stöck», und die 20 kommen sofort auf die Tafel |
 | Der nächste Spieler hat die zweite Karte gedeckt | Zu spät, die Stöck sind verfallen |
 | Der Partner merkt, dass die Meldung fehlt | Er schweigt. Weisen kann nur, wer die Stöck hält. Sagt es der Partner für ihn, sind die Stöck verfallen |
-| Die zweite Karte fällt als letzte des Stichs | Die Meldung gilt, bis der Stich gekehrt ist, wie beim gewöhnlichen Weis. So liest es der Verband, weil es beim gewöhnlichen Weis so gilt |
+| Die zweite Karte ist die letzte des Stichs | Die Meldung gilt, bis der Stich gekehrt ist, wie beim gewöhnlichen Weis. So liest es der Verband, weil es beim gewöhnlichen Weis so gilt |
 
 Ist die zweite Karte gedeckt oder das Spiel vorbei, sind die Stöck verfallen, im Spiel wie danach. So steht es im Offiziellen Schweizer Jassreglement.
 
@@ -1395,7 +1395,7 @@ Diese Reihenfolge gilt allein im ersten Stich. Sobald zum zweiten Stich ausgespi
 **Häufige Fragen:**
 - **Was sind Stöck beim Jassen?** König und Ober der Trumpffarbe in einer Hand. Sie zählen 20 Punkte und sind ein Weis mit eigenen Regeln: gewiesen mit der zweiten der beiden Karten, und sie zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis halten.
 - **Wie viele Punkte zählen die Stöck?** 20 Punkte. Beim Schieber mit Faktoren gilt der Faktor der Trumpffarbe, bei doppelt zählendem Trumpf also 40.
-- **Wann weist man die Stöck?** Mit der zweiten der beiden Karten, gleich in welchem Stich sie fällt. Wer den König spielt und den Ober noch hält, sagt noch nichts. Fällt die zweite Karte, sagt er «Stöck», und die 20 kommen sofort auf die Tafel.
+- **Wann weist man die Stöck?** Mit der zweiten der beiden Karten, gleich in welchem Stich sie gespielt wird. Wer den König spielt und den Ober noch hält, sagt noch nichts. Erst mit der zweiten Karte sagt er «Stöck», und die 20 kommen sofort auf die Tafel.
 - **Kann man die Stöck nachträglich weisen?** Hat der nächste Spieler die zweite Karte gedeckt oder ist das Spiel vorbei, sind die Stöck verfallen, im Spiel wie danach. Früher weisen darf man sie in zwei Fällen: Stecken sie in einem anderen Weis, werden sie mit ihm gewiesen. Reichen sie zum Ausmachen, dürfen sie jederzeit vorgewiesen werden, spätestens aber mit der zweiten Karte.
 - **Darf der Partner auf die Stöck hinweisen?** Er schweigt. Weisen kann nur, wer die Stöck hält. Sagt es der Partner für ihn, sind die Stöck verfallen.
 - **Zählen die Stöck auch, wenn die Gegner den höheren Weis haben?** Ja. Die Stöck zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis haben, ohne eigenen Stich und selbst dann, wenn die Gegner den Matsch machen. Reichen sie beim Ausmachen erst zusammen mit einem Weis ans Ziel, gilt für diesen Weis der gewöhnliche Vergleich.
@@ -1492,7 +1492,7 @@ Ein Weis ist eine Kartenkombination, die Punkte bringt, bevor der erste Stich ge
 
 ## Dreiblatt bis Neunblatt: die Folgen
 
-Eine Folge besteht aus drei oder mehr aufeinanderfolgenden Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, beim Stechen gelten sie als höchste Trümpfe. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts. Die Stöck stehen so, wie man sie nennt: König und Ober.
+Eine Folge besteht aus drei oder mehr aufeinanderfolgenden Karten derselben Farbe. Sie heisst nach ihrer Länge Dreiblatt, Vierblatt, Fünfblatt und so weiter bis zum Neunblatt. **Welche Karten eine Folge bilden, ist in jeder Farbe und jeder Spielart gleich:** Sechs, Sieben, Acht, Neun, Banner, Under, Ober, König, Ass. Puur und Nell bleiben für den Weis an ihrem Platz, beim Stechen gelten sie als höchste Trümpfe. Welches Ende der Folge als das höhere gilt, richtet sich nach der Spielart: bei Trumpf und Obenabe das Ass, in Undenufe der Sechser (siehe unten). Alle Folgen in diesem Artikel sind so zu lesen: die tiefste Karte links, die höchste rechts.
 
 Jede Karte mehr hebt den Weis um eine Stufe, ab dem Vierblatt um 50 Punkte je Karte.
 
@@ -1573,13 +1573,10 @@ Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das 
 
 ## Kreuzweis
 
-Eine Karte darf gleichzeitig zu einer Folge und zu vier Gleichen gehören. Beide Weise müssen für sich gültig sein, und der wertvollere wird zuerst gemeldet. Manche Runden lassen den Kreuzweis nicht gelten. Wer so spielt, macht es vor der Partie ab.
+Eine Karte darf gleichzeitig zu einer Folge und zu vier Gleichen gehören: Das ist der Kreuzweis. Beide Weise gelten, zusammen zählen beide Punktzahlen.
 
 
-
-Der Rosen-König gehört zu beiden. Zusammen zählt der Kreuzweis 120 Punkte.
-
-Mehr dazu im Artikel Kreuzweis.
+Die Meldung, die Rangfolge und die Runden, die ihn ausschliessen: Alles dazu steht im Artikel Kreuzweis.
 
 ## Weis in Obenabe und Undenufe
 
@@ -1609,7 +1606,6 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Welcher Weis ist höher, wenn beide gleich viel zählen?** Zuerst mehr Karten (ein Fünfblatt schlägt vier Könige), dann die höhere Karte (Dreiblatt vom Ass schlägt Dreiblatt vom König), dann Trumpf, und ist alles gleich, wer zuerst gemeldet hat.
 - **Wer schreibt die Weise?** Die Partei mit dem höchsten einzelnen Weis schreibt alle ihre Weise, die Gegenpartei keinen. Zwei Dreiblatt (40) verlieren gegen ein Vierblatt (50). Die Stöck schreibt ihre Partei in jedem Fall.
 - **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt sie auf, sobald ein Mitspieler es verlangt. Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt.
-- **Was ist ein Kreuzweis?** Der Fall, dass eine Karte zugleich zu einer Folge und zu vier Gleichen gehört, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte. Manche Runden lassen den Kreuzweis nicht gelten und machen das vor der Partie ab.
 - **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist der Sechser das obere Ende der Folge: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 - **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.

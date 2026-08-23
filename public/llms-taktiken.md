@@ -248,7 +248,7 @@ In den ersten Stichen. Wer den Stich macht, spielt gleich wieder Trumpf, solange
 
 ## Wie oft: zweimal
 
-Neun Trümpfe gibt es. Farben alle, so sind nach zwei Runden acht davon gespielt, und der neunte liegt bei irgendjemandem. Daher die Faustregel: **zweimal austrumpfen.**
+Neun Trümpfe gibt es. Hält der Ansager selbst vier, verteilen sich fünf auf die drei anderen, kaum zwei pro Spieler. Zwei Runden holen sie in der Regel alle. Daher die Faustregel: **zweimal austrumpfen.**
 
 
 Ein drittes Mal kostet oft den Matsch, weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende steht man mit dem letzten Trumpf allein da, und die Böcke des Partners fallen den Gegnern in die Hände.
@@ -264,8 +264,8 @@ Das sagt der Partner. Mit der Reihenfolge seiner Trümpfe zeigt er im ersten Tru
 Bleibt die Rechnung offen, gilt am Tisch die einfache Regel: Liegt der letzte Trumpf eher beim Partner, ist Schluss. Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch.
 
 **Häufige Fragen:**
-- **Was heisst austrumpfen beim Jassen?** Trumpf ausspielen, bis die Gegner keinen Trumpf mehr halten. Das macht das Team des Trumpfansagers, damit seine Böcke in den Nebenfarben später den Stich machen.
-- **Wie oft soll man austrumpfen?** Die Faustregel lautet zweimal. Neun Trümpfe gibt es, nach zwei Runden sind acht davon gespielt, wenn alle farben.
+- **Was heisst austrumpfen beim Jassen?** Trumpf ausspielen, bis die Gegner keinen Trumpf mehr halten. Das macht das Team des Trumpfansagers, damit seine Böcke in den anderen Farben später den Stich machen.
+- **Wie oft soll man austrumpfen?** Die Faustregel lautet zweimal. Neun Trümpfe gibt es, und nach zwei Runden Austrumpfen halten die Gegner in der Regel keinen mehr.
 - **Wer trumpft aus?** Der Trumpfansager und sein Partner. Spielt ein Gegner einen hohen Trumpf aus, spielt er damit seinen sichersten Stich.
 - **Womit trumpft man aus?** Mit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Nell vor Puur: Sie kostet einen hohen Trumpf und zeigt dem Partner dafür, wo der Puur liegt.
 - **Wann hört man mit dem Austrumpfen auf?** Sobald die übrigen Trümpfe beim eigenen Partner liegen. Das zeigt er mit der Reihenfolge seiner Trümpfe im ersten Trumpfstich, nach der Konvention Hoch-tief.
@@ -428,7 +428,7 @@ Wer mit dem Banner anfängt, hat aus der Sicht des Ansagers hoch gespielt. Der r
 
 ### Wenn ich Puur oder Nell halte
 
-Halte ich als Partner den Puur oder das Nell, so sagt meine Reihenfolge nichts über die Anzahl. Ich spiele den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft, wie es die Faustregel will. Ein drittes Mal fällt weg.
+Halte ich als Partner den Puur oder das Nell, so sagt meine Reihenfolge nichts über die Anzahl. Mit einem zweiten Trumpf dazu spiele ich den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft, wie es die Faustregel will. Ein drittes Mal fällt weg. Den blutten Puur behandelt der letzte Fall.
 
 **Mein Partner spielt den Puur, ich halte Nell und König.**
 
@@ -511,11 +511,11 @@ Wer die vier Fälle davor kennt, liest an dieser Stelle beides zugleich: die Kar
 - **Wer setzt das Signal, wenn geschoben wurde?** Immer der Partner des Trumpfansagers, im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 - **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht.
 - **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr und bleiben genau zwei übrig, so liegen beide bei ihm, und die Gegner sind ausgetrumpft. Bleiben drei übrig, trumpft er nochmals aus.
-- **Was gilt, wenn ich als Partner den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Du spielst den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft. Hält umgekehrt der Trumpfansager Puur oder Nell, so gilt die Konvention für dich weiter.
-- **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer Nebenfarbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
+- **Was gilt, wenn ich als Partner den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Mit einem zweiten Trumpf dazu spielst du den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft. Den blutten Puur behältst du und verwirfst ein Brättli. Hält umgekehrt der Trumpfansager Puur oder Nell, so gilt die Konvention für dich weiter.
+- **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer anderen Farbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
 - **Was heisst tief-hoch beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seine tiefste Trumpfkarte. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
-- **Woran erkennt der Trumpfansager, ob die Karte seines Partners hoch oder tief war?** An seinem eigenen Blatt und am Stich. Er zählt, welche Trümpfe übrig bleiben. Liegt darunter eine tiefere als die gespielte Karte, so hätte sein Partner diese gespielt, wenn er drei oder mehr hielte. Also war die gespielte Karte hoch.
+- **Woran erkennt der Trumpfansager, ob die Karte seines Partners hoch oder tief war?** An seinem eigenen Blatt und am Stich. Das Beispiel im Artikel: Übrig bleiben nur das Ass und der Siebner. Hielte der Partner drei Trümpfe, wäre der Siebner darunter, und den hätte er gespielt. Also war seine Karte hoch, und er hält höchstens zwei. Diese Rechnung geht auf, sobald nur noch zwei Trümpfe offen sind.
 
 *Keywords: hoch, tief, kommunikation, signale, fortgeschritten*
 

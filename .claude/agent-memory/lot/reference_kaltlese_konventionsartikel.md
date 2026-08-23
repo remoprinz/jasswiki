@@ -85,3 +85,17 @@ lief in den 120-s-Timeout. `.{0,40}` auf **einer** Datei geht, sicher ist
 `grep -in "wort" datei | cut -c1-250`.
 
 Ergänzt [[eichquelle-grep]], [[jasswiki-pruefwerkzeuge]], [[kaltlese-protokoll]].
+
+## Nachlese 23.08.: der Name steht unverändert, und die Zahlen sind schärfer geworden
+
+`tief-hoch` hat inzwischen **0/0/9** Treffer — die fünf neuen sind unsere eigenen Notizen und
+der Engine-String, der Kreisschluss wächst also mit jeder Woche Arbeit. Dagegen steht Remos
+Stimme doppelt: «tief - höher» **0/0/19** plus «tief-höher» 0/0/6 (`:2491` «die regel heisst
+'Hoch - tief / tief - höher Konention'») und «tief-hoch-**tief**» **0/0/6**, davon dreimal
+Remo direkt (`:596`, `:4424`, `:9242`). **Merke: Ein Fund, der drei Tage später noch dasteht,
+wird durch unsere eigene Arbeit statistisch «belegter» — darum bei jeder Nachlese die Treffer
+neu im Kontext lesen, nie die gewachsene Zahl übernehmen.**
+
+Neu dazu: **«Matsch holen» ist belegt, obwohl `grep "Matsch holen"` 0 zeigt** — Remo sagt
+«einzige chance noch den matsch **zu holen**» (`:5502`). Wortfolgen greppen verpasst Belege;
+den Stamm greppen (`grep -in "matsch" | cut -c1-200`) findet sie.

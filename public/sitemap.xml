@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jasswiki.ch/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://jasswiki.ch/jassen/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://jasswiki.ch/taxonomie/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://jasswiki.ch/quellen/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jasswiki.ch/quellenverzeichnis/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -488,13 +488,13 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/begriffe/grundbegriffe/vorhand/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jasswiki.ch/weis-regeln/weispunkte/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -860,7 +860,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/taktiken-und-strategien/kommunikation-signale/austrumpfen-hoch-oder-tief/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1082,7 +1082,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/varianten/bieter/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1154,7 +1154,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/varianten/sidi-barrani/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1220,7 +1220,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/weis-regeln/weis-arten/kreuzweis/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1244,7 +1244,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/weis-regeln/stoeck/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1376,7 +1376,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/taktiken-und-strategien/austrumpfen/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1388,7 +1388,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/taktiken-und-strategien/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1400,7 +1400,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/begriffe/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1412,7 +1412,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/weis-regeln/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1436,7 +1436,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/varianten/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1472,7 +1472,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/begriffe/grundbegriffe/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1538,7 +1538,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/weis-regeln/weis-arten/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>

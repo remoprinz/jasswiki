@@ -21,3 +21,10 @@ plus Rich-Results-Datensatz, den Google auswertet.
 getrennt nach `text` und `faqs` führen. Wer den Auflöser anfasst, muss FAQ-Antworten
 mitnehmen — sonst bleibt der sichtbarste Teil des Schadens stehen. Gehört zur Messung in
 [[jasswiki-internal-links-audit]].
+
+**Stand 23.08.2026: für die neun geprüften Seiten geschlossen.** Null Rohmarker im sichtbaren
+Text, in allen 110 FAQ-Antworten und in den sechs llms-Modulen. Die Marker liegen ausschliesslich
+im `__NEXT_DATA__`, wo sie hingehören. Prüfrezept, das den Unterschied macht: das ausgelieferte
+HTML an `<` in Zeilen zerlegen, `grep -v '^<script'`, dann erst nach Markern suchen — sonst zählt
+man die harmlose Nutzlast im `__NEXT_DATA__` als Schaden mit (auf den neun Seiten 6 bis 43
+Treffer, alle unsichtbar). Siehe [[faq-rich-results-ende]].

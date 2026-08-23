@@ -25,6 +25,16 @@ ausgelieferten HTML):
 **Why:** Sechs Seiten mit über 150 Impressionen tragen null Klicks, darunter `/weis-regeln/stoeck/`
 auf Position 6,89 mit 381 Impressionen. Der Verdacht fiel auf Titel und Beschreibung.
 
+**Stand 23.08.2026 für die neun geprüften Seiten:** Der Hebel ist dort gezogen —
+`metadata.seoTitle` und `metadata.seoDescription` stehen je Artikel im Inhalt, alle neun Titel
+liegen zwischen 51 und 67 Zeichen, alle neun Beschreibungen sind eigener Text. Offen blieben
+drei zu lange Beschreibungen (bieter 167, pandur 161, sidi-barrani 169 Zeichen), zwei Titel
+ohne Markenendung (beide Austrumpfen-Seiten) und ein neuer Befund: **sieben von neun H1 sind
+ein einziges Wort** («Weispunkte», «Stöck», «Kreuzweis», «Bieter», «Pandur», «Sidi Barrani»,
+«Austrumpfen»), während der Titel daneben eine ganze Aussage trägt. Der Ein-Wort-H1 ist
+Wikipedia-Handwerk und vertretbar, aber er ist Googles bevorzugte Quelle, wenn Google den
+gelieferten Titel ersetzt.
+
 **How to apply:** Als Hebel gilt: pro Artikel ein eigenes Feld für Titel und Beschreibung im
 Inhalt, Vorlage nur noch als Rückfallebene. Bei Null-Klick-Diagnosen zusätzlich die Suchanfragen
 je Seite aus der GSC holen, bevor der Text als Ursache gilt; bei 0 von 381 kann ebenso eine
