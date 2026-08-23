@@ -1,34 +1,31 @@
 ---
 name: jasswiki-kartenkopf-budget
-description: In der Kopfzeile der Kartenreihe schrumpft der Sprachumschalter, wenn die Aufschrift lang ist — gemessene Grenze 109 px auf 375 px, betrifft nur den ERSTEN Kartenblock einer Seite
+description: Die Kopfzeile der Kartenreihe umbricht seit 23.08.2026, statt «Französisch» abzuschneiden — die Länge der Aufschrift ist frei, das alte 109-px-Budget ist Geschichte
 metadata:
   type: reference
 ---
 
-Die Kopfzeile `.jw-karten-kopf` ist eine Flex-Zeile mit `justify-content: space-between`
-aus Aufschrift (`.jw-karten-marke`) und Sprachumschalter (`.jw-karten-wahl`). Der
-Umschalter hat **kein `flex-shrink: 0`** und trägt `overflow: hidden` — er schrumpft
-darum und schneidet sein eigenes Wort «Französisch» ab.
+Die Kopfzeile `.jw-karten-kopf` ist eine Flex-Zeile aus Aufschrift
+(`.jw-karten-marke`) und Sprachumschalter (`.jw-karten-wahl`). **Seit dem
+23.08.2026 (Branch `kelle/bild-welle2`) hat sie `flex-wrap: wrap`, der Umschalter
+`flex: 0 0 auto`, die Aufschrift `min-width: 0` + `overflow-wrap: anywhere`.**
+Damit rückt der Umschalter bei einer langen Aufschrift auf eine zweite Zeile,
+statt sein eigenes Wort «Französisch» abzuschneiden.
 
-**Gemessen am Live-Bild, 23.08.2026:** Auf 375 px ist die Kopfzeile 285 px breit, der
-volle Umschalter 164 px, der Abstand 12 px. Der Aufschrift bleiben damit **109 px**.
-Darüber schrumpft der Umschalter. Belegte Fälle: «Kreuzweis, erster Weis» (134 px) →
-25 px verdeckt auf 375, 53 px auf 320, 18 px noch auf 390. Auf 320 px schneidet sogar
-«Jasskarten» (81 px) 27 px ab. Am Desktop schrumpft nichts.
+**Die Länge der Aufschrift ist damit frei.** Gemessen nach dem Umbau auf
+320/375/390/1280 px, neun Seiten: `verdeckt = 0` überall, kein Textüberlauf, kein
+Seitenüberlauf. Am Schirm bleibt jede Kopfzeile einzeilig; auf 320 px wird fast
+jede zweizeilig (Kosten 24 px Höhe, nur beim ersten Block einer Seite, denn nur
+dort steht der Umschalter). Auf 375 px wird zweizeilig, was länger ist als rund
+110 px — «Kreuzweis, erster Weis» (134), «Stichfolge im Trumpf» (129).
 
-Grössenordnung gemessener Aufschriften: «Blatt A» 51 · «Hose abe»/«Vorhand» 61 ·
-«Ansage 80» 69 · «Mein Blatt» 73 · «Stichfolge»/«Zwei Böcke» 76 · «Jasskarten» 81 ·
-«Drei Trümpfe» 89 · «Zwei Trümpfe»/«Bodentrumpf» 92 · «Was ich verwerfe» 116 ·
-«Blatt der Vorhand» 121 · «Stichfolge im Trumpf» 129.
+**Why:** Vorher schnitt der Umschalter auf 375 px bis zu 25 px und auf 320 px bis
+zu 53 px seines Wortes ab, sobald die Aufschrift lang wurde — und die 32
+sprechenden Titel, die SCHIRI danach setzen liess, sind alle länger als
+«Jasskarten». Darum musste die Kopfzeile VOR den Titeln repariert werden.
 
-**Why:** SCHIRI füllt gerade die 32 Reihen, die heute «Jasskarten» heissen, mit
-sprechenden Titeln. Jeder davon ist länger als «Jasskarten» — wer die Titel setzt, ohne
-die Kopfzeile zu reparieren, schneidet auf mehreren Seiten das Wort «Französisch» ab.
-
-**How to apply:** Der Umschalter steht nur beim **ersten** Kartenblock einer Seite
-(`mitWahl`), also gilt die Grenze auch nur dort. Dauerhafte Lösung, bevor lange
-Aufschriften kommen: `.jw-karten-wahl { flex: 0 0 auto; }` plus `min-width: 0` an der
-Aufschrift — dann ist die Länge frei. Solange das offen ist, für erste Blöcke ≤ 109 px
-wählen.
+**How to apply:** Aufschriften frei nach Sinn wählen. Wer die Kopfzeile anfasst,
+prüft nach: `.jw-karten-wahl` scrollWidth − clientWidth muss 0 bleiben, auf 320
+und 375 px, beim ersten Block jeder Seite.
 
 Siehe auch [[jasswiki-messaufbau]], [[jasswiki-kartenbild-doktrin]].

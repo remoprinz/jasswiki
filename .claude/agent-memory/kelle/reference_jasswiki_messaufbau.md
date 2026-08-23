@@ -36,4 +36,14 @@ Mess-Aufbau für jasswiki-Frontend-Arbeit im eigenen Worktree (`/private/tmp/jas
   z. B. `beschriftung: null` im Mess-JSON zählen. Gegenprobe, die den Fall beweist: der
   Satz steht im `__NEXT_DATA__` (roher `curl`), im sichtbaren HTML (Skript-Blöcke per
   `perl -0pe` entfernt) steht er null mal.
+- **Inhalt in `jass-content-v2.json` ändern, ohne den Bestand anzufassen: `jq` mit
+  `split`/`join`.** `jq '.'` gibt die Datei byteweise gleich zurück (geprüft
+  23.08.2026), darum bleibt der Diff minimal. Rezept: Ersetzungsliste als eigene
+  JSON (`id`, `alt`, `neu`), einmal
+  `jq --slurpfile e liste.json 'reduce $e[0][] as $x (.; .[$x.id].text = (.[$x.id].text | split($x.alt) | join($x.neu)))'`.
+  `split/1` ist LITERAL (die Zweiarg-Form ist Regex) — Marken mit `[[` brauchen
+  darum kein Escaping. Vorher belegen, dass jedes `alt` genau einmal vorkommt;
+  nachher belegen, dass nur die Marken wanderten: beide Fassungen mit
+  `gsub("\\[\\[karten:[^\\]]*\\]\\]"; "MARKE")` vergleichen und zusätzlich
+  `del(.text)` gegeneinanderhalten.
 - Zum Messen des eigenen Bauteils **Prüf-Marken in zwei Artikel spritzen** — einen mit `sub !== topic` (Artikelseite `[category]/[subcategory]/[topic]`) und einen mit `sub === topic` (flache Leitartikel-Seite `[category]/[subcategory]`). Beide Seitenarten rendern über `InternalLinker`, aber nur so ist beides belegt. Danach `git checkout -- src/data/jass-content-v2.json`.
