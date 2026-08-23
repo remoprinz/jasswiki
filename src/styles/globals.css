@@ -563,6 +563,23 @@ body.lexikon-page div[id="__next"] {
   transform: scale(1.04);
 }
 
+/* Eine einzelne Karte tritt hervor — geschrieben als «rosen-koenig!» in der
+   Marke. Beim Kreuzweis steht dieselbe Karte in zwei Weisen, und beide Bänder
+   zeigen, welche es ist (Remo, 20.08.2026).
+
+   Das Kartenmass bleibt gleich: Der Rahmen wächst nach INNEN (box-sizing:
+   border-box), darum ändern sich weder Breite noch Höhe noch Abstand — gemessen
+   am 22.08.2026, 375 px und 1280 px, auf den Punkt gleich. Der Schatten fällt
+   etwas tiefer und grün statt grau, der Name darunter nimmt dasselbe Grün an. */
+.jw-karte--hervor .jw-karte-bild {
+  border: 2px solid #274823;
+  box-shadow: 0 3px 10px rgba(39, 72, 35, 0.3);
+}
+
+.jw-karte--hervor .jw-karte-name {
+  color: #274823;
+}
+
 .jw-karte-name {
   display: block;
   margin-top: 5px;

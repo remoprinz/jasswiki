@@ -217,6 +217,7 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
           <JassKartenReihe
             key={`k${i}`}
             slugs={stueck.slugs}
+            hervor={stueck.hervor}
             beschriftung={stueck.beschriftung}
             aufschrift={stueck.aufschrift}
             mitWahl={i === ersteReihe}

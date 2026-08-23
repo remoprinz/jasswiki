@@ -212,10 +212,26 @@ const lauf = async () => {
       }
     }
 
-    // G — Kartenreihen stehen immer in der Ordnung des Blatts
+    // G — Kartenreihen stehen immer in der Ordnung des Blatts.
+    // Eine hervorgehobene Karte trägt ein Ausrufezeichen am Slug
+    // («rosen-koenig!»); für die Ordnung zählt der Slug darunter.
     for (const reihe of text.matchAll(/\[\[karten:\s*([^|\]]+)/g)) {
-      const slugs = reihe[1].split(',').map((s) => s.trim()).filter(Boolean);
+      const eintraege = reihe[1].split(',').map((s) => s.trim()).filter(Boolean);
+      const slugs = eintraege.map((e) => e.replace(/\s*!$/, ''));
       if (AUSNAHMEN.kartenreihen?.[schluessel]?.some((a) => reihe[0].includes(a))) continue;
+      // Eine verschriebene Hervorhebung («!slug», «slug!!») lässt die Karte im
+      // Artikel verschwinden — still, wie jeder Slug, den es nicht gibt. Beim
+      // Schreiben steht sie darum hier.
+      const verschrieben = slugs.filter((s) => s.includes('!'));
+      if (verschrieben.length > 0) {
+        fehler.push({
+          artikel: schluessel,
+          pruefung: 'G · Hervorhebung verschrieben',
+          fund: `«${verschrieben.join(', ')}»`,
+          warum:
+            'Hervorgehoben wird mit genau EINEM Ausrufezeichen am Schluss des Slugs: «rosen-koenig!». Anders geschrieben fällt die Karte aus dem Bild.',
+        });
+      }
       const gesehen = [];
       let vorigeFarbe = null;
       let vorigerRang = -1;

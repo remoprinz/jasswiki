@@ -67,12 +67,31 @@ const MARKE_GANZE_ZEILE = new RegExp(String.raw`^[ \t]*${MARKE_BAUFORM}[ \t]*\n?
 
 export interface KartenMarkeInhalt {
   slugs: string[];
+  /** Slugs, die in der Reihe hervortreten — Schreibweise «slug!». */
+  hervor: string[];
   beschriftung?: string;
   /** Aufschrift über der Reihe, dritter Teil der Marke. */
   aufschrift?: string;
   /** Slugs, die in keinem der beiden Kartensysteme vorkommen. */
   unbekannt: string[];
 }
+
+/**
+ * HERVORHEBUNG EINER EINZELNEN KARTE: ein Ausrufezeichen am Slug.
+ *
+ *   [[karten: rosen-ober, rosen-koenig!, rosen-ass | … | Kreuzweis]]
+ *
+ * Gedacht für die Karte, um die es in der Reihe geht — beim Kreuzweis gehört
+ * der Rosen-König zu beiden Weisen, und genau das trägt das Bild
+ * (Remo, 20.08.2026). Ein Leerzeichen davor ist erlaubt, weil es in der JSON
+ * niemand sieht.
+ *
+ * Genau EIN Ausrufezeichen, und es steht am Schluss. Alles andere («!slug»,
+ * «slug!!») bleibt ein Slug, den es nicht gibt — die Karte verschwindet dann
+ * wie jeder verschriebene Slug, statt ihren Rohtext zu zeigen. Beim Schreiben
+ * meldet das der Sprachwächter («G · Hervorhebung verschrieben»).
+ */
+const HERVOR_ZEICHEN = /^(.+?)\s*!$/;
 
 /**
  * Zerlegt das Innere einer Karten-Marke:
@@ -96,9 +115,16 @@ export function marketInhaltLesen(inneres: string): KartenMarkeInhalt {
     .map((s) => s.trim().toLowerCase())
     .filter(Boolean);
 
+  const gelesen = roh.map((eintrag) => {
+    const treffer = HERVOR_ZEICHEN.exec(eintrag);
+    const slug = treffer ? treffer[1].trim() : eintrag;
+    return { roh: eintrag, slug, hervor: Boolean(treffer), gilt: istKartenSlug(slug) };
+  });
+
   return {
-    slugs: roh.filter(istKartenSlug),
-    unbekannt: roh.filter((s) => !istKartenSlug(s)),
+    slugs: gelesen.filter((e) => e.gilt).map((e) => e.slug),
+    hervor: gelesen.filter((e) => e.gilt && e.hervor).map((e) => e.slug),
+    unbekannt: gelesen.filter((e) => !e.gilt).map((e) => e.roh),
     beschriftung: beschriftung || undefined,
     aufschrift: aufschrift || undefined,
   };
@@ -124,6 +150,8 @@ export interface TextStueck {
 export interface KartenStueck {
   art: 'karten';
   slugs: string[];
+  /** Slugs, die in dieser Reihe hervortreten (Schreibweise «slug!»). */
+  hervor: string[];
   beschriftung?: string;
   aufschrift?: string;
 }
@@ -187,6 +215,7 @@ export function textInStuecke(text: string): Stueck[] {
       stuecke.push({
         art: 'karten',
         slugs: inhalt.slugs,
+        hervor: inhalt.hervor,
         beschriftung: inhalt.beschriftung,
         aufschrift: inhalt.aufschrift,
       });

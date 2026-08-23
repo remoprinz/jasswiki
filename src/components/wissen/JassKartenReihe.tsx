@@ -23,6 +23,12 @@ interface Props {
   /** Beschriftung unter der Reihe (optional). */
   beschriftung?: string;
   /**
+   * Karten, die in dieser Reihe hervortreten — geschrieben als «slug!» in der
+   * Marke. Verglichen wird der geschriebene Slug, darum trägt die Karte ihre
+   * Hervorhebung in beiden Kartensystemen.
+   */
+  hervor?: string[];
+  /**
    * Aufschrift über der Reihe, dritter Teil der Marke — z. B. «Mein Blatt»,
    * «Der Stich», «Weis». Fehlt sie, steht dort «Jasskarten».
    */
@@ -47,11 +53,17 @@ interface Props {
  * zeigte und das andere die Karten eines Stichs — genau daran blieb Remo am
  * 20.08. hängen. Fehlt der dritte Teil, steht dort «Jasskarten» wie bisher.
  *
+ * Eine einzelne Karte tritt hervor, wenn sie in der Marke ein Ausrufezeichen
+ * trägt («rosen-koenig!»): Beim Kreuzweis gehört der Rosen-König zu beiden
+ * Weisen, und das Bild zeigt es (Remo, 20.08.2026). Das Kartenmass und die
+ * Abstände bleiben dabei, wie sie sind — es wechselt die Farbe des Rahmens.
+ *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg).
  */
 export const JassKartenReihe: React.FC<Props> = ({
   slugs,
   beschriftung,
+  hervor,
   aufschrift,
   mitWahl = true,
 }) => {
@@ -62,10 +74,16 @@ export const JassKartenReihe: React.FC<Props> = ({
     kartensystemAusSpeicherHolen();
   }, []);
 
-  const karten = useMemo(
-    () => slugs.map((s) => karteAusSlug(s, system)).filter((k): k is JassKarte => Boolean(k)),
-    [slugs, system]
-  );
+  // Die Hervorhebung hängt am geschriebenen Slug, die Karte am gewählten
+  // System — darum bleiben beide zusammen, statt sich über den Index zu
+  // suchen: Ein unbekannter Slug fällt aus der Reihe und würde jeden Index
+  // danach verschieben.
+  const karten = useMemo(() => {
+    const markiert = new Set(hervor ?? []);
+    return slugs
+      .map((s) => ({ karte: karteAusSlug(s, system), hervor: markiert.has(s) }))
+      .filter((e): e is { karte: JassKarte; hervor: boolean } => Boolean(e.karte));
+  }, [slugs, system, hervor]);
 
   if (karten.length === 0) return null;
 
@@ -101,13 +119,15 @@ export const JassKartenReihe: React.FC<Props> = ({
         }
         data-karten={karten.length}
       >
-        {karten.map((karte, i) => (
+        {karten.map(({ karte, hervor: trittHervor }, i) => (
           <button
             key={`${karte.slug}-${i}`}
             type="button"
             onClick={() => setGross(karte)}
-            aria-label={`${karte.name} vergrössern`}
-            className="jw-karte"
+            aria-label={
+              trittHervor ? `${karte.name}, hervorgehoben, vergrössern` : `${karte.name} vergrössern`
+            }
+            className={trittHervor ? 'jw-karte jw-karte--hervor' : 'jw-karte'}
           >
             <img
               src={karte.image}
