@@ -117,6 +117,10 @@ const WENDUNGEN = [
   [/läuft zusammen auf/i, 'Gemeint ist «zählt gegen das Gebot».'],
   [/in die Mittelhand/i, 'Am Tisch heisst das «den König in die Zange nehmen» (Remo, 18.08.).'],
   [/das Spiel in die Hand nehmen/i, 'Bild aus der Sportberichterstattung.'],
+  // Remo, 23.08.2026: «es heisst tief höher». Das blanke «tief-hoch» war unsere
+  // eigene Maschinen-Prägung (0 echte Belege, 9 eigene Artefakte); in Remos
+  // Transkripten steht «tief-höher» 25-mal.
+  [/tief-hoch(?!-)/i, 'Die Konvention heisst hoch-tief / tief-höher (Remo, 23.08.).'],
 ];
 
 // --- C -----------------------------------------------------------------------

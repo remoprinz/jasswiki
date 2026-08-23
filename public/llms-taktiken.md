@@ -180,7 +180,7 @@ Zu viel Austrumpfen kostet die meisten Matsche. Spielt der Partner zuerst die ti
 
 Ein häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Trumpfansager kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.
 
-Wichtig: Die Hoch-Tief- / Tief-Hoch-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.
+Wichtig: Die Hoch-Tief- / Tief-höher-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.
 
 **Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.
 
@@ -383,15 +383,15 @@ Schon im ersten Stich zeigt der Partner des Trumpfansagers, wie viele Trümpfe e
 
 Sie beantwortet dem Ansager die Frage, an der der Matsch hängt: Reicht einmal Austrumpfen, oder braucht es ein zweites Mal?
 
-## Hoch-tief und tief-hoch: das Signal
+## Hoch-tief und tief-höher: das Signal
 
-**Hoch-tief** heisst: Der Partner spielt zuerst die hohe Karte, dann die tiefe. Er hält genau zwei Trümpfe. **Tief-hoch** heisst: Er beginnt mit der tiefsten Karte. Er hält drei oder mehr.
+**Hoch-tief** heisst: Der Partner spielt zuerst den hohen Trumpf, dann den tiefen. Er hält genau zwei. **Tief-höher** heisst: Er beginnt mit seinem tiefsten Trumpf. Er hält drei oder mehr.
 
-**Tief-hoch macht den Matsch, hoch-tief nicht.** Wer drei Trümpfe zeigt, sagt dem Ansager, dass er aufhören kann, und genau das lässt dem Partner die Trümpfe, die den Matsch holen.
+**Tief-höher macht den Matsch, hoch-tief nicht.** Wer drei Trümpfe zeigt, sagt dem Ansager, dass er aufhören kann, und genau das lässt dem Partner die Trümpfe, die den Matsch holen.
 
 
 
-Die erste dieser Karten spielt der Partner im ersten Trumpfstich, die zweite im nächsten. Zwingend ist allein die erste. Bei drei und mehr Trümpfen muss sie die tiefste sein, sonst stimmt die Auskunft nicht. Die zweite darf irgendeine höhere sein, denn schon der Sprung nach oben sagt alles.
+Den ersten dieser Trümpfe spielt der Partner im ersten Trumpfstich, den zweiten im nächsten. Zwingend ist allein der erste. Bei drei und mehr Trümpfen muss er der tiefste sein, sonst stimmt die Auskunft nicht. Der zweite darf irgendein höherer sein, denn schon der Sprung nach oben sagt alles. Daher der Name: tief-höher.
 
 Das Signal setzt immer der Partner des Trumpfansagers, und immer im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 
@@ -412,7 +412,7 @@ Mein Partner hat Trumpf angesagt und spielt das Nell aus. Ich bin an der Reihe, 
 ### Ich halte drei Trümpfe: ich lege die tiefste
 
 
-Der Sechser ist meine tiefste Karte. Damit weiss mein Partner: drei oder mehr. Er rechnet nach und hört auf.
+Der Sechser ist mein tiefster Trumpf. Damit weiss mein Partner: drei oder mehr. Er rechnet nach und hört auf.
 
 Das Banner zählt zehn Punkte. Es kommt trotzdem erst später, denn die Auskunft ist mehr wert.
 
@@ -462,7 +462,7 @@ Jetzt sitze ich auf der anderen Seite. Ich habe Trumpf angesagt, halte Puur, Nel
 
 Ich rechne: Gespielt sind Nell, Sechser, Ass und Achter, das sind vier. In meiner Hand liegen Puur, König und Siebner, das sind drei. Von neun bleiben **zwei** übrig, der Ober und das Banner.
 
-Mein Partner hat mit dem Sechser die tiefste Karte gespielt, also hält er drei oder mehr. Eine davon ist gespielt, mindestens zwei hat er noch. Genau zwei sind übrig, also liegen beide bei ihm.
+Mein Partner hat mit dem Sechser seinen tiefsten Trumpf gespielt, also hält er drei oder mehr. Eine davon ist gespielt, mindestens zwei hat er noch. Genau zwei sind übrig, also liegen beide bei ihm.
 
 **Die Gegner sind ausgetrumpft, ich höre auf.** Und ich höre auf, weil hier genau zwei Trümpfe übrig bleiben. Wären es drei, ginge die Rechnung nicht auf, und ich trumpfe nochmals aus.
 
@@ -505,16 +505,16 @@ Hielte mein Partner drei Trümpfe, so wäre der Siebner darunter, und den hätte
 Wer die vier Fälle davor kennt, liest an dieser Stelle beides zugleich: die Karte auf dem Tisch und die Karten, die noch fehlen. Das ist der ganze Trick daran.
 
 **Häufige Fragen:**
-- **Wie zeigt mein Partner, wie viele Trümpfe er hat?** Mit der Reihenfolge, in der er sie legt. Im ersten Trumpfstich spielt er bei genau zwei Trümpfen zuerst die hohe Karte, bei drei oder mehr zuerst die tiefste. Puur und Nell stehen ausserhalb dieser Konvention.
-- **Ich habe zwei Trümpfe, welchen spiele ich zuerst?** Die hohe Karte, danach die tiefe. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass. Für Puur und Nell gilt eine eigene Reihenfolge, sie steht im letzten Abschnitt des Artikels.
-- **Ich habe drei oder mehr Trümpfe, welchen spiele ich zuerst?** Zwingend die tiefste. Hältst du Sechs, Banner und Ober, kommt zuerst die Sechs. Die zweite Karte darf irgendeine höhere sein, schon der Sprung nach oben sagt deinem Partner alles.
+- **Wie zeigt mein Partner, wie viele Trümpfe er hat?** Mit der Reihenfolge, in der er sie legt. Im ersten Trumpfstich spielt er bei genau zwei Trümpfen zuerst den hohen, bei drei oder mehr zuerst den tiefsten. Puur und Nell stehen ausserhalb dieser Konvention.
+- **Ich habe zwei Trümpfe, welchen spiele ich zuerst?** Den hohen Trumpf, danach den tiefen. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass. Für Puur und Nell gilt eine eigene Reihenfolge, sie steht im letzten Abschnitt des Artikels.
+- **Ich habe drei oder mehr Trümpfe, welchen spiele ich zuerst?** Zwingend den tiefsten. Hältst du Sechs, Banner und Ober, kommt zuerst die Sechs. Der zweite Trumpf darf irgendein höherer sein, schon der Sprung nach oben sagt deinem Partner alles.
 - **Wer setzt das Signal, wenn geschoben wurde?** Immer der Partner des Trumpfansagers, im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 - **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht.
 - **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr und bleiben genau zwei übrig, so liegen beide bei ihm, und die Gegner sind ausgetrumpft. Bleiben drei übrig, trumpft er nochmals aus.
 - **Was gilt, wenn ich als Partner den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Mit einem zweiten Trumpf dazu spielst du den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft. Den blutten Puur behältst du und verwirfst ein Brättli. Hält umgekehrt der Trumpfansager Puur oder Nell, so gilt die Konvention für dich weiter.
 - **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer anderen Farbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
-- **Was heisst tief-hoch beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seine tiefste Trumpfkarte. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
+- **Was heisst tief-höher beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seinen tiefsten Trumpf. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
 - **Woran erkennt der Trumpfansager, ob die Karte seines Partners hoch oder tief war?** An seinem eigenen Blatt und am Stich. Das Beispiel im Artikel: Übrig bleiben nur das Ass und der Siebner. Hielte der Partner drei Trümpfe, wäre der Siebner darunter, und den hätte er gespielt. Also war seine Karte hoch, und er hält höchstens zwei. Diese Rechnung geht auf, sobald nur noch zwei Trümpfe offen sind.
 
 *Keywords: hoch, tief, kommunikation, signale, fortgeschritten*
