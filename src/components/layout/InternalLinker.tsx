@@ -235,6 +235,7 @@ export const InternalLinker: React.FC<InternalLinkerProps> = ({ text, farbwechse
               titel={stueck.titel}
               zug={stueck.zug}
               blatt={stueck.blatt}
+              blattHervor={stueck.blattHervor}
               blattAufschrift={stueck.blattAufschrift}
               beschriftung={stueck.beschriftung}
               mitWahl={i === ersteReihe}

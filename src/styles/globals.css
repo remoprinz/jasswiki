@@ -478,6 +478,12 @@ body.lexikon-page div[id="__next"] {
    JassKartenReihe. Bilder: schweizerjass.ch (Jens Riedweg).
    --------------------------------------------------------------------------- */
 .jw-karten-reihe {
+  /* HUB: wie weit eine hervorgehobene Karte aus der Reihe steigt. Der eine
+     Wert, an dem sich das justieren lässt; er wächst mit der Fensterbreite,
+     weil die Karten es auch tun (58 px am Handy, 118 px am Schirm). SCHEIN:
+     die Luft, die der grüne Schein über ihr braucht. */
+  --jw-hub: clamp(11px, 3vw, 20px);
+  --jw-schein: 10px;
   margin: 28px 0;
   padding: 14px 16px 12px;
   border: 1px solid #e8e6df;
@@ -640,21 +646,85 @@ body.lexikon-page div[id="__next"] {
   transform: scale(1.04);
 }
 
-/* Eine einzelne Karte tritt hervor — geschrieben als «rosen-koenig!» in der
-   Marke. Beim Kreuzweis steht dieselbe Karte in zwei Weisen, und beide Bänder
-   zeigen, welche es ist (Remo, 20.08.2026).
+/* EINE KARTE TRITT HERVOR — derselbe Griff wie in der Arena.
+   Geschrieben wird sie als «rosen-koenig!» in der Marke, in der Kartenreihe
+   ebenso wie im Blatt am Jasstisch. Gemeint ist die Karte, um die es geht: beim
+   Kreuzweis der Rosen-König in beiden Weisen, im Hoch-tief der tiefste Trumpf,
+   den der Partner legen soll.
 
-   Das Kartenmass bleibt gleich: Der Rahmen wächst nach INNEN (box-sizing:
-   border-box), darum ändern sich weder Breite noch Höhe noch Abstand — gemessen
-   am 22.08.2026, 375 px und 1280 px, auf den Punkt gleich. Der Schatten fällt
-   etwas tiefer und grün statt grau, der Name darunter nimmt dasselbe Grün an. */
+   DAS VORBILD IST DIE ARENA (Remo, 23.08.2026: «und zwar so, wie wenn man das
+   erste Mal tippt beim Kartenlegen»). Am Fächer gemessen (23.08.2026,
+   PlayerHandFan, Karte 92 × 144): Die berührte Karte steigt 26 px aus der Reihe,
+   legt sich mit z-index über ihre Nachbarn und trägt
+   `box-shadow: 0 0 0 2px #00FF46, 0 0 14px rgba(0,255,70,.55)` — Ring plus
+   Schein, kein Blinken, keine Bewegung. Genau diese drei Griffe stehen hier:
+   Hub, Ring, Schein.
+
+   DER TON WECHSELT MIT DEM GRUND. Das Neongrün der Arena lebt vom schwarzgrünen
+   Filz; auf dem Kreidepapier der Artikel stünde es fast unsichtbar (Kontrast
+   1,2 : 1 gegen den Kasten, gemessen). Hier trägt der Ring darum das
+   JassGuru-Grün #2BB752 — dasselbe, das in der Arena die Pille «Nochmal tippen»
+   füllt. Der Schein nimmt denselben Ton, und ein tiefer Schlagschatten trägt
+   die angehobene Karte, die auf hellem Grund sonst schwebte.
+
+   RUHIG BLEIBT SIE: ein fester Zustand, keine Schleife, kein Blinken. Darum
+   braucht es hier auch keine Rücksicht auf `prefers-reduced-motion`. */
+/* Der Ton der Hervorhebung, an einer Stelle für beide Abbildungen. */
+.jw-karten-reihe,
+.jw-tisch {
+  --jw-hervor: #2bb752;
+  --jw-hervor-schein: rgba(43, 183, 82, 0.55);
+}
+
+.jw-karte--hervor {
+  position: relative;
+  z-index: 1;
+  transform: translateY(calc(-1 * var(--jw-hub)));
+}
+
 .jw-karte--hervor .jw-karte-bild {
-  border: 2px solid #274823;
-  box-shadow: 0 3px 10px rgba(39, 72, 35, 0.3);
+  border-color: var(--jw-hervor);
+  box-shadow:
+    0 0 0 2px var(--jw-hervor),
+    0 0 14px var(--jw-hervor-schein),
+    0 10px 16px -8px rgba(27, 53, 26, 0.5);
 }
 
 .jw-karte--hervor .jw-karte-name {
   color: #274823;
+  font-weight: 700;
+}
+
+/* RAUM FÜR DEN HUB, und zwar nur dort, wo eine Karte ihn braucht: Die Klasse
+   --hebt setzen JassKartenReihe und JassTisch, sobald die Marke ein «!» trägt.
+   Eine Abbildung ohne Hervorhebung bleibt damit Pixel für Pixel, wie sie war.
+
+   In der REIHE steigt die Karte in eine Lücke, die eigens dafür aufgeht: Die
+   Kopfzeile rückt um den Hub nach oben, das Band bekommt den Hub als
+   Innenabstand und gibt ihn als negativen Aussenabstand gleich wieder her. So
+   bleiben Karten, Namen und Bildhöhe auf ihrem Platz, die Abbildung wird um den
+   Hub höher, und über der angehobenen Karte steht derselbe Abstand zur
+   Aufschrift wie sonst über den Karten.
+
+   Der Innenabstand am Band ist dabei Pflicht, nicht Kosmetik: Das Band rollt
+   (overflow-x: auto), und ein Rollkasten schneidet auch nach OBEN — ohne diesen
+   Raum wäre die angehobene Karte gekappt.
+
+   Das BLATT am Jasstisch rollt nicht, dort genügt der Innenabstand: Die Hand
+   rückt um den Hub nach unten, die hervorgehobene Karte steht damit wieder auf
+   ihrer alten Höhe. Der Kasten wächst nach unten — oben liegt der Filz, und den
+   fasst hier nichts an. */
+.jw-karten-reihe--hebt .jw-karten-kopf {
+  margin-bottom: calc(10px + var(--jw-hub));
+}
+
+.jw-karten-reihe--hebt .jw-karten-band {
+  padding-top: calc(var(--jw-hub) + var(--jw-schein));
+  margin-top: calc(-1 * (var(--jw-hub) + var(--jw-schein)));
+}
+
+.jw-tisch--hebt .jw-tisch-blatt {
+  padding-top: calc(11px + var(--jw-hub));
 }
 
 .jw-karte-name {
@@ -748,6 +818,9 @@ body.lexikon-page div[id="__next"] {
    Karte misst 22 % der Breite, ihre Höhe folgt dem Kartenformat 2:3.
    --------------------------------------------------------------------------- */
 .jw-tisch {
+  /* Hub der hervorgehobenen Karte im Blatt. Kleiner als in der Kartenreihe,
+     weil die Handkarten unter dem Filz kleiner sind (52 bis 84 px). */
+  --jw-hub: clamp(9px, 2.4vw, 15px);
   max-width: 480px;
   margin: 28px auto;
 }

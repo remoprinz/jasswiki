@@ -50,6 +50,12 @@ const JASSKARTEN_URL = '/grundlagen-kultur/jasskarten/';
  * unten, sein Blatt liegt direkt darunter — beschriftet mit «Mein Blatt», damit
  * der Kasten als Hand nach dem Ausspielen gelesen wird (KELLE, 23.08.2026).
  *
+ * EINE KARTE IM BLATT TRITT HERVOR, wenn die Marke sie mit einem Ausrufezeichen
+ * nennt («blatt eichel-6!, …»): Sie steigt aus der Hand und trägt Ring und
+ * Schein, so wie die angetippte Karte in der Arena. Gemeint ist die Karte, die
+ * gespielt werden soll — im Hoch-tief der tiefste Trumpf des Partners
+ * (Remo, 23.08.2026).
+ *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg). Farbzeichen: JassGuru-Set.
  */
 
@@ -65,6 +71,13 @@ interface Props {
   zug?: SitzWort;
   /** Das Blatt dessen, der unten sitzt. */
   blatt?: string[];
+  /**
+   * Karten des Blatts, die hervortreten — in der Marke «eichel-9!». Gemeint ist
+   * die Karte, um die es geht: im Hoch-tief der tiefste Trumpf, den der Partner
+   * legen soll. Sie hebt sich aus der Hand wie die angetippte Karte in der
+   * Arena (Remo, 23.08.2026).
+   */
+  blattHervor?: string[];
   /**
    * Aufschrift über dem Blatt, aus der Marke («blatt-aufschrift …»).
    * Vorgabe: «Mein Blatt» — dasselbe Wort tragen die Kartenreihen daneben.
@@ -100,6 +113,7 @@ export const JassTisch: React.FC<Props> = ({
   titel,
   zug,
   blatt,
+  blattHervor,
   blattAufschrift,
   beschriftung,
   mitWahl = true,
@@ -117,15 +131,19 @@ export const JassTisch: React.FC<Props> = ({
   // Die Hand liegt in der Ordnung des Blatts: tiefste Karte links, höchste
   // rechts, Trumpffarbe voran. Der Tisch sortiert selbst — eine Hand kann damit
   // gar nicht in der Ordnung eines Stichs erscheinen.
-  const handkarten = useMemo(
-    () =>
-      blattOrdnen(blatt ?? [], trumpf)
-        .map((s) => karteAusSlug(s, system))
-        .filter((k): k is JassKarte => Boolean(k)),
-    [blatt, trumpf, system]
-  );
+  // Die Hervorhebung hängt am geschriebenen Slug, die Karte am gewählten
+  // System — darum reisen beide zusammen. Über den Platz in der Hand liesse
+  // sie sich nicht finden: der Tisch ordnet das Blatt selbst.
+  const handkarten = useMemo(() => {
+    const markiert = new Set(blattHervor ?? []);
+    return blattOrdnen(blatt ?? [], trumpf)
+      .map((s) => ({ karte: karteAusSlug(s, system), hervor: markiert.has(s) }))
+      .filter((e): e is { karte: JassKarte; hervor: boolean } => Boolean(e.karte));
+  }, [blatt, blattHervor, trumpf, system]);
 
   if (plaetze.every((p) => !p.slug) && handkarten.length === 0) return null;
+
+  const hebtHand = handkarten.some((k) => k.hervor);
 
   const trumpfBild = trumpf ? farbAnzeige(trumpf, system) : null;
   const erzaehler: SitzWort = sicht === 'partner' ? 'partner' : 'ansager';
@@ -193,7 +211,7 @@ export const JassTisch: React.FC<Props> = ({
 
   return (
     <figure
-      className="jw-tisch not-prose scroll-mt-24"
+      className={`jw-tisch not-prose scroll-mt-24${hebtHand ? ' jw-tisch--hebt' : ''}`}
       id={anker}
       aria-labelledby={anker ? `${anker}-marke` : undefined}
     >
@@ -246,13 +264,17 @@ export const JassTisch: React.FC<Props> = ({
           <span className="jw-karten-marke jw-tisch-blatt-marke">
             {blattAufschrift?.trim() || BLATT_AUFSCHRIFT}
           </span>
-          {handkarten.map((karte, i) => (
+          {handkarten.map(({ karte, hervor: trittHervor }, i) => (
             <button
               key={`${karte.slug}-${i}`}
               type="button"
               onClick={() => setGross(karte)}
-              aria-label={`${karte.name} vergrössern`}
-              className="jw-karte"
+              aria-label={
+                trittHervor
+                  ? `${karte.name}, hervorgehoben, vergrössern`
+                  : `${karte.name} vergrössern`
+              }
+              className={trittHervor ? 'jw-karte jw-karte--hervor' : 'jw-karte'}
             >
               <img
                 src={karte.image}

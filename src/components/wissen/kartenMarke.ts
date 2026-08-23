@@ -10,6 +10,7 @@
 // stillschweigend; der übrige Text wird unverändert gesetzt. Ein Tippfehler
 // kostet also die Abbildung, niemals den Artikel.
 
+import { hervorLesen } from './hervorhebung';
 import { istKartenSlug } from './jasskarten';
 import { tischInhaltLesen, type TischInhalt } from './tischMarke';
 
@@ -77,23 +78,6 @@ export interface KartenMarkeInhalt {
 }
 
 /**
- * HERVORHEBUNG EINER EINZELNEN KARTE: ein Ausrufezeichen am Slug.
- *
- *   [[karten: rosen-ober, rosen-koenig!, rosen-ass | … | Kreuzweis]]
- *
- * Gedacht für die Karte, um die es in der Reihe geht — beim Kreuzweis gehört
- * der Rosen-König zu beiden Weisen, und genau das trägt das Bild
- * (Remo, 20.08.2026). Ein Leerzeichen davor ist erlaubt, weil es in der JSON
- * niemand sieht.
- *
- * Genau EIN Ausrufezeichen, und es steht am Schluss. Alles andere («!slug»,
- * «slug!!») bleibt ein Slug, den es nicht gibt — die Karte verschwindet dann
- * wie jeder verschriebene Slug, statt ihren Rohtext zu zeigen. Beim Schreiben
- * meldet das der Sprachwächter («G · Hervorhebung verschrieben»).
- */
-const HERVOR_ZEICHEN = /^(.+?)\s*!$/;
-
-/**
  * Zerlegt das Innere einer Karten-Marke:
  *
  *   [[karten: slug, slug]]
@@ -115,10 +99,11 @@ export function marketInhaltLesen(inneres: string): KartenMarkeInhalt {
     .map((s) => s.trim().toLowerCase())
     .filter(Boolean);
 
+  // Die Schreibweise «slug!» liest hervorhebung.ts — dieselbe Stelle liest sie
+  // für das Blatt am Jasstisch, damit es im Artikel EIN Zeichen bleibt.
   const gelesen = roh.map((eintrag) => {
-    const treffer = HERVOR_ZEICHEN.exec(eintrag);
-    const slug = treffer ? treffer[1].trim() : eintrag;
-    return { roh: eintrag, slug, hervor: Boolean(treffer), gilt: istKartenSlug(slug) };
+    const teil = hervorLesen(eintrag);
+    return { ...teil, gilt: istKartenSlug(teil.slug) };
   });
 
   return {

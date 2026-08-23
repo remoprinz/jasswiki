@@ -288,6 +288,28 @@ const lauf = async () => {
       }
     }
 
+    // G — dasselbe Zeichen im Blatt am Jasstisch: «blatt eichel-6!, eichel-9».
+    // Hier wiegt eine verschriebene Hervorhebung schwerer als in der Reihe: Der
+    // Tisch nimmt das Blatt nur als Ganzes an, ein Slug, den es nicht gibt,
+    // lässt darum die GANZE Hand verschwinden.
+    for (const tisch of text.matchAll(/\[\[tisch:[\s\S]*?\]\]/g)) {
+      for (const teil of tisch[0].matchAll(/(?:^|\|)\s*blatt\s+([^|\]]+)/g)) {
+        const slugs = teil[1]
+          .split(',')
+          .map((s) => s.trim().replace(/\s*!$/, ''))
+          .filter(Boolean);
+        const verschrieben = slugs.filter((s) => s.includes('!'));
+        if (verschrieben.length === 0) continue;
+        fehler.push({
+          artikel: schluessel,
+          pruefung: 'G · Hervorhebung verschrieben',
+          fund: `«${verschrieben.join(', ')}» im Blatt`,
+          warum:
+            'Hervorgehoben wird mit genau EINEM Ausrufezeichen am Schluss des Slugs: «eichel-6!». Anders geschrieben fällt das ganze Blatt aus dem Bild.',
+        });
+      }
+    }
+
     // E — jeder Begriffs-Verweis muss ein Ziel haben, das es gibt
     for (const treffer of alles.matchAll(/\(siehe Begriff\s+"([^"]+)"\)/gi)) {
       if (alleIds.has(treffer[1])) continue;

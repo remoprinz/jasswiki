@@ -3,9 +3,13 @@
 //   [[tisch: stich 1 | trumpf eichel | sicht ansager |
 //            ansager eichel-under | rechts rosen-7 | partner eichel-6 |
 //            links schilten-8 |
-//            blatt eichel-under, eichel-9, eichel-ass, rosen-koenig |
+//            blatt eichel-under, eichel-9!, eichel-ass, rosen-koenig |
 //            blatt-aufschrift Mein Blatt |
 //            Der Partner legt tief]]
+//
+// EINE KARTE IM BLATT TRITT HERVOR: ein Ausrufezeichen am Slug, wie in der
+// Kartenreihe («eichel-9!»). Sie hebt sich dann aus der Hand, so wie die
+// angetippte Karte in der Arena — für die Karte, die gespielt werden soll.
 //
 // Aufbau: Die Teile stehen durch «|» getrennt, wie bei [[karten: …]]. Zeilen-
 // umbrüche innerhalb der Marke sind erlaubt, damit ein Tisch im JSON lesbar
@@ -31,6 +35,7 @@
 // JassTisch. Gegenstück für die maschinenlesbaren Ausgaben:
 // resolve-markers.mjs (Korpus, llms-*.md) entfernt jede [[…: …]]-Marke.
 
+import { hervorLesen } from './hervorhebung';
 import { farbCodeAusSlug, istKartenSlug, type FarbCode } from './jasskarten';
 
 /** Die vier Plätze, vom Stuhl des Trumpfansagers aus benannt. */
@@ -93,6 +98,12 @@ export interface TischInhalt {
   zug?: SitzWort;
   /** Das Blatt dessen, der unten sitzt. */
   blatt: string[];
+  /**
+   * Karten des Blatts, die hervortreten — Schreibweise «eichel-9!».
+   * Verglichen wird der Slug, darum trägt die Karte ihre Hervorhebung in
+   * beiden Kartensystemen und in jeder Ordnung der Hand.
+   */
+  blattHervor: string[];
   /** Aufschrift über dem Blatt. Vorgabe der Darstellung: «Mein Blatt». */
   blattAufschrift?: string;
   beschriftung?: string;
@@ -127,6 +138,7 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
   const sitze: TischSitz[] = [];
   const beschriftungen: string[] = [];
   const blatt: string[] = [];
+  const blattHervor: string[] = [];
   const unbekannt: string[] = [];
   let trumpf: FarbCode | undefined;
   let sicht: Sicht = 'ansager';
@@ -196,12 +208,15 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
     }
 
     if (kopf === 'blatt') {
-      const slugs = rest
-        .split(',')
-        .map((s) => s.trim().toLowerCase())
-        .filter(Boolean);
-      if (slugs.length > 0 && slugs.every(istKartenSlug)) blatt.push(...slugs);
-      else unbekannt.push(teil);
+      // «eichel-9!» hebt diese Karte aus der Hand; hervorhebung.ts liest das
+      // Zeichen, dieselbe Stelle wie in der Kartenreihe. Ein verschriebenes
+      // Zeichen bleibt ein Slug, den es nicht gibt — dann fällt der Teil weg,
+      // wie jeder Teil mit einem falschen Slug.
+      const eintraege = rest.split(',').map(hervorLesen).filter((e) => e.roh);
+      if (eintraege.length > 0 && eintraege.every((e) => istKartenSlug(e.slug))) {
+        blatt.push(...eintraege.map((e) => e.slug));
+        blattHervor.push(...eintraege.filter((e) => e.hervor).map((e) => e.slug));
+      } else unbekannt.push(teil);
       continue;
     }
 
@@ -219,6 +234,7 @@ export function tischInhaltLesen(inneres: string): TischInhalt {
     titel,
     zug,
     blatt,
+    blattHervor,
     blattAufschrift,
     beschriftung: beschriftungen.join(' ') || undefined,
     unbekannt,

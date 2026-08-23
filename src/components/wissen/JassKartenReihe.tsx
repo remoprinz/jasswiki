@@ -78,8 +78,9 @@ interface Props {
  *
  * Eine einzelne Karte tritt hervor, wenn sie in der Marke ein Ausrufezeichen
  * trägt («rosen-koenig!»): Beim Kreuzweis gehört der Rosen-König zu beiden
- * Weisen, und das Bild zeigt es (Remo, 20.08.2026). Das Kartenmass und die
- * Abstände bleiben dabei, wie sie sind — es wechselt die Farbe des Rahmens.
+ * Weisen, und das Bild zeigt es (Remo, 20.08.2026). Sie steigt dann aus der
+ * Reihe und trägt Ring und Schein — derselbe Griff wie die angetippte Karte in
+ * der Arena (Remo, 23.08.2026); die Masse liegen in globals.css.
  *
  * Kartenbilder: schweizerjass.ch (Jens Riedweg).
  */
@@ -141,11 +142,37 @@ export const JassKartenReihe: React.FC<Props> = ({
     };
   }, [karten.length, system]);
 
+  // DIE HERVORGEHOBENE KARTE STEHT IM BILD. Ein Band, das rollt, zeigt am Handy
+  // vier von neun Karten: Die markierte kann ausserhalb liegen und wäre für den
+  // Leser schlicht nicht da (gemessen 23.08.2026 am Neunblatt, 375 px). Das Band
+  // rollt darum so weit, dass sie ganz sichtbar wird, und keinen Pixel weiter —
+  // der Anfang der Reihe bleibt im Bild, solange es geht. Gerollt wird ohne
+  // Bewegung und nur im Band: Die Seite selbst rührt sich nicht.
+  useEffect(() => {
+    const band = bandRef.current;
+    if (!band) return;
+    const karte = band.querySelector<HTMLElement>('.jw-karte--hervor');
+    if (!karte) return;
+    // Der Rand hält sie aus dem Verlauf an der Kante heraus (34 px rechts,
+    // 22 px links in globals.css) — halb ausgeblendet stünde sie schlechter da
+    // als jede andere Karte.
+    const links = karte.offsetLeft - (22 + 12);
+    const rechts = karte.offsetLeft + karte.offsetWidth + (34 + 12);
+    if (rechts > band.scrollLeft + band.clientWidth) band.scrollLeft = rechts - band.clientWidth;
+    else if (links < band.scrollLeft) band.scrollLeft = links;
+  }, [karten]);
+
   if (karten.length === 0) return null;
+
+  // Trägt die Reihe eine hervorgehobene Karte, macht die Abbildung ihr oben
+  // Platz (Stil --hebt): Das Band rollt, und ein Rollkasten schneidet auch nach
+  // OBEN — die angehobene Karte wäre sonst gekappt. Eine Reihe ohne
+  // Hervorhebung bleibt Zeichen für Zeichen, wie sie war.
+  const hebt = karten.some((k) => k.hervor);
 
   return (
     <figure
-      className="jw-karten-reihe not-prose scroll-mt-24"
+      className={`jw-karten-reihe not-prose scroll-mt-24${hebt ? ' jw-karten-reihe--hebt' : ''}`}
       id={anker}
       aria-labelledby={anker ? `${anker}-marke` : undefined}
     >
