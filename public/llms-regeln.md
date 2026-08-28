@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-08-23
+last_updated: 2026-08-28
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1345,7 +1345,7 @@ Ein gewöhnlicher Weis wird gewiesen, wenn der Spieler seine erste Karte des Spi
 | Die zweite der beiden Karten ist gespielt | «Stöck», und die 20 kommen sofort auf die Tafel |
 | Der nächste Spieler hat die zweite Karte gedeckt | Zu spät, die Stöck sind verfallen |
 | Der Partner merkt, dass die Meldung fehlt | Er schweigt. Weisen kann nur, wer die Stöck hält. Sagt es der Partner für ihn, sind die Stöck verfallen |
-| Die zweite Karte ist die letzte des Stichs | Die Meldung gilt, bis der Stich gekehrt ist, wie beim gewöhnlichen Weis. So liest es der Verband, weil es beim gewöhnlichen Weis so gilt |
+| Die zweite Karte ist die letzte des Stichs | Die Meldung gilt, bis der Stich gekehrt ist. So liest es der Verband, weil beim gewöhnlichen Weis dasselbe gilt |
 
 Ist die zweite Karte gedeckt oder das Spiel vorbei, sind die Stöck verfallen, im Spiel wie danach. So steht es im Offiziellen Schweizer Jassreglement.
 
@@ -1357,7 +1357,7 @@ Zwei Ausnahmen erlauben das Weisen früher:
 
 Die Stöck zählen neben jedem anderen Weis extra, König und Ober dürfen darum in beiden stehen. Für Folge und vier Gleiche regelt das der Kreuzweis.
 
-## Die Stöck zählen immer
+## Die Stöck stehen ausserhalb des Weis-Vergleichs
 
 Bei allen anderen Weisen schreibt nur die Partei mit dem höchsten einzelnen Weis. Die Stöck stehen ausserhalb dieses Vergleichs:
 
@@ -1404,7 +1404,7 @@ Diese Reihenfolge gilt allein im ersten Stich. Sobald zum zweiten Stich ausgespi
 - **Darf man die Stöck vorweisen, wenn sie zum Ausmachen reichen?** Ja, jederzeit, auch bevor eine der beiden Karten gespielt ist, spätestens aber mit der zweiten. Dasselbe gilt für den Bergpreis.
 - **Gibt es Stöck bei Obenabe und Undenufe?** Nein. Die Stöck setzen eine Trumpffarbe voraus, König und Ober sind dort gewöhnliche Karten.
 - **Zählen die Stöck beim Hindersi?** Beim Hindersi zählen allein die Kartenpunkte. Weis und Stöck bleiben aus dem Spiel.
-- **Was gilt beim Bieter, wenn der König verzichtet?** Die Bauernpartei, das sind die beiden Gegner des Königs, schreibt zu den 257 Punkten ihre Stöck dazu. Der König schreibt seine Stöck nur, wenn er mitspielt.
+- **Was gilt beim Bieter, wenn der König verzichtet?** Die Bauernpartei, das sind die Gegner des Königs, schreibt zu den 257 Punkten ihre Stöck dazu. Der König schreibt seine Stöck nur, wenn er mitspielt.
 - **Heisst es Stöck oder Stöcke?** Am Tisch heisst es «die Stöck», in der Einzahl wie in der Mehrzahl.
 
 *Keywords: stöck, stöcke, stöck jassen, stöck weisen, stöckweis*
@@ -1516,7 +1516,7 @@ Vier Karten desselben Rangs, je eine aus jeder Farbe. Sie haben mit den Folgen n
 
 Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten der beiden Karten, wann immer sie fällt, und sie zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis halten. Alles dazu steht im Artikel Stöck.
 
-## Alle Weise auf einen Blick
+## Alle Weise mit ihren Punkten
 
 | Weis | Karten | Punkte |
 |---|---|---|
@@ -1532,7 +1532,7 @@ Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten
 | Vier Puur | die vier Under | 200 |
 | Stöck | König und Ober im Trumpf | 20 |
 
-Wo der Schieber mit Faktoren gespielt wird, zählt der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart: Ein Dreiblatt bei einer Trumpfart, die doppelt zählt, schreibt 40.
+Wo der Schieber mit Faktoren gespielt wird, zählt der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart: Ein Dreiblatt zählt bei einer doppelt zählenden Trumpfart 40.
 
 ## Wer schreibt
 
@@ -1569,7 +1569,7 @@ Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird
 | Vorhand | «Vom Ass» | Meine Folge reicht bis zum Ass |
 | Gegner | «Gut» | Deiner ist höher |
 
-Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das nicht, entscheidet die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise, ebenfalls bevor er zum zweiten Stich spielt. Wer mehrere Weise hält, nennt den wertvolleren zuerst. **Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt, danach ist der Weis verfallen. So steht es im Offiziellen Schweizer Jassreglement.
+Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das nicht, entscheidet die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, **nennt jeder Spieler dieser Partei nach dem ersten Stich seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Wer mehrere Weise hält, nennt den wertvollsten zuerst. Die Frist dafür ist sein Ausspiel zum zweiten Stich, danach ist der Weis verfallen. So steht es im Offiziellen Schweizer Jassreglement.
 
 ## Kreuzweis
 
@@ -1590,7 +1590,7 @@ Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 
 ## Falscher Weis
 
-Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
+Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 
 
 
@@ -1608,7 +1608,7 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt sie auf, sobald ein Mitspieler es verlangt. Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt.
 - **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist der Sechser das obere Ende der Folge: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
-- **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
+- **Was passiert bei einem falschen Weis?** Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 - **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.
 - **Was heisst Wys beim Jassen?** Wys ist die schweizerdeutsche Form von Weis. Gemeint ist dasselbe: eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Am Tisch hört man Wys häufiger als Weis.
 
@@ -2054,7 +2054,7 @@ Die Stöck stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürf
 Der Kreuzweis gilt in jeder Spielart, die das Weisen zulässt. Manche Runden lassen ihn nicht gelten. Wer so spielt, macht es vor der Partie ab.
 
 **Häufige Fragen:**
-- **Was ist ein Kreuzweis?** Eine Karte gehört zugleich zu einer Folge und zu vier Gleichen, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, zusammen 120 Punkte.
+- **Was ist ein Kreuzweis?** Eine Karte gehört zugleich zu einer Folge und zu vier Gleichen, etwa der Rosen-König in einem Dreiblatt und bei vier Königen. Beide Weise gelten, im Beispiel zusammen 120 Punkte.
 - **Wie meldet man einen Kreuzweis?** Mit der ersten Karte, die man ausspielt, nennt man den wertvolleren Weis. Den zweiten meldet man, sobald feststeht, dass die eigene Partei den höchsten Weis am Tisch hält.
 - **Gilt der Kreuzweis überall?** In jeder Spielart, die das Weisen zulässt. Manche Runden lassen ihn nicht gelten und machen das vor der Partie ab.
 

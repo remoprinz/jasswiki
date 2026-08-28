@@ -4,7 +4,7 @@ description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 7
-last_updated: 2026-08-23
+last_updated: 2026-08-28
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -265,7 +265,7 @@ Vier Karten desselben Rangs, je eine aus jeder Farbe. Sie haben mit den Folgen n
 
 Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten der beiden Karten, wann immer sie fällt, und sie zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis halten. Alles dazu steht im Artikel Stöck.
 
-## Alle Weise auf einen Blick
+## Alle Weise mit ihren Punkten
 
 | Weis | Karten | Punkte |
 |---|---|---|
@@ -281,7 +281,7 @@ Die Stöck sind der Weis mit eigenen Regeln: Gemeldet werden sie mit der zweiten
 | Vier Puur | die vier Under | 200 |
 | Stöck | König und Ober im Trumpf | 20 |
 
-Wo der Schieber mit Faktoren gespielt wird, zählt der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart: Ein Dreiblatt bei einer Trumpfart, die doppelt zählt, schreibt 40.
+Wo der Schieber mit Faktoren gespielt wird, zählt der Weis wie die Kartenpunkte mit dem Faktor der Trumpfart: Ein Dreiblatt zählt bei einer doppelt zählenden Trumpfart 40.
 
 ## Wer schreibt
 
@@ -318,7 +318,7 @@ Jeder Spieler entscheidet mit seiner **ersten Karte**, ob er weist. Genannt wird
 | Vorhand | «Vom Ass» | Meine Folge reicht bis zum Ass |
 | Gegner | «Gut» | Deiner ist höher |
 
-Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das nicht, entscheidet die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, meldet jeder Spieler dieser Partei seine übrigen Weise, ebenfalls bevor er zum zweiten Stich spielt. Wer mehrere Weise hält, nennt den wertvolleren zuerst. **Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt, danach ist der Weis verfallen. So steht es im Offiziellen Schweizer Jassreglement.
+Reicht auch die höchste Karte nicht, fragt man nach dem Trumpf. Hilft auch das nicht, entscheidet die Reihenfolge am Tisch. Steht fest, welche Partei den höheren Weis hält, **nennt jeder Spieler dieser Partei nach dem ersten Stich seine Weise mit Farbe und höchster Karte**, zum Beispiel «Vierblatt vom Rosen-Ass». Wer mehrere Weise hält, nennt den wertvollsten zuerst. Die Frist dafür ist sein Ausspiel zum zweiten Stich, danach ist der Weis verfallen. So steht es im Offiziellen Schweizer Jassreglement.
 
 ## Kreuzweis
 
@@ -339,7 +339,7 @@ Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
 
 ## Falscher Weis
 
-Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
+Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 
 
 
@@ -357,7 +357,7 @@ Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestric
 - **Wann meldet man den Weis?** Mit der ersten Karte, die man ausspielt. Genannt wird zuerst nur die Punktzahl. Nach dem ersten Stich nennt jeder Spieler der Partei mit dem höchsten Weis seine Weise mit Farbe und höchster Karte, zum Beispiel «Vierblatt vom Rosen-Ass», und legt sie auf, sobald ein Mitspieler es verlangt. Farbe und höchste Karte nennt der Weisende, bevor er zum zweiten Stich spielt.
 - **Gilt der Weis in Obenabe und Undenufe?** Ja. In Undenufe ist der Sechser das obere Ende der Folge: Ein Dreiblatt Acht, Sieben, Sechs schlägt ein Dreiblatt Neun, Acht, Sieben. Vier Nell zählen 150 und vier Puur 200 auch ohne Trumpf. Die Stöck setzen Trumpf voraus und fallen dort weg.
 - **Zählt der Weis auch, wenn man keinen Stich macht?** Ja. Wer weist und danach keinen Stich holt, schreibt seinen Weis trotzdem.
-- **Was passiert bei einem falschen Weis?** Ein Reglement dazu kennt der Verband keines. Er empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
+- **Was passiert bei einem falschen Weis?** Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Eine weitergehende Strafe macht die Runde vor der Partie ab.
 - **Was sind die Stöck?** König und Ober der Trumpffarbe, 20 Punkte. Gemeldet werden sie mit der zweiten der beiden Karten, und sie zählen auch dann, wenn die Gegner den höheren Weis halten.
 - **Was heisst Wys beim Jassen?** Wys ist die schweizerdeutsche Form von Weis. Gemeint ist dasselbe: eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Am Tisch hört man Wys häufiger als Weis.
 

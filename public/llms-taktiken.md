@@ -4,7 +4,7 @@ description: "Fortgeschrittene Spieltaktiken für erfahrene Jasser"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 11
-last_updated: 2026-08-23
+last_updated: 2026-08-28
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -231,27 +231,27 @@ Austrumpfen heisst, Trumpf auszuspielen, bis die Gegner keinen Trumpf mehr halte
 
 ## Was Austrumpfen bringt
 
-Ein Bock ist eine Karte, die den Stich macht, sobald ihre Farbe gespielt wird. Solange ein Gegner noch einen Trumpf hält, steht dieser Bock auf wackligen Beinen: Der Gegner farbt einmal, und beim zweiten Mal sticht er ab.
+Ein Bock ist eine Karte, die den Stich macht, sobald ihre Farbe gespielt wird. Solange ein Gegner noch einen Trumpf hält, ist dieser Bock unsicher: Beim ersten Bock farbt der Gegner, den zweiten sticht er ab.
 
 
 Darum kommt der Trumpf zuerst. Jeder Trumpf, den ein Gegner spielen muss, kann später keinen Bock mehr abstechen.
 
 ## Wer austrumpft
 
-Der Trumpfansager und sein Partner. Sie haben die Farbe angesagt, weil sie darin stark sind, und sie sind das Team, das seine Böcke durchbringen will.
+Der Trumpfansager und sein Partner. Sie haben die Farbe angesagt, weil sie darin stark sind, und sie wollen ihre Böcke zum Stich bringen.
 
-Spielt ein Gegner einen hohen Trumpf aus, ist das etwas anderes: Er spielt damit seinen sichersten Stich, weil ihm die Trumpffarbe gerade den Bock stellt.
+Spielt ein Gegner einen hohen Trumpf aus, ist das etwas anderes: Er spielt damit seinen sichersten Stich, weil sein höchster Trumpf gerade der Bock ist.
 
 ## Wann
 
-In den ersten Stichen. Wer den Stich macht, spielt gleich wieder Trumpf, solange die Rechnung offen ist. Ab dem vierten Stich geht es um Böcke und Punkte.
+In den ersten Stichen. Wer den Stich macht, spielt gleich wieder Trumpf, solange ein Trumpf bei den Gegnern liegen kann. Ab dem dritten Stich geht es um Böcke und Punkte.
 
 ## Wie oft: zweimal
 
 Neun Trümpfe gibt es. Hält der Ansager selbst vier, verteilen sich fünf auf die drei anderen, kaum zwei pro Spieler. Zwei Runden holen sie in der Regel alle. Daher die Faustregel: **zweimal austrumpfen.**
 
 
-Ein drittes Mal kostet oft den Matsch, weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende steht man mit dem letzten Trumpf allein da, und die Böcke des Partners fallen den Gegnern in die Hände.
+Ein drittes Mal kostet oft den Matsch, weil man dabei auch die Trümpfe des eigenen Partners auszieht. Am Ende steht man mit dem letzten Trumpf allein da, und die Böcke des Partners gehen an die Gegner.
 
 ## Womit anfangen
 
@@ -261,7 +261,7 @@ Mit dem Nell, wenn der Puur dazu in der Hand liegt. So will es die Konvention Ne
 
 Das sagt der Partner. Mit der Reihenfolge seiner Trümpfe zeigt er im ersten Trumpfstich, wie viele er hält, und daraus rechnet der Ansager, ob noch einer bei den Gegnern liegt. Diese Konvention heisst Hoch-tief.
 
-Bleibt die Rechnung offen, gilt am Tisch die einfache Regel: Liegt der letzte Trumpf eher beim Partner, ist Schluss. Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch.
+Ist offen, wo der letzte Trumpf liegt, gilt am Tisch die einfache Regel: Liegt der letzte Trumpf eher beim Partner, ist Schluss. Ein Trumpf beim Gegner kostet einen Stich, ein Trumpf, den man dem Partner auszieht, kostet den Matsch.
 
 **Häufige Fragen:**
 - **Was heisst austrumpfen beim Jassen?** Trumpf ausspielen, bis die Gegner keinen Trumpf mehr halten. Das macht das Team des Trumpfansagers, damit seine Böcke in den anderen Farben später den Stich machen.
@@ -395,7 +395,7 @@ Den ersten dieser Trümpfe spielt der Partner im ersten Trumpfstich, den zweiten
 
 Das Signal setzt immer der Partner des Trumpfansagers, und immer im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
 
-Entscheidend ist dabei, in wessen Hand Puur und Nell liegen. **Hält sie der Ansager selbst, gilt die Konvention weiter.** Hält sie sein Partner, ruht sie, und wie dann gespielt wird, steht am Ende des ersten Teils.
+Entscheidend ist dabei, in wessen Hand Puur und Nell liegen. **Hält der Ansager sie selbst, gilt die Konvention weiter.** Hält sein Partner die beiden, ruht die Konvention, und wie dann gespielt wird, steht im Abschnitt «Wenn ich Puur oder Nell halte».
 
 ## Weshalb die Konvention wichtig ist
 
@@ -403,7 +403,7 @@ Austrumpfen nimmt den Gegnern die Trümpfe, mit denen sie sonst Stiche machen. D
 
 Beim Austrumpfen zieht man aber auch die Trümpfe des eigenen Partners aus, und das kann den Matsch kosten. Darum diese Konvention. Liegen die Karten günstig, ist schon nach dem ersten Stich klar, dass man aufhören kann.
 
-In allen folgenden Beispielen ist Eichel Trumpf. Der Ansager hält Puur, Nell, König und den Siebner und spielt das Nell aus, weil er auch den Puur hält. So will es die Konvention Nell-vor-Puur.
+In den folgenden Beispielen ist Eichel Trumpf. Wo nichts anderes steht, hält der Ansager Puur, Nell, König und den Siebner und spielt das Nell aus, weil er auch den Puur hält. So will es die Konvention Nell-vor-Puur.
 
 ## Ich bin der Partner: ich zeige, wie viele Trümpfe ich habe
 
@@ -421,7 +421,7 @@ Das Banner zählt zehn Punkte. Es kommt trotzdem erst später, denn die Auskunft
 
 Das Ass ist die höhere meiner beiden. Damit weiss mein Partner: genau zwei, also liegt noch ein Trumpf bei den Gegnern. Er trumpft ein zweites Mal aus, und dann kommt mein Achter.
 
-### Der Fehler, der das Signal löscht
+### Der Fehler, der die Auskunft verdirbt
 
 
 Wer mit dem Banner anfängt, hat aus der Sicht des Ansagers hoch gespielt. Der rechnet dann mit zwei Trümpfen bei mir und trumpft ein zweites Mal aus, obwohl er aufhören könnte. So kostet man den Matsch für zehn Punkte.
@@ -446,10 +446,10 @@ Ich spiele den **Puur** und mache den Stich. Danach trumpfe ich selbst nochmals 
 
 **Ich halte den Puur blutt.**
 
-Der Puur ist der einzige Trumpf in meiner Hand. Dann muss ich ihn zum Trumpfausspiel nicht geben, und genau das nutze ich.
+Der Puur ist der einzige Trumpf in meiner Hand. Dann darf ich ihn behalten, und genau das nutze ich.
 
 
-Mein Partner bleibt im Stich und wagt darauf im zweiten Stich das Nell, um die Gegner auszutrumpfen. Mein Puur bleibt eine Waffe für das weitere Spiel.
+Mein Partner macht den Stich und wagt darauf im zweiten Stich das Nell, um die Gegner auszutrumpfen. Mein Puur bleibt eine Waffe für das weitere Spiel.
 
 Diese Freiheit gilt allein für den blutten Puur. Liegt ein zweiter Trumpf in der Hand, gilt der Farbzwang, und ich muss farben.
 
@@ -464,7 +464,7 @@ Ich rechne: Gespielt sind Nell, Sechser, Ass und Achter, das sind vier. In meine
 
 Mein Partner hat mit dem Sechser seinen tiefsten Trumpf gespielt, also hält er drei oder mehr. Eine davon ist gespielt, mindestens zwei hat er noch. Genau zwei sind übrig, also liegen beide bei ihm.
 
-**Die Gegner sind ausgetrumpft, ich höre auf.** Und ich höre auf, weil hier genau zwei Trümpfe übrig bleiben. Wären es drei, ginge die Rechnung nicht auf, und ich trumpfe nochmals aus.
+**Die Gegner sind ausgetrumpft, ich höre auf.** Und zwar, weil genau zwei Trümpfe übrig bleiben: Wären es drei, trumpfte ich nochmals aus.
 
 ### Mein Partner spielt hoch: ich trumpfe nochmals aus
 
@@ -473,7 +473,7 @@ Gespielt sind Nell, Ass, Ober und Banner, das sind vier. Ich halte Puur, König 
 
 Mein Partner hat hoch gespielt, also hält er genau zwei. Eine ist gespielt, eine bleibt ihm. Die andere liegt beim Gegner.
 
-**Ich trumpfe nochmals aus**, wie es die Faustregel will. Ich spiele den Puur, mein Partner gibt seine letzte, der eine Gegner die seine, der andere hat keinen Trumpf mehr. Danach halte ich König und Siebner und bin der Einzige am Tisch mit Trumpf.
+**Ich trumpfe nochmals aus**, wie es die Faustregel will. Ich spiele den Puur, mein Partner spielt seine letzte, der eine Gegner die seine, der andere hat keinen Trumpf mehr. Danach halte ich König und Siebner und bin der Einzige am Tisch mit Trumpf.
 
 ### Ein Gegner hat keinen Trumpf: es braucht zwei Stiche
 
@@ -489,7 +489,7 @@ Jetzt sind sechs Trümpfe gespielt. Ich halte König und Siebner, und übrig ble
 
 In all diesen Rechnungen bleibt eine Lücke: Mein Partner könnte den Sechser blutt gehabt haben, dann hat er nichts gezeigt, sondern nur seine einzige Karte gespielt.
 
-Trotzdem höre ich auf. Der Grund ist eine Rechnung über viele Partien: Hält mein Partner wirklich drei, winken die Matschprämie von 100 Punkten und beim Strichspiel ein Strich für den Matsch. Das wiegt schwerer als der eine Fall, in dem es schiefgeht. Darum gilt am Tisch: **Man geht vom besten Fall aus.** Geht es einmal daneben, war es Pech.
+Trotzdem höre ich auf. Der Grund ist eine Rechnung über viele Partien: Hält mein Partner wirklich drei, winken die Matschprämie von 100 Punkten und beim Strichjassen ein Strich für den Matsch. Das wiegt schwerer als der eine Fall, in dem es schiefgeht. Darum gilt am Tisch: **Man geht vom besten Fall aus.** Geht es einmal daneben, war es Pech.
 
 ### Zuletzt: Was tief aussieht, kann hoch sein
 
@@ -509,10 +509,10 @@ Wer die vier Fälle davor kennt, liest an dieser Stelle beides zugleich: die Kar
 - **Ich habe zwei Trümpfe, welchen spiele ich zuerst?** Den hohen Trumpf, danach den tiefen. Hältst du zum Beispiel Ass und Achter, kommt zuerst das Ass. Für Puur und Nell gilt eine eigene Reihenfolge, sie steht im letzten Abschnitt des Artikels.
 - **Ich habe drei oder mehr Trümpfe, welchen spiele ich zuerst?** Zwingend den tiefsten. Hältst du Sechs, Banner und Ober, kommt zuerst die Sechs. Der zweite Trumpf darf irgendein höherer sein, schon der Sprung nach oben sagt deinem Partner alles.
 - **Wer setzt das Signal, wenn geschoben wurde?** Immer der Partner des Trumpfansagers, im ersten Trumpfstich. Ob vorher geschoben wurde, ändert daran nichts.
-- **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners sind gerettet, das Signal ist gelöscht.
+- **Was passiert, wenn ich mit dem Banner beginne?** Dein Partner liest daraus, dass du nur zwei Trümpfe hältst, und trumpft ein zweites Mal aus. Die zehn Punkte des Banners bleiben dir, die Auskunft an deinen Partner ist dahin.
 - **Wann hört der Trumpfansager mit dem Austrumpfen auf?** Sobald seine Rechnung aufgeht. Neun Trümpfe gibt es: Er zählt seine eigenen, die schon gespielten und den Rest. Zeigt sein Partner mit der tiefsten Karte drei oder mehr und bleiben genau zwei übrig, so liegen beide bei ihm, und die Gegner sind ausgetrumpft. Bleiben drei übrig, trumpft er nochmals aus.
 - **Was gilt, wenn ich als Partner den Puur oder das Nell halte?** Dann sagt deine Reihenfolge nichts über die Anzahl. Mit einem zweiten Trumpf dazu spielst du den Puur im ersten Stich oder das Nell im zweiten, und damit ist ohnehin zweimal ausgetrumpft. Den blutten Puur behältst du und verwirfst ein Brättli. Hält umgekehrt der Trumpfansager Puur oder Nell, so gilt die Konvention für dich weiter.
-- **Was mache ich mit dem blutten Puur?** Du gibst ihn zum Trumpfausspiel nicht, sondern verwirfst ein Brättli aus einer anderen Farbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
+- **Was mache ich mit dem blutten Puur?** Du behältst ihn und verwirfst ein Brättli aus einer anderen Farbe. Das ist das vereinbarte Zeichen, dass du den Puur hältst. Er bleibt dir als Waffe für später. Diese Freiheit gilt allein für den blutten Puur, mit einem zweiten Trumpf in der Hand musst du farben.
 - **Ist Hoch-tief eine Regel?** Es ist eine Konvention, also eine Absprache am Tisch. Der Jassverband Schweiz empfiehlt sie, weil sie den häufigsten teuren Fehler im Schieber verhindert: ein zweites Mal austrumpfen, obwohl die Gegner ausgetrumpft sind.
 - **Was heisst tief-höher beim Jassen?** Der Partner des Trumpfansagers spielt im ersten Trumpfstich seinen tiefsten Trumpf. Damit zeigt er drei oder mehr Trümpfe. Beginnt er stattdessen hoch, hält er genau zwei, das ist hoch-tief.
 - **Woran erkennt der Trumpfansager, ob die Karte seines Partners hoch oder tief war?** An seinem eigenen Blatt und am Stich. Das Beispiel im Artikel: Übrig bleiben nur das Ass und der Siebner. Hielte der Partner drei Trümpfe, wäre der Siebner darunter, und den hätte er gespielt. Also war seine Karte hoch, und er hält höchstens zwei. Diese Rechnung geht auf, sobald nur noch zwei Trümpfe offen sind.
