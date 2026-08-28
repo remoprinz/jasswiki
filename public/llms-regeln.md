@@ -1960,7 +1960,7 @@ Beim Bieten sagen die Spieler der Reihe nach, wie viele Punkte sie zu holen vers
 1. Die Karten werden gegeben. Geboten wird danach, jeder Spieler kennt also sein Blatt
 2. [Vorhand](/begriffe/grundbegriffe/vorhand/) eröffnet: Sie nennt ein Gebot oder sagt [«fort»](/begriffe/spielaktionen/fort/). Sagen alle Spieler «fort», wird neu gegeben
 3. Der Reihe nach in Spielrichtung überbietet jeder das laufende Gebot oder sagt «fort» und bleibt für dieses Bieten draussen. Der [Bieter](/varianten/bieter/) macht eine Ausnahme: Dort gilt ein «fort» erst endgültig, wenn vorher jemand geboten hat
-4. Das Bieten geht so lange im Kreis herum, bis die Gegner des Höchstbietenden «fort» gesagt haben. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) beendet auch ein Doppeln das Bieten, beim [Pandur](/varianten/pandur/) die Ansage «Pandur mit»
+4. Das Bieten geht so lange im Kreis herum, bis nach einem Gebot die drei anderen Spieler «fort» gesagt haben. Beim [Sidi-Barrani](/varianten/sidi-barrani/) und beim [Bolschewik](/varianten/bolschewik-4-spieler/) beendet auch ein Doppeln das Bieten, beim [Pandur](/varianten/pandur/) die Ansage «Pandur mit»
 5. Der Meistbietende übernimmt das Spiel: Er ist der Spielübernehmer, beim Bieter heisst er König. Er bestimmt die Spielart, sofern die Jassart ihm die Wahl lässt
 
 Jedes Gebot liegt über dem vorherigen. Beim Sidi-Barrani, beim Bolschewik und beim Pandur spielt der Meistbietende auch die erste Karte aus, beim Bieter im ersten Spiel der König.
