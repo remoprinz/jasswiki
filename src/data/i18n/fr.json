@@ -1,0 +1,154 @@
+{
+  "expressions_weis": {
+    "id": "expressions_weis",
+    "text": "Une annonce (en allemand **Weis**, à la table en suisse allemand **Wys**) est une combinaison de cartes qui rapporte des points avant que le premier pli soit joué. Qui en détient une l'annonce avec sa première carte. Marque l'équipe qui détient la plus haute annonce de la table. Il en existe deux sortes : **des cartes qui se suivent dans la même couleur** et **quatre cartes égales**. S'y ajoutent les Stöck (siehe Begriff \"weis_rules_stock\"), qui suivent leurs propres règles. Cet article décrit la manière de jouer recommandée par la [Fédération Suisse de Jass](https://jassverband.ch). Ce qu'une table convient autrement avant le début du jeu vaut pour elle comme règle de table (siehe Begriff \"regeln_tischregel\").\n\n## De la suite de trois à la suite de neuf : les suites\n\nUne suite se compose de trois cartes ou plus qui se suivent dans la même couleur. Selon sa longueur, on parle de suite de trois, de quatre, de cinq et ainsi de suite jusqu'à la suite de neuf. **Les cartes qui forment une suite sont les mêmes dans chaque couleur et chaque sorte de jeu :** six, sept, huit, neuf, Banner, Under, Ober, roi, as. Pour l'annonce, le bour et le nell restent à leur place. Pour prendre un pli, ils comptent comme les atouts les plus forts. Le bout de la suite qui compte comme le plus haut dépend de la sorte de jeu : à l'atout et en obenabe l'as, en undenufe le six (voir plus bas). Toutes les suites de cet article se lisent ainsi : la carte la plus basse à gauche, la plus haute à droite.\n\nChaque carte de plus élève l'annonce d'un échelon, à partir de la suite de quatre de 50 points par carte.\n\n[[karten: schellen-ober, schellen-koenig, schellen-ass | Suite de trois, 20 points : trois cartes qui se suivent dans la même couleur, ici Ober, roi, as | Suite de trois]]\n\n[[karten: schellen-under, schellen-ober, schellen-koenig, schellen-ass | Suite de quatre, 50 points : la même suite avec une carte de plus, ici de l'Under à l'as | Suite de quatre]]\n\n[[karten: rosen-banner, rosen-under, rosen-ober, rosen-koenig, rosen-ass | Suite de cinq, 100 points : du Banner à l'as | Suite de cinq]]\n\n[[karten: eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig | Suite de six, 150 points : la suite peut se trouver n'importe où dans la couleur, ici du huit au roi | Suite de six]]\n\n[[karten: schilten-8, schilten-9, schilten-banner, schilten-under, schilten-ober, schilten-koenig, schilten-ass | Suite de sept, 200 points : du huit à l'as | Suite de sept]]\n\n[[karten: rosen-6, rosen-7, rosen-8, rosen-9, rosen-banner, rosen-under, rosen-ober, rosen-koenig | Suite de huit, 250 points : du six au roi | Suite de huit]]\n\n[[karten: eichel-6, eichel-7, eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig, eichel-ass | Suite de neuf, 300 points : toute la couleur dans une main | Suite de neuf]]\n\n## Les carrés\n\nQuatre cartes du même rang, une de chaque couleur. Elles n'ont rien à voir avec les suites et ont leurs propres valeurs :\n\n[[karten: eichel-ass, rosen-ass, schellen-ass, schilten-ass | Carré, 100 points : ici les quatre as. Il en va de même pour quatre Banner, quatre Ober, quatre rois | Carré]]\n\n[[karten: eichel-9, rosen-9, schellen-9, schilten-9 | Quatre nells, 150 points : les quatre neuf | Quatre nells]]\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Quatre bours, 200 points : les quatre Under, la plus haute annonce parmi les carrés | Quatre bours]]\n\n[[karten: eichel-6, rosen-6, schellen-6, schilten-6 | Quatre six, 100 points, comme quatre sept et quatre huit. Des règles plus anciennes ne les admettaient pas. Qui joue ainsi le convient avant la partie | Quatre six]]\n\n## Les Stöck\n\n[[karten: rosen-ober, rosen-koenig | Les Stöck, ici en Rosen : roi et Ober de la même couleur, et cette couleur doit être l'atout. 20 points | Stöck]]\n\nLes Stöck sont l'annonce aux règles propres : ils s'annoncent avec la deuxième des deux cartes, quel que soit le moment où elle tombe, et ils comptent pour leur équipe même lorsque les adversaires détiennent la plus haute annonce. Tout à ce sujet se trouve dans l'article Stöck (siehe Begriff \"weis_rules_stock\").\n\n## Toutes les annonces et leurs points\n\n| Annonce | Cartes | Points |\n|---|---|---|\n| Suite de trois | 3 à la suite, une couleur | 20 |\n| Suite de quatre | 4 à la suite | 50 |\n| Suite de cinq | 5 à la suite | 100 |\n| Suite de six | 6 à la suite | 150 |\n| Suite de sept | 7 à la suite | 200 |\n| Suite de huit | 8 à la suite | 250 |\n| Suite de neuf | 9 à la suite, toute la couleur | 300 |\n| Carré | six, sept, huit, Banner, Ober, roi ou as | 100 |\n| Quatre nells | les quatre neuf | 150 |\n| Quatre bours | les quatre Under | 200 |\n| Stöck | roi et Ober à l'atout | 20 |\n\nLà où le chibre (siehe Begriff \"general_schieber\") se joue avec des multiplicateurs, l'annonce compte comme les points des cartes, avec le multiplicateur de la sorte d'atout : une suite de trois compte 40 lorsque la sorte d'atout compte double.\n\n## Qui marque\n\n**C'est la plus haute annonce individuelle de la table qui compte.** L'équipe qui la détient marque toutes ses annonces, même les petites. Deux suites de trois d'un côté font ensemble 40 et perdent contre une seule suite de quatre de 50 de l'autre : l'équipe à la suite de quatre marque 50, l'autre rien.\n\nLes Stöck font exception : leur équipe les marque dans tous les cas.\n\n## Quelle annonce est la plus haute ?\n\nDeux annonces se comparent dans cet ordre. Dès qu'une étape tranche, la comparaison s'arrête :\n\n| Étape | Ce qui tranche | Exemple |\n|---|---|---|\n| 1 | Le plus grand nombre de points | Suite de quatre 50 bat suite de trois 20 |\n| 2 | À points égaux et sortes différentes : plus de cartes | Suite de cinq 100 bat quatre rois 100 |\n| 3 | À sorte égale : la carte la plus haute, en undenufe la plus basse | Suite de trois à l'as bat suite de trois au roi |\n| 4 | Si cela aussi est égal : l'annonce antérieure | La main annonce d'abord, puis chacun à son tour |\n\nL'étape 2 signifie en même temps : **une suite bat un carré de même valeur**, car elle a toujours plus de cartes. Entre carrés, ce sont d'abord les points qui tranchent, quatre bours à 200 avant quatre nells à 150. À points égaux, la carte la plus haute tranche, quatre as avant quatre rois.\n\nL'étape 4 s'applique lorsque deux équipes détiennent la même suite dans des couleurs différentes. L'annonce antérieure gagne alors : marque l'équipe du joueur qui était le premier à devoir annoncer. Si la main annonce une suite de trois au roi en Eichel et le joueur suivant une suite de trois au roi en Rosen, c'est l'équipe de la main qui marque. La couleur d'atout n'entre pas en compte dans la comparaison.\n\nUne étape supplémentaire est répandue : à annonces par ailleurs égales, l'annonce dans la couleur d'atout gagne, et seulement ensuite la main. C'est ce que prévoient les règles du Schieber de Swisslos. Qui joue ainsi le convient avant la partie (siehe Begriff \"regeln_tischregel\").\n\n[[karten: rosen-banner, rosen-under, rosen-ober, rosen-koenig, rosen-ass | Une suite de cinq, 100 points, cinq cartes | Suite de cinq]]\n\n[[karten: eichel-koenig, rosen-koenig, schellen-koenig, schilten-koenig | Quatre rois, également 100 points, mais quatre cartes : la suite de cinq gagne | Quatre rois]]\n\n[[karten: eichel-ober, eichel-koenig, eichel-ass | Suite de trois à l'as, 20 points : la carte la plus haute est l'as | Suite de trois à l'as]]\n\n[[karten: schilten-under, schilten-ober, schilten-koenig | Suite de trois au roi, également 20 : la carte la plus haute est le roi, la suite de trois à l'as gagne. Si toutes deux vont à l'as, l'annonce antérieure gagne | Suite de trois au roi]]\n\n## Annoncer à la table\n\nChaque joueur décide avec sa **première carte** s'il annonce. S'il détient plusieurs annonces, il choisit lui-même lesquelles il déclare. Les Stöck (siehe Begriff \"weis_rules_stock\"), il les annonce toujours. On ne dit d'abord que le nombre de points. Une fois que le joueur suivant a posé sa carte, il est trop tard. Le dernier du pli a le temps jusqu'à ce que le pli soit retourné. Les cartes restent en main.\n\n| Qui | Dit | Ce que cela signifie |\n|---|---|---|\n| La main, avec la première carte | « Cinquante » | Je détiens une annonce de 50 |\n| Un adversaire, avec sa carte | « Cinquante aussi » | J'en détiens autant, on compare maintenant |\n| La main | « À l'as » | Ma suite va jusqu'à l'as |\n| L'adversaire | « Bon » | La tienne est plus haute |\n\nLa hauteur n'est dite que lorsque deux équipes annoncent autant. Les deux nomment alors ce dont la comparaison a besoin : la sorte d'annonce et la carte la plus haute. Si celles-ci sont aussi égales, l'annonce antérieure gagne : la main d'abord, puis chacun à son tour.\n\nUne fois établi quelle équipe détient la plus haute annonce, **chaque joueur de cette équipe nomme après le premier pli ses annonces avec la couleur et la carte la plus haute**, par exemple « suite de quatre à l'as de Rosen ». Qui détient plusieurs annonces nomme d'abord la plus précieuse. Le délai court jusqu'à ce qu'il joue sa carte au deuxième pli, ensuite l'annonce est perdue. C'est ce que prévoit le règlement officiel suisse du jass (*Offizielles Schweizer Jassreglement*).\n\n**Seule l'équipe qui marque montre son annonce.** Elle la montre dès qu'un joueur veut la voir après le premier pli. L'équipe battue garde son annonce pour elle.\n\n## Kreuzweis\n\nUne carte peut appartenir à la fois à une suite et à un carré : c'est le Kreuzweis. Les deux annonces valent, leurs points s'additionnent.\n\n[[karten: rosen-ober, rosen-koenig!, rosen-ass | La suite de trois en Rosen. Le roi de Rosen compte en même temps, avec les trois autres rois, comme carré, ensemble 120 points | Kreuzweis]]\n\nL'annonce, le rang et les donnes qui l'excluent : tout à ce sujet se trouve dans l'article Kreuzweis (siehe Begriff \"weis_rules_kreuzweis\").\n\n## Annonces en obenabe et en undenufe\n\nSuites et carrés valent dans chaque sorte de jeu. **En undenufe (siehe Begriff \"expressions_undenufe\"), le six est le bout supérieur de la suite**, car il y est la carte la plus forte : une suite de trois huit, sept, six bat une suite de trois neuf, huit, sept. Le même ordre vaut en undenufe pour les carrés de même valeur : la carte la plus basse gagne. En obenabe (siehe Begriff \"expressions_obenabe\"), l'ordre habituel à partir de l'as s'applique. Quatre nells comptent 150 et quatre bours 200 même là où il n'y a pas d'atout. Les Stöck supposent un atout et disparaissent dans les deux sortes de jeu.\n\n[[karten: schellen-6, schellen-7, schellen-8 | En undenufe la meilleure suite de trois, 20 points : le six y est la carte la plus haute | Suite de trois en undenufe]]\n\n[[karten: schellen-7, schellen-8, schellen-9 | En undenufe la suite de trois la plus faible, 20 points : elle ne va que jusqu'au sept. En obenabe, cette suite de trois gagnerait, car le neuf s'y place au-dessus du huit | Suite de trois en undenufe]]\n\n## Une annonce compte même sans pli\n\nQui annonce et ne fait ensuite aucun pli marque tout de même son annonce.\n\n## Annonce erronée\n\nLa Fédération n'a pas de règlement à ce sujet et recommande : l'annonce est biffée. Si la table veut une sanction plus lourde, elle la convient avant la partie.\n\n",
+    "metadata": {
+      "seoTitle": "Annonces au jass : toutes les annonces avec points et règles | Jass-Wiki",
+      "seoDescription": "Suite de trois 20, suite de quatre 50, suite de cinq 100 jusqu'à la suite de neuf 300. Carré 100, quatre nells 150, quatre bours 200, Stöck 20. Chaque annonce en image, qui marque."
+    },
+    "faqs": [
+      {
+        "question": "Qu'est-ce qu'une annonce au jass ?",
+        "answer": "Une combinaison de cartes qui rapporte des points avant que le premier pli soit joué : trois cartes ou plus qui se suivent dans la même couleur, ou quatre cartes égales. On l'annonce avec la première carte que l'on joue."
+      },
+      {
+        "question": "Quelles combinaisons de cartes comptent comme annonce au jass ?",
+        "answer": "Les suites de trois à neuf cartes de la même couleur (suite de trois à suite de neuf), quatre cartes égales (carré, quatre nells, quatre bours) et les Stöck, c'est-à-dire le roi et l'Ober de la couleur d'atout."
+      },
+      {
+        "question": "Combien de points rapporte une suite de trois ?",
+        "answer": "20 points."
+      },
+      {
+        "question": "Combien de points rapporte une suite de quatre ?",
+        "answer": "50 points."
+      },
+      {
+        "question": "Combien de points rapporte une suite de cinq ?",
+        "answer": "100 points. Ensuite, la valeur augmente de 50 par carte : suite de six 150, suite de sept 200, suite de huit 250, suite de neuf 300."
+      },
+      {
+        "question": "Combien de points rapporte un carré ?",
+        "answer": "100 points pour quatre six, sept, huit, Banner, Ober, rois ou as. Quatre nells comptent 150, quatre bours 200."
+      },
+      {
+        "question": "Quatre six, sept ou huit comptent-ils comme annonce ?",
+        "answer": "Oui, 100 points chacun, comme quatre as. Des règles plus anciennes ne les admettaient pas. Qui joue ainsi le convient avant la partie."
+      },
+      {
+        "question": "Dans quel ordre comptent les cartes d'une suite ?",
+        "answer": "Les cartes qui forment une suite sont les mêmes dans chaque couleur et chaque sorte de jeu : six, sept, huit, neuf, Banner, Under, Ober, roi, as. Pour l'annonce, le bour et le nell restent à leur place. À l'atout et en obenabe, l'as est le bout supérieur, en undenufe le six."
+      },
+      {
+        "question": "Quelle annonce est la plus haute lorsque les deux comptent autant ?",
+        "answer": "À sortes différentes, l'annonce avec le plus de cartes gagne : une suite de cinq bat quatre rois. À sorte égale, la carte la plus haute gagne : une suite de trois à l'as bat une suite de trois au roi. En undenufe, la carte la plus basse gagne. Si les annonces sont exactement égales, l'antérieure gagne : marque l'équipe du joueur qui était le premier à devoir annoncer."
+      },
+      {
+        "question": "Qui marque les annonces ?",
+        "answer": "L'équipe qui détient la plus haute annonce individuelle marque toutes ses annonces, l'équipe adverse aucune. Deux suites de trois (40) perdent contre une suite de quatre (50). Les Stöck, leur équipe les marque dans tous les cas."
+      },
+      {
+        "question": "Quand annonce-t-on ?",
+        "answer": "Avec la première carte que l'on joue. On ne dit d'abord que le nombre de points. La hauteur n'est dite que lorsque deux équipes annoncent autant. Après le premier pli, chaque joueur de l'équipe à la plus haute annonce nomme ses annonces avec la couleur et la carte la plus haute, par exemple « suite de quatre à l'as de Rosen ». Il les montre dès qu'un joueur le demande. Celui qui annonce nomme la couleur et la carte la plus haute avant de jouer au deuxième pli."
+      },
+      {
+        "question": "Qui montre son annonce ?",
+        "answer": "Seule l'équipe qui marque. L'équipe battue garde son annonce pour elle."
+      },
+      {
+        "question": "Peut-on garder une annonce pour soi ?",
+        "answer": "Oui. Chaque joueur choisit lui-même lesquelles de ses annonces il déclare. Les Stöck, il les annonce toujours."
+      },
+      {
+        "question": "À annonces égales, l'annonce dans la couleur d'atout gagne-t-elle ?",
+        "answer": "La Fédération Suisse de Jass recommande : à annonces exactement égales, l'antérieure gagne, c'est-à-dire l'équipe du joueur qui était le premier à devoir annoncer. Il est aussi répandu de faire gagner d'abord l'annonce dans la couleur d'atout. C'est ce que prévoient les règles du Schieber de Swisslos. Qui joue ainsi le convient avant la partie."
+      },
+      {
+        "question": "L'annonce vaut-elle en obenabe et en undenufe ?",
+        "answer": "Oui. En undenufe, le six est le bout supérieur de la suite : une suite de trois huit, sept, six bat une suite de trois neuf, huit, sept. Quatre nells comptent 150 et quatre bours 200 même sans atout. Les Stöck supposent un atout et y disparaissent."
+      },
+      {
+        "question": "L'annonce compte-t-elle si l'on ne fait aucun pli ?",
+        "answer": "Oui. Qui annonce et ne fait ensuite aucun pli marque tout de même son annonce."
+      },
+      {
+        "question": "Que se passe-t-il en cas d'annonce erronée ?",
+        "answer": "La Fédération n'a pas de règlement à ce sujet et recommande : l'annonce est biffée. Si la table veut une sanction plus lourde, elle la convient avant la partie."
+      },
+      {
+        "question": "Que sont les Stöck ?",
+        "answer": "Le roi et l'Ober de la couleur d'atout, 20 points. Ils s'annoncent avec la deuxième des deux cartes et comptent même lorsque les adversaires détiennent la plus haute annonce."
+      },
+      {
+        "question": "Que veut dire Wys au jass ?",
+        "answer": "Wys est la forme suisse allemande de Weis, le mot allemand pour annonce. Il désigne la même chose : une combinaison de cartes qui rapporte des points avant que le premier pli soit joué. À la table, on entend Wys plus souvent que Weis."
+      }
+    ]
+  },
+  "weis_rules_stock": {
+    "id": "weis_rules_stock",
+    "text": "Les Stöck sont le roi et l'Ober de la couleur d'atout dans une même main. Ils comptent 20 points et sont l'annonce aux règles propres : ils s'annoncent avec la deuxième des deux cartes, et ils comptent pour leur équipe même lorsque les adversaires détiennent la plus haute annonce ou ne lui laissent aucun pli. Cet article décrit la manière de jouer recommandée par la [Fédération Suisse de Jass](https://jassverband.ch). Ce qu'une table convient autrement avant le début du jeu vaut pour elle comme règle de table (siehe Begriff \"regeln_tischregel\").\n\n## Ce que sont les Stöck\n\n[[karten: rosen-ober, rosen-koenig | Les Stöck à l'atout Rosen : roi et Ober de la couleur d'atout, 20 points | Stöck]]\n\n[[karten: eichel-ober, eichel-koenig | Les mêmes deux cartes dans une autre couleur, ici Eichel à l'atout Rosen : deux cartes ordinaires, roi 4 et Ober 3, pas d'annonce | Ober et roi dans une couleur secondaire]]\n\nLe roi et l'Ober ne deviennent les Stöck que parce que leur couleur est l'atout (siehe Begriff \"expressions_trumpffarbe\"). Si l'atout change à la donne suivante, ce sont de nouveau deux cartes ordinaires. En obenabe (siehe Begriff \"expressions_obenabe\") et en undenufe (siehe Begriff \"expressions_undenufe\"), il n'y a donc pas de Stöck.\n\nEn allemand, à la table, on dit **die Stöck**, au singulier comme au pluriel.\n\n## Quand et comment annoncer les Stöck\n\nPour ses autres annonces, le joueur choisit lui-même lesquelles il déclare. Les Stöck, il les annonce toujours.\n\nUne annonce ordinaire se fait lorsque le joueur joue sa première carte de la donne, quelle qu'elle soit. Les Stöck ne s'annoncent qu'avec la deuxième de leurs deux cartes. Qui joue le roi et détient encore l'Ober ne dit encore rien. Ce n'est qu'avec la deuxième carte qu'il dit « Stöck », quel que soit le pli où cela se produit.\n\n| Quand | Ce qui vaut |\n|---|---|\n| La première des deux cartes est jouée | Ne rien dire encore. On annonce avec la deuxième |\n| La deuxième des deux cartes est jouée | « Stöck », et les 20 vont aussitôt sur l'ardoise |\n| Le joueur suivant a couvert la deuxième carte | Trop tard, les Stöck sont perdus |\n| Le partenaire remarque que l'annonce manque | Il se tait. Seul celui qui détient les Stöck peut les annoncer. Si le partenaire le dit à sa place, les Stöck sont perdus |\n| La deuxième carte est la dernière du pli | L'annonce vaut jusqu'à ce que le pli soit retourné. C'est ainsi que la Fédération le lit, parce que la même chose vaut pour l'annonce ordinaire |\n\nSi la deuxième carte est couverte ou la donne terminée, les Stöck sont perdus, pendant la donne comme après. C'est ce que prévoit le règlement officiel suisse du jass (*Offizielles Schweizer Jassreglement*).\n\nDeux exceptions permettent d'annoncer plus tôt :\n\n• **Les Stöck sont contenus dans une autre annonce.** Qui détient une suite à l'atout qui contient le roi et l'Ober, par exemple une suite de trois à l'as d'atout, peut annoncer les deux avec sa première carte, la suite et les Stöck. Les Stöck, il les marque dans tous les cas, la suite si son équipe détient la plus haute annonce de la table\n• **Les Stöck suffisent pour terminer.** S'il manque à une équipe 20 points ou moins pour atteindre le but, elle peut montrer les Stöck d'avance à tout moment, même avant qu'une des deux cartes soit jouée, mais au plus tard avec la deuxième. Pour le Bergpreis (siehe Begriff \"bergpreis\") vaut également Stöck avant annonce avant pli (voir plus bas), c'est pourquoi les Stöck peuvent aussi y être montrés d'avance\n\n[[karten: rosen-ober, rosen-koenig, rosen-ass | Suite de trois à l'as d'atout, 20 points, avec les Stöck dedans, encore 20. Les deux s'annoncent avec la première carte que le joueur pose dans la donne. Ensemble 40, si son équipe détient la plus haute annonce de la table | Suite de trois avec Stöck]]\n\nLes Stöck comptent en plus de toute autre annonce, le roi et l'Ober peuvent donc figurer dans les deux. Pour la suite et le carré, c'est le Kreuzweis (siehe Begriff \"weis_rules_kreuzweis\") qui le règle.\n\n## Les Stöck restent hors de la comparaison des annonces\n\nPour toutes les autres annonces, seule l'équipe qui détient la plus haute annonce individuelle marque (siehe Begriff \"expressions_weis\"). Les Stöck restent hors de cette comparaison :\n\n| Situation | Annonce ordinaire | Stöck |\n|---|---|---|\n| Les adversaires détiennent l'annonce plus haute | perdue | comptent |\n| La propre équipe ne fait aucun pli, les adversaires font le match (siehe Begriff \"expressions_matsch\") | compte aujourd'hui, était perdue selon les anciennes règles | comptent, autrefois comme aujourd'hui |\n| L'atout compte double | avec le multiplicateur | avec le multiplicateur, donc 40 |\n\nSelon les anciennes règles du jass, en vigueur jusqu'à la fin du XXe siècle, une équipe ne pouvait marquer son annonce que si elle faisait au moins un pli. Les Stöck pouvaient toujours être marqués, l'annonce seulement une fois le pli acquis. C'est pourquoi certaines tables connaissent encore aujourd'hui l'ordre « Stöck, Stich, Wys » (Stöck, pli, annonce) : le pli était acquis, l'annonce pas encore.\n\nAu chibre (siehe Begriff \"general_schieber\") avec multiplicateurs, le multiplicateur de la couleur d'atout vaut de la même manière pour les points des cartes, l'annonce et les Stöck : avec une couleur d'atout qui compte double, les Stöck marquent 40.\n\n## Stöck, Wys, Stich\n\nLa formule nomme la règle de fin de partie (siehe Begriff \"ausmachregel\") : si les deux équipes atteignent le but au premier pli de la dernière donne, c'est l'ordre Stöck avant annonce avant pli qui tranche, peu importe qui a déclaré le premier avoir atteint le but (« sich bedanken », siehe Begriff \"bedanken\").\n\n| Situation avant la dernière donne, but 1000 | Équipe A | Équipe B |\n|---|---|---|\n| Avant la donne | 981 | 971 |\n| Le premier pli, 30 points, va à B | 981 | 1001 |\n| A montre les Stöck | 1001 | 1001 |\n| Qui gagne | **A, car les Stöck passent avant le pli** | |\n\nSi les Stöck seuls suffisent pour atteindre le but, leur équipe gagne. S'ils ne suffisent qu'avec une annonce, la comparaison ordinaire vaut pour cette annonce : une suite de quatre des adversaires bat Stöck et suite de trois ensemble.\n\nCet ordre ne vaut qu'au premier pli. Dès qu'on a joué au deuxième pli, gagne qui déclare le premier avoir atteint le but avec assez de points, et qui annonce ses Stöck seulement après la déclaration des adversaires arrive trop tard. C'est pourquoi il vaut la peine de montrer les Stöck d'avance dès qu'ils suffisent pour atteindre le but. D'autres ordres, par exemple Stöck, Stich, Wys, une table les convient avant la partie.\n\n## Les Stöck dans certaines sortes de jass\n\n• **Chibre :** comme ci-dessus, avec le multiplicateur de la couleur d'atout\n• **Bieter** (siehe Begriff \"variants_strategic_bieder\") : si le « König », le joueur seul, renonce à une donne, les deux adversaires, la « Bauernpartei », ajoutent leurs Stöck aux 257 points. Le « König » ne marque ses Stöck que s'il joue\n• **Hindersi** (siehe Begriff \"variants_specialty_hindersi\") : seuls les points des cartes y comptent. Annonce et Stöck restent hors jeu",
+    "metadata": {
+      "seoTitle": "Stöck au jass : roi et Ober d'atout, 20 points | Jass-Wiki",
+      "seoDescription": "Roi et Ober de la couleur d'atout, 20 points. Annoncés avec la deuxième carte, ils comptent toujours, même contre l'annonce plus haute. Les exceptions, Stöck Wys Stich."
+    },
+    "faqs": [
+      {
+        "question": "Que sont les Stöck au jass ?",
+        "answer": "Le roi et l'Ober de la couleur d'atout dans une même main. Ils comptent 20 points et sont une annonce aux règles propres : ils s'annoncent avec la deuxième des deux cartes, et ils comptent pour leur équipe même lorsque les adversaires détiennent la plus haute annonce."
+      },
+      {
+        "question": "Combien de points comptent les Stöck ?",
+        "answer": "20 points. Au chibre avec multiplicateurs, le multiplicateur de la couleur d'atout s'applique, donc 40 avec un atout qui compte double."
+      },
+      {
+        "question": "Quand annonce-t-on les Stöck ?",
+        "answer": "Avec la deuxième des deux cartes, quel que soit le pli où elle est jouée. Qui joue le roi et détient encore l'Ober ne dit encore rien. Ce n'est qu'avec la deuxième carte qu'il dit « Stöck », et les 20 vont aussitôt sur l'ardoise."
+      },
+      {
+        "question": "Peut-on garder les Stöck pour soi ?",
+        "answer": "Les Stöck s'annoncent toujours. Pour ses autres annonces, le joueur choisit lui-même lesquelles il déclare."
+      },
+      {
+        "question": "Peut-on annoncer les Stöck après coup ?",
+        "answer": "Si le joueur suivant a couvert la deuxième carte ou si la donne est terminée, les Stöck sont perdus, pendant la donne comme après. On peut les annoncer plus tôt dans deux cas : s'ils sont contenus dans une autre annonce, ils s'annoncent avec elle. S'ils suffisent pour terminer, ils peuvent être montrés d'avance à tout moment, mais au plus tard avec la deuxième carte."
+      },
+      {
+        "question": "Le partenaire peut-il signaler les Stöck ?",
+        "answer": "Il se tait. Seul celui qui détient les Stöck peut les annoncer. Si le partenaire le dit à sa place, les Stöck sont perdus."
+      },
+      {
+        "question": "Les Stöck comptent-ils aussi lorsque les adversaires ont l'annonce plus haute ?",
+        "answer": "Oui. Les Stöck comptent pour leur équipe même lorsque les adversaires ont l'annonce plus haute, sans pli propre et même lorsque les adversaires font le match. S'ils n'atteignent le but en fin de partie qu'avec une annonce, la comparaison ordinaire vaut pour cette annonce."
+      },
+      {
+        "question": "Que veut dire Stöck, Wys, Stich ?",
+        "answer": "La règle de fin de partie : si les deux équipes atteignent le but au premier pli de la dernière donne, gagne d'abord celle qui l'atteint avec les Stöck, puis celle qui l'atteint avec l'annonce, enfin celle qui l'atteint avec le pli, peu importe qui a déclaré le premier avoir atteint le but."
+      },
+      {
+        "question": "Stöck, Wys, Stich vaut-il aussi au deuxième pli ?",
+        "answer": "Non, seulement au premier pli. Ensuite, gagne qui déclare le premier avoir atteint le but avec assez de points."
+      },
+      {
+        "question": "Peut-on montrer les Stöck d'avance lorsqu'ils suffisent pour terminer ?",
+        "answer": "Oui, à tout moment, même avant qu'une des deux cartes soit jouée, mais au plus tard avec la deuxième. Il en va de même pour le Bergpreis."
+      },
+      {
+        "question": "Y a-t-il des Stöck en obenabe et en undenufe ?",
+        "answer": "Non. Les Stöck supposent une couleur d'atout, le roi et l'Ober y sont des cartes ordinaires."
+      },
+      {
+        "question": "Les Stöck comptent-ils au Hindersi ?",
+        "answer": "Au Hindersi, seuls les points des cartes comptent. Annonce et Stöck restent hors jeu."
+      },
+      {
+        "question": "Que se passe-t-il au Bieter lorsque le König renonce ?",
+        "answer": "La « Bauernpartei », ce sont les adversaires du « König », ajoute ses Stöck aux 257 points. Le « König » ne marque ses Stöck que s'il joue."
+      },
+      {
+        "question": "Dit-on Stöck ou Stöcke ?",
+        "answer": "En allemand, à la table, on dit « die Stöck », au singulier comme au pluriel."
+      }
+    ]
+  }
+}
