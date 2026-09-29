@@ -224,7 +224,7 @@
   },
   "ausspiel": {
     "id": "ausspiel",
-    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nAusnahmen beim Schieber:\n• Schieber oder Coiffeur-Schieber: Spielübernehmer spielt statt Vorhand aus\n• Varianten-Schieber: Bei Guschti, Slalom oder 3 mal 3 spielt bei geschobenen Spielen der trumpfmachende Spieler aus\n\nSonderregel Pandur/Misère:\n• Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf\n\nKartenwahl und Spielablauf:\n• Wer ausspielt, darf jede Karte seiner Hand spielen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
+    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nBeim Schieber:\n• Beim Schieber und Coiffeur-Schieber spielt Vorhand aus, auch wenn sie geschoben hat und ihr Partner den Trumpf bestimmt\n• Ausnahme Varianten-Schieber: Bei Guschti, Slalom oder 3 mal 3 spielt bei geschobenen Spielen der trumpfmachende Spieler aus\n\nSonderregel Pandur/Misère:\n• Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf\n\nKartenwahl und Spielablauf:\n• Wer ausspielt, darf jede Karte seiner Hand spielen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
     "metadata": {
       "id": "ausspiel_meta",
       "category": {
@@ -247,7 +247,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-18"
+      "dateModified": "2026-09-29"
     },
     "faqs": [
       {
@@ -256,7 +256,7 @@
       },
       {
         "question": "Wer spielt zum ersten Stich aus?",
-        "answer": "Vorhand (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus, ausser bei bestimmten Spielarten wie Schieber."
+        "answer": "Vorhand (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus. Beim Schieber gilt das auch, wenn Vorhand geschoben hat."
       },
       {
         "question": "Welche Karte darf beim Ausspiel gewählt werden?",
@@ -264,7 +264,7 @@
       },
       {
         "question": "Wer spielt beim Schieber zum ersten Stich aus?",
-        "answer": "Beim Schieber oder Coiffeur-Schieber spielt der Spielübernehmer statt Vorhand aus."
+        "answer": "Beim Schieber und Coiffeur-Schieber spielt Vorhand zum ersten Stich aus. Schiebt sie, bestimmt ihr Partner den Trumpf. Das Ausspiel bleibt bei Vorhand."
       }
     ],
     "see_also": [
