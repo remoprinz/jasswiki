@@ -1,28 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
 
+import { FARBEN_ZUORDNUNG } from '../../config/farbenZuordnung';
+
 // Die vier Farben als Symbole, je Kartensystem (Deutschschweizer + Französisch).
-// Symbole aus dem JassGuru-Pictogramm-Set. Eichel↔Kreuz, Rosen↔Herz,
-// Schellen↔Ecke, Schilten↔Schaufel bezeichnen jeweils dieselbe Farbe; beide
-// Symbole verlinken auf den gemeinsamen Farb-Begriff.
+// Symbole aus dem JassGuru-Pictogramm-Set. Die französische Reihe steht Spalte
+// für Spalte unter der gleichbedeutenden Deutschschweizer Farbe, so wie es die
+// eine Zuordnung sagt (src/config/farbenZuordnung.ts, JVS 06.10.2026):
+// Eichel↔Ecke, Rosen↔Herz, Schellen↔Kreuz, Schilten↔Schaufel.
+const DE_PFAD: Record<string, string> = {
+  Eichel: '/begriffe/kartenbezeichnungen/eichel/',
+  Rosen: '/begriffe/kartenbezeichnungen/rosen/',
+  Schellen: '/begriffe/kartenbezeichnungen/schellen/',
+  Schilten: '/begriffe/kartenbezeichnungen/schilten/',
+};
+
 const SYSTEME = [
   {
     label: 'Deutschschweizer Karten',
-    farben: [
-      { name: 'Eichel', img: '/suits/eichel.png', href: '/begriffe/kartenbezeichnungen/eichel/' },
-      { name: 'Rosen', img: '/suits/rosen.png', href: '/begriffe/kartenbezeichnungen/rosen/' },
-      { name: 'Schellen', img: '/suits/schellen.png', href: '/begriffe/kartenbezeichnungen/schellen/' },
-      { name: 'Schilten', img: '/suits/schilten.png', href: '/begriffe/kartenbezeichnungen/schilten/' },
-    ],
+    farben: FARBEN_ZUORDNUNG.map((p) => ({ name: p.de, img: `/suits/${p.deDatei}.png`, href: DE_PFAD[p.de] })),
   },
   {
     label: 'Französische Karten',
-    farben: [
-      { name: 'Kreuz', img: '/suits/kreuz.png', href: '/begriffe/kartenbezeichnungen/kreuz/' },
-      { name: 'Herz', img: '/suits/herz.png', href: '/begriffe/kartenbezeichnungen/herz/' },
-      { name: 'Ecke', img: '/suits/ecke.png', href: '/begriffe/kartenbezeichnungen/ecke/' },
-      { name: 'Schaufel', img: '/suits/schaufel.png', href: '/begriffe/kartenbezeichnungen/schaufel/' },
-    ],
+    farben: FARBEN_ZUORDNUNG.map((p) => ({ name: p.fr, img: `/suits/${p.frDatei}.png`, href: p.frPfad })),
   },
 ];
 

@@ -6,6 +6,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { FARBEN_ZUORDNUNG } from '@/config/farbenZuordnung';
 
 const SITE_URL = 'https://jasswiki.ch';
 
@@ -263,10 +264,12 @@ const JassenPage: NextPage = () => {
                     </tr>
                   </thead>
                   <tbody className="text-[#5f5b53]">
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Rosen</td><td className="py-2">Herz ♥</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Schellen</td><td className="py-2">Ecke ♦</td></tr>
-                    <tr className="border-b border-[#f0eee7]"><td className="py-2 pr-4">Eichel</td><td className="py-2">Kreuz ♣</td></tr>
-                    <tr><td className="py-2 pr-4">Schilten</td><td className="py-2">Schaufel ♠</td></tr>
+                    {FARBEN_ZUORDNUNG.map((p, i) => (
+                      <tr key={p.code} className={i < FARBEN_ZUORDNUNG.length - 1 ? 'border-b border-[#f0eee7]' : undefined}>
+                        <td className="py-2 pr-4">{p.de}</td>
+                        <td className="py-2">{p.fr} {p.zeichen}</td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>

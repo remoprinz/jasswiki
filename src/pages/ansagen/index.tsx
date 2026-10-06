@@ -103,7 +103,7 @@ const AnsagenLeitartikel: NextPage = () => {
                 <p className="m-0">
                   eine{' '}
                   <Link href="/ansagen/trumpffarbe/" className="text-[#ff0000] hover:underline">Trumpffarbe</Link>{' '}
-                  (Rosen, Schellen, Eichel, Schilten bzw. Herz, Ecke, Kreuz, Schaufel), kein Trumpf (Obenabe, Undenufe, Slalom …) oder alle Farben Trumpf (
+                  (Rosen, Schellen, Eichel, Schilten bzw. Herz, Kreuz, Ecke, Schaufel), kein Trumpf (Obenabe, Undenufe, Slalom …) oder alle Farben Trumpf (
                   <Link href="/ansagen/tutti/" className="text-[#ff0000] hover:underline">Tutti</Link>)
                 </p>
               </div>

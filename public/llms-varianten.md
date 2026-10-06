@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 52
-last_updated: 2026-10-01
+last_updated: 2026-10-06
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -639,8 +639,8 @@ Beim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder z
 Die acht Varianten:
 • Schilten (Schaufel) - 2-fach
 • Rosen (Herz) - 2-fach
-• Eichel (Kreuz) - 3-fach
-• Schellen (Ecke) - 3-fach
+• Eichel (Ecke) - 3-fach
+• Schellen (Kreuz) - 3-fach
 • Obenabe - 5-fach
 • Undenufe - 6-fach
 • Joker-Variante - 7-fach (Trumpf frei wählbar)
@@ -687,7 +687,7 @@ Spielablauf:
 
 Die fünf Spiele:
 • Erstes Spiel: möglichst wenige Stiche machen (1 Punkt pro Stich)
-• Zweites Spiel: möglichst wenige Schellen (im französischen Blatt Karo) machen (2 Punkte pro Karte)
+• Zweites Spiel: möglichst wenige Schellen (im französischen Blatt Kreuz) machen (2 Punkte pro Karte)
 • Drittes Spiel: möglichst wenige Ober (Damen) machen (4 Punkte pro Ober)
 • Viertes Spiel: den Rosen-König (Herz-König) nicht machen (8 Punkte)
 • Fünftes Spiel: den letzten Stich nicht machen (10 Punkte)
@@ -700,7 +700,7 @@ Wird mit Domino gespielt, gibt es je nach Rang eine Gutschrift:
 
 Wird ohne Domino gespielt, folgen fünf zusätzliche Spiele, bei denen sich die Ziele umkehren:
 • Sechstes Spiel: möglichst viele Stiche machen
-• Siebtes Spiel: möglichst viele Schellen (Karo) machen
+• Siebtes Spiel: möglichst viele Schellen (Kreuz) machen
 • Achtes Spiel: möglichst viele Ober (Damen) machen
 • Neuntes Spiel: den Stich mit dem Rosen-König (Herz-König) machen
 • Zehntes Spiel: den letzten Stich machen
@@ -1597,7 +1597,7 @@ Einer der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen
 
 ## Die vier Farben
 
-Angesagt werden kann jede der vier Farben. Bei den Deutschschweizer Jasskarten sind das Eichel, Rosen, Schellen und Schilten, bei den französischen Karten Kreuz, Herz, Ecke und Schaufel. Beide Blätter meinen dieselben vier Farben.
+Angesagt werden kann jede der vier Farben. Bei den Deutschschweizer Jasskarten sind das Eichel, Rosen, Schellen und Schilten, bei den französischen Karten Ecke, Herz, Kreuz und Schaufel. Beide Blätter meinen dieselben vier Farben.
 
 Welche Farbe als Trumpf angesagt wird, hängt vom Blatt ab. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Alle 36 Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
@@ -1615,7 +1615,7 @@ Eine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/)
 **Häufige Fragen:**
 - **Was ist die höchste Karte beim Jassen?** Im Trumpf ist der Puur die höchste Karte. Das ist der Under der angesagten Trumpffarbe, und er zählt 20 Punkte. Zweithöchste ist das Nell, die Neun der Trumpffarbe, mit 14 Punkten.
 - **Wie viele Punkte zählen Puur und Nell?** Der Puur zählt 20 Punkte, das Nell 14. So hoch zählen Under und Neun nur in der angesagten Trumpffarbe, sonst behalten sie ihren tiefen Wert.
-- **Welche Farben kann man als Trumpf ansagen?** Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Kreuz, Herz, Ecke und Schaufel.
+- **Welche Farben kann man als Trumpf ansagen?** Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Ecke, Herz, Kreuz und Schaufel.
 - **Was bedeutet es, eine Trumpffarbe anzusagen?** Man bestimmt eine Farbe zum Trumpf. Jede Karte dieser Farbe sticht dann jede Karte einer anderen Farbe, und in der Trumpffarbe werden Under und Neun zu Puur und Nell.
 - **In welcher Reihenfolge stechen die Trumpfkarten?** Von hoch nach tief: Puur (Under), Nell (Neun), Ass, König, Ober, Banner (10), 8, 7, 6.
 
@@ -2766,7 +2766,7 @@ Kartenspiel und Geben:
 
 Stechwerte:
 • Der höchste Trumpf ist das Ass
-• Der «Belli» (Schellen-Siebener/Ecken-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte
+• Der «Belli» (Schellen-Siebener/Kreuz-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte
 • Danach folgen König, Ober (Dame), Under  (Bube ), Banner (Zehner), Neuner, Achter und Siebner der jeweiligen Trumpffarbe
 
 Spielentscheidung:
@@ -2786,7 +2786,7 @@ Bewertung:
 **Häufige Fragen:**
 - **Wie spielt man Ramset?** Beim Ramset für 2 bis 6 Spieler geht es in einigen Landesgegenden nicht nur ums Jassen, sondern wortwörtlich auch um die Wurst.
 - **Wie viele Karten werden beim Ramset gespielt?** Gespielt wird mit 32 Karten (ohne Sechser). Jeder Spieler erhält 5 Karten.
-- **Was ist ein «Belli» beim Ramset?** Der «Belli» ist der Schellen-Siebener oder Ecken-Siebener und ist bei jeder Trumpffarbe die zweithöchste Stechkarte (nach dem Ass).
+- **Was ist ein «Belli» beim Ramset?** Der «Belli» ist der Schellen-Siebener oder Kreuz-Siebener und ist bei jeder Trumpffarbe die zweithöchste Stechkarte (nach dem Ass).
 - **Was zählt beim Ramset - Punkte oder Stiche?** Beim Ramset zählen nicht die Punkte, sondern die Anzahl Stiche. Jedem Spieler wird pro Stich 1 Strich notiert.
 - **Was passiert, wenn ich keinen Stich mache?** Wer mitspielt und keinen Stich macht, erhält einen «Härdöpfel».
 - **Muss Vorhand mit dem Trumpf-Ass beginnen?** Ja, falls Vorhand das Trumpf-Ass hat, muss er mit dieser Karte beginnen.

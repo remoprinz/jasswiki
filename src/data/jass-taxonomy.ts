@@ -22,6 +22,8 @@
 // TYPE DEFINITIONS
 // ============================================================================
 
+import { FARBEN_ZUORDNUNG } from '../config/farbenZuordnung';
+
 export interface TaxonomyTerm {
   /** Eindeutiger Name des Begriffs */
   name: string;
@@ -285,10 +287,12 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'F) Mapping: Schweizer ↔ Französisch',
         description: 'Funktionale Äquivalente für Spieler mit französischem Blatt (gemäß Jasstafel-App).',
         items: [
-          { name: 'Eichel ↔ Kreuz ♣', description: 'Funktionales Äquivalent – NICHT identisch!', link: '/begriffe/kartenbezeichnungen/eichel/' },
-          { name: 'Rosen ↔ Herz ♥', description: 'Funktionales Äquivalent – NICHT identisch!', link: '/begriffe/kartenbezeichnungen/rose/' },
-          { name: 'Schellen ↔ Ecke ♦', description: 'Funktionales Äquivalent – NICHT identisch!', link: '/begriffe/kartenbezeichnungen/schellen/' },
-          { name: 'Schilten ↔ Schaufel ♠', description: 'Funktionales Äquivalent – NICHT identisch!', link: '/begriffe/kartenbezeichnungen/schilte/' },
+          // Aus der einen Zuordnung (src/config/farbenZuordnung.ts, JVS 06.10.2026).
+          ...FARBEN_ZUORDNUNG.map((p) => ({
+            name: `${p.de} ↔ ${p.fr} ${p.zeichen}`,
+            description: 'Funktionales Äquivalent – NICHT identisch!',
+            link: `/begriffe/kartenbezeichnungen/${p.deDatei}/`,
+          })),
         ],
       },
     ],

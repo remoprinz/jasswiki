@@ -12,20 +12,22 @@
 // Die Tafel trifft nur Grossschreibung mit Wortgrenze. Adressen, Karten-Slugs
 // und Kennungen sind klein geschrieben und bleiben darum unberührt. Puur und
 // Nell bleiben, das sind Jassnamen in beiden Blättern.
+//
+// Welche Farbe welcher entspricht, steht allein in src/config/farbenZuordnung.ts
+// (JVS, 06.10.2026: Eichel = Ecke, Schellen = Kreuz).
+
+import { FARBEN_ZUORDNUNG } from '../../config/farbenZuordnung';
 
 /** 1. Verbindungen (Bindestrich). `Eichel-` trifft jedes Eichel-Wort, `-Under` jedes …-Under. */
 export const VERBINDUNGEN: ReadonlyArray<readonly [string, string]> = [
-  ['Eichel-', 'Kreuz-'],
-  ['Rosen-', 'Herz-'],
-  ['Schellen-', 'Ecke-'],
-  ['Schilten-', 'Schaufel-'],
+  ...FARBEN_ZUORDNUNG.map((p) => [`${p.de}-`, `${p.fr}-`] as const),
   ['-Under', '-Bube'],
   ['-Ober', '-Dame'],
   ['-Banner', '-Zehn'],
 ];
 
 /** Die vier französischen Farben, wie sie nach Block 1 im Text stehen. */
-export const FARBEN_FR = ['Kreuz', 'Herz', 'Ecke', 'Schaufel'] as const;
+export const FARBEN_FR: ReadonlyArray<string> = FARBEN_ZUORDNUNG.map((p) => p.fr);
 
 /**
  * 1b. Artikel + Verbindung beugen (Nachtrag SCHIEDSRICHTER, 16.08.2026). Läuft
@@ -62,17 +64,10 @@ export const ARTIKELWENDUNGEN: ReadonlyArray<readonly [string, string]> = [
   ['eine Schilte', 'eine Schaufel'],
   ['die Schilten', 'die Schaufeln'],
   ['Schilten, über', 'Schaufel, über'],
-  ['vier Schellen', 'vier Ecken'],
-  ['weitere Schellen', 'weitere Ecken'],
-  ['weiteren Schellen', 'weiteren Ecken'],
-  ['drei Schellen', 'drei Ecken'],
-  ['auf Schellen', 'auf Ecke'],
-  ['in Schellen', 'in Ecke'],
-  ['statt Schellen', 'statt Ecke'],
-  ['mit Schellen', 'mit Ecke'],
-  ['auf Schilten', 'auf Schaufel'],
-  ['in Schilten', 'in Schaufel'],
-  ['über Schilten', 'über Schaufel'],
+  // Zahlwort + Farbe steht im französischen Blatt in der Mehrzahl («drei Ecken»).
+  ...FARBEN_ZUORDNUNG.flatMap((p) =>
+    ['vier', 'drei', 'weitere', 'weiteren'].map((zahl) => [`${zahl} ${p.de}`, `${zahl} ${p.frMehrzahl}`] as const)
+  ),
   // Nachtrag Pandur (SCHIEDSRICHTER, 16.08.2026): Zahlwort + nackte Karte steht
   // im Deutschschweizer Blatt endungslos, im französischen im Plural.
   ['zwei Under', 'zwei Buben'],
@@ -86,18 +81,12 @@ export const ARTIKELWENDUNGEN: ReadonlyArray<readonly [string, string]> = [
   ['zwei Banner', 'zwei Zehnen'],
   ['drei Banner', 'drei Zehnen'],
   ['vier Banner', 'vier Zehnen'],
-  ['Schellen Trumpf', 'Ecke Trumpf'],
-  ['Schilten Trumpf', 'Schaufel Trumpf'],
-  ['Eichel Trumpf', 'Kreuz Trumpf'],
-  ['Rosen Trumpf', 'Herz Trumpf'],
+  ...FARBEN_ZUORDNUNG.map((p) => [`${p.de} Trumpf`, `${p.fr} Trumpf`] as const),
 ];
 
 /** 3. Nackte Wörter (Wortgrenze, Grossschreibung). */
 export const NACKTE_WOERTER: ReadonlyArray<readonly [string, string]> = [
-  ['Eichel', 'Kreuz'],
-  ['Rosen', 'Herz'],
-  ['Schilten', 'Schaufel'],
-  ['Schellen', 'Ecken'],
+  ...FARBEN_ZUORDNUNG.map((p) => [p.de, p.fr] as const),
   ['Under', 'Bube'],
   ['Ober', 'Dame'],
   ['Banner', 'Zehn'],

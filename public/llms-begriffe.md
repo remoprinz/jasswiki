@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 70
-last_updated: 2026-10-01
+last_updated: 2026-10-06
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -195,15 +195,15 @@ Wer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Mat
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Belli bezeichnet den Schellen-Siebner oder Ecken-Siebner als zweithöchste Stechkarte bei Ramset
+• Belli bezeichnet den Schellen-Siebner oder Kreuz-Siebner als zweithöchste Stechkarte bei Ramset
 • Beim Zwick-Jass stehen alle vier Siebner gleich hinter dem Trumpf-Ass, auf den Rängen zwei bis fünf
 
 **Häufige Fragen:**
-- **Was ist der Belli beim Jassen?** Belli ist der Schellen-Siebner oder Ecken-Siebner, der bei Ramset die zweithöchste Stechkarte ist.
+- **Was ist der Belli beim Jassen?** Belli ist der Schellen-Siebner oder Kreuz-Siebner, der bei Ramset die zweithöchste Stechkarte ist.
 - **Bei welchen Jassvarianten ist der Belli wichtig?** Der Belli ist vor allem bei Ramset und Zwick-Jass von Bedeutung.
 - **Wie stark ist der Belli?** Bei Ramset ist der Belli die zweithöchste Stechkarte. Bei Zwick-Jass sind alle Siebner zweit- bis fünft-höchste Stechkarten.
 
-*Keywords: belli, siebner, schellen-siebner, ecken-siebner*
+*Keywords: belli, siebner, schellen-siebner, kreuz-siebner*
 
 ---
 
@@ -1416,14 +1416,14 @@ Kontern verdoppelt die Zielpunkte ein zweites Mal. Der [Kontermatsch](/regeln/pu
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Heisst Ecke auch Karo?** Ja. Ecke ist das Schweizer Wort, in Deutschland heisst die Farbe Karo, auf Französisch Carreau.
-- **Wie heisst Ecke im Deutschschweizer Blatt?** Schellen. Der Ecke-König und der Schellen-König sind dieselbe Karte.
+- **Wie heisst Ecke im Deutschschweizer Blatt?** Eichel. Der Ecke-König und der Eichel-König sind dieselbe Karte.
 - **Was gilt, wenn Ecke Trumpf ist?** Der Ecke-Bube zählt als Puur 20 Punkte, die Ecke-Neun als Nell 14. Der Puur sticht alles, das Nell alles ausser dem Puur.
 
-*Keywords: ecke, karo, schellen, carreau, diamonds*
+*Keywords: ecke, karo, eichel, carreau, diamonds*
 
 ---
 
@@ -1431,14 +1431,14 @@ Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen B
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle), der Eichel-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau, in Deutschland Karo). Der Eichel-König und der Ecke-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Wie heisst Eichel im französischen Blatt?** Kreuz, mit dem Zeichen ♣, französisch Trèfle.
+- **Wie heisst Eichel im französischen Blatt?** Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo.
 - **Was zeigt die Farbe Eichel?** Eine Eichel. Das Ass zeigt zwei, die Sechs bis Neun so viele, wie ihre Zahl sagt, das Banner eine Fahne mit dem Zeichen.
 - **Was gilt, wenn Eichel Trumpf ist?** Der Eichel-Under ist der Puur mit 20 Punkten und die Eichel-Neun das Nell mit 14, die beiden höchsten Karten im Spiel.
 
-*Keywords: eichel, kreuz, treff, trèfle, farbe*
+*Keywords: eichel, ecke, karo, carreau, farbe*
 
 ---
 
@@ -1461,14 +1461,14 @@ Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch C
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Der Kreuz-König und der Eichel-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Der Kreuz-König und der Schellen-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Wie heisst Kreuz im Deutschschweizer Blatt?** Eichel. Der Kreuz-König und der Eichel-König sind dieselbe Karte.
+- **Wie heisst Kreuz im Deutschschweizer Blatt?** Schellen. Der Kreuz-König und der Schellen-König sind dieselbe Karte.
 - **Welches Zeichen hat Kreuz?** Das schwarze Kreuz ♣, französisch Trèfle.
 - **Was gilt, wenn Kreuz Trumpf ist?** Der Kreuz-Bube sticht als Puur alles und zählt 20, die Kreuz-Neun als Nell 14.
 
-*Keywords: kreuz, eichel, treff, trèfle, clubs*
+*Keywords: kreuz, schellen, treff, trèfle, clubs*
 
 ---
 
@@ -1506,14 +1506,14 @@ Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im franzö
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau), in Deutschland Karo. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle). Der Schellen-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
-- **Wie heisst Schellen im französischen Blatt?** Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo.
-- **Ist Schellen dasselbe wie Karo?** Ja. Schellen im Deutschschweizer Blatt, Ecke im französischen und Karo in Deutschland sind dieselbe Farbe.
+- **Wie heisst Schellen im französischen Blatt?** Kreuz, mit dem Zeichen ♣, französisch Trèfle.
+- **Ist Schellen dasselbe wie Karo?** Schellen entspricht im französischen Blatt dem Kreuz ♣. Karo ♦ heisst in der Schweiz Ecke und entspricht Eichel.
 - **Was zeigt die Farbe Schellen?** Eine Schelle, also ein kleines Glöckchen.
 
-*Keywords: schellen, ecke, karo, carreau, farbe*
+*Keywords: schellen, kreuz, treff, trèfle, farbe*
 
 ---
 

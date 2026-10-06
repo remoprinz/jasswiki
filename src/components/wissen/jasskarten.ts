@@ -1,9 +1,11 @@
 // Strukturierte Kartendaten der beiden Schweizer Jass-Kartensysteme.
 // Einzige Quelle für das Web-Grid (JassCardGrid), die Lightbox, die schema.org-
 // ImageObject-Auszeichnung, die Anker-Navigation und die Karten-Suche.
-// Verbindliche Farb-Zuordnung (dokumentierter Standard, Deutsches Blatt):
-// Eichel↔Kreuz ♣, Rosen↔Herz ♥, Schellen↔Ecke/Karo ♦, Schilten↔Schaufel/Pik ♠.
+// Verbindliche Farb-Zuordnung (JVS, 06.10.2026), Quelle src/config/farbenZuordnung.ts:
+// Eichel↔Ecke ♦, Rosen↔Herz ♥, Schellen↔Kreuz ♣, Schilten↔Schaufel ♠.
 // Karten-Design: schweizerjass.ch (Jens Riedweg).
+
+import { FARBEN_ZUORDNUNG } from '../../config/farbenZuordnung';
 
 export type System = 'de' | 'fr';
 
@@ -62,21 +64,20 @@ const RANKS_FR: RankDef[] = [
   { file: '6', label: '6', word: 'Sechs' },
 ];
 
-const SUITS_DE: { code: JassFarbe['code']; name: string; file: string }[] = [
-  { code: 'E', name: 'Eichel', file: 'eichel' },
-  { code: 'R', name: 'Rosen', file: 'rosen' },
-  { code: 'S', name: 'Schellen', file: 'schellen' },
-  { code: 'L', name: 'Schilten', file: 'schilten' },
-];
+// Beide Blätter aus der einen Zuordnung (src/config/farbenZuordnung.ts, JVS 06.10.2026):
+// Die französische Farbe steht unter der gleichbedeutenden Deutschschweizer Spalte,
+// Eichel ↔ Ecke, Rosen ↔ Herz, Schellen ↔ Kreuz, Schilten ↔ Schaufel.
+const SUITS_DE: { code: JassFarbe['code']; name: string; file: string }[] = FARBEN_ZUORDNUNG.map((p) => ({
+  code: p.code,
+  name: p.de,
+  file: p.deDatei,
+}));
 
-// Französische Farben in der Reihenfolge, die unter der jeweils gleichbedeutenden
-// Deutschschweizer Spalte steht: Eichel↔Kreuz, Rosen↔Herz, Schellen↔Ecke, Schilten↔Schaufel.
-const SUITS_FR: { code: JassFarbe['code']; name: string; file: string }[] = [
-  { code: 'E', name: 'Kreuz', file: 'kreuz' }, // unter Eichel (Eichel = Kreuz / Trèfle ♣)
-  { code: 'R', name: 'Herz', file: 'herz' }, // unter Rosen (Rosen = Herz / Cœur ♥)
-  { code: 'S', name: 'Ecke', file: 'ecke' }, // unter Schellen (Schellen = Ecke / Karo ♦)
-  { code: 'L', name: 'Schaufel', file: 'schaufel' }, // unter Schilten (Schilten = Schaufel / Pik ♠)
-];
+const SUITS_FR: { code: JassFarbe['code']; name: string; file: string }[] = FARBEN_ZUORDNUNG.map((p) => ({
+  code: p.code,
+  name: p.fr,
+  file: p.frDatei,
+}));
 
 const SYSTEM_ADJ: Record<System, string> = {
   de: 'Deutschschweizer',

@@ -810,7 +810,7 @@
   },
   "expressions_belli": {
     "id": "expressions_belli",
-    "text": "Definition:\n• Belli bezeichnet den Schellen-Siebner oder Ecken-Siebner als zweithöchste Stechkarte (siehe Begriff \"expressions_stechkarten\") bei Ramset (siehe Begriff \"variants_multi_player_ramset\")\n• Beim Zwick-Jass (siehe Begriff \"variants_multi_player_zwick_jass\") stehen alle vier Siebner gleich hinter dem Trumpf-Ass, auf den Rängen zwei bis fünf",
+    "text": "Definition:\n• Belli bezeichnet den Schellen-Siebner oder Kreuz-Siebner als zweithöchste Stechkarte (siehe Begriff \"expressions_stechkarten\") bei Ramset (siehe Begriff \"variants_multi_player_ramset\")\n• Beim Zwick-Jass (siehe Begriff \"variants_multi_player_zwick_jass\") stehen alle vier Siebner gleich hinter dem Trumpf-Ass, auf den Rängen zwei bis fünf",
     "metadata": {
       "id": "expressions_belli_meta",
       "category": {
@@ -822,7 +822,7 @@
         "belli",
         "siebner",
         "schellen-siebner",
-        "ecken-siebner"
+        "kreuz-siebner"
       ],
       "situations": [
         "LEARNING"
@@ -836,7 +836,7 @@
     "faqs": [
       {
         "question": "Was ist der Belli beim Jassen?",
-        "answer": "Belli ist der Schellen-Siebner oder Ecken-Siebner, der bei Ramset die zweithöchste Stechkarte ist."
+        "answer": "Belli ist der Schellen-Siebner oder Kreuz-Siebner, der bei Ramset die zweithöchste Stechkarte ist."
       },
       {
         "question": "Bei welchen Jassvarianten ist der Belli wichtig?",
@@ -1516,7 +1516,7 @@
   },
   "expressions_kartenfarben": {
     "id": "expressions_kartenfarben",
-    "text": "Beim Schweizer Jass sind zwei Blätter im Gebrauch, das Deutschschweizer und das französische. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Gespielt wird mit beiden nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich. Wer «deutsche Jasskarten» sagt, meint das Deutschschweizer Blatt.\n\nDas Deutschschweizer Blatt hat Eichel, Rosen, Schellen und Schilten, das französische Kreuz, Herz, Ecke und Schaufel (französisch Trèfle, Cœur, Carreau und Pique). Die gängige Zuordnung setzt Eichel und Kreuz, Rosen und Herz, Schellen und Ecke, Schilten und Schaufel gleich.\n\n## Beide Blätter, alle Karten\n\nZuerst das Deutschschweizer, darunter das französische Blatt, je Farbe eine Spalte. Gezeigt ist die Stichfolge ausserhalb der Trumpffarbe, oben die höchste Karte, unten die tiefste.\n\nDas abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch): Der Schweizer Grafiker Jens Riedweg hat das klassische Deutschschweizer Blatt und das französische Blatt als Vektorgrafik neu gezeichnet. Nach Angaben des Anbieters werden die Karten in der Schweiz gedruckt. Auf jassverband.ch ist schweizerjass.ch als Bezugsquelle für Jasskarten aufgeführt.\n\n## Die neun Karten einer Farbe\n\nAusserhalb der Trumpffarbe stechen die neun Karten einer Farbe in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.\n\nZwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur (siehe Begriff \"trumpf_bauer\") und zählt 20 Punkte, die Neun heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14. Im Trumpf sind die beiden die höchsten Karten: Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs (siehe Begriff \"expressions_trumpffarbe\"). Was jede Karte zählt, steht weiter unten.\n\nZwei Namen erklären sich aus dem Bild: Das Banner ist die Zehn und zeigt eine Fahne mit dem Farbzeichen, daher der Name. Das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.\n\n## Was die vier Symbole zeigen\n\nDas Deutschschweizer Blatt zeigt eine Eichel (siehe Begriff \"color_eichel\"), eine gelbe Rose mit roter Mitte (siehe Begriff \"color_rosen\"), eine Schelle (siehe Begriff \"color_schellen\"), also ein kleines Glöckchen, und einen Schild (siehe Begriff \"color_schilten\").\n\nDas französische Blatt zeigt die vier Zeichen, die auch international gelten:\n\n| Deutschschweizer Symbol | Französisches Symbol | International |\n|---|---|---|\n| Eichel | Kreuz, französisch Trèfle | ♣ |\n| Rosen | Herz, französisch Cœur | ♥ |\n| Schellen | Ecke, französisch Carreau | ♦, in Deutschland Karo |\n| Schilten | Schaufel, französisch Pique | ♠, in Deutschland Pik |\n\n## Was jede Karte zählt\n\nZwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen in allen Farben gleich viel:\n\n| Karte | In der Trumpffarbe | In den anderen Farben |\n|---|---|---|\n| Under, der Puur (siehe Begriff \"trumpf_bauer\") | 20 | 2 |\n| Nell (siehe Begriff \"expressions_nell\"), die Neun | 14 | 0 |\n| Ass | 11 | 11 |\n| Banner (siehe Begriff \"expressions_banner\"), die Zehn | 10 | 10 |\n| König | 4 | 4 |\n| Ober | 3 | 3 |\n| Acht, Sieben, Sechs | 0 | 0 |\n\nJedes Spiel zählt 157 Punkte, 152 aus den Karten und 5 für den letzten Stich (siehe Begriff \"letzter_stich\"). In Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe zählt der Sechser 11 und das Ass null. Die Summe bleibt bei jeder Ansage gleich, ob Trumpf, Obenabe oder Undenufe. Alles dazu steht bei den Kartenwerten (siehe Begriff \"general_card_values\").\n\nDiese Werte gelten für das Jassen. Kartenspiele, die nur dasselbe Blatt benutzen, rechnen anders: Beim Hose abe (siehe Begriff \"variants_family_hose_abe\") etwa zählen König, Ober und Under je zehn.\n\n## Welches Blatt wo?\n\nWelches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuft mitten durch die Deutschschweiz, entlang der Brünig-Napf-Reuss-Linie: Westlich davon, in der Romandie, in Bern, Solothurn, beiden Basel, im Wallis und im westlichen Aargau, liegen französische Karten auf dem Tisch, östlich davon, in der Zentralschweiz, in Zürich und in der Ostschweiz, Deutschschweizer Karten. Der Aargau ist entlang der Reuss geteilt. Französische Karten liegen zudem im Tessin, in Teilen Graubündens und nach Walter Haas auch im Thurgau auf dem Tisch. Die Sprachgrenze zwischen Deutsch und Französisch, der Röstigraben, liegt 50 bis 100 Kilometer weiter westlich. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\").\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild stammt aus dem 19. Jahrhundert. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer und den Kartenhersteller A. Bühlmann in Hasle zurück, das heutige doppelköpfige Bild druckte J. Müller in Schaffhausen ab den 1920er-Jahren. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und setzte sich um und nach 1900 als Jasskarten durch. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und festigte sich um und nach 1900. Zum französischen Bild und zur Kartengrenze: Walter Haas, «Die ‹französischen Jasskarten›. Über den Wandel von Objekten der Alltagskultur», Schweizerisches Archiv für Volkskunde 109 (2013), S. 133–148.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").\n",
+    "text": "Beim Schweizer Jass sind zwei Blätter im Gebrauch, das Deutschschweizer und das französische. Beide haben vier Farben mit je neun Karten, zusammen also 36 Karten. Gespielt wird mit beiden nach denselben Regeln, allein die Bilder auf den Karten unterscheiden sich. Wer «deutsche Jasskarten» sagt, meint das Deutschschweizer Blatt.\n\nDas Deutschschweizer Blatt hat Eichel, Rosen, Schellen und Schilten, das französische Ecke, Herz, Kreuz und Schaufel (französisch Carreau, Cœur, Trèfle und Pique). Der Jassverband Schweiz setzt Eichel und Ecke, Rosen und Herz, Schellen und Kreuz, Schilten und Schaufel gleich.\n\n## Beide Blätter, alle Karten\n\nZuerst das Deutschschweizer, darunter das französische Blatt, je Farbe eine Spalte. Gezeigt ist die Stichfolge ausserhalb der Trumpffarbe, oben die höchste Karte, unten die tiefste.\n\nDas abgebildete Kartenbild stammt von [schweizerjass.ch](https://schweizerjass.ch): Der Schweizer Grafiker Jens Riedweg hat das klassische Deutschschweizer Blatt und das französische Blatt als Vektorgrafik neu gezeichnet. Nach Angaben des Anbieters werden die Karten in der Schweiz gedruckt. Auf jassverband.ch ist schweizerjass.ch als Bezugsquelle für Jasskarten aufgeführt.\n\n## Die neun Karten einer Farbe\n\nAusserhalb der Trumpffarbe stechen die neun Karten einer Farbe in dieser Reihenfolge, von der höchsten zur tiefsten: Ass, König, Ober, Under, Banner, Neun, Acht, Sieben, Sechs. Im französischen Blatt heissen Ober, Under und Banner Dame, Bube und Zehn, die übrigen Karten heissen gleich. In der Mundart sagt man auch Neuner, Achter, Siebner und Sechser.\n\nZwei dieser Karten wechseln den Namen, sobald ihre Farbe Trumpf wird: Der Under heisst dann Puur (siehe Begriff \"trumpf_bauer\") und zählt 20 Punkte, die Neun heisst Nell (siehe Begriff \"expressions_nell\") und zählt 14. Im Trumpf sind die beiden die höchsten Karten: Puur, Nell, Ass, König, Ober, Banner, Acht, Sieben, Sechs (siehe Begriff \"expressions_trumpffarbe\"). Was jede Karte zählt, steht weiter unten.\n\nZwei Namen erklären sich aus dem Bild: Das Banner ist die Zehn und zeigt eine Fahne mit dem Farbzeichen, daher der Name. Das Ass des Deutschschweizer Blatts zeigt zwei Zeichen statt eines. Es war ursprünglich die Zwei, der «Daus», der gegen Ende des 15. Jahrhunderts über den König gestellt und zum Ass wurde.\n\n## Was die vier Symbole zeigen\n\nDas Deutschschweizer Blatt zeigt eine Eichel (siehe Begriff \"color_eichel\"), eine gelbe Rose mit roter Mitte (siehe Begriff \"color_rosen\"), eine Schelle (siehe Begriff \"color_schellen\"), also ein kleines Glöckchen, und einen Schild (siehe Begriff \"color_schilten\").\n\nDas französische Blatt zeigt die vier Zeichen, die auch international gelten:\n\n| Deutschschweizer Symbol | Französisches Symbol | International |\n|---|---|---|\n| Eichel | Ecke, französisch Carreau | ♦, in Deutschland Karo |\n| Rosen | Herz, französisch Cœur | ♥ |\n| Schellen | Kreuz, französisch Trèfle | ♣ |\n| Schilten | Schaufel, französisch Pique | ♠, in Deutschland Pik |\n\n## Was jede Karte zählt\n\nZwei Karten wechseln mit dem Trumpf den Wert, alle anderen zählen in allen Farben gleich viel:\n\n| Karte | In der Trumpffarbe | In den anderen Farben |\n|---|---|---|\n| Under, der Puur (siehe Begriff \"trumpf_bauer\") | 20 | 2 |\n| Nell (siehe Begriff \"expressions_nell\"), die Neun | 14 | 0 |\n| Ass | 11 | 11 |\n| Banner (siehe Begriff \"expressions_banner\"), die Zehn | 10 | 10 |\n| König | 4 | 4 |\n| Ober | 3 | 3 |\n| Acht, Sieben, Sechs | 0 | 0 |\n\nJedes Spiel zählt 157 Punkte, 152 aus den Karten und 5 für den letzten Stich (siehe Begriff \"letzter_stich\"). In Obenabe (siehe Begriff \"expressions_obenabe\") und Undenufe (siehe Begriff \"expressions_undenufe\") fallen Puur und Nell weg. Dort zählt die Acht 8 Punkte, und in Undenufe zählt der Sechser 11 und das Ass null. Die Summe bleibt bei jeder Ansage gleich, ob Trumpf, Obenabe oder Undenufe. Alles dazu steht bei den Kartenwerten (siehe Begriff \"general_card_values\").\n\nDiese Werte gelten für das Jassen. Kartenspiele, die nur dasselbe Blatt benutzen, rechnen anders: Beim Hose abe (siehe Begriff \"variants_family_hose_abe\") etwa zählen König, Ober und Under je zehn.\n\n## Welches Blatt wo?\n\nWelches Blatt auf den Tisch kommt, hängt von der Region ab. Die Grenze verläuft mitten durch die Deutschschweiz, entlang der Brünig-Napf-Reuss-Linie: Westlich davon, in der Romandie, in Bern, Solothurn, beiden Basel, im Wallis und im westlichen Aargau, liegen französische Karten auf dem Tisch, östlich davon, in der Zentralschweiz, in Zürich und in der Ostschweiz, Deutschschweizer Karten. Der Aargau ist entlang der Reuss geteilt. Französische Karten liegen zudem im Tessin, in Teilen Graubündens und nach Walter Haas auch im Thurgau auf dem Tisch. Die Sprachgrenze zwischen Deutsch und Französisch, der Röstigraben, liegt 50 bis 100 Kilometer weiter westlich. Mehr dazu im Artikel \"Jass-Regionen\" (siehe Begriff \"general_geography_regions\").\n\n## Wie sich das Schweizer Kartenbild entwickelt hat\n\nDas heutige Deutschschweizer Kartenbild stammt aus dem 19. Jahrhundert. Die Figuren mit ihren Gesichtern und Gewändern gehen auf Jakob Peyer und den Kartenhersteller A. Bühlmann in Hasle zurück, das heutige doppelköpfige Bild druckte J. Müller in Schaffhausen ab den 1920er-Jahren. Das heutige französische Kartenbild kam vermutlich um 1860 in die Schweiz und setzte sich um und nach 1900 als Jasskarten durch. Auch die Kartengrenze ist jung: Sie bildete sich im 19. Jahrhundert und festigte sich um und nach 1900. Zum französischen Bild und zur Kartengrenze: Walter Haas, «Die ‹französischen Jasskarten›. Über den Wandel von Objekten der Alltagskultur», Schweizerisches Archiv für Volkskunde 109 (2013), S. 133–148.\n\nMehr zur Herkunft der Spielkarten steht unter \"Woher kommen Spielkarten?\" (siehe Begriff \"history_origin\"), mehr zur Herstellung unter \"Schweizer Kartenmacher\" (siehe Begriff \"history_swiss_production\").\n",
     "metadata": {
       "id": "expressions_kartenfarben_meta",
       "category": {
@@ -1557,7 +1557,7 @@
       },
       {
         "question": "Welche Kartenfarben gibt es beim Jassen?",
-        "answer": "Vier je Blatt: Im Deutschschweizer Blatt heissen sie Eichel, Rosen, Schellen und Schilten, im französischen Kreuz, Herz, Ecke und Schaufel."
+        "answer": "Vier je Blatt: Im Deutschschweizer Blatt heissen sie Eichel, Rosen, Schellen und Schilten, im französischen Ecke, Herz, Kreuz und Schaufel."
       },
       {
         "question": "Was zeigen die Symbole auf den Deutschschweizer Jasskarten?",
@@ -1593,7 +1593,7 @@
       },
       {
         "question": "Wie heissen Eichel, Rosen, Schellen und Schilten im französischen Blatt?",
-        "answer": "Eichel heisst Kreuz, Rosen Herz, Schellen Ecke und Schilten Schaufel. Auf Französisch Trèfle, Cœur, Carreau und Pique, in Deutschland Kreuz, Herz, Karo und Pik."
+        "answer": "Eichel heisst Ecke, Rosen Herz, Schellen Kreuz und Schilten Schaufel. Auf Französisch Carreau, Cœur, Trèfle und Pique, in Deutschland Karo, Herz, Kreuz und Pik."
       }
     ],
     "see_also": [
@@ -8124,7 +8124,7 @@
   },
   "variants_family_einzel_coiffeur": {
     "id": "variants_family_einzel_coiffeur",
-    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilten (siehe Begriff \"expressions_kartenfarben\") (Schaufel (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_kartenfarben\") (Herz (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_kartenfarben\") (Kreuz (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_kartenfarben\") (Ecke (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Jeder entscheidet für sich, ohne Absprache\n• Jeder schreibt seine eigenen Punkte in seiner Spalte \n• Am Schluss vergleichen alle ihre Totale\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
+    "text": "Definition:\nBeim Einzel-Coiffeur-Jass spielt jeder Spieler für sich allein, zu dritt oder zu viert. Die einzelnen Varianten werden wie beim Coiffeur-Schieber gewählt.\n\nDie acht Varianten:\n• Schilten (siehe Begriff \"expressions_kartenfarben\") (Schaufel (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Rosen (siehe Begriff \"expressions_kartenfarben\") (Herz (siehe Begriff \"expressions_kartenfarben\")) - 2-fach\n• Eichel (siehe Begriff \"expressions_kartenfarben\") (Ecke (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Schellen (siehe Begriff \"expressions_kartenfarben\") (Kreuz (siehe Begriff \"expressions_kartenfarben\")) - 3-fach\n• Obenabe (siehe Begriff \"expressions_obenabe\") - 5-fach\n• Undenufe (siehe Begriff \"expressions_undenufe\") - 6-fach\n• Joker-Variante - 7-fach (Trumpf (siehe Begriff \"bodentrumpf\") frei wählbar)\n• Joker-Variante - 8-fach (Trumpf frei wählbar)\n\nUnterschiede zum Team-Coiffeur:\n• Jeder Spieler spielt für sich alleine\n• Jeder entscheidet für sich, ohne Absprache\n• Jeder schreibt seine eigenen Punkte in seiner Spalte \n• Am Schluss vergleichen alle ihre Totale\n\nSchreiben und Abrechnung:\n• Jeder Spieler erhält seine erzielten Punkte multipliziert mit dem entsprechenden Faktor\n• Die gemachten Spiele werden jedem Spieler in der entsprechenden Spalte notiert\n• Am Ende werden alle Punkte addiert\n• Gewinner ist der Spieler mit der höchsten Gesamtpunktzahl nach allen acht Varianten",
     "metadata": {
       "id": "variants_family_einzel_coiffeur_meta",
       "category": {
@@ -8248,7 +8248,7 @@
   },
   "variants_family_guggitaler": {
     "id": "variants_family_guggitaler",
-    "text": "Definition:\nDer Guggitaler ist ein Serienjass ohne Trumpf, der mit oder ohne Domino gespielt werden kann. Eine Partie (siehe Begriff \"expressions_partie\") umfasst fünf Spiele, und in jedem gilt ein anderes Ziel.\n\nSpiel geben:\n• Bei drei Spielern gibt der Schreiber je zwölf Karten, in drei Runden zu je vier Karten\n• Bei vier Spielern erhält jeder zum ersten Spiel neun Karten, in drei Runden zu je drei Karten\n\nSpielablauf:\n• Gespielt wird ohne Trumpf (siehe Begriff \"bodentrumpf\")\n• Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht, ebenso wenig die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\")\n• In jedem der fünf Spiele gilt ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellen (siehe Begriff \"expressions_kartenfarben\") (im französischen Blatt Karo) machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) machen (4 Punkte pro Ober)\n• Viertes Spiel: den Rosen-König (Herz-König) nicht machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht machen (10 Punkte)\n\nWird mit Domino gespielt, gibt es je nach Rang eine Gutschrift:\n• Erster Rang: minus 30 Punkte bei drei Spielern, minus 25 Punkte bei vier Spielern\n• Zweiter Rang: minus 20 Punkte bei drei Spielern, minus 16 Punkte bei vier Spielern\n• Dritter Rang: minus 14 Punkte bei drei Spielern, minus 12 Punkte bei vier Spielern\n• Vierter Rang: minus 8 Punkte (nur bei vier Spielern)\n\nWird ohne Domino gespielt, folgen fünf zusätzliche Spiele, bei denen sich die Ziele umkehren:\n• Sechstes Spiel: möglichst viele Stiche machen\n• Siebtes Spiel: möglichst viele Schellen (Karo) machen\n• Achtes Spiel: möglichst viele Ober (Damen) machen\n• Neuntes Spiel: den Stich mit dem Rosen-König (Herz-König) machen\n• Zehntes Spiel: den letzten Stich machen",
+    "text": "Definition:\nDer Guggitaler ist ein Serienjass ohne Trumpf, der mit oder ohne Domino gespielt werden kann. Eine Partie (siehe Begriff \"expressions_partie\") umfasst fünf Spiele, und in jedem gilt ein anderes Ziel.\n\nSpiel geben:\n• Bei drei Spielern gibt der Schreiber je zwölf Karten, in drei Runden zu je vier Karten\n• Bei vier Spielern erhält jeder zum ersten Spiel neun Karten, in drei Runden zu je drei Karten\n\nSpielablauf:\n• Gespielt wird ohne Trumpf (siehe Begriff \"bodentrumpf\")\n• Weispunkte (siehe Begriff \"expressions_weis\") zählen nicht, ebenso wenig die fünf Punkte für den letzten Stich (siehe Begriff \"letzter_stich\")\n• In jedem der fünf Spiele gilt ein anderes Ziel\n\nDie fünf Spiele:\n• Erstes Spiel: möglichst wenige Stiche machen (1 Punkt pro Stich)\n• Zweites Spiel: möglichst wenige Schellen (siehe Begriff \"expressions_kartenfarben\") (im französischen Blatt Kreuz) machen (2 Punkte pro Karte)\n• Drittes Spiel: möglichst wenige Ober (Damen) machen (4 Punkte pro Ober)\n• Viertes Spiel: den Rosen-König (Herz-König) nicht machen (8 Punkte)\n• Fünftes Spiel: den letzten Stich nicht machen (10 Punkte)\n\nWird mit Domino gespielt, gibt es je nach Rang eine Gutschrift:\n• Erster Rang: minus 30 Punkte bei drei Spielern, minus 25 Punkte bei vier Spielern\n• Zweiter Rang: minus 20 Punkte bei drei Spielern, minus 16 Punkte bei vier Spielern\n• Dritter Rang: minus 14 Punkte bei drei Spielern, minus 12 Punkte bei vier Spielern\n• Vierter Rang: minus 8 Punkte (nur bei vier Spielern)\n\nWird ohne Domino gespielt, folgen fünf zusätzliche Spiele, bei denen sich die Ziele umkehren:\n• Sechstes Spiel: möglichst viele Stiche machen\n• Siebtes Spiel: möglichst viele Schellen (Kreuz) machen\n• Achtes Spiel: möglichst viele Ober (Damen) machen\n• Neuntes Spiel: den Stich mit dem Rosen-König (Herz-König) machen\n• Zehntes Spiel: den letzten Stich machen",
     "metadata": {
       "id": "variants_family_guggitaler_meta",
       "category": {
@@ -8589,7 +8589,7 @@
   },
   "variants_multi_player_ramset": {
     "id": "variants_multi_player_ramset",
-    "text": "Definition:\nBeim Ramset für 2 bis 6 Spieler geht es in manchen Gegenden wortwörtlich um die Wurst: Nach alter Tradition wird in der Altjahrswoche in den Landbeizen um Würste gespielt.\n\nKartenspiel und Geben:\n• Gespielt wird mit 32 Karten (ohne Sechser)\n• Jeder Spieler erhält 5 Karten\n• Bei 5 und weniger Spielern wird mit einem «Blinden (siehe Begriff \"expressions_blinder\")» gespielt\n• Die oberste Karte des Stocks (siehe Begriff \"expressions_stapel\") zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nStechwerte:\n• Der höchste Trumpf (siehe Begriff \"bodentrumpf\") ist das Ass\n• Der «Belli (siehe Begriff \"expressions_belli\")» (Schellen (siehe Begriff \"expressions_kartenfarben\")-Siebener/Ecken (siehe Begriff \"expressions_kartenfarben\")-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte\n• Danach folgen König, Ober (Dame), Under  (Bube ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")), Neuner, Achter und Siebner der jeweiligen Trumpffarbe\n\nSpielentscheidung:\n• Jeder Spieler muss sich vor Spielbeginn entscheiden, ob er mitspielen will oder nicht\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann als Erster den «Blinden» gegen sein eigenes Blatt tauschen\n• Der Kartengeber kann die aufgedeckte Trumpfkarte rauben (siehe Begriff \"expressions_rauben\")\n\nSpielregeln:\n• Falls Vorhand das Trumpf-Ass hat, muss er mit dieser Karte beginnen\n• Beim Ramset geht Leih halten vor Trumpf: Wer die angespielte Farbe hat, spielt sie. Getrumpft wird erst, wenn die Farbe ausgeht\n\nBewertung:\n• Beim Ramset zählen nicht die Punkte, sondern die Anzahl Stiche \n• Jedem Spieler wird pro Stich 1 Strich (siehe Begriff \"schreiben\") notiert\n• Wer mitspielt und keinen Stich macht, erhält einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")»",
+    "text": "Definition:\nBeim Ramset für 2 bis 6 Spieler geht es in manchen Gegenden wortwörtlich um die Wurst: Nach alter Tradition wird in der Altjahrswoche in den Landbeizen um Würste gespielt.\n\nKartenspiel und Geben:\n• Gespielt wird mit 32 Karten (ohne Sechser)\n• Jeder Spieler erhält 5 Karten\n• Bei 5 und weniger Spielern wird mit einem «Blinden (siehe Begriff \"expressions_blinder\")» gespielt\n• Die oberste Karte des Stocks (siehe Begriff \"expressions_stapel\") zeigt die Trumpffarbe (siehe Begriff \"bodentrumpf\") an\n\nStechwerte:\n• Der höchste Trumpf (siehe Begriff \"bodentrumpf\") ist das Ass\n• Der «Belli (siehe Begriff \"expressions_belli\")» (Schellen (siehe Begriff \"expressions_kartenfarben\")-Siebener/Kreuz (siehe Begriff \"expressions_kartenfarben\")-Siebener) ist bei jeder Trumpffarbe die zweithöchste Stechkarte\n• Danach folgen König, Ober (Dame), Under  (Bube ), Banner (siehe Begriff \"expressions_banner\") (Zehner (siehe Begriff \"expressions_banner\")), Neuner, Achter und Siebner der jeweiligen Trumpffarbe\n\nSpielentscheidung:\n• Jeder Spieler muss sich vor Spielbeginn entscheiden, ob er mitspielen will oder nicht\n• Vorhand (siehe Begriff \"expressions_vorhand\") kann als Erster den «Blinden» gegen sein eigenes Blatt tauschen\n• Der Kartengeber kann die aufgedeckte Trumpfkarte rauben (siehe Begriff \"expressions_rauben\")\n\nSpielregeln:\n• Falls Vorhand das Trumpf-Ass hat, muss er mit dieser Karte beginnen\n• Beim Ramset geht Leih halten vor Trumpf: Wer die angespielte Farbe hat, spielt sie. Getrumpft wird erst, wenn die Farbe ausgeht\n\nBewertung:\n• Beim Ramset zählen nicht die Punkte, sondern die Anzahl Stiche \n• Jedem Spieler wird pro Stich 1 Strich (siehe Begriff \"schreiben\") notiert\n• Wer mitspielt und keinen Stich macht, erhält einen «Härdöpfel (siehe Begriff \"expressions_haerdoepfel\")»",
     "metadata": {
       "id": "variants_multi_player_ramset_meta",
       "category": {
@@ -8629,7 +8629,7 @@
       },
       {
         "question": "Was ist ein «Belli» beim Ramset?",
-        "answer": "Der «Belli» ist der Schellen-Siebener oder Ecken-Siebener und ist bei jeder Trumpffarbe die zweithöchste Stechkarte (nach dem Ass)."
+        "answer": "Der «Belli» ist der Schellen-Siebener oder Kreuz-Siebener und ist bei jeder Trumpffarbe die zweithöchste Stechkarte (nach dem Ass)."
       },
       {
         "question": "Was zählt beim Ramset - Punkte oder Stiche?",
@@ -12051,7 +12051,7 @@
   },
   "expressions_trumpffarbe": {
     "id": "expressions_trumpffarbe",
-    "text": "Einer der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.\n\n## Die vier Farben\n\nAngesagt werden kann jede der vier Farben. Bei den Deutschschweizer Jasskarten sind das Eichel, Rosen, Schellen und Schilten, bei den französischen Karten Kreuz, Herz, Ecke und Schaufel. Beide Blätter meinen dieselben vier Farben.\n\nWelche Farbe als Trumpf angesagt wird, hängt vom Blatt ab. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Alle 36 Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).\n\n## Die Rangordnung in der Trumpffarbe\n\nInnerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei sonst unscheinbare Karten werden zur höchsten und zur zweithöchsten, im Stechen wie im Zählen:\n\n- Der Under wird zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und ist die höchste Karte im ganzen Spiel. Er zählt 20 Punkte.\n- Die Neun wird zum [Nell](/begriffe/kartenbezeichnungen/nell/), der zweithöchsten Karte. Sie zählt 14 Punkte.\n\n## Wo wird die Trumpffarbe angesagt?\n\nEine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/) und vom [Coiffeur](/varianten/coiffeur/). Wer nicht selber bestimmen will, kann schieben und die Wahl dem Partner überlassen. Daneben gibt es Ansagen ganz ohne Trumpf, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/), und eine mit allen vier Farben als Trumpf zugleich: das [Tutti](/ansagen/tutti/).",
+    "text": "Einer der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.\n\n## Die vier Farben\n\nAngesagt werden kann jede der vier Farben. Bei den Deutschschweizer Jasskarten sind das Eichel, Rosen, Schellen und Schilten, bei den französischen Karten Ecke, Herz, Kreuz und Schaufel. Beide Blätter meinen dieselben vier Farben.\n\nWelche Farbe als Trumpf angesagt wird, hängt vom Blatt ab. Als Faustregel gilt: Wer den Puur zu dritt oder das Nell zu viert hält, hat einen starken Trumpf in der Hand. Alle 36 Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).\n\n## Die Rangordnung in der Trumpffarbe\n\nInnerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei sonst unscheinbare Karten werden zur höchsten und zur zweithöchsten, im Stechen wie im Zählen:\n\n- Der Under wird zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und ist die höchste Karte im ganzen Spiel. Er zählt 20 Punkte.\n- Die Neun wird zum [Nell](/begriffe/kartenbezeichnungen/nell/), der zweithöchsten Karte. Sie zählt 14 Punkte.\n\n## Wo wird die Trumpffarbe angesagt?\n\nEine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/) und vom [Coiffeur](/varianten/coiffeur/). Wer nicht selber bestimmen will, kann schieben und die Wahl dem Partner überlassen. Daneben gibt es Ansagen ganz ohne Trumpf, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/), und eine mit allen vier Farben als Trumpf zugleich: das [Tutti](/ansagen/tutti/).",
     "faqs": [
       {
         "question": "Was ist die höchste Karte beim Jassen?",
@@ -12063,7 +12063,7 @@
       },
       {
         "question": "Welche Farben kann man als Trumpf ansagen?",
-        "answer": "Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Kreuz, Herz, Ecke und Schaufel."
+        "answer": "Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Ecke, Herz, Kreuz und Schaufel."
       },
       {
         "question": "Was bedeutet es, eine Trumpffarbe anzusagen?",
@@ -12113,11 +12113,11 @@
   },
   "color_eichel": {
     "id": "color_eichel",
-    "text": "Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle), der Eichel-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau, in Deutschland Karo). Der Eichel-König und der Ecke-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
         "question": "Wie heisst Eichel im französischen Blatt?",
-        "answer": "Kreuz, mit dem Zeichen ♣, französisch Trèfle."
+        "answer": "Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo."
       },
       {
         "question": "Was zeigt die Farbe Eichel?",
@@ -12141,9 +12141,9 @@
       },
       "keywords": [
         "eichel",
-        "kreuz",
-        "treff",
-        "trèfle",
+        "ecke",
+        "karo",
+        "carreau",
         "farbe",
         "jasskarten"
       ],
@@ -12157,7 +12157,7 @@
       "datePublished": "2026-06-28",
       "dateModified": "2026-08-18",
       "seoTitle": "Eichel beim Jassen: die Farbe mit der Eichel | Jass-Wiki",
-      "seoDescription": "Eichel, eine der vier Farben des Deutschschweizer Blatts, im französischen Blatt Kreuz. Zeichen, Zuordnung und was gilt, wenn Eichel Trumpf ist."
+      "seoDescription": "Eichel, eine der vier Farben des Deutschschweizer Blatts, im französischen Blatt Ecke. Zeichen, Zuordnung und was gilt, wenn Eichel Trumpf ist."
     }
   },
   "color_rosen": {
@@ -12211,15 +12211,15 @@
   },
   "color_schellen": {
     "id": "color_schellen",
-    "text": "Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau), in Deutschland Karo. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle). Der Schellen-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
         "question": "Wie heisst Schellen im französischen Blatt?",
-        "answer": "Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo."
+        "answer": "Kreuz, mit dem Zeichen ♣, französisch Trèfle."
       },
       {
         "question": "Ist Schellen dasselbe wie Karo?",
-        "answer": "Ja. Schellen im Deutschschweizer Blatt, Ecke im französischen und Karo in Deutschland sind dieselbe Farbe."
+        "answer": "Schellen entspricht im französischen Blatt dem Kreuz ♣. Karo ♦ heisst in der Schweiz Ecke und entspricht Eichel."
       },
       {
         "question": "Was zeigt die Farbe Schellen?",
@@ -12239,9 +12239,9 @@
       },
       "keywords": [
         "schellen",
-        "ecke",
-        "karo",
-        "carreau",
+        "kreuz",
+        "treff",
+        "trèfle",
         "farbe",
         "jasskarten"
       ],
@@ -12255,7 +12255,7 @@
       "datePublished": "2026-06-28",
       "dateModified": "2026-08-18",
       "seoTitle": "Schellen beim Jassen: die Farbe mit der Schelle | Jass-Wiki",
-      "seoDescription": "Schellen, eine der vier Farben des Deutschschweizer Blatts, im französischen Blatt Ecke, in Deutschland Karo. Zeichen und Zuordnung."
+      "seoDescription": "Schellen, eine der vier Farben des Deutschschweizer Blatts, im französischen Blatt Kreuz. Zeichen und Zuordnung."
     }
   },
   "color_schilten": {
@@ -12309,11 +12309,11 @@
   },
   "color_kreuz": {
     "id": "color_kreuz",
-    "text": "Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Der Kreuz-König und der Eichel-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Der Kreuz-König und der Schellen-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
         "question": "Wie heisst Kreuz im Deutschschweizer Blatt?",
-        "answer": "Eichel. Der Kreuz-König und der Eichel-König sind dieselbe Karte."
+        "answer": "Schellen. Der Kreuz-König und der Schellen-König sind dieselbe Karte."
       },
       {
         "question": "Welches Zeichen hat Kreuz?",
@@ -12336,7 +12336,7 @@
       },
       "keywords": [
         "kreuz",
-        "eichel",
+        "schellen",
         "treff",
         "trèfle",
         "clubs",
@@ -12352,7 +12352,7 @@
       "datePublished": "2026-06-28",
       "dateModified": "2026-08-18",
       "seoTitle": "Kreuz beim Jassen: die Farbe im französischen Blatt | Jass-Wiki",
-      "seoDescription": "Kreuz (Trèfle), die schwarze Farbe des französischen Blatts, im Deutschschweizer Blatt Eichel. Zeichen und Zuordnung."
+      "seoDescription": "Kreuz (Trèfle), die schwarze Farbe des französischen Blatts, im Deutschschweizer Blatt Schellen. Zeichen und Zuordnung."
     }
   },
   "color_herz": {
@@ -12405,7 +12405,7 @@
   },
   "color_ecke": {
     "id": "color_ecke",
-    "text": "Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
+    "text": "Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).",
     "faqs": [
       {
         "question": "Heisst Ecke auch Karo?",
@@ -12413,7 +12413,7 @@
       },
       {
         "question": "Wie heisst Ecke im Deutschschweizer Blatt?",
-        "answer": "Schellen. Der Ecke-König und der Schellen-König sind dieselbe Karte."
+        "answer": "Eichel. Der Ecke-König und der Eichel-König sind dieselbe Karte."
       },
       {
         "question": "Was gilt, wenn Ecke Trumpf ist?",
@@ -12433,7 +12433,7 @@
       "keywords": [
         "ecke",
         "karo",
-        "schellen",
+        "eichel",
         "carreau",
         "diamonds",
         "farbe"
@@ -12448,7 +12448,7 @@
       "datePublished": "2026-06-28",
       "dateModified": "2026-08-18",
       "seoTitle": "Ecke beim Jassen: die Farbe im französischen Blatt | Jass-Wiki",
-      "seoDescription": "Ecke (Carreau), die rote Raute des französischen Blatts, in Deutschland Karo, im Deutschschweizer Blatt Schellen. Zeichen und Zuordnung."
+      "seoDescription": "Ecke (Carreau), die rote Raute des französischen Blatts, in Deutschland Karo, im Deutschschweizer Blatt Eichel. Zeichen und Zuordnung."
     }
   },
   "color_schaufel": {

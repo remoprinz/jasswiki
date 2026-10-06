@@ -15,6 +15,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { farbwoerterFr, PRUEFWOERTER } from './src/components/wissen/farbwoerter';
 import { tischInhaltLesen } from './src/components/wissen/tischMarke';
+import { FARBEN_ZUORDNUNG } from './src/config/farbenZuordnung';
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 
@@ -24,25 +25,32 @@ const hier = path.dirname(fileURLToPath(import.meta.url));
 
 const FAELLE: ReadonlyArray<readonly [string, string]> = [
   // Beispiele der Tafel (Block 1)
+  // Die Zuordnung selbst (JVS, 06.10.2026, src/config/farbenZuordnung.ts)
+  ['Eichel', 'Ecke'],
+  ['Rosen', 'Herz'],
+  ['Schellen', 'Kreuz'],
+  ['Schilten', 'Schaufel'],
+  ['Schellen-König', 'Kreuz-König'],
+  ['weitere Eichel', 'weitere Ecken'],
   ['Rosen-Under', 'Herz-Bube'],
   ['Schilten-Ober', 'Schaufel-Dame'],
-  ['Eichel-Banner', 'Kreuz-Zehn'],
-  ['Eichel-König', 'Kreuz-König'],
-  ['Schellen-Nell', 'Ecke-Nell'],
-  ['C Eichel-Nell, D Eichel-Banner', 'C Kreuz-Nell, D Kreuz-Zehn'],
+  ['Eichel-Banner', 'Ecke-Zehn'],
+  ['Eichel-König', 'Ecke-König'],
+  ['Schellen-Nell', 'Kreuz-Nell'],
+  ['C Eichel-Nell, D Eichel-Banner', 'C Ecke-Nell, D Ecke-Zehn'],
   // Block 1b: Artikel + Verbindung gebeugt (die beiden Sidi-Zitate und die Tafel des Nachtrags)
-  ['Der Eichel-König liegt bei D, der Eichel-Ober bei C.', 'Der Kreuz-König liegt bei D, die Kreuz-Dame bei C.'],
+  ['Der Eichel-König liegt bei D, der Eichel-Ober bei C.', 'Der Ecke-König liegt bei D, die Ecke-Dame bei C.'],
   ['und C wirft den Rosen-Under ab', 'und C wirft den Herz-Buben ab'],
   ['den Schilten-Ober', 'die Schaufel-Dame'],
-  ['mit dem Schellen-Ober', 'mit der Ecke-Dame'],
-  ['mit dem Eichel-Under', 'mit dem Kreuz-Buben'],
+  ['mit dem Schellen-Ober', 'mit der Kreuz-Dame'],
+  ['mit dem Eichel-Under', 'mit dem Ecke-Buben'],
   ['seinen Rosen-Under', 'seinen Herz-Buben'],
-  ['das Schellen-Banner', 'die Ecke-Zehn'],
+  ['das Schellen-Banner', 'die Kreuz-Zehn'],
   ['mit dem Rosen-Banner', 'mit der Herz-Zehn'],
   ['sein Schilten-Banner', 'seine Schaufel-Zehn'],
   ['Der Rosen-Ober sticht. Den Eichel-Under hält A. Dem Schellen-Banner folgt. Das Schilten-Banner fällt.',
-    'Die Herz-Dame sticht. Den Kreuz-Buben hält A. Der Ecke-Zehn folgt. Die Schaufel-Zehn fällt.'],
-  ['der Eichel-Under', 'der Kreuz-Bube'],
+    'Die Herz-Dame sticht. Den Ecke-Buben hält A. Der Kreuz-Zehn folgt. Die Schaufel-Zehn fällt.'],
+  ['der Eichel-Under', 'der Ecke-Bube'],
   // Block 2: Artikel und Genus
   ['Puur, also der Under, 20', 'Puur, also der Bube, 20'],
   ['den Under der genannten Farbe', 'den Buben der genannten Farbe'],
@@ -52,18 +60,18 @@ const FAELLE: ReadonlyArray<readonly [string, string]> = [
   ['B wirft sein Banner dazu', 'B wirft seine Zehn dazu'],
   ['niemand mehr eine Schilte', 'niemand mehr eine Schaufel'],
   ['Die Schilten, über die niemand', 'Die Schaufeln, über die niemand'],
-  ['vier Schellen mit dem Nell', 'vier Ecken mit dem Nell'],
-  ['drei weitere Schellen', 'drei weitere Ecken'],
-  ['70 auf Schellen', '70 auf Ecke'],
-  ['in Schellen hält B', 'in Ecke hält B'],
-  ['statt Schellen zu stützen', 'statt Ecke zu stützen'],
-  ['mit Schellen als Trumpf', 'mit Ecke als Trumpf'],
+  ['vier Schellen mit dem Nell', 'vier Kreuz mit dem Nell'],
+  ['drei weitere Schellen', 'drei weitere Kreuz'],
+  ['70 auf Schellen', '70 auf Kreuz'],
+  ['in Schellen hält B', 'in Kreuz hält B'],
+  ['statt Schellen zu stützen', 'statt Kreuz zu stützen'],
+  ['mit Schellen als Trumpf', 'mit Kreuz als Trumpf'],
   ['95 auf Schilten', '95 auf Schaufel'],
   ['15 in Schilten', '15 in Schaufel'],
   ['über Schilten hat niemand', 'über Schaufel hat niemand'],
   // Block 3: nackte Wörter
-  ['Eichel ist Trumpf', 'Kreuz ist Trumpf'],
-  ['drei Eichel', 'drei Kreuz'],
+  ['Eichel ist Trumpf', 'Ecke ist Trumpf'],
+  ['drei Eichel', 'drei Ecken'],
   ['Warum D Rosen zeigt', 'Warum D Herz zeigt'],
   ['Ober 3; Banner 10', 'Dame 3; Zehn 10'],
   ['Under 2', 'Bube 2'],
@@ -76,13 +84,13 @@ const FAELLE: ReadonlyArray<readonly [string, string]> = [
   ['Sidi-Barrani', 'Sidi-Barrani'],
   ['Trumpf-Bauer Kombinationen', 'Trumpf-Bauer Kombinationen'],
   ['oder Under', 'oder Bube'],
-  ['| 60 auf Eichel | Puur zu dritt: der Eichel-Under |', '| 60 auf Kreuz | Puur zu dritt: der Kreuz-Bube |'],
+  ['| 60 auf Eichel | Puur zu dritt: der Eichel-Under |', '| 60 auf Ecke | Puur zu dritt: der Ecke-Bube |'],
   // Nachtrag Pandur (16.08.2026): Zahlwort + nackte Karte, und die Farbe als Trumpfansage
   ['drei Under, drei Banner, dazu zwei Ober', 'drei Buben, drei Zehnen, dazu zwei Damen'],
   ['ein Blatt ohne Ass, ohne Under', 'ein Blatt ohne Ass, ohne Buben'],
-  ['Damit ist Schellen Trumpf.', 'Damit ist Ecke Trumpf.'],
+  ['Damit ist Schellen Trumpf.', 'Damit ist Kreuz Trumpf.'],
   ['Mit Rosen als Trumpf', 'Mit Herz als Trumpf'],
-  ['Vier Schellen mit Under, Ass, König und Banner', 'Vier Ecken mit Bube, Ass, König und Zehn'],
+  ['Vier Schellen mit Under, Ass, König und Banner', 'Vier Kreuz mit Bube, Ass, König und Zehn'],
   // Jasstisch (19.08.2026): Slugs und Sitzwörter bleiben, sichtbarer Text wechselt.
   [
     '[[tisch: trumpf eichel | sicht partner | ansager eichel-9 | partner eichel-under | Der Partner legt den Under]]',
@@ -157,4 +165,26 @@ for (const kennung of kennungen) {
   treffer.forEach((t) => console.log(t));
 }
 
-process.exit(fehler > 0 || loecher > 0 ? 1 : 0);
+// ---------------------------------------------------------------------------
+// 3. Zuordnung im Bestand: Jeder der acht Farbartikel nennt als Gegenstück
+//    genau die Farbe, die src/config/farbenZuordnung.ts vorgibt (JVS, 06.10.2026).
+// ---------------------------------------------------------------------------
+
+let zuordnungFehler = 0;
+for (const paar of FARBEN_ZUORDNUNG) {
+  const seiten: Array<[string, string]> = [
+    [`color_${paar.deDatei}`, paar.fr],
+    [`color_${paar.frDatei}`, paar.de],
+  ];
+  for (const [kennung, gegenstueck] of seiten) {
+    const text = inhalt[kennung]?.text ?? '';
+    const genannt = text.match(/dieselbe Farbe \[([^\]]+)\]/)?.[1];
+    if (genannt !== gegenstueck) {
+      zuordnungFehler += 1;
+      console.log(`ZUORDNUNG  ${kennung}: nennt «${genannt ?? '-'}», die Quelle sagt «${gegenstueck}»`);
+    }
+  }
+}
+console.log(`Zuordnung im Bestand: ${FARBEN_ZUORDNUNG.length * 2} Artikel, abweichend: ${zuordnungFehler}`);
+
+process.exit(fehler > 0 || loecher > 0 || zuordnungFehler > 0 ? 1 : 0);
