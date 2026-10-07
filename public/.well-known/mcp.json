@@ -24,7 +24,8 @@
       "@type": "Person",
       "name": "Remo Prinz",
       "email": "remo@jassverband.ch",
-      "url": "https://jasswiki.ch/team/remo-prinz"
+      "@id": "https://jassguru.ch/#remo-prinz",
+      "url": "https://jassverband.ch/de/verband"
     }
   },
   "attestedBy": {

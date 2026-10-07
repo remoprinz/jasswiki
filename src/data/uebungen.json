@@ -1,0 +1,232 @@
+{
+  "stand": "2026-10-07",
+  "alleAufgaben": "https://jassguru.ch/jass-des-tages/",
+  "artikel": {
+    "expressions_stechkarten": {
+      "thema": "Stechen",
+      "anzahl": 4,
+      "blaetter": [
+        {
+          "datum": "2026-10-06",
+          "titel": "Der dritte Matsch in Folge.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-06/"
+        },
+        {
+          "datum": "2026-10-03",
+          "titel": "Erziele den Matsch",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-03/"
+        },
+        {
+          "datum": "2026-09-22",
+          "titel": "Mache mehr als 100 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-22/"
+        }
+      ]
+    },
+    "expressions_bock": {
+      "thema": "Bock aufbauen",
+      "anzahl": 9,
+      "blaetter": [
+        {
+          "datum": "2026-10-07",
+          "titel": "Erziele 66 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-07/"
+        },
+        {
+          "datum": "2026-10-02",
+          "titel": "Erziele das Break!",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-02/"
+        },
+        {
+          "datum": "2026-09-20",
+          "titel": "Mache 60 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-20/"
+        }
+      ]
+    },
+    "expressions_bockkarte": {
+      "thema": "Bock aufbauen",
+      "anzahl": 9,
+      "blaetter": [
+        {
+          "datum": "2026-10-07",
+          "titel": "Erziele 66 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-07/"
+        },
+        {
+          "datum": "2026-10-02",
+          "titel": "Erziele das Break!",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-02/"
+        },
+        {
+          "datum": "2026-09-20",
+          "titel": "Mache 60 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-20/"
+        }
+      ]
+    },
+    "schieber_taktiken_verwerfen": {
+      "thema": "Verwerfen",
+      "anzahl": 7,
+      "blaetter": [
+        {
+          "datum": "2026-10-05",
+          "titel": "Ein Matsch auf sicher.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-05/"
+        },
+        {
+          "datum": "2026-09-19",
+          "titel": "Erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-19/"
+        },
+        {
+          "datum": "2026-09-18",
+          "titel": "Verhindere den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-18/"
+        }
+      ]
+    },
+    "schieber_taktiken_anziehen": {
+      "thema": "Anziehen",
+      "anzahl": 8,
+      "blaetter": [
+        {
+          "datum": "2026-09-24",
+          "titel": "Erziele 99 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-24/"
+        },
+        {
+          "datum": "2026-09-23",
+          "titel": "Mache den Jassprofi Zug und erziele 74 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-23/"
+        },
+        {
+          "datum": "2026-09-21",
+          "titel": "Mache den Jassprofi Zug und erziele 74 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-21/"
+        }
+      ]
+    },
+    "expressions_schmieren": {
+      "thema": "Schmieren",
+      "anzahl": 5,
+      "blaetter": [
+        {
+          "datum": "2026-09-04",
+          "titel": "Erziele 36 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-04/"
+        },
+        {
+          "datum": "2026-09-03",
+          "titel": "Erziele über 100 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-03/"
+        },
+        {
+          "datum": "2026-08-21",
+          "titel": "Erziele 36 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-08-21/"
+        }
+      ]
+    },
+    "expressions_klemmen": {
+      "thema": "Klemmen",
+      "anzahl": 5,
+      "blaetter": [
+        {
+          "datum": "2026-09-30",
+          "titel": "Erziele das Break mit 111 Punkten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-30/"
+        },
+        {
+          "datum": "2026-09-28",
+          "titel": "Erziele 93 Punkte mit den Handkarten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-28/"
+        },
+        {
+          "datum": "2026-09-25",
+          "titel": "Erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-25/"
+        }
+      ]
+    },
+    "expressions_nachschmeissen": {
+      "thema": "Nachschmeissen",
+      "anzahl": 3,
+      "blaetter": [
+        {
+          "datum": "2026-09-27",
+          "titel": "Erziele den Undenufe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-27/"
+        },
+        {
+          "datum": "2026-09-05",
+          "titel": "Mache den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-09-05/"
+        },
+        {
+          "datum": "2026-08-22",
+          "titel": "Mache den den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-08-22/"
+        }
+      ]
+    },
+    "schieber_taktiken_austrumpfen": {
+      "thema": "Austrumpfen",
+      "anzahl": 2,
+      "blaetter": [
+        {
+          "datum": "2026-10-04",
+          "titel": "Heute ein easy Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-04/"
+        },
+        {
+          "datum": "2026-10-01",
+          "titel": "Mache den Matsch wie ein Jassprofi.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-01/"
+        }
+      ]
+    },
+    "expressions_matsch": {
+      "thema": "Matsch",
+      "anzahl": 28,
+      "blaetter": [
+        {
+          "datum": "2026-10-06",
+          "titel": "Der dritte Matsch in Folge.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-06/"
+        },
+        {
+          "datum": "2026-10-05",
+          "titel": "Ein Matsch auf sicher.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-05/"
+        },
+        {
+          "datum": "2026-10-04",
+          "titel": "Heute ein easy Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-04/"
+        }
+      ]
+    },
+    "matsch": {
+      "thema": "Matsch",
+      "anzahl": 28,
+      "blaetter": [
+        {
+          "datum": "2026-10-06",
+          "titel": "Der dritte Matsch in Folge.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-06/"
+        },
+        {
+          "datum": "2026-10-05",
+          "titel": "Ein Matsch auf sicher.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-05/"
+        },
+        {
+          "datum": "2026-10-04",
+          "titel": "Heute ein easy Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-04/"
+        }
+      ]
+    }
+  }
+}

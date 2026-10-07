@@ -15,6 +15,7 @@ import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
+import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 
@@ -327,6 +328,9 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                 </div>
               </section>
             )}
+
+            {/* ÜBEN: Aufgaben im Jass des Tages zu diesem Thema */}
+            <UebenBlock articleId={contentItem.id} />
 
             {/* FAQ-Sektion – sichtbar für User und Crawler */}
             {contentItem.faqs && contentItem.faqs.length > 0 && (

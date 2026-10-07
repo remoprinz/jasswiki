@@ -1,5 +1,20 @@
 import { JassWikiLogo } from './JassWikiLogo';
 
+// Sichtbare Brücke zur Schwesterseite: jasswiki erklärt die Regeln,
+// jassguru.ch ist der Ort zum Spielen und Üben (Remo 07.10.2026).
+const JassenLinks = ({ className }: { className: string }) => (
+  <p className={`font-inter text-[#c2c2c2] ${className}`}>
+    Jassen:{' '}
+    <a href="https://jassguru.ch/" className="underline">
+      jassguru.ch
+    </a>
+    {' · '}
+    <a href="https://jassguru.ch/jass-des-tages/" className="underline">
+      Jass des Tages
+    </a>
+  </p>
+);
+
 export const LegalFooter = () => {
   return (
     <footer className="mt-0 w-full">
@@ -35,13 +50,15 @@ export const LegalFooter = () => {
           <div className="flex items-start justify-between gap-4">
             <JassWikiLogo className="h-[34px] w-auto" inverted />
             <p className="max-w-[210px] text-[14px] leading-[1.55] font-inter text-[#c2c2c2]">
-              JassWiki.ch ist eine Initiative vom Jassverband Schweiz –{' '}
+              JassWiki.ch ist eine Initiative vom{' '}
               <a href="https://jassverband.ch" target="_blank" rel="noopener noreferrer" className="underline">
-                jassverband.ch
+                Jassverband Schweiz
               </a>
               .
             </p>
           </div>
+
+          <JassenLinks className="mt-5 text-[14px] leading-[1.55]" />
 
           <div className="mt-6 flex items-center justify-between gap-3">
             <p className="text-[13px] leading-[1.5] font-inter text-white/40">
@@ -93,15 +110,17 @@ export const LegalFooter = () => {
             <div className="flex items-start justify-between gap-10">
               <JassWikiLogo className="h-[40px] w-auto" inverted />
               <p className="max-w-[430px] text-[15px] leading-[1.6] font-inter text-[#c2c2c2]">
-                JassWiki.ch ist eine Initiative vom Jassverband Schweiz –{' '}
+                JassWiki.ch ist eine Initiative vom{' '}
                 <a href="https://jassverband.ch" target="_blank" rel="noopener noreferrer" className="underline">
-                  jassverband.ch
+                  Jassverband Schweiz
                 </a>
                 .
               </p>
             </div>
 
-            <div className="mt-10 flex items-center justify-between">
+            <JassenLinks className="mt-6 text-[15px] leading-[1.6]" />
+
+            <div className="mt-8 flex items-center justify-between">
               <p className="text-[13px] leading-[1.54] font-inter text-white/40">
                 © {new Date().getFullYear()} jasswiki.ch
               </p>

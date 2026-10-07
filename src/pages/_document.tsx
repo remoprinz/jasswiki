@@ -103,7 +103,7 @@ const JASSWIKI_SCHEMA = {
       },
       "founder": [
         {
-          "@id": "https://jasswiki.ch/#remo-prinz"
+          "@id": "https://jassguru.ch/#remo-prinz"
         },
         {
           "@id": "https://jasswiki.ch/#fabian-cadonau"
@@ -117,7 +117,12 @@ const JASSWIKI_SCHEMA = {
         "url": "https://jassverband.ch",
         "description": "Nationaler Verband zur Förderung der Schweizer Jass-Kultur",
         "foundingDate": "2026-01-15",
-        "sameAs": ["https://www.wikidata.org/wiki/Q139042763"]
+        "sameAs": ["https://www.wikidata.org/wiki/Q139042763"],
+        // Beide Angebote des Verbands: das Wiki zum Nachlesen, JassGuru zum Spielen.
+        "subOrganization": [
+          { "@id": "https://jasswiki.ch/#organization" },
+          { "@id": "https://jassguru.ch/#organization" }
+        ]
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -137,49 +142,47 @@ const JASSWIKI_SCHEMA = {
         "https://www.wikidata.org/wiki/Q137900251"
       ]
     },
+    // DER GRÜNDER: derselbe Person-Knoten wie auf jassguru.ch (_document.tsx),
+    // in der Tagesseite (functions/src/jassDesTages.ts) und auf jassverband.ch
+    // (OrganizationSchema.tsx). EINE @id für Remo im ganzen Netz, Änderungen an
+    // allen vier Stellen zugleich (SCHIRI 07.10.2026). Der frühere eigene
+    // Knoten https://jasswiki.ch/#remo-prinz ist darin aufgegangen.
     {
       "@type": "Person",
-      "@id": "https://jasswiki.ch/#remo-prinz",
+      "@id": "https://jassguru.ch/#remo-prinz",
       "name": "Remo Prinz",
-      "givenName": "Remo",
-      "familyName": "Prinz",
-      "jobTitle": "Jass-Experte & Digital Innovation",
-      "description": "Schweizer Jass-Experte mit über 15 Jahren Erfahrung in der digitalen Dokumentation und Analyse von Jass-Spielen. Entwickler von JassGuru.ch und JassStatistik.ch.",
-      "url": "https://www.linkedin.com/in/remo-prinz-886835b/",
-      "sameAs": [
-        "https://www.linkedin.com/in/remo-prinz-886835b/",
-        "https://jassguru.ch/",
-        "https://jassstatistik.ch/"
+      "jobTitle": "Gründer JassGuru, Präsident Jassverband Schweiz",
+      "description": "Remo Prinz treibt die Digitalisierung des Schweizer Nationalspiels voran. Mit JassGuru und JassWiki macht er Wissen, Regeln und Resultate erstmals schweizweit zugänglich.",
+      "url": "https://jassverband.ch/de/verband",
+      "image": "https://jassverband.ch/images/praesidium/remo-freigestellt.png",
+      "worksFor": [
+        { "@id": "https://jassguru.ch/#organization" },
+        { "@id": "https://jassverband.ch/#organization" }
       ],
-      "worksFor": {
-        "@id": "https://jasswiki.ch/#organization"
-      },
       "knowsAbout": [
-        "Jass-Statistik",
-        "Digitale Jass-Plattformen",
-        "Jass-Datenanalyse",
-        "Machine Learning für Kartenspiele",
-        "Schweizer Jass-Traditionen"
+        { "@id": "https://jassguru.ch/#jass-tradition" },
+        { "@type": "Thing", "name": "Künstliche Intelligenz", "sameAs": "https://www.wikidata.org/wiki/Q11660" }
       ],
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Digital Jass Innovation Expert",
-        "occupationalCategory": "Cultural Heritage & Technology"
-      },
-      "affiliation": [
-        {
-          "@type": "Organization",
-          "name": "JassGuru.ch",
-          "url": "https://jassguru.ch/",
-          "description": "Digitale Jass-Kreidetafel mit Elo-Rating-System und über 1500 erfassten Spielen"
-        },
-        {
-          "@type": "Organization", 
-          "name": "JassStatistik.ch",
-          "url": "https://jassstatistik.ch/",
-          "description": "Erfassung und Analyse von 640 Jass-Partien seit 2008"
-        }
+      "sameAs": [
+        "https://jassguru.ch/profile/b16c1120111b7d9e7d733837/",
+        "https://www.linkedin.com/in/remo-prinz-886835b/",
+        "https://github.com/remoprinz",
+        "https://www.crunchbase.com/person/remo-prinz",
+        "https://orcid.org/0009-0006-2170-0892"
       ]
+    },
+    // JassGuru: die Spielfläche zum Wiki, Schwester unter demselben Verband.
+    // Knoten deckungsgleich mit jassguru.ch (@id, Name, Wikidata Q140268082).
+    {
+      "@type": ["Organization", "WebApplication"],
+      "@id": "https://jassguru.ch/#organization",
+      "name": "JassGuru",
+      "url": "https://jassguru.ch",
+      "description": "JassGuru (Jasstafel) ist die digitale Jass-Kreidetafel der Schweiz mit Elo-Ratingsystem, Statistiken, Gruppenranglisten und Turniermodul für die Schweizer Jass-Community.",
+      "applicationCategory": "SportsApplication",
+      "sameAs": ["https://www.wikidata.org/wiki/Q140268082"],
+      "parentOrganization": { "@id": "https://jassverband.ch/#organization" },
+      "founder": { "@id": "https://jassguru.ch/#remo-prinz" }
     },
     {
       "@type": "Person",
@@ -228,6 +231,8 @@ const JASSWIKI_SCHEMA = {
       "about": {
         "@id": "https://jasswiki.ch/#jass-tradition"
       },
+      // Die Fusszeile jeder Seite verlinkt jassguru.ch und den Jass des Tages.
+      "mentions": { "@id": "https://jassguru.ch/#organization" },
       "audience": {
         "@type": "PeopleAudience",
         "audienceType": "Jass-Spieler, Jass-Interessierte, Kulturinteressierte"
