@@ -116,7 +116,7 @@ Bemerkung:
 - **Was ist der Ablupf beim Jassen?** Als Ablupf wird einerseits der Akt des Abhebens bezeichnet wie auch das Resultat des Abhebens.
 - **Was bedeutet ein guter Ablupf?** Hat ein Spieler in Vorhand gute Karten, war der Ablupf gut.
 - **Warum ist der Ablupf für manche Spieler so wichtig?** Es gibt Spieler, die das Ablupfen als das Wichtigste beim Jassen überhaupt bezeichnen und mit abergläubischem Eifer und theatralischen Ritualen ablupfen, um das Kartenglück möglichst positiv zu beeinflussen.
-- **Wo finde ich die Regeln zum Ablupfen?** Die Regeln beim Ablupfen finden sich im Artikel "Abheben der Karten".
+- **Wo finde ich die Regeln zum Ablupfen?** Die Regeln beim Ablupfen finden sich im Artikel «Abheben der Karten».
 
 *Keywords: ablupf, abheben, ablupfen, kartenglück, vorhand*
 
@@ -243,8 +243,8 @@ Im Spiel:
 • Das Blatt umfasst alle Karten, die ein Spieler in der Hand hält
 
 **Häufige Fragen:**
-- **Was bedeutet "Blatt" beim Jassen?** Als Blatt werden die Spielkarten bezeichnet. Es kann auch die Karten in der Hand eines Spielers meinen.
-- **Wo wird der Begriff "Blatt" verwendet?** Das Wort steckt in den Weisnamen: Dreiblatt, Vierblatt, Fünfblatt.
+- **Was bedeutet «Blatt» beim Jassen?** Als Blatt werden die Spielkarten bezeichnet. Es kann auch die Karten in der Hand eines Spielers meinen.
+- **Wo wird der Begriff «Blatt» verwendet?** Das Wort steckt in den Weisnamen: Dreiblatt, Vierblatt, Fünfblatt.
 - **Welche Kartensysteme gibt es?** Es gibt französische und deutschschweizerische Spielkarten mit unterschiedlichen Motiven.
 
 *Keywords: blatt, spielkarten, dreiblatt*
@@ -416,7 +416,7 @@ Grundkonzept:
 • Klemmen bedeutet, dass ein Spieler einen Bock bewusst nicht ausspielt, obwohl er damit den Stich machen könnte
 
 **Taktischer Hintergrund:**
-• Der Spieler hält den Bock zurück ("klemmt" ihn)
+• Der Spieler hält den Bock zurück («klemmt» ihn)
 • Ziel ist es, diese starke Karte zu einem späteren, günstigeren Zeitpunkt einzusetzen
 • Beispiel: Man klemmt das Eichel-Ass, um später damit einen wertvolleren Stich zu stechen oder den Partner ans Ausspiel zu bringen
 
@@ -628,9 +628,9 @@ Wichtiger Hinweis:
 • Sollte daher vor dem Spiel geklärt werden
 
 **Häufige Fragen:**
-- **Was bedeutet "Rest" beim Jassen?** "Rest" ist die Ankündigung eines Spielers, alle restlichen Stiche machen zu können.
-- **Ist "Rest" überall erlaubt?** Nein, die Ansage "Rest" ist in den meisten Spielvarianten nicht erlaubt und sollte vor dem Spiel geklärt werden.
-- **Wann darf man "Rest" sagen?** Die Regeln für "Rest machen" variieren je nach Spielvariante und Tischregel. In vielen Fällen muss man die Karten offen zeigen können.
+- **Was bedeutet «Rest» beim Jassen?** «Rest» ist die Ankündigung eines Spielers, alle restlichen Stiche machen zu können.
+- **Ist «Rest» überall erlaubt?** Nein, die Ansage «Rest» ist in den meisten Spielvarianten nicht erlaubt und sollte vor dem Spiel geklärt werden.
+- **Wann darf man «Rest» sagen?** Die Regeln für «Rest machen» variieren je nach Spielvariante und Tischregel. In vielen Fällen muss man die Karten offen zeigen können.
 
 *Keywords: rest*
 
@@ -690,7 +690,7 @@ Beim Schieber:
 
 **Beispiele:**
 • Partner sticht mit dem Trumpf-Ass → man gibt ihm das Banner (10 Punkte)
-• Partner hat sicheren Bock → man "schmiert" ihm ein Ass oder Zehner
+• Partner hat sicheren Bock → man «schmiert» ihm ein Ass oder Zehner
 
 **Taktische Bedeutung:**
 • Schmieren ist eine wichtige Teamtaktik
@@ -714,8 +714,8 @@ Beim Schieber:
 • Schnorren sind verbotene Bemerkungen während des Spiels, die etwas über die eigenen Karten oder die Taktik verraten
 
 **Beispiele für verbotenes Schnorren:**
-• "Ich habe einen guten Trumpf"
-• "Spiel mal Schellen"
+• «Ich habe einen guten Trumpf»
+• «Spiel mal Schellen»
 • Seufzen oder übertriebenes Zögern
 
 **Konsequenzen:**
@@ -1549,5 +1549,5 @@ Eine Wand bezeichnet beim Jassen mehrere Karten derselben Farbe auf einer Hand. 
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
+*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

@@ -2435,25 +2435,25 @@ Der Kaiserjass (auch Karnöffelspiel oder Karniffelspiel genannt) zählt zu den 
 Besonderheiten:
 • Die Spielregeln weichen vollkommen von den bekannten Jass-Varianten ab
 • Verlangt weit mehr Übung als die bekannten Jassarten
-• Die Partner geben sich mit vereinbarten Zeichen zu verstehen, was sie auf der Hand haben (das sogenannte "Deuten")
+• Die Partner geben sich mit vereinbarten Zeichen zu verstehen, was sie auf der Hand haben (das sogenannte «Deuten»)
 • Nur die vorab auf die Tafel geschriebenen Punkte zählen am Ende
 
-Zeichen zwischen den Partnern ("Chaiseren"):
+Zeichen zwischen den Partnern («Chaiseren»):
 • Augenzwinkern, Achselzucken und Nasenrümpfen sind erlaubte Zeichen
 • Partner teilen sich durch diese Gesten Informationen über ihre Karten mit
-• Das "Deuten" vor einer Runde ist ebenso wichtig wie das eigentliche Spiel
+• Das «Deuten» vor einer Runde ist ebenso wichtig wie das eigentliche Spiel
 • Diese Form der Kommunikation ist bei anderen Jassvarianten verboten
 
 Spezielle Karten:
 • Jede Karte hat eine spezifische, eigenständige Funktion
 • Welche Karte welche sticht, ist ganz anders geordnet als beim Jassen
-• Beispiele für Kartenbezeichnungen: "Mugg", "Jos", "Füfi"
+• Beispiele für Kartenbezeichnungen: «Mugg», «Jos», «Füfi»
 
 Geschichtlicher Hintergrund:
 • Entstanden im 15. Jahrhundert, vermutlich durch italienische Söldner verbreitet
 • War ursprünglich in Deutschland, dem Elsass und der Schweiz bekannt
 • Heute nur noch in Norddeutschland und der katholischen Innerschweiz verbreitet
-• Der Begriff "Karnöffel" galt als Schimpfwort für einen groben Gesellen
+• Der Begriff «Karnöffel» galt als Schimpfwort für einen groben Gesellen
 • Wurde von der Obrigkeit kritisch gesehen und mehrfach verboten
 
 Regionale Bedeutung:
@@ -2469,9 +2469,9 @@ Lernschwierigkeit:
 
 Kulturerbe:
 • Zählt zu den traditionellen Kartenspielen der Innerschweiz
-• Wird in der Datenbank "Lebendige Traditionen" dokumentiert (NM 11001)
+• Wird in der Datenbank «Lebendige Traditionen» dokumentiert (NM 11001)
 • Ältere Kartensujets zeigen oft gesellschaftskritische Darstellungen
-• Der "Under" (als Bauer dargestellt) kann den König stechen - ein symbolischer Standesunterschied
+• Der «Under» (als Bauer dargestellt) kann den König stechen - ein symbolischer Standesunterschied
 
 **Häufige Fragen:**
 - **Was ist der Kaiserjass?** Der Kaiserjass (auch Karnöffelspiel) ist eines der ältesten Kartenspiele im deutschsprachigen Raum und unterscheidet sich grundlegend von den üblichen Jassvarianten. Er verlangt weit mehr Übung als die bekannten Jassarten.
@@ -2926,5 +2926,5 @@ Bewertung:
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
+*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

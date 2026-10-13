@@ -71,7 +71,7 @@ const NutzungsbedingungenPage = () => {
         <p className="mb-4 text-gray-300">
           Die Wissensinhalte von JassWiki stehen unter der Lizenz{' '}
           <strong>CC BY-SA 4.0</strong>. Eine Weiterverwendung ist bei Namensnennung
-          („JassWiki / Jassverband Schweiz") und unter gleichen Lizenzbedingungen zulässig.
+          («JassWiki / Jassverband Schweiz») und unter gleichen Lizenzbedingungen zulässig.
           Logos, Marken und das Design bleiben geschützt. Quellen werden, wo möglich, im{' '}
           <Link href="/quellen" className="text-green-400 hover:text-green-300 underline">Quellenverzeichnis</Link>{' '}
           angegeben.

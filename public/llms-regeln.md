@@ -538,7 +538,7 @@ Ausnahme hindersi-Spiele:
 • Die Gegner dürfen überdies entscheiden, ob der fehlbare Spieler beim nächsten Stich ausspielen muss oder ob der Spieler rechts vom fehlbaren Spieler an der Reihe ist
 
 **Häufige Fragen:**
-- **Was bedeutet "Falscher Spieler spielt aus"?** Das bedeutet, dass jemand die erste Karte eines Stichs ausspielt, obwohl ein anderer Spieler an der Reihe gewesen wäre.
+- **Was bedeutet «Falscher Spieler spielt aus»?** Das bedeutet, dass jemand die erste Karte eines Stichs ausspielt, obwohl ein anderer Spieler an der Reihe gewesen wäre.
 - **Was passiert, wenn der falsche Spieler ausspielt?** Die irrtümlich gespielte Karte muss zurückgenommen werden und verliert den Stechwert (aber nicht den Zählwert). Der richtige Spieler spielt dann aus.
 - **Gilt die Regel bei hindersi-Spielen gleich?** Nein, bei hindersi-Spielen (Differenzler, Hindersi, Molotow, etc.) gilt die Regel betreffend Stechwert verlieren nicht, da es dem Spieler dort nützt, wenn seine Karten den Stechwert verlieren.
 - **Wer spielt nach einem falschen Ausspiel korrekt weiter?** Der eigentlich an der Reihe gewesene Spieler spielt aus. Die falsch gespielte Karte verliert ihren Stechwert, ihren Zählwert behält sie. Beim nächsten Stich spielt der rechts vom fehlerhaften Spieler.
@@ -1315,7 +1315,7 @@ Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vol
 
 **Häufige Fragen:**
 - **Wie funktioniert Spielverrat (Bock erwähnen) beim Jassen?** Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vollständige Informationen.
-- **Darf man erwähnen, dass man einen Bock hat?** Siehe den Hauptartikel "Bemerkungen und Schnorren" für vollständige Informationen zu verbotenen Bemerkungen wie dem Erwähnen eines Bocks.
+- **Darf man erwähnen, dass man einen Bock hat?** Siehe den Hauptartikel «Bemerkungen und Schnorren» für vollständige Informationen zu verbotenen Bemerkungen wie dem Erwähnen eines Bocks.
 
 *Keywords: bock, erwähnen, spielverrat*
 
@@ -1746,7 +1746,7 @@ Regeln bei fehlerhafter Kartenverteilung:
 
 **Häufige Fragen:**
 - **Was passiert, wenn ein Spieler die falsche Anzahl Karten erhält?** Hat ein Spieler zu viele oder zu wenige Karten, gibt der Kartengeber neu, oder die Karte wird berichtigt.
-- **Was passiert, wenn eine Karte beim Verteilen runterfällt?** Siehe die spezifische Regel für "Karte fällt runter", die das genaue Vorgehen beschreibt.
+- **Was passiert, wenn eine Karte beim Verteilen runterfällt?** Siehe die spezifische Regel für «Karte fällt runter», die das genaue Vorgehen beschreibt.
 
 *Keywords: fehler, konsequenzen, verteilfehler, einspruch, regelverstoss*
 
@@ -1794,7 +1794,7 @@ Sonderfall, Falsch gespielte Karte:
 
 Eine typisch schweizerische Eigenheit beim Jassen ist die Verteilrichtung:
 • Während in der ganzen Welt Karten im Uhrzeigersinn ausgegeben werden, geben die Schweizer **gegen den Uhrzeigersinn** aus und spielen auch gegen den Uhrzeigersinn
-• "Immer der Ohrfeige nach", wie es so schön heisst, das gilt zumindest für die meisten Rechtshänder
+• «Immer der Ohrfeige nach», wie es so schön heisst, das gilt zumindest für die meisten Rechtshänder
 
 **Standard-Verteilmethode (3×3):**
 
@@ -1812,7 +1812,7 @@ Die 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Varia
 
 **Häufige Fragen:**
 - **Wie werden Karten beim Jassen verteilt?** Die klassische Schweizer Methode ist 3×3 gegen den Uhrzeigersinn, beginnend rechts vom Geber (Vorhand). Der Kartengeber verteilt jedem Spieler dreimal 3 Karten.
-- **Warum verteilt man beim Jassen gegen den Uhrzeigersinn?** Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn, "Immer der Ohrfeige nach".
+- **Warum verteilt man beim Jassen gegen den Uhrzeigersinn?** Das ist eine typisch schweizerische Eigenheit. Während weltweit im Uhrzeigersinn gespielt wird, geben und spielen die Schweizer gegen den Uhrzeigersinn, «Immer der Ohrfeige nach».
 - **Gibt es Ausnahmen bei der Kartenverteilung?** Ja, bei Varianten wie Tschau Sepp, Bieter (2×5 Karten bei erster Runde) oder Molotow (mehr als 4 Spieler) wird anders verteilt.
 
 *Keywords: verteilen, methoden, kartenanzahl, spielarten, verteilregeln*
@@ -2100,5 +2100,5 @@ Sonderregeln bei der Kartenverteilung:
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
+*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

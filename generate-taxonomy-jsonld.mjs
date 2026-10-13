@@ -49,14 +49,14 @@ const TAXONOMY_TERMS = [
   // Spielarten - Partnerspiele
   { name: 'Schieber', wikidataId: 'Q137727247', link: '/schieber/', subclassOf: 'Q786768', description: 'Die Standardvariante – Vorhand oder Schieben' },
   { name: 'Coiffeur', wikidataId: 'Q137731700', link: '/varianten/coiffeur/', subclassOf: 'Q786768', description: 'Alle Modi Pflicht – Matrix mit Multiplikatoren' },
-  { name: 'Sidi Barrani', wikidataId: 'Q137738898', link: '/varianten/sidi-barrani/', subclassOf: 'Q786768', description: 'Bieten mit Punktzahl – "Double Jeopardy" Scoring' },
+  { name: 'Sidi Barrani', wikidataId: 'Q137738898', link: '/varianten/sidi-barrani/', subclassOf: 'Q786768', description: 'Bieten mit Punktzahl – «Double Jeopardy» Scoring' },
   { name: 'Bolschewik', wikidataId: 'Q137738843', link: '/varianten/bolschewik-4-spieler/', subclassOf: 'Q786768', description: 'Mit doppeltem Kartendeck (72 Karten!)' },
   { name: 'Kreuzjass', wikidataId: 'Q137738899', subclassOf: 'Q786768', description: 'Partner diagonal' },
   
   // Spielarten - Königsspiele
   { name: 'Pandur', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: 'Q786768', description: '24-Blatt! Härteste Variante' },
   { name: 'Bieter', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: 'Q786768', description: '36-Blatt, flexibler als Pandur' },
-  { name: 'Aucho', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: 'Q786768', description: '"Erben"-Prinzip' },
+  { name: 'Aucho', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: 'Q786768', description: '«Erben»-Prinzip' },
   { name: 'Schafhauser', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: 'Q786768', description: 'Solospieler durch Karten bestimmt' },
   
   // Spielarten - Einzelspiele
@@ -72,7 +72,7 @@ const TAXONOMY_TERMS = [
   { name: 'Chratze', wikidataId: 'Q137738836', link: '/varianten/chratze/', subclassOf: 'Q786768', description: 'Pot-Mechanik, nur 4 Karten' },
   { name: 'Guggitaler', wikidataId: 'Q137738902', link: '/varianten/guggitaler/', subclassOf: 'Q786768', description: 'Mit Geldeinsatz' },
   { name: 'Tschau Sepp', wikidataId: 'Q137738840', link: '/varianten/tschau-sepp/', subclassOf: 'Q786768', description: 'Ablegespiel (Mau-Mau)' },
-  { name: 'Zwick-Jass', wikidataId: 'Q137738903', link: '/varianten/zwick/', subclassOf: 'Q786768', description: 'Mit "Schlecken"' },
+  { name: 'Zwick-Jass', wikidataId: 'Q137738903', link: '/varianten/zwick/', subclassOf: 'Q786768', description: 'Mit «Schlecken»' },
   { name: 'Zuger', wikidataId: 'Q137738842', link: '/varianten/zuger/', subclassOf: 'Q786768', description: 'Geber pausiert' },
   
   // Spielmodi

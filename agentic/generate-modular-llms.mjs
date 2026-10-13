@@ -199,7 +199,7 @@ async function generateModularLLMS() {
     
     // Footer
     content += `\n---\n\n*Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*\n`;
-    content += `*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*\n`;
+    content += `*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*\n`;
     content += `*Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*\n`;
     
     // Speichern

@@ -348,7 +348,7 @@ const TaxonomiePage = () => {
               <li>• <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Wikipedia: Jass</a> (JassWiki.ch als Einzelnachweis)</li>
               <li>• <a href="https://jasswiki.ch" className="text-[#274823] hover:text-[#2bb752]">Jasswiki.ch</a> – 257 Artikel</li>
               <li>• <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Lebendige Traditionen der Schweiz (BAK)</a></li>
-              <li>• Expertenbericht: &ldquo;Jass-Ontologie &amp; Gap-Analyse&rdquo; (2026)</li>
+              <li>• Expertenbericht: «Jass-Ontologie &amp; Gap-Analyse» (2026)</li>
             </ul>
           </div>
 

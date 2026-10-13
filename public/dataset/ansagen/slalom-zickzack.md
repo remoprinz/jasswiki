@@ -28,7 +28,7 @@ Beim Slalom trennt sich beim Verwerfen die Spreu vom Weizen. Wie sonst auch wirf
 zuerst seine schwächste, dann die zweitschwächste Farbe ab. Entscheidend ist die
 Nuance: Verwirft man eine hohe Karte (höher als das Banner), signalisiert man dem
 Partner, dass er **oben** übergeben soll. Verwirft man tief (ein Brättli), möchte man,
-dass **unten** übergeben wird. Mehr dazu im Artikel „Verwerfen beim Slalom".
+dass **unten** übergeben wird. Mehr dazu im Artikel «Verwerfen beim Slalom».
 
 ## FAQ
 

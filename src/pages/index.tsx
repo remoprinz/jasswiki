@@ -100,7 +100,7 @@ const WissenHomePage = () => {
         { 
             slug: 'begriffe', 
             name: 'Jass-Begriffe',
-            description: 'Von "Bock" bis "Stöck" – alle wichtigen Jass-Ausdrücke erklärt',
+            description: 'Von «Bock» bis «Stöck» – alle wichtigen Jass-Ausdrücke erklärt',
             icon: FaHouse,
         },
         { 

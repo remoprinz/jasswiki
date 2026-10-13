@@ -683,7 +683,7 @@ Heute wird auch am Handy gejasst. Apps und Online-Turniere bringen jüngere Spie
 Die Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Das Bundesamt für Kultur führt das Jassen als lebendige Tradition. Es verbindet die Generationen und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.
 
 **Regionale Besonderheiten:**
-Während der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede ("Jassgraben"). In der Deutschschweiz spielt man Schieber mit deutschschweizer Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.
+Während der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede («Jassgraben»). In der Deutschschweiz spielt man Schieber mit deutschschweizer Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.
 
 **Häufige Fragen:**
 - **Welche Rolle spielt der Jass in der Schweiz?** Der Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.
@@ -983,5 +983,5 @@ So hört man am Jasstisch, aus welcher Ecke der Schweiz einer kommt.
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als "Lebendige Tradition der Schweiz"*
+*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*
