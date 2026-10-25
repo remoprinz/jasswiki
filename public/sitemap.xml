@@ -31,6 +31,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://jasswiki.ch/jass-des-tages/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jasswiki.ch/ansagen/tutti/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
