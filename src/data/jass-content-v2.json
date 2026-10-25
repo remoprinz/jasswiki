@@ -5781,26 +5781,30 @@
   },
   "jassapps_jassguru": {
     "id": "jassapps_jassguru",
-    "text": "App-Überblick:\n[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.\n\nKernfunktionen:\n• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen\n• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg (siehe Begriff \"bergpreis\") und Sieg\n• **Profil:** Trumpfansagen (siehe Begriff \"trumpfansage\"), Rekorde und Serien eines Jassers zählen über alle seine Gruppen zusammen\n• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen\n\nSpielverwaltung:\n• **Archiv:** Jede gespielte Partie (siehe Begriff \"expressions_partie\") bleibt gespeichert und zählt für die Rangliste\n• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe\n• **Runden:** Jede Runde bleibt einzeln nachlesbar\n• **Blättern:** Vor und zurück durch die Runden, um eine falsche Eingabe zu verbessern\n\nEinstellungen:\nIndividuelle Anpassung von Karten, Farben und Multiplikatoren.\n\nVerfügbarkeit:\nJassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.",
+    "text": "JassGuru ist die Jass-App des Jassverbands Schweiz, im Browser und als App. Sie vereint zwei Teile: die Arena zum [Online-Jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch) und die digitale Jasstafel für den Jass am echten Tisch. Gespielt wird [Schieber](/schieber/).\n\n## Online jassen in der Arena\n\nAm Tisch sitzen vier. Jeden freien Platz besetzt die Jass-KI.\n\n- **Solo:** Die KI besetzt die drei anderen Plätze.\n- **Duo:** mit einem Partner, eingeladen per Link. Die KI stellt die Gegner.\n- **Zu viert:** der volle Tisch mit den eigenen Leuten, alle kommen über denselben Link.\n- **Offene Tische:** Die Lobby zeigt, wo gerade gejasst wird. Man schaut zu, klopft an oder übernimmt einen Platz von der KI.\n- **Stammtisch:** Hier läuft immer eine Partie. Platz nimmt, wer ein Profil und einen Sieg in der Arena hat.\n\nAngesagt werden die vier Farben als [Trumpf](/ansagen/trumpffarbe/), [Obenabe](/ansagen/obenabe/) und [Undenufe](/ansagen/undenufe/), auf Wunsch dazu [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/). Die Abmachung bestimmt der Tisch selbst. Vier Vorlagen stehen bereit, mit «Eigene» stellt man Faktoren und Punktziel frei ein.\n\n## Jassfreunde, Liga und Rekorde\n\nMit einem Profil zählt jede Partie. Wen man nach einer Partie wieder am Tisch haben will, fragt man als Jassfreund an. Wer zusagt, lässt sich danach mit einem Tipp an den eigenen Tisch rufen.\n\nIn der Liga steigt man Woche für Woche auf oder ab. Gezählt wird nach [Strichen](/begriffe/punktebegriffe/strich/). Die Rekordtafel zeigt die besten Werte der Woche und aller Zeiten.\n\n## Jass des Tages\n\nJeden Tag liegt ein neues Blatt auf: dieselben neun Karten und dasselbe Ziel für alle, ein Versuch pro Tag. Um 19 Uhr erscheint die Lösung mit Video. Das heutige Blatt steht unter [Jass des Tages](https://jassguru.ch/jass-des-tages/), alle Blätter seit dem 14. August 2026 im [Archiv](https://jassguru.ch/jass-des-tages/archiv/).\n\n## Die Jasstafel für den echten Tisch\n\nAm echten Tisch schreibt man auf der Jasstafel von JassGuru. Punkte und Weis kommen mit einem Antippen auf die Z-Linie. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu [Berg](/regeln/bergpreis/) und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.\n\nDaraus entstehen Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch-Bilanzen sowie das [Jass-Elo](/grundlagen-kultur/jass-elo/). Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.\n\n## Herausgeber und Forschung\n\nJassGuru wird vom [Jassverband Schweiz](https://jassverband.ch) betrieben, der auch das JassWiki herausgibt. Die Jass-KI entwickelt der Verband zusammen mit der Fachhochschule Nordwestschweiz (FHNW) weiter. Den Stand der Forschung legt er im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.",
     "metadata": {
       "id": "jassapps_jassguru_meta",
       "category": {
         "main": "Jassapps",
-        "sub": "Tisch-Jass",
-        "topic": "jassguru.ch"
+        "sub": "Online-Jass",
+        "topic": "JassGuru"
       },
       "keywords": [
         "jassguru",
-        "web-app",
-        "pwa",
-        "punktezählung",
+        "online jassen",
+        "online-jass",
         "schieber",
-        "elo-rating",
-        "jassgruppen",
-        "statistiken",
-        "echtzeit",
-        "live",
-        "ranglisten"
+        "jass-ki",
+        "arena",
+        "lobby",
+        "stammtisch",
+        "liga",
+        "jassfreunde",
+        "jass des tages",
+        "jasstafel",
+        "jass-elo",
+        "turniere",
+        "jassverband schweiz"
       ],
       "situations": [
         "LEARNING"
@@ -5809,36 +5813,40 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-15"
+      "dateModified": "2026-10-25"
     },
     "faqs": [
       {
-        "question": "Was ist jassguru.ch?",
-        "answer": "Jassguru.ch ist eine digitale Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\") als Progressive Web App (PWA) zur Punktezählung beim Jassen."
+        "question": "Was ist JassGuru?",
+        "answer": "JassGuru ist die Jass-App des Jassverbands Schweiz. Sie vereint die Arena zum Online-Jassen und die digitale Jasstafel für den echten Tisch."
       },
       {
-        "question": "Was ist Jassguru.ch?",
-        "answer": "Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen."
+        "question": "Kann man mit JassGuru online jassen?",
+        "answer": "Ja. In der Arena spielt man Schieber solo gegen die KI, im Duo mit einem Partner, zu viert mit den eigenen Leuten oder an offenen Tischen in der Lobby."
       },
       {
-        "question": "Rechnet Jassguru automatisch?",
-        "answer": "Ja, der integrierte Kalkulator berechnet automatisch die Resultate für beide Teams, inklusive Restpunkte zu Berg und Sieg."
+        "question": "Wer steht hinter JassGuru?",
+        "answer": "Der Jassverband Schweiz betreibt JassGuru und gibt auch das JassWiki heraus. Die Jass-KI entwickelt er zusammen mit der Fachhochschule Nordwestschweiz (FHNW)."
       },
       {
-        "question": "Welche Statistiken bietet Jassguru?",
-        "answer": "Jassguru bietet umfassende Statistiken wie Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten, Matsch-Bilanzen sowie detaillierte Profil-Auswertungen gruppenübergreifend."
+        "question": "Was ist der Jass des Tages?",
+        "answer": "Ein Blatt pro Tag: dieselben neun Karten und dasselbe Ziel für alle. Um 19 Uhr erscheint die Lösung mit Video."
       },
       {
-        "question": "Kann ich Turniere mit Jassguru organisieren?",
-        "answer": "Ja, Jassguru hat einen eigenen Turniermodus mit Live-Ranglisten und detaillierten Ergebnissen bis auf die Ebene jeder einzelnen Passe."
+        "question": "Rechnet die Jasstafel von JassGuru automatisch?",
+        "answer": "Ja. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu Berg und Sieg."
+      },
+      {
+        "question": "Kann man mit JassGuru Turniere durchführen?",
+        "answer": "Ja. Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe."
       }
     ],
     "see_also": [
-      "schieber_taktiken_anziehen",
+      "jassapps_overview",
+      "jass_elo_meta",
       "bergpreis",
       "expressions_partie",
-      "jassapps_jasstafel",
-      "matsch"
+      "expressions_schieben"
     ]
   },
   "jassapps_jasspro": {
@@ -5990,7 +5998,7 @@
   },
   "jassapps_overview": {
     "id": "jassapps_overview",
-    "text": "Jassen am Bildschirm:\nFür das Jassen am Bildschirm gibt es drei Arten von Angeboten.\n\nHauptkategorien:\n• **Spiel-Apps:** Apps zum aktiven Spielen wie Jassch, Jassguru, JassPro (siehe Begriff \"jassapps_jasspro\") und Swissjass \n• **Notier-Apps:** Digitale Punktetafeln wie Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\") und Jasstafel Pro (siehe Begriff \"jassapps_jasstafel_pro\")\n• **Online-Plattformen:** Browser-basierte Angebote wie Jass24 (siehe Begriff \"jassapps_jass24\")\n\nVorteile:\n• **Zugänglichkeit:** Jederzeit und überall spielbar\n• **Lernhilfe:** Viele Apps bieten Tutorials und Taktiktipps\n• **Mit Freunden spielen:** gegen Bekannte oder gegen fremde Jasser aus der ganzen Schweiz\n\nModerne Entwicklung:\nDie Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.",
+    "text": "Jassen am Bildschirm:\nFür das Jassen am Bildschirm gibt es drei Arten von Angeboten.\n\nHauptkategorien:\n• **Spiel-Apps:** Apps zum aktiven Spielen wie JassGuru (siehe Begriff \"jassapps_jassguru\"), Jass.ch (siehe Begriff \"jassapps_jassch\"), JassPro (siehe Begriff \"jassapps_jasspro\") und SwissJass (siehe Begriff \"jassapps_swissjass\")\n• **Notier-Apps:** Digitale Punktetafeln wie Jasstafel (siehe Begriff \"jassapps_jasstafel\") und Jasstafel Pro (siehe Begriff \"jassapps_jasstafel_pro\")\n• **Online-Plattformen:** Browser-basierte Angebote wie Jass24 (siehe Begriff \"jassapps_jass24\")\n\nVorteile:\n• **Zugänglichkeit:** Jederzeit und überall spielbar\n• **Lernhilfe:** Viele Apps bieten Tutorials und Taktiktipps\n• **Mit Freunden spielen:** gegen Bekannte oder gegen fremde Jasser aus der ganzen Schweiz\n\nModerne Entwicklung:\nDie Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.",
     "metadata": {
       "id": "jassapps_overview_meta",
       "category": {
@@ -6014,7 +6022,7 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-10-25"
     },
     "faqs": [
       {
@@ -6035,6 +6043,7 @@
       }
     ],
     "see_also": [
+      "jassapps_jassguru",
       "jassapps_jass24",
       "jassapps_jasspro",
       "jassapps_jasstafel",

@@ -1,7 +1,7 @@
 {
   "_comment": "URL-Redirects für JassWiki. Manuell kuratiert für optimale Ziel-URLs.",
   "_source": "Google Search Console 404-Report vom 29.01.2026",
-  "_updated": "2026-01-29",
+  "_updated": "2026-10-25",
   "redirects": {
     "/geschichte/wortherkunft/geschichte-des-matsch-begriffs/": "/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
     "/varianten/schreibspiel/": "/varianten/",
@@ -60,6 +60,7 @@
     "/regeln/kartenwerte/jasskarten-grundlagen/": "/begriffe/kartenbezeichnungen/jasskarten/",
     "/begriffe/kartenbezeichnungen/kartenfarben/": "/begriffe/kartenbezeichnungen/jasskarten/",
     "/taktiken-und-strategien/fortgeschrittene-strategien/fortgeschrittene-taktiken/": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
-    "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken/": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/"
+    "/taktiken-und-strategien/fortgeschrittene-strategien/spezielle-taktiken/": "/taktiken-und-strategien/kommunikation-signale/jass-taktik-die-signalsprache-zwischen-partnern/",
+    "/jassapps/tisch-jass/jassguru-ch/": "/jassapps/online-jass/jassguru/"
   }
 }

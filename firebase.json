@@ -246,6 +246,16 @@
       ],
       "redirects": [
         {
+          "source": "/jassapps/tisch-jass/jassguru-ch/",
+          "destination": "/jassapps/online-jass/jassguru/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/tisch-jass/jassguru-ch",
+          "destination": "/jassapps/online-jass/jassguru/",
+          "type": 301
+        },
+        {
           "source": "/begriffe/spielaktionen/untertrumpfen/",
           "destination": "/regeln/spielablauf/untertrumpfen/",
           "type": 301

@@ -31,14 +31,26 @@ function getArticlesForSubcategory(
       toSlug(item.metadata.category.sub) === subcategorySlug
     )
     .sort((a, b) => {
-      // Sortiere alphabetisch (nicht nach Wichtigkeit)
+      // Angepinnte Artikel zuerst (SUB_ZUERST), danach alphabetisch.
+      const pa = SUB_ZUERST.includes(a.id) ? 0 : 1;
+      const pb = SUB_ZUERST.includes(b.id) ? 0 : 1;
+      if (pa !== pb) return pa - pb;
       return a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de');
     });
 }
 
+// Artikel, die in ihrer Unterkategorie zuoberst stehen. JassGuru ist das Angebot
+// des Herausgebers und steht in der Online-Jass-Übersicht zuerst; die Einleitung
+// (SUB_INTROS) sagt das offen (SCHIRI 25.10.2026, Remos Entscheid «jasswiki zeigt die Arena»).
+const SUB_ZUERST: string[] = ['jassapps_jassguru'];
+
 // Optionale Einleitungstexte für Subkategorie-Übersichten (gegen Thin-Content + Kontext
 // für Nutzer und Crawler). Schlüssel = Anzeigename der Subkategorie.
 const SUB_INTROS: Record<string, string[]> = {
+  'Online-Jass': [
+    'Online jassen heisst: Schieber und andere Jassarten im Browser oder in einer App spielen, gegen die KI oder mit Jassern aus der ganzen Schweiz.',
+    'Zuerst steht JassGuru, das Angebot des Jassverbands Schweiz. Der Verband gibt auch dieses Wiki heraus. Die übrigen Angebote folgen alphabetisch.',
+  ],
   'Fehler & Verstösse': [
     'Beim Jassen geht nicht immer alles glatt. Eine Karte rutscht aus der Hand, jemand spielt aus, obwohl er nicht an der Reihe ist, es wird nicht gefarbt oder am Tisch fällt eine Bemerkung, die dem Partner mehr verrät als erlaubt. Für solche Fälle braucht es klare Regeln, damit eine Partie fair bleibt und nicht in endlosen Diskussionen endet.',
     'Hier sind die häufigsten Fehler und Verstösse gesammelt: vom versehentlichen Missgeschick wie einer heruntergefallenen Karte bis zum bewussten Regelbruch wie dem Spielverrat. Jeder Artikel beschreibt, was gilt, wer entscheidet und was die Konsequenz eines Regelverstosses ist.',
