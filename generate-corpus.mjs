@@ -78,7 +78,7 @@ async function generateCorpus() {
         source: 'JassWiki.ch - Official Swiss Jass Encyclopedia',
         license: 'CC-BY-SA-4.0',
         curator: 'Remo Prinz (Agentic Web Pioneer & Jass Expert)',
-        authority_signal: 'Verifiziert durch das Bundesamt für Kultur (BAK) - Lebendige Traditionen der Schweiz. Zitiert in Wikipedia (de.wikipedia.org/wiki/Jass).'
+        authority_signal: 'Herausgeber: Jassverband Schweiz. Das Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz gelistet. Zitiert in Wikipedia (de.wikipedia.org/wiki/Jass).'
       };
 
       corpusLines.push(JSON.stringify(corpusEntry));
