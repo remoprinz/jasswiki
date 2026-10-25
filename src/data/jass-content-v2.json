@@ -4550,7 +4550,7 @@
   },
   "general_most_important_rules": {
     "id": "general_most_important_rules",
-    "text": "Grundregeln:\nDiese Regeln gelten in fast allen Jassarten.\n\nKernregeln:\n• **Farbe bedienen (farben):** Man muss die ausgespielte Farbe spielen, wenn man sie hat.\n• **Übertrumpfen:** Liegt schon ein Trumpf im Stich, muss man höher trumpfen. Die Ausnahme sind Hindersi-Varianten, vgl. Untertrumpfen (siehe Begriff \"untertrumpfen\").\n• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.\n\nAusnahmen:\nJe nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nWenn jemand gegen eine Regel verstösst:\nWer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.",
+    "text": "Grundregeln:\nDiese Regeln gelten in fast allen Jassarten.\n\nKernregeln:\n• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen (siehe Begriff \"nichtfarben\"). Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist (siehe Begriff \"trumpf_bauer\").\n• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel (siehe Begriff \"untertrumpfen\").\n• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.\n\nAusnahmen:\nJe nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.\n\nWenn jemand gegen eine Regel verstösst:\nWer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.",
     "metadata": {
       "id": "general_most_important_rules_meta",
       "category": {
@@ -4577,20 +4577,20 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-10-25"
     },
     "faqs": [
       {
         "question": "Was sind die Grundregeln beim Jassen?",
-        "answer": "Drei Regeln gelten fast überall: die ausgespielte Farbe bedienen, höher trumpfen, und wer den Stich macht, spielt aus."
+        "answer": "Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus."
       },
       {
-        "question": "Muss man beim Jassen die Farbe bedienen?",
-        "answer": "Ja. Man muss die ausgespielte Farbe bedienen, sofern man sie auf der Hand hat."
+        "question": "Muss man beim Jassen die Farbe angeben?",
+        "answer": "Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt."
       },
       {
         "question": "Darf man beim Jassen untertrumpfen?",
-        "answer": "Bei normalen Spielen nein, man muss höher trumpfen. Die Ausnahme sind Hindersi-Varianten, dort ist Untertrumpfen erlaubt."
+        "answer": "In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann."
       }
     ],
     "see_also": [
