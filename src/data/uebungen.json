@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-25",
+  "stand": "2026-10-26",
   "alleAufgaben": "https://jassguru.ch/jass-des-tages/archiv/",
   "artikel": {
     "expressions_stechkarten": {
@@ -88,8 +88,13 @@
     },
     "schieber_taktiken_anziehen": {
       "thema": "Anziehen",
-      "anzahl": 11,
+      "anzahl": 12,
       "blaetter": [
+        {
+          "datum": "2026-10-26",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
+        },
         {
           "datum": "2026-10-25",
           "titel": "Heute gibt’s den Undenufe-Matsch.",
@@ -99,11 +104,6 @@
           "datum": "2026-10-11",
           "titel": "108 Punkte sind gefragt.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-11/"
-        },
-        {
-          "datum": "2026-10-09",
-          "titel": "Jasse min 127 Punkte",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-09/"
         }
       ]
     },
@@ -193,8 +193,13 @@
     },
     "expressions_matsch": {
       "thema": "Matsch",
-      "anzahl": 36,
+      "anzahl": 37,
       "blaetter": [
+        {
+          "datum": "2026-10-26",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
+        },
         {
           "datum": "2026-10-25",
           "titel": "Heute gibt’s den Undenufe-Matsch.",
@@ -204,18 +209,18 @@
           "datum": "2026-10-24",
           "titel": "Versuche den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-24/"
-        },
-        {
-          "datum": "2026-10-23",
-          "titel": "Verhindere den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-23/"
         }
       ]
     },
     "matsch": {
       "thema": "Matsch",
-      "anzahl": 36,
+      "anzahl": 37,
       "blaetter": [
+        {
+          "datum": "2026-10-26",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
+        },
         {
           "datum": "2026-10-25",
           "titel": "Heute gibt’s den Undenufe-Matsch.",
@@ -225,11 +230,6 @@
           "datum": "2026-10-24",
           "titel": "Versuche den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-24/"
-        },
-        {
-          "datum": "2026-10-23",
-          "titel": "Verhindere den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-23/"
         }
       ]
     }
