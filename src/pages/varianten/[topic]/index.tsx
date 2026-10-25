@@ -15,6 +15,7 @@ import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { getVariantMetadata } from '@/data/variant-wikidata-mapping';
+import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 
 
 interface VariantenPageProps {
@@ -171,6 +172,8 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
               <InternalLinker text={contentItem.text} farbwechsel={contentItem.metadata.farbwechsel === true} />
             </div>
           </article>
+
+          <JassfreundeSatz schluessel={contentItem.id} />
 
           {/* FAQ-Sektion - sichtbar für User und Crawler */}
           {contentItem.faqs && contentItem.faqs.length > 0 && (

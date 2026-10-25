@@ -7,6 +7,7 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 
 export const SCHIEBER_GROUPS = [
   { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => i.metadata.category.main === 'Regeln' },
@@ -106,6 +107,8 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
               </Link>
             ))}
           </div>
+
+          <JassfreundeSatz schluessel="schieber_hub" />
 
           {/* Zurück */}
           <div className="pt-8 border-t border-[#f0eee7]">

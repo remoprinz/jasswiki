@@ -16,6 +16,7 @@ import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
+import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 
@@ -340,6 +341,8 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                 </div>
               </section>
             )}
+
+            <JassfreundeSatz schluessel={contentItem.id} />
 
             {/* ÜBEN: Aufgaben im Jass des Tages zu diesem Thema */}
             <UebenBlock articleId={contentItem.id} />

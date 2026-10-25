@@ -1,0 +1,39 @@
+{
+  "_zweck": "Leitartikel mit Schlusssatz zu den Jassfreunden und je einem fest gewählten Jass des Tages (Karte LEUCHTTURM P2, Remos Entscheid 25.10.2026). Redaktion: SCHIRI. jdt = null heisst: kein Blatt trifft das Thema, der Artikel bleibt ohne Video. Den Video-Baustein baut KELLE (JdtVideo), er liest jdt.datum und jdt.satz von hier.",
+  "_stand": "2026-10-25",
+  "tuer": "https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch",
+  "artikel": {
+    "schieber_hub": {
+      "pfad": "/schieber/",
+      "jdt": {
+        "datum": "2026-10-12",
+        "satz": "Im Schieber spielen zwei Partner zusammen. Dieses Blatt zeigt, wie man mit Trumpf herausfindet, was der Partner verwirft, und daraus den Matsch macht."
+      }
+    },
+    "expressions_weis": {
+      "pfad": "/weis-regeln/weispunkte/",
+      "jdt": null
+    },
+    "expressions_kartenfarben": {
+      "pfad": "/grundlagen-kultur/jasskarten/",
+      "jdt": {
+        "datum": "2026-10-18",
+        "satz": "Im ersten Stich spielt der Partner den Schellen-Puur aus, darauf kommt das Schellen-Ass. Der Puur sticht als höchste Karte. So bringt das Ass 11 Punkte in den eigenen Stich."
+      }
+    },
+    "general_most_important_rules": {
+      "pfad": "/regeln/regelgrundlagen/",
+      "jdt": {
+        "datum": "2026-10-11",
+        "satz": "Im dritten Stich sticht der Rosen-König das Schellen-Ass ab, obwohl noch drei Schellen auf der Hand sind. Das ist erlaubt: Mit Trumpf darf man jederzeit abstechen."
+      }
+    },
+    "variants_family_coiffeur_schieber": {
+      "pfad": "/varianten/coiffeur/",
+      "jdt": {
+        "datum": "2026-10-21",
+        "satz": "Im Coiffeur spielt jedes Team jede Ansage genau einmal. Darum zählt die Wahl. Dieses Blatt übt sie: Mit Schellen als Trumpf liegen 129 Punkte drin."
+      }
+    }
+  }
+}
