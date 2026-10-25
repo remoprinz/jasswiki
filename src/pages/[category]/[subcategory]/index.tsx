@@ -17,6 +17,7 @@ import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
+import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 
 
@@ -342,6 +343,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               </section>
             )}
 
+            <LeitartikelVideo schluessel={contentItem.id} />
             <JassfreundeSatz schluessel={contentItem.id} />
 
             {/* ÜBEN: Aufgaben im Jass des Tages zu diesem Thema */}

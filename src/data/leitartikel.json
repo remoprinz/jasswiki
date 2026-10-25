@@ -7,7 +7,12 @@
       "pfad": "/schieber/",
       "jdt": {
         "datum": "2026-10-12",
-        "satz": "Im Schieber spielen zwei Partner zusammen. Dieses Blatt zeigt, wie man mit Trumpf herausfindet, was der Partner verwirft, und daraus den Matsch macht."
+        "satz": "Im Schieber spielen zwei Partner zusammen. Dieses Blatt zeigt, wie man mit Trumpf herausfindet, was der Partner verwirft, und daraus den Matsch macht.",
+        "aufgabe": "Erziele einen lockeren Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-12_1.mp4?alt=media&token=e38a1481-2f7d-491d-95dd-2f4e3b010077",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-12_1.jpg?alt=media&token=eb9338a9-5d59-4e53-ab3c-3e05063d8a6e",
+        "dauer": "PT59S",
+        "youtube": "https://www.youtube.com/shorts/KxtVNuS1wRU"
       }
     },
     "expressions_weis": {
@@ -18,21 +23,36 @@
       "pfad": "/grundlagen-kultur/jasskarten/",
       "jdt": {
         "datum": "2026-10-18",
-        "satz": "Im ersten Stich spielt der Partner den Schellen-Puur aus, darauf kommt das Schellen-Ass. Der Puur sticht als höchste Karte. So bringt das Ass 11 Punkte in den eigenen Stich."
+        "satz": "Im ersten Stich spielt der Partner den Schellen-Puur aus, darauf kommt das Schellen-Ass. Der Puur sticht als höchste Karte. So bringt das Ass 11 Punkte in den eigenen Stich.",
+        "aufgabe": "Jasse einen sauberen Schellen-Trumpf",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-18_1.mp4?alt=media&token=d8b0e9dc-7672-40b2-b887-a78dd4ed8b6d",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-18_1.jpg?alt=media&token=b10a5bcd-4232-4e51-b4ce-9eb470d0e962",
+        "dauer": "PT54S",
+        "youtube": "https://www.youtube.com/shorts/6_rsqPoYllQ"
       }
     },
     "general_most_important_rules": {
       "pfad": "/regeln/regelgrundlagen/",
       "jdt": {
         "datum": "2026-10-11",
-        "satz": "Im dritten Stich sticht der Rosen-König das Schellen-Ass ab, obwohl noch drei Schellen auf der Hand sind. Das ist erlaubt: Mit Trumpf darf man jederzeit abstechen."
+        "satz": "Im dritten Stich sticht der Rosen-König das Schellen-Ass ab, obwohl noch drei Schellen auf der Hand sind. Das ist erlaubt: Mit Trumpf darf man jederzeit abstechen.",
+        "aufgabe": "108 Punkte sind gefragt.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-11_1.mp4?alt=media&token=c45b7063-370a-42a7-8a3c-ae1c99c4d803",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-11_1.jpg?alt=media&token=255cb7db-f023-409e-9e37-7841bb5feaa7",
+        "dauer": "PT59S",
+        "youtube": "https://www.youtube.com/shorts/dl9OjNow0QY"
       }
     },
     "variants_family_coiffeur_schieber": {
       "pfad": "/varianten/coiffeur/",
       "jdt": {
         "datum": "2026-10-21",
-        "satz": "Im Coiffeur spielt jedes Team jede Ansage genau einmal. Darum zählt die Wahl. Dieses Blatt übt sie: Mit Schellen als Trumpf liegen 129 Punkte drin."
+        "satz": "Im Coiffeur spielt jedes Team jede Ansage genau einmal. Darum zählt die Wahl. Dieses Blatt übt sie: Mit Schellen als Trumpf liegen 129 Punkte drin.",
+        "aufgabe": "Dieses Blatt gibt 129 Punkte.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-21_1.mp4?alt=media&token=365639ea-0f54-4cc3-a32d-501f923c07db",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-21_1.jpg?alt=media&token=b1bb050d-c601-4de6-9cae-70009d97f0c8",
+        "dauer": "PT59S",
+        "youtube": "https://www.youtube.com/shorts/QRky5q7fH2w"
       }
     }
   }

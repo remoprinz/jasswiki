@@ -16,6 +16,7 @@ import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { getVariantMetadata } from '@/data/variant-wikidata-mapping';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
+import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 
 
 interface VariantenPageProps {
@@ -173,6 +174,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
             </div>
           </article>
 
+          <LeitartikelVideo schluessel={contentItem.id} />
           <JassfreundeSatz schluessel={contentItem.id} />
 
           {/* FAQ-Sektion - sichtbar für User und Crawler */}

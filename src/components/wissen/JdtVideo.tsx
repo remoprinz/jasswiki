@@ -43,14 +43,14 @@ function aufgabeKurz(s: string): string {
   return s.trim().replace(/[.\s]+$/, '');
 }
 
-export function videoObjekt(d: JdtVideoDaten) {
+export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz) {
   const kennung = youtubeKennung(d.youtube);
   return {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
     '@id': `https://jassguru.ch/jass-des-tages/${d.datum}/#video`,
     name: `Jass des Tages vom ${datumLang(d.datum)}: ${aufgabeKurz(d.aufgabe || d.titel || '')}`,
-    description: JDT_TEXTE.videoSatz,
+    description: satz,
     ...(d.poster ? { thumbnailUrl: d.poster } : {}),
     contentUrl: d.mp4,
     ...(kennung ? { embedUrl: `https://www.youtube.com/embed/${kennung}` } : {}),
@@ -63,7 +63,11 @@ export function videoObjekt(d: JdtVideoDaten) {
   };
 }
 
-export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean }> = ({ daten, mitTuer = true }) => {
+export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?: string }> = ({
+  daten,
+  mitTuer = true,
+  satz = JDT_TEXTE.videoSatz,
+}) => {
   const [laeuft, setLaeuft] = useState(false);
   const kennung = youtubeKennung(daten.youtube);
   const beschriftung = JDT_TEXTE.videoBeschriftung
@@ -120,7 +124,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean }> = (
       <figcaption className="mx-auto mt-[12px] max-w-[480px] text-center">
         <span className="block font-capita text-[17px] font-bold leading-[1.35] text-black">{beschriftung}</span>
         <span className="mt-[4px] block font-inter text-[15px] leading-[1.6] text-black">
-          {JDT_TEXTE.videoSatz}
+          {satz}
         </span>
         {mitTuer && (
           <a href={JDT_LINKS.tuer} className="mt-[6px] inline-block font-inter text-[15px] font-bold text-[#ff0000] underline">
@@ -130,7 +134,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean }> = (
       </figcaption>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjekt(daten)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjekt(daten, satz)) }}
       />
     </figure>
   );

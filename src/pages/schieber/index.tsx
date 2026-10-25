@@ -8,6 +8,7 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
+import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 
 export const SCHIEBER_GROUPS = [
   { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => i.metadata.category.main === 'Regeln' },
@@ -108,6 +109,7 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
             ))}
           </div>
 
+          <LeitartikelVideo schluessel="schieber_hub" />
           <JassfreundeSatz schluessel="schieber_hub" />
 
           {/* Zurück */}
