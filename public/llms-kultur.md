@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 25
-last_updated: 2026-10-06
+last_updated: 2026-10-25
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -21,7 +21,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 ## Inhaltsverzeichnis
 
 - [Das älteste Jassreglement der Schweiz](#history_ramstein_reglement)
-- [jassguru.ch](#jassapps_jassguru)
+- [JassGuru](#jassapps_jassguru)
 - [Jasskarten](#expressions_kartenfarben)
 - [Etymologie des Begriffs Matsch](#history_etymology_matsch)
 - [Die erste urkundliche Erwähnung](#history_first_mention)
@@ -99,39 +99,53 @@ Das Ramstein-Reglement ist der Anfang der geschriebenen Jassregeln in der Schwei
 
 ---
 
-### jassguru.ch {#jassapps_jassguru}
+### JassGuru {#jassapps_jassguru}
 
-**Kategorie:** Jassapps > Tisch-Jass
+**Kategorie:** Jassapps > Online-Jass
 
-App-Überblick:
-[Jassguru.ch](https://jassguru.ch) ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
+JassGuru ist die Jass-App des Jassverbands Schweiz, im Browser und als App. Sie vereint zwei Teile: die Arena zum [Online-Jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch) und die digitale Jasstafel für den Jass am echten Tisch. Gespielt wird [Schieber](/schieber/).
 
-Kernfunktionen:
-• **Digitale Jasstafel:** Punktezählung mit einfachem Antippen auf die Z-Linie zum Erfassen von Weisen
-• **Automatische Berechnung:** Der Kalkulator berechnet automatisch Resultate für beide Teams inklusive Restpunkte zu Berg und Sieg
-• **Profil:** Trumpfansagen, Rekorde und Serien eines Jassers zählen über alle seine Gruppen zusammen
-• **Statistiken:** Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch -Bilanzen
+## Online jassen in der Arena
 
-Spielverwaltung:
-• **Archiv:** Jede gespielte Partie bleibt gespeichert und zählt für die Rangliste
-• **Turniere:** Turnierverwaltung mit Live-Ranglisten und detaillierten Ergebnissen bis auf Ebene jeder einzelnen Passe
-• **Runden:** Jede Runde bleibt einzeln nachlesbar
-• **Blättern:** Vor und zurück durch die Runden, um eine falsche Eingabe zu verbessern
+Am Tisch sitzen vier. Jeden freien Platz besetzt die Jass-KI.
 
-Einstellungen:
-Individuelle Anpassung von Karten, Farben und Multiplikatoren.
+- **Solo:** Die KI besetzt die drei anderen Plätze.
+- **Duo:** mit einem Partner, eingeladen per Link. Die KI stellt die Gegner.
+- **Zu viert:** der volle Tisch mit den eigenen Leuten, alle kommen über denselben Link.
+- **Offene Tische:** Die Lobby zeigt, wo gerade gejasst wird. Man schaut zu, klopft an oder übernimmt einen Platz von der KI.
+- **Stammtisch:** Hier läuft immer eine Partie. Platz nimmt, wer ein Profil und einen Sieg in der Arena hat.
 
-Verfügbarkeit:
-Jassguru.ch ist als Progressive Web App (PWA) verfügbar und funktioniert auf allen Geräten.
+Angesagt werden die vier Farben als [Trumpf](/ansagen/trumpffarbe/), [Obenabe](/ansagen/obenabe/) und [Undenufe](/ansagen/undenufe/), auf Wunsch dazu [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/). Die Abmachung bestimmt der Tisch selbst. Vier Vorlagen stehen bereit, mit «Eigene» stellt man Faktoren und Punktziel frei ein.
+
+## Jassfreunde, Liga und Rekorde
+
+Mit einem Profil zählt jede Partie. Wen man nach einer Partie wieder am Tisch haben will, fragt man als Jassfreund an. Wer zusagt, lässt sich danach mit einem Tipp an den eigenen Tisch rufen.
+
+In der Liga steigt man Woche für Woche auf oder ab. Gezählt wird nach [Strichen](/begriffe/punktebegriffe/strich/). Die Rekordtafel zeigt die besten Werte der Woche und aller Zeiten.
+
+## Jass des Tages
+
+Jeden Tag liegt ein neues Blatt auf: dieselben neun Karten und dasselbe Ziel für alle, ein Versuch pro Tag. Um 19 Uhr erscheint die Lösung mit Video. Das heutige Blatt steht unter [Jass des Tages](https://jassguru.ch/jass-des-tages/), alle Blätter seit dem 14. August 2026 im [Archiv](https://jassguru.ch/jass-des-tages/archiv/).
+
+## Die Jasstafel für den echten Tisch
+
+Am echten Tisch schreibt man auf der Jasstafel von JassGuru. Punkte und Weis kommen mit einem Antippen auf die Z-Linie. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu [Berg](/regeln/bergpreis/) und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.
+
+Daraus entstehen Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch-Bilanzen sowie das [Jass-Elo](/grundlagen-kultur/jass-elo/). Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
+
+## Herausgeber und Forschung
+
+JassGuru wird vom [Jassverband Schweiz](https://jassverband.ch) betrieben, der auch das JassWiki herausgibt. Die Jass-KI entwickelt der Verband zusammen mit der Fachhochschule Nordwestschweiz (FHNW) weiter. Den Stand der Forschung legt er im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
 
 **Häufige Fragen:**
-- **Was ist jassguru.ch?** Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
-- **Was ist Jassguru.ch?** Jassguru.ch ist eine digitale Jasstafel als Progressive Web App (PWA) zur Punktezählung beim Jassen.
-- **Rechnet Jassguru automatisch?** Ja, der integrierte Kalkulator berechnet automatisch die Resultate für beide Teams, inklusive Restpunkte zu Berg und Sieg.
-- **Welche Statistiken bietet Jassguru?** Jassguru bietet umfassende Statistiken wie Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten, Matsch-Bilanzen sowie detaillierte Profil-Auswertungen gruppenübergreifend.
-- **Kann ich Turniere mit Jassguru organisieren?** Ja, Jassguru hat einen eigenen Turniermodus mit Live-Ranglisten und detaillierten Ergebnissen bis auf die Ebene jeder einzelnen Passe.
+- **Was ist JassGuru?** JassGuru ist die Jass-App des Jassverbands Schweiz. Sie vereint die Arena zum Online-Jassen und die digitale Jasstafel für den echten Tisch.
+- **Kann man mit JassGuru online jassen?** Ja. In der Arena spielt man Schieber solo gegen die KI, im Duo mit einem Partner, zu viert mit den eigenen Leuten oder an offenen Tischen in der Lobby.
+- **Wer steht hinter JassGuru?** Der Jassverband Schweiz betreibt JassGuru und gibt auch das JassWiki heraus. Die Jass-KI entwickelt er zusammen mit der Fachhochschule Nordwestschweiz (FHNW).
+- **Was ist der Jass des Tages?** Ein Blatt pro Tag: dieselben neun Karten und dasselbe Ziel für alle. Um 19 Uhr erscheint die Lösung mit Video.
+- **Rechnet die Jasstafel von JassGuru automatisch?** Ja. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu Berg und Sieg.
+- **Kann man mit JassGuru Turniere durchführen?** Ja. Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
 
-*Keywords: jassguru, web-app, pwa, punktezählung, schieber*
+*Keywords: jassguru, online jassen, online-jass, schieber, jass-ki*
 
 ---
 
@@ -430,7 +444,7 @@ Jassen am Bildschirm:
 Für das Jassen am Bildschirm gibt es drei Arten von Angeboten.
 
 Hauptkategorien:
-• **Spiel-Apps:** Apps zum aktiven Spielen wie Jassch, Jassguru, JassPro und Swissjass 
+• **Spiel-Apps:** Apps zum aktiven Spielen wie JassGuru, Jass.ch, JassPro und SwissJass
 • **Notier-Apps:** Digitale Punktetafeln wie Jasstafel und Jasstafel Pro
 • **Online-Plattformen:** Browser-basierte Angebote wie Jass24
 
@@ -983,5 +997,5 @@ So hört man am Jasstisch, aus welcher Ecke der Schweiz einer kommt.
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
+*Quelle: https://jasswiki.ch | Herausgeber: Jassverband Schweiz | Das Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz gelistet.*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

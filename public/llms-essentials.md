@@ -4,7 +4,7 @@ description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 7
-last_updated: 2026-10-06
+last_updated: 2026-10-25
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -144,8 +144,8 @@ Grundregeln:
 Diese Regeln gelten in fast allen Jassarten.
 
 Kernregeln:
-• **Farbe bedienen (farben):** Man muss die ausgespielte Farbe spielen, wenn man sie hat.
-• **Übertrumpfen:** Liegt schon ein Trumpf im Stich, muss man höher trumpfen. Die Ausnahme sind Hindersi-Varianten, vgl. Untertrumpfen.
+• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
 • **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
 
 Ausnahmen:
@@ -155,9 +155,9 @@ Wenn jemand gegen eine Regel verstösst:
 Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
 
 **Häufige Fragen:**
-- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: die ausgespielte Farbe bedienen, höher trumpfen, und wer den Stich macht, spielt aus.
-- **Muss man beim Jassen die Farbe bedienen?** Ja. Man muss die ausgespielte Farbe bedienen, sofern man sie auf der Hand hat.
-- **Darf man beim Jassen untertrumpfen?** Bei normalen Spielen nein, man muss höher trumpfen. Die Ausnahme sind Hindersi-Varianten, dort ist Untertrumpfen erlaubt.
+- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
+- **Muss man beim Jassen die Farbe angeben?** Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.
+- **Darf man beim Jassen untertrumpfen?** In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann.
 
 *Keywords: abheben, ablupfen, mischen, ansagen, grundregeln*
 
@@ -382,5 +382,5 @@ Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Ein
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
+*Quelle: https://jasswiki.ch | Herausgeber: Jassverband Schweiz | Das Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz gelistet.*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

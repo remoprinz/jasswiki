@@ -129,7 +129,10 @@ const getNavigationStructure = (content: JassContentRecord) => {
           return a.name.localeCompare(b.name);
         });
       } else {
-        subcat.topics.sort((a, b) => a.name.localeCompare(b.name));
+        // JassGuru, das Angebot des Herausgebers, steht wie in der Übersicht zuerst
+        // (SUB_ZUERST in [category]/[subcategory]/index.tsx, SCHIRI 25.10.2026).
+        const zuerst = (name: string) => (name === 'JassGuru' ? 0 : 1);
+        subcat.topics.sort((a, b) => zuerst(a.name) - zuerst(b.name) || a.name.localeCompare(b.name));
       }
     });
   });

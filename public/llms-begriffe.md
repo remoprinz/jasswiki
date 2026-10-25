@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 70
-last_updated: 2026-10-06
+last_updated: 2026-10-25
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1549,5 +1549,5 @@ Eine Wand bezeichnet beim Jassen mehrere Karten derselben Farbe auf einer Hand. 
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
+*Quelle: https://jasswiki.ch | Herausgeber: Jassverband Schweiz | Das Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz gelistet.*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*

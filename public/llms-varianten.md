@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 52
-last_updated: 2026-10-06
+last_updated: 2026-10-25
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -2926,5 +2926,5 @@ Bewertung:
 ---
 
 *Dieses Modul wurde automatisch generiert. Für Korrekturen: redaktion@jasswiki.ch*
-*Quelle: https://jasswiki.ch | Anerkannt durch das Bundesamt für Kultur (BAK) als «Lebendige Tradition der Schweiz»*
+*Quelle: https://jasswiki.ch | Herausgeber: Jassverband Schweiz | Das Jassen ist vom Bundesamt für Kultur (BAK) als lebendige Tradition der Schweiz gelistet.*
 *Zitiert in Wikipedia: de.wikipedia.org/wiki/Jass (Einzelnachweis)*
