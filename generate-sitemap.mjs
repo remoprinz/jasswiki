@@ -96,6 +96,13 @@ async function generateSitemap() {
         lastmod: lastModDate,
         changefreq: 'monthly',
         priority: '0.7'
+      },
+      // Der Jass des Tages (GEO/SEO P3): das Blatt von gestern wechselt täglich.
+      {
+        loc: `${BASE_URL}/jass-des-tages/`,
+        lastmod: new Date().toISOString().split('T')[0],
+        changefreq: 'daily',
+        priority: '0.8'
       }
     ];
 

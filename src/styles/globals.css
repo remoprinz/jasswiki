@@ -1512,3 +1512,12 @@ body:not(.lexikon-page) [contenteditable="true"] {
 .scale-100 {
   transform: scale(1);
 } 
+/* JASS DES TAGES, die Hand von gestern (KELLE 25.10.2026): neun Karten
+   überlappend wie am Tisch. Breite je Karte = Reihe / 5,8, Überlappung 40 %;
+   die Reihe misst höchstens 487 px, also jede Karte höchstens 84 px. */
+.jdt-hand { list-style: none; padding: 0; }
+.jdt-hand .jdt-karte { width: calc(100% / 5.8); flex: 0 0 auto; }
+.jdt-hand .jdt-karte + .jdt-karte { margin-left: calc(-0.4 * 100% / 5.8); }
+.content-formatting ul.jdt-hand { margin-left: auto; margin-right: auto; padding: 0; }
+.content-formatting ul.jdt-hand li { padding: 0; margin-bottom: 0; }
+.content-formatting ul.jdt-hand li::before { content: none; display: none; }

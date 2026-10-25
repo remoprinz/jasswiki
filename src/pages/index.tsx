@@ -232,6 +232,9 @@ const WissenHomePage = () => {
                     <Link href="/schieber/grundlagen/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Schieber lernen
                     </Link>
+                    <Link href="/jass-des-tages/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
+                        Jass des Tages
+                    </Link>
                     <Link href="/weis-regeln/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
                         Weis-Regeln
                     </Link>

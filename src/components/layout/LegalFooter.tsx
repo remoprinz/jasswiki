@@ -9,7 +9,8 @@ const JassenLinks = ({ className }: { className: string }) => (
       jassguru.ch
     </a>
     {' · '}
-    <a href="https://jassguru.ch/jass-des-tages/" className="underline">
+    {/* Seit P3 (25.10.2026) die eigene Seite mit dem Blatt von gestern; sie führt weiter zu jassguru. */}
+    <a href="/jass-des-tages/" className="underline">
       Jass des Tages
     </a>
   </p>
