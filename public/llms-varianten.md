@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 52
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1522,7 +1522,7 @@ Zum Rechnen: Im Stock liegen im Mittel rund 50 der 152 Kartenpunkte, und wer bie
 **Kategorie:** Ansagen > Spielrichtung
 
 Definition:
-Quer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil wird nach Obenabe-Regeln gespielt, der andere nach Undenufe-Regeln. Quer wird auch Zwischendurch genannt.
+Quer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil wird nach Obenabe-Regeln gespielt, der andere nach Undenufe-Regeln. Quer wird auch Zwischendurch genannt. Am Tisch heisst Quer in Teilen der Schweiz auch Gusti oder, nach den vier und fünf Stichen der beiden Teile, 5/4 beziehungsweise 4/5.
 
 Beim klassischen Quer wählt der Ansager frei, ob er mit Obenabe oder Undenufe beginnt und ob der erste Teil vier oder fünf Stiche umfasst. Gezählt wird nach jener Spielart, mit der begonnen wird.
 
@@ -1539,8 +1539,9 @@ Bei der Mary werden zuerst vier Stiche nach Undenufe und dann die fünf letzten 
 - **Was ist Guschti beim Jassen?** Guschti ist eine Variante von Quer: Es werden zuerst vier Stiche nach Obenabe und dann die fünf letzten Stiche nach Undenufe gespielt. Die Punkte werden wie beim Obenabe gezählt.
 - **Was ist Mary beim Jassen?** Mary ist eine Variante von Quer: Es werden zuerst vier Stiche nach Undenufe und dann die fünf letzten Stiche nach Obenabe gespielt. Die Punkte werden wie beim Undenufe gezählt.
 - **Was ist der Unterschied zwischen Guschti und Mary?** Beim Guschti werden zuerst vier Stiche nach Obenabe und dann fünf nach Undenufe gespielt, die Punkte zählen wie beim Obenabe. Bei der Mary zuerst vier Stiche nach Undenufe und dann fünf nach Obenabe, die Punkte zählen wie beim Undenufe.
+- **Wie heisst Quer sonst noch?** Quer heisst auch Zwischendurch. In Teilen der Schweiz sagt man Gusti oder 5/4 beziehungsweise 4/5, nach den vier und fünf Stichen der beiden Teile.
 
-*Keywords: guschti, zwischendurch, quer*
+*Keywords: guschti, zwischendurch, quer, gusti, 5/4*
 
 ---
 
@@ -1572,7 +1573,7 @@ Beim Slalom ist das Verwerfen schwieriger als sonst. Wie sonst auch wirft man zu
 **Kategorie:** Ansagen > Spielrichtung
 
 Definition:
-Trio (oder 3×3) ist eine Ansage-Variante, bei der drei Stiche mit Trumpf, drei Stiche nach Undenufe-Regeln und drei Stiche nach Obenabe-Regeln gespielt werden. Die Reihenfolge ist frei wählbar.
+Trio (oder 3×3) ist eine Ansage-Variante, bei der drei Stiche mit Trumpf, drei Stiche nach Undenufe-Regeln und drei Stiche nach Obenabe-Regeln gespielt werden. Die Reihenfolge ist frei wählbar. Im Jassführer [«STÖCK WYS STICH»](/referenzen/) von Dani Müller steht Trio als Option beim erweiterten Schieber.
 
 Zählweise:
 Gezählt wird in jedem Fall wie beim angesagten Trumpf: Der Puur zählt 20, das Nell 14 und die Asse je 11 Punkte.
@@ -1584,8 +1585,9 @@ Weil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden
 - **Was ist Trio (3×3) beim Jassen?** Trio ist eine Ansage, bei der je drei Stiche mit Trumpf, nach Undenufe-Regeln und nach Obenabe-Regeln gespielt werden. Die Reihenfolge ist frei wählbar.
 - **Wie zählen die Karten beim Trio?** In jedem Fall wie beim Trumpf: Der Puur zählt 20, das Nell 14 und die Asse je 11 Punkte.
 - **Gibt es eine schwierigere Trio-Variante?** Ja. Dort müssen die drei Trumpfstiche in der Mitte liegen (Stich 4 bis 6), und man bestimmt nur, ob Obenabe oder Undenufe zuerst oder zuletzt kommt.
+- **Ist 3×3 dasselbe wie Trio?** Ja. 3×3 und Trio meinen dieselbe Ansage. Dani Müllers Jassführer «STÖCK WYS STICH» nennt sie Trio, als Option beim erweiterten Schieber.
 
-*Keywords: trio, 3×3*
+*Keywords: trio, 3×3, 3x3*
 
 ---
 
