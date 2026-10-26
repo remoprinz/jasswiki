@@ -1292,7 +1292,7 @@
   },
   "expressions_guschti": {
     "id": "expressions_guschti",
-    "text": "Definition:\nQuer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil wird nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, der andere nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln. Quer wird auch Zwischendurch genannt.\n\nBeim klassischen Quer wählt der Ansager frei, ob er mit Obenabe oder Undenufe beginnt und ob der erste Teil vier oder fünf Stiche umfasst. Gezählt wird nach jener Spielart, mit der begonnen wird.\n\nZwei feste Formen tragen eigene Namen:\n\n## Guschti\nBeim Guschti werden zuerst vier Stiche nach Obenabe und dann die fünf letzten Stiche nach Undenufe gespielt. Die Punkte werden wie beim Obenabe gezählt.\n\n## Mary\nBei der Mary werden zuerst vier Stiche nach Undenufe und dann die fünf letzten Stiche nach Obenabe gespielt. Die Punkte werden wie beim Undenufe gezählt.",
+    "text": "Definition:\nQuer ist eine Spielart ohne feste Trumpffarbe, bei der die neun Stiche geteilt werden: ein Teil wird nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt, der andere nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln. Quer wird auch Zwischendurch genannt. Am Tisch heisst Quer in Teilen der Schweiz auch Gusti oder, nach den vier und fünf Stichen der beiden Teile, 5/4 beziehungsweise 4/5.\n\nBeim klassischen Quer wählt der Ansager frei, ob er mit Obenabe oder Undenufe beginnt und ob der erste Teil vier oder fünf Stiche umfasst. Gezählt wird nach jener Spielart, mit der begonnen wird.\n\nZwei feste Formen tragen eigene Namen:\n\n## Guschti\nBeim Guschti werden zuerst vier Stiche nach Obenabe und dann die fünf letzten Stiche nach Undenufe gespielt. Die Punkte werden wie beim Obenabe gezählt.\n\n## Mary\nBei der Mary werden zuerst vier Stiche nach Undenufe und dann die fünf letzten Stiche nach Obenabe gespielt. Die Punkte werden wie beim Undenufe gezählt.",
     "metadata": {
       "id": "expressions_guschti_meta",
       "category": {
@@ -1303,7 +1303,10 @@
       "keywords": [
         "guschti",
         "zwischendurch",
-        "quer"
+        "quer",
+        "gusti",
+        "5/4",
+        "4/5"
       ],
       "situations": [
         "LEARNING"
@@ -1312,7 +1315,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-18",
+      "dateModified": "2026-10-26",
       "seoTitle": "Quer (Guschti) beim Jassen: Regeln der Ansage | Jass-Wiki",
       "seoDescription": "Quer, auch Guschti: ohne Trumpf, ein Teil der Stiche obenabe, der andere undenufe. Wie die Ansage läuft, wo gewechselt wird, was zählt."
     },
@@ -1332,6 +1335,10 @@
       {
         "question": "Was ist der Unterschied zwischen Guschti und Mary?",
         "answer": "Beim Guschti werden zuerst vier Stiche nach Obenabe und dann fünf nach Undenufe gespielt, die Punkte zählen wie beim Obenabe. Bei der Mary zuerst vier Stiche nach Undenufe und dann fünf nach Obenabe, die Punkte zählen wie beim Undenufe."
+      },
+      {
+        "question": "Wie heisst Quer sonst noch?",
+        "answer": "Quer heisst auch Zwischendurch. In Teilen der Schweiz sagt man Gusti oder 5/4 beziehungsweise 4/5, nach den vier und fünf Stichen der beiden Teile."
       }
     ],
     "see_also": [
@@ -3180,7 +3187,7 @@
   },
   "expressions_trio": {
     "id": "expressions_trio",
-    "text": "Definition:\nTrio (oder 3×3) ist eine Ansage-Variante, bei der drei Stiche mit Trumpf (siehe Begriff \"bodentrumpf\"), drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden. Die Reihenfolge ist frei wählbar.\n\nZählweise:\nGezählt wird in jedem Fall wie beim angesagten Trumpf: Der Puur (siehe Begriff \"trumpf_bauer\") zählt 20, das Nell (siehe Begriff \"expressions_nell\") 14 und die Asse je 11 Punkte.\n\nSpezialvariante:\nWeil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden kann, gibt es eine schwierigere Form: Dabei müssen die drei Trumpfstiche in der Mitte liegen (also Stich 4 bis 6), und man kann nur bestimmen, ob Obenabe oder Undenufe zuerst oder zuletzt gespielt wird. Das macht Trio schwieriger.",
+    "text": "Definition:\nTrio (oder 3×3) ist eine Ansage-Variante, bei der drei Stiche mit Trumpf (siehe Begriff \"bodentrumpf\"), drei Stiche nach Undenufe (siehe Begriff \"expressions_undenufe\")-Regeln und drei Stiche nach Obenabe (siehe Begriff \"expressions_obenabe\")-Regeln gespielt werden. Die Reihenfolge ist frei wählbar. Im Jassführer [«STÖCK WYS STICH»](/referenzen/) von Dani Müller steht Trio als Option beim erweiterten Schieber.\n\nZählweise:\nGezählt wird in jedem Fall wie beim angesagten Trumpf: Der Puur (siehe Begriff \"trumpf_bauer\") zählt 20, das Nell (siehe Begriff \"expressions_nell\") 14 und die Asse je 11 Punkte.\n\nSpezialvariante:\nWeil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden kann, gibt es eine schwierigere Form: Dabei müssen die drei Trumpfstiche in der Mitte liegen (also Stich 4 bis 6), und man kann nur bestimmen, ob Obenabe oder Undenufe zuerst oder zuletzt gespielt wird. Das macht Trio schwieriger.",
     "metadata": {
       "id": "expressions_trio_meta",
       "category": {
@@ -3190,7 +3197,8 @@
       },
       "keywords": [
         "trio",
-        "3×3"
+        "3×3",
+        "3x3"
       ],
       "situations": [
         "LEARNING"
@@ -3199,7 +3207,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-10-26"
     },
     "faqs": [
       {
@@ -3213,6 +3221,10 @@
       {
         "question": "Gibt es eine schwierigere Trio-Variante?",
         "answer": "Ja. Dort müssen die drei Trumpfstiche in der Mitte liegen (Stich 4 bis 6), und man bestimmt nur, ob Obenabe oder Undenufe zuerst oder zuletzt kommt."
+      },
+      {
+        "question": "Ist 3×3 dasselbe wie Trio?",
+        "answer": "Ja. 3×3 und Trio meinen dieselbe Ansage. Dani Müllers Jassführer «STÖCK WYS STICH» nennt sie Trio, als Option beim erweiterten Schieber."
       }
     ],
     "see_also": [
