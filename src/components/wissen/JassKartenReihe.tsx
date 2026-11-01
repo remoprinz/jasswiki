@@ -176,81 +176,83 @@ export const JassKartenReihe: React.FC<Props> = ({
       id={anker}
       aria-labelledby={anker ? `${anker}-marke` : undefined}
     >
-      <div className="jw-karten-kopf">
-        <span className="jw-karten-marke" id={anker ? `${anker}-marke` : undefined}>
-          {aufschrift?.trim() || 'Jasskarten'}
-        </span>
-        {mitWahl && (
-          <div className="jw-karten-wahl" role="group" aria-label="Kartensystem wählen">
-            <button
-              type="button"
-              onClick={() => kartensystemSetzen('de')}
-              aria-pressed={system === 'de'}
-              className="jw-karten-wahl-knopf"
-            >
-              Deutsch
-            </button>
-            <button
-              type="button"
-              onClick={() => kartensystemSetzen('fr')}
-              aria-pressed={system === 'fr'}
-              className="jw-karten-wahl-knopf"
-            >
-              Französisch
-            </button>
-          </div>
-        )}
-      </div>
-
-      <div className="jw-karten-fenster">
-        <div
-          ref={bandRef}
-          className={
-            karten.length >= VOLLES_BLATT_AB
-              ? 'jw-karten-band jw-karten-band--voll'
-              : 'jw-karten-band'
-          }
-          data-karten={karten.length}
-          data-roll={roll}
-        >
-          {karten.map(({ karte, hervor: trittHervor }, i) => (
-            <button
-              key={`${karte.slug}-${i}`}
-              type="button"
-              onClick={() => setGross(karte)}
-              aria-label={
-                trittHervor
-                  ? `${karte.name}, hervorgehoben, vergrössern`
-                  : `${karte.name} vergrössern`
-              }
-              className={trittHervor ? 'jw-karte jw-karte--hervor' : 'jw-karte'}
-            >
-              <img
-                src={karte.image}
-                alt={karte.alt}
-                title={karte.name}
-                width={120}
-                height={180}
-                loading="lazy"
-                className="jw-karte-bild"
-              />
-              <span className="jw-karte-name">{karte.name}</span>
-            </button>
-          ))}
-        </div>
-        {(roll === 'rechts' || roll === 'beide') && (
-          <span className="jw-karten-weiter" aria-hidden>
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden>
-              <path
-                d="M9 5l7 7-7 7"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+      <div className="jw-karten-filz">
+        <div className="jw-karten-kopf">
+          <span className="jw-karten-marke" id={anker ? `${anker}-marke` : undefined}>
+            {aufschrift?.trim() || 'Jasskarten'}
           </span>
-        )}
+          {mitWahl && (
+            <div className="jw-karten-wahl" role="group" aria-label="Kartensystem wählen">
+              <button
+                type="button"
+                onClick={() => kartensystemSetzen('de')}
+                aria-pressed={system === 'de'}
+                className="jw-karten-wahl-knopf"
+              >
+                Deutsch
+              </button>
+              <button
+                type="button"
+                onClick={() => kartensystemSetzen('fr')}
+                aria-pressed={system === 'fr'}
+                className="jw-karten-wahl-knopf"
+              >
+                Französisch
+              </button>
+            </div>
+          )}
+        </div>
+
+        <div className="jw-karten-fenster">
+          <div
+            ref={bandRef}
+            className={
+              karten.length >= VOLLES_BLATT_AB
+                ? 'jw-karten-band jw-karten-band--voll'
+                : 'jw-karten-band'
+            }
+            data-karten={karten.length}
+            data-roll={roll}
+          >
+            {karten.map(({ karte, hervor: trittHervor }, i) => (
+              <button
+                key={`${karte.slug}-${i}`}
+                type="button"
+                onClick={() => setGross(karte)}
+                aria-label={
+                  trittHervor
+                    ? `${karte.name}, hervorgehoben, vergrössern`
+                    : `${karte.name} vergrössern`
+                }
+                className={trittHervor ? 'jw-karte jw-karte--hervor' : 'jw-karte'}
+              >
+                <img
+                  src={karte.image}
+                  alt={karte.alt}
+                  title={karte.name}
+                  width={120}
+                  height={180}
+                  loading="lazy"
+                  className="jw-karte-bild"
+                />
+                <span className="jw-karte-name">{karte.name}</span>
+              </button>
+            ))}
+          </div>
+          {(roll === 'rechts' || roll === 'beide') && (
+            <span className="jw-karten-weiter" aria-hidden>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden>
+                <path
+                  d="M9 5l7 7-7 7"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          )}
+        </div>
       </div>
 
       <figcaption className="jw-karten-fuss">

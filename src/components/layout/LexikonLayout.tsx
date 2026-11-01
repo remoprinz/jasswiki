@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { LexikonSidebar } from './LexikonSidebar';
 import { Breadcrumbs } from './Breadcrumbs';
 import { ShareButton } from './ShareButton';
@@ -18,10 +18,26 @@ interface LexikonLayoutProps {
   breadcrumbItems: BreadcrumbItem[]; 
 }
 
+/** Die zuletzt gezeigte Seite, über Seitenwechsel hinweg (das Layout baut sich
+ *  je Seitentyp neu auf). null = erste Seite: dort bleibt der Fokus, wo er ist. */
+let zuletztGesehen: string | null = null;
+
+/** Rollt eine Leiste so, dass die aktive Seite sichtbar ist, und nur die Leiste:
+ *  die Seite selbst bleibt stehen. */
+const leisteAufAktiv = (leiste: HTMLElement, aktiv: HTMLElement) => {
+  const l = leiste.getBoundingClientRect();
+  const a = aktiv.getBoundingClientRect();
+  if (a.top >= l.top && a.bottom <= l.bottom) return;
+  leiste.scrollTop += a.top - l.top - leiste.clientHeight / 3;
+};
+
 export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcrumbItems }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
   const mainPanelRef = useRef<HTMLDivElement | null>(null);
+  const desktopLeisteRef = useRef<HTMLDivElement | null>(null);
+  const schubladeRef = useRef<HTMLDivElement | null>(null);
+  const menuKnopfRef = useRef<HTMLButtonElement | null>(null);
   
   const [isPWA, setIsPWA] = useState(false);
   const [isWikiHomepage, setIsWikiHomepage] = useState(false);
@@ -92,6 +108,52 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
     };
   }, [router.asPath]);
 
+  // ── Schublade am Handy: Esc schliesst, Fokus auf die aktive Seite ──
+  const schubladeZu = useCallback(() => {
+    setSidebarOpen(false);
+    menuKnopfRef.current?.focus({ preventScroll: true });
+  }, []);
+
+  useEffect(() => {
+    if (!sidebarOpen) return;
+    const taste = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') schubladeZu();
+    };
+    window.addEventListener('keydown', taste);
+    const aktiv =
+      schubladeRef.current?.querySelector<HTMLElement>('[aria-current="page"]') ??
+      schubladeRef.current?.querySelector<HTMLElement>('a');
+    if (aktiv && schubladeRef.current) {
+      aktiv.focus({ preventScroll: true });
+      leisteAufAktiv(schubladeRef.current, aktiv);
+    }
+    return () => window.removeEventListener('keydown', taste);
+  }, [sidebarOpen, schubladeZu]);
+
+  // Ein Tipp auf eine Seite in der Schublade schliesst sie.
+  useEffect(() => {
+    const zu = () => setSidebarOpen(false);
+    router.events.on('routeChangeStart', zu);
+    return () => router.events.off('routeChangeStart', zu);
+  }, [router.events]);
+
+  // ── Nach einem Seitenwechsel: Fokus auf den Inhalt (ohne Rahmen), die
+  // Leiste rollt die aktive Seite ins Bild ──
+  const seite = router.asPath.split(/[?#]/)[0];
+  useEffect(() => {
+    const leiste = desktopLeisteRef.current;
+    const aktiv = leiste?.querySelector<HTMLElement>('[aria-current="page"]');
+    if (leiste && aktiv) leisteAufAktiv(leiste, aktiv);
+
+    if (zuletztGesehen === null) {
+      zuletztGesehen = seite;
+      return;
+    }
+    if (zuletztGesehen === seite) return;
+    zuletztGesehen = seite;
+    mainPanelRef.current?.focus({ preventScroll: true });
+  }, [seite]);
+
   const handleBackClick = () => {
     if (typeof window === 'undefined') return;
     if (router.pathname === '/') return;
@@ -126,7 +188,9 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           )}
           
           <button
+            ref={menuKnopfRef}
             onClick={() => setSidebarOpen(true)}
+            aria-expanded={sidebarOpen}
             className="p-2 rounded-xl bg-wiki-cream hover:bg-wiki-sand transition-colors"
             aria-label="Navigation öffnen"
           >
@@ -140,23 +204,28 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
         </div>
       </div>
 
-      {/* ── Mobile Sidebar Overlay ── */}
+      {/* ── Mobile Schublade mit Schleier (Jens 203): Esc oder ein Tipp
+           daneben schliesst sie, beim Öffnen steht der Fokus auf der aktiven
+           Seite. ── */}
       {sidebarOpen && (
-        <div className="lg:hidden fixed inset-0 z-[60] bg-black/60" onClick={() => setSidebarOpen(false)}>
-          <div 
-            className="fixed right-0 top-0 h-full w-80 max-w-[90vw] bg-black shadow-xl z-[61]" 
+        <div className="lg:hidden fixed inset-0 z-[60] bg-black/60" onClick={schubladeZu}>
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label="Themen"
+            className="fixed right-0 top-0 h-full w-80 max-w-[90vw] bg-[#0F1A10] shadow-xl z-[61] flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between p-4 border-b border-white/10">
-              <h2 className="text-lg font-capita font-bold text-white">Navigation</h2>
+            <div className="flex items-center justify-end px-3 pt-3 pb-1">
               <button
-                onClick={() => setSidebarOpen(false)}
-                className="p-2 rounded-xl hover:bg-white/10 transition-colors"
+                onClick={schubladeZu}
+                className="p-2 rounded-xl text-[#BDB8AB] hover:text-white hover:bg-white/10 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#FFED02]"
+                aria-label="Themen schliessen"
               >
-                <X className="w-5 h-5 text-white" />
+                <X className="w-5 h-5" />
               </button>
             </div>
-            <div className="p-4 overflow-y-auto h-[calc(100%-65px)]">
+            <div ref={schubladeRef} className="px-3 pb-8 overflow-y-auto flex-1">
               <LexikonSidebar />
             </div>
           </div>
@@ -189,7 +258,10 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
             className="hidden lg:block w-[307px] ml-[138px] flex-shrink-0 self-start"
             style={desktopSidebarHeight ? { height: `${desktopSidebarHeight}px` } : undefined}
           >
-            <div className="bg-black/60 rounded-[12px] p-[24px] h-full overflow-y-auto">
+            <div
+              ref={desktopLeisteRef}
+              className="bg-[#0F1A10] rounded-[12px] pl-[12px] pr-[22px] py-[24px] h-full overflow-y-auto"
+            >
               <LexikonSidebar />
             </div>
           </aside>
@@ -198,6 +270,8 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           <main className="lg:w-[865px] lg:-ml-[10px] lg:flex-shrink-0">
             <div
               ref={mainPanelRef}
+              id="inhalt"
+              tabIndex={-1}
               className="bg-white mx-4 mt-3 mb-3 rounded-[12px] min-h-[60vh] lg:mx-0 lg:mt-0 lg:mb-0 lg:rounded-tr-[12px] lg:rounded-br-[12px] lg:rounded-tl-none lg:rounded-bl-none lg:min-h-[800px]"
             >
               <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[28px] lg:pt-[20px]">

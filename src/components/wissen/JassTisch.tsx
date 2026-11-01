@@ -260,10 +260,12 @@ export const JassTisch: React.FC<Props> = ({
       </div>
 
       {handkarten.length > 0 && (
-        <div className="jw-tisch-blatt">
-          <span className="jw-karten-marke jw-tisch-blatt-marke">
-            {blattAufschrift?.trim() || BLATT_AUFSCHRIFT}
-          </span>
+        <div className="jw-tisch-blatt jw-karten-filz">
+          <div className="jw-tisch-blatt-marke">
+            <span className="jw-karten-marke">
+              {blattAufschrift?.trim() || BLATT_AUFSCHRIFT}
+            </span>
+          </div>
           {handkarten.map(({ karte, hervor: trittHervor }, i) => (
             <button
               key={`${karte.slug}-${i}`}

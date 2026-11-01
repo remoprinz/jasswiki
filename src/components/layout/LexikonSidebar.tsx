@@ -1,6 +1,7 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { ChevronRight } from 'lucide-react';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
@@ -155,163 +156,243 @@ const getNavigationStructure = (content: JassContentRecord) => {
   return sortedStructure;
 };
 
+/* ---------------------------------------------------------------------------
+   SEITENNAVIGATION (Jens, Bauhütte 203, 30.10.2026)
+
+   Ein Baum aus drei Ebenen: Hauptbereich › Unterbereich › Seite. Verhalten:
+   - Offen ist allein der Hauptbereich der aktuellen Seite, mit seinem Pfad bis
+     zur Seite. Wer direkt kommt oder neu lädt, sieht diesen Pfad schon offen:
+     Der Zustand entsteht aus dem Pfad, also schon im statischen HTML.
+   - Der Text öffnet die Seite, der Pfeil rechts ist ein eigener Knopf
+     (aria-expanded) und klappt nur. Öffnet er einen Hauptbereich, schliessen
+     sich die anderen: Es bleibt ein Bereich offen.
+   - Die aktive Seite trägt aria-current="page", ihre Eltern stehen fett.
+   Die Farben stehen als feste Töne in globals.css (.jw-nav-*), ohne Deckkraft
+   auf dem Text.
+   --------------------------------------------------------------------------- */
+
+interface Knoten {
+  key: string;
+  name: string;
+  href: string;
+  ebene: 1 | 2 | 3;
+  kinder: Knoten[];
+}
+
+const SCHIEBER_SIDEBAR_GROUPS = [
+  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen' },
+  { title: 'Wichtige Begriffe', slug: 'wichtige-begriffe' },
+  { title: 'Kultur & Geschichte', slug: 'kultur-geschichte' },
+];
+
+const META_SEITEN = [
+  { name: 'Referenzen und Quellen', href: '/referenzen/' },
+  { name: 'Taxonomie des Jassens', href: '/taxonomie/' },
+];
+
+const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[] => {
+  const baum: Knoten[] = [{ key: '/jassen/', name: 'Jassen', href: '/jassen/', ebene: 1, kinder: [] }];
+
+  Object.entries(struktur).forEach(([catSlug, cat]) => {
+    const href = `/${catSlug}/`;
+    let kinder: Knoten[];
+
+    if (catSlug === 'schieber') {
+      kinder = SCHIEBER_SIDEBAR_GROUPS.map((g) => ({
+        key: `/schieber/${g.slug}/`,
+        name: g.title,
+        href: `/schieber/${g.slug}/`,
+        ebene: 2 as const,
+        kinder: [],
+      }));
+    } else {
+      // Unterbereiche und flache Artikel alphabetisch gemischt, wie bisher.
+      const unter: Knoten[] = Object.entries(cat.subcategories).map(([subSlug, sub]) => ({
+        key: `/${catSlug}/${subSlug}/`,
+        name: formatTopicName(sub.name),
+        href: `/${catSlug}/${subSlug}/`,
+        ebene: 2 as const,
+        kinder: sub.topics.map((t) => ({
+          key: `/${catSlug}/${subSlug}/${t.slug}/`,
+          name: formatTopicName(t.name),
+          href: `/${catSlug}/${subSlug}/${t.slug}/`,
+          ebene: 3 as const,
+          kinder: [],
+        })),
+      }));
+      const flach: Knoten[] = (cat.flatArticles || []).map((a) => ({
+        key: `/${catSlug}/${a.slug}/`,
+        name: formatTopicName(a.name),
+        href: `/${catSlug}/${a.slug}/`,
+        ebene: 2 as const,
+        kinder: [],
+      }));
+      kinder = [...unter, ...flach].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+    }
+
+    baum.push({ key: href, name: cat.name, href, ebene: 1, kinder });
+  });
+
+  return baum;
+};
+
+/** Pfad ohne Abfrage und Sprungziel, immer mit Schrägstrich am Ende. */
+export const pfadVon = (asPath: string): string => {
+  const roh = asPath.split(/[?#]/)[0] || '/';
+  return roh.endsWith('/') ? roh : `${roh}/`;
+};
+
+/**
+ * Die Kette vom Hauptbereich bis zur Seite. Trifft kein Knoten genau, gilt der
+ * tiefste, dessen Adresse den Pfad beginnt (etwa ein Hauptbereich mit eigener
+ * Unterseite, die nicht im Baum steht): Er öffnet sich, ist aber nicht aktiv.
+ */
+const ketteZu = (baum: Knoten[], pfad: string): { kette: Knoten[]; genau: boolean } => {
+  let beste: Knoten[] = [];
+  const gehen = (knoten: Knoten[], bisher: Knoten[]): Knoten[] | null => {
+    for (const k of knoten) {
+      const kette = [...bisher, k];
+      if (k.href === pfad) return kette;
+      if (pfad.startsWith(k.href) && kette.length > beste.length) beste = kette;
+      const tiefer = gehen(k.kinder, kette);
+      if (tiefer) return tiefer;
+    }
+    return null;
+  };
+  const genau = gehen(baum, []);
+  return genau ? { kette: genau, genau: true } : { kette: beste, genau: false };
+};
+
+const offenAus = (kette: Knoten[]): Set<string> =>
+  new Set(kette.filter((k) => k.kinder.length > 0).map((k) => k.key));
+
+const Pfeil: React.FC<{ offen: boolean; name: string; ziel: string; onClick: () => void }> = ({
+  offen,
+  name,
+  ziel,
+  onClick,
+}) => (
+  <button
+    type="button"
+    className="jw-nav-pfeil"
+    aria-expanded={offen}
+    aria-controls={ziel}
+    aria-label={offen ? `${name} zuklappen` : `${name} aufklappen`}
+    onClick={onClick}
+  >
+    <ChevronRight aria-hidden className="jw-nav-pfeil-zeichen" width={16} height={16} strokeWidth={2.25} />
+  </button>
+);
+
+const idVon = (key: string) => `nav${key.replace(/[^a-z0-9]+/gi, '-')}`.replace(/-$/, '');
 
 export const LexikonSidebar = () => {
   const router = useRouter();
-  const { category: currentCategory, subcategory: currentSubcategory, topic: currentTopic } = router.query;
+  const baum = useMemo(() => baumBauen(getNavigationStructure(allContent as JassContentRecord)), []);
+  const pfad = pfadVon(router.asPath);
+  const { kette, genau } = useMemo(() => ketteZu(baum, pfad), [baum, pfad]);
+  const aktivKey = genau ? kette[kette.length - 1]?.key : undefined;
+  const imPfad = useMemo(() => new Set(kette.map((k) => k.key)), [kette]);
 
-  const navigationStructure = useMemo(() => getNavigationStructure(allContent as JassContentRecord), []);
+  // Der offene Zustand folgt dem Pfad: Bei jedem Seitenwechsel steht wieder
+  // allein der Pfad der neuen Seite offen. Gesetzt während des Renderns, damit
+  // kein Bild mit dem alten Baum dazwischen steht.
+  const [offen, setOffen] = useState<Set<string>>(() => offenAus(kette));
+  const [offenFuer, setOffenFuer] = useState(pfad);
+  if (offenFuer !== pfad) {
+    setOffenFuer(pfad);
+    setOffen(offenAus(kette));
+  }
 
-  const isOnJassenPath = router.pathname.startsWith('/jassen');
+  const umschalten = (k: Knoten) => {
+    setOffen((alt) => {
+      const neu = new Set(alt);
+      if (neu.has(k.key)) {
+        neu.delete(k.key);
+        return neu;
+      }
+      if (k.ebene === 1) {
+        // Ein Hauptbereich bleibt offen: die anderen schliessen.
+        baum.forEach((b) => b.key !== k.key && neu.delete(b.key));
+      }
+      neu.add(k.key);
+      return neu;
+    });
+  };
+
+  const verweis = (k: Knoten, klasse: string) => {
+    const aktiv = k.key === aktivKey;
+    const eltern = !aktiv && imPfad.has(k.key);
+    return (
+      <Link
+        href={k.href}
+        className={`${klasse}${aktiv ? ' ist-aktiv' : ''}${eltern ? ' ist-eltern' : ''}`}
+        aria-current={aktiv ? 'page' : undefined}
+      >
+        {k.name}
+      </Link>
+    );
+  };
+
+  const zweig = (k: Knoten): React.ReactNode => {
+    const hatKinder = k.kinder.length > 0;
+    const istOffen = hatKinder && offen.has(k.key);
+    const ziel = idVon(k.key);
+
+    if (k.ebene === 1) {
+      return (
+        <li key={k.key} className={`jw-nav-bereich${istOffen ? ' ist-offen' : ''}`}>
+          <div className={`jw-nav-zeile${k.key === aktivKey ? ' ist-aktiv' : ''}`}>
+            {verweis(k, 'jw-nav-haupt')}
+            {hatKinder && <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} />}
+          </div>
+          {istOffen && (
+            <ul id={ziel} className="jw-nav-liste2">
+              {k.kinder.map(zweig)}
+            </ul>
+          )}
+        </li>
+      );
+    }
+
+    if (k.ebene === 2) {
+      return (
+        <li key={k.key}>
+          <div className={`jw-nav-zeile${k.key === aktivKey ? ' ist-aktiv' : ''}`}>
+            {verweis(k, 'jw-nav-unter')}
+            {hatKinder && <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} />}
+          </div>
+          {istOffen && (
+            <ul id={ziel} className="jw-nav-liste3">
+              {k.kinder.map(zweig)}
+            </ul>
+          )}
+        </li>
+      );
+    }
+
+    return <li key={k.key}>{verweis(k, 'jw-nav-seite')}</li>;
+  };
 
   return (
-    <nav className="flex flex-col gap-[16px]">
-      {/* Penpot: row-gap=14px, flex-direction=column */}
-      <ul className="flex flex-col gap-[16px]">
-        {/* Jassen — hardcoded top-level link */}
-        <li>
-          <Link href="/jassen/" legacyBehavior>
-            <a className={`block w-[230px] py-[1px] font-capita text-[18px] font-bold leading-[1.5556] transition-colors ${
-              isOnJassenPath ? 'text-[#2bb752]' : 'text-[#878787] hover:text-white'
-            }`}>
-              Jassen
-            </a>
-          </Link>
-        </li>
-        {Object.entries(navigationStructure).map(([catSlug, categoryData]) => {
-          // Schieber hat eigene Seiten (/schieber/, /schieber/[group]/) – kein [category]-Route.
-          const isOnSchieberPath = router.pathname.startsWith('/schieber');
-          const isOnAnsagenPath = router.pathname.startsWith('/ansagen');
-          const isOnTaktikenPath = router.pathname.startsWith('/taktiken-und-strategien');
-          const currentSchieberGroup = isOnSchieberPath ? (router.query.group as string | undefined) : undefined;
-          const isCategoryActive = catSlug === currentCategory
-            || (catSlug === 'schieber' && isOnSchieberPath)
-            || (catSlug === 'ansagen' && isOnAnsagenPath)
-            || (catSlug === 'taktiken-und-strategien' && isOnTaktikenPath);
-
-          const SCHIEBER_SIDEBAR_GROUPS = [
-            { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen' },
-            { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe' },
-            { title: 'Kultur & Geschichte', slug: 'kultur-geschichte' },
-          ];
-
+    <nav className="jw-nav" aria-label="Themen">
+      <p className="jw-nav-titel">Themen</p>
+      <ul className="jw-nav-liste1">{baum.map(zweig)}</ul>
+      <ul className="jw-nav-meta">
+        {META_SEITEN.map((m) => {
+          const aktiv = pfad === m.href;
           return (
-            <li key={catSlug}>
-              {/* Penpot: nav-link — Capita 18px bold, #878787 inactive, #2bb752 active, line-height=1.5556 */}
-              <Link href={`/${catSlug}/`} legacyBehavior>
-                <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
-                  isCategoryActive ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
-                }`}>
-                  {categoryData.name}
-                </a>
+            <li key={m.href}>
+              <Link
+                href={m.href}
+                className={`jw-nav-meta-link${aktiv ? ' ist-aktiv' : ''}`}
+                aria-current={aktiv ? 'page' : undefined}
+              >
+                {m.name}
               </Link>
-              {isCategoryActive && catSlug === 'schieber' && (
-                /* Schieber Hub: Gruppen als echte Seiten-Links */
-                <ul className="border-l-2 border-[#2bb752] pl-[14px] pr-[8px] pt-[6px] pb-[6px] mt-[9px] flex flex-col gap-[8px]">
-                  {SCHIEBER_SIDEBAR_GROUPS.map(group => {
-                    const isGroupActive = currentSchieberGroup === group.slug;
-                    return (
-                      <li key={group.slug}>
-                        <Link href={`/schieber/${group.slug}/`} legacyBehavior>
-                          <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
-                            isGroupActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
-                          }`}>
-                            {group.title}
-                          </a>
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              )}
-              {isCategoryActive && catSlug !== 'schieber' && (() => {
-                // Subcategories und Flat Articles alphabetisch zusammenmischen
-                type SubItem = { kind: 'sub'; slug: string; name: string; topics: { name: string; slug: string }[] };
-                type FlatItem = { kind: 'flat'; slug: string; name: string };
-                const merged: (SubItem | FlatItem)[] = [
-                  ...Object.entries(categoryData.subcategories).map(([slug, data]) => ({
-                    kind: 'sub' as const, slug, name: data.name, topics: data.topics
-                  })),
-                  ...(categoryData.flatArticles || []).map(a => ({
-                    kind: 'flat' as const, slug: a.slug, name: a.name
-                  }))
-                ].sort((a, b) => a.name.localeCompare(b.name, 'de'));
-
-                return (
-                  <ul className="border-l-2 border-[#2bb752] pl-[14px] pr-[8px] pt-[6px] pb-[6px] mt-[9px] flex flex-col gap-[8px]">
-                    {merged.map(item => {
-                      if (item.kind === 'sub') {
-                        const isSubcategoryActive = item.slug === currentSubcategory;
-                        return (
-                          <li key={item.slug}>
-                            <Link href={`/${catSlug}/${item.slug}/`} legacyBehavior>
-                              <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
-                                isSubcategoryActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
-                              }`}>
-                                {item.name}
-                              </a>
-                            </Link>
-                            {isSubcategoryActive && (
-                              <ul className="border-l border-[#2bb752]/50 pl-[12px] ml-[2px] mt-[5px] mb-[2px] flex flex-col gap-[5px]">
-                                {item.topics.map(topic => {
-                                  const isTopicActive = topic.slug === currentTopic;
-                                  return (
-                                    <li key={topic.slug}>
-                                      <Link href={`/${catSlug}/${item.slug}/${topic.slug}/`} legacyBehavior>
-                                        <a className={`block py-[1px] font-inter text-[14px] leading-[1.45] transition-colors ${
-                                          isTopicActive ? 'text-[#2bb752] font-semibold' : 'text-white/80 font-normal hover:text-[#2bb752]'
-                                        }`}>
-                                          {formatTopicName(topic.name)}
-                                        </a>
-                                      </Link>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            )}
-                          </li>
-                        );
-                      } else {
-                        const isArticleActive = item.slug === currentSubcategory || item.slug === currentTopic;
-                        return (
-                          <li key={item.slug}>
-                            <Link href={`/${catSlug}/${item.slug}/`} legacyBehavior>
-                              <a className={`block w-[230px] py-[1px] font-capita text-[17px] font-bold leading-[1.45] transition-colors ${
-                                isArticleActive ? 'text-[#2bb752]' : 'text-[#a3a3a3] hover:text-white'
-                              }`}>
-                                {formatTopicName(item.name)}
-                              </a>
-                            </Link>
-                          </li>
-                        );
-                      }
-                    })}
-                  </ul>
-                );
-              })()}
             </li>
           );
         })}
-
-        {/* Penpot: Referenzen — Capita 18px bold #878787 */}
-        <li>
-          <Link href="/referenzen/" legacyBehavior>
-            <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
-              router.pathname === '/referenzen' ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
-            }`}>
-              Referenzen und Quellen
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/taxonomie/" legacyBehavior>
-            <a className={`block w-[246px] font-capita text-[18px] font-bold leading-[1.556] transition-colors ${
-              router.pathname === '/taxonomie' ? 'text-[#2bb752]' : 'text-[#878787] hover:text-[#2bb752]'
-            }`}>
-              Taxonomie des Jassens
-            </a>
-          </Link>
-        </li>
       </ul>
     </nav>
   );

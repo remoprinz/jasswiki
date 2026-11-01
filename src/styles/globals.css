@@ -473,6 +473,167 @@ body.lexikon-page div[id="__next"] {
 }
 
 /* ---------------------------------------------------------------------------
+   SEITENNAVIGATION (jw-nav-*), Jens Bauhütte 203, 30.10.2026
+   Grund der Leiste #0F1A10 (LexikonLayout). Alle Töne fest, ohne Deckkraft auf
+   Text. Masse: Bereich 12 vom Leistenrand, Hauptbereich Text +12, Unterseite
+   +24, Führungslinie der dritten Ebene +27, deren Text +42. Der gelbe Balken
+   der aktiven Seite (4 px) liegt mittig auf der 2-px-Linie.
+   --------------------------------------------------------------------------- */
+.jw-nav {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+.jw-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.jw-nav-titel {
+  margin: 0 0 10px;
+  padding: 0 12px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa597;
+}
+.jw-nav-liste1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.jw-nav-bereich.ist-offen {
+  margin: 4px 0;
+  padding-bottom: 6px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.07);
+}
+.jw-nav-bereich:has(> .jw-nav-zeile.ist-aktiv) {
+  border-top-left-radius: 0;
+}
+.jw-nav-zeile {
+  display: flex;
+  align-items: center;
+  border-radius: 0 8px 8px 0;
+}
+.jw-nav-zeile.ist-aktiv {
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: inset 4px 0 0 #ffed02;
+}
+.jw-nav-haupt {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: block;
+  padding: 9px 12px;
+  font-family: 'Capita', Georgia, serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.jw-nav-unter {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: block;
+  padding: 8px 12px 8px 24px;
+  border-radius: 0 8px 8px 0;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #e4dfd3;
+}
+.jw-nav .jw-nav-liste3 {
+  margin: 0 0 4px 27px;
+  border-left: 2px solid rgba(243, 239, 230, 0.28);
+}
+.jw-nav-seite {
+  display: block;
+  padding: 8px 12px 8px 13px;
+  border-radius: 0 8px 8px 0;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #e4dfd3;
+}
+.jw-nav-unter:hover,
+.jw-nav-seite:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+.jw-nav-unter.ist-eltern,
+.jw-nav-unter.ist-aktiv {
+  font-weight: 600;
+  color: #ffffff;
+}
+.jw-nav-zeile.ist-aktiv .jw-nav-unter:hover {
+  background: transparent;
+}
+/* Aktive Seite der dritten Ebene: Der Balken liegt auf der Führungslinie, die
+   Fläche ist nur rechts gerundet. */
+.jw-nav-seite.ist-aktiv,
+.jw-nav-seite.ist-aktiv:hover {
+  margin-left: -3px;
+  padding-left: 12px;
+  border-left: 4px solid #ffed02;
+  background: rgba(255, 255, 255, 0.16);
+  font-weight: 600;
+  color: #ffffff;
+}
+.jw-nav-pfeil {
+  flex: 0 0 32px;
+  height: 32px;
+  margin-right: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #bdb8ab;
+  background: transparent;
+}
+.jw-nav-pfeil:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+.jw-nav-pfeil-zeichen {
+  transition: transform 0.18s ease;
+}
+.jw-nav-pfeil[aria-expanded='true'] .jw-nav-pfeil-zeichen {
+  transform: rotate(90deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .jw-nav-pfeil-zeichen {
+    transition: none;
+  }
+}
+.jw-nav-meta {
+  margin: 18px 12px 0 !important;
+  padding-top: 12px !important;
+  border-top: 1px solid rgba(243, 239, 230, 0.22);
+}
+.jw-nav-meta-link {
+  display: block;
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #cdc8bb;
+}
+.jw-nav-meta-link:hover,
+.jw-nav-meta-link.ist-aktiv {
+  color: #ffffff;
+}
+.jw-nav-meta-link.ist-aktiv {
+  font-weight: 600;
+}
+.jw-nav a:focus-visible,
+.jw-nav button:focus-visible {
+  outline: 2px solid #ffed02;
+  outline-offset: -2px;
+}
+#inhalt:focus {
+  outline: none;
+}
+
+/* ---------------------------------------------------------------------------
    KARTENREIHE IM FLIESSTEXT (jw-karten-*)
    Gesetzt im Inhalt über die Marke [[karten: …]], dargestellt von
    JassKartenReihe. Bilder: schweizerjass.ch (Jens Riedweg).
@@ -483,12 +644,31 @@ body.lexikon-page div[id="__next"] {
      weil die Karten es auch tun (58 px am Handy, 118 px am Schirm). SCHEIN:
      die Luft, die der grüne Schein über ihr braucht. */
   --jw-hub: clamp(11px, 3vw, 20px);
-  --jw-schein: 10px;
+  --jw-schein: 14px;
   margin: 28px 0;
-  padding: 14px 16px 12px;
-  border: 1px solid #e8e6df;
-  border-radius: 14px;
-  background: rgba(240, 238, 231, 0.4);
+}
+
+/* DER FILZ (Jens, Bauhütte 203, 30.10.2026): Die Karten liegen auf dem
+   Spieltisch aus dem JassGuru-System statt auf Creme. Dasselbe Bild wie der
+   Baustein «spieltisch» der Arena (jasstafel public/design, .jg-teppich), als
+   Hintergrund mit cover. Rand 8 px in rgba(1,19,4,.4), Radius 28. Der Rand
+   liegt über dem Filz (background-clip border-box), darum dunkelt er die Kante
+   ab, statt einen fremden Ton daneben zu setzen. Unter dem Filz steht die
+   Legende wie bisher (.jw-karten-fuss). */
+.jw-karten-filz {
+  padding: 16px 20px 18px;
+  border: 8px solid rgba(1, 19, 4, 0.4);
+  border-radius: 28px;
+  background-color: #1f4a1d;
+  background-image: url('/design/filz.jpg');
+  background-image: image-set(
+    url('/design/filz.avif') type('image/avif') 1x,
+    url('/design/filz@2x.avif') type('image/avif') 2x,
+    url('/design/filz.jpg') 1x,
+    url('/design/filz@2x.jpg') 2x
+  );
+  background-size: cover;
+  background-position: center;
 }
 
 /* Kopfzeile der Kartenreihe: links die Aufschrift, rechts der Umschalter.
@@ -518,6 +698,17 @@ body.lexikon-page div[id="__next"] {
   overflow-wrap: anywhere;
 }
 
+/* Auf dem Filz: Titel als weisse Pille, Inter 11.5 Semi Bold (Jens 203). */
+.jw-karten-filz .jw-karten-marke {
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0f1a10;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .jw-karten-wahl {
   flex: 0 0 auto;
   display: inline-flex;
@@ -541,6 +732,27 @@ body.lexikon-page div[id="__next"] {
 .jw-karten-wahl-knopf[aria-pressed='true'] {
   background: #274823;
   color: #ffffff;
+}
+
+/* Auf dem Filz: weisse Pille, der aktive Teil #0F1A10 mit weisser Schrift. */
+.jw-karten-filz .jw-karten-wahl {
+  border: 0;
+  padding: 3px;
+  gap: 2px;
+}
+.jw-karten-filz .jw-karten-wahl-knopf {
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #4d4a3f;
+}
+.jw-karten-filz .jw-karten-wahl-knopf[aria-pressed='true'] {
+  background: #0f1a10;
+  color: #ffffff;
+}
+.jw-karten-wahl-knopf:focus-visible {
+  outline: 2px solid #ffed02;
+  outline-offset: -2px;
 }
 
 /* Fenster um das Band: trägt den Zeiger «hier geht es weiter» an seiner Kante.
@@ -646,6 +858,36 @@ body.lexikon-page div[id="__next"] {
   transform: scale(1.04);
 }
 
+/* KARTEN AUF DEM FILZ (Jens 203): 96 × 150 (das Bildformat 320 × 500),
+   Radius 7, mittig, Abstand 18, leichter Schatten. Der Name darunter in Weiss
+   mit 85 % Deckkraft. Am Handy werden Karte und Abstand kleiner, damit vier
+   Karten ohne Rollen nebeneinander stehen. */
+.jw-karten-filz .jw-karten-band {
+  justify-content: safe center;
+  gap: 18px;
+}
+.jw-karten-filz .jw-karte {
+  width: clamp(56px, 15.5vw, 96px);
+  border-radius: 7px;
+}
+.jw-karten-filz .jw-karte-bild,
+.jw-tisch-blatt .jw-karte-bild {
+  aspect-ratio: 320 / 500;
+  object-fit: cover;
+  border: 0;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+.jw-karten-filz .jw-karte-name {
+  margin-top: 7px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.jw-karten-filz .jw-karte:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
 /* EINE KARTE TRITT HERVOR — derselbe Griff wie in der Arena.
    Geschrieben wird sie als «rosen-koenig!» in der Marke, in der Kartenreihe
    ebenso wie im Blatt am Jasstisch. Gemeint ist die Karte, um die es geht: beim
@@ -669,13 +911,10 @@ body.lexikon-page div[id="__next"] {
 
    RUHIG BLEIBT SIE: ein fester Zustand, keine Schleife, kein Blinken. Darum
    braucht es hier auch keine Rücksicht auf `prefers-reduced-motion`. */
-/* Der Ton der Hervorhebung, an einer Stelle für beide Abbildungen. */
-.jw-karten-reihe,
-.jw-tisch {
-  --jw-hervor: #2bb752;
-  --jw-hervor-schein: rgba(43, 183, 82, 0.55);
-}
-
+/* GELB HEISST «DIESE KARTE ZÄHLT» (Jens 203, 30.10.2026): Seit die Karten auf
+   dem Filz liegen, trägt die gewählte Karte den gelben Leuchtrahmen aus dem
+   JassGuru-System, für beide Abbildungen. Das Grün fällt weg. Der Hub bleibt
+   (Remo 23.08.2026, Griff der Arena). */
 .jw-karte--hervor {
   position: relative;
   z-index: 1;
@@ -683,15 +922,14 @@ body.lexikon-page div[id="__next"] {
 }
 
 .jw-karte--hervor .jw-karte-bild {
-  border-color: var(--jw-hervor);
   box-shadow:
-    0 0 0 2px var(--jw-hervor),
-    0 0 14px var(--jw-hervor-schein),
-    0 10px 16px -8px rgba(27, 53, 26, 0.5);
+    0 0 0 3px #ffed02,
+    0 0 14px rgba(255, 237, 2, 0.6),
+    0 0 34px rgba(255, 237, 2, 0.3);
 }
 
 .jw-karte--hervor .jw-karte-name {
-  color: #274823;
+  color: #ffed02;
   font-weight: 700;
 }
 
@@ -723,7 +961,7 @@ body.lexikon-page div[id="__next"] {
   margin-top: calc(-1 * (var(--jw-hub) + var(--jw-schein)));
 }
 
-.jw-tisch--hebt .jw-tisch-blatt {
+.jw-tisch--hebt .jw-tisch-blatt.jw-karten-filz {
   padding-top: calc(11px + var(--jw-hub));
 }
 
@@ -766,13 +1004,30 @@ body.lexikon-page div[id="__next"] {
   color: #2bb752;
 }
 
+/* Der Leuchtrahmen strahlt 34 px weit. Das Band rollt und schneidet darum an
+   allen Kanten: Es bekommt Luft nach den Seiten und nach unten und gibt sie als
+   negativen Aussenabstand an den Filz zurück. Die Karten bleiben an ihrem Platz. */
+.jw-karten-filz .jw-karten-band {
+  padding: 0 14px 14px;
+  margin: 0 -14px -14px;
+}
+.jw-karten-reihe--hebt .jw-karten-filz .jw-karten-band {
+  padding-top: calc(var(--jw-hub) + var(--jw-schein));
+  margin-top: calc(-1 * (var(--jw-hub) + var(--jw-schein)));
+}
+
 @media (max-width: 640px) {
-  .jw-karten-reihe {
-    padding: 12px 12px 10px;
+  .jw-karten-filz {
+    padding: 12px 12px 14px;
   }
   /* Vier Karten passen am Handy ohne Rollen in die Reihe. */
-  .jw-karten-band {
-    gap: 8px;
+  .jw-karten-band,
+  .jw-karten-filz .jw-karten-band {
+    gap: 10px;
+  }
+  .jw-karten-filz .jw-karten-band {
+    padding: 0 10px 12px;
+    margin: 0 -10px -12px;
   }
   .jw-karten-fuss {
     flex-direction: column;
@@ -787,14 +1042,16 @@ body.lexikon-page div[id="__next"] {
    den normalen Kartenmassen — neun Karten à 44 px wären auf 375 px trotzdem
    zu breit (444 px Band auf 285 px Platz) und die Namen darunter unlesbar. */
 @media (min-width: 700px) {
-  .jw-karten-band--voll {
-    gap: 8px;
+  .jw-karten-band--voll,
+  .jw-karten-filz .jw-karten-band--voll {
+    gap: 10px;
   }
-  .jw-karten-band--voll .jw-karte {
+  .jw-karten-band--voll .jw-karte,
+  .jw-karten-filz .jw-karten-band--voll .jw-karte {
     flex: 1 1 0;
     width: auto;
     min-width: 0;
-    max-width: 118px;
+    max-width: 96px;
   }
 }
 
@@ -844,37 +1101,24 @@ body.lexikon-page div[id="__next"] {
   color: #274823;
 }
 
+/* Derselbe Filz wie die Kartenreihe (Jens 203): das Bild des Arena-Spieltischs,
+   Rand 8 px in rgba(1,19,4,.4), Radius 28. Der Rand ist ein innerer Schatten,
+   damit die Plätze (in Prozent des Filzes gesetzt) dort bleiben, wo sie waren. */
 .jw-tisch-filz {
   position: relative;
   aspect-ratio: 1 / 1;
-  border-radius: 20px;
-  background: radial-gradient(115% 95% at 50% 40%, #2e5a2b 0%, #264923 48%, #1b351a 100%);
-  box-shadow:
-    inset 0 0 42px rgba(0, 0, 0, 0.38),
-    0 10px 24px -14px rgba(0, 0, 0, 0.6);
-}
-
-/* Gewebe: zwei feine Schraffuren übereinander, kaum sichtbar, aber der Filz
-   wirkt damit gewoben statt gestrichen. */
-.jw-tisch-filz::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  background-image:
-    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0 1px, transparent 1px 3px);
-}
-
-/* Einfassung wie am Arena-Teppich: eine helle Naht knapp innerhalb der Kante. */
-.jw-tisch-filz::after {
-  content: '';
-  position: absolute;
-  inset: 7px;
-  border-radius: 14px;
-  border: 1px solid rgba(240, 238, 231, 0.1);
-  pointer-events: none;
+  border-radius: 28px;
+  background-color: #1f4a1d;
+  background-image: url('/design/filz.jpg');
+  background-image: image-set(
+    url('/design/filz.avif') type('image/avif') 1x,
+    url('/design/filz@2x.avif') type('image/avif') 2x,
+    url('/design/filz.jpg') 1x,
+    url('/design/filz@2x.jpg') 2x
+  );
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 8px rgba(1, 19, 4, 0.4);
 }
 
 /* Obere Kante: links der Stich, rechts die Ansage. */
@@ -1133,18 +1377,22 @@ body.lexikon-page div[id="__next"] {
   justify-content: center;
   gap: 10px;
   margin-top: 10px;
-  padding: 11px 12px 12px;
-  border: 1px solid #e8e6df;
-  border-radius: 14px;
-  background: rgba(240, 238, 231, 0.4);
+}
+/* Seit dem Filz (Jens 203) liegt auch das Blatt auf ihm: Klasse jw-karten-filz
+   trägt Bild, Rand und Radius, hier bleibt nur der Innenabstand. */
+.jw-tisch-blatt.jw-karten-filz {
+  padding: 12px 14px 14px;
 }
 /* Die Aufschrift nimmt die ganze Zeile — die Karten darunter bleiben mittig, die
    Aufschrift steht links wie über jeder Kartenreihe. */
 .jw-tisch-blatt-marke {
   flex: 0 0 100%;
-  margin-bottom: 2px;
+  display: flex;
+  margin-bottom: 4px;
 }
-
+.jw-tisch-blatt-marke .jw-karten-marke {
+  display: inline-block;
+}
 /* Die Hand steht unter dem Tisch, also auch unter ihm in der Grösse: der
    gelegte Stich bleibt das Hauptbild. */
 .jw-tisch-blatt .jw-karte {
