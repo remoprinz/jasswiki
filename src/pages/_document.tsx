@@ -248,8 +248,11 @@ const JASSWIKI_SCHEMA = {
 
 class MyDocument extends Document {
   render() {
+    /* Die Sprachseiten (KELLE 02.11.2026): html lang nach dem Pfad, sonst Deutsch. */
+    const seite = this.props.__NEXT_DATA__.page;
+    const lang = seite.startsWith("/fr/") ? "fr-CH" : seite.startsWith("/it/") ? "it-CH" : "de-CH";
     return (
-      <Html lang="de-CH">
+      <Html lang={lang}>
         <Head>
           {/* Bestehende Meta-Tags */}
           <meta name="application-name" content="jasswiki.ch" />

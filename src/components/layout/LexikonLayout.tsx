@@ -7,6 +7,7 @@ import { SearchBar } from '@/components/wissen/SearchBar';
 import { Menu, X, ChevronLeft } from 'lucide-react';
 import { useRouter } from 'next/router';
 import { JassWikiLogo } from './JassWikiLogo';
+import { SprachWahl } from '@/components/wissen/SprachWahl';
 
 interface BreadcrumbItem {
   name: string;
@@ -279,6 +280,7 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
                   <Breadcrumbs items={breadcrumbItems} />
                   <ShareButton />
                 </div>
+                <SprachWahl />
               </div>
               <div className="px-[16px] pt-[14px] pb-[24px] lg:px-[28px] lg:pt-[18px] lg:pb-[32px]">
                 <div className="content-formatting max-w-none">{children}</div>
