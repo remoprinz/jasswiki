@@ -60,7 +60,7 @@ JassWiki.ch ist die umfassendste digitale Enzyklopädie für die Schweizer Jass-
 **Fabian Cadonau**
 - Betreiber von Trumpf-As.ch
 - Organisator von Jass-Events und Schulungen
-- Offizieller Träger der [Lebendigen Traditionen der Schweiz](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html)
+- Offizieller Träger der [Lebendigen Traditionen der Schweiz](https://www.lebendige-traditionen.ch/de/jassen)
 
 ## Anerkennung
 

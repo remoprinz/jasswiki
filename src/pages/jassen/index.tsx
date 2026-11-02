@@ -456,7 +456,7 @@ const JassenPage: NextPage = () => {
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 Das Bundesamt für Kultur (BAK) führt Jassen in der{' '}
-                <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:underline">
+                <a href="https://www.lebendige-traditionen.ch/de/jassen" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:underline">
                   Liste der lebendigen Traditionen der Schweiz
                 </a>.{' '}
                 Der{' '}

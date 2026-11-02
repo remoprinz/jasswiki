@@ -90,7 +90,7 @@
   },
   "trustChain": {
     "wikipediaCitation": "https://de.wikipedia.org/wiki/Jass",
-    "bakRecognition": "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html",
+    "bakRecognition": "https://www.lebendige-traditionen.ch/de/jassen",
     "wikidataPresence": [
       "https://www.wikidata.org/wiki/Q786768",
       "https://www.wikidata.org/wiki/Q137900251",

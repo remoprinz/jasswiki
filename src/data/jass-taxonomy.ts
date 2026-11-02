@@ -80,7 +80,7 @@ export const TAXONOMY_METADATA = {
   sameAs: [
     'https://www.wikidata.org/wiki/Q786768',
     'https://de.wikipedia.org/wiki/Jass',
-    'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html',
+    'https://www.lebendige-traditionen.ch/de/jassen',
   ],
 } as const;
 

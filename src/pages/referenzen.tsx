@@ -45,8 +45,8 @@ const ReferencesPage: NextPage = () => {
       author: 'Bundesamt für Kultur (BAK)',
       type: 'Online-Ressource',
       date: 'März 2024',
-      link: 'https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html',
-      description: 'Offizielle Dokumentation des [Bundesamts für Kultur (BAK)](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html) über Jassen als lebendige Tradition und immaterielles Kulturerbe der Schweiz.',
+      link: 'https://www.lebendige-traditionen.ch/de/jassen',
+      description: 'Offizielle Dokumentation des [Bundesamts für Kultur (BAK)](https://www.lebendige-traditionen.ch/de/jassen) über Jassen als lebendige Tradition und immaterielles Kulturerbe der Schweiz.',
       usage: 'Quelle für kulturhistorische Hintergründe, regionale Varianten und gesellschaftliche Bedeutung des Jassens.'
     },
     {

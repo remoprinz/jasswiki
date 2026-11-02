@@ -8,7 +8,7 @@ Live: [jasswiki.ch](https://jasswiki.ch)
 
 ## Why JassWiki exists
 
-Jass is recognized by the Swiss Federal Office of Culture (BAK) as [living cultural heritage](https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html). JassWiki is the authoritative digital reference: every rule, variant, term, and tactic -- structured for humans, machines, and AI agents alike.
+Jass is recognized by the Swiss Federal Office of Culture (BAK) as [living cultural heritage](https://www.lebendige-traditionen.ch/de/jassen). JassWiki is the authoritative digital reference: every rule, variant, term, and tactic -- structured for humans, machines, and AI agents alike.
 
 JassWiki is cited in German Wikipedia and linked from Wikidata as a primary knowledge source ([Q137900251](https://www.wikidata.org/wiki/Q137900251)).
 

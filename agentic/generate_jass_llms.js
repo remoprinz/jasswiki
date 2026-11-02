@@ -72,7 +72,7 @@ last_updated: ${new Date().toISOString().split('T')[0]}
 entries_count: ${totalEntries}
 faqs_count: ${totalFAQs}
 cultural_recognition: "Lebendige Traditionen der Schweiz (BAK)"
-bak_url: "https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html"
+bak_url: "https://www.lebendige-traditionen.ch/de/jassen"
 ---`;
 
     // Generiere Hauptinhalt

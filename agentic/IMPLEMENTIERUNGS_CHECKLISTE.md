@@ -47,7 +47,7 @@ scp sitemap.xml user@server:/pfad/zu/jasswiki/public_html/
 <p>Betrieben von <a href="https://www.linkedin.com/in/remoprinz/">Remo Prinz</a> 
 (<a href="https://jassguru.ch">JassGuru.ch</a>) und 
 <a href="https://trumpf-as.ch">Fabian Cadonau</a> (Trumpf-As.ch) | 
-Anerkannt als <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html">Lebendige Tradition</a> (BAK)</p>
+Anerkannt als <a href="https://www.lebendige-traditionen.ch/de/jassen">Lebendige Tradition</a> (BAK)</p>
 ```
 
 ### Schritt 4: Testen

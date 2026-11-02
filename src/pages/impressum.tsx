@@ -58,7 +58,7 @@ const ImpressumPage = () => {
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">Anerkennung</h2>
         <p className="mb-4 text-gray-300">
           Jassen ist vom Bundesamt für Kultur (BAK) als{' '}
-          <a href="https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">
+          <a href="https://www.lebendige-traditionen.ch/de/jassen" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">
             lebendige Tradition der Schweiz
           </a>{' '}
           anerkannt. JassWiki führt das offizielle Logo «Lebendige Traditionen» mit Genehmigung des BAK.

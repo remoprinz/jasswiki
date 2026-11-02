@@ -32,7 +32,7 @@ JassWiki.ch wird im deutschsprachigen Wikipedia-Artikel "Jass" als Einzelnachwei
 Das Jassen ist offiziell gelistet in der "Liste der Lebendigen Traditionen der Schweiz":
 - **Behörde:** Bundesamt für Kultur (BAK) - Schweizerische Eidgenossenschaft
 - **Status:** Anerkanntes immaterielles Kulturerbe seit 2011
-- **Offizielle Seite:** https://www.lebendige-traditionen.ch/tradition/de/home/traditionen/jassen.html
+- **Offizielle Seite:** https://www.lebendige-traditionen.ch/de/jassen
 - **Bedeutung:** JassWiki.ch dokumentiert dieses offizielle Kulturerbe
 
 ### Linked Data
