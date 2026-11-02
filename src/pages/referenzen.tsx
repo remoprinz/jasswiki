@@ -57,6 +57,15 @@ const ReferencesPage: NextPage = () => {
       link: 'https://jassverzeichnis.ch',
       description: 'Umfassende Plattform für Jass-Enthusiasten mit Turnierkalender, Jass-Shop und detaillierten Erklärungen zu Jassarten und Online-Jass-Angeboten. Verfügbar auf [jassverzeichnis.ch](https://jassverzeichnis.ch).',
       usage: 'Referenz für Online-Jass-Plattformen und App-Übersichten.'
+    },
+    {
+      title: 'Jass-Events (jass-events.ch)',
+      author: 'jass-events.ch, Seengen',
+      type: 'Online-Plattform',
+      date: 'Aktuell (laufendes Angebot)',
+      link: 'https://jass-events.ch',
+      description: 'Die Events von jass-events.ch stellen die Menschen und deren Freude am Jass-Sport in den Vordergrund. Das Angebot umfasst Jassturniere mit Turnierkalender und Ranglisten, Jassferien und Jasskurse. Verfügbar auf [jass-events.ch](https://jass-events.ch).',
+      usage: 'Referenz für Jassturniere, Jassferien und Jasskurse in der Schweiz.'
     }
   ];
 
