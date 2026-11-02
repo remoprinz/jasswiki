@@ -1,0 +1,154 @@
+{
+  "expressions_weis": {
+    "id": "expressions_weis",
+    "text": "Un annuncio (in tedesco **Weis**, al tavolo in svizzero tedesco **Wys**) è una combinazione di carte che porta punti prima che si giochi la prima presa. Chi ne ha uno lo annuncia con la sua prima carta. Segna la squadra che ha l'annuncio più alto del tavolo. Ce ne sono di due tipi: **carte consecutive dello stesso seme** e **quattro carte uguali**. A questi si aggiungono gli Stöck (siehe Begriff \"weis_rules_stock\"), che seguono regole proprie. Questo articolo descrive il modo di giocare raccomandato dalla [Federazione Svizzera di Jass](https://jassverband.ch). Ciò che un tavolo concorda diversamente prima dell'inizio del gioco vale per esso come regola del tavolo (siehe Begriff \"regeln_tischregel\").\n\n## Dalla sequenza di tre alla sequenza di nove\n\nUna sequenza è composta da tre o più carte consecutive dello stesso seme. Secondo la sua lunghezza si chiama sequenza di tre, di quattro, di cinque e così via fino alla sequenza di nove. **Le carte che formano una sequenza sono le stesse in ogni seme e in ogni modalità di gioco:** sei, sette, otto, nove, Banner, Under, Ober, re, asso. Per l'annuncio il puur e il nell restano al loro posto. Nelle prese valgono come gli atout più forti. Quale estremità della sequenza vale come la più alta dipende dalla modalità di gioco: con l'atout e in obenabe l'asso, in undenufe il sei (vedi sotto). Tutte le sequenze di questo articolo si leggono così: la carta più bassa a sinistra, la più alta a destra.\n\nOgni carta in più alza l'annuncio di un gradino, dalla sequenza di quattro in poi di 50 punti per carta.\n\n[[karten: schellen-ober, schellen-koenig, schellen-ass | Sequenza di tre, 20 punti: tre carte consecutive dello stesso seme, qui Ober, re, asso | Sequenza di tre]]\n\n[[karten: schellen-under, schellen-ober, schellen-koenig, schellen-ass | Sequenza di quattro, 50 punti: la stessa sequenza con una carta in più, qui dall'Under all'asso | Sequenza di quattro]]\n\n[[karten: rosen-banner, rosen-under, rosen-ober, rosen-koenig, rosen-ass | Sequenza di cinque, 100 punti: dal Banner all'asso | Sequenza di cinque]]\n\n[[karten: eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig | Sequenza di sei, 150 punti: la sequenza può trovarsi in qualsiasi punto del seme, qui dall'otto al re | Sequenza di sei]]\n\n[[karten: schilten-8, schilten-9, schilten-banner, schilten-under, schilten-ober, schilten-koenig, schilten-ass | Sequenza di sette, 200 punti: dall'otto all'asso | Sequenza di sette]]\n\n[[karten: rosen-6, rosen-7, rosen-8, rosen-9, rosen-banner, rosen-under, rosen-ober, rosen-koenig | Sequenza di otto, 250 punti: dal sei al re | Sequenza di otto]]\n\n[[karten: eichel-6, eichel-7, eichel-8, eichel-9, eichel-banner, eichel-under, eichel-ober, eichel-koenig, eichel-ass | Sequenza di nove, 300 punti: tutto il seme in una mano | Sequenza di nove]]\n\n## Quattro uguali\n\nQuattro carte dello stesso valore, una per seme. Non hanno niente a che fare con le sequenze e hanno valori propri:\n\n[[karten: eichel-ass, rosen-ass, schellen-ass, schilten-ass | Quattro uguali, 100 punti: qui i quattro assi. Lo stesso vale per quattro Banner, quattro Ober, quattro re | Quattro uguali]]\n\n[[karten: eichel-9, rosen-9, schellen-9, schilten-9 | Quattro nell, 150 punti: i quattro nove | Quattro nell]]\n\n[[karten: eichel-under, rosen-under, schellen-under, schilten-under | Quattro puur, 200 punti: i quattro Under, l'annuncio più alto tra le quattro uguali | Quattro puur]]\n\n[[karten: eichel-6, rosen-6, schellen-6, schilten-6 | Quattro sei, 100 punti, come quattro sette e quattro otto. Regole più vecchie non li ammettevano. Chi gioca così lo concorda prima della partita | Quattro sei]]\n\n## Gli Stöck\n\n[[karten: rosen-ober, rosen-koenig | Gli Stöck, qui in Rosen: re e Ober dello stesso seme, e questo seme deve essere l'atout. 20 punti | Stöck]]\n\nGli Stöck sono l'annuncio con regole proprie: si annunciano con la seconda delle due carte, in qualsiasi momento cada, e contano per la loro squadra anche quando gli avversari hanno l'annuncio più alto. Tutto al riguardo si trova nell'articolo Stöck (siehe Begriff \"weis_rules_stock\").\n\n## Tutti gli annunci con i loro punti\n\n| Annuncio | Carte | Punti |\n|---|---|---|\n| Sequenza di tre | 3 consecutive, un seme | 20 |\n| Sequenza di quattro | 4 consecutive | 50 |\n| Sequenza di cinque | 5 consecutive | 100 |\n| Sequenza di sei | 6 consecutive | 150 |\n| Sequenza di sette | 7 consecutive | 200 |\n| Sequenza di otto | 8 consecutive | 250 |\n| Sequenza di nove | 9 consecutive, tutto il seme | 300 |\n| Quattro uguali | sei, sette, otto, Banner, Ober, re o asso | 100 |\n| Quattro nell | i quattro nove | 150 |\n| Quattro puur | i quattro Under | 200 |\n| Stöck | re e Ober di atout | 20 |\n\nDove lo schieber (siehe Begriff \"general_schieber\") si gioca con i moltiplicatori, l'annuncio conta come i punti delle carte, con il moltiplicatore del tipo di atout: una sequenza di tre conta 40 quando il tipo di atout conta doppio.\n\n## Chi segna\n\n**Conta l'annuncio singolo più alto del tavolo.** La squadra che lo ha segna tutti i suoi annunci, anche i piccoli. Due sequenze di tre da una parte fanno insieme 40 e perdono contro una sola sequenza di quattro da 50 dall'altra: la squadra con la sequenza di quattro segna 50, l'altra niente.\n\nFanno eccezione gli Stöck: la loro squadra li segna in ogni caso.\n\n## Quale annuncio è più alto?\n\nDue annunci si confrontano in quest'ordine. Appena un passo decide, il confronto finisce:\n\n| Passo | Che cosa decide | Esempio |\n|---|---|---|\n| 1 | Il punteggio più alto | Sequenza di quattro 50 batte sequenza di tre 20 |\n| 2 | A pari punti e tipo diverso: più carte | Sequenza di cinque 100 batte quattro re 100 |\n| 3 | A pari tipo: la carta più alta, in undenufe la più bassa | Sequenza di tre all'asso batte sequenza di tre al re |\n| 4 | Se anche questo è uguale: l'annuncio precedente | Chi è di mano annuncia per primo, poi gli altri a turno |\n\nIl passo 2 significa allo stesso tempo: **una sequenza batte quattro uguali dello stesso valore**, perché ha sempre più carte. Tra quattro uguali decidono prima i punti, quattro puur a 200 prima di quattro nell a 150. A pari punti decide la carta più alta, quattro assi prima di quattro re.\n\nIl passo 4 si applica quando due squadre hanno la stessa sequenza in semi diversi. Vince allora l'annuncio precedente: segna la squadra del giocatore che era il primo a dover annunciare. Se chi è di mano annuncia una sequenza di tre al re in Eichel e il giocatore successivo una sequenza di tre al re in Rosen, segna la squadra di chi è di mano. Il seme di atout non conta nel confronto.\n\nÈ diffuso un passo in più: ad annunci per il resto uguali vince l'annuncio nel seme di atout, e solo dopo chi è di mano. Così prevedono le regole dello Schieber di Swisslos. Chi gioca così lo concorda prima della partita (siehe Begriff \"regeln_tischregel\").\n\n[[karten: rosen-banner, rosen-under, rosen-ober, rosen-koenig, rosen-ass | Una sequenza di cinque, 100 punti, cinque carte | Sequenza di cinque]]\n\n[[karten: eichel-koenig, rosen-koenig, schellen-koenig, schilten-koenig | Quattro re, anch'essi 100 punti, ma quattro carte: vince la sequenza di cinque | Quattro re]]\n\n[[karten: eichel-ober, eichel-koenig, eichel-ass | Sequenza di tre all'asso, 20 punti: la carta più alta è l'asso | Sequenza di tre all'asso]]\n\n[[karten: schilten-under, schilten-ober, schilten-koenig | Sequenza di tre al re, anch'essa 20: la carta più alta è il re, vince la sequenza di tre all'asso. Se entrambe arrivano all'asso, vince l'annuncio precedente | Sequenza di tre al re]]\n\n## Annunciare al tavolo\n\nOgni giocatore decide con la sua **prima carta** se annuncia. Se ha più annunci, sceglie lui quali dichiarare. Gli Stöck (siehe Begriff \"weis_rules_stock\") li annuncia sempre. Dapprima si dice solo il punteggio. Quando il giocatore successivo ha posato la sua carta, è troppo tardi. L'ultimo della presa ha tempo finché la presa non viene girata. Le carte restano in mano.\n\n| Chi | Dice | Che cosa significa |\n|---|---|---|\n| Chi è di mano, con la prima carta | «Cinquanta» | Ho un annuncio da 50 |\n| Un avversario, con la sua carta | «Anch'io cinquanta» | Ne ho altrettanto, ora si confronta |\n| Chi è di mano | «All'asso» | La mia sequenza arriva fino all'asso |\n| L'avversario | «Buono» | Il tuo è più alto |\n\nL'altezza si dice solo quando due squadre annunciano lo stesso punteggio. Allora entrambe dicono ciò che serve al confronto: il tipo di annuncio e la carta più alta. Se anche questi sono uguali, vince l'annuncio precedente: prima chi è di mano, poi gli altri a turno.\n\nQuando è stabilito quale squadra ha l'annuncio più alto, **ogni giocatore di questa squadra dice dopo la prima presa i suoi annunci con il seme e la carta più alta**, per esempio «sequenza di quattro all'asso di Rosen». Chi ha più annunci dice per primo il più prezioso. Il termine scade quando gioca la sua carta nella seconda presa, dopo l'annuncio decade. Così prevede il regolamento ufficiale svizzero del jass (*Offizielles Schweizer Jassreglement*).\n\n**Mostra le carte solo la squadra che segna.** Mostra il suo annuncio appena un giocatore vuole vederlo dopo la prima presa. La squadra battuta tiene il suo annuncio per sé.\n\n## Kreuzweis\n\nUna carta può appartenere allo stesso tempo a una sequenza e a quattro uguali: è il Kreuzweis. Valgono entrambi gli annunci, i loro punti si sommano.\n\n[[karten: rosen-ober, rosen-koenig!, rosen-ass | La sequenza di tre in Rosen. Il re di Rosen conta allo stesso tempo, con gli altri tre re, come quattro uguali, insieme 120 punti | Kreuzweis]]\n\nL'annuncio, l'ordine e le smazzate che lo escludono: tutto al riguardo si trova nell'articolo Kreuzweis (siehe Begriff \"weis_rules_kreuzweis\").\n\n## Annunci in obenabe e undenufe\n\nSequenze e quattro uguali valgono in ogni modalità di gioco. **In undenufe (siehe Begriff \"expressions_undenufe\") il sei è l'estremità superiore della sequenza**, perché lì è la carta più forte: una sequenza di tre otto, sette, sei batte una sequenza di tre nove, otto, sette. Lo stesso ordine vale in undenufe per quattro uguali dello stesso valore: vince la carta più bassa. In obenabe (siehe Begriff \"expressions_obenabe\") vale l'ordine abituale a partire dall'asso. Quattro nell contano 150 e quattro puur 200 anche dove non c'è atout. Gli Stöck presuppongono un atout e decadono in entrambe le modalità.\n\n[[karten: schellen-6, schellen-7, schellen-8 | In undenufe la sequenza di tre migliore, 20 punti: lì il sei è la carta più alta | Sequenza di tre in undenufe]]\n\n[[karten: schellen-7, schellen-8, schellen-9 | In undenufe la sequenza di tre più debole, 20 punti: arriva solo fino al sette. In obenabe questa sequenza di tre vincerebbe, perché lì il nove sta sopra l'otto | Sequenza di tre in undenufe]]\n\n## Un annuncio conta anche senza presa\n\nChi annuncia e poi non fa nessuna presa segna comunque il suo annuncio.\n\n## Annuncio sbagliato\n\nLa Federazione non ha un regolamento al riguardo e raccomanda: l'annuncio viene cancellato. Se il tavolo vuole una sanzione più pesante, la concorda prima della partita.\n\n",
+    "metadata": {
+      "seoTitle": "Annunci nel jass: tutti gli annunci con punti e regole | Jass-Wiki",
+      "seoDescription": "Sequenza di tre 20, sequenza di quattro 50, sequenza di cinque 100 fino alla sequenza di nove 300. Quattro uguali 100, quattro nell 150, quattro puur 200, Stöck 20. Ogni annuncio in immagine, chi segna."
+    },
+    "faqs": [
+      {
+        "question": "Che cos'è un annuncio nel jass?",
+        "answer": "Una combinazione di carte che porta punti prima che si giochi la prima presa: tre o più carte consecutive dello stesso seme, oppure quattro carte uguali. Si annuncia con la prima carta che si gioca."
+      },
+      {
+        "question": "Quali combinazioni di carte contano come annuncio nel jass?",
+        "answer": "Le sequenze da tre a nove carte dello stesso seme (dalla sequenza di tre alla sequenza di nove), quattro carte uguali (quattro uguali, quattro nell, quattro puur) e gli Stöck, cioè il re e l'Ober del seme di atout."
+      },
+      {
+        "question": "Quanti punti vale una sequenza di tre?",
+        "answer": "20 punti."
+      },
+      {
+        "question": "Quanti punti vale una sequenza di quattro?",
+        "answer": "50 punti."
+      },
+      {
+        "question": "Quanti punti vale una sequenza di cinque?",
+        "answer": "100 punti. Poi il valore sale di 50 per carta: sequenza di sei 150, sequenza di sette 200, sequenza di otto 250, sequenza di nove 300."
+      },
+      {
+        "question": "Quanti punti valgono quattro uguali?",
+        "answer": "100 punti per quattro sei, sette, otto, Banner, Ober, re o assi. Quattro nell contano 150, quattro puur 200."
+      },
+      {
+        "question": "Quattro sei, sette o otto contano come annuncio?",
+        "answer": "Sì, 100 punti ciascuno, come quattro assi. Regole più vecchie non li ammettevano. Chi gioca così lo concorda prima della partita."
+      },
+      {
+        "question": "In quale ordine contano le carte di una sequenza?",
+        "answer": "Le carte che formano una sequenza sono le stesse in ogni seme e in ogni modalità di gioco: sei, sette, otto, nove, Banner, Under, Ober, re, asso. Per l'annuncio il puur e il nell restano al loro posto. Con l'atout e in obenabe l'asso è l'estremità superiore, in undenufe il sei."
+      },
+      {
+        "question": "Quale annuncio è più alto quando entrambi valgono uguale?",
+        "answer": "A tipo diverso vince l'annuncio con più carte: una sequenza di cinque batte quattro re. A pari tipo vince la carta più alta: una sequenza di tre all'asso batte una sequenza di tre al re. In undenufe vince la carta più bassa. Se gli annunci sono esattamente uguali, vince il precedente: segna la squadra del giocatore che era il primo a dover annunciare."
+      },
+      {
+        "question": "Chi segna gli annunci?",
+        "answer": "La squadra con l'annuncio singolo più alto segna tutti i suoi annunci, la squadra avversaria nessuno. Due sequenze di tre (40) perdono contro una sequenza di quattro (50). Gli Stöck la loro squadra li segna in ogni caso."
+      },
+      {
+        "question": "Quando si annuncia?",
+        "answer": "Con la prima carta che si gioca. Dapprima si dice solo il punteggio. L'altezza si dice solo quando due squadre annunciano lo stesso punteggio. Dopo la prima presa ogni giocatore della squadra con l'annuncio più alto dice i suoi annunci con il seme e la carta più alta, per esempio «sequenza di quattro all'asso di Rosen». Li mostra appena un giocatore lo chiede. Chi annuncia dice il seme e la carta più alta prima di giocare nella seconda presa."
+      },
+      {
+        "question": "Chi mostra il suo annuncio?",
+        "answer": "Solo la squadra che segna. La squadra battuta tiene il suo annuncio per sé."
+      },
+      {
+        "question": "Si può tenere un annuncio per sé?",
+        "answer": "Sì. Ogni giocatore sceglie lui quali dei suoi annunci dichiarare. Gli Stöck li annuncia sempre."
+      },
+      {
+        "question": "Ad annunci uguali vince l'annuncio nel seme di atout?",
+        "answer": "La Federazione Svizzera di Jass raccomanda: ad annunci esattamente uguali vince il precedente, cioè la squadra del giocatore che era il primo a dover annunciare. È diffuso anche far vincere prima l'annuncio nel seme di atout. Così prevedono le regole dello Schieber di Swisslos. Chi gioca così lo concorda prima della partita."
+      },
+      {
+        "question": "L'annuncio vale in obenabe e undenufe?",
+        "answer": "Sì. In undenufe il sei è l'estremità superiore della sequenza: una sequenza di tre otto, sette, sei batte una sequenza di tre nove, otto, sette. Quattro nell contano 150 e quattro puur 200 anche senza atout. Gli Stöck presuppongono un atout e lì decadono."
+      },
+      {
+        "question": "L'annuncio conta anche se non si fa nessuna presa?",
+        "answer": "Sì. Chi annuncia e poi non fa nessuna presa segna comunque il suo annuncio."
+      },
+      {
+        "question": "Che cosa succede con un annuncio sbagliato?",
+        "answer": "La Federazione non ha un regolamento al riguardo e raccomanda: l'annuncio viene cancellato. Se il tavolo vuole una sanzione più pesante, la concorda prima della partita."
+      },
+      {
+        "question": "Che cosa sono gli Stöck?",
+        "answer": "Il re e l'Ober del seme di atout, 20 punti. Si annunciano con la seconda delle due carte e contano anche quando gli avversari hanno l'annuncio più alto."
+      },
+      {
+        "question": "Che cosa significa Wys nel jass?",
+        "answer": "Wys è la forma svizzero tedesca di Weis, la parola tedesca per annuncio. Indica la stessa cosa: una combinazione di carte che porta punti prima che si giochi la prima presa. Al tavolo si sente Wys più spesso di Weis."
+      }
+    ]
+  },
+  "weis_rules_stock": {
+    "id": "weis_rules_stock",
+    "text": "Gli Stöck sono il re e l'Ober del seme di atout in una stessa mano. Contano 20 punti e sono l'annuncio con regole proprie: si annunciano con la seconda delle due carte, e contano per la loro squadra anche quando gli avversari hanno l'annuncio più alto o non le lasciano nessuna presa. Questo articolo descrive il modo di giocare raccomandato dalla [Federazione Svizzera di Jass](https://jassverband.ch). Ciò che un tavolo concorda diversamente prima dell'inizio del gioco vale per esso come regola del tavolo (siehe Begriff \"regeln_tischregel\").\n\n## Che cosa sono gli Stöck\n\n[[karten: rosen-ober, rosen-koenig | Gli Stöck con atout Rosen: re e Ober del seme di atout, 20 punti | Stöck]]\n\n[[karten: eichel-ober, eichel-koenig | Le stesse due carte in un altro seme, qui Eichel con atout Rosen: due carte comuni, re 4 e Ober 3, nessun annuncio | Ober e re in un seme secondario]]\n\nIl re e l'Ober diventano Stöck solo perché il loro seme è l'atout (siehe Begriff \"expressions_trumpffarbe\"). Se l'atout cambia con la smazzata successiva, sono di nuovo due carte comuni. In obenabe (siehe Begriff \"expressions_obenabe\") e undenufe (siehe Begriff \"expressions_undenufe\") quindi non ci sono Stöck.\n\nIn tedesco, al tavolo, si dice **die Stöck**, al singolare come al plurale.\n\n## Quando e come si annunciano gli Stöck\n\nPer i suoi altri annunci il giocatore sceglie lui quali dichiarare. Gli Stöck li annuncia sempre.\n\nUn annuncio comune si fa quando il giocatore gioca la sua prima carta della smazzata, qualunque essa sia. Gli Stöck si annunciano solo con la seconda delle loro due carte. Chi gioca il re e ha ancora l'Ober non dice ancora niente. Solo con la seconda carta dice «Stöck», in qualsiasi presa ciò avvenga.\n\n| Quando | Che cosa vale |\n|---|---|\n| La prima delle due carte è giocata | Non dire ancora niente. Si annuncia con la seconda |\n| La seconda delle due carte è giocata | «Stöck», e i 20 vanno subito sulla lavagna |\n| Il giocatore successivo ha coperto la seconda carta | Troppo tardi, gli Stöck decadono |\n| Il compagno si accorge che l'annuncio manca | Tace. Può annunciare solo chi ha gli Stöck. Se il compagno lo dice al suo posto, gli Stöck decadono |\n| La seconda carta è l'ultima della presa | L'annuncio vale finché la presa non viene girata. Così la legge la Federazione, perché lo stesso vale per l'annuncio comune |\n\nSe la seconda carta è coperta o la smazzata è finita, gli Stöck decadono, durante la smazzata come dopo. Così prevede il regolamento ufficiale svizzero del jass (*Offizielles Schweizer Jassreglement*).\n\nDue eccezioni permettono di annunciare prima:\n\n• **Gli Stöck sono contenuti in un altro annuncio.** Chi ha una sequenza di atout che contiene il re e l'Ober, per esempio una sequenza di tre all'asso di atout, può annunciare con la sua prima carta entrambi, la sequenza e gli Stöck. Gli Stöck li segna in ogni caso, la sequenza se la sua squadra ha l'annuncio più alto del tavolo\n• **Gli Stöck bastano per chiudere.** Se a una squadra mancano 20 punti o meno per raggiungere l'obiettivo, può mostrare gli Stöck in anticipo in qualsiasi momento, anche prima che una delle due carte sia giocata, ma al più tardi con la seconda. Anche per il Bergpreis (siehe Begriff \"bergpreis\") vale Stöck prima dell'annuncio prima della presa (vedi sotto), perciò gli Stöck si possono mostrare in anticipo anche lì\n\n[[karten: rosen-ober, rosen-koenig, rosen-ass | Sequenza di tre all'asso di atout, 20 punti, con dentro gli Stöck, altri 20. Entrambi si annunciano con la prima carta che il giocatore posa nella smazzata. Insieme 40, se la sua squadra ha l'annuncio più alto del tavolo | Sequenza di tre con Stöck]]\n\nGli Stöck contano in più rispetto a qualsiasi altro annuncio, re e Ober possono quindi stare in entrambi. Per sequenza e quattro uguali lo regola il Kreuzweis (siehe Begriff \"weis_rules_kreuzweis\").\n\n## Gli Stöck restano fuori dal confronto degli annunci\n\nPer tutti gli altri annunci segna solo la squadra con l'annuncio singolo più alto (siehe Begriff \"expressions_weis\"). Gli Stöck restano fuori da questo confronto:\n\n| Situazione | Annuncio comune | Stöck |\n|---|---|---|\n| Gli avversari hanno l'annuncio più alto | decade | contano |\n| La propria squadra non fa nessuna presa, gli avversari fanno il match (siehe Begriff \"expressions_matsch\") | conta oggi, decadeva secondo le vecchie regole | contano, allora come oggi |\n| L'atout conta doppio | con il moltiplicatore | con il moltiplicatore, quindi 40 |\n\nSecondo le vecchie regole del jass, in vigore fino alla fine del XX secolo, una squadra poteva segnare il suo annuncio solo se faceva almeno una presa. Gli Stöck si potevano segnare sempre, l'annuncio solo quando la presa era fatta. Per questo alcuni tavoli conoscono ancora oggi l'ordine «Stöck, Stich, Wys» (Stöck, presa, annuncio): la presa era sicura, l'annuncio non ancora.\n\nNello schieber (siehe Begriff \"general_schieber\") con moltiplicatori, il moltiplicatore del seme di atout vale allo stesso modo per i punti delle carte, l'annuncio e gli Stöck: con un seme di atout che conta doppio, gli Stöck segnano 40.\n\n## Stöck, Wys, Stich\n\nLa formula indica la regola di chiusura (siehe Begriff \"ausmachregel\"): se entrambe le squadre raggiungono l'obiettivo nella prima presa dell'ultima smazzata, decide l'ordine Stöck prima dell'annuncio prima della presa, indipendentemente da chi ha dichiarato per primo di aver raggiunto l'obiettivo («sich bedanken», siehe Begriff \"bedanken\").\n\n| Situazione prima dell'ultima smazzata, obiettivo 1000 | Squadra A | Squadra B |\n|---|---|---|\n| Prima della smazzata | 981 | 971 |\n| La prima presa, 30 punti, va a B | 981 | 1001 |\n| A mostra gli Stöck | 1001 | 1001 |\n| Chi vince | **A, perché gli Stöck vengono prima della presa** | |\n\nSe gli Stöck da soli bastano per raggiungere l'obiettivo, vince la loro squadra. Se bastano solo insieme a un annuncio, per quell'annuncio vale il confronto comune: una sequenza di quattro degli avversari batte Stöck e sequenza di tre insieme.\n\nQuest'ordine vale solo nella prima presa. Appena si è giocato nella seconda presa, vince chi dichiara per primo di aver raggiunto l'obiettivo con abbastanza punti, e chi annuncia i suoi Stöck solo dopo la dichiarazione degli avversari arriva troppo tardi. Per questo conviene mostrare gli Stöck in anticipo appena bastano per raggiungere l'obiettivo. Altri ordini, per esempio Stöck, Stich, Wys, un tavolo li concorda prima della partita.\n\n## Gli Stöck in singoli tipi di jass\n\n• **Schieber:** come sopra, con il moltiplicatore del seme di atout\n• **Bieter** (siehe Begriff \"variants_strategic_bieder\"): se il «König», il giocatore singolo, rinuncia a una smazzata, i due avversari, la «Bauernpartei», aggiungono i loro Stöck ai 257 punti. Il «König» segna i suoi Stöck solo se gioca\n• **Hindersi** (siehe Begriff \"variants_specialty_hindersi\"): lì contano solo i punti delle carte. Annuncio e Stöck restano fuori dal gioco",
+    "metadata": {
+      "seoTitle": "Stöck nel jass: re e Ober di atout, 20 punti | Jass-Wiki",
+      "seoDescription": "Re e Ober del seme di atout, 20 punti. Annunciati con la seconda carta, contano sempre, anche contro l'annuncio più alto. Le eccezioni, Stöck Wys Stich."
+    },
+    "faqs": [
+      {
+        "question": "Che cosa sono gli Stöck nel jass?",
+        "answer": "Il re e l'Ober del seme di atout in una stessa mano. Contano 20 punti e sono un annuncio con regole proprie: si annunciano con la seconda delle due carte, e contano per la loro squadra anche quando gli avversari hanno l'annuncio più alto."
+      },
+      {
+        "question": "Quanti punti contano gli Stöck?",
+        "answer": "20 punti. Nello schieber con moltiplicatori vale il moltiplicatore del seme di atout, quindi 40 con un atout che conta doppio."
+      },
+      {
+        "question": "Quando si annunciano gli Stöck?",
+        "answer": "Con la seconda delle due carte, in qualsiasi presa venga giocata. Chi gioca il re e ha ancora l'Ober non dice ancora niente. Solo con la seconda carta dice «Stöck», e i 20 vanno subito sulla lavagna."
+      },
+      {
+        "question": "Si possono tenere gli Stöck per sé?",
+        "answer": "Gli Stöck si annunciano sempre. Per i suoi altri annunci il giocatore sceglie lui quali dichiarare."
+      },
+      {
+        "question": "Si possono annunciare gli Stöck dopo?",
+        "answer": "Se il giocatore successivo ha coperto la seconda carta o la smazzata è finita, gli Stöck decadono, durante la smazzata come dopo. Si possono annunciare prima in due casi: se sono contenuti in un altro annuncio, si annunciano con esso. Se bastano per chiudere, si possono mostrare in anticipo in qualsiasi momento, ma al più tardi con la seconda carta."
+      },
+      {
+        "question": "Il compagno può segnalare gli Stöck?",
+        "answer": "Tace. Può annunciare solo chi ha gli Stöck. Se il compagno lo dice al suo posto, gli Stöck decadono."
+      },
+      {
+        "question": "Gli Stöck contano anche quando gli avversari hanno l'annuncio più alto?",
+        "answer": "Sì. Gli Stöck contano per la loro squadra anche quando gli avversari hanno l'annuncio più alto, senza una propria presa e perfino quando gli avversari fanno il match. Se nella chiusura raggiungono l'obiettivo solo insieme a un annuncio, per quell'annuncio vale il confronto comune."
+      },
+      {
+        "question": "Che cosa significa Stöck, Wys, Stich?",
+        "answer": "La regola di chiusura: se entrambe le squadre raggiungono l'obiettivo nella prima presa dell'ultima smazzata, vince prima chi lo raggiunge con gli Stöck, poi chi lo raggiunge con l'annuncio, infine chi lo raggiunge con la presa, indipendentemente da chi ha dichiarato per primo di aver raggiunto l'obiettivo."
+      },
+      {
+        "question": "Stöck, Wys, Stich vale anche nella seconda presa?",
+        "answer": "No, solo nella prima presa. Dopo vince chi dichiara per primo di aver raggiunto l'obiettivo con abbastanza punti."
+      },
+      {
+        "question": "Si possono mostrare gli Stöck in anticipo quando bastano per chiudere?",
+        "answer": "Sì, in qualsiasi momento, anche prima che una delle due carte sia giocata, ma al più tardi con la seconda. Lo stesso vale per il Bergpreis."
+      },
+      {
+        "question": "Ci sono gli Stöck in obenabe e undenufe?",
+        "answer": "No. Gli Stöck presuppongono un seme di atout, lì il re e l'Ober sono carte comuni."
+      },
+      {
+        "question": "Gli Stöck contano nell'Hindersi?",
+        "answer": "Nell'Hindersi contano solo i punti delle carte. Annuncio e Stöck restano fuori dal gioco."
+      },
+      {
+        "question": "Che cosa vale nel Bieter quando il König rinuncia?",
+        "answer": "La «Bauernpartei», cioè gli avversari del «König», aggiunge i suoi Stöck ai 257 punti. Il «König» segna i suoi Stöck solo se gioca."
+      },
+      {
+        "question": "Si dice Stöck o Stöcke?",
+        "answer": "In tedesco, al tavolo, si dice «die Stöck», al singolare come al plurale."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_hash": "sha256 von jq -c '.[id] | {text, faqs}' auf src/data/jass-content-v2.json zum Zeitpunkt der Übersetzung. Weicht der heutige Hash ab, ist die Übersetzung veraltet.",
+  "expressions_weis": {
+    "deHash": "23329c3e5af8b4733eabc441b0188e6dccf8a2b135bd1499ceeafdf73fe16af6",
+    "deStand": "3fab5d7",
+    "fr": { "uebersetzt": "2026-09-28", "lektorat": "offen" },
+    "it": { "uebersetzt": "2026-09-28", "lektorat": "offen" }
+  },
+  "weis_rules_stock": {
+    "deHash": "17c46970918f9cc2a8ae9a7534d148f7011ff4ac6a08101558ce50b7506760c3",
+    "deStand": "3fab5d7",
+    "fr": { "uebersetzt": "2026-09-28", "lektorat": "offen" },
+    "it": { "uebersetzt": "2026-09-28", "lektorat": "offen" }
+  }
+}
