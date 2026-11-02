@@ -9,8 +9,8 @@ Quelle «Haus» = bereits so auf jassverband.ch (News, Wörterbücher).
 
 | DE | FR | IT | Status | Quelle, Begründung |
 |---|---|---|---|---|
-| Weis / Wys | annonce | annuncio | Vorschlag | FR «annonces» ist Romandie-Tischsprache. IT offen fürs Tessin |
-| weisen, melden | annoncer, déclarer | annunciare, dichiarare | Vorschlag | |
+| Weis / Wys | annonce | saggio | gesetzt | Glossar JVS 02.10.26 (Swisslos IT, abnahme/glossar-i18n.md in jasstafel) |
+| weisen, melden | annoncer | dichiarare | gesetzt | wie die App |
 | Folge | suite | sequenza | Vorschlag | |
 | Dreiblatt … Neunblatt | suite de trois … suite de neuf | sequenza di tre … sequenza di nove | Vorschlag | beschreibend statt «tierce/quarte» (Belote) |
 | Dreiblatt vom Ass | suite de trois à l'as | sequenza di tre all'asso | Vorschlag | |
@@ -63,3 +63,9 @@ Quelle «Haus» = bereits so auf jassverband.ch (News, Wörterbücher).
 | «Fünfzig auch» | « Cinquante aussi » | «Anch'io cinquanta» |
 | «Vom Ass» | « À l'as » | «All'asso» |
 | «Gut» | « Bon » | «Buono» |
+
+## Massgeblich seit 02.11.26: das Glossar der App
+
+Für alle Sites gilt `abnahme/glossar-i18n.md` in jasstafel (gesetzt vom JVS am 02.10.26). Für Italienisch heisst das: Trumpf = briscola, Weis = saggio, Stöck = mazza, Runde = mano, Strich = segno, Tafel = lavagna. Für Französisch: Schieber = Chibre, Schneider = rubicon, Kontermatsch = match à rebours, Runde = donne. Widerspricht eine Zeile oben, gilt diese Regel.
+
+Die IT-Pilotfassung vom 28.09.26 (expressions_weis, weis_rules_stock) trägt noch atout, annuncio und smazzata und wird in der ersten Tranche neu übersetzt.
