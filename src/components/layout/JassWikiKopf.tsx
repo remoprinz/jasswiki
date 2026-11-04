@@ -144,7 +144,7 @@ export const KopfTelefon = React.forwardRef<
           ref={menueKnopf}
           type="button"
           className="jw-kopf-knopf"
-          aria-label="Navigation öffnen"
+          aria-label="Menü öffnen"
           aria-expanded={menueOffen}
           onClick={onMenue}
         >
