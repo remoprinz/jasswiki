@@ -410,7 +410,7 @@ In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schr
 | ≥ 85 | Sprössling 🌱 |
 | ≥ 80 | Hahn 🐓 |
 | ≥ 75 | Huhn 🐔 |
-| ≥ 70 | Kücken 🐥 |
+| ≥ 70 | Küken 🐥 |
 | ≥ 65 | Chlaus 🎅 |
 | ≥ 60 | Chäs 🧀 |
 | ≥ 55 | Ente 🦆 |
