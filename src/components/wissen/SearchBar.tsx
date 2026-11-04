@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import Link from 'next/link';
+import { ZeichenSuchen } from '@/components/layout/JassWikiZeichen';
 import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
@@ -41,7 +42,11 @@ const META_PAGES: SearchResult[] = [
   },
 ];
 
-export const SearchBar: React.FC = () => {
+/** kopf: «Suche · klein» im Kopf Desktop, Figma 2280:1971. telefon: «Suche», Figma 2299:3346. */
+export const SearchBar: React.FC<{
+  variante: 'kopf' | 'telefon';
+  eingabeRef?: React.RefObject<HTMLInputElement | null>;
+}> = ({ variante, eingabeRef }) => {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -49,6 +54,22 @@ export const SearchBar: React.FC = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const searchRef = useRef<HTMLDivElement>(null);
+  const eigeneEingabe = useRef<HTMLInputElement | null>(null);
+  const eingabe = eingabeRef ?? eigeneEingabe;
+
+  // Taste / öffnet die Suche im Kopf (Figma: Beschreibung von 2280:2000).
+  useEffect(() => {
+    if (variante !== 'kopf') return;
+    const taste = (e: KeyboardEvent) => {
+      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+      const ziel = e.target as HTMLElement | null;
+      if (ziel?.closest('input, textarea, select, [contenteditable="true"]')) return;
+      e.preventDefault();
+      eingabe.current?.focus();
+    };
+    document.addEventListener('keydown', taste);
+    return () => document.removeEventListener('keydown', taste);
+  }, [variante, eingabe]);
 
   const closeSearch = () => {
     setIsOpen(false);
@@ -201,30 +222,33 @@ export const SearchBar: React.FC = () => {
 
   return (
     <div ref={searchRef} className="relative w-full">
-      {/* Search Input — Penpot desktop: x=445, y=33, h=42, border #88816d */}
-      <div className="relative flex items-center">
-        <Search className="absolute left-4 w-4 h-4 text-[#968f7e] pointer-events-none" />
+      <div className={`jw-suche jw-suche-${variante}${useActiveInputStyle ? ' ist-aktiv' : ''}`}>
+        <span className="jw-suche-zeichen">
+          <ZeichenSuchen groesse={variante === 'kopf' ? 12 : 11} />
+        </span>
         <input
+          ref={eingabe}
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
-          placeholder="Suche nach Begriffen, Regeln, Varianten..."
-          className={`w-full pl-[44px] pr-[36px] py-[8px] bg-[#f0eee7] text-black placeholder:text-[#968f7e] placeholder:font-capita placeholder:text-[20px] rounded-[12px] focus:outline-none focus:ring-0 transition-all text-[16px] leading-[1.55] font-inter h-[42px] ${
-            isFocused ? 'border-2 border-[#ff0000]' : 'border border-transparent'
-          }`}
+          placeholder={variante === 'kopf' ? 'Suchen …' : 'Suche nach Begriffen, Regeln …'}
+          aria-label="Suchen"
+          className="jw-suche-eingabe"
         />
-        {query && (
-          <button onClick={handleClear} className="absolute right-3">
-            <X className="w-4 h-4 text-[#968f7e] hover:text-black transition-colors" />
+        {query ? (
+          <button type="button" onClick={handleClear} className="jw-suche-leeren" aria-label="Suche leeren">
+            <X className="w-4 h-4" />
           </button>
+        ) : (
+          variante === 'kopf' && !isFocused && <kbd className="jw-suche-taste">/</kbd>
         )}
       </div>
 
-      {/* Desktop search results — KEIN Overlay-Div, Blur via CSS auf .jw-desktop-content */}
-      {showDesktopOverlay && (
-          <div className="hidden lg:block fixed left-[calc(50%-274px)] top-[112px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
+      {/* Treffer Desktop: unter dem Feld, rechtsbündig, 550 breit. */}
+      {variante === 'kopf' && showDesktopOverlay && (
+          <div className="hidden lg:block absolute right-0 top-[48px] w-[550px] h-[528px] bg-white border border-[#f0eee7] rounded-[12px] z-[50] overflow-hidden">
             <div className="absolute left-[16px] top-[13px] w-[506px] text-[14px] leading-[1.55] font-inter font-normal text-[#88816d]">
               {results.length} {results.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
             </div>
@@ -274,7 +298,7 @@ export const SearchBar: React.FC = () => {
       )}
 
       {/* Mobile/Tablet Dropdown */}
-      {!isDesktop && isOpen && results.length > 0 && (
+      {variante === 'telefon' && !isDesktop && isOpen && results.length > 0 && (
         <div className="absolute z-50 w-full mt-2 bg-white border border-wiki-sand/50 rounded-xl shadow-2xl max-h-96 overflow-y-auto">
           <div className="p-2">
             <div className="text-[12px] text-wiki-muted px-3 py-2 font-inter font-medium tracking-wide uppercase">
@@ -305,7 +329,7 @@ export const SearchBar: React.FC = () => {
         </div>
       )}
 
-      {!isDesktop && isOpen && query.length >= 2 && results.length === 0 && (
+      {variante === 'telefon' && !isDesktop && isOpen && query.length >= 2 && results.length === 0 && (
         <div className="absolute z-50 w-full mt-2 bg-white border border-wiki-sand/50 rounded-xl shadow-2xl p-6 text-center">
           <Search className="w-10 h-10 text-wiki-sand mx-auto mb-3" />
           <p className="text-black font-capita font-bold mb-1">Keine Ergebnisse</p>

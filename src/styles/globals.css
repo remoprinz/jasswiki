@@ -473,12 +473,241 @@ body.lexikon-page div[id="__next"] {
 }
 
 /* ---------------------------------------------------------------------------
-   SEITENNAVIGATION (jw-nav-*), Jens Bauhütte 203, 30.10.2026
-   Grund der Leiste #0F1A10 (LexikonLayout). Alle Töne fest, ohne Deckkraft auf
-   Text. Masse: Bereich 12 vom Leistenrand, Hauptbereich Text +12, Unterseite
-   +24, Führungslinie der dritten Ebene +27, deren Text +42. Der gelbe Balken
-   der aktiven Seite (4 px) liegt mittig auf der 2-px-Linie.
+   KOPF (jw-kopf-*), Figma Komponentensatz 2280:2000, Update 1.5
+   Desktop 72 hoch, Inhalt 1200 ab x 120, Abstände 32. Telefon 60 hoch, Rand 16,
+   Knöpfe rund 44. Aktiv: Inter 700. Der Knoten trägt zudem eine Linie 2 unten in
+   Weiss 32 % (Variable 78:89): auf dem weissen Grund unsichtbar, so auch in Figma.
    --------------------------------------------------------------------------- */
+.jw-kopf {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1a1a1a;
+}
+.jw-kopf-desktop {
+  height: 72px;
+  gap: 32px;
+  padding-inline: max(24px, calc((100% - 1200px) / 2));
+}
+.jw-kopf-zeile {
+  height: 60px;
+  gap: 4px;
+  padding-inline: 16px;
+}
+.jw-kopf-telefon {
+  background: #ffffff;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: 12px;
+}
+.jw-kopf-telefon-suche {
+  padding: 10px 16px 0;
+}
+.jw-kopf-logo {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 39px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.jw-kopf-wortmarke {
+  font-family: 'Capita', Georgia, serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38.64px;
+  white-space: nowrap;
+}
+.jw-kopf-platz {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.jw-kopf-navigation {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.jw-kopf-themen {
+  position: relative;
+}
+.jw-kopf-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #1a1a1a;
+  white-space: nowrap;
+  text-decoration: none;
+  background: transparent;
+}
+.jw-kopf-nav:hover {
+  color: #0b5420;
+}
+.jw-kopf-nav.ist-aktiv {
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.32);
+}
+.jw-kopf-nav-zeichen {
+  display: inline-flex;
+  color: #696969;
+}
+/* Themen-Liste: im Satz der Seitennavigation, Figma führt dafür keinen Knoten. */
+.jw-kopf-themen-liste {
+  position: absolute;
+  top: 44px;
+  left: -12px;
+  z-index: 50;
+  width: 300px;
+  padding: 8px 0;
+  border-radius: 12px;
+  background: #011304;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+.jw-kopf-themen-liste .jw-nav-haupt {
+  padding-right: 12px;
+}
+.jw-kopf-themen-liste .jw-nav-haupt:hover,
+.jw-kopf-themen-liste .jw-nav-haupt[aria-current] {
+  background: #0b5420;
+}
+.jw-kopf-suche {
+  flex: 0 1 300px;
+  min-width: 160px;
+}
+.jw-kopf-online {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  width: 144px;
+  height: 36px;
+  justify-content: center;
+
+  border: 1.5px solid #0b5420;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  color: #0b5420;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.jw-kopf-online:hover {
+  background: #0b5420;
+  color: #ffffff;
+}
+.jw-kopf-knopf {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #1a1a1a;
+  background: transparent;
+}
+.jw-kopf-knopf:hover {
+  background: #f3efe6;
+}
+.jw-kopf a:focus-visible,
+.jw-kopf button:focus-visible {
+  outline: 2px solid #0b5420;
+  outline-offset: 2px;
+}
+
+/* Suchfelder: «Suche · klein» 2280:1971 (300 × 40), «Suche» 2299:3346 (358 × 44).
+   Grund #F3EFE6, Ecke 12, Polster 12, Lücke 10. Aktiv nach «Suchfeld · aktiv»
+   2275:1898: Grund weiss, Rand 2.5 #2BB752. */
+.jw-suche {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-inline: 12px;
+  border-radius: 12px;
+  background: #f3efe6;
+}
+.jw-suche.ist-aktiv {
+  background: #ffffff;
+  box-shadow: inset 0 0 0 2.5px #2bb752;
+}
+.jw-suche-kopf {
+  height: 40px;
+}
+.jw-suche-telefon {
+  height: 44px;
+}
+.jw-suche-zeichen {
+  flex: none;
+  display: inline-flex;
+  color: #696969;
+}
+.jw-suche-eingabe {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  background: transparent;
+  color: #1a1a1a;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  outline: none;
+}
+.jw-suche-kopf .jw-suche-eingabe {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.jw-suche-kopf .jw-suche-eingabe::placeholder {
+  color: #8a9088;
+  opacity: 1;
+}
+/* Telefon: Eingabe 16, sonst zoomt iOS beim Antippen. */
+.jw-suche-telefon .jw-suche-eingabe {
+  font-size: 16px;
+  line-height: 22.08px;
+}
+.jw-suche-telefon .jw-suche-eingabe::placeholder {
+  font-family: 'Capita', Georgia, serif;
+  font-weight: 700;
+  color: #696969;
+  opacity: 1;
+}
+.jw-suche-taste {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 27px;
+  border: 1px solid #e3ded4;
+  border-radius: 8px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  line-height: 16.8px;
+  color: #696969;
+}
+.jw-suche-leeren {
+  flex: none;
+  display: inline-flex;
+  color: #696969;
+}
+.jw-suche-leeren:hover {
+  color: #1a1a1a;
+}
+
+/* ---------------------------------------------------------------------------
+   SEITENNAVIGATION (jw-nav-*), Figma 2299:2935 Desktop und 2299:3371 Telefon,
+   Update 1.5. Grund #011304, offene Gruppe #0B5420, Text #F3EFE6.
+   Hauptbereich 43 hoch: Capita 700 18/24.84, Polster 12/9. Unterseite 36 hoch:
+   Inter 14/19.6, Text +28. Dritte Ebene: Führungslinie +28 in 1, aktive Seite mit
+   Balken 3 #FFED00 und Inter 700 in Weiss, Text +44.
+   --------------------------------------------------------------------------- */
+.jw-menue-telefon {
+  padding: 16px 16px calc(24px + env(safe-area-inset-bottom));
+}
 .jw-nav {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
@@ -488,111 +717,120 @@ body.lexikon-page div[id="__next"] {
   padding: 0;
 }
 .jw-nav-titel {
-  margin: 0 0 10px;
-  padding: 0 12px;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: 0.08em;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.72px;
   text-transform: uppercase;
-  color: #aaa597;
+  color: #f3efe6;
 }
 .jw-nav-liste1 {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+}
+@media (min-width: 1024px) {
+  .jw-nav-titel {
+    margin-bottom: 2px;
+  }
+  .jw-nav-liste1 {
+    gap: 2px;
+  }
 }
 .jw-nav-bereich.ist-offen {
-  margin: 4px 0;
-  padding-bottom: 6px;
+  padding: 4px 0;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.07);
-}
-.jw-nav-bereich:has(> .jw-nav-zeile.ist-aktiv) {
-  border-top-left-radius: 0;
+  background: #0b5420;
 }
 .jw-nav-zeile {
   display: flex;
   align-items: center;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
+}
+.jw-nav-zeile:hover {
+  background: rgba(255, 255, 255, 0.08);
 }
 .jw-nav-zeile.ist-aktiv {
-  background: rgba(255, 255, 255, 0.16);
-  box-shadow: inset 4px 0 0 #ffed02;
+  border-radius: 0 8px 8px 0;
+  box-shadow: inset 3px 0 0 #ffed00;
 }
 .jw-nav-haupt {
   flex: 1 1 auto;
   min-width: 0;
   display: block;
-  padding: 9px 12px;
+  padding: 9px 0 9px 12px;
   font-family: 'Capita', Georgia, serif;
-  font-size: 16.5px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.4;
-  color: #ffffff;
+  line-height: 25px;
+  color: #f3efe6;
+  text-decoration: none;
+}
+.jw-nav-liste2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px !important;
 }
 .jw-nav-unter {
   flex: 1 1 auto;
   min-width: 0;
   display: block;
-  padding: 8px 12px 8px 24px;
-  border-radius: 0 8px 8px 0;
-  font-size: 14.5px;
+  padding: 8px 0 8px 28px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.45;
-  color: #e4dfd3;
+  line-height: 20px;
+  color: #f3efe6;
 }
 .jw-nav .jw-nav-liste3 {
-  margin: 0 0 4px 27px;
-  border-left: 2px solid rgba(243, 239, 230, 0.28);
+  display: flex;
+  flex-direction: column;
+  margin: 2px 0 0 28px;
+  border-left: 1px solid #f3efe6;
 }
 .jw-nav-seite {
   display: block;
-  padding: 8px 12px 8px 13px;
-  border-radius: 0 8px 8px 0;
-  font-size: 14.5px;
+  padding: 8px 12px 8px 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.45;
-  color: #e4dfd3;
+  line-height: 20px;
+  color: #f3efe6;
 }
-.jw-nav-unter:hover,
 .jw-nav-seite:hover {
-  color: #ffffff;
   background: rgba(255, 255, 255, 0.08);
 }
-.jw-nav-unter.ist-eltern,
+.jw-nav-haupt.ist-aktiv,
 .jw-nav-unter.ist-aktiv {
-  font-weight: 600;
   color: #ffffff;
 }
-.jw-nav-zeile.ist-aktiv .jw-nav-unter:hover {
-  background: transparent;
+.jw-nav-unter.ist-aktiv {
+  font-weight: 700;
 }
-/* Aktive Seite der dritten Ebene: Der Balken liegt auf der Führungslinie, die
-   Fläche ist nur rechts gerundet. */
+/* Aktive Seite, Figma 2299:3443: Balken 3, keine Fläche. */
 .jw-nav-seite.ist-aktiv,
 .jw-nav-seite.ist-aktiv:hover {
-  margin-left: -3px;
   padding-left: 12px;
-  border-left: 4px solid #ffed02;
-  background: rgba(255, 255, 255, 0.16);
-  font-weight: 600;
+  border-left: 3px solid #ffed00;
+  background: transparent;
+  font-weight: 700;
+  line-height: 17px;
   color: #ffffff;
 }
-.jw-nav-pfeil {
-  flex: 0 0 32px;
-  height: 32px;
-  margin-right: 6px;
+/* Zeichen rechts: Mitte 15 vom Rand (Figma 2299:3376), Tippfläche 44 breit. */
+.jw-nav-pfeil,
+.jw-nav-wegweiser {
+  flex: 0 0 44px;
+  align-self: stretch;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  color: #bdb8ab;
-  background: transparent;
+  justify-content: flex-end;
+  padding-right: 8px;
+  color: #f3efe6;
 }
-.jw-nav-pfeil:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+.jw-nav-pfeil {
+  border-radius: 8px;
+  background: transparent;
 }
 .jw-nav-pfeil-zeichen {
   transition: transform 0.18s ease;
@@ -606,23 +844,23 @@ body.lexikon-page div[id="__next"] {
   }
 }
 .jw-nav-meta {
-  margin: 18px 12px 0 !important;
-  padding-top: 12px !important;
-  border-top: 1px solid rgba(243, 239, 230, 0.22);
+  margin: 8px 12px 0 !important;
+  padding-top: 8px !important;
+  border-top: 1px solid #f3efe6;
 }
 .jw-nav-meta-link {
   display: block;
   padding: 6px 0;
   font-size: 14px;
-  line-height: 1.4;
-  color: #cdc8bb;
+  line-height: 20px;
+  color: #f3efe6;
 }
 .jw-nav-meta-link:hover,
 .jw-nav-meta-link.ist-aktiv {
   color: #ffffff;
 }
 .jw-nav-meta-link.ist-aktiv {
-  font-weight: 600;
+  font-weight: 700;
 }
 .jw-nav a:focus-visible,
 .jw-nav button:focus-visible {
@@ -1505,38 +1743,6 @@ body.lexikon-page div[id="__next"] {
     opacity: 0.6 !important;
     pointer-events: none;
   }
-
-  /* Header: fixed + EXPLIZIT kein Blur */
-  body.jw-search-active .jw-desktop-header-bar {
-    position: fixed;
-    left: 50%;
-    top: 15px;
-    transform: translateX(-50%);
-    width: 1160px;
-    z-index: 55;
-    filter: none !important;
-    opacity: 1 !important;
-    -webkit-backdrop-filter: none !important;
-    backdrop-filter: none !important;
-  }
-
-  body.jw-search-active .jw-desktop-header-logo {
-    position: fixed;
-    left: calc(50% - 556px);
-    top: 37px;
-    z-index: 60;
-    filter: none !important;
-    opacity: 1 !important;
-  }
-
-  body.jw-search-active .jw-desktop-header-search {
-    position: fixed;
-    left: calc(50% - 275px);
-    top: 33px;
-    z-index: 60;
-    filter: none !important;
-    opacity: 1 !important;
-  }
 }
 
 /* Article header tags (outline style, top-right) */
@@ -1611,13 +1817,6 @@ body.lexikon-page div[id="__next"] {
       padding-right: env(safe-area-inset-right);
     }
     
-    /* 🎯 LEXIKON HEADER: Perfektes Spacing für iOS PWA */
-    .lexikon-header-pwa {
-      /* iOS Safe Area (ca. 47px auf iPhone) + nur 12px extra = perfekter Abstand */
-      padding-top: calc(env(safe-area-inset-top) + 0.75rem);
-      padding-bottom: 2rem; /* pb-8 = 2rem */
-    }
-    
     /* PWA: Vollscreen für Jass-App ohne Safe Area Padding */
     body:not(.lexikon-page) {
       background-color: black;
@@ -1633,30 +1832,6 @@ body.lexikon-page div[id="__next"] {
 }
 
 /* Fallback für PWA ohne @supports - iOS < 11.0 und Android */
-@media (display-mode: standalone) {
-  .lexikon-header-pwa {
-    /* Universeller Fallback: ~40px Statusleiste + 12px extra = 52px */
-    padding-top: 3.25rem; /* 52px - funktioniert für beide Plattformen */
-    padding-bottom: 2rem;
-  }
-  
-  /* Android-spezifische Erkennung und Anpassung */
-  @media screen and (max-width: 768px) {
-    .lexikon-header-pwa {
-      /* Android: Kleinere Statusleisten (~24px) + 12px extra = 36px */
-      padding-top: 2.25rem; /* 36px */
-    }
-    
-    /* iOS-Erkennung: Größere Statusleisten */
-    @supports (-webkit-touch-callout: none) {
-      .lexikon-header-pwa {
-        /* iOS: Größere Statusleisten (~47px) + 12px extra = 59px */
-        padding-top: 3.75rem; /* 60px */
-      }
-    }
-  }
-}
-
 /* Browser-Modus: Korrekte Viewport-Höhe mit JS-Fallback, um UI-Leisten auszugleichen */
 @media not (display-mode: standalone) {
   body:not(.lexikon-page),

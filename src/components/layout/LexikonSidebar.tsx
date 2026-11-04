@@ -5,7 +5,7 @@ import { ChevronRight } from 'lucide-react';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { isFlatStructure } from '@/lib/url-utils';
+import { buildArticleUrl, isFlatStructure } from '@/lib/url-utils';
 
 const formatTopicName = (name: string): string => {
   return name
@@ -198,12 +198,25 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
     let kinder: Knoten[];
 
     if (catSlug === 'schieber') {
+      // Der Leitartikel hängt unter «Regeln & Grundlagen» (Figma 2299:3434).
+      const leitartikel = (allContent as JassContentRecord).general_schieber;
       kinder = SCHIEBER_SIDEBAR_GROUPS.map((g) => ({
         key: `/schieber/${g.slug}/`,
         name: g.title,
         href: `/schieber/${g.slug}/`,
         ebene: 2 as const,
-        kinder: [],
+        kinder:
+          g.slug === 'regeln-grundlagen' && leitartikel
+            ? [
+                {
+                  key: buildArticleUrl(leitartikel.metadata.category),
+                  name: leitartikel.metadata.category.topic,
+                  href: buildArticleUrl(leitartikel.metadata.category),
+                  ebene: 3 as const,
+                  kinder: [],
+                },
+              ]
+            : [],
       }));
     } else {
       // Unterbereiche und flache Artikel alphabetisch gemischt, wie bisher.
@@ -235,6 +248,16 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
 
   return baum;
 };
+
+let baumEinmal: Knoten[] | null = null;
+const derBaum = (): Knoten[] => {
+  baumEinmal ??= baumBauen(getNavigationStructure(allContent as JassContentRecord));
+  return baumEinmal;
+};
+
+/** Die Hauptbereiche in der Reihenfolge der Leiste, auch für den Kopf. */
+export const hauptbereiche = (): { name: string; href: string }[] =>
+  derBaum().map(({ name, href }) => ({ name, href }));
 
 /** Pfad ohne Abfrage und Sprungziel, immer mit Schrägstrich am Ende. */
 export const pfadVon = (asPath: string): string => {
@@ -280,15 +303,22 @@ const Pfeil: React.FC<{ offen: boolean; name: string; ziel: string; onClick: () 
     aria-label={offen ? `${name} zuklappen` : `${name} aufklappen`}
     onClick={onClick}
   >
-    <ChevronRight aria-hidden className="jw-nav-pfeil-zeichen" width={16} height={16} strokeWidth={2.25} />
+    <ChevronRight aria-hidden className="jw-nav-pfeil-zeichen" width={14} height={14} strokeWidth={2} />
   </button>
+);
+
+/** Zeile ohne Unterseiten: Das Zeichen zeigt den Weg, geklickt wird der Text (Figma 2299:3375). */
+const Wegweiser = () => (
+  <span className="jw-nav-wegweiser" aria-hidden>
+    <ChevronRight width={14} height={14} strokeWidth={2} />
+  </span>
 );
 
 const idVon = (key: string) => `nav${key.replace(/[^a-z0-9]+/gi, '-')}`.replace(/-$/, '');
 
 export const LexikonSidebar = () => {
   const router = useRouter();
-  const baum = useMemo(() => baumBauen(getNavigationStructure(allContent as JassContentRecord)), []);
+  const baum = derBaum();
   const pfad = pfadVon(router.asPath);
   const { kette, genau } = useMemo(() => ketteZu(baum, pfad), [baum, pfad]);
   const aktivKey = genau ? kette[kette.length - 1]?.key : undefined;
@@ -344,7 +374,7 @@ export const LexikonSidebar = () => {
         <li key={k.key} className={`jw-nav-bereich${istOffen ? ' ist-offen' : ''}`}>
           <div className={`jw-nav-zeile${k.key === aktivKey ? ' ist-aktiv' : ''}`}>
             {verweis(k, 'jw-nav-haupt')}
-            {hatKinder && <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} />}
+            {hatKinder ? <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} /> : <Wegweiser />}
           </div>
           {istOffen && (
             <ul id={ziel} className="jw-nav-liste2">
@@ -360,7 +390,7 @@ export const LexikonSidebar = () => {
         <li key={k.key}>
           <div className={`jw-nav-zeile${k.key === aktivKey ? ' ist-aktiv' : ''}`}>
             {verweis(k, 'jw-nav-unter')}
-            {hatKinder && <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} />}
+            {hatKinder ? <Pfeil offen={istOffen} name={k.name} ziel={ziel} onClick={() => umschalten(k)} /> : <Wegweiser />}
           </div>
           {istOffen && (
             <ul id={ziel} className="jw-nav-liste3">
