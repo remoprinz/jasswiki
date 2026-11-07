@@ -30,8 +30,54 @@ interface Props {
   abstand?: string;
 }
 
+// ── Zeile unter dem Artikeltitel (WELLE 07.11.2026, Remo 12:05: «Ich habe diese
+// Wege gar nicht richtig gefunden»). Die Karte am Ende liegt am Telefon drei
+// Bildschirme tief; die Zeile steht im ersten Bildschirm, gleich unter dem Titel.
+// Fläche, kein Inhalt: Der Artikeltext bleibt SCHIRIs.
+//
+// Steht auf Regel-, Weis-, Ansage-, Schieber- und Taktikartikeln. Der Satz muss
+// wörtlich stimmen: In der Arena wird Schieber gejasst, darum nennt die Zeile nur
+// die Ansagen beim Namen, die man dort wirklich ansagen kann.
+const ZEILE_KATEGORIEN = new Set([
+  'regeln',
+  'weis-regeln',
+  'ansagen',
+  'schieber',
+  'taktiken-und-strategien',
+]);
+const ZEILE_ANSAGE: Record<string, string> = {
+  expressions_obenabe: 'Obenabe',
+  expressions_undenufe: 'Undenufe',
+  expressions_slalom: 'Slalom',
+  expressions_guschti: 'Quer',
+};
+
+export const zeileSatz = (schluessel: string, kategorie: string): string | null => {
+  // Der Artikel über JassGuru selbst trägt die Zeile auch, obwohl die Jassapps sonst neutral bleiben.
+  if (schluessel === 'jassapps_jassguru') return 'Schieber gleich online jassen';
+  if (!ZEILE_KATEGORIEN.has(kategorie)) return null;
+  if (kategorie === 'taktiken-und-strategien') return 'Diese Taktik online ausprobieren';
+  const ansage = ZEILE_ANSAGE[schluessel];
+  if (ansage) return `${ansage} gleich online jassen`;
+  return 'Schieber gleich online jassen';
+};
+
+export const JassenZeile: React.FC<{ schluessel: string; kategorie: string }> = ({ schluessel, kategorie }) => {
+  const satz = zeileSatz(schluessel, kategorie);
+  if (!satz) return null;
+  return (
+    <div className="not-prose mt-[4px]" data-jassen-zeile>
+      <a href={jassguruLink('/arena/', 'zeile')} className="jw-jassen-zeile">
+        <span aria-hidden className="jw-jassen-zeile-punkt" />
+        {satz} ↗
+      </a>
+    </div>
+  );
+};
+
 export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, abstand = 'mt-[32px]' }) => {
-  if (kategorie && OHNE_KARTE.has(kategorie)) return null;
+  // Ausnahme: der Artikel über JassGuru selbst endet mit dem Weg an den Tisch.
+  if (kategorie && OHNE_KARTE.has(kategorie) && schluessel !== 'jassapps_jassguru') return null;
   const daten = leitartikel as { artikel: Record<string, unknown> };
   if (schluessel && schluessel in daten.artikel) return null;
 
