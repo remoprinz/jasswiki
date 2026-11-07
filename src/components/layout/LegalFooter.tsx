@@ -5,7 +5,7 @@ import { JassWikiLogo } from './JassWikiLogo';
 const JassenLinks = ({ className }: { className: string }) => (
   <p className={`font-inter text-[#c2c2c2] ${className}`}>
     Jassen:{' '}
-    <a href="https://jassguru.ch/" className="underline">
+    <a href="https://jassguru.ch/?utm_source=jasswiki-ch&utm_medium=fuss" className="underline">
       jassguru.ch
     </a>
     {' · '}

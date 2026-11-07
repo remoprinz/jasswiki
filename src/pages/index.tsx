@@ -3,6 +3,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { SeoHead } from '@/components/layout/SeoHead';
+import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { FaBalanceScale, FaBook, FaHandPointRight, FaBullhorn, FaChessKnight } from 'react-icons/fa';
 import { GiPokerHand } from 'react-icons/gi';
 import { CgSwiss } from 'react-icons/cg';
@@ -203,6 +204,11 @@ const WissenHomePage = () => {
                         );
                     })}
                 </div>
+            </div>
+
+            {/* Weg an den Tisch (WELLE 07.11.2026) */}
+            <div className="mb-[24px] sm:mb-[32px]">
+                <JassenKarte ort="start" abstand="mt-0" />
             </div>
 
             {/* CTA Section */}

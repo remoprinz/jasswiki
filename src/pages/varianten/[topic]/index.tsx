@@ -16,6 +16,7 @@ import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { getVariantMetadata } from '@/data/variant-wikidata-mapping';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
+import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 
 
@@ -176,6 +177,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
 
           <LeitartikelVideo schluessel={contentItem.id} />
           <JassfreundeSatz schluessel={contentItem.id} />
+          <JassenKarte schluessel={contentItem.id} kategorie="varianten" ort="artikel" />
 
           {/* FAQ-Sektion - sichtbar für User und Crawler */}
           {contentItem.faqs && contentItem.faqs.length > 0 && (

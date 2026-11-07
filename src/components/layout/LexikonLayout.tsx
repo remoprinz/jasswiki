@@ -148,7 +148,7 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
             <KopfMenueOffen onSchliessen={schubladeZu} />
           </div>
           <div ref={schubladeRef} className="jw-menue-telefon flex-1 min-h-0 overflow-y-auto overscroll-contain">
-            <LexikonSidebar />
+            <LexikonSidebar telefon />
           </div>
         </div>
       )}

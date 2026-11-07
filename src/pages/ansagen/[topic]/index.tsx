@@ -15,6 +15,7 @@ import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
+import { JassenKarte } from '@/components/wissen/JassenKarte';
 
 interface AnsagenPageProps {
   contentItem: JassContentItem;
@@ -176,6 +177,8 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
               </div>
             )}
           </article>
+
+          <JassenKarte schluessel={contentItem.id} kategorie="ansagen" ort="artikel" />
 
           {/* FAQ-Sektion - sichtbar für User und Crawler */}
           {contentItem.faqs && contentItem.faqs.length > 0 && (

@@ -15,6 +15,7 @@ import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
+import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { FarbeKopf } from '@/components/wissen/FarbeKopf';
 
@@ -205,6 +206,8 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
 
           {/* ÜBEN: Aufgaben im Jass des Tages zu diesem Thema */}
           <UebenBlock articleId={contentItem.id} />
+
+          <JassenKarte schluessel={contentItem.id} kategorie={categorySlug} ort="artikel" />
 
           {/* FAQ-Sektion - Sichtbar für User und Crawler */}
           {contentItem.faqs && contentItem.faqs.length > 0 && (

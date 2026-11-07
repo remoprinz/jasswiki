@@ -114,7 +114,7 @@ export const KopfDesktop: React.FC = () => {
       <div className="jw-kopf-suche">
         <SearchBar variante="kopf" />
       </div>
-      <a href="https://jassguru.ch/" target="_blank" rel="noopener noreferrer" className="jw-kopf-online">
+      <a href="https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=kopf" target="_blank" rel="noopener noreferrer" className="jw-kopf-online">
         Online jassen ↗
       </a>
     </header>

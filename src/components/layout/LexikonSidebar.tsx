@@ -316,7 +316,7 @@ const Wegweiser = () => (
 
 const idVon = (key: string) => `nav${key.replace(/[^a-z0-9]+/gi, '-')}`.replace(/-$/, '');
 
-export const LexikonSidebar = () => {
+export const LexikonSidebar = ({ telefon = false }: { telefon?: boolean }) => {
   const router = useRouter();
   const baum = derBaum();
   const pfad = pfadVon(router.asPath);
@@ -423,6 +423,19 @@ export const LexikonSidebar = () => {
             </li>
           );
         })}
+        {/* Telefon: der Kopf trägt dort keinen Weg zu jassguru.ch, also steht er im Menü (WELLE 07.11.2026). */}
+        {telefon && (
+          <li>
+            <a
+              href="https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=menue"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="jw-nav-meta-link"
+            >
+              Online jassen ↗
+            </a>
+          </li>
+        )}
       </ul>
     </nav>
   );
