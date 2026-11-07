@@ -3,7 +3,7 @@ title: "JassWiki.ch - Geschichte & Kultur"
 description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 25
+entries_count: 26
 last_updated: 2026-11-07
 format: "markdown"
 encoding: "utf-8"
@@ -26,6 +26,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Etymologie des Begriffs Matsch](#history_etymology_matsch)
 - [Die erste urkundliche Erwähnung](#history_first_mention)
 - [Jass-Elo](#jass_elo_meta)
+- [Jass-KI](#jass_ki)
 - [Jassapps Generelles](#jassapps_overview)
 - [Woher kommen Spielkarten?](#history_origin)
 - [Die Liste der lebendigen Traditionen](#history_unesco)
@@ -455,6 +456,130 @@ In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schr
 - **Warum ist das Start-Rating 100 und die Skala 1000?** Beim Schieber ist der Glücksfaktor grösser und die Spielstärken liegen enger beieinander als im Schach. Die breite Skala von 1000 zieht die Unterschiede deutlich auseinander, das Start-Rating von 100 hält sie zugleich intuitiv lesbar.
 
 *Keywords: jass-elo, elo, rating, bewertungssystem, spielstärke*
+
+---
+
+### Jass-KI {#jass_ki}
+
+**Kategorie:** Grundlagen & Kultur > Jass-KI
+
+Eine Jass-KI ist eine künstliche Intelligenz, die Schieber jasst: Sie sagt Trumpf an, schiebt, sticht und verwirft wie ein Mitspieler am Tisch. Die Jass-KI des Jassverbands Schweiz entsteht im Forschungsprojekt AlphaJass mit der Fachhochschule Nordwestschweiz (FHNW).
+
+Ihr neuestes Modell heisst Albis 001. Es jasst in der Arena von [JassGuru](/jassapps/online-jass/jassguru/), als Partner oder als Gegner.
+
+## Warum ist Jassen für eine KI schwer?
+
+Im Schach sieht jeder das ganze Brett. Beim Jassen sieht man die eigenen neun Karten, die übrigen 27 liegen verdeckt in drei Händen. Die KI sieht dabei genau so viel wie ein Mensch am Tisch: die eigene Hand, den Stich und die gespielten Karten. Eine Jass-KI muss darum schätzen, wer welche Karte hält. Nach jeder gespielten Karte führt sie diese Schätzung nach.
+
+Dazu kommt der Partner. Beim [Schieber](/schieber/) gewinnt das Team. Verständigen dürfen sich die Partner allein über die Karten. Worte, Blicke und Gesten zum Spiel gelten als [Spielverrat](/regeln/sonderregeln/spielverrat/). Wer [verwirft](/taktiken-und-strategien/kommunikation-signale/verwerfen/), gibt die Farbe her, in der er am schwächsten ist. Wer im ersten Stich mit dem Nell eröffnet, hält auch den Puur: Das ist [Nell vor Puur](/taktiken-und-strategien/kommunikation-signale/nell-vor-puur/). Solche festen Zeichen heissen Konventionen. Eine gute Jass-KI liest sie beim Partner und hält sie selbst ein.
+
+Und jeder Tisch jasst nach seiner eigenen Schule. Beim [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/) zeigt die verworfene Farbe auf eine andere Farbe. Dieselbe Karte heisst also je nach Tisch etwas anderes.
+
+## Wie denkt AlphaJass?
+
+AlphaJass denkt in Bildern statt in einem starren Wenn-dann-Baum. Die KI hält vier Bilder vom Spiel stets aktuell, schickt jeden Entscheid durch vier Siebe und benennt für jeden Zug den Grund. So beschreibt es der Jassverband Schweiz in seinem Bauplan [Wie AlphaJass denkt](https://jassverband.ch/de/research/wie-alphajass-denkt).
+
+### Vier Bilder: was die KI weiss
+
+- **Situationsbild:** die Lage am Tisch: wer gerade den [Stich](/begriffe/grundbegriffe/stich/) macht, ob ein [Matsch](/begriffe/punktebegriffe/matsch/) droht, wie viele Trümpfe noch draussen sind und wie viele Punkte noch im Spiel liegen.
+- **Kartenbild der anderen:** Für jede der 36 Karten und jeden Sitz steht eine von fünf Stufen, von «nein» über «vielleicht» bis «ja». Gespielte Karten streicht die KI aus dem Bild. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) darf man bei Trumpf zurückhalten.
+- **Farbenbild:** die vier Farben, jede mit ihrer Stärke und ihrer Rolle. So überlegt auch ein Jasser: in vier Farben statt in 144 Feldern.
+- **Spielerbild:** für jeden Mitspieler die Schule, der er folgt, etwa Nell vor Puur oder eine Art zu verwerfen. Es geht dem Kartenbild voraus, denn dieselbe verworfene Karte heisst je nach Schule das Gegenteil.
+
+### Vier Siebe: wie die KI entscheidet
+
+1. **Spielregeln:** Durch dieses Sieb kommen allein die erlaubten Karten. Die KI bedient die Farbe und hält die Regel zum [Untertrumpfen](/regeln/spielablauf/untertrumpfen/) ein.
+2. **Absicht:** Die KI prüft die Lage gleichzeitig mit allen Regeln, die zu einer Absicht führen. Zuoberst steht die Konvention, denn ein festes Zeichen unter Partnern schlägt jede Berechnung. Heraus kommt eine einzige Absicht, etwa stechen, [schmieren](/begriffe/spielaktionen/schmieren/), [anziehen](/taktiken-und-strategien/kommunikation-signale/anziehen/) oder verwerfen.
+3. **Kartenwahl:** Die Absicht trifft auf das Farbenbild und auf die Rangfolge der Karten. Wo sie sich kreuzen, liegt die Karte.
+4. **Schlussprobe:** Ein letzter Riegel prüft die Karte noch einmal gegen die Spielregeln. Er bleibt immer eingeschaltet.
+
+### Ein Satz: warum jeder Zug erklärbar ist
+
+Bevor die KI eine Karte legt, benennt sie den Grund. Der Verband führt dafür einen Kanon von 18 Absichten, von Stechen über Schmieren bis [Nachschmeissen](/taktiken-und-strategien/kommunikation-signale/nachschmeissen/). Selbst ein Zwangsabwurf trägt sein ehrliches Etikett.
+
+Ein Beispiel aus dem Bauplan: Der Partner hat den Puur ausgespielt. Damit wird das eigene [Nell](/begriffe/kartenbezeichnungen/nell/) zum [Bock](/begriffe/kartenbezeichnungen/bock/). Also hebt die KI das Nell auf und spielt einen anderen Trumpf. In der App klingt eine solche Erklärung so: «Ich trumpfe weiter mit dem Schilten Ober und ziehe ihnen die Trümpfe ab.»
+
+## Was kann Albis 001?
+
+Albis 001 ist das neueste Modell der Jass-KI, Generation 001. Die FHNW hat es in der Jass-Umgebung des Verbands trainiert, in zwei Stufen: zuerst an Partien echter Jasser aus der Arena, dann im Spiel gegen sich selbst, rund acht Millionen Kartengaben lang. Seit dem 26. Oktober 2026 liegt das Modell beim Verband. Während der Partie bleibt Albis 001 dasselbe Modell, gelernt wird im Training an der FHNW.
+
+Albis 001 jasst die vier Farben als [Trumpf](/ansagen/trumpffarbe/), dazu [Obenabe](/ansagen/obenabe/) und [Undenufe](/ansagen/undenufe/). Bei [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) jasst der Prototyp, die Generation vor Albis 001. Sitzt ein Mensch als Partner am Tisch, folgt Albis 001 beim ersten Ausspiel und bei den Partnerzeichen den Konventionen. Diese Zeichen bringt der Bauplan an den Tisch, das übrige Spiel hat Albis 001 selbst gelernt.
+
+Auf Wunsch erklärt die App die Züge von Albis 001 mit den Absichten des Bauplans: warum diese Karte, warum jetzt schieben, warum austrumpfen.
+
+## Wo jasst man gegen die Jass-KI?
+
+Die Jass-KI jasst in der Arena von JassGuru, im Browser auf [jassguru.ch](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) und in der App für iPhone und Android.
+
+- **Sofort jassen:** Man jasst mit einer KI gegen zwei KI, auch als Gast. Gäste haben Albis 001 als Partner und als Gegner.
+- **AlphaJass Stammtisch:** In der Lobby jasst Albis 001 an einem eigenen Tisch. Mit Profil setzt man sich dazu.
+- **Privater Tisch:** Die eigenen Jassfreunde sitzen mit am Tisch, freie Plätze besetzt die KI.
+- **[Jass des Tages](/jass-des-tages/):** Für alle liegen dieselben neun Karten auf, mit einem Ziel und einem Versuch pro Tag. Die übrigen Plätze besetzt die KI.
+
+JVS-Mitglieder wählen Albis 001 in den Einstellungen als Partner oder als Gegner. In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
+
+Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App als digitale Kreidetafel Punkte, Striche, Berg und Sieg.
+
+## Jasst die KI nach Abmachung und Konventionen?
+
+Die Abmachung bestimmt der Tisch wie am echten Jasstisch: Ansagen, Faktoren und Punktziel. Die KI jasst mit dieser Abmachung.
+
+Für die Konventionen gilt bei AlphaJass: Konvention schlägt Kalkül. Gemeint sind feste Zeichen wie Nell vor Puur, [Austrumpfen hoch oder tief](/taktiken-und-strategien/kommunikation-signale/austrumpfen-hoch-oder-tief/), das Verwerfen und das Nachschmeissen. Sie lassen sich für jeden Sitz einzeln ein- und ausschalten. Bricht ein Mitspieler eine Konvention erkennbar, streicht die KI diese Deutung ab dann für ihn.
+
+Welche Zeichen Partner sich am Tisch geben, erklärt der Artikel [Kommunikation & Signale](/taktiken-und-strategien/kommunikation-signale/).
+
+## Wie gut jasst die Jass-KI?
+
+Der Verband misst in Kartengaben: neun Stiche, 157 Punkte. Jede Kartengabe wird zweimal gespielt, mit vertauschten Seiten und denselben Blättern. So gleicht sich das Kartenglück aus. Gegner ist ein einfacher Bot des Verbands, der während der Messung unverändert bleibt.
+
+Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von AlphaJass jasst, im Stand jenes Tages:
+
+| Messgrösse | Wert |
+|---|---|
+| Vorsprung pro Kartengabe | +56,7 Punkte |
+| Siegquote | 77,8 Prozent |
+| 95-Prozent-Intervall | +51,9 bis +61,8 Punkte |
+| Kartengaben | 1000, gepaart |
+| Vor dem Umbau auf den Bauplan | −6,8 Punkte |
+
+Vor dem Umbau verlor dieselbe Anlage also gegen den einfachen Bot. Nach dem Umbau schlägt sie ihn um rund 57 Punkte pro Kartengabe. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der [Weis](/weis-regeln/) am Tisch und in der App.
+
+Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. Eine veröffentlichte Messung für Albis 001 steht ebenfalls noch aus.
+
+## Wer baut die Jass-KI?
+
+Hinter AlphaJass steht der [Jassverband Schweiz](https://jassverband.ch), der auch dieses Wiki herausgibt. Forschungspartner ist die FHNW School of Engineering mit ihrem Institut für Data Science in Windisch. Die Hasler Stiftung fördert die Forschung an der FHNW. Das Projekt läuft von Juli 2026 bis Juni 2027.
+
+Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus. Alles Weitere steht im [Studien-Infoblatt](https://jassguru.ch/forschung/alphajass/).
+
+## Siehe auch
+
+- [JassGuru](/jassapps/online-jass/jassguru/): die Jass-App des Verbands mit der Arena
+- [Kommunikation & Signale](/taktiken-und-strategien/kommunikation-signale/): die Konventionen zwischen Partnern
+- [Verwerfen](/taktiken-und-strategien/kommunikation-signale/verwerfen/): die erste Taktik, die jeder Jasser lernt
+- [Jass des Tages](/jass-des-tages/): jeden Tag ein Blatt für alle
+
+## Quellen
+
+- Jassverband Schweiz: Wie AlphaJass denkt. Vier Bilder, vier Siebe, ein Satz. Bauplan Stand 19. Juli 2026, Messung Stand 11. August 2026.
+- Jassverband Schweiz: Studien-Infoblatt «Projekt AlphaJass», Fassung alphajass-v4, 11. Oktober 2026.
+- Jassverband Schweiz: Messbuch AlphaJass, Lauf 016 vom 11. August 2026. Prototyp gegen den einfachen Bot, 1000 gepaarte Kartengaben, Seed 42, null Rückfälle.
+- FHNW, Institut für Data Science: Modellbeschreibung «AlphaJass self-play v1», Lieferung vom 26. Oktober 2026. Vortraining an Partien der Arena, danach 2000 Trainingsschritte im Spiel gegen sich selbst zu je rund 153 000 Entscheiden. Bei gut 35 Entscheiden je Kartengabe ergibt das rund acht Millionen Kartengaben.
+- Stolze, Koller (2020): Challenging Human Supremacy: Evaluating MCTS and Deep Learning for the Trick Taking Card Game Jass. doi:10.1007/978-3-030-61534-5_45.
+
+**Häufige Fragen:**
+- **Gibt es eine KI, die jassen kann?** Ja. Der Jassverband Schweiz entwickelt mit der Fachhochschule Nordwestschweiz (FHNW) die Jass-KI im Forschungsprojekt AlphaJass. Ihr neuestes Modell Albis 001 jasst Schieber in der Arena von JassGuru.
+- **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Am AlphaJass Stammtisch jasst Albis 001, mit Profil setzt man sich dazu.
+- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Eine veröffentlichte Messung für Albis 001 steht noch aus.
+- **Betrügt die KI, sieht sie meine Karten?** Die KI jasst mit derselben Sicht wie ein Mensch am Tisch: die eigene Hand, der Stich und die gespielten Karten. Die Karten der anderen schätzt sie aus dem Spielverlauf. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den Puur darf man bei Trumpf zurückhalten. Nach jeder Karte führt die KI ihre Schätzung nach.
+- **Lernt die KI von mir?** Albis 001 bleibt während der Partie dasselbe Modell. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus.
+- **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern.
+- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI, Generation 001. Die Fachhochschule Nordwestschweiz (FHNW) hat es trainiert, zuerst an Partien echter Jasser aus der Arena, dann im Spiel gegen sich selbst. Es jasst die vier Farben, Obenabe und Undenufe. Bei Slalom und Quer jasst der Prototyp, die Generation vor Albis 001.
+- **Wer baut die Jass-KI?** Der Jassverband Schweiz zusammen mit der FHNW School of Engineering, Institut für Data Science in Windisch. Die Hasler Stiftung fördert die Forschung an der FHNW. Das Projekt läuft von Juli 2026 bis Juni 2027.
+- **Kann die KI Schieber-Konventionen?** Ja. Bei AlphaJass steht die Konvention über jeder Berechnung. Dazu gehören Nell vor Puur, Austrumpfen hoch oder tief, Verwerfen und Nachschmeissen. Sitzt ein Mensch als Partner am Tisch, folgt Albis 001 beim ersten Ausspiel und bei den Partnerzeichen den Konventionen. Bricht ein Mitspieler eine Konvention erkennbar, streicht die KI diese Deutung ab dann für ihn.
+- **Spielt die KI auch am echten Tisch mit?** Die Jass-KI jasst online in der Arena von JassGuru. Am echten Tisch schreibt JassGuru als digitale Kreidetafel Punkte, Striche, Berg und Sieg. Ob die KI später auch am echten Tisch hilft, ist noch offen.
+
+*Keywords: jass-ki, ki jassen, künstliche intelligenz, alphajass, albis 001*
 
 ---
 
