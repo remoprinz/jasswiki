@@ -45,21 +45,24 @@ const ZEILE_KATEGORIEN = new Set([
   'schieber',
   'taktiken-und-strategien',
 ]);
+// FEILE 07.11.2026: «sofort» statt «gleich», wie Karte und jassguru.ch (T201).
+// Slalom und Quer kommen in der Arena erst auf Wunsch dazu (Schalter beim
+// Eröffnen), darum tragen sie kein «sofort» (Wörtlich-Probe, T167).
 const ZEILE_ANSAGE: Record<string, string> = {
-  expressions_obenabe: 'Obenabe',
-  expressions_undenufe: 'Undenufe',
-  expressions_slalom: 'Slalom',
-  expressions_guschti: 'Quer',
+  expressions_obenabe: 'Obenabe sofort online jassen',
+  expressions_undenufe: 'Undenufe sofort online jassen',
+  expressions_slalom: 'Slalom online jassen',
+  expressions_guschti: 'Quer online jassen',
 };
 
 export const zeileSatz = (schluessel: string, kategorie: string): string | null => {
   // Der Artikel über JassGuru selbst trägt die Zeile auch, obwohl die Jassapps sonst neutral bleiben.
-  if (schluessel === 'jassapps_jassguru') return 'Schieber gleich online jassen';
+  if (schluessel === 'jassapps_jassguru') return 'Schieber sofort online jassen';
   if (!ZEILE_KATEGORIEN.has(kategorie)) return null;
   if (kategorie === 'taktiken-und-strategien') return 'Diese Taktik online ausprobieren';
   const ansage = ZEILE_ANSAGE[schluessel];
-  if (ansage) return `${ansage} gleich online jassen`;
-  return 'Schieber gleich online jassen';
+  if (ansage) return ansage;
+  return 'Schieber sofort online jassen';
 };
 
 export const JassenZeile: React.FC<{ schluessel: string; kategorie: string }> = ({ schluessel, kategorie }) => {
