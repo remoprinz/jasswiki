@@ -8091,7 +8091,7 @@
   },
   "variants_family_coiffeur_schieber": {
     "id": "variants_family_coiffeur_schieber",
-    "text": "Definition:\nDer Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.\n\nGrundprinzip:\n• Wie beim klassischen Schieber sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\")\n• Anders als bei anderen Jassarten wird hier keine feste Punktzahl als Ziel vereinbart\n• Stattdessen muss jedes Team jede von acht verschiedenen Varianten genau einmal spielen\n• Eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele\n\nDie acht Varianten:\n• Variante 1-4: Vier Trumpffarben (siehe Begriff \"bodentrumpf\"), die jeweils zwei-, drei- oder vierfach bewertet werden\n• Variante 5: Obenabe (siehe Begriff \"expressions_obenabe\"), das fünffach zählt\n• Variante 6: Undenufe (siehe Begriff \"expressions_undenufe\"), das sechsfach zählt\n• Variante 7-8: Zwei Joker-Varianten, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist\n\nJoker-Regeln:\n• Bei den Joker-Varianten können Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") nicht gemeldet werden\n• Der Spieler rechts vom Gebenden kann entweder eine Variante als Trumpf wählen oder passen\n• Werden alle Varianten weitergegeben, muss Vorhand (siehe Begriff \"expressions_vorhand\") eine Variante wählen, die noch nicht gespielt wurde\n\nSpielstrategie:\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Ein Spieler, der aufgrund seiner Handkarten (siehe Begriff \"expressions_handkarten\") gute Chancen sieht, kann die Joker-Variante nutzen, um zwischen Trumpf, Obenabe oder Undenufe zu wählen",
+    "text": "Definition:\nDer Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.\n\nGrundprinzip:\n• Wie beim klassischen Schieber sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\")\n• Anders als bei anderen Jassarten wird hier keine feste Punktzahl als Ziel vereinbart\n• Stattdessen muss jedes Team jede von acht verschiedenen Varianten genau einmal spielen\n• Eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele\n\nDie acht Varianten:\n• Variante 1-4: die vier Trumpffarben (siehe Begriff \"bodentrumpf\"), Eicheln einfach, Rosen zweifach, Schilten dreifach, Schellen vierfach\n• Variante 5: Obenabe (siehe Begriff \"expressions_obenabe\"), das fünffach zählt\n• Variante 6: Undenufe (siehe Begriff \"expressions_undenufe\"), das sechsfach zählt\n• Variante 7-8: Zwei Joker-Varianten, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist\n\nDiese Faktoren eins bis acht führt Göpf Egg in «Puur Näll Ass» (1989) als Standard des Coiffeur-Schiebers, zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html). Eine Runde, die die Faktoren anders auf die Farben verteilt, macht das vor dem ersten Spiel ab (siehe Begriff \"regeln_tischregel\").\n\nJoker-Regeln:\n• Bei den Joker-Varianten können Stöck (siehe Begriff \"weis_rules_stock\")- und Weispunkte (siehe Begriff \"expressions_weis\") nicht gemeldet werden\n• Für die Trumpffarben, Obenabe und Undenufe nennt dieser Artikel keine Weisregel. Ob dort gewiesen wird, macht die Runde vor dem ersten Spiel ab\n• Der Spieler rechts vom Gebenden kann entweder eine Variante als Trumpf wählen oder passen\n• Werden alle Varianten weitergegeben, muss Vorhand (siehe Begriff \"expressions_vorhand\") eine Variante wählen, die noch nicht gespielt wurde\n\nSpielstrategie:\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Ein Spieler, der aufgrund seiner Handkarten (siehe Begriff \"expressions_handkarten\") gute Chancen sieht, kann die Joker-Variante nutzen, um zwischen Trumpf, Obenabe oder Undenufe zu wählen",
     "metadata": {
       "id": "variants_family_coiffeur_schieber_meta",
       "category": {
@@ -8127,14 +8127,14 @@
       "taxonomy_tier": 1,
       "wikidata_id": "Q137731700",
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-18",
+      "dateModified": "2026-11-07",
       "seoTitle": "Coiffeur Jass: Regeln, Ablauf und Wertung mit Faktoren | Jass-Wiki",
       "seoDescription": "Der Coiffeur-Schieber (quoi faire) für vier: jedes Team spielt acht Varianten je einmal, gewertet ein- bis achtfach, 16 Spiele je Partie. Mit Joker und Wertungstafel."
     },
     "faqs": [
       {
         "question": "Was ist Coiffeur?",
-        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
+        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
       },
       {
         "question": "Wie spielt man Coiffeur?",
@@ -8155,6 +8155,10 @@
       {
         "question": "Kann ich beim Coiffeur-Schieber die Reihenfolge der Varianten frei wählen?",
         "answer": "Ja. Jedes Team wählt selber, wann es welche Trumpfart spielt."
+      },
+      {
+        "question": "Welche Farbe zählt beim Coiffeur wie viel?",
+        "answer": "Nach dem Standard von Göpf Egg zählen Eicheln einfach, Rosen zweifach, Schilten dreifach und Schellen vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Eine Runde, die anders verteilt, macht das vor dem ersten Spiel ab."
       }
     ],
     "see_also": [
@@ -8166,7 +8170,8 @@
       "expressions_team",
       "expressions_undenufe",
       "expressions_vorhand",
-      "expressions_weis"
+      "expressions_weis",
+      "regeln_tischregel"
     ]
   },
   "variants_family_einzel_coiffeur": {

@@ -2035,13 +2035,16 @@ Grundprinzip:
 • Eine komplette Partie umfasst somit 16 Spiele
 
 Die acht Varianten:
-• Variante 1-4: Vier Trumpffarben, die jeweils zwei-, drei- oder vierfach bewertet werden
+• Variante 1-4: die vier Trumpffarben, Eicheln einfach, Rosen zweifach, Schilten dreifach, Schellen vierfach
 • Variante 5: Obenabe, das fünffach zählt
 • Variante 6: Undenufe, das sechsfach zählt
 • Variante 7-8: Zwei Joker-Varianten, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist
 
+Diese Faktoren eins bis acht führt Göpf Egg in «Puur Näll Ass» (1989) als Standard des Coiffeur-Schiebers, zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html). Eine Runde, die die Faktoren anders auf die Farben verteilt, macht das vor dem ersten Spiel ab.
+
 Joker-Regeln:
 • Bei den Joker-Varianten können Stöck- und Weispunkte nicht gemeldet werden
+• Für die Trumpffarben, Obenabe und Undenufe nennt dieser Artikel keine Weisregel. Ob dort gewiesen wird, macht die Runde vor dem ersten Spiel ab
 • Der Spieler rechts vom Gebenden kann entweder eine Variante als Trumpf wählen oder passen
 • Werden alle Varianten weitergegeben, muss Vorhand eine Variante wählen, die noch nicht gespielt wurde
 
@@ -2050,12 +2053,13 @@ Spielstrategie:
 • Ein Spieler, der aufgrund seiner Handkarten gute Chancen sieht, kann die Joker-Variante nutzen, um zwischen Trumpf, Obenabe oder Undenufe zu wählen
 
 **Häufige Fragen:**
-- **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte zwei- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
+- **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
 - **Wie spielt man Coiffeur?** Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.
 - **Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?** Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss.
 - **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker-Varianten sind Variante 7 und 8, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist. Bei diesen Varianten können Stöck- und Weispunkte nicht gemeldet werden.
 - **Wie viele Punkte zählt Obenabe beim Coiffeur-Schieber?** Obenabe zählt beim Coiffeur-Schieber fünffach.
 - **Kann ich beim Coiffeur-Schieber die Reihenfolge der Varianten frei wählen?** Ja. Jedes Team wählt selber, wann es welche Trumpfart spielt.
+- **Welche Farbe zählt beim Coiffeur wie viel?** Nach dem Standard von Göpf Egg zählen Eicheln einfach, Rosen zweifach, Schilten dreifach und Schellen vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Eine Runde, die anders verteilt, macht das vor dem ersten Spiel ab.
 
 *Keywords: coiffeur, schieber, familienspiel, teamspiel, varianten*
 
