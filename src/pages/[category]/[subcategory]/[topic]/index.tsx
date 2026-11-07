@@ -15,9 +15,10 @@ import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
-import { JassenKarte } from '@/components/wissen/JassenKarte';
+import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
 import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { FarbeKopf } from '@/components/wissen/FarbeKopf';
+import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 
 // Symbol-Köpfe der vier Farb-Begriffe (Deutschschweizer + französisches Symbol).
 // Symbol-Köpfe: 8 separate Farb-Artikel. Jeder zeigt nur sein eigenes Symbol;
@@ -188,13 +189,18 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
               {contentItem.metadata.titel || topic}
             </h1>
+            <JassenZeile schluessel={contentItem.id} kategorie={categorySlug} />
           </header>
 
           {/* Artikel-Inhalt */}
           <article className="content-formatting max-w-none">
             {FARB_KOEPFE[contentItem.id] && <FarbeKopf {...FARB_KOEPFE[contentItem.id]} />}
             <div className="content-formatting text-black">
-              <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+              {hatArtikelBilder(contentItem.id) ? (
+                <TextMitBildern schluessel={contentItem.id} text={cardTextBefore} farbwechsel={farbwechsel} />
+              ) : (
+                <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+              )}
             </div>
             {isKartenfarben && <JassCardGrid />}
             {isKartenfarben && cardTextAfter && (

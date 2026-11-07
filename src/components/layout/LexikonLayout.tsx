@@ -147,6 +147,17 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
           <div className="flex-none bg-white pt-[env(safe-area-inset-top)]">
             <KopfMenueOffen onSchliessen={schubladeZu} />
           </div>
+          {/* Online jassen ganz oben und fest: die Liste darunter rollt zur aktiven
+              Seite, ein Eintrag zuoberst in der Liste läge sonst wieder ausser Sicht
+              (WELLE 07.11.2026). */}
+          <div className="jw-menue-online">
+            <a
+              href="https://jassguru.ch/arena/?utm_source=jasswiki-ch&utm_medium=menue"
+              className="jw-jassen-zeile"
+            >
+              Online jassen ↗
+            </a>
+          </div>
           <div ref={schubladeRef} className="jw-menue-telefon flex-1 min-h-0 overflow-y-auto overscroll-contain">
             <LexikonSidebar telefon />
           </div>

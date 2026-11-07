@@ -15,7 +15,7 @@ import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
-import { JassenKarte } from '@/components/wissen/JassenKarte';
+import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
 
 interface AnsagenPageProps {
   contentItem: JassContentItem;
@@ -158,6 +158,7 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">
               {topic}
             </h1>
+            <JassenZeile schluessel={contentItem.id} kategorie="ansagen" />
           </header>
 
           <article className="content-formatting max-w-none">
