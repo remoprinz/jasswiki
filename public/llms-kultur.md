@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 25
-last_updated: 2026-10-26
+last_updated: 2026-11-07
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -103,46 +103,68 @@ Das Ramstein-Reglement ist der Anfang der geschriebenen Jassregeln in der Schwei
 
 **Kategorie:** Jassapps > Online-Jass
 
-JassGuru ist die Jass-App des Jassverbands Schweiz, im Browser und als App. Sie vereint zwei Teile: die Arena zum [Online-Jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch) und die digitale Jasstafel für den Jass am echten Tisch. Gespielt wird [Schieber](/schieber/).
+JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man [Schieber](/schieber/) online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe. Die Arena läuft im Browser auf Handy, Tablet und Computer. Die App gibt es im App Store und bei Google Play.
 
-## Online jassen in der Arena
+## Drei Wege an den Tisch
 
-Am Tisch sitzen vier. Jeden freien Platz besetzt die Jass-KI.
+Ein Tipp genügt: Man sitzt am Tisch, als Gast oder mit Profil.
 
-- **Solo:** Die KI besetzt die drei anderen Plätze.
-- **Duo:** mit einem Partner, eingeladen per Link. Die KI stellt die Gegner.
-- **Zu viert:** der volle Tisch mit den eigenen Leuten, alle kommen über denselben Link.
-- **Offene Tische:** Die Lobby zeigt, wo gerade gejasst wird. Man schaut zu, klopft an oder übernimmt einen Platz von der KI.
-- **Stammtisch:** Hier läuft immer eine Partie. Platz nimmt, wer ein Profil und einen Sieg in der Arena hat.
+- **Sofort jassen:** Man jasst mit einer KI gegen zwei KI, auch als Gast.
+- **Privater Tisch:** Die Jassfreunde tippen auf die Einladung oder geben den Code ein und sitzen mit am Tisch. Den privaten Tisch gibt es zu zweit und zu viert, freie Plätze besetzt die KI.
+- **Mitjassen:** In der Lobby sieht man, wo gerade gejasst wird. Man setzt sich an einen offenen Tisch, klopft an oder schaut zu.
 
-Angesagt werden die vier Farben als [Trumpf](/ansagen/trumpffarbe/), [Obenabe](/ansagen/obenabe/) und [Undenufe](/ansagen/undenufe/), auf Wunsch dazu [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/). Die Abmachung bestimmt der Tisch selbst. Vier Vorlagen stehen bereit, mit «Eigene» stellt man Faktoren und Punktziel frei ein.
+Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) auf jassguru.ch.
 
-## Jassfreunde, Liga und Rekorde
+## Die Jass-KI: Albis 001 und AlphaJass
 
-Mit einem Profil zählt jede Partie. Wen man nach einer Partie wieder am Tisch haben will, fragt man als Jassfreund an. Wer zusagt, lässt sich danach mit einem Tipp an den eigenen Tisch rufen.
+In der Arena jasst man mit und gegen die Jass-KI des Verbands. Zusammen mit der Fachhochschule Nordwestschweiz (FHNW) entsteht dort die beste Jass-KI der Schweiz.
 
-In der Liga steigt man Woche für Woche auf oder ab. Gezählt wird nach [Strichen](/begriffe/punktebegriffe/strich/). Die Rekordtafel zeigt die besten Werte der Woche und aller Zeiten.
+Das Forschungsprojekt dazu heisst AlphaJass. Darin entwickelt der Jassverband Schweiz die Jass-KI mit der FHNW. Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern: Wer mitmachen will, gibt seine Partien gegen die KI frei.
+
+Albis 001 ist das neueste Modell. Es jasst am AlphaJass Stammtisch, mit Profil setzt man sich dazu.
+
+Die KI jasst nach den Konventionen am Schweizer Jasstisch und erklärt auf Wunsch jeden Zug: warum diese Karte, warum jetzt schieben, warum austrumpfen. Den Stand der Forschung legt der Verband im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
 
 ## Jass des Tages
 
-Jeden Tag liegt ein neues Blatt auf: dieselben neun Karten und dasselbe Ziel für alle, ein Versuch pro Tag. Um 19 Uhr erscheint die Lösung mit Video. Das heutige Blatt steht unter [Jass des Tages](https://jassguru.ch/jass-des-tages/), alle Blätter seit dem 14. August 2026 im [Archiv](https://jassguru.ch/jass-des-tages/archiv/).
+Jeden Tag liegt ein Blatt auf: dieselben neun Karten für alle, ein Ziel, ein Versuch pro Tag. Um 19 Uhr erscheint die Lösung als Video, am nächsten Tag liegt ein neues Blatt auf. Das heutige Blatt steht unter [Jass des Tages](https://jassguru.ch/jass-des-tages/), alle Blätter seit dem 14. August 2026 im [Archiv](https://jassguru.ch/jass-des-tages/archiv/).
+
+## Liga, Rekorde und Jassfreunde
+
+In der Liga steigt man jede Woche auf oder ab. Es gibt fünf Stufen, jede Liga zählt zehn Jasser. Gezählt wird die Bilanz der [Striche](/begriffe/punktebegriffe/strich/) aus den Arena-Spielen der Woche. Am Montag steigen die Besten auf und die Letzten ab. Mit Profil und einer Partie in der Arena ist man ab dem nächsten Montag dabei.
+
+Die Rekordtafel zeigt die besten Werte der Woche und aller Zeiten. Mit Profil zählt jede Partie.
+
+Wen man nach einer Partie wieder am Tisch haben will, fragt man als Jassfreund an. Jassfreunde ruft man mit einem Tipp an den eigenen Tisch. Wer gerufen wird, bekommt die Meldung aufs Telefon.
+
+## Schieber mit eigener Abmachung
+
+Gejasst wird Schieber, mit Deutschschweizer oder französischen Karten, gezeichnet von Jens Riedweg. Angesagt werden die vier Farben als [Trumpf](/ansagen/trumpffarbe/), dazu [Obenabe](/ansagen/obenabe/) und [Undenufe](/ansagen/undenufe/). [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) kommen auf Wunsch dazu. Trumpf sagt man an oder schiebt.
+
+Die Abmachung bestimmen die Jasser wie am echten Tisch. Vier Vorlagen stehen bereit: Einfach, Schilten doppelt, Klassiker und Slalom. Mit «Eigene» stellt man Faktoren und Punktziel frei ein.
+
+In der App heisst der [Weis](/weis-regeln/) Wys. Bei Wys und [Stöck](/weis-regeln/stoeck/) fragt die App nach. Nach der Meldung stehen die Punkte auf der Tafel.
 
 ## Die Jasstafel für den echten Tisch
 
-Am echten Tisch schreibt man auf der Jasstafel von JassGuru. Punkte und Weis kommen mit einem Antippen auf die Z-Linie. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu [Berg](/regeln/bergpreis/) und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.
+Am Küchentisch ersetzt JassGuru die Kreidetafel: Punkte, Striche, [Berg](/regeln/bergpreis/) und Sieg. Ein Tipp auf «Schreiben» öffnet den Rechner. Das Gegenresultat rechnet die Tafel selbst aus. Wys schreibt man auch auf der Z-Linie. Der Knopf neben «Schreiben» zeigt die Restpunkte zu Berg und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.
 
-Daraus entstehen Ranglisten, Partner- und Gegner-Bilanzen, Siegquoten und Matsch-Bilanzen sowie das [Jass-Elo](/grundlagen-kultur/jass-elo/). Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
+Daraus entstehen Statistik und Rangliste für die Jassgruppe: Partner- und Gegner-Bilanzen, Siegquoten, Matsch-Bilanzen und das [Tisch-Elo](/grundlagen-kultur/jass-elo/). Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
 
-## Herausgeber und Forschung
+## Herausgeber
 
-JassGuru wird vom [Jassverband Schweiz](https://jassverband.ch) betrieben, der auch das JassWiki herausgibt. Die Jass-KI entwickelt der Verband zusammen mit der Fachhochschule Nordwestschweiz (FHNW) weiter. Den Stand der Forschung legt er im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
+Hinter JassGuru steht der [Jassverband Schweiz](https://jassverband.ch). Er betreibt die App, gibt das JassWiki heraus und entwickelt die Jass-KI zusammen mit der FHNW. Sein Vermittlungsprojekt «Zeitgemässe Vermittlung der Jasskultur 2026» wird vom Bundesamt für Kultur unterstützt.
 
 **Häufige Fragen:**
-- **Was ist JassGuru?** JassGuru ist die Jass-App des Jassverbands Schweiz. Sie vereint die Arena zum Online-Jassen und die digitale Jasstafel für den echten Tisch.
-- **Kann man mit JassGuru online jassen?** Ja. In der Arena spielt man Schieber solo gegen die KI, im Duo mit einem Partner, zu viert mit den eigenen Leuten oder an offenen Tischen in der Lobby.
-- **Wer steht hinter JassGuru?** Der Jassverband Schweiz betreibt JassGuru und gibt auch das JassWiki heraus. Die Jass-KI entwickelt er zusammen mit der Fachhochschule Nordwestschweiz (FHNW).
-- **Was ist der Jass des Tages?** Ein Blatt pro Tag: dieselben neun Karten und dasselbe Ziel für alle. Um 19 Uhr erscheint die Lösung mit Video.
-- **Rechnet die Jasstafel von JassGuru automatisch?** Ja. Der Rechner zählt für beide Teams und zeigt die Restpunkte zu Berg und Sieg.
+- **Was ist JassGuru?** JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man Schieber online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe.
+- **Gegen wen jasst man bei JassGuru?** Gegen die Jass-KI oder gegen Menschen. Wer sofort jassen will, jasst mit einer KI gegen zwei KI. Am privaten Tisch sitzen die eigenen Jassfreunde, in der Lobby Jasser, die gerade online sind.
+- **Braucht man für JassGuru ein Profil?** Für den ersten Jass genügt auf jassguru.ch ein Tipp auf «Jetzt online jassen». Man sitzt sofort als Gast am Tisch. Mit Profil zählt jede Partie für die Liga und die Rekordtafel.
+- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Es jasst am AlphaJass Stammtisch, mit Profil setzt man sich dazu.
+- **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der FHNW. Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern. Wer mitmachen will, gibt seine Partien gegen die KI frei.
+- **Was ist der Jass des Tages?** Eine Aufgabe, die am selben Tag für alle gleich ist: dieselben neun Karten, dasselbe Ziel, ein Versuch. Um 19 Uhr erscheint die Lösung, am nächsten Tag liegt ein neues Blatt auf.
+- **Was ist die Liga von JassGuru?** Die Liga der Arena läuft Woche für Woche. Es zählt die Bilanz der Striche aus den Arena-Spielen. Am Montag steigen die Besten auf und die Letzten ab. Mit Profil und einer Partie in der Arena ist man ab dem nächsten Montag dabei.
+- **Wer steht hinter JassGuru?** Der Jassverband Schweiz. Er betreibt JassGuru, gibt das JassWiki heraus und entwickelt die Jass-KI zusammen mit der Fachhochschule Nordwestschweiz (FHNW).
+- **Rechnet die Jasstafel von JassGuru automatisch?** Ja. Ein Tipp auf «Schreiben» öffnet den Rechner, das Gegenresultat rechnet die Tafel selbst aus. Der Knopf neben «Schreiben» zeigt die Restpunkte zu Berg und Sieg.
 - **Kann man mit JassGuru Turniere durchführen?** Ja. Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
 
 *Keywords: jassguru, online jassen, online-jass, schieber, jass-ki*
@@ -290,7 +312,7 @@ Der älteste Beleg stammt aus Schaffhausen: 1796 verklagten zwei Pfarrer zwei Ba
 
 **Kategorie:** Grundlagen & Kultur > Jass-Elo
 
-Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/), das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner abbildet. Statt nur Sieg oder Niederlage nutzt es die [Strichdifferenz](/begriffe/punktebegriffe/strich/) als feineres Leistungsmass. Entwickelt vom Jassverband Schweiz (JVS), im Einsatz auf jassguru.ch.
+Jass-Elo ist ein Elo-basiertes Bewertungssystem für den [Schieber](/schieber/), das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner abbildet. Statt nur Sieg oder Niederlage nutzt es die [Strichdifferenz](/begriffe/punktebegriffe/strich/) als feineres Leistungsmass. Entwickelt vom Jassverband Schweiz (JVS), im Einsatz auf jassguru.ch. Dort heisst die Zahl aus den Partien am echten Tisch Tisch-Elo.
 
 ## Warum ein Rating-System?
 
@@ -426,7 +448,7 @@ In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schr
 - Mark E. Glickman (1995): The Glicko System. Boston University.
 
 **Häufige Fragen:**
-- **Was ist Jass-Elo?** Jass-Elo ist ein Elo-basiertes Bewertungssystem für den Schieber, das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner in einer laufend aktualisierten Zahl abbildet. Entwickelt vom Jassverband Schweiz, im Einsatz auf jassguru.ch.
+- **Was ist Jass-Elo?** Jass-Elo ist ein Elo-basiertes Bewertungssystem für den Schieber, das die individuelle Spielstärke eines Jassers partnerneutral und unabhängig vom Gegner in einer laufend aktualisierten Zahl abbildet. Entwickelt vom Jassverband Schweiz, im Einsatz auf jassguru.ch. Dort heisst die Zahl aus den Partien am echten Tisch Tisch-Elo.
 - **Wie unterscheidet sich Jass-Elo vom Schach-Elo?** Jass-Elo nutzt statt Sieg oder Niederlage die Strichdifferenz als kontinuierliches Leistungsmass, verwendet eine breitere Skala von 1000 mit Start-Rating 100 und bezieht die Partnerkonstellation über die gemeinsamen Elo-Punkte beider Partner in den Ausgangswert ein.
 - **Was bedeutet der K-Faktor beim Jass-Elo?** Der K-Faktor bestimmt die Anpassungsgeschwindigkeit pro Spiel. Jass-Elo verwendet einen fixen K-Faktor von 32 für die Team-Änderung. Da jeder Spieler die Hälfte erhält, entspricht das effektiv einem K-Faktor von 16 pro Spieler.
 - **Wie wird mein persönliches Jass-Elo berechnet?** Aus der Abweichung der tatsächlichen von der erwarteten Strichdifferenz, gewichtet mit dem K-Faktor. Beide Partner teilen sich die Team-Ratingänderung je zur Hälfte, und die Summe aller Änderungen eines Spiels ist immer null.

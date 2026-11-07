@@ -1,11 +1,16 @@
 {
-  "stand": "2026-10-26",
+  "stand": "2026-11-07",
   "alleAufgaben": "https://jassguru.ch/jass-des-tages/archiv/",
   "artikel": {
     "expressions_stechkarten": {
       "thema": "Stechen",
-      "anzahl": 4,
+      "anzahl": 5,
       "blaetter": [
+        {
+          "datum": "2026-11-04",
+          "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-04/"
+        },
         {
           "datum": "2026-10-06",
           "titel": "Der dritte Matsch in Folge.",
@@ -15,60 +20,60 @@
           "datum": "2026-10-03",
           "titel": "Erziele den Matsch",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-03/"
-        },
-        {
-          "datum": "2026-09-22",
-          "titel": "Mache mehr als 100 Punkte.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-09-22/"
         }
       ]
     },
     "expressions_bock": {
       "thema": "Bock aufbauen",
-      "anzahl": 12,
+      "anzahl": 15,
       "blaetter": [
         {
-          "datum": "2026-10-22",
-          "titel": "Erziele das Brake mit 106 Punkten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-22/"
+          "datum": "2026-11-05",
+          "titel": "Erziele das Break mit 79 Punkten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-05/"
         },
         {
-          "datum": "2026-10-16",
-          "titel": "Mit welcher Ansage machst du geschoben am meisten Punkte? 118 sind mit 2 Varianten möglich!",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-16/"
+          "datum": "2026-11-03",
+          "titel": "Verhinder den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
         },
         {
-          "datum": "2026-10-15",
-          "titel": "Erziele den Matsch wie aus dem Lehrbuch",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-15/"
+          "datum": "2026-10-28",
+          "titel": "Wähle bei diesem schwierigen Schieberchart Trumpf, alle Varianten zählen einfach.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-28/"
         }
       ]
     },
     "expressions_bockkarte": {
       "thema": "Bock aufbauen",
-      "anzahl": 12,
+      "anzahl": 15,
       "blaetter": [
         {
-          "datum": "2026-10-22",
-          "titel": "Erziele das Brake mit 106 Punkten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-22/"
+          "datum": "2026-11-05",
+          "titel": "Erziele das Break mit 79 Punkten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-05/"
         },
         {
-          "datum": "2026-10-16",
-          "titel": "Mit welcher Ansage machst du geschoben am meisten Punkte? 118 sind mit 2 Varianten möglich!",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-16/"
+          "datum": "2026-11-03",
+          "titel": "Verhinder den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
         },
         {
-          "datum": "2026-10-15",
-          "titel": "Erziele den Matsch wie aus dem Lehrbuch",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-15/"
+          "datum": "2026-10-28",
+          "titel": "Wähle bei diesem schwierigen Schieberchart Trumpf, alle Varianten zählen einfach.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-28/"
         }
       ]
     },
     "schieber_taktiken_verwerfen": {
       "thema": "Verwerfen",
-      "anzahl": 10,
+      "anzahl": 11,
       "blaetter": [
+        {
+          "datum": "2026-10-30",
+          "titel": "Konsequent verwerfen und Matsch machen.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-30/"
+        },
         {
           "datum": "2026-10-23",
           "titel": "Verhindere den Matsch.",
@@ -78,18 +83,18 @@
           "datum": "2026-10-14",
           "titel": "Konsequent verwerfen und Matsch machen.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-14/"
-        },
-        {
-          "datum": "2026-10-13",
-          "titel": "Mache den Undenufe Matsch",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-13/"
         }
       ]
     },
     "schieber_taktiken_anziehen": {
       "thema": "Anziehen",
-      "anzahl": 12,
+      "anzahl": 13,
       "blaetter": [
+        {
+          "datum": "2026-11-02",
+          "titel": "Erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
+        },
         {
           "datum": "2026-10-26",
           "titel": "Erziele den Obenabe-Matsch.",
@@ -99,18 +104,18 @@
           "datum": "2026-10-25",
           "titel": "Heute gibt’s den Undenufe-Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-25/"
-        },
-        {
-          "datum": "2026-10-11",
-          "titel": "108 Punkte sind gefragt.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-11/"
         }
       ]
     },
     "expressions_schmieren": {
       "thema": "Schmieren",
-      "anzahl": 6,
+      "anzahl": 7,
       "blaetter": [
+        {
+          "datum": "2026-10-29",
+          "titel": "Jasse einen sauberen Schellen-Trumpf",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-29/"
+        },
         {
           "datum": "2026-10-18",
           "titel": "Jasse einen sauberen Schellen-Trumpf",
@@ -120,11 +125,6 @@
           "datum": "2026-09-04",
           "titel": "Erziele 36 Punkte.",
           "url": "https://jassguru.ch/jass-des-tages/2026-09-04/"
-        },
-        {
-          "datum": "2026-09-03",
-          "titel": "Erziele über 100 Punkte.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-09-03/"
         }
       ]
     },
@@ -172,64 +172,64 @@
     },
     "schieber_taktiken_austrumpfen": {
       "thema": "Austrumpfen",
-      "anzahl": 4,
+      "anzahl": 8,
       "blaetter": [
         {
-          "datum": "2026-10-24",
-          "titel": "Versuche den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-24/"
+          "datum": "2026-11-07",
+          "titel": "Wie eröffne ich dieses Blatt?",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-07/"
         },
         {
-          "datum": "2026-10-21",
-          "titel": "Dieses Blatt gibt 129 Punkte.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-21/"
+          "datum": "2026-11-06",
+          "titel": "Mache mindestens 125 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-06/"
         },
         {
-          "datum": "2026-10-04",
-          "titel": "Heute ein easy Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-04/"
+          "datum": "2026-11-01",
+          "titel": "Erziele ein Break mit 92 Punkten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-01/"
         }
       ]
     },
     "expressions_matsch": {
       "thema": "Matsch",
-      "anzahl": 37,
+      "anzahl": 41,
       "blaetter": [
         {
-          "datum": "2026-10-26",
-          "titel": "Erziele den Obenabe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
+          "datum": "2026-11-04",
+          "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-04/"
         },
         {
-          "datum": "2026-10-25",
-          "titel": "Heute gibt’s den Undenufe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-25/"
+          "datum": "2026-11-03",
+          "titel": "Verhinder den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
         },
         {
-          "datum": "2026-10-24",
-          "titel": "Versuche den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-24/"
+          "datum": "2026-11-02",
+          "titel": "Erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
         }
       ]
     },
     "matsch": {
       "thema": "Matsch",
-      "anzahl": 37,
+      "anzahl": 41,
       "blaetter": [
         {
-          "datum": "2026-10-26",
-          "titel": "Erziele den Obenabe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
+          "datum": "2026-11-04",
+          "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-04/"
         },
         {
-          "datum": "2026-10-25",
-          "titel": "Heute gibt’s den Undenufe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-25/"
+          "datum": "2026-11-03",
+          "titel": "Verhinder den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
         },
         {
-          "datum": "2026-10-24",
-          "titel": "Versuche den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-24/"
+          "datum": "2026-11-02",
+          "titel": "Erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
         }
       ]
     }
