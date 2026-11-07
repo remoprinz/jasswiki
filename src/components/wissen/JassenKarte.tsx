@@ -13,7 +13,7 @@ import leitartikel from '@/data/leitartikel.json';
 const JASSGURU = 'https://jassguru.ch';
 
 // Die zwei Sätze der Karte. Titel in Arbeit bei FEILE (07.11.2026), hier tauschen.
-export const KARTE_TITEL = 'Jass sofort online. Auch ohne Mitspieler.';
+export const KARTE_TITEL = 'Sofort online jassen. Auch allein.';
 export const KARTE_SATZ = 'Schieber gegen die Jass-KI, mit deinen Leuten oder am offenen Tisch.';
 
 export const jassguruLink = (pfad: string, ort: string): string =>
