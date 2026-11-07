@@ -20,6 +20,7 @@ import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 
 
 // Helper: Holt alle Artikel einer Unterkategorie
@@ -297,7 +298,11 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             {/* Artikel-Inhalt */}
             <article className="content-formatting max-w-none">
               <div className="content-formatting text-black">
-                <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+                {hatArtikelBilder(contentItem.id) ? (
+                  <TextMitBildern schluessel={contentItem.id} text={cardTextBefore} farbwechsel={farbwechsel} />
+                ) : (
+                  <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+                )}
               </div>
               {isKartenfarben && <JassCardGrid />}
               {isKartenfarben && cardTextAfter && (
