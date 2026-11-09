@@ -12,7 +12,8 @@ import leitartikel from '@/data/leitartikel.json';
 
 const JASSGURU = 'https://jassguru.ch';
 
-// Die Karte (Remo 09.11.2026): das JassGuru-Logo zeigt offen, wohin der Knopf führt,
+// Die Karte (Remo 09.11.2026): die Marke JassGuru Arena mit dem Jassguru, wie auf der
+// Startseite von jassguru.ch. Sie zeigt offen, wohin der Knopf führt,
 // ein Satz, ein Knopf. «Auch allein» und die zweite Zeile sind weg, der zweite Link auch:
 // Wer gerade eine Regel gelesen hat, entscheidet in einer Sekunde.
 export const KARTE_TITEL = 'Jetzt online jassen.';
@@ -91,7 +92,18 @@ export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, absta
       className={`not-prose ${abstand} bg-[#274823] rounded-[12px] border-[1.74px] border-black pt-[16px] sm:pt-[20px] px-[14px] sm:px-[17px] pb-[20px] sm:pb-[24px] flex flex-col items-center gap-[10px] sm:gap-[12px]`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/jassguru-logo-weiss.svg" alt="JassGuru" width={300} height={52} loading="lazy" className="h-auto w-[150px] sm:w-[180px]" />
+      <picture>
+        <source type="image/avif" srcSet="/marke/marke-jassguru-arena.avif 1x, /marke/marke-jassguru-arena@3x.avif 3x" />
+        <img
+          src="/marke/marke-jassguru-arena.png"
+          srcSet="/marke/marke-jassguru-arena.png 1x, /marke/marke-jassguru-arena@2x.png 2x, /marke/marke-jassguru-arena@3x.png 3x"
+          alt="JassGuru Arena"
+          width={128}
+          height={133}
+          loading="lazy"
+          className="h-auto w-[104px] sm:w-[128px]"
+        />
+      </picture>
       <p className="!font-capita !text-[22px] sm:!text-[28px] !font-bold text-center !text-white !leading-[1.2] !m-0">
         {KARTE_TITEL}
       </p>
