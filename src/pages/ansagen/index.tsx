@@ -84,7 +84,7 @@ const AnsagenLeitartikel: NextPage = () => {
               <p>
                 Beim{' '}
                 <Link href="/varianten/coiffeur/" className="text-[#ff0000] hover:underline">Coiffeur</Link>{' '}
-                ist es normal, dass die meisten Ansagen im Verlauf einer Partie «abgehakt» werden, also jede genau einmal gespielt wird. Hier lernst du alle Ansagen kennen, was sie bedeuten und wie sie gezählt werden.
+                ist es normal, dass die meisten Ansagen im Verlauf einer Partie «abgehakt» werden, also jede genau einmal gespielt wird.
               </p>
             </div>
           </header>

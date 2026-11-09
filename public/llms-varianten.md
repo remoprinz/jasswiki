@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 52
-last_updated: 2026-11-07
+last_updated: 2026-11-09
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1786,7 +1786,7 @@ Gezählt wird beim Sidi-Barrani in Punkten: Jede Partei führt ihre Punktzahl au
 
 ## Ein Spiel von Anfang bis zur Tafel
 
-A und C sitzen einander gegenüber, B und D ebenso. Vorhand ist A. Jeder Spieler sieht seine neun Karten. Was er von den anderen weiss, erfährt er allein aus den Ansagen. Wir zeigen trotzdem alle vier Blätter, damit sich jede Ansage und jeder Stich nachprüfen lässt.
+A und C sitzen einander gegenüber, B und D ebenso. Vorhand ist A. Jeder Spieler sieht seine neun Karten. Was er von den anderen weiss, erfährt er allein aus den Ansagen. Alle vier Blätter stehen hier, damit sich jede Ansage und jeder Stich nachprüfen lässt.
 
 ### So liegen die Karten
 

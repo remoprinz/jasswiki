@@ -100,7 +100,7 @@ const TaktikenStrategienPage: NextPage = () => {
                 ist entscheidend, wie man mit seinem Partner zusammenspielt. Der Grundsatz lautet: Man spielt mit 18 Karten und nicht mit neun.
               </p>
               <p>
-                Dabei ist von zentraler Bedeutung, wie man sich mit seinem Partner über die Wahl der Karte und die Reihenfolge, in der man sie spielt, verständigt, natürlich ohne ein Wort dabei zu sagen. Hier lernst du die wichtigsten Konventionen, Taktiken und Strategien kennen, wie du mit deinem Partner durch die Wahl der Karten kommunizierst.
+                Dabei ist von zentraler Bedeutung, wie man sich mit seinem Partner über die Wahl der Karte und die Reihenfolge, in der man sie spielt, verständigt, natürlich ohne ein Wort dabei zu sagen.
               </p>
               <p>
                 Wer neu einsteigt, beginnt am besten bei der{' '}

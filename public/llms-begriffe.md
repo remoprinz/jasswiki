@@ -4,7 +4,7 @@ description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 70
-last_updated: 2026-11-07
+last_updated: 2026-11-09
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -847,7 +847,7 @@ Grundkonzept:
 
 **Häufige Fragen:**
 - **Wie viele Spieler hat ein Team beim Jassen?** Ein Team besteht normalerweise aus zwei Spielern, bei manchen Varianten auch aus drei Spielern.
-- **Wie wichtig ist die Teamarbeit beim Jassen?** Die beiden Partner gewinnen zusammen oder gar nicht.
+- **Kann beim Jassen ein Spieler allein gewinnen?** Die beiden Partner gewinnen zusammen oder gar nicht.
 - **Wer sitzt im Team zusammen?** Beim Schieber sitzen sich die beiden Partner gegenüber.
 
 *Keywords: team*
@@ -1055,7 +1055,7 @@ Die Königspartei spielt gegen die drei übrigen Spieler, die Bauernpartei.
 - **Was bedeutet Königspartei beim Jassen?** Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter (auch Steiger genannt), wenn mit fünf Spielern gespielt wird.
 - **Was ist die Königspartei?** Die Königspartei besteht aus dem Meistbietenden und seinem Partner bei der Jassart Bieter mit fünf Spielern.
 - **Gegen wen spielt die Königspartei?** Die Königspartei spielt gegen die Bauernpartei.
-- **Wie wichtig ist die Koordination bei der Königspartei?** Die Koordination ist sehr wichtig - die beiden Spieler der Königspartei müssen koordiniert gegen die Bauernpartei vorgehen.
+- **Spielen die beiden Spieler der Königspartei zusammen?** Ja. Die beiden Spieler der Königspartei spielen als Team gegen die drei Spieler der Bauernpartei.
 
 *Keywords: königspartei, bieter, steiger*
 

@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 26
-last_updated: 2026-11-07
+last_updated: 2026-11-09
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -604,7 +604,7 @@ Moderne Entwicklung:
 Die Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.
 
 **Häufige Fragen:**
-- **Was ist Jassapps Generelles?** Die Digitalisierung hat zahlreiche Apps und Plattformen zum Jassen hervorgebracht.
+- **Gibt es Apps zum Jassen?** Ja. Zum Jassen gibt es heute viele Apps und Plattformen.
 - **Welche Arten von Jass-Apps gibt es?** Es gibt Spiel-Apps zum aktiven Jassen, Notier-Apps für Punktetafeln und Online-Plattformen.
 - **Was sind die Vorteile von Jass-Apps?** Jass-Apps bieten Zugänglichkeit (jederzeit spielbar), Lernhilfen mit Tutorials und Taktiktipps sowie Social Features für Online-Spiel.
 - **Helfen Jass-Apps, die Tradition zu bewahren?** Ja, die Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.
@@ -666,7 +666,7 @@ Bedeutung der Aufnahme:
 • **Kulturelles Erbe:** Die Aufnahme unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft
 • **Bewahrung:** Die Liste trägt dazu bei, das Spiel und seine Traditionen für zukünftige Generationen zu bewahren
 • **Identitätsstiftend:** Der Jass wird als wichtiger Teil der Schweizer kulturellen Identität anerkannt
-• **Lebendige Tradition:** Das Jassen wird nicht nur als Kartenspiel, sondern als lebendige Tradition gewürdigt, die soziale Bindungen schafft und kulturelle Werte vermittelt
+• **Lebendige Tradition:** Das Jassen gilt als lebendige Tradition, die soziale Bindungen schafft und kulturelle Werte vermittelt
 
 Ziele der Liste:
 Die Liste soll repräsentative Elemente des immateriellen Kulturerbes aus allen Landesteilen darstellen und trägt dazu bei:
@@ -680,7 +680,7 @@ Die «Liste der lebendigen Traditionen in der Schweiz» dokumentiert über 200 S
 **Häufige Fragen:**
 - **Ist der Jass ein UNESCO-Kulturerbe?** Der Jass steht auf der «Liste der lebendigen Traditionen in der Schweiz», die im Rahmen des UNESCO-Übereinkommens zur Bewahrung des immateriellen Kulturerbes erstellt wurde. Es handelt sich um eine nationale Liste, nicht um die internationale UNESCO-Liste des immateriellen Kulturerbes der Menschheit.
 - **Was bedeutet die Aufnahme in die Liste der lebendigen Traditionen für den Jass?** Die Aufnahme unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft und trägt dazu bei, das Spiel und seine Traditionen für zukünftige Generationen zu bewahren. Sie signalisiert die kulturhistorische Relevanz des Jassens als lebendige Tradition.
-- **Warum wurde der Jass in die Liste der lebendigen Traditionen aufgenommen?** Der Jass wurde nicht nur als Kartenspiel, sondern als lebendige Tradition anerkannt, die soziale Bindungen schafft, kulturelle Werte vermittelt und identitätsstiftend für die Schweizer Gesellschaft ist. Er wird hier und jetzt in der Schweiz praktiziert und ist Teil der kulturellen Vielfalt und Identität.
+- **Warum wurde der Jass in die Liste der lebendigen Traditionen aufgenommen?** Als lebendige Tradition: Der Jass schafft soziale Bindungen, vermittelt kulturelle Werte und gehört zur Schweizer Identität. Er wird heute in der ganzen Schweiz gespielt und ist Teil ihrer kulturellen Vielfalt.
 - **Was hat das Bundesamt für Kultur mit dem Jassen zu tun?** Das Bundesamt für Kultur (BAK) hat das Jassen 2011 in die «Liste der lebendigen Traditionen in der Schweiz» aufgenommen. Diese Aufnahme durch das BAK unterstreicht die kulturelle Bedeutung des Jassens für die Schweizer Gesellschaft und würdigt es als lebendige Tradition, die soziale Bindungen schafft und kulturelle Werte vermittelt.
 - **Welche Rolle hat das BAK bei der Anerkennung des Jassens?** Das Bundesamt für Kultur (BAK) hat das Jassen in die Liste der lebendigen Traditionen aufgenommen und damit seine kulturhistorische Relevanz anerkannt. Das BAK erstellt und pflegt diese Liste im Rahmen des UNESCO-Übereinkommens zur Bewahrung des immateriellen Kulturerbes.
 
@@ -754,7 +754,7 @@ Gesellschaftliche Dimensionen:
 • **Sprachliche Identität:** Die reiche Jass-Terminologie spiegelt die Schweizer Dialektvielfalt wider
 
 Moderne Entwicklung:
-Trotz Digitalisierung bleibt der Jass lebendig, wobei traditionelle Treffen und moderne Jass-Apps nebeneinander existieren.
+Jassrunden am Tisch und Jass-Apps bestehen nebeneinander.
 
 Identitätsstiftung:
 Das Jassen verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg und stärkt das Gemeinschaftsgefühl.
@@ -763,7 +763,7 @@ Das Jassen verbindet Menschen über Generationen, Regionen und Sprachgrenzen hin
 - **Warum gilt der Jass als Schweizer Kulturgut?** Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.
 - **Warum ist Jass so wichtig für die Schweizer Kultur?** Der Jass ist tief in der Schweizer Kultur verwurzelt, wird als Nationalspiel betrachtet und verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg.
 - **Wo wird in der Schweiz gejasst?** Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt.
-- **Hat die Digitalisierung den Jass verdrängt?** Nein, trotz Digitalisierung bleibt der Jass lebendig - traditionelle Treffen und moderne Jass-Apps existieren nebeneinander.
+- **Haben Jass-Apps den Jass am Tisch verdrängt?** Nein. Jassrunden am Tisch und Jass-Apps bestehen nebeneinander.
 
 *Keywords: kultur, tradition, geschichte, regionen, deutschschweiz*
 
@@ -1028,7 +1028,7 @@ Auch heute werden Jasskarten in der Schweiz produziert und weltweit exportiert, 
 **Kategorie:** Jassapps > Online-Jass
 
 App-Überblick:
-Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis.
+Swissjass ist eine beliebte Jass-App mit Schweizer Karten und traditionellem Design.
 
 Hauptmerkmale:
 • **Authentisches Design:** Verwendet traditionelle Schweizer Karten und Designs
@@ -1043,8 +1043,8 @@ Verfügbarkeit:
 Swissjass ist für mobile Plattformen verfügbar.
 
 **Häufige Fragen:**
-- **Was ist SwissJass+?** Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis.
-- **Was ist Swissjass?** Swissjass ist eine beliebte Jass-App mit Fokus auf authentisches Schweizer Spielerlebnis und traditionellem Design.
+- **Was ist SwissJass+?** Swissjass ist eine beliebte Jass-App mit Schweizer Karten und traditionellem Design.
+- **Was ist Swissjass?** Swissjass ist eine beliebte Jass-App mit Schweizer Karten, traditionellem Design und vielen Jassvarianten.
 - **Welche Besonderheit hat Swissjass?** Swissjass legt besonderen Wert auf die Bewahrung der Schweizer Jass-Tradition im digitalen Format mit authentischen Schweizer Karten.
 - **Kann man mit Swissjass online spielen?** Ja, Swissjass bietet sowohl Online-Spiel gegen andere Spieler als auch Offline-Spiel gegen Computer.
 
