@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     question: 'Was ist Nachschmeissen?',
-    answer: 'Nur im ersten Stich bei Obenabe, Undenufe, Quer, Slalom und Trio: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Bei Undenufe folgt auf den Sechser der Siebner.',
+    answer: 'Nur im ersten Stich bei Obenabe, Undenufe, Quer, Slalom und Trio und allein, wenn Vorhand selbst ansagt: Spielt der Ansager ein Ass aus, schmeisst der Partner den König derselben Farbe nach. Bei Undenufe folgt auf den Sechser der Siebner. Schiebt Vorhand, entfällt das Nachschmeissen.',
   },
   {
     question: 'Was ist der Unterschied zwischen Anziehen und Verwerfen?',
@@ -194,7 +194,7 @@ const TaktikenStrategienPage: NextPage = () => {
               </li>
               <li>
                 <Link href="/taktiken-und-strategien/kommunikation-signale/nachschmeissen/" className="text-[#ff0000] hover:underline font-medium">Nachschmeissen</Link>:
-                {' '}Nur im ersten Stich bei Obenabe und Undenufe. Auf das Ass des Partners wirft man den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner).
+                {' '}Nur im ersten Stich bei Obenabe, Undenufe, Quer, Slalom und Trio und allein, wenn Vorhand selbst ansagt. Auf das Ass des Ansagers wirft der Partner den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner). Schiebt Vorhand, entfällt das Nachschmeissen.
               </li>
             </ul>
           </section>

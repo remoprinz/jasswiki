@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-07",
+  "stand": "2026-11-09",
   "alleAufgaben": "https://jassguru.ch/jass-des-tages/archiv/",
   "artikel": {
     "expressions_stechkarten": {
@@ -88,8 +88,13 @@
     },
     "schieber_taktiken_anziehen": {
       "thema": "Anziehen",
-      "anzahl": 13,
+      "anzahl": 14,
       "blaetter": [
+        {
+          "datum": "2026-11-09",
+          "titel": "Mache eine Zeitreise ins 19. Jahrundert und eziele den Matsch mit Piquet Karten von 1880.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-09/"
+        },
         {
           "datum": "2026-11-02",
           "titel": "Erziele den Matsch.",
@@ -99,11 +104,6 @@
           "datum": "2026-10-26",
           "titel": "Erziele den Obenabe-Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-10-26/"
-        },
-        {
-          "datum": "2026-10-25",
-          "titel": "Heute gibt’s den Undenufe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-25/"
         }
       ]
     },
@@ -193,8 +193,13 @@
     },
     "expressions_matsch": {
       "thema": "Matsch",
-      "anzahl": 41,
+      "anzahl": 42,
       "blaetter": [
+        {
+          "datum": "2026-11-09",
+          "titel": "Mache eine Zeitreise ins 19. Jahrundert und eziele den Matsch mit Piquet Karten von 1880.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-09/"
+        },
         {
           "datum": "2026-11-04",
           "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
@@ -204,18 +209,18 @@
           "datum": "2026-11-03",
           "titel": "Verhinder den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
-        },
-        {
-          "datum": "2026-11-02",
-          "titel": "Erziele den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
         }
       ]
     },
     "matsch": {
       "thema": "Matsch",
-      "anzahl": 41,
+      "anzahl": 42,
       "blaetter": [
+        {
+          "datum": "2026-11-09",
+          "titel": "Mache eine Zeitreise ins 19. Jahrundert und eziele den Matsch mit Piquet Karten von 1880.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-09/"
+        },
         {
           "datum": "2026-11-04",
           "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
@@ -225,11 +230,6 @@
           "datum": "2026-11-03",
           "titel": "Verhinder den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
-        },
-        {
-          "datum": "2026-11-02",
-          "titel": "Erziele den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
         }
       ]
     }

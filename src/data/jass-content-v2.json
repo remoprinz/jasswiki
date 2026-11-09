@@ -2131,7 +2131,7 @@
   },
   "expressions_nachschmeissen": {
     "id": "expressions_nachschmeissen",
-    "text": "Definition:\n• Nachschmeissen heisst: Der Partner des Spielers, der am Drücker (siehe Begriff \"expressions_am_druecker\") ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker (siehe Begriff \"expressions_am_druecker\")).\n\nBeispiel:\n• Sagt ein Spieler Vorhand Obe (siehe Begriff \"expressions_obenabe\") an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe (siehe Begriff \"expressions_kartenfarben\"), also Schellen, ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.\n\nWichtig:\n• Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.",
+    "text": "Definition:\n• Nachschmeissen heisst: Vorhand (siehe Begriff \"expressions_vorhand\") sagt selbst an und spielt als erste Karte ein Ass aus. Ihr Partner gibt darauf den König derselben Farbe her, damit der Stich durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte. Das Zeichen trägt, weil der Ansager hier zugleich am Drücker (siehe Begriff \"expressions_am_druecker\") ist und den ersten Stich selbst anführt.\n\nBedingung:\n• Nachgeschmissen wird allein, wenn Vorhand selbst ansagt. Das Zeichen gilt im ersten Stich und in der zuerst ausgespielten Farbe.\n• Schiebt Vorhand (siehe Begriff \"expressions_schieben\"), entfällt das Nachschmeissen: Der Schieber spielt die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich.\n\nBeispiel:\n• Sagt Vorhand Obe (siehe Begriff \"expressions_obenabe\") an und spielt als erste Karte Schellen Ass aus, gilt das als Zeichen, dass sie von der zuerst ausgespielten Farbe (siehe Begriff \"expressions_kartenfarben\"), also Schellen, ein starkes Blatt hat. Hält ihr Partner den Schellen König, spielt er diesen, damit der Stich durchgeht.\n\nWichtig:\n• Wer Vorhand ansagt und einen König sucht, spielt zuerst die entsprechende Farbe. Bei Undenufe gilt dasselbe mit Sechser und Siebner: Auf den ausgespielten Sechser schmeisst der Partner den Siebner nach.",
     "metadata": {
       "id": "expressions_nachschmeissen_meta",
       "category": {
@@ -2145,6 +2145,8 @@
         "taktik",
         "partner",
         "drücker",
+        "vorhand",
+        "schieben",
         "bock-karte",
         "opfern",
         "weg ebnen"
@@ -2156,26 +2158,33 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-16"
+      "dateModified": "2026-11-09"
     },
     "faqs": [
       {
         "question": "Was bedeutet Nachschmeissen beim Jassen?",
-        "answer": "Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte."
+        "answer": "Nachschmeissen heisst: Vorhand sagt selbst an und spielt als erste Karte ein Ass aus. Ihr Partner gibt darauf den König derselben Farbe her, damit der Stich durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte."
       },
       {
         "question": "Wann wird nachgeschmissen?",
-        "answer": "Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe."
+        "answer": "Nachgeschmissen wird allein, wenn Vorhand selbst ansagt. Das Zeichen gilt im ersten Stich und in der zuerst ausgespielten Farbe. Wer Vorhand ansagt und einen König sucht, spielt zuerst die entsprechende Farbe."
+      },
+      {
+        "question": "Gilt das Nachschmeissen auch nach dem Schieben?",
+        "answer": "Das Nachschmeissen gilt allein, wenn Vorhand selbst ansagt. Schiebt Vorhand, spielt der Schieber die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich."
       },
       {
         "question": "Was ist ein Beispiel für Nachschmeissen?",
-        "answer": "Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, und sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht."
+        "answer": "Sagt Vorhand Obe an und spielt als erste Karte Schellen Ass aus, gibt ihr Partner den Schellen König her, damit der Stich durchgeht."
       }
     ],
     "see_also": [
+      "expressions_vorhand",
+      "expressions_schieben",
       "expressions_am_druecker",
       "expressions_obenabe",
       "expressions_kartenfarben",
+      "schieber_taktiken_advanced",
       "jass_ki"
     ]
   },
@@ -6985,7 +6994,7 @@
   },
   "schieber_taktiken_advanced": {
     "id": "schieber_taktiken_advanced",
-    "text": "In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest umgekehrt aus den Karten des Partners, was der hält.\n\nBei fortgeschrittenen Spielern gelten folgende Konventionen:\n\n## Nell vor Puur\n\nHält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.\n\nMehr dazu unter «Nell vor Puur» (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n## Anzeigen, wie viele Trümpfe man hält\n\nDer Partner des Trumpfansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst «Hoch-Tief» (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\n- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.\n- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.\n\nDas Nell und der Puur sind davon ausgenommen.\n\n**Wieso ist das wichtig?**\n\nZu viel Austrumpfen kostet die meisten Matsche. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.\n\nEin häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Trumpfansager kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.\n\nWichtig: Die Hoch-Tief- / Tief-höher-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.\n\n**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.\n\n## Der blutte Puur\n\nHält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss ihn dem Partner aber anzeigen. Das macht er, indem er ein «Brättli» (siehe Begriff \"expressions_braettli\") spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.\n\n**Wieso ist das wichtig?**\n\nDa für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn der Trumpfansager das Brättli gesehen hat.\n\n## Nachschmeissen\n\nBei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.\n\n**Wieso ist das wichtig?**\n\nIm ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand (siehe Begriff \"expressions_wand\") durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.\n\nMehr dazu unter «Nachschmeissen» (siehe Begriff \"expressions_nachschmeissen\").\n\n## Verwerfen beim Slalom\n\nBeim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst: unten übergeben. Eine hohe Karte: oben übergeben.\n\n**Wieso ist das wichtig?**\n\nBeim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Die Karte zeigt, was sie meint: tief heisst unten, hoch heisst oben. Mit der verworfenen Farbe macht man ohnehin keinen Stich.\n\nDie Einzelheiten stehen unter «Verwerfen beim Slalom» (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
+    "text": "In einem eingespielten Jass-Team verständigen sich die Partner über die Karten. Wer fortgeschritten jasst, gibt seinem Partner mit der Wahl und der Reihenfolge seiner Karten Auskunft darüber, was er hält, und liest umgekehrt aus den Karten des Partners, was der hält.\n\nBei fortgeschrittenen Spielern gelten folgende Konventionen:\n\n## Nell vor Puur\n\nHält Vorhand Puur und Nell zugleich, spielt sie im ersten Stich zuerst das Nell. Der Partner liest daraus: Wer mit dem Nell eröffnet, hat auch den Puur. Wer den Puur nicht hält, eröffnet nie mit dem Nell.\n\nMehr dazu unter «Nell vor Puur» (siehe Begriff \"schieber_taktiken_nell_vor_puur\").\n\n## Anzeigen, wie viele Trümpfe man hält\n\nDer Partner des Trumpfansagers zeigt mit der Reihenfolge seiner Trümpfe, wie viele er hält. Diese Konvention heisst «Hoch-Tief» (siehe Begriff \"schieber_taktiken_hoch_tief\").\n\n- **Mit genau zwei Trümpfen** spielt er im ersten Stich zuerst den **höheren**.\n- **Mit drei oder mehr Trümpfen** spielt er zuerst den **tiefsten Trumpf**.\n\nDas Nell und der Puur sind davon ausgenommen.\n\n**Wieso ist das wichtig?**\n\nZu viel Austrumpfen kostet die meisten Matsche. Spielt der Partner zuerst die tiefste Karte, darf man darauf spekulieren, dass er drei oder mehr Trümpfe hält.\n\nEin häufiger Fehler: Wer zuerst das Banner statt des tiefsten Trumpfs spielt, zerstört dieses Signal. Der Trumpfansager kann nur dann sicher auf ein zweites Austrumpfen verzichten, wenn er die tiefste Karte gesehen hat.\n\nWichtig: Die Hoch-Tief- / Tief-höher-Konvention gilt auch, wenn geschoben wurde. In diesem Fall spielt Vorhand den tiefsten Trumpf aus, wenn sie drei oder mehr hält, und den hohen bei zwei Trümpfen.\n\n**Ausnahmen:** Das Nell und der Puur bilden die Ausnahme. Spielt Vorhand zum Beispiel den Puur aus, hält der Partner das Nell zurück. Ist geschoben, spielt Vorhand in jedem Fall das Nell aus. Dasselbe gilt für den Puur, ausser man hält ihn blutt.\n\n## Der blutte Puur\n\nHält ein Spieler den blutten Puur, spielt er ihn in der Regel nicht. Er muss ihn dem Partner aber anzeigen. Das macht er, indem er ein «Brättli» (siehe Begriff \"expressions_braettli\") spielt, also einen Sechser bis Neuner. Hat er den Puur nicht (und auch keinen anderen Trumpf), darf er kein Brättli spielen.\n\n**Wieso ist das wichtig?**\n\nDa für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt werden. Das ist aber nur von Vorteil, wenn der Trumpfansager das Brättli gesehen hat.\n\n## Nachschmeissen\n\nBei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich** und allein, wenn Vorhand (siehe Begriff \"expressions_vorhand\") selbst ansagt: Spielt der Ansager ein Ass aus, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach. Schiebt Vorhand, entfällt das Nachschmeissen: Der Schieber spielt die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich.\n\n**Wieso ist das wichtig?**\n\nIm ersten Stich sucht der Ansager beim Partner den König oder den Siebner und kann seine Wand (siehe Begriff \"expressions_wand\") durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht und der Ansager weiss Bescheid.\n\nMehr dazu unter «Nachschmeissen» (siehe Begriff \"expressions_nachschmeissen\").\n\n## Verwerfen beim Slalom\n\nBeim Slalom sagt die erste Karte, die der Partner verwirft, wie übergeben werden soll. Eine tiefe Karte heisst: unten übergeben. Eine hohe Karte: oben übergeben.\n\n**Wieso ist das wichtig?**\n\nBeim Slalom ist das oft die einzige Möglichkeit, dem Partner mitzuteilen, ob hoch oder tief übergeben werden soll. Die Karte zeigt, was sie meint: tief heisst unten, hoch heisst oben. Mit der verworfenen Farbe macht man ohnehin keinen Stich.\n\nDie Einzelheiten stehen unter «Verwerfen beim Slalom» (siehe Begriff \"schieber_taktiken_verwerfen_slalom\").",
     "metadata": {
       "id": "schieber_taktiken_advanced_meta",
       "category": {
@@ -7012,7 +7021,7 @@
       "difficulty": 3,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-11-09"
     },
     "faqs": [
       {
@@ -7025,7 +7034,7 @@
       },
       {
         "question": "Was ist Nachschmeissen?",
-        "answer": "Bei Obenabe, Undenufe, Quer, Slalom und Trio wirft der Partner im ersten Stich auf ein Ass den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ausspieler seine Wand durchspielen kann."
+        "answer": "Sagt Vorhand Obenabe, Undenufe, Quer, Slalom oder Trio selbst an und spielt im ersten Stich ein Ass aus, wirft der Partner den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ansager seine Wand durchspielen kann. Schiebt Vorhand, entfällt das Nachschmeissen."
       },
       {
         "question": "Wie verwirft man beim Slalom?",

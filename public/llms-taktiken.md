@@ -73,18 +73,23 @@ Bringt Spieler B die Farbe sogar zurück, hat A die Option, sie mit seinem Trump
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
 Definition:
-• Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte (vgl. auch Am Drücker).
+• Nachschmeissen heisst: Vorhand sagt selbst an und spielt als erste Karte ein Ass aus. Ihr Partner gibt darauf den König derselben Farbe her, damit der Stich durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte. Das Zeichen trägt, weil der Ansager hier zugleich am Drücker ist und den ersten Stich selbst anführt.
+
+Bedingung:
+• Nachgeschmissen wird allein, wenn Vorhand selbst ansagt. Das Zeichen gilt im ersten Stich und in der zuerst ausgespielten Farbe.
+• Schiebt Vorhand, entfällt das Nachschmeissen: Der Schieber spielt die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich.
 
 Beispiel:
-• Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, kann das als Zeichen gewertet werden, dass dieser von der zuerst ausgespielten Farbe, also Schellen, ein starkes Blatt hat. Wenn sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
+• Sagt Vorhand Obe an und spielt als erste Karte Schellen Ass aus, gilt das als Zeichen, dass sie von der zuerst ausgespielten Farbe, also Schellen, ein starkes Blatt hat. Hält ihr Partner den Schellen König, spielt er diesen, damit der Stich durchgeht.
 
 Wichtig:
-• Nachgeschmissen wird nur bei der zuerst ausgespielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
+• Wer Vorhand ansagt und einen König sucht, spielt zuerst die entsprechende Farbe. Bei Undenufe gilt dasselbe mit Sechser und Siebner: Auf den ausgespielten Sechser schmeisst der Partner den Siebner nach.
 
 **Häufige Fragen:**
-- **Was bedeutet Nachschmeissen beim Jassen?** Nachschmeissen heisst: Der Partner des Spielers, der am Drücker ist, gibt eine eigene hohe Karte her, damit der Stich seines Partners durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte.
-- **Wann wird nachgeschmissen?** Nachgeschmissen wird nur bei der zuerst ausgepielten Farbe. Wer am Drücker ist und einen König sucht, spielt zuerst die entsprechende Farbe.
-- **Was ist ein Beispiel für Nachschmeissen?** Sagt ein Spieler Vorhand Obe an und spielt als erste Karte Schellen Ass aus, und sein Partner den Schellen König hält, spielt er diesen, damit der Stich durchgeht.
+- **Was bedeutet Nachschmeissen beim Jassen?** Nachschmeissen heisst: Vorhand sagt selbst an und spielt als erste Karte ein Ass aus. Ihr Partner gibt darauf den König derselben Farbe her, damit der Stich durchgeht. Oft ist es eine Karte, die später selbst einen Stich geholt hätte.
+- **Wann wird nachgeschmissen?** Nachgeschmissen wird allein, wenn Vorhand selbst ansagt. Das Zeichen gilt im ersten Stich und in der zuerst ausgespielten Farbe. Wer Vorhand ansagt und einen König sucht, spielt zuerst die entsprechende Farbe.
+- **Gilt das Nachschmeissen auch nach dem Schieben?** Das Nachschmeissen gilt allein, wenn Vorhand selbst ansagt. Schiebt Vorhand, spielt der Schieber die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich.
+- **Was ist ein Beispiel für Nachschmeissen?** Sagt Vorhand Obe an und spielt als erste Karte Schellen Ass aus, gibt ihr Partner den Schellen König her, damit der Stich durchgeht.
 
 *Keywords: nachschmeissen, nohrüere, taktik, partner, drücker*
 
@@ -194,11 +199,11 @@ Da für den Puur kein Farbzwang herrscht, kann er später im Spiel eingesetzt we
 
 ## Nachschmeissen
 
-Bei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich**: Spielt der Ausspieler ein Ass, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach.
+Bei Obenabe, Undenufe, Quer, Slalom und Trio gilt, **aber nur im ersten Stich** und allein, wenn Vorhand selbst ansagt: Spielt der Ansager ein Ass aus, schmeisst der Partner den König derselben Farbe nach. Dasselbe gilt bei Undenufe beim Sechser, dann schmeisst der Partner den Siebner nach. Schiebt Vorhand, entfällt das Nachschmeissen: Der Schieber spielt die erste Karte aus und der Ansager spielt seine Karte wie in jedem anderen Stich.
 
 **Wieso ist das wichtig?**
 
-Im ersten Stich sucht der Partner den König oder den Siebner und kann seine Wand durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht, und der Ausspieler weiss Bescheid.
+Im ersten Stich sucht der Ansager beim Partner den König oder den Siebner und kann seine Wand durchspielen. Bleibt die erwartete Karte aus, ist auch das eine Auskunft: Der Partner hat sie nicht und der Ansager weiss Bescheid.
 
 Mehr dazu unter Nachschmeissen.
 
@@ -215,7 +220,7 @@ Die Einzelheiten stehen unter Verwerfen beim Slalom.
 **Häufige Fragen:**
 - **Was bedeutet Nell vor Puur?** Wer Puur und Nell hält, spielt im ersten Stich zuerst das Nell. Der Partner weiss dann, dass der Nell-Spieler auch den Puur hat.
 - **Wie zeigt man dem Partner, wie viele Trümpfe man hält?** Über die Reihenfolge: Mit genau zwei Trümpfen spielt man zuerst den höheren, mit drei oder mehr zuerst den tiefsten. Das Nell und der Puur sind davon ausgenommen.
-- **Was ist Nachschmeissen?** Bei Obenabe, Undenufe, Quer, Slalom und Trio wirft der Partner im ersten Stich auf ein Ass den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ausspieler seine Wand durchspielen kann.
+- **Was ist Nachschmeissen?** Sagt Vorhand Obenabe, Undenufe, Quer, Slalom oder Trio selbst an und spielt im ersten Stich ein Ass aus, wirft der Partner den König derselben Farbe nach (bei Undenufe auf den Sechser den Siebner), damit der Ansager seine Wand durchspielen kann. Schiebt Vorhand, entfällt das Nachschmeissen.
 - **Wie verwirft man beim Slalom?** Die erste verworfene Karte sagt, wie übergeben werden soll: eine tiefe Karte heisst unten, eine hohe Karte heisst oben.
 - **Wie signalisiert man den blutten Puur?** Man spielt den blutten Puur meist nicht, signalisiert ihn aber mit einem Brättli (Sechser bis Neuner). Ohne Trumpf spielt man kein Brättli.
 
