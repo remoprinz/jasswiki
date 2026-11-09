@@ -108,10 +108,10 @@ export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, absta
         {KARTE_TITEL}
       </p>
       <a
-        href={jassguruLink('/arena/', ort)}
+        href={jassguruLink('/arena/solo/', ort)}
         className="inline-flex items-center justify-center px-[20px] py-[8px] bg-[#ff0101] !text-white !no-underline rounded-[999px] hover:brightness-110 transition-all font-inter font-bold text-[15px] sm:text-[16px] text-center"
       >
-        Jassen starten
+        Jass starten
       </a>
     </aside>
   );
