@@ -12,9 +12,11 @@ import leitartikel from '@/data/leitartikel.json';
 
 const JASSGURU = 'https://jassguru.ch';
 
-// Die zwei Sätze der Karte. Titel in Arbeit bei FEILE (07.11.2026), hier tauschen.
-export const KARTE_TITEL = 'Sofort online jassen. Auch allein.';
-export const KARTE_SATZ = 'Schieber gegen die Jass-KI, mit deinen Leuten oder am offenen Tisch.';
+// Die Karte (Remo 09.11.2026): die Marke JassGuru Arena mit dem Jassguru, wie auf der
+// Startseite von jassguru.ch. Sie zeigt offen, wohin der Knopf führt,
+// ein Satz, ein Knopf. «Auch allein» und die zweite Zeile sind weg, der zweite Link auch:
+// Wer gerade eine Regel gelesen hat, entscheidet in einer Sekunde.
+export const KARTE_TITEL = 'Jetzt online jassen.';
 
 export const jassguruLink = (pfad: string, ort: string): string =>
   `${JASSGURU}${pfad}?utm_source=jasswiki-ch&utm_medium=${ort}`;
@@ -89,23 +91,27 @@ export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, absta
       aria-label="Online jassen"
       className={`not-prose ${abstand} bg-[#274823] rounded-[12px] border-[1.74px] border-black pt-[16px] sm:pt-[20px] px-[14px] sm:px-[17px] pb-[20px] sm:pb-[24px] flex flex-col items-center gap-[10px] sm:gap-[12px]`}
     >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <picture>
+        <source type="image/avif" srcSet="/marke/marke-jassguru-arena.avif 1x, /marke/marke-jassguru-arena@3x.avif 3x" />
+        <img
+          src="/marke/marke-jassguru-arena.png"
+          srcSet="/marke/marke-jassguru-arena.png 1x, /marke/marke-jassguru-arena@2x.png 2x, /marke/marke-jassguru-arena@3x.png 3x"
+          alt="JassGuru Arena"
+          width={128}
+          height={133}
+          loading="lazy"
+          className="h-auto w-[104px] sm:w-[128px]"
+        />
+      </picture>
       <p className="!font-capita !text-[22px] sm:!text-[28px] !font-bold text-center !text-white !leading-[1.2] !m-0">
         {KARTE_TITEL}
       </p>
-      <p className="font-inter !text-[14px] sm:!text-[16px] !font-bold text-center !text-white !leading-[1.6] !m-0">
-        {KARTE_SATZ}
-      </p>
       <a
-        href={jassguruLink('/arena/', ort)}
+        href={jassguruLink('/arena/solo/', ort)}
         className="inline-flex items-center justify-center px-[20px] py-[8px] bg-[#ff0101] !text-white !no-underline rounded-[999px] hover:brightness-110 transition-all font-inter font-bold text-[15px] sm:text-[16px] text-center"
       >
-        Sofort jassen
-      </a>
-      <a
-        href={jassguruLink('/online-jassen/', ort)}
-        className="font-inter text-[14px] !text-white underline leading-[1.5]"
-      >
-        Mehr über Online jassen
+        Jass starten
       </a>
     </aside>
   );
