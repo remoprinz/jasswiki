@@ -23,6 +23,7 @@
     "generate:og": "node generate-og.mjs",
     "audit:redirects": "node audit-redirects.mjs",
     "sprache": "node sprachwaechter.mjs",
+    "i18n:status": "node i18n-status.mjs",
     "pruefe:farbwoerter": "tsx farbwoerter-pruefen.ts"
   },
   "dependencies": {
