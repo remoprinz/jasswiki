@@ -544,7 +544,7 @@ Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von Alph
 
 Vor dem Umbau verlor dieselbe Anlage also gegen den einfachen Bot. Nach dem Umbau schlägt sie ihn um rund 57 Punkte pro Kartengabe. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der [Weis](/weis-regeln/) am Tisch und in der App.
 
-Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena führt Albis 001 eine laufende [Jass-Elo](/grundlagen-kultur/jass-elo/) wie jeder Jasser. Eine kontrollierte Messung wie beim Prototyp folgt.
+Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena wird Albis 001 laufend mit [Jass-Elo](/grundlagen-kultur/jass-elo/) gewertet. Eine kontrollierte Messung wie beim Prototyp folgt.
 
 ## Wer baut die Jass-KI?
 
