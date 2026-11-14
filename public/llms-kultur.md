@@ -120,7 +120,7 @@ Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm
 
 In der Arena jasst man mit und gegen die Jass-KI des Verbands. Das Forschungsprojekt dazu heisst AlphaJass. Darin entwickelt der Jassverband Schweiz die Jass-KI mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern: Wer mitmachen will, gibt seine Partien gegen die KI frei.
 
-Albis 001 ist das neueste Modell. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, die Gegner spielt der Prototyp, die Generation vor Albis 001. Wer Albis 001 in den Einstellungen auch als Gegner wählt, hat Albis 001 auf allen drei Plätzen der KI.
+Albis 001 ist das neueste Modell. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und sein Vorgänger, der Prototyp, als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001.
 
 Die KI jasst nach den Konventionen am Schweizer Jasstisch und erklärt auf Wunsch jeden Zug: warum diese Karte, warum jetzt schieben, warum austrumpfen. Den Stand der Forschung legt der Verband im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
 
@@ -158,7 +158,7 @@ Hinter JassGuru steht der [Jassverband Schweiz](https://jassverband.ch). Er betr
 - **Was ist JassGuru?** JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man Schieber online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe.
 - **Gegen wen jasst man bei JassGuru?** Gegen die Jass-KI oder gegen Menschen. Wer sofort jassen will, jasst mit einer KI gegen zwei KI. Am privaten Tisch sitzen die eigenen Jassfreunde, in der Lobby Jasser, die gerade online sind.
 - **Braucht man für JassGuru ein Profil?** Für den ersten Jass genügt auf jassguru.ch ein Tipp auf «Jetzt online jassen». Man sitzt sofort als Gast am Tisch. Mit Profil zählt jede Partie für die Liga und die Rekordtafel.
-- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und auf Wunsch auch als Gegner.
+- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, auf Wunsch auch als Gegner.
 - **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der FHNW. Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern. Wer mitmachen will, gibt seine Partien gegen die KI frei.
 - **Was ist der Jass des Tages?** Eine Aufgabe, die am selben Tag für alle gleich ist: dieselben neun Karten, dasselbe Ziel, ein Versuch. Um 19 Uhr erscheint die Lösung, am nächsten Tag liegt ein neues Blatt auf.
 - **Was ist die Liga von JassGuru?** Die Liga der Arena läuft Woche für Woche. Es zählt die Bilanz der Striche aus den Arena-Spielen. Am Montag steigen die Besten auf und die Letzten ab. Mit Profil und einer Partie in der Arena ist man ab dem nächsten Montag dabei.
@@ -514,7 +514,7 @@ Die Jass-KI jasst in der Arena von JassGuru, im Browser auf [jassguru.ch](https:
 - **Privater Tisch:** Die eigenen Jassfreunde sitzen mit am Tisch, freie Plätze besetzt die KI.
 - **[Jass des Tages](/jass-des-tages/):** Für alle liegen dieselben neun Karten auf, mit einem Ziel und einem Versuch pro Tag. Die übrigen Plätze besetzt die KI.
 
-Mit Profil jasst Albis 001 als Partner, die Gegner spielt der Prototyp. Wer Albis 001 in den Einstellungen auch als Gegner wählt, hat Albis 001 auf allen drei Plätzen der KI.In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
+Mit Profil jasst Albis 001 als Partner und der Prototyp als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001. In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
 
 Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App als digitale Kreidetafel Punkte, Striche, Berg und Sieg.
 
@@ -542,7 +542,7 @@ Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von Alph
 
 Vor dem Umbau verlor dieselbe Anlage also gegen den einfachen Bot. Nach dem Umbau schlägt sie ihn um rund 57 Punkte pro Kartengabe. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der [Weis](/weis-regeln/) am Tisch und in der App.
 
-Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena wird Albis 001 laufend mit [Jass-Elo](/grundlagen-kultur/jass-elo/) gewertet. Vom 3. bis 14. November 2026 spielte Albis 001 in der Arena von JassGuru 1000 gewertete Partien mit und gegen Jasser, gezählt jede Schieber-Partie ab 600 Punkten, an der mindestens ein Jasser selbst legt. Seine Elo lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100.
+Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena wird Albis 001 laufend mit [Jass-Elo](/grundlagen-kultur/jass-elo/) gewertet. Vom 3. bis 14. November 2026 spielte Albis 001 dort 1000 gewertete Partien mit und gegen Jasser. Gewertet wird jede Schieber-Partie mit einem Punktziel ab 600, in der mindestens ein Jasser seine Karten selbst legt. Das Jass-Elo von Albis 001 lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100.
 
 ## Wer baut die Jass-KI?
 
@@ -567,8 +567,8 @@ Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt Alpha
 
 **Häufige Fragen:**
 - **Gibt es eine KI, die jassen kann?** Ja. Der Jassverband Schweiz entwickelt mit der Fachhochschule Nordwestschweiz (FHNW) die Jass-KI im Forschungsprojekt AlphaJass. Ihr neuestes Modell Albis 001 jasst Schieber in der Arena von JassGuru.
-- **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und auf Wunsch auch als Gegner.
-- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Vom 3. bis 14. November 2026 spielte Albis 001 in der Arena von JassGuru 1000 gewertete Partien mit und gegen Jasser, gezählt jede Schieber-Partie ab 600 Punkten, an der mindestens ein Jasser selbst legt. Seine Elo lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100. Die Rechnung erklärt der Artikel Jass-Elo.
+- **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, auf Wunsch auch als Gegner.
+- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Vom 3. bis 14. November 2026 spielte Albis 001 in der Arena von JassGuru 1000 gewertete Partien mit und gegen Jasser. Gewertet wird jede Schieber-Partie mit einem Punktziel ab 600, in der mindestens ein Jasser seine Karten selbst legt. Das Jass-Elo von Albis 001 lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100. Die Rechnung dahinter steht im Artikel Jass-Elo.
 - **Betrügt die KI, sieht sie meine Karten?** Die KI jasst mit derselben Sicht wie ein Mensch am Tisch: die eigene Hand, der Stich und die gespielten Karten. Die Karten der anderen schätzt sie aus dem Spielverlauf. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den Puur darf man bei Trumpf zurückhalten. Nach jeder Karte führt die KI ihre Schätzung nach.
 - **Lernt die KI von mir?** Albis 001 bleibt während der Partie dasselbe Modell. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus.
 - **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern.
