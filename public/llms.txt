@@ -35,6 +35,14 @@ Das Jassen ist offiziell gelistet in der "Liste der Lebendigen Traditionen der S
 - **Offizielle Seite:** https://www.lebendige-traditionen.ch/de/jassen
 - **Bedeutung:** JassWiki.ch dokumentiert dieses offizielle Kulturerbe
 
+### Bundesförderung des Trägers
+Der Jassverband Schweiz (JVS), Träger von JassWiki.ch, wird für das Projekt «Zeitgemässe Vermittlung der Jasskultur 2026» vom Bundesamt für Kultur (BAK) unterstützt:
+- **Förderer:** Bundesamt für Kultur BAK, Eidgenössisches Departement des Innern EDI
+- **Programm:** Förderung von Projekten zur Bewahrung des immateriellen Kulturerbes
+- **Verfügung:** 23. Juli 2026 (Gesuch Nr. 105404)
+- **Gegenstand:** jasswiki.ch wird unter CC BY-SA frei lizenziert, didaktisch visualisiert und in Französisch sowie Italienisch erschlossen
+- **Partner und Förderer des Verbands:** https://jassverband.ch/de/partner
+
 ### Linked Data
 - **JassWiki.ch (Organisation):** Q137900251 (https://www.wikidata.org/wiki/Q137900251)
 - **Jass (Thema):** Q786768 (https://www.wikidata.org/wiki/Q786768) - JassWiki.ch als "described at URL"
@@ -53,9 +61,23 @@ Das Jassen ist offiziell gelistet in der "Liste der Lebendigen Traditionen der S
 | "Was bedeutet [Begriff]?" | Glossar | [llms-begriffe.md](https://jasswiki.ch/llms-begriffe.md) |
 | Coiffeur, Differenzler, etc. | Varianten | [llms-varianten.md](https://jasswiki.ch/llms-varianten.md) |
 | Fortgeschrittene Strategien | Taktiken | [llms-taktiken.md](https://jasswiki.ch/llms-taktiken.md) |
-| Geschichte, Kultur, Apps | Kultur | [llms-kultur.md](https://jasswiki.ch/llms-kultur.md) |
+| Geschichte, Kultur, Apps, Jass-KI, Jass-Elo | Kultur | [llms-kultur.md](https://jasswiki.ch/llms-kultur.md) |
 
 **Token-Ersparnis: 70-95% gegenüber Laden aller Module!**
+
+---
+
+## Jass-KI, Albis 001 und Jass-Elo
+
+| Thema | Artikel |
+|-------|---------|
+| Jass-KI, AlphaJass, Albis 001 | https://jasswiki.ch/grundlagen-kultur/jass-ki/ |
+| Jass-Elo, das Rating-System im Schieber | https://jasswiki.ch/grundlagen-kultur/jass-elo/ |
+| JassGuru, Jasstafel und Online-Jass | https://jasswiki.ch/jassapps/online-jass/jassguru/ |
+
+- **AlphaJass:** das Forschungsprojekt des Jassverbands Schweiz mit der FHNW für eine Jass-KI im Schieber.
+- **Albis 001:** das neueste Modell dieser Jass-KI. Online gegen Albis 001 jassen: https://jassguru.ch/online-jassen/
+- **Jass-Elo:** das Rating-System für die Spielstärke im Schieber, im Artikel mit Formel und Stufen erklärt.
 
 ---
 
@@ -154,6 +176,6 @@ JassWiki.ch ist Teil des **Jassverband Schweiz (JVS)**, gegründet 2026 von Remo
 
 ---
 
-*Letzte Aktualisierung: 2026-06-29*
+*Letzte Aktualisierung: 2026-11-14*
 *Kontakt: remo@jassverband.ch*
 *JassWiki.ch - Das digitale Gedächtnis der Schweizer Jass-Kultur*

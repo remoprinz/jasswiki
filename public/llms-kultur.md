@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 26
-last_updated: 2026-11-09
+last_updated: 2026-11-14
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -534,7 +534,7 @@ Der Verband misst in Kartengaben: neun Stiche, 157 Punkte. Jede Kartengabe wird 
 
 Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von AlphaJass jasst, im Stand jenes Tages:
 
-| Messgrösse | Wert |
+| Messgrösse | Prototyp, 11. August 2026 |
 |---|---|
 | Vorsprung pro Kartengabe | +56,7 Punkte |
 | Siegquote | 77,8 Prozent |
@@ -544,7 +544,7 @@ Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von Alph
 
 Vor dem Umbau verlor dieselbe Anlage also gegen den einfachen Bot. Nach dem Umbau schlägt sie ihn um rund 57 Punkte pro Kartengabe. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der [Weis](/weis-regeln/) am Tisch und in der App.
 
-Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. Eine veröffentlichte Messung für Albis 001 steht ebenfalls noch aus.
+Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena führt Albis 001 eine laufende [Jass-Elo](/grundlagen-kultur/jass-elo/) wie jeder Jasser. Eine kontrollierte Messung wie beim Prototyp folgt.
 
 ## Wer baut die Jass-KI?
 
@@ -570,7 +570,7 @@ Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt Alpha
 **Häufige Fragen:**
 - **Gibt es eine KI, die jassen kann?** Ja. Der Jassverband Schweiz entwickelt mit der Fachhochschule Nordwestschweiz (FHNW) die Jass-KI im Forschungsprojekt AlphaJass. Ihr neuestes Modell Albis 001 jasst Schieber in der Arena von JassGuru.
 - **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Am AlphaJass Stammtisch jasst Albis 001, mit Profil setzt man sich dazu.
-- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Eine veröffentlichte Messung für Albis 001 steht noch aus.
+- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Für Albis 001 folgt eine kontrollierte Messung wie beim Prototyp.
 - **Betrügt die KI, sieht sie meine Karten?** Die KI jasst mit derselben Sicht wie ein Mensch am Tisch: die eigene Hand, der Stich und die gespielten Karten. Die Karten der anderen schätzt sie aus dem Spielverlauf. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den Puur darf man bei Trumpf zurückhalten. Nach jeder Karte führt die KI ihre Schätzung nach.
 - **Lernt die KI von mir?** Albis 001 bleibt während der Partie dasselbe Modell. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus.
 - **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern.
