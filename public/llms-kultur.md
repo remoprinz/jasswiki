@@ -1071,7 +1071,7 @@ Wichtigste Elemente:
 • **Fonds:** Errichtung eines Fonds für die Bewahrung des immateriellen Kulturerbes, der Vertragsstaaten bei der Umsetzung der Bewahrungsmassnahmen finanziell und technisch unterstützt
 
 Schweizer Beitritt und Auswirkungen auf das Jassen:
-Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten. Mit dem Beitritt verpflichtete sie sich, ein Inventar der lebendigen Traditionen in der Schweiz zu erarbeiten und periodisch zu aktualisieren. Dies führte zur Erstellung der «Liste der lebendigen Traditionen in der Schweiz», auf der das Jassen 2011 aufgenommen wurde. Die Aufnahme des Jassens in diese Liste unterstreicht seine Bedeutung als immaterielles Kulturerbe und trägt zu seiner Bewahrung und Weitergabe bei.
+Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten. Mit dem Beitritt verpflichtete sie sich, ein Inventar der lebendigen Traditionen in der Schweiz zu erarbeiten und periodisch zu aktualisieren. Dies führte zur Erstellung der «Liste der lebendigen Traditionen in der Schweiz», auf der das Jassen steht. Die Aufnahme des Jassens in diese Liste unterstreicht seine Bedeutung als immaterielles Kulturerbe und trägt zu seiner Bewahrung und Weitergabe bei.
 
 Internationale Bedeutung:
 Bis heute sind über 120 Staaten dem Übereinkommen beigetreten. Es schafft einen internationalen Rahmen für den Schutz und die Förderung von immateriellem Kulturerbe wie mündlichen Überlieferungen, darstellenden Künsten, gesellschaftlichen Praktiken (wie dem Jassen), Ritualen und Festen, Wissen und Praktiken in Bezug auf die Natur und das Universum sowie traditionelle Handwerkstechniken.
@@ -1081,7 +1081,7 @@ Bis heute sind über 120 Staaten dem Übereinkommen beigetreten. Es schafft eine
 Das Übereinkommen zur Bewahrung des immateriellen Kulturerbes wurde am 17.
 - **Was ist das UNESCO-Übereinkommen zur Bewahrung des immateriellen Kulturerbes?** Es ist ein internationales Übereinkommen, das 2003 verabschiedet wurde und 2006 in Kraft trat. Es schafft einen Rahmen für den Schutz und die Förderung von immateriellem Kulturerbe wie Traditionen, Bräuchen, Handwerkstechniken und gesellschaftlichen Praktiken. Es bildet die Grundlage für die «Liste der lebendigen Traditionen in der Schweiz», auf der auch das Jassen aufgeführt ist.
 - **Was hat das UNESCO-Übereinkommen mit dem Jassen zu tun?** Das Jassen fällt als gesellschaftliche Praxis und lebendige Tradition unter den Schutzbereich des Übereinkommens. Die Aufnahme des Jassens in die Liste der lebendigen Traditionen erfolgte im Rahmen dieses Übereinkommens, das die Schweiz 2008 ratifiziert hat.
-- **Wann ist die Schweiz dem UNESCO-Übereinkommen beigetreten?** Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten und verpflichtete sich damit, ein Inventar der lebendigen Traditionen zu erarbeiten. Dies führte zur Aufnahme des Jassens in die Liste im Jahr 2011.
+- **Wann ist die Schweiz dem UNESCO-Übereinkommen beigetreten?** Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten und verpflichtete sich damit, ein Inventar der lebendigen Traditionen zu erarbeiten. Dies führte zur Aufnahme des Jassens in die Liste.
 - **Was sind die wichtigsten Elemente des UNESCO-Übereinkommens?** Die wichtigsten Elemente sind die Verpflichtung der Vertragsstaaten, günstige Rahmenbedingungen zu schaffen, die Anerkennung der Träger des Kulturerbes, die Schaffung von Listen des immateriellen Kulturerbes und die Errichtung eines Fonds zur Unterstützung der Bewahrungsmassnahmen.
 
 *Keywords: unesco, übereinkommen, immaterielles kulturerbe, 2003, 2006*
