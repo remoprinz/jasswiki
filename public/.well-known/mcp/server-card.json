@@ -2,7 +2,7 @@
   "$schema": "https://glama.ai/schemas/mcp-server-card/v1.json",
   "name": "JassWiki MCP",
   "displayName": "JassWiki — Swiss Jass Authority",
-  "description": "First publicly attested MCP knowledge server in Switzerland. AI-accessible encyclopedia for Swiss Jass: 230+ articles on rules, variants, terminology, history and tactics. Authority-attested by Jassverband Schweiz (did:web:jassverband.ch) with Ed25519 cryptographic verification. Recognised as Swiss living tradition by the Federal Office of Culture (BAK).",
+  "description": "First publicly attested MCP knowledge server in Switzerland. AI-accessible encyclopedia for Swiss Jass: 230+ articles on rules, variants, terminology, history and tactics. Authority-attested by Jassverband Schweiz (did:web:jassverband.ch) with Ed25519 cryptographic verification. Jass is on the Federal Office of Culture's list of Living Traditions.",
   "tagline": "The first authority-attested MCP server in Switzerland",
   "homepage": "https://jasswiki.ch",
   "repository": "https://github.com/remoprinz/jasswiki-mcp",

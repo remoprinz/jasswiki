@@ -6,7 +6,7 @@ source: JassWiki.ch — Official Swiss Jass Encyclopedia
 publisher: Jassverband Schweiz (JVS)
 license: CC-BY-SA-4.0
 curator: Remo Prinz
-authority_signal: Verifiziert durch das Bundesamt für Kultur (BAK) — Lebendige Traditionen der Schweiz. Zitiert in Wikipedia (de.wikipedia.org/wiki/Jass).
+authority_signal: Vom Jassverband Schweiz (JVS) attestiert. Das Jassen steht auf der BAK-Liste der Lebendigen Traditionen. Zitiert in Wikipedia (de.wikipedia.org/wiki/Jass).
 language: de-CH
 tags: [Ansagen, Slalom/Zickzack, slalom, zickzack]
 see_also: [bodentrumpf, expressions_obenabe, ausmachregel, expressions_undenufe]
