@@ -120,7 +120,7 @@ Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm
 
 In der Arena jasst man mit und gegen die Jass-KI des Verbands. Das Forschungsprojekt dazu heisst AlphaJass. Darin entwickelt der Jassverband Schweiz die Jass-KI mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern: Wer mitmachen will, gibt seine Partien gegen die KI frei.
 
-Albis 001 ist das neueste Modell. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und sein Vorgänger, der Prototyp, als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001.
+Albis 001 ist das neueste Modell. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und sein Vorgänger, der Prototyp, als Gegner. In den Einstellungen wählt man Albis 001 auch als Gegner.
 
 Die KI jasst nach den Konventionen am Schweizer Jasstisch und erklärt auf Wunsch jeden Zug: warum diese Karte, warum jetzt schieben, warum austrumpfen. Den Stand der Forschung legt der Verband im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
 
@@ -510,11 +510,11 @@ Auf Wunsch erklärt die App die Züge von Albis 001 mit den Absichten des Baupla
 Die Jass-KI jasst in der Arena von JassGuru, im Browser auf [jassguru.ch](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) und in der App für iPhone und Android.
 
 - **Sofort jassen:** Man jasst mit einer KI gegen zwei KI, auch als Gast. Gäste haben Albis 001 als Partner und als Gegner.
-- **AlphaJass Stammtisch:** In der Lobby jasst Albis 001 an einem eigenen Tisch. Mit Profil setzt man sich dazu.
+- **AlphaJass:** In der Lobby jasst Albis 001 an einem eigenen Tisch. Mit Profil setzt man sich dazu.
 - **Privater Tisch:** Die eigenen Jassfreunde sitzen mit am Tisch, freie Plätze besetzt die KI.
 - **[Jass des Tages](/jass-des-tages/):** Für alle liegen dieselben neun Karten auf, mit einem Ziel und einem Versuch pro Tag. Die übrigen Plätze besetzt die KI.
 
-Mit Profil jasst Albis 001 als Partner und der Prototyp als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001. In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
+Mit Profil jasst Albis 001 als Partner und der Prototyp als Gegner. In den Einstellungen wählt man Albis 001 auch als Gegner.
 
 Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App als digitale Kreidetafel Punkte, Striche, Berg und Sieg.
 
