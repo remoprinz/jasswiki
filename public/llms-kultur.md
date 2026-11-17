@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 26
-last_updated: 2026-11-09
+last_updated: 2026-11-14
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -118,11 +118,9 @@ Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm
 
 ## Die Jass-KI: Albis 001 und AlphaJass
 
-In der Arena jasst man mit und gegen die Jass-KI des Verbands. Zusammen mit der Fachhochschule Nordwestschweiz (FHNW) entsteht dort die beste Jass-KI der Schweiz.
+In der Arena jasst man mit und gegen die Jass-KI des Verbands. Das Forschungsprojekt dazu heisst AlphaJass. Darin entwickelt der Jassverband Schweiz die Jass-KI mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern: Wer mitmachen will, gibt seine Partien gegen die KI frei.
 
-Das Forschungsprojekt dazu heisst AlphaJass. Darin entwickelt der Jassverband Schweiz die Jass-KI mit der FHNW. Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern: Wer mitmachen will, gibt seine Partien gegen die KI frei.
-
-Albis 001 ist das neueste Modell. Es jasst am AlphaJass Stammtisch, mit Profil setzt man sich dazu.
+Albis 001 ist das neueste Modell. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner und sein Vorgänger, der Prototyp, als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001.
 
 Die KI jasst nach den Konventionen am Schweizer Jasstisch und erklärt auf Wunsch jeden Zug: warum diese Karte, warum jetzt schieben, warum austrumpfen. Den Stand der Forschung legt der Verband im [AlphaJass-Whitepaper](https://jassguru.ch/forschung/alphajass/) offen.
 
@@ -160,7 +158,7 @@ Hinter JassGuru steht der [Jassverband Schweiz](https://jassverband.ch). Er betr
 - **Was ist JassGuru?** JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man Schieber online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe.
 - **Gegen wen jasst man bei JassGuru?** Gegen die Jass-KI oder gegen Menschen. Wer sofort jassen will, jasst mit einer KI gegen zwei KI. Am privaten Tisch sitzen die eigenen Jassfreunde, in der Lobby Jasser, die gerade online sind.
 - **Braucht man für JassGuru ein Profil?** Für den ersten Jass genügt auf jassguru.ch ein Tipp auf «Jetzt online jassen». Man sitzt sofort als Gast am Tisch. Mit Profil zählt jede Partie für die Liga und die Rekordtafel.
-- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Es jasst am AlphaJass Stammtisch, mit Profil setzt man sich dazu.
+- **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, auf Wunsch auch als Gegner.
 - **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der FHNW. Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern. Wer mitmachen will, gibt seine Partien gegen die KI frei.
 - **Was ist der Jass des Tages?** Eine Aufgabe, die am selben Tag für alle gleich ist: dieselben neun Karten, dasselbe Ziel, ein Versuch. Um 19 Uhr erscheint die Lösung, am nächsten Tag liegt ein neues Blatt auf.
 - **Was ist die Liga von JassGuru?** Die Liga der Arena läuft Woche für Woche. Es zählt die Bilanz der Striche aus den Arena-Spielen. Am Montag steigen die Besten auf und die Letzten ab. Mit Profil und einer Partie in der Arena ist man ab dem nächsten Montag dabei.
@@ -516,7 +514,7 @@ Die Jass-KI jasst in der Arena von JassGuru, im Browser auf [jassguru.ch](https:
 - **Privater Tisch:** Die eigenen Jassfreunde sitzen mit am Tisch, freie Plätze besetzt die KI.
 - **[Jass des Tages](/jass-des-tages/):** Für alle liegen dieselben neun Karten auf, mit einem Ziel und einem Versuch pro Tag. Die übrigen Plätze besetzt die KI.
 
-JVS-Mitglieder wählen Albis 001 in den Einstellungen als Partner oder als Gegner. In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
+Mit Profil jasst Albis 001 als Partner und der Prototyp als Gegner. Wer Albis 001 in den Einstellungen auch als Gegner wählt, jasst mit und gegen Albis 001. In der Liga spielt Albis 001 als eigenes Team mit: «Bots United · Albis 001». Für die Bots zählen dort allein Spiele gegen Jasser mit Profil.
 
 Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App als digitale Kreidetafel Punkte, Striche, Berg und Sieg.
 
@@ -534,7 +532,7 @@ Der Verband misst in Kartengaben: neun Stiche, 157 Punkte. Jede Kartengabe wird 
 
 Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von AlphaJass jasst, im Stand jenes Tages:
 
-| Messgrösse | Wert |
+| Messgrösse | Prototyp, 11. August 2026 |
 |---|---|
 | Vorsprung pro Kartengabe | +56,7 Punkte |
 | Siegquote | 77,8 Prozent |
@@ -544,7 +542,7 @@ Die Messung vom 11. August 2026 gilt dem Prototyp, der nach dem Bauplan von Alph
 
 Vor dem Umbau verlor dieselbe Anlage also gegen den einfachen Bot. Nach dem Umbau schlägt sie ihn um rund 57 Punkte pro Kartengabe. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der [Weis](/weis-regeln/) am Tisch und in der App.
 
-Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. Eine veröffentlichte Messung für Albis 001 steht ebenfalls noch aus.
+Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verband wie für die Forschung. In der Arena wird Albis 001 laufend mit [Jass-Elo](/grundlagen-kultur/jass-elo/) gewertet. Vom 3. bis 14. November 2026 spielte Albis 001 dort 1000 gewertete Partien mit und gegen Jasser. Gewertet wird jede Schieber-Partie mit einem Punktziel ab 600, in der mindestens ein Jasser seine Karten selbst legt. Das Jass-Elo von Albis 001 lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100.
 
 ## Wer baut die Jass-KI?
 
@@ -569,8 +567,8 @@ Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt Alpha
 
 **Häufige Fragen:**
 - **Gibt es eine KI, die jassen kann?** Ja. Der Jassverband Schweiz entwickelt mit der Fachhochschule Nordwestschweiz (FHNW) die Jass-KI im Forschungsprojekt AlphaJass. Ihr neuestes Modell Albis 001 jasst Schieber in der Arena von JassGuru.
-- **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Am AlphaJass Stammtisch jasst Albis 001, mit Profil setzt man sich dazu.
-- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Eine veröffentlichte Messung für Albis 001 steht noch aus.
+- **Kann man gegen eine Jass-KI spielen?** Ja, in der Arena von JassGuru, im Browser auf jassguru.ch oder in der App. Mit «Sofort jassen» jasst man mit einer KI gegen zwei KI, auch als Gast. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, auf Wunsch auch als Gegner.
+- **Wie gut ist die Jass-KI?** In der Messung des Verbands vom 11. August 2026 holte der Prototyp von AlphaJass gegen einen einfachen Bot 56,7 Punkte mehr pro Kartengabe. Gespielt wurden 1000 gepaarte Kartengaben. Gemessen ist Maschine gegen Maschine im Schieber ohne Wys. Wys heisst der Weis am Tisch und in der App. Wie stark die KI gegen die besten Menschen jasst, ist noch offen. Vom 3. bis 14. November 2026 spielte Albis 001 in der Arena von JassGuru 1000 gewertete Partien mit und gegen Jasser. Gewertet wird jede Schieber-Partie mit einem Punktziel ab 600, in der mindestens ein Jasser seine Karten selbst legt. Das Jass-Elo von Albis 001 lag dabei zwischen 122 und 214, im Mittel bei 167. Jeder Jasser beginnt bei 100. Die Rechnung dahinter steht im Artikel Jass-Elo.
 - **Betrügt die KI, sieht sie meine Karten?** Die KI jasst mit derselben Sicht wie ein Mensch am Tisch: die eigene Hand, der Stich und die gespielten Karten. Die Karten der anderen schätzt sie aus dem Spielverlauf. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den Puur darf man bei Trumpf zurückhalten. Nach jeder Karte führt die KI ihre Schätzung nach.
 - **Lernt die KI von mir?** Albis 001 bleibt während der Partie dasselbe Modell. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus.
 - **Was ist AlphaJass?** AlphaJass ist das Forschungsprojekt des Jassverbands Schweiz mit der Fachhochschule Nordwestschweiz (FHNW). Das Ziel ist eine Jass-KI, die stark jasst und ihre Züge erklären kann. Dafür lernt sie von echten Jassern.
@@ -1073,7 +1071,7 @@ Wichtigste Elemente:
 • **Fonds:** Errichtung eines Fonds für die Bewahrung des immateriellen Kulturerbes, der Vertragsstaaten bei der Umsetzung der Bewahrungsmassnahmen finanziell und technisch unterstützt
 
 Schweizer Beitritt und Auswirkungen auf das Jassen:
-Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten. Mit dem Beitritt verpflichtete sie sich, ein Inventar der lebendigen Traditionen in der Schweiz zu erarbeiten und periodisch zu aktualisieren. Dies führte zur Erstellung der «Liste der lebendigen Traditionen in der Schweiz», auf der das Jassen 2011 aufgenommen wurde. Die Aufnahme des Jassens in diese Liste unterstreicht seine Bedeutung als immaterielles Kulturerbe und trägt zu seiner Bewahrung und Weitergabe bei.
+Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten. Mit dem Beitritt verpflichtete sie sich, ein Inventar der lebendigen Traditionen in der Schweiz zu erarbeiten und periodisch zu aktualisieren. Dies führte zur Erstellung der «Liste der lebendigen Traditionen in der Schweiz», auf der das Jassen steht. Die Aufnahme des Jassens in diese Liste unterstreicht seine Bedeutung als immaterielles Kulturerbe und trägt zu seiner Bewahrung und Weitergabe bei.
 
 Internationale Bedeutung:
 Bis heute sind über 120 Staaten dem Übereinkommen beigetreten. Es schafft einen internationalen Rahmen für den Schutz und die Förderung von immateriellem Kulturerbe wie mündlichen Überlieferungen, darstellenden Künsten, gesellschaftlichen Praktiken (wie dem Jassen), Ritualen und Festen, Wissen und Praktiken in Bezug auf die Natur und das Universum sowie traditionelle Handwerkstechniken.
@@ -1083,7 +1081,7 @@ Bis heute sind über 120 Staaten dem Übereinkommen beigetreten. Es schafft eine
 Das Übereinkommen zur Bewahrung des immateriellen Kulturerbes wurde am 17.
 - **Was ist das UNESCO-Übereinkommen zur Bewahrung des immateriellen Kulturerbes?** Es ist ein internationales Übereinkommen, das 2003 verabschiedet wurde und 2006 in Kraft trat. Es schafft einen Rahmen für den Schutz und die Förderung von immateriellem Kulturerbe wie Traditionen, Bräuchen, Handwerkstechniken und gesellschaftlichen Praktiken. Es bildet die Grundlage für die «Liste der lebendigen Traditionen in der Schweiz», auf der auch das Jassen aufgeführt ist.
 - **Was hat das UNESCO-Übereinkommen mit dem Jassen zu tun?** Das Jassen fällt als gesellschaftliche Praxis und lebendige Tradition unter den Schutzbereich des Übereinkommens. Die Aufnahme des Jassens in die Liste der lebendigen Traditionen erfolgte im Rahmen dieses Übereinkommens, das die Schweiz 2008 ratifiziert hat.
-- **Wann ist die Schweiz dem UNESCO-Übereinkommen beigetreten?** Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten und verpflichtete sich damit, ein Inventar der lebendigen Traditionen zu erarbeiten. Dies führte zur Aufnahme des Jassens in die Liste im Jahr 2011.
+- **Wann ist die Schweiz dem UNESCO-Übereinkommen beigetreten?** Die Schweiz ist dem Übereinkommen am 16. Oktober 2008 beigetreten und verpflichtete sich damit, ein Inventar der lebendigen Traditionen zu erarbeiten. Dies führte zur Aufnahme des Jassens in die Liste.
 - **Was sind die wichtigsten Elemente des UNESCO-Übereinkommens?** Die wichtigsten Elemente sind die Verpflichtung der Vertragsstaaten, günstige Rahmenbedingungen zu schaffen, die Anerkennung der Träger des Kulturerbes, die Schaffung von Listen des immateriellen Kulturerbes und die Errichtung eines Fonds zur Unterstützung der Bewahrungsmassnahmen.
 
 *Keywords: unesco, übereinkommen, immaterielles kulturerbe, 2003, 2006*

@@ -217,8 +217,30 @@ async function generateModularLLMS() {
   // - Wikipedia-Zitation (Einzelnachweis im Jass-Artikel)
   // - Bundesamt für Kultur (BAK) ausgeschrieben
   // - Bessere Struktur für AI-Agenten
-  console.log('\n📝 llms.txt wird übersprungen (manuell kuratierte Version bleibt erhalten)');
-  console.log('   ℹ️  Die manuelle Version enthält Wikipedia-Zitation und BAK-Erklärung');
+  // DIE ZAHLEN ABER KOMMEN AUS DER EINEN QUELLE (SCHIRI 14.11.2026, LOT-Bedingung
+  // Ankunfts-Probe NZZ): Artikelzahl und FAQ-Zahl standen als feste Zahl im Text
+  // (228 Artikel, 958 FAQs, bei 226 und 1011 im Bestand). Der Text bleibt von Hand
+  // gepflegt, die drei Zahlenstellen setzt dieser Schritt bei jedem Build neu.
+  // Findet er eine Stelle nicht genau einmal, hält er den Build an: Wer den Satz
+  // umbaut, passt das Muster hier an.
+  const artikelZahl = items.length;
+  const faqZahl = items.reduce((summe, item) => summe + (item.faqs ? item.faqs.length : 0), 0);
+  const llmsPfad = path.join(OUTPUT_DIR, 'llms.txt');
+  let llms = await readFile(llmsPfad, 'utf8');
+  const zahlenStellen = [
+    [/\(\d+ Artikel indexiert\)/g, `(${artikelZahl} Artikel indexiert)`],
+    [/\(JSONL, \d+ Artikel\)/g, `(JSONL, ${artikelZahl} Artikel)`],
+    [/\d+ Artikel, \d+ FAQs/g, `${artikelZahl} Artikel, ${faqZahl} FAQs`],
+  ];
+  for (const [muster, ersatz] of zahlenStellen) {
+    const treffer = llms.match(muster) || [];
+    if (treffer.length !== 1) {
+      throw new Error(`llms.txt: Zahlenstelle ${muster} ${treffer.length}x gefunden, erwartet 1x`);
+    }
+    llms = llms.replace(muster, ersatz);
+  }
+  await writeFile(llmsPfad, llms, 'utf8');
+  console.log(`\n📝 llms.txt: Text manuell gepflegt, Zahlen gesetzt (${artikelZahl} Artikel, ${faqZahl} FAQs)`);
   
   // Zusammenfassung
   console.log('\n📊 Zusammenfassung:');
@@ -226,7 +248,7 @@ async function generateModularLLMS() {
   
   const totalModuleSizeKB = Object.values(moduleStats).reduce((sum, m) => sum + parseFloat(m.sizeKB), 0);
   
-  console.log(`   Index:     llms.txt          (manuell gepflegt)`);
+  console.log(`   Index:     llms.txt          (Text manuell, Zahlen generiert)`);
   Object.entries(moduleStats).forEach(([key, stats]) => {
     console.log(`   Modul:     llms-${key.padEnd(12)} ${stats.sizeKB.padStart(6)} KB (${stats.entries} Einträge)`);
   });
@@ -236,9 +258,12 @@ async function generateModularLLMS() {
   console.log(`   ERSPARNIS: ~${(100 - (totalModuleSizeKB / 437 * 100)).toFixed(0)}% pro typische Anfrage`);
   
   console.log('\n✅ Modulare llms-*.md Dateien erfolgreich generiert!');
-  console.log('   (llms.txt wird manuell gepflegt - public/llms.txt)');
+  console.log('   (llms.txt: Text manuell in public/llms.txt, Zahlen aus dem Bestand)');
 }
 
 // Ausführen
-generateModularLLMS().catch(console.error);
+generateModularLLMS().catch((fehler) => {
+  console.error(fehler);
+  process.exit(1);
+});
 

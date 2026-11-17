@@ -16,13 +16,18 @@
  * Falle in CLAUDE.md).
  *
  * ABLAUF
- *   1. jasswiki-articles.jsonl lesen (vorher `node scripts/sync-json-to-jsonl.mjs` laufen
- *      lassen — sonst indexiert man einen alten Stand)
+ *   1. public/dataset/jasswiki-corpus.jsonl lesen. Diese Datei erzeugt `npm run build`
+ *      (generate:corpus) aus der einen Quelle src/data/jass-content-v2.json. Bis zum
+ *      14.11.2026 las das Skript chatgpt-gpt/jasswiki-articles.jsonl, eine gitignorierte
+ *      Kopie, die von Hand nachgezogen werden musste. So fehlte der Artikel jass_ki
+ *      (seit 07.11.2026 im Korpus) im Index des Verbinders.
  *   2. je Artikel einbetten (gemini-embedding-001, outputDimensionality 768)
  *   3. in Stapeln zu Pinecone hochladen
- *   4. verwaiste Vektoren löschen: was im Index liegt und in der JSONL fehlt
+ *   4. verwaiste Vektoren löschen: was im Index liegt und im Korpus fehlt
  *
- * AUFRUF   npx tsx scripts/reindex-pinecone.ts
+ * AUFRUF   npx tsx scripts/reindex-pinecone.ts            schreibt in Pinecone
+ *          npx tsx scripts/reindex-pinecone.ts --trocken  liest allein den Korpus und
+ *                                                         prüft die Pflicht-Artikel
  */
 
 import { readFileSync } from 'fs';
@@ -34,7 +39,11 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const JSONL_PATH = join(__dirname, '../chatgpt-gpt/jasswiki-articles.jsonl');
+const JSONL_PATH = join(__dirname, '../public/dataset/jasswiki-corpus.jsonl');
+const TROCKEN = process.argv.includes('--trocken');
+// Artikel, die der Verbinder führen muss. Fehlt einer im Korpus, bricht der Lauf ab,
+// bevor etwas in Pinecone geschrieben wird.
+const PFLICHT_ARTIKEL = ['jass_ki', 'jassapps_jassguru', 'jass_elo_meta'];
 
 // Muss Zeichen für Zeichen zu functions/src/mcp.ts passen:
 const PINECONE_INDEX = 'jasswiki';
@@ -85,12 +94,21 @@ async function einbetten(text: string): Promise<number[]> {
 }
 
 async function main() {
-  if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY fehlt in .env');
-  if (!PINECONE_API_KEY) throw new Error('PINECONE_API_KEY fehlt in .env');
-
   const zeilen = readFileSync(JSONL_PATH, 'utf-8').split('\n').filter((z) => z.trim());
   const artikel: Artikel[] = zeilen.map((z) => JSON.parse(z));
   console.log(`Gelesen: ${artikel.length} Artikel aus ${JSONL_PATH}`);
+
+  const vorhanden = new Set(artikel.map((a) => a.id));
+  const fehlend = PFLICHT_ARTIKEL.filter((id) => !vorhanden.has(id));
+  if (fehlend.length) throw new Error(`Pflicht-Artikel fehlen im Korpus: ${fehlend.join(', ')}`);
+  console.log(`Pflicht-Artikel vorhanden: ${PFLICHT_ARTIKEL.join(', ')}`);
+  if (TROCKEN) {
+    console.log('TROCKEN: nichts eingebettet, nichts hochgeladen.');
+    return;
+  }
+
+  if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY fehlt in .env');
+  if (!PINECONE_API_KEY) throw new Error('PINECONE_API_KEY fehlt in .env');
 
   const pc = new Pinecone({ apiKey: PINECONE_API_KEY });
   const index = pc.Index(PINECONE_INDEX).namespace(PINECONE_NAMESPACE);
