@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 26
-last_updated: 2026-11-17
+last_updated: 2026-11-19
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -411,32 +411,32 @@ Dabei ist $\sigma$ die empirische Standardabweichung von $S - E$ und das Strichm
 
 ## Rating-Tiers
 
-In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers in Schritten von 5 Punkten ergänzt:
+In der Umsetzung auf jassguru.ch wird das Rating durch symbolische Tiers ergänzt. Die Tiers sind bei der Tisch-Elo in Schritten von 5 Punkten gestaffelt, bei der Online-Elo der Arena in Schritten von 10 Punkten. Der Jassstudent beginnt in beiden Leitern bei 100, dem Start-Rating:
 
-| Ab Rating | Tier |
-|---|---|
-| ≥ 150 | Göpf Egg 👼 |
-| ≥ 145 | Jassgott 🔱 |
-| ≥ 140 | Jasskönig 👑 |
-| ≥ 135 | Grossmeister 🏆 |
-| ≥ 130 | Jasser mit Auszeichnung 🎖 |
-| ≥ 125 | Diamantjasser II 💎 |
-| ≥ 120 | Diamantjasser I 💍 |
-| ≥ 115 | Goldjasser 🥇 |
-| ≥ 110 | Silberjasser 🥈 |
-| ≥ 105 | Bronzejasser 🥉 |
-| ≥ 100 | Jassstudent (Start) 🎓 |
-| ≥ 95 | Kleeblatt vierblättrig 🍀 |
-| ≥ 90 | Kleeblatt dreiblättrig ☘️ |
-| ≥ 85 | Sprössling 🌱 |
-| ≥ 80 | Hahn 🐓 |
-| ≥ 75 | Huhn 🐔 |
-| ≥ 70 | Küken 🐥 |
-| ≥ 65 | Chlaus 🎅 |
-| ≥ 60 | Chäs 🧀 |
-| ≥ 55 | Ente 🦆 |
-| ≥ 50 | Gurke 🥒 |
-| < 50 | Just Egg 🥚 |
+| Tisch-Elo | Online-Elo (Arena) | Tier |
+|---|---|---|
+| ≥ 150 | ≥ 200 | Göpf Egg 👼 |
+| ≥ 145 | ≥ 190 | Jassgott 🔱 |
+| ≥ 140 | ≥ 180 | Jasskönig 👑 |
+| ≥ 135 | ≥ 170 | Grossmeister 🏆 |
+| ≥ 130 | ≥ 160 | Jasser mit Auszeichnung 🎖️ |
+| ≥ 125 | ≥ 150 | Diamantjasser II 💎 |
+| ≥ 120 | ≥ 140 | Diamantjasser I 💍 |
+| ≥ 115 | ≥ 130 | Goldjasser 🥇 |
+| ≥ 110 | ≥ 120 | Silberjasser 🥈 |
+| ≥ 105 | ≥ 110 | Bronzejasser 🥉 |
+| ≥ 100 | ≥ 100 | Jassstudent (Start) 👨‍🎓 |
+| ≥ 95 | ≥ 90 | Kleeblatt vierblättrig 🍀 |
+| ≥ 90 | ≥ 80 | Kleeblatt dreiblättrig ☘️ |
+| ≥ 85 | ≥ 70 | Sprössling 🌱 |
+| ≥ 80 | ≥ 60 | Hahn 🐓 |
+| ≥ 75 | ≥ 50 | Huhn 🐔 |
+| ≥ 70 | ≥ 40 | Küken 🐥 |
+| ≥ 65 | ≥ 30 | Chlaus 🎅 |
+| ≥ 60 | ≥ 20 | Chäs 🧀 |
+| ≥ 55 | ≥ 10 | Ente 🦆 |
+| ≥ 50 | ≥ 0 | Gurke 🥒 |
+| < 50 | < 0 | Just Egg 🥚 |
 
 ## Quellen
 
