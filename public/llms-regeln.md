@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-11-17
+last_updated: 2026-11-20
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -411,7 +411,10 @@ Grundregel:
 
 Beim Schieber:
 • Vorhand spielt aus, auch wenn sie geschoben hat und ihr Partner den Trumpf bestimmt
-• Das gilt in jeder Spielart und beim Coiffeur-Schieber, auch bei Guschti, Slalom und Trio
+• Das gilt in jeder Spielart, auch bei Guschti, Slalom und Trio
+
+Beim Coiffeur-Schieber:
+• Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus
 
 Sonderregel Pandur/Misère:
 • Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf
@@ -426,7 +429,7 @@ Kartenwahl und Spielablauf:
 - **Was bedeutet Ausspiel beim Jassen?** Ausspiel ist das Legen der ersten Karte zum ersten Stich einer Runde.
 - **Wer spielt zum ersten Stich aus?** Vorhand (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus. Beim Schieber gilt das in jeder Spielart, auch wenn Vorhand geschoben hat.
 - **Welche Karte darf beim Ausspiel gewählt werden?** Wer ausspielt, darf jede Karte seiner Hand spielen. Beim Pandur mit Trumpf und beim Misère mit Trumpf zeigt seine erste Karte den Trumpf an.
-- **Wer spielt beim Schieber zum ersten Stich aus?** Beim Schieber und Coiffeur-Schieber spielt Vorhand zum ersten Stich aus. Schiebt sie, bestimmt ihr Partner den Trumpf. Das Ausspiel bleibt bei Vorhand.
+- **Wer spielt beim Schieber zum ersten Stich aus?** Beim Schieber spielt Vorhand zum ersten Stich aus. Schiebt sie, bestimmt ihr Partner den Trumpf. Das Ausspiel bleibt bei Vorhand. Beim Coiffeur-Schieber spielt aus, wer die Variante gewählt hat.
 
 *Keywords: ausspiel, vorhand, erster stich, coiffeur-schieber, varianten-schieber*
 
