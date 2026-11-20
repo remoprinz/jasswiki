@@ -2057,12 +2057,12 @@ Joker-Regeln:
 • Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe
 • Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist
 • Sind beide Joker gespielt, schreibt das Team bei seiner tiefsten offenen Variante 0 Punkte
-• Bei den Joker-Varianten werden Stöck und Wys nicht gemeldet. Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab
+• Bei den Joker-Varianten entfallen Stöck und Wys. Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab
 
 Schreiben:
 • Der Schreiber notiert die Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat
-• Geschrieben wird der zehnte Teil, gerundet: Ab 4 wird aufgerundet, bis 3 abgerundet. 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16
-• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Die Differenz der zwei Zahlen mal den Faktor der Variante erhält das bessere Team in der mittleren Kolonne gutgeschrieben
+• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16
+• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben
 • Beispiel Schilten vierfach: Team A schreibt 13, Team B 10. Die Differenz 3 mal 4 ergibt 12 Pluspunkte für Team A
 
 Ende der Partie:
@@ -2086,7 +2086,7 @@ Spielstrategie:
 - **Welche Farbe zählt beim Coiffeur wie viel?** Nach Dani Müller zählen Schellen einfach, Rosen zweifach, Eicheln dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Eicheln einfach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
 - **Wer spielt beim Coiffeur-Schieber aus?** Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus. Die Reihenfolge des Gebens bleibt davon unberührt.
 - **Was heisst «im Fass» beim Coiffeur-Schieber?** Geschoben wird im Kreis, von Vorhand bis zum vierten Spieler. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat.
-- **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird der zehnte Teil der Punkte, gerundet ab 4 auf, bis 3 ab: 84 Punkte schreiben 9, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
+- **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird ein Zehntel der Punkte, ab 4 aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
 
 *Keywords: coiffeur, schieber, familienspiel, teamspiel, varianten*
 
