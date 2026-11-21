@@ -2040,12 +2040,12 @@ Die acht Varianten:
 • Variante 6: Undenufe, das sechsfach zählt
 • Variante 7-8: Zwei Joker, die sieben- und achtfach zählen. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe
 
-Diese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html): Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom oder Misère. Was davon gilt, macht die Runde vor dem ersten Spiel ab.
+Diese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html), mit Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom oder Misère. Was davon gilt, macht die Runde vor dem ersten Spiel ab.
 
 Spiel geben:
 • Wer schreibt, gibt zum ersten Spiel: jedem Spieler 9 Karten, dreimal drei
-• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, egal wer das Spiel übernommen hat
-• Hat ein Team alle Varianten gespielt und die Gegner haben noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt
+• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, unabhängig davon, wer das Spiel übernommen hat
+• Hat ein Team alle Varianten gespielt und haben die Gegner noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt
 
 Schieben im Kreis:
 • Vorhand, der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt
@@ -2074,7 +2074,7 @@ Quelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich»
 Spielstrategie:
 • Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar
 • Wer anhand seiner Handkarten viele Punkte erwartet, kann dafür eine Joker-Variante wählen
-• Wer etwa starke Eicheln hält, spielt sie als Joker mit sieben- oder achtfacher Wertung. Die einfache Eicheln-Zeile bleibt für ein schwächeres Blatt
+• Wer etwa starke Eicheln hält, spielt sie als Joker mit sieben- oder achtfacher Wertung. Eicheln einfach bleibt für ein schwächeres Blatt
 
 **Häufige Fragen:**
 - **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
