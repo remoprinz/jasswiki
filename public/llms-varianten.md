@@ -2061,9 +2061,9 @@ Joker-Regeln:
 
 Schreiben:
 • Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat
-• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16
+• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, 103 Punkte schreiben 10, ein ganzes Spiel mit 157 Punkten schreibt 16
 • Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben
-• Beispiel Schilten vierfach: Team A schreibt 13, Team B 10. Die Differenz 3 mal 4 ergibt 12 Pluspunkte für Team A
+• Beispiel Obenabe fünffach: Team A schreibt 12, Team B 9. Die Differenz 3 mal 5 ergibt 15 Pluspunkte für Team A
 
 Ende der Partie:
 • Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten
@@ -2074,7 +2074,7 @@ Quelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich»
 Spielstrategie:
 • Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar
 • Wer anhand seiner Handkarten viele Punkte erwartet, kann dafür eine Joker-Variante wählen
-• Wer etwa in Rosen ein starkes Spiel erwartet, spielt es als Joker mit sieben- oder achtfacher Wertung. Rosen zweifach bleibt für ein Blatt mit weniger guten Rosen
+• Wer etwa starke Eicheln hält, spielt sie als Joker mit sieben- oder achtfacher Wertung. Die einfache Eicheln-Zeile bleibt für ein schwächeres Blatt
 
 **Häufige Fragen:**
 - **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
@@ -2086,7 +2086,7 @@ Spielstrategie:
 - **Welche Farbe zählt beim Coiffeur wie viel?** Nach Dani Müller zählen Eicheln einfach, Rosen zweifach, Schellen dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Schilten dreifach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
 - **Wer spielt beim Coiffeur-Schieber aus?** Zum ersten Stich spielt aus, wer die Variante gewählt hat. Die Reihenfolge des Gebens bleibt davon unberührt.
 - **Was heisst «im Fass» beim Coiffeur-Schieber?** Geschoben wird im Kreis, von Vorhand an den nächsten Spieler bis zum vierten. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat.
-- **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird ein Zehntel der Punkte, ab 4 aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
+- **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird ein Zehntel der Punkte, ab 4 aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
 
 *Keywords: coiffeur, schieber, familienspiel, teamspiel, varianten*
 
