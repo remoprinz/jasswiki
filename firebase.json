@@ -1342,12 +1342,12 @@
         },
         {
           "source": "/jassapps/generelles/",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
           "source": "/jassapps/generelles",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
@@ -2042,7 +2042,7 @@
         },
         {
           "source": "/jassapps/generelles/",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
@@ -2127,7 +2127,7 @@
         },
         {
           "source": "/jassapps/generelles/jassapps-generelles/",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
@@ -2787,12 +2787,12 @@
         },
         {
           "source": "/jassapps/jassapps-generelles/jassapps-generelles/",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
           "source": "/jassapps/jassapps-generelles/jassapps-generelles",
-          "destination": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
           "type": 301
         },
         {
@@ -2923,6 +2923,36 @@
         {
           "source": "/weis-regeln/neunblatt",
           "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/grundlagen/der-schieber/",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/grundlagen/der-schieber",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/grundlagen/",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/grundlagen",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/jassapps-generelles/",
+          "destination": "/jassapps/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/jassapps-generelles",
+          "destination": "/jassapps/",
           "type": 301
         }
       ]

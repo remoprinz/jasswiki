@@ -4681,7 +4681,7 @@
   },
   "general_schieber": {
     "id": "general_schieber",
-    "text": "Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, bei dem sich zwei Partner gegenübersitzen und gemeinsam gegen das andere Team spielen. Der Name stammt von der Möglichkeit, die Trumpfwahl zum Partner zu «schieben».\n\nAuf einen Blick:\n• Spieleranzahl: 4 (2 Teams à 2 Spieler)\n• Karten: 36 Schweizer Jasskarten\n• Punkte pro Runde: 157 (inkl. 5 für letzten Stich)\n• Spielziel: Als Team mehr Punkte sammeln als die Gegner\n• Besonderheit: Trumpfwahl kann zum Partner «geschoben» werden\n• Regeln: in zehn Minuten erklärt\n• Verbreitung: Häufigste Variante in der Schweiz\n\nZu zweit denken:\nEin geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert (siehe Begriff \"expressions_schmieren\") ihm Punkte.\n\nSpielprinzip:\n• Vorhand (siehe Begriff \"expressions_vorhand\") bestimmt die Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»\n• Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen\n• Weis (siehe Begriff \"expressions_weis\") und Stöck (siehe Begriff \"weis_rules_stock\") bringen Zusatzpunkte\n\nWarum der Schieber so beliebt ist:\nBeim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.",
+    "text": "Der Schieber ist die beliebteste Jassvariante der Schweiz. Es ist ein Teamspiel für vier Personen, bei dem sich zwei Partner gegenübersitzen und gemeinsam gegen das andere Team spielen. Der Name stammt von der Möglichkeit, die Trumpfwahl zum Partner zu «schieben».\n\nAuf einen Blick:\n• Spieleranzahl: 4 (2 Teams à 2 Spieler)\n• Karten: 36 Schweizer Jasskarten\n• Punkte pro Runde: 157 (inkl. 5 für letzten Stich)\n• Spielziel: Als Team mehr Punkte sammeln als die Gegner\n• Besonderheit: Trumpfwahl kann zum Partner «geschoben» werden\n• Regeln: in zehn Minuten erklärt\n• Verbreitung: Häufigste Variante in der Schweiz\n\n## So läuft ein Spiel\n\n• **Geben:** Der Kartengeber verteilt «dreimal drei Karten» (siehe Begriff \"general_dealing_basics\") an jede Person, im Gegenuhrzeigersinn\n• **Ansagen oder schieben:** Vorhand (siehe Begriff \"expressions_vorhand\") sagt eine Trumpffarbe (siehe Begriff \"bodentrumpf\"), Obenabe (siehe Begriff \"expressions_obenabe\") oder Undenufe (siehe Begriff \"expressions_undenufe\") an. Sie kann die Wahl dem Partner zuschieben, dann sagt der Partner an\n• **Ausspielen:** Vorhand spielt die erste Karte aus, auch wenn sie geschoben hat\n• **Farbe angeben:** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen\n• **Stechen:** Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus\n• **Zählen:** Nach neun Stichen zählt jedes Team seine Punkte\n\n## Punkte in Kürze\n\n• Ein Spiel zählt 157 Punkte: 152 Kartenpunkte (siehe Begriff \"general_card_values\") und 5 für den «letzten Stich» (siehe Begriff \"letzter_stich\")\n• In der Trumpffarbe zählt der Puur 20 Punkte und das Nell (siehe Begriff \"expressions_nell\") 14 Punkte\n• Macht ein Team alle neun Stiche, ist das ein Matsch (siehe Begriff \"expressions_matsch\"). Er bringt 100 Extrapunkte\n• Weis (siehe Begriff \"expressions_weis\") und Stöck (siehe Begriff \"weis_rules_stock\") bringen Zusatzpunkte\n• Die Partie endet, sobald ein Team die vereinbarte Punktzahl erreicht hat und sich bedankt (siehe Begriff \"bedanken\")\n\nWie die Karten bei Obenabe, Undenufe und Slalom zählen, steht unter «Punkte zählen beim Schieber» (siehe Begriff \"matsch\").\n\n## Zu zweit denken\n\nEin geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert (siehe Begriff \"expressions_schmieren\") ihm Punkte.\n\n## Warum der Schieber so beliebt ist\n\nBeim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.\n\n## Schieber online jassen\n\nIn der Arena von JassGuru (siehe Begriff \"jassapps_jassguru\") jasst man Schieber online, mit den eigenen Jassfreunden oder mit der Jass-KI (siehe Begriff \"jass_ki\") Albis 001 als Partner und als Gegner.",
     "metadata": {
       "id": "general_schieber_meta",
       "category": {
@@ -4718,7 +4718,9 @@
       "taxonomy_tier": 1,
       "wikidata_id": "Q137727247",
       "datePublished": "2026-01-04",
-      "dateModified": "2026-06-16"
+      "dateModified": "2026-11-22",
+      "seoTitle": "Schieber jassen: Regeln, Ablauf und Punkte | Jass-Wiki",
+      "seoDescription": "Der Schieber ist die beliebteste Jassart der Schweiz: vier Personen, zwei Teams, 36 Karten. Regeln, Ablauf und Punkte in Kürze, dazu Taktik und Begriffe."
     },
     "see_also": [
       "expressions_vorhand",
@@ -5888,7 +5890,6 @@
       }
     ],
     "see_also": [
-      "jassapps_overview",
       "jass_ki",
       "jass_elo_meta",
       "bergpreis",
@@ -6041,61 +6042,6 @@
       "expressions_partie",
       "general_scoring_rules",
       "jassapps_jasstafel"
-    ]
-  },
-  "jassapps_overview": {
-    "id": "jassapps_overview",
-    "text": "Jassen am Bildschirm:\nFür das Jassen am Bildschirm gibt es drei Arten von Angeboten.\n\nHauptkategorien:\n• **Spiel-Apps:** Apps zum aktiven Spielen wie JassGuru (siehe Begriff \"jassapps_jassguru\"), Jass.ch (siehe Begriff \"jassapps_jassch\"), JassPro (siehe Begriff \"jassapps_jasspro\") und SwissJass (siehe Begriff \"jassapps_swissjass\")\n• **Notier-Apps:** Digitale Punktetafeln wie Jasstafel (siehe Begriff \"jassapps_jasstafel\") und Jasstafel Pro (siehe Begriff \"jassapps_jasstafel_pro\")\n• **Online-Plattformen:** Browser-basierte Angebote wie Jass24 (siehe Begriff \"jassapps_jass24\")\n\nVorteile:\n• **Zugänglichkeit:** Jederzeit und überall spielbar\n• **Lernhilfe:** Viele Apps bieten Tutorials und Taktiktipps\n• **Mit Freunden spielen:** gegen Bekannte oder gegen fremde Jasser aus der ganzen Schweiz\n\nModerne Entwicklung:\nDie Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren.",
-    "metadata": {
-      "id": "jassapps_overview_meta",
-      "category": {
-        "main": "Jassapps",
-        "sub": "Jassapps Generelles",
-        "topic": "Jassapps Generelles"
-      },
-      "keywords": [
-        "jassapps",
-        "apps",
-        "digital",
-        "online",
-        "jassguru",
-        "web-app",
-        "mobile"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-10-25"
-    },
-    "faqs": [
-      {
-        "question": "Gibt es Apps zum Jassen?",
-        "answer": "Ja. Zum Jassen gibt es heute viele Apps und Plattformen."
-      },
-      {
-        "question": "Welche Arten von Jass-Apps gibt es?",
-        "answer": "Es gibt Spiel-Apps zum aktiven Jassen, Notier-Apps für Punktetafeln und Online-Plattformen."
-      },
-      {
-        "question": "Was sind die Vorteile von Jass-Apps?",
-        "answer": "Jass-Apps bieten Zugänglichkeit (jederzeit spielbar), Lernhilfen mit Tutorials und Taktiktipps sowie Social Features für Online-Spiel."
-      },
-      {
-        "question": "Helfen Jass-Apps, die Tradition zu bewahren?",
-        "answer": "Ja, die Apps tragen dazu bei, das traditionelle Spiel für jüngere Generationen attraktiv zu halten und die Jass-Kultur zu bewahren."
-      }
-    ],
-    "see_also": [
-      "jassapps_jassguru",
-      "jassapps_jass24",
-      "jassapps_jasspro",
-      "jassapps_jasstafel",
-      "jassapps_jasstafel_pro",
-      "jassapps_swissjass"
     ]
   },
   "jassapps_swissjass": {
@@ -9752,7 +9698,7 @@
       "category": {
         "main": "Varianten",
         "sub": "Schätzspiel",
-        "topic": "Differenzler"
+        "topic": "Differenzler zu dritt"
       },
       "keywords": [
         "differenzler drei",
@@ -9772,7 +9718,7 @@
       "difficulty": 4,
       "taxonomy_tier": 2,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-18",
+      "dateModified": "2026-11-22",
       "seoTitle": "Differenzler zu dritt: Regeln und Wertung | Jass-Wiki",
       "seoDescription": "Differenzler mit offener Ansage für drei: 12 Karten je Spieler, Bonus für den Kartengeber, Stöckpunkte als Variante. Wie angesagt und gewertet wird."
     },
@@ -9799,10 +9745,11 @@
       }
     ],
     "see_also": [
-      "expressions_handkarten",
       "ausmachregel",
-      "weis_rules_stock",
-      "expressions_vorhand"
+      "expressions_handkarten",
+      "expressions_vorhand",
+      "variants_strategic_differenzler",
+      "weis_rules_stock"
     ]
   },
   "variants_strategic_differenzler_offen": {
@@ -9872,17 +9819,18 @@
       }
     ],
     "see_also": [
+      "ausmachregel",
       "bodentrumpf",
       "expressions_handkarten",
       "expressions_rauben",
       "expressions_stapel",
-      "ausmachregel",
-      "weis_rules_stock",
       "expressions_vorhand",
       "expressions_weis",
       "letzter_stich",
       "matsch",
-      "untertrumpfen"
+      "untertrumpfen",
+      "variants_strategic_differenzler",
+      "weis_rules_stock"
     ]
   },
   "variants_strategic_differenzler_verdeckt": {
@@ -9912,15 +9860,15 @@
       "taxonomy_tier": 1,
       "wikidata_id": "Q137731684",
       "datePublished": "2025-11-22",
-      "dateModified": "2026-07-04"
+      "dateModified": "2026-11-22"
     },
     "faqs": [
       {
-        "question": "Was ist Differenzler?",
+        "question": "Was ist der Differenzler mit verdeckter Ansage?",
         "answer": "Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis, je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim."
       },
       {
-        "question": "Wie spielt man Differenzler?",
+        "question": "Wie spielt man Differenzler mit verdeckter Ansage?",
         "answer": "Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält."
       },
       {
@@ -9941,10 +9889,11 @@
       }
     ],
     "see_also": [
+      "ausmachregel",
       "bodentrumpf",
       "expressions_handkarten",
-      "ausmachregel",
-      "trumpf_bauer"
+      "trumpf_bauer",
+      "variants_strategic_differenzler"
     ]
   },
   "variants_strategic_handjass": {
@@ -12920,6 +12869,125 @@
         "question": "Spielt die KI auch am echten Tisch mit?",
         "answer": "Die Jass-KI jasst online in der Arena von JassGuru. Am echten Tisch schreibt JassGuru als digitale Kreidetafel Punkte, Striche, Berg und Sieg. Ob die KI später auch am echten Tisch hilft, ist noch offen."
       }
+    ]
+  },
+  "variants_strategic_differenzler": {
+    "id": "variants_strategic_differenzler",
+    "text": "Der Differenzler ist ein Jass, bei dem jede Person für sich spielt. Vor dem Spiel schätzt sie nach ihrem Blatt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis. Wer am Ende das kleinste Differenz-Total hat, gewinnt.\n\nAuf einen Blick:\n• Spieler: 4, jede Person für sich, auch zu dritt möglich\n• Karten: 36 Jasskarten, 9 je Person\n• Punkte je Spiel: 157, davon 5 für den letzten Stich\n• Ansage: die geschätzten eigenen Kartenpunkte\n• Wertung: die Differenz zwischen Ansage und Ergebnis\n• Ziel: das kleinste Differenz-Total\n\n## So läuft ein Spiel\n\n• Jede Person schätzt nach ihrem Blatt (siehe Begriff \"expressions_handkarten\"), wie viele Kartenpunkte sie am Ende macht\n• Die Ansage ist offen oder verdeckt, je nach Fassung\n• Gespielt wird mit einer Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Nach dem Spiel zählt jede Person ihre Kartenpunkte\n• Geschrieben wird die Differenz zwischen Ansage und Ergebnis\n\n## Die Fassungen\n\n| Fassung | Was sie ausmacht |\n|---|---|\n| «Differenzler mit offener Ansage» (siehe Begriff \"variants_strategic_differenzler_offen\") | Alle hören, was die anderen ansagen. Dieser Artikel trägt die Grundregeln: Trumpf, Ansage, Wertung, Spielende |\n| «Differenzler mit verdeckter Ansage» (siehe Begriff \"variants_strategic_differenzler_verdeckt\") | Jede Person schreibt ihre Zahl auf einen Zettel, der bis zum Spielende verdeckt liegt |\n| «Differenzler zu dritt» (siehe Begriff \"variants_strategic_differenzler_drei\") | Jede Person erhält zwölf Karten, der Kartengeber erhält als letzter Ansager Punkte gut |\n| «Stich-Differenzler» (siehe Begriff \"variants_specialty_stich_differenzler\") | Angesagt und gezählt werden die Stiche statt der Kartenpunkte |",
+    "metadata": {
+      "id": "variants_strategic_differenzler_meta",
+      "category": {
+        "main": "Varianten",
+        "sub": "Schätzspiel",
+        "topic": "Differenzler"
+      },
+      "keywords": [
+        "differenzler",
+        "differenzler jass",
+        "differenzler regeln",
+        "differenzler jassen",
+        "schätzjass",
+        "ansage",
+        "differenz",
+        "offene ansage",
+        "verdeckte ansage"
+      ],
+      "situations": [
+        "LEARNING"
+      ],
+      "importance": 8,
+      "difficulty": 2,
+      "taxonomy_tier": 1,
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22",
+      "seoTitle": "Differenzler: Regeln, Ansage und Wertung | Jass-Wiki",
+      "seoDescription": "Beim Differenzler schätzt jede Person ihre Kartenpunkte, gewertet wird die Differenz zur Ansage. Ablauf und die Fassungen offen, verdeckt, zu dritt und nach Stichen."
+    },
+    "faqs": [
+      {
+        "question": "Was ist der Differenzler?",
+        "answer": "Der Differenzler ist ein Jass, bei dem jede Person für sich spielt und vor dem Spiel schätzt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis."
+      },
+      {
+        "question": "Wie spielt man Differenzler?",
+        "answer": "Jede Person schätzt nach ihrem Blatt ihre Kartenpunkte und sagt die Zahl an, offen oder verdeckt. Dann wird gestochen. Geschrieben wird die Differenz zwischen Ansage und Ergebnis."
+      },
+      {
+        "question": "Wer gewinnt beim Differenzler?",
+        "answer": "Es gewinnt, wer am Ende das kleinste Differenz-Total hat."
+      },
+      {
+        "question": "Welche Fassungen des Differenzlers gibt es?",
+        "answer": "Den Differenzler mit offener Ansage, den Differenzler mit verdeckter Ansage, den Differenzler zu dritt und den Stich-Differenzler, bei dem die Stiche zählen."
+      }
+    ],
+    "see_also": [
+      "variants_strategic_differenzler_offen",
+      "variants_strategic_differenzler_verdeckt",
+      "variants_strategic_differenzler_drei",
+      "variants_specialty_stich_differenzler"
+    ]
+  },
+  "jassen_lernen": {
+    "id": "jassen_lernen",
+    "text": "Jassen lernt man am schnellsten mit dem Schieber, der häufigsten Jassart der Schweiz. Die Regeln sind in zehn Minuten erklärt. Dieser Weg führt in sechs Schritten von den Karten bis zum ersten Spiel.\n\n## 1. Die Karten kennen\n\nGejasst wird mit 36 Karten in vier Farben. Die Deutschschweizer Karten zeigen Eichel, Rosen, Schellen und Schilten, die französischen Karten Ecke, Herz, Kreuz und Schaufel. Jede Farbe hat neun Karten, vom Sechser bis zum Ass. Beide Kartenbilder zeigt der Artikel «Jasskarten» (siehe Begriff \"expressions_kartenfarben\").\n\n## 2. Farbe angeben\n\nVier Personen spielen der Reihe nach je eine Karte. Diese vier Karten sind ein Stich. Wer die ausgespielte Farbe hat, muss sie spielen. Das heisst Farbe angeben und ist die erste der «Grundregeln» (siehe Begriff \"general_most_important_rules\").\n\n## 3. Den Stich gewinnen\n\nDen Stich gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus. Nach neun Stichen ist das Spiel fertig.\n\n## 4. Den Trumpf verstehen\n\nVor dem ersten Stich wird eine Farbe zum Trumpf. Jede Trumpfkarte sticht jede Karte einer anderen Farbe. Der höchste Trumpf ist der Under, er heisst Puur. Der zweithöchste ist der Neuner, das Nell (siehe Begriff \"expressions_nell\"). Mit einem Trumpf darf man jederzeit abstechen, auch mit der ausgespielten Farbe in der Hand.\n\n## 5. Punkte zählen\n\nJede Karte hat einen Punktwert: Ass 11, Banner 10, König 4, Ober 3, Under 2. Die Karten vom Sechser bis zum Neuner zählen 0. In der Trumpffarbe zählt der Puur 20 und das Nell 14. Der letzte Stich bringt 5 Punkte dazu. So zählt ein Spiel 157 Punkte. Die ganze Tabelle steht im Artikel Kartenwerte (siehe Begriff \"general_card_values\").\n\n## 6. Zu viert spielen: der Schieber\n\nBeim Schieber (siehe Begriff \"general_schieber\") spielen zwei Teams gegeneinander, die Partner sitzen sich gegenüber. Vorhand sagt den Trumpf an oder schiebt die Wahl dem Partner zu. Die Partie gewinnt das Team, das zuerst die vereinbarte Punktzahl erreicht. Wer geübt ist, rechnet mit 18 Karten: den eigenen neun und den neun des Partners.\n\n## Üben\n\n- **Jass des Tages:** Jeden Tag liegt auf jassguru.ch ein Blatt mit neun Karten und einem Ziel. Um 19 Uhr löst ein Jasscoach das Blatt im Video. Mehr dazu auf der Seite [Jass des Tages](/jass-des-tages/).\n- **Online jassen:** In der Arena von JassGuru (siehe Begriff \"jassapps_jassguru\") jasst man Schieber mit der Jass-KI (siehe Begriff \"jass_ki\") Albis 001 als Partner und als Gegner, auch als Gast. Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) auf jassguru.ch.\n\n## Wie es weitergeht\n\nWer die Regeln kennt, lernt das Zusammenspiel mit dem Partner: Verwerfen (siehe Begriff \"schieber_taktiken_verwerfen\"), Anziehen (siehe Begriff \"schieber_taktiken_anziehen\") und Austrumpfen (siehe Begriff \"schieber_taktiken_austrumpfen\"). Jede Regel im Einzelnen steht unter [Jassregeln](/regeln/).",
+    "metadata": {
+      "id": "jassen_lernen",
+      "category": {
+        "main": "Grundlagen & Kultur",
+        "sub": "Jassen lernen",
+        "topic": "Jassen lernen"
+      },
+      "seoTitle": "Jassen lernen: in sechs Schritten zum ersten Spiel | Jass-Wiki",
+      "seoDescription": "Jassen lernen für Anfänger: Karten, Farbe angeben, Stich, Trumpf, Punkte und der Schieber. Mit Videos vom Jass des Tages und dem Weg zum Üben gegen die Jass-KI.",
+      "keywords": [
+        "jassen lernen",
+        "jassen für anfänger",
+        "jass lernen",
+        "jassen anfänger",
+        "jassen lernen online",
+        "jass anleitung",
+        "schieber lernen",
+        "jassregeln einfach"
+      ],
+      "difficulty": 1,
+      "importance": 0.9,
+      "situations": [
+        "START",
+        "LEARNING"
+      ],
+      "taxonomy_tier": 1,
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22"
+    },
+    "faqs": [
+      {
+        "question": "Wie lerne ich jassen?",
+        "answer": "Am schnellsten mit dem Schieber: die Karten kennen, Farbe angeben, stechen, den Trumpf verstehen, Punkte zählen und dann zu viert spielen. Üben kann man am Tisch, mit dem Jass des Tages und online mit der Jass-KI."
+      },
+      {
+        "question": "Wie lange dauert es, jassen zu lernen?",
+        "answer": "Die Regeln des Schiebers sind in zehn Minuten erklärt. Das Zusammenspiel mit dem Partner lernt man ein Leben lang."
+      },
+      {
+        "question": "Welche Jassart lernt man zuerst?",
+        "answer": "Den Schieber. Er ist die häufigste Jassart der Schweiz und wird in der ganzen Schweiz nach denselben Regeln gejasst."
+      },
+      {
+        "question": "Kann man jassen allein üben?",
+        "answer": "Ja. Der Jass des Tages stellt jeden Tag eine Aufgabe mit neun Karten. In der Arena von JassGuru jasst man als Gast sofort mit der Jass-KI Albis 001."
+      },
+      {
+        "question": "Wie viele Karten braucht man zum Jassen?",
+        "answer": "36 Karten in vier Farben, neun Karten je Farbe."
+      }
+    ],
+    "see_also": [
+      "general_schieber",
+      "expressions_kartenfarben",
+      "general_most_important_rules",
+      "general_card_values",
+      "jass_ki"
     ]
   }
 }

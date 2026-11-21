@@ -1,0 +1,39 @@
+{
+  "_zweck": "Texte der Übersichtsseiten (Redaktion SCHIRI, gefeilt von FEILE). Schlüssel = Pfad der Seite ohne Schrägstriche am Rand. seoTitle und seoDescription stehen im Kopf der Seite, h1 ersetzt den Rubriknamen, einleitung steht im Artikelformat (Markdown, Verweise wie im Artikeltext) zwischen Kopf und Karten, faqs ersetzen die Fragen der Vorlage. Die Vorlagen lesen, SCHIRI schreibt.",
+  "_stand": "2026-11-22",
+  "seiten": {
+    "regeln": {
+      "einleitung": "## Die Jassregeln in Kürze\n\nGejasst wird mit 36 Karten. Beim [Schieber](/schieber/), der häufigsten Jassart, spielen vier Personen in zwei Teams. Jede erhält neun Karten.\n\n- **Trumpf ansagen:** Vorhand sagt eine Trumpffarbe, Obenabe oder Undenufe an. Sie kann die Wahl auch dem Partner zuschieben.\n- **Farbe angeben:** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen.\n- **Stich:** Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus.\n- **Punkte:** Ein Spiel zählt 157 Punkte: 152 [Kartenpunkte](/regeln/kartenwerte/) und 5 für den [letzten Stich](/regeln/punktezaehlung/letzter-stich/).\n- **Weis und Stöck:** Kartenfolgen ab drei Karten und vier Gleiche bringen [Weispunkte](/weis-regeln/weispunkte/). König und Ober der Trumpffarbe zählen als Stöck 20 Punkte.\n\nDie Kapitel führen jede Regel einzeln aus, mit Beispielen und Sonderfällen."
+    },
+    "jassapps": {
+      "h1": "Jass-Apps",
+      "seoTitle": "Jass-Apps: alle Apps für Jasstafel und Online-Jass | Jass-Wiki",
+      "seoDescription": "Welche Jass-App passt? Die Übersicht des Jassverbands Schweiz: Apps für iPhone, Android und Browser, zum Online-Jassen, zum Üben gegen den Computer und zum Punkteschreiben am Tisch.",
+      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
+      "faqs": []
+    },
+    "jassapps/online-jass": {
+      "h1": "Online-Jass",
+      "seoTitle": "Online-Jass: alle Wege, im Netz zu jassen | Jass-Wiki",
+      "seoDescription": "Wo man online jassen kann: die Angebote im Überblick, sachlich beschrieben vom Jassverband Schweiz. Mit Freunden, gegen den Computer und als Gast.",
+      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
+      "faqs": []
+    },
+    "jassapps/tisch-jass": {
+      "h1": "Jasstafel-Apps",
+      "seoTitle": "Jasstafel-Apps: Punkte schreiben am Tisch | Jass-Wiki",
+      "seoDescription": "Apps, die am Jasstisch die Kreidetafel ersetzen: Punkte schreiben für Schieber, Coiffeur und weitere Jassarten. Übersicht des Jassverbands Schweiz.",
+      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
+      "faqs": []
+    }
+  },
+  "verweise": {
+    "start_chips": [
+      { "wort": "Schieber", "pfad": "/schieber/" },
+      { "wort": "Jassen lernen", "pfad": "/jassen-lernen/" },
+      { "wort": "Jass-KI", "pfad": "/grundlagen-kultur/jass-ki/" },
+      { "wort": "Jass-Apps", "pfad": "/jassapps/" }
+    ],
+    "jassen_seite": "Wer das Jassen von Grund auf lernen will, folgt dem Weg [Jassen lernen](/jassen-lernen/). Gegen die [Jass-KI](/grundlagen-kultur/jass-ki/) des Verbands übt man online. Alle Angebote zeigt die Übersicht der [Jass-Apps](/jassapps/)."
+  }
+}
