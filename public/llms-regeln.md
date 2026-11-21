@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-11-20
+last_updated: 2026-11-21
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -414,7 +414,7 @@ Beim Schieber:
 • Das gilt in jeder Spielart, auch bei Guschti, Slalom und Trio
 
 Beim Coiffeur-Schieber:
-• Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus
+• Zum ersten Stich spielt aus, wer die Variante gewählt hat
 
 Sonderregel Pandur/Misère:
 • Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf

@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 26
-last_updated: 2026-11-20
+last_updated: 2026-11-21
 format: "markdown"
 encoding: "utf-8"
 ---

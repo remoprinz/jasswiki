@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 52
-last_updated: 2026-11-20
+last_updated: 2026-11-21
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1244,14 +1244,14 @@ Beim Undenufe zählen die Sechser 11 Punkte und die Asse null Punkte. Die Achter
 **Kategorie:** Ansagen > Ziel
 
 Definition:
-Misère ist die Spezialvariante beim Ansagen, bei der die Teams möglichst keinen Stich machen wollen. Misère wird bei Pandur und beim Coiffeur gespielt. Bei manchen Jassgruppen wird Misère auch als Schieber-Variante gespielt.
+Misère ist die Spezialvariante beim Ansagen, bei der die Teams möglichst keinen Stich machen wollen. Misère wird beim Pandur gespielt. Manche Jassgruppen spielen sie als zusätzliche Variante im Coiffeur oder im Schieber.
 
 Speziell beim Misère ist, dass Untertrumpfen erlaubt ist, wenn der entsprechende Spieler die gespielte Farbe nicht auf der Hand hat.
 
 **Häufige Fragen:**
-- **Was ist Misère beim Jassen?** Misère ist eine Spezialvariante, bei der das Ziel umgekehrt ist: Man will möglichst keinen Stich machen. Gespielt bei Pandur, Coiffeur und teils als Schieber-Variante.
+- **Was ist Misère beim Jassen?** Misère ist eine Spezialvariante, bei der das Ziel umgekehrt ist: Man will möglichst keinen Stich machen. Gespielt wird sie beim Pandur, in manchen Jassgruppen auch als zusätzliche Variante im Coiffeur oder im Schieber.
 - **Darf man bei Misère untertrumpfen?** Ja. Beim Misère ist Untertrumpfen auch dann erlaubt, wenn man die ausgespielte Farbe nicht bedienen kann.
-- **Wo wird Misère gespielt?** Vor allem bei Pandur und beim Coiffeur, bei manchen Jassgruppen auch als eigene Schieber-Variante.
+- **Wo wird Misère gespielt?** Beim Pandur. Manche Jassgruppen spielen sie als zusätzliche Variante im Coiffeur oder im Schieber.
 
 *Keywords: misère, pandur, bieter, schieber*
 
@@ -2035,39 +2035,39 @@ Grundprinzip:
 • Eine komplette Partie umfasst somit 16 Spiele
 
 Die acht Varianten:
-• Variante 1-4: die vier Trumpffarben, Schellen einfach, Rosen zweifach, Eicheln dreifach, Schilten vierfach
+• Variante 1-4: die vier Trumpffarben, Eicheln einfach, Rosen zweifach, Schellen dreifach, Schilten vierfach
 • Variante 5: Obenabe, das fünffach zählt
 • Variante 6: Undenufe, das sechsfach zählt
-• Variante 7-8: Zwei Joker-Varianten, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist
+• Variante 7-8: Zwei Joker, die sieben- und achtfach zählen. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe
 
-Diese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989): Eicheln einfach, Rosen zweifach, Schilten dreifach, Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
+Diese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html): Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom oder Misère. Was davon gilt, macht die Runde vor dem ersten Spiel ab.
 
 Spiel geben:
-• Zum ersten Spiel verteilt ein beliebiger Schreiber jedem Spieler 9 Karten, dreimal drei
-• Die folgenden Spiele gibt jeder der Reihe nach in Spielrichtung, egal wer das Spiel übernimmt
-• Hat ein Team alle Varianten gespielt, gibt nur noch dieses Team, abwechselnd
+• Wer schreibt, gibt zum ersten Spiel: jedem Spieler 9 Karten, dreimal drei
+• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, egal wer das Spiel übernommen hat
+• Hat ein Team alle Varianten gespielt und die Gegner haben noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt
 
 Schieben im Kreis:
 • Vorhand, der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt
-• Wer geschoben bekommt, wählt oder schiebt weiter: von Vorhand zum zweiten, dritten und vierten Spieler
+• Geschoben wird im Kreis an den nächsten Spieler in Spielrichtung, also an einen Gegner. Er wählt eine Variante für sein eigenes Team oder schiebt weiter, bis zum vierten Spieler
 • Schiebt auch der vierte, liegt die Wahl wieder bei Vorhand. Vorhand ist jetzt «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat
-• Wer eine Variante wählt, übernimmt das Spiel und spielt aus
+• Wer eine Variante wählt, übernimmt das Spiel für sein Team und spielt zum ersten Stich aus
 
 Joker-Regeln:
 • Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe
 • Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist
-• Sind beide Joker gespielt, schreibt das Team bei seiner tiefsten offenen Variante 0 Punkte
-• Bei den Joker-Varianten entfallen Stöck und Wys. Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab
+• Sind beide Joker schon gespielt, schreibt das Team für diese Wahl 0 Punkte bei seiner tiefsten offenen Variante
+• Bei den Joker-Varianten entfallen Stöck und Weis. Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab
 
 Schreiben:
-• Der Schreiber notiert die Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat
+• Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat
 • Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16
 • Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben
 • Beispiel Schilten vierfach: Team A schreibt 13, Team B 10. Die Differenz 3 mal 4 ergibt 12 Pluspunkte für Team A
 
 Ende der Partie:
 • Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten
-• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Gewonnen hat das Team mit dem höheren Gesamtergebnis
+• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Zusammengezählt werden die Pluspunkte der mittleren Kolonne. Gewonnen hat das Team mit dem höheren Gesamtergebnis
 
 Quelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich», Kapitel Coiffeur-Schieber.
 
@@ -2078,14 +2078,14 @@ Spielstrategie:
 
 **Häufige Fragen:**
 - **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
-- **Wie spielt man Coiffeur?** Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.
+- **Wie spielt man Coiffeur?** Vier Spieler bilden zwei Teams. Vorhand wählt eine der acht Varianten oder schiebt im Kreis weiter. Wer wählt, spielt aus. Sein Team schreibt die Punkte dieses Spiels. Die Partie endet, wenn beide Teams jede Variante einmal gespielt haben.
 - **Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?** Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss.
-- **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker-Varianten sind Variante 7 und 8, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist. Bei diesen Varianten können Stöck- und Weispunkte nicht gemeldet werden.
+- **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker sind die Varianten 7 und 8, sie zählen sieben- und achtfach. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe. Stöck und Weis entfallen bei den Jokern.
 - **Wie viele Punkte zählt Obenabe beim Coiffeur-Schieber?** Obenabe zählt beim Coiffeur-Schieber fünffach.
 - **Kann ich beim Coiffeur-Schieber die Reihenfolge der Varianten frei wählen?** Ja. Jedes Team wählt selber, wann es welche Trumpfart spielt.
-- **Welche Farbe zählt beim Coiffeur wie viel?** Nach Dani Müller zählen Schellen einfach, Rosen zweifach, Eicheln dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Eicheln einfach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
-- **Wer spielt beim Coiffeur-Schieber aus?** Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus. Die Reihenfolge des Gebens bleibt davon unberührt.
-- **Was heisst «im Fass» beim Coiffeur-Schieber?** Geschoben wird im Kreis, von Vorhand bis zum vierten Spieler. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat.
+- **Welche Farbe zählt beim Coiffeur wie viel?** Nach Dani Müller zählen Eicheln einfach, Rosen zweifach, Schellen dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Schilten dreifach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
+- **Wer spielt beim Coiffeur-Schieber aus?** Zum ersten Stich spielt aus, wer die Variante gewählt hat. Die Reihenfolge des Gebens bleibt davon unberührt.
+- **Was heisst «im Fass» beim Coiffeur-Schieber?** Geschoben wird im Kreis, von Vorhand an den nächsten Spieler bis zum vierten. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat.
 - **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird ein Zehntel der Punkte, ab 4 aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
 
 *Keywords: coiffeur, schieber, familienspiel, teamspiel, varianten*

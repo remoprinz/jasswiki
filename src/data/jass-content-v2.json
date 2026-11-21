@@ -225,7 +225,7 @@
   },
   "ausspiel": {
     "id": "ausspiel",
-    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nBeim Schieber:\n• Vorhand spielt aus, auch wenn sie geschoben hat und ihr Partner den Trumpf bestimmt\n• Das gilt in jeder Spielart, auch bei Guschti, Slalom und Trio\n\nBeim Coiffeur-Schieber:\n• Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus (siehe Begriff \"variants_family_coiffeur_schieber\")\n\nSonderregel Pandur/Misère:\n• Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf\n\nKartenwahl und Spielablauf:\n• Wer ausspielt, darf jede Karte seiner Hand spielen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
+    "text": "Definition:\nAusspiel ist das Legen der ersten Karte zum ersten Stich einer Runde. Alle Spieler haben bereits Karten aufgenommen und der Trumpf (siehe Begriff \"bodentrumpf\") ist bestimmt.\n\nGrundregel:\n• Vorhand (siehe Begriff \"expressions_vorhand\") (Spieler rechts vom Kartengeber) spielt zum ersten Stich aus\n\nBeim Schieber:\n• Vorhand spielt aus, auch wenn sie geschoben hat und ihr Partner den Trumpf bestimmt\n• Das gilt in jeder Spielart, auch bei Guschti, Slalom und Trio\n\nBeim Coiffeur-Schieber:\n• Zum ersten Stich spielt aus, wer die Variante gewählt hat (siehe Begriff \"variants_family_coiffeur_schieber\")\n\nSonderregel Pandur/Misère:\n• Beim Pandur zeigt bei einer Punktansage die erste Karte des Spielübernehmers die Trumpffarbe an, wenn er sie ohne Bemerkung spielt. Will er eine andere Farbe als Trumpf, sagt er sie beim Ausspiel an. Beim Pandur mit Trumpf und beim Misère mit Trumpf ist die Farbe der ersten Karte der Trumpf\n\nKartenwahl und Spielablauf:\n• Wer ausspielt, darf jede Karte seiner Hand spielen\n• Wer vorherigen Stich gewann, spielt als Nächstes aus\n• Andere Spieler müssen gespielte Farbe bedienen, sofern vorhanden\n• Kann Spieler Farbe nicht bedienen, darf andere Karte gewählt werden (Nichtfarben (siehe Begriff \"nichtfarben\"))",
     "metadata": {
       "id": "ausspiel_meta",
       "category": {
@@ -248,7 +248,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-11-20"
+      "dateModified": "2026-11-21"
     },
     "faqs": [
       {
@@ -2087,7 +2087,7 @@
   },
   "expressions_misere": {
     "id": "expressions_misere",
-    "text": "Definition:\nMisère ist die Spezialvariante beim Ansagen, bei der die Teams möglichst keinen Stich machen wollen. Misère wird bei Pandur und beim Coiffeur gespielt. Bei manchen Jassgruppen wird Misère auch als Schieber-Variante gespielt.\n\nSpeziell beim Misère ist, dass Untertrumpfen (siehe Begriff \"untertrumpfen\") erlaubt ist, wenn der entsprechende Spieler die gespielte Farbe nicht auf der Hand hat.",
+    "text": "Definition:\nMisère ist die Spezialvariante beim Ansagen, bei der die Teams möglichst keinen Stich machen wollen. Misère wird beim Pandur gespielt. Manche Jassgruppen spielen sie als zusätzliche Variante im Coiffeur oder im Schieber.\n\nSpeziell beim Misère ist, dass Untertrumpfen (siehe Begriff \"untertrumpfen\") erlaubt ist, wenn der entsprechende Spieler die gespielte Farbe nicht auf der Hand hat.",
     "metadata": {
       "id": "expressions_misere_meta",
       "category": {
@@ -2108,12 +2108,12 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-28"
+      "dateModified": "2026-11-21"
     },
     "faqs": [
       {
         "question": "Was ist Misère beim Jassen?",
-        "answer": "Misère ist eine Spezialvariante, bei der das Ziel umgekehrt ist: Man will möglichst keinen Stich machen. Gespielt bei Pandur, Coiffeur und teils als Schieber-Variante."
+        "answer": "Misère ist eine Spezialvariante, bei der das Ziel umgekehrt ist: Man will möglichst keinen Stich machen. Gespielt wird sie beim Pandur, in manchen Jassgruppen auch als zusätzliche Variante im Coiffeur oder im Schieber."
       },
       {
         "question": "Darf man bei Misère untertrumpfen?",
@@ -2121,7 +2121,7 @@
       },
       {
         "question": "Wo wird Misère gespielt?",
-        "answer": "Vor allem bei Pandur und beim Coiffeur, bei manchen Jassgruppen auch als eigene Schieber-Variante."
+        "answer": "Beim Pandur. Manche Jassgruppen spielen sie als zusätzliche Variante im Coiffeur oder im Schieber."
       }
     ],
     "see_also": [
@@ -3055,7 +3055,7 @@
   },
   "expressions_striche": {
     "id": "expressions_striche",
-    "text": "Definition:\n• Beim Schieber (siehe Begriff \"variants_family_coiffeur_schieber\") wird meist mit Strichen geschrieben\n• Wer bei einer Partie über mehrere Spiele hinweg mehr Striche erzielt, gewinnt die Partie (vgl. auch Zählweise Striche (siehe Begriff \"zaehlweise_striche\"))\n\nVerbreitung:\n• In privaten Runden wird meist mit Strichen gejasst\n• Bei Turnieren wird meistens auf Punkte gejasst",
+    "text": "Definition:\n• Beim Schieber (siehe Begriff \"general_schieber\") wird meist mit Strichen geschrieben\n• Wer bei einer Partie über mehrere Spiele hinweg mehr Striche erzielt, gewinnt die Partie (vgl. auch Zählweise Striche (siehe Begriff \"zaehlweise_striche\"))\n\nVerbreitung:\n• In privaten Runden wird meist mit Strichen gejasst\n• Bei Turnieren wird meistens auf Punkte gejasst",
     "metadata": {
       "id": "expressions_striche_meta",
       "category": {
@@ -7990,7 +7990,7 @@
   },
   "trumpfansage": {
     "id": "trumpfansage",
-    "text": "Regel:\n• Bei Jassarten mit Trumpfansage gilt die zuerst genannte Ansage (Trumpffarbe, Obenabe (siehe Begriff \"expressions_obenabe\") oder Undenufe (siehe Begriff \"expressions_undenufe\")). Was zuerst gesagt ist, steht\n\nHinweis zur Praxis:\n• Wird ein Versprecher beim Ansagen im selben Atemzug korrigiert, lassen das faire Gegner gelten\n\nFehlende Ansage:\n• Wenn keine Trumpfansage gemacht wurde, zeigt beim Schieber (siehe Begriff \"variants_family_coiffeur_schieber\") die von Vorhand (siehe Begriff \"expressions_vorhand\") ausgespielte erste Karte die Trumpffarbe an\n• Werden Obenabe, Undenufe, Slalom (siehe Begriff \"expressions_slalom\") etc. angesagt, muss das ausdrücklich erwähnt werden\n• Wird ein Ass oder ein Sechser ohne Ansage ausgespielt, ist die betreffende Farbe Trumpf\n\nRechte von Vorhand:\n• Vorhand kann entscheiden, ob sie selber Trumpf ansagen will oder schieben will\n\nRegel für Partner:\n• Solange Vorhand nicht angesagt oder geschoben hat, darf ihr Partner die Karten nicht in die Hand nehmen, um Spielverrat (siehe Begriff \"spielverrat\") zu vermeiden",
+    "text": "Regel:\n• Bei Jassarten mit Trumpfansage gilt die zuerst genannte Ansage (Trumpffarbe, Obenabe (siehe Begriff \"expressions_obenabe\") oder Undenufe (siehe Begriff \"expressions_undenufe\")). Was zuerst gesagt ist, steht\n\nHinweis zur Praxis:\n• Wird ein Versprecher beim Ansagen im selben Atemzug korrigiert, lassen das faire Gegner gelten\n\nFehlende Ansage:\n• Wenn keine Trumpfansage gemacht wurde, zeigt beim Schieber (siehe Begriff \"general_schieber\") die von Vorhand (siehe Begriff \"expressions_vorhand\") ausgespielte erste Karte die Trumpffarbe an\n• Werden Obenabe, Undenufe, Slalom (siehe Begriff \"expressions_slalom\") etc. angesagt, muss das ausdrücklich erwähnt werden\n• Wird ein Ass oder ein Sechser ohne Ansage ausgespielt, ist die betreffende Farbe Trumpf\n\nRechte von Vorhand:\n• Vorhand kann entscheiden, ob sie selber Trumpf ansagen will oder schieben will\n\nRegel für Partner:\n• Solange Vorhand nicht angesagt oder geschoben hat, darf ihr Partner die Karten nicht in die Hand nehmen, um Spielverrat (siehe Begriff \"spielverrat\") zu vermeiden",
     "metadata": {
       "id": "trumpfansage_meta",
       "category": {
@@ -8102,7 +8102,7 @@
   },
   "variants_family_coiffeur_schieber": {
     "id": "variants_family_coiffeur_schieber",
-    "text": "Definition:\nDer Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.\n\nGrundprinzip:\n• Wie beim klassischen Schieber sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\")\n• Anders als bei anderen Jassarten wird hier keine feste Punktzahl als Ziel vereinbart\n• Stattdessen muss jedes Team jede von acht verschiedenen Varianten genau einmal spielen\n• Eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele\n\nDie acht Varianten:\n• Variante 1-4: die vier Trumpffarben (siehe Begriff \"bodentrumpf\"), Schellen einfach, Rosen zweifach, Eicheln dreifach, Schilten vierfach\n• Variante 5: Obenabe (siehe Begriff \"expressions_obenabe\"), das fünffach zählt\n• Variante 6: Undenufe (siehe Begriff \"expressions_undenufe\"), das sechsfach zählt\n• Variante 7-8: Zwei Joker-Varianten, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist\n\nDiese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989): Eicheln einfach, Rosen zweifach, Schilten dreifach, Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab (siehe Begriff \"regeln_tischregel\").\n\nSpiel geben:\n• Zum ersten Spiel verteilt ein beliebiger Schreiber jedem Spieler 9 Karten, dreimal drei\n• Die folgenden Spiele gibt jeder der Reihe nach in Spielrichtung, egal wer das Spiel übernimmt\n• Hat ein Team alle Varianten gespielt, gibt nur noch dieses Team, abwechselnd\n\nSchieben im Kreis:\n• Vorhand (siehe Begriff \"expressions_vorhand\"), der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt\n• Wer geschoben bekommt, wählt oder schiebt weiter: von Vorhand zum zweiten, dritten und vierten Spieler\n• Schiebt auch der vierte, liegt die Wahl wieder bei Vorhand. Vorhand ist jetzt «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat\n• Wer eine Variante wählt, übernimmt das Spiel und spielt aus (siehe Begriff \"ausspiel\")\n\nJoker-Regeln:\n• Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe\n• Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist\n• Sind beide Joker gespielt, schreibt das Team bei seiner tiefsten offenen Variante 0 Punkte\n• Bei den Joker-Varianten entfallen Stöck (siehe Begriff \"weis_rules_stock\") und Wys (siehe Begriff \"expressions_weis\"). Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab\n\nSchreiben:\n• Der Schreiber notiert die Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat\n• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16\n• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben\n• Beispiel Schilten vierfach: Team A schreibt 13, Team B 10. Die Differenz 3 mal 4 ergibt 12 Pluspunkte für Team A\n\nEnde der Partie:\n• Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten\n• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Gewonnen hat das Team mit dem höheren Gesamtergebnis\n\nQuelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich», Kapitel Coiffeur-Schieber.\n\nSpielstrategie:\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Wer anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") viele Punkte erwartet, kann dafür eine Joker-Variante wählen\n• Wer etwa in Rosen ein starkes Spiel erwartet, spielt es als Joker mit sieben- oder achtfacher Wertung. Rosen zweifach bleibt für ein Blatt mit weniger guten Rosen",
+    "text": "Definition:\nDer Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.\n\nGrundprinzip:\n• Wie beim klassischen Schieber sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\")\n• Anders als bei anderen Jassarten wird hier keine feste Punktzahl als Ziel vereinbart\n• Stattdessen muss jedes Team jede von acht verschiedenen Varianten genau einmal spielen\n• Eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele\n\nDie acht Varianten:\n• Variante 1-4: die vier Trumpffarben (siehe Begriff \"bodentrumpf\"), Eicheln einfach, Rosen zweifach, Schellen dreifach, Schilten vierfach\n• Variante 5: Obenabe (siehe Begriff \"expressions_obenabe\"), das fünffach zählt\n• Variante 6: Undenufe (siehe Begriff \"expressions_undenufe\"), das sechsfach zählt\n• Variante 7-8: Zwei Joker, die sieben- und achtfach zählen. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe\n\nDiese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html): Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom (siehe Begriff \"expressions_slalom\") oder Misère (siehe Begriff \"expressions_misere\"). Was davon gilt, macht die Runde vor dem ersten Spiel ab (siehe Begriff \"regeln_tischregel\").\n\nSpiel geben:\n• Wer schreibt, gibt zum ersten Spiel: jedem Spieler 9 Karten, dreimal drei\n• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, egal wer das Spiel übernommen hat\n• Hat ein Team alle Varianten gespielt und die Gegner haben noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt\n\nSchieben im Kreis:\n• Vorhand (siehe Begriff \"expressions_vorhand\"), der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt\n• Geschoben wird im Kreis an den nächsten Spieler in Spielrichtung, also an einen Gegner. Er wählt eine Variante für sein eigenes Team oder schiebt weiter, bis zum vierten Spieler\n• Schiebt auch der vierte, liegt die Wahl wieder bei Vorhand. Vorhand ist jetzt «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat\n• Wer eine Variante wählt, übernimmt das Spiel für sein Team und spielt zum ersten Stich aus (siehe Begriff \"ausspiel\")\n\nJoker-Regeln:\n• Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe\n• Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist\n• Sind beide Joker schon gespielt, schreibt das Team für diese Wahl 0 Punkte bei seiner tiefsten offenen Variante\n• Bei den Joker-Varianten entfallen Stöck (siehe Begriff \"weis_rules_stock\") und Weis (siehe Begriff \"expressions_weis\"). Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab\n\nSchreiben:\n• Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat\n• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 84 Punkte schreiben 9, 73 Punkte schreiben 7, ein ganzes Spiel mit 157 Punkten schreibt 16\n• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben\n• Beispiel Schilten vierfach: Team A schreibt 13, Team B 10. Die Differenz 3 mal 4 ergibt 12 Pluspunkte für Team A\n\nEnde der Partie:\n• Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten\n• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Zusammengezählt werden die Pluspunkte der mittleren Kolonne. Gewonnen hat das Team mit dem höheren Gesamtergebnis\n\nQuelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich», Kapitel Coiffeur-Schieber.\n\nSpielstrategie:\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Wer anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") viele Punkte erwartet, kann dafür eine Joker-Variante wählen\n• Wer etwa in Rosen ein starkes Spiel erwartet, spielt es als Joker mit sieben- oder achtfacher Wertung. Rosen zweifach bleibt für ein Blatt mit weniger guten Rosen",
     "metadata": {
       "id": "variants_family_coiffeur_schieber_meta",
       "category": {
@@ -8138,7 +8138,7 @@
       "taxonomy_tier": 1,
       "wikidata_id": "Q137731700",
       "datePublished": "2025-11-22",
-      "dateModified": "2026-11-20",
+      "dateModified": "2026-11-21",
       "seoTitle": "Coiffeur Jass: Regeln, Ablauf und Wertung mit Faktoren | Jass-Wiki",
       "seoDescription": "Der Coiffeur-Schieber (quoi faire) für vier: jedes Team spielt acht Varianten je einmal, gewertet ein- bis achtfach, 16 Spiele je Partie. Mit Joker und Wertungstafel."
     },
@@ -8149,7 +8149,7 @@
       },
       {
         "question": "Wie spielt man Coiffeur?",
-        "answer": "Der Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt."
+        "answer": "Vier Spieler bilden zwei Teams. Vorhand wählt eine der acht Varianten oder schiebt im Kreis weiter. Wer wählt, spielt aus. Sein Team schreibt die Punkte dieses Spiels. Die Partie endet, wenn beide Teams jede Variante einmal gespielt haben."
       },
       {
         "question": "Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?",
@@ -8157,7 +8157,7 @@
       },
       {
         "question": "Was sind die Joker-Varianten beim Coiffeur-Schieber?",
-        "answer": "Die Joker-Varianten sind Variante 7 und 8, die sieben- und achtfach bewertet werden, wobei die Trumpffarbe frei wählbar ist. Bei diesen Varianten können Stöck- und Weispunkte nicht gemeldet werden."
+        "answer": "Die Joker sind die Varianten 7 und 8, sie zählen sieben- und achtfach. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe. Stöck und Weis entfallen bei den Jokern."
       },
       {
         "question": "Wie viele Punkte zählt Obenabe beim Coiffeur-Schieber?",
@@ -8169,15 +8169,15 @@
       },
       {
         "question": "Welche Farbe zählt beim Coiffeur wie viel?",
-        "answer": "Nach Dani Müller zählen Schellen einfach, Rosen zweifach, Eicheln dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Eicheln einfach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab."
+        "answer": "Nach Dani Müller zählen Eicheln einfach, Rosen zweifach, Schellen dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Schilten dreifach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab."
       },
       {
         "question": "Wer spielt beim Coiffeur-Schieber aus?",
-        "answer": "Wer eine Variante wählt und damit das Spiel übernimmt, spielt aus. Die Reihenfolge des Gebens bleibt davon unberührt."
+        "answer": "Zum ersten Stich spielt aus, wer die Variante gewählt hat. Die Reihenfolge des Gebens bleibt davon unberührt."
       },
       {
         "question": "Was heisst «im Fass» beim Coiffeur-Schieber?",
-        "answer": "Geschoben wird im Kreis, von Vorhand bis zum vierten Spieler. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat."
+        "answer": "Geschoben wird im Kreis, von Vorhand an den nächsten Spieler bis zum vierten. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat."
       },
       {
         "question": "Wie schreibt man beim Coiffeur-Schieber?",
@@ -8194,7 +8194,10 @@
       "expressions_undenufe",
       "expressions_vorhand",
       "expressions_weis",
-      "regeln_tischregel"
+      "regeln_tischregel",
+      "expressions_slalom",
+      "expressions_misere",
+      "ausspiel"
     ]
   },
   "variants_family_einzel_coiffeur": {
