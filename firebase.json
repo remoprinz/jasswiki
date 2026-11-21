@@ -2764,6 +2764,166 @@
           "source": "/taktiken-und-strategien/kommunikation-signale/hoch-tief-tief-hoch",
           "destination": "/taktiken-und-strategien/kommunikation-signale/austrumpfen-hoch-oder-tief/",
           "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten/",
+          "destination": "/ansagen/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spezialvarianten",
+          "destination": "/ansagen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/jassen-im-europaeischen-vergleich/",
+          "destination": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/jassen-im-europaeischen-vergleich",
+          "destination": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/jassapps-generelles/jassapps-generelles/",
+          "destination": "/jassapps/jassapps-generelles/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/jassapps-generelles/jassapps-generelles",
+          "destination": "/jassapps/jassapps-generelles/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-und-strategien/fortgeschrittene-strategien",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-and-strategien/",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/taktiken-and-strategien",
+          "destination": "/taktiken-und-strategien/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilung/kartenverteilung-im-gegegegensinn/",
+          "destination": "/regeln/kartenverteilung/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilung/kartenverteilung-im-gegegegensinn",
+          "destination": "/regeln/kartenverteilung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen/der-schieber/",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen/der-schieber",
+          "destination": "/schieber/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft-woerter-kartenmacher/",
+          "destination": "/geschichte/wortherkunft/",
+          "type": 301
+        },
+        {
+          "source": "/geschichte/herkunft-woerter-kartenmacher",
+          "destination": "/geschichte/wortherkunft/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/farben-lei-halten/",
+          "destination": "/begriffe/spielaktionen/farben-leih-halten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/farben-lei-halten",
+          "destination": "/begriffe/spielaktionen/farben-leih-halten/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/dreiblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/dreiblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/vierblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/vierblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/fuenfblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/fuenfblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/sechsblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/sechsblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/siebenblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/siebenblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/achtblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/achtblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/neunblatt/",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
+        },
+        {
+          "source": "/weis-regeln/neunblatt",
+          "destination": "/weis-regeln/weispunkte/",
+          "type": 301
         }
       ]
     }
