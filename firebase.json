@@ -2954,6 +2954,26 @@
           "source": "/jassapps/jassapps-generelles",
           "destination": "/jassapps/",
           "type": 301
+        },
+        {
+          "source": "/jassapps/online-jass/jass24/",
+          "destination": "/jassapps/online-jass/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/online-jass/jass24",
+          "destination": "/jassapps/online-jass/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/tisch-jass/jasstafel-pro/",
+          "destination": "/jassapps/tisch-jass/jasstafel/",
+          "type": 301
+        },
+        {
+          "source": "/jassapps/tisch-jass/jasstafel-pro",
+          "destination": "/jassapps/tisch-jass/jasstafel/",
+          "type": 301
         }
       ]
     }
