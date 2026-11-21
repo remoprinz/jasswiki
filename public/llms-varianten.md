@@ -2057,9 +2057,9 @@ Joker-Regeln:
 • Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe
 • Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist
 • Sind beide Joker schon gespielt, schreibt das Team für diese Wahl 0 Punkte bei seiner tiefsten offenen Variante
-• Bei den Joker-Varianten entfallen Stöck und Weis. Ob bei den übrigen Varianten gewiesen wird, macht die Runde vor dem ersten Spiel ab
 
 Schreiben:
+• Im Coiffeur zählen allein die Kartenpunkte. Weis und Stöck entfallen
 • Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat
 • Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, 103 Punkte schreiben 10, ein ganzes Spiel mit 157 Punkten schreibt 16
 • Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben
@@ -2080,13 +2080,14 @@ Spielstrategie:
 - **Was ist Coiffeur?** Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele.
 - **Wie spielt man Coiffeur?** Vier Spieler bilden zwei Teams. Vorhand wählt eine der acht Varianten oder schiebt im Kreis weiter. Wer wählt, spielt aus. Sein Team schreibt die Punkte dieses Spiels. Die Partie endet, wenn beide Teams jede Variante einmal gespielt haben.
 - **Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?** Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss.
-- **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker sind die Varianten 7 und 8, sie zählen sieben- und achtfach. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe. Stöck und Weis entfallen bei den Jokern.
+- **Was sind die Joker-Varianten beim Coiffeur-Schieber?** Die Joker sind die Varianten 7 und 8, sie zählen sieben- und achtfach. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe.
 - **Wie viele Punkte zählt Obenabe beim Coiffeur-Schieber?** Obenabe zählt beim Coiffeur-Schieber fünffach.
 - **Kann ich beim Coiffeur-Schieber die Reihenfolge der Varianten frei wählen?** Ja. Jedes Team wählt selber, wann es welche Trumpfart spielt.
 - **Welche Farbe zählt beim Coiffeur wie viel?** Nach Dani Müller zählen Eicheln einfach, Rosen zweifach, Schellen dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Schilten dreifach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab.
 - **Wer spielt beim Coiffeur-Schieber aus?** Zum ersten Stich spielt aus, wer die Variante gewählt hat. Die Reihenfolge des Gebens bleibt davon unberührt.
 - **Was heisst «im Fass» beim Coiffeur-Schieber?** Geschoben wird im Kreis, von Vorhand an den nächsten Spieler bis zum vierten. Schiebt auch er, liegt die Wahl wieder bei Vorhand. Vorhand ist dann «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat.
 - **Wie schreibt man beim Coiffeur-Schieber?** Geschrieben wird ein Zehntel der Punkte, ab 4 aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, ein ganzes Spiel 16. Haben beide Teams eine Variante gespielt, erhält das bessere Team die Differenz mal den Faktor der Variante gutgeschrieben.
+- **Gibt es beim Coiffeur einen Weis?** Nein. Im Coiffeur zählen allein die Kartenpunkte, Weis und Stöck entfallen.
 
 *Keywords: coiffeur, schieber, familienspiel, teamspiel, varianten*
 
