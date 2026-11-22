@@ -12,7 +12,9 @@
  * Darum liest dieses Skript nach `next build` den Ordner `out/` und prüft die Seite
  * so, wie sie hinausgeht:
  *
- *   A  Sichtbarer Text   A1 Gedankenstrich · A2 Fremdwort und Wendung · A3 rohe Marke
+ *   A  Sichtbarer Text   A1 Gedankenstrich (auch « - » zwischen Wörtern) · A2 Fremdwort
+ *                        und Wendung · A3 rohe Marke. Gelesen werden Seitentext,
+ *                        Seitentitel, meta description, aria-label, alt und title.
  *   B  Verweise          B1 interner Link ins Leere · B2 «Siehe auch» gegen see_also
  *   C  Medien            C1 lokale Datei fehlt · C2 fremde Adresse antwortet nicht
  *   D  Nebenkanäle       gesperrte Behauptung in Korpus, llms-Dateien, JSON-LD, Text
@@ -55,6 +57,28 @@ export const GESPERRTE_BEHAUPTUNGEN = [
 // «1940–1945» bleibt erlaubt.
 const GEDANKENSTRICH_SEITE = /—|(?<=^|\s)–(?=\s|$)/gm;
 
+// Der Bindestrich mit Leerraum rundum zwischen zwei Wörtern steht für einen
+// Gedankenstrich (SCHIRI, 22.11.2026): «Jasswiki - Nell». Erlaubt bleiben der
+// Zahlenbereich «1 - 3» und das Aufzählungszeichen am Zeilenanfang «- Punkt».
+const BINDESTRICH_ALS_STRICH = /(?<=\S) - (?=\S)/g;
+
+/** Alle Gedankenstriche eines Textes, als Treffer mit index und wort. */
+export const gedankenstriche = (text) => {
+  const treffer = alleTreffer(text, GEDANKENSTRICH_SEITE).map((m) => ({ index: m.index, laenge: m[0].length, wort: `«${m[0]}»` }));
+  for (const m of alleTreffer(text, BINDESTRICH_ALS_STRICH)) {
+    const vor = text[m.index - 1];
+    const nach = text[m.index + m[0].length];
+    if (/\d/.test(vor) && /\d/.test(nach)) continue; // Zahlenbereich
+    treffer.push({ index: m.index, laenge: m[0].length, wort: '« - »' });
+  }
+  return treffer.sort((a, b) => a.index - b.index);
+};
+
+// --- A: Quellen des sichtbaren Textes ------------------------------------------
+// Ausser dem Seitentext liest der Leser (und der Vorleser, und die Suchmaschine)
+// den Seitentitel, die Beschreibung und die Attribute aria-label, alt und title.
+const TEXT_ATTRIBUTE = ['aria-label', 'alt', 'title'];
+
 // --- A3: rohe Marken ------------------------------------------------------------
 // Was der Renderer hätte auflösen sollen und als Text stehen liess.
 const ROHE_MARKEN = ['[[', '(siehe Begriff', '](/', '(ID:'];
@@ -96,11 +120,14 @@ export const entschluessle = (s) =>
     return ENTITAETEN[e] ?? ganz;
   });
 
-/** Entfernt script, style, noscript, template und Kommentare. */
+/**
+ * Entfernt script, style, noscript, template und Kommentare, dazu die TeX-Quelle
+ * einer Formel (<annotation> in KaTeX): Sie ist unsichtbar, und ihr « - » ist ein Minus.
+ */
 const ohneSkripte = (html) =>
   html
     .replace(/<!--[\s\S]*?-->/g, '')
-    .replace(/<(script|style|noscript|template)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
+    .replace(/<(script|style|noscript|template|annotation)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
 
 /** Der Text, den der Leser sieht: ohne script, style, noscript und JSON-LD. */
 export const sichtbarerText = (html) => {
@@ -112,6 +139,32 @@ export const sichtbarerText = (html) => {
     .map((z) => z.replace(/[ \t  \r]+/g, ' ').trim())
     .filter(Boolean)
     .join('\n');
+};
+
+/**
+ * Alle Texte einer Seite, die Prüfung A liest, je mit ihrer Quelle:
+ * «Text» (sichtbarer Text ohne Kopf), «Seitentitel», «meta description» und
+ * die Attribute aria-label, alt und title.
+ */
+export const textQuellen = (html) => {
+  const ohne = ohneSkripte(html);
+  const kopf = /<head\b[^>]*>([\s\S]*?)<\/head\s*>/i.exec(ohne)?.[1] ?? '';
+  const rumpf = kopf ? ohne.replace(/<head\b[^>]*>[\s\S]*?<\/head\s*>/i, '') : ohne;
+  const quellen = [{ quelle: 'Text', text: sichtbarerText(rumpf) }];
+  const titel = /<title\b[^>]*>([\s\S]*?)<\/title\s*>/i.exec(kopf)?.[1];
+  if (titel !== undefined) quellen.push({ quelle: 'Seitentitel', text: sichtbarerText(titel) });
+  for (const { attr } of tags(kopf, ['meta'])) {
+    if ((attr.name || '').toLowerCase() === 'description' && attr.content) {
+      quellen.push({ quelle: 'meta description', text: attr.content.replace(/\s+/g, ' ').trim() });
+    }
+  }
+  for (const { tag, attr } of tags(rumpf, ['[a-zA-Z][a-zA-Z0-9-]*'])) {
+    for (const name of TEXT_ATTRIBUTE) {
+      const wert = attr[name]?.replace(/\s+/g, ' ').trim();
+      if (wert) quellen.push({ quelle: `${name} an <${tag}>`, text: wert });
+    }
+  }
+  return quellen;
 };
 
 /** Alle Tags eines Namens mit ihren Attributen (ausserhalb von Skripten). */
@@ -320,31 +373,32 @@ export const pruefe = async ({
     const html = await lies(path.join(outDir, rel));
     const text = sichtbarerText(html);
 
-    // A1 Gedankenstrich
-    for (const m of alleTreffer(text, GEDANKENSTRICH_SEITE)) {
-      fund(pfad, PRUEFUNG.A1, `«${m[0]}»`, ausschnitt(text, m.index, m[0].length));
-    }
-    // A2 Fremdwörter (wie Sprachwächter B) und Wendungen (wie Sprachwächter F)
-    const klein = text.toLowerCase();
-    for (const wort of FREMDWOERTER) {
-      const w = wort.toLowerCase();
-      let i = klein.indexOf(w);
-      while (i >= 0) {
-        fund(pfad, PRUEFUNG.A2W, `«${wort.trim()}»`, ausschnitt(text, i, w.length));
-        i = klein.indexOf(w, i + w.length);
+    // A liest jede Quelle: Seitentext, Seitentitel, meta description, aria-label, alt, title.
+    // Die Fundstelle nennt die Quelle, das gezählte Wort bleibt dasselbe.
+    for (const { quelle, text: q } of textQuellen(html)) {
+      const stelle = (i, laenge) => `${quelle}: ${ausschnitt(q, i, laenge)}`;
+      // A1 Gedankenstrich
+      for (const t of gedankenstriche(q)) fund(pfad, PRUEFUNG.A1, t.wort, stelle(t.index, t.laenge));
+      // A2 Fremdwörter (wie Sprachwächter B) und Wendungen (wie Sprachwächter F)
+      const klein = q.toLowerCase();
+      for (const wort of FREMDWOERTER) {
+        const w = wort.toLowerCase();
+        let i = klein.indexOf(w);
+        while (i >= 0) {
+          fund(pfad, PRUEFUNG.A2W, `«${wort.trim()}»`, stelle(i, w.length));
+          i = klein.indexOf(w, i + w.length);
+        }
       }
-    }
-    for (const [regel] of WENDUNGEN) {
-      for (const m of alleTreffer(text, regel)) {
-        fund(pfad, PRUEFUNG.A2F, `«${m[0]}»`, ausschnitt(text, m.index, m[0].length));
+      for (const [regel] of WENDUNGEN) {
+        for (const m of alleTreffer(q, regel)) fund(pfad, PRUEFUNG.A2F, `«${m[0]}»`, stelle(m.index, m[0].length));
       }
-    }
-    // A3 rohe Marken
-    for (const marke of ROHE_MARKEN) {
-      let i = text.indexOf(marke);
-      while (i >= 0) {
-        fund(pfad, PRUEFUNG.A3, `«${marke}»`, ausschnitt(text, i, marke.length));
-        i = text.indexOf(marke, i + marke.length);
+      // A3 rohe Marken
+      for (const marke of ROHE_MARKEN) {
+        let i = q.indexOf(marke);
+        while (i >= 0) {
+          fund(pfad, PRUEFUNG.A3, `«${marke}»`, stelle(i, marke.length));
+          i = q.indexOf(marke, i + marke.length);
+        }
       }
     }
 
