@@ -48,13 +48,16 @@ export const FaqAntwort: React.FC<{ text: string }> = ({ text }) => (
 interface FaqSectionProps {
   faqs: FaqItem[];
   title?: string;
+  /** Die Artikelhülle (ArtikelHuelle) zeigt alle Fragen zugeklappt (SCHIRI 22.11.2026). */
+  ersteOffen?: boolean;
 }
 
-export const FaqSection: React.FC<FaqSectionProps> = ({ 
-  faqs, 
-  title = "Häufig gestellte Fragen" 
+export const FaqSection: React.FC<FaqSectionProps> = ({
+  faqs,
+  title = "Häufig gestellte Fragen",
+  ersteOffen = true,
 }) => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(ersteOffen ? 0 : null);
 
   if (!faqs || faqs.length === 0) {
     return null;

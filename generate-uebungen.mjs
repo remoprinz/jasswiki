@@ -23,6 +23,11 @@
  * je Artikel, jede Seite einmal je Lauf. Fehlt das Video oder schlägt der
  * Abruf fehl: video = null, der Bau läuft weiter.
  *
+ * Festes Lehrblatt (Karte SCHIRI «wiki-huelle» Teil C, KELLE 22.11.2026): Trägt
+ * ein Eintrag `fest: 'JJJJ-MM-TT'`, zeigt der Block genau dieses Blatt mit seinem
+ * Film (Adresse aus dem Datum, YouTube, falls die Tagesseite eines nennt) und den
+ * Verweis auf das Archiv. Die Liste der neuesten Blätter entfällt dort.
+ *
  * Ohne Netz (Fehler beim Abruf) bleibt die bestehende Datei stehen; der Build
  * läuft weiter. Aufruf: node generate-uebungen.mjs
  */
@@ -49,7 +54,7 @@ const ZUORDNUNG = {
   expressions_stechkarten: { thema: 'Stechen', rubrik: 'Stechen' },
   expressions_bock: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
   expressions_bockkarte: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
-  schieber_taktiken_verwerfen: { thema: 'Verwerfen', rubrik: 'Verwerfen' },
+  schieber_taktiken_verwerfen: { thema: 'Verwerfen', rubrik: 'Verwerfen', fest: '2026-10-30' },
   schieber_taktiken_anziehen: { thema: 'Anziehen', rubrik: 'Anziehen' },
   expressions_schmieren: { thema: 'Schmieren', rubrik: 'Schmieren' },
   expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen' },
@@ -175,6 +180,49 @@ async function videoDerTagesseite(blatt) {
   return ergebnis;
 }
 
+/**
+ * Video des festen Lehrblatts. Anders als beim neuesten Blatt gibt es hier kein
+ * Ausweichen auf ein älteres: Trägt die Tagesseite YouTube, gilt der Film auch,
+ * wenn die Datei im Speicher schon abgelaufen ist (mp4 dann null).
+ */
+async function festesVideo(blatt) {
+  let video = null;
+  try {
+    const antwort = await fetch(`${TAGESSEITE}${blatt.datum}/`, { signal: AbortSignal.timeout(10000) });
+    if (!antwort.ok) return null;
+    const html = await antwort.text();
+    for (const [, roh] of html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)) {
+      let daten;
+      try {
+        daten = JSON.parse(roh);
+      } catch {
+        continue;
+      }
+      const v = findeVideo(daten);
+      if (v) {
+        const einzeln = (x) => (Array.isArray(x) ? x[0] : x) ?? null;
+        video = {
+          datum: blatt.datum,
+          aufgabe: blatt.titel,
+          mp4: `${SPEICHER}${blatt.datum}_1.mp4?alt=media`,
+          poster: v.thumbnailUrl ? `${SPEICHER}${blatt.datum}_1.jpg?alt=media` : null,
+          dauer: v.duration ?? null,
+          youtube: einzeln(v.embedUrl),
+        };
+        break;
+      }
+    }
+  } catch {
+    return null;
+  }
+  if (!video) return null;
+  if (!(await filmLebt(video.mp4))) {
+    video.mp4 = null;
+    video.poster = null;
+  }
+  return video.mp4 || video.youtube ? video : null;
+}
+
 async function neuestesVideo(passend) {
   for (const blatt of passend.slice(0, VIDEO_VERSUCHE)) {
     const video = await videoDerTagesseite(blatt);
@@ -202,6 +250,23 @@ async function main() {
     const passend = sichtbar.filter((b) =>
       rubriken ? rubriken.includes(b.rubrik) : b.titel.includes(regel.titelWort),
     );
+    if (regel.fest) {
+      // Festes Lehrblatt: genau dieses Blatt, ob seine Rubrik passt oder nicht.
+      // Ist es (noch) nicht publiziert, entfällt der Block für diesen Artikel.
+      const blatt = sichtbar.find((b) => b.datum === regel.fest);
+      if (!blatt) {
+        console.warn(`⚠️  Festes Lehrblatt ${regel.fest} für ${id} nicht publiziert, Block entfällt.`);
+        continue;
+      }
+      artikel[id] = {
+        thema: regel.thema,
+        anzahl: 1,
+        fest: blatt.datum,
+        video: await festesVideo(blatt),
+        blaetter: [{ datum: blatt.datum, titel: blatt.titel, url: `${TAGESSEITE}${blatt.datum}/` }],
+      };
+      continue;
+    }
     if (passend.length === 0) continue;
     artikel[id] = {
       thema: regel.thema,

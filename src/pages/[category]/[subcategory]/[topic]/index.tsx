@@ -21,6 +21,7 @@ import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
 import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { FarbeKopf } from '@/components/wissen/FarbeKopf';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
+import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 
 // Symbol-Köpfe der vier Farb-Begriffe (Deutschschweizer + französisches Symbol).
 // Symbol-Köpfe: 8 separate Farb-Artikel. Jeder zeigt nur sein eigenes Symbol;
@@ -172,6 +173,33 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
         )}
         <AppSchema app={contentItem.metadata.app} seitenUrl={canonicalUrl} />
       </Head>
+      {huelleGilt(contentItem.id) ? (
+        <ArtikelHuelle
+          contentItem={contentItem}
+          breadcrumbItems={breadcrumbItems}
+          titel={contentItem.metadata.titel || topic}
+          fragenName={topic}
+          kategorie={categorySlug}
+          text={
+            <>
+              {FARB_KOEPFE[contentItem.id] && <FarbeKopf {...FARB_KOEPFE[contentItem.id]} />}
+              <div className="content-formatting text-black">
+                {hatArtikelBilder(contentItem.id) ? (
+                  <TextMitBildern schluessel={contentItem.id} text={cardTextBefore} farbwechsel={farbwechsel} />
+                ) : (
+                  <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+                )}
+              </div>
+              {isKartenfarben && <JassCardGrid />}
+              {isKartenfarben && cardTextAfter && (
+                <div className="content-formatting text-black">
+                  <InternalLinker text={cardTextAfter} farbwechsel={farbwechsel} />
+                </div>
+              )}
+            </>
+          }
+        />
+      ) : (
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           {/* Artikel-Header */}
@@ -251,6 +279,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
           />
         </div>
       </LexikonLayout>
+      )}
     </>
   );
 };
@@ -380,7 +409,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       break;
     default:
       // Fallback bleibt generisch, aber optimiert
-      pageTitle = `${topic} - ${category} | Jass-Wiki`;
+      pageTitle = `${topic}: ${category} | Jass-Wiki`;
       metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im umfassendsten Jass-Wiki der Schweiz.`;
       break;
   }

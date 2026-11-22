@@ -42,7 +42,7 @@ export const SeoHead: React.FC<SeoHeadProps> = ({
   const ogWidth = 1200;
   const ogHeight = 630;
   
-  const defaultTitle = 'Jasswiki.ch - Schweizer Jassregeln & Strategien';
+  const defaultTitle = 'Jasswiki.ch: Schweizer Jassregeln & Strategien';
   const defaultDescription = 'Die vollständige Jassregeln-Referenz: Offizielle Spielregeln, Weis, Varianten und Strategien für das Schweizer Nationalspiel.';
 
   return (

@@ -24,6 +24,7 @@ import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBil
 import { festerPfad } from '@/lib/url-utils';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
+import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 
 
 // Helper: Holt alle Artikel einer Unterkategorie
@@ -258,6 +259,43 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
       return { borderColor: color, color };
     };
 
+    // Sub-Leitartikel: die Artikel des Bereichs als Karten (Teil des Bausteins «text»).
+    const bereich = siblings.length > 0 && (
+      <section className="border-t border-[#f0eee7] pt-8 mt-6 sm:mt-8">
+        <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[16px] leading-[1.2]">
+          Artikel in diesem Bereich
+        </h2>
+        <div className="grid gap-4 sm:gap-5">
+          {siblings.map((article) => {
+            const articleSlug = toSlug(article.metadata.category.topic);
+            const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
+            const preview = ohneKartenMarken(article.text).split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
+            return (
+              <Link key={article.id} href={articleUrl} className="group block">
+                <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] mb-[6px]">
+                        {article.metadata.category.topic}
+                      </h3>
+                      <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
+                        {preview}...
+                      </p>
+                    </div>
+                    <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+    );
+
     return (
       <>
         <SeoHead
@@ -281,6 +319,33 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             <FaqJsonLdSchema faqs={contentItem.faqs} />
           )}
         </Head>
+        {huelleGilt(contentItem.id) ? (
+          <ArtikelHuelle
+            contentItem={contentItem}
+            breadcrumbItems={breadcrumbItems}
+            titel={subcategory}
+            fragenName={subcategory}
+            kategorie={categorySlug}
+            text={
+              <>
+                <div className="content-formatting text-black">
+                  {hatArtikelBilder(contentItem.id) ? (
+                    <TextMitBildern schluessel={contentItem.id} text={cardTextBefore} farbwechsel={farbwechsel} />
+                  ) : (
+                    <InternalLinker text={cardTextBefore} farbwechsel={farbwechsel} />
+                  )}
+                </div>
+                {isKartenfarben && <JassCardGrid />}
+                {isKartenfarben && cardTextAfter && (
+                  <div className="content-formatting text-black">
+                    <InternalLinker text={cardTextAfter} farbwechsel={farbwechsel} />
+                  </div>
+                )}
+              </>
+            }
+            nachText={bereich}
+          />
+        ) : (
         <LexikonLayout breadcrumbItems={breadcrumbItems}>
           <div className="space-y-6 sm:space-y-8">
             {/* Artikel-Header */}
@@ -387,6 +452,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             />
           </div>
         </LexikonLayout>
+        )}
       </>
     );
   }
@@ -396,7 +462,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   // Steht dort eine Einleitung, ersetzt sie SUB_INTROS.
   const rubrik = rubrikSeite(`${categorySlug}/${subcategorySlug}`);
   const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[subcategory];
-  const listPageTitle = rubrik.seoTitle ?? `${subcategory} - ${category} | Jass-Wiki`;
+  const listPageTitle = rubrik.seoTitle ?? `${subcategory}: ${category} | Jass-Wiki`;
   const listPageDescription = rubrik.seoDescription ?? (subIntro
     ? subIntro[0].slice(0, 155)
     : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
@@ -565,7 +631,7 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
     const canonicalPath = `/${categorySlug}/${subcategorySlug}/`;
     
     // Dynamische SEO-Titel
-    let pageTitle = `${topic} - ${category} | Jass-Wiki`;
+    let pageTitle = `${topic}: ${category} | Jass-Wiki`;
     let metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im Jass-Wiki der Schweiz.`;
     
     if (category === 'Geschichte') {

@@ -210,7 +210,7 @@ const ReferencesPage: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Referenzen - Jasswiki.ch"
+        title="Referenzen | Jass-Wiki"
         description="Übersicht aller Quellen, Experten und Referenzen, die für die Inhalte auf Jasswiki.ch verwendet wurden."
       />
 

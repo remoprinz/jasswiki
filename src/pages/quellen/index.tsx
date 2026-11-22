@@ -41,7 +41,7 @@ const SourcesPage: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Quellen - Jassguru.ch"
+        title="Quellen | Jass-Wiki"
         description="Übersicht aller Quellen und Referenzen, die für die Inhalte auf Jassguru.ch verwendet wurden."
       />
 

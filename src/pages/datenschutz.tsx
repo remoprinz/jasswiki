@@ -22,7 +22,7 @@ const DatenschutzPage = () => {
   return (
     <>
       <SeoHead
-        title="Datenschutz - JassWiki"
+        title="Datenschutz | Jass-Wiki"
         description="Datenschutzerklärung von JassWiki"
       />
       <LexikonLayout breadcrumbItems={breadcrumbItems}>

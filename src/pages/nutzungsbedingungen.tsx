@@ -20,7 +20,7 @@ const NutzungsbedingungenPage = () => {
   return (
     <>
       <SeoHead
-        title="Nutzungsbedingungen - JassWiki"
+        title="Nutzungsbedingungen | Jass-Wiki"
         description="Nutzungsbedingungen für JassWiki.ch und die JassWiki-Anwendung in KI-Assistenten (ChatGPT, Claude)."
       />
       <LexikonLayout breadcrumbItems={breadcrumbItems}>

@@ -23,7 +23,7 @@ const ImpressumPage = () => {
   return (
     <>
       <SeoHead
-        title="Impressum - JassWiki"
+        title="Impressum | Jass-Wiki"
         description="Impressum und Kontaktinformationen von JassWiki"
       />
       <LexikonLayout breadcrumbItems={breadcrumbItems}>

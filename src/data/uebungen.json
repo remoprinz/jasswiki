@@ -173,30 +173,21 @@
     },
     "schieber_taktiken_verwerfen": {
       "thema": "Verwerfen",
-      "anzahl": 15,
+      "anzahl": 1,
+      "fest": "2026-10-30",
       "video": {
-        "datum": "2026-11-21",
-        "aufgabe": "Erziele den Obenabe-Matsch.",
-        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.mp4?alt=media",
-        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.jpg?alt=media",
-        "dauer": "PT60S",
+        "datum": "2026-10-30",
+        "aufgabe": "Konsequent verwerfen und Matsch machen.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-30_1.mp4?alt=media",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-30_1.jpg?alt=media",
+        "dauer": "PT55S",
         "youtube": null
       },
       "blaetter": [
         {
-          "datum": "2026-11-22",
-          "titel": "Mache einen lockeren Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-22/"
-        },
-        {
-          "datum": "2026-11-21",
-          "titel": "Erziele den Obenabe-Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-21/"
-        },
-        {
-          "datum": "2026-11-19",
-          "titel": "Erziele ein spektakuläres Brake mit 120 Punkten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-19/"
+          "datum": "2026-10-30",
+          "titel": "Konsequent verwerfen und Matsch machen.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-30/"
         }
       ]
     },

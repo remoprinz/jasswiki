@@ -19,6 +19,7 @@ import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
+import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 
 
 interface VariantenPageProps {
@@ -147,6 +148,20 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
           <FaqJsonLdSchema faqs={contentItem.faqs} />
         )}
       </Head>
+      {huelleGilt(contentItem.id) ? (
+        <ArtikelHuelle
+          contentItem={contentItem}
+          breadcrumbItems={breadcrumbItems}
+          titel={topic}
+          fragenName={topic}
+          kategorie={categorySlug}
+          text={
+            <div className="content-formatting text-black">
+              <InternalLinker text={contentItem.text} farbwechsel={contentItem.metadata.farbwechsel === true} />
+            </div>
+          }
+        />
+      ) : (
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           <header className="text-left pb-6 border-b border-[#f0eee7]">
@@ -206,6 +221,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
           />
         </div>
       </LexikonLayout>
+      )}
     </>
   );
 };

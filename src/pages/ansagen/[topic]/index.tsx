@@ -17,6 +17,7 @@ import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
+import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 
 interface AnsagenPageProps {
   contentItem: JassContentItem;
@@ -138,6 +139,34 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
           <FaqJsonLdSchema faqs={contentItem.faqs} />
         )}
       </Head>
+      {huelleGilt(contentItem.id) ? (
+        <ArtikelHuelle
+          contentItem={contentItem}
+          breadcrumbItems={breadcrumbItems}
+          titel={topic}
+          fragenName={topic}
+          kategorie={categorySlug}
+          text={
+            <>
+              <div className="content-formatting text-black">
+                <InternalLinker text={tfSeg1} farbwechsel={farbwechsel} />
+              </div>
+              {isTrumpffarbe && <TrumpffarbenSymbole />}
+              {isTrumpffarbe && tfSeg2 && (
+                <div className="content-formatting text-black">
+                  <InternalLinker text={tfSeg2} farbwechsel={farbwechsel} />
+                </div>
+              )}
+              {isTrumpffarbe && <TrumpffarbenGrid />}
+              {isTrumpffarbe && tfSeg3 && (
+                <div className="content-formatting text-black">
+                  <InternalLinker text={tfSeg3} farbwechsel={farbwechsel} />
+                </div>
+              )}
+            </>
+          }
+        />
+      ) : (
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           <header className="text-left pb-6 border-b border-[#f0eee7]">
@@ -215,6 +244,7 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
           />
         </div>
       </LexikonLayout>
+      )}
     </>
   );
 };

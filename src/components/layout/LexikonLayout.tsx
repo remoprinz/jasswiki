@@ -14,7 +14,11 @@ interface BreadcrumbItem {
 
 interface LexikonLayoutProps {
   children: React.ReactNode;
-  breadcrumbItems: BreadcrumbItem[]; 
+  breadcrumbItems: BreadcrumbItem[];
+  /** Kopf der Artikelhülle (Titel, Tür als Zeile). Steht er da, bilden
+   *  Brotkrumen und Kopf zusammen den Baustein «kopf», der Fuss den Baustein
+   *  «fuss» (ArtikelHuelle, KELLE 22.11.2026). Ohne ihn bleibt alles, wie es war. */
+  kopf?: React.ReactNode;
 }
 
 /** Die zuletzt gezeigte Seite, über Seitenwechsel hinweg (das Layout baut sich
@@ -30,7 +34,7 @@ const leisteAufAktiv = (leiste: HTMLElement, aktiv: HTMLElement) => {
   leiste.scrollTop += a.top - l.top - leiste.clientHeight / 3;
 };
 
-export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcrumbItems }) => {
+export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcrumbItems, kopf }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
   const mainPanelRef = useRef<HTMLDivElement | null>(null);
@@ -189,13 +193,33 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
               tabIndex={-1}
               className="bg-white mx-4 mt-3 mb-3 rounded-[12px] min-h-[60vh] lg:mx-0 lg:mt-0 lg:mb-0 lg:rounded-tr-[12px] lg:rounded-br-[12px] lg:rounded-tl-none lg:rounded-bl-none lg:min-h-[800px]"
             >
-              <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[24px] lg:pt-[24px]">
-                <div className="flex items-center justify-between gap-3">
-                  <Breadcrumbs items={breadcrumbItems} />
-                  <ShareButton />
+              {kopf ? (
+                <div data-baustein="kopf">
+                  <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[24px] lg:pt-[24px]">
+                    <div className="flex items-center justify-between gap-3">
+                      <Breadcrumbs items={breadcrumbItems} />
+                      <ShareButton />
+                    </div>
+                  </div>
+                  <div className="px-[16px] pt-[14px] lg:px-[24px] lg:pt-[18px]">
+                    <div className="content-formatting max-w-none">{kopf}</div>
+                  </div>
                 </div>
-              </div>
-              <div className="px-[16px] pt-[14px] pb-[24px] lg:px-[24px] lg:pt-[18px] lg:pb-[48px]">
+              ) : (
+                <div className="px-[16px] pt-[14px] pb-[4px] lg:px-[24px] lg:pt-[24px]">
+                  <div className="flex items-center justify-between gap-3">
+                    <Breadcrumbs items={breadcrumbItems} />
+                    <ShareButton />
+                  </div>
+                </div>
+              )}
+              <div
+                className={
+                  kopf
+                    ? 'px-[16px] pt-[24px] sm:pt-[32px] pb-[24px] lg:px-[24px] lg:pb-[48px]'
+                    : 'px-[16px] pt-[14px] pb-[24px] lg:px-[24px] lg:pt-[18px] lg:pb-[48px]'
+                }
+              >
                 <div className="content-formatting max-w-none">{children}</div>
               </div>
             </div>
@@ -204,7 +228,7 @@ export const LexikonLayout: React.FC<LexikonLayoutProps> = ({ children, breadcru
       </div>
 
       {/* Footer — Penpot: gap zwischen Content-Ende (y=8266) und Footer-Start (y=8320) = 54px */}
-      <div className="jw-desktop-footer mt-[54px]">
+      <div className="jw-desktop-footer mt-[54px]" data-baustein={kopf ? 'fuss' : undefined}>
         <LegalFooter />
       </div>
     </div>
