@@ -119,7 +119,7 @@ const TAXONOMY_TERMS = [
   
   // Punktesystem - Sonder
   { name: 'Matsch', wikidataId: 'Q137738726', link: '/begriffe/punktebegriffe/matsch/', instanceOf: 'Q1751513', description: 'Alle 9 Stiche gewonnen – +100 Bonus' },
-  { name: 'Kontermatsch', wikidataId: 'Q137739566', link: '/begriffe/punktebegriffe/kontermatsch/', instanceOf: 'Q1751513', description: 'Gegner matschiert zurück' },
+  { name: 'Kontermatsch', wikidataId: 'Q137739566', link: '/regeln/punktezaehlung/kontermatsch/', instanceOf: 'Q1751513', description: 'Gegner matschiert zurück' },
   { name: 'Bergpreis', wikidataId: 'Q137739565', link: '/regeln/bergpreis/', instanceOf: 'Q1751513', description: 'Bonuspunkte für Hälfte des Ziels' },
   
   // Spielablauf

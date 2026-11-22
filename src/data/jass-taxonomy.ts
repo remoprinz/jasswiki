@@ -324,7 +324,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'B) Sonderpunkte',
         items: [
           { name: 'Matsch', description: 'Alle 9 Stiche gewonnen, 100 Punkte Matschprämie', wikidataId: 'Q137738726', link: '/begriffe/punktebegriffe/matsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
-          { name: 'Kontermatsch', description: 'Das Team, das den Trumpf nicht angesagt hat, macht alle Stiche. Gewertet wie ein Matsch mit 257 Punkten, zählt 2 Striche', wikidataId: 'Q137739566', link: '/begriffe/punktebegriffe/kontermatsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
+          { name: 'Kontermatsch', description: 'Das Team, das den Trumpf nicht angesagt hat, macht alle Stiche. Gewertet wie ein Matsch mit 257 Punkten, zählt 2 Striche', wikidataId: 'Q137739566', link: '/regeln/punktezaehlung/kontermatsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
         ],
       },
     ],

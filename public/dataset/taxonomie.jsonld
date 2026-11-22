@@ -575,14 +575,14 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://jasswiki.ch/begriffe/punktebegriffe/kontermatsch/",
+      "@id": "https://jasswiki.ch/regeln/punktezaehlung/kontermatsch/",
       "name": "Kontermatsch",
       "description": "Gegner matschiert zurück",
       "termCode": "Q137739566",
       "sameAs": "wd:Q137739566",
       "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
       "isPartOf": "wd:Q1751513",
-      "url": "https://jasswiki.ch/begriffe/punktebegriffe/kontermatsch/"
+      "url": "https://jasswiki.ch/regeln/punktezaehlung/kontermatsch/"
     },
     {
       "@type": "DefinedTerm",

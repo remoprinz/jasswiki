@@ -73,12 +73,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/regeln/fehler-verstoesse/spielverrat-bemerkungen/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/regeln/sonderregeln/bemerkungen-schnorren/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,12 +81,6 @@
   <url>
     <loc>https://jasswiki.ch/regeln/bergpreis/</loc>
     <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/regeln/fehler-verstoesse/spielverrat-bock-erwaehnen/</loc>
-    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -187,12 +175,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/begriffe/spielaktionen/farben-leih-halten/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/begriffe/spielaktionen/fort/</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -247,20 +229,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/begriffe/grundbegriffe/knecht/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/begriffe/grundbegriffe/koenigspartei/</loc>
     <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/begriffe/punktebegriffe/kontermatsch/</loc>
-    <lastmod>2026-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -451,12 +421,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf/</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-bauer/</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -524,7 +488,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/regeln/kartenwerte/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -572,7 +536,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/regeln/spielende/spielende-regeln/</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -621,12 +585,6 @@
   <url>
     <loc>https://jasswiki.ch/regeln/kartenwerte/grundregeln/</loc>
     <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/regeln/kartenwerte/trumpfwerte-grundlagen/</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -763,20 +721,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/regeln/sonderregeln/klopfen/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/regeln/punktezaehlung/kontermatsch/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/regeln/punktezaehlung/letzter-stich/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,12 +753,6 @@
   <url>
     <loc>https://jasswiki.ch/regeln/fehler-verstoesse/nichtfarben/</loc>
     <lastmod>2026-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jasswiki.ch/regeln/sonderregeln/plaetze-tauschen/</loc>
-    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -920,7 +860,7 @@
   </url>
   <url>
     <loc>https://jasswiki.ch/regeln/sonderregeln/spielverrat/</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1465,14 +1405,8 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jasswiki.ch/regeln/fehler-verstoesse/</loc>
-    <lastmod>2026-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://jasswiki.ch/regeln/sonderregeln/</loc>
-    <lastmod>2026-02-02</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1495,8 +1429,14 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://jasswiki.ch/regeln/fehler-verstoesse/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://jasswiki.ch/regeln/spielende/</loc>
-    <lastmod>2026-02-02</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>

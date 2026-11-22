@@ -872,12 +872,12 @@
         },
         {
           "source": "/grundlagen-kultur/trumpfwerte/",
-          "destination": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "destination": "/regeln/kartenwerte/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/trumpfwerte",
-          "destination": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "destination": "/regeln/kartenwerte/",
           "type": 301
         },
         {
@@ -1652,7 +1652,7 @@
         },
         {
           "source": "/regeln/spielverlauf/plaetze-tauschen/",
-          "destination": "/regeln/sonderregeln/plaetze-tauschen/",
+          "destination": "/regeln/spielende/spielende-regeln/",
           "type": 301
         },
         {
@@ -2147,7 +2147,7 @@
         },
         {
           "source": "/grundlagen-kultur/trumpfwerte/",
-          "destination": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "destination": "/regeln/kartenwerte/",
           "type": 301
         },
         {
@@ -2847,12 +2847,12 @@
         },
         {
           "source": "/begriffe/spielaktionen/farben-lei-halten/",
-          "destination": "/begriffe/spielaktionen/farben-leih-halten/",
+          "destination": "/regeln/fehler-verstoesse/nichtfarben/",
           "type": 301
         },
         {
           "source": "/begriffe/spielaktionen/farben-lei-halten",
-          "destination": "/begriffe/spielaktionen/farben-leih-halten/",
+          "destination": "/regeln/fehler-verstoesse/nichtfarben/",
           "type": 301
         },
         {
@@ -2981,8 +2981,53 @@
           "type": 301
         },
         {
-          "source": "/schieber/kultur-geschichte",
-          "destination": "/geschichte/",
+          "source": "/regeln/fehler-verstoesse/spielverrat-bemerkungen/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/fehler-verstoesse/spielverrat-bock-erwaehnen/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/sonderregeln/klopfen/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/punktezaehlung/letzter-stich/",
+          "destination": "/regeln/punktezaehlung/wichtige-punkteregeln/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/sonderregeln/plaetze-tauschen/",
+          "destination": "/regeln/spielende/spielende-regeln/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/spielaktionen/farben-leih-halten/",
+          "destination": "/regeln/fehler-verstoesse/nichtfarben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/trumpf/",
+          "destination": "/ansagen/trumpffarbe/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
+          "destination": "/regeln/kartenwerte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/knecht/",
+          "destination": "/begriffe/grundbegriffe/joker-knecht/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/kontermatsch/",
+          "destination": "/regeln/punktezaehlung/kontermatsch/",
           "type": 301
         }
       ]

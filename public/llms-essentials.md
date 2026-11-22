@@ -3,7 +3,7 @@ title: "JassWiki.ch - Essentials - Schnellstart"
 description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 8
+entries_count: 7
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -194,7 +194,7 @@ Grundwerte (ohne Trumpf):
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
-In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.
+In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die höchsten Trümpfe im ganzen Spiel. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
 In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.
@@ -256,28 +256,6 @@ Jede Jassart baut auf diesem Ablauf auf, ändert aber Kartenzahl, Stichzahl und 
 - **Wer spielt nach einem Stich aus?** Wer den Stich gewinnt, spielt die nächste Karte aus.
 
 *Keywords: ablauf, reihenfolge, vorhand, stich, spielregeln*
-
----
-
-### Trumpf {#expressions_trumpf}
-
-**Kategorie:** Begriffe > Kartenbezeichnungen
-
-Definition:
-• Trumpf sind jene Karten, die alle übrigen Farben stechen können
-
-Bestimmung:
-• Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor
-
-Bedeutung:
-• Ein Trumpf sticht jede andere Farbe
-
-**Häufige Fragen:**
-- **Was ist Trumpf beim Jassen?** Trumpf sind Karten einer bestimmten Farbe, die alle übrigen Farben stechen können.
-- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor.
-- **Welche ist die stärkste Trumpfkarte?** Der Trumpf-Bauer (Puur) ist die stärkste Trumpfkarte, gefolgt vom Nell (Trumpf-Neuner).
-
-*Keywords: trumpf, trumpfkarten, trumpfansage*
 
 ---
 

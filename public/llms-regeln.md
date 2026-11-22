@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielregeln"
 description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 66
+entries_count: 60
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -49,13 +49,10 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Kartenverteilen: Grundregeln](#general_dealing_basics)
 - [Kartenwerte](#general_card_values)
 - [Kartenwerte je Ansage](#matsch)
-- [Klopfen](#klopfen)
 - [Kontermatsch](#kontermatsch)
-- [Letzter Stich](#letzter_stich)
 - [Liegengelassene Stiche](#liegengelassene_stiche)
 - [Mischen](#mischen)
 - [Nachschauen gekehrter Stiche](#nachschauen_gekehrter_stiche)
-- [Plätze tauschen](#platztausch)
 - [Punkte nicht gezählt](#kartenpunkte_nicht_gezaehlt)
 - [Punkte zählen](#general_scoring_rules)
 - [Schreiben](#schreiben)
@@ -64,10 +61,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Spiel vergeben](#spiel_vergeben)
 - [Spielende: Regeln](#general_game_end)
 - [Spielverlauf: Grundlagen](#general_gameplay)
-- [Spielverrat (Bemerkungen)](#bemerkungen)
-- [Spielverrat (Bock erwähnen)](#bock_erwaehnen)
 - [Stöck](#weis_rules_stock)
-- [Trumpfwerte: Grundlagen](#general_trump_values)
 - [Untertrumpfen](#untertrumpfen)
 - [Vorspielen](#vorspielen)
 - [Wys](#expressions_weis)
@@ -256,6 +250,7 @@ Definition:
 
 Definition:
 • Alle Handlungen wie Klopfen oder Bemerkungen, die das Spiel verraten, sind verboten
+• Klopfen verrät etwas über die eigenen Karten und ist darum verboten
 
 Beispiele:
 • Bemerkungen über gelaufene Karten
@@ -273,6 +268,7 @@ Konsequenzen bei Spielverrat:
 - **Was sind Beispiele für Spielverrat?** Beispiele für Spielverrat sind Bemerkungen über gelaufene Karten, Andeutungen über Bock-Karten, Wiederholungen von angezogenen oder verworfenen Farben, Bemerkungen zu Taktiken, Fragen, die das Spiel verraten, und Zeichen ohne Worte wie Blicke oder Gesten.
 - **Was sind die Konsequenzen bei Spielverrat?** Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird.
 - **Sind auch Zeichen ohne Worte verboten?** Ja, auch Zeichen ohne Worte wie Blicke oder Gesten, die das Spiel verraten, sind verboten.
+- **Ist Klopfen beim Jassen erlaubt?** Klopfen verrät etwas über die eigenen Karten und gilt darum als Spielverrat. Es ist verboten.
 
 *Keywords: spielverrat, klopfen, bemerkungen, schnorren, gestik*
 
@@ -554,7 +550,7 @@ Ausnahme hindersi-Spiele:
 
 **Kategorie:** Regeln > Fehler & Verstösse
 
-Wer die ausgespielte Farbe hat, muss sie spielen. Am Tisch heisst das farben oder Farbe angeben. Mit einer Trumpfkarte darf man die ausgespielte Farbe immer abstechen, ausser beim Untertrumpfen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist. Wer die Farbe nicht hat, darf eine beliebige Karte spielen.
+Wer die ausgespielte Farbe hat, muss sie spielen. Am Tisch heisst das farben, Farbe angeben oder Farben halten, auch Leih halten. Mit einer Trumpfkarte darf man die ausgespielte Farbe immer abstechen, ausser beim Untertrumpfen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist. Wer die Farbe nicht hat, darf eine beliebige Karte spielen.
 
 Wer die Farbe hat und trotzdem eine andere Karte spielt, begeht ein Nichtfarben. Was das kostet, steht in den folgenden Abschnitten.
 
@@ -876,7 +872,7 @@ Grundwerte (ohne Trumpf):
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
-In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Die übrigen Trumpfkarten behalten ihre Grundwerte.
+In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die höchsten Trümpfe im ganzen Spiel. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
 In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.
@@ -943,25 +939,6 @@ Je Ansage im Einzelnen:
 
 ---
 
-### Klopfen {#klopfen}
-
-**Kategorie:** Regeln > Sonderregeln
-
-Definition:
-Klopfen ist ein Zeichen, mit dem ein Spieler etwas über seine Karten verrät.
-
-Verbot:
-• Klopfen ist daher untersagt
-
-**Häufige Fragen:**
-- **Was ist Klopfen beim Jassen?** Klopfen ist ein Zeichen, mit dem ein Spieler etwas über seine Karten verrät.
-- **Ist Klopfen erlaubt?** Nein, Klopfen ist untersagt, da es als Spielverrat gilt.
-- **Warum ist Klopfen verboten?** Klopfen verrät den anderen etwas über die eigenen Karten und gilt darum als Spielverrat.
-
-*Keywords: klopfen, signal, kartensituationen, spielverrat, verbot*
-
----
-
 ### Kontermatsch {#kontermatsch}
 
 **Kategorie:** Regeln > Punktezählung
@@ -970,7 +947,8 @@ Definition:
 Kontermatsch ist ein Matsch, bei dem das nicht trumpfmachende Team sämtliche Stiche erzielt.
 
 Wertung Punkte:
-• Wird gleich wie Matsch mit 257 gewertet (siehe Abschnitt «Matsch und Matschprämie »)
+• Wird gleich wie ein Matsch mit 257 gewertet
+• Die Matschprämie von 100 Punkten geht an das Team, das alle Stiche gemacht hat
 
 Wertung Striche:
 • Ein Kontermatsch ist selten, darum zählt er 2 Striche
@@ -983,26 +961,6 @@ Wertung Striche:
 - **Warum gibt Kontermatsch mehr Striche als Matsch?** Weil er selten ist: Das Team, das den Trumpf nicht bestimmt hat, macht alle Stiche.
 
 *Keywords: kontermatsch, matsch, stiche, trumpf, wertung*
-
----
-
-### Letzter Stich {#letzter_stich}
-
-**Kategorie:** Regeln > Punktezählung
-
-Regel:
-Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte.
-
-Ausnahmen:
-• Bei Cinq Cents
-• Bei Doppelkart-Spielen
-
-**Häufige Fragen:**
-- **Was zählt der letzte Stich?** Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Beim Cinq Cents und bei Doppelkart-Spielen zählt er nichts.
-- **Wie viele Punkte zählt der letzte Stich?** Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte.
-- **Gibt es Ausnahmen bei den 5 Punkten für den letzten Stich?** Ja, bei Cinq Cents und Doppelkart-Spielen zählt der letzte Stich keine zusätzlichen 5 Punkte.
-
-*Keywords: letzter stich, punkte, zählen, spielende*
 
 ---
 
@@ -1072,21 +1030,6 @@ Tischregel:
 - **Gibt es eine Tischregel zum Nachschauen von Stichen?** Eine verbreitete Tischregel ist, dass der erste Stich jederzeit eingesehen werden darf.
 
 *Keywords: stiche, nachschauen, einsehen, gekehrt, differenzler*
-
----
-
-### Plätze tauschen {#platztausch}
-
-**Kategorie:** Regeln > Sonderregeln
-
-Regel:
-Die Plätze bleiben, bis die Partie fertig ist. Getauscht wird zwischen zwei Partien.
-
-**Häufige Fragen:**
-- **Darf man während einer Partie die Plätze tauschen?** Nein, während einer laufenden Partie ist Platztausch nicht erlaubt.
-- **Wann darf man die Plätze tauschen?** Plätze können nur zwischen Partien getauscht werden, nicht während einer laufenden Partie.
-
-*Keywords: platztausch, sitzordnung, partie*
 
 ---
 
@@ -1292,10 +1235,14 @@ Nach Spielende:
 • Ist die Zielpunktzahl erreicht, ist die Partie vorbei
 • Ansonsten beginnt eine neue Runde
 
+Plätze tauschen:
+• Die Plätze bleiben, bis die Partie fertig ist. Getauscht wird zwischen zwei Partien.
+
 **Häufige Fragen:**
 - **Wann endet ein Jass?** Ein Jass endet, wenn ein Team die Zielpunktzahl erreicht und sich bedankt, wenn beide Teams zusammenwerfen oder wenn das Spiel annulliert wird.
 - **Was passiert nach dem Spielende?** Nach dem Spielende werden die Punkte gezählt und notiert. Bei Erreichen der Gesamtpunktzahl ist die Partie vorbei, ansonsten beginnt eine neue Runde.
 - **Können beide Teams ein Spiel beenden?** Ja, beide Teams können sich darauf einigen, zusammenzuwerfen und das Spiel neu zu beginnen.
+- **Wann darf man die Plätze tauschen?** Zwischen zwei Partien. Während einer Partie bleiben die Plätze, wie sie sind.
 
 *Keywords: ende, punkte, match, schneider, zählen*
 
@@ -1346,36 +1293,6 @@ Jede Jassart baut auf diesem Ablauf auf, ändert aber Kartenzahl, Stichzahl und 
 - **Wer spielt nach einem Stich aus?** Wer den Stich gewinnt, spielt die nächste Karte aus.
 
 *Keywords: ablauf, reihenfolge, vorhand, stich, spielregeln*
-
----
-
-### Spielverrat (Bemerkungen) {#bemerkungen}
-
-**Kategorie:** Regeln > Fehler & Verstösse
-
-Hinweis:
-Siehe Artikel Spielverrat für vollständige Informationen.
-
-**Häufige Fragen:**
-- **Was gilt beim Jassen als Spielverrat?** Siehe Artikel Spielverrat für vollständige Informationen.
-- **Was sind verbotene Bemerkungen beim Jassen?** Verboten ist jede Äusserung während des Spiels, aus der ein Mitspieler auf Karten schliessen kann. Was im Einzelnen gilt, steht im Artikel Spielverrat.
-
-*Keywords: bemerkungen, kommentare, schnorren, spielverrat*
-
----
-
-### Spielverrat (Bock erwähnen) {#bock_erwaehnen}
-
-**Kategorie:** Regeln > Fehler & Verstösse
-
-Hinweis:
-Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vollständige Informationen.
-
-**Häufige Fragen:**
-- **Wie funktioniert Spielverrat (Bock erwähnen) beim Jassen?** Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vollständige Informationen.
-- **Darf man erwähnen, dass man einen Bock hat?** Siehe den Hauptartikel «Bemerkungen und Schnorren» für vollständige Informationen zu verbotenen Bemerkungen wie dem Erwähnen eines Bocks.
-
-*Keywords: bock, erwähnen, spielverrat*
 
 ---
 
@@ -1468,28 +1385,6 @@ Diese Reihenfolge gilt allein im ersten Stich. Sobald zum zweiten Stich ausgespi
 - **Heisst es Stöck oder Stöcke?** Am Tisch heisst es «die Stöck», in der Einzahl wie in der Mehrzahl.
 
 *Keywords: stöck, stöcke, stöck jassen, stöck weisen, stöckweis*
-
----
-
-### Trumpfwerte: Grundlagen {#general_trump_values}
-
-**Kategorie:** Regeln > Kartenwerte
-
-Grundregel:
-Wird mit Trumpf gespielt, zählen zwei Karten der Trumpffarbe viel mehr als in den anderen Farben: der Under und die Neun.
-
-Trumpf-Sonderwerte:
-• Der Under (Puur) der Trumpffarbe heisst Trumpf-Puur und zählt 20 Punkte
-• Der Neuner der Trumpffarbe heisst Nell und zählt 14 Punkte
-• Diese beiden Karten sind die höchsten Trümpfe im gesamten Spiel
-
-**Häufige Fragen:**
-- **Welche Karten zählen im Trumpf mehr?** Im Trumpf-Spiel gelten Sonderwerte für bestimmte Karten, die deutlich mehr Punkte zählen als im normalen Spiel.
-- **Wie viele Punkte ist der Trumpf-Puur wert?** Der Trumpf-Puur (Under der Trumpffarbe) zählt 20 Punkte und ist die höchste Trumpfkarte.
-- **Was ist das Nell?** Das Nell ist der Neuner der Trumpffarbe und zählt 14 Punkte. Es ist die zweithöchste Trumpfkarte nach dem Puur.
-- **Welches sind die höchsten Trümpfe?** Die höchsten Trümpfe sind der Puur (Under) mit 20 Punkten und das Nell (Neuner) mit 14 Punkten.
-
-*Keywords: trumpf, puur, näll, spezialwerte, under*
 
 ---
 

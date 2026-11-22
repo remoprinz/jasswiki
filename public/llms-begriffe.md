@@ -3,7 +3,7 @@ title: "JassWiki.ch - Jass-Glossar"
 description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 70
+entries_count: 66
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -31,11 +31,9 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Bock](#expressions_bock)
 - [Bodentrumpf](#expressions_bodentrumpf)
 - [Brättli](#expressions_braettli)
-- [Farben/Leih halten](#expressions_farbenhalten)
 - [Grundlagen](#expressions_basic_terms)
 - [Handkarten](#expressions_handkarten)
 - [Klemmen](#expressions_klemmen)
-- [Knecht](#expressions_knecht)
 - [Leih halten](#expressions_leih_halten)
 - [Lukas](#expressions_lukas)
 - [Matsch](#expressions_matsch)
@@ -55,7 +53,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Streichpasse](#expressions_streichpasse)
 - [Strich](#expressions_striche)
 - [Team](#expressions_team)
-- [Trumpf](#expressions_trumpf)
 - [Trumpf Puur](#trumpf_bauer)
 - [Trumpf-Bauer](#expressions_trumpf_bauer)
 - [Vorhand](#expressions_vorhand)
@@ -65,7 +62,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Hindersi](#expressions_hindersi)
 - [Joker/Knecht](#expressions_joker)
 - [Königspartei](#expressions_koenigspartei)
-- [Kontermatsch](#expressions_kontermatsch)
 - [Minuspunkte](#expressions_minuspunkte)
 - [Offene Ansage](#expressions_offene_ansage)
 - [Rauben](#expressions_rauben)
@@ -324,25 +320,6 @@ Definition:
 
 ---
 
-### Farben/Leih halten {#expressions_farbenhalten}
-
-**Kategorie:** Begriffe > Spielaktionen
-
-Definition:
-Farben oder Leih halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine solche Karte besitzt.
-
-Wichtig:
-Das ist die Grundregel jedes Stichs.
-
-**Häufige Fragen:**
-- **Was bedeutet Farben halten?** Farben halten bedeutet, dass man eine Karte der ausgespielten Farbe spielen muss, sofern man eine solche Karte besitzt.
-- **Muss man immer Farben halten?** Ja, dies ist eine grundlegende Spielregel beim Jassen und muss von jedem Spieler strikt befolgt werden.
-- **Was passiert, wenn man nicht Farben hält?** Wenn man nicht Farben hält, obwohl man könnte, begeht man einen Regelverstoss, der zu Konsequenzen führen kann.
-
-*Keywords: farben halten, leih halten*
-
----
-
 ### Grundlagen {#expressions_basic_terms}
 
 **Kategorie:** Begriffe > Grundbegriffe
@@ -429,28 +406,6 @@ Grundkonzept:
 - **Was ist das Risiko beim Klemmen?** Wird der Bock zu lange geklemmt, kann es passieren, dass man ihn gar nicht mehr ausspielen kann und den Stich damit verschenkt.
 
 *Keywords: klemmen, bock, zurückhalten, taktik, spielstrategie*
-
----
-
-### Knecht {#expressions_knecht}
-
-**Kategorie:** Begriffe > Grundbegriffe
-
-Definition:
-• Der Knecht ist der fünfte Spieler bei der Jassart Schieber zu fünft
-
-Alternative Bezeichnung:
-• Dieser Begriff ist auch als Joker bekannt
-
-Rolle:
-• Bezeichnet einen Spieler, der eine besondere Rolle im Spiel einnimmt und in bestimmten Situationen eine wichtige strategische Position haben kann
-
-**Häufige Fragen:**
-- **Was ist der Knecht beim Jassen?** Der Knecht ist der fünfte Spieler bei der Jassart Schieber zu fünft.
-- **Welche andere Bezeichnung gibt es für den Knecht?** Der Knecht wird auch als Joker bezeichnet.
-- **Welche Rolle hat der Knecht?** Der Knecht nimmt eine besondere Rolle ein und hat in bestimmten Situationen eine wichtige strategische Position.
-
-*Keywords: knecht, joker, fünfter spieler*
 
 ---
 
@@ -856,28 +811,6 @@ Grundkonzept:
 
 ---
 
-### Trumpf {#expressions_trumpf}
-
-**Kategorie:** Begriffe > Kartenbezeichnungen
-
-Definition:
-• Trumpf sind jene Karten, die alle übrigen Farben stechen können
-
-Bestimmung:
-• Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor
-
-Bedeutung:
-• Ein Trumpf sticht jede andere Farbe
-
-**Häufige Fragen:**
-- **Was ist Trumpf beim Jassen?** Trumpf sind Karten einer bestimmten Farbe, die alle übrigen Farben stechen können.
-- **Wie wird die Trumpffarbe bestimmt?** Die Trumpffarbe bestimmt der Spieler mit der Ansage, oder die Jassart gibt sie vor.
-- **Welche ist die stärkste Trumpfkarte?** Der Trumpf-Bauer (Puur) ist die stärkste Trumpfkarte, gefolgt vom Nell (Trumpf-Neuner).
-
-*Keywords: trumpf, trumpfkarten, trumpfansage*
-
----
-
 ### Trumpf Puur {#trumpf_bauer}
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
@@ -1060,24 +993,6 @@ Die Königspartei spielt gegen die drei übrigen Spieler, die Bauernpartei.
 - **Spielen die beiden Spieler der Königspartei zusammen?** Ja. Die beiden Spieler der Königspartei spielen als Team gegen die drei Spieler der Bauernpartei.
 
 *Keywords: königspartei, bieter, steiger*
-
----
-
-### Kontermatsch {#expressions_kontermatsch}
-
-**Kategorie:** Begriffe > Punktebegriffe
-
-Definition:
-• Ein Kontermatsch ist, wenn die Gegenpartei alle Stiche macht, also das Team, das den Trumpf nicht angesagt hat
-• Auch hier gibt es die Matschprämie, allerdings für die gegnerische Seite
-• Das kommt fast nie vor, darum schreibt man dafür oft gleich zwei Striche
-
-**Häufige Fragen:**
-- **Was ist ein Kontermatsch?** Ein Kontermatsch ist, wenn das nicht trumpfmachende Team alle Stiche erzielt.
-- **Wie oft kommt ein Kontermatsch vor?** Ein Kontermatsch ist sehr selten, da das Team ohne Trumpf alle Stiche gewinnen muss.
-- **Gibt es eine Prämie für Kontermatsch?** Ja, es gibt die Matschprämie für das nicht trumpfmachende Team. Oft werden sogar zwei Striche notiert.
-
-*Keywords: kontermatsch, matschprämie*
 
 ---
 
