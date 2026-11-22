@@ -46,6 +46,8 @@ const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: s
 // «wiki-vorlagen», Teil C). JassGuru steht in seiner Unterrubrik zuerst, wie in
 // der Übersicht der Unterrubrik (SUB_ZUERST).
 function appGruppen(content: JassContentRecord): AppGruppe[] {
+  // Reihenfolge der Gruppen nach dem Namen der Unterrubrik (Online-Jass vor
+  // Tisch-Jass), die Überschrift nimmt die h1 aus rubriken.json.
   const gruppen = new Map<string, AppGruppe>();
   (Object.values(content) as JassContentItem[])
     .filter((item) => toSlug(item.metadata.category.main) === 'jassapps')
@@ -66,8 +68,9 @@ function appGruppen(content: JassContentRecord): AppGruppe[] {
       gruppen.set(subSlug, gruppe);
     });
   const zuerst = (id: string) => (id === 'jassapps_jassguru' ? 0 : 1);
-  return [...gruppen.values()]
-    .sort((a, b) => a.name.localeCompare(b.name, 'de'))
+  return [...gruppen.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, 'de'))
+    .map(([, g]) => g)
     .map((g) => ({
       ...g,
       apps: g.apps.sort(
