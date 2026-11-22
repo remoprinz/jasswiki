@@ -9,30 +9,87 @@
       "h1": "Jass-Apps",
       "seoTitle": "Jass-Apps: alle Apps für Jasstafel und Online-Jass | Jass-Wiki",
       "seoDescription": "Welche Jass-App passt? Die Übersicht des Jassverbands Schweiz: Apps für iPhone, Android und Browser, zum Online-Jassen, zum Üben gegen den Computer und zum Punkteschreiben am Tisch.",
-      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
-      "faqs": []
+      "einleitung": "Jass-Apps dienen drei Zwecken: online jassen, gegen den Computer üben und am Tisch die Punkte schreiben. Der Jassverband Schweiz beschreibt die Apps hier sachlich und nach Zweck geordnet. Stand: November 2026.\n\nDie offizielle App des Verbands ist JassGuru (siehe Begriff \"jassapps_jassguru\"). Sie dient allen drei Zwecken. Wer gleich spielen will, findet die Wege auf der Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) von jassguru.ch.\n\n## Welche Jass-App passt zu mir?\n\n- **Online jassen mit Freunden oder an offenen Tischen:** JassGuru, JassPro (siehe Begriff \"jassapps_jasspro\"), SwissJass+ (siehe Begriff \"jassapps_swissjass\") und «Jass.ch» (siehe Begriff \"jassapps_jassch\") von Swisslos. Im Browser jasst man auch auf wyys.ch und jassli.ch. Alle Angebote stehen unter [Online-Jass](/jassapps/online-jass/).\n- **Gegen den Computer üben:** JassGuru mit der Jass-KI (siehe Begriff \"jass_ki\") Albis 001, dazu Jass.ch, SwissJass+ und JassPro.\n- **Am Tisch die Punkte schreiben:** JassGuru als Kreidetafel und mehrere Apps mit dem Namen «Jasstafel» (siehe Begriff \"jassapps_jasstafel\").",
+      "faqs": [
+        {
+          "question": "Welche Jass-App passt zu mir?",
+          "answer": "Das hängt vom Zweck ab. Zum Online-Jassen und zum Üben gegen den Computer dienen JassGuru, die App des Jassverbands Schweiz, sowie JassPro, SwissJass+ und Jass.ch von Swisslos. Zum Punkteschreiben am Tisch gibt es JassGuru und mehrere Jasstafel-Apps."
+        },
+        {
+          "question": "Welche Jass-App ist die beste?",
+          "answer": "Der Jassverband Schweiz ordnet die Apps nach Zweck und beschreibt sie sachlich. Seine offizielle App ist JassGuru: Sie verbindet Online-Jass, die Jass-KI Albis 001 und die Kreidetafel für den Tisch."
+        },
+        {
+          "question": "Gibt es eine offizielle Jass-App des Jassverbands Schweiz?",
+          "answer": "Ja, JassGuru. In der Arena jasst man Schieber online, am Tisch ersetzt die App die Kreidetafel."
+        },
+        {
+          "question": "Für welche Geräte gibt es Jass-Apps?",
+          "answer": "Für iPhone und iPad, für Android und für den Browser. JassGuru läuft im Browser auf Handy, Tablet und Computer, die App gibt es im App Store und bei Google Play."
+        },
+        {
+          "question": "Gibt es Jass-Apps ohne Konto?",
+          "answer": "Ja. Auf JassGuru jasst man als Gast sofort. Auch wyys.ch und die App Jass von Sensetrails laufen nach eigenen Angaben ohne Konto."
+        }
+      ]
     },
     "jassapps/online-jass": {
       "h1": "Online-Jass",
       "seoTitle": "Online-Jass: alle Wege, im Netz zu jassen | Jass-Wiki",
       "seoDescription": "Wo man online jassen kann: die Angebote im Überblick, sachlich beschrieben vom Jassverband Schweiz. Mit Freunden, gegen den Computer und als Gast.",
-      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
-      "faqs": []
+      "einleitung": "Online jassen kann man im Browser und in Apps: mit Freunden, an offenen Tischen und gegen den Computer. Der Jassverband Schweiz nennt hier die Angebote und was sie nach eigenen Angaben bieten. Stand: November 2026.\n\nDie App des Verbands ist JassGuru (siehe Begriff \"jassapps_jassguru\"). Dort jasst man Schieber online, auch als Gast, mit der Jass-KI (siehe Begriff \"jass_ki\") Albis 001 als Partner und als Gegner. Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) auf jassguru.ch.\n\n## Angebote im Überblick\n\n| Angebot | Wo | Jassarten | Mit wem |\n|---|---|---|---|\n| JassGuru | Browser, iPhone, Android | Schieber | Jassfreunde am privaten Tisch, offene Tische, Jass-KI Albis 001 |\n| «Jass.ch» (siehe Begriff \"jassapps_jassch\") von Swisslos | iPhone, iPad, Browser | Differenzler, Schieber, Coiffeur | Computer in der App, Menschen auf der Website |\n| SwissJass+ (siehe Begriff \"jassapps_swissjass\") | iPhone, iPad, Android | Schieber, Coiffeur, Differenzler | Computer, WLAN und Bluetooth, online |\n| JassPro (siehe Begriff \"jassapps_jasspro\") | iPhone, iPad, Android, Browser | Einfach, Schaufel doppelt, Obenabe/Undenufe, Slalom | Freunde, andere Spieler, virtuelle Gegner |\n| wyys.ch | Browser | Schieber, Coiffeur, Differenzler, Molotow | Bots oder Freunde per Code, mit einem Namen statt eines Kontos |\n| jassli.ch | Browser | Schieber | Bots oder Freunde |\n| jassfreunde.ch | Website | Schieber, Differenzler, Guggitaler | online |\n| jasse.ch | Browser | Schieber, Molotow | Computerspieler, auch als Gast |\n| Jass von Sensetrails | iPhone, iPad, Android | Schieber, Pomme | Drei virtuelle Gegner, läuft ohne Internet und ohne Konto |\n| Jassen Online von DonkeyCat | iPhone, Android | Schieber | Freunde, Computer, online |\n\nDie Angaben stammen von den Anbietern und aus den App Stores.",
+      "faqs": [
+        {
+          "question": "Wo kann man online jassen?",
+          "answer": "Im Browser und in Apps. Zu den Angeboten gehören JassGuru, die App des Jassverbands Schweiz, sowie Jass.ch von Swisslos, SwissJass+, JassPro, wyys.ch und jassli.ch."
+        },
+        {
+          "question": "Kann man ohne Anmeldung online jassen?",
+          "answer": "Ja. Auf JassGuru jasst man als Gast sofort mit der Jass-KI. Auch wyys.ch verlangt nach eigenen Angaben nur einen Namen."
+        },
+        {
+          "question": "Kann man gegen den Computer jassen?",
+          "answer": "Ja. Auf JassGuru jasst man mit und gegen Albis 001, die Jass-KI des Jassverbands Schweiz. Auch Jass.ch, SwissJass+ und JassPro bieten Partien gegen Computer-Gegner."
+        },
+        {
+          "question": "Kann man online mit Freunden jassen?",
+          "answer": "Ja. Auf JassGuru eröffnet man einen privaten Tisch und lädt die Jassfreunde mit einem Link oder einem Code ein. Freie Plätze besetzt die KI."
+        },
+        {
+          "question": "Wo kann man Differenzler online spielen?",
+          "answer": "Differenzler bieten nach eigenen Angaben Jass.ch von Swisslos, SwissJass+, wyys.ch und jassfreunde.ch an. Auf JassGuru wird Schieber gejasst."
+        },
+        {
+          "question": "Wo kann man Coiffeur online spielen?",
+          "answer": "Coiffeur bieten nach eigenen Angaben Jass.ch von Swisslos, SwissJass+ und wyys.ch an."
+        }
+      ]
     },
     "jassapps/tisch-jass": {
       "h1": "Jasstafel-Apps",
       "seoTitle": "Jasstafel-Apps: Punkte schreiben am Tisch | Jass-Wiki",
       "seoDescription": "Apps, die am Jasstisch die Kreidetafel ersetzen: Punkte schreiben für Schieber, Coiffeur und weitere Jassarten. Übersicht des Jassverbands Schweiz.",
-      "einleitung": "ENTWURF, folgt nach der Prüfung an der Quelle.",
-      "faqs": []
+      "einleitung": "Apps für den Jasstisch ersetzen die Kreidetafel: Sie schreiben die Punkte und zeigen den Stand. Die Übersicht aller Apps steht im Artikel «Jasstafel-Apps» (siehe Begriff \"jassapps_jasstafel\")."
     }
   },
   "verweise": {
     "start_chips": [
-      { "wort": "Schieber", "pfad": "/schieber/" },
-      { "wort": "Jassen lernen", "pfad": "/jassen-lernen/" },
-      { "wort": "Jass-KI", "pfad": "/grundlagen-kultur/jass-ki/" },
-      { "wort": "Jass-Apps", "pfad": "/jassapps/" }
+      {
+        "wort": "Schieber",
+        "pfad": "/schieber/"
+      },
+      {
+        "wort": "Jassen lernen",
+        "pfad": "/jassen-lernen/"
+      },
+      {
+        "wort": "Jass-KI",
+        "pfad": "/grundlagen-kultur/jass-ki/"
+      },
+      {
+        "wort": "Jass-Apps",
+        "pfad": "/jassapps/"
+      }
     ],
     "jassen_seite": "Wer das Jassen von Grund auf lernen will, folgt dem Weg [Jassen lernen](/jassen-lernen/). Gegen die [Jass-KI](/grundlagen-kultur/jass-ki/) des Verbands übt man online. Alle Angebote zeigt die Übersicht der [Jass-Apps](/jassapps/)."
   }

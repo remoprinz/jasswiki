@@ -5707,56 +5707,9 @@
       "history_unesco"
     ]
   },
-  "jassapps_jass24": {
-    "id": "jassapps_jass24",
-    "text": "Plattform-Überblick:\nJass24 ist eine Online-Plattform zum Jassen im Internet.\n\nHauptmerkmale:\n• **Online-Spiel:** Ermöglicht das Spielen gegen andere Spieler oder gegen Computer-Gegner\n• **Verschiedene Varianten:** Unterstützt mehrere Jassvarianten\n• **Community:** Es gibt Turniere und Ranglisten\n\nZielgruppe:\nJass24 richtet sich an Jasser, die online gegen andere spielen wollen.\n\nZugänglichkeit:\nJass24 läuft im Browser.",
-    "metadata": {
-      "id": "jassapps_jass24_meta",
-      "category": {
-        "main": "Jassapps",
-        "sub": "Online-Jass",
-        "topic": "Jass24"
-      },
-      "keywords": [
-        "jass24",
-        "online-jass",
-        "schieber",
-        "differenzler",
-        "webcam",
-        "video-chat"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Was ist Jass24?",
-        "answer": "Jass24 ist eine Online-Plattform zum Jassen im Internet, die verschiedene Jassvarianten unterstützt."
-      },
-      {
-        "question": "Kann man bei Jass24 gegen echte Spieler spielen?",
-        "answer": "Ja, Jass24 ermöglicht das Spielen gegen andere Spieler oder gegen Computer-Gegner."
-      },
-      {
-        "question": "Muss man Jass24 installieren?",
-        "answer": "Nein, Jass24 läuft im Browser."
-      }
-    ],
-    "see_also": [
-      "jassapps_jasspro",
-      "jassapps_swissjass",
-      "variants_family_coiffeur_schieber"
-    ]
-  },
   "jassapps_jassch": {
     "id": "jassapps_jassch",
-    "text": "App-Überblick:\nJassch ist eine mobile Jass-App für iOS und Android.\n\nHauptfunktionen:\n• **Offline-Spiel:** Spielen gegen Computer-Gegner auch ohne Internetverbindung\n• **Online-Modus:** Multiplayer-Möglichkeiten gegen echte Spieler\n• **Varianten:** Unterstützt gängige Jassvarianten wie Schieber und Coiffeur (siehe Begriff \"variants_family_einzel_coiffeur\")\n\nBesonderheiten:\nDie App bietet eine moderne Benutzeroberfläche und ist sowohl für Anfänger als auch erfahrene Spieler geeignet.\n\nVerfügbarkeit:\nJassch ist in den jeweiligen App-Stores für iOS und Android verfügbar.",
+    "text": "Jass.ch ist das Jass-Angebot von Swisslos, der interkantonalen Landeslotterie. Dazu gehören eine App für iPhone und iPad und der Online-Jass auf der Website. Stand: November 2026.\n\n## Die App\n\nIn der App jasst man allein gegen drei Computer-Gegner, mit deutschen oder französischen Karten. Drei Jassarten stehen zur Wahl:\n\n- Differenzler mit verdeckter Ansage (siehe Begriff \"variants_strategic_differenzler_verdeckt\") über 4 oder 8 Runden\n- Schieber (siehe Begriff \"general_schieber\") auf 1000 oder 2500 Punkte, mit oder ohne Multiplikatoren\n- Coiffeur (siehe Begriff \"variants_family_coiffeur_schieber\"), mit oder ohne Slalom und Guschti\n\n## Online jassen auf der Website\n\nPartien gegen andere Menschen laufen auf der Website. Die Adresse jass.ch führt in den Jass-Bereich von swisslos.ch. Dort stehen die Jass-Lobbys und die Schweizer Schieber-Meisterschaft. Das Angebot gehört zum Spielangebot der Landeslotterie und trägt den Hinweis «18+».\n\n## Auf einen Blick\n\n| Merkmal | Angabe |\n|---|---|\n| Anbieterin | Swisslos Interkantonale Landeslotterie |\n| Plattformen | iPhone, iPad, Browser |\n| Jassarten | Differenzler, Schieber, Coiffeur |\n| Gegner | Computer in der App, Menschen auf der Website |\n| Adresse | jass.ch |\n\nAlle Angebote zum Online-Jassen stehen in der Übersicht [Online-Jass](/jassapps/online-jass/).",
     "metadata": {
       "id": "jassapps_jassch_meta",
       "category": {
@@ -5766,12 +5719,13 @@
       },
       "keywords": [
         "jass.ch",
+        "jass.ch app",
         "swisslos",
+        "swisslos jass",
         "online-jass",
         "differenzler",
         "schieber",
-        "coiffeur",
-        "offiziell"
+        "coiffeur"
       ],
       "situations": [
         "LEARNING"
@@ -5780,28 +5734,47 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-22",
+      "seoTitle": "Jass.ch von Swisslos: App und Online-Jass im Überblick | Jass-Wiki",
+      "seoDescription": "Jass.ch ist das Jass-Angebot von Swisslos: eine App für iPhone und iPad gegen drei Computer-Gegner und der Online-Jass auf der Website. Differenzler, Schieber, Coiffeur.",
+      "app": {
+        "name": "Jass.ch",
+        "anbieter": "Swisslos Interkantonale Landeslotterie",
+        "plattformen": [
+          "iPhone",
+          "iPad",
+          "Browser"
+        ],
+        "zweck": "Gegen den Computer in der App, online auf der Website",
+        "url": "https://www.jass.ch/",
+        "sameAs": [
+          "https://apps.apple.com/ch/app/jass-ch/id370144074"
+        ]
+      }
     },
     "faqs": [
       {
-        "question": "Was ist Jass.ch (Swisslos)?",
-        "answer": "Jassch ist eine mobile Jass-App für iOS und Android."
+        "question": "Was ist Jass.ch?",
+        "answer": "Jass.ch ist das Jass-Angebot von Swisslos: eine App für iPhone und iPad und der Online-Jass auf der Website."
       },
       {
-        "question": "Was ist Jassch?",
-        "answer": "Jassch ist eine mobile Jass-App für iOS und Android, die sowohl Offline- als auch Online-Spiel ermöglicht."
+        "question": "Welche Jassarten bietet Jass.ch?",
+        "answer": "Differenzler, Schieber und Coiffeur."
       },
       {
-        "question": "Kann man Jassch ohne Internet spielen?",
-        "answer": "Ja, Jassch bietet einen Offline-Modus zum Spielen gegen Computer-Gegner."
+        "question": "Kann man bei Jass.ch gegen den Computer jassen?",
+        "answer": "Ja. In der App jasst man allein gegen drei Computer-Gegner."
       },
       {
-        "question": "Welche Jassvarianten unterstützt Jassch?",
-        "answer": "Jassch unterstützt gängige Jassvarianten wie Schieber und Coiffeur."
+        "question": "Wo jasst man bei Jass.ch gegen andere Menschen?",
+        "answer": "Auf der Website. Die Adresse jass.ch führt in den Jass-Bereich von swisslos.ch."
       }
     ],
     "see_also": [
-      "variants_family_einzel_coiffeur"
+      "jassapps_jassguru",
+      "jassapps_swissjass",
+      "jassapps_jasspro",
+      "variants_strategic_differenzler"
     ]
   },
   "jassapps_jassguru": {
@@ -5845,7 +5818,22 @@
       "seoTitle": "JassGuru: Jasstafel, Online-Jass und Albis 001 | Jass-Wiki",
       "seoDescription": "JassGuru ist die Jass-App des Jassverbands Schweiz. Am echten Tisch ersetzt sie die Kreidetafel, online jasst man mit Freunden und gegen Albis 001.",
       "datePublished": "2025-11-22",
-      "dateModified": "2026-11-14"
+      "dateModified": "2026-11-14",
+      "app": {
+        "name": "JassGuru",
+        "anbieter": "Jassverband Schweiz",
+        "plattformen": [
+          "Browser",
+          "iPhone",
+          "Android"
+        ],
+        "zweck": "Online jassen, mit der Jass-KI Albis 001 üben, am Tisch die Punkte schreiben",
+        "url": "https://jassguru.ch/",
+        "sameAs": [
+          "https://apps.apple.com/ch/app/jassguru-jassverband-schweiz/id6781383976",
+          "https://play.google.com/store/apps/details?id=ch.jassguru.app"
+        ]
+      }
     },
     "faqs": [
       {
@@ -5899,7 +5887,7 @@
   },
   "jassapps_jasspro": {
     "id": "jassapps_jasspro",
-    "text": "App-Überblick:\nJassPro ist eine professionelle Jass-App für anspruchsvolle Spieler.\n\nHauptmerkmale:\n• **Erweiterte Funktionen:** Detaillierte Statistiken und Analysen zum eigenen Spielverhalten\n• **Online-Turniere:** Turniere gegen andere Spieler\n• **Variantenreich:** Unterstützt zahlreiche Jassvarianten, auch seltene Spezialvarianten\n• **Anpassbar:** Viele Einstellungen, die jeder für sich wählen kann\n\nZielgruppe:\nJassPro richtet sich an erfahrene Jass-Spieler, die eine fortgeschrittene App mit umfangreichen Features suchen.\n\nVerfügbarkeit:\nJassPro ist für mobile Plattformen verfügbar.",
+    "text": "JassPro ist eine App für Online-Jass. Sie läuft auf iPhone, iPad und Android und im Browser. Man jasst gegen Freunde, gegen andere Spieler und gegen virtuelle Gegner. Stand: November 2026.\n\n## Jassarten\n\nZur Wahl stehen die Varianten Einfach, Schaufel doppelt, Obenabe/Undenufe und Slalom, mit oder ohne Weis und Multiplikatoren. Eine Partie geht auf eine feste Punktzahl oder über eine Anzahl Durchgänge. Gespielt wird mit französischen oder Deutschschweizer Karten.\n\n## Funktionen\n\n- Private Tische zum Einladen von Freunden\n- Gruppen mit eigenen Tischen, Chat und Ranglisten\n- Ranglisten je Woche und je Monat\n- Spielanalyse und Statistiken\n- Sprachen: Deutsch, Englisch, Französisch\n\n## Auf einen Blick\n\n| Merkmal | Angabe |\n|---|---|\n| Anbieter | JassPro |\n| Plattformen | iPhone, iPad, Android, Browser |\n| Varianten | Einfach, Schaufel doppelt, Obenabe/Undenufe, Slalom |\n| Gegner | Freunde, andere Spieler, virtuelle Gegner |\n| Adresse | app.jasspro.ch |\n\nAlle Angebote zum Online-Jassen stehen in der Übersicht [Online-Jass](/jassapps/online-jass/).",
     "metadata": {
       "id": "jassapps_jasspro_meta",
       "category": {
@@ -5923,31 +5911,49 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-22",
+      "seoTitle": "JassPro: Online-Jass-App im Überblick | Jass-Wiki",
+      "seoDescription": "JassPro für iPhone, Android und Browser: online jassen gegen Freunde, andere Spieler und virtuelle Gegner, mit Gruppen, Ranglisten und Statistiken.",
+      "app": {
+        "name": "JassPro",
+        "anbieter": "JassPro",
+        "plattformen": [
+          "iPhone",
+          "iPad",
+          "Android",
+          "Browser"
+        ],
+        "zweck": "Online jassen gegen Freunde, andere Spieler und virtuelle Gegner",
+        "url": "https://app.jasspro.ch/",
+        "sameAs": [
+          "https://apps.apple.com/ch/app/jasspro/id1521165073",
+          "https://play.google.com/store/apps/details?id=ch.cartel.jasspro"
+        ]
+      }
     },
     "faqs": [
       {
         "question": "Was ist JassPro?",
-        "answer": "JassPro ist eine professionelle Jass-App für anspruchsvolle Spieler mit erweiterten Funktionen wie Statistiken und Online-Turnieren."
+        "answer": "JassPro ist eine App für Online-Jass auf iPhone, iPad und Android und im Browser."
       },
       {
-        "question": "Für wen ist JassPro geeignet?",
-        "answer": "JassPro richtet sich an erfahrene Jass-Spieler, die eine fortgeschrittene App mit umfangreichen Features suchen."
+        "question": "Gegen wen jasst man bei JassPro?",
+        "answer": "Gegen Freunde, gegen andere Spieler und gegen virtuelle Gegner."
       },
       {
-        "question": "Welche Besonderheiten bietet JassPro?",
-        "answer": "JassPro bietet detaillierte Statistiken, Online-Turniere, zahlreiche Jassvarianten (auch Spezialvarianten) und umfangreiche Anpassungsmöglichkeiten."
+        "question": "Welche Varianten bietet JassPro?",
+        "answer": "Einfach, Schaufel doppelt, Obenabe/Undenufe und Slalom, mit oder ohne Weis und Multiplikatoren."
       }
     ],
     "see_also": [
-      "jassapps_jass24",
-      "jassapps_swissjass",
-      "variants_family_coiffeur_schieber"
+      "jassapps_jassguru",
+      "jassapps_jassch",
+      "jassapps_swissjass"
     ]
   },
   "jassapps_jasstafel": {
     "id": "jassapps_jasstafel",
-    "text": "App-Überblick:\nJasstafel ist eine App zum Notieren (siehe Begriff \"schreiben\") der Punkte beim Jassen.\n\nHauptfunktionen:\n• **Digitale Punktetafel:** Ersetzt Papier und Stift durch eine übersichtliche digitale Anzeige\n• **Automatische Berechnung:** Summiert die Punkte automatisch und zeigt den aktuellen Spielstand\n• **Verschiedene Spielarten:** Für Schieber, Coiffeur und weitere Spielarten, mit ihren Zählweisen\n• **Übersichtlich:** Klare Darstellung des Spielverlaufs und der Zwischenstände\n\nPraktischer Nutzen:\nDie App vereinfacht das Punkteschreiben (siehe Begriff \"schreiben\") erheblich und reduziert Rechenfehler.\n\nVerfügbarkeit:\nJasstafel ist für mobile Geräte verfügbar.",
+    "text": "Eine Jasstafel-App ersetzt am Tisch die Kreidetafel: Sie schreibt (siehe Begriff \"schreiben\") die Punkte, rechnet zusammen und zeigt den Stand. In den App Stores tragen mehrere Apps verschiedener Anbieter den Namen «Jasstafel». Stand: November 2026.\n\n## Jasstafel-Apps im Überblick\n\n| App | Anbieter | Plattformen | Jassarten |\n|---|---|---|---|\n| JassGuru | Jassverband Schweiz | Browser, iPhone, Android | Schieber |\n| Schweizer Jasstafel, auf Android «Jasstafel» | Simon Steinmann | iPhone, Android | Schieber, Coiffeur, Molotow |\n| Jasstafel by NiceApps | NiceApps GmbH | iPhone, Android | Schieber |\n| Jasstafel | Sandro Meier | iPhone | Schieber, Coiffeur, Differenzler |\n| Jasstafel Pro | Yannick Mueller | iPhone | Schieber, Coiffeur, Molotow, Differenzler |\n| Jasstafel Pro by NiceApps | NiceApps GmbH | iPhone | Schieber |\n| Molotow | Lukas Egli | iPhone, Android | Molotow |\n\nDie Angaben stammen von den Anbietern und aus den App Stores.\n\n## Die Jasstafel des Verbands\n\nDie Jasstafel von JassGuru (siehe Begriff \"jassapps_jassguru\") ist die Tafel des Jassverbands Schweiz. Sie schreibt Punkte, Striche, Berg und Sieg. Jede Partie bleibt gespeichert, daraus entstehen Statistik und Rangliste für die Jassgruppe.\n\n## Was einzelne Apps dazu bieten\n\n- Die Schweizer Jasstafel von Simon Steinmann ist quelloffen und führt mehrere Profile je Tafel\n- Jasstafel Pro von Yannick Mueller führt auch Tafeln für Canasta und Tichu und exportiert Spielstatistiken\n- Molotow von Lukas Egli prüft, ob die Stiche zusammen 157 Punkte ergeben",
     "metadata": {
       "id": "jassapps_jasstafel_meta",
       "category": {
@@ -5957,13 +5963,14 @@
       },
       "keywords": [
         "jasstafel",
-        "punktezählen",
-        "tisch-jass",
-        "schieber",
-        "coiffeur",
-        "differenzler",
-        "molotow",
-        "open-source"
+        "jasstafel app",
+        "jasstafel apps",
+        "jasstafel online",
+        "jasstafel schreiben",
+        "jasstafel coiffeur",
+        "jasstafel pro",
+        "punkte schreiben",
+        "kreidetafel"
       ],
       "situations": [
         "LEARNING"
@@ -5972,81 +5979,49 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-22",
+      "titel": "Jasstafel-Apps",
+      "seoTitle": "Jasstafel-App: Punkte schreiben für Schieber und Coiffeur | Jass-Wiki",
+      "seoDescription": "Jasstafel-Apps ersetzen am Tisch die Kreidetafel. Die Übersicht für iPhone und Android: JassGuru, Schweizer Jasstafel, Jasstafel Pro und weitere, mit ihren Jassarten.",
+      "app": {
+        "name": "Jasstafel-Apps",
+        "anbieter": "mehrere Anbieter",
+        "plattformen": [
+          "iPhone",
+          "Android",
+          "Browser"
+        ],
+        "zweck": "Am Tisch die Punkte schreiben",
+        "liste": true
+      }
     },
     "faqs": [
       {
-        "question": "Was ist Jasstafel?",
-        "answer": "Jasstafel ist eine App, mit der man am Tisch die Punkte schreibt, statt auf Papier."
+        "question": "Was ist eine Jasstafel-App?",
+        "answer": "Eine App, die am Tisch die Kreidetafel ersetzt: Sie schreibt die Punkte, rechnet zusammen und zeigt den Stand."
       },
       {
-        "question": "Rechnet Jasstafel automatisch?",
-        "answer": "Ja, Jasstafel summiert die Punkte automatisch und zeigt den aktuellen Spielstand."
+        "question": "Welche Jasstafel-Apps gibt es?",
+        "answer": "JassGuru vom Jassverband Schweiz, die Schweizer Jasstafel, Jasstafel by NiceApps, Jasstafel, Jasstafel Pro und Molotow."
       },
       {
-        "question": "Für welche Varianten ist Jasstafel geeignet?",
-        "answer": "Jasstafel kennt die verschiedenen Spielarten mit ihren Zählweisen."
+        "question": "Gibt es eine Jasstafel-App für Coiffeur?",
+        "answer": "Ja. Die Schweizer Jasstafel, die Jasstafel von Sandro Meier und Jasstafel Pro von Yannick Mueller schreiben nach eigenen Angaben auch Coiffeur."
+      },
+      {
+        "question": "Gibt es eine Jasstafel-App für Android?",
+        "answer": "Ja: JassGuru, die Jasstafel von Simon Steinmann, Jasstafel by NiceApps und Molotow."
       }
     ],
     "see_also": [
-      "general_scoring_rules",
-      "schreiben"
-    ]
-  },
-  "jassapps_jasstafel_pro": {
-    "id": "jassapps_jasstafel_pro",
-    "text": "App-Überblick:\nJasstafel Pro ist die erweiterte Version der Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\")-App mit zusätzlichen professionellen Funktionen.\n\nErweiterte Funktionen:\n• **Erweiterte Statistiken:** Detaillierte Auswertungen über mehrere Spiele hinweg\n• **Frühere Partien:** gespeichert und auswertbar (siehe Begriff \"expressions_partie\")\n• **Export-Funktionen:** Möglichkeit, Spielstände und Statistiken zu exportieren\n• **Turniermodus:** Spezielle Funktionen für die Verwaltung von Turnieren\n• **Anpassungen:** Die Punkteanzeige lässt sich einrichten, wie man mag\n\nZielgruppe:\nJasstafel Pro richtet sich an ambitionierte Spieler und Turnierorganisatoren, die professionelle Funktionen benötigen.\n\nVerfügbarkeit:\nJasstafel Pro ist als Premium-Version für mobile Geräte verfügbar.",
-    "metadata": {
-      "id": "jassapps_jasstafel_pro_meta",
-      "category": {
-        "main": "Jassapps",
-        "sub": "Tisch-Jass",
-        "topic": "Jasstafel Pro"
-      },
-      "keywords": [
-        "jasstafel-pro",
-        "ios",
-        "punktezählen",
-        "tisch-jass",
-        "schieber",
-        "niceapps"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.7,
-      "difficulty": 1,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Was ist Jasstafel Pro?",
-        "answer": "Jasstafel Pro ist die erweiterte Version der Jasstafel (siehe Begriff \"jassapps_jasstafel_pro\")-App mit zusätzlichen professionellen Funktionen."
-      },
-      {
-        "question": "Was ist der Unterschied zwischen Jasstafel und Jasstafel Pro?",
-        "answer": "Jasstafel Pro bietet erweiterte Funktionen wie detaillierte Statistiken, Match-Historie, Export-Funktionen und einen Turniermodus."
-      },
-      {
-        "question": "Für wen ist Jasstafel Pro geeignet?",
-        "answer": "Jasstafel Pro richtet sich an ambitionierte Spieler und Turnierorganisatoren, die professionelle Funktionen benötigen."
-      },
-      {
-        "question": "Kann man mit Jasstafel Pro Turniere verwalten?",
-        "answer": "Ja, Jasstafel Pro hat einen speziellen Turniermodus für die Verwaltung von Turnieren."
-      }
-    ],
-    "see_also": [
-      "expressions_partie",
-      "general_scoring_rules",
-      "jassapps_jasstafel"
+      "jassapps_jassguru",
+      "schreiben",
+      "general_scoring_rules"
     ]
   },
   "jassapps_swissjass": {
     "id": "jassapps_swissjass",
-    "text": "App-Überblick:\nSwissjass ist eine beliebte Jass-App mit Schweizer Karten und traditionellem Design.\n\nHauptmerkmale:\n• **Authentisches Design:** Verwendet traditionelle Schweizer Karten und Designs\n• **Vielfältige Varianten:** Unterstützt zahlreiche Jassvarianten, einschliesslich regionaler Spezialitäten\n• **Online & Offline:** Spielen gegen Computer oder gegen andere Spieler online\n• **Benutzerfreundlich:** Intuitive Bedienung für Spieler aller Erfahrungsstufen\n\nBesonderheit:\nSwissjass legt besonderen Wert auf die Bewahrung der Schweizer Jass-Tradition im digitalen Format.\n\nVerfügbarkeit:\nSwissjass ist für mobile Plattformen verfügbar.",
+    "text": "SwissJass+ ist eine Jass-App von Sweetware für iPhone, iPad und Android. Man jasst gegen den Computer, über WLAN oder Bluetooth und online mit anderen. Stand: November 2026.\n\n## Jassarten\n\n- Schieber (siehe Begriff \"general_schieber\"): einfach, doppelt, Obenabe und Undenufe, Slalom. Trumpf-Faktoren, Weis und Zielpunkte lassen sich einstellen\n- Coiffeur (siehe Begriff \"variants_family_coiffeur_schieber\")\n- Differenzler (siehe Begriff \"variants_strategic_differenzler\"), die Zahl der Spiele ist wählbar\n\nGespielt wird mit französischen oder Deutschschweizer Karten.\n\n## Funktionen\n\n- Online jassen mit anderen, auch in einem Raum mit Passwort\n- Partien über WLAN oder Bluetooth\n- Lernmodus\n- Sprachen: Deutsch, Englisch, Französisch\n\n## Auf einen Blick\n\n| Merkmal | Angabe |\n|---|---|\n| Anbieter | Sweetware |\n| Plattformen | iPhone, iPad, Android |\n| Jassarten | Schieber, Coiffeur, Differenzler |\n| Gegner | Computer, Mitspieler über WLAN und Bluetooth, Mitspieler online |\n| Zu finden | App Store, Google Play |\n\nAlle Angebote zum Online-Jassen stehen in der Übersicht [Online-Jass](/jassapps/online-jass/).",
     "metadata": {
       "id": "jassapps_swissjass_meta",
       "category": {
@@ -6070,30 +6045,43 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-22",
+      "seoTitle": "SwissJass+: Jass-App für iPhone und Android im Überblick | Jass-Wiki",
+      "seoDescription": "SwissJass+ von Sweetware: Schieber, Coiffeur und Differenzler gegen den Computer, über WLAN oder Bluetooth und online. Plattformen und Funktionen im Überblick.",
+      "app": {
+        "name": "SwissJass+",
+        "anbieter": "Sweetware",
+        "plattformen": [
+          "iPhone",
+          "iPad",
+          "Android"
+        ],
+        "zweck": "Gegen den Computer, über WLAN oder Bluetooth und online",
+        "url": "http://www.sweetware.ch/",
+        "sameAs": [
+          "https://apps.apple.com/ch/app/swissjass/id982835004",
+          "https://play.google.com/store/apps/details?id=ch.sweetware.swissjass_plus"
+        ]
+      }
     },
     "faqs": [
       {
         "question": "Was ist SwissJass+?",
-        "answer": "Swissjass ist eine beliebte Jass-App mit Schweizer Karten und traditionellem Design."
+        "answer": "SwissJass+ ist eine Jass-App von Sweetware für iPhone, iPad und Android."
       },
       {
-        "question": "Was ist Swissjass?",
-        "answer": "Swissjass ist eine beliebte Jass-App mit Schweizer Karten, traditionellem Design und vielen Jassvarianten."
+        "question": "Welche Jassarten bietet SwissJass+?",
+        "answer": "Schieber, Coiffeur und Differenzler."
       },
       {
-        "question": "Welche Besonderheit hat Swissjass?",
-        "answer": "Swissjass legt besonderen Wert auf die Bewahrung der Schweizer Jass-Tradition im digitalen Format mit authentischen Schweizer Karten."
-      },
-      {
-        "question": "Kann man mit Swissjass online spielen?",
-        "answer": "Ja, Swissjass bietet sowohl Online-Spiel gegen andere Spieler als auch Offline-Spiel gegen Computer."
+        "question": "Kann man mit SwissJass+ online jassen?",
+        "answer": "Ja. Man jasst online mit anderen, über WLAN oder Bluetooth und gegen den Computer."
       }
     ],
     "see_also": [
-      "jassapps_jass24",
-      "jassapps_jasspro",
-      "variants_family_coiffeur_schieber"
+      "jassapps_jassguru",
+      "jassapps_jassch",
+      "jassapps_jasspro"
     ]
   },
   "karte_faellt_runter": {
@@ -12873,7 +12861,7 @@
   },
   "variants_strategic_differenzler": {
     "id": "variants_strategic_differenzler",
-    "text": "Der Differenzler ist ein Jass, bei dem jede Person für sich spielt. Vor dem Spiel schätzt sie nach ihrem Blatt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis. Wer am Ende das kleinste Differenz-Total hat, gewinnt.\n\nAuf einen Blick:\n• Spieler: 4, jede Person für sich, auch zu dritt möglich\n• Karten: 36 Jasskarten, 9 je Person\n• Punkte je Spiel: 157, davon 5 für den letzten Stich\n• Ansage: die geschätzten eigenen Kartenpunkte\n• Wertung: die Differenz zwischen Ansage und Ergebnis\n• Ziel: das kleinste Differenz-Total\n\n## So läuft ein Spiel\n\n• Jede Person schätzt nach ihrem Blatt (siehe Begriff \"expressions_handkarten\"), wie viele Kartenpunkte sie am Ende macht\n• Die Ansage ist offen oder verdeckt, je nach Fassung\n• Gespielt wird mit einer Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Nach dem Spiel zählt jede Person ihre Kartenpunkte\n• Geschrieben wird die Differenz zwischen Ansage und Ergebnis\n\n## Die Fassungen\n\n| Fassung | Was sie ausmacht |\n|---|---|\n| «Differenzler mit offener Ansage» (siehe Begriff \"variants_strategic_differenzler_offen\") | Alle hören, was die anderen ansagen. Dieser Artikel trägt die Grundregeln: Trumpf, Ansage, Wertung, Spielende |\n| «Differenzler mit verdeckter Ansage» (siehe Begriff \"variants_strategic_differenzler_verdeckt\") | Jede Person schreibt ihre Zahl auf einen Zettel, der bis zum Spielende verdeckt liegt |\n| «Differenzler zu dritt» (siehe Begriff \"variants_strategic_differenzler_drei\") | Jede Person erhält zwölf Karten, der Kartengeber erhält als letzter Ansager Punkte gut |\n| «Stich-Differenzler» (siehe Begriff \"variants_specialty_stich_differenzler\") | Angesagt und gezählt werden die Stiche statt der Kartenpunkte |",
+    "text": "Der Differenzler ist ein Jass, bei dem jede Person für sich spielt. Vor dem Spiel schätzt sie nach ihrem Blatt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis. Wer am Ende das kleinste Differenz-Total hat, gewinnt.\n\nAuf einen Blick:\n• Spieler: 4, jede Person für sich, auch zu dritt möglich\n• Karten: 36 Jasskarten, 9 je Person\n• Punkte je Spiel: 157, davon 5 für den letzten Stich\n• Ansage: die geschätzten eigenen Kartenpunkte\n• Wertung: die Differenz zwischen Ansage und Ergebnis\n• Ziel: das kleinste Differenz-Total\n\n## So läuft ein Spiel\n\n• Jede Person schätzt nach ihrem Blatt (siehe Begriff \"expressions_handkarten\"), wie viele Kartenpunkte sie am Ende macht\n• Die Ansage ist offen oder verdeckt, je nach Fassung\n• Gespielt wird mit einer Trumpffarbe (siehe Begriff \"bodentrumpf\")\n• Nach dem Spiel zählt jede Person ihre Kartenpunkte\n• Geschrieben wird die Differenz zwischen Ansage und Ergebnis\n\n## Die Fassungen\n\n| Fassung | Was sie ausmacht |\n|---|---|\n| «Differenzler mit offener Ansage» (siehe Begriff \"variants_strategic_differenzler_offen\") | Alle hören, was die anderen ansagen. Dieser Artikel trägt die Grundregeln: Trumpf, Ansage, Wertung, Spielende |\n| «Differenzler mit verdeckter Ansage» (siehe Begriff \"variants_strategic_differenzler_verdeckt\") | Jede Person schreibt ihre Zahl auf einen Zettel, der bis zum Spielende verdeckt liegt |\n| «Differenzler zu dritt» (siehe Begriff \"variants_strategic_differenzler_drei\") | Jede Person erhält zwölf Karten, der Kartengeber erhält als letzter Ansager Punkte gut |\n| «Stich-Differenzler» (siehe Begriff \"variants_specialty_stich_differenzler\") | Angesagt und gezählt werden die Stiche statt der Kartenpunkte |\n\n## Differenzler online\n\nDifferenzler online bieten nach eigenen Angaben «Jass.ch» (siehe Begriff \"jassapps_jassch\") von Swisslos, SwissJass+ (siehe Begriff \"jassapps_swissjass\"), wyys.ch und jassfreunde.ch an. Die Übersicht steht unter [Online-Jass](/jassapps/online-jass/). Der Differenzler ist auch die Jassart der Fernsehsendung «Samschtig-Jass» (siehe Begriff \"samschtig_jass\").",
     "metadata": {
       "id": "variants_strategic_differenzler_meta",
       "category": {
@@ -12925,7 +12913,8 @@
       "variants_strategic_differenzler_offen",
       "variants_strategic_differenzler_verdeckt",
       "variants_strategic_differenzler_drei",
-      "variants_specialty_stich_differenzler"
+      "variants_specialty_stich_differenzler",
+      "samschtig_jass"
     ]
   },
   "jassen_lernen": {
@@ -12988,6 +12977,69 @@
       "general_most_important_rules",
       "general_card_values",
       "jass_ki"
+    ]
+  },
+  "samschtig_jass": {
+    "id": "samschtig_jass",
+    "text": "Der Samschtig-Jass ist die Jass-Sendung des Schweizer Fernsehens SRF. Am Fernsehtisch wird Differenzler gejasst. Die Sendung läuft am Samstag um 18.40 Uhr auf SRF 1.\n\nAuf einen Blick:\n• Sender: SRF 1, Samstag, 18.40 Uhr\n• Jassart: Differenzler, drei Runden\n• Am Tisch: eine prominente Person, zwei Mitjassende aus dem Publikum und eine Person am Telefon\n• Preis: der Jasspokal und der Titel Jasskönig oder Jasskönigin\n• Moderation: Fabienne Gyr, seit Anfang 2020\n• Schiedsrichter: Jörg Abderhalden, seit 2018\n\n## Was im Samschtig-Jass gespielt wird\n\nGespielt wird der Differenzler (siehe Begriff \"variants_strategic_differenzler\"). Jede Person jasst für sich und sagt vor dem Spiel an, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis. Eine Sendung umfasst drei Runden. SRF jasst abwechselnd mit Deutschschweizer und mit französischen Karten.\n\n## Geschichte\n\nSRF hält fest, dass Kurt Felix die Sendung 1967 erfunden hat. 1968 hiess sie «Stöck-Wys-Stich», Kurt Felix moderierte und Göpf Egg war Schiedsrichter. Später waren Ernst Marti und Dani Müller Schiedsrichter der Sendung. Am 4. Januar 2025 lief die 1000. Sendung. SRF nennt den Samschtig-Jass die älteste noch ausgestrahlte Unterhaltungssendung Europas.\n\n## Donnschtig-Jass\n\nIm Donnschtig-Jass von SRF treten zwei Ortschaften gegeneinander an. Gejasst werden fünf Runden Differenzler. Die Ortschaft mit weniger Differenzpunkten wird der nächste Austragungsort.\n\n## Samschtig-Jass online spielen\n\nWer in der Sendung am Telefon mitjassen will, meldet sich bei SRF an. Wer die Jassart der Sendung online jassen will, findet Differenzler bei mehreren Angeboten. Sie stehen in der Übersicht [Online-Jass](/jassapps/online-jass/).\n\nSchieber (siehe Begriff \"general_schieber\"), die häufigste Jassart der Schweiz, jasst man online in der Arena von JassGuru (siehe Begriff \"jassapps_jassguru\"), auch als Gast. Die Jass-KI (siehe Begriff \"jass_ki\") Albis 001 jasst als Partner und als Gegner mit. Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) auf jassguru.ch.\n\n## Quellen\n\n- SRF: Sendungsporträt «Samschtig-Jass», srf.ch, abgerufen am 22. November 2026\n- SRF: Sendungsporträt «Donnschtig-Jass», srf.ch, abgerufen am 22. November 2026\n- SRF, Hallo SRF: Beiträge zur 1000. Sendung, zum Mitjassen und zu den Jasskarten der Sendung, srf.ch, abgerufen am 22. November 2026",
+    "metadata": {
+      "id": "samschtig_jass",
+      "category": {
+        "main": "Grundlagen & Kultur",
+        "sub": "Samschtig-Jass",
+        "topic": "Samschtig-Jass"
+      },
+      "seoTitle": "Samschtig-Jass: Sendung, Jassart und online jassen | Jass-Wiki",
+      "seoDescription": "Der Samschtig-Jass von SRF: Gespielt wird Differenzler über drei Runden. Wer mitjasst, wie die Sendung entstand und wo man Differenzler und Schieber online jasst.",
+      "keywords": [
+        "samschtig-jass",
+        "samschtig jass",
+        "samschtigjass",
+        "samstagsjass",
+        "srf jass",
+        "fernsehjass",
+        "donnschtig-jass",
+        "jasskönig",
+        "samschtig jass online",
+        "differenzler"
+      ],
+      "difficulty": 1,
+      "importance": 0.8,
+      "situations": [
+        "LEARNING"
+      ],
+      "taxonomy_tier": 2,
+      "source": "SRF, Sendungsporträts Samschtig-Jass und Donnschtig-Jass, abgerufen am 22. November 2026",
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22"
+    },
+    "faqs": [
+      {
+        "question": "Was wird im Samschtig-Jass gespielt?",
+        "answer": "Differenzler, über drei Runden."
+      },
+      {
+        "question": "Wann läuft der Samschtig-Jass?",
+        "answer": "Am Samstag um 18.40 Uhr auf SRF 1."
+      },
+      {
+        "question": "Wer jasst im Samschtig-Jass mit?",
+        "answer": "Eine prominente Person, zwei Mitjassende aus dem Publikum und eine Person am Telefon."
+      },
+      {
+        "question": "Kann man den Samschtig-Jass online spielen?",
+        "answer": "Die Jassart der Sendung ist der Differenzler. Differenzler online bieten mehrere Jass-Apps an. Schieber jasst man online auf JassGuru, der App des Jassverbands Schweiz."
+      },
+      {
+        "question": "Seit wann gibt es den Samschtig-Jass?",
+        "answer": "SRF hält fest, dass Kurt Felix die Sendung 1967 erfunden hat. Am 4. Januar 2025 lief die 1000. Sendung."
+      }
+    ],
+    "see_also": [
+      "variants_strategic_differenzler",
+      "variants_strategic_differenzler_verdeckt",
+      "jassapps_jassguru",
+      "general_culture"
     ]
   }
 }
