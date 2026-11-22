@@ -1,0 +1,10 @@
+{
+  "hart": false,
+  "handy": { "breite": 390, "hoehe": 844 },
+  "computer": { "breite": 1440, "hoehe": 900 },
+  "ausserBudget": ["text", "fuss"],
+  "bausteineZusammenHoechstens": 1.5,
+  "einzelnerBausteinHoechstens": 0.6,
+  "ersterSatzImErstenBildschirm": true,
+  "waagrechtesScrollen": false
+}

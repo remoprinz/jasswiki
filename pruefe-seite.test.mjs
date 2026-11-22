@@ -11,7 +11,9 @@ import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, writeFile, readFile, rm } from 'fs/promises';
 import { tmpdir } from 'os';
 import path from 'path';
-import { pruefe, lauf, sichtbarerText, firebaseMuster, altlastZeilen, vergleiche } from './pruefe-seite.mjs';
+import {
+  pruefe, lauf, sichtbarerText, firebaseMuster, altlastZeilen, vergleiche, gedankenstriche, textQuellen,
+} from './pruefe-seite.mjs';
 
 const seite = (body, head = '') =>
   `<!DOCTYPE html><html><head><title>Testseite</title>${head}</head><body>${body}</body></html>`;
@@ -56,6 +58,51 @@ test('A1 Gedankenstrich: Treffer und sauberer Fall', async () => {
   assert.equal(a1.length, 2);
   assert.ok(a1.every((f) => f.pfad === '/'));
   assert.match(a1[0].stelle, /Jassen — das Spiel/);
+  await rm(wurzel, { recursive: true });
+});
+
+test('A1 « - » zwischen Wörtern zählt, Zahlenbereich und Aufzählungszeichen nicht', () => {
+  const wort = (text) => gedankenstriche(text).map((t) => t.wort);
+  assert.deepEqual(wort('Jasswiki - Nell'), ['« - »']);
+  assert.deepEqual(wort('«Stöck» - die Regel'), ['« - »']);
+  assert.deepEqual(wort('Seiten 3 - 5'), []);
+  assert.deepEqual(wort('- erster Punkt\n- zweiter Punkt'), []);
+  assert.deepEqual(wort('Jass-Elo, E-Mail, -5 Punkte'), []);
+  assert.deepEqual(wort('A — B - C'), ['«—»', '« - »']);
+  // die TeX-Quelle einer Formel ist unsichtbar, ihr « - » ein Minus
+  assert.doesNotMatch(
+    sichtbarerText('<p><span class="katex"><annotation encoding="application/x-tex">R_B - R_A</annotation>RB−RA</span></p>'),
+    / - /,
+  );
+});
+
+test('A liest Seitentitel, meta description, aria-label, alt und title und nennt die Quelle', async () => {
+  const wurzel = await baue({
+    seiten: {
+      'a/index.html':
+        '<!DOCTYPE html><html><head><title>Nell - Jasswiki</title>' +
+        '<meta name="description" content="Das Nell — die Trumpf-Neun"></head><body>' +
+        '<p>Sauberer Satz.</p><button aria-label="Menü – öffnen">x</button>' +
+        '<img src="/b.png" alt="Karte - Nell"><a href="/a/" title="Reihum spielen">a</a></body></html>',
+      'b/index.html':
+        '<!DOCTYPE html><html><head><title>Nell, Jasswiki</title><meta name="description" content="Die Trumpf-Neun"></head>' +
+        '<body><img src="/b.png" alt="Karte Nell"><button aria-label="Menü öffnen">x</button></body></html>',
+    },
+    dateien: { 'b.png': 'x' },
+  });
+  const { funde } = await ohneNetz(wurzel);
+  const a = funde.filter((f) => f.pruefung.startsWith('A'));
+  assert.ok(a.every((f) => f.pfad === '/a/'));
+  const quellen = a.map((f) => `${f.pruefung.slice(0, 2)} ${f.stelle.split(':')[0]}`).sort();
+  assert.deepEqual(quellen, [
+    'A1 Seitentitel',
+    'A1 alt an <img>',
+    'A1 aria-label an <button>',
+    'A1 meta description',
+    'A2 title an <a>',
+  ]);
+  // der Seitentitel steht nicht doppelt im Seitentext
+  assert.equal(textQuellen('<html><head><title>T - U</title></head><body><p>x</p></body></html>')[0].text, 'x');
   await rm(wurzel, { recursive: true });
 });
 
