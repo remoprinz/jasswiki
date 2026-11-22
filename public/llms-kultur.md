@@ -479,7 +479,7 @@ AlphaJass denkt in Bildern statt in einem starren Wenn-dann-Baum. Die KI hält v
 ### Vier Bilder: was die KI weiss
 
 - **Situationsbild:** die Lage am Tisch: wer gerade den [Stich](/begriffe/grundbegriffe/stich/) macht, ob ein [Matsch](/begriffe/punktebegriffe/matsch/) droht, wie viele Trümpfe noch draussen sind und wie viele Punkte noch im Spiel liegen.
-- **Kartenbild der anderen:** Für jede der 36 Karten und jeden Sitz steht eine von fünf Stufen, von «nein» über «vielleicht» bis «ja». Gespielte Karten streicht die KI aus dem Bild. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) darf man bei Trumpf zurückhalten.
+- **Kartenbild der anderen:** Für jede der 36 Karten und jeden Sitz steht eine von fünf Stufen, von «nein» über «vielleicht» bis «ja». Gespielte Karten streicht die KI aus dem Bild. Wer verwirft, hat die ausgespielte Farbe nicht mehr. Einzig den [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) darf man bei Trumpf zurückhalten.
 - **Farbenbild:** die vier Farben, jede mit ihrer Stärke und ihrer Rolle. So überlegt auch ein Jasser: in vier Farben statt in 144 Feldern.
 - **Spielerbild:** für jeden Mitspieler die Schule, der er folgt, etwa Nell vor Puur oder eine Art zu verwerfen. Es geht dem Kartenbild voraus, denn dieselbe verworfene Karte heisst je nach Schule das Gegenteil.
 

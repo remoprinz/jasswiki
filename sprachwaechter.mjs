@@ -76,8 +76,7 @@ const VERNEINUNGEN = [
 const AUSNAHMEN = {
   // Artikel-ID → Zahlen, die in der FAQ stehen dürfen, obwohl der Text sie nicht nennt
   zahlen: {
-    expressions_matsch: ['257'],        // Schieber-Matsch: 152 + 5 + 100, im Text ausgeschrieben
-    expressions_matschpraemie: ['1028'],// vierfacher Matsch, im Text als Rechnung
+    expressions_matsch: ['257', '1028'], // Schieber-Matsch 152 + 5 + 100; vierfacher Matsch als Rechnung (seit Schritt 7 mit der Matschprämie)
     kontermatsch: ['257'],              // wie der Matsch, Schieber
   },
   // Artikel-ID → Kartenreihen, die absichtlich anders stehen als das Blatt.

@@ -120,14 +120,14 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://jasswiki.ch/varianten/aucho/",
+      "@id": "https://jasswiki.ch/varianten/aucho-4-spieler/",
       "name": "Aucho",
       "description": "«Erben»-Prinzip",
       "termCode": "Q137739254",
       "sameAs": "wd:Q137739254",
       "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
       "broader": "wd:Q786768",
-      "url": "https://jasswiki.ch/varianten/aucho/"
+      "url": "https://jasswiki.ch/varianten/aucho-4-spieler/"
     },
     {
       "@type": "DefinedTerm",
@@ -186,14 +186,14 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://jasswiki.ch/varianten/hindersi-allgemein/",
+      "@id": "https://jasswiki.ch/varianten/hindersi-4-spieler/",
       "name": "Hindersi",
       "description": "Einfache Punkteminimierung",
       "termCode": "Q137738838",
       "sameAs": "wd:Q137738838",
       "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
       "broader": "wd:Q786768",
-      "url": "https://jasswiki.ch/varianten/hindersi-allgemein/"
+      "url": "https://jasswiki.ch/varianten/hindersi-4-spieler/"
     },
     {
       "@type": "DefinedTerm",
@@ -318,14 +318,14 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-puur/",
+      "@id": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-bauer/",
       "name": "Puur",
       "description": "Under wird zum höchsten Trumpf – 20 Punkte",
       "termCode": "Q137738724",
       "sameAs": "wd:Q137738724",
       "inDefinedTermSet": "https://jasswiki.ch/taxonomie/",
       "isPartOf": "wd:Q1751513",
-      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-puur/"
+      "url": "https://jasswiki.ch/begriffe/kartenbezeichnungen/trumpf-bauer/"
     },
     {
       "@type": "DefinedTerm",

@@ -56,7 +56,7 @@ const TAXONOMY_TERMS = [
   // Spielarten - Königsspiele
   { name: 'Pandur', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: 'Q786768', description: '24-Blatt! Härteste Variante' },
   { name: 'Bieter', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: 'Q786768', description: '36-Blatt, flexibler als Pandur' },
-  { name: 'Aucho', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: 'Q786768', description: '«Erben»-Prinzip' },
+  { name: 'Aucho', wikidataId: 'Q137739254', link: '/varianten/aucho-4-spieler/', subclassOf: 'Q786768', description: '«Erben»-Prinzip' },
   { name: 'Schafhauser', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: 'Q786768', description: 'Solospieler durch Karten bestimmt' },
   
   // Spielarten - Einzelspiele
@@ -66,7 +66,7 @@ const TAXONOMY_TERMS = [
   
   // Spielarten - Destruktionsspiele
   { name: 'Molotow', wikidataId: 'Q137738837', link: '/varianten/molotow/', subclassOf: 'Q786768', description: 'Erster Farbverrat bestimmt Trumpf' },
-  { name: 'Hindersi', wikidataId: 'Q137738838', link: '/varianten/hindersi-allgemein/', subclassOf: 'Q786768', description: 'Einfache Punkteminimierung' },
+  { name: 'Hindersi', wikidataId: 'Q137738838', link: '/varianten/hindersi-4-spieler/', subclassOf: 'Q786768', description: 'Einfache Punkteminimierung' },
   
   // Spielarten - Sondervarianten
   { name: 'Chratze', wikidataId: 'Q137738836', link: '/varianten/chratze/', subclassOf: 'Q786768', description: 'Pot-Mechanik, nur 4 Karten' },
@@ -84,7 +84,7 @@ const TAXONOMY_TERMS = [
   { name: 'Misère', wikidataId: 'Q137739257', link: '/begriffe/spezialvarianten/misere/', instanceOf: 'Q137732108', description: 'Minimalpunkte-Modus' },
   
   // Karten - Rollen
-  { name: 'Puur', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-puur/', instanceOf: 'Q1751513', description: 'Under wird zum höchsten Trumpf – 20 Punkte' },
+  { name: 'Puur', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-bauer/', instanceOf: 'Q1751513', description: 'Under wird zum höchsten Trumpf – 20 Punkte' },
   { name: 'Nell', wikidataId: 'Q137738725', link: '/begriffe/kartenbezeichnungen/nell/', instanceOf: 'Q1751513', description: '9 wird zum zweithöchsten Trumpf – 14 Punkte' },
   
   // Karten - Bildkarten

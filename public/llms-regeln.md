@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielregeln"
 description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 60
+entries_count: 55
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -41,12 +41,10 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Fehlende Karte](#fehlende_karte)
 - [Fragen während Spiel](#fragen_waehrend_spiel)
 - [Grundregeln](#general_most_important_rules)
-- [Grundregeln](#general_special_games)
 - [Hingelegter Matsch](#hingelegter_matsch)
 - [Jass-Regionen](#general_geography_regions)
 - [Karte frühzeitig in die Hand nehmen](#karte_zu_frueh)
 - [Karten nicht komplett](#kartenspiel_nicht_komplett)
-- [Kartenverteilen: Grundregeln](#general_dealing_basics)
 - [Kartenwerte](#general_card_values)
 - [Kartenwerte je Ansage](#matsch)
 - [Kontermatsch](#kontermatsch)
@@ -60,7 +58,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Spiel geben](#spiel_geben)
 - [Spiel vergeben](#spiel_vergeben)
 - [Spielende: Regeln](#general_game_end)
-- [Spielverlauf: Grundlagen](#general_gameplay)
 - [Stöck](#weis_rules_stock)
 - [Untertrumpfen](#untertrumpfen)
 - [Vorspielen](#vorspielen)
@@ -68,10 +65,8 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Zählweise Striche](#zaehlweise_striche)
 - [Zusammenwerfen](#zusammenwerfen)
 - [Zwei Karten spielen](#zwei_karten_spielen)
-- [Fehlerhafte Kartenverteilung](#general_dealing_errors)
 - [Frühzeitiges Bedanken](#weis_rules_ausmachen_early_thanking)
 - [Jasskarten: Verteilmethoden](#general_dealing_methods)
-- [Jasskarten: Verteilung](#general_dealing)
 - [Korrekturregeln](#weis_rules_notation_correction)
 - [Rechte Tafelseite](#weis_rules_notation_numbers)
 - [Spielfehler: Übersicht](#general_playing_errors)
@@ -496,7 +491,7 @@ Wer sich fälschlich für den Bergpreis bedankt, ohne die Punktzahl erreicht zu 
 **Kategorie:** Regeln > Spielablauf
 
 Definition:
-Bodentrumpf ist die unterste Karte nach dem Abheben des Stapels, die die Trumpffarbe für dieses Spiel bestimmt.
+Bodentrumpf ist die unterste Karte nach dem Abheben des Stapels, die die Trumpffarbe für dieses Spiel bestimmt. Alle spielen mit demselben Trumpf, den keiner gewählt hat.
 
 Regeln zum Auslegen:
 • Die Karte wird beim Verteilen offen auf den Tisch gelegt
@@ -510,6 +505,7 @@ Konsequenz bei Fehler:
 - **Was ist der Bodentrumpf?** Der Bodentrumpf ist die unterste Karte nach dem Abheben des Stapels, die die Trumpffarbe für dieses Spiel bestimmt.
 - **Wie lange bleibt die Bodentrumpf-Karte offen liegen?** Die Trumpfkarte bleibt offen liegen, bis Vorhand zum ersten Stich ausspielt.
 - **Was passiert, wenn der Bodentrumpf nicht sichtbar gelegt wird?** Wenn der Bodentrumpf nicht sichtbar gelegt wird, müssen die Karten neu verteilt werden.
+- **Bei welchen Jassarten spielt man mit Bodentrumpf?** Unter anderem beim Handjass, beim Hindersi und beim Schafhauser. Dort bestimmt die unterste Karte die Trumpffarbe.
 
 *Keywords: bodentrumpf, trumpf, karten, verteilen, vorhand*
 
@@ -676,51 +672,6 @@ Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert sei
 
 ---
 
-### Grundregeln {#general_special_games}
-
-**Kategorie:** Regeln > Kartenwerte
-
-Grundkonzept:
-Bei Obenabe und Undenufe zählen die Karten anders als in einem Spiel mit Trumpf.
-
-Undenufe - Kartenwerte:
-• Sechser: 11 Punkte  (höchste Stechkarte)
-• Zehner (Banner): 10 Punkte
-• Achter: 8 Punkte
-• König: 4 Punkte
-• Ober (Dame): 3 Punkte
-• Under (Puur ): 2 Punkte
-• Neuner, Siebner: 0 Punkte
-
-Besonderheiten Undenufe:
-• Die Sechser sind die höchsten Stechkarten
-• Karten stechen nur innerhalb ihrer eigenen Farbe
-• Der Achter zählt 8 Punkte. Puur und Nell haben hier keinen eigenen Wert
-• Letzter Stich zählt zusätzlich 5 Punkte
-
-Obenabe - Kartenwerte:
-• Ass: 11 Punkte (höchste Stechkarte)
-• Zehner (Banner): 10 Punkte
-• Achter: 8 Punkte
-• König: 4 Punkte
-• Ober (Dame): 3 Punkte
-• Under (Puur): 2 Punkte
-• Neuner, Siebner, Sechser: 0 Punkte
-
-Besonderheit Obenabe:
-• Der Achter zählt 8 Punkte. Puur und Nell haben hier keinen eigenen Wert
-• Beim Obenabe kann sich das Team, das zuerst sechs Stiche macht, bedanken (häufige Tischregel)
-
-**Häufige Fragen:**
-- **Wie viele Punkte ist ein Sechser beim Undenufe wert?** Beim Undenufe ist der Sechser 11 Punkte wert und die höchste Stechkarte.
-- **Was ist der Unterschied zwischen Obenabe und Undenufe?** Beim Undenufe sind die Sechser die höchsten Karten (11 Punkte), beim Obenabe sind es die Asse (11 Punkte). Bei beiden Spielen gelten Achter 8 Punkte.
-- **Stechen Karten beim Undenufe über alle Farben?** Nein, beim Undenufe (und Obenabe) können Karten nur Karten derselben Farbe stechen.
-- **Wie viele Punkte zählt ein Achter beim Obenabe?** Beim Obenabe (und Undenufe) zählt ein Achter 8 Punkte.
-
-*Keywords: obenabe, undenufe, spezialspiele, punktwerte, stechkarten*
-
----
-
 ### Hingelegter Matsch {#hingelegter_matsch}
 
 **Kategorie:** Regeln > Punktezählung
@@ -834,26 +785,6 @@ Regel:
 - **Wer verteilt die Karten nach dem Ersetzen?** Derselbe Kartengeber verteilt die Karten erneut, nachdem das Kartenspiel ersetzt wurde.
 
 *Keywords: karte, komplett, beschädigt, verteilen, ersetzen*
-
----
-
-### Kartenverteilen: Grundregeln {#general_dealing_basics}
-
-**Kategorie:** Regeln > Kartenverteilung
-
-**Grundregeln für die Kartenverteilung:**
-
-• Der Kartengeber ist für das Mischen und Verteilen verantwortlich
-• Die Karten werden in der Regel 3×3 verteilt (dreimal drei Karten pro Spieler)
-• **Wichtig:** Die Verteilung erfolgt im **Gegenuhrzeigersinn**, beginnend beim Spieler **rechts** vom Kartengeber (Vorhand)
-• Das ist eine typisch schweizerische Eigenheit, in der übrigen Welt wird meist im Uhrzeigersinn gespielt
-• «Der Ohrfeige nach» ist der bekannte Spruch dazu
-
-**Häufige Fragen:**
-- **Wer ist für das Mischen verantwortlich?** Der Kartengeber ist für das Mischen und Verteilen der Karten verantwortlich.
-- **Bei wem beginnt die Kartenverteilung?** Die Kartenverteilung beginnt beim Spieler rechts vom Kartengeber, also bei Vorhand.
-
-*Keywords: verteilen, mischen, abheben, regeln, spielgeber*
 
 ---
 
@@ -1155,7 +1086,9 @@ Bestimmung des ersten Kartengebers:
 Ablauf des Verteilens:
 • Nach sorgfältigem Mischen und Abheben erfolgt die Kartenverteilung
 • Die Karten werden vom Stapel von oben entnommen
-• Die Verteilung erfolgt im Gegenuhrzeigersinn, was der Spielrichtung entspricht
+• Abgehoben wird vom Spieler links vom Kartengeber
+• Die Verteilung erfolgt im Gegenuhrzeigersinn, was der Spielrichtung entspricht. Der Kartengeber beginnt beim Spieler rechts von sich, bei Vorhand
+• Das ist eine Schweizer Eigenheit, in der übrigen Welt wird meist im Uhrzeigersinn gespielt. Am Tisch heisst es «immer der Ohrfeige nach»
 • Während der Verteilung müssen die Kartenbilder verdeckt bleiben (siehe Abschnitt «Spielverrat»)
 
 Verteilmethoden nach Kartenanzahl:
@@ -1189,6 +1122,8 @@ Kontrolle bei Stock-Spielen:
 - **Wer bestimmt den nächsten Kartengeber nach einer Partie?** Nach Abschluss einer Partie bestimmen die Verlierer den nächsten Kartengeber.
 - **Bis wann kann Einspruch gegen die Verteilung erhoben werden?** Einspruch kann bis zum Ausspiel der eigenen Karte erhoben werden. Nach dem Kehren des ersten Stichs ist kein Einspruch mehr möglich.
 - **Was passiert bei falscher Kartenanzahl bei Stock-Spielen?** Wird mit zu vielen oder zu wenigen Karten gespielt, bleiben jene Spiele gültig, bei denen der erste Stich bereits gekehrt worden ist.
+- **Wie viele Karten erhält jeder Spieler beim Jassen?** Zu viert erhält jeder Spieler 9 Karten, gegeben dreimal drei.
+- **Wer hebt beim Jassen ab?** Der Spieler links vom Kartengeber.
 
 *Keywords: spiel geben, kartenverteilung, spielgeber, kartengeber, mischen*
 
@@ -1209,6 +1144,9 @@ Gründe für ein vergebenes Spiel:
 
 Neuverteilung:
 • Wer neu verteilt, ist je nach Jassart verschieden, das steht bei der jeweiligen Jassart (siehe Kapitel «Jassarten»)
+
+Karte fällt herunter:
+• Fällt beim Verteilen eine Karte herunter, gilt die Regel Karte fällt runter
 
 **Häufige Fragen:**
 - **Wann gilt ein Spiel als vergeben?** Ein Spiel gilt als vergeben, wenn nicht jeder Spieler gleich viele Karten erhält, ein Kartenbild beim Verteilen sichtbar ist oder am Schluss des Verteilens eine Karte fehlt.
@@ -1245,54 +1183,6 @@ Plätze tauschen:
 - **Wann darf man die Plätze tauschen?** Zwischen zwei Partien. Während einer Partie bleiben die Plätze, wie sie sind.
 
 *Keywords: ende, punkte, match, schneider, zählen*
-
----
-
-### Spielverlauf: Grundlagen {#general_gameplay}
-
-**Kategorie:** Regeln > Spielablauf
-
-Grundregeln des Spielverlaufs:
-• Spieler müssen bedienen, wenn möglich
-• Trumpf kann alle anderen Farben stechen
-• Wer den Stich gewinnt, spielt die nächste Karte aus
-• Nach neun Stichen ist das Spiel fertig
-
-Punktezählung:
-• Punkte werden gezählt: Kartenwerte, Weise, Matsch-Bonus und der letzte Stich
-
-**Spielverlauf: Grundlagen**
-
-Der Spielverlauf beim Jassen folgt klaren Grundregeln, die für alle Varianten gelten:
-
-**Spielreihenfolge:**
-• Gespielt wird im Gegenuhrzeigersinn, also nach rechts
-• Vorhand (rechts vom Geber) spielt aus
-• Wer den Stich gewinnt, spielt die nächste Karte aus
-
-**Farbzwang (Bedienen):**
-• Spieler müssen die ausgespielte Farbe bedienen, wenn möglich
-• Kann nicht bedient werden, darf eine beliebige Karte gespielt werden
-
-**Stiche:**
-• Jedes Spiel besteht aus neun Stichen, vier Karten pro Stich
-• Der höchste Trumpf oder die höchste Karte der ausgespielten Farbe gewinnt
-• Trumpf sticht alle anderen Farben
-
-**Punktezählung:**
-• Nach 9 Stichen werden die Punkte gezählt
-• Punkte ergeben sich aus: Kartenwerten, Weisen, Matsch-Bonus und dem letzten Stich
-• Das Team mit mehr Punkten gewinnt das Spiel
-
-Jede Jassart baut auf diesem Ablauf auf, ändert aber Kartenzahl, Stichzahl und Wertung.
-
-**Häufige Fragen:**
-- **Muss man beim Jassen bedienen?** Ja, Spieler müssen bedienen (die ausgespielte Farbe spielen), wenn möglich.
-- **Kann Trumpf alle Farben stechen?** Ja, Trumpf kann alle anderen Farben stechen.
-- **Wie viele Stiche hat ein Jass-Spiel?** Nach neun Stichen ist ein Jass-Spiel fertig.
-- **Wer spielt nach einem Stich aus?** Wer den Stich gewinnt, spielt die nächste Karte aus.
-
-*Keywords: ablauf, reihenfolge, vorhand, stich, spielregeln*
 
 ---
 
@@ -1660,23 +1550,6 @@ Konsequenzen:
 
 ---
 
-### Fehlerhafte Kartenverteilung {#general_dealing_errors}
-
-**Kategorie:** Regeln > Kartenverteilung
-
-Regeln bei fehlerhafter Kartenverteilung:
-• Hat ein Spieler zu viele oder zu wenige Karten, gibt der Kartengeber neu, oder die Karte wird berichtigt
-• Karte fällt runter: Siehe spezifische Regel für Karte fällt runter
-• Sind die Karten ungleich verteilt, gibt der Kartengeber neu
-
-**Häufige Fragen:**
-- **Was passiert, wenn ein Spieler die falsche Anzahl Karten erhält?** Hat ein Spieler zu viele oder zu wenige Karten, gibt der Kartengeber neu, oder die Karte wird berichtigt.
-- **Was passiert, wenn eine Karte beim Verteilen runterfällt?** Siehe die spezifische Regel für «Karte fällt runter», die das genaue Vorgehen beschreibt.
-
-*Keywords: fehler, konsequenzen, verteilfehler, einspruch, regelverstoss*
-
----
-
 ### Frühzeitiges Bedanken {#weis_rules_ausmachen_early_thanking}
 
 **Kategorie:** Regeln > Ausmachen
@@ -1741,40 +1614,6 @@ Die 3×3-Methode gegen den Uhrzeigersinn ist aber die klassische Schweizer Varia
 - **Gibt es Ausnahmen bei der Kartenverteilung?** Ja, bei Varianten wie Tschau Sepp, Bieter (2×5 Karten bei erster Runde) oder Molotow (mehr als 4 Spieler) wird anders verteilt.
 
 *Keywords: verteilen, methoden, kartenanzahl, spielarten, verteilregeln*
-
----
-
-### Jasskarten: Verteilung {#general_dealing}
-
-**Kategorie:** Regeln > Kartenverteilung
-
-**Grundregeln der Kartenverteilung:**
-
-Beim Geben gilt eine feste Ordnung: wer mischt, wer abhebt, wer die erste Karte bekommt.
-
-**Schweizer Besonderheit:**
-• Die Karten werden im **Gegenuhrzeigersinn** verteilt, also nach rechts
-• Am Tisch heisst das «immer der Ohrfeige nach»
-
-**Verteilung:**
-• Jeder Spieler erhält 9 Karten
-• Der Kartengeber beginnt beim Spieler **rechts** von sich (Vorhand)
-• Karten werden in der Regel 3×3 gegeben (dreimal drei Karten)
-• Nach dem Verteilen können die Karten aufgenommen werden
-
-**Wer was macht:**
-• Der Kartengeber mischt und gibt die Karten
-• Der Spieler links vom Kartengeber kann beim Abheben die Karten teilen
-
-**Häufige Fragen:**
-- **Wie werden die Karten beim Jassen verteilt?** Beim Jassen werden die Karten im Gegenuhrzeigersinn verteilt, «immer der Ohrfeige nach». Der Geber mischt, lässt den Spieler links von sich abheben und gibt jedem neun Karten, in der Regel dreimal drei.
-- **Wie viele Karten erhält jeder Spieler beim Jassen?** Jeder Spieler erhält 9 Karten.
-- **In welche Richtung werden die Karten beim Jassen verteilt?** Im Gegenuhrzeigersinn, «immer der Ohrfeige nach».
-- **In welche Richtung werden die Karten verteilt?** Im Gegenuhrzeigersinn. Der Kartengeber beginnt beim Spieler rechts von sich.
-- **Werden die Karten einzeln oder in Paketen verteilt?** In der Regel dreimal drei Karten auf einmal, bis jeder neun hat.
-- **Wer darf die Karten abheben?** Der Spieler links vom Kartengeber kann die Karten abheben (teilen).
-
-*Keywords: austeilen, mischen, abheben, geben, gegenurzeigersinn*
 
 ---
 

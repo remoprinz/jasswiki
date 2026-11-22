@@ -308,7 +308,7 @@ const JassenPage: NextPage = () => {
               </p>
               <p><strong>Besondere Karten im Trumpf:</strong></p>
               <ul className="list-disc pl-5 space-y-1">
-                <li><Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline font-medium">Puur</Link> (Under der Trumpffarbe): höchste Karte im Trumpfspiel, 20 Punkte</li>
+                <li><Link href="/begriffe/kartenbezeichnungen/trumpf-bauer/" className="text-[#ff0000] hover:underline font-medium">Puur</Link> (Under der Trumpffarbe): höchste Karte im Trumpfspiel, 20 Punkte</li>
                 <li><Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline font-medium">Nell</Link> (9 der Trumpffarbe): zweithöchste Karte, 14 Punkte</li>
               </ul>
               <p>
@@ -333,7 +333,7 @@ const JassenPage: NextPage = () => {
                 wählt ein Spieler zu Beginn jeder Runde den Spielmodus. Neben den vier Trumpffarben gibt es weitere Ansagen:
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Trumpf</strong>: Eine der vier Farben wird Trumpf. <Link href="/begriffe/kartenbezeichnungen/trumpf-puur/" className="text-[#ff0000] hover:underline">Puur</Link> und <Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline">Nell</Link> dominieren.</li>
+                <li><strong>Trumpf</strong>: Eine der vier Farben wird Trumpf. <Link href="/begriffe/kartenbezeichnungen/trumpf-bauer/" className="text-[#ff0000] hover:underline">Puur</Link> und <Link href="/begriffe/kartenbezeichnungen/nell/" className="text-[#ff0000] hover:underline">Nell</Link> dominieren.</li>
                 <li><Link href="/ansagen/obenabe/" className="text-[#ff0000] hover:underline font-medium">Obenabe</Link>: Ohne Trumpf. Die höchste Karte sticht, das Ass ist die stärkste.</li>
                 <li><Link href="/ansagen/undenufe/" className="text-[#ff0000] hover:underline font-medium">Undenufe</Link>: Ohne Trumpf. Die tiefste Karte sticht, die 6 ist die stärkste.</li>
                 <li><Link href="/ansagen/slalom-zickzack/" className="text-[#ff0000] hover:underline font-medium">Slalom</Link>: Von Stich zu Stich abwechselnd Obenabe und Undenufe.</li>

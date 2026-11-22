@@ -1052,12 +1052,12 @@
         },
         {
           "source": "/regeln/kartenverteilen/",
-          "destination": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
           "type": 301
         },
         {
           "source": "/regeln/kartenverteilen",
-          "destination": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
           "type": 301
         },
         {
@@ -1122,12 +1122,12 @@
         },
         {
           "source": "/grundlagen-kultur/spielverlauf/",
-          "destination": "/regeln/spielablauf/spielverlauf-grundlagen/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/spielverlauf",
-          "destination": "/regeln/spielablauf/spielverlauf-grundlagen/",
+          "destination": "/regeln/regelgrundlagen/",
           "type": 301
         },
         {
@@ -1517,7 +1517,7 @@
         },
         {
           "source": "/varianten/vermeidungsspiel/hindersi/",
-          "destination": "/varianten/hindersi-allgemein/",
+          "destination": "/varianten/hindersi-4-spieler/",
           "type": 301
         },
         {
@@ -1832,7 +1832,7 @@
         },
         {
           "source": "/grundlagen-kultur/spezialspiele/grundregeln/",
-          "destination": "/regeln/kartenwerte/grundregeln/",
+          "destination": "/regeln/punktezaehlung/schieber-varianten/",
           "type": 301
         },
         {
@@ -1847,7 +1847,7 @@
         },
         {
           "source": "/grundlagen-kultur/fehlerregeln/fehlerhafte-kartenverteilung/",
-          "destination": "/regeln/kartenverteilung/fehlerhafte-kartenverteilung/",
+          "destination": "/regeln/kartenverteilung/spiel-vergeben/",
           "type": 301
         },
         {
@@ -2117,7 +2117,7 @@
         },
         {
           "source": "/grundlagen-kultur/grundregeln-verteilen/",
-          "destination": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
           "type": 301
         },
         {
@@ -2187,7 +2187,7 @@
         },
         {
           "source": "/grundlagen-kultur/verteilmethoden/jasskarten-36-karten/",
-          "destination": "/regeln/kartenverteilung/jasskarten-verteilung/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
           "type": 301
         },
         {
@@ -3028,6 +3028,61 @@
         {
           "source": "/begriffe/punktebegriffe/kontermatsch/",
           "destination": "/regeln/punktezaehlung/kontermatsch/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilung/jasskarten-verteilung/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
+          "destination": "/regeln/kartenverteilung/spiel-geben/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenverteilung/fehlerhafte-kartenverteilung/",
+          "destination": "/regeln/kartenverteilung/spiel-vergeben/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/bodentrumpf/",
+          "destination": "/regeln/spielablauf/bodentrumpf/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/trumpf-puur/",
+          "destination": "/begriffe/kartenbezeichnungen/trumpf-bauer/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/kartenbezeichnungen/bockkarte/",
+          "destination": "/begriffe/kartenbezeichnungen/bock/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/aucho/",
+          "destination": "/varianten/aucho-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/varianten/hindersi-allgemein/",
+          "destination": "/varianten/hindersi-4-spieler/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/spielablauf/spielverlauf-grundlagen/",
+          "destination": "/regeln/regelgrundlagen/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/kartenwerte/grundregeln/",
+          "destination": "/regeln/punktezaehlung/schieber-varianten/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/matschpraemie/",
+          "destination": "/begriffe/punktebegriffe/matsch/",
           "type": 301
         }
       ]

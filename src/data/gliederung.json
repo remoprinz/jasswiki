@@ -8,7 +8,6 @@
       "darstellung": "kapitelkarten",
       "eintraege": [
         "general_most_important_rules",
-        { "id": "general_gameplay", "gehtAufIn": "general_most_important_rules" },
         "regeln_offizielle_jassregeln",
         "regeln_tischregel",
         {
@@ -18,8 +17,7 @@
           "artikel": [
             "expressions_kartenfarben",
             "general_card_values",
-            "matsch",
-            { "id": "general_special_games", "gehtAufIn": "matsch" }
+            "matsch"
           ]
         },
         {
@@ -28,14 +26,11 @@
           "frage": "Wer gibt und wie?",
           "artikel": [
             "spiel_geben",
-            { "id": "general_dealing", "gehtAufIn": "spiel_geben" },
-            { "id": "general_dealing_basics", "gehtAufIn": "spiel_geben" },
             "mischen",
             "abheben",
             "general_dealing_methods",
             "general_dealing_special",
-            "spiel_vergeben",
-            { "id": "general_dealing_errors", "gehtAufIn": "spiel_vergeben" }
+            "spiel_vergeben"
           ]
         },
         {
@@ -45,7 +40,6 @@
           "artikel": [
             "trumpfansage",
             "bodentrumpf",
-            { "id": "expressions_bodentrumpf", "gehtAufIn": "bodentrumpf" },
             "ausspiel",
             "nichtfarben",
             "untertrumpfen",
@@ -66,7 +60,6 @@
           "artikel": [
             "general_scoring_rules",
             "expressions_matsch",
-            { "id": "expressions_matschpraemie", "gehtAufIn": "expressions_matsch" },
             "kontermatsch",
             "hingelegter_matsch",
             "zaehlweise_striche",
@@ -201,7 +194,6 @@
           "kapitel": "Aucho und Königsspiele",
           "artikel": [
             "variants_strategic_aucho_vier",
-            { "id": "variants_three_player_aucho", "gehtAufIn": "variants_strategic_aucho_vier" },
             "variants_strategic_aucho_drei",
             "variants_strategic_aucho_zwei",
             "variants_strategic_schafhauser"
@@ -214,7 +206,6 @@
             "variants_molotow",
             { "id": "expressions_tisch_weis", "gehtAufIn": "variants_molotow" },
             "variants_specialty_hindersi_vier",
-            { "id": "variants_specialty_hindersi", "gehtAufIn": "variants_specialty_hindersi_vier" },
             "variants_specialty_hindersi_drei",
             "variants_specialty_schaufel_dame",
             "variants_strategic_schellenjass"
@@ -280,7 +271,6 @@
         "expressions_blatt",
         "expressions_blinder",
         "expressions_bock",
-        { "id": "expressions_bockkarte", "gehtAufIn": "expressions_bock" },
         "expressions_braettli",
         "expressions_doppeln_kontern",
         "color_ecke",
@@ -324,7 +314,6 @@
         "expressions_striche",
         "expressions_team",
         "expressions_trumpf_bauer",
-        { "id": "trumpf_bauer", "gehtAufIn": "expressions_trumpf_bauer" },
         "expressions_trumpf_bauer_kombinationen",
         "expressions_unterzug",
         "expressions_verdeckte_ansage",

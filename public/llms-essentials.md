@@ -3,7 +3,7 @@ title: "JassWiki.ch - Essentials - Schnellstart"
 description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 7
+entries_count: 6
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -208,54 +208,6 @@ In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattd
 - **Warum zählt der Achter bei Obenabe und Undenufe 8 Punkte?** Weil Puur und Nell wegfallen. Die vier Achter gleichen die fehlenden 32 Punkte aus, damit das Total 157 bleibt.
 
 *Keywords: kartenwerte, jass kartenwerte, punktewerte, kartenpunkte, 157 punkte*
-
----
-
-### Spielverlauf: Grundlagen {#general_gameplay}
-
-**Kategorie:** Regeln > Spielablauf
-
-Grundregeln des Spielverlaufs:
-• Spieler müssen bedienen, wenn möglich
-• Trumpf kann alle anderen Farben stechen
-• Wer den Stich gewinnt, spielt die nächste Karte aus
-• Nach neun Stichen ist das Spiel fertig
-
-Punktezählung:
-• Punkte werden gezählt: Kartenwerte, Weise, Matsch-Bonus und der letzte Stich
-
-**Spielverlauf: Grundlagen**
-
-Der Spielverlauf beim Jassen folgt klaren Grundregeln, die für alle Varianten gelten:
-
-**Spielreihenfolge:**
-• Gespielt wird im Gegenuhrzeigersinn, also nach rechts
-• Vorhand (rechts vom Geber) spielt aus
-• Wer den Stich gewinnt, spielt die nächste Karte aus
-
-**Farbzwang (Bedienen):**
-• Spieler müssen die ausgespielte Farbe bedienen, wenn möglich
-• Kann nicht bedient werden, darf eine beliebige Karte gespielt werden
-
-**Stiche:**
-• Jedes Spiel besteht aus neun Stichen, vier Karten pro Stich
-• Der höchste Trumpf oder die höchste Karte der ausgespielten Farbe gewinnt
-• Trumpf sticht alle anderen Farben
-
-**Punktezählung:**
-• Nach 9 Stichen werden die Punkte gezählt
-• Punkte ergeben sich aus: Kartenwerten, Weisen, Matsch-Bonus und dem letzten Stich
-• Das Team mit mehr Punkten gewinnt das Spiel
-
-Jede Jassart baut auf diesem Ablauf auf, ändert aber Kartenzahl, Stichzahl und Wertung.
-
-**Häufige Fragen:**
-- **Muss man beim Jassen bedienen?** Ja, Spieler müssen bedienen (die ausgespielte Farbe spielen), wenn möglich.
-- **Kann Trumpf alle Farben stechen?** Ja, Trumpf kann alle anderen Farben stechen.
-- **Wie viele Stiche hat ein Jass-Spiel?** Nach neun Stichen ist ein Jass-Spiel fertig.
-- **Wer spielt nach einem Stich aus?** Wer den Stich gewinnt, spielt die nächste Karte aus.
-
-*Keywords: ablauf, reihenfolge, vorhand, stich, spielregeln*
 
 ---
 

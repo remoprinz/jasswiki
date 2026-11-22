@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielvarianten"
 description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 53
+entries_count: 51
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -59,7 +59,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Handjass](#variants_strategic_handjass)
 - [Tutti](#expressions_tutti)
 - [Arschlöchle](#variants_multi_player_arschloechle)
-- [Aucho](#variants_three_player_aucho)
 - [Differenzler (verdeckt)](#variants_strategic_differenzler_verdeckt)
 - [Hose abe/Schnauz/Schwimmen](#variants_family_hose_abe)
 - [Kaiserjass](#variants_traditional_kaiserjass)
@@ -67,7 +66,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Molotow](#variants_molotow)
 - [Schellenjass](#variants_strategic_schellenjass)
 - [Chratze](#variants_chratze)
-- [Hindersi (Allgemein)](#variants_specialty_hindersi)
 - [Mittlere](#variants_three_player_mittlere)
 - [Ramset](#variants_multi_player_ramset)
 - [Schmaus](#variants_two_player_schmaus)
@@ -83,7 +81,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 **Kategorie:** Varianten > Königsspiel
 
 Definition:
-Diese Königsspiel-Variante für vier Spieler zeichnet sich durch das besondere «Lukas»-Prinzip und das «Erben» von Punkten aus.
+Diese Königsspiel-Variante für vier Spieler zeichnet sich durch das besondere «Lukas»-Prinzip und das «Erben» von Punkten aus. Aucho geht auch zu dritt und zu zweit.
 
 Spiel geben:
 • Erstes Spiel: Jeder zieht eine Karte, wer die niedrigste hat, gibt das erste Spiel
@@ -495,7 +493,7 @@ Im Übrigen gelten die gleichen Regeln wie beim Differenzler mit offener Ansage 
 **Kategorie:** Varianten > Vermeidungsspiel
 
 Ziel:
-Beim Hindersi-Jass für vier Spieler geht es darum, möglichst wenige Punkte zu sammeln. Es zählt also gerade umgekehrt wie sonst.
+Beim Hindersi-Jass für vier Spieler geht es darum, möglichst wenige Punkte zu sammeln. Es zählt also gerade umgekehrt wie sonst. Zu dritt gelten eigene Regeln.
 
 Spiel geben:
 • Ein beliebiger Spieler übernimmt das Geben und verteilt jedem Spieler neun Karten in drei Runden zu je drei Karten
@@ -1653,7 +1651,7 @@ Welche Farbe als Trumpf angesagt wird, hängt vom Blatt ab. Als Faustregel gilt:
 
 Innerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei sonst unscheinbare Karten werden zur höchsten und zur zweithöchsten, im Stechen wie im Zählen:
 
-- Der Under wird zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und ist die höchste Karte im ganzen Spiel. Er zählt 20 Punkte.
+- Der Under wird zum [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) und ist die höchste Karte im ganzen Spiel. Er zählt 20 Punkte.
 - Die Neun wird zum [Nell](/begriffe/kartenbezeichnungen/nell/), der zweithöchsten Karte. Sie zählt 14 Punkte.
 
 ## Wo wird die Trumpffarbe angesagt?
@@ -1760,7 +1758,7 @@ Ein Gebot nennt eine Punktzahl und eine Trumpffarbe. Die Punktzahl sagt zweierle
 | 110 | Nell zu sechst |
 | 120 | Puur zu sechst |
 
-«Zu dritt» heisst drei Karten der genannten Farbe, die Ansagekarte eingerechnet. Die Zählweise erklären die [Trumpf-Bauer Kombinationen](/begriffe/kartenbezeichnungen/trumpf-bauer-kombinationen/). Jede weitere Karte hebt das Gebot um zwanzig Punkte, und der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) wiegt gegenüber dem [Nell](/begriffe/kartenbezeichnungen/nell/) zehn Punkte mehr.
+«Zu dritt» heisst drei Karten der genannten Farbe, die Ansagekarte eingerechnet. Die Zählweise erklären die [Trumpf-Bauer Kombinationen](/begriffe/kartenbezeichnungen/trumpf-bauer-kombinationen/). Jede weitere Karte hebt das Gebot um zwanzig Punkte, und der [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) wiegt gegenüber dem [Nell](/begriffe/kartenbezeichnungen/nell/) zehn Punkte mehr.
 
 
 
@@ -2340,47 +2338,6 @@ Joker (Spezialform):
 
 ---
 
-### Aucho {#variants_three_player_aucho}
-
-**Kategorie:** Varianten > Traditionelles Spiel
-
-Definition:
-Aucho ist ein traditionelles Spiel für vier Spieler (auch zu dritt oder zu zweit). Die übrigen Karten bleiben als Stock auf dem Tisch liegen, dieser Stock heisst «Lukas».
-
-Spiel geben:
-• Der Kartengeber verteilt seinen drei Mitspielern je neun Karten
-• Die restlichen neun Karten bilden den «Lukas» und werden verdeckt als Stock auf den Tisch gelegt, wobei die unterste Karte aufgedeckt wird
-• Der Kartengeber selbst erhält keine Karten
-
-Spielablauf - Trumpf machen:
-• Übernimmt Vorhand das Spiel, wählt sie eine beliebige Farbe als Trumpf
-• Sie muss am Ende mindestens einen Punkt mehr als ihre beiden Gegner zusammen erzielen
-• Verzichtet Vorhand, geht das Recht auf den zweiten, dann den dritten Spieler über
-
-Spielablauf - «Kehr»:
-• Anstatt Trumpf zu machen kann jeder Spieler einen «Kehr» verlangen
-• Der Kartengeber muss dann die Karten des «Lukas» einzeln von oben nach unten aufdecken
-• Dabei kann jede Karte (ausser der letzten) vom Sechser der gleichen Farbe geraubt werden
-• Wem eine Farbe passt, der sagt «Halt» und übernimmt das Spiel in dieser Farbe
-
-Kartengeber-Spiel mit «Lukas»:
-• Wenn weder Trumpf gemacht noch ein «Kehr» verlangt wird, hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen
-• Er spielt mit diesem Stock gegen die drei Mitspieler
-
-Schreiben:
-• Wer ein Spiel gewinnt, erhält zwei Striche, der Kartengeber «erbt» dabei ebenfalls zwei Striche
-• Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben
-
-**Häufige Fragen:**
-- **Was ist der «Lukas» beim Aucho?** Als «Lukas» liegen die neun übrigen Karten verdeckt als Stock auf dem Tisch. Der Kartengeber erhält diese Karten nicht.
-- **Wie viele Striche erhält man, wenn man mit dem «Lukas» gewinnt?** Gewinnt ein Spieler den «Lukas», werden ihm vier Striche gutgeschrieben. Gewinnt ein normaler Spieler, erhält er zwei Striche, der Kartengeber «erbt» dabei ebenfalls zwei Striche.
-- **Was ist ein «Kehr» beim Aucho?** Ein «Kehr» kann verlangt werden, um die Karten des «Lukas» einzeln aufzudecken. Erscheint eine passende Farbe, kann das Spiel mit dieser Farbe als Trumpf übernommen werden.
-- **Was passiert, wenn weder Trumpf gemacht noch ein Kehr verlangt wird?** In diesem Fall hat der Kartengeber das Recht, mit dem «Lukas» das Spiel zu übernehmen und gegen die drei Mitspieler zu spielen.
-
-*Keywords: aucho, lukas, kehr, rauben, erben*
-
----
-
 ### Differenzler (verdeckt) {#variants_strategic_differenzler_verdeckt}
 
 **Kategorie:** Varianten > Schätzspiel
@@ -2754,49 +2711,6 @@ Besonderheiten:
 - **Wie viele Spieler können Chratze spielen?** Chratze kann theoretisch von 2 bis 7 Spielern gespielt werden, optimal sind 4 bis 5 Spieler.
 
 *Keywords: chratze, pot, einsatz, stichspiel, 4 karten*
-
----
-
-### Hindersi (Allgemein) {#variants_specialty_hindersi}
-
-**Kategorie:** Varianten > Vermeidungsspiel
-
-Definition:
-Beim Hindersi-Jass für vier Spieler (auch mit drei Spielern möglich) geht es darum, möglichst wenige Punkte zu sammeln. Es zählt also gerade umgekehrt wie sonst.
-
-Grundregeln:
-• Die unterste Karte des Stapels bestimmt die Trumpffarbe und kann nicht geraubt werden
-• Jeder Spieler versucht, möglichst wenige Kartenpunkte zu erzielen
-• Macht ein Spieler alle Stiche, schreiben alle anderen 157 Punkte auf
-
-Besondere Regeln:
-• Stöck- und Weispunkte können nicht gemeldet werden und zählen somit nicht
-• Untertrumpfen ist erlaubt, sofern man keine Karte der ausgespielten Farbe besitzt
-• Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet
-
-Schreiben und Partie:
-• Nach jedem Spiel zählt jeder Spieler seine eigenen Kartenpunkte
-• Ein Umgang besteht aus vier Spielen und entspricht einer Partie
-
-Schreiben bei vier Spielern:
-• Die beiden Spieler mit dem tiefsten Total erhalten je einen Strich
-• Die beiden Spieler mit dem zweithöchsten und höchsten Total bekommen je einen Nuller eingetragen
-
-Schreiben bei drei Spielern:
-• Der Spieler mit dem niedrigsten Total erhält einen Strich, der mit dem höchsten Total einen Nuller
-• Der Spieler mit dem mittleren Resultat geht leer aus
-
-Spielende:
-Nach vier Partien wird die Abrechnung vorgenommen. Gewinner ist der Spieler mit den meisten Strichen.
-
-**Häufige Fragen:**
-- **Was ist das Ziel beim Hindersi?** Beim Hindersi geht es darum, möglichst wenige Punkte zu sammeln. Es zählt also gerade umgekehrt wie sonst.
-- **Wie viele Punkte werden allen anderen Spielern belastet, wenn einer alle Stiche macht?** Gelingt es einem Spieler, alle Stiche zu machen, werden allen anderen Spielern 157 Punkte belastet.
-- **Was passiert, wenn man beim Hindersi absichtlich nicht färbt?** Wird festgestellt, dass jemand absichtlich nicht gefarbt hat, um einen wertvollen Stich zu vermeiden, wird dies mit einer Strafe von 100 Punkten geahndet.
-- **Wie viele Partien werden beim Hindersi gespielt?** Nach vier Partien wird die Abrechnung vorgenommen. Gewinner ist der Spieler mit den meisten Strichen.
-- **Wie unterscheidet sich die Strich-Verteilung bei drei und vier Spielern?** Bei vier Spielern erhalten die beiden Spieler mit dem tiefsten Total je einen Strich, die anderen je einen Nuller. Bei drei Spielern erhält nur der niedrigste einen Strich, der höchste einen Nuller, der mittlere geht leer aus.
-
-*Keywords: Hindersi, wenige punkte, vermeiden, misère, alle stiche*
 
 ---
 

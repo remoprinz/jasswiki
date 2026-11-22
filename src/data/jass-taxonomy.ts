@@ -153,7 +153,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         items: [
           { name: 'Pandur', description: '24 Karten, streng nach Regeln: Ein Fehler kostet das laufende Spiel', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
           { name: 'Bieter', description: '36 Karten, ein König gegen die Bauernpartei', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: WIKIDATA.JASS },
-          { name: 'Aucho', description: '«Erben»-Prinzip: Geber erhält Partner-Punkte', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: WIKIDATA.JASS },
+          { name: 'Aucho', description: '«Erben»-Prinzip: Geber erhält Partner-Punkte', wikidataId: 'Q137739254', link: '/varianten/aucho-4-spieler/', subclassOf: WIKIDATA.JASS },
           { name: 'Schafhauser', description: 'Kein Bieten, Solospieler durch Karten bestimmt', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: WIKIDATA.JASS },
         ],
       },
@@ -170,7 +170,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         description: 'Ziel: möglichst wenige Punkte.',
         items: [
           { name: 'Molotow', description: 'Wer als Erster nicht bedienen kann, bestimmt mit seiner Karte den Trumpf. Ein Tischweis zählt plus', wikidataId: 'Q137738837', link: '/varianten/molotow/', subclassOf: WIKIDATA.JASS },
-          { name: 'Hindersi', description: 'Einfache Punkteminimierung', wikidataId: 'Q137738838', link: '/varianten/hindersi-allgemein/', subclassOf: WIKIDATA.JASS },
+          { name: 'Hindersi', description: 'Einfache Punkteminimierung', wikidataId: 'Q137738838', link: '/varianten/hindersi-4-spieler/', subclassOf: WIKIDATA.JASS },
         ],
       },
       {
@@ -239,7 +239,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Sonderkarten = ROLLEN (nur bei Trumpf)',
         description: 'Puur und Nell sind keine Karten, sondern ROLLEN, die Karten bei Trumpf annehmen.',
         items: [
-          { name: 'Puur', description: 'ROLLE: Under wird zum höchsten Trumpf, 20 Punkte', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-puur/', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Puur', description: 'ROLLE: Under wird zum höchsten Trumpf, 20 Punkte', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-bauer/', instanceOf: WIKIDATA.GAME_MECHANIC },
           { name: 'Nell', description: 'ROLLE: 9 wird zum zweithöchsten Trumpf, 14 Punkte', wikidataId: 'Q137738725', link: '/begriffe/kartenbezeichnungen/nell/', instanceOf: WIKIDATA.GAME_MECHANIC },
         ],
       },

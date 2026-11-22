@@ -3,7 +3,7 @@ title: "JassWiki.ch - Jass-Glossar"
 description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 66
+entries_count: 62
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -29,7 +29,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Blatt](#expressions_blatt)
 - [Blinder](#expressions_blinder)
 - [Bock](#expressions_bock)
-- [Bodentrumpf](#expressions_bodentrumpf)
 - [Brättli](#expressions_braettli)
 - [Grundlagen](#expressions_basic_terms)
 - [Handkarten](#expressions_handkarten)
@@ -37,7 +36,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Leih halten](#expressions_leih_halten)
 - [Lukas](#expressions_lukas)
 - [Matsch](#expressions_matsch)
-- [Matschprämie](#expressions_matschpraemie)
 - [Nell](#expressions_nell)
 - [Nuller](#expressions_nuller)
 - [Partie](#expressions_partie)
@@ -53,11 +51,9 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Streichpasse](#expressions_streichpasse)
 - [Strich](#expressions_striche)
 - [Team](#expressions_team)
-- [Trumpf Puur](#trumpf_bauer)
 - [Trumpf-Bauer](#expressions_trumpf_bauer)
 - [Vorhand](#expressions_vorhand)
 - [Bauernpartei](#expressions_bauernpartei)
-- [Bockkarte](#expressions_bockkarte)
 - [Fort](#expressions_fort)
 - [Hindersi](#expressions_hindersi)
 - [Joker/Knecht](#expressions_joker)
@@ -273,33 +269,16 @@ Bei der Jassart Schnüffler:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Als Bock wird die höchste Karte bezeichnet, die in einer Farbe noch im Spiel ist
+• Als Bock oder Bockkarte wird die höchste Karte bezeichnet, die in einer Farbe noch im Spiel ist
 • In ihrer Farbe schlägt sie jede andere Karte, stechen kann sie nur ein Trumpf
 
 **Häufige Fragen:**
 - **Was ist ein Bock beim Jassen?** Ein Bock ist die höchste Karte, die in einer Farbe noch im Spiel ist. Nur ein Trumpf sticht sie.
 - **Wie kann ein Bock geschlagen werden?** Ein Bock kann nur durch Trumpfkarten oder durch eine höhere Karte der gleichen Farbe geschlagen werden.
 - **Wann hat man einen Bock?** Man hat einen Bock, wenn man die höchste Karte einer bestimmten Farbe hält, die im Spiel noch nicht gefallen ist.
+- **Was ist eine Bockkarte?** Die Bockkarte, kurz der Bock, ist die höchste Karte, die in einer Farbe noch im Spiel ist.
 
 *Keywords: bock, bockkarte, höchste karte*
-
----
-
-### Bodentrumpf {#expressions_bodentrumpf}
-
-**Kategorie:** Begriffe > Kartenbezeichnungen
-
-Definition:
-• Der Bodentrumpf ist die unterste Karte, die nach dem Abheben sichtbar wird
-• Diese Karte zeigt die Trumpffarbe an und bestimmt damit, welche Farbe im aktuellen Spiel die stärkste ist
-• Alle spielen also mit demselben Trumpf, den keiner gewählt hat
-
-**Häufige Fragen:**
-- **Was ist der Bodentrumpf?** Der Bodentrumpf ist die unterste Karte, die nach dem Abheben sichtbar wird und die Trumpffarbe anzeigt.
-- **Wie wird die Trumpffarbe beim Bodentrumpf bestimmt?** Die Farbe der untersten Karte nach dem Abheben bestimmt, welche Farbe Trumpf ist.
-- **Bei welchen Jassvarianten spielt man mit Bodentrumpf?** Bodentrumpf wird vor allem bei einfacheren Jassvarianten und Lernspielen verwendet.
-
-*Keywords: bodentrumpf, boden-trumpf*
 
 ---
 
@@ -473,27 +452,6 @@ Ein Matsch gibt 1 Strich. Macht das Team, das den Trumpf nicht angesagt hat, all
 - **Wie viele Punkte gibt ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch gibt 157 Punkte plus 100 Matschprämie, mal vier gerechnet: zusammen 1028 Punkte.
 
 *Keywords: matsch, matschprämie*
-
----
-
-### Matschprämie {#expressions_matschpraemie}
-
-**Kategorie:** Begriffe > Punktebegriffe
-
-Wer einen Matsch macht, schreibt 100 Punkte zusätzlich. Diese 100 heissen Matschprämie oder Matchbonus, beide Wörter sind am Tisch gebräuchlich. Eine Runde kann vor der Partie eine andere Höhe abmachen.
-
-## Mit einem Multiplikator
-
-Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Kartenpunkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.
-
-**Häufige Fragen:**
-- **Was ist die Matschprämie?** Die Matschprämie, am Tisch auch Matchbonus genannt, sind 100 Punkte zusätzlich für die Partei, die einen Matsch macht.
-- **Wie hoch ist die Matschprämie?** Standardmässig beträgt die Matschprämie 100 Extrapunkte, kann aber durch Vereinbarung abweichend festgelegt werden.
-- **Wie wird die Matschprämie mit einem Multiplikator berechnet?** Wird mit einem Multiplikator gespielt, wird die Matschprämie ebenfalls mit diesem Faktor multipliziert.
-- **Wie viele Punkte gibt ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch gibt 157 Punkte plus 100 Matschprämie, mal vier gerechnet: zusammen 1028 Punkte.
-- **Kann die Matschprämie abweichend vereinbart werden?** Ja, die Höhe der Matschprämie kann abweichend von den Standard-100 Punkten vereinbart werden.
-
-*Keywords: matschprämie, matsch, prämie, multiplikator, extrapunkte*
 
 ---
 
@@ -811,38 +769,13 @@ Grundkonzept:
 
 ---
 
-### Trumpf Puur {#trumpf_bauer}
-
-**Kategorie:** Begriffe > Kartenbezeichnungen
-
-Definition:
-• Der Puur (auch Buur oder Bauer) ist die höchste Karte in einem Trumpfspiel
-
-Entstehung:
-• Der Under von der Trumpffarbe wird zum Puur
-
-Spezialfall:
-• Der Puur muss nicht angegeben werden
-
-Eigenschaften:
-• Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste Karte der Trumpffarbe, im Stechen wie im Zählen
-
-**Häufige Fragen:**
-- **Was ist der Puur?** Der Puur (auch Buur oder Bauer) ist die höchste Karte in einem Trumpfspiel.
-- **Wie entsteht der Puur?** Der Under von der Trumpffarbe wird zum Puur.
-- **Muss der Puur angegeben werden?** Nein, der Puur muss nicht angegeben werden.
-- **Welche Eigenschaften hat der Trumpf-Bauer?** Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste Karte der Trumpffarbe, im Stechen wie im Zählen.
-
-*Keywords: trumpf, puur, bauer, buur, bueb*
-
----
-
 ### Trumpf-Bauer {#expressions_trumpf_bauer}
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
 • Der Trumpf-Bauer, auch Trumpf-Under oder Trumpf-Bube genannt, ist die höchste und zugleich die wertvollste Karte einer Trumpffarbe
+• Der Under der Trumpffarbe wird zum Puur, auch Buur oder Bauer genannt
 
 Besonderheit:
 • Der Trumpf Puur muss als einzige Karte nicht gefarbt werden, wenn Trumpf ausgespielt ist.
@@ -898,24 +831,6 @@ Die beiden Bauern spielen zusammen gegen den König und müssen ihn daran hinder
 - **Bei welcher Jassvariante gibt es die Bauernpartei?** Die Bauernpartei gibt es bei der Jassart Bieter (auch Steiger genannt).
 
 *Keywords: bauernpartei, bieter, steiger*
-
----
-
-### Bockkarte {#expressions_bockkarte}
-
-**Kategorie:** Begriffe > Kartenbezeichnungen
-
-Definition:
-• Die Bockkarte, kurz der Bock, ist die höchste Karte einer Farbe
-• Solange sie oben ist, holt sie den Stich, und nur ein Trumpf kann sie noch schlagen
-• Diese Position macht sie zu einer besonders wertvollen Karte im Spiel
-
-**Häufige Fragen:**
-- **Was ist eine Bockkarte?** Die Bockkarte, kurz der Bock, ist die höchste Karte einer Farbe.
-- **Wie kann eine Bockkarte geschlagen werden?** Eine Bockkarte kann nur durch Trumpfkarten geschlagen werden.
-- **Welche Karte ist die Bockkarte bei Trumpf?** Bei Trumpffarben ist der Trumpf-Bauer (Puur) die höchste Karte. Bei anderen Farben ist es normalerweise das Ass.
-
-*Keywords: bockkarte*
 
 ---
 
@@ -1114,7 +1029,7 @@ Anforderung:
 | zu fünft | die genannte Karte und 4 weitere |
 | zu sechst | die genannte Karte und 5 weitere |
 
-«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs. Die genannte Karte sagt, wie hoch er reicht.
+«Puur zu dritt» heisst also: der [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) und zwei weitere Trumpfkarten, zusammen drei. «Nell zu viert» heisst: das [Nell](/begriffe/kartenbezeichnungen/nell/) und drei weitere, zusammen vier. Welche die weiteren Karten sind, bleibt offen. Gezählt wird die Länge des Trumpfs. Die genannte Karte sagt, wie hoch er reicht.
 
 ## Wozu die Zählung dient
 
@@ -1333,7 +1248,7 @@ Kontern verdoppelt die Zielpunkte ein zweites Mal. Der [Kontermatsch](/regeln/pu
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen Blatt, französisch Carreau, in Deutschland Karo. Sie liegt überall dort auf dem Tisch, wo mit französischen Karten gejasst wird, westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Eichel](/begriffe/kartenbezeichnungen/eichel/). Bei Trumpf Ecke zählt der Ecke-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) 20 Punkte und die Ecke-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Heisst Ecke auch Karo?** Ja. Ecke ist das Schweizer Wort, in Deutschland heisst die Farbe Karo, auf Französisch Carreau.
@@ -1348,7 +1263,7 @@ Ecke heisst in der Schweiz die Farbe mit der roten Raute ♦ im französischen B
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau, in Deutschland Karo). Der Eichel-König und der Ecke-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die Eichel. Der Eichel-Under hält auf dem Kartenbild zwei Eichelzweige in den Händen. Im französischen Blatt heisst dieselbe Farbe [Ecke](/begriffe/kartenbezeichnungen/ecke/) (♦, französisch Carreau, in Deutschland Karo). Der Eichel-König und der Ecke-König sind dieselbe Karte in zwei Blättern. Ist Eichel Trumpf, wird der Eichel-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Eichel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Eichel im französischen Blatt?** Ecke, mit dem Zeichen ♦, französisch Carreau. In Deutschland heisst die Farbe Karo.
@@ -1363,7 +1278,7 @@ Eichel ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist die
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch Cœur. Gejasst wird damit westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Rosen](/begriffe/kartenbezeichnungen/rosen/). Wird Herz Trumpf, sind der Herz-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Herz-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch Cœur. Gejasst wird damit westlich der Brünig-Napf-Reuss-Linie. Im Deutschschweizer Blatt heisst dieselbe Farbe [Rosen](/begriffe/kartenbezeichnungen/rosen/). Wird Herz Trumpf, sind der Herz-Bube als [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Herz-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Herz im Deutschschweizer Blatt?** Rosen. Der Herz-König und der Rosen-König sind dieselbe Karte.
@@ -1378,7 +1293,7 @@ Herz ist die rote Farbe mit dem Herz ♥ im französischen Blatt, französisch C
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Der Kreuz-König und der Schellen-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brünig-Napf-Reuss-Linie gebräuchlich ist. Ihr Zeichen ist das schwarze Kreuz ♣, französisch Trèfle. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schellen](/begriffe/kartenbezeichnungen/schellen/). Der Kreuz-König und der Schellen-König sind also dieselbe Karte. Ist Kreuz Trumpf, wird der Kreuz-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Kreuz-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Kreuz im Deutschschweizer Blatt?** Schellen. Der Kreuz-König und der Schellen-König sind dieselbe Karte.
@@ -1393,7 +1308,7 @@ Kreuz ist eine der vier Farben des französischen Blatts, das westlich der Brün
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die Rose, gelb mit roter Mitte, und der Rosen-Under hält auf dem Kartenbild eine Rose in der Hand und raucht Pfeife. Im französischen Blatt heisst dieselbe Farbe [Herz](/begriffe/kartenbezeichnungen/herz/) (♥, französisch Cœur). Wird Rosen Trumpf, sind der Rosen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Rosen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die Rose, gelb mit roter Mitte, und der Rosen-Under hält auf dem Kartenbild eine Rose in der Hand und raucht Pfeife. Im französischen Blatt heisst dieselbe Farbe [Herz](/begriffe/kartenbezeichnungen/herz/) (♥, französisch Cœur). Wird Rosen Trumpf, sind der Rosen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Rosen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14 die beiden höchsten Karten. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Rosen im französischen Blatt?** Herz, mit dem Zeichen ♥, französisch Cœur.
@@ -1408,7 +1323,7 @@ Rosen ist eine der vier Farben des Deutschschweizer Blatts. Ihr Zeichen ist die 
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Westlich der Brünig-Napf-Reuss-Linie liegt statt Schilten die Schaufel auf dem Tisch. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im französischen Blatt, französisch Pique, in Deutschland Pik. Im Deutschschweizer Blatt heisst dieselbe Farbe [Schilten](/begriffe/kartenbezeichnungen/schilten/), der Schaufel-König und der Schilten-König sind dieselbe Karte. Westlich der Brünig-Napf-Reuss-Linie liegt statt Schilten die Schaufel auf dem Tisch. Ist Schaufel Trumpf, wird der Schaufel-Bube zum [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Schaufel-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Heisst Schaufel auch Pik?** Ja. Schaufel ist das Schweizer Wort, in Deutschland heisst die Farbe Pik, auf Französisch Pique.
@@ -1423,7 +1338,7 @@ Schaufel heisst in der Schweiz die schwarze Farbe mit dem Zeichen ♠ im franzö
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle). Der Schellen-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist die Schelle, ein kleines Glöckchen, und der Schellen-Under ist der Narr des Blatts, mit Narrenkragen und Pfeife. Im französischen Blatt heisst dieselbe Farbe [Kreuz](/begriffe/kartenbezeichnungen/kreuz/) (♣, französisch Trèfle). Der Schellen-König und der Kreuz-König sind dieselbe Karte in zwei Blättern. Bei Trumpf Schellen zählt der Schellen-Under als [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) 20 Punkte und die Schellen-Neun als [Nell](/begriffe/kartenbezeichnungen/nell/) 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Schellen im französischen Blatt?** Kreuz, mit dem Zeichen ♣, französisch Trèfle.
@@ -1438,7 +1353,7 @@ Schellen ist eine der vier Farben des Deutschschweizer Blatts. Das Zeichen ist d
 
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
-Schilten ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist der Schild. Der Schilten-Under trägt auf dem Kartenbild einen Brief in der Hand. Im französischen Blatt heisst dieselbe Farbe [Schaufel](/begriffe/kartenbezeichnungen/schaufel/) (♠, französisch Pique), in Deutschland Pik, der Schilten-König und der Schaufel-König sind dieselbe Karte. Ist Schilten Trumpf, wird der Schilten-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-puur/) mit 20 Punkten und die Schilten-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
+Schilten ist eine der vier Farben des Deutschschweizer Blatts, ihr Zeichen ist der Schild. Der Schilten-Under trägt auf dem Kartenbild einen Brief in der Hand. Im französischen Blatt heisst dieselbe Farbe [Schaufel](/begriffe/kartenbezeichnungen/schaufel/) (♠, französisch Pique), in Deutschland Pik, der Schilten-König und der Schaufel-König sind dieselbe Karte. Ist Schilten Trumpf, wird der Schilten-Under zum [Puur](/begriffe/kartenbezeichnungen/trumpf-bauer/) mit 20 Punkten und die Schilten-Neun zum [Nell](/begriffe/kartenbezeichnungen/nell/) mit 14. Alle Karten beider Blätter zeigt der Artikel zu den [Jasskarten](/grundlagen-kultur/jasskarten/).
 
 **Häufige Fragen:**
 - **Wie heisst Schilten im französischen Blatt?** Schaufel, mit dem Zeichen ♠, französisch Pique. In Deutschland heisst die Farbe Pik.
