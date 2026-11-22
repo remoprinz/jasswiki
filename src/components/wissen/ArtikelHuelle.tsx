@@ -185,7 +185,7 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
         </div>
 
         <div data-baustein="rueckmeldung" className="border-t border-[#f0eee7]">
-          <RueckmeldungZeile artikel={titel} />
+          <RueckmeldungZeile artikel={titel} kennung={contentItem.id} />
         </div>
       </div>
     </LexikonLayout>
