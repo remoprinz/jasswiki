@@ -141,8 +141,8 @@ const WissenHomePage = () => {
     return (
         <>
             <SeoHead
-                title="JassWiki: Alles rund ums Jassen"
-                description="Die vollständige Referenz für das Schweizer Nationalspiel: Offizielle Spielregeln, Weis, Varianten, Strategien und Jass-Begriffe verständlich erklärt."
+                title="JassWiki: Jass, Jassregeln und alles rund ums Jassen"
+                description="Das Lexikon zum Jass, dem Schweizer Nationalspiel: Spielregeln, Weis, Varianten, Strategien und Jass-Begriffe verständlich erklärt."
             />
             <LexikonLayout breadcrumbItems={breadcrumbItems}>
 
