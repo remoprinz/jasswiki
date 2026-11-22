@@ -118,6 +118,17 @@ function findeVideo(knoten) {
 
 const videoCache = new Map();
 
+/** true, wenn der Film auf eine Anfrage nach dem ersten Byte mit 200 oder 206 antwortet. */
+async function filmLebt(url) {
+  try {
+    const a = await fetch(url, { headers: { Range: 'bytes=0-0' }, signal: AbortSignal.timeout(10000) });
+    await a.body?.cancel();
+    return a.status === 200 || a.status === 206;
+  } catch {
+    return false;
+  }
+}
+
 /** Das VideoObject der Tagesseite als Video-Daten des Bausteins JdtVideo, sonst null. */
 async function videoDerTagesseite(blatt) {
   if (videoCache.has(blatt.datum)) return videoCache.get(blatt.datum);
@@ -152,6 +163,10 @@ async function videoDerTagesseite(blatt) {
   } catch {
     ergebnis = null;
   }
+  // Der Film muss noch antworten: Der Speicher löscht ältere Sendungen
+  // (A1, FALLE 22.11.2026). Ein totes Video zählt wie keines, der Erzeuger
+  // nimmt dann das nächstältere Blatt.
+  if (ergebnis?.mp4 && !(await filmLebt(ergebnis.mp4))) ergebnis = null;
   videoCache.set(blatt.datum, ergebnis);
   return ergebnis;
 }
