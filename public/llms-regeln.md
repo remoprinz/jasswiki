@@ -554,32 +554,32 @@ Ausnahme hindersi-Spiele:
 
 **Kategorie:** Regeln > Fehler & Verstösse
 
-Grundregel:
-Wer die ausgespielte Farbe noch hat, muss farben. Mit einer Trumpfkarte darf die ausgespielte Farbe immer abgestochen werden (ausser bei Untertrumpfen).
+Wer die ausgespielte Farbe hat, muss sie spielen. Am Tisch heisst das farben oder Farbe angeben. Mit einer Trumpfkarte darf man die ausgespielte Farbe immer abstechen, ausser beim Untertrumpfen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist. Wer die Farbe nicht hat, darf eine beliebige Karte spielen.
 
-Was die Strafe kostet:
+Wer die Farbe hat und trotzdem eine andere Karte spielt, begeht ein Nichtfarben. Was das kostet, steht in den folgenden Abschnitten.
 
-Fall 1: Wird der Regelverstoss noch während des laufenden Stiches festgestellt (Karten sind noch nicht gekehrt):
-• Der laufende Stich geht an die Gegner
-• Die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht
-• Beide Karten verlieren den Stechwert, während der Zählwert erhalten bleibt
+## Fehler im laufenden Stich
 
-Spezialfall mehrere Karten:
-• Hält der fehlbare Spieler noch mehrere nicht gefarbte Karten in der Hand, dann muss er die höchste abgeben (ausser den Puur, da dieser sowieso nicht ausgespielt werden muss)
+Wird der Regelverstoss noch während des laufenden Stiches festgestellt (die Karten sind noch nicht gekehrt):
+- Der laufende Stich geht an die Gegner.
+- Die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht.
+- Beide Karten verlieren den Stechwert, der Zählwert bleibt erhalten.
 
-Nächster Stich:
-• Den nächsten Stich (falls noch einer folgt) spielt der rechts vom fehlbaren Spieler sitzende Jasser aus
-• Ausnahme: Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter
+**Mehrere Karten:** Hält der fehlbare Spieler noch mehrere nicht gefarbte Karten in der Hand, muss er die höchste abgeben. Ausgenommen ist der Puur, da dieser sowieso nicht ausgespielt werden muss.
 
-Fall 2: Späte Entdeckung (Karten sind schon gekehrt):
-• Wird das Nichtfarben zu spät festgestellt, gehen dieser Stich und alle weiteren an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet
+**Nächster Stich:** Den nächsten Stich (falls noch einer folgt) spielt der Jasser aus, der rechts vom fehlbaren Spieler sitzt. Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter.
 
-Ausnahmefälle:
-• Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (z.B. Misère), wird die Regel nicht angewendet
+## Fehler nach dem Kehren
 
-Hinweis zur Praxis:
-• Viele Runden nehmen es weniger streng
-• Beide Karten verlieren zwar den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden
+Wird das Nichtfarben zu spät festgestellt (die Karten sind schon gekehrt), gehen dieser Stich und alle weiteren an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet.
+
+## Ausnahmen
+
+Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (zum Beispiel Misère), wird die Regel nicht angewendet.
+
+## Praxis am Tisch
+
+Viele Runden nehmen es weniger streng: Beide Karten verlieren zwar den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden.
 
 **Häufige Fragen:**
 - **Muss man die ausgespielte Farbe bedienen?** Wer Karten der ausgespielten Farbe besitzt, muss diese bekennen.
@@ -589,6 +589,7 @@ Hinweis zur Praxis:
 - **Was passiert, wenn Nichtfarben zu spät entdeckt wird?** Dieser Stich und alle weiteren gehen an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet.
 - **Gilt die Nichtfarben-Regel auch bei Misère?** Nein, bei Spielarten wie Misère, bei denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren, wird die Regel nicht angewendet.
 - **Können Gegner beim Nichtfarben kulant sein?** Ja, oft zeigen sich die Gegner kulant. Beide Karten verlieren dann den Stechwert, aber die Stiche nach dem Fehler bleiben dort, wo sie gewonnen wurden.
+- **Was darf man spielen, wenn man die Farbe nicht hat?** Eine beliebige Karte, auch einen Trumpf.
 
 *Keywords: nichtfarben, nicht farben, nicht angeben, nicht angegeben, angeben*
 
@@ -646,24 +647,34 @@ Beispiele erlaubter Fragen:
 
 **Kategorie:** Regeln > Regelgrundlagen
 
-Grundregeln:
-Diese Regeln gelten in fast allen Jassarten.
+Diese Regeln gelten in fast allen Jassarten. Jede Jassart baut auf ihnen auf und ändert Kartenzahl, Stichzahl oder Wertung.
 
-Kernregeln:
-• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
-• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
-• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
+## Der Ablauf eines Spiels
 
-Ausnahmen:
-Je nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
+- **Reihenfolge:** Gespielt wird im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
+- **Stich:** Jeder legt eine Karte, vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe.
+- **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
+- **Spielende:** Nach neun Stichen ist das Spiel fertig. Gezählt werden Kartenpunkte, Wys, Stöck, Matsch und der letzte Stich.
 
-Wenn jemand gegen eine Regel verstösst:
+## Die Kernregeln
+
+- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+- **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
+
+## Abweichungen
+
+Je nach Jassart gelten kleine Abweichungen. Was eine Runde vor dem Spiel abmacht, gilt als Tischregel.
+
+## Wenn jemand gegen eine Regel verstösst
+
 Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
 
 **Häufige Fragen:**
 - **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
 - **Muss man beim Jassen die Farbe angeben?** Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.
 - **Darf man beim Jassen untertrumpfen?** In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann.
+- **In welche Richtung wird beim Jassen gespielt?** Im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
+- **Wie viele Stiche hat ein Jass-Spiel?** Neun. Nach neun Stichen ist das Spiel fertig.
 
 *Keywords: abheben, ablupfen, mischen, ansagen, grundregeln*
 
@@ -886,7 +897,21 @@ In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattd
 
 **Kategorie:** Regeln > Punktezählung
 
-Beim Schieber hängt der Wert der Karten von der Ansage ab:
+Beim Schieber hängt der Wert der Karten von der Ansage ab. Die Tabelle zeigt die Werte bei Trumpf, Obenabe und Undenufe. In jeder dieser Ansagen zählen die Karten zusammen 152 Punkte, mit dem letzten Stich 157.
+
+| Karte | Trumpffarbe | Übrige Farben bei Trumpf | Obenabe | Undenufe |
+|---|---|---|---|---|
+| Ass | 11 | 11 | 11 | 0 |
+| König | 4 | 4 | 4 | 4 |
+| Ober | 3 | 3 | 3 | 3 |
+| Under | 20 (Puur) | 2 | 2 | 2 |
+| Banner | 10 | 10 | 10 | 10 |
+| Neuner | 14 (Nell) | 0 | 0 | 0 |
+| Achter | 0 | 0 | 8 | 8 |
+| Siebner | 0 | 0 | 0 | 0 |
+| Sechser | 0 | 0 | 0 | 11 |
+
+Je Ansage im Einzelnen:
 
 **Obenabe:**
 • Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte
@@ -908,6 +933,7 @@ Beim Schieber hängt der Wert der Karten von der Ansage ab:
 • Das Jass-Wiki empfiehlt, dass nur die Asse 11 Punkte geben, gleich, ob Obe oder Unde begonnen wird
 
 **Häufige Fragen:**
+- **Was zählen die Karten bei Trumpf?** In der Trumpffarbe zählt der Puur 20, das Nell 14, das Ass 11, das Banner 10, der König 4 und der Ober 3 Punkte. In den übrigen Farben zählen Ass 11, Banner 10, König 4, Ober 3 und Under 2 Punkte.
 - **Wie werden Punkte beim Obenabe gezählt?** Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte.
 - **Wie werden Punkte beim Undenufe gezählt?** Beim Undenufe zählen die Sechser je 11 Punkte und die Achter 8 Punkte.
 - **Was gilt beim Slalom?** Beim Slalom zählen entweder die Asse ODER die Sechser je 11 Punkte, je nachdem ob Obenabe oder Undenufe angefangen wird. Die Achter zählen immer 8 Punkte.
@@ -1089,20 +1115,22 @@ Vorgehensweise:
 
 **Kategorie:** Regeln > Punktezählung
 
-Grundkonzept:
-Beim Jassen gibt es wichtige Punkteregeln, die das Zählen und Stechen betreffen.
+Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 Punkte für den letzten Stich. Was die einzelnen Karten zählen, hängt von der Ansage ab.
 
-Letzter Stich:
-• Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte (Ausnahmen: Cinq Cents und Doppelkart)
-• Die 5 Punkte für den letzten Stich gehören zu den Kartenpunkten dazu und stecken in den 157 Punkten eines Spiels
-• Ein komplettes Spiel zählt insgesamt 157 Punkte
+## Was zu den Kartenpunkten dazukommt
 
-Stechregeln:
-• Im Trumpf kann jeder Trumpf alle Farben stechen
-• Bei Obenabe und Undenufe gewinnt den Stich nur, wer dieselbe Farbe legt
+- **Letzter Stich:** Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Sie gehören zu den Kartenpunkten und stecken in den 157 Punkten. Ausnahmen sind Cinq Cents und Doppelkart-Spiele.
+- **Wys:** Kartenfolgen ab drei Karten und vier Gleiche zählen zusätzlich.
+- **Stöck:** König und Ober der Trumpffarbe zählen 20 Punkte.
+- **Matsch:** Wer alle neun Stiche macht, schreibt 100 Punkte Matschprämie dazu.
+
+## Stechregeln
+
+- Im Trumpf kann jeder Trumpf alle Farben stechen.
+- Bei Obenabe und Undenufe gewinnt den Stich nur, wer dieselbe Farbe legt.
 
 **Häufige Fragen:**
-- **Welche Punkteregeln muss man beim Jassen kennen?** Beim Jassen gibt es wichtige Punkteregeln, die das Zählen und Stechen betreffen.
+- **Wie zählt man die Punkte beim Jassen?** Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 für den letzten Stich. Dazu kommen Wys, Stöck und bei einem Matsch 100 Punkte Matschprämie.
 - **Wie viele Punkte zählt der letzte Stich?** Der letzte Stich zählt zusätzlich 5 Punkte (ausser bei Cinq Cents und Doppelkart).
 - **Wie viele Punkte hat ein komplettes Jass-Spiel?** Ein komplettes Spiel zählt insgesamt 157 Punkte.
 - **Können beim Obenabe Karten über alle Farben stechen?** Nein. Bei Obenabe und Undenufe gewinnt den Stich nur, wer dieselbe Farbe legt. Nur im Trumpf sticht eine Karte über die Farben hinweg.

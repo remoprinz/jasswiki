@@ -497,20 +497,25 @@ Definition:
 
 **Kategorie:** Begriffe > Punktebegriffe
 
-Definition:
-• Matsch heisst: Ein Team macht alle neun Stiche eines Spiels
+Matsch heisst: Ein Team macht alle neun Stiche eines Spiels.
 
-Belohnung:
-• Das wird in der Regel mit einer Matschprämie belohnt, die je nach Spielvariante unterschiedlich hoch ausfällt
+## Die Matschprämie
 
-Seltenheit:
-• Beim Schieber beträgt die Matschprämie 100 Extrapunkte.
+Wer einen Matsch macht, schreibt 100 Punkte zusätzlich. Diese 100 heissen Matschprämie oder Matchbonus, beide Wörter sind am Tisch gebräuchlich. Ein Matsch zählt damit 257 Punkte: 157 Kartenpunkte samt letztem Stich und 100 Prämie. Eine Runde kann vor der Partie eine andere Höhe abmachen. In anderen Jassarten fällt die Prämie unterschiedlich hoch aus.
+
+Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Kartenpunkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.
+
+## Striche
+
+Ein Matsch gibt 1 Strich. Macht das Team, das den Trumpf nicht angesagt hat, alle Stiche, ist das ein Kontermatsch. Er zählt 2 Striche.
 
 **Häufige Fragen:**
 - **Was ist ein Matsch beim Jassen?** Ein Matsch heisst: Ein Team macht alle neun Stiche eines Spiels.
 - **Wie viele Punkte gibt ein Matsch?** Ein Matsch gibt 257 Punkte (alle Kartenpunkte + 5 für letzten Stich + Matschprämie von 100 Punkten).
 - **Wie viele Striche gibt ein Matsch?** Ein Matsch gibt 1 Strich.
 - **Was ist der Unterschied zwischen Matsch und Kontermatsch?** Matsch: Das trumpfansagende Team macht alle Stiche (1 Strich). Kontermatsch: Das nicht-trumpfansagende Team macht alle Stiche (2 Striche).
+- **Was ist die Matschprämie?** Die Matschprämie, am Tisch auch Matchbonus genannt, sind 100 Punkte zusätzlich für das Team, das einen Matsch macht. Eine Runde kann vor der Partie eine andere Höhe abmachen.
+- **Wie viele Punkte gibt ein vierfacher Matsch mit Matschprämie?** Ein vierfacher Matsch gibt 157 Punkte plus 100 Matschprämie, mal vier gerechnet: zusammen 1028 Punkte.
 
 *Keywords: matsch, matschprämie*
 

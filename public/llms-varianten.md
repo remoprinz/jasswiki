@@ -1641,7 +1641,7 @@ Weil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden
 
 **Kategorie:** Ansagen > Trumpf
 
-Einer der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.
+Eine der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.
 
 ## Die vier Farben
 
@@ -1660,7 +1660,10 @@ Innerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei sonst unscheinbare 
 
 Eine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/) und vom [Coiffeur](/varianten/coiffeur/). Wer nicht selber bestimmen will, kann schieben und die Wahl dem Partner überlassen. Daneben gibt es Ansagen ganz ohne Trumpf, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/), und eine mit allen vier Farben als Trumpf zugleich: das [Tutti](/ansagen/tutti/).
 
+In manchen Jassarten bestimmt keine Ansage den Trumpf. Dort zeigt eine aufgedeckte Karte die Trumpffarbe an, der Bodentrumpf.
+
 **Häufige Fragen:**
+- **Was ist Trumpf beim Jassen?** Trumpf sind die Karten der angesagten Farbe. Jede Trumpfkarte sticht jede Karte einer anderen Farbe.
 - **Was ist die höchste Karte beim Jassen?** Im Trumpf ist der Puur die höchste Karte. Das ist der Under der angesagten Trumpffarbe, und er zählt 20 Punkte. Zweithöchste ist das Nell, die Neun der Trumpffarbe, mit 14 Punkten.
 - **Wie viele Punkte zählen Puur und Nell?** Der Puur zählt 20 Punkte, das Nell 14. So hoch zählen Under und Neun nur in der angesagten Trumpffarbe, sonst behalten sie ihren tiefen Wert.
 - **Welche Farben kann man als Trumpf ansagen?** Jede der vier Farben: Eichel, Rosen, Schellen oder Schilten. Im französischen Blatt heissen sie Ecke, Herz, Kreuz und Schaufel.

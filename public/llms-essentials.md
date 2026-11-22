@@ -146,24 +146,34 @@ In der Arena von JassGuru jasst man Schieber online, mit den eigenen Jassfreunde
 
 **Kategorie:** Regeln > Regelgrundlagen
 
-Grundregeln:
-Diese Regeln gelten in fast allen Jassarten.
+Diese Regeln gelten in fast allen Jassarten. Jede Jassart baut auf ihnen auf und ändert Kartenzahl, Stichzahl oder Wertung.
 
-Kernregeln:
-• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
-• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
-• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
+## Der Ablauf eines Spiels
 
-Ausnahmen:
-Je nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
+- **Reihenfolge:** Gespielt wird im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
+- **Stich:** Jeder legt eine Karte, vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe.
+- **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
+- **Spielende:** Nach neun Stichen ist das Spiel fertig. Gezählt werden Kartenpunkte, Wys, Stöck, Matsch und der letzte Stich.
 
-Wenn jemand gegen eine Regel verstösst:
+## Die Kernregeln
+
+- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+- **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
+
+## Abweichungen
+
+Je nach Jassart gelten kleine Abweichungen. Was eine Runde vor dem Spiel abmacht, gilt als Tischregel.
+
+## Wenn jemand gegen eine Regel verstösst
+
 Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
 
 **Häufige Fragen:**
 - **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
 - **Muss man beim Jassen die Farbe angeben?** Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.
 - **Darf man beim Jassen untertrumpfen?** In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann.
+- **In welche Richtung wird beim Jassen gespielt?** Im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
+- **Wie viele Stiche hat ein Jass-Spiel?** Neun. Nach neun Stichen ist das Spiel fertig.
 
 *Keywords: abheben, ablupfen, mischen, ansagen, grundregeln*
 
