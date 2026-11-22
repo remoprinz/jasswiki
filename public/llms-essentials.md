@@ -142,6 +142,33 @@ In der Arena von JassGuru jasst man Schieber online, mit den eigenen Jassfreunde
 
 ---
 
+### Grundregeln {#general_most_important_rules}
+
+**Kategorie:** Regeln > Regelgrundlagen
+
+Grundregeln:
+Diese Regeln gelten in fast allen Jassarten.
+
+Kernregeln:
+• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
+• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
+
+Ausnahmen:
+Je nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
+
+Wenn jemand gegen eine Regel verstösst:
+Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
+
+**Häufige Fragen:**
+- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
+- **Muss man beim Jassen die Farbe angeben?** Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.
+- **Darf man beim Jassen untertrumpfen?** In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann.
+
+*Keywords: abheben, ablupfen, mischen, ansagen, grundregeln*
+
+---
+
 ### Kartenwerte {#general_card_values}
 
 **Kategorie:** Regeln > Kartenwerte
@@ -171,33 +198,6 @@ In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattd
 - **Warum zählt der Achter bei Obenabe und Undenufe 8 Punkte?** Weil Puur und Nell wegfallen. Die vier Achter gleichen die fehlenden 32 Punkte aus, damit das Total 157 bleibt.
 
 *Keywords: kartenwerte, jass kartenwerte, punktewerte, kartenpunkte, 157 punkte*
-
----
-
-### Regelgrundlagen {#general_most_important_rules}
-
-**Kategorie:** Regeln > Regelgrundlagen
-
-Grundregeln:
-Diese Regeln gelten in fast allen Jassarten.
-
-Kernregeln:
-• **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
-• **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
-• **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
-
-Ausnahmen:
-Je nach Spielart gelten kleine Abweichungen. Vor dem Spiel sollten die geltenden Regeln geklärt werden.
-
-Wenn jemand gegen eine Regel verstösst:
-Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
-
-**Häufige Fragen:**
-- **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
-- **Muss man beim Jassen die Farbe angeben?** Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.
-- **Darf man beim Jassen untertrumpfen?** In Spielen, in denen man möglichst viele Punkte macht, darf untertrumpfen, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen darf auch untertrumpfen, wer die ausgespielte Farbe nicht bedienen kann.
-
-*Keywords: abheben, ablupfen, mischen, ansagen, grundregeln*
 
 ---
 
@@ -271,7 +271,7 @@ Bedeutung:
 
 ---
 
-### Weispunkte {#expressions_weis}
+### Wys {#expressions_weis}
 
 **Kategorie:** Weis-Regeln > Weispunkte
 

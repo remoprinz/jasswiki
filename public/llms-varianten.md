@@ -20,27 +20,27 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 
 ## Inhaltsverzeichnis
 
-- [Aucho (4 Spieler)](#variants_strategic_aucho_vier)
+- [Aucho](#variants_strategic_aucho_vier)
 - [Bieter](#variants_strategic_bieder)
 - [Differenzler](#variants_strategic_differenzler)
 - [Aucho (3 Spieler)](#variants_strategic_aucho_drei)
 - [Differenzler zu dritt](#variants_strategic_differenzler_drei)
-- [Hindersi (4 Spieler)](#variants_specialty_hindersi_vier)
+- [Hindersi](#variants_specialty_hindersi_vier)
 - [Palette](#variants_strategic_palette_jass)
 - [Aucho (2 Spieler)](#variants_strategic_aucho_zwei)
 - [Bolschewik (4 Spieler)](#variants_strategic_bolschewik)
-- [Einzel](#variants_family_einzel_coiffeur)
+- [Einzel-Coiffeur](#variants_family_einzel_coiffeur)
 - [Guggitaler](#variants_family_guggitaler)
-- [Handjass-Taktiken (3 Spieler)](#variants_strategic_handjass_bessern_drei)
-- [Handjass-Taktiken (Blinder)](#variants_strategic_handjass_blinder)
+- [Handjass mit Blinder](#variants_strategic_handjass_blinder)
+- [Handjass zu dritt](#variants_strategic_handjass_bessern_drei)
 - [Hindersi (3 Spieler)](#variants_specialty_hindersi_drei)
 - [Schafhauser (3 Spieler)](#variants_strategic_schafhauser)
 - [Glücksjass](#variants_family_gluecksjass)
-- [Handjass-Taktiken (2 Spieler)](#variants_two_player_handjass_bessern)
+- [Handjass zu zweit](#variants_two_player_handjass_bessern)
 - [Schaggi-Haas](#variants_two_player_schaggi_haas)
-- [Schaufel](#variants_specialty_schaufel_dame)
+- [Schaufel-Dame](#variants_specialty_schaufel_dame)
 - [Schnüffler (2 Spieler)](#variants_two_player_schnueffler)
-- [Stich](#variants_specialty_stich_differenzler)
+- [Stich-Differenzler](#variants_specialty_stich_differenzler)
 - [Zuger](#variants_specialty_zuger_drei)
 - [Bodentrumpf (4 Spieler)](#variants_learning_bodentrumpf_vier)
 - [Obenabe](#expressions_obenabe)
@@ -50,7 +50,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Quer](#expressions_guschti)
 - [Slalom/Zickzack](#expressions_slalom)
 - [Trio/3×3](#expressions_trio)
-- [Trumpffarbe](#expressions_trumpffarbe)
+- [Trumpf](#expressions_trumpffarbe)
 - [Tschau Sepp](#variants_learning_tschau_sepp)
 - [Sidi Barrani](#variants_strategic_sidi_barrani)
 - [Cinq Cents](#variants_two_player_cinq_cents)
@@ -78,7 +78,7 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 
 ## Einträge
 
-### Aucho (4 Spieler) {#variants_strategic_aucho_vier}
+### Aucho {#variants_strategic_aucho_vier}
 
 **Kategorie:** Varianten > Königsspiel
 
@@ -490,7 +490,7 @@ Im Übrigen gelten die gleichen Regeln wie beim Differenzler mit offener Ansage 
 
 ---
 
-### Hindersi (4 Spieler) {#variants_specialty_hindersi_vier}
+### Hindersi {#variants_specialty_hindersi_vier}
 
 **Kategorie:** Varianten > Vermeidungsspiel
 
@@ -675,7 +675,7 @@ Gewonnen hat, wer die vereinbarte Punktzahl (2000, 3000 oder 5000) zuerst erreic
 
 ---
 
-### Einzel {#variants_family_einzel_coiffeur}
+### Einzel-Coiffeur {#variants_family_einzel_coiffeur}
 
 **Kategorie:** Varianten > Einzelspiel
 
@@ -763,43 +763,7 @@ Wird ohne Domino gespielt, folgen fünf zusätzliche Spiele, bei denen sich die 
 
 ---
 
-### Handjass-Taktiken (3 Spieler) {#variants_strategic_handjass_bessern_drei}
-
-**Kategorie:** Varianten > Handjass
-
-Definition:
-Bei dieser Variante können die Spieler ihre Handkarten durch das «Bessern» verbessern.
-
-Spiel geben und Trumpf:
-• Jeder Spieler erhält zunächst neun Karten in drei Runden zu je drei Karten
-• Die neunte Karte des Kartengebers wird aufgedeckt und zeigt die Trumpffarbe an. Sie kann nicht geraubt werden
-• Von den verbleibenden neun Karten erhält jeder Spieler nochmals drei Karten zugeteilt, die jedoch zunächst verdeckt bleiben
-
-Bessern-Regeln:
-• Diese drei Karten können gegen drei beliebige Handkarten ausgetauscht werden, was als «bessern» bezeichnet wird
-• Beim «Bessern» müssen stets alle drei Karten getauscht werden
-• Zuerst werden die drei abzugebenden Handkarten abgelegt, danach werden die drei neuen Karten aufgenommen
-• Wer auf das «Bessern» verzichtet, kann die drei verdeckten Karten einsehen
-• Wer die drei neuen Karten aufnimmt, darf trotzdem noch passen
-
-Fehler beim Bessern:
-Werden beim «Bessern» versehentlich zu viele oder zu wenige Karten abgelegt, erhält der Spieler einen «Sack», während die Gegner beziehungsweise der Gegner je einen Strich gutgeschrieben bekommen.
-
-Übrige Regeln:
-In allen anderen Punkten entsprechen die Regeln denen des Handjass  für vier Spieler.
-
-**Häufige Fragen:**
-- **Wie spielt man den Handjass zu dritt mit Bessern?** Bei dieser Variante können die Spieler ihre Handkarten durch das «Bessern» verbessern.
-- **Was bedeutet «Bessern» beim Handjass für drei Spieler?** «Bessern» bedeutet, dass drei verdeckte Karten gegen drei beliebige Handkarten ausgetauscht werden können, um die Hand zu verbessern.
-- **Muss ich alle drei Karten beim Bessern tauschen?** Ja, beim «Bessern» müssen stets alle drei Karten getauscht werden. Es ist nicht möglich, nur eine oder zwei Karten zu tauschen.
-- **Muss ich mitspielen, wenn ich die drei neuen Karten aufnehme?** Wer die drei neuen Karten aufnimmt, darf trotzdem noch passen.
-- **Was passiert, wenn ich beim Bessern zu viele oder zu wenige Karten ablege?** Werden beim «Bessern versehentlich zu viele oder zu wenige Karten abgelegt, erhält der Spieler einen «Sack», während die Gegner je einen Strich gutgeschrieben bekommen.
-
-*Keywords: handjass bessern, drei spieler, karten verbessern, bessern regeln, drei karten tausch*
-
----
-
-### Handjass-Taktiken (Blinder) {#variants_strategic_handjass_blinder}
+### Handjass mit Blinder {#variants_strategic_handjass_blinder}
 
 **Kategorie:** Varianten > Handjass
 
@@ -837,6 +801,42 @@ In allen anderen Belangen entsprechen die Regeln denen des Handjass für vier Sp
 - **Wie viele Punkte brauche ich mindestens für einen Strich beim Handjass mit Blinden?** Pro Spiel kann nur der Spieler mit den meisten Punkten einen Strich notieren, vorausgesetzt er erreicht mindestens 21 Punkte.
 
 *Keywords: handjass blinder, drei spieler, blinder tausch, kartentausch, trumpf sechser*
+
+---
+
+### Handjass zu dritt {#variants_strategic_handjass_bessern_drei}
+
+**Kategorie:** Varianten > Handjass
+
+Definition:
+Bei dieser Variante können die Spieler ihre Handkarten durch das «Bessern» verbessern.
+
+Spiel geben und Trumpf:
+• Jeder Spieler erhält zunächst neun Karten in drei Runden zu je drei Karten
+• Die neunte Karte des Kartengebers wird aufgedeckt und zeigt die Trumpffarbe an. Sie kann nicht geraubt werden
+• Von den verbleibenden neun Karten erhält jeder Spieler nochmals drei Karten zugeteilt, die jedoch zunächst verdeckt bleiben
+
+Bessern-Regeln:
+• Diese drei Karten können gegen drei beliebige Handkarten ausgetauscht werden, was als «bessern» bezeichnet wird
+• Beim «Bessern» müssen stets alle drei Karten getauscht werden
+• Zuerst werden die drei abzugebenden Handkarten abgelegt, danach werden die drei neuen Karten aufgenommen
+• Wer auf das «Bessern» verzichtet, kann die drei verdeckten Karten einsehen
+• Wer die drei neuen Karten aufnimmt, darf trotzdem noch passen
+
+Fehler beim Bessern:
+Werden beim «Bessern» versehentlich zu viele oder zu wenige Karten abgelegt, erhält der Spieler einen «Sack», während die Gegner beziehungsweise der Gegner je einen Strich gutgeschrieben bekommen.
+
+Übrige Regeln:
+In allen anderen Punkten entsprechen die Regeln denen des Handjass  für vier Spieler.
+
+**Häufige Fragen:**
+- **Wie spielt man den Handjass zu dritt mit Bessern?** Bei dieser Variante können die Spieler ihre Handkarten durch das «Bessern» verbessern.
+- **Was bedeutet «Bessern» beim Handjass für drei Spieler?** «Bessern» bedeutet, dass drei verdeckte Karten gegen drei beliebige Handkarten ausgetauscht werden können, um die Hand zu verbessern.
+- **Muss ich alle drei Karten beim Bessern tauschen?** Ja, beim «Bessern» müssen stets alle drei Karten getauscht werden. Es ist nicht möglich, nur eine oder zwei Karten zu tauschen.
+- **Muss ich mitspielen, wenn ich die drei neuen Karten aufnehme?** Wer die drei neuen Karten aufnimmt, darf trotzdem noch passen.
+- **Was passiert, wenn ich beim Bessern zu viele oder zu wenige Karten ablege?** Werden beim «Bessern versehentlich zu viele oder zu wenige Karten abgelegt, erhält der Spieler einen «Sack», während die Gegner je einen Strich gutgeschrieben bekommen.
+
+*Keywords: handjass bessern, drei spieler, karten verbessern, bessern regeln, drei karten tausch*
 
 ---
 
@@ -963,7 +963,7 @@ Wie der Name bereits andeutet, spielt beim Glücksjass das Glück eine wichtige 
 
 ---
 
-### Handjass-Taktiken (2 Spieler) {#variants_two_player_handjass_bessern}
+### Handjass zu zweit {#variants_two_player_handjass_bessern}
 
 **Kategorie:** Varianten > Handjass
 
@@ -1046,7 +1046,7 @@ Eine Partie geht auf 1000 Punkte. Wer diese Punktzahl  zuerst erreicht, hat gewo
 
 ---
 
-### Schaufel {#variants_specialty_schaufel_dame}
+### Schaufel-Dame {#variants_specialty_schaufel_dame}
 
 **Kategorie:** Varianten > Minus-Spiel
 
@@ -1132,7 +1132,7 @@ Spielende:
 
 ---
 
-### Stich {#variants_specialty_stich_differenzler}
+### Stich-Differenzler {#variants_specialty_stich_differenzler}
 
 **Kategorie:** Varianten > Stichzahl-Spiel
 
@@ -1637,7 +1637,7 @@ Weil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden
 
 ---
 
-### Trumpffarbe {#expressions_trumpffarbe}
+### Trumpf {#expressions_trumpffarbe}
 
 **Kategorie:** Ansagen > Trumpf
 

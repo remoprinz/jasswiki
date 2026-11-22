@@ -147,7 +147,7 @@ const AnsagenLeitartikel: NextPage = () => {
                 { slug: 'quer', name: 'Quer', desc: 'ein Teil der Stiche Obenabe, der andere Undenufe.' },
                 { slug: 'slalom-zickzack', name: 'Slalom (Zickzack)', desc: 'abwechselnd Obenabe und Undenufe pro Stich.' },
                 { slug: 'trio-3-3', name: 'Trio (3×3)', desc: 'je drei Stiche Trumpf, Obenabe und Undenufe.' },
-                { slug: 'trumpffarbe', name: 'Trumpffarbe', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
+                { slug: 'trumpffarbe', name: 'Trumpf', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
                 { slug: 'tutti', name: 'Tutti', desc: 'vor allem beim Coiffeur, alle Farben sind Trumpf.' },
                 { slug: 'undenufe', name: 'Undenufe', desc: 'ohne Trumpf, die tiefste Karte (6) sticht.' },
               ]
