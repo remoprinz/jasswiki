@@ -20,6 +20,11 @@ const FAQS = [
     question: 'Was ist Jassen?',
     answer: 'Jassen ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten.',
   },
+  // 1a. Das Wort: Das Spiel heisst Jassen, «ein Jass» ist eine Partie (Remo 22.11.2026).
+  {
+    question: 'Heisst es Jass oder Jassen?',
+    answer: 'Das Spiel heisst Jassen. Jassen ist auch die Tätigkeit. Ein Jass ist eine Partie: Man spielt oder klopft einen Jass.',
+  },
   // 1b. Grundablauf — wie wird gespielt?
   {
     question: 'Wie geht Jassen?',
@@ -104,7 +109,7 @@ const JassenPage: NextPage = () => {
     <>
       <SeoHead
         title="Jassen: Das Schweizer Nationalkartenspiel | Jass-Wiki"
-        description="Jassen ist das beliebteste Kartenspiel der Schweiz. Regeln, Varianten, Karten, Geschichte und Kultur im Überblick."
+        description="Jassen ist das beliebteste Kartenspiel der Schweiz. Alles für deinen nächsten Jass: Regeln, Varianten, Karten, Geschichte und Kultur."
         canonicalUrl={canonicalUrl}
       />
       <GameSchema
@@ -123,7 +128,7 @@ const JassenPage: NextPage = () => {
               '@context': 'https://schema.org',
               '@type': 'Article',
               headline: 'Jassen: Das Schweizer Nationalkartenspiel',
-              description: 'Jassen ist das beliebteste Kartenspiel der Schweiz. Regeln, Varianten, Karten, Geschichte und Kultur im Überblick.',
+              description: 'Jassen ist das beliebteste Kartenspiel der Schweiz. Alles für deinen nächsten Jass: Regeln, Varianten, Karten, Geschichte und Kultur.',
               author: {
                 '@type': 'Organization',
                 name: 'JassWiki',
@@ -156,8 +161,12 @@ const JassenPage: NextPage = () => {
             <h1 className="font-capita text-[32px] sm:text-[42px] font-bold text-[#ff0000] mb-[12px] leading-[1.1]">
               Jassen
             </h1>
+            {/* Untertitel: Remos Wortlaut (22.11.2026). «Ein Jass» ist eine Partie, das Spiel heisst Jassen. */}
+            <p className="font-capita text-[18px] sm:text-[20px] font-bold text-black leading-[1.3] mb-[12px]">
+              Wenn du einen Jass klopfen willst, bist du hier genau richtig.
+            </p>
             <p className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7]">
-              Jassen ist das beliebteste Kartenspiel der Schweiz. In Stuben, Beizen und auf digitalen Plattformen wird seit über 200 Jahren gejasst: allein gegen den Computer, zu zweit, zu dritt oder im Team. Vom einfachen{' '}
+              Jassen ist das beliebteste Kartenspiel der Schweiz. Wer jasst, spielt einen Jass. In Stuben, Beizen und auf digitalen Plattformen wird seit über 200 Jahren gejasst: allein gegen den Computer, zu zweit, zu dritt oder im Team. Vom einfachen{' '}
               <Link href="/varianten/tschau-sepp/" className="text-[#ff0000] hover:underline">Tschau Sepp</Link>{' '}
               bis zum taktisch anspruchsvollen{' '}
               <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
@@ -406,7 +415,7 @@ const JassenPage: NextPage = () => {
             </h2>
             <div className="font-inter text-[15px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
-                Der Ursprung des Jass liegt in den Niederlanden. Über Frankreich gelangte das Spiel im späten 18. Jahrhundert in die Schweiz. Die älteste bekannte Erwähnung stammt von 1796 aus Schaffhausen: Zwei Pfarrer verklagten zwei Bauern, die um ein Glas Wein ein Spiel spielten, «welches man das Jassen nenne».
+                Der Ursprung des Jassens liegt in den Niederlanden. Über Frankreich gelangte das Spiel im späten 18. Jahrhundert in die Schweiz. Die älteste bekannte Erwähnung stammt von 1796 aus Schaffhausen: Zwei Pfarrer verklagten zwei Bauern, die um ein Glas Wein ein Spiel spielten, «welches man das Jassen nenne».
               </p>
               <p>
                 Im 19. Jahrhundert verbreitete sich das Jassen mit der Industrialisierung. Die Menschen zogen in die Städte und brachten das Spiel mit. In Fabriken und Gasthäusern wurde es zum beliebten Freizeitvergnügen. Im März 1895 erschien das «Ramstein-Reglement», das älteste bekannte Jassreglement der Schweiz, verfasst von J.N. Ramstein und Leo Philipona in Freiburg.
