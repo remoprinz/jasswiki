@@ -12085,7 +12085,7 @@
   },
   "regeln_offizielle_jassregeln": {
     "id": "regeln_offizielle_jassregeln",
-    "text": "Im JassWiki stehen die offiziellen Regeln des Jassverbands Schweiz zum ersten Mal vollständig und gratis im Netz.\n\nGrundlage der offiziellen Jassregeln:\nDie Basis bilden [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.\n\nDani Müller hat mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.\n\nDie offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Der Verband entwickelt sie an einzelnen Punkten weiter. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.",
+    "text": "Hier stehen die Jassregeln des Jassverbands Schweiz, vollständig und für alle offen. Sie stehen auf den Schultern von zwei Büchern.\n\nZwei Bücher als Grundlage:\nDen Grundstein legten Göpf Egg und Albert Hagenbucher mit [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/). Auf dieses Reglement berufen sich Jasser seit Jahrzehnten.\n\nDani Müller hat es 2015 mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) weitergedacht. Er fasst die Regeln präziser und macht manche komplizierte Sonderregel einfacher.\n\nDarum folgt der [Jassverband Schweiz](https://jassverband.ch) in den meisten Fragen Dani Müller. An einzelnen Stellen geht er einen Schritt weiter: Schneider und Kontermatsch zählen 2 Striche, weil sie so selten gelingen.\n\nAm eigenen Tisch gilt, was die Runde abmacht. Die Tischregel geht jeder Regel hier vor.",
     "metadata": {
       "id": "regeln_offizielle_jassregeln_meta",
       "category": {
@@ -12115,12 +12115,12 @@
       "datePublished": "2026-03-14",
       "dateModified": "2026-08-18",
       "seoTitle": "Offizielle Jassregeln: Grundlage und Quellen | Jass-Wiki",
-      "seoDescription": "Worauf die Regeln im Jass-Wiki stehen: das Schweizer Jassreglement «Puur Näll Ass» von Egg und Hagenbucher und weitere Quellen. Was gilt, wo Runden abweichen."
+      "seoDescription": "Die Jassregeln des Jassverbands Schweiz und ihre Grundlage: «Puur Näll Ass» von Egg und Hagenbucher und «Stöck Wys Stich» von Dani Müller."
     },
     "faqs": [
       {
         "question": "Gibt es ein offizielles Jass-Regelwerk?",
-        "answer": "Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt."
+        "answer": "Ja. Der Jassverband Schweiz stützt seine Regeln vor allem auf «STÖCK WYS STICH» von Dani Müller (2015) und entwickelt sie an einzelnen Stellen weiter. Sie stehen vollständig im JassWiki."
       },
       {
         "question": "Welche Bücher bilden die Grundlage der offiziellen Jassregeln?",
@@ -12128,11 +12128,11 @@
       },
       {
         "question": "Haben Tischregeln Vorrang vor den offiziellen Jassregeln?",
-        "answer": "Ja, Tischregeln haben Vorrang vor den offiziellen Jassregeln."
+        "answer": "Ja. Was die Runde vor dem ersten Spiel abmacht, gilt an ihrem Tisch."
       },
       {
         "question": "Wie werden Schneider und Kontermatsch neu bewertet?",
-        "answer": "Aufgrund des seltenen Vorkommens werden Schneider und Kontermatsch neu mit 2 Strichen bewertet."
+        "answer": "Mit 2 Strichen, weil beide so selten gelingen."
       }
     ],
     "see_also": [
