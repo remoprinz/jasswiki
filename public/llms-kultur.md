@@ -608,7 +608,7 @@ Jede Karte hat einen Punktwert: Ass 11, Banner 10, König 4, Ober 3, Under 2. Di
 
 ## 6. Zu viert spielen: der Schieber
 
-Beim Schieber spielen zwei Teams gegeneinander, die Partner sitzen sich gegenüber. Vorhand sagt den Trumpf an oder schiebt die Wahl dem Partner zu. Die Partie gewinnt das Team, das zuerst die vereinbarte Punktzahl erreicht. Wer geübt ist, rechnet mit 18 Karten: den eigenen neun und den neun des Partners.
+Beim Schieber spielen zwei Teams gegeneinander, die Partner sitzen sich gegenüber. Vorhand sagt den Trumpf an oder schiebt die Wahl dem Partner zu. Die Partie endet, sobald ein Team die vereinbarte Punktzahl erreicht hat und sich bedankt. Wer geübt ist, rechnet mit 18 Karten: den eigenen neun und den neun des Partners.
 
 ## Üben
 
