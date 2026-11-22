@@ -7,7 +7,7 @@
     "dev": "next dev",
     "prebuild": "rm -rf out .next && bash clean-icloud-dupes.sh",
     "build": "npm run generate:taxonomy && npm run generate:uebungen && npm run generate:corpus && npm run generate:llms && npm run sync:mcp && npm run sitemap && npm run generate:artikel && npm run validate:urls && npm run sprache && npm run pruefe:farbwoerter && npm run generate:og && next build",
-    "postbuild": "node copy-sitemap-to-out.mjs",
+    "postbuild": "node copy-sitemap-to-out.mjs && npm run pruefe:seite",
     "start": "next start",
     "lint": "eslint",
     "deploy": "npm run build && firebase deploy --only hosting:jasswiki && node submit-indexnow.mjs",
@@ -23,7 +23,9 @@
     "generate:og": "node generate-og.mjs",
     "audit:redirects": "node audit-redirects.mjs",
     "sprache": "node sprachwaechter.mjs",
-    "pruefe:farbwoerter": "tsx farbwoerter-pruefen.ts"
+    "pruefe:farbwoerter": "tsx farbwoerter-pruefen.ts",
+    "pruefe:seite": "node pruefe-seite.mjs",
+    "test:riegel": "node --test pruefe-seite.test.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

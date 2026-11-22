@@ -162,7 +162,7 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
             <JassenZeile schluessel={contentItem.id} kategorie="ansagen" />
           </header>
 
-          <article className="content-formatting max-w-none">
+          <article className="content-formatting max-w-none" data-artikel-seite={contentItem.id}>
             <div className="content-formatting text-black">
               <InternalLinker text={tfSeg1} farbwechsel={farbwechsel} />
             </div>

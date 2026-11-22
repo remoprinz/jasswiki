@@ -301,7 +301,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             </header>
 
             {/* Artikel-Inhalt */}
-            <article className="content-formatting max-w-none">
+            <article className="content-formatting max-w-none" data-artikel-seite={contentItem.id}>
               <div className="content-formatting text-black">
                 {hatArtikelBilder(contentItem.id) ? (
                   <TextMitBildern schluessel={contentItem.id} text={cardTextBefore} farbwechsel={farbwechsel} />

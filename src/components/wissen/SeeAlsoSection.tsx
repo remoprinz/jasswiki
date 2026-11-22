@@ -67,7 +67,7 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
   }
 
   return (
-    <div className="mt-[24px] pt-[24px] border-t border-[#f0eee7]">
+    <div className="mt-[24px] pt-[24px] border-t border-[#f0eee7]" data-siehe-auch="">
       <h3 className="font-capita text-[20px] font-normal !text-black leading-[1.55] mb-[16px]">
         Siehe auch
       </h3>
@@ -77,6 +77,7 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
           <Link
             key={article.id}
             href={article.url}
+            data-artikel={article.id}
             className="group block"
           >
             <div className="flex items-center justify-between gap-[12px] bg-[#f0eee7]/50 rounded-[12px] px-[16px] py-[12px] hover:bg-[#f0eee7] transition-colors">

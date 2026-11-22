@@ -170,7 +170,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
             </h1>
           </header>
 
-          <article className="content-formatting max-w-none">
+          <article className="content-formatting max-w-none" data-artikel-seite={contentItem.id}>
             <div className="content-formatting text-black">
               <InternalLinker text={contentItem.text} farbwechsel={contentItem.metadata.farbwechsel === true} />
             </div>
