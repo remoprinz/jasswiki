@@ -146,18 +146,18 @@ In der Arena von JassGuru jasst man Schieber online, mit den eigenen Jassfreunde
 
 **Kategorie:** Regeln > Regelgrundlagen
 
-Diese Regeln gelten in fast allen Jassarten. Jede Jassart baut auf ihnen auf und ändert Kartenzahl, Stichzahl oder Wertung.
+Diese Regeln gelten in fast allen Jassarten. Die meisten Jassarten bauen auf ihnen auf und ändern Kartenzahl, Stichzahl oder Wertung.
 
-## Der Ablauf eines Spiels
+## Ablauf eines Spiels
 
 - **Reihenfolge:** Gespielt wird im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
-- **Stich:** Jeder legt eine Karte, vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe.
+- **Stich:** Jeder legt eine Karte. Vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Sonst gewinnt die stärkste Karte der ausgespielten Farbe, bei Undenufe die tiefste.
 - **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
 - **Spielende:** Nach neun Stichen ist das Spiel fertig. Gezählt werden Kartenpunkte, Wys, Stöck, Matsch und der letzte Stich.
 
-## Die Kernregeln
+## Kernregeln
 
-- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man auch dann abstechen, wenn man die Farbe hat. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
 - **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
 
 ## Abweichungen
@@ -166,7 +166,7 @@ Je nach Jassart gelten kleine Abweichungen. Was eine Runde vor dem Spiel abmacht
 
 ## Wenn jemand gegen eine Regel verstösst
 
-Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
+Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel.
 
 **Häufige Fragen:**
 - **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
@@ -194,7 +194,7 @@ Grundwerte (ohne Trumpf):
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
-In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die höchsten Trümpfe im ganzen Spiel. Die übrigen Trumpfkarten behalten ihre Grundwerte.
+In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die zwei höchsten Trümpfe. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
 In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.

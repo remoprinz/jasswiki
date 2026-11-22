@@ -170,10 +170,10 @@ Bedanken und Matsch:
 Wer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Matsch spielen. Das Team riskiert damit, die Partie zu verlieren, falls sich der Gegner zuerst bedankt. Umgekehrt darf man sich nicht zu früh bedanken, nur um dem Gegner die Chance auf den Matsch zu nehmen. Der Gegner darf die Runde zu Ende spielen, sofern er sich noch nicht bedankt hat, und sich anschliessend bedanken.
 
 Zählen während des Spiels:
-Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war. Die Regel verhindert, dass während des Spiels gezählt und nach weiteren Bockkarten gesucht wird.
+Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls ihm noch Punkte zum Ziel fehlten. Die Regel verhindert, dass mitgezählt und nach weiteren Bockkarten gesucht wird.
 
 Falsch gespielte Karte des Gegners:
-Zählt ein Team beim Bedanken die Punkte einer Karte mit, die der Gegner versehentlich falsch gespielt hat, ist das Bedanken ungültig, sofern nach der Korrektur die nötige Punktzahl nicht mehr erreicht ist.
+Zählt ein Team beim Bedanken die Punkte einer Karte mit, die der Gegner versehentlich falsch gespielt hat, ist das Bedanken ungültig, wenn nach der Korrektur Punkte zum Ziel fehlen.
 
 **Häufige Fragen:**
 - **Was bedeutet Bedanken beim Jassen?** Eine verbindliche Aussage, mit der ein Team die Partie beendet. Wer sich zuerst bedankt und das Ziel erreicht hat, gewinnt.
@@ -181,7 +181,7 @@ Zählt ein Team beim Bedanken die Punkte einer Karte mit, die der Gegner versehe
 - **Kann man sich während eines laufenden Stichs bedanken?** Ja, wenn die bereits gelegten Karten dieses Stichs zum Sieg reichen.
 - **Ist Bedanken für den Partner verbindlich?** Ja, es gilt automatisch auch für den Partner.
 - **Kann man das Bedanken zurücknehmen?** Nein, es ist verbindlich.
-- **Darf man während des Spiels die Punkte zusammenzählen?** Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war.
+- **Darf man während des Spiels die Punkte zusammenzählen?** Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls ihm noch Punkte zum Ziel fehlten.
 
 *Keywords: bedanken, bedanken jass, partie beenden, mir sind dusse, spiel beenden*
 
@@ -274,7 +274,7 @@ Bei der Jassart Schnüffler:
 **Kategorie:** Begriffe > Kartenbezeichnungen
 
 Definition:
-• Als Bock oder Bockkarte wird die höchste Karte bezeichnet, die in einer Farbe noch im Spiel ist
+• Bock oder Bockkarte heisst die höchste Karte, die in einer Farbe noch im Spiel ist
 • In ihrer Farbe schlägt sie jede andere Karte, stechen kann sie nur ein Trumpf
 
 **Häufige Fragen:**
@@ -391,11 +391,11 @@ Definition:
 
 Matsch heisst: Ein Team macht alle neun Stiche eines Spiels.
 
-## Die Matschprämie
+## Matschprämie
 
-Wer einen Matsch macht, schreibt 100 Punkte zusätzlich. Diese 100 heissen Matschprämie oder Matchbonus, beide Wörter sind am Tisch gebräuchlich. Ein Matsch zählt damit 257 Punkte: 157 Kartenpunkte samt letztem Stich und 100 Prämie. Eine Runde kann vor der Partie eine andere Höhe abmachen. In anderen Jassarten fällt die Prämie unterschiedlich hoch aus.
+Wer einen Matsch macht, schreibt 100 Punkte zusätzlich. Diese 100 Punkte heissen am Tisch Matschprämie oder Matchbonus. Ein Matsch zählt damit 257 Punkte: 157 Punkte samt letztem Stich und 100 Prämie. Eine Runde kann vor der Partie eine andere Höhe abmachen. In anderen Jassarten fällt die Prämie unterschiedlich hoch aus.
 
-Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Kartenpunkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.
+Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vierfacher Matsch bringt darum 157 Punkte plus 100 Prämie, mal vier gerechnet: 1028 Punkte.
 
 ## Striche
 
@@ -592,7 +592,7 @@ Beim Schieber:
 • Seufzen oder übertriebenes Zögern
 
 **Konsequenzen:**
-• Schnorren ist Spielverrat. Die Folge steht im Artikel Spielverrat: Die Gegner können verlangen, dass das Spiel samt geschriebener Punkte annulliert wird
+• Schnorren ist Spielverrat. Die Gegner können dann verlangen, dass das Spiel samt den geschriebenen Punkten annulliert wird
 
 **Häufige Fragen:**
 - **Was bedeutet Schnorren beim Jassen?** Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die etwas über die eigenen Karten oder die Taktik verraten. Schnorren ist daher grundsätzlich verboten.

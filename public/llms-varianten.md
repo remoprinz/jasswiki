@@ -1639,7 +1639,7 @@ Weil Trio bei frei wählbarer Reihenfolge verhältnismässig oft angesagt werden
 
 **Kategorie:** Ansagen > Trumpf
 
-Eine der vier Farben als Trumpf anzusagen ist die häufigste Ansage beim Jassen. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.
+Die häufigste Ansage beim Jassen ist Trumpf in einer der vier Farben. Die Trumpffarbe ist dann allen anderen überlegen: Jede Trumpfkarte sticht jede Karte einer anderen Farbe, ganz gleich wie hoch oder tief sie ist.
 
 ## Die vier Farben
 
@@ -1658,7 +1658,7 @@ Innerhalb der Trumpffarbe ändert sich die Rangordnung. Zwei sonst unscheinbare 
 
 Eine einzelne Farbe als Trumpf anzusagen ist der Kern vom [Schieber](/schieber/) und vom [Coiffeur](/varianten/coiffeur/). Wer nicht selber bestimmen will, kann schieben und die Wahl dem Partner überlassen. Daneben gibt es Ansagen ganz ohne Trumpf, etwa [Obenabe](/ansagen/obenabe/) oder [Undenufe](/ansagen/undenufe/), und eine mit allen vier Farben als Trumpf zugleich: das [Tutti](/ansagen/tutti/).
 
-In manchen Jassarten bestimmt keine Ansage den Trumpf. Dort zeigt eine aufgedeckte Karte die Trumpffarbe an, der Bodentrumpf.
+In manchen Jassarten zeigt die unterste Karte nach dem Abheben die Trumpffarbe an. Dieser Trumpf heisst Bodentrumpf.
 
 **Häufige Fragen:**
 - **Was ist Trumpf beim Jassen?** Trumpf sind die Karten der angesagten Farbe. Jede Trumpfkarte sticht jede Karte einer anderen Farbe.

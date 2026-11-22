@@ -23,7 +23,7 @@
         {
           "kapitel": "Kartenverteilung",
           "adresse": "/regeln/kartenverteilung/",
-          "frage": "Wer gibt und wie?",
+          "frage": "Wer gibt die Karten und wie?",
           "artikel": [
             "spiel_geben",
             "mischen",

@@ -51,7 +51,7 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
     <>
       <SeoHead
         title={`${groupTitle}: Schieber | Jass-Wiki`}
-        description={`${groupTitle} rund um den Schieber im Jass-Wiki: ${items.slice(0, 6).map((i) => i.metadata.category.topic).join(", ")}.`}
+        description={`${groupTitle} beim Schieber: ${items.slice(0, 6).map((i) => i.metadata.category.topic).join(", ")}.`}
         canonicalUrl={`${siteUrl}/schieber/${groupSlug}/`}
       />
 

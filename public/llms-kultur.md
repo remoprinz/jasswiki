@@ -890,7 +890,7 @@ Schieber, die häufigste Jassart der Schweiz, jasst man online in der Arena von 
 **Kategorie:** Geschichte > Kulturelle Bedeutung
 
 Gesellschaftliche Rolle:
-Der Jass gilt als Nationalspiel der Schweiz und spielt eine zentrale Rolle in Gesellschaft und Kultur.
+Der Jass gilt als Nationalspiel der Schweiz.
 
 Soziale Funktionen:
 • **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben

@@ -177,7 +177,7 @@ Schneidergrenze:
 Die Schneidergrenze liegt bei der Hälfte des Spielziels, sofern keine andere Tischregel gilt. Bei einer Partie auf 2500 Punkte ist sie 1250. Wer beim Bedanken des Gegners darunter liegt, ist im Schneider.
 
 Aus dem Schneider weisen:
-Das unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind. Gilt Stöck-Stich-Wys, zählt der siegbringende Stich der Gegner vor dem Wys. Dann bleibt das Team im Schneider. Erreichen die Gegner das Ziel mit den Stöck, schreibt das unterlegene Team weder Wys noch Kartenpunkte an und bleibt ebenfalls im Schneider.
+Das unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind. Gilt Stöck-Stich-Wys, zählt der siegbringende Stich der Gegner vor dem Wys. Dann bleibt das unterlegene Team im Schneider. Erreichen die Gegner das Ziel mit den Stöck, schreibt das unterlegene Team weder Wys noch Kartenpunkte an und bleibt ebenfalls im Schneider.
 
 Belohnung und Einsatz:
 Weil der Schneider selten ist, gewinnt das siegreiche Team zwei Striche. Geht es um Geld, zahlt das Team im Schneider den doppelten Einsatz.
@@ -245,11 +245,11 @@ Definition:
 
 Beispiele:
 • Bemerkungen über gelaufene Karten
-• Andeutungen über Bock-Karten, etwa Bock
+• Andeutungen über Bockkarten, etwa Bock
 • Wiederholungen von angezogenen oder verworfenen Farben
 • Bemerkungen zu Taktiken
 • Kommentare über Punkte, die ein Gegner während des Spiels erzielt
-• Fragen, die das Spiel verraten, sind ebenfalls verboten, ebenso Antworten darauf, etwa auf «Wie viele Trümpfe sind gelaufen?» oder «Wem gehört dieser Stich?»
+• Fragen, die das Spiel verraten, sind ebenso verboten wie die Antworten darauf, etwa auf «Wie viele Trümpfe sind gelaufen?» oder «Wem gehört dieser Stich?»
 • Zeichen ohne Worte: Blicke, Gesten, Mienenspiel
 
 Konsequenzen bei Spielverrat:
@@ -515,26 +515,26 @@ Ausnahme hindersi-Spiele:
 
 Wer die ausgespielte Farbe hat, muss sie spielen. Am Tisch heisst das farben, Farbe angeben oder Farben halten, auch Leih halten. Mit einer Trumpfkarte darf man die ausgespielte Farbe immer abstechen, ausser beim Untertrumpfen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist. Wer die Farbe nicht hat, darf eine beliebige Karte spielen.
 
-Wer die Farbe hat und trotzdem eine andere Karte spielt, begeht ein Nichtfarben. Was das kostet, steht in den folgenden Abschnitten.
+Wer die Farbe hat und trotzdem eine Karte einer anderen Farbe spielt, ausgenommen Trumpf, begeht ein Nichtfarben.
 
 ## Fehler im laufenden Stich
 
-Wird der Regelverstoss noch während des laufenden Stiches festgestellt (die Karten sind noch nicht gekehrt):
+Fällt der Fehler auf, bevor die Karten gekehrt sind, gilt:
 - Der laufende Stich geht an die Gegner.
 - Die falsch gespielte Karte wird gegen die korrekte Karte ausgetauscht.
-- Beide Karten verlieren den Stechwert, der Zählwert bleibt erhalten.
+- Beide Karten verlieren den Stechwert. Der Zählwert bleibt erhalten.
 
-**Mehrere Karten:** Hält der fehlbare Spieler noch mehrere nicht gefarbte Karten in der Hand, muss er die höchste abgeben. Ausgenommen ist der Puur, da dieser sowieso nicht ausgespielt werden muss.
+**Mehrere Karten:** Hält der fehlbare Spieler noch mehrere Karten der ausgespielten Farbe in der Hand, muss er die höchste abgeben. Ausgenommen ist der Puur, den man immer zurückbehalten darf.
 
-**Nächster Stich:** Den nächsten Stich (falls noch einer folgt) spielt der Jasser aus, der rechts vom fehlbaren Spieler sitzt. Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter.
+**Nächster Stich:** Folgt noch ein Stich, spielt ihn aus, wer rechts vom fehlbaren Spieler sitzt. Ist der Spieler links vom fehlbaren Spieler bereits im Stich, spielt dieser normal weiter.
 
 ## Fehler nach dem Kehren
 
-Wird das Nichtfarben zu spät festgestellt (die Karten sind schon gekehrt), gehen dieser Stich und alle weiteren an die Gegenpartei, auch wenn das einen Matsch oder Kontermatsch bedeutet.
+Fällt das Nichtfarben erst auf, wenn die Karten gekehrt sind, gehen dieser Stich und alle weiteren an die Gegner, auch wenn das einen Matsch oder Kontermatsch bedeutet.
 
 ## Ausnahmen
 
-Bei Spielarten, in denen es dem fehlbaren Spieler nützt, wenn seine Karten den Stechwert verlieren (zum Beispiel Misère), wird die Regel nicht angewendet.
+Bei Spielarten wie Misère nützt es dem fehlbaren Spieler, wenn seine Karten den Stechwert verlieren. Dort entfällt die Regel.
 
 ## Praxis am Tisch
 
@@ -566,7 +566,7 @@ Zwei Wege sind üblich:
 • Möglichkeit 2: Das Spiel wird ohne fehlende Karte zu Ende gespielt, wobei die Karte ihren Stechwert verloren hat
 
 Vor Spielbeginn:
-Wird nach dem Verteilen, aber vor Beginn des Spiels festgestellt, dass das Kartenspiel unvollständig ist, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.
+Fehlt nach dem Verteilen eine Karte oder ist eine beschädigt, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.
 
 **Häufige Fragen:**
 - **Wie funktioniert Fehlende Karte beim Jassen?** Wird während eines Spiels bemerkt, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen.
@@ -610,18 +610,18 @@ Beispiele erlaubter Fragen:
 
 **Kategorie:** Regeln > Regelgrundlagen
 
-Diese Regeln gelten in fast allen Jassarten. Jede Jassart baut auf ihnen auf und ändert Kartenzahl, Stichzahl oder Wertung.
+Diese Regeln gelten in fast allen Jassarten. Die meisten Jassarten bauen auf ihnen auf und ändern Kartenzahl, Stichzahl oder Wertung.
 
-## Der Ablauf eines Spiels
+## Ablauf eines Spiels
 
 - **Reihenfolge:** Gespielt wird im Gegenuhrzeigersinn, also nach rechts. Vorhand, der Spieler rechts vom Geber, spielt aus.
-- **Stich:** Jeder legt eine Karte, vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe.
+- **Stich:** Jeder legt eine Karte. Vier Karten bilden einen Stich. Den Stich gewinnt der höchste Trumpf. Sonst gewinnt die stärkste Karte der ausgespielten Farbe, bei Undenufe die tiefste.
 - **Stichfolge:** Wer den Stich macht, spielt die nächste Karte aus.
 - **Spielende:** Nach neun Stichen ist das Spiel fertig. Gezählt werden Kartenpunkte, Wys, Stöck, Matsch und der letzte Stich.
 
-## Die Kernregeln
+## Kernregeln
 
-- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
+- **Farbe angeben (farben):** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man auch dann abstechen, wenn man die Farbe hat. Wer die Farbe nicht hat, darf eine beliebige Karte spielen. Den Puur darf man zurückbehalten, auch wenn Trumpf ausgespielt ist.
 - **Untertrumpfen:** Ist eine andere Farbe ausgespielt und liegt schon ein Trumpf im Stich, darf man nur höher trumpfen. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat. In den Hindersi-Spielen gilt eine eigene Regel.
 
 ## Abweichungen
@@ -630,7 +630,7 @@ Je nach Jassart gelten kleine Abweichungen. Was eine Runde vor dem Spiel abmacht
 
 ## Wenn jemand gegen eine Regel verstösst
 
-Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel. Was im Einzelnen gilt, steht bei der jeweiligen Regel.
+Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert seiner Karte oder das Spiel.
 
 **Häufige Fragen:**
 - **Was sind die Grundregeln beim Jassen?** Drei Regeln gelten fast überall: Man gibt die ausgespielte Farbe an oder sticht mit Trumpf. Wer sticht, trumpft höher als ein Trumpf, der schon im Stich liegt. Wer den Stich macht, spielt aus.
@@ -673,7 +673,7 @@ Konsequenz falls nicht «hingelegt»:
 
 Übersicht:
 • Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Mit beiden Blättern wird eine grosse Zahl von Jassarten gespielt.
-• Über die Schweizer Grenzen hinaus wird Jass auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
+• Jass wird auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
 
 Spielarten:
 • Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten
@@ -760,7 +760,7 @@ Grundwerte (ohne Trumpf):
 • Neuner, Achter, Siebner, Sechser: 0 Punkte
 
 Im Trumpf:
-In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die höchsten Trümpfe im ganzen Spiel. Die übrigen Trumpfkarten behalten ihre Grundwerte.
+In der Trumpffarbe erhalten zwei Karten einen Sonderwert. Der Under wird zum Puur und zählt 20 Punkte, der Neuner wird zum Nell und zählt 14 Punkte. Puur und Nell sind die zwei höchsten Trümpfe. Die übrigen Trumpfkarten behalten ihre Grundwerte.
 
 Obenabe und Undenufe:
 In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattdessen zählt der Achter 8 Punkte. In Undenufe ist die Reihenfolge umgekehrt, der Sechser ist die höchste Karte und übernimmt die 11 Punkte. Die vier Achter ersetzen die 32 Punkte, die ohne Puur und Nell fehlen. So bleibt das Total bei 157.
@@ -781,7 +781,7 @@ In Obenabe und Undenufe gibt es keinen Trumpf, also weder Puur noch Nell. Stattd
 
 **Kategorie:** Regeln > Punktezählung
 
-Beim Schieber hängt der Wert der Karten von der Ansage ab. Die Tabelle zeigt die Werte bei Trumpf, Obenabe und Undenufe. In jeder dieser Ansagen zählen die Karten zusammen 152 Punkte, mit dem letzten Stich 157.
+Beim Schieber hängt der Wert der Karten von der Ansage ab. Bei Trumpf, Obenabe und Undenufe zählen die Karten zusammen je 152 Punkte, mit dem letzten Stich 157.
 
 | Karte | Trumpffarbe | Übrige Farben bei Trumpf | Obenabe | Undenufe |
 |---|---|---|---|---|
@@ -835,7 +835,7 @@ Definition:
 Kontermatsch ist ein Matsch, bei dem das nicht trumpfmachende Team sämtliche Stiche erzielt.
 
 Wertung Punkte:
-• Wird gleich wie ein Matsch mit 257 gewertet
+• Wird wie ein Matsch mit 257 Punkten gewertet
 • Die Matschprämie von 100 Punkten geht an das Team, das alle Stiche gemacht hat
 
 Wertung Striche:
@@ -950,15 +950,15 @@ Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 Punkte für den letzten Stic
 
 ## Was zu den Kartenpunkten dazukommt
 
-- **Letzter Stich:** Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Sie gehören zu den Kartenpunkten und stecken in den 157 Punkten. Ausnahmen sind Cinq Cents und Doppelkart-Spiele.
+- **Letzter Stich:** Der letzte Stich eines Spiels zählt zusätzlich 5 Punkte. Sie stecken schon in den 157 Punkten. Ausnahmen sind Cinq Cents und Doppelkart-Spiele.
 - **Wys:** Kartenfolgen ab drei Karten und vier Gleiche zählen zusätzlich.
 - **Stöck:** König und Ober der Trumpffarbe zählen 20 Punkte.
 - **Matsch:** Wer alle neun Stiche macht, schreibt 100 Punkte Matschprämie dazu.
 
 ## Stechregeln
 
-- Im Trumpf kann jeder Trumpf alle Farben stechen.
-- Bei Obenabe und Undenufe gewinnt den Stich nur, wer dieselbe Farbe legt.
+- Bei Trumpf sticht jede Trumpfkarte jede Karte einer anderen Farbe.
+- Bei Obenabe und Undenufe gewinnt die stärkste Karte der ausgespielten Farbe den Stich: bei Obenabe die höchste, bei Undenufe die tiefste.
 
 **Häufige Fragen:**
 - **Wie zählt man die Punkte beim Jassen?** Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 für den letzten Stich. Dazu kommen Wys, Stöck und bei einem Matsch 100 Punkte Matschprämie.
@@ -1043,9 +1043,9 @@ Bestimmung des ersten Kartengebers:
 Ablauf des Verteilens:
 • Nach sorgfältigem Mischen und Abheben erfolgt die Kartenverteilung
 • Die Karten werden vom Stapel von oben entnommen
-• Abgehoben wird vom Spieler links vom Kartengeber
+• Der Spieler links vom Kartengeber hebt ab
 • Die Verteilung erfolgt im Gegenuhrzeigersinn, was der Spielrichtung entspricht. Der Kartengeber beginnt beim Spieler rechts von sich, bei Vorhand
-• Das ist eine Schweizer Eigenheit, in der übrigen Welt wird meist im Uhrzeigersinn gespielt. Am Tisch heisst es «immer der Ohrfeige nach»
+• Das ist eine Schweizer Eigenheit. In der übrigen Welt wird meist im Uhrzeigersinn gespielt. Am Tisch heisst die Richtung «immer der Ohrfeige nach»
 • Während der Verteilung müssen die Kartenbilder verdeckt bleiben (siehe Abschnitt «Spielverrat»)
 
 Verteilmethoden nach Kartenanzahl:
