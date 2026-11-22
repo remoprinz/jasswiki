@@ -1,0 +1,12 @@
+{
+  "_zweck": "Artikel, die statt der Zeile unter dem Titel die grüne Karte von JassGuru als Tür tragen (Redaktion SCHIRI, Wortlaut gesiegelt von FEILE). Schlüssel = Kennung des Artikels. Die Karte steht nach dem Einstieg, also vor der ersten Zwischenüberschrift. Eine Tür je Seite: Wo die Karte steht, entfällt die Zeile im Kopf.",
+  "_stand": "2026-11-22",
+  "artikel": {
+    "jass_ki": {
+      "titel": "Jass-KI testen.",
+      "knopf": "Jass starten",
+      "pfad": "/arena/solo/",
+      "ort": "jass-ki"
+    }
+  }
+}
