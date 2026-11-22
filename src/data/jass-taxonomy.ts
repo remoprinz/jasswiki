@@ -364,7 +364,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
   {
     id: 'regeln',
     name: '6. Regeln',
-    description: 'Die enzyklopädisch relevanten Spielregeln des Jassens.',
+    description: 'Die enzyklopädisch relevanten Spielregeln des Jass.',
     subcategories: [
       {
         name: 'A) Kernregeln mit Wikidata-Relevanz',
