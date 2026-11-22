@@ -6,7 +6,7 @@ import { buildArticleUrl, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { ALL_CARDS } from './jasskarten';
-import { ohneKartenMarken } from './kartenMarke';
+import { vorschauText } from './vorschau';
 
 interface SearchResult {
   id: string;
@@ -136,7 +136,7 @@ export const SearchBar: React.FC<{
         if (score === 0) return null;
         
         const url = buildArticleUrl(item.metadata.category);
-        const textSnippet = ohneKartenMarken(item.text).substring(0, 150).replace(/\n/g, ' ');
+        const textSnippet = vorschauText(item.text);
         
         return {
           id: item.id,

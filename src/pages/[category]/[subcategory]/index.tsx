@@ -19,12 +19,13 @@ import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
-import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { vorschauText } from '@/components/wissen/vorschau';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 import { festerPfad } from '@/lib/url-utils';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
+import { seitenTitel, themaVorSatz } from '@/components/seo/seitenTitel';
 
 
 // Helper: Holt alle Artikel einer Unterkategorie
@@ -269,7 +270,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
           {siblings.map((article) => {
             const articleSlug = toSlug(article.metadata.category.topic);
             const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
-            const preview = ohneKartenMarken(article.text).split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
+            const preview = vorschauText(article.text);
             return (
               <Link key={article.id} href={articleUrl} className="group block">
                 <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
@@ -392,7 +393,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                   {siblings.map((article) => {
                     const articleSlug = toSlug(article.metadata.category.topic);
                     const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
-                    const preview = ohneKartenMarken(article.text).split('\n').slice(0, 2).join(' ').substring(0, 150).trim();
+                    const preview = vorschauText(article.text);
                     return (
                       <Link key={article.id} href={articleUrl} className="group block">
                         <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
@@ -462,7 +463,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   // Steht dort eine Einleitung, ersetzt sie SUB_INTROS.
   const rubrik = rubrikSeite(`${categorySlug}/${subcategorySlug}`);
   const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[subcategory];
-  const listPageTitle = rubrik.seoTitle ?? `${subcategory}: ${category} | Jass-Wiki`;
+  const listPageTitle = rubrik.seoTitle ?? seitenTitel(subcategory, category);
   const listPageDescription = rubrik.seoDescription ?? (subIntro
     ? subIntro[0].slice(0, 155)
     : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
@@ -505,12 +506,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
               
               // Extrahiere erste Zeile als Vorschau
-              const preview = ohneKartenMarken(article.text)
-                .split('\n')
-                .slice(0, 2)
-                .join(' ')
-                .substring(0, 150)
-                .trim();
+              const preview = vorschauText(article.text);
 
               return (
                 <Link
@@ -631,15 +627,15 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
     const canonicalPath = `/${categorySlug}/${subcategorySlug}/`;
     
     // Dynamische SEO-Titel
-    let pageTitle = `${topic}: ${category} | Jass-Wiki`;
+    let pageTitle = seitenTitel(topic, category);
     let metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im Jass-Wiki der Schweiz.`;
     
     if (category === 'Geschichte') {
-      pageTitle = `${topic}: Geschichte des Schweizer Jass | Jass-Wiki`;
-      metaDescription = `${topic} - Die faszinierende Geschichte des Schweizer Nationalspiel Jass. Historische Fakten und kulturelle Hintergründe auf jasswiki.ch.`;
+      pageTitle = seitenTitel(topic, 'Geschichte des Schweizer Jass');
+      metaDescription = themaVorSatz(topic, `Die faszinierende Geschichte des Schweizer Nationalspiel Jass. Historische Fakten und kulturelle Hintergründe auf jasswiki.ch.`);
     } else if (category === 'Grundlagen & Kultur') {
-      pageTitle = `${topic}: Jassen lernen & verstehen | Jass-Wiki`;
-      metaDescription = `${topic} - Grundlagen und kulturelle Aspekte des Schweizer Jass. Alles Wichtige für Anfänger und Fortgeschrittene auf jasswiki.ch.`;
+      pageTitle = seitenTitel(topic, 'Jassen lernen & verstehen');
+      metaDescription = themaVorSatz(topic, `Grundlagen und kulturelle Aspekte des Schweizer Jass. Alles Wichtige für Anfänger und Fortgeschrittene auf jasswiki.ch.`);
     }
 
     // Leitartikel «Jasskarten»: eigener, starker SEO-Titel statt des generischen Schemas.
@@ -706,7 +702,7 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
       subcategorySlug,
       articles: articles.map(article => ({
         id: article.id,
-        text: article.text.substring(0, 200),
+        text: vorschauText(article.text, 200),
         metadata: article.metadata
       })),
       isArticle: false

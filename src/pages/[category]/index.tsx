@@ -8,6 +8,7 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { buildArticleUrl, festerPfad } from '@/lib/url-utils';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { vorschauText } from '@/components/wissen/vorschau';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
@@ -331,12 +332,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                 const firstLetter = article.metadata.category.topic.charAt(0).toUpperCase();
                 const showLetter = index === 0 || articles[index - 1].metadata.category.topic.charAt(0).toUpperCase() !== firstLetter;
                 
-                const preview = ohneKartenMarken(article.text)
-                  .split('\n')
-                  .slice(0, 2)
-                  .join(' ')
-                  .substring(0, 150)
-                  .trim();
+                const preview = vorschauText(article.text);
 
                 // Extrahiere Subkategorie als Tag
                 const subcategoryTag = article.metadata.category.sub;
@@ -491,7 +487,7 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
         subcategories: [],
         articles: articles.map(article => ({
           id: article.id,
-          text: article.text.substring(0, 200),
+          text: vorschauText(article.text, 200),
           metadata: article.metadata
         })),
         isFlat: true,

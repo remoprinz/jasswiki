@@ -8,7 +8,7 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { toSlug } from '@/lib/utils';
 import { buildArticleUrl } from '@/lib/url-utils';
 import { SCHIEBER_GROUPS } from './index';
-import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { vorschauText } from '@/components/wissen/vorschau';
 
 interface SchieberGroupPageProps {
   groupTitle: string;
@@ -73,12 +73,7 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
               // buildArticleUrl beachtet die flache Struktur (Ansagen/Varianten, sub===topic).
               const href = buildArticleUrl(item.metadata.category);
 
-              const preview = ohneKartenMarken(item.text)
-                .split('\n')
-                .slice(0, 2)
-                .join(' ')
-                .substring(0, 150)
-                .trim();
+              const preview = vorschauText(item.text);
 
               return (
                 <Link key={item.id} href={href} className="group block">
@@ -165,7 +160,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const sorted = groupItems
     .sort((a, b) => (b.metadata.importance || 0) - (a.metadata.importance || 0))
-    .map(i => ({ id: i.id, text: i.text.substring(0, 200), metadata: i.metadata }));
+    .map(i => ({ id: i.id, text: vorschauText(i.text, 200), metadata: i.metadata }));
 
   return {
     props: {

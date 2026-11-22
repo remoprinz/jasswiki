@@ -22,6 +22,7 @@ import { JassCardGrid } from '@/components/wissen/JassCardGrid';
 import { FarbeKopf } from '@/components/wissen/FarbeKopf';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
+import { seitenTitel } from '@/components/seo/seitenTitel';
 
 // Symbol-Köpfe der vier Farb-Begriffe (Deutschschweizer + französisches Symbol).
 // Symbol-Köpfe: 8 separate Farb-Artikel. Jeder zeigt nur sein eigenes Symbol;
@@ -354,7 +355,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const canonicalPath = `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
 
   // Dynamische SEO-Titel und -Beschreibungen
-  let pageTitle = `${topic}: ${subcategory} | Jass-Wiki`;
+  let pageTitle = seitenTitel(topic, subcategory);
   let metaDescription = `Alles über "${topic}" beim Jassen in der Kategorie ${subcategory}. Detailliert erklärt im Jass-Wiki der Schweiz.`;
 
   switch (category) {
@@ -409,7 +410,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       break;
     default:
       // Fallback bleibt generisch, aber optimiert
-      pageTitle = `${topic}: ${category} | Jass-Wiki`;
+      pageTitle = seitenTitel(topic, category);
       metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im umfassendsten Jass-Wiki der Schweiz.`;
       break;
   }
