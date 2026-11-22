@@ -48,7 +48,22 @@ export function isFlatStructure(mainSlug, subSlug, topicSlug) {
   return false;
 }
 
+/**
+ * Feste Pfade: Artikel mit eigener Seite statt der allgemeinen Route.
+ * MUSS wortgleich zu FESTE_PFADE in src/lib/url-utils.ts bleiben.
+ */
+export const FESTE_PFADE = {
+  'Schieber / Der Schieber': '/schieber/',
+  'Grundlagen & Kultur / Jassen lernen': '/jassen-lernen/',
+};
+
+export function festerPfad(category) {
+  return FESTE_PFADE[`${category.main} / ${category.topic}`] ?? null;
+}
+
 export function buildArticleUrl(category) {
+  const fest = festerPfad(category);
+  if (fest) return fest;
   const mainSlug = toSlug(category.main);
   const subSlug = toSlug(category.sub);
   const topicSlug = toSlug(category.topic);

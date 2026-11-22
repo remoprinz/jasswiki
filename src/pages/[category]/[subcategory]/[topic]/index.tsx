@@ -5,6 +5,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
+import { festerPfad } from '@/lib/url-utils';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -13,6 +14,7 @@ import Head from 'next/head';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { AppSchema } from '@/components/seo/AppSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
@@ -168,6 +170,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
         {contentItem.faqs && contentItem.faqs.length > 0 && (
           <FaqJsonLdSchema faqs={contentItem.faqs} />
         )}
+        <AppSchema app={contentItem.metadata.app} seitenUrl={canonicalUrl} />
       </Head>
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
@@ -263,7 +266,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
       const subCatSlug = toSlug(item.metadata.category.sub);
       const topicSlug = toSlug(item.metadata.category.topic);
       
-      // Nur Artikel wo sub !== topic (echte 3-Ebenen-Struktur)
+      // Nur Artikel wo sub !== topic (echte 3-Ebenen-Struktur).
+      // Artikel mit festem Pfad (/schieber/, /jassen-lernen/) baut ihre eigene Seite.
+      if (festerPfad(item.metadata.category)) return false;
       return mainCatSlug !== 'varianten' && mainCatSlug !== 'ansagen' && subCatSlug !== topicSlug;
     })
     .map((item) => {
@@ -333,14 +338,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
       metaDescription = `Die Weisregel «${topic}»: was zählt, wann gemeldet wird, mit Beispiel. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
     case 'Schieber':
-      // Spezialfall für den Hauptartikel "Der Schieber"
-      if (topic === 'Der Schieber') {
-        pageTitle = `Schieber Jass: Regeln, Anleitung & Tipps für die beliebteste Schweizer Jassvariante`;
-        metaDescription = `Der Schieber ist die beliebteste Jassvariante der Schweiz. Komplette Anleitung: Regeln, Trumpfwahl, die Philosophie der 18 Karten und Tipps für Anfänger und Profis.`;
-      } else {
-        pageTitle = `${topic} beim Schieber: Tipps & Strategien | Jass-Wiki`;
-        metaDescription = `Alles über "${topic}" beim Schieber-Jass. Taktiken und Strategien für ${subcategory} – erklärt für Anfänger und Profis auf jasswiki.ch.`;
-      }
+      // Der Hauptartikel «Der Schieber» steht auf /schieber/ (src/pages/schieber/index.tsx).
+      pageTitle = `${topic} beim Schieber: Tipps & Strategien | Jass-Wiki`;
+      metaDescription = `Alles über "${topic}" beim Schieber-Jass. Taktiken und Strategien für ${subcategory} – erklärt für Anfänger und Profis auf jasswiki.ch.`;
       break;
     case 'Begriffe':
       pageTitle = `${topic} beim Jassen: Bedeutung und Regel | Jass-Wiki`;
@@ -397,6 +397,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
     pageTitle = 'Jass-Taktik: die wichtigsten Konventionen zwischen Partnern | Jass-Wiki';
     metaDescription =
       'Die fortgeschrittenen Partner-Konventionen beim Jassen: Nell vor Puur, die Anzahl Trümpfe anzeigen (Hoch-Tief), der blutte Puur, Nachschmeissen und Verwerfen beim Slalom. Die Signalsprache zwischen Partnern, erklärt vom Schweizer Jassverband.';
+  }
+
+  // Jass-Apps (Karte SCHIRI «wiki-vorlagen», Teil C, 22.11.2026): die Weiche
+  // «im Test» oben ist abgelöst. Rückfall für jede App ist dieser Satz, die
+  // Inhaltsdatei setzt je Artikel seoTitle und seoDescription.
+  if (category === 'Jassapps') {
+    pageTitle = `${topic}: Jass-App im Überblick | Jass-Wiki`;
+    metaDescription = `Die Jass-App ${topic} im Überblick: Anbieter, Plattformen und was man damit tut. Beschrieben vom Jassverband Schweiz.`;
   }
 
   // Die Inhaltsdatei hat das letzte Wort: steht dort ein eigener Suchergebnis-Text,

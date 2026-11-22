@@ -30,9 +30,10 @@ function getArticlesForSubcategory(
   subcategorySlug: string
 ): JassContentItem[] {
   return (Object.values(content) as JassContentItem[])
-    .filter(item => 
+    .filter(item =>
       toSlug(item.metadata.category.main) === categorySlug &&
-      toSlug(item.metadata.category.sub) === subcategorySlug
+      toSlug(item.metadata.category.sub) === subcategorySlug &&
+      !festerPfad(item.metadata.category)
     )
     .sort((a, b) => {
       // Angepinnte Artikel zuerst (SUB_ZUERST), danach alphabetisch.
@@ -199,7 +200,8 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
         (a) =>
           a.id !== contentItem.id &&
           toSlug(a.metadata.category.main) === categorySlug &&
-          toSlug(a.metadata.category.sub) === subcategorySlug
+          toSlug(a.metadata.category.sub) === subcategorySlug &&
+          !festerPfad(a.metadata.category)
       )
       .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
 
@@ -494,7 +496,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
     if (catSlug === 'varianten' || catSlug === 'ansagen') {
       return;
     }
-    
+
+    // Artikel mit festem Pfad (/schieber/, /jassen-lernen/) tragen ihre eigene
+    // Seite; ihre Unterrubrik entsteht nur, wenn sie weitere Artikel hat.
+    if (festerPfad(item.metadata.category)) {
+      return;
+    }
+
     combinations.add(`${catSlug}/${subSlug}`);
   });
   
@@ -532,7 +540,8 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
     item =>
       toSlug(item.metadata.category.main) === categorySlug &&
       toSlug(item.metadata.category.sub) === subcategorySlug &&
-      toSlug(item.metadata.category.topic) === subcategorySlug
+      toSlug(item.metadata.category.topic) === subcategorySlug &&
+      !festerPfad(item.metadata.category)
   );
   
   if (flatArticle) {
