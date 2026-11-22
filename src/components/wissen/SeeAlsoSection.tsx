@@ -39,22 +39,12 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
 
   const seeAlsoArticles = seeAlsoIds
     .map(id => {
-      const cleanId = id.toLowerCase().replace(/^(expressions_|general_)/, '');
-      
-      const article = items.find(item => {
-        const itemId = item.id.toLowerCase();
-        const itemTopic = item.metadata.category.topic.toLowerCase();
-        const itemKeywords = item.metadata.keywords.map(k => k.toLowerCase());
-        
-        return (
-          itemId === id.toLowerCase() ||
-          itemId === cleanId ||
-          itemTopic === cleanId ||
-          itemKeywords.includes(cleanId) ||
-          itemKeywords.some(k => k.includes(cleanId)) ||
-          cleanId.includes(itemId)
-        );
-      });
+      // DIE KENNUNG ENTSCHEIDET DAS ZIEL, wie in verweise.ts (SCHIEDSRICHTER, 22.11.2026).
+      // Die frühere Suche über Stichwörter nahm den ersten Treffer in der Reihenfolge
+      // der Datei: 253 von 894 Verweisen zeigten einen anderen Artikel als geschrieben
+      // (Fund A1), etwa «Tutti» statt «Trumpf» im Artikel Nell.
+      const article =
+        content[id] ?? items.find(item => item.id.toLowerCase() === id.toLowerCase());
 
       if (!article || article.id === currentArticleId) {
         return null;

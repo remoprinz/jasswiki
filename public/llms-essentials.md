@@ -3,8 +3,8 @@ title: "JassWiki.ch - Essentials - Schnellstart"
 description: "Die wichtigsten Grundlagen zum Jassen in 5 Minuten lernen"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 7
-last_updated: 2026-11-21
+entries_count: 8
+last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -35,17 +35,36 @@ Auf einen Blick:
 • Regeln: in zehn Minuten erklärt
 • Verbreitung: Häufigste Variante in der Schweiz
 
-Zu zweit denken:
+## So läuft ein Spiel
+
+• **Geben:** Der Kartengeber verteilt dreimal drei Karten an jede Person, im Gegenuhrzeigersinn
+• **Ansagen oder schieben:** Vorhand sagt eine Trumpffarbe, Obenabe oder Undenufe an. Sie kann die Wahl dem Partner zuschieben, dann sagt der Partner an
+• **Ausspielen:** Vorhand spielt die erste Karte aus, auch wenn sie geschoben hat
+• **Farbe angeben:** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen
+• **Stechen:** Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus
+• **Zählen:** Nach neun Stichen zählt jedes Team seine Punkte
+
+## Punkte in Kürze
+
+• Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 für den letzten Stich
+• In der Trumpffarbe zählt der Puur 20 Punkte und das Nell 14 Punkte
+• Macht ein Team alle neun Stiche, ist das ein Matsch. Er bringt 100 Extrapunkte
+• Weis und Stöck bringen Zusatzpunkte
+• Die Partie endet, sobald ein Team die vereinbarte Punktzahl erreicht hat und sich bedankt
+
+Wie die Karten bei Obenabe, Undenufe und Slalom zählen, steht unter Punkte zählen beim Schieber.
+
+## Zu zweit denken
+
 Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
-Spielprinzip:
-• Vorhand bestimmt die Trumpffarbe
-• Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»
-• Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen
-• Weis und Stöck bringen Zusatzpunkte
+## Warum der Schieber so beliebt ist
 
-Warum der Schieber so beliebt ist:
-Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
+Beim Schieber spielt man zu zweit gegen zwei. Die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
+
+## Schieber online jassen
+
+In der Arena von JassGuru jasst man Schieber online, mit den eigenen Jassfreunden oder mit der Jass-KI Albis 001 als Partner und als Gegner.
 
 **Häufige Fragen:**
 - **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
@@ -77,17 +96,36 @@ Auf einen Blick:
 • Regeln: in zehn Minuten erklärt
 • Verbreitung: Häufigste Variante in der Schweiz
 
-Zu zweit denken:
+## So läuft ein Spiel
+
+• **Geben:** Der Kartengeber verteilt dreimal drei Karten an jede Person, im Gegenuhrzeigersinn
+• **Ansagen oder schieben:** Vorhand sagt eine Trumpffarbe, Obenabe oder Undenufe an. Sie kann die Wahl dem Partner zuschieben, dann sagt der Partner an
+• **Ausspielen:** Vorhand spielt die erste Karte aus, auch wenn sie geschoben hat
+• **Farbe angeben:** Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen
+• **Stechen:** Den Stich gewinnt der höchste Trumpf. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus
+• **Zählen:** Nach neun Stichen zählt jedes Team seine Punkte
+
+## Punkte in Kürze
+
+• Ein Spiel zählt 157 Punkte: 152 Kartenpunkte und 5 für den letzten Stich
+• In der Trumpffarbe zählt der Puur 20 Punkte und das Nell 14 Punkte
+• Macht ein Team alle neun Stiche, ist das ein Matsch. Er bringt 100 Extrapunkte
+• Weis und Stöck bringen Zusatzpunkte
+• Die Partie endet, sobald ein Team die vereinbarte Punktzahl erreicht hat und sich bedankt
+
+Wie die Karten bei Obenabe, Undenufe und Slalom zählen, steht unter Punkte zählen beim Schieber.
+
+## Zu zweit denken
+
 Ein geübter Schieber-Spieler rechnet mit 18 Karten: den eigenen neun und den neun des Partners. Er überlegt, was der Partner hält, spielt ihm zu und schmiert ihm Punkte.
 
-Spielprinzip:
-• Vorhand bestimmt die Trumpffarbe
-• Hat er keine gute Trumpffarbe, kann er die Entscheidung zum Partner «schieben»
-• Das Team versucht gemeinsam, möglichst viele Stiche und Punkte zu machen
-• Weis und Stöck bringen Zusatzpunkte
+## Warum der Schieber so beliebt ist
 
-Warum der Schieber so beliebt ist:
-Beim Schieber spielt man zu zweit gegen zwei, und die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
+Beim Schieber spielt man zu zweit gegen zwei. Die Trumpfwahl lässt sich abgeben. Die Regeln sind rasch erklärt, das Zusammenspiel mit dem Partner lernt man ein Leben lang. In der ganzen Schweiz wird nach denselben Regeln gejasst, darum passt jeder Gast an jeden Tisch.
+
+## Schieber online jassen
+
+In der Arena von JassGuru jasst man Schieber online, mit den eigenen Jassfreunden oder mit der Jass-KI Albis 001 als Partner und als Gegner.
 
 **Häufige Fragen:**
 - **Wie geht Schieber?** Schieber spielt man zu viert in zwei Teams. Vorhand wählt Trumpf oder schiebt die Wahl dem Partner zu. Dann werden alle Stiche gespielt. Das Team mit mehr Punkten gewinnt, 157 sind pro Runde zu holen.
@@ -375,6 +413,56 @@ Der Verband hat dazu kein Reglement und empfiehlt: Der Weis wird gestrichen. Ein
 - **Was heisst Wys beim Jassen?** Wys ist die schweizerdeutsche Form von Weis. Gemeint ist dasselbe: eine Kartenkombination, die Punkte bringt, bevor der erste Stich gespielt ist. Am Tisch hört man Wys häufiger als Weis.
 
 *Keywords: achtblatt, blattfolge, dreiblatt, dreiblatt vom ass, fünfblatt*
+
+---
+
+### Jassen lernen {#jassen_lernen}
+
+**Kategorie:** Grundlagen & Kultur > Jassen lernen
+
+Jassen lernt man am schnellsten mit dem Schieber, der häufigsten Jassart der Schweiz. Die Regeln sind in zehn Minuten erklärt. Dieser Weg führt in sechs Schritten von den Karten bis zum ersten Spiel.
+
+## 1. Die Karten kennen
+
+Gejasst wird mit 36 Karten in vier Farben. Die Deutschschweizer Karten zeigen Eichel, Rosen, Schellen und Schilten, die französischen Karten Ecke, Herz, Kreuz und Schaufel. Jede Farbe hat neun Karten, vom Sechser bis zum Ass. Beide Kartenbilder zeigt der Artikel Jasskarten.
+
+## 2. Farbe angeben
+
+Vier Personen spielen der Reihe nach je eine Karte. Diese vier Karten sind ein Stich. Wer die ausgespielte Farbe hat, muss sie spielen. Das heisst Farbe angeben und ist die erste der Grundregeln.
+
+## 3. Den Stich gewinnen
+
+Den Stich gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus. Nach neun Stichen ist das Spiel fertig.
+
+## 4. Den Trumpf verstehen
+
+Vor dem ersten Stich wird eine Farbe zum Trumpf. Jede Trumpfkarte sticht jede Karte einer anderen Farbe. Der höchste Trumpf ist der Under, er heisst Puur. Der zweithöchste ist der Neuner, das Nell. Mit einem Trumpf darf man jederzeit abstechen, auch mit der ausgespielten Farbe in der Hand.
+
+## 5. Punkte zählen
+
+Jede Karte hat einen Punktwert: Ass 11, Banner 10, König 4, Ober 3, Under 2. Die Karten vom Sechser bis zum Neuner zählen 0. In der Trumpffarbe zählt der Puur 20 und das Nell 14. Der letzte Stich bringt 5 Punkte dazu. So zählt ein Spiel 157 Punkte. Die ganze Tabelle steht im Artikel Kartenwerte.
+
+## 6. Zu viert spielen: der Schieber
+
+Beim Schieber spielen zwei Teams gegeneinander, die Partner sitzen sich gegenüber. Vorhand sagt den Trumpf an oder schiebt die Wahl dem Partner zu. Die Partie gewinnt das Team, das zuerst die vereinbarte Punktzahl erreicht. Wer geübt ist, rechnet mit 18 Karten: den eigenen neun und den neun des Partners.
+
+## Üben
+
+- **Jass des Tages:** Jeden Tag liegt auf jassguru.ch ein Blatt mit neun Karten und einem Ziel. Um 19 Uhr löst ein Jasscoach das Blatt im Video. Mehr dazu auf der Seite [Jass des Tages](/jass-des-tages/).
+- **Online jassen:** In der Arena von JassGuru jasst man Schieber mit der Jass-KI Albis 001 als Partner und als Gegner, auch als Gast. Alle Wege zeigt die Seite [Online jassen](https://jassguru.ch/online-jassen/?utm_source=jasswiki-ch&utm_medium=artikel) auf jassguru.ch.
+
+## Wie es weitergeht
+
+Wer die Regeln kennt, lernt das Zusammenspiel mit dem Partner: Verwerfen, Anziehen und Austrumpfen. Jede Regel im Einzelnen steht unter [Jassregeln](/regeln/).
+
+**Häufige Fragen:**
+- **Wie lerne ich jassen?** Am schnellsten mit dem Schieber: die Karten kennen, Farbe angeben, stechen, den Trumpf verstehen, Punkte zählen und dann zu viert spielen. Üben kann man am Tisch, mit dem Jass des Tages und online mit der Jass-KI.
+- **Wie lange dauert es, jassen zu lernen?** Die Regeln des Schiebers sind in zehn Minuten erklärt. Das Zusammenspiel mit dem Partner lernt man ein Leben lang.
+- **Welche Jassart lernt man zuerst?** Den Schieber. Er ist die häufigste Jassart der Schweiz und wird in der ganzen Schweiz nach denselben Regeln gejasst.
+- **Kann man das Jassen allein üben?** Ja. Der Jass des Tages stellt jeden Tag eine Aufgabe mit neun Karten. In der Arena von JassGuru jasst man als Gast sofort mit der Jass-KI Albis 001.
+- **Wie viele Karten braucht man zum Jassen?** 36 Karten in vier Farben, neun Karten je Farbe.
+
+*Keywords: jassen lernen, jassen für anfänger, jass lernen, jassen anfänger, jassen lernen online*
 
 ---
 

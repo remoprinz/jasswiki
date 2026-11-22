@@ -3,8 +3,8 @@ title: "JassWiki.ch - Spielvarianten"
 description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 52
-last_updated: 2026-11-21
+entries_count: 53
+last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -22,8 +22,9 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 
 - [Aucho (4 Spieler)](#variants_strategic_aucho_vier)
 - [Bieter](#variants_strategic_bieder)
+- [Differenzler](#variants_strategic_differenzler)
 - [Aucho (3 Spieler)](#variants_strategic_aucho_drei)
-- [Differenzler](#variants_strategic_differenzler_drei)
+- [Differenzler zu dritt](#variants_strategic_differenzler_drei)
 - [Hindersi (4 Spieler)](#variants_specialty_hindersi_vier)
 - [Palette](#variants_strategic_palette_jass)
 - [Aucho (2 Spieler)](#variants_strategic_aucho_zwei)
@@ -365,6 +366,51 @@ Ein «Härdöpfel» ist der Nuller, das Gegenstück zum Strich. Wer die Hälfte 
 
 ---
 
+### Differenzler {#variants_strategic_differenzler}
+
+**Kategorie:** Varianten > Schätzspiel
+
+Der Differenzler ist ein Jass, bei dem jede Person für sich spielt. Vor dem Spiel schätzt sie nach ihrem Blatt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis. Wer am Ende das kleinste Differenz-Total hat, gewinnt.
+
+Auf einen Blick:
+• Spieler: 4, jede Person für sich, auch zu dritt möglich
+• Karten: 36 Jasskarten, 9 je Person
+• Punkte je Spiel: 157, davon 5 für den letzten Stich
+• Ansage: die geschätzten eigenen Kartenpunkte
+• Wertung: die Differenz zwischen Ansage und Ergebnis
+• Ziel: das kleinste Differenz-Total
+
+## So läuft ein Spiel
+
+• Jede Person schätzt nach ihrem Blatt, wie viele Kartenpunkte sie am Ende macht
+• Die Ansage ist offen oder verdeckt, je nach Fassung
+• Gespielt wird mit einer Trumpffarbe
+• Nach dem Spiel zählt jede Person ihre Kartenpunkte
+• Geschrieben wird die Differenz zwischen Ansage und Ergebnis
+
+## Die Fassungen
+
+| Fassung | Was sie ausmacht |
+|---|---|
+| Differenzler mit offener Ansage | Alle hören, was die anderen ansagen. Der Artikel dazu enthält die Grundregeln: Trumpf, Ansage, Wertung, Spielende |
+| Differenzler mit verdeckter Ansage | Jede Person schreibt ihre Zahl auf einen Zettel, der bis zum Spielende verdeckt liegt |
+| Differenzler zu dritt | Jede Person erhält zwölf Karten, dem Kartengeber als letztem Ansager werden Punkte gutgeschrieben |
+| Stich-Differenzler | Angesagt und gezählt werden die Stiche statt der Kartenpunkte |
+
+## Differenzler online
+
+Nach eigenen Angaben bieten Jass.ch von Swisslos, SwissJass+, wyys.ch und jassfreunde.ch den Differenzler online an. Alle Angebote stehen in der Übersicht [Online-Jass](/jassapps/online-jass/). Der Differenzler ist auch die Jassart der Fernsehsendung Samschtig-Jass.
+
+**Häufige Fragen:**
+- **Was ist der Differenzler?** Der Differenzler ist ein Jass, bei dem jede Person für sich spielt und vor dem Spiel schätzt, wie viele Kartenpunkte sie machen wird. Gewertet wird die Differenz zwischen Ansage und Ergebnis.
+- **Wie spielt man Differenzler?** Jede Person schätzt nach ihrem Blatt ihre Kartenpunkte und sagt die Zahl an, offen oder verdeckt. Dann wird gestochen. Geschrieben wird die Differenz zwischen Ansage und Ergebnis.
+- **Wer gewinnt beim Differenzler?** Es gewinnt, wer am Ende das kleinste Differenz-Total hat.
+- **Welche Fassungen des Differenzlers gibt es?** Den Differenzler mit offener Ansage, den Differenzler mit verdeckter Ansage, den Differenzler zu dritt und den Stich-Differenzler, bei dem die Stiche zählen.
+
+*Keywords: differenzler, differenzler jass, differenzler regeln, differenzler jassen, schätzjass*
+
+---
+
 ### Aucho (3 Spieler) {#variants_strategic_aucho_drei}
 
 **Kategorie:** Varianten > Königsspiel
@@ -396,7 +442,7 @@ Sonst gelten die Regeln des Aucho für vier Spieler.
 
 ---
 
-### Differenzler {#variants_strategic_differenzler_drei}
+### Differenzler zu dritt {#variants_strategic_differenzler_drei}
 
 **Kategorie:** Varianten > Schätzspiel
 
@@ -2345,8 +2391,8 @@ Spielstrategie:
 • Er sollte für einen strategisch wichtigen Moment zurückgehalten werden
 
 **Häufige Fragen:**
-- **Was ist Differenzler?** Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis, je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim.
-- **Wie spielt man Differenzler?** Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält.
+- **Was ist der Differenzler mit verdeckter Ansage?** Der Differenzler ist eine anspruchsvolle Jass-Variante für vier Personen, bei der jede Person vor dem Spiel schätzt, wie viele Kartenpunkte sie erzielen wird. Gewertet wird die Differenz zwischen Schätzung und tatsächlichem Ergebnis, je näher an der Ansage, desto besser. Bei der verdeckten Ansage bleiben die Schätzungen bis zum Spielende geheim.
+- **Wie spielt man Differenzler mit verdeckter Ansage?** Jede Person schätzt aufgrund ihrer Karten ihre erreichbaren Punkte und sagt sie an (beim verdeckten Differenzler geheim auf einem Zettel). Dann wird normal gestochen. Am Ende zählt, wie nah man an der angesagten Punktzahl liegt, die Abweichung (Differenz) ist der Verlust. Die wichtigste Karte ist der Trumpf-Bauer, den man für einen wichtigen Moment zurückhält.
 - **Was ist der Unterschied zwischen verdeckter und offener Ansage beim Differenzler?** Bei der verdeckten Ansage kennen die Mitspieler die Schätzwerte der anderen nicht. Jeder Spieler schreibt seine geschätzte Punktzahl auf einen Zettel, der bis zum Spielende verdeckt bleibt.
 - **Wie schätzt man am besten beim Differenzler mit verdeckter Ansage?** Für eine präzise Schätzung zählt man die Werte der Trumpfkarten doppelt und addiert für jeden möglichen Stich mit einem Ass zusätzlich elf Punkte.
 - **Warum ist der Trumpf-Bauer beim Differenzler so wichtig?** Der Trumpfbauer ist eine Schlüsselkarte: Wird Trumpf ausgespielt, muss man ihn als einzige Trumpfkarte nicht spielen. Darum hält man ihn für einen wichtigen Moment zurück.

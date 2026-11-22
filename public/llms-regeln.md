@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 66
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -1054,7 +1054,7 @@ Wer gegen eine dieser Regeln verstösst, verliert je nach Fall den Stechwert sei
 
 **Kategorie:** Regeln > Punktezählung
 
-Was die Karten zählen, hängt von der Ansage ab:
+Beim Schieber hängt der Wert der Karten von der Ansage ab:
 
 **Obenabe:**
 • Beim Obenabe zählen die Asse je 11 Punkte und die Achter 8 Punkte
@@ -1331,7 +1331,6 @@ Siehe Artikel «Bemerkungen und Schnorren» (ID: bemerkungen_schnorren) für vol
 Die Stöck sind König und Ober der Trumpffarbe in einer Hand. Sie zählen 20 Punkte und sind der Weis mit eigenen Regeln: Gewiesen werden sie mit der zweiten der beiden Karten, und sie zählen für ihre Partei auch dann, wenn die Gegner den höheren Weis halten oder ihr keinen Stich lassen. Dieser Artikel beschreibt die vom [Jassverband Schweiz](https://jassverband.ch) empfohlene Spielweise. Was eine Runde vor Spielbeginn anders abmacht, gilt für sie als Tischregel.
 
 ## Was die Stöck sind
-
 
 
 König und Ober werden zu den Stöck erst dadurch, dass ihre Farbe Trumpf ist. Wechselt der Trumpf mit dem nächsten Spiel, sind es wieder zwei gewöhnliche Karten. In Obenabe und Undenufe gibt es darum keine Stöck.
