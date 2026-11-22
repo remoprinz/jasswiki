@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
-import { toSlug } from '@/lib/utils';
 import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
+import { krumenFuerArtikel, type Krume } from '@/lib/gliederung';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { TrumpffarbenGrid } from '@/components/wissen/TrumpffarbenGrid';
 import { TrumpffarbenSymbole } from '@/components/wissen/TrumpffarbenSymbole';
@@ -27,6 +27,7 @@ interface AnsagenPageProps {
   pageTitle: string;
   metaDescription: string;
   canonicalPath: string;
+  krumen: Krume[];
 }
 
 const AnsagenPage: NextPage<AnsagenPageProps> = ({
@@ -36,6 +37,7 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
   pageTitle,
   metaDescription,
   canonicalPath,
+  krumen,
 }) => {
   const router = useRouter();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
@@ -68,11 +70,8 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
   const categorySlug = 'ansagen';
   const subcategory = contentItem.metadata.category.sub;
 
-  const breadcrumbItems = [
-    { name: 'Jass-Wiki', href: '/' },
-    { name: category, href: `/${categorySlug}/` },
-    { name: topic, href: normalizedPath },
-  ];
+  // Brotkrumen nach der Gliederung: Jass-Wiki › Rubrik › Kapitel › Artikel.
+  const breadcrumbItems = [...krumen, { name: topic, href: normalizedPath }];
 
   const articleData = {
     headline: topic,
@@ -302,6 +301,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       pageTitle,
       metaDescription,
       canonicalPath,
+      krumen: krumenFuerArtikel(contentItem.id, canonicalPath),
     },
   };
 };

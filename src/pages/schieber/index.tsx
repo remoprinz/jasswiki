@@ -15,6 +15,7 @@ import { JassenZeile } from '@/components/wissen/JassenKarte';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
+import { krumenFuerArtikel, ortVon } from '@/lib/gliederung';
 
 // /schieber/ ist die Hauptseite zum Schieber (Karte LEUCHTTURM 2 und Karte
 // SCHIRI «wiki-vorlagen», Teil B, 22.11.2026): der ganze Artikel
@@ -22,11 +23,24 @@ import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 // Gruppen, das Video und der Jassfreunde-Satz. Die alte Artikeladresse
 // /schieber/grundlagen/der-schieber/ leitet per 301 hierher (firebase.json).
 
+// Gruppen des Schieber-Hubs nach der Rubrik der Gliederung (Schritt 3, 22.11.2026).
+// Jede Gruppe nimmt die Artikel ihrer Rubriken; was in keiner dieser Rubriken
+// steht (Jassarten, Jassen digital), führt der Hub nicht.
+const rubrikVon = (i: JassContentItem) => ortVon(i.id)?.rubrik?.name;
 export const SCHIEBER_GROUPS = [
-  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => i.metadata.category.main === 'Regeln' },
-  { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe', test: (i: JassContentItem) => i.metadata.category.main === 'Begriffe' },
-  { title: 'Kultur & Geschichte', slug: 'kultur-geschichte', test: () => true },
+  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => ['Regeln', 'Ansagen'].includes(rubrikVon(i) ?? '') },
+  { title: 'Taktik',              slug: 'taktik',            test: (i: JassContentItem) => rubrikVon(i) === 'Taktik' },
+  { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe', test: (i: JassContentItem) => rubrikVon(i) === 'Begriffe' },
+  { title: 'Kultur & Geschichte', slug: 'kultur-geschichte', test: (i: JassContentItem) => rubrikVon(i) === 'Geschichte und Kultur' },
 ];
+
+/** Artikel des Hubs: Schieber im Stichwort oder in der Unterrubrik, dazu die ganze Rubrik Taktik (Schieber-Taktik). */
+export const schieberArtikel = (items: JassContentItem[]): JassContentItem[] =>
+  items.filter((item) => {
+    if (item.id === 'general_schieber') return false;
+    const keywords = (item.metadata.keywords || []).map((k) => k.toLowerCase());
+    return keywords.includes('schieber') || item.metadata.category.sub === 'Schieber' || rubrikVon(item) === 'Taktik';
+  });
 
 interface GroupCard {
   title: string;
@@ -56,10 +70,8 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ artikel, totalCount, grou
     return () => document.body.classList.remove('lexikon-page');
   }, []);
 
-  const breadcrumbItems = [
-    { name: 'Jass-Wiki', href: '/' },
-    { name: 'Schieber', href: '/schieber/' },
-  ];
+  // Brotkrumen nach der Gliederung: Jass-Wiki › Jassarten › Kapitel › Schieber.
+  const breadcrumbItems = [...krumenFuerArtikel('general_schieber', '/schieber/'), { name: 'Schieber', href: '/schieber/' }];
 
   return (
     <>
@@ -185,11 +197,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const mainArticle = items.find(i => i.id === 'general_schieber');
 
-  const relatedItems = items.filter(item => {
-    if (item.id === 'general_schieber') return false;
-    const keywords = (item.metadata.keywords || []).map(k => k.toLowerCase());
-    return keywords.includes('schieber') || item.metadata.category.sub === 'Schieber';
-  });
+  const relatedItems = schieberArtikel(items);
 
   const assigned = new Set<string>();
   const groups: GroupCard[] = SCHIEBER_GROUPS
@@ -201,7 +209,7 @@ export const getStaticProps: GetStaticProps = async () => {
     .filter(g => g.count > 0);
 
   return {
-    props: { artikel: mainArticle ?? null, totalCount: relatedItems.length, groups },
+    props: { artikel: mainArticle ?? null, totalCount: groups.reduce((n, g) => n + g.count, 0), groups },
   };
 };
 

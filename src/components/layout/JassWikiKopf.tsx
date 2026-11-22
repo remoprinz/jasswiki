@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { SearchBar } from '@/components/wissen/SearchBar';
 import { JassWikiMarke } from './JassWikiMarke';
 import { ZeichenAuf, ZeichenMenue, ZeichenSchliessen, ZeichenSuchen } from './JassWikiZeichen';
-import { hauptbereiche, pfadVon } from './LexikonSidebar';
+import { bereichFuer, hauptbereiche, pfadVon } from './LexikonSidebar';
 
 /* ---------------------------------------------------------------------------
    KOPF · JassWiki (Figma Komponentensatz 2280:2000, Jens, Update 1.5)
@@ -24,7 +24,7 @@ export const kopfZustand = (asPath: string): { aktiv: KopfAktiv; thema: string }
   const erstes = pfadVon(asPath).split('/')[1] ?? '';
   if (erstes === 'jass-des-tages') return { aktiv: 'jass-des-tages', thema: STANDARD_THEMA };
   if (erstes === 'begriffe') return { aktiv: 'begriffe', thema: STANDARD_THEMA };
-  const bereich = hauptbereiche().find((b) => b.href === `/${erstes}/`);
+  const bereich = bereichFuer(pfadVon(asPath));
   return bereich ? { aktiv: 'thema', thema: bereich.name } : { aktiv: 'keiner', thema: STANDARD_THEMA };
 };
 

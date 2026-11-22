@@ -206,6 +206,21 @@ async function generateSitemap() {
       }
     });
 
+    // Seiten der Gliederung (Rubriken und Kapitel mit eigener Seite, Schritt 3):
+    // was oben schon steht, bleibt einmal; neu kommen Kapitelseiten wie
+    // /regeln/karten-und-werte/.
+    const gliederung = JSON.parse(await fs.readFile(path.resolve(__dirname, 'src/data/gliederung.json'), 'utf-8'));
+    const gliederungsSeiten = [
+      ...gliederung.rubriken.map((r) => r.adresse),
+      ...gliederung.rubriken.flatMap((r) => r.eintraege.filter((e) => e && e.kapitel && e.adresse).map((e) => e.adresse)),
+    ];
+    for (const adresse of gliederungsSeiten) {
+      const url = `${BASE_URL}${adresse}`;
+      if (addedUrls.has(url) || urls.some((u) => u.loc === url)) continue;
+      urls.push({ loc: url, lastmod: lastModDate, changefreq: 'weekly', priority: '0.85' });
+      addedUrls.add(url);
+    }
+
     // Eine Adresse steht einmal: /schieber/ ist Rubrik und Artikel zugleich.
     // Es bleibt der erste Eintrag mit dem höchsten Gewicht und dem jüngsten Datum.
     const proAdresse = new Map();

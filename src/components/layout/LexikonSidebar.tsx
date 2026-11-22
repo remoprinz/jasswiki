@@ -2,162 +2,8 @@ import React, { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ChevronRight } from 'lucide-react';
-import allContent from '@/data/jass-content-v2.json';
-import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
-import { toSlug } from '@/lib/utils';
-import { artikelAdresse, isFlatStructure } from '@/lib/url-utils';
-
-const formatTopicName = (name: string): string => {
-  return name
-    .replace(/ACHTBLATT/g, 'Achtblatt')
-    .replace(/NEUNBLATT/g, 'Neunblatt')
-    .replace(/DREIBLATT/g, 'Dreiblatt')
-    .replace(/VIERBLATT/g, 'Vierblatt')
-    .replace(/FUENFBLATT/g, 'Fünfblatt')
-    .replace(/SECHSBLATT/g, 'Sechsblatt')
-    .replace(/SIEBENBLATT/g, 'Siebenblatt')
-    .replace(/VIER_GLEICHE/g, 'Vier gleiche')
-    .replace(/GRUNDREGELN/g, 'Grundregeln')
-    .replace(/REIHENFOLGE/g, 'Reihenfolge')
-    .replace(/SCHNEIDER/g, 'Schneider')
-    .replace(/KORREKTUREN/g, 'Korrekturen')
-    .replace(/ZAHLENDARSTELLUNG/g, 'Zahlendarstellung')
-    .replace(/FRUEHZEITIGES_BEDANKEN/g, 'Frühzeitiges Bedanken')
-    .replace(/BEDANKEN/g, 'Bedanken')
-    .replace(/STOECK/g, 'Stöck');
-};
-
-const getNavigationStructure = (content: JassContentRecord) => {
-  const structure: Record<string, {
-    name: string;
-    subcategories: Record<string, {
-      name: string;
-      slug: string;
-      topics: { name: string; slug: string; href: string }[];
-    }>;
-    flatArticles: { name: string; slug: string; href: string }[];
-  }> = {};
-
-  (Object.values(content) as JassContentItem[]).forEach(item => {
-    const mainCatSlug = toSlug(item.metadata.category.main);
-    const subCatSlug = toSlug(item.metadata.category.sub);
-    const topicSlug = toSlug(item.metadata.category.topic);
-
-    if (!structure[mainCatSlug]) {
-      structure[mainCatSlug] = {
-        name: item.metadata.category.main,
-        subcategories: {},
-        flatArticles: []
-      };
-    }
-
-    if (isFlatStructure(mainCatSlug, subCatSlug, topicSlug)) {
-      if (!structure[mainCatSlug].flatArticles.some(a => a.slug === topicSlug)) {
-        structure[mainCatSlug].flatArticles.push({
-          name: item.metadata.category.topic,
-          slug: topicSlug,
-          // Fester Pfad (z. B. /jassen-lernen/) statt /<rubrik>/<thema>/.
-          href: artikelAdresse(item),
-        });
-      }
-      return;
-    }
-
-    if (!structure[mainCatSlug].subcategories[subCatSlug]) {
-      structure[mainCatSlug].subcategories[subCatSlug] = {
-        name: item.metadata.category.sub,
-        slug: subCatSlug,
-        topics: []
-      };
-    }
-
-    if (!structure[mainCatSlug].subcategories[subCatSlug].topics.some(t => t.slug === topicSlug)) {
-      structure[mainCatSlug].subcategories[subCatSlug].topics.push({
-        name: item.metadata.category.topic,
-        slug: topicSlug,
-        href: artikelAdresse(item),
-      });
-    }
-  });
-
-  Object.keys(structure).forEach(catSlug => {
-    const cat = structure[catSlug];
-
-    const sortedSubcats = Object.keys(cat.subcategories).sort().reduce<Record<string, {
-      name: string;
-      slug: string;
-      topics: { name: string; slug: string; href: string }[];
-    }>>((result, subCatSlug) => {
-      result[subCatSlug] = cat.subcategories[subCatSlug];
-      return result;
-    }, {});
-
-    cat.subcategories = sortedSubcats;
-
-    // Flacher Leitartikel einer Subkategorie (sub === topic, z. B. Signalsprache =
-    // «Kommunikation & Signale») nicht doppelt zeigen: die gleichnamige Subkategorie
-    // repräsentiert ihn bereits (ihr Header verlinkt auf dieselbe flache URL).
-    // Echte flache Artikel ohne gleichnamige Sub (z. B. Jasskarten) bleiben erhalten.
-    cat.flatArticles = cat.flatArticles.filter(a => !cat.subcategories[a.slug]);
-
-    Object.keys(cat.subcategories).forEach(subCatSlug => {
-      const subcat = cat.subcategories[subCatSlug];
-
-      if (catSlug === 'weis-regeln') {
-        const getWeisOrderIndex = (name: string) => {
-          const lowerName = name.toLowerCase();
-          if (lowerName.includes('dreiblatt') || lowerName.includes('3 blatt')) return 1;
-          if (lowerName.includes('vierblatt') || lowerName.includes('4 blatt')) return 2;
-          if (lowerName.includes('fünfblatt') || lowerName.includes('5 blatt')) return 3;
-          if (lowerName.includes('sechsblatt') || lowerName.includes('6 blatt')) return 4;
-          if (lowerName.includes('siebenblatt') || lowerName.includes('7 blatt')) return 5;
-          if (lowerName.includes('achtblatt') || lowerName.includes('8 blatt')) return 6;
-          if (lowerName.includes('neunblatt') || lowerName.includes('9 blatt')) return 7;
-          if (lowerName.includes('vier gleiche')) return 8;
-          if (lowerName.includes('stöck')) return 9;
-          if (lowerName.includes('reihenfolge')) return 10;
-          if (lowerName.includes('schneider')) return 11;
-          if (lowerName.includes('korrekturen')) return 12;
-          if (lowerName.includes('zahlendarstellung')) return 13;
-          if (lowerName.includes('frühzeitiges bedanken')) return 14;
-          if (lowerName.includes('bedanken')) return 15;
-          if (lowerName.includes('allgemeine weis') || lowerName.includes('grundregeln')) return 0;
-          if (lowerName.includes('ausmachen')) return 16;
-          return 999;
-        };
-
-        subcat.topics.sort((a, b) => {
-          const indexA = getWeisOrderIndex(a.name);
-          const indexB = getWeisOrderIndex(b.name);
-          if (indexA !== indexB) return indexA - indexB;
-          return a.name.localeCompare(b.name);
-        });
-      } else {
-        // JassGuru, das Angebot des Herausgebers, steht wie in der Übersicht zuerst
-        // (SUB_ZUERST in [category]/[subcategory]/index.tsx, SCHIRI 25.10.2026).
-        const zuerst = (name: string) => (name === 'JassGuru' ? 0 : 1);
-        subcat.topics.sort((a, b) => zuerst(a.name) - zuerst(b.name) || a.name.localeCompare(b.name));
-      }
-    });
-  });
-
-  Object.keys(structure).forEach(catSlug => {
-    structure[catSlug].flatArticles.sort((a, b) => a.name.localeCompare(b.name, 'de'));
-  });
-
-  const sortedStructure: typeof structure = {};
-  const categoryOrder = ['regeln', 'weis-regeln', 'geschichte', 'grundlagen-kultur', 'schieber', 'ansagen', 'taktiken-und-strategien', 'begriffe', 'varianten', 'jassapps', 'referenzen'];
-  
-  categoryOrder.forEach(catSlug => {
-    if (structure[catSlug]) sortedStructure[catSlug] = structure[catSlug];
-  });
-  
-  Object.keys(structure).forEach(catSlug => {
-    if (!categoryOrder.includes(catSlug)) sortedStructure[catSlug] = structure[catSlug];
-  });
-
-  return sortedStructure;
-};
+import { artikelAdresse } from '@/lib/url-utils';
+import { artikel, einstieg, rubriken, type GEintrag } from '@/lib/gliederung';
 
 /* ---------------------------------------------------------------------------
    SEITENNAVIGATION (Jens, Bauhütte 203, 30.10.2026)
@@ -182,81 +28,53 @@ interface Knoten {
   kinder: Knoten[];
 }
 
-const SCHIEBER_SIDEBAR_GROUPS = [
-  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen' },
-  { title: 'Wichtige Begriffe', slug: 'wichtige-begriffe' },
-  { title: 'Kultur & Geschichte', slug: 'kultur-geschichte' },
-];
 
 const META_SEITEN = [
   { name: 'Referenzen und Quellen', href: '/referenzen/' },
   { name: 'Taxonomie des Jassens', href: '/taxonomie/' },
 ];
 
-const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[] => {
-  const baum: Knoten[] = [{ key: '/jassen/', name: 'Jassen', href: '/jassen/', ebene: 1, kinder: [] }];
+/**
+ * Der Baum folgt src/data/gliederung.json (Schritt 3, 22.11.2026): Einstieg,
+ * dann die Rubriken in ihrer Reihenfolge, darin lose Artikel und Kapitel in
+ * ihrer Reihenfolge. Ein Verweis steht als Seite im Baum und führt zum Artikel
+ * an seinem eigenen Ort; die Kette der Seite findet zuerst diesen Ort.
+ */
+const blatt = (e: GEintrag, ebene: 2 | 3, eltern: string): Knoten[] => {
+  const a = artikel(e.id);
+  if (!a) return [];
+  const href = artikelAdresse(a);
+  return [{ key: e.art === 'verweis' ? `${eltern}>${href}` : href, name: a.metadata.category.topic, href, ebene, kinder: [] }];
+};
 
-  Object.entries(struktur).forEach(([catSlug, cat]) => {
-    const href = `/${catSlug}/`;
-    let kinder: Knoten[];
-
-    if (catSlug === 'schieber') {
-      // Der Leitartikel hängt unter «Regeln & Grundlagen» (Figma 2299:3434).
-      const leitartikel = (allContent as JassContentRecord).general_schieber;
-      kinder = SCHIEBER_SIDEBAR_GROUPS.map((g) => ({
-        key: `/schieber/${g.slug}/`,
-        name: g.title,
-        href: `/schieber/${g.slug}/`,
-        ebene: 2 as const,
-        // Steht der Leitartikel auf /schieber/ selbst (fester Pfad), ist er der
-        // Hauptbereich und braucht keinen eigenen Eintrag darunter.
-        kinder:
-          g.slug === 'regeln-grundlagen' && leitartikel && artikelAdresse(leitartikel) !== href
-            ? [
-                {
-                  key: artikelAdresse(leitartikel),
-                  name: leitartikel.metadata.category.topic,
-                  href: artikelAdresse(leitartikel),
-                  ebene: 3 as const,
-                  kinder: [],
-                },
-              ]
-            : [],
-      }));
-    } else {
-      // Unterbereiche und flache Artikel alphabetisch gemischt, wie bisher.
-      const unter: Knoten[] = Object.entries(cat.subcategories).map(([subSlug, sub]) => ({
-        key: `/${catSlug}/${subSlug}/`,
-        name: formatTopicName(sub.name),
-        href: `/${catSlug}/${subSlug}/`,
-        ebene: 2 as const,
-        kinder: sub.topics.map((t) => ({
-          key: t.href,
-          name: formatTopicName(t.name),
-          href: t.href,
-          ebene: 3 as const,
-          kinder: [],
-        })),
-      }));
-      const flach: Knoten[] = (cat.flatArticles || []).map((a) => ({
-        key: a.href,
-        name: formatTopicName(a.name),
-        href: a.href,
-        ebene: 2 as const,
-        kinder: [],
-      }));
-      kinder = [...unter, ...flach].sort((a, b) => a.name.localeCompare(b.name, 'de'));
-    }
-
-    baum.push({ key: href, name: cat.name, href, ebene: 1, kinder });
+const baumBauen = (): Knoten[] => {
+  const baum: Knoten[] = [
+    { key: '/jassen/', name: 'Jassen', href: '/jassen/', ebene: 1, kinder: [] },
+    { key: einstieg.adresse, name: einstieg.name, href: einstieg.adresse, ebene: 1, kinder: [] },
+  ];
+  rubriken.forEach((r) => {
+    const kinder: Knoten[] = r.teile.flatMap((t) =>
+      t.art === 'eintrag'
+        ? blatt(t.eintrag, 2, r.adresse)
+        : [
+            {
+              key: t.kapitel.href,
+              name: t.kapitel.name,
+              href: t.kapitel.href,
+              ebene: 2 as const,
+              kinder: t.kapitel.eintraege.flatMap((e) => blatt(e, 3, t.kapitel.href)),
+            },
+          ],
+    );
+    if (r.darstellung === 'alphabet') kinder.sort((a, b) => a.name.localeCompare(b.name, 'de'));
+    baum.push({ key: r.adresse, name: r.name, href: r.adresse, ebene: 1, kinder });
   });
-
   return baum;
 };
 
 let baumEinmal: Knoten[] | null = null;
 const derBaum = (): Knoten[] => {
-  baumEinmal ??= baumBauen(getNavigationStructure(allContent as JassContentRecord));
+  baumEinmal ??= baumBauen();
   return baumEinmal;
 };
 
@@ -289,6 +107,12 @@ const ketteZu = (baum: Knoten[], pfad: string): { kette: Knoten[]; genau: boolea
   };
   const genau = gehen(baum, []);
   return genau ? { kette: genau, genau: true } : { kette: beste, genau: false };
+};
+
+/** Hauptbereich einer Seite nach der Gliederung (für den Themen-Knopf im Kopf). */
+export const bereichFuer = (pfad: string): { name: string; href: string } | undefined => {
+  const erster = ketteZu(derBaum(), pfad).kette[0];
+  return erster ? { name: erster.name, href: erster.href } : undefined;
 };
 
 const offenAus = (kette: Knoten[]): Set<string> =>

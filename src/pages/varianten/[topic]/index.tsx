@@ -6,6 +6,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
+import { krumenFuerArtikel, type Krume } from '@/lib/gliederung';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -30,6 +31,7 @@ interface VariantenPageProps {
   pageTitle: string;
   metaDescription: string;
   canonicalPath: string;
+  krumen: Krume[];
 }
 
 const VariantenPage: NextPage<VariantenPageProps> = ({
@@ -39,6 +41,7 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
   pageTitle,
   metaDescription,
   canonicalPath,
+  krumen,
 }) => {
   const router = useRouter();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
@@ -71,11 +74,8 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
   const categorySlug = 'varianten';
   const subcategory = contentItem.metadata.category.sub;
   
-  const breadcrumbItems = [
-    { name: 'Jass-Wiki', href: '/' },
-    { name: category, href: `/${categorySlug}/` },
-    { name: topic, href: normalizedPath },
-  ];
+  // Brotkrumen nach der Gliederung: Jass-Wiki › Rubrik › Kapitel › Artikel.
+  const breadcrumbItems = [...krumen, { name: topic, href: normalizedPath }];
 
   const articleData = {
     headline: topic,
@@ -279,6 +279,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       pageTitle,
       metaDescription,
       canonicalPath,
+      krumen: krumenFuerArtikel(contentItem.id, canonicalPath),
     },
   };
 };

@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { stelleAnAdresse } from '@/lib/gliederung';
 
 const SITE_URL = 'https://jasswiki.ch';
 
@@ -144,7 +145,9 @@ const AnsagenLeitartikel: NextPage = () => {
                 { slug: 'trumpffarbe', name: 'Trumpffarbe', desc: 'eine Farbe als Trumpf ansagen; Puur und Nell werden die höchsten Karten.' },
                 { slug: 'tutti', name: 'Tutti', desc: 'vor allem beim Coiffeur, alle Farben sind Trumpf.' },
                 { slug: 'undenufe', name: 'Undenufe', desc: 'ohne Trumpf, die tiefste Karte (6) sticht.' },
-              ].map((m) => (
+              ]
+                .sort((a, b) => stelleAnAdresse(`/ansagen/${a.slug}/`) - stelleAnAdresse(`/ansagen/${b.slug}/`))
+                .map((m) => (
                 <Link key={m.slug} href={`/ansagen/${m.slug}/`} className="group block">
                   <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">
                     <div className="flex items-center justify-between gap-4">

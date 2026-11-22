@@ -6,6 +6,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
+import { krumenFuerArtikel, type Krume } from '@/lib/gliederung';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -50,6 +51,7 @@ interface JassWissenPageProps {
   pageTitle: string;
   metaDescription: string;
   canonicalPath: string;
+  krumen: Krume[];
 }
 
 const JassWissenPage: NextPage<JassWissenPageProps> = ({
@@ -62,6 +64,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
   pageTitle,
   metaDescription,
   canonicalPath,
+  krumen,
 }) => {
   const router = useRouter();
   const siteUrl =
@@ -91,12 +94,8 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     return <div>Artikel nicht gefunden.</div>;
   }
 
-  const breadcrumbItems = [
-    { name: 'Jass-Wiki', href: '/' },
-    { name: category, href: `/${categorySlug}/` },
-    { name: subcategory, href: `/${categorySlug}/${subcategorySlug}/` },
-    { name: topic, href: normalizedPath },
-  ];
+  // Brotkrumen nach der Gliederung: Jass-Wiki › Rubrik › Kapitel › Artikel.
+  const breadcrumbItems = [...krumen, { name: topic, href: normalizedPath }];
 
   const articleData = {
     headline: topic,
@@ -444,6 +443,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       pageTitle,
       metaDescription,
       canonicalPath,
+      krumen: krumenFuerArtikel(contentItem.id, canonicalPath),
     },
   };
 };

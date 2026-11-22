@@ -7,7 +7,8 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse } from '@/lib/url-utils';
-import { SCHIEBER_GROUPS } from './index';
+import { SCHIEBER_GROUPS, schieberArtikel } from './index';
+import { stelleVon } from '@/lib/gliederung';
 import { vorschauText } from '@/components/wissen/vorschau';
 
 interface SchieberGroupPageProps {
@@ -139,13 +140,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const content: JassContentRecord = allContent;
   const items = Object.values(content) as JassContentItem[];
 
-  const relatedItems = items.filter(item => {
-    if (item.id === 'general_schieber') return false;
-    const keywords = (item.metadata.keywords || []).map(k => k.toLowerCase());
-    return keywords.includes('schieber') || item.metadata.category.sub === 'Schieber';
-  });
+  const relatedItems = schieberArtikel(items);
 
-  // Assign to groups in order so "catch-all" (Kultur & Geschichte) gets the rest
+  // Gruppen nach der Rubrik der Gliederung (SCHIEBER_GROUPS in ./index)
   const assigned = new Set<string>();
   let groupItems: JassContentItem[] = [];
 
@@ -159,7 +156,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 
   const sorted = groupItems
-    .sort((a, b) => (b.metadata.importance || 0) - (a.metadata.importance || 0))
+    .sort((a, b) => stelleVon(a.id) - stelleVon(b.id))
     .map(i => ({ id: i.id, text: vorschauText(i.text, 200), metadata: i.metadata }));
 
   return {

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
@@ -19,16 +19,18 @@ import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
-import { vorschauText } from '@/components/wissen/vorschau';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 import { festerPfad, artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
+import { gliederungsSeiten, kapitelAnAdresse, krumenFuerArtikel, seitenName, stelleVon, type Krume } from '@/lib/gliederung';
+import { ArtikelKarten, artikelStub, type ArtikelStub } from '@/components/wissen/ArtikelKarten';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 import { seitenTitel, themaVorSatz } from '@/components/seo/seitenTitel';
 
 
-// Helper: Holt alle Artikel einer Unterkategorie
+// Helper: Artikel einer bisherigen Unterrubrik, die in der Gliederung kein
+// Kapitel ist (z. B. /regeln/sonderregeln/). Reihenfolge nach der Gliederung.
 function getArticlesForSubcategory(
   content: JassContentRecord,
   categorySlug: string,
@@ -40,28 +42,17 @@ function getArticlesForSubcategory(
       toSlug(item.metadata.category.sub) === subcategorySlug &&
       !festerPfad(item.metadata.category)
     )
-    .sort((a, b) => {
-      // Angepinnte Artikel zuerst (SUB_ZUERST), danach alphabetisch.
-      const pa = SUB_ZUERST.includes(a.id) ? 0 : 1;
-      const pb = SUB_ZUERST.includes(b.id) ? 0 : 1;
-      if (pa !== pb) return pa - pb;
-      return a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de');
-    });
+    .sort((a, b) => stelleVon(a.id) - stelleVon(b.id));
 }
 
-// Artikel, die in ihrer Unterkategorie zuoberst stehen. JassGuru ist das Angebot
-// des Herausgebers und steht in der Online-Jass-Übersicht zuerst; die Einleitung
-// (SUB_INTROS) sagt das offen (SCHIRI 25.10.2026, Remos Entscheid «jasswiki zeigt die Arena»).
-const SUB_ZUERST: string[] = ['jassapps_jassguru'];
-
-// Optionale Einleitungstexte für Subkategorie-Übersichten (gegen Thin-Content + Kontext
-// für Nutzer und Crawler). Schlüssel = Anzeigename der Subkategorie.
+// Optionale Einleitungstexte für Übersichten (gegen Thin-Content + Kontext
+// für Nutzer und Crawler). Schlüssel = Pfad der Seite ohne Schrägstriche am Rand.
 const SUB_INTROS: Record<string, string[]> = {
-  'Online-Jass': [
+  'jassapps/online-jass': [
     'Online jassen heisst: Schieber und andere Jassarten im Browser oder in einer App spielen, gegen die KI oder mit Jassern aus der ganzen Schweiz.',
     'Zuerst steht JassGuru, das Angebot des Jassverbands Schweiz. Der Verband gibt auch dieses Wiki heraus. Die übrigen Angebote folgen alphabetisch.',
   ],
-  'Fehler & Verstösse': [
+  'regeln/fehler-verstoesse': [
     'Beim Jassen geht nicht immer alles glatt. Eine Karte rutscht aus der Hand, jemand spielt aus, obwohl er nicht an der Reihe ist, es wird nicht gefarbt oder am Tisch fällt eine Bemerkung, die dem Partner mehr verrät als erlaubt. Für solche Fälle braucht es klare Regeln, damit eine Partie fair bleibt und nicht in endlosen Diskussionen endet.',
     'Hier sind die häufigsten Fehler und Verstösse gesammelt: vom versehentlichen Missgeschick wie einer heruntergefallenen Karte bis zum bewussten Regelbruch wie dem Spielverrat. Jeder Artikel beschreibt, was gilt, wer entscheidet und was die Konsequenz eines Regelverstosses ist.',
   ],
@@ -73,6 +64,14 @@ interface SubcategoryPageProps {
   subcategory: string;
   subcategorySlug: string;
   articles: JassContentItem[];
+  /** Name der bisherigen Unterrubrik für Suchergebnis-Texte (bleiben bis Schritt 4). */
+  seoName?: string;
+  /** Listenseite: die Artikel in der Reihenfolge der Gliederung. */
+  liste?: ArtikelStub[];
+  /** Artikelseite, die zugleich Kapitelseite ist: die übrigen Artikel des Kapitels. */
+  bereich?: ArtikelStub[];
+  /** Brotkrumen über der Seite (die Seite selbst hängt die Vorlage an). */
+  krumen: Krume[];
   isArticle?: boolean; // Wenn true, ist es ein flacher Artikel (sub === topic)
   pageTitle?: string;
   metaDescription?: string;
@@ -85,6 +84,10 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   subcategory,
   subcategorySlug,
   articles = [],
+  liste = [],
+  seoName,
+  bereich: bereichListe = [],
+  krumen,
   isArticle = false,
   pageTitle,
   metaDescription,
@@ -93,70 +96,8 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   const router = useRouter();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
 
-  // Breadcrumbs: 2 Ebenen für Artikel, 3 Ebenen für Subkategorien
-  const breadcrumbItems = isArticle
-    ? [
-        { name: 'Jass-Wiki', href: '/' },
-        { name: category, href: `/${categorySlug}/` },
-        { name: subcategory, href: `/${categorySlug}/${subcategorySlug}/` }
-      ]
-    : [
-        { name: 'Jass-Wiki', href: '/' },
-        { name: category, href: `/${categorySlug}/` },
-        { name: subcategory, href: `/${categorySlug}/${subcategorySlug}/` }
-      ];
-
-  // 🔥 KRITISCH: sortedArticles MUSS VOR den useEffects definiert werden
-  // useMemo verhindert unnötige Neu-Berechnungen
-  const sortedArticles = useMemo(() => {
-    if (!articles || articles.length === 0) return [];
-    
-    const sorted = [...articles];
-    
-    // Spezielle Sortierung für Weis-Regeln
-    if (categorySlug === 'weis-regeln' && subcategorySlug === 'weis-arten') {
-      sorted.sort((a, b) => {
-        const getWeisOrderIndex = (name: string) => {
-          const lowerName = name.toLowerCase();
-          
-          // Spezielle Mappings für die verschiedenen Artikel-Titel
-          if (lowerName.includes('dreiblatt') || lowerName.includes('3 blatt')) return 1;
-          if (lowerName.includes('vierblatt') || lowerName.includes('4 blatt')) return 2;
-          if (lowerName.includes('fünfblatt') || lowerName.includes('5 blatt')) return 3;
-          if (lowerName.includes('sechsblatt') || lowerName.includes('6 blatt')) return 4;
-          if (lowerName.includes('siebenblatt') || lowerName.includes('7 blatt')) return 5;
-          if (lowerName.includes('achtblatt') || lowerName.includes('8 blatt')) return 6;
-          if (lowerName.includes('neunblatt') || lowerName.includes('9 blatt')) return 7;
-          if (lowerName.includes('vier gleiche')) return 8;
-          if (lowerName.includes('stöck')) return 9;
-          if (lowerName.includes('reihenfolge')) return 10;
-          if (lowerName.includes('schneider')) return 11;
-          if (lowerName.includes('korrekturen')) return 12;
-          if (lowerName.includes('zahlendarstellung')) return 13;
-          if (lowerName.includes('frühzeitiges bedanken')) return 14;
-          if (lowerName.includes('bedanken')) return 15;
-          if (lowerName.includes('allgemeine weis') || lowerName.includes('grundregeln')) return 0;
-          if (lowerName.includes('ausmachen')) return 16;
-          
-          // Fallback für unbekannte Artikel
-          return 999;
-        };
-
-        const indexA = getWeisOrderIndex(a.metadata.category.topic);
-        const indexB = getWeisOrderIndex(b.metadata.category.topic);
-
-        // Sortiere nach Index
-        if (indexA !== indexB) {
-          return indexA - indexB;
-        }
-        
-        // Falls gleicher Index, alphabetisch sortieren
-        return a.metadata.category.topic.localeCompare(b.metadata.category.topic);
-      });
-    }
-    
-    return sorted;
-  }, [articles, categorySlug, subcategorySlug]);
+  // Brotkrumen nach der Gliederung: Jass-Wiki › Rubrik › Kapitel › Seite.
+  const breadcrumbItems = [...krumen, { name: subcategory, href: `/${categorySlug}/${subcategorySlug}/` }];
 
   // Scrolling für Wissensseiten aktivieren
   useEffect(() => {
@@ -198,17 +139,9 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
           })()
         : [contentItem.text, ''];
 
-    // Sub-Leitartikel (flacher Artikel, dessen Subkategorie weitere Artikel hat):
-    // die Geschwister als Karten unter dem Inhalt zeigen (Hub-Charakter wie /ansagen/).
-    const siblings = (Object.values(allContent as JassContentRecord) as JassContentItem[])
-      .filter(
-        (a) =>
-          a.id !== contentItem.id &&
-          toSlug(a.metadata.category.main) === categorySlug &&
-          toSlug(a.metadata.category.sub) === subcategorySlug &&
-          !festerPfad(a.metadata.category)
-      )
-      .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
+    // Kapitelseite als Artikel (die Adresse des Kapitels ist die seines ersten
+    // Artikels): die übrigen Artikel des Kapitels als Karten unter dem Inhalt.
+    const siblings = bereichListe;
 
     // «Jass-Elo»: eigene Autorschaft (Remo Prinz), TechArticle-Typ + Quellen als citation.
     const isJassElo = contentItem.id === 'jass_elo_meta';
@@ -266,33 +199,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
         <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[16px] leading-[1.2]">
           Artikel in diesem Bereich
         </h2>
-        <div className="grid gap-4 sm:gap-5">
-          {siblings.map((article) => {
-            const articleUrl = artikelAdresse(article);
-            const preview = vorschauText(article.text);
-            return (
-              <Link key={article.id} href={articleUrl} className="group block">
-                <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-1 min-w-0">
-                      <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] mb-[6px]">
-                        {article.metadata.category.topic}
-                      </h3>
-                      <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
-                        {preview}...
-                      </p>
-                    </div>
-                    <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
+        <ArtikelKarten artikel={siblings} />
       </section>
     );
 
@@ -398,33 +305,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                 <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[16px] leading-[1.2]">
                   Artikel in diesem Bereich
                 </h2>
-                <div className="grid gap-4 sm:gap-5">
-                  {siblings.map((article) => {
-                    const articleUrl = artikelAdresse(article);
-                    const preview = vorschauText(article.text);
-                    return (
-                      <Link key={article.id} href={articleUrl} className="group block">
-                        <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
-                          <div className="flex items-start gap-4">
-                            <div className="flex-1 min-w-0">
-                              <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] mb-[6px]">
-                                {article.metadata.category.topic}
-                              </h3>
-                              <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
-                                {preview}...
-                              </p>
-                            </div>
-                            <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
-                              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </div>
+                <ArtikelKarten artikel={siblings} />
               </section>
             )}
 
@@ -470,11 +351,11 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   // Texte aus src/data/rubriken.json (Karte SCHIRI «wiki-vorlagen», Teil C).
   // Steht dort eine Einleitung, ersetzt sie SUB_INTROS.
   const rubrik = rubrikSeite(`${categorySlug}/${subcategorySlug}`);
-  const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[subcategory];
-  const listPageTitle = rubrik.seoTitle ?? seitenTitel(subcategory, category);
+  const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[`${categorySlug}/${subcategorySlug}`];
+  const listPageTitle = rubrik.seoTitle ?? seitenTitel(seoName ?? subcategory, category);
   const listPageDescription = rubrik.seoDescription ?? (subIntro
     ? subIntro[0].slice(0, 155)
-    : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
+    : `Alle Artikel über ${seoName ?? subcategory} beim Jassen. ${liste.length} ${liste.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
 
   return (
     <>
@@ -491,7 +372,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               {rubrik.h1 ?? subcategory}
             </h1>
             <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
-              {sortedArticles.length} {sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
+              {liste.length} {liste.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
             </p>
             {rubrik.einleitung && (
               <div className="mt-4 content-formatting text-black">
@@ -508,40 +389,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
           </div>
 
           {/* Artikel-Liste */}
-          <div className="grid gap-4 sm:gap-5">
-            {sortedArticles.map((article) => {
-              const articleUrl = artikelAdresse(article);
-              
-              // Extrahiere erste Zeile als Vorschau
-              const preview = vorschauText(article.text);
-
-              return (
-                <Link
-                  key={article.id}
-                  href={articleUrl}
-                  className="group block"
-                >
-                  <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[16px] py-[12px] sm:py-[14px]">
-                    <div className="flex items-start gap-4">
-                      <div className="flex-1 min-w-0">
-                        <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3] mb-[6px]">
-                          {article.metadata.category.topic}
-                        </h3>
-                        <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
-                          {preview}...
-                        </p>
-                      </div>
-                      <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          <ArtikelKarten artikel={liste} />
 
           {/* Fragen aus rubriken.json, sichtbar und als FAQPage */}
           <RubrikFragen fragen={rubrik.faqs} />
@@ -555,7 +403,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-              Zurück zu {category}
+              Zurück zu {krumen[krumen.length - 1].name}
             </Link>
           </div>
         </div>
@@ -596,6 +444,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
     if (s.length === 2 && s[0] !== 'ansagen' && s[0] !== 'varianten') combinations.add(`${s[0]}/${s[1]}`);
   });
   
+  // Kapitelseiten der Gliederung mit zwei Segmenten (z. B. /regeln/karten-und-werte/).
+  gliederungsSeiten().forEach((adresse) => {
+    const s = adressSegmente(adresse);
+    if (s.length === 2) combinations.add(`${s[0]}/${s[1]}`);
+  });
   const paths = Array.from(combinations).map(combo => {
     const [category, subcategory] = combo.split('/');
     return {
@@ -683,6 +536,11 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
         subcategory: topic,
         subcategorySlug,
         articles: [flatArticle],
+        krumen: krumenFuerArtikel(flatArticle.id, canonicalPath),
+        bereich: (kapitelAnAdresse(canonicalPath)?.kapitel.eintraege ?? []).flatMap((e) => {
+          const a = content[e.id];
+          return a && a.id !== flatArticle.id ? [artikelStub(a)] : [];
+        }),
         isArticle: true,
         pageTitle,
         metaDescription,
@@ -692,7 +550,32 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
   }
   
   // LISTEN-MODE: Zeige alle Artikel einer Subkategorie
-  const articles = getArticlesForSubcategory(content, categorySlug, subcategorySlug);
+  // KAPITEL-MODE: Kapitelseite der Gliederung, Ort und Reihenfolge aus gliederung.json.
+  const adresse = `/${categorySlug}/${subcategorySlug}/`;
+  const kapitel = kapitelAnAdresse(adresse);
+  const bisherige = getArticlesForSubcategory(content, categorySlug, subcategorySlug);
+  if (kapitel) {
+    return {
+      props: {
+        category: bisherige[0]?.metadata.category.main ?? kapitel.rubrik.name,
+        categorySlug,
+        subcategory: kapitel.kapitel.name,
+        subcategorySlug,
+        seoName: bisherige[0]?.metadata.category.sub ?? kapitel.kapitel.name,
+        articles: [],
+        liste: kapitel.kapitel.eintraege.flatMap((e) => {
+          const a = content[e.id];
+          return a ? [artikelStub(a)] : [];
+        }),
+        krumen: [{ name: 'Jass-Wiki', href: '/' }, { name: kapitel.rubrik.name, href: kapitel.rubrik.adresse }],
+        isArticle: false
+      }
+    };
+  }
+
+  // LISTEN-MODE: bisherige Unterrubrik ohne Kapitel in der Gliederung
+  // (z. B. /regeln/sonderregeln/). Bleibt erreichbar, Reihenfolge nach der Gliederung.
+  const articles = bisherige;
   
   if (articles.length === 0) {
     return { notFound: true };
@@ -701,6 +584,7 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
   const firstArticle = articles[0];
   const category = firstArticle.metadata.category.main;
   const subcategory = firstArticle.metadata.category.sub;
+  const oben = `/${categorySlug}/`;
   
   return {
     props: {
@@ -708,11 +592,10 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
       categorySlug,
       subcategory,
       subcategorySlug,
-      articles: articles.map(article => ({
-        id: article.id,
-        text: vorschauText(article.text, 200),
-        metadata: article.metadata
-      })),
+      seoName: subcategory,
+      articles: [],
+      liste: articles.map(artikelStub),
+      krumen: [{ name: 'Jass-Wiki', href: '/' }, { name: seitenName(oben) ?? category, href: oben }],
       isArticle: false
     }
   };

@@ -8,24 +8,27 @@ import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse, festerPfad } from '@/lib/url-utils';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
-import { vorschauText } from '@/components/wissen/vorschau';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { JassAppKarten, type AppGruppe } from '@/components/wissen/JassAppKarten';
+import { GliederungsBloecke, gliederungsSeite, zahlZeile, type GSeite } from '@/components/wissen/GliederungsSeite';
+import { gliederungsSeiten, stelleVon } from '@/lib/gliederung';
+import { adressSegmente } from '@/lib/url-utils';
 
 // Helper to get subcategories for a specific category.
 // href: Eine Unterrubrik, die allein aus einem Artikel mit festem Pfad besteht
 // (Jassen lernen → /jassen-lernen/), führt auf diesen Pfad.
 const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: string): Array<{name: string, slug: string, count: number, href: string}> => {
-  const subcategories = new Map<string, { count: number; fest: Set<string>; normal: number }>();
+  const subcategories = new Map<string, { count: number; fest: Set<string>; normal: number; stelle: number }>();
 
   (Object.values(content) as JassContentItem[]).forEach(item => {
     if (toSlug(item.metadata.category.main) === categorySlug) {
       const subName = item.metadata.category.sub;
-      const eintrag = subcategories.get(subName) ?? { count: 0, fest: new Set<string>(), normal: 0 };
+      const eintrag = subcategories.get(subName) ?? { count: 0, fest: new Set<string>(), normal: 0, stelle: Number.MAX_SAFE_INTEGER };
       eintrag.count += 1;
+      eintrag.stelle = Math.min(eintrag.stelle, stelleVon(item.id));
       const fest = festerPfad(item.metadata.category);
       if (fest) eintrag.fest.add(fest);
       else eintrag.normal += 1;
@@ -33,14 +36,15 @@ const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: s
     }
   });
 
+  // Reihenfolge nach der Gliederung: die Unterrubrik steht dort, wo ihr erster Artikel steht.
   return Array.from(subcategories.entries())
+    .sort(([, a], [, b]) => a.stelle - b.stelle)
     .map(([name, e]) => ({
       name,
       slug: toSlug(name),
       count: e.count,
       href: e.normal === 0 && e.fest.size === 1 ? [...e.fest][0] : `/${categorySlug}/${toSlug(name)}/`,
-    }))
-    .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+    }));
 };
 
 // Die App-Artikel der Rubrik Jassapps, geordnet nach Unterrubrik (Karte SCHIRI
@@ -68,24 +72,11 @@ function appGruppen(content: JassContentRecord): AppGruppe[] {
       });
       gruppen.set(subSlug, gruppe);
     });
-  const zuerst = (id: string) => (id === 'jassapps_jassguru' ? 0 : 1);
-  return [...gruppen.entries()]
-    .sort(([a], [b]) => a.localeCompare(b, 'de'))
-    .map(([, g]) => g)
-    .map((g) => ({
-      ...g,
-      apps: g.apps.sort(
-        (a, b) => zuerst(a.id) - zuerst(b.id) || (a.app?.name ?? a.titel).localeCompare(b.app?.name ?? b.titel, 'de'),
-      ),
-    }));
+  // Reihenfolge nach der Gliederung (JassGuru steht dort zuerst), Gruppen nach ihrer ersten App.
+  return [...gruppen.values()]
+    .map((g) => ({ ...g, apps: g.apps.sort((a, b) => stelleVon(a.id) - stelleVon(b.id)) }))
+    .sort((a, b) => stelleVon(a.apps[0]?.id ?? '') - stelleVon(b.apps[0]?.id ?? ''));
 }
-
-// Helper to get all articles for a category (for flat structure like Varianten)
-const getArticlesForCategory = (content: JassContentRecord, categorySlug: string): JassContentItem[] => {
-  return (Object.values(content) as JassContentItem[])
-    .filter(item => toSlug(item.metadata.category.main) === categorySlug)
-    .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
-};
 
 // Bereinigt Artikel-Text zu einer kurzen, maschinenlesbaren Definition (löst
 // (siehe Begriff "id")-Marker auf, entfernt Bullets/Labels, kürzt sauber).
@@ -167,8 +158,7 @@ interface CategoryPageProps {
   category: string;
   categorySlug: string;
   subcategories: Array<{name: string, slug: string, count: number, href?: string}>;
-  articles?: JassContentItem[]; // For flat structure (Varianten)
-  isFlat?: boolean; // True for Varianten
+  gliederung?: GSeite | null; // Rubrik- oder Kapitelseite der Gliederung
   definedTermSet?: Record<string, unknown> | null; // schema.org DefinedTermSet (nur /begriffe/)
   categoryFaqs?: { question: string; answer: string }[] | null; // Kategorie-FAQ (sichtbar + FAQPage)
   appGruppenListe?: AppGruppe[] | null; // nur /jassapps/
@@ -176,16 +166,25 @@ interface CategoryPageProps {
 
 const SITE = 'https://jasswiki.ch';
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null, categoryFaqs = null, appGruppenListe = null }) => {
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], gliederung = null, definedTermSet = null, categoryFaqs = null, appGruppenListe = null }) => {
   const router = useRouter();
   // Texte aus src/data/rubriken.json (Karte SCHIRI «wiki-vorlagen», Teil C).
   const rubrik = rubrikSeite(categorySlug);
-  const h1 = rubrik.h1 ?? (categorySlug === 'regeln' ? 'Jassregeln' : category);
+  // Name der Seite: aus der Gliederung, sonst wie bisher aus der Rubrik des Inhalts.
+  const name = gliederung?.name ?? category;
+  const h1 = rubrik.h1 ?? (categorySlug === 'regeln' ? 'Jassregeln' : name);
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
-    { name: category, href: `/${categorySlug}/` }
+    ...(gliederung?.eltern ? [gliederung.eltern] : []),
+    { name, href: `/${categorySlug}/` }
   ];
   const mitAppKarten = !!appGruppenListe && appGruppenListe.some((g) => g.apps.some((a) => a.app));
+  // /jassapps/: die Apps stehen als Karten, die übrigen Artikel als Liste darunter.
+  const appIds = new Set((appGruppenListe ?? []).flatMap((g) => g.apps.map((a) => a.id)));
+  const gliederungOhneApps: GSeite | null =
+    gliederung && mitAppKarten
+      ? { ...gliederung, bloecke: gliederung.bloecke.filter((b) => !(b.art === 'artikel' && appIds.has(b.artikel.id))) }
+      : gliederung;
 
   // Enable scrolling for knowledge pages
   useEffect(() => {
@@ -199,7 +198,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
   }, []);
 
   // If router is not ready yet or no data
-  if (router.isFallback || !category || (!isFlat && subcategories.length === 0) || (isFlat && articles.length === 0)) {
+  if (router.isFallback || !category || (!gliederung && subcategories.length === 0)) {
     return <div>Lade...</div>;
   }
 
@@ -291,9 +290,9 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
             {h1}
           </h1>
           <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
-            {isFlat 
-              ? `${articles.length} ${articles.length === 1 ? 'Variante' : 'Varianten'} alphabetisch sortiert`
-              : `${subcategories.length} ${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
+            {gliederung
+              ? zahlZeile(gliederung)
+              : `${subcategories.length}${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
             }
           </p>
         </div>
@@ -308,76 +307,11 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
         {/* /jassapps/: je App eine Karte, geordnet nach Unterrubrik */}
         {mitAppKarten && appGruppenListe && <JassAppKarten gruppen={appGruppenListe} />}
 
-        {/* FLAT STRUCTURE: Direkt alle Artikel (für Varianten) */}
-        {isFlat && articles.length > 0 && (
-          <>
-            {/* Alphabetische Sprungmarken */}
-            <div className="flex flex-wrap justify-center gap-2 mb-6">
-              {Array.from(new Set(articles.map(a => a.metadata.category.topic.charAt(0).toUpperCase()))).sort().map(letter => (
-                <a
-                  key={letter}
-                  href={`#letter-${letter}`}
-                  className="px-3 py-1 bg-[#f0eee7] text-[#88816d] rounded-lg hover:bg-[#e8e6df] hover:text-black transition-colors text-sm font-medium"
-                >
-                  {letter}
-                </a>
-              ))}
-            </div>
-
-            {/* Artikel-Liste alphabetisch */}
-            <div className="grid gap-4 sm:gap-5">
-              {articles.map((article, index) => {
-                const articleUrl = artikelAdresse(article);
-                const firstLetter = article.metadata.category.topic.charAt(0).toUpperCase();
-                const showLetter = index === 0 || articles[index - 1].metadata.category.topic.charAt(0).toUpperCase() !== firstLetter;
-                
-                const preview = vorschauText(article.text);
-
-                // Extrahiere Subkategorie als Tag
-                const subcategoryTag = article.metadata.category.sub;
-
-                return (
-                  <React.Fragment key={article.id}>
-                    {showLetter && (
-                      <h2 id={`letter-${firstLetter}`} className="text-2xl font-bold text-[#ff0000] mt-6 mb-2 pt-4 border-t border-[#f0eee7]">
-                        {firstLetter}
-                      </h2>
-                    )}
-                    <Link href={articleUrl} className="group block">
-                      <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors p-[14px] sm:p-[16px]">
-                        <div className="flex items-start gap-4">
-                          <div className="flex-1 min-w-0">
-                            <div className="flex items-center gap-2 mb-[6px]">
-                              <h3 className="font-capita text-[17px] sm:text-[19px] font-bold text-black group-hover:text-[#ff0000] transition-colors leading-[1.3]">
-                                {article.metadata.category.topic}
-                              </h3>
-                              {subcategoryTag && (
-                                <span className="px-2 py-[2px] bg-[#274823]/10 text-[#274823] text-[11px] font-inter font-medium tracking-wide uppercase rounded-full flex-shrink-0">
-                                  {subcategoryTag}
-                                </span>
-                              )}
-                            </div>
-                            <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">
-                              {preview}...
-                            </p>
-                          </div>
-                          <div className="flex-shrink-0 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all">
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </React.Fragment>
-                );
-              })}
-            </div>
-          </>
-        )}
+        {/* Gliederung: Rubrik- oder Kapitelseite in fester Reihenfolge */}
+        {gliederungOhneApps && <GliederungsBloecke seite={gliederungOhneApps} />}
 
         {/* NORMAL STRUCTURE: Subkategorien (für andere Kategorien) */}
-        {!isFlat && !mitAppKarten && subcategories.length > 0 && (
+        {!gliederung && !mitAppKarten && subcategories.length > 0 && (
           <div className="grid gap-4 sm:gap-6">
             {subcategories.map((subcategory) => (
               <Link
@@ -432,16 +366,23 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
   );
 };
 
+// Eigene Seiten: /referenzen/, /schieber/, /taktiken-und-strategien/, /ansagen/.
+const EIGENE_SEITEN = new Set(['referenzen', 'schieber', 'taktiken-und-strategien', 'ansagen']);
+
 export const getStaticPaths: GetStaticPaths = async () => {
+  // Jede bisherige Rubrik bleibt erreichbar, dazu jede Seite der Gliederung
+  // mit einem Segment (Rubrik oder Kapitel wie /weis-regeln/).
   const categories = new Set<string>();
-  
   (Object.values(allContent) as JassContentItem[]).forEach(item => {
     categories.add(toSlug(item.metadata.category.main));
   });
-  
-  // Filter out 'referenzen', 'schieber' and 'taktiken-und-strategien' because they have their own static pages
+  gliederungsSeiten().forEach((adresse) => {
+    const s = adressSegmente(adresse);
+    if (s.length === 1) categories.add(s[0]);
+  });
+
   const paths = Array.from(categories)
-    .filter(category => category !== 'referenzen' && category !== 'schieber' && category !== 'taktiken-und-strategien' && category !== 'ansagen')
+    .filter(category => !EIGENE_SEITEN.has(category))
     .map(category => ({
       params: { category }
     }));
@@ -455,7 +396,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params }) => {
   const categorySlug = params?.category as string;
   
-  // Find the actual category name from the content
+  // Name der bisherigen Rubrik (für Suchergebnis-Texte und die alte Übersicht)
   let categoryName = '';
   (Object.values(allContent) as JassContentItem[]).some(item => {
     if (toSlug(item.metadata.category.main) === categorySlug) {
@@ -464,8 +405,10 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
     }
     return false;
   });
-  
-  if (!categoryName) {
+
+  const gliederung = gliederungsSeite(`/${categorySlug}/`);
+
+  if (!categoryName && !gliederung) {
     return { notFound: true };
   }
   
@@ -473,37 +416,33 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
   // Liste dort lässt den Bestand stehen.
   const categoryFaqs = rubrikSeite(categorySlug).faqs ?? CATEGORY_FAQS[categorySlug] ?? null;
   const appGruppenListe = categorySlug === 'jassapps' ? appGruppen(allContent) : null;
+  const definedTermSet = buildDefinedTermSet(allContent, categorySlug);
 
-  // Spezialfall: Varianten haben flache Struktur (keine Subkategorien)
-  const isVarianten = categorySlug === 'varianten';
-  
-  if (isVarianten) {
-    const articles = getArticlesForCategory(allContent, categorySlug);
+  // Seite der Gliederung (Rubrik oder Kapitel): Ort und Reihenfolge aus gliederung.json.
+  if (gliederung) {
     return {
       props: {
-        category: categoryName,
+        category: categoryName || gliederung.name,
         categorySlug,
         subcategories: [],
-        articles: articles.map(article => ({
-          id: article.id,
-          text: vorschauText(article.text, 200),
-          metadata: article.metadata
-        })),
-        isFlat: true,
-        categoryFaqs
+        gliederung,
+        definedTermSet,
+        categoryFaqs,
+        appGruppenListe
       }
     };
   }
-  
+
+  // Bisherige Rubrik ohne Platz in der Gliederung (/grundlagen-kultur/): bleibt
+  // erreichbar mit ihren bisherigen Unterrubriken, bis sie weiterleitet.
   const subcategories = getSubcategoriesForCategory(allContent, categorySlug);
-  const definedTermSet = buildDefinedTermSet(allContent, categorySlug);
 
   return {
     props: {
       category: categoryName,
       categorySlug,
       subcategories,
-      isFlat: false,
+      gliederung: null,
       definedTermSet,
       categoryFaqs,
       appGruppenListe
@@ -511,4 +450,4 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
   };
 };
 
-export default CategoryPage; 
+export default CategoryPage;
