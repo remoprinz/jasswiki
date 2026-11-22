@@ -61,8 +61,10 @@ const ZUORDNUNG = {
   schieber_taktiken_verwerfen: { thema: 'Verwerfen', rubrik: 'Verwerfen', fest: '2026-10-30' },
   schieber_taktiken_anziehen: { thema: 'Anziehen', rubrik: 'Anziehen', fest: '2026-10-09' },
   expressions_schmieren: { thema: 'Schmieren', rubrik: 'Schmieren', fest: '2026-10-18' },
-  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen', fest: '2026-09-25' },
-  expressions_nachschmeissen: { thema: 'Nachschmeissen', rubrik: 'Nachschmeissen', fest: '2026-08-22' },
+  // Klemmen und Nachschmeissen: Das gewählte Lehrblatt (25.09., 22.08.) hat keinen Film, es lief vor der
+  // Video-Maschine. Bis ein Lehrfilm dazu entsteht, zeigt der Block das neueste Blatt der Rubrik.
+  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen' },
+  expressions_nachschmeissen: { thema: 'Nachschmeissen', rubrik: 'Nachschmeissen' },
   schieber_taktiken_austrumpfen: { thema: 'Austrumpfen', rubrik: 'Austrumpfen', fest: '2026-11-14' },
   schieber_taktiken_nell_vor_puur: { thema: 'Nell vor Puur', rubrik: 'Austrumpfen', fest: '2026-10-12' },
   expressions_matsch: { thema: 'Matsch', titelWort: 'Matsch', fest: '2026-11-02' },
