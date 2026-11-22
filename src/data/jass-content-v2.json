@@ -7277,11 +7277,10 @@
       }
     ],
     "see_also": [
-      "expressions_kartenfarben",
-      "ausmachregel",
       "schieber_taktiken_querverwerfen",
+      "schieber_taktiken_verwerfen_slalom",
       "schieber_taktiken_verwerfen_quer",
-      "jass_ki"
+      "schieber_taktiken_anziehen"
     ]
   },
   "schieber_taktiken_verwerfen_quer": {
@@ -8087,18 +8086,9 @@
       }
     ],
     "see_also": [
-      "bodentrumpf",
-      "expressions_handkarten",
-      "expressions_obenabe",
-      "expressions_partie",
-      "weis_rules_stock",
-      "expressions_team",
-      "expressions_undenufe",
-      "expressions_vorhand",
-      "expressions_weis",
+      "variants_family_einzel_coiffeur",
+      "general_schieber",
       "regeln_tischregel",
-      "expressions_slalom",
-      "expressions_misere",
       "ausspiel"
     ]
   },
