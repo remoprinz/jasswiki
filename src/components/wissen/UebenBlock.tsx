@@ -1,6 +1,6 @@
 import React from 'react';
 import uebungen from '@/data/uebungen.json';
-import { JdtVideo, type JdtVideoDaten } from '@/components/wissen/JdtVideo';
+import { JdtVideo, hatFilm, type JdtVideoDaten } from '@/components/wissen/JdtVideo';
 
 // Block «Üben»: führt von einem Begriffsartikel zu Aufgaben des Jass des
 // Tages auf jassguru.ch, die genau dieses Thema üben. Daten: generate-uebungen.mjs
@@ -36,7 +36,7 @@ export const UebenBlock: React.FC<{ articleId: string }> = ({ articleId }) => {
   const daten = uebungen as unknown as { alleAufgaben: string; artikel: Record<string, Eintrag> };
   const eintrag = daten.artikel[articleId];
   if (!eintrag || eintrag.blaetter.length === 0) return null;
-  const video = eintrag.video && eintrag.video.mp4 && eintrag.video.datum ? eintrag.video : null;
+  const video = eintrag.video && hatFilm(eintrag.video) ? eintrag.video : null;
 
   return (
     <section className="mt-[24px] pt-[24px] border-t border-[#f0eee7]" aria-labelledby="ueben">

@@ -37,6 +37,7 @@ const FIRESTORE =
   'https://firestore.googleapis.com/v1/projects/jassguru/databases/(default)/documents/tagesblaetter';
 const TAGESSEITE = 'https://jassguru.ch/jass-des-tages/';
 const ARCHIV = 'https://jassguru.ch/jass-des-tages/archiv/';
+const SPEICHER = 'https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F';
 const PRO_ARTIKEL = 3;
 const VIDEO_VERSUCHE = 5;
 
@@ -148,11 +149,14 @@ async function videoDerTagesseite(blatt) {
         const v = findeVideo(daten);
         if (v) {
           const einzeln = (x) => (Array.isArray(x) ? x[0] : x) ?? null;
+          // Adressen aus dem Datum, ohne Schlüssel: Der Schlüssel wechselt bei
+          // jedem neuen Rendern, die Adresse ohne ihn bleibt (A1, 22.11.2026).
+          // Die Tagesseite ist allein die Probe, ob das Blatt ein Video trägt.
           ergebnis = {
             datum: blatt.datum,
             aufgabe: blatt.titel,
-            mp4: einzeln(v.contentUrl),
-            poster: einzeln(v.thumbnailUrl),
+            mp4: `${SPEICHER}${blatt.datum}_1.mp4?alt=media`,
+            poster: v.thumbnailUrl ? `${SPEICHER}${blatt.datum}_1.jpg?alt=media` : null,
             dauer: v.duration ?? null,
             youtube: einzeln(v.embedUrl),
           };

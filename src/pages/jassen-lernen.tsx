@@ -38,12 +38,13 @@ interface Props {
 type VideoEintrag = { nach?: string; jdt?: (Partial<JdtVideoDaten> & { satz?: string }) | null };
 
 function videoDaten(jdt: VideoEintrag['jdt']): Stueck['video'] {
-  if (!jdt || !jdt.datum || !jdt.mp4 || !jdt.aufgabe || !jdt.satz) return null;
+  // Film oder YouTube genügt (SCHIRI 22.11.2026: der Film am Speicher lebt höchstens 30 Tage).
+  if (!jdt || !jdt.datum || !(jdt.mp4 || jdt.youtube) || !jdt.aufgabe || !jdt.satz) return null;
   return {
     daten: {
       datum: jdt.datum,
       aufgabe: jdt.aufgabe,
-      mp4: jdt.mp4,
+      mp4: jdt.mp4 ?? null,
       poster: jdt.poster ?? null,
       dauer: jdt.dauer ?? null,
       youtube: jdt.youtube ?? null,

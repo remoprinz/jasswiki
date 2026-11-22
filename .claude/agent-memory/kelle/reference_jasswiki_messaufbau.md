@@ -8,7 +8,9 @@ metadata:
 Mess-Aufbau für jasswiki-Frontend-Arbeit im eigenen Worktree (`/private/tmp/jasswiki-kelle-<thema>`):
 
 - **node_modules physisch kopieren** (`cp -R …/jasswiki/node_modules.nosync/ <worktree>/node_modules`, ~630 MB, ~1–2 min). Ein Symlink aus dem Worktree heraus lässt Turbopack (Next 16) abstürzen: «Symlink node_modules is invalid, it points out of the filesystem root».
-- **Puppeteer** liegt in `/Users/remoprinz/Documents/jassverband-schweiz/node_modules/puppeteer` (jasswiki selbst hat keins); Chrome-Cache in `~/.cache/puppeteer`.
+- **Puppeteer** NICHT mehr aus `~/Documents/jassverband-schweiz` laden: dort hängt `require` (iCloud, 22.11.2026 drei Minuten ohne Chrome). Nimm `~/Jassguru-git/arbeit/shotkit/node_modules/puppeteer` und setze `executablePath` auf das Chrome in `~/.cache/puppeteer/chrome/mac_arm-*/` (shotkit erwartet eine andere Version). Seiten rollen im Körper-Container (`lexikon-page`): für Ausschnitte `elementHandle.screenshot()`, `scrollIntoView` aufs Fenster greift nicht.
+- **Messen ohne Dev-Server:** nach `npm run build` reicht `python3 -m http.server` in `out/`. Der nächste Build löscht `out/`, den Server danach neu starten.
+- Worktree unter `~/Jassguru-git/arbeit/` mit `cp -al` der node_modules aus einem Klon (Hardlinks, Sekunden) funktioniert für Build und tsc. `.gitignore` sperrt `lib/`: neue Dateien in `src/lib/` landen nicht im Commit, Helfer darum unter `src/components/wissen/`.
 - `npx next dev -p 3111` im Worktree reicht zum Messen; der volle `npm run build` (Korpus, llms, Sitemap …) ist dafür überflüssig.
 - Der Inhalt (`src/data/jass-content-v2.json`) liegt oft nur als **uncommittetes WIP von SCHIRI im Hauptordner**; zum Messen in den Worktree kopieren, vor dem Commit mit `git checkout --` zurücksetzen.
 - Messgrössen, die sich bewährt haben: `.jw-karten-band` clientWidth vs. scrollWidth (rollt?), Kartenbreite via getBoundingClientRect, Namensüberlauf (scrollWidth > clientWidth der `.jw-karte-name`), Element-Screenshots der `.jw-karten-reihe`; kurze Reihen vorher/nachher per md5 auf Bytegleichheit prüfen.

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { JDT_TEXTE, JDT_LINKS } from '@/data/jass-des-tages-texte';
 
 /**
@@ -15,8 +15,8 @@ export interface JdtVideoDaten {
   datum: string; // JJJJ-MM-TT
   aufgabe: string;
   titel?: string;
-  mp4: string;
-  poster: string | null;
+  mp4: string | null; // Film am Speicher; null, wenn allein YouTube trägt
+  poster: string | null; // ganze Adresse oder lokaler Pfad (/bilder/jdt/…)
   dauer: string | null; // ISO 8601, etwa PT42S
   youtube: string | null;
 }
@@ -43,6 +43,19 @@ function aufgabeKurz(s: string): string {
   return s.trim().replace(/[.\s]+$/, '');
 }
 
+/** Ganze Adresse für das Schema: ein lokaler Pfad bekommt die Wiki-Adresse davor. */
+function ganzeAdresse(pfad: string): string {
+  return pfad.startsWith('/') ? `https://jasswiki.ch${pfad}` : pfad;
+}
+
+/** Hat der Eintrag etwas zum Abspielen (Film oder YouTube)? */
+export function hatFilm(d: Partial<JdtVideoDaten> | null | undefined): boolean {
+  return !!d && !!d.datum && (!!d.mp4 || !!youtubeKennung(d.youtube ?? null));
+}
+
+// Mit YouTube trägt das Schema embedUrl und keinen contentUrl: der Film am
+// Speicher lebt höchstens 30 Tage (FALLE A1, 22.11.2026). Ohne YouTube bleibt
+// contentUrl wie bisher.
 export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz) {
   const kennung = youtubeKennung(d.youtube);
   return {
@@ -51,9 +64,12 @@ export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz
     '@id': `https://jassguru.ch/jass-des-tages/${d.datum}/#video`,
     name: `Jass des Tages vom ${datumLang(d.datum)}: ${aufgabeKurz(d.aufgabe || d.titel || '')}`,
     description: satz,
-    ...(d.poster ? { thumbnailUrl: d.poster } : {}),
-    contentUrl: d.mp4,
-    ...(kennung ? { embedUrl: `https://www.youtube.com/embed/${kennung}` } : {}),
+    ...(d.poster ? { thumbnailUrl: ganzeAdresse(d.poster) } : {}),
+    ...(kennung
+      ? { embedUrl: `https://www.youtube.com/embed/${kennung}` }
+      : d.mp4
+        ? { contentUrl: d.mp4 }
+        : {}),
     uploadDate: d.datum,
     ...(d.dauer ? { duration: d.dauer } : {}),
     inLanguage: 'de-CH',
@@ -69,7 +85,27 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
   satz = JDT_TEXTE.videoSatz,
 }) => {
   const [laeuft, setLaeuft] = useState(false);
+  // weg: Film und YouTube fehlen oder der Film meldet einen Fehler. Dann
+  // verschwindet der ganze Baustein (im Block «Üben» bleiben die Blätter).
+  const [weg, setWeg] = useState(false);
+  const [deckbildKaputt, setDeckbildKaputt] = useState(false);
+  const deckbild = useRef<HTMLImageElement>(null);
   const kennung = youtubeKennung(daten.youtube);
+
+  const deckbildFehlt = () => {
+    if (kennung) setDeckbildKaputt(true);
+    else setWeg(true);
+  };
+
+  // Ein Fehler beim Laden kann vor der Hydration passieren; dann kam onError
+  // nie an. Darum einmal nach dem Einhängen nachsehen.
+  useEffect(() => {
+    const bild = deckbild.current;
+    if (bild && bild.complete && bild.naturalWidth === 0) deckbildFehlt();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  if (weg || (!kennung && !daten.mp4)) return null;
   const beschriftung = JDT_TEXTE.videoBeschriftung
     .replace('{datum}', datumLang(daten.datum))
     .replace('{aufgabe}', aufgabeKurz(daten.aufgabe || daten.titel || ''));
@@ -89,8 +125,9 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
         ) : laeuft ? (
           <video
             className="absolute inset-0 h-full w-full"
-            src={daten.mp4}
-            poster={daten.poster ?? undefined}
+            src={daten.mp4 ?? undefined}
+            poster={!deckbildKaputt ? (daten.poster ?? undefined) : undefined}
+            onError={() => setWeg(true)}
             controls
             autoPlay
             playsInline
@@ -102,8 +139,10 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
             className="group absolute inset-0 h-full w-full cursor-pointer"
             aria-label={`${JDT_TEXTE.videoAbspielen}: ${beschriftung}`}
           >
-            {daten.poster && (
+            {daten.poster && !deckbildKaputt && (
               <img
+                ref={deckbild}
+                onError={deckbildFehlt}
                 src={daten.poster}
                 alt=""
                 loading="lazy"
