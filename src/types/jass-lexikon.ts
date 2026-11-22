@@ -16,6 +16,12 @@ export interface JassContentMetadata {
     sub: string;
     topic: string;
   };
+  /**
+   * Feste Adresse der Artikelseite, z. B. "/regeln/kartenverteilung/abheben-der-karten/".
+   * Gesetzt mit `node adressen-einfrieren.mjs` (Gliederung Schritt 1, 22.11.2026).
+   * Titel und Zugehörigkeit ändern sie nicht mehr.
+   */
+  adresse: string;
   keywords: string[];
   situations: string[];
   importance: number;

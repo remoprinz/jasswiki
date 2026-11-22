@@ -6,7 +6,7 @@ import Link from 'next/link';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { buildArticleUrl, festerPfad } from '@/lib/url-utils';
+import { artikelAdresse, festerPfad } from '@/lib/url-utils';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 import { vorschauText } from '@/components/wissen/vorschau';
 import { SeoHead } from '@/components/layout/SeoHead';
@@ -62,7 +62,7 @@ function appGruppen(content: JassContentRecord): AppGruppe[] {
       };
       gruppe.apps.push({
         id: item.id,
-        url: buildArticleUrl(item.metadata.category),
+        url: artikelAdresse(item),
         titel: item.metadata.titel || item.metadata.category.topic,
         app: item.metadata.app ?? null,
       });
@@ -119,7 +119,7 @@ function buildDefinedTermSet(content: JassContentRecord, categorySlug: string) {
       'Maschinenlesbares Glossar der Schweizer Jass-Fachbegriffe, herausgegeben vom Jassverband Schweiz (JVS).',
     inLanguage: 'de-CH',
     hasDefinedTerm: terms.map((item) => {
-      const url = `${SITE}${buildArticleUrl(item.metadata.category)}`;
+      const url = `${SITE}${artikelAdresse(item)}`;
       return {
         '@type': 'DefinedTerm',
         '@id': url,
@@ -327,8 +327,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
             {/* Artikel-Liste alphabetisch */}
             <div className="grid gap-4 sm:gap-5">
               {articles.map((article, index) => {
-                const articleSlug = toSlug(article.metadata.category.topic);
-                const articleUrl = `/${categorySlug}/${articleSlug}/`;
+                const articleUrl = artikelAdresse(article);
                 const firstLetter = article.metadata.category.topic.charAt(0).toUpperCase();
                 const showLetter = index === 0 || articles[index - 1].metadata.category.topic.charAt(0).toUpperCase() !== firstLetter;
                 

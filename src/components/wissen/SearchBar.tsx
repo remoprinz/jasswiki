@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import Link from 'next/link';
 import { ZeichenSuchen } from '@/components/layout/JassWikiZeichen';
-import { buildArticleUrl, toSlug } from '@/lib/url-utils';
+import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { ALL_CARDS } from './jasskarten';
@@ -135,7 +135,7 @@ export const SearchBar: React.FC<{
         
         if (score === 0) return null;
         
-        const url = buildArticleUrl(item.metadata.category);
+        const url = artikelAdresse(item);
         const textSnippet = vorschauText(item.text);
         
         return {
@@ -155,7 +155,7 @@ export const SearchBar: React.FC<{
     // Karten-Treffer: einzelne Jasskarten (z. B. "rosen ass") direkt zur Karte navigieren
     const kfEntry = content['expressions_kartenfarben'];
     const kfUrl = kfEntry
-      ? buildArticleUrl(kfEntry.metadata.category)
+      ? artikelAdresse(kfEntry)
       : '/grundlagen-kultur/jasskarten/';
     const cardResults: SearchResult[] = ALL_CARDS
       .filter((c) => c.searchTerms.some((t) => t.toLowerCase().includes(searchQuery)))

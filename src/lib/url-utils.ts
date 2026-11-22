@@ -60,14 +60,40 @@ export function festerPfad(category: ArticleCategory): string | null {
 }
 
 /**
- * Generiert die kanonische URL für einen Artikel.
- *
- * WICHTIG: Diese Funktion ist die EINZIGE Stelle, an der URLs generiert werden sollten.
+ * Feste Adresse eines Artikels (metadata.adresse, Gliederung Schritt 1,
+ * 22.11.2026). Jede Seite, jeder Verweis und jede Liste liest sie hier.
+ * Fehlt das Feld, bricht der Bau ab: `node adressen-einfrieren.mjs` setzt es.
+ */
+export function artikelAdresse(item: { id?: string; metadata: { adresse?: string } }): string {
+  const a = item.metadata.adresse;
+  if (typeof a !== 'string' || !a) {
+    throw new Error(`Artikel ${item.id ?? '?'} ohne metadata.adresse. Setzen mit: node adressen-einfrieren.mjs`);
+  }
+  return a;
+}
+
+/** Segmente einer Adresse: "/regeln/kartenwerte/" → ["regeln", "kartenwerte"]. */
+export function adressSegmente(adresse: string): string[] {
+  return adresse.split('/').filter(Boolean);
+}
+
+/** Der Artikel an einer festen Adresse, sonst undefined. */
+export function artikelAnAdresse<T extends { id?: string; metadata: { adresse?: string } }>(
+  inhalt: Record<string, T>,
+  adresse: string,
+): T | undefined {
+  return Object.values(inhalt).find((a) => a.metadata.adresse === adresse);
+}
+
+/**
+ * Die Rechnung, mit der Adressen bis zum 22.11.2026 entstanden sind.
+ * Seither gilt artikelAdresse; diese Rechnung bleibt als Spiegel von
+ * url-utils.mjs (adressen-einfrieren.mjs setzt damit ein fehlendes Feld).
  *
  * @param category - Kategorie-Objekt mit main, sub, topic
  * @returns Relative URL (z.B. "/regeln/kartenverteilung/abheben-der-karten/")
  */
-export function buildArticleUrl(category: ArticleCategory): string {
+export function adresseAusKategorie(category: ArticleCategory): string {
   const fest = festerPfad(category);
   if (fest) return fest;
   const mainSlug = toSlug(category.main);
@@ -82,31 +108,14 @@ export function buildArticleUrl(category: ArticleCategory): string {
 }
 
 /**
- * Generiert die kanonische URL für einen Artikel aus Slugs.
- * 
- * @param mainSlug - Slug der Hauptkategorie
- * @param subSlug - Slug der Unterkategorie  
- * @param topicSlug - Slug des Topics
- * @returns Relative URL
- */
-export function buildArticleUrlFromSlugs(mainSlug: string, subSlug: string, topicSlug: string): string {
-  if (isFlatStructure(mainSlug, subSlug, topicSlug)) {
-    return `/${mainSlug}/${topicSlug}/`;
-  }
-  
-  return `/${mainSlug}/${subSlug}/${topicSlug}/`;
-}
-
-/**
  * Generiert die vollständige kanonische URL (mit Domain).
  * 
  * @param category - Kategorie-Objekt
  * @param baseUrl - Basis-URL (default: https://jasswiki.ch)
  * @returns Vollständige URL
  */
-export function buildCanonicalUrl(category: ArticleCategory, baseUrl: string = 'https://jasswiki.ch'): string {
-  const path = buildArticleUrl(category);
-  return `${baseUrl}${path}`;
+export function buildCanonicalUrl(item: { id?: string; metadata: { adresse?: string } }, baseUrl: string = 'https://jasswiki.ch'): string {
+  return `${baseUrl}${artikelAdresse(item)}`;
 }
 
 /**

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { buildArticleUrl, toSlug } from '@/lib/url-utils';
+import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -50,7 +50,7 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
         return null;
       }
 
-      const url = buildArticleUrl(article.metadata.category);
+      const url = artikelAdresse(article);
 
       return {
         id: article.id,

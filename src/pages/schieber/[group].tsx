@@ -6,7 +6,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { toSlug } from '@/lib/utils';
-import { buildArticleUrl } from '@/lib/url-utils';
+import { artikelAdresse } from '@/lib/url-utils';
 import { SCHIEBER_GROUPS } from './index';
 import { vorschauText } from '@/components/wissen/vorschau';
 
@@ -70,8 +70,8 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
           {/* Artikel-Karten – identisch zu [category]/[subcategory]/index.tsx */}
           <div className="grid gap-4 sm:gap-5">
             {items.map((item) => {
-              // buildArticleUrl beachtet die flache Struktur (Ansagen/Varianten, sub===topic).
-              const href = buildArticleUrl(item.metadata.category);
+              // artikelAdresse beachtet die flache Struktur (Ansagen/Varianten, sub===topic).
+              const href = artikelAdresse(item);
 
               const preview = vorschauText(item.text);
 

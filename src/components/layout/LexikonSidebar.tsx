@@ -5,7 +5,7 @@ import { ChevronRight } from 'lucide-react';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { buildArticleUrl, isFlatStructure } from '@/lib/url-utils';
+import { artikelAdresse, isFlatStructure } from '@/lib/url-utils';
 
 const formatTopicName = (name: string): string => {
   return name
@@ -33,7 +33,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
     subcategories: Record<string, {
       name: string;
       slug: string;
-      topics: { name: string; slug: string }[];
+      topics: { name: string; slug: string; href: string }[];
     }>;
     flatArticles: { name: string; slug: string; href: string }[];
   }> = {};
@@ -57,7 +57,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
           name: item.metadata.category.topic,
           slug: topicSlug,
           // Fester Pfad (z. B. /jassen-lernen/) statt /<rubrik>/<thema>/.
-          href: buildArticleUrl(item.metadata.category),
+          href: artikelAdresse(item),
         });
       }
       return;
@@ -74,7 +74,8 @@ const getNavigationStructure = (content: JassContentRecord) => {
     if (!structure[mainCatSlug].subcategories[subCatSlug].topics.some(t => t.slug === topicSlug)) {
       structure[mainCatSlug].subcategories[subCatSlug].topics.push({
         name: item.metadata.category.topic,
-        slug: topicSlug
+        slug: topicSlug,
+        href: artikelAdresse(item),
       });
     }
   });
@@ -85,7 +86,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
     const sortedSubcats = Object.keys(cat.subcategories).sort().reduce<Record<string, {
       name: string;
       slug: string;
-      topics: { name: string; slug: string }[];
+      topics: { name: string; slug: string; href: string }[];
     }>>((result, subCatSlug) => {
       result[subCatSlug] = cat.subcategories[subCatSlug];
       return result;
@@ -210,12 +211,12 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
         // Steht der Leitartikel auf /schieber/ selbst (fester Pfad), ist er der
         // Hauptbereich und braucht keinen eigenen Eintrag darunter.
         kinder:
-          g.slug === 'regeln-grundlagen' && leitartikel && buildArticleUrl(leitartikel.metadata.category) !== href
+          g.slug === 'regeln-grundlagen' && leitartikel && artikelAdresse(leitartikel) !== href
             ? [
                 {
-                  key: buildArticleUrl(leitartikel.metadata.category),
+                  key: artikelAdresse(leitartikel),
                   name: leitartikel.metadata.category.topic,
-                  href: buildArticleUrl(leitartikel.metadata.category),
+                  href: artikelAdresse(leitartikel),
                   ebene: 3 as const,
                   kinder: [],
                 },
@@ -230,9 +231,9 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
         href: `/${catSlug}/${subSlug}/`,
         ebene: 2 as const,
         kinder: sub.topics.map((t) => ({
-          key: `/${catSlug}/${subSlug}/${t.slug}/`,
+          key: t.href,
           name: formatTopicName(t.name),
-          href: `/${catSlug}/${subSlug}/${t.slug}/`,
+          href: t.href,
           ebene: 3 as const,
           kinder: [],
         })),

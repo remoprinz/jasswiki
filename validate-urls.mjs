@@ -10,7 +10,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { toSlug, buildArticleUrl, validateUrl, isFlatStructure } from './url-utils.mjs';
+import { toSlug, validateUrl } from './url-utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -53,7 +53,11 @@ async function validateUrls() {
       const topicSlug = toSlug(category.topic);
       
       // Prüfe URL-Struktur
-      const url = buildArticleUrl(category);
+      const url = article.metadata.adresse || "";
+      if (!url) {
+        errors.push({ type: "ADRESSE_FEHLT", id: article.id, url: "", message: "metadata.adresse fehlt. Setzen mit: node adressen-einfrieren.mjs" });
+        continue;
+      }
       const validation = validateUrl(url);
       
       if (!validation.isValid) {
@@ -66,7 +70,7 @@ async function validateUrls() {
       }
 
       // Zähle Statistiken
-      if (isFlatStructure(mainSlug, subSlug, topicSlug)) {
+      if (url.split("/").filter(Boolean).length < 3) {
         stats.flatArticles++;
       } else {
         stats.threeLevel++;
@@ -234,7 +238,7 @@ async function validateUrls() {
             // Suche den passenden Artikel
             const article = articles.find(a => a.id === entry.id);
             if (article) {
-              const correctUrl = buildArticleUrl(article.metadata.category);
+              const correctUrl = article.metadata.adresse;
               if (path !== correctUrl) {
                 errors.push({
                   type: 'CORPUS_URL_MISMATCH',

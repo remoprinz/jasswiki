@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 // Importiere zentrale URL-Utilities (Single Source of Truth)
-import { toSlug, buildArticleUrl, isFlatStructure, validateUrl, festerPfad } from './url-utils.mjs';
+import { toSlug, artikelAdresse, isFlatStructure, validateUrl, festerPfad } from './url-utils.mjs';
 
 // Artikel mit festem Pfad: Gewicht der Seite (Karte SCHIRI «wiki-vorlagen»).
 // /jassen-lernen/ wiegt wie /jassen/, /schieber/ wie eine Hauptrubrik.
@@ -127,7 +127,7 @@ async function generateSitemap() {
       mainCategories.add(mainCatSlug);
       
       // Verwende zentrale URL-Funktion (Single Source of Truth)
-      const articlePath = buildArticleUrl(category);
+      const articlePath = artikelAdresse(article);
       const url = `${BASE_URL}${articlePath}`;
       
       // Validiere die generierte URL

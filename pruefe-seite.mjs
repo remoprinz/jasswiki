@@ -355,6 +355,7 @@ export const pruefe = async ({
     fremdeMedien.get(url).add(pfad);
   };
   let artikelseiten = 0;
+  const artikelAufSeite = new Map(); // seitenpfad → data-artikel-seite
 
   const pruefeBehauptungen = (pfad, text, quelle) => {
     const klein = text.toLowerCase();
@@ -458,6 +459,7 @@ export const pruefe = async ({
     const eigene = /\sdata-artikel-seite="([^"]+)"/.exec(ohne)?.[1];
     if (eigene) {
       artikelseiten++;
+      artikelAufSeite.set(pfad, eigene);
       const artikel = inhalt[eigene] ?? Object.values(inhalt).find((a) => a.id === eigene);
       const soll = [...new Set((artikel?.see_also || []).filter((id) => id !== eigene))];
       const ist = [...ohne.matchAll(/\sdata-artikel="([^"]+)"/g)].map((m) => entschluessle(m[1]));
@@ -468,6 +470,21 @@ export const pruefe = async ({
       if (sollGemeinsam.join(',') !== istGemeinsam.join(',')) {
         fund(pfad, PRUEFUNG.B2, 'Reihenfolge', `soll ${sollGemeinsam.join(', ')} · ist ${istGemeinsam.join(', ')}`);
       }
+    }
+  }
+
+  // B1 Feste Adresse: jeder Artikel steht gebaut unter metadata.adresse, und
+  // trägt die Seite dort ein Artikelmerkmal, ist es seine Kennung.
+  for (const artikel of Object.values(inhalt)) {
+    const adresse = artikel?.metadata?.adresse;
+    if (!adresse) continue;
+    if (!istGebaut(adresse)) {
+      fund(adresse, PRUEFUNG.B1, `Adresse ungebaut «${artikel.id}»`, 'metadata.adresse ohne Seite in out/');
+      continue;
+    }
+    const dort = artikelAufSeite.get(adresse);
+    if (dort && dort !== artikel.id) {
+      fund(adresse, PRUEFUNG.B1, `Adresse trägt «${dort}» statt «${artikel.id}»`, 'metadata.adresse');
     }
   }
 

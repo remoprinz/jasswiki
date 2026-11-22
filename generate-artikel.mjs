@@ -12,7 +12,7 @@
  *
  * Herkunft jedes Feldes — alles kommt aus dem Bestand, nichts wird erfunden:
  *   t = metadata.category.topic  (dasselbe, was der Artikel als H1 zeigt)
- *   u = buildCanonicalUrl(category)  (dieselbe Funktion wie Sitemap und Korpus)
+ *   u = metadata.adresse (festes Feld, artikelUrl wie Sitemap und Korpus)
  *   k = metadata.category.main
  *   s = metadata.synonyms, sofern der Artikel welche trägt
  *
@@ -29,7 +29,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { buildCanonicalUrl, validateUrl } from './url-utils.mjs';
+import { artikelUrl, validateUrl } from './url-utils.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -65,7 +65,7 @@ async function generiereArtikelVerzeichnis() {
       continue;
     }
 
-    const adresse = buildCanonicalUrl(kategorie, BASIS_URL);
+    const adresse = artikelUrl(eintrag, BASIS_URL);
     const pfad = adresse.replace(BASIS_URL, '');
     const pruefung = validateUrl(pfad);
 

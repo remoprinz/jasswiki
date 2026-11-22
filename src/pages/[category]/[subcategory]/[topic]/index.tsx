@@ -5,7 +5,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { festerPfad } from '@/lib/url-utils';
+import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -298,32 +298,13 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
 export const getStaticPaths: GetStaticPaths = async () => {
   const content: JassContentRecord = allContent;
   
-  // Generiere Pfade NUR für echte 3-Ebenen-Artikel (sub !== topic)
-  // Flache Artikel (sub === topic) werden von [category]/[subcategory] behandelt
+  // Pfade aus der festen Adresse (metadata.adresse): jede Adresse mit drei
+  // Segmenten ist eine Seite dieser Vorlage. Zwei Segmente baut
+  // [category]/[subcategory], /ansagen/ und /varianten/ ihre eigene Route.
   const paths = (Object.values(content) as JassContentItem[])
-    .filter(item => {
-      const mainCatSlug = toSlug(item.metadata.category.main);
-      const subCatSlug = toSlug(item.metadata.category.sub);
-      const topicSlug = toSlug(item.metadata.category.topic);
-      
-      // Nur Artikel wo sub !== topic (echte 3-Ebenen-Struktur).
-      // Artikel mit festem Pfad (/schieber/, /jassen-lernen/) baut ihre eigene Seite.
-      if (festerPfad(item.metadata.category)) return false;
-      return mainCatSlug !== 'varianten' && mainCatSlug !== 'ansagen' && subCatSlug !== topicSlug;
-    })
-    .map((item) => {
-      const mainCatSlug = toSlug(item.metadata.category.main);
-      const subCatSlug = toSlug(item.metadata.category.sub);
-      const topicSlug = toSlug(item.metadata.category.topic);
-
-      return {
-        params: {
-          category: mainCatSlug,
-          subcategory: subCatSlug,
-          topic: topicSlug,
-        },
-      };
-    });
+    .map((item) => adressSegmente(artikelAdresse(item)))
+    .filter((s) => s.length === 3)
+    .map(([category, subcategory, topic]) => ({ params: { category, subcategory, topic } }));
 
   return { paths, fallback: false };
 };
@@ -343,13 +324,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
     };
   }
   
-  // Suche Artikel (nur noch normale 3-Ebenen-Struktur)
-  const contentItem = (Object.values(content) as JassContentItem[]).find(
-    (item) =>
-      toSlug(item.metadata.category.main) === categorySlug &&
-      toSlug(item.metadata.category.sub) === subcategorySlug &&
-      toSlug(item.metadata.category.topic) === topicSlug
-  );
+  // Artikel an seiner festen Adresse
+  const contentItem = artikelAnAdresse(content, `/${categorySlug}/${subcategorySlug}/${topicSlug}/`);
 
   if (!contentItem) {
     return {

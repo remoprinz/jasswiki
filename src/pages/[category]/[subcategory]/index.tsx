@@ -21,7 +21,7 @@ import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 import { vorschauText } from '@/components/wissen/vorschau';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
-import { festerPfad } from '@/lib/url-utils';
+import { festerPfad, artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
@@ -268,8 +268,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
         </h2>
         <div className="grid gap-4 sm:gap-5">
           {siblings.map((article) => {
-            const articleSlug = toSlug(article.metadata.category.topic);
-            const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
+            const articleUrl = artikelAdresse(article);
             const preview = vorschauText(article.text);
             return (
               <Link key={article.id} href={articleUrl} className="group block">
@@ -401,8 +400,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
                 </h2>
                 <div className="grid gap-4 sm:gap-5">
                   {siblings.map((article) => {
-                    const articleSlug = toSlug(article.metadata.category.topic);
-                    const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
+                    const articleUrl = artikelAdresse(article);
                     const preview = vorschauText(article.text);
                     return (
                       <Link key={article.id} href={articleUrl} className="group block">
@@ -512,8 +510,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
           {/* Artikel-Liste */}
           <div className="grid gap-4 sm:gap-5">
             {sortedArticles.map((article) => {
-              const articleSlug = toSlug(article.metadata.category.topic);
-              const articleUrl = `/${categorySlug}/${subcategorySlug}/${articleSlug}/`;
+              const articleUrl = artikelAdresse(article);
               
               // Extrahiere erste Zeile als Vorschau
               const preview = vorschauText(article.text);
@@ -591,6 +588,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     combinations.add(`${catSlug}/${subSlug}`);
   });
+
+  // Flache Artikel an ihrer festen Adresse (zwei Segmente, ausser den
+  // eigenen Routen /ansagen/ und /varianten/).
+  items.forEach((item) => {
+    const s = adressSegmente(artikelAdresse(item));
+    if (s.length === 2 && s[0] !== 'ansagen' && s[0] !== 'varianten') combinations.add(`${s[0]}/${s[1]}`);
+  });
   
   const paths = Array.from(combinations).map(combo => {
     const [category, subcategory] = combo.split('/');
@@ -622,13 +626,7 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
   const content: JassContentRecord = allContent;
   
   // Prüfe: Ist das ein flacher Artikel (sub === topic)?
-  const flatArticle = (Object.values(content) as JassContentItem[]).find(
-    item =>
-      toSlug(item.metadata.category.main) === categorySlug &&
-      toSlug(item.metadata.category.sub) === subcategorySlug &&
-      toSlug(item.metadata.category.topic) === subcategorySlug &&
-      !festerPfad(item.metadata.category)
-  );
+  const flatArticle = artikelAnAdresse(content, `/${categorySlug}/${subcategorySlug}/`);
   
   if (flatArticle) {
     // ARTIKEL-MODE: Zeige einzelnen Artikel

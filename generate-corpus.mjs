@@ -10,7 +10,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { toSlug, buildCanonicalUrl, validateUrl } from './url-utils.mjs';
+import { toSlug, artikelUrl, validateUrl } from './url-utils.mjs';
 import { resolveMarkers, buildIdToTopic } from './resolve-markers.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -44,7 +44,7 @@ async function generateCorpus() {
       const { category, keywords } = metadata;
 
       // Generiere kanonische URL mit zentraler Funktion
-      const canonicalUrl = buildCanonicalUrl(category);
+      const canonicalUrl = artikelUrl(article);
       
       // Validiere die URL
       const urlPath = canonicalUrl.replace('https://jasswiki.ch', '');

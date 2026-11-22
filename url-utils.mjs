@@ -61,7 +61,13 @@ export function festerPfad(category) {
   return FESTE_PFADE[`${category.main} / ${category.topic}`] ?? null;
 }
 
-export function buildArticleUrl(category) {
+/**
+ * Die Rechnung, mit der Adressen bis zum 22.11.2026 entstanden sind.
+ * Seither liest jeder Erzeuger das feste Feld `metadata.adresse`
+ * (artikelAdresse). Allein adressen-einfrieren.mjs ruft diese Rechnung
+ * noch, um einem neuen Artikel sein Feld zu setzen.
+ */
+export function adresseAusKategorie(category) {
   const fest = festerPfad(category);
   if (fest) return fest;
   const mainSlug = toSlug(category.main);
@@ -75,9 +81,20 @@ export function buildArticleUrl(category) {
   return `/${mainSlug}/${subSlug}/${topicSlug}/`;
 }
 
-export function buildCanonicalUrl(category, baseUrl = 'https://jasswiki.ch') {
-  const path = buildArticleUrl(category);
-  return `${baseUrl}${path}`;
+/**
+ * Feste Adresse eines Artikels (metadata.adresse). Fehlt das Feld, bricht
+ * der Bau ab: `node adressen-einfrieren.mjs` setzt es.
+ */
+export function artikelAdresse(item) {
+  const a = item?.metadata?.adresse;
+  if (typeof a !== 'string' || !a) {
+    throw new Error(`Artikel ${item?.id ?? '?'} ohne metadata.adresse. Setzen mit: node adressen-einfrieren.mjs`);
+  }
+  return a;
+}
+
+export function artikelUrl(item, baseUrl = 'https://jasswiki.ch') {
+  return `${baseUrl}${artikelAdresse(item)}`;
 }
 
 export function validateUrl(url) {

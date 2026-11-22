@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { buildArticleUrl, toSlug } from '@/lib/url-utils';
+import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 
@@ -62,7 +62,7 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
         
         if (relevanceScore === 0) return null;
         
-        const url = buildArticleUrl(item.metadata.category);
+        const url = artikelAdresse(item);
         
         return {
           id: item.id,

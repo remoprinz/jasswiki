@@ -9,6 +9,7 @@
         "sub": "Trumpf",
         "topic": "Tutti"
       },
+      "adresse": "/ansagen/tutti/",
       "keywords": [
         "tutti",
         "coiffeur",
@@ -64,6 +65,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Nell vor Puur"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/nell-vor-puur/",
       "keywords": [
         "nell vor puur",
         "nell",
@@ -115,6 +117,7 @@
         "sub": "Kartenverteilung",
         "topic": "Abheben der Karten"
       },
+      "adresse": "/regeln/kartenverteilung/abheben-der-karten/",
       "keywords": [
         "abheben",
         "ablupfen",
@@ -174,6 +177,7 @@
         "sub": "Ausmachregel",
         "topic": "Ausmachregel"
       },
+      "adresse": "/regeln/ausmachregel/",
       "keywords": [
         "ausmachregel",
         "stöck wys stich",
@@ -233,6 +237,7 @@
         "sub": "Spielablauf",
         "topic": "Ausspiel"
       },
+      "adresse": "/regeln/spielablauf/ausspiel/",
       "keywords": [
         "ausspiel",
         "vorhand",
@@ -285,6 +290,7 @@
         "sub": "Spielaktionen",
         "topic": "Bedanken"
       },
+      "adresse": "/begriffe/spielaktionen/bedanken/",
       "keywords": [
         "bedanken",
         "bedanken jass",
@@ -342,6 +348,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Spielverrat (Bemerkungen)"
       },
+      "adresse": "/regeln/fehler-verstoesse/spielverrat-bemerkungen/",
       "keywords": [
         "bemerkungen",
         "kommentare",
@@ -382,6 +389,7 @@
         "sub": "Sonderregeln",
         "topic": "Bemerkungen/Schnorren"
       },
+      "adresse": "/regeln/sonderregeln/bemerkungen-schnorren/",
       "keywords": [
         "bemerkungen",
         "kommentare",
@@ -445,6 +453,7 @@
         "sub": "Bergpreis",
         "topic": "Bergpreis"
       },
+      "adresse": "/regeln/bergpreis/",
       "keywords": [
         "bergpreis",
         "berg",
@@ -497,6 +506,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Spielverrat (Bock erwähnen)"
       },
+      "adresse": "/regeln/fehler-verstoesse/spielverrat-bock-erwaehnen/",
       "keywords": [
         "bock",
         "erwähnen",
@@ -535,6 +545,7 @@
         "sub": "Spielablauf",
         "topic": "Bodentrumpf"
       },
+      "adresse": "/regeln/spielablauf/bodentrumpf/",
       "keywords": [
         "bodentrumpf",
         "trumpf",
@@ -585,6 +596,7 @@
         "sub": "Grundbegriffe",
         "topic": "Ablupf"
       },
+      "adresse": "/begriffe/grundbegriffe/ablupf/",
       "keywords": [
         "ablupf",
         "abheben",
@@ -634,6 +646,7 @@
         "sub": "Grundbegriffe",
         "topic": "Am Drücker"
       },
+      "adresse": "/begriffe/grundbegriffe/am-druecker/",
       "keywords": [
         "am drücker",
         "drücker",
@@ -681,6 +694,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Banner"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/banner/",
       "keywords": [
         "banner",
         "Zehner"
@@ -727,6 +741,7 @@
         "sub": "Grundbegriffe",
         "topic": "Grundlagen"
       },
+      "adresse": "/begriffe/grundbegriffe/grundlagen/",
       "keywords": [
         "grundbegriffe",
         "basis",
@@ -773,6 +788,7 @@
         "sub": "Grundbegriffe",
         "topic": "Bauernpartei"
       },
+      "adresse": "/begriffe/grundbegriffe/bauernpartei/",
       "keywords": [
         "bauernpartei",
         "bieter",
@@ -819,6 +835,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Belli"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/belli/",
       "keywords": [
         "belli",
         "siebner",
@@ -864,6 +881,7 @@
         "sub": "Spielaktionen",
         "topic": "Bessern"
       },
+      "adresse": "/begriffe/spielaktionen/bessern/",
       "keywords": [
         "bessern"
       ],
@@ -905,6 +923,7 @@
         "sub": "Grundbegriffe",
         "topic": "Blatt"
       },
+      "adresse": "/begriffe/grundbegriffe/blatt/",
       "keywords": [
         "blatt",
         "spielkarten",
@@ -947,6 +966,7 @@
         "sub": "Grundbegriffe",
         "topic": "Blinder"
       },
+      "adresse": "/begriffe/grundbegriffe/blinder/",
       "keywords": [
         "blinder",
         "austauschblatt",
@@ -991,6 +1011,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Bock"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/bock/",
       "keywords": [
         "bock",
         "bockkarte",
@@ -1035,6 +1056,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Bockkarte"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/bockkarte/",
       "keywords": [
         "bockkarte"
       ],
@@ -1077,6 +1099,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Bodentrumpf"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/bodentrumpf/",
       "keywords": [
         "bodentrumpf",
         "boden-trumpf"
@@ -1119,6 +1142,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Brättli"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/braettli/",
       "keywords": [
         "brättli",
         "brett-karten",
@@ -1165,6 +1189,7 @@
         "sub": "Spielaktionen",
         "topic": "Erben"
       },
+      "adresse": "/begriffe/spielaktionen/erben/",
       "keywords": [
         "erben"
       ],
@@ -1207,6 +1232,7 @@
         "sub": "Spielaktionen",
         "topic": "Farben/Leih halten"
       },
+      "adresse": "/begriffe/spielaktionen/farben-leih-halten/",
       "keywords": [
         "farben halten",
         "leih halten"
@@ -1251,6 +1277,7 @@
         "sub": "Spielaktionen",
         "topic": "Fort"
       },
+      "adresse": "/begriffe/spielaktionen/fort/",
       "keywords": [
         "fort",
         "bieter",
@@ -1301,6 +1328,7 @@
         "sub": "Spielrichtung",
         "topic": "Quer"
       },
+      "adresse": "/ansagen/quer/",
       "keywords": [
         "guschti",
         "zwischendurch",
@@ -1359,6 +1387,7 @@
         "sub": "Punktebegriffe",
         "topic": "Härdöpfel"
       },
+      "adresse": "/begriffe/punktebegriffe/haerdoepfel/",
       "keywords": [
         "härdöpfel",
         "haerdoepfel"
@@ -1402,6 +1431,7 @@
         "sub": "Grundbegriffe",
         "topic": "Handkarten"
       },
+      "adresse": "/begriffe/grundbegriffe/handkarten/",
       "keywords": [
         "handkarten"
       ],
@@ -1443,6 +1473,7 @@
         "sub": "Grundbegriffe",
         "topic": "Hindersi"
       },
+      "adresse": "/begriffe/grundbegriffe/hindersi/",
       "keywords": [
         "hindersi"
       ],
@@ -1485,6 +1516,7 @@
         "sub": "Grundbegriffe",
         "topic": "Joker/Knecht"
       },
+      "adresse": "/begriffe/grundbegriffe/joker-knecht/",
       "keywords": [
         "joker",
         "knecht"
@@ -1532,6 +1564,7 @@
         "sub": "Jasskarten",
         "topic": "Jasskarten"
       },
+      "adresse": "/grundlagen-kultur/jasskarten/",
       "keywords": [
         "jasskarten",
         "schweizer spielkarten",
@@ -1636,6 +1669,7 @@
         "sub": "Spielaktionen",
         "topic": "Kehr"
       },
+      "adresse": "/begriffe/spielaktionen/kehr/",
       "keywords": [
         "kehr"
       ],
@@ -1677,6 +1711,7 @@
         "sub": "Spielaktionen",
         "topic": "Klemmen"
       },
+      "adresse": "/begriffe/spielaktionen/klemmen/",
       "keywords": [
         "klemmen",
         "bock",
@@ -1723,6 +1758,7 @@
         "sub": "Grundbegriffe",
         "topic": "Knecht"
       },
+      "adresse": "/begriffe/grundbegriffe/knecht/",
       "keywords": [
         "knecht",
         "joker",
@@ -1767,6 +1803,7 @@
         "sub": "Grundbegriffe",
         "topic": "Königspartei"
       },
+      "adresse": "/begriffe/grundbegriffe/koenigspartei/",
       "keywords": [
         "königspartei",
         "bieter",
@@ -1813,6 +1850,7 @@
         "sub": "Punktebegriffe",
         "topic": "Kontermatsch"
       },
+      "adresse": "/begriffe/punktebegriffe/kontermatsch/",
       "keywords": [
         "kontermatsch",
         "matschprämie"
@@ -1856,6 +1894,7 @@
         "sub": "Spielaktionen",
         "topic": "Leih halten"
       },
+      "adresse": "/begriffe/spielaktionen/leih-halten/",
       "keywords": [
         "leih halten",
         "farbe bekennen"
@@ -1899,6 +1938,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Lukas"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/lukas/",
       "keywords": [
         "lukas",
         "stock",
@@ -1941,6 +1981,7 @@
         "sub": "Punktebegriffe",
         "topic": "Matsch"
       },
+      "adresse": "/begriffe/punktebegriffe/matsch/",
       "keywords": [
         "matsch",
         "matschprämie"
@@ -1989,6 +2030,7 @@
         "sub": "Punktebegriffe",
         "topic": "Matschprämie"
       },
+      "adresse": "/begriffe/punktebegriffe/matschpraemie/",
       "keywords": [
         "matschprämie",
         "matsch",
@@ -2049,6 +2091,7 @@
         "sub": "Punktebegriffe",
         "topic": "Minuspunkte"
       },
+      "adresse": "/begriffe/punktebegriffe/minuspunkte/",
       "keywords": [
         "minuspunkte",
         "nuller",
@@ -2095,6 +2138,7 @@
         "sub": "Ziel",
         "topic": "Misère"
       },
+      "adresse": "/ansagen/misere/",
       "keywords": [
         "misère",
         "pandur",
@@ -2139,6 +2183,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Nachschmeissen"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/nachschmeissen/",
       "keywords": [
         "nachschmeissen",
         "nohrüere",
@@ -2198,6 +2243,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Nell"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/nell/",
       "keywords": [
         "nell",
         "trumpf-neuner"
@@ -2247,6 +2293,7 @@
         "sub": "Punktebegriffe",
         "topic": "Nuller"
       },
+      "adresse": "/begriffe/punktebegriffe/nuller/",
       "keywords": [
         "nuller",
         "minusstrich",
@@ -2292,6 +2339,7 @@
         "sub": "Spielrichtung",
         "topic": "Obenabe"
       },
+      "adresse": "/ansagen/obenabe/",
       "keywords": [
         "obenabe"
       ],
@@ -2334,6 +2382,7 @@
         "sub": "Punktebegriffe",
         "topic": "Offene Ansage"
       },
+      "adresse": "/begriffe/punktebegriffe/offene-ansage/",
       "keywords": [
         "offene ansage",
         "differenzler"
@@ -2375,6 +2424,7 @@
         "sub": "Grundbegriffe",
         "topic": "Partie"
       },
+      "adresse": "/begriffe/grundbegriffe/partie/",
       "keywords": [
         "partie"
       ],
@@ -2417,6 +2467,7 @@
         "sub": "Grundbegriffe",
         "topic": "Passe"
       },
+      "adresse": "/begriffe/grundbegriffe/passe/",
       "keywords": [
         "passe"
       ],
@@ -2459,6 +2510,7 @@
         "sub": "Punktebegriffe",
         "topic": "Rampo"
       },
+      "adresse": "/begriffe/punktebegriffe/rampo/",
       "keywords": [
         "rampo",
         "schellenjass",
@@ -2503,6 +2555,7 @@
         "sub": "Spielaktionen",
         "topic": "Rauben"
       },
+      "adresse": "/begriffe/spielaktionen/rauben/",
       "keywords": [
         "rauben"
       ],
@@ -2543,6 +2596,7 @@
         "sub": "Grundbegriffe",
         "topic": "Rest"
       },
+      "adresse": "/begriffe/grundbegriffe/rest/",
       "keywords": [
         "rest"
       ],
@@ -2583,6 +2637,7 @@
         "sub": "Punktebegriffe",
         "topic": "Sack"
       },
+      "adresse": "/begriffe/punktebegriffe/sack/",
       "keywords": [
         "sack",
         "nuller",
@@ -2628,6 +2683,7 @@
         "sub": "Spielaktionen",
         "topic": "Schieben"
       },
+      "adresse": "/begriffe/spielaktionen/schieben/",
       "keywords": [
         "schieben"
       ],
@@ -2670,6 +2726,7 @@
         "sub": "Spielaktionen",
         "topic": "Schlecken"
       },
+      "adresse": "/begriffe/spielaktionen/schlecken/",
       "keywords": [
         "schlecken"
       ],
@@ -2710,6 +2767,7 @@
         "sub": "Spielaktionen",
         "topic": "Schmieren"
       },
+      "adresse": "/begriffe/spielaktionen/schmieren/",
       "keywords": [
         "schmieren"
       ],
@@ -2751,6 +2809,7 @@
         "sub": "Grundbegriffe",
         "topic": "Schnorren"
       },
+      "adresse": "/begriffe/grundbegriffe/schnorren/",
       "keywords": [
         "schnorren",
         "bemerkungen",
@@ -2798,6 +2857,7 @@
         "sub": "Spielrichtung",
         "topic": "Slalom/Zickzack"
       },
+      "adresse": "/ansagen/slalom-zickzack/",
       "keywords": [
         "slalom",
         "zickzack"
@@ -2846,6 +2906,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Solokarte"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/solokarte/",
       "keywords": [
         "solokarte",
         "einzelkarte"
@@ -2892,6 +2953,7 @@
         "sub": "Grundbegriffe",
         "topic": "Stapel"
       },
+      "adresse": "/begriffe/grundbegriffe/stapel/",
       "keywords": [
         "stapel"
       ],
@@ -2932,6 +2994,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Stechkarten"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/stechkarten/",
       "keywords": [
         "stechkarten",
         "höhere karten"
@@ -2973,6 +3036,7 @@
         "sub": "Grundbegriffe",
         "topic": "Stich"
       },
+      "adresse": "/begriffe/grundbegriffe/stich/",
       "keywords": [
         "stich"
       ],
@@ -3015,6 +3079,7 @@
         "sub": "Grundbegriffe",
         "topic": "Streichpasse"
       },
+      "adresse": "/begriffe/grundbegriffe/streichpasse/",
       "keywords": [
         "streichpasse"
       ],
@@ -3055,6 +3120,7 @@
         "sub": "Punktebegriffe",
         "topic": "Strich"
       },
+      "adresse": "/begriffe/punktebegriffe/strich/",
       "keywords": [
         "strich",
         "striche",
@@ -3114,6 +3180,7 @@
         "sub": "Grundbegriffe",
         "topic": "Team"
       },
+      "adresse": "/begriffe/grundbegriffe/team/",
       "keywords": [
         "team"
       ],
@@ -3155,6 +3222,7 @@
         "sub": "Punktebegriffe",
         "topic": "Tisch-Weis"
       },
+      "adresse": "/begriffe/punktebegriffe/tisch-weis/",
       "keywords": [
         "tisch-weis",
         "molotow",
@@ -3198,6 +3266,7 @@
         "sub": "Spielrichtung",
         "topic": "Trio/3×3"
       },
+      "adresse": "/ansagen/trio-3-3/",
       "keywords": [
         "trio",
         "3×3",
@@ -3247,6 +3316,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Trumpf"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/trumpf/",
       "keywords": [
         "trumpf",
         "trumpfkarten",
@@ -3292,6 +3362,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Trumpf-Bauer"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/trumpf-bauer/",
       "keywords": [
         "trumpf-bauer",
         "trumpf-under",
@@ -3341,6 +3412,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Trumpf-Bauer Kombinationen"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/trumpf-bauer-kombinationen/",
       "keywords": [
         "trumpf-bauer-kombinationen",
         "puur zu dritt",
@@ -3398,6 +3470,7 @@
         "sub": "Spielrichtung",
         "topic": "Undenufe"
       },
+      "adresse": "/ansagen/undenufe/",
       "keywords": [
         "undenufe"
       ],
@@ -3442,6 +3515,7 @@
         "sub": "Spielaktionen",
         "topic": "Unterzug"
       },
+      "adresse": "/begriffe/spielaktionen/unterzug/",
       "keywords": [
         "unterzug"
       ],
@@ -3482,6 +3556,7 @@
         "sub": "Punktebegriffe",
         "topic": "Verdeckte Ansage"
       },
+      "adresse": "/begriffe/punktebegriffe/verdeckte-ansage/",
       "keywords": [
         "verdeckte ansage",
         "differenzler",
@@ -3524,6 +3599,7 @@
         "sub": "Punktebegriffe",
         "topic": "Vogel"
       },
+      "adresse": "/begriffe/punktebegriffe/vogel/",
       "keywords": [
         "vogel",
         "minusstriche",
@@ -3566,6 +3642,7 @@
         "sub": "Grundbegriffe",
         "topic": "Vorhand"
       },
+      "adresse": "/begriffe/grundbegriffe/vorhand/",
       "keywords": [
         "vorhand"
       ],
@@ -3610,6 +3687,7 @@
         "sub": "Weispunkte",
         "topic": "Weispunkte"
       },
+      "adresse": "/weis-regeln/weispunkte/",
       "keywords": [
         "achtblatt",
         "blattfolge",
@@ -3768,6 +3846,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Falscher Spieler"
       },
+      "adresse": "/regeln/fehler-verstoesse/falscher-spieler/",
       "keywords": [
         "falscher spieler",
         "stechwert",
@@ -3818,6 +3897,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Fehlende Karte"
       },
+      "adresse": "/regeln/fehler-verstoesse/fehlende-karte/",
       "keywords": [
         "fehlende karte",
         "stechwert",
@@ -3869,6 +3949,7 @@
         "sub": "Sonderregeln",
         "topic": "Fragen während Spiel"
       },
+      "adresse": "/regeln/sonderregeln/fragen-waehrend-spiel/",
       "keywords": [
         "fragen",
         "spielverrat",
@@ -3915,6 +3996,7 @@
         "sub": "Kartenwerte",
         "topic": "Kartenwerte"
       },
+      "adresse": "/regeln/kartenwerte/",
       "keywords": [
         "kartenwerte",
         "jass kartenwerte",
@@ -3979,6 +4061,7 @@
         "sub": "Jassen als Kulturgut",
         "topic": "Jassen als Kulturgut"
       },
+      "adresse": "/grundlagen-kultur/jassen-als-kulturgut/",
       "keywords": [
         "kultur",
         "tradition",
@@ -4033,6 +4116,7 @@
         "sub": "Kartenverteilung",
         "topic": "Jasskarten: Verteilung"
       },
+      "adresse": "/regeln/kartenverteilung/jasskarten-verteilung/",
       "keywords": [
         "austeilen",
         "mischen",
@@ -4095,6 +4179,7 @@
         "sub": "Kartenverteilung",
         "topic": "Kartenverteilen: Grundregeln"
       },
+      "adresse": "/regeln/kartenverteilung/kartenverteilen-grundregeln/",
       "keywords": [
         "verteilen",
         "mischen",
@@ -4139,6 +4224,7 @@
         "sub": "Kartenverteilung",
         "topic": "Fehlerhafte Kartenverteilung"
       },
+      "adresse": "/regeln/kartenverteilung/fehlerhafte-kartenverteilung/",
       "keywords": [
         "fehler",
         "konsequenzen",
@@ -4181,6 +4267,7 @@
         "sub": "Kartenverteilung",
         "topic": "Jasskarten: Verteilmethoden"
       },
+      "adresse": "/regeln/kartenverteilung/jasskarten-verteilmethoden/",
       "keywords": [
         "verteilen",
         "methoden",
@@ -4231,6 +4318,7 @@
         "sub": "Kartenverteilung",
         "topic": "Sonderregeln beim Verteilen"
       },
+      "adresse": "/regeln/kartenverteilung/sonderregeln-beim-verteilen/",
       "keywords": [
         "sonderregeln",
         "bodentrumpf",
@@ -4275,6 +4363,7 @@
         "sub": "Jassen im europäischen Vergleich",
         "topic": "Jassen im europäischen Vergleich"
       },
+      "adresse": "/grundlagen-kultur/jassen-im-europaeischen-vergleich/",
       "keywords": [
         "europa",
         "international",
@@ -4329,6 +4418,7 @@
         "sub": "Spielende",
         "topic": "Spielende: Regeln"
       },
+      "adresse": "/regeln/spielende/spielende-regeln/",
       "keywords": [
         "ende",
         "punkte",
@@ -4380,6 +4470,7 @@
         "sub": "Spielablauf",
         "topic": "Spielverlauf: Grundlagen"
       },
+      "adresse": "/regeln/spielablauf/spielverlauf-grundlagen/",
       "keywords": [
         "ablauf",
         "reihenfolge",
@@ -4436,6 +4527,7 @@
         "sub": "Regionale Eigenheiten",
         "topic": "Regionale Eigenheiten"
       },
+      "adresse": "/grundlagen-kultur/regionale-eigenheiten/",
       "keywords": [
         "regionen",
         "deutschschweiz",
@@ -4488,6 +4580,7 @@
         "sub": "Kartenverteilung",
         "topic": "Jass-Regionen"
       },
+      "adresse": "/regeln/kartenverteilung/jass-regionen/",
       "keywords": [
         "französisch",
         "deutschschweizer",
@@ -4573,6 +4666,7 @@
         "sub": "Regelgrundlagen",
         "topic": "Regelgrundlagen"
       },
+      "adresse": "/regeln/regelgrundlagen/",
       "keywords": [
         "abheben",
         "ablupfen",
@@ -4624,6 +4718,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Spielfehler: Übersicht"
       },
+      "adresse": "/regeln/fehler-verstoesse/spielfehler-uebersicht/",
       "keywords": [
         "fehler",
         "konsequenzen",
@@ -4681,6 +4776,7 @@
         "sub": "Grundlagen",
         "topic": "Der Schieber"
       },
+      "adresse": "/schieber/",
       "keywords": [
         "schieber",
         "teamsport",
@@ -4772,6 +4868,7 @@
         "sub": "Punktezählung",
         "topic": "Wichtige Punkteregeln"
       },
+      "adresse": "/regeln/punktezaehlung/wichtige-punkteregeln/",
       "keywords": [
         "punkte",
         "letzter stich",
@@ -4830,6 +4927,7 @@
         "sub": "Kartenwerte",
         "topic": "Grundregeln"
       },
+      "adresse": "/regeln/kartenwerte/grundregeln/",
       "keywords": [
         "obenabe",
         "undenufe",
@@ -4892,6 +4990,7 @@
         "sub": "Kartenwerte",
         "topic": "Trumpfwerte: Grundlagen"
       },
+      "adresse": "/regeln/kartenwerte/trumpfwerte-grundlagen/",
       "keywords": [
         "trumpf",
         "puur",
@@ -4958,6 +5057,7 @@
         "sub": "Punktezählung",
         "topic": "Hingelegter Matsch"
       },
+      "adresse": "/regeln/punktezaehlung/hingelegter-matsch/",
       "keywords": [
         "hingelegter matsch",
         "hingelegt",
@@ -5014,6 +5114,7 @@
         "sub": "Wortherkunft",
         "topic": "Woher kommt das Wort Jass?"
       },
+      "adresse": "/geschichte/wortherkunft/woher-kommt-das-wort-jass/",
       "keywords": [
         "etymologie",
         "niederlande",
@@ -5067,6 +5168,7 @@
         "sub": "Wortherkunft",
         "topic": "Etymologie des Begriffs Matsch"
       },
+      "adresse": "/geschichte/wortherkunft/etymologie-des-begriffs-matsch/",
       "keywords": [
         "matsch",
         "match",
@@ -5138,6 +5240,7 @@
         "sub": "Die erste urkundliche Erwähnung",
         "topic": "Die erste urkundliche Erwähnung"
       },
+      "adresse": "/geschichte/die-erste-urkundliche-erwaehnung/",
       "keywords": [
         "1796",
         "schaffhausen",
@@ -5188,6 +5291,7 @@
         "sub": "Vom Luxusgut zur Massenware",
         "topic": "Vom Luxusgut zur Massenware"
       },
+      "adresse": "/geschichte/vom-luxusgut-zur-massenware/",
       "keywords": [
         "industrie",
         "produktion",
@@ -5244,6 +5348,7 @@
         "sub": "Die Sprache rund um den Jasstisch",
         "topic": "Die Sprache rund um den Jasstisch"
       },
+      "adresse": "/geschichte/die-sprache-rund-um-den-jasstisch/",
       "keywords": [
         "sprache",
         "dialekt",
@@ -5301,6 +5406,7 @@
         "sub": "Frühe Spielkarten in Europa",
         "topic": "Frühe Spielkarten in Europa"
       },
+      "adresse": "/geschichte/fruehe-spielkarten-in-europa/",
       "keywords": [
         "johannes von rheinfelden",
         "ludus cartularum",
@@ -5358,6 +5464,7 @@
         "sub": "Woher kommen Spielkarten?",
         "topic": "Woher kommen Spielkarten?"
       },
+      "adresse": "/geschichte/woher-kommen-spielkarten/",
       "keywords": [
         "seidenstrasse",
         "china",
@@ -5416,6 +5523,7 @@
         "sub": "Das älteste Jassreglement der Schweiz",
         "topic": "Das älteste Jassreglement der Schweiz"
       },
+      "adresse": "/geschichte/das-aelteste-jassreglement-der-schweiz/",
       "keywords": [
         "ramstein",
         "philipona",
@@ -5478,6 +5586,7 @@
         "sub": "Kulturelle Bedeutung",
         "topic": "Verbreitung und gesellschaftliche Bedeutung"
       },
+      "adresse": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
       "keywords": [
         "gesellschaft",
         "tradition",
@@ -5528,6 +5637,7 @@
         "sub": "Schweizer Kartenmacher",
         "topic": "Schweizer Kartenmacher"
       },
+      "adresse": "/geschichte/schweizer-kartenmacher/",
       "keywords": [
         "schweiz",
         "jass",
@@ -5599,6 +5709,7 @@
         "sub": "Kulturelle Bedeutung",
         "topic": "Die Liste der lebendigen Traditionen"
       },
+      "adresse": "/geschichte/kulturelle-bedeutung/die-liste-der-lebendigen-traditionen/",
       "keywords": [
         "unesco",
         "tradition",
@@ -5655,6 +5766,7 @@
         "sub": "Kulturelle Bedeutung",
         "topic": "UNESCO-Übereinkommen"
       },
+      "adresse": "/geschichte/kulturelle-bedeutung/unesco-uebereinkommen/",
       "keywords": [
         "unesco",
         "übereinkommen",
@@ -5709,6 +5821,7 @@
         "sub": "Online-Jass",
         "topic": "Jass.ch (Swisslos)"
       },
+      "adresse": "/jassapps/online-jass/jass-ch-swisslos/",
       "keywords": [
         "jass.ch",
         "jass.ch app",
@@ -5779,6 +5892,7 @@
         "sub": "Online-Jass",
         "topic": "JassGuru"
       },
+      "adresse": "/jassapps/online-jass/jassguru/",
       "keywords": [
         "jassguru",
         "online jassen",
@@ -5887,6 +6001,7 @@
         "sub": "Online-Jass",
         "topic": "JassPro"
       },
+      "adresse": "/jassapps/online-jass/jasspro/",
       "keywords": [
         "jasspro",
         "online-jass",
@@ -5953,6 +6068,7 @@
         "sub": "Tisch-Jass",
         "topic": "Jasstafel"
       },
+      "adresse": "/jassapps/tisch-jass/jasstafel/",
       "keywords": [
         "jasstafel",
         "jasstafel app",
@@ -6021,6 +6137,7 @@
         "sub": "Online-Jass",
         "topic": "SwissJass+"
       },
+      "adresse": "/jassapps/online-jass/swissjass/",
       "keywords": [
         "swissjass",
         "online-jass",
@@ -6086,6 +6203,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Karte fällt runter"
       },
+      "adresse": "/regeln/fehler-verstoesse/karte-faellt-runter/",
       "keywords": [
         "karte fällt runter",
         "karte fallen",
@@ -6142,6 +6260,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Karte frühzeitig in die Hand nehmen"
       },
+      "adresse": "/regeln/fehler-verstoesse/karte-fruehzeitig-in-die-hand-nehmen/",
       "keywords": [
         "karte",
         "hand",
@@ -6188,6 +6307,7 @@
         "sub": "Punktezählung",
         "topic": "Punkte nicht gezählt"
       },
+      "adresse": "/regeln/punktezaehlung/punkte-nicht-gezaehlt/",
       "keywords": [
         "punkte",
         "zählen",
@@ -6234,6 +6354,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Karten nicht komplett"
       },
+      "adresse": "/regeln/fehler-verstoesse/karten-nicht-komplett/",
       "keywords": [
         "karte",
         "komplett",
@@ -6282,6 +6403,7 @@
         "sub": "Sonderregeln",
         "topic": "Klopfen"
       },
+      "adresse": "/regeln/sonderregeln/klopfen/",
       "keywords": [
         "klopfen",
         "signal",
@@ -6327,6 +6449,7 @@
         "sub": "Punktezählung",
         "topic": "Kontermatsch"
       },
+      "adresse": "/regeln/punktezaehlung/kontermatsch/",
       "keywords": [
         "kontermatsch",
         "matsch",
@@ -6387,6 +6510,7 @@
         "sub": "Punktezählung",
         "topic": "Letzter Stich"
       },
+      "adresse": "/regeln/punktezaehlung/letzter-stich/",
       "keywords": [
         "letzter stich",
         "punkte",
@@ -6430,6 +6554,7 @@
         "sub": "Sonderregeln",
         "topic": "Liegengelassene Stiche"
       },
+      "adresse": "/regeln/sonderregeln/liegengelassene-stiche/",
       "keywords": [
         "stiche",
         "kehren",
@@ -6476,6 +6601,7 @@
         "sub": "Punktezählung",
         "topic": "Schieber-Varianten"
       },
+      "adresse": "/regeln/punktezaehlung/schieber-varianten/",
       "keywords": [
         "schieber",
         "varianten",
@@ -6537,6 +6663,7 @@
         "sub": "Kartenverteilung",
         "topic": "Mischen"
       },
+      "adresse": "/regeln/kartenverteilung/mischen/",
       "keywords": [
         "mischen",
         "karten",
@@ -6592,6 +6719,7 @@
         "sub": "Sonderregeln",
         "topic": "Nachschauen gekehrter Stiche"
       },
+      "adresse": "/regeln/sonderregeln/nachschauen-gekehrter-stiche/",
       "keywords": [
         "stiche",
         "nachschauen",
@@ -6645,6 +6773,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Nichtfarben"
       },
+      "adresse": "/regeln/fehler-verstoesse/nichtfarben/",
       "keywords": [
         "nichtfarben",
         "nicht farben",
@@ -6741,6 +6870,7 @@
         "sub": "Sonderregeln",
         "topic": "Plätze tauschen"
       },
+      "adresse": "/regeln/sonderregeln/plaetze-tauschen/",
       "keywords": [
         "platztausch",
         "sitzordnung",
@@ -6779,6 +6909,7 @@
         "sub": "Tischregel",
         "topic": "Tischregel"
       },
+      "adresse": "/regeln/tischregel/",
       "difficulty": 1,
       "importance": 3,
       "keywords": [
@@ -6829,6 +6960,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Verschlagen"
       },
+      "adresse": "/regeln/fehler-verstoesse/verschlagen/",
       "difficulty": 3,
       "importance": 4,
       "keywords": [
@@ -6877,6 +7009,7 @@
         "sub": "Spielende",
         "topic": "Rest machen"
       },
+      "adresse": "/regeln/spielende/rest-machen/",
       "keywords": [
         "rest machen",
         "stiche",
@@ -6930,6 +7063,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Kommunikation & Signale"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/",
       "keywords": [
         "jass-taktik",
         "schieber taktik",
@@ -6992,6 +7126,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Anziehen"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/anziehen/",
       "keywords": [
         "anziehen",
         "farbe",
@@ -7046,6 +7181,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Austrumpfen: hoch oder tief"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/austrumpfen-hoch-oder-tief/",
       "keywords": [
         "hoch",
         "tief",
@@ -7132,6 +7268,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Querverwerfen"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/querverwerfen/",
       "keywords": [
         "querverwerfen",
         "verrühren",
@@ -7181,6 +7318,7 @@
         "sub": "Punktetaktiken",
         "topic": "Punktetaktiken"
       },
+      "adresse": "/taktiken-und-strategien/punktetaktiken/",
       "keywords": [
         "punkte",
         "sammeln",
@@ -7240,6 +7378,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Verwerfen"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/verwerfen/",
       "keywords": [
         "verwerfen",
         "verrühren",
@@ -7293,6 +7432,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Verwerfen bei Quer"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/",
       "keywords": [
         "verwerfen",
         "quer",
@@ -7343,6 +7483,7 @@
         "sub": "Kommunikation & Signale",
         "topic": "Verwerfen beim Slalom"
       },
+      "adresse": "/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/",
       "keywords": [
         "verwerfen",
         "slalom",
@@ -7390,6 +7531,7 @@
         "sub": "Punktezählung",
         "topic": "Schneider"
       },
+      "adresse": "/regeln/punktezaehlung/schneider/",
       "keywords": [
         "schneider",
         "beschneidert",
@@ -7446,6 +7588,7 @@
         "sub": "Punktezählung",
         "topic": "Schreiben"
       },
+      "adresse": "/regeln/punktezaehlung/schreiben/",
       "keywords": [
         "schreiben",
         "punkte",
@@ -7495,6 +7638,7 @@
         "sub": "Spielende",
         "topic": "Spiel annullieren"
       },
+      "adresse": "/regeln/spielende/spiel-annullieren/",
       "keywords": [
         "annullieren",
         "spielverrat",
@@ -7541,6 +7685,7 @@
         "sub": "Kartenverteilung",
         "topic": "Spiel geben"
       },
+      "adresse": "/regeln/kartenverteilung/spiel-geben/",
       "keywords": [
         "spiel geben",
         "kartenverteilung",
@@ -7614,6 +7759,7 @@
         "sub": "Kartenverteilung",
         "topic": "Spiel vergeben"
       },
+      "adresse": "/regeln/kartenverteilung/spiel-vergeben/",
       "keywords": [
         "spiel vergeben",
         "vergeben",
@@ -7668,6 +7814,7 @@
         "sub": "Spielende",
         "topic": "Spielverlust"
       },
+      "adresse": "/regeln/spielende/spielverlust/",
       "keywords": [
         "spielverlust",
         "zusammenwerfen",
@@ -7729,6 +7876,7 @@
         "sub": "Sonderregeln",
         "topic": "Spielverrat"
       },
+      "adresse": "/regeln/sonderregeln/spielverrat/",
       "keywords": [
         "spielverrat",
         "klopfen",
@@ -7782,6 +7930,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Stechwert verlieren"
       },
+      "adresse": "/regeln/fehler-verstoesse/stechwert-verlieren/",
       "keywords": [
         "stechwert",
         "stechwert verlieren",
@@ -7849,6 +7998,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Trumpf Puur"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/trumpf-puur/",
       "keywords": [
         "trumpf",
         "puur",
@@ -7919,6 +8069,7 @@
         "sub": "Spielablauf",
         "topic": "Trumpfansage"
       },
+      "adresse": "/regeln/spielablauf/trumpfansage/",
       "keywords": [
         "trumpfansage",
         "trumpffarbe",
@@ -7985,6 +8136,7 @@
         "sub": "Spielablauf",
         "topic": "Untertrumpfen"
       },
+      "adresse": "/regeln/spielablauf/untertrumpfen/",
       "keywords": [
         "untertrumpfen",
         "trumpf",
@@ -8031,6 +8183,7 @@
         "sub": "Teamspiel",
         "topic": "Coiffeur"
       },
+      "adresse": "/varianten/coiffeur/",
       "keywords": [
         "coiffeur",
         "schieber",
@@ -8102,6 +8255,7 @@
         "sub": "Einzelspiel",
         "topic": "Einzel"
       },
+      "adresse": "/varianten/einzel/",
       "keywords": [
         "einzel coiffeur",
         "coiffeur einzeln",
@@ -8164,6 +8318,7 @@
         "sub": "Glücksjass",
         "topic": "Glücksjass"
       },
+      "adresse": "/varianten/gluecksjass/",
       "keywords": [
         "glücksjass",
         "glück",
@@ -8226,6 +8381,7 @@
         "sub": "Serienjass",
         "topic": "Guggitaler"
       },
+      "adresse": "/varianten/guggitaler/",
       "keywords": [
         "guggitaler",
         "fünf spiele",
@@ -8296,6 +8452,7 @@
         "sub": "Gesellschaftsspiel",
         "topic": "Hose abe/Schnauz/Schwimmen"
       },
+      "adresse": "/varianten/hose-abe-schnauz-schwimmen/",
       "keywords": [
         "hose abe",
         "hoseabe",
@@ -8408,6 +8565,7 @@
         "sub": "Lernspiel",
         "topic": "Bodentrumpf (4 Spieler)"
       },
+      "adresse": "/varianten/bodentrumpf-4-spieler/",
       "keywords": [
         "bodentrumpf",
         "lernspiel",
@@ -8484,6 +8642,7 @@
         "sub": "Ablegespiel",
         "topic": "Tschau Sepp"
       },
+      "adresse": "/varianten/tschau-sepp/",
       "keywords": [
         "tschau sepp",
         "mau mau",
@@ -8567,6 +8726,7 @@
         "sub": "Stichspiel",
         "topic": "Ramset"
       },
+      "adresse": "/varianten/ramset/",
       "keywords": [
         "ramset",
         "wurst",
@@ -8639,6 +8799,7 @@
         "sub": "Glücksspiel",
         "topic": "Rumba"
       },
+      "adresse": "/varianten/rumba/",
       "keywords": [
         "rumba",
         "glück",
@@ -8707,6 +8868,7 @@
         "sub": "Gesellschaftsspiel",
         "topic": "Zwick"
       },
+      "adresse": "/varianten/zwick/",
       "keywords": [
         "zwick jass",
         "schlecken",
@@ -8776,6 +8938,7 @@
         "sub": "Ablege-/Aufsteigespiel",
         "topic": "Arschlöchle"
       },
+      "adresse": "/varianten/arschloechle/",
       "keywords": [
         "arschlöchle",
         "arschloch",
@@ -8842,6 +9005,7 @@
         "sub": "Vermeidungsspiel",
         "topic": "Hindersi (Allgemein)"
       },
+      "adresse": "/varianten/hindersi-allgemein/",
       "keywords": [
         "Hindersi",
         "wenige punkte",
@@ -8906,6 +9070,7 @@
         "sub": "Vermeidungsspiel",
         "topic": "Hindersi (3 Spieler)"
       },
+      "adresse": "/varianten/hindersi-3-spieler/",
       "keywords": [
         "hindersi drei",
         "drei spieler",
@@ -8968,6 +9133,7 @@
         "sub": "Vermeidungsspiel",
         "topic": "Hindersi (4 Spieler)"
       },
+      "adresse": "/varianten/hindersi-4-spieler/",
       "keywords": [
         "hindersi jass",
         "vier spieler",
@@ -9041,6 +9207,7 @@
         "sub": "Minus-Spiel",
         "topic": "Schaufel"
       },
+      "adresse": "/varianten/schaufel/",
       "keywords": [
         "schaufel dame",
         "pik dame",
@@ -9102,6 +9269,7 @@
         "sub": "Stichzahl-Spiel",
         "topic": "Stich"
       },
+      "adresse": "/varianten/stich/",
       "keywords": [
         "stich differenzler",
         "stichanzahl",
@@ -9163,6 +9331,7 @@
         "sub": "Schreibspiel",
         "topic": "Zuger"
       },
+      "adresse": "/varianten/zuger/",
       "keywords": [
         "zuger drei",
         "drei spieler zuger",
@@ -9225,6 +9394,7 @@
         "sub": "Königsspiel",
         "topic": "Aucho (3 Spieler)"
       },
+      "adresse": "/varianten/aucho-3-spieler/",
       "keywords": [
         "aucho drei",
         "drei spieler",
@@ -9281,6 +9451,7 @@
         "sub": "Königsspiel",
         "topic": "Aucho (4 Spieler)"
       },
+      "adresse": "/varianten/aucho-4-spieler/",
       "keywords": [
         "aucho",
         "lukas",
@@ -9357,6 +9528,7 @@
         "sub": "Königsspiel",
         "topic": "Aucho (2 Spieler)"
       },
+      "adresse": "/varianten/aucho-2-spieler/",
       "keywords": [
         "aucho zwei",
         "zwei spieler",
@@ -9420,6 +9592,7 @@
         "sub": "Bietspiel",
         "topic": "Bieter"
       },
+      "adresse": "/varianten/bieter/",
       "keywords": [
         "350 punkte",
         "500 punkte",
@@ -9573,6 +9746,7 @@
         "sub": "Doppelkart-Schieber",
         "topic": "Bolschewik (4 Spieler)"
       },
+      "adresse": "/varianten/bolschewik-4-spieler/",
       "keywords": [
         "bolschewik",
         "doppelkart",
@@ -9642,6 +9816,7 @@
         "sub": "Schätzspiel",
         "topic": "Differenzler zu dritt"
       },
+      "adresse": "/varianten/differenzler-zu-dritt/",
       "keywords": [
         "differenzler drei",
         "drei spieler",
@@ -9704,6 +9879,7 @@
         "sub": "Schätzspiel",
         "topic": "Differenzler (offen)"
       },
+      "adresse": "/varianten/differenzler-offen/",
       "keywords": [
         "differenzler",
         "schätzen",
@@ -9785,6 +9961,7 @@
         "sub": "Schätzspiel",
         "topic": "Differenzler (verdeckt)"
       },
+      "adresse": "/varianten/differenzler-verdeckt/",
       "keywords": [
         "differenzler",
         "verdeckt",
@@ -9848,6 +10025,7 @@
         "sub": "Einzelspiel",
         "topic": "Handjass"
       },
+      "adresse": "/varianten/handjass/",
       "keywords": [
         "handjass",
         "butzer",
@@ -9927,6 +10105,7 @@
         "sub": "Handjass",
         "topic": "Handjass-Taktiken (3 Spieler)"
       },
+      "adresse": "/varianten/handjass-taktiken-3-spieler/",
       "keywords": [
         "handjass bessern",
         "drei spieler",
@@ -9990,6 +10169,7 @@
         "sub": "Handjass",
         "topic": "Handjass-Taktiken (Blinder)"
       },
+      "adresse": "/varianten/handjass-taktiken-blinder/",
       "keywords": [
         "handjass blinder",
         "drei spieler",
@@ -10056,6 +10236,7 @@
         "sub": "Fortgeschrittener Bieter",
         "topic": "Palette"
       },
+      "adresse": "/varianten/palette/",
       "keywords": [
         "palette jass",
         "fortgeschritten",
@@ -10125,6 +10306,7 @@
         "sub": "Bietspiel",
         "topic": "Pandur"
       },
+      "adresse": "/varianten/pandur/",
       "keywords": [
         "pandur",
         "pandur jass",
@@ -10268,6 +10450,7 @@
         "sub": "Königsspiel",
         "topic": "Schafhauser (3 Spieler)"
       },
+      "adresse": "/varianten/schafhauser-3-spieler/",
       "keywords": [
         "schafhauser",
         "fischenthaler",
@@ -10337,6 +10520,7 @@
         "sub": "Schellenjass",
         "topic": "Schellenjass"
       },
+      "adresse": "/varianten/schellenjass/",
       "keywords": [
         "schellenjass",
         "kreuzjass",
@@ -10403,6 +10587,7 @@
         "sub": "Bietspiel",
         "topic": "Sidi Barrani"
       },
+      "adresse": "/varianten/sidi-barrani/",
       "keywords": [
         "157",
         "257",
@@ -10537,6 +10722,7 @@
         "sub": "Traditionelles Spiel",
         "topic": "Aucho"
       },
+      "adresse": "/varianten/aucho/",
       "keywords": [
         "aucho",
         "lukas",
@@ -10594,6 +10780,7 @@
         "sub": "Einzelspiel",
         "topic": "Mittlere"
       },
+      "adresse": "/varianten/mittlere/",
       "keywords": [
         "mittlere",
         "drei spieler",
@@ -10655,6 +10842,7 @@
         "sub": "Zweiersspiel",
         "topic": "Cinq Cents"
       },
+      "adresse": "/varianten/cinq-cents/",
       "keywords": [
         "cinq cents",
         "zwei spieler",
@@ -10732,6 +10920,7 @@
         "sub": "Handjass",
         "topic": "Handjass-Taktiken (2 Spieler)"
       },
+      "adresse": "/varianten/handjass-taktiken-2-spieler/",
       "keywords": [
         "handjass bessern zwei",
         "zwei spieler",
@@ -10795,6 +10984,7 @@
         "sub": "Bessern-Spiel",
         "topic": "Schaggi-Haas"
       },
+      "adresse": "/varianten/schaggi-haas/",
       "keywords": [
         "schaggi haas",
         "zwei spieler",
@@ -10866,6 +11056,7 @@
         "sub": "Strategiespiel",
         "topic": "Schmaus"
       },
+      "adresse": "/varianten/schmaus/",
       "keywords": [
         "schmaus",
         "zwei spieler",
@@ -10929,6 +11120,7 @@
         "sub": "Stock-Spiel",
         "topic": "Schnüffler (2 Spieler)"
       },
+      "adresse": "/varianten/schnueffler-2-spieler/",
       "keywords": [
         "schnüffler",
         "stock aufnehmen",
@@ -10990,6 +11182,7 @@
         "sub": "Spielablauf",
         "topic": "Vorspielen"
       },
+      "adresse": "/regeln/spielablauf/vorspielen/",
       "keywords": [
         "vorspielen",
         "zu früh",
@@ -11042,6 +11235,7 @@
         "sub": "Ausmachen",
         "topic": "Frühzeitiges Bedanken"
       },
+      "adresse": "/regeln/ausmachen/fruehzeitiges-bedanken/",
       "keywords": [
         "bedanken",
         "frühzeitig",
@@ -11106,6 +11300,7 @@
         "sub": "Ausmachen",
         "topic": "Ausmachregel beim Schneider"
       },
+      "adresse": "/regeln/ausmachen/ausmachregel-beim-schneider/",
       "keywords": [
         "schneider",
         "ausmachen",
@@ -11167,6 +11362,7 @@
         "sub": "Weis-Arten",
         "topic": "Kreuzweis"
       },
+      "adresse": "/weis-regeln/weis-arten/kreuzweis/",
       "keywords": [
         "kreuzweis",
         "kreuzweise",
@@ -11221,6 +11417,7 @@
         "sub": "Schreiben",
         "topic": "Schreibweise"
       },
+      "adresse": "/regeln/schreiben/schreibweise/",
       "keywords": [
         "notation",
         "schreiben",
@@ -11282,6 +11479,7 @@
         "sub": "Schreiben",
         "topic": "Korrekturregeln"
       },
+      "adresse": "/regeln/schreiben/korrekturregeln/",
       "keywords": [
         "korrektur",
         "unstimmigkeit",
@@ -11340,6 +11538,7 @@
         "sub": "Schreiben",
         "topic": "Rechte Tafelseite"
       },
+      "adresse": "/regeln/schreiben/rechte-tafelseite/",
       "keywords": [
         "zahlen",
         "rechts",
@@ -11398,6 +11597,7 @@
         "sub": "Stöck",
         "topic": "Stöck"
       },
+      "adresse": "/weis-regeln/stoeck/",
       "keywords": [
         "stöck",
         "stöcke",
@@ -11521,6 +11721,7 @@
         "sub": "Punktezählung",
         "topic": "Zählweise Striche"
       },
+      "adresse": "/regeln/punktezaehlung/zaehlweise-striche/",
       "keywords": [
         "zählweise striche",
         "striche",
@@ -11574,6 +11775,7 @@
         "sub": "Spielende",
         "topic": "Zusammenwerfen"
       },
+      "adresse": "/regeln/spielende/zusammenwerfen/",
       "keywords": [
         "zusammenwerfen",
         "karten zeigen",
@@ -11623,6 +11825,7 @@
         "sub": "Fehler & Verstösse",
         "topic": "Zwei Karten spielen"
       },
+      "adresse": "/regeln/fehler-verstoesse/zwei-karten-spielen/",
       "keywords": [
         "zwei karten",
         "stechwert",
@@ -11671,6 +11874,7 @@
         "sub": "Vermeidungsspiel",
         "topic": "Molotow"
       },
+      "adresse": "/varianten/molotow/",
       "keywords": [
         "molotow",
         "vermeidungsspiel",
@@ -11738,6 +11942,7 @@
         "sub": "Glücksspiel",
         "topic": "Chratze"
       },
+      "adresse": "/varianten/chratze/",
       "keywords": [
         "chratze",
         "pot",
@@ -11803,6 +12008,7 @@
         "sub": "Historisch",
         "topic": "Kaiserjass"
       },
+      "adresse": "/varianten/kaiserjass/",
       "keywords": [
         "kaiserjass",
         "karnöffel",
@@ -11887,6 +12093,7 @@
         "sub": "Offizielle Jassregeln",
         "topic": "Offizielle Jassregeln"
       },
+      "adresse": "/regeln/offizielle-jassregeln/",
       "difficulty": 2,
       "importance": 5,
       "keywords": [
@@ -11942,6 +12149,7 @@
         "sub": "Grundbegriffe",
         "topic": "Wand"
       },
+      "adresse": "/begriffe/grundbegriffe/wand/",
       "keywords": [
         "wand",
         "viele karten",
@@ -11979,6 +12187,7 @@
         "sub": "Spielrichtung",
         "topic": "Mitte"
       },
+      "adresse": "/ansagen/mitte/",
       "keywords": [
         "mitte",
         "tännli",
@@ -12059,6 +12268,7 @@
         "sub": "Trumpf",
         "topic": "Trumpffarbe"
       },
+      "adresse": "/ansagen/trumpffarbe/",
       "keywords": [
         "trumpf",
         "trumpffarbe",
@@ -12112,6 +12322,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Eichel"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/eichel/",
       "keywords": [
         "eichel",
         "ecke",
@@ -12161,6 +12372,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Rosen"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/rosen/",
       "keywords": [
         "rosen",
         "herz",
@@ -12210,6 +12422,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Schellen"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/schellen/",
       "keywords": [
         "schellen",
         "kreuz",
@@ -12259,6 +12472,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Schilten"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/schilten/",
       "keywords": [
         "schilten",
         "schaufel",
@@ -12307,6 +12521,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Kreuz"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/kreuz/",
       "keywords": [
         "kreuz",
         "schellen",
@@ -12355,6 +12570,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Herz"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/herz/",
       "keywords": [
         "herz",
         "rosen",
@@ -12403,6 +12619,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Ecke"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/ecke/",
       "keywords": [
         "ecke",
         "karo",
@@ -12451,6 +12668,7 @@
         "sub": "Kartenbezeichnungen",
         "topic": "Schaufel"
       },
+      "adresse": "/begriffe/kartenbezeichnungen/schaufel/",
       "keywords": [
         "schaufel",
         "pik",
@@ -12482,6 +12700,7 @@
         "sub": "Jass-Elo",
         "topic": "Jass-Elo"
       },
+      "adresse": "/grundlagen-kultur/jass-elo/",
       "keywords": [
         "jass-elo",
         "elo",
@@ -12547,6 +12766,7 @@
         "sub": "Spielablauf",
         "topic": "Bietrunde"
       },
+      "adresse": "/regeln/spielablauf/bietrunde/",
       "keywords": [
         "bietrunde",
         "bieten",
@@ -12609,6 +12829,7 @@
         "sub": "Spielaktionen",
         "topic": "Doppeln und Kontern"
       },
+      "adresse": "/begriffe/spielaktionen/doppeln-und-kontern/",
       "keywords": [
         "doppeln",
         "kontern",
@@ -12665,6 +12886,7 @@
         "sub": "Austrumpfen",
         "topic": "Austrumpfen"
       },
+      "adresse": "/taktiken-und-strategien/austrumpfen/",
       "keywords": [
         "austrumpfen",
         "trumpf ausspielen",
@@ -12735,6 +12957,7 @@
         "sub": "Jass-KI",
         "topic": "Jass-KI"
       },
+      "adresse": "/grundlagen-kultur/jass-ki/",
       "seoTitle": "Jass-KI: Wie AlphaJass und Albis 001 jassen | Jass-Wiki",
       "seoDescription": "Was eine Jass-KI ist, wie AlphaJass denkt und wo man gegen Albis 001 jasst. Das Forschungsprojekt des Jassverbands Schweiz mit der FHNW.",
       "keywords": [
@@ -12823,6 +13046,7 @@
         "sub": "Schätzspiel",
         "topic": "Differenzler"
       },
+      "adresse": "/varianten/differenzler/",
       "keywords": [
         "differenzler",
         "differenzler jass",
@@ -12881,6 +13105,7 @@
         "sub": "Jassen lernen",
         "topic": "Jassen lernen"
       },
+      "adresse": "/jassen-lernen/",
       "seoTitle": "Jassen lernen: in sechs Schritten zum ersten Spiel | Jass-Wiki",
       "seoDescription": "Jassen lernen für Anfänger: Karten, Farbe angeben, Stich, Trumpf, Punkte und der Schieber. Mit Videos vom Jass des Tages und dem Weg zum Üben gegen die Jass-KI.",
       "keywords": [
@@ -12943,6 +13168,7 @@
         "sub": "Samschtig-Jass",
         "topic": "Samschtig-Jass"
       },
+      "adresse": "/grundlagen-kultur/samschtig-jass/",
       "seoTitle": "Samschtig-Jass: Sendung, Jassart und online jassen | Jass-Wiki",
       "seoDescription": "Der Samschtig-Jass von SRF: Gespielt wird Differenzler über drei Runden. Wer mitjasst, wie die Sendung entstand und wo man Differenzler und Schieber online jasst.",
       "keywords": [

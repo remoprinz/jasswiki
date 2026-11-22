@@ -5,6 +5,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
+import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -235,10 +236,11 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
 export const getStaticPaths: GetStaticPaths = async () => {
   const content: JassContentRecord = allContent;
   const paths = (Object.values(content) as JassContentItem[])
-    .filter(item => toSlug(item.metadata.category.main) === 'varianten')
-    .map((item) => ({
+    .map((item) => adressSegmente(artikelAdresse(item)))
+    .filter((s) => s.length === 2 && s[0] === 'varianten')
+    .map((s) => ({
       params: {
-        topic: toSlug(item.metadata.category.topic),
+        topic: s[1],
       },
     }));
 
@@ -250,11 +252,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const topicSlug = params?.topic as string;
 
   const content: JassContentRecord = allContent;
-  const contentItem = (Object.values(content) as JassContentItem[]).find(
-    (item) =>
-      toSlug(item.metadata.category.main) === 'varianten' &&
-      toSlug(item.metadata.category.topic) === topicSlug
-  );
+  const contentItem = artikelAnAdresse(content, `/varianten/${topicSlug}/`);
 
   if (!contentItem) {
     return {

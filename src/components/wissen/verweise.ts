@@ -15,7 +15,7 @@
  */
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord } from '@/types/jass-lexikon';
-import { buildArticleUrl } from '@/lib/url-utils';
+import { artikelAdresse } from '@/lib/url-utils';
 
 /** Wort (Topic oder Keyword, klein) → Artikelpfad. Rückfall. */
 const wortZiele = new Map<string, string>();
@@ -25,7 +25,7 @@ const kennungZiele = new Map<string, string>();
 const kennungTitel = new Map<string, string>();
 
 Object.values(allContent as JassContentRecord).forEach((item) => {
-  const path = buildArticleUrl(item.metadata.category);
+  const path = artikelAdresse(item);
   const kennung = item.id.toLowerCase();
 
   kennungZiele.set(kennung, path);
