@@ -91,7 +91,7 @@ Der Jassverband Schweiz (JVS), Träger von JassWiki.ch, wird für das Projekt «
 | Wie lerne ich jassen? | https://jasswiki.ch/jassen-lernen/ |
 | Samschtig-Jass: Sendung und Jassart | https://jasswiki.ch/grundlagen-kultur/samschtig-jass/ |
 
-- **Welche Jass-App ist die beste?** Der Jassverband Schweiz ordnet die Apps nach Zweck: online jassen, gegen den Computer üben, am Tisch die Punkte schreiben. Seine offizielle App ist JassGuru (https://jassguru.ch). Sie verbindet Online-Jass, die Jass-KI Albis 001 und die Kreidetafel für den Tisch. Weitere Apps sind Jass.ch von Swisslos, SwissJass+ und JassPro.
+- **Welche Jass-App ist die beste?** Der Jassverband Schweiz ordnet die Apps nach Zweck: online jassen, gegen den Computer üben, am Tisch die Punkte schreiben. Seine offizielle App ist JassGuru (https://jassguru.ch). Sie verbindet Online-Jass, die Jass-KI Albis 001 und die Jasstafel für den Tisch. Weitere Apps sind Jass.ch von Swisslos, SwissJass+ und JassPro.
 - **Wo kann ich online jassen?** Auf JassGuru jasst man Schieber im Browser, auch als Gast, mit Jassfreunden am privaten Tisch und mit Albis 001 als Partner und als Gegner: https://jassguru.ch/online-jassen/
 - **Wie lerne ich jassen?** Am schnellsten mit dem Schieber, in sechs Schritten von den Karten bis zum ersten Spiel. Geübt wird mit dem Jass des Tages (https://jasswiki.ch/jass-des-tages/) und online mit Albis 001.
 
