@@ -1,0 +1,386 @@
+{
+  "einstieg": { "name": "Jassen lernen", "adresse": "/jassen-lernen/", "artikel": "jassen_lernen" },
+  "rubriken": [
+    {
+      "name": "Regeln",
+      "adresse": "/regeln/",
+      "darstellung": "kapitelkarten",
+      "eintraege": [
+        "general_most_important_rules",
+        { "id": "general_gameplay", "gehtAufIn": "general_most_important_rules" },
+        "regeln_offizielle_jassregeln",
+        "regeln_tischregel",
+        {
+          "kapitel": "Karten und Werte",
+          "adresse": "/regeln/karten-und-werte/",
+          "artikel": [
+            "expressions_kartenfarben",
+            "general_card_values",
+            { "id": "general_trump_values", "gehtAufIn": "general_card_values" },
+            "matsch",
+            { "id": "general_special_games", "gehtAufIn": "matsch" }
+          ]
+        },
+        {
+          "kapitel": "Kartenverteilung",
+          "adresse": "/regeln/kartenverteilung/",
+          "artikel": [
+            "spiel_geben",
+            { "id": "general_dealing", "gehtAufIn": "spiel_geben" },
+            { "id": "general_dealing_basics", "gehtAufIn": "spiel_geben" },
+            "mischen",
+            "abheben",
+            "general_dealing_methods",
+            "general_dealing_special",
+            "spiel_vergeben",
+            { "id": "general_dealing_errors", "gehtAufIn": "spiel_vergeben" }
+          ]
+        },
+        {
+          "kapitel": "Spielablauf",
+          "adresse": "/regeln/spielablauf/",
+          "artikel": [
+            "trumpfansage",
+            "bodentrumpf",
+            { "id": "expressions_bodentrumpf", "gehtAufIn": "bodentrumpf" },
+            "ausspiel",
+            "nichtfarben",
+            { "id": "expressions_farbenhalten", "gehtAufIn": "nichtfarben" },
+            "untertrumpfen",
+            "liegengelassene_stiche",
+            "nachschauen_gekehrter_stiche"
+          ]
+        },
+        {
+          "kapitel": "Wys und Stöck",
+          "adresse": "/weis-regeln/",
+          "artikel": ["expressions_weis", "weis_rules_stock", "weis_rules_kreuzweis"]
+        },
+        {
+          "kapitel": "Punktezählung",
+          "adresse": "/regeln/punktezaehlung/",
+          "artikel": [
+            "general_scoring_rules",
+            { "id": "letzter_stich", "gehtAufIn": "general_scoring_rules" },
+            "expressions_matsch",
+            { "id": "expressions_matschpraemie", "gehtAufIn": "expressions_matsch" },
+            "kontermatsch",
+            { "id": "expressions_kontermatsch", "gehtAufIn": "kontermatsch" },
+            "hingelegter_matsch",
+            "zaehlweise_striche",
+            "kartenpunkte_nicht_gezaehlt"
+          ]
+        },
+        {
+          "kapitel": "Schreiben",
+          "adresse": "/regeln/schreiben/",
+          "artikel": ["schreiben", "weis_rules_notation_basics", "weis_rules_notation_numbers", "weis_rules_notation_correction"]
+        },
+        {
+          "kapitel": "Ausmachen",
+          "adresse": "/regeln/ausmachen/",
+          "artikel": [
+            "ausmachregel",
+            "bedanken",
+            { "id": "weis_rules_ausmachen_early_thanking", "gehtAufIn": "bedanken" },
+            "schneider",
+            { "id": "weis_rules_ausmachen_schneider", "gehtAufIn": "schneider" },
+            "bergpreis"
+          ]
+        },
+        {
+          "kapitel": "Spielende",
+          "adresse": "/regeln/spielende/",
+          "artikel": [
+            "general_game_end",
+            { "id": "platztausch", "gehtAufIn": "general_game_end" },
+            "rest_machen",
+            "zusammenwerfen",
+            "spielverlust",
+            "spiel_annullieren"
+          ]
+        },
+        {
+          "kapitel": "Fehler und Verstösse",
+          "adresse": "/regeln/fehler-verstoesse/",
+          "artikel": [
+            "general_playing_errors",
+            { "verweis": "nichtfarben" },
+            "stechwert_verlieren",
+            "vorspielen",
+            "falscher_spieler",
+            "zwei_karten_spielen",
+            "regeln_verschlagen",
+            "karte_faellt_runter",
+            "karte_zu_frueh",
+            "fehlende_karte",
+            { "id": "kartenspiel_nicht_komplett", "gehtAufIn": "fehlende_karte" },
+            "spielverrat",
+            { "id": "bemerkungen", "gehtAufIn": "spielverrat" },
+            { "id": "bock_erwaehnen", "gehtAufIn": "spielverrat" },
+            { "id": "klopfen", "gehtAufIn": "spielverrat" },
+            { "id": "bemerkungen_schnorren", "gehtAufIn": "spielverrat" },
+            "fragen_waehrend_spiel"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ansagen",
+      "adresse": "/ansagen/",
+      "darstellung": "eigene",
+      "eintraege": [
+        "expressions_trumpffarbe",
+        { "id": "expressions_trumpf", "gehtAufIn": "expressions_trumpffarbe" },
+        "expressions_obenabe",
+        "expressions_undenufe",
+        "expressions_slalom",
+        "expressions_guschti",
+        "expressions_trio",
+        "expressions_mitte",
+        "expressions_tutti",
+        "expressions_misere"
+      ]
+    },
+    {
+      "name": "Jassarten",
+      "adresse": "/varianten/",
+      "darstellung": "liste",
+      "eintraege": [
+        {
+          "kapitel": "Schieber und Coiffeur",
+          "artikel": ["general_schieber", "variants_family_coiffeur_schieber", "variants_family_einzel_coiffeur"]
+        },
+        {
+          "kapitel": "Differenzler",
+          "artikel": [
+            "variants_strategic_differenzler",
+            "variants_strategic_differenzler_verdeckt",
+            "variants_strategic_differenzler_offen",
+            "variants_strategic_differenzler_drei",
+            "variants_specialty_stich_differenzler"
+          ]
+        },
+        {
+          "kapitel": "Bietspiele",
+          "artikel": [
+            "bietrunde",
+            "variants_strategic_bieder",
+            "variants_strategic_pandur",
+            "variants_strategic_sidi_barrani",
+            "variants_strategic_palette_jass",
+            "variants_strategic_bolschewik"
+          ]
+        },
+        {
+          "kapitel": "Handjass und Einzelspiele",
+          "artikel": [
+            "variants_strategic_handjass",
+            "variants_strategic_handjass_blinder",
+            "variants_two_player_handjass_bessern",
+            "variants_strategic_handjass_bessern_drei",
+            "variants_three_player_mittlere",
+            "variants_learning_bodentrumpf_vier",
+            "variants_family_gluecksjass",
+            "variants_specialty_zuger_drei"
+          ]
+        },
+        {
+          "kapitel": "Zu zweit",
+          "artikel": [
+            "variants_two_player_schmaus",
+            "variants_two_player_schaggi_haas",
+            "variants_two_player_cinq_cents",
+            "variants_two_player_schnueffler"
+          ]
+        },
+        {
+          "kapitel": "Aucho und Königsspiele",
+          "artikel": [
+            "variants_strategic_aucho_vier",
+            { "id": "variants_three_player_aucho", "gehtAufIn": "variants_strategic_aucho_vier" },
+            "variants_strategic_aucho_drei",
+            "variants_strategic_aucho_zwei",
+            "variants_strategic_schafhauser"
+          ]
+        },
+        {
+          "kapitel": "Vermeidungsspiele",
+          "artikel": [
+            "variants_family_guggitaler",
+            "variants_molotow",
+            { "id": "expressions_tisch_weis", "gehtAufIn": "variants_molotow" },
+            "variants_specialty_hindersi_vier",
+            { "id": "variants_specialty_hindersi", "gehtAufIn": "variants_specialty_hindersi_vier" },
+            "variants_specialty_hindersi_drei",
+            "variants_specialty_schaufel_dame",
+            "variants_strategic_schellenjass"
+          ]
+        },
+        {
+          "kapitel": "Weitere Spiele mit Jasskarten",
+          "artikel": [
+            "variants_traditional_kaiserjass",
+            "variants_multi_player_zwick_jass",
+            "variants_family_hose_abe",
+            "variants_multi_player_rumba",
+            "variants_multi_player_arschloechle",
+            "variants_learning_tschau_sepp",
+            "variants_chratze",
+            "variants_multi_player_ramset"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taktik",
+      "adresse": "/taktiken-und-strategien/",
+      "darstellung": "eigene",
+      "eintraege": [
+        {
+          "kapitel": "Austrumpfen",
+          "adresse": "/taktiken-und-strategien/austrumpfen/",
+          "artikel": ["schieber_taktiken_austrumpfen", "schieber_taktiken_hoch_tief", "schieber_taktiken_nell_vor_puur"]
+        },
+        {
+          "kapitel": "Kommunikation und Signale",
+          "adresse": "/taktiken-und-strategien/kommunikation-signale/",
+          "artikel": [
+            "schieber_taktiken_advanced",
+            "schieber_taktiken_verwerfen",
+            "schieber_taktiken_anziehen",
+            "schieber_taktiken_querverwerfen",
+            "schieber_taktiken_verwerfen_slalom",
+            "schieber_taktiken_verwerfen_quer",
+            "expressions_nachschmeissen"
+          ]
+        },
+        "schieber_taktiken_scoring"
+      ]
+    },
+    {
+      "name": "Begriffe",
+      "adresse": "/begriffe/",
+      "darstellung": "alphabet",
+      "eintraege": [
+        { "id": "expressions_basic_terms", "gehtAufIn": "/begriffe/" },
+        "expressions_ablupf",
+        "expressions_am_druecker",
+        "expressions_banner",
+        "expressions_bauernpartei",
+        "expressions_belli",
+        "expressions_bessern",
+        "expressions_blatt",
+        "expressions_blinder",
+        "expressions_bock",
+        { "id": "expressions_bockkarte", "gehtAufIn": "expressions_bock" },
+        "expressions_braettli",
+        "expressions_doppeln_kontern",
+        "color_ecke",
+        "color_eichel",
+        "expressions_erben",
+        "expressions_fort",
+        "expressions_haerdoepfel",
+        "expressions_handkarten",
+        "color_herz",
+        "expressions_hindersi",
+        "expressions_joker",
+        { "id": "expressions_knecht", "gehtAufIn": "expressions_joker" },
+        "expressions_kehr",
+        "expressions_klemmen",
+        "expressions_koenigspartei",
+        "color_kreuz",
+        "expressions_leih_halten",
+        "expressions_lukas",
+        "expressions_minuspunkte",
+        "expressions_nell",
+        "expressions_nuller",
+        "expressions_offene_ansage",
+        "expressions_partie",
+        "expressions_passe",
+        "expressions_rampo",
+        "expressions_rauben",
+        "expressions_rest",
+        "color_rosen",
+        "expressions_sack",
+        "color_schaufel",
+        "color_schellen",
+        "expressions_schieben",
+        "color_schilten",
+        "expressions_schlecken",
+        "expressions_schmieren",
+        "expressions_schnorren",
+        "expressions_solokarte",
+        "expressions_stapel",
+        "expressions_stechkarten",
+        "expressions_stich",
+        "expressions_streichpasse",
+        "expressions_striche",
+        "expressions_team",
+        "expressions_trumpf_bauer",
+        { "id": "trumpf_bauer", "gehtAufIn": "expressions_trumpf_bauer" },
+        "expressions_trumpf_bauer_kombinationen",
+        "expressions_unterzug",
+        "expressions_verdeckte_ansage",
+        "expressions_vogel",
+        "expressions_vorhand",
+        "expressions_wand",
+        { "verweis": "schneider" },
+        { "verweis": "bergpreis" },
+        { "verweis": "expressions_weis" },
+        { "verweis": "weis_rules_stock" },
+        { "verweis": "expressions_obenabe" },
+        { "verweis": "expressions_matsch" }
+      ]
+    },
+    {
+      "name": "Geschichte und Kultur",
+      "adresse": "/geschichte/",
+      "darstellung": "liste",
+      "eintraege": [
+        {
+          "kapitel": "Chronik",
+          "artikel": [
+            "history_medieval",
+            "history_origin",
+            "history_first_mention",
+            "history_industrialization",
+            "history_swiss_production",
+            "history_ramstein_reglement"
+          ]
+        },
+        {
+          "kapitel": "Sprache",
+          "artikel": ["history_etymology", "history_etymology_matsch", "history_linguistics"]
+        },
+        {
+          "kapitel": "Kultur",
+          "artikel": [
+            "history_social_significance",
+            { "id": "general_culture", "gehtAufIn": "history_social_significance" },
+            "history_unesco",
+            "history_unesco_convention",
+            "general_geography_regions",
+            { "id": "general_geography", "gehtAufIn": "general_geography_regions" },
+            "general_european_context",
+            "samschtig_jass"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jassen digital",
+      "adresse": "/jassapps/",
+      "darstellung": "apps",
+      "eintraege": [
+        "jassapps_jassguru",
+        "jassapps_jassch",
+        "jassapps_swissjass",
+        "jassapps_jasspro",
+        "jassapps_jasstafel",
+        "jass_ki",
+        "jass_elo_meta"
+      ]
+    }
+  ]
+}
