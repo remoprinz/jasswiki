@@ -17,8 +17,8 @@ const SITE_URL = 'https://jasswiki.ch';
 const FAQS = [
   // 1. Was ist es?
   {
-    question: 'Was ist Jass?',
-    answer: 'Jass ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten. Jassen heisst, dieses Spiel zu spielen.',
+    question: 'Was ist Jassen?',
+    answer: 'Jassen ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten.',
   },
   // 1b. Grundablauf — wie wird gespielt?
   {
@@ -103,13 +103,13 @@ const JassenPage: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Jass und Jassen: das Schweizer Nationalkartenspiel | Jass-Wiki"
-        description="Jass ist das beliebteste Kartenspiel der Schweiz. Wie man jasst: Regeln, Varianten, Karten, Geschichte und Kultur im Überblick."
+        title="Jassen: Das Schweizer Nationalkartenspiel | Jass-Wiki"
+        description="Jassen ist das beliebteste Kartenspiel der Schweiz. Regeln, Varianten, Karten, Geschichte und Kultur im Überblick."
         canonicalUrl={canonicalUrl}
       />
       <GameSchema
         name="Jassen"
-        description="Jass ist das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten. Vom Schieber über Coiffeur bis Differenzler."
+        description="Das beliebteste Kartenspiel der Schweiz, gespielt mit 36 Karten in über 40 Varianten. Vom Schieber über Coiffeur bis Differenzler."
         url={canonicalUrl}
         wikidataId="Q786768"
         numberOfPlayers={{ min: 2, max: 6 }}
@@ -122,8 +122,8 @@ const JassenPage: NextPage = () => {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Article',
-              headline: 'Jass und Jassen: das Schweizer Nationalkartenspiel',
-              description: 'Jass ist das beliebteste Kartenspiel der Schweiz. Wie man jasst: Regeln, Varianten, Karten, Geschichte und Kultur im Überblick.',
+              headline: 'Jassen: Das Schweizer Nationalkartenspiel',
+              description: 'Jassen ist das beliebteste Kartenspiel der Schweiz. Regeln, Varianten, Karten, Geschichte und Kultur im Überblick.',
               author: {
                 '@type': 'Organization',
                 name: 'JassWiki',
@@ -154,10 +154,10 @@ const JassenPage: NextPage = () => {
           {/* H1 + Einleitung */}
           <header>
             <h1 className="font-capita text-[32px] sm:text-[42px] font-bold text-[#ff0000] mb-[12px] leading-[1.1]">
-              Jass und Jassen
+              Jassen
             </h1>
             <p className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7]">
-              Jass heisst das Kartenspiel, jassen heisst, es zu spielen. Der Jass ist das beliebteste Kartenspiel der Schweiz. In Stuben, Beizen und auf digitalen Plattformen wird seit über 200 Jahren gejasst: allein gegen den Computer, zu zweit, zu dritt oder im Team. Vom einfachen{' '}
+              Jassen ist das beliebteste Kartenspiel der Schweiz. In Stuben, Beizen und auf digitalen Plattformen wird seit über 200 Jahren gejasst: allein gegen den Computer, zu zweit, zu dritt oder im Team. Vom einfachen{' '}
               <Link href="/varianten/tschau-sepp/" className="text-[#ff0000] hover:underline">Tschau Sepp</Link>{' '}
               bis zum taktisch anspruchsvollen{' '}
               <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
