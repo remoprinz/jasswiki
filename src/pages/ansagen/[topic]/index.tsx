@@ -16,6 +16,7 @@ import { RelatedTopics } from '@/components/wissen/RelatedTopics';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
+import { UebenBlock } from '@/components/wissen/UebenBlock';
 
 interface AnsagenPageProps {
   contentItem: JassContentItem;
@@ -178,6 +179,8 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
               </div>
             )}
           </article>
+
+          <UebenBlock articleId={contentItem.id} />
 
           <JassenKarte schluessel={contentItem.id} kategorie="ansagen" ort="artikel" />
 

@@ -44,14 +44,32 @@ export function isFlatStructure(mainSlug: string, subSlug: string, topicSlug: st
 }
 
 /**
+ * Feste Pfade (Karte SCHIRI «wiki-vorlagen», Teil B, 22.11.2026): Artikel, die
+ * eine eigene Seite tragen statt der allgemeinen Route. Schlüssel
+ * «Rubrik / Thema» (category.main / category.topic). Wer hier eine Zeile
+ * ergänzt, ergänzt sie wortgleich in url-utils.mjs.
+ */
+export const FESTE_PFADE: Record<string, string> = {
+  'Schieber / Der Schieber': '/schieber/',
+  'Grundlagen & Kultur / Jassen lernen': '/jassen-lernen/',
+};
+
+/** Fester Pfad eines Artikels, sonst null. */
+export function festerPfad(category: ArticleCategory): string | null {
+  return FESTE_PFADE[`${category.main} / ${category.topic}`] ?? null;
+}
+
+/**
  * Generiert die kanonische URL für einen Artikel.
- * 
+ *
  * WICHTIG: Diese Funktion ist die EINZIGE Stelle, an der URLs generiert werden sollten.
- * 
+ *
  * @param category - Kategorie-Objekt mit main, sub, topic
  * @returns Relative URL (z.B. "/regeln/kartenverteilung/abheben-der-karten/")
  */
 export function buildArticleUrl(category: ArticleCategory): string {
+  const fest = festerPfad(category);
+  if (fest) return fest;
   const mainSlug = toSlug(category.main);
   const subSlug = toSlug(category.sub);
   const topicSlug = toSlug(category.topic);

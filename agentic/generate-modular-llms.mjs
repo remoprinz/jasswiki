@@ -41,6 +41,7 @@ const CATEGORY_MODULES = {
 // Essentials: Die wichtigsten Regeln für Quick Start
 const ESSENTIAL_IDS = [
   'general_schieber',           // Schieber-Hauptseite
+  'jassen_lernen',              // Jassen lernen in sechs Schritten (/jassen-lernen/)
   'general_introduction',       // Einführung ins Jassen
   'general_most_important_rules', // Die wichtigsten Regeln
   'general_card_basics',        // Kartengrundlagen

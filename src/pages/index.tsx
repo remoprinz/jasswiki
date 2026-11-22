@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
+import { startChips } from '@/components/wissen/rubriken';
 import { FaBalanceScale, FaBook, FaHandPointRight, FaBullhorn, FaChessKnight } from 'react-icons/fa';
 import { GiPokerHand } from 'react-icons/gi';
 import { CgSwiss } from 'react-icons/cg';
@@ -27,6 +28,19 @@ const ICON_COLORS: Record<string, string> = {
     jassapps: 'bg-[#06b6d4]',
     referenzen: 'bg-[#6b7280]',
 };
+
+const CHIP =
+    'bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors';
+
+// Die bisherige Chip-Reihe ohne «Schieber lernen» (/schieber/grundlagen/),
+// den der Chip «Schieber» aus rubriken.json ersetzt.
+const WEITERE_CHIPS: { wort: string; pfad: string }[] = [
+    { wort: 'Jass des Tages', pfad: '/jass-des-tages/' },
+    { wort: 'Weis-Regeln', pfad: '/weis-regeln/' },
+    { wort: 'Jass-ABC', pfad: '/begriffe/' },
+    { wort: 'Etymologie «Matsch»', pfad: '/geschichte/wortherkunft/etymologie-des-begriffs-matsch/' },
+    { wort: 'Referenzen', pfad: '/referenzen/' },
+];
 
 const WissenHomePage = () => {
     const breadcrumbItems = [{ name: 'Jass-Wiki', href: '/' }];
@@ -153,6 +167,23 @@ const WissenHomePage = () => {
                 </p>
             </div>
 
+            {/* Tags/Pills (Karte SCHIRI «wiki-vorlagen», Teil E): vorn die Chips aus
+                rubriken.json (verweise.start_chips), am Handy im ersten Bildschirm. */}
+            <div className="not-prose mb-[24px] sm:mb-[32px]" data-start-chips>
+                <h2 className="font-capita text-[17px] sm:text-[20px] font-bold !text-black leading-[1.4] mb-[12px] sm:mb-[16px]">
+                    Beliebt bei Jassern
+                </h2>
+                <div className="flex flex-wrap gap-[10px]">
+                    {[...startChips(), ...WEITERE_CHIPS]
+                        .filter((c, i, alle) => alle.findIndex((d) => d.pfad === c.pfad) === i)
+                        .map((c) => (
+                            <Link key={c.pfad} href={c.pfad} className={CHIP}>
+                                {c.wort}
+                            </Link>
+                        ))}
+                </div>
+            </div>
+
             <hr className="border-[#f0eee7] mb-[24px]" />
 
             {/* Kategorien — Single Column mit Icons */}
@@ -227,34 +258,6 @@ const WissenHomePage = () => {
                 </Link>
             </div>
 
-            <hr className="border-[#f0eee7] mb-[20px] sm:mb-[24px]" />
-
-            {/* Tags/Pills */}
-            <div className="not-prose mb-[24px] sm:mb-[32px]">
-                <h3 className="font-capita text-[17px] sm:text-[20px] font-bold !text-black leading-[1.4] mb-[12px] sm:mb-[16px]">
-                    Beliebt bei Jassern
-                </h3>
-                <div className="flex flex-wrap gap-[10px]">
-                    <Link href="/schieber/grundlagen/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Schieber lernen
-                    </Link>
-                    <Link href="/jass-des-tages/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Jass des Tages
-                    </Link>
-                    <Link href="/weis-regeln/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Weis-Regeln
-                    </Link>
-                    <Link href="/begriffe/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Jass-ABC
-                    </Link>
-                    <Link href="/geschichte/wortherkunft/etymologie-des-begriffs-matsch/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Etymologie «Matsch»
-                    </Link>
-                    <Link href="/referenzen/" className="bg-[#f0eee7] border border-[#e8e6df] rounded-[24px] px-[12px] py-[7px] text-[13px] sm:text-[13px] font-inter font-bold text-[#ff0000] hover:bg-[#e8e6df] transition-colors">
-                        Referenzen
-                    </Link>
-                </div>
-            </div>
         </LexikonLayout>
         </>
     );

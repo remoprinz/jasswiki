@@ -1,3 +1,14 @@
+export interface JassApp {
+  name?: string;
+  anbieter?: string;
+  plattformen?: string[];
+  zweck?: string;
+  url?: string;
+  sameAs?: string[];
+  /** true: der Artikel beschreibt mehrere Apps. Karte ja, SoftwareApplication nein. */
+  liste?: boolean;
+}
+
 export interface JassContentMetadata {
   id: string;
   category: {
@@ -30,6 +41,11 @@ export interface JassContentMetadata {
    * bleibt der Text wie geschrieben.
    */
   farbwechsel?: boolean;
+  /**
+   * Steckbrief einer Jass-App (Redaktion SCHIRI). Trägt die Karte auf /jassapps/
+   * und das SoftwareApplication-Schema der App-Seite. Fehlt es, entfällt beides.
+   */
+  app?: JassApp;
   source?: string;
   chunkInfo?: {
     isPartOfSequence: boolean;

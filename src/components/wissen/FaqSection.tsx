@@ -16,7 +16,7 @@ interface FaqItem {
  * (siehe Begriff "kennung") wird ein Link auf den Artikel der Kennung.
  * Farben wie im Artikel (.content-formatting a): #274823, im Überfahren #2bb752.
  */
-const FaqAntwort: React.FC<{ text: string }> = ({ text }) => (
+export const FaqAntwort: React.FC<{ text: string }> = ({ text }) => (
   <ReactMarkdown
     remarkPlugins={[remarkGfm]}
     components={{

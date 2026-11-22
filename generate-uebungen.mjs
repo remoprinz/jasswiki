@@ -17,6 +17,12 @@
  * Archiv: Antwortet https://jassguru.ch/jass-des-tages/archiv/ mit 200, zeigt
  * der Block dorthin, sonst auf die Tagesseite.
  *
+ * Video (KELLE 22.11.2026, Karte SCHIRI «wiki-vorlagen», Teil A): je Artikel
+ * das neueste Blatt der Auswahl, dessen Tagesseite auf jassguru.ch im JSON-LD
+ * ein VideoObject mit contentUrl trägt. Höchstens VIDEO_VERSUCHE Tagesseiten
+ * je Artikel, jede Seite einmal je Lauf. Fehlt das Video oder schlägt der
+ * Abruf fehl: video = null, der Bau läuft weiter.
+ *
  * Ohne Netz (Fehler beim Abruf) bleibt die bestehende Datei stehen; der Build
  * läuft weiter. Aufruf: node generate-uebungen.mjs
  */
@@ -32,9 +38,13 @@ const FIRESTORE =
 const TAGESSEITE = 'https://jassguru.ch/jass-des-tages/';
 const ARCHIV = 'https://jassguru.ch/jass-des-tages/archiv/';
 const PRO_ARTIKEL = 3;
+const VIDEO_VERSUCHE = 5;
 
-// Artikel-ID -> Auswahl der Blätter
+// Artikel-ID -> Auswahl der Blätter. `rubrik` ist ein Wort oder eine Liste.
 const ZUORDNUNG = {
+  schieber_taktiken_advanced: { thema: 'Signalisieren', rubrik: ['Signalisieren', 'Info erhalten'] },
+  schieber_taktiken_hoch_tief: { thema: 'Austrumpfen', rubrik: 'Austrumpfen' },
+  expressions_trumpffarbe: { thema: 'Ansagen', rubrik: 'Ansagen' },
   expressions_stechkarten: { thema: 'Stechen', rubrik: 'Stechen' },
   expressions_bock: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
   expressions_bockkarte: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
@@ -85,6 +95,90 @@ async function archivLebt() {
   }
 }
 
+/** Sucht in einem JSON-LD-Baum (auch @graph, verschachtelt) das erste VideoObject. */
+function findeVideo(knoten) {
+  if (!knoten || typeof knoten !== 'object') return null;
+  if (Array.isArray(knoten)) {
+    for (const k of knoten) {
+      const v = findeVideo(k);
+      if (v) return v;
+    }
+    return null;
+  }
+  const typ = knoten['@type'];
+  if ((typ === 'VideoObject' || (Array.isArray(typ) && typ.includes('VideoObject'))) && knoten.contentUrl) {
+    return knoten;
+  }
+  for (const wert of Object.values(knoten)) {
+    const v = findeVideo(wert);
+    if (v) return v;
+  }
+  return null;
+}
+
+const videoCache = new Map();
+
+/** true, wenn der Film auf eine Anfrage nach dem ersten Byte mit 200 oder 206 antwortet. */
+async function filmLebt(url) {
+  try {
+    const a = await fetch(url, { headers: { Range: 'bytes=0-0' }, signal: AbortSignal.timeout(10000) });
+    await a.body?.cancel();
+    return a.status === 200 || a.status === 206;
+  } catch {
+    return false;
+  }
+}
+
+/** Das VideoObject der Tagesseite als Video-Daten des Bausteins JdtVideo, sonst null. */
+async function videoDerTagesseite(blatt) {
+  if (videoCache.has(blatt.datum)) return videoCache.get(blatt.datum);
+  let ergebnis = null;
+  try {
+    const antwort = await fetch(`${TAGESSEITE}${blatt.datum}/`, { signal: AbortSignal.timeout(10000) });
+    if (antwort.ok) {
+      const html = await antwort.text();
+      const bloecke = html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g);
+      for (const [, roh] of bloecke) {
+        let daten;
+        try {
+          daten = JSON.parse(roh);
+        } catch {
+          continue;
+        }
+        const v = findeVideo(daten);
+        if (v) {
+          const einzeln = (x) => (Array.isArray(x) ? x[0] : x) ?? null;
+          ergebnis = {
+            datum: blatt.datum,
+            aufgabe: blatt.titel,
+            mp4: einzeln(v.contentUrl),
+            poster: einzeln(v.thumbnailUrl),
+            dauer: v.duration ?? null,
+            youtube: einzeln(v.embedUrl),
+          };
+          break;
+        }
+      }
+    }
+  } catch {
+    ergebnis = null;
+  }
+  // Der Film muss noch antworten: Der Speicher löscht ältere Sendungen
+  // (A1, FALLE 22.11.2026). Ein totes Video zählt wie keines, der Erzeuger
+  // nimmt dann das nächstältere Blatt.
+  if (ergebnis?.mp4 && !(await filmLebt(ergebnis.mp4))) ergebnis = null;
+  videoCache.set(blatt.datum, ergebnis);
+  return ergebnis;
+}
+
+async function neuestesVideo(passend) {
+  for (const blatt of passend.slice(0, VIDEO_VERSUCHE)) {
+    const video = await videoDerTagesseite(blatt);
+    if (video?.mp4) return video;
+  }
+  return null;
+}
+
 async function main() {
   let blaetter;
   try {
@@ -100,13 +194,15 @@ async function main() {
 
   const artikel = {};
   for (const [id, regel] of Object.entries(ZUORDNUNG)) {
+    const rubriken = regel.rubrik ? [regel.rubrik].flat() : null;
     const passend = sichtbar.filter((b) =>
-      regel.rubrik ? b.rubrik === regel.rubrik : b.titel.includes(regel.titelWort),
+      rubriken ? rubriken.includes(b.rubrik) : b.titel.includes(regel.titelWort),
     );
     if (passend.length === 0) continue;
     artikel[id] = {
       thema: regel.thema,
       anzahl: passend.length,
+      video: await neuestesVideo(passend),
       blaetter: passend.slice(0, PRO_ARTIKEL).map((b) => ({
         datum: b.datum,
         titel: b.titel,
@@ -121,7 +217,8 @@ async function main() {
     artikel,
   };
   await fs.writeFile(ZIEL, JSON.stringify(ergebnis, null, 2) + '\n');
-  console.log(`✅ Üben-Verweise: ${Object.keys(artikel).length} Artikel, Stand ${ergebnis.stand}, Sammlung ${ergebnis.alleAufgaben}`);
+  const mitVideo = Object.values(artikel).filter((a) => a.video).length;
+  console.log(`✅ Üben-Verweise: ${Object.keys(artikel).length} Artikel (${mitVideo} mit Video), Stand ${ergebnis.stand}, Sammlung ${ergebnis.alleAufgaben}`);
 }
 
 main();

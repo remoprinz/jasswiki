@@ -7,6 +7,10 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
 import { FARBEN_ZUORDNUNG } from '@/config/farbenZuordnung';
+import { InternalLinker } from '@/components/layout/InternalLinker';
+import { jassenSeiteAbsatz } from '@/components/wissen/rubriken';
+
+const jassenAbsatz = jassenSeiteAbsatz();
 
 const SITE_URL = 'https://jasswiki.ch';
 
@@ -165,6 +169,12 @@ const JassenPage: NextPage = () => {
               <Link href="/grundlagen-kultur/jassen-als-kulturgut/" className="text-[#ff0000] hover:underline">lebendige Tradition</Link>{' '}
               im nationalen Inventar.
             </p>
+            {/* Wege zu Lernen, Jass-KI und Jass-Apps (rubriken.json, verweise.jassen_seite) */}
+            {jassenAbsatz && (
+              <div className="mt-[12px] content-formatting text-black" data-jassen-wege>
+                <InternalLinker text={jassenAbsatz} />
+              </div>
+            )}
           </header>
 
           {/* Der Schieber */}

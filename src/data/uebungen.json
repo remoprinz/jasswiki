@@ -1,11 +1,106 @@
 {
-  "stand": "2026-11-17",
+  "stand": "2026-11-22",
   "alleAufgaben": "https://jassguru.ch/jass-des-tages/archiv/",
   "artikel": {
+    "schieber_taktiken_advanced": {
+      "thema": "Signalisieren",
+      "anzahl": 4,
+      "video": {
+        "datum": "2026-11-11",
+        "aufgabe": "Trumpfe aus wie ein Jassprofi und erziele den Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-11_1.mp4?alt=media&token=5c27651b-e89f-4e6c-972c-a75bf3a07e31",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-11_1.jpg?alt=media&token=069edaf5-e6b5-4e88-b529-73bebca34a31",
+        "dauer": "PT81S",
+        "youtube": null
+      },
+      "blaetter": [
+        {
+          "datum": "2026-11-11",
+          "titel": "Trumpfe aus wie ein Jassprofi und erziele den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-11/"
+        },
+        {
+          "datum": "2026-10-12",
+          "titel": "Erziele einen lockeren Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-12/"
+        },
+        {
+          "datum": "2026-10-10",
+          "titel": "Erziele den Matsch wie ein Jassprofi.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-10-10/"
+        }
+      ]
+    },
+    "schieber_taktiken_hoch_tief": {
+      "thema": "Austrumpfen",
+      "anzahl": 9,
+      "video": {
+        "datum": "2026-11-14",
+        "aufgabe": "Mache den Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-14_1.mp4?alt=media&token=c9e926a2-f2bf-40ba-8c18-5d0a9534f5a5",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-14_1.jpg?alt=media&token=5470b3b7-c076-4c06-9f51-c33b11b300e6",
+        "dauer": "PT59S",
+        "youtube": null
+      },
+      "blaetter": [
+        {
+          "datum": "2026-11-14",
+          "titel": "Mache den Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-14/"
+        },
+        {
+          "datum": "2026-11-07",
+          "titel": "Wie eröffne ich dieses Blatt?",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-07/"
+        },
+        {
+          "datum": "2026-11-06",
+          "titel": "Mache mindestens 125 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-06/"
+        }
+      ]
+    },
+    "expressions_trumpffarbe": {
+      "thema": "Ansagen",
+      "anzahl": 2,
+      "video": {
+        "datum": "2026-11-10",
+        "aufgabe": "Wähle den Trumpf - Violent oder nicht?",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-10_1.mp4?alt=media&token=866223b1-02e2-49cb-9f88-105cfa2c9e5e",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-10_1.jpg?alt=media&token=1b44896a-3552-4574-b4e0-ac8cbfd5b4b7",
+        "dauer": "PT57S",
+        "youtube": null
+      },
+      "blaetter": [
+        {
+          "datum": "2026-11-10",
+          "titel": "Wähle den Trumpf - Violent oder nicht?",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-10/"
+        },
+        {
+          "datum": "2026-11-08",
+          "titel": "Was man beim Coiffeurschieber aus der Not vielleicht mal ansagen muss: Puur z dritt",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-08/"
+        }
+      ]
+    },
     "expressions_stechkarten": {
       "thema": "Stechen",
-      "anzahl": 6,
+      "anzahl": 7,
+      "video": {
+        "datum": "2026-11-20",
+        "aufgabe": "Erziele den Matsch mit «Grenzbesetzungs Karten» von 1915.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-20_1.mp4?alt=media&token=e46815bd-0d55-4e5f-90fa-bce2a1f7b066",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-20_1.jpg?alt=media&token=ba3e8412-2fd1-476f-b8de-93ecfcb2568c",
+        "dauer": "PT60S",
+        "youtube": null
+      },
       "blaetter": [
+        {
+          "datum": "2026-11-20",
+          "titel": "Erziele den Matsch mit «Grenzbesetzungs Karten» von 1915.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-20/"
+        },
         {
           "datum": "2026-11-17",
           "titel": "Erziele mindestens 40 Punkte.",
@@ -15,18 +110,26 @@
           "datum": "2026-11-04",
           "titel": "Erziele den Matsch wie im Wirtshaus vor 200 Jahren.",
           "url": "https://jassguru.ch/jass-des-tages/2026-11-04/"
-        },
-        {
-          "datum": "2026-10-06",
-          "titel": "Der dritte Matsch in Folge.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-06/"
         }
       ]
     },
     "expressions_bock": {
       "thema": "Bock aufbauen",
-      "anzahl": 15,
+      "anzahl": 16,
+      "video": {
+        "datum": "2026-11-18",
+        "aufgabe": "Mache einen Matsch mit Rosen.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-18_1.mp4?alt=media&token=bc81f286-1846-4143-86cf-378313aeffe2",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-18_1.jpg?alt=media&token=2c50899c-c4ce-4e54-8ab5-5a7410a91765",
+        "dauer": "PT59S",
+        "youtube": null
+      },
       "blaetter": [
+        {
+          "datum": "2026-11-18",
+          "titel": "Mache einen Matsch mit Rosen.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-18/"
+        },
         {
           "datum": "2026-11-05",
           "titel": "Erziele das Break mit 79 Punkten.",
@@ -36,18 +139,26 @@
           "datum": "2026-11-03",
           "titel": "Verhinder den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
-        },
-        {
-          "datum": "2026-10-28",
-          "titel": "Wähle bei diesem schwierigen Schieberchart Trumpf, alle Varianten zählen einfach.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-28/"
         }
       ]
     },
     "expressions_bockkarte": {
       "thema": "Bock aufbauen",
-      "anzahl": 15,
+      "anzahl": 16,
+      "video": {
+        "datum": "2026-11-18",
+        "aufgabe": "Mache einen Matsch mit Rosen.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-18_1.mp4?alt=media&token=bc81f286-1846-4143-86cf-378313aeffe2",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-18_1.jpg?alt=media&token=2c50899c-c4ce-4e54-8ab5-5a7410a91765",
+        "dauer": "PT59S",
+        "youtube": null
+      },
       "blaetter": [
+        {
+          "datum": "2026-11-18",
+          "titel": "Mache einen Matsch mit Rosen.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-18/"
+        },
         {
           "datum": "2026-11-05",
           "titel": "Erziele das Break mit 79 Punkten.",
@@ -57,38 +168,49 @@
           "datum": "2026-11-03",
           "titel": "Verhinder den Matsch.",
           "url": "https://jassguru.ch/jass-des-tages/2026-11-03/"
-        },
-        {
-          "datum": "2026-10-28",
-          "titel": "Wähle bei diesem schwierigen Schieberchart Trumpf, alle Varianten zählen einfach.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-28/"
         }
       ]
     },
     "schieber_taktiken_verwerfen": {
       "thema": "Verwerfen",
-      "anzahl": 12,
+      "anzahl": 15,
+      "video": {
+        "datum": "2026-11-21",
+        "aufgabe": "Erziele den Obenabe-Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.mp4?alt=media&token=8eebc287-38b4-4b1d-8865-1216d8c7c50c",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.jpg?alt=media&token=0c8cd45a-4ccc-4183-8ab1-d6a53b93d3d7",
+        "dauer": "PT60S",
+        "youtube": null
+      },
       "blaetter": [
         {
-          "datum": "2026-11-12",
-          "titel": "Heute ein easy Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-12/"
+          "datum": "2026-11-22",
+          "titel": "Mache einen lockeren Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-22/"
         },
         {
-          "datum": "2026-10-30",
-          "titel": "Konsequent verwerfen und Matsch machen.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-30/"
+          "datum": "2026-11-21",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-21/"
         },
         {
-          "datum": "2026-10-23",
-          "titel": "Verhindere den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-23/"
+          "datum": "2026-11-19",
+          "titel": "Erziele ein spektakuläres Brake mit 120 Punkten.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-19/"
         }
       ]
     },
     "schieber_taktiken_anziehen": {
       "thema": "Anziehen",
       "anzahl": 16,
+      "video": {
+        "datum": "2026-11-16",
+        "aufgabe": "Erziele diesen Matsch wie ein Jassprofi.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-16_1.mp4?alt=media&token=d31b9719-7c21-487c-9ec1-352c36ad4aa0",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-16_1.jpg?alt=media&token=8e6b303b-4730-4e5e-9ea1-65c514d0a3e5",
+        "dauer": "PT53S",
+        "youtube": null
+      },
       "blaetter": [
         {
           "datum": "2026-11-16",
@@ -110,6 +232,14 @@
     "expressions_schmieren": {
       "thema": "Schmieren",
       "anzahl": 7,
+      "video": {
+        "datum": "2026-10-29",
+        "aufgabe": "Jasse einen sauberen Schellen-Trumpf",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-29_1.mp4?alt=media&token=e8b3b543-d869-4a9a-a129-f566dab349c6",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-29_1.jpg?alt=media&token=ec157ee4-3477-4a27-91d1-e23e1bdcace8",
+        "dauer": "PT55S",
+        "youtube": null
+      },
       "blaetter": [
         {
           "datum": "2026-10-29",
@@ -131,6 +261,7 @@
     "expressions_klemmen": {
       "thema": "Klemmen",
       "anzahl": 6,
+      "video": null,
       "blaetter": [
         {
           "datum": "2026-10-08",
@@ -152,6 +283,7 @@
     "expressions_nachschmeissen": {
       "thema": "Nachschmeissen",
       "anzahl": 3,
+      "video": null,
       "blaetter": [
         {
           "datum": "2026-09-27",
@@ -173,6 +305,14 @@
     "schieber_taktiken_austrumpfen": {
       "thema": "Austrumpfen",
       "anzahl": 9,
+      "video": {
+        "datum": "2026-11-14",
+        "aufgabe": "Mache den Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-14_1.mp4?alt=media&token=c9e926a2-f2bf-40ba-8c18-5d0a9534f5a5",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-14_1.jpg?alt=media&token=5470b3b7-c076-4c06-9f51-c33b11b300e6",
+        "dauer": "PT59S",
+        "youtube": null
+      },
       "blaetter": [
         {
           "datum": "2026-11-14",
@@ -193,43 +333,59 @@
     },
     "expressions_matsch": {
       "thema": "Matsch",
-      "anzahl": 46,
+      "anzahl": 50,
+      "video": {
+        "datum": "2026-11-21",
+        "aufgabe": "Erziele den Obenabe-Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.mp4?alt=media&token=8eebc287-38b4-4b1d-8865-1216d8c7c50c",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.jpg?alt=media&token=0c8cd45a-4ccc-4183-8ab1-d6a53b93d3d7",
+        "dauer": "PT60S",
+        "youtube": null
+      },
       "blaetter": [
         {
-          "datum": "2026-11-16",
-          "titel": "Erziele diesen Matsch wie ein Jassprofi.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-16/"
+          "datum": "2026-11-22",
+          "titel": "Mache einen lockeren Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-22/"
         },
         {
-          "datum": "2026-11-14",
-          "titel": "Mache den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-14/"
+          "datum": "2026-11-21",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-21/"
         },
         {
-          "datum": "2026-11-12",
-          "titel": "Heute ein easy Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-12/"
+          "datum": "2026-11-20",
+          "titel": "Erziele den Matsch mit «Grenzbesetzungs Karten» von 1915.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-20/"
         }
       ]
     },
     "matsch": {
       "thema": "Matsch",
-      "anzahl": 46,
+      "anzahl": 50,
+      "video": {
+        "datum": "2026-11-21",
+        "aufgabe": "Erziele den Obenabe-Matsch.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.mp4?alt=media&token=8eebc287-38b4-4b1d-8865-1216d8c7c50c",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-21_1.jpg?alt=media&token=0c8cd45a-4ccc-4183-8ab1-d6a53b93d3d7",
+        "dauer": "PT60S",
+        "youtube": null
+      },
       "blaetter": [
         {
-          "datum": "2026-11-16",
-          "titel": "Erziele diesen Matsch wie ein Jassprofi.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-16/"
+          "datum": "2026-11-22",
+          "titel": "Mache einen lockeren Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-22/"
         },
         {
-          "datum": "2026-11-14",
-          "titel": "Mache den Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-14/"
+          "datum": "2026-11-21",
+          "titel": "Erziele den Obenabe-Matsch.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-21/"
         },
         {
-          "datum": "2026-11-12",
-          "titel": "Heute ein easy Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-11-12/"
+          "datum": "2026-11-20",
+          "titel": "Erziele den Matsch mit «Grenzbesetzungs Karten» von 1915.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-20/"
         }
       ]
     }

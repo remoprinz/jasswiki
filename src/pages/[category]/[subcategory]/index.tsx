@@ -21,6 +21,9 @@ import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
+import { festerPfad } from '@/lib/url-utils';
+import { rubrikSeite } from '@/components/wissen/rubriken';
+import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 
 
 // Helper: Holt alle Artikel einer Unterkategorie
@@ -30,9 +33,10 @@ function getArticlesForSubcategory(
   subcategorySlug: string
 ): JassContentItem[] {
   return (Object.values(content) as JassContentItem[])
-    .filter(item => 
+    .filter(item =>
       toSlug(item.metadata.category.main) === categorySlug &&
-      toSlug(item.metadata.category.sub) === subcategorySlug
+      toSlug(item.metadata.category.sub) === subcategorySlug &&
+      !festerPfad(item.metadata.category)
     )
     .sort((a, b) => {
       // Angepinnte Artikel zuerst (SUB_ZUERST), danach alphabetisch.
@@ -199,7 +203,8 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
         (a) =>
           a.id !== contentItem.id &&
           toSlug(a.metadata.category.main) === categorySlug &&
-          toSlug(a.metadata.category.sub) === subcategorySlug
+          toSlug(a.metadata.category.sub) === subcategorySlug &&
+          !festerPfad(a.metadata.category)
       )
       .sort((a, b) => a.metadata.category.topic.localeCompare(b.metadata.category.topic, 'de'));
 
@@ -387,11 +392,14 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   }
 
   // LISTE-MODE: Zeige Subkategorie-Übersicht
-  const subIntro = SUB_INTROS[subcategory];
-  const listPageTitle = `${subcategory} - ${category} | Jass-Wiki`;
-  const listPageDescription = subIntro
+  // Texte aus src/data/rubriken.json (Karte SCHIRI «wiki-vorlagen», Teil C).
+  // Steht dort eine Einleitung, ersetzt sie SUB_INTROS.
+  const rubrik = rubrikSeite(`${categorySlug}/${subcategorySlug}`);
+  const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[subcategory];
+  const listPageTitle = rubrik.seoTitle ?? `${subcategory} - ${category} | Jass-Wiki`;
+  const listPageDescription = rubrik.seoDescription ?? (subIntro
     ? subIntro[0].slice(0, 155)
-    : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`;
+    : `Alle Artikel über ${subcategory} beim Jassen. ${sortedArticles.length} ${sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
 
   return (
     <>
@@ -399,17 +407,22 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
         title={listPageTitle}
         description={listPageDescription}
       />
-      
+
       <LexikonLayout breadcrumbItems={breadcrumbItems}>
         <div className="space-y-6 sm:space-y-8">
           {/* Header */}
           <div>
             <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
-              {subcategory}
+              {rubrik.h1 ?? subcategory}
             </h1>
             <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
               {sortedArticles.length} {sortedArticles.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
             </p>
+            {rubrik.einleitung && (
+              <div className="mt-4 content-formatting text-black">
+                <InternalLinker text={rubrik.einleitung} />
+              </div>
+            )}
             {subIntro && (
               <div className="mt-4 space-y-3 font-inter text-[14px] sm:text-[16px] text-[#5f5b53] leading-[1.7]">
                 {subIntro.map((para, i) => (
@@ -461,6 +474,9 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             })}
           </div>
 
+          {/* Fragen aus rubriken.json, sichtbar und als FAQPage */}
+          <RubrikFragen fragen={rubrik.faqs} />
+
           {/* Zurück zur Kategorie */}
           <div className="text-center pt-8 border-t border-[#f0eee7]">
             <Link
@@ -494,7 +510,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
     if (catSlug === 'varianten' || catSlug === 'ansagen') {
       return;
     }
-    
+
+    // Artikel mit festem Pfad (/schieber/, /jassen-lernen/) tragen ihre eigene
+    // Seite; ihre Unterrubrik entsteht nur, wenn sie weitere Artikel hat.
+    if (festerPfad(item.metadata.category)) {
+      return;
+    }
+
     combinations.add(`${catSlug}/${subSlug}`);
   });
   
@@ -532,7 +554,8 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
     item =>
       toSlug(item.metadata.category.main) === categorySlug &&
       toSlug(item.metadata.category.sub) === subcategorySlug &&
-      toSlug(item.metadata.category.topic) === subcategorySlug
+      toSlug(item.metadata.category.topic) === subcategorySlug &&
+      !festerPfad(item.metadata.category)
   );
   
   if (flatArticle) {

@@ -6,29 +6,78 @@ import Link from 'next/link';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
-import { buildArticleUrl } from '@/lib/url-utils';
+import { buildArticleUrl, festerPfad } from '@/lib/url-utils';
 import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
 import { SeoHead } from '@/components/layout/SeoHead';
+import { InternalLinker } from '@/components/layout/InternalLinker';
+import { RubrikFragen } from '@/components/wissen/RubrikFragen';
+import { rubrikSeite } from '@/components/wissen/rubriken';
+import { JassAppKarten, type AppGruppe } from '@/components/wissen/JassAppKarten';
 
-// Helper to get subcategories for a specific category
-const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: string): Array<{name: string, slug: string, count: number}> => {
-  const subcategories = new Map<string, number>();
-  
+// Helper to get subcategories for a specific category.
+// href: Eine Unterrubrik, die allein aus einem Artikel mit festem Pfad besteht
+// (Jassen lernen → /jassen-lernen/), führt auf diesen Pfad.
+const getSubcategoriesForCategory = (content: JassContentRecord, categorySlug: string): Array<{name: string, slug: string, count: number, href: string}> => {
+  const subcategories = new Map<string, { count: number; fest: Set<string>; normal: number }>();
+
   (Object.values(content) as JassContentItem[]).forEach(item => {
     if (toSlug(item.metadata.category.main) === categorySlug) {
       const subName = item.metadata.category.sub;
-      subcategories.set(subName, (subcategories.get(subName) || 0) + 1);
+      const eintrag = subcategories.get(subName) ?? { count: 0, fest: new Set<string>(), normal: 0 };
+      eintrag.count += 1;
+      const fest = festerPfad(item.metadata.category);
+      if (fest) eintrag.fest.add(fest);
+      else eintrag.normal += 1;
+      subcategories.set(subName, eintrag);
     }
   });
-  
+
   return Array.from(subcategories.entries())
-    .map(([name, count]) => ({
+    .map(([name, e]) => ({
       name,
       slug: toSlug(name),
-      count
+      count: e.count,
+      href: e.normal === 0 && e.fest.size === 1 ? [...e.fest][0] : `/${categorySlug}/${toSlug(name)}/`,
     }))
     .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 };
+
+// Die App-Artikel der Rubrik Jassapps, geordnet nach Unterrubrik (Karte SCHIRI
+// «wiki-vorlagen», Teil C). JassGuru steht in seiner Unterrubrik zuerst, wie in
+// der Übersicht der Unterrubrik (SUB_ZUERST).
+function appGruppen(content: JassContentRecord): AppGruppe[] {
+  // Reihenfolge der Gruppen nach dem Namen der Unterrubrik (Online-Jass vor
+  // Tisch-Jass), die Überschrift nimmt die h1 aus rubriken.json.
+  const gruppen = new Map<string, AppGruppe>();
+  (Object.values(content) as JassContentItem[])
+    .filter((item) => toSlug(item.metadata.category.main) === 'jassapps')
+    .forEach((item) => {
+      const sub = item.metadata.category.sub;
+      const subSlug = toSlug(sub);
+      const gruppe = gruppen.get(subSlug) ?? {
+        name: rubrikSeite(`jassapps/${subSlug}`).h1 ?? sub,
+        url: `/jassapps/${subSlug}/`,
+        apps: [],
+      };
+      gruppe.apps.push({
+        id: item.id,
+        url: buildArticleUrl(item.metadata.category),
+        titel: item.metadata.titel || item.metadata.category.topic,
+        app: item.metadata.app ?? null,
+      });
+      gruppen.set(subSlug, gruppe);
+    });
+  const zuerst = (id: string) => (id === 'jassapps_jassguru' ? 0 : 1);
+  return [...gruppen.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, 'de'))
+    .map(([, g]) => g)
+    .map((g) => ({
+      ...g,
+      apps: g.apps.sort(
+        (a, b) => zuerst(a.id) - zuerst(b.id) || (a.app?.name ?? a.titel).localeCompare(b.app?.name ?? b.titel, 'de'),
+      ),
+    }));
+}
 
 // Helper to get all articles for a category (for flat structure like Varianten)
 const getArticlesForCategory = (content: JassContentRecord, categorySlug: string): JassContentItem[] => {
@@ -111,35 +160,31 @@ const CATEGORY_FAQS: Record<string, { question: string; answer: string }[]> = {
   ],
 };
 
-function buildCategoryFaqJsonLd(faqs: { question: string; answer: string }[] | null) {
-  if (!faqs || faqs.length === 0) return null;
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.question,
-      acceptedAnswer: { '@type': 'Answer', text: f.answer },
-    })),
-  };
-}
+// Das FAQPage-Schema der Rubrik baut RubrikFragen (faqSchema).
 
 interface CategoryPageProps {
   category: string;
   categorySlug: string;
-  subcategories: Array<{name: string, slug: string, count: number}>;
+  subcategories: Array<{name: string, slug: string, count: number, href?: string}>;
   articles?: JassContentItem[]; // For flat structure (Varianten)
   isFlat?: boolean; // True for Varianten
   definedTermSet?: Record<string, unknown> | null; // schema.org DefinedTermSet (nur /begriffe/)
   categoryFaqs?: { question: string; answer: string }[] | null; // Kategorie-FAQ (sichtbar + FAQPage)
+  appGruppenListe?: AppGruppe[] | null; // nur /jassapps/
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null, categoryFaqs = null }) => {
+const SITE = 'https://jasswiki.ch';
+
+const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, subcategories = [], articles = [], isFlat = false, definedTermSet = null, categoryFaqs = null, appGruppenListe = null }) => {
   const router = useRouter();
+  // Texte aus src/data/rubriken.json (Karte SCHIRI «wiki-vorlagen», Teil C).
+  const rubrik = rubrikSeite(categorySlug);
+  const h1 = rubrik.h1 ?? (categorySlug === 'regeln' ? 'Jassregeln' : category);
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
     { name: category, href: `/${categorySlug}/` }
   ];
+  const mitAppKarten = !!appGruppenListe && appGruppenListe.some((g) => g.apps.some((a) => a.app));
 
   // Enable scrolling for knowledge pages
   useEffect(() => {
@@ -180,8 +225,45 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
     'Grundlagen & Kultur': 'Jassen: Grundlagen und Kultur, Karten, Regionen | Jass-Wiki',
     Geschichte: 'Geschichte des Jassens: Herkunft, Wörter, Kartenmacher | Jass-Wiki',
   };
-  const seoTitle = categoryTitles[category] || `${category} | Jass-Wiki`;
-  const seoDescription = categoryDescriptions[category] || `Alle Jass-Artikel in der Kategorie ${category} im Jass-Wiki. Entdecke Regeln, Begriffe und Varianten.`;
+  const seoTitle = rubrik.seoTitle ?? (categoryTitles[category] || `${category} | Jass-Wiki`);
+  const seoDescription = rubrik.seoDescription ?? (categoryDescriptions[category] || `Alle Jass-Artikel in der Kategorie ${category} im Jass-Wiki. Entdecke Regeln, Begriffe und Varianten.`);
+
+  // /jassapps/: CollectionPage mit ItemList der App-Artikel, dazu BreadcrumbList.
+  const appSammlung = appGruppenListe
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        '@id': `${SITE}/${categorySlug}/`,
+        url: `${SITE}/${categorySlug}/`,
+        name: h1,
+        description: seoDescription,
+        inLanguage: 'de-CH',
+        publisher: { '@id': `${SITE}/#organization` },
+        mainEntity: {
+          '@type': 'ItemList',
+          itemListOrder: 'https://schema.org/ItemListUnordered',
+          numberOfItems: appGruppenListe.reduce((n, g) => n + g.apps.length, 0),
+          itemListElement: appGruppenListe
+            .flatMap((g) => g.apps)
+            .map((a, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              name: a.app?.name ?? a.titel,
+              url: `${SITE}${a.url}`,
+            })),
+        },
+      }
+    : null;
+  const appBrotkrumen = appGruppenListe
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Jass-Wiki', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: h1, item: `${SITE}/${categorySlug}/` },
+        ],
+      }
+    : null;
 
   return (
     <LexikonLayout breadcrumbItems={breadcrumbItems}>
@@ -195,17 +277,17 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
           dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSet) }}
         />
       )}
-      {categoryFaqs && categoryFaqs.length > 0 && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildCategoryFaqJsonLd(categoryFaqs)) }}
-        />
+      {appSammlung && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appSammlung) }} />
+      )}
+      {appBrotkrumen && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appBrotkrumen) }} />
       )}
       <div className="space-y-6 sm:space-y-8">
         {/* Category Header */}
         <div>
           <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
-            {categorySlug === 'regeln' ? 'Jassregeln' : category}
+            {h1}
           </h1>
           <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
             {isFlat 
@@ -214,7 +296,17 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
             }
           </p>
         </div>
-        
+
+        {/* Einleitung aus rubriken.json, zwischen Kopf und Karten */}
+        {rubrik.einleitung && (
+          <div className="content-formatting text-black" data-rubrik-einleitung>
+            <InternalLinker text={rubrik.einleitung} />
+          </div>
+        )}
+
+        {/* /jassapps/: je App eine Karte, geordnet nach Unterrubrik */}
+        {mitAppKarten && appGruppenListe && <JassAppKarten gruppen={appGruppenListe} />}
+
         {/* FLAT STRUCTURE: Direkt alle Artikel (für Varianten) */}
         {isFlat && articles.length > 0 && (
           <>
@@ -290,12 +382,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
         )}
 
         {/* NORMAL STRUCTURE: Subkategorien (für andere Kategorien) */}
-        {!isFlat && subcategories.length > 0 && (
+        {!isFlat && !mitAppKarten && subcategories.length > 0 && (
           <div className="grid gap-4 sm:gap-6">
             {subcategories.map((subcategory) => (
-              <Link 
+              <Link
                 key={subcategory.slug}
-                href={`/${categorySlug}/${subcategory.slug}/`}
+                href={subcategory.href ?? `/${categorySlug}/${subcategory.slug}/`}
                 className="group block"
               >
                 <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">
@@ -325,26 +417,8 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
           </div>
         )}
 
-        {/* Häufige Fragen (FAQ) — sichtbar, ergänzt das FAQPage-Schema */}
-        {categoryFaqs && categoryFaqs.length > 0 && (
-          <div className="pt-8 border-t border-[#f0eee7]">
-            <h2 className="font-capita text-[22px] sm:text-[28px] font-bold text-black mb-[16px] leading-[1.2]">
-              Häufige Fragen
-            </h2>
-            <div className="space-y-[16px]">
-              {categoryFaqs.map((faq, i) => (
-                <div key={i}>
-                  <h3 className="font-capita text-[16px] sm:text-[18px] font-bold text-black mb-[4px] leading-[1.3]">
-                    {faq.question}
-                  </h3>
-                  <p className="font-inter text-[14px] sm:text-[16px] text-[#88816d] leading-[1.5]">
-                    {faq.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+        {/* Häufige Fragen: sichtbar und als FAQPage (rubriken.json vor CATEGORY_FAQS) */}
+        <RubrikFragen fragen={categoryFaqs} />
 
         {/* Back to Overview Link */}
         <div className="text-center pt-8 border-t border-[#f0eee7]">
@@ -400,7 +474,10 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
     return { notFound: true };
   }
   
-  const categoryFaqs = CATEGORY_FAQS[categorySlug] || null;
+  // Fragen aus rubriken.json ersetzen die Fragen dieser Vorlage; eine leere
+  // Liste dort lässt den Bestand stehen.
+  const categoryFaqs = rubrikSeite(categorySlug).faqs ?? CATEGORY_FAQS[categorySlug] ?? null;
+  const appGruppenListe = categorySlug === 'jassapps' ? appGruppen(allContent) : null;
 
   // Spezialfall: Varianten haben flache Struktur (keine Subkategorien)
   const isVarianten = categorySlug === 'varianten';
@@ -433,7 +510,8 @@ export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params
       subcategories,
       isFlat: false,
       definedTermSet,
-      categoryFaqs
+      categoryFaqs,
+      appGruppenListe
     }
   };
 };

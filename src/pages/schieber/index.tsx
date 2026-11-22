@@ -4,11 +4,23 @@ import Link from 'next/link';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import Head from 'next/head';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { GameSchema } from '@/components/seo/GameSchema';
-import { ohneKartenMarken } from '@/components/wissen/kartenMarke';
+import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
+import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { InternalLinker } from '@/components/layout/InternalLinker';
+import { FaqSection } from '@/components/wissen/FaqSection';
+import { JassenZeile } from '@/components/wissen/JassenKarte';
+import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
+
+// /schieber/ ist die Hauptseite zum Schieber (Karte LEUCHTTURM 2 und Karte
+// SCHIRI «wiki-vorlagen», Teil B, 22.11.2026): der ganze Artikel
+// general_schieber mit Fragen und Article-Daten, darunter die Wege in die
+// Gruppen, das Video und der Jassfreunde-Satz. Die alte Artikeladresse
+// /schieber/grundlagen/der-schieber/ leitet per 301 hierher (firebase.json).
 
 export const SCHIEBER_GROUPS = [
   { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => i.metadata.category.main === 'Regeln' },
@@ -23,13 +35,21 @@ interface GroupCard {
 }
 
 interface SchieberIndexProps {
-  intro: string;
+  artikel: JassContentItem | null;
   totalCount: number;
   groups: GroupCard[];
 }
 
-const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups }) => {
+const STANDARD_TITEL = 'Der Schieber: Regeln, Taktik & Strategie | Jass-Wiki';
+const STANDARD_BESCHREIBUNG =
+  'Alles über den Schieber: Die beliebteste Jassvariante der Schweiz. Regeln, Taktiken, Trumpfwahl und Teamstrategien einfach erklärt.';
+
+const SchieberIndex: NextPage<SchieberIndexProps> = ({ artikel, totalCount, groups }) => {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jasswiki.ch';
+  const canonicalUrl = `${siteUrl}/schieber/`;
+  const titel = artikel?.metadata.seoTitle ?? STANDARD_TITEL;
+  const beschreibung = artikel?.metadata.seoDescription ?? STANDARD_BESCHREIBUNG;
+  const fragen = artikel?.faqs ?? [];
 
   useEffect(() => {
     document.body.classList.add('lexikon-page');
@@ -43,11 +63,30 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
 
   return (
     <>
-      <SeoHead
-        title="Der Schieber: Regeln, Taktik & Strategie | Jass-Wiki"
-        description="Alles über den Schieber: Die beliebteste Jassvariante der Schweiz. Regeln, Taktiken, Trumpfwahl und Teamstrategien einfach erklärt."
-        canonicalUrl={`${siteUrl}/schieber/`}
-      />
+      <SeoHead title={titel} description={beschreibung} canonicalUrl={canonicalUrl} />
+      {artikel && (
+        <Head>
+          <meta property="og:type" content="article" />
+          <meta property="article:published_time" content={artikel.metadata.datePublished} />
+          <meta property="article:modified_time" content={artikel.metadata.dateModified} />
+          <meta property="article:section" content="Schieber" />
+          <JsonLdSchema
+            articleData={{
+              headline: 'Schieber',
+              description: beschreibung,
+              authorName: 'Jasswiki Redaktion',
+              publisherName: 'Jasswiki.ch',
+              publisherLogoUrl: 'https://jasswiki.ch/jasswiki-logo-hero-v2.png',
+              datePublished: artikel.metadata.datePublished,
+              dateModified: artikel.metadata.dateModified,
+            }}
+            breadcrumbItems={breadcrumbItems}
+            canonicalUrl={canonicalUrl}
+            siteUrl={siteUrl}
+          />
+          {fragen.length > 0 && <FaqJsonLdSchema faqs={fragen} />}
+        </Head>
+      )}
       <GameSchema
         name="Schieber"
         description="Die beliebteste Jassvariante der Schweiz, gespielt zu viert in zwei Teams"
@@ -65,17 +104,22 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
             <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
               Schieber
             </h1>
-            <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
-              {groups.length} Themenbereiche mit insgesamt {totalCount} Artikeln
-            </p>
+            <JassenZeile schluessel="general_schieber" kategorie="schieber" />
           </div>
 
-          {/* Kurzer Intro-Text */}
-          <div className="font-inter text-[14px] sm:text-[15px] text-[#5f5b53] leading-[1.65] border-b border-[#f0eee7] pb-[24px]">
-            {intro}
-          </div>
+          {/* Der ganze Artikel «Der Schieber» */}
+          {artikel && (
+            <article className="content-formatting max-w-none border-b border-[#f0eee7] pb-[24px]">
+              <div className="content-formatting text-black">
+                <InternalLinker text={artikel.text} farbwechsel={artikel.metadata.farbwechsel === true} />
+              </div>
+            </article>
+          )}
 
-          {/* Gruppen-Karten – identisch zur Subkategorie-Ansicht in [category]/index.tsx */}
+          {/* Wege in die Gruppen – identisch zur Subkategorie-Ansicht in [category]/index.tsx */}
+          <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5] !mb-0">
+            {groups.length} Themenbereiche mit insgesamt {totalCount} Artikeln
+          </p>
           <div className="grid gap-4 sm:gap-6">
             {groups.map((group) => (
               <Link
@@ -111,6 +155,10 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ intro, totalCount, groups
 
           <LeitartikelVideo schluessel="schieber_hub" />
           <JassfreundeSatz schluessel="schieber_hub" />
+
+          <UebenBlock articleId="general_schieber" />
+
+          {fragen.length > 0 && <FaqSection faqs={fragen} title="Häufige Fragen zum Schieber" />}
 
           {/* Zurück */}
           <div className="pt-8 border-t border-[#f0eee7]">
@@ -152,12 +200,8 @@ export const getStaticProps: GetStaticProps = async () => {
     })
     .filter(g => g.count > 0);
 
-  const intro = mainArticle
-    ? ohneKartenMarken(mainArticle.text).split('\n').slice(0, 2).join(' ').substring(0, 280) + '…'
-    : '';
-
   return {
-    props: { intro, totalCount: relatedItems.length, groups },
+    props: { artikel: mainArticle ?? null, totalCount: relatedItems.length, groups },
   };
 };
 
