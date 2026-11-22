@@ -231,6 +231,20 @@ test('Sperrklinke: Altlast lässt durch, neuer Fund hält an', async () => {
   await rm(wurzel, { recursive: true });
 });
 
+test('C2 meldet im Bau und hält allein mit --netz-hart an', async () => {
+  const wurzel = await baue({ seiten: { 'index.html': seite('<img src="https://x.test/tot.png">') } });
+  const altlastDatei = path.join(wurzel, 'altlast.json');
+  const abruf = async () => ({ status: 404, body: null });
+  const zeilen = [];
+  const sag = (z) => zeilen.push(z);
+
+  assert.equal(await lauf([], { wurzel, altlastDatei, abruf, ausgabe: sag }), 0);
+  assert.ok(zeilen.some((z) => z.includes('C2 meldet')));
+  assert.ok(!zeilen.some((z) => z.includes('NEUE')));
+  assert.equal(await lauf(['--netz-hart'], { wurzel, altlastDatei, abruf, ausgabe: () => {} }), 1);
+  await rm(wurzel, { recursive: true });
+});
+
 test('Sperrklinke: ohne Netz bleibt der C2-Bestand stehen', () => {
   const fundC2 = { pfad: '/a/', pruefung: 'C2 Medium antwortet nicht', wort: 'https://x.test/tot.mp4 · antwortet 404' };
   const altlast = altlastZeilen([fundC2]);

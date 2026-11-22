@@ -25,6 +25,7 @@
  *
  *   node pruefe-seite.mjs                 prüfen (Exit 1 bei neuem Fund)
  *   node pruefe-seite.mjs --ohne-netz     ohne Abruf fremder Medien (C2 ruht)
+ *   node pruefe-seite.mjs --netz-hart     ein neuer C2-Fund hält an (sonst meldet C2 nur)
  *   node pruefe-seite.mjs --alle          jeden Fund zeigen, auch die eingefrorenen
  *   node pruefe-seite.mjs --altlast-neu   Bestand neu einfrieren, nach getaner Säuberung
  */
@@ -555,9 +556,25 @@ export const lauf = async (argv = process.argv.slice(2), optionen = {}) => {
     if (behoben.length > 20) ausgabe(`      … und ${behoben.length - 20} weitere`);
   }
 
-  if (neue.length > 0) {
-    ausgabe(`\n❌ ${neue.length} NEUE(R) Fund(e), der Bau hält an:\n`);
-    for (const f of neue) {
+  // C2 MELDET IM BAU (SCHIRI, 22.11.2026): Ein fremder Host darf einen Deploy
+  // nicht anhalten, der mit ihm nichts zu tun hat. Hart prüft die tägliche
+  // Wache von aussen (jass-server, server/wikiwache.py). `--netz-hart` hält
+  // auch hier an, z. B. vor einem Deploy, der Medien neu einbaut.
+  const netzHart = argv.includes('--netz-hart');
+  const gemeldet = netzHart ? [] : neue.filter((f) => f.pruefung === PRUEFUNG.C2);
+  const harte = netzHart ? neue : neue.filter((f) => f.pruefung !== PRUEFUNG.C2);
+
+  if (gemeldet.length > 0) {
+    ausgabe(`\n⚠️  ${gemeldet.length} fremde Medienadresse(n) antworten nicht (C2 meldet, der Bau läuft weiter):\n`);
+    for (const f of gemeldet) {
+      ausgabe(`   ${f.pfad}`);
+      ausgabe(`   ${f.wort}\n`);
+    }
+  }
+
+  if (harte.length > 0) {
+    ausgabe(`\n❌ ${harte.length} NEUE(R) Fund(e), der Bau hält an:\n`);
+    for (const f of harte) {
       ausgabe(`   ${f.pfad}`);
       ausgabe(`   ${f.pruefung}: ${f.wort}${f.mehr ? ` (${f.mehr} mehr als eingefroren)` : ''}`);
       ausgabe(`   ${f.stelle}\n`);
