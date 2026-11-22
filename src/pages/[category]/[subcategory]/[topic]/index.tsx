@@ -368,7 +368,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     default:
       // Fallback bleibt generisch, aber optimiert
       pageTitle = seitenTitel(topic, category);
-      metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im umfassendsten Jass-Wiki der Schweiz.`;
+      metaDescription = `${topic} beim Jassen, kurz erklärt. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
   }
 

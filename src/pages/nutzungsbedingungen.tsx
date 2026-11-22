@@ -43,9 +43,9 @@ const NutzungsbedingungenPage = () => {
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">2. Leistung</h2>
         <p className="mb-4 text-gray-300">
-          JassWiki ist eine <strong>kostenlose, gemeinnützige Wissensdatenbank</strong> zu
+          JassWiki ist eine <strong>gemeinnützige Wissensdatenbank</strong> zu
           Regeln, Begriffen, Spielvarianten, Weis-Wertungen, Taktik und Geschichte des
-          Schweizer Jass. Die Inhalte stehen auf JassWiki.ch sowie über die JassWiki-Anwendung
+          Schweizer Jass, für alle offen. Die Inhalte stehen auf JassWiki.ch sowie über die JassWiki-Anwendung
           in KI-Assistenten zur Verfügung. Es besteht kein Anspruch auf ständige Verfügbarkeit,
           fehlerfreien Betrieb oder unveränderten Funktionsumfang.
         </p>

@@ -27,7 +27,7 @@ const JASSWIKI_SCHEMA = {
         "width": 544,
         "height": 544
       },
-      "description": "Die umfassendste digitale Wissensplattform für Schweizer Jass-Kultur, -Regeln und -Traditionen.",
+      "description": "Das Jass-Wiki des Jassverbands Schweiz: Regeln, Jassarten, Begriffe und Geschichte des Jassens, für alle offen.",
       "slogan": "Das digitale Gedächtnis der Schweizer Jass-Kultur",
       "foundingDate": "2025",
       // Die BAK-Traditionsseite handelt vom Jassen, nicht von JassWiki.ch —
@@ -152,7 +152,7 @@ const JASSWIKI_SCHEMA = {
       "@id": "https://jassguru.ch/#remo-prinz",
       "name": "Remo Prinz",
       "jobTitle": "Gründer JassGuru, Präsident Jassverband Schweiz",
-      "description": "Remo Prinz treibt die Digitalisierung des Schweizer Nationalspiels voran. Mit JassGuru und JassWiki macht er Wissen, Regeln und Resultate erstmals schweizweit zugänglich.",
+      "description": "Präsident des Jassverbands Schweiz und Gründer von JassGuru.",
       "url": "https://jassverband.ch/de/verband",
       "image": "https://jassverband.ch/images/praesidium/remo-freigestellt.png",
       "worksFor": [
