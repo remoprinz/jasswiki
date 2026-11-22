@@ -3,7 +3,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { JassContentItem } from '@/types/jass-lexikon';
 import leitartikel from '@/data/leitartikel.json';
 import tueren from '@/data/tueren.json';
-import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
+import { JassenKarte, JassenZeile, zeileSatz } from '@/components/wissen/JassenKarte';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo, jdtFuer } from '@/components/wissen/LeitartikelVideo';
 import { UebenBlock, hatUeben } from '@/components/wissen/UebenBlock';
@@ -107,10 +107,13 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   const [vorTuer, nachTuer] = tuer ? teileAmEinstieg(rohText!) : ['', ''];
   // Eine Tür: Leitartikel tragen den Jassfreunde-Satz, Artikel mit Karte die
   // Karte, alle anderen die Zeile.
+  const mitZeile = !leit && !tuer && zeileSatz(kennung, kategorie) !== null;
   const kopf = (
-    <header className="text-left pb-6 border-b border-[#f0eee7]">
-      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">{titel}</h1>
-      {!leit && !tuer && <JassenZeile schluessel={kennung} kategorie={kategorie} />}
+    // Ohne Zeile steht die Trennlinie so weit unter dem Titel wie der Text unter ihr
+    // (24, ab sm 32, wie der Abstand im LexikonLayout).
+    <header className={`text-left border-b border-[#f0eee7] ${mitZeile ? 'pb-6' : 'pb-6 sm:pb-8'}`}>
+      <h1 className={`text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] leading-tight ${mitZeile ? 'mb-4' : '!mb-0'}`}>{titel}</h1>
+      {mitZeile && <JassenZeile schluessel={kennung} kategorie={kategorie} />}
     </header>
   );
 
