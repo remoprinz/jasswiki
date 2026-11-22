@@ -22,7 +22,7 @@ const ReferencesPage: NextPage = () => {
 
   const literatureAndRules: Reference[] = [
     {
-      title: 'STÖCK WYS STICH – Der neue Schweizer Jassführer',
+      title: 'STÖCK WYS STICH: Der neue Schweizer Jassführer',
       author: 'Dani Müller',
       type: 'Buch',
       date: '2015 (SRF Edition)',
@@ -30,7 +30,7 @@ const ReferencesPage: NextPage = () => {
       usage: 'Hauptquelle für Spielregeln, Weis-Regeln, Schieber und die meisten Jass-Varianten.'
     },
     {
-      title: 'PUUR NÄLL ASS – Offizielles Schweizer Jassreglement',
+      title: 'PUUR NÄLL ASS: Offizielles Schweizer Jassreglement',
       author: 'Göpf Egg & Albert Hagenbucher',
       type: 'Buch',
       date: '10. Auflage, 2020',
@@ -100,7 +100,7 @@ const ReferencesPage: NextPage = () => {
 
   const ownContributions: Reference[] = [
     {
-      title: 'Jassguru.ch – Praktische Erkenntnisse',
+      title: 'Jassguru.ch: Praktische Erkenntnisse',
       author: 'Remo Prinz',
       type: 'Eigene Entwicklung & Praxis',
       date: 'Seit 2025',
@@ -222,7 +222,7 @@ const ReferencesPage: NextPage = () => {
               Referenzen und Quellen
             </h1>
             <p className="text-lg sm:text-xl text-black leading-relaxed max-w-3xl">
-              Die Grundlage für unser Jass-Wiki bilden etablierte Werke, offizielle Institutionen und erfahrene Experten – ergänzt durch praktische Erkenntnisse aus tausenden dokumentierten Spielen seit 2008 (<a href="https://jassstatistik.ch" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752] hover:underline">jassstatistik.ch</a>) und der Entwicklung von <a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752] hover:underline">jassguru.ch</a>.
+              Die Grundlage für unser Jass-Wiki bilden etablierte Werke, offizielle Institutionen und erfahrene Experten. Dazu kommen praktische Erkenntnisse aus tausenden dokumentierten Spielen seit 2008 (<a href="https://jassstatistik.ch" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752] hover:underline">jassstatistik.ch</a>) und der Entwicklung von <a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752] hover:underline">jassguru.ch</a>.
             </p>
           </div>
 

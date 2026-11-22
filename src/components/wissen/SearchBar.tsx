@@ -165,7 +165,7 @@ export const SearchBar: React.FC<{
         title: c.name,
         category: 'Jasskarten',
         url: `${kfUrl}#${c.slug}`,
-        snippet: `${c.name} – ${c.systemLabel}. Direkt zur Karte.`,
+        snippet: `${c.name}, ${c.systemLabel}. Direkt zur Karte.`,
       }));
 
     // Meta-/Übersichtsseiten (Taxonomie, Referenzen, Quellen) zuerst, wenn sie passen.

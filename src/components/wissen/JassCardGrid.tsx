@@ -9,7 +9,7 @@ const PAGE = '/grundlagen-kultur/jasskarten/';
 const cardListJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
-  name: 'Schweizer Jasskarten – alle Karten beider Kartensysteme',
+  name: 'Schweizer Jasskarten: alle Karten beider Kartensysteme',
   numberOfItems: KARTENSYSTEME.reduce(
     (sum, sys) => sum + sys.farben.reduce((s, f) => s + f.karten.length, 0),
     0

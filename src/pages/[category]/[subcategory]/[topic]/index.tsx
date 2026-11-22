@@ -325,7 +325,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const canonicalPath = `/${categorySlug}/${subcategorySlug}/${topicSlug}/`;
 
   // Dynamische SEO-Titel und -Beschreibungen
-  let pageTitle = `${topic} - ${subcategory} | Jass-Wiki`;
+  let pageTitle = `${topic}: ${subcategory} | Jass-Wiki`;
   let metaDescription = `Alles über "${topic}" beim Jassen in der Kategorie ${subcategory}. Detailliert erklärt im Jass-Wiki der Schweiz.`;
 
   switch (category) {
@@ -340,7 +340,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     case 'Schieber':
       // Der Hauptartikel «Der Schieber» steht auf /schieber/ (src/pages/schieber/index.tsx).
       pageTitle = `${topic} beim Schieber: Tipps & Strategien | Jass-Wiki`;
-      metaDescription = `Alles über "${topic}" beim Schieber-Jass. Taktiken und Strategien für ${subcategory} – erklärt für Anfänger und Profis auf jasswiki.ch.`;
+      metaDescription = `Alles über "${topic}" beim Schieber-Jass. Taktiken und Strategien für ${subcategory}, erklärt für Anfänger und Profis.`;
       break;
     case 'Begriffe':
       pageTitle = `${topic} beim Jassen: Bedeutung und Regel | Jass-Wiki`;

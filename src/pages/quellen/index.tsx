@@ -13,7 +13,7 @@ const SourcesPage: NextPage = () => {
 
   const sources = [
     {
-      title: 'STÖCK WYS STICH – Der neue Schweizer Jassführer',
+      title: 'STÖCK WYS STICH: Der neue Schweizer Jassführer',
       author: 'Dani Müller',
       type: 'Taschenbuch',
       date: '26. September 2016',

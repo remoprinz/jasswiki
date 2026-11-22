@@ -67,7 +67,7 @@ const WissenHomePage = () => {
         {
             slug: 'jassen',
             name: 'Jassen',
-            description: 'Das Schweizer Nationalkartenspiel — Überblick über Regeln, Varianten, Karten, Geschichte und Kultur',
+            description: 'Das Schweizer Nationalkartenspiel: Regeln, Varianten, Karten, Geschichte und Kultur im Überblick',
             icon: CgSwiss,
         },
         {
@@ -79,13 +79,13 @@ const WissenHomePage = () => {
         { 
             slug: 'weis-regeln', 
             name: 'Weis-Regeln',
-            description: 'Alles über Weis, Stöck und Punktezählung – werde zum Weis-Experten',
+            description: 'Weis, Stöck und ihre Punkte: was zählt und wer schreibt',
             icon: GiPokerHand,
         },
         { 
             slug: 'geschichte', 
             name: 'Geschichte',
-            description: 'Wie entstand das Jassen? Erfahre alles über die Wurzeln des Schweizer Nationalspiel',
+            description: 'Wie entstand das Jassen? Woher das Jassen kommt und wie es in die Schweiz gelangte',
             icon: FaBook,
         },
         { 
@@ -97,37 +97,37 @@ const WissenHomePage = () => {
         {
             slug: 'schieber',
             name: 'Schieber',
-            description: 'Die beliebteste Jassvariante im Detail – Regeln, Strategien und Tipps',
+            description: 'Die beliebteste Jassvariante: Regeln, Taktik und Konventionen',
             icon: FaHandPointRight,
         },
         {
             slug: 'ansagen',
             name: 'Ansagen',
-            description: 'Obenabe, Undenufe, Tutti & Co. – alle Spielmodi, die man ansagen kann',
+            description: 'Obenabe, Undenufe, Slalom, Tutti und alle weiteren Ansagen',
             icon: FaBullhorn,
         },
         {
             slug: 'taktiken-und-strategien',
             name: 'Taktiken & Strategien',
-            description: 'Signalsprache, Verwerfen, Anziehen – wie du mit deinem Partner kommunizierst',
+            description: 'Verwerfen, Anziehen und weitere Signale: so verständigen sich Partner am Tisch',
             icon: FaChessKnight,
         },
         { 
             slug: 'begriffe', 
             name: 'Jass-Begriffe',
-            description: 'Von «Bock» bis «Stöck» – alle wichtigen Jass-Ausdrücke erklärt',
+            description: 'Von «Ablupf» bis «Wand»: die Jass-Ausdrücke mit Bedeutung und Regel',
             icon: FaHouse,
         },
         { 
             slug: 'varianten', 
             name: 'Jass-Varianten',
-            description: 'Coiffeur, Differenzler & Co. – entdecke die Vielfalt des Jassens',
+            description: 'Coiffeur, Differenzler, Pandur und weitere Jassarten mit ihren Regeln',
             icon: GrMultiple,
         },
         { 
             slug: 'jassapps', 
             name: 'Jassapps',
-            description: 'Digitale Jasstafeln und Online-Jass-Apps – die besten Tools für Jasser',
+            description: 'Digitale Jasstafeln und Online-Jass im Überblick',
             icon: MdPhoneIphone,
         },
         { 
@@ -163,7 +163,7 @@ const WissenHomePage = () => {
                     Regeln, Varianten & Strategien
                 </p>
                 <p className="font-inter text-[14px] sm:text-[16px] text-[#000000] leading-[1.55]">
-                    Von Grundlagen bis Profi-Strategien – die Referenz für das Schweizer Nationalspiel.
+                    Von den Grundlagen bis zur Taktik: das Nachschlagewerk zum Schweizer Nationalspiel.
                 </p>
             </div>
 
@@ -248,7 +248,7 @@ const WissenHomePage = () => {
                     Hast du eine spezifische Frage?
                 </h3>
                 <p className="font-inter text-[14px] sm:text-[16px] font-bold text-center !text-white leading-[1.6] m-0">
-                    JassWiki gibt es auch als interaktiven Chat auf ChatGPT – stelle deine Frage direkt!
+                    JassWiki gibt es auch als Chat auf ChatGPT. Stelle deine Frage dort direkt.
                 </p>
                 <Link 
                     href="/gpt" 

@@ -38,7 +38,7 @@ export const LegalFooter = () => {
             <p className="text-[13px] font-inter text-[#6b6b6b]">Unterstützt durch:</p>
             <img
               src="/bak/EDI_BAK_D_RGB_POS_QUER.png"
-              alt="Logo Bundesamt für Kultur — Unterstützt durch das BAK"
+              alt="Logo Bundesamt für Kultur: Unterstützt durch das BAK"
               className="mt-2 h-12 w-auto"
             />
             <p className="mt-3 text-[13px] leading-[1.5] font-inter text-[#6b6b6b]">
@@ -95,7 +95,7 @@ export const LegalFooter = () => {
                 <p className="text-[13px] font-inter text-[#6b6b6b]">Unterstützt durch:</p>
                 <img
                   src="/bak/EDI_BAK_D_RGB_POS_QUER.png"
-                  alt="Logo Bundesamt für Kultur — Unterstützt durch das BAK"
+                  alt="Logo Bundesamt für Kultur: Unterstützt durch das BAK"
                   className="mt-2 h-[73px] w-auto"
                 />
               </div>

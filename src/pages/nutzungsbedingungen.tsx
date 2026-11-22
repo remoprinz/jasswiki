@@ -99,7 +99,7 @@ const NutzungsbedingungenPage = () => {
 
         <h2 className="text-2xl font-semibold mb-3 text-white mt-8">9. Anwendbares Recht</h2>
         <p className="mb-4 text-gray-300">
-          Es gilt schweizerisches Recht. Gerichtsstand ist – soweit gesetzlich zulässig –
+          Es gilt schweizerisches Recht. Gerichtsstand ist, soweit gesetzlich zulässig,
           Zürich, Schweiz.
         </p>
 

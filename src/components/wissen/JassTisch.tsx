@@ -162,7 +162,7 @@ export const JassTisch: React.FC<Props> = ({
       <button
         type="button"
         onClick={() => setGross(karte)}
-        aria-label={`${karte.name}, als ${p.nummer}. gelegt — ${ROLLE[p.sitz]}. Vergrössern`}
+        aria-label={`${karte.name}, als ${p.nummer}. gelegt, ${ROLLE[p.sitz]}. Vergrössern`}
         className="jw-tisch-karte"
         data-platz={platzWort}
       >

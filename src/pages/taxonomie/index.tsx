@@ -150,7 +150,7 @@ const CategorySection: React.FC<{ category: TaxonomyCategory }> = ({ category })
                               {item.wikidataId}
                             </a>
                           ) : (
-                            <span className="text-[#9a9588]">–</span>
+                            <span className="text-[#9a9588]"></span>
                           )}
                         </td>
                       </tr>
@@ -193,7 +193,7 @@ const TaxonomiePage = () => {
     <>
       <SeoHead
         title="Taxonomie des Jassens: Die vollständige Struktur | Jass-Wiki"
-        description={`Die perfekte Taxonomie des Schweizer Jass: ${stats.totalTerms} Begriffe, ${stats.termsWithWikidata} mit Wikidata verknüpft. Spielarten, Spielmodi, Karten, Punktesystem – strukturiert für das Semantic Web.`}
+        description={`Die Taxonomie des Schweizer Jass: ${stats.totalTerms} Begriffe, ${stats.termsWithWikidata} mit Wikidata verknüpft. Spielarten, Spielmodi, Karten und Punktesystem, strukturiert für das Semantic Web.`}
       />
       
       {/* JSON-LD Schema für Suchmaschinen & KIs */}
@@ -346,7 +346,7 @@ const TaxonomiePage = () => {
             <ul className="text-black text-sm space-y-1">
               <li>• Schweizerisches Idiotikon, Band III, Sp. 69 f.</li>
               <li>• <a href="https://de.wikipedia.org/wiki/Jass" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Wikipedia: Jass</a> (JassWiki.ch als Einzelnachweis)</li>
-              <li>• <a href="https://jasswiki.ch" className="text-[#274823] hover:text-[#2bb752]">Jasswiki.ch</a> – 257 Artikel</li>
+              <li>• <a href="https://jasswiki.ch" className="text-[#274823] hover:text-[#2bb752]">Jasswiki.ch</a></li>
               <li>• <a href="https://www.lebendige-traditionen.ch/de/jassen" target="_blank" rel="noopener noreferrer" className="text-[#274823] hover:text-[#2bb752]">Lebendige Traditionen der Schweiz (BAK)</a></li>
               <li>• Expertenbericht: «Jass-Ontologie &amp; Gap-Analyse» (2026)</li>
             </ul>

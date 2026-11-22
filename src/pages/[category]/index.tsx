@@ -137,25 +137,25 @@ function buildDefinedTermSet(content: JassContentRecord, categorySlug: string) {
 // in den bestehenden Artikeln verankert (keine neuen Mechaniken).
 const CATEGORY_FAQS: Record<string, { question: string; answer: string }[]> = {
   regeln: [
-    { question: 'Was sind die Jassregeln?', answer: 'Gespielt wird mit 36 Karten. Man muss die angespielte Farbe bedienen; hat man sie nicht, darf man trumpfen oder eine beliebige Karte abwerfen. Den Stich gewinnt die höchste Trumpfkarte – ohne Trumpf die höchste Karte der angespielten Farbe –, und wer gewinnt, spielt zum nächsten Stich aus. Pro Runde sind 157 Punkte zu vergeben: 152 Kartenpunkte und 5 für den letzten Stich.' },
+    { question: 'Was sind die Jassregeln?', answer: 'Gespielt wird mit 36 Karten. Wer die ausgespielte Farbe hat, muss sie spielen. Mit einem Trumpf darf man jederzeit abstechen. Fehlt die Farbe, darf man eine beliebige Karte spielen. Den Stich gewinnt die höchste Trumpfkarte. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Wer den Stich macht, spielt die nächste Karte aus. Pro Runde sind 157 Punkte zu vergeben: 152 Kartenpunkte und 5 für den letzten Stich.' },
     { question: 'Wie viele Punkte hat eine Jassrunde?', answer: 'Genau 157 Punkte: 152 aus den Karten plus 5 Bonuspunkte für den letzten Stich.' },
-    { question: 'Muss man beim Jassen Farbe bedienen?', answer: 'Ja. Wer die angespielte Farbe auf der Hand hat, muss sie spielen. Nur wer sie nicht hat, darf trumpfen oder eine andere Karte abwerfen.' },
+    { question: 'Muss man beim Jassen Farbe bedienen?', answer: 'Ja. Wer die ausgespielte Farbe hat, muss sie spielen. Abstechen mit Trumpf ist jederzeit erlaubt.' },
     { question: 'Was sind die Kartenwerte beim Jassen?', answer: 'Ohne Trumpf: Ass 11, Banner (Zehner) 10, König 4, Ober 3, Under 2 Punkte; Sechser bis Neuner zählen null. In der Trumpffarbe wird der Under zum Puur (20 Punkte) und der Neuner zum Nell (14 Punkte).' },
   ],
   'weis-regeln': [
-    { question: 'Was ist ein Weis beim Jassen?', answer: 'Ein Weis ist eine Kartenkombination – mindestens drei aufeinanderfolgende Karten gleicher Farbe oder vier gleiche Karten –, die vor dem ersten Stich angesagt wird und Bonuspunkte bringt.' },
+    { question: 'Was ist ein Weis beim Jassen?', answer: 'Ein Weis ist eine Kartenkombination, die Bonuspunkte bringt: drei oder mehr aufeinanderfolgende Karten derselben Farbe oder vier gleiche Karten. Gemeldet wird er mit der ersten Karte, die man ausspielt.' },
     { question: 'Wie viele Punkte gibt ein Weis?', answer: 'Ein Dreiblatt gibt 20 Punkte, ein Vierblatt 50, ein Fünfblatt 100. Vier gleiche Karten zählen 100 bis 200 Punkte. Die Stöck (König und Ober der Trumpffarbe) zählen 20 Punkte.' },
-    { question: 'Wer darf den Weis schreiben?', answer: 'Es zählt nur der höchste Weis am Tisch: Das Team mit dem höchsten Weis darf alle seine Weise schreiben, das gegnerische Team keine.' },
+    { question: 'Wer darf den Weis schreiben?', answer: 'Es zählt nur der höchste Weis am Tisch: Das Team mit dem höchsten Weis schreibt alle seine Weise, das gegnerische Team schreibt seine Weise nicht. Ausgenommen sind die Stöck: Ihr Team schreibt sie in jedem Fall.' },
   ],
   varianten: [
     { question: 'Welche Jass-Varianten gibt es?', answer: 'Über 40, darunter Schieber (die beliebteste), Coiffeur, Differenzler, Molotow, Pandur, Sidi Barrani, Bieter, Guggitaler und Tschau Sepp.' },
-    { question: 'Was ist die beliebteste Jass-Variante?', answer: 'Der Schieber – vier Personen in zwei Teams, bei dem man die Trumpffarbe wählt oder die Wahl an den Partner schiebt.' },
+    { question: 'Was ist die beliebteste Jass-Variante?', answer: 'Der Schieber: Vier Personen spielen in zwei Teams. Vorhand wählt die Trumpffarbe oder schiebt die Wahl dem Partner zu.' },
   ],
   geschichte: [
-    { question: 'Woher kommt das Jassen?', answer: 'Das Jassen gelangte Ende des 18. Jahrhunderts aus den Niederlanden über Söldner in die Schweiz; die erste Erwähnung stammt von 1796. Im 20. Jahrhundert wurde es – unter anderem durch den Samschtig-Jass – zum Nationalspiel.' },
+    { question: 'Woher kommt das Jassen?', answer: 'Der Ursprung liegt in den Niederlanden. Über Frankreich gelangte das Spiel im späten 18. Jahrhundert in die Schweiz. Die erste bekannte Erwähnung stammt von 1796 aus Schaffhausen.' },
   ],
   'grundlagen-kultur': [
-    { question: 'Wie geht Jassen?', answer: 'Vier Personen bilden zwei Teams und erhalten je 9 der 36 Karten. Eine Farbe wird zum Trumpf bestimmt. Reihum spielt jede Person eine Karte aus und muss die angespielte Farbe bedienen. Den Stich gewinnt die höchste Trumpfkarte – ohne Trumpf die höchste Karte der angespielten Farbe. Gezählt werden die Kartenpunkte der gewonnenen Stiche, 157 pro Runde.' },
+    { question: 'Wie geht Jassen?', answer: 'Vier Personen bilden zwei Teams und erhalten je 9 der 36 Karten. Eine Farbe wird zum Trumpf bestimmt. Der Reihe nach spielt jede Person eine Karte. Wer die ausgespielte Farbe hat, muss sie spielen oder mit Trumpf abstechen. Den Stich gewinnt die höchste Trumpfkarte. Liegt kein Trumpf im Stich, gewinnt die höchste Karte der ausgespielten Farbe. Gezählt werden die Kartenpunkte der gewonnenen Stiche, 157 pro Runde.' },
     { question: 'Ist Jassen ein Schweizer Kulturgut?', answer: 'Ja, das Bundesamt für Kultur (BAK) führt das Jassen als lebendige Tradition der Schweiz.' },
   ],
 };
@@ -204,12 +204,12 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
 
   // SEO-optimierte Descriptions pro Kategorie
   const categoryDescriptions: Record<string, string> = {
-    'Geschichte': 'Entdecke die faszinierende Geschichte des Schweizer Jass: Von mittelalterlichen Ursprüngen bis zur modernen Kulturikone. Erfahre alles über die Entwicklung des Nationalspiel.',
-    'Grundlagen & Kultur': 'Lerne die Grundlagen des Jassens: Kartenwerte, Spielablauf, Verteilmethoden und die kulturelle Bedeutung des Schweizer Nationalspiel.',
+    'Geschichte': 'Die Geschichte des Jassens: frühe Spielkarten in Europa, der Weg aus den Niederlanden in die Schweiz, die erste Erwähnung 1796, das Ramstein-Reglement von 1895 und die Schweizer Kartenmacher.',
+    'Grundlagen & Kultur': 'Lerne die Grundlagen des Jassens: Kartenwerte, Spielablauf, Verteilmethoden und die kulturelle Bedeutung des Schweizer Nationalspiels.',
     'Weis-Regeln': 'Die Weisregeln beim Jassen: Dreiblatt bis Neunblatt, vier Gleiche, Stöck, welcher Weis höher ist, wer schreibt, Ausmachen. Jede Regel mit Kartenbildern.',
-    'Schieber': 'Werde zum Schieber-Profi: Taktiken, Konventionen und Strategien für die beliebteste Jassvariante der Schweiz.',
-    'Begriffe': 'Das Jass-ABC: 71 Begriffe von Ablupf bis Weis, jeder mit Bedeutung, Regel und Beispiel.',
-    'Varianten': '43 Jassarten mit Regeln: Schieber, Coiffeur, Differenzler, Sidi-Barrani, Pandur, Bieter, Molotow, Hose abe und weitere, jede mit Ablauf, Wertung und Beispielen.',
+    'Schieber': 'Der Schieber, die beliebteste Jassvariante der Schweiz: Regeln, Taktik und Konventionen.',
+    'Begriffe': 'Das Jass-ABC von Ablupf bis Wand, jeder Begriff mit Bedeutung, Regel und Beispiel.',
+    'Varianten': 'Jassarten mit Regeln: Schieber, Coiffeur, Differenzler, Sidi-Barrani, Pandur, Bieter, Molotow, Hose abe und weitere, jede mit Ablauf, Wertung und Beispielen.',
     'Regeln': 'Die Jassregeln: Kartenwerte, Geben, Spielablauf, Punkte zählen, Matsch, Bergpreis, Ausmachregel und Sonderfälle. Klar geordnet, mit Beispielen.',
     'Referenzen': 'Quellen, Literatur und Expertenwissen: Die wissenschaftliche Grundlage unseres Jass-Portals.'
   };
@@ -219,7 +219,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
     Regeln: 'Jassregeln: Kartenwerte, Geben, Spielablauf, Punkte, Ausmachen | Jass-Wiki',
     'Weis-Regeln': 'Weisregeln beim Jassen: Weispunkte, Stöck, Ausmachen | Jass-Wiki',
     Schieber: 'Schieber jassen: Regeln, Taktik und Konventionen | Jass-Wiki',
-    Varianten: 'Jassarten und Jass-Varianten: 43 Spiele mit Regeln | Jass-Wiki',
+    Varianten: 'Jassarten und Jass-Varianten mit Regeln | Jass-Wiki',
     Begriffe: 'Jass-Begriffe von A bis Z: Bedeutung und Regel | Jass-Wiki',
     Jassapps: 'Jassapps: Jasstafel, Online-Jass und Vergleich | Jass-Wiki',
     'Grundlagen & Kultur': 'Jassen: Grundlagen und Kultur, Karten, Regionen | Jass-Wiki',

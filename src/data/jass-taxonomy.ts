@@ -70,7 +70,7 @@ export const TAXONOMY_METADATA = {
   name: 'Jass-Taxonomie',
   version: '4.0',
   lastUpdated: '2026-01-10',
-  description: 'Systematische Ordnung der Schweizer Jass-Begriffe – verknüpft mit Wikidata',
+  description: 'Systematische Ordnung der Schweizer Jass-Begriffe, verknüpft mit Wikidata',
   license: 'https://creativecommons.org/licenses/by-sa/4.0/',
   publisher: {
     name: 'JassWiki.ch',
@@ -134,25 +134,25 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
   {
     id: 'spielarten',
     name: '1. Spielarten (Varianten)',
-    description: 'Spielarten definieren das Grundgerüst. Strukturmerkmal: 36-Blatt (Standard) vs. 24-Blatt (Königsspiele).',
+    description: 'Spielarten definieren das Grundgerüst. Die meisten werden mit 36 Karten gespielt, der Pandur mit 24.',
     subcategories: [
       {
         name: 'A) Partnerspiele (2×2 Teams, symmetrisch)',
         description: '36-Blatt. Feste Teams, kooperatives Spiel.',
         items: [
-          { name: 'Schieber', description: 'Die Standardvariante – Vorhand oder Schieben', wikidataId: 'Q137727247', link: '/schieber/', subclassOf: WIKIDATA.JASS },
-          { name: 'Coiffeur', description: 'Alle Modi Pflicht – Matrix mit Multiplikatoren', wikidataId: 'Q137731700', link: '/varianten/coiffeur/', subclassOf: WIKIDATA.JASS },
-          { name: 'Sidi Barrani', description: 'Bieten mit Punktzahl – «Double Jeopardy» Scoring', wikidataId: 'Q137738898', link: '/varianten/sidi-barrani/', subclassOf: WIKIDATA.JASS },
-          { name: 'Bolschewik', description: 'Mit doppeltem Kartendeck (72 Karten!)', wikidataId: 'Q137738843', link: '/varianten/bolschewik-4-spieler/', subclassOf: WIKIDATA.JASS },
+          { name: 'Schieber', description: 'Die Standardvariante: Vorhand sagt an oder schiebt', wikidataId: 'Q137727247', link: '/schieber/', subclassOf: WIKIDATA.JASS },
+          { name: 'Coiffeur', description: 'Jede Ansage einmal, jede mit eigenem Faktor', wikidataId: 'Q137731700', link: '/varianten/coiffeur/', subclassOf: WIKIDATA.JASS },
+          { name: 'Sidi Barrani', description: 'Bietspiel: Gebot aus Punktzahl und Trumpffarbe', wikidataId: 'Q137738898', link: '/varianten/sidi-barrani/', subclassOf: WIKIDATA.JASS },
+          { name: 'Bolschewik', description: 'Doppelkart ohne Sechser, Siebner und Achter, 48 Karten', wikidataId: 'Q137738843', link: '/varianten/bolschewik-4-spieler/', subclassOf: WIKIDATA.JASS },
           { name: 'Kreuzjass', description: 'Partner diagonal', wikidataId: 'Q137738899', subclassOf: WIKIDATA.JASS },
         ],
       },
       {
         name: 'B) Königsspiele (Asymmetrisch)',
-        description: 'Ein «König» gegen die «Bauernpartei». Oft mit 24-Blatt.',
+        description: 'Ein «König» gegen die «Bauernpartei».',
         items: [
-          { name: 'Pandur', description: '24-Blatt! Härteste Variante, sofortiger Verlust bei Fehler', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
-          { name: 'Bieter', description: '36-Blatt, flexibler als Pandur', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: WIKIDATA.JASS },
+          { name: 'Pandur', description: '24 Karten, streng nach Regeln: Ein Fehler kostet das laufende Spiel', wikidataId: 'Q1125719', link: '/varianten/pandur/', subclassOf: WIKIDATA.JASS },
+          { name: 'Bieter', description: '36 Karten, ein König gegen die Bauernpartei', wikidataId: 'Q137738835', link: '/varianten/bieter/', subclassOf: WIKIDATA.JASS },
           { name: 'Aucho', description: '«Erben»-Prinzip: Geber erhält Partner-Punkte', wikidataId: 'Q137739254', link: '/varianten/aucho/', subclassOf: WIKIDATA.JASS },
           { name: 'Schafhauser', description: 'Kein Bieten, Solospieler durch Karten bestimmt', wikidataId: 'Q137738841', link: '/varianten/schafhauser-3-spieler/', subclassOf: WIKIDATA.JASS },
         ],
@@ -160,16 +160,16 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
       {
         name: 'C) Einzelspiele (Jeder für sich)',
         items: [
-          { name: 'Differenzler', description: 'Differenz zum Ziel zählt negativ', wikidataId: 'Q137731684', link: '/varianten/differenzler-verdeckt/', subclassOf: WIKIDATA.JASS },
+          { name: 'Differenzler', description: 'Geschrieben wird die Differenz zur Ansage, das kleinste Total gewinnt', wikidataId: 'Q137731684', link: '/varianten/differenzler/', subclassOf: WIKIDATA.JASS },
           { name: 'Mittlere', description: 'Mittlere Punktzahl gewinnt', wikidataId: 'Q137738839', link: '/varianten/mittlere/', subclassOf: WIKIDATA.JASS },
-          { name: 'Handjass', description: 'Karten vom Stapel ziehen', wikidataId: 'Q137738900', link: '/varianten/handjass/', subclassOf: WIKIDATA.JASS },
+          { name: 'Handjass', description: 'Jeder für sich, die unterste Karte bestimmt den Trumpf', wikidataId: 'Q137738900', link: '/varianten/handjass/', subclassOf: WIKIDATA.JASS },
         ],
       },
       {
-        name: 'D) Destruktionsspiele (Invertiert)',
-        description: 'Ziel: Punkte VERMEIDEN! Das Gegenteil des klassischen Jass.',
+        name: 'D) Vermeidungsspiele',
+        description: 'Ziel: möglichst wenige Punkte.',
         items: [
-          { name: 'Molotow', description: 'Erster Farbverrat bestimmt Trumpf! Tischweis = schlecht', wikidataId: 'Q137738837', link: '/varianten/molotow/', subclassOf: WIKIDATA.JASS },
+          { name: 'Molotow', description: 'Wer als Erster nicht bedienen kann, bestimmt mit seiner Karte den Trumpf. Ein Tischweis zählt plus', wikidataId: 'Q137738837', link: '/varianten/molotow/', subclassOf: WIKIDATA.JASS },
           { name: 'Hindersi', description: 'Einfache Punkteminimierung', wikidataId: 'Q137738838', link: '/varianten/hindersi-allgemein/', subclassOf: WIKIDATA.JASS },
         ],
       },
@@ -177,7 +177,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'E) Sondervarianten',
         items: [
           { name: 'Chratze', description: 'Pot-Mechanik, nur 4 Karten', wikidataId: 'Q137738836', link: '/varianten/chratze/', subclassOf: WIKIDATA.JASS },
-          { name: 'Guggitaler', description: 'Mit Geldeinsatz, Glücksspiel', wikidataId: 'Q137738902', link: '/varianten/guggitaler/', subclassOf: WIKIDATA.JASS },
+          { name: 'Guggitaler', description: 'Serienjass ohne Trumpf, fünf Spiele mit je eigenem Ziel', wikidataId: 'Q137738902', link: '/varianten/guggitaler/', subclassOf: WIKIDATA.JASS },
           { name: 'Tschau Sepp', description: 'Ablegespiel (Mau-Mau), Lernvariante', wikidataId: 'Q137738840', link: '/varianten/tschau-sepp/', subclassOf: WIKIDATA.JASS },
           { name: 'Zwick-Jass', description: 'Mit «Schlecken» (Karten vom Stapel)', wikidataId: 'Q137738903', link: '/varianten/zwick/', subclassOf: WIKIDATA.JASS },
           { name: 'Zuger', description: 'Geber pausiert, erhält 10 Punkte pauschal', wikidataId: 'Q137738842', link: '/varianten/zuger/', subclassOf: WIKIDATA.JASS },
@@ -199,15 +199,15 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Trumpfspiele',
         description: 'Eine der vier Kartenfarben wird zum Trumpf erklärt und sticht alle anderen.',
         items: [
-          { name: 'Trumpf', description: 'Konzept: Eine Farbe sticht alle anderen – Puur & Nell werden aktiviert' },
+          { name: 'Trumpf', description: 'Eine Farbe sticht alle anderen. Ihr Under wird zum Puur, ihr Neuner zum Nell' },
         ],
       },
       {
         name: 'B) Richtungsspiele (Kein Trumpf)',
-        description: 'Kein Trumpf – die Rangfolge der Karten bestimmt den Stich.',
+        description: 'Ohne Trumpf: Die Rangfolge der Karten bestimmt den Stich.',
         items: [
           { name: 'Obenabe', description: 'Höchste Karte sticht (A > K > O > U > 10 > 9 > 8 > 7 > 6)', wikidataId: 'Q137737920', link: '/ansagen/obenabe/', instanceOf: WIKIDATA.JASS_CONTRACT },
-          { name: 'Undenufe', description: 'Tiefste Karte sticht (6 > 7 > 8 > 9 > 10 > U > O > K > A) – Rang-Inversion!', wikidataId: 'Q137738279', link: '/ansagen/undenufe/', instanceOf: WIKIDATA.JASS_CONTRACT },
+          { name: 'Undenufe', description: 'Tiefste Karte sticht (6 > 7 > 8 > 9 > 10 > U > O > K > A)', wikidataId: 'Q137738279', link: '/ansagen/undenufe/', instanceOf: WIKIDATA.JASS_CONTRACT },
           { name: 'Mitte', description: 'Banner (Zehner) ist die höchste Karte, Stechordnung von innen nach aussen (auch Tännli oder Mezzo)', link: '/ansagen/mitte/', instanceOf: WIKIDATA.JASS_CONTRACT },
         ],
       },
@@ -220,7 +220,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
           { name: 'Guschti', description: 'Variante von Quer: zuerst vier Stiche Obenabe, dann fünf Undenufe (Punkte wie Obenabe)', link: '/ansagen/quer/', instanceOf: WIKIDATA.JASS_CONTRACT },
           { name: 'Mary', description: 'Variante von Quer: zuerst vier Stiche Undenufe, dann fünf Obenabe (Punkte wie Undenufe)', link: '/ansagen/quer/', instanceOf: WIKIDATA.JASS_CONTRACT },
           { name: 'Trio (3×3)', description: '3 Stiche Trumpf, 3 Obenabe, 3 Undenufe', wikidataId: 'Q137739256', link: '/ansagen/trio-3-3/', instanceOf: WIKIDATA.JASS_CONTRACT },
-          { name: 'Misère', description: 'Minimalpunkte-Modus innerhalb einer Runde', wikidataId: 'Q137739257', link: '/ansagen/misere/', instanceOf: WIKIDATA.JASS_CONTRACT },
+          { name: 'Misère', description: 'Die Teams wollen möglichst jeden Stich abgeben', wikidataId: 'Q137739257', link: '/ansagen/misere/', instanceOf: WIKIDATA.JASS_CONTRACT },
           { name: 'Tutti', description: 'Coiffeur-Spielart: Obenabe mit Puur und Nell als höchste Karten, oder mit wechselndem Trumpf', link: '/ansagen/tutti/', instanceOf: WIKIDATA.JASS_CONTRACT },
         ],
       },
@@ -239,23 +239,23 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Sonderkarten = ROLLEN (nur bei Trumpf)',
         description: 'Puur und Nell sind keine Karten, sondern ROLLEN, die Karten bei Trumpf annehmen.',
         items: [
-          { name: 'Puur', description: 'ROLLE: Under wird zum höchsten Trumpf – 20 Punkte', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-puur/', instanceOf: WIKIDATA.GAME_MECHANIC },
-          { name: 'Nell', description: 'ROLLE: 9 wird zum zweithöchsten Trumpf – 14 Punkte', wikidataId: 'Q137738725', link: '/begriffe/kartenbezeichnungen/nell/', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Puur', description: 'ROLLE: Under wird zum höchsten Trumpf, 20 Punkte', wikidataId: 'Q137738724', link: '/begriffe/kartenbezeichnungen/trumpf-puur/', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Nell', description: 'ROLLE: 9 wird zum zweithöchsten Trumpf, 14 Punkte', wikidataId: 'Q137738725', link: '/begriffe/kartenbezeichnungen/nell/', instanceOf: WIKIDATA.GAME_MECHANIC },
         ],
       },
       {
         name: 'B) Bildkarten',
         items: [
-          { name: 'König', description: '4 Punkte – dritthöchster Trumpf / höchste Bildkarte', wikidataId: WIKIDATA.KOENIG },
-          { name: 'Ober', description: '3 Punkte – Schweizer/Deutsches Blatt', wikidataId: WIKIDATA.OBER },
-          { name: 'Dame', description: '3 Punkte – Französisches Blatt', wikidataId: WIKIDATA.DAME },
+          { name: 'König', description: '4 Punkte, im Trumpf die vierthöchste Karte nach Puur, Nell und Ass', wikidataId: WIKIDATA.KOENIG },
+          { name: 'Ober', description: '3 Punkte, Deutschschweizer Blatt', wikidataId: WIKIDATA.OBER },
+          { name: 'Dame', description: '3 Punkte, französisches Blatt', wikidataId: WIKIDATA.DAME },
           { name: 'Under', description: '2 Punkte (wird zum Puur bei Trumpf!)', wikidataId: WIKIDATA.UNDER },
         ],
       },
       {
         name: 'C) Zahlkarten',
         items: [
-          { name: 'Ass', description: '11 Punkte – wertvollste Nicht-Trumpf-Karte', wikidataId: WIKIDATA.ASS },
+          { name: 'Ass', description: '11 Punkte, die wertvollste Karte ausserhalb des Trumpfs', wikidataId: WIKIDATA.ASS },
           { name: 'Banner / Zehner', description: '10 Punkte' },
           { name: '9', description: '0 Punkte (wird zum Nell bei Trumpf → 14 Punkte!)' },
           { name: '8', description: '0 Punkte (8 Punkte bei Obenabe/Undenufe)' },
@@ -267,20 +267,20 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'D) SCHWEIZER BLATT (traditionell)',
         description: `Das traditionelle Jass-Blatt mit eigenständiger ikonografischer Identität. (${WIKIDATA.SWISS_CARDS_CONTAINER})`,
         items: [
-          { name: 'Schellen', description: 'Glöckchen-Symbol – eigenständige Schweizer Farbe', wikidataId: WIKIDATA.SCHELLEN, link: '/begriffe/kartenbezeichnungen/schellen/' },
-          { name: 'Schilten', description: 'Wappen-/Schildsymbol – heraldischer Ursprung', wikidataId: WIKIDATA.SCHILTEN, link: '/begriffe/kartenbezeichnungen/schilte/' },
-          { name: 'Rosen', description: 'Blumen-/Rosensymbol – NICHT identisch mit Herz!', wikidataId: WIKIDATA.ROSEN, link: '/begriffe/kartenbezeichnungen/rose/' },
-          { name: 'Eichel', description: 'Eichel-Symbol – Natur-/Jagdsymbolik', wikidataId: WIKIDATA.EICHEL, link: '/begriffe/kartenbezeichnungen/eichel/' },
+          { name: 'Schellen', description: 'Glöckchen-Symbol, eigenständige Schweizer Farbe', wikidataId: WIKIDATA.SCHELLEN, link: '/begriffe/kartenbezeichnungen/schellen/' },
+          { name: 'Schilten', description: 'Wappen- und Schildsymbol', wikidataId: WIKIDATA.SCHILTEN, link: '/begriffe/kartenbezeichnungen/schilten/' },
+          { name: 'Rosen', description: 'Rosensymbol, eigene Farbe des Deutschschweizer Blatts', wikidataId: WIKIDATA.ROSEN, link: '/begriffe/kartenbezeichnungen/rosen/' },
+          { name: 'Eichel', description: 'Eichel-Symbol', wikidataId: WIKIDATA.EICHEL, link: '/begriffe/kartenbezeichnungen/eichel/' },
         ],
       },
       {
         name: 'E) FRANZÖSISCHES BLATT (alternativ)',
         description: `Das internationale Kartensystem. Wird auch für Jass verwendet, besonders in der Westschweiz. (${WIKIDATA.FRENCH_CARDS_CONTAINER})`,
         items: [
-          { name: 'Herz ♥', description: 'Rote Farbe – international standardisiert', wikidataId: WIKIDATA.HERZ, link: '/begriffe/kartenbezeichnungen/herz/' },
-          { name: 'Ecke ♦', description: 'Rote Farbe – international standardisiert', wikidataId: WIKIDATA.ECKE, link: '/begriffe/kartenbezeichnungen/ecken/' },
-          { name: 'Kreuz ♣', description: 'Schwarze Farbe – international standardisiert', wikidataId: WIKIDATA.KREUZ, link: '/begriffe/kartenbezeichnungen/kreuz/' },
-          { name: 'Schaufel ♠', description: 'Schwarze Farbe – international standardisiert', wikidataId: WIKIDATA.SCHAUFEL, link: '/begriffe/kartenbezeichnungen/schaufel/' },
+          { name: 'Herz ♥', description: 'Rote Farbe des französischen Blatts', wikidataId: WIKIDATA.HERZ, link: '/begriffe/kartenbezeichnungen/herz/' },
+          { name: 'Ecke ♦', description: 'Rote Farbe des französischen Blatts', wikidataId: WIKIDATA.ECKE, link: '/begriffe/kartenbezeichnungen/ecke/' },
+          { name: 'Kreuz ♣', description: 'Schwarze Farbe des französischen Blatts', wikidataId: WIKIDATA.KREUZ, link: '/begriffe/kartenbezeichnungen/kreuz/' },
+          { name: 'Schaufel ♠', description: 'Schwarze Farbe des französischen Blatts', wikidataId: WIKIDATA.SCHAUFEL, link: '/begriffe/kartenbezeichnungen/schaufel/' },
         ],
       },
       {
@@ -290,7 +290,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
           // Aus der einen Zuordnung (src/config/farbenZuordnung.ts, JVS 06.10.2026).
           ...FARBEN_ZUORDNUNG.map((p) => ({
             name: `${p.de} ↔ ${p.fr} ${p.zeichen}`,
-            description: 'Funktionales Äquivalent – NICHT identisch!',
+            description: 'Spielt dieselbe Rolle, Bild und Name sind verschieden',
             link: `/begriffe/kartenbezeichnungen/${p.deDatei}/`,
           })),
         ],
@@ -310,21 +310,21 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Weispunkte (Kartenkombinationen)',
         description: 'Bonuspunkte für bestimmte Kartenkombinationen, die vor dem ersten Stich gemeldet werden.',
         items: [
-          { name: 'Weis', description: 'Konzept: Punktebonus für Kartenfolgen und Vierlinge', wikidataId: WIKIDATA.WEIS_CLASS, link: '/begriffe/punktebegriffe/weis/', subclassOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
-          { name: 'Dreiblatt', description: '3 aufeinanderfolgende Karten – 20 Punkte', wikidataId: 'Q137738727', link: '/weis-regeln/weis-arten/dreiblatt-3-blatt/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Vierblatt', description: '4 aufeinanderfolgende Karten – 50 Punkte', wikidataId: 'Q137738728', link: '/weis-regeln/weis-arten/vierblatt-4-blatt/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Fünfblatt', description: '5 aufeinanderfolgende Karten – 100 Punkte', wikidataId: 'Q137739569', link: '/weis-regeln/weis-arten/fuenfblatt-5-blatt/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Sechsblatt', description: '6 aufeinanderfolgende Karten – 150 Punkte', wikidataId: 'Q137739570', link: '/weis-regeln/weis-arten/sechsblatt-6-blatt/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Sieben-/Acht-/Neunblatt', description: '7–9 aufeinanderfolgende Karten – 200+ Punkte', wikidataId: 'Q137739571', link: '/weis-regeln/weis-arten/achtblatt-8-blatt/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Vier Gleiche', description: '4 Karten gleichen Rangs – 100–200 Punkte', wikidataId: 'Q137738729', link: '/weis-regeln/weis-arten/vier-gleiche-karten/', instanceOf: WIKIDATA.WEIS_CLASS },
-          { name: 'Stöck', description: 'König + Ober in Trumpffarbe – 20 Punkte', wikidataId: 'Q137738329', link: '/begriffe/kartenbezeichnungen/stoecke/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Weis', description: 'Punkte für Folgen und vier Gleiche', wikidataId: WIKIDATA.WEIS_CLASS, link: '/weis-regeln/weispunkte/', subclassOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
+          { name: 'Dreiblatt', description: '3 aufeinanderfolgende Karten, 20 Punkte', wikidataId: 'Q137738727', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Vierblatt', description: '4 aufeinanderfolgende Karten, 50 Punkte', wikidataId: 'Q137738728', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Fünfblatt', description: '5 aufeinanderfolgende Karten, 100 Punkte', wikidataId: 'Q137739569', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Sechsblatt', description: '6 aufeinanderfolgende Karten, 150 Punkte', wikidataId: 'Q137739570', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Sieben-/Acht-/Neunblatt', description: '7 bis 9 aufeinanderfolgende Karten, 200 bis 300 Punkte', wikidataId: 'Q137739571', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Vier Gleiche', description: '4 Karten gleichen Rangs, 100 bis 200 Punkte', wikidataId: 'Q137738729', link: '/weis-regeln/weispunkte/', instanceOf: WIKIDATA.WEIS_CLASS },
+          { name: 'Stöck', description: 'König und Ober der Trumpffarbe, 20 Punkte', wikidataId: 'Q137738329', link: '/weis-regeln/stoeck/', instanceOf: WIKIDATA.WEIS_CLASS },
         ],
       },
       {
         name: 'B) Sonderpunkte',
         items: [
-          { name: 'Matsch', description: 'Alle 9 Stiche gewonnen – +100 Bonus (entspricht Grand Slam)', wikidataId: 'Q137738726', link: '/begriffe/punktebegriffe/matsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
-          { name: 'Kontermatsch', description: 'Gegner matschiert zurück – +100 Bonus', wikidataId: 'Q137739566', link: '/begriffe/punktebegriffe/kontermatsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
+          { name: 'Matsch', description: 'Alle 9 Stiche gewonnen, 100 Punkte Matschprämie', wikidataId: 'Q137738726', link: '/begriffe/punktebegriffe/matsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
+          { name: 'Kontermatsch', description: 'Das Team, das den Trumpf nicht angesagt hat, macht alle Stiche. Gewertet wie ein Matsch mit 257 Punkten, zählt 2 Striche', wikidataId: 'Q137739566', link: '/begriffe/punktebegriffe/kontermatsch/', instanceOf: WIKIDATA.GAME_MECHANIC, partOf: WIKIDATA.JASS },
         ],
       },
     ],
@@ -343,14 +343,14 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         items: [
           { name: 'Mischen', description: 'Karten durchmischen', wikidataId: WIKIDATA.MISCHEN, link: '/regeln/kartenverteilung/mischen/', instanceOf: WIKIDATA.GAME_MECHANIC },
           { name: 'Abheben', description: 'Gegner hebt ab', wikidataId: WIKIDATA.ABHEBEN, link: '/regeln/kartenverteilung/abheben-der-karten/', instanceOf: WIKIDATA.GAME_MECHANIC },
-          { name: 'Geben', description: '3×3 oder 3+2+4 Karten verteilen', wikidataId: WIKIDATA.GEBEN, instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Geben', description: '3×3 Karten verteilen', wikidataId: WIKIDATA.GEBEN, instanceOf: WIKIDATA.GAME_MECHANIC },
         ],
       },
       {
         name: 'B) Spielaktionen',
         items: [
-          { name: 'Schieben', description: 'Delegation an Partner (nur Schieber)', link: '/begriffe/spielaktionen/schieben/' },
-          { name: 'Weisen', description: 'Kartenkombinationen melden', link: '/weis-regeln/weisen-allgemein/' },
+          { name: 'Schieben', description: 'Vorhand überlässt die Trumpfwahl dem Partner', link: '/begriffe/spielaktionen/schieben/' },
+          { name: 'Weisen', description: 'Kartenkombinationen melden', link: '/weis-regeln/weispunkte/' },
           { name: 'Bedanken', description: 'Bei Erreichen der Zielpunktzahl', link: '/begriffe/spielaktionen/bedanken/' },
           { name: 'Schreiben', description: 'Punkte auf Tafel/App notieren', link: '/regeln/schreiben/' },
         ],
@@ -370,8 +370,8 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Kernregeln mit Wikidata-Relevanz',
         description: 'Regeln, die als eigenständige Konzepte auf Wikidata existieren.',
         items: [
-          { name: 'Untertrumpf-Verbot', description: 'KEIN niedrigerer Trumpf, wenn höherer liegt!', wikidataId: 'Q137739568', instanceOf: WIKIDATA.GAME_MECHANIC },
-          { name: 'Stöck-Weis-Stich', description: 'Zählreihenfolge: 1) Stöck, 2) Weis, 3) Stiche', wikidataId: 'Q137739567', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Untertrumpf-Verbot', description: 'Liegt schon ein Trumpf im Stich, trumpft man höher. Tiefer trumpfen darf, wer nur noch Trumpfkarten hat', wikidataId: 'Q137739568', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Stöck-Weis-Stich', description: 'Ausmachregel: Erreichen beide Teams im ersten Stich das Ziel, gilt Stöck vor Weis vor Stich', wikidataId: 'Q137739567', instanceOf: WIKIDATA.GAME_MECHANIC },
         ],
       },
     ],
@@ -389,7 +389,7 @@ export const JASS_TAXONOMY: TaxonomyCategory[] = [
         name: 'A) Punktebegriffe',
         description: 'Fachbegriffe rund um die Wertung.',
         items: [
-          { name: 'Bergpreis', description: 'Bonuspunkte für das erste Team, das die Hälfte erreicht', wikidataId: 'Q137739565', link: '/regeln/bergpreis/', instanceOf: WIKIDATA.GAME_MECHANIC },
+          { name: 'Bergpreis', description: 'Ein Strich für das Team, das als Erstes die Hälfte des Spielziels erreicht', wikidataId: 'Q137739565', link: '/regeln/bergpreis/', instanceOf: WIKIDATA.GAME_MECHANIC },
         ],
       },
       {

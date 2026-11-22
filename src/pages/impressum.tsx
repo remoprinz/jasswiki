@@ -48,10 +48,10 @@ const ImpressumPage = () => {
         </p>
         <ul className="list-disc list-inside mb-4 text-gray-300 space-y-2">
           <li>
-            <strong>Remo Prinz</strong> – Betreiber von <a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">JassGuru.ch</a>
+            <strong>Remo Prinz</strong>, Betreiber von <a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">JassGuru.ch</a>
           </li>
           <li>
-            <strong>Fabian Cadonau</strong> – Betreiber von <a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">Trumpf-As.ch</a>
+            <strong>Fabian Cadonau</strong>, Betreiber von <a href="https://trumpf-as.ch" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline">Trumpf-As.ch</a>
           </li>
         </ul>
 
