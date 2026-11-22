@@ -178,7 +178,7 @@ const JASSWIKI_SCHEMA = {
       "@id": "https://jassguru.ch/#organization",
       "name": "JassGuru",
       "url": "https://jassguru.ch",
-      "description": "JassGuru (Jasstafel) ist die digitale Jass-Kreidetafel der Schweiz mit Elo-Ratingsystem, Statistiken, Gruppenranglisten und Turniermodul für die Schweizer Jass-Community.",
+      "description": "JassGuru (Jasstafel) schreibt am Jasstisch die Punkte, mit Elo-Ratingsystem, Statistiken, Gruppenranglisten und Turniermodul für die Schweizer Jass-Community.",
       "applicationCategory": "SportsApplication",
       "sameAs": ["https://www.wikidata.org/wiki/Q140268082"],
       "parentOrganization": { "@id": "https://jassverband.ch/#organization" },
