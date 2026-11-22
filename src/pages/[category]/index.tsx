@@ -13,7 +13,7 @@ import { InternalLinker } from '@/components/layout/InternalLinker';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { JassAppKarten, type AppGruppe } from '@/components/wissen/JassAppKarten';
-import { GliederungsBloecke, gliederungsSeite, zahlZeile, type GSeite } from '@/components/wissen/GliederungsSeite';
+import { GliederungsBloecke, LeserFrage, gliederungsSeite, zahlZeile, type GSeite } from '@/components/wissen/GliederungsSeite';
 import { gliederungsSeiten, stelleVon } from '@/lib/gliederung';
 import { adressSegmente } from '@/lib/url-utils';
 
@@ -289,12 +289,17 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
           <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
             {h1}
           </h1>
-          <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
-            {gliederung
-              ? zahlZeile(gliederung)
-              : `${subcategories.length}${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
-            }
-          </p>
+          {/* Schritt 4: Die Frage des Lesers ersetzt die Zahlzeile, wo die Gliederung sie trägt. */}
+          {gliederung?.frage ? (
+            <LeserFrage frage={gliederung.frage} />
+          ) : (
+            <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
+              {gliederung
+                ? zahlZeile(gliederung)
+                : `${subcategories.length}${subcategories.length === 1 ? 'Themenbereich' : 'Themenbereiche'} mit insgesamt ${subcategories.reduce((sum, sub) => sum + sub.count, 0)} Artikeln`
+              }
+            </p>
+          )}
         </div>
 
         {/* Einleitung aus rubriken.json, zwischen Kopf und Karten */}
@@ -330,9 +335,6 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category, categorySlug, sub
                           {subcategory.count} Artikel
                         </span>
                       </div>
-                      <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">
-                        Alle Artikel über {subcategory.name} im Detail
-                      </p>
                     </div>
                     <div className="ml-4 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all flex-shrink-0">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

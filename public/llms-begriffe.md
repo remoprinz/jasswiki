@@ -543,14 +543,11 @@ Spielt die Runde mit einem Multiplikator, gilt er auch für die Prämie. Ein vie
 
 Das Nell ist der Neuner (9) der Trumpffarbe. Im Trumpf steigt der Neuner: Mit 14 Punkten und als zweithöchste Stechkarte ist das Nell nach dem Under (Puur) die wertvollste Trumpfkarte. Auch das Trumpf-Ass schlägt es nicht. Fallen Nell und Trumpf-Ass im selben Stich, gewinnt das Nell.
 
+
 Das gilt allein in der Trumpffarbe. In einer Nebenfarbe ist die 9 eine gewöhnliche Karte ohne Punktwert und ohne Sonderrang.
 
-Zusammen mit dem Under (Puur) bildet das Nell die beiden höchsten Karten des Trumpfs.
-
 **Häufige Fragen:**
-- **Was ist das Nell beim Jassen?** Das Nell ist der Trumpf-Neuner, die zweithöchste Karte einer Trumpffarbe.
-- **Wie viele Punkte ist das Nell wert?** Das Nell ist 14 Punkte wert.
-- **Welche Karte ist stärker als das Nell?** Nur der Trumpf-Bauer (Puur) ist stärker als das Nell.
+- **Welche Karte ist stärker als das Nell?** Nur der Puur ist stärker als das Nell.
 - **Ist das Nell die 9 oder die 10?** Das Nell ist immer die 9 (Neun) der Trumpffarbe, nicht die 10.
 - **Gibt es bei Obenabe, Undenufe, Quer oder Slalom ein Nell?** Nein. Diese Varianten werden ohne Trumpf gespielt, deshalb gibt es kein Nell. Der Neuner ist dort eine gewöhnliche Karte ohne Sonderwert.
 

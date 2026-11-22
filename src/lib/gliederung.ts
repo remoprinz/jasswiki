@@ -26,6 +26,8 @@ export interface GEintrag {
 export interface GKapitel {
   name: string;
   slug: string;
+  /** Die Frage des Lesers, die das Kapitel beantwortet (Schritt 4). */
+  frage?: string;
   /** Eigene Seite des Kapitels, falls es eine hat. */
   adresse?: string;
   /** Ziel eines Verweises auf das Kapitel: die eigene Seite, sonst die Rubrikseite mit Sprungmarke. */
@@ -39,14 +41,16 @@ export interface GRubrik {
   name: string;
   adresse: string;
   darstellung: Darstellung;
+  /** Die Frage des Lesers, die die Rubrik beantwortet (Schritt 4). */
+  frage?: string;
   teile: GTeil[];
 }
 
 type RohEintrag = string | { id: string; gehtAufIn?: string } | { verweis: string };
-type RohTeil = RohEintrag | { kapitel: string; adresse?: string; artikel: RohEintrag[] };
+type RohTeil = RohEintrag | { kapitel: string; adresse?: string; frage?: string; artikel: RohEintrag[] };
 interface RohGliederung {
   einstieg: { name: string; adresse: string; artikel: string };
-  rubriken: { name: string; adresse: string; darstellung: Darstellung; eintraege: RohTeil[] }[];
+  rubriken: { name: string; adresse: string; frage?: string; darstellung: Darstellung; eintraege: RohTeil[] }[];
 }
 
 const datei = roh as unknown as RohGliederung;
@@ -64,6 +68,7 @@ export const rubriken: GRubrik[] = datei.rubriken.map((r) => ({
   name: r.name,
   adresse: r.adresse,
   darstellung: r.darstellung,
+  ...(r.frage ? { frage: r.frage } : {}),
   teile: r.eintraege.map((t): GTeil => {
     if (typeof t === 'object' && 'kapitel' in t) {
       const slug = toSlug(t.kapitel);
@@ -73,6 +78,7 @@ export const rubriken: GRubrik[] = datei.rubriken.map((r) => ({
           name: t.kapitel,
           slug,
           ...(t.adresse ? { adresse: t.adresse } : {}),
+          ...(t.frage ? { frage: t.frage } : {}),
           href: t.adresse ?? `${r.adresse}#${slug}`,
           eintraege: t.artikel.map(eintrag),
         },
@@ -154,3 +160,17 @@ const stelleJeAdresse = new Map(Object.values(inhalt).map((a) => [a.metadata.adr
 
 /** Stelle des Artikels an einer festen Adresse in der Gliederung (für Listen mit festen Adressen). */
 export const stelleAnAdresse = (adresse: string): number => stelleJeAdresse.get(adresse) ?? Number.MAX_SAFE_INTEGER;
+
+/** Die Frage des Lesers einer Rubrik- oder Kapitelseite (Schritt 4), sonst undefined. */
+export const frageAnAdresse = (adresse: string): string | undefined =>
+  rubrikAnAdresse(adresse)?.frage ?? kapitelAnAdresse(adresse)?.kapitel.frage;
+
+/**
+ * Etiketten über einem Artikel (Schritt 4): Rubrik und Kapitel der Gliederung.
+ * Steht der Artikel nicht in der Gliederung, gelten die bisherigen Namen.
+ */
+export const etikettenVon = (id: string, rubrikBisher: string, kapitelBisher?: string): { rubrik: string; kapitel?: string } => {
+  const ort = orte.get(id);
+  if (!ort?.rubrik) return { rubrik: rubrikBisher, ...(kapitelBisher ? { kapitel: kapitelBisher } : {}) };
+  return { rubrik: ort.rubrik.name, ...(ort.kapitel ? { kapitel: ort.kapitel.name } : {}) };
+};

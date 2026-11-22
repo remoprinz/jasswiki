@@ -545,7 +545,7 @@ Wie stark die KI gegen die besten Menschen jasst, ist noch offen, für den Verba
 
 ## Wer baut die Jass-KI?
 
-Hinter AlphaJass steht der [Jassverband Schweiz](https://jassverband.ch), der auch dieses Wiki herausgibt. Forschungspartner ist die FHNW School of Engineering mit ihrem Institut für Data Science in Windisch. Die Hasler Stiftung fördert die Forschung an der FHNW. Das Projekt läuft von Juli 2026 bis Juni 2027.
+AlphaJass ist ein Forschungsprojekt der [FHNW](https://www.fhnw.ch/) und des [Jassverbands Schweiz](https://jassverband.ch). An der FHNW forscht das Institut für Data Science der School of Engineering in Windisch, gefördert von der Hasler Stiftung. AlphaJass läuft von Juli 2026 bis Juni 2027. Der Jassverband Schweiz gibt auch dieses Wiki heraus. Das Bundesamt für Kultur unterstützt den Verband bei seinem Projekt «Zeitgemässe Vermittlung der Jasskultur 2026».
 
 Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt AlphaJass» einschalten und gibt damit seine Partien gegen die KI für die Forschung frei. Die FHNW erhält sie unter einem Forschungs-Kürzel statt unter dem Jassnamen. Den Schalter stellt man jederzeit wieder aus. Alles Weitere steht im [Studien-Infoblatt](https://jassguru.ch/forschung/alphajass/).
 

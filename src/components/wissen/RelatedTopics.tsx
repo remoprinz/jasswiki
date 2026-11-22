@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import { etikettenVon } from '@/lib/gliederung';
 
 interface RelatedTopicsProps {
   currentArticleId: string;
@@ -67,7 +68,7 @@ export const RelatedTopics: React.FC<RelatedTopicsProps> = ({
         return {
           id: item.id,
           title: item.metadata.category.topic,
-          category: item.metadata.category.main,
+          category: etikettenVon(item.id, item.metadata.category.main).rubrik,
           url,
           relevanceScore
         };

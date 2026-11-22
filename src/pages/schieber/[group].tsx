@@ -8,7 +8,7 @@ import { SeoHead } from '@/components/layout/SeoHead';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse } from '@/lib/url-utils';
 import { SCHIEBER_GROUPS, schieberArtikel } from './index';
-import { stelleVon } from '@/lib/gliederung';
+import { etikettenVon, stelleVon } from '@/lib/gliederung';
 import { vorschauText } from '@/components/wissen/vorschau';
 
 interface SchieberGroupPageProps {
@@ -51,7 +51,7 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
     <>
       <SeoHead
         title={`${groupTitle}: Schieber | Jass-Wiki`}
-        description={`Alle Artikel über ${groupTitle} rund um den Schieber im JassWiki.`}
+        description={`${groupTitle} rund um den Schieber im Jass-Wiki: ${items.slice(0, 6).map((i) => i.metadata.category.topic).join(", ")}.`}
         canonicalUrl={`${siteUrl}/schieber/${groupSlug}/`}
       />
 
@@ -85,8 +85,8 @@ const SchieberGroupPage: NextPage<SchieberGroupPageProps> = ({ groupTitle, group
                             <h3 className="font-capita text-[17px] sm:text-[19px] font-bold !text-black group-hover:!text-[#ff0000] transition-colors leading-[1.3]">
                                 {item.metadata.category.topic}
                               </h3>
-                          <span className="jw-article-tag flex-shrink-0 self-start" style={getTagStyle(item.metadata.category.main)}>
-                            {item.metadata.category.main}
+                          <span className="jw-article-tag flex-shrink-0 self-start" style={getTagStyle(etikettenVon(item.id, item.metadata.category.main).rubrik)}>
+                            {etikettenVon(item.id, item.metadata.category.main).rubrik}
                           </span>
                         </div>
                         <p className="font-inter text-[13px] text-[#88816d] line-clamp-2 leading-[1.5]">

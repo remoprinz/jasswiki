@@ -5,7 +5,11 @@ import Head from 'next/head';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
-import { stelleAnAdresse } from '@/lib/gliederung';
+import { rubrikAnAdresse, stelleAnAdresse } from '@/lib/gliederung';
+import { LeserFrage } from '@/components/wissen/GliederungsSeite';
+
+// Die Frage des Lesers (Schritt 4) aus src/data/gliederung.json.
+const ANSAGEN_FRAGE = rubrikAnAdresse('/ansagen/')?.frage;
 
 const SITE_URL = 'https://jasswiki.ch';
 
@@ -76,6 +80,7 @@ const AnsagenLeitartikel: NextPage = () => {
             <h1 className="font-capita text-[32px] sm:text-[42px] font-bold text-[#ff0000] mb-[12px] leading-[1.1]">
               Ansagen
             </h1>
+            {ANSAGEN_FRAGE && <div className="mb-[12px]"><LeserFrage frage={ANSAGEN_FRAGE} /></div>}
             <div className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 Die Wahl der richtigen Ansage ist der vielleicht wichtigste Aspekt beim Jassen. Beim{' '}

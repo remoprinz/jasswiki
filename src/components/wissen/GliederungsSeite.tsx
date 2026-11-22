@@ -14,11 +14,13 @@ import {
 
 export type GBlock =
   | { art: 'artikel'; artikel: ArtikelStub }
-  | { art: 'kapitelkarte'; name: string; href: string; anzahl: number }
+  | { art: 'kapitelkarte'; name: string; href: string; anzahl: number; frage?: string }
   | { art: 'abschnitt'; name: string; slug: string; artikel: ArtikelStub[] };
 
 export interface GSeite {
   name: string;
+  /** Die Frage des Lesers (Schritt 4), steht unter der Überschrift. */
+  frage?: string;
   /** Rubrik über einer Kapitelseite (für die Brotkrumen). */
   eltern?: { name: string; href: string };
   darstellung: Darstellung | 'kapitel';
@@ -41,7 +43,7 @@ export function gliederungsSeite(adresse: string): GSeite | null {
     const bloecke: GBlock[] = rubrik.teile.flatMap((t): GBlock[] => {
       if (t.art === 'eintrag') return stubs([t.eintrag]).map((s) => ({ art: 'artikel' as const, artikel: s }));
       if (rubrik.darstellung === 'kapitelkarten') {
-        return [{ art: 'kapitelkarte', name: t.kapitel.name, href: t.kapitel.href, anzahl: t.kapitel.eintraege.length }];
+        return [{ art: 'kapitelkarte', name: t.kapitel.name, href: t.kapitel.href, anzahl: t.kapitel.eintraege.length, ...(t.kapitel.frage ? { frage: t.kapitel.frage } : {}) }];
       }
       return [{ art: 'abschnitt', name: t.kapitel.name, slug: t.kapitel.slug, artikel: stubs(t.kapitel.eintraege) }];
     });
@@ -52,6 +54,7 @@ export function gliederungsSeite(adresse: string): GSeite | null {
     }
     return {
       name: rubrik.name,
+      ...(rubrik.frage ? { frage: rubrik.frage } : {}),
       darstellung: rubrik.darstellung,
       bloecke,
       artikelZahl: alle.length,
@@ -63,6 +66,7 @@ export function gliederungsSeite(adresse: string): GSeite | null {
     const artikel = stubs(k.kapitel.eintraege);
     return {
       name: k.kapitel.name,
+      ...(k.kapitel.frage ? { frage: k.kapitel.frage } : {}),
       eltern: { name: k.rubrik.name, href: k.rubrik.adresse },
       darstellung: 'kapitel',
       bloecke: artikel.map((s) => ({ art: 'artikel' as const, artikel: s })),
@@ -116,7 +120,7 @@ export const GliederungsBloecke: React.FC<{ seite: GSeite }> = ({ seite }) => {
     <div className="grid gap-4 sm:gap-5">
       {seite.bloecke.map((b, i) => {
         if (b.art === 'artikel') return <ArtikelKarten key={`a-${i}`} artikel={[b.artikel]} />;
-        if (b.art === 'kapitelkarte') return <KapitelKarte key={b.href} name={b.name} href={b.href} anzahl={b.anzahl} />;
+        if (b.art === 'kapitelkarte') return <KapitelKarte key={b.href} name={b.name} href={b.href} anzahl={b.anzahl} frage={b.frage} />;
         return (
           <section key={b.slug} id={b.slug} className="pt-2">
             <h2 className="font-capita text-[22px] sm:text-[26px] font-bold text-black mb-[16px] leading-[1.2]">{b.name}</h2>
@@ -127,3 +131,10 @@ export const GliederungsBloecke: React.FC<{ seite: GSeite }> = ({ seite }) => {
     </div>
   );
 };
+
+/** Die Frage des Lesers unter der Überschrift einer Rubrik- oder Kapitelseite (Schritt 4). */
+export const LeserFrage: React.FC<{ frage: string }> = ({ frage }) => (
+  <p className="font-capita text-[17px] sm:text-[20px] font-bold text-black leading-[1.4]" data-leserfrage>
+    {frage}
+  </p>
+);

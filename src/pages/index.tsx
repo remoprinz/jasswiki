@@ -5,7 +5,8 @@ import { ChevronRight } from 'lucide-react';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { startChips } from '@/components/wissen/rubriken';
-import { FaBalanceScale, FaBook, FaHandPointRight, FaBullhorn, FaChessKnight } from 'react-icons/fa';
+import { einstieg, rubriken } from '@/lib/gliederung';
+import { FaBalanceScale, FaBook, FaBullhorn, FaChessKnight } from 'react-icons/fa';
 import { GiPokerHand } from 'react-icons/gi';
 import { CgSwiss } from 'react-icons/cg';
 import { FaHouse } from 'react-icons/fa6';
@@ -18,6 +19,7 @@ const ICON_COLORS: Record<string, string> = {
     jassen: 'bg-white border border-[#e8e6df]',
     regeln: 'bg-[#ff4b55]',
     'weis-regeln': 'bg-[#ff7a1a]',
+    'jassen-lernen': 'bg-[#ff7a1a]',
     geschichte: 'bg-[#f6b21a]',
     'grundlagen-kultur': 'bg-[#2bb752]',
     schieber: 'bg-[#3b82f6]',
@@ -36,7 +38,7 @@ const CHIP =
 // den der Chip «Schieber» aus rubriken.json ersetzt.
 const WEITERE_CHIPS: { wort: string; pfad: string }[] = [
     { wort: 'Jass des Tages', pfad: '/jass-des-tages/' },
-    { wort: 'Weis-Regeln', pfad: '/weis-regeln/' },
+    { wort: 'Wys und Stöck', pfad: '/weis-regeln/' },
     { wort: 'Jass-ABC', pfad: '/begriffe/' },
     { wort: 'Etymologie «Matsch»', pfad: '/geschichte/wortherkunft/etymologie-des-begriffs-matsch/' },
     { wort: 'Referenzen', pfad: '/referenzen/' },
@@ -63,6 +65,18 @@ const WissenHomePage = () => {
         };
     }, []);
 
+    // Kacheln nach der Gliederung (Schritt 4, 22.11.2026): Jassen, Jassen lernen,
+    // die sieben Rubriken in ihrer Reihenfolge, Referenzen. Name und Frage des
+    // Lesers kommen aus src/data/gliederung.json.
+    const RUBRIK_ICONS: Record<string, IconType> = {
+        regeln: FaBalanceScale,
+        ansagen: FaBullhorn,
+        varianten: GrMultiple,
+        'taktiken-und-strategien': FaChessKnight,
+        begriffe: FaHouse,
+        geschichte: FaBook,
+        jassapps: MdPhoneIphone,
+    };
     const categories: { slug: string; name: string; description: string; icon: IconType }[] = [
         {
             slug: 'jassen',
@@ -71,67 +85,17 @@ const WissenHomePage = () => {
             icon: CgSwiss,
         },
         {
-            slug: 'regeln',
-            name: 'Regeln',
-            description: 'Alle offiziellen Spielregeln, Sonderregeln und Ausnahmefälle im Detail',
-            icon: FaBalanceScale,
-        },
-        { 
-            slug: 'weis-regeln', 
-            name: 'Weis-Regeln',
-            description: 'Weis, Stöck und ihre Punkte: was zählt und wer schreibt',
+            slug: 'jassen-lernen',
+            name: einstieg.name,
+            description: 'In sechs Schritten von den Karten bis zum ersten Spiel',
             icon: GiPokerHand,
         },
-        { 
-            slug: 'geschichte', 
-            name: 'Geschichte',
-            description: 'Wie entstand das Jassen? Woher das Jassen kommt und wie es in die Schweiz gelangte',
-            icon: FaBook,
-        },
-        { 
-            slug: 'grundlagen-kultur', 
-            name: 'Grundlagen & Kultur',
-            description: 'Kartenwerte, Spielablauf und die kulturelle Bedeutung des Jassens in der Schweiz',
-            icon: CgSwiss,
-        },
+        ...rubriken.map((r) => {
+            const slug = r.adresse.replace(/^\/|\/$/g, '');
+            return { slug, name: r.name, description: r.frage ?? '', icon: RUBRIK_ICONS[slug] ?? FaBook };
+        }),
         {
-            slug: 'schieber',
-            name: 'Schieber',
-            description: 'Die beliebteste Jassvariante: Regeln, Taktik und Konventionen',
-            icon: FaHandPointRight,
-        },
-        {
-            slug: 'ansagen',
-            name: 'Ansagen',
-            description: 'Obenabe, Undenufe, Slalom, Tutti und alle weiteren Ansagen',
-            icon: FaBullhorn,
-        },
-        {
-            slug: 'taktiken-und-strategien',
-            name: 'Taktiken & Strategien',
-            description: 'Verwerfen, Anziehen und weitere Signale: so verständigen sich Partner am Tisch',
-            icon: FaChessKnight,
-        },
-        { 
-            slug: 'begriffe', 
-            name: 'Jass-Begriffe',
-            description: 'Von «Ablupf» bis «Wand»: die Jass-Ausdrücke mit Bedeutung und Regel',
-            icon: FaHouse,
-        },
-        { 
-            slug: 'varianten', 
-            name: 'Jass-Varianten',
-            description: 'Coiffeur, Differenzler, Pandur und weitere Jassarten mit ihren Regeln',
-            icon: GrMultiple,
-        },
-        { 
-            slug: 'jassapps', 
-            name: 'Jassapps',
-            description: 'Digitale Jasstafeln und Online-Jass im Überblick',
-            icon: MdPhoneIphone,
-        },
-        { 
-            slug: 'referenzen', 
+            slug: 'referenzen',
             name: 'Referenzen',
             description: 'Quellen, Literatur und Experten rund um das Jassen',
             icon: VscReferences,

@@ -5,8 +5,31 @@ import Head from 'next/head';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { FaqJsonLdSchema } from '@/components/seo/FaqJsonLdSchema';
+import { artikel as gArtikel, rubrikAnAdresse } from '@/lib/gliederung';
+import { artikelAdresse } from '@/lib/url-utils';
+import { LeserFrage } from '@/components/wissen/GliederungsSeite';
 
 const SITE_URL = 'https://jasswiki.ch';
+
+// Kacheln nach der Gliederung (Schritt 4, 22.11.2026): die Kapitel der Rubrik
+// Taktik und ihre losen Artikel in fester Reihenfolge, die Zahl aus der Datei.
+// Die Sätze der Kacheln bleiben die bisherigen.
+const KACHEL_SATZ: Record<string, string> = {
+  '/taktiken-und-strategien/austrumpfen/': 'Die erste Arbeit des Trumpfansagers: warum er Trumpf spielt, wie oft, und woran er merkt, dass Schluss ist.',
+  '/taktiken-und-strategien/kommunikation-signale/': 'Wie sich Partner über die Wahl und Reihenfolge ihrer Karten verständigen, ganz ohne Worte.',
+  '/taktiken-und-strategien/punktetaktiken/': 'Punkte, Multiplikatoren, Berg und Schneider im Blick behalten, statt nur aufs Blatt zu schauen.',
+};
+const taktikRubrik = rubrikAnAdresse('/taktiken-und-strategien/');
+const taktikKacheln: { href: string; name: string; desc: string; label: string }[] = (taktikRubrik?.teile ?? []).flatMap((t) => {
+  if (t.art === 'kapitel') {
+    const n = t.kapitel.eintraege.filter((e) => e.art === 'artikel').length;
+    return [{ href: t.kapitel.href, name: t.kapitel.name, desc: KACHEL_SATZ[t.kapitel.href] ?? t.kapitel.frage ?? '', label: `${n} Artikel` }];
+  }
+  const a = gArtikel(t.eintrag.id);
+  if (!a) return [];
+  const href = artikelAdresse(a);
+  return [{ href, name: a.metadata.category.topic, desc: KACHEL_SATZ[href] ?? '', label: 'Artikel' }];
+});
 
 const FAQS = [
   {
@@ -41,7 +64,7 @@ const TaktikenStrategienPage: NextPage = () => {
 
   const breadcrumbItems = [
     { name: 'Jass-Wiki', href: '/' },
-    { name: 'Taktiken und Strategien', href: '/taktiken-und-strategien/' },
+    { name: taktikRubrik?.name ?? 'Taktik', href: '/taktiken-und-strategien/' },
   ];
 
   return (
@@ -91,6 +114,7 @@ const TaktikenStrategienPage: NextPage = () => {
             <h1 className="font-capita text-[32px] sm:text-[42px] font-bold text-[#ff0000] mb-[12px] leading-[1.1]">
               Jass-Taktik und Strategie
             </h1>
+            {taktikRubrik?.frage && <div className="mb-[12px]"><LeserFrage frage={taktikRubrik.frage} /></div>}
             <div className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7] space-y-4">
               <p>
                 Beim Jassen entscheidet selten das bessere Blatt allein. Gerade beim{' '}
@@ -121,29 +145,10 @@ const TaktikenStrategienPage: NextPage = () => {
               Themenbereiche
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[12px] sm:gap-[16px]">
-              {[
-                {
-                  slug: 'austrumpfen',
-                  name: 'Austrumpfen',
-                  desc: 'Die erste Arbeit des Trumpfansagers: warum er Trumpf spielt, wie oft, und woran er merkt, dass Schluss ist.',
-                  label: 'Grundlagen-Artikel',
-                },
-                {
-                  slug: 'kommunikation-signale',
-                  name: 'Kommunikation & Signale',
-                  desc: 'Wie sich Partner über die Wahl und Reihenfolge ihrer Karten verständigen, ganz ohne Worte.',
-                  label: '8 Artikel',
-                },
-                {
-                  slug: 'punktetaktiken',
-                  name: 'Punktetaktiken',
-                  desc: 'Punkte, Multiplikatoren, Berg und Schneider im Blick behalten, statt nur aufs Blatt zu schauen.',
-                  label: 'Strategie-Artikel',
-                },
-              ].map((c) => (
+              {taktikKacheln.map((c) => (
                 <Link
-                  key={c.slug}
-                  href={`/taktiken-und-strategien/${c.slug}/`}
+                  key={c.href}
+                  href={c.href}
                   className="group block"
                 >
                   <div className="h-full bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] px-[16px] sm:px-[20px] py-[16px] sm:py-[18px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors flex flex-col">

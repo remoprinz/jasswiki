@@ -21,10 +21,11 @@ import { JassenKarte } from '@/components/wissen/JassenKarte';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
 import { TextMitBildern, hatArtikelBilder } from '@/components/wissen/ArtikelBilder';
 import { festerPfad, artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
-import { gliederungsSeiten, kapitelAnAdresse, krumenFuerArtikel, seitenName, stelleVon, type Krume } from '@/lib/gliederung';
+import { etikettenVon, gliederungsSeiten, kapitelAnAdresse, krumenFuerArtikel, seitenName, stelleVon, type Krume } from '@/lib/gliederung';
 import { ArtikelKarten, artikelStub, type ArtikelStub } from '@/components/wissen/ArtikelKarten';
 import { rubrikSeite } from '@/components/wissen/rubriken';
 import { RubrikFragen } from '@/components/wissen/RubrikFragen';
+import { LeserFrage } from '@/components/wissen/GliederungsSeite';
 import { ArtikelHuelle, huelleGilt } from '@/components/wissen/ArtikelHuelle';
 import { seitenTitel, themaVorSatz } from '@/components/seo/seitenTitel';
 
@@ -64,10 +65,12 @@ interface SubcategoryPageProps {
   subcategory: string;
   subcategorySlug: string;
   articles: JassContentItem[];
-  /** Name der bisherigen Unterrubrik für Suchergebnis-Texte (bleiben bis Schritt 4). */
+  /** Name der Seite für Suchergebnis-Texte: das Kapitel, sonst die bisherige Unterrubrik. */
   seoName?: string;
   /** Listenseite: die Artikel in der Reihenfolge der Gliederung. */
   liste?: ArtikelStub[];
+  /** Die Frage des Lesers einer Kapitelseite (Schritt 4). */
+  frage?: string | null;
   /** Artikelseite, die zugleich Kapitelseite ist: die übrigen Artikel des Kapitels. */
   bereich?: ArtikelStub[];
   /** Brotkrumen über der Seite (die Seite selbst hängt die Vorlage an). */
@@ -85,6 +88,7 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   subcategorySlug,
   articles = [],
   liste = [],
+  frage = null,
   seoName,
   bereich: bereichListe = [],
   krumen,
@@ -268,8 +272,9 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             {/* Artikel-Header */}
             <header className="text-left pb-6 border-b border-[#f0eee7]">
               <div className="jw-article-tags mb-[10px]">
-                <span className="jw-article-tag" style={getTagStyle(category, '#00aa2f')}>
-                  {category}
+                {/* Etikett nach der Gliederung (Schritt 4): die Rubrik. */}
+                <span className="jw-article-tag" style={getTagStyle(etikettenVon(contentItem.id, category).rubrik, '#00aa2f')}>
+                  {etikettenVon(contentItem.id, category).rubrik}
                 </span>
                 {showDifficulty && (
                   <span className="jw-article-tag" style={getTagStyle('difficulty', '#2563eb')}>
@@ -353,9 +358,12 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
   const rubrik = rubrikSeite(`${categorySlug}/${subcategorySlug}`);
   const subIntro = rubrik.einleitung ? undefined : SUB_INTROS[`${categorySlug}/${subcategorySlug}`];
   const listPageTitle = rubrik.seoTitle ?? seitenTitel(seoName ?? subcategory, category);
+  // Schritt 4: Die Beschreibung nennt die Frage des Lesers und die Artikel der Seite.
+  const titel = liste.map((a) => a.titel);
+  const aufzaehlung = titel.length > 1 ? `${titel.slice(0, -1).join(', ')} und ${titel[titel.length - 1]}` : titel[0] ?? '';
   const listPageDescription = rubrik.seoDescription ?? (subIntro
     ? subIntro[0].slice(0, 155)
-    : `Alle Artikel über ${seoName ?? subcategory} beim Jassen. ${liste.length} ${liste.length === 1 ? 'Artikel' : 'Artikel'} mit detaillierten Erklärungen und Beispielen.`);
+    : `${frage ? `${frage} ` : ''}${seoName ?? subcategory} im Jass-Wiki: ${aufzaehlung}.`);
 
   return (
     <>
@@ -371,9 +379,13 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
             <h1 className="font-capita text-[28px] sm:text-[36px] font-bold text-[#ff0000] mb-[8px] leading-[1.14]">
               {rubrik.h1 ?? subcategory}
             </h1>
-            <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
-              {liste.length} {liste.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
-            </p>
+            {frage ? (
+              <LeserFrage frage={frage} />
+            ) : (
+              <p className="font-inter text-[14px] sm:text-[16px] text-black leading-[1.5]">
+                {liste.length} {liste.length === 1 ? 'Artikel' : 'Artikel'} in dieser Kategorie
+              </p>
+            )}
             {rubrik.einleitung && (
               <div className="mt-4 content-formatting text-black">
                 <InternalLinker text={rubrik.einleitung} />
@@ -557,11 +569,12 @@ export const getStaticProps: GetStaticProps<SubcategoryPageProps> = async ({ par
   if (kapitel) {
     return {
       props: {
-        category: bisherige[0]?.metadata.category.main ?? kapitel.rubrik.name,
+        category: kapitel.rubrik.name,
         categorySlug,
         subcategory: kapitel.kapitel.name,
         subcategorySlug,
-        seoName: bisherige[0]?.metadata.category.sub ?? kapitel.kapitel.name,
+        seoName: kapitel.kapitel.name,
+        frage: kapitel.kapitel.frage ?? null,
         articles: [],
         liste: kapitel.kapitel.eintraege.flatMap((e) => {
           const a = content[e.id];

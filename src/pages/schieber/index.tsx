@@ -15,7 +15,7 @@ import { JassenZeile } from '@/components/wissen/JassenKarte';
 import { UebenBlock } from '@/components/wissen/UebenBlock';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo } from '@/components/wissen/LeitartikelVideo';
-import { krumenFuerArtikel, ortVon } from '@/lib/gliederung';
+import { krumenFuerArtikel, ortVon, rubrikAnAdresse } from '@/lib/gliederung';
 
 // /schieber/ ist die Hauptseite zum Schieber (Karte LEUCHTTURM 2 und Karte
 // SCHIRI «wiki-vorlagen», Teil B, 22.11.2026): der ganze Artikel
@@ -25,13 +25,14 @@ import { krumenFuerArtikel, ortVon } from '@/lib/gliederung';
 
 // Gruppen des Schieber-Hubs nach der Rubrik der Gliederung (Schritt 3, 22.11.2026).
 // Jede Gruppe nimmt die Artikel ihrer Rubriken; was in keiner dieser Rubriken
-// steht (Jassarten, Jassen digital), führt der Hub nicht.
+// steht (Jassarten, Jassen digital), führt der Hub nicht. Die Gruppe «Kultur & Geschichte»
+// entfällt (SCHIRI, Schritt 4): Sie hätte allein einen Artikel getragen, /schieber/kultur-geschichte/
+// leitet per 301 auf /geschichte/.
 const rubrikVon = (i: JassContentItem) => ortVon(i.id)?.rubrik?.name;
 export const SCHIEBER_GROUPS = [
-  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', test: (i: JassContentItem) => ['Regeln', 'Ansagen'].includes(rubrikVon(i) ?? '') },
-  { title: 'Taktik',              slug: 'taktik',            test: (i: JassContentItem) => rubrikVon(i) === 'Taktik' },
-  { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe', test: (i: JassContentItem) => rubrikVon(i) === 'Begriffe' },
-  { title: 'Kultur & Geschichte', slug: 'kultur-geschichte', test: (i: JassContentItem) => rubrikVon(i) === 'Geschichte und Kultur' },
+  { title: 'Regeln & Grundlagen', slug: 'regeln-grundlagen', frage: rubrikAnAdresse('/regeln/')?.frage, test: (i: JassContentItem) => ['Regeln', 'Ansagen'].includes(rubrikVon(i) ?? '') },
+  { title: 'Taktik',              slug: 'taktik',            frage: rubrikAnAdresse('/taktiken-und-strategien/')?.frage, test: (i: JassContentItem) => rubrikVon(i) === 'Taktik' },
+  { title: 'Wichtige Begriffe',   slug: 'wichtige-begriffe', frage: rubrikAnAdresse('/begriffe/')?.frage, test: (i: JassContentItem) => rubrikVon(i) === 'Begriffe' },
 ];
 
 /** Artikel des Hubs: Schieber im Stichwort oder in der Unterrubrik, dazu die ganze Rubrik Taktik (Schieber-Taktik). */
@@ -46,6 +47,7 @@ interface GroupCard {
   title: string;
   slug: string;
   count: number;
+  frage: string | null;
 }
 
 interface SchieberIndexProps {
@@ -150,9 +152,9 @@ const SchieberIndex: NextPage<SchieberIndexProps> = ({ artikel, totalCount, grou
                           {group.count} Artikel
                         </span>
                       </div>
-                      <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">
-                        Alle Artikel über {group.title} im Detail
-                      </p>
+                      {group.frage && (
+                        <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">{group.frage}</p>
+                      )}
                     </div>
                     <div className="ml-4 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all flex-shrink-0">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -201,10 +203,10 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const assigned = new Set<string>();
   const groups: GroupCard[] = SCHIEBER_GROUPS
-    .map(({ title, slug, test }) => {
+    .map(({ title, slug, frage, test }) => {
       const count = relatedItems.filter(i => !assigned.has(i.id) && test(i)).length;
       relatedItems.filter(i => !assigned.has(i.id) && test(i)).forEach(i => assigned.add(i.id));
-      return { title, slug, count };
+      return { title, slug, count, frage: frage ?? null };
     })
     .filter(g => g.count > 0);
 

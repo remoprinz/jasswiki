@@ -6,7 +6,7 @@ import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { toSlug } from '@/lib/utils';
 import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
-import { krumenFuerArtikel, type Krume } from '@/lib/gliederung';
+import { etikettenVon, krumenFuerArtikel, type Krume } from '@/lib/gliederung';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { JsonLdSchema } from '@/components/seo/JsonLdSchema';
@@ -117,6 +117,7 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
     4: 'Anspruchsvoll',
     5: 'Experte'
   }[contentItem.metadata.difficulty] || 'Mittel';
+  const etiketten = etikettenVon(contentItem.id, category, subcategory);
 
   const getTagStyle = (label: string, fallbackColor: string = '#ff0000') => {
     const slug = toSlug(label);
@@ -215,11 +216,14 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
           {/* Artikel-Header */}
           <header className="text-left pb-6 border-b border-[#f0eee7]">
             <div className="jw-article-tags mb-[10px]">
-              <span className="jw-article-tag" style={getTagStyle(subcategory, '#ff0000')}>
-                {subcategory}
-              </span>
-              <span className="jw-article-tag" style={getTagStyle(category, '#00aa2f')}>
-                {category}
+              {/* Etiketten nach der Gliederung (Schritt 4): Kapitel, Rubrik. */}
+              {etiketten.kapitel && (
+                <span className="jw-article-tag" style={getTagStyle(etiketten.kapitel, '#ff0000')}>
+                  {etiketten.kapitel}
+                </span>
+              )}
+              <span className="jw-article-tag" style={getTagStyle(etiketten.rubrik, '#00aa2f')}>
+                {etiketten.rubrik}
               </span>
               {showDifficulty && (
                 <span className="jw-article-tag" style={getTagStyle('difficulty', '#2563eb')}>

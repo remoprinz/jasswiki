@@ -2974,6 +2974,16 @@
           "source": "/jassapps/tisch-jass/jasstafel-pro",
           "destination": "/jassapps/tisch-jass/jasstafel/",
           "type": 301
+        },
+        {
+          "source": "/schieber/kultur-geschichte/",
+          "destination": "/geschichte/",
+          "type": 301
+        },
+        {
+          "source": "/schieber/kultur-geschichte",
+          "destination": "/geschichte/",
+          "type": 301
         }
       ]
     }

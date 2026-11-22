@@ -5,6 +5,7 @@ import { ZeichenSuchen } from '@/components/layout/JassWikiZeichen';
 import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import { etikettenVon } from '@/lib/gliederung';
 import { ALL_CARDS } from './jasskarten';
 import { vorschauText } from './vorschau';
 
@@ -141,7 +142,7 @@ export const SearchBar: React.FC<{
         return {
           id: item.id,
           title: item.metadata.category.topic,
-          category: item.metadata.category.main,
+          category: etikettenVon(item.id, item.metadata.category.main).rubrik,
           url,
           snippet: textSnippet,
           score

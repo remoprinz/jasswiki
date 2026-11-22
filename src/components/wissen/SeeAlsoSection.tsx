@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { artikelAdresse, toSlug } from '@/lib/url-utils';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
+import { etikettenVon } from '@/lib/gliederung';
 
 interface SeeAlsoSectionProps {
   seeAlsoIds: string[];
@@ -55,7 +56,7 @@ export const SeeAlsoSection: React.FC<SeeAlsoSectionProps> = ({
       return {
         id: article.id,
         title: article.metadata.category.topic,
-        category: article.metadata.category.main,
+        category: etikettenVon(article.id, article.metadata.category.main).rubrik,
         url,
       };
     })

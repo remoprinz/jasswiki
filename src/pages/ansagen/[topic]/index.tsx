@@ -5,7 +5,7 @@ import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import allContent from '@/data/jass-content-v2.json';
 import { JassContentRecord, JassContentItem } from '@/types/jass-lexikon';
 import { artikelAdresse, adressSegmente, artikelAnAdresse } from '@/lib/url-utils';
-import { krumenFuerArtikel, type Krume } from '@/lib/gliederung';
+import { etikettenVon, krumenFuerArtikel, type Krume } from '@/lib/gliederung';
 import { InternalLinker } from '@/components/layout/InternalLinker';
 import { TrumpffarbenGrid } from '@/components/wissen/TrumpffarbenGrid';
 import { TrumpffarbenSymbole } from '@/components/wissen/TrumpffarbenSymbole';
@@ -69,6 +69,8 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
   const category = 'Ansagen';
   const categorySlug = 'ansagen';
   const subcategory = contentItem.metadata.category.sub;
+  // Etiketten über dem Titel nach der Gliederung (Schritt 4).
+  const etiketten = etikettenVon(contentItem.id, category, subcategory);
 
   // Brotkrumen nach der Gliederung: Jass-Wiki › Rubrik › Kapitel › Artikel.
   const breadcrumbItems = [...krumen, { name: topic, href: normalizedPath }];
@@ -177,12 +179,12 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
         <div className="space-y-6 sm:space-y-8">
           <header className="text-left pb-6 border-b border-[#f0eee7]">
             <div className="jw-article-tags mb-[10px]">
-              <span className="jw-article-tag" style={getTagStyle(category, '#00aa2f')}>
-                {category}
+              <span className="jw-article-tag" style={getTagStyle(etiketten.rubrik, '#00aa2f')}>
+                {etiketten.rubrik}
               </span>
-              {subcategory && (
-                <span className="jw-article-tag" style={getTagStyle(subcategory, '#ff0000')}>
-                  {subcategory}
+              {etiketten.kapitel && (
+                <span className="jw-article-tag" style={getTagStyle(etiketten.kapitel, '#ff0000')}>
+                  {etiketten.kapitel}
                 </span>
               )}
               {showDifficulty && (

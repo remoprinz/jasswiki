@@ -48,8 +48,8 @@ export const ArtikelKarten: React.FC<{ artikel: ArtikelStub[] }> = ({ artikel })
   </div>
 );
 
-/** Kapitelkarte auf einer Rubrikseite: Name, Zahl, Satz, Pfeil (wie die Unterrubriken bisher). */
-export const KapitelKarte: React.FC<{ name: string; href: string; anzahl: number }> = ({ name, href, anzahl }) => (
+/** Kapitelkarte auf einer Rubrikseite: Name, Zahl, die Frage des Lesers, Pfeil (Schritt 4). */
+export const KapitelKarte: React.FC<{ name: string; href: string; anzahl: number; frage?: string }> = ({ name, href, anzahl, frage }) => (
   <Link href={href} className="group block">
     <div className="bg-[#f0eee7]/50 border border-[#e8e6df] rounded-[12px] hover:border-[#d5d0c6] hover:bg-[#f0eee7] transition-colors px-[14px] sm:px-[20px] py-[14px] sm:py-[16px]">
       <div className="flex items-center justify-between">
@@ -60,7 +60,7 @@ export const KapitelKarte: React.FC<{ name: string; href: string; anzahl: number
             </h3>
             <span className="jw-count-tag flex-shrink-0 self-start">{anzahl} Artikel</span>
           </div>
-          <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">Alle Artikel über {name} im Detail</p>
+          {frage && <p className="font-inter text-[13px] text-[#88816d] leading-[1.5]">{frage}</p>}
         </div>
         <div className="ml-4 text-[#88816d] group-hover:text-[#ff0000] group-hover:translate-x-1 transition-all flex-shrink-0">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

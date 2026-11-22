@@ -124,30 +124,28 @@ Es wird auf 2'500 Punkte gespielt. Eichel zählt 1×, Undenufe 4×. Das ansagend
 
 **Kategorie:** Taktiken und Strategien > Kommunikation & Signale
 
-Verwerfen ist die erste und wichtigste Taktik, die jeder Jasser lernt: Wenn man die ausgespielte Farbe nicht mehr hat, spielt man eine Karte jener Farbe, in der man am schwächsten ist. Bietet sich später die Gelegenheit, auch die zweitschwächste Farbe zu verwerfen, weiss der Partner genau, welches die starke Farbe ist.
+Verwerfen ist die erste und wichtigste Taktik, die jeder Jasser lernt: Wer die ausgespielte Farbe nicht mehr hat, spielt eine Karte jener Farbe, in der er am schwächsten ist. Da in der Regel alle am Tisch diese Konvention befolgen, sieht man im Verlauf der Runde, wer in welcher Farbe stark ist.
 
-Da in der Regel alle am Tisch diese Konvention befolgen, sieht man im Verlauf der Runde, wer in welcher Farbe stark ist.
+## Die Konvention in fünf Sätzen
 
-## Häufiger Fehler beim Verwerfen
-
-Wenn man im Spielverlauf erkennt, welches die starke Farbe des Partners ist, dann **nicht** alle Karten dieser Farbe verwerfen, sondern **eine** behalten. Denn man braucht sie voraussichtlich, um den Partner ins Spiel zu bringen.
+1. Wer die ausgespielte Farbe nicht mehr hat, verwirft die Farbe, in der er am schwächsten ist.
+2. Verwirft er danach auch die zweitschwächste Farbe, kennt der Partner die starke Farbe.
+3. Den Bock behält man in der Hand.
+4. Von der starken Farbe des Partners behält man eine Karte. Man braucht sie voraussichtlich, um den Partner ins Spiel zu bringen.
+5. In der Defensive achten die Partner darauf, verschiedene Farben zu halten.
 
 ## Verwerfen in der Defensive
 
-Sagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft. Denn in der Defensive halten die beiden Partner immer verschiedene Farben.
+Sagt der Gegner Trumpf an, ist das vorrangige Ziel stets, den [Matsch](/begriffe/punktebegriffe/matsch/) zu verhindern. Am wichtigsten ist, genau zu beobachten, in welcher Reihenfolge der Partner die Farben verwirft.
 
-**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A spielt nun auf Schilten und gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs opfern.
+**Beispiel:** Spieler A hat das [Rosen](/begriffe/kartenbezeichnungen/rosen/)-Ass sowie den König und weitere Karten in [Schilten](/begriffe/kartenbezeichnungen/schilten/). Sein Partner B verwirft zuerst Schilten, dann [Eichel](/begriffe/kartenbezeichnungen/eichel/). Spätestens jetzt ist klar, dass B in Rosen am stärksten ist. A spielt nun auf Schilten und opfert gegen Ende des Spiels voraussichtlich sein Rosen-Ass zugunsten des Schilten-Königs.
 
-## Verwerfen beim Slalom und Quer
+## Andere Arten zu verwerfen
 
-Das Verwerfen bei den Ansagen [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist anspruchsvoller und wird in eigenen Artikeln behandelt: [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).
-
-## Querverwerfen
-
-Manche Jasser **verwerfen quer**, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Dabei wird nicht die schwächste Farbe zuerst verworfen, sondern die «quere» zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).
+- **Slalom und Quer:** Bei den Ansagen [Slalom](/ansagen/slalom-zickzack/) und [Quer](/ansagen/quer/) ist das Verwerfen anspruchsvoller. Wie es dort geht, zeigen die Artikel [Verwerfen beim Slalom](/taktiken-und-strategien/kommunikation-signale/verwerfen-beim-slalom/) und [Verwerfen bei Quer](/taktiken-und-strategien/kommunikation-signale/verwerfen-bei-quer/).
+- **Querverwerfen:** Manche Jasser verwerfen quer, wenn sie [am Drücker](/begriffe/grundbegriffe/am-druecker/) sind. Sie verwerfen dann zuerst die «quere» Farbe zur starken Farbe. Mehr dazu im Artikel [Querverwerfen](/taktiken-und-strategien/kommunikation-signale/querverwerfen/).
 
 **Häufige Fragen:**
-- **Was bedeutet Verwerfen beim Jassen?** Wenn man die ausgespielte Farbe nicht mehr hat, wirft man eine Karte der Farbe ab, in der man am schwächsten ist. Damit zeigt man dem Partner, was man nicht braucht.
 - **Wie zeigt man dem Partner die starke Farbe an?** Indem man zuerst die schwächste und dann die zweitschwächste Farbe verwirft. Was übrig bleibt, ist die starke Farbe.
 - **Was ist der häufigste Fehler beim Verwerfen?** Alle Karten der starken Farbe des Partners abzuwerfen. Man sollte eine behalten, um den Partner später ins Spiel zu bringen.
 - **Was beachtet man beim Verwerfen in der Defensive?** Den Matsch verhindern und genau beobachten, welche Farben der Partner verwirft, damit nicht beide Partner dieselbe Farbe halten.

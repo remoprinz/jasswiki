@@ -4,6 +4,7 @@
     {
       "name": "Regeln",
       "adresse": "/regeln/",
+      "frage": "Was gilt am Tisch?",
       "darstellung": "kapitelkarten",
       "eintraege": [
         "general_most_important_rules",
@@ -13,6 +14,7 @@
         {
           "kapitel": "Karten und Werte",
           "adresse": "/regeln/karten-und-werte/",
+          "frage": "Welche Karten gibt es, was zählen sie?",
           "artikel": [
             "expressions_kartenfarben",
             "general_card_values",
@@ -24,6 +26,7 @@
         {
           "kapitel": "Kartenverteilung",
           "adresse": "/regeln/kartenverteilung/",
+          "frage": "Wer gibt und wie?",
           "artikel": [
             "spiel_geben",
             { "id": "general_dealing", "gehtAufIn": "spiel_geben" },
@@ -39,6 +42,7 @@
         {
           "kapitel": "Spielablauf",
           "adresse": "/regeln/spielablauf/",
+          "frage": "Wie wird Trumpf bestimmt, was darf ich legen?",
           "artikel": [
             "trumpfansage",
             "bodentrumpf",
@@ -54,11 +58,13 @@
         {
           "kapitel": "Wys und Stöck",
           "adresse": "/weis-regeln/",
+          "frage": "Was darf ich weisen?",
           "artikel": ["expressions_weis", "weis_rules_stock", "weis_rules_kreuzweis"]
         },
         {
           "kapitel": "Punktezählung",
           "adresse": "/regeln/punktezaehlung/",
+          "frage": "Wie viele Punkte gibt ein Spiel?",
           "artikel": [
             "general_scoring_rules",
             { "id": "letzter_stich", "gehtAufIn": "general_scoring_rules" },
@@ -74,11 +80,13 @@
         {
           "kapitel": "Schreiben",
           "adresse": "/regeln/schreiben/",
+          "frage": "Wie schreibe ich auf?",
           "artikel": ["schreiben", "weis_rules_notation_basics", "weis_rules_notation_numbers", "weis_rules_notation_correction"]
         },
         {
           "kapitel": "Ausmachen",
           "adresse": "/regeln/ausmachen/",
+          "frage": "Wer gewinnt?",
           "artikel": [
             "ausmachregel",
             "bedanken",
@@ -91,6 +99,7 @@
         {
           "kapitel": "Spielende",
           "adresse": "/regeln/spielende/",
+          "frage": "Wie endet ein Spiel?",
           "artikel": [
             "general_game_end",
             { "id": "platztausch", "gehtAufIn": "general_game_end" },
@@ -103,6 +112,7 @@
         {
           "kapitel": "Fehler und Verstösse",
           "adresse": "/regeln/fehler-verstoesse/",
+          "frage": "Was gilt nach einem Fehler?",
           "artikel": [
             "general_playing_errors",
             { "verweis": "nichtfarben" },
@@ -128,6 +138,7 @@
     {
       "name": "Ansagen",
       "adresse": "/ansagen/",
+      "frage": "Was kann ich ansagen?",
       "darstellung": "eigene",
       "eintraege": [
         "expressions_trumpffarbe",
@@ -145,6 +156,7 @@
     {
       "name": "Jassarten",
       "adresse": "/varianten/",
+      "frage": "Welche Jassart passt zu uns?",
       "darstellung": "liste",
       "eintraege": [
         {
@@ -235,16 +247,19 @@
     {
       "name": "Taktik",
       "adresse": "/taktiken-und-strategien/",
+      "frage": "Wie spiele ich besser?",
       "darstellung": "eigene",
       "eintraege": [
         {
           "kapitel": "Austrumpfen",
           "adresse": "/taktiken-und-strategien/austrumpfen/",
+          "frage": "Wann spiele ich Trumpf aus?",
           "artikel": ["schieber_taktiken_austrumpfen", "schieber_taktiken_hoch_tief", "schieber_taktiken_nell_vor_puur"]
         },
         {
           "kapitel": "Kommunikation und Signale",
           "adresse": "/taktiken-und-strategien/kommunikation-signale/",
+          "frage": "Wie verständige ich mich mit dem Partner?",
           "artikel": [
             "schieber_taktiken_advanced",
             "schieber_taktiken_verwerfen",
@@ -261,6 +276,7 @@
     {
       "name": "Begriffe",
       "adresse": "/begriffe/",
+      "frage": "Was heisst dieses Wort?",
       "darstellung": "alphabet",
       "eintraege": [
         { "id": "expressions_basic_terms", "gehtAufIn": "/begriffe/" },
@@ -336,6 +352,7 @@
     {
       "name": "Geschichte und Kultur",
       "adresse": "/geschichte/",
+      "frage": "Woher kommt der Jass?",
       "darstellung": "liste",
       "eintraege": [
         {
@@ -371,6 +388,7 @@
     {
       "name": "Jassen digital",
       "adresse": "/jassapps/",
+      "frage": "Wo jasse ich digital?",
       "darstellung": "apps",
       "eintraege": [
         "jassapps_jassguru",
