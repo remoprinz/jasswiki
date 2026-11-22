@@ -172,18 +172,18 @@ async function videoDerTagesseite(blatt) {
   } catch {
     ergebnis = null;
   }
-  // Der Film muss noch antworten: Der Speicher löscht ältere Sendungen
-  // (A1, FALLE 22.11.2026). Ein totes Video zählt wie keines, der Erzeuger
-  // nimmt dann das nächstältere Blatt.
-  if (ergebnis?.mp4 && !(await filmLebt(ergebnis.mp4))) ergebnis = null;
+  // Der eigene Film spielt zuerst, YouTube ist der Ersatz (Remo 22.11.2026).
+  // Antwortet der Film nicht und nennt die Tagesseite kein YouTube, zählt das
+  // Video wie keines; der Erzeuger nimmt dann das nächstältere Blatt.
+  if (ergebnis?.mp4 && !ergebnis.youtube && !(await filmLebt(ergebnis.mp4))) ergebnis = null;
   videoCache.set(blatt.datum, ergebnis);
   return ergebnis;
 }
 
 /**
  * Video des festen Lehrblatts. Anders als beim neuesten Blatt gibt es hier kein
- * Ausweichen auf ein älteres: Trägt die Tagesseite YouTube, gilt der Film auch,
- * wenn die Datei im Speicher schon abgelaufen ist (mp4 dann null).
+ * Ausweichen auf ein älteres: Trägt die Tagesseite YouTube, bleibt das Video auch,
+ * wenn die Datei im Speicher fehlt (der Baustein wechselt dann auf YouTube).
  */
 async function festesVideo(blatt) {
   let video = null;
@@ -216,11 +216,10 @@ async function festesVideo(blatt) {
     return null;
   }
   if (!video) return null;
-  if (!(await filmLebt(video.mp4))) {
-    video.mp4 = null;
-    video.poster = null;
-  }
-  return video.mp4 || video.youtube ? video : null;
+  // Film und Deckbild bleiben aus dem Datum gerechnet; der Baustein spielt bei
+  // einem Fehler YouTube. Fehlt beides, entfällt das Video.
+  if (!video.youtube && !(await filmLebt(video.mp4))) return null;
+  return video;
 }
 
 async function neuestesVideo(passend) {

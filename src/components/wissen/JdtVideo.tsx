@@ -4,8 +4,8 @@ import { JDT_TEXTE, JDT_LINKS } from '@/data/jass-des-tages-texte';
 /**
  * JDT-VIDEO (GEO/SEO P2/P3, KELLE 25.10.2026): das Lösungsvideo eines Jass des
  * Tages. Bis zum Klick steht allein das Deckbild (kein YouTube-Skript, keine
- * Cookies, keine Last), der Klick lädt die Einbettung von youtube-nocookie.
- * Ohne YouTube-Adresse spielt die Datei selbst. Das VideoObject reist mit:
+ * Cookies, keine Last). Der Klick spielt den eigenen Film; meldet er einen
+ * Fehler, übernimmt die Einbettung von youtube-nocookie (Remo 22.11.2026). Das VideoObject reist mit:
  * Google liest es auch aus dem Body.
  *
  * Die Felder kommen fertig von aussen (gestern.json oder die P2-Liste von
@@ -53,9 +53,9 @@ export function hatFilm(d: Partial<JdtVideoDaten> | null | undefined): boolean {
   return !!d && !!d.datum && (!!d.mp4 || !!youtubeKennung(d.youtube ?? null));
 }
 
-// Mit YouTube trägt das Schema embedUrl und keinen contentUrl: der Film am
-// Speicher lebt höchstens 30 Tage (FALLE A1, 22.11.2026). Ohne YouTube bleibt
-// contentUrl wie bisher.
+// Der eigene Film ist die Quelle (Remo 22.11.2026: «Der Film bleibt bei uns,
+// YouTube bleibt der Verteilkanal»): contentUrl zeigt auf den eigenen Film,
+// embedUrl steht dazu, wo eine YouTube-Kennung da ist.
 export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz) {
   const kennung = youtubeKennung(d.youtube);
   return {
@@ -65,11 +65,8 @@ export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz
     name: `Jass des Tages vom ${datumLang(d.datum)}: ${aufgabeKurz(d.aufgabe || d.titel || '')}`,
     description: satz,
     ...(d.poster ? { thumbnailUrl: ganzeAdresse(d.poster) } : {}),
-    ...(kennung
-      ? { embedUrl: `https://www.youtube.com/embed/${kennung}` }
-      : d.mp4
-        ? { contentUrl: d.mp4 }
-        : {}),
+    ...(d.mp4 ? { contentUrl: d.mp4 } : {}),
+    ...(kennung ? { embedUrl: `https://www.youtube.com/embed/${kennung}` } : {}),
     uploadDate: d.datum,
     ...(d.dauer ? { duration: d.dauer } : {}),
     inLanguage: 'de-CH',
@@ -84,16 +81,28 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
   mitTuer = true,
   satz = JDT_TEXTE.videoSatz,
 }) => {
-  const [laeuft, setLaeuft] = useState(false);
-  // weg: Film und YouTube fehlen oder der Film meldet einen Fehler. Dann
-  // verschwindet der ganze Baustein (im Block «Üben» bleiben die Blätter).
+  // Was nach dem Klick spielt: zuerst der eigene Film, YouTube allein als
+  // Ersatz (Remo 22.11.2026, Anlass: YouTubes Anmeldewand beim Abspielen).
+  const [quelle, setQuelle] = useState<'film' | 'youtube' | null>(null);
+  const laeuft = quelle !== null;
+  // weg: Film und YouTube fehlen, oder der Film meldet einen Fehler und es gibt
+  // kein YouTube. Dann verschwindet der ganze Baustein (im Block «Üben» bleiben
+  // die Blätter).
   const [weg, setWeg] = useState(false);
   const [deckbildKaputt, setDeckbildKaputt] = useState(false);
   const deckbild = useRef<HTMLImageElement>(null);
   const kennung = youtubeKennung(daten.youtube);
 
+  // Ein fehlendes Deckbild nimmt nur das Bild weg; der Kasten mit dem
+  // Abspielknopf bleibt, solange Film oder YouTube da sind.
   const deckbildFehlt = () => {
-    if (kennung) setDeckbildKaputt(true);
+    if (daten.mp4 || kennung) setDeckbildKaputt(true);
+    else setWeg(true);
+  };
+
+  const abspielen = () => setQuelle(daten.mp4 ? 'film' : kennung ? 'youtube' : null);
+  const filmFehlt = () => {
+    if (kennung) setQuelle('youtube');
     else setWeg(true);
   };
 
@@ -114,7 +123,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
     <figure className="not-prose my-[20px]" data-jdt-video={daten.datum}>
       {/* Hochformat wie der Short: 9 zu 16, höchstens 320 breit. */}
       <div className="relative mx-auto w-full max-w-[320px] aspect-[9/16] overflow-hidden rounded-[12px] border-[1.74px] border-black bg-black">
-        {laeuft && kennung ? (
+        {quelle === 'youtube' && kennung ? (
           <iframe
             className="absolute inset-0 h-full w-full"
             src={`https://www.youtube-nocookie.com/embed/${kennung}?autoplay=1&playsinline=1&rel=0`}
@@ -127,7 +136,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
             className="absolute inset-0 h-full w-full"
             src={daten.mp4 ?? undefined}
             poster={!deckbildKaputt ? (daten.poster ?? undefined) : undefined}
-            onError={() => setWeg(true)}
+            onError={filmFehlt}
             controls
             autoPlay
             playsInline
@@ -135,7 +144,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
         ) : (
           <button
             type="button"
-            onClick={() => setLaeuft(true)}
+            onClick={abspielen}
             className="group absolute inset-0 h-full w-full cursor-pointer"
             aria-label={`${JDT_TEXTE.videoAbspielen}: ${beschriftung}`}
           >
