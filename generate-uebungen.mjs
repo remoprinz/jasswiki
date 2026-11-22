@@ -47,21 +47,25 @@ const PRO_ARTIKEL = 3;
 const VIDEO_VERSUCHE = 5;
 
 // Artikel-ID -> Auswahl der Blätter. `rubrik` ist ein Wort oder eine Liste.
+//
+// LEHRPLAN (Remo 22.11.2026): Jeder Artikel trägt EIN fest gewähltes Lehrblatt.
+// Die Wahl stammt von DOK-DOC (~/.claude/auftraege/2026-11-22-DOKDOC-feste-lehrblaetter.md):
+// Der Zug des Artikels entscheidet das Blatt in einem Stich, den man nennen kann.
+// Ein Thema, ein Film: Bockkarte, «Austrumpfen: hoch oder tief» und der Artikel
+// «Punkte zählen beim Schieber» (Kennung matsch) tragen darum keinen eigenen Film mehr.
 const ZUORDNUNG = {
-  schieber_taktiken_advanced: { thema: 'Signalisieren', rubrik: ['Signalisieren', 'Info erhalten'] },
-  schieber_taktiken_hoch_tief: { thema: 'Austrumpfen', rubrik: 'Austrumpfen' },
-  expressions_trumpffarbe: { thema: 'Ansagen', rubrik: 'Ansagen' },
-  expressions_stechkarten: { thema: 'Stechen', rubrik: 'Stechen' },
-  expressions_bock: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
-  expressions_bockkarte: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen' },
+  schieber_taktiken_advanced: { thema: 'Signalisieren', rubrik: ['Signalisieren', 'Info erhalten'], fest: '2026-10-24' },
+  expressions_trumpffarbe: { thema: 'Ansagen', rubrik: 'Ansagen', fest: '2026-11-10' },
+  expressions_stechkarten: { thema: 'Stechen', rubrik: 'Stechen', fest: '2026-11-12' },
+  expressions_bock: { thema: 'Bock aufbauen', rubrik: 'Bock aufbauen', fest: '2026-10-15' },
   schieber_taktiken_verwerfen: { thema: 'Verwerfen', rubrik: 'Verwerfen', fest: '2026-10-30' },
-  schieber_taktiken_anziehen: { thema: 'Anziehen', rubrik: 'Anziehen' },
-  expressions_schmieren: { thema: 'Schmieren', rubrik: 'Schmieren' },
-  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen' },
-  expressions_nachschmeissen: { thema: 'Nachschmeissen', rubrik: 'Nachschmeissen' },
-  schieber_taktiken_austrumpfen: { thema: 'Austrumpfen', rubrik: 'Austrumpfen' },
-  expressions_matsch: { thema: 'Matsch', titelWort: 'Matsch' },
-  matsch: { thema: 'Matsch', titelWort: 'Matsch' },
+  schieber_taktiken_anziehen: { thema: 'Anziehen', rubrik: 'Anziehen', fest: '2026-10-09' },
+  expressions_schmieren: { thema: 'Schmieren', rubrik: 'Schmieren', fest: '2026-10-18' },
+  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen', fest: '2026-09-25' },
+  expressions_nachschmeissen: { thema: 'Nachschmeissen', rubrik: 'Nachschmeissen', fest: '2026-08-22' },
+  schieber_taktiken_austrumpfen: { thema: 'Austrumpfen', rubrik: 'Austrumpfen', fest: '2026-11-14' },
+  schieber_taktiken_nell_vor_puur: { thema: 'Nell vor Puur', rubrik: 'Austrumpfen', fest: '2026-10-12' },
+  expressions_matsch: { thema: 'Matsch', titelWort: 'Matsch', fest: '2026-11-02' },
 };
 
 function heuteZuerich() {
