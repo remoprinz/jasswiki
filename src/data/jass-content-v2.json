@@ -2190,7 +2190,7 @@
   },
   "expressions_nell": {
     "id": "expressions_nell",
-    "text": "Das Nell ist der Neuner (9) der Trumpffarbe. Im Trumpf steigt der Neuner: Mit 14 Punkten und als zweithöchste Stechkarte ist das Nell nach dem Under (Puur) die wertvollste Trumpfkarte. Auch das Trumpf-Ass schlägt es nicht. Fallen Nell und Trumpf-Ass im selben Stich, gewinnt das Nell.\n\nDas gilt allein in der Trumpffarbe. In einer Nebenfarbe ist die 9 eine gewöhnliche Karte ohne Punktwert und ohne Sonderrang.\n\nZusammen mit dem Under (Puur) bildet das Nell die beiden höchsten Karten des Trumpfs.",
+    "text": "Das Nell ist der Neuner (9) der Trumpffarbe. Im Trumpf steigt der Neuner: Mit 14 Punkten und als zweithöchste Stechkarte ist das Nell nach dem Under (Puur) die wertvollste Trumpfkarte. Auch das Trumpf-Ass schlägt es nicht. Fallen Nell und Trumpf-Ass im selben Stich, gewinnt das Nell.\n\n[[karten: schellen-9 | Das Nell bei Trumpf Schellen: der Neuner der Trumpffarbe, 14 Punkte | Nell]]\n\nDas gilt allein in der Trumpffarbe. In einer Nebenfarbe ist die 9 eine gewöhnliche Karte ohne Punktwert und ohne Sonderrang.",
     "metadata": {
       "id": "expressions_nell_meta",
       "category": {
@@ -2209,7 +2209,7 @@
       "difficulty": 2,
       "taxonomy_tier": 1,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-16"
+      "dateModified": "2026-11-22"
     },
     "synonyms": [
       "näll",
@@ -2218,14 +2218,6 @@
       "trumpf-neuner"
     ],
     "faqs": [
-      {
-        "question": "Was ist das Nell beim Jassen?",
-        "answer": "Das Nell ist der Trumpf-Neuner, die zweithöchste Karte einer Trumpffarbe."
-      },
-      {
-        "question": "Wie viele Punkte ist das Nell wert?",
-        "answer": "Das Nell ist 14 Punkte wert."
-      },
       {
         "question": "Welche Karte ist stärker als das Nell?",
         "answer": "Nur der Trumpf-Bauer (Puur) ist stärker als das Nell."
@@ -8036,7 +8028,7 @@
   },
   "variants_family_coiffeur_schieber": {
     "id": "variants_family_coiffeur_schieber",
-    "text": "Definition:\nDer Coiffeur-Schieber (auch «quoi faire» genannt, französisch für «was machen») ist ein Spiel für vier Spieler, das ursprünglich aus Frankreich stammt.\n\nGrundprinzip:\n• Wie beim klassischen Schieber (siehe Begriff \"general_schieber\") sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\")\n• Anders als bei anderen Jassarten wird hier keine feste Punktzahl als Ziel vereinbart\n• Stattdessen muss jedes Team jede von acht verschiedenen Varianten genau einmal spielen\n• Eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele\n\nDie acht Varianten:\n• Variante 1-4: die vier Trumpffarben (siehe Begriff \"bodentrumpf\"), Eicheln einfach, Rosen zweifach, Schellen dreifach, Schilten vierfach\n• Variante 5: Obenabe (siehe Begriff \"expressions_obenabe\"), das fünffach zählt\n• Variante 6: Undenufe (siehe Begriff \"expressions_undenufe\"), das sechsfach zählt\n• Variante 7-8: Zwei Joker, die sieben- und achtfach zählen. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe\n\nDiese Faktoren gelten nach Dani Müller, «Stöck Wys Stich». Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html), mit Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom (siehe Begriff \"expressions_slalom\") oder Misère (siehe Begriff \"expressions_misere\"). Was davon gilt, macht die Runde vor dem ersten Spiel ab (siehe Begriff \"regeln_tischregel\").\n\nSpiel geben:\n• Wer schreibt, gibt zum ersten Spiel: jedem Spieler 9 Karten, dreimal drei\n• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, unabhängig davon, wer das Spiel übernommen hat\n• Hat ein Team alle Varianten gespielt und haben die Gegner noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt\n\nSchieben im Kreis:\n• Vorhand (siehe Begriff \"expressions_vorhand\"), der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt\n• Geschoben wird im Kreis an den nächsten Spieler in Spielrichtung, also an einen Gegner. Er wählt eine Variante für sein eigenes Team oder schiebt weiter, bis zum vierten Spieler\n• Schiebt auch der vierte, liegt die Wahl wieder bei Vorhand. Vorhand ist jetzt «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat\n• Wer eine Variante wählt, übernimmt das Spiel für sein Team und spielt zum ersten Stich aus (siehe Begriff \"ausspiel\")\n\nJoker-Regeln:\n• Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe\n• Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist\n• Sind beide Joker schon gespielt, schreibt das Team für diese Wahl 0 Punkte bei seiner tiefsten offenen Variante\n\nSchreiben:\n• Im Coiffeur zählen allein die Kartenpunkte. Weis (siehe Begriff \"expressions_weis\") und Stöck (siehe Begriff \"weis_rules_stock\") entfallen\n• Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat\n• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, 103 Punkte schreiben 10, ein ganzes Spiel mit 157 Punkten schreibt 16\n• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben\n• Beispiel Obenabe fünffach: Team A schreibt 12, Team B 9. Die Differenz 3 mal 5 ergibt 15 Pluspunkte für Team A\n\nEnde der Partie:\n• Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten\n• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Zusammengezählt werden die Pluspunkte der mittleren Kolonne. Gewonnen hat das Team mit dem höheren Gesamtergebnis\n\nQuelle für Spielablauf, Joker und Schreiben: Dani Müller, «Stöck Wys Stich», Kapitel Coiffeur-Schieber.\n\nSpielstrategie:\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Wer anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") viele Punkte erwartet, kann dafür eine Joker-Variante wählen\n• Wer etwa starke Eicheln hält, spielt sie als Joker mit sieben- oder achtfacher Wertung. Eicheln einfach bleibt für ein schwächeres Blatt",
+    "text": "Der Coiffeur-Schieber ist ein Jass für vier Spieler in zwei Teams. Jedes Team spielt jede von acht Varianten genau einmal, eine komplette Partie (siehe Begriff \"expressions_partie\") umfasst somit 16 Spiele. Je nach Variante zählen die Punkte ein- bis achtfach. Das Spiel stammt ursprünglich aus Frankreich und heisst auch «quoi faire», französisch für «was machen».\n\n## Die acht Varianten\n\n| Variante | Faktor |\n|---|---|\n| Eicheln | 1 |\n| Rosen | 2 |\n| Schellen | 3 |\n| Schilten | 4 |\n| Obenabe (siehe Begriff \"expressions_obenabe\") | 5 |\n| Undenufe (siehe Begriff \"expressions_undenufe\") | 6 |\n| Joker | 7 |\n| Joker | 8 |\n\nFür einen Joker wählt das Team Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe.\n\n## So wird gespielt\n\nWie beim klassischen Schieber (siehe Begriff \"general_schieber\") sitzen sich je zwei Spieler gegenüber und bilden gemeinsam ein Team (siehe Begriff \"expressions_team\"). Eine feste Punktzahl als Ziel gibt es im Coiffeur keine.\n\n### Spiel geben\n\n• Wer schreibt, gibt zum ersten Spiel: jedem Spieler 9 Karten, dreimal drei\n• Danach gibt der Reihe nach der nächste Spieler in Spielrichtung, unabhängig davon, wer das Spiel übernommen hat\n• Hat ein Team alle Varianten gespielt und haben die Gegner noch mindestens zwei offen, geben abwechselnd die zwei Spieler des fertigen Teams. Vorhand sitzt damit immer beim Team, das noch wählt\n\n### Schieben im Kreis\n\n• Vorhand (siehe Begriff \"expressions_vorhand\"), der Spieler rechts vom Gebenden, wählt eine Variante oder schiebt\n• Geschoben wird im Kreis an den nächsten Spieler in Spielrichtung, also an einen Gegner. Er wählt eine Variante für sein eigenes Team oder schiebt weiter, bis zum vierten Spieler\n• Schiebt auch der vierte, liegt die Wahl wieder bei Vorhand. Vorhand ist jetzt «im Zwang» oder «im Fass» und wählt eine Variante, die das eigene Team noch offen hat\n• Wer eine Variante wählt, übernimmt das Spiel für sein Team und spielt zum ersten Stich aus (siehe Begriff \"ausspiel\")\n\n### Joker\n\n• Ein Joker ist Trumpf in einer frei wählbaren Farbe, Obenabe oder Undenufe\n• Wählt ein Team eine Variante, die es schon gespielt hat, zählt sie von selbst als Joker, solange einer offen ist\n• Sind beide Joker schon gespielt, schreibt das Team für diese Wahl 0 Punkte bei seiner tiefsten offenen Variante\n\n### Schreiben\n\n• Im Coiffeur zählen allein die Kartenpunkte. Weis (siehe Begriff \"expressions_weis\") und Stöck (siehe Begriff \"weis_rules_stock\") entfallen\n• Der Schreiber notiert die erzielten Punkte eines Spiels in der Kolonne des Teams, das das Spiel übernommen hat\n• Geschrieben wird ein Zehntel der Punkte. Ab 4 wird aufgerundet, bis 3 abgerundet: 64 Punkte schreiben 7, 103 Punkte schreiben 10, ein ganzes Spiel mit 157 Punkten schreibt 16\n• Haben beide Teams eine Variante gespielt, folgt der Direktvergleich: Das bessere Team erhält die Differenz der zwei Zahlen mal den Faktor der Variante in der mittleren Kolonne gutgeschrieben\n• Beispiel Obenabe fünffach: Team A schreibt 12, Team B 9. Die Differenz 3 mal 5 ergibt 15 Pluspunkte für Team A\n\n### Ende der Partie\n\n• Hat ein Team alle Varianten gespielt, wählen nur noch die Gegner ihre restlichen Varianten\n• Die Partie endet, wenn beide Teams ihre acht Varianten gespielt haben. Zusammengezählt werden die Pluspunkte der mittleren Kolonne. Gewonnen hat das Team mit dem höheren Gesamtergebnis\n\n## Welche Variante wann\n\n• Die Reihenfolge, in der die Varianten gespielt werden, ist frei wählbar\n• Wer anhand seiner Handkarten (siehe Begriff \"expressions_handkarten\") viele Punkte erwartet, kann dafür eine Joker-Variante wählen\n• Wer etwa starke Eicheln hält, spielt sie als Joker mit sieben- oder achtfacher Wertung. Eicheln einfach bleibt für ein schwächeres Blatt\n\n## Quelle, Praxis und Empfehlung\n\n**Quelle:** Faktoren, Spielablauf, Joker und Schreiben folgen Dani Müller, «Stöck Wys Stich», Kapitel Coiffeur-Schieber.\n\n**Praxis:** Verbreitet ist auch die Folge aus Göpf Eggs «Puur Näll Ass» (1989), zitiert bei [pagat.com](https://www.pagat.com/jass/coiffeur.html), mit Schilten dreifach und Schellen vierfach. Viele Runden spielen zudem weitere Varianten, zum Beispiel Slalom (siehe Begriff \"expressions_slalom\") oder Misère (siehe Begriff \"expressions_misere\"). Was davon gilt, macht die Runde vor dem ersten Spiel ab (siehe Begriff \"regeln_tischregel\").\n\n**Empfehlung:** Der Jassverband Schweiz empfiehlt, den Coiffeur nach Müller zu spielen.",
     "metadata": {
       "id": "variants_family_coiffeur_schieber_meta",
       "category": {
@@ -8072,35 +8064,11 @@
       "taxonomy_tier": 1,
       "wikidata_id": "Q137731700",
       "datePublished": "2025-11-22",
-      "dateModified": "2026-11-21",
+      "dateModified": "2026-11-22",
       "seoTitle": "Coiffeur Jass: Regeln, Ablauf und Wertung mit Faktoren | Jass-Wiki",
       "seoDescription": "Der Coiffeur-Schieber (quoi faire) für vier: jedes Team spielt acht Varianten je einmal, gewertet ein- bis achtfach, 16 Spiele je Partie. Mit Joker und Wertungstafel."
     },
     "faqs": [
-      {
-        "question": "Was ist Coiffeur?",
-        "answer": "Der Coiffeur (Coiffeur-Schieber) ist eine Schieber-Variante für vier Personen in zwei Teams. Statt auf eine feste Punktzahl zu spielen, muss jedes Team acht verschiedene Varianten, die vier Trumpffarben, Obenabe, Undenufe und zwei Joker, genau einmal spielen. Je nach Variante werden die Punkte ein- bis achtfach gewertet. Eine ganze Partie umfasst 16 Spiele."
-      },
-      {
-        "question": "Wie spielt man Coiffeur?",
-        "answer": "Vier Spieler bilden zwei Teams. Vorhand wählt eine der acht Varianten oder schiebt im Kreis weiter. Wer wählt, spielt aus. Sein Team schreibt die Punkte dieses Spiels. Die Partie endet, wenn beide Teams jede Variante einmal gespielt haben."
-      },
-      {
-        "question": "Wie viele Spiele umfasst eine komplette Coiffeur-Schieber-Partie?",
-        "answer": "Eine komplette Partie umfasst 16 Spiele, da jedes Team jede von acht verschiedenen Varianten genau einmal spielen muss."
-      },
-      {
-        "question": "Was sind die Joker-Varianten beim Coiffeur-Schieber?",
-        "answer": "Die Joker sind die Varianten 7 und 8, sie zählen sieben- und achtfach. Das Team wählt dafür Trumpf in einer beliebigen Farbe, Obenabe oder Undenufe."
-      },
-      {
-        "question": "Wie viele Punkte zählt Obenabe beim Coiffeur-Schieber?",
-        "answer": "Obenabe zählt beim Coiffeur-Schieber fünffach."
-      },
-      {
-        "question": "Kann ich beim Coiffeur-Schieber die Reihenfolge der Varianten frei wählen?",
-        "answer": "Ja. Jedes Team wählt selber, wann es welche Trumpfart spielt."
-      },
       {
         "question": "Welche Farbe zählt beim Coiffeur wie viel?",
         "answer": "Nach Dani Müller zählen Eicheln einfach, Rosen zweifach, Schellen dreifach und Schilten vierfach. Obenabe zählt fünffach, Undenufe sechsfach, die zwei Joker sieben- und achtfach. Verbreitet ist auch die Folge von Göpf Egg mit Schilten dreifach und Schellen vierfach. Eine Runde, die so spielt, macht das vor dem ersten Spiel ab."
