@@ -35,7 +35,7 @@ const getNavigationStructure = (content: JassContentRecord) => {
       slug: string;
       topics: { name: string; slug: string }[];
     }>;
-    flatArticles: { name: string; slug: string }[];
+    flatArticles: { name: string; slug: string; href: string }[];
   }> = {};
 
   (Object.values(content) as JassContentItem[]).forEach(item => {
@@ -55,7 +55,9 @@ const getNavigationStructure = (content: JassContentRecord) => {
       if (!structure[mainCatSlug].flatArticles.some(a => a.slug === topicSlug)) {
         structure[mainCatSlug].flatArticles.push({
           name: item.metadata.category.topic,
-          slug: topicSlug
+          slug: topicSlug,
+          // Fester Pfad (z. B. /jassen-lernen/) statt /<rubrik>/<thema>/.
+          href: buildArticleUrl(item.metadata.category),
         });
       }
       return;
@@ -205,8 +207,10 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
         name: g.title,
         href: `/schieber/${g.slug}/`,
         ebene: 2 as const,
+        // Steht der Leitartikel auf /schieber/ selbst (fester Pfad), ist er der
+        // Hauptbereich und braucht keinen eigenen Eintrag darunter.
         kinder:
-          g.slug === 'regeln-grundlagen' && leitartikel
+          g.slug === 'regeln-grundlagen' && leitartikel && buildArticleUrl(leitartikel.metadata.category) !== href
             ? [
                 {
                   key: buildArticleUrl(leitartikel.metadata.category),
@@ -234,9 +238,9 @@ const baumBauen = (struktur: ReturnType<typeof getNavigationStructure>): Knoten[
         })),
       }));
       const flach: Knoten[] = (cat.flatArticles || []).map((a) => ({
-        key: `/${catSlug}/${a.slug}/`,
+        key: a.href,
         name: formatTopicName(a.name),
-        href: `/${catSlug}/${a.slug}/`,
+        href: a.href,
         ebene: 2 as const,
         kinder: [],
       }));

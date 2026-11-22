@@ -6,7 +6,8 @@ import type { JassApp } from '@/types/jass-lexikon';
 // offers. Ohne metadata.app oder ohne Namen steht nichts.
 
 export function softwareApplication(app: JassApp | undefined, seitenUrl: string) {
-  if (!app || !app.name) return null;
+  // app.liste: der Artikel beschreibt mehrere Apps (SCHIRI 22.11.), kein Einzelschema.
+  if (!app || !app.name || app.liste === true) return null;
   const plattformen = (app.plattformen ?? []).filter((p) => typeof p === 'string' && p.trim());
   const sameAs = (app.sameAs ?? []).filter((s) => typeof s === 'string' && s.trim());
   return {

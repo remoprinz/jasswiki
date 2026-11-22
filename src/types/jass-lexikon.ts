@@ -5,6 +5,8 @@ export interface JassApp {
   zweck?: string;
   url?: string;
   sameAs?: string[];
+  /** true: der Artikel beschreibt mehrere Apps. Karte ja, SoftwareApplication nein. */
+  liste?: boolean;
 }
 
 export interface JassContentMetadata {

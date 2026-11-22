@@ -2,7 +2,14 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 // Importiere zentrale URL-Utilities (Single Source of Truth)
-import { toSlug, buildArticleUrl, isFlatStructure, validateUrl } from './url-utils.mjs';
+import { toSlug, buildArticleUrl, isFlatStructure, validateUrl, festerPfad } from './url-utils.mjs';
+
+// Artikel mit festem Pfad: Gewicht der Seite (Karte SCHIRI «wiki-vorlagen»).
+// /jassen-lernen/ wiegt wie /jassen/, /schieber/ wie eine Hauptrubrik.
+const GEWICHT_FEST = {
+  '/jassen-lernen/': { changefreq: 'weekly', priority: '0.95' },
+  '/schieber/': { changefreq: 'weekly', priority: '0.9' },
+};
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -133,7 +140,8 @@ async function generateSitemap() {
         loc: url,
         lastmod: article.metadata.dateModified,
         changefreq: 'weekly',
-        priority: '0.8'
+        priority: '0.8',
+        ...(GEWICHT_FEST[articlePath] ?? {}),
       });
     });
     
@@ -168,6 +176,10 @@ async function generateSitemap() {
       const subCatSlug = toSlug(category.sub);
       const topicSlug = toSlug(category.topic);
       
+      // Artikel mit festem Pfad tragen keine Unterrubrik-Seite
+      // (/schieber/grundlagen/ entfällt, Weiterleitung in firebase.json).
+      if (festerPfad(category)) return;
+
       // Verwende zentrale Funktion für Prüfung
       if (isFlatStructure(mainCatSlug, subCatSlug, topicSlug)) {
         return; // Flache Artikel haben keine Subkategorie-Seiten
@@ -193,6 +205,23 @@ async function generateSitemap() {
         addedUrls.add(url);
       }
     });
+
+    // Eine Adresse steht einmal: /schieber/ ist Rubrik und Artikel zugleich.
+    // Es bleibt der erste Eintrag mit dem höchsten Gewicht und dem jüngsten Datum.
+    const proAdresse = new Map();
+    for (const u of urls) {
+      const bisher = proAdresse.get(u.loc);
+      if (!bisher) {
+        proAdresse.set(u.loc, { ...u });
+        continue;
+      }
+      if (Number(u.priority) > Number(bisher.priority)) {
+        bisher.priority = u.priority;
+        bisher.changefreq = u.changefreq;
+      }
+      if (u.lastmod > bisher.lastmod) bisher.lastmod = u.lastmod;
+    }
+    urls.splice(0, urls.length, ...proAdresse.values());
 
     console.log(`✅ ${urls.length} URLs generiert.`);
 
