@@ -345,6 +345,16 @@ const SubcategoryPage: React.FC<SubcategoryPageProps> = ({
               </>
             }
             nachText={bereich}
+            rohText={isKartenfarben ? undefined : contentItem.text}
+            zeichne={(stueck) => (
+              <div className="content-formatting text-black">
+                {hatArtikelBilder(contentItem.id) ? (
+                  <TextMitBildern schluessel={contentItem.id} text={stueck} farbwechsel={farbwechsel} />
+                ) : (
+                  <InternalLinker text={stueck} farbwechsel={farbwechsel} />
+                )}
+              </div>
+            )}
           />
         ) : (
         <LexikonLayout breadcrumbItems={breadcrumbItems}>

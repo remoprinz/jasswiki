@@ -181,6 +181,16 @@ const JassWissenPage: NextPage<JassWissenPageProps> = ({
           titel={contentItem.metadata.titel || topic}
           fragenName={topic}
           kategorie={categorySlug}
+          rohText={isKartenfarben || FARB_KOEPFE[contentItem.id] ? undefined : contentItem.text}
+          zeichne={(stueck) => (
+            <div className="content-formatting text-black">
+              {hatArtikelBilder(contentItem.id) ? (
+                <TextMitBildern schluessel={contentItem.id} text={stueck} farbwechsel={farbwechsel} />
+              ) : (
+                <InternalLinker text={stueck} farbwechsel={farbwechsel} />
+              )}
+            </div>
+          )}
           text={
             <>
               {FARB_KOEPFE[contentItem.id] && <FarbeKopf {...FARB_KOEPFE[contentItem.id]} />}

@@ -30,6 +30,10 @@ interface Props {
   kategorie?: string;
   ort: string;
   abstand?: string;
+  /** Wortlaut und Ziel aus src/data/tueren.json (Karte als Tür nach dem Einstieg). */
+  titel?: string;
+  knopf?: string;
+  pfad?: string;
 }
 
 // ── Zeile unter dem Artikeltitel (WELLE 07.11.2026, Remo 12:05: «Ich habe diese
@@ -80,7 +84,7 @@ export const JassenZeile: React.FC<{ schluessel: string; kategorie: string }> = 
   );
 };
 
-export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, abstand = 'mt-[32px]' }) => {
+export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, abstand = 'mt-[32px]', titel = KARTE_TITEL, knopf = 'Jass starten', pfad = '/arena/solo/' }) => {
   // Ausnahme: der Artikel über JassGuru selbst endet mit dem Weg an den Tisch.
   if (kategorie && OHNE_KARTE.has(kategorie) && schluessel !== 'jassapps_jassguru') return null;
   const daten = leitartikel as { artikel: Record<string, unknown> };
@@ -105,13 +109,13 @@ export const JassenKarte: React.FC<Props> = ({ schluessel, kategorie, ort, absta
         />
       </picture>
       <p className="!font-capita !text-[22px] sm:!text-[28px] !font-bold text-center !text-white !leading-[1.2] !m-0">
-        {KARTE_TITEL}
+        {titel}
       </p>
       <a
-        href={jassguruLink('/arena/solo/', ort)}
+        href={jassguruLink(pfad, ort)}
         className="inline-flex items-center justify-center px-[20px] py-[8px] bg-[#ff0101] !text-white !no-underline rounded-[999px] hover:brightness-110 transition-all font-inter font-bold text-[15px] sm:text-[16px] text-center"
       >
-        Jass starten
+        {knopf}
       </a>
     </aside>
   );

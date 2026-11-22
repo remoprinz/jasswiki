@@ -155,6 +155,12 @@ const VariantenPage: NextPage<VariantenPageProps> = ({
           titel={topic}
           fragenName={topic}
           kategorie={categorySlug}
+          rohText={contentItem.text}
+          zeichne={(stueck) => (
+            <div className="content-formatting text-black">
+              <InternalLinker text={stueck} farbwechsel={contentItem.metadata.farbwechsel === true} />
+            </div>
+          )}
           text={
             <div className="content-formatting text-black">
               <InternalLinker text={contentItem.text} farbwechsel={contentItem.metadata.farbwechsel === true} />

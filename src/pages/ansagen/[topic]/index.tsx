@@ -146,6 +146,12 @@ const AnsagenPage: NextPage<AnsagenPageProps> = ({
           titel={topic}
           fragenName={topic}
           kategorie={categorySlug}
+          rohText={isTrumpffarbe ? undefined : contentItem.text}
+          zeichne={(stueck) => (
+            <div className="content-formatting text-black">
+              <InternalLinker text={stueck} farbwechsel={farbwechsel} />
+            </div>
+          )}
           text={
             <>
               <div className="content-formatting text-black">

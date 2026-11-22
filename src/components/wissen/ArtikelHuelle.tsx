@@ -2,7 +2,8 @@ import React from 'react';
 import { LexikonLayout } from '@/components/layout/LexikonLayout';
 import { JassContentItem } from '@/types/jass-lexikon';
 import leitartikel from '@/data/leitartikel.json';
-import { JassenZeile } from '@/components/wissen/JassenKarte';
+import tueren from '@/data/tueren.json';
+import { JassenKarte, JassenZeile } from '@/components/wissen/JassenKarte';
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo, jdtFuer } from '@/components/wissen/LeitartikelVideo';
 import { UebenBlock, hatUeben } from '@/components/wissen/UebenBlock';
@@ -20,6 +21,8 @@ import { RueckmeldungZeile } from '@/components/wissen/RueckmeldungZeile';
  *
  *   kopf          Brotkrumen, Titel, die eine Tür zum Spielen als Zeile
  *   text          der Artikel mit Karten- und Tischbildern
+ *   tuer          die grüne Karte nach dem Einstieg, allein wo src/data/tueren.json
+ *                 den Artikel führt; der Text teilt sich dann in zwei Bausteine text
  *   ueben         Film des Leitartikels oder Block «Üben» (entfällt ohne Inhalt)
  *   fragen        alle Fragen zugeklappt
  *   verweise      EINE Liste: «Siehe auch», wo see_also steht, sonst die errechnete
@@ -59,7 +62,31 @@ interface ArtikelHuelleProps {
   text: React.ReactNode;
   /** Was zum Text gehört und unter ihm steht (Artikel eines Bereichs). */
   nachText?: React.ReactNode;
+  /** Roher Artikeltext und wie die Vorlage ein Stück davon zeichnet. Beides
+   *  braucht die Tür als Karte (tueren.json), die den Text nach dem Einstieg teilt. */
+  rohText?: string;
+  zeichne?: (stueck: string) => React.ReactNode;
 }
+
+interface Tuer {
+  titel: string;
+  knopf: string;
+  pfad: string;
+  ort: string;
+}
+
+/** Die Tür als Karte, wo src/data/tueren.json den Artikel führt (SCHIRI 22.11.2026). */
+export const tuerFuer = (kennung: string): Tuer | null =>
+  (tueren as { artikel: Record<string, Tuer> }).artikel[kennung] ?? null;
+
+/** Teilt den Text nach dem Einstieg: vor der ersten «## », sonst nach dem ersten Absatz. */
+export const teileAmEinstieg = (text: string): [string, string] => {
+  const ueberschrift = text.search(/\n## /);
+  if (ueberschrift > 0) return [text.slice(0, ueberschrift), text.slice(ueberschrift + 1)];
+  const absatz = text.search(/\n\s*\n/);
+  if (absatz > 0) return [text.slice(0, absatz), text.slice(absatz).replace(/^\s+/, '')];
+  return [text, ''];
+};
 
 export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   contentItem,
@@ -69,14 +96,21 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   kategorie,
   text,
   nachText,
+  rohText,
+  zeichne,
 }) => {
   const kennung = contentItem.id;
   const leit = istLeitartikel(kennung);
-  // Eine Tür: Leitartikel tragen den Jassfreunde-Satz, alle anderen die Zeile.
+  // Die Karte braucht den rohen Text; Vorlagen mit eigenem Aufbau (Raster,
+  // Symbole) geben ihn nicht und behalten die Zeile.
+  const tuer = rohText !== undefined && zeichne ? tuerFuer(kennung) : null;
+  const [vorTuer, nachTuer] = tuer ? teileAmEinstieg(rohText!) : ['', ''];
+  // Eine Tür: Leitartikel tragen den Jassfreunde-Satz, Artikel mit Karte die
+  // Karte, alle anderen die Zeile.
   const kopf = (
     <header className="text-left pb-6 border-b border-[#f0eee7]">
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ff0000] mb-4 leading-tight">{titel}</h1>
-      {!leit && <JassenZeile schluessel={kennung} kategorie={kategorie} />}
+      {!leit && !tuer && <JassenZeile schluessel={kennung} kategorie={kategorie} />}
     </header>
   );
 
@@ -87,13 +121,39 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   return (
     <LexikonLayout breadcrumbItems={breadcrumbItems} kopf={kopf}>
       <div className="space-y-6 sm:space-y-8">
-        <div data-baustein="text">
-          <article className="content-formatting max-w-none" data-artikel-seite={kennung}>
-            {text}
-          </article>
-          {nachText}
-          <JassfreundeSatz schluessel={kennung} />
-        </div>
+        {tuer ? (
+          <>
+            <div data-baustein="text">
+              <article className="content-formatting max-w-none" data-artikel-seite={kennung}>
+                {zeichne!(vorTuer)}
+              </article>
+            </div>
+            <div data-baustein="tuer">
+              <JassenKarte
+                schluessel={kennung}
+                kategorie={kategorie}
+                ort={tuer.ort}
+                abstand=""
+                titel={tuer.titel}
+                knopf={tuer.knopf}
+                pfad={tuer.pfad}
+              />
+            </div>
+            <div data-baustein="text">
+              {nachTuer && <div className="content-formatting max-w-none">{zeichne!(nachTuer)}</div>}
+              {nachText}
+              <JassfreundeSatz schluessel={kennung} />
+            </div>
+          </>
+        ) : (
+          <div data-baustein="text">
+            <article className="content-formatting max-w-none" data-artikel-seite={kennung}>
+              {text}
+            </article>
+            {nachText}
+            <JassfreundeSatz schluessel={kennung} />
+          </div>
+        )}
 
         {ueben && (
           <div data-baustein="ueben">
