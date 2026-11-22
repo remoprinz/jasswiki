@@ -3,7 +3,7 @@ title: "JassWiki.ch - Geschichte & Kultur"
 description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 25
+entries_count: 23
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -32,14 +32,12 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Die Liste der lebendigen Traditionen](#history_unesco)
 - [Frühe Spielkarten in Europa](#history_medieval)
 - [Jass.ch (Swisslos)](#jassapps_jassch)
-- [Jassen als Kulturgut](#general_culture)
 - [Jassen im europäischen Vergleich](#general_european_context)
 - [Jasstafel](#jassapps_jasstafel)
 - [Samschtig-Jass](#samschtig_jass)
 - [Verbreitung und gesellschaftliche Bedeutung](#history_social_significance)
 - [Woher kommt das Wort Jass?](#history_etymology)
 - [JassPro](#jassapps_jasspro)
-- [Regionale Eigenheiten](#general_geography)
 - [Schweizer Kartenmacher](#history_swiss_production)
 - [SwissJass+](#jassapps_swissjass)
 - [UNESCO-Übereinkommen](#history_unesco_convention)
@@ -770,34 +768,6 @@ Alle Angebote zum Online-Jassen stehen in der Übersicht [Online-Jass](/jassapps
 
 ---
 
-### Jassen als Kulturgut {#general_culture}
-
-**Kategorie:** Grundlagen & Kultur > Jassen als Kulturgut
-
-Kulturelle Verankerung:
-Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.
-
-Gesellschaftliche Dimensionen:
-• **Soziale Treffpunkte:** Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt
-• **Brauchtum:** Viele regionale Traditionen und Bräuche sind eng mit dem Jassen verbunden
-• **Sprachliche Identität:** Die reiche Jass-Terminologie spiegelt die Schweizer Dialektvielfalt wider
-
-Moderne Entwicklung:
-Jassrunden am Tisch und Jass-Apps bestehen nebeneinander.
-
-Identitätsstiftung:
-Das Jassen verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg und stärkt das Gemeinschaftsgefühl.
-
-**Häufige Fragen:**
-- **Warum gilt der Jass als Schweizer Kulturgut?** Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.
-- **Warum ist Jass so wichtig für die Schweizer Kultur?** Der Jass ist tief in der Schweizer Kultur verwurzelt, wird als Nationalspiel betrachtet und verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg.
-- **Wo wird in der Schweiz gejasst?** Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt.
-- **Haben Jass-Apps den Jass am Tisch verdrängt?** Nein. Jassrunden am Tisch und Jass-Apps bestehen nebeneinander.
-
-*Keywords: kultur, tradition, geschichte, regionen, deutschschweiz*
-
----
-
 ### Jassen im europäischen Vergleich {#general_european_context}
 
 **Kategorie:** Grundlagen & Kultur > Jassen im europäischen Vergleich
@@ -920,7 +890,7 @@ Schieber, die häufigste Jassart der Schweiz, jasst man online in der Arena von 
 **Kategorie:** Geschichte > Kulturelle Bedeutung
 
 Gesellschaftliche Rolle:
-Der Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.
+Der Jass gilt als Nationalspiel der Schweiz und spielt eine zentrale Rolle in Gesellschaft und Kultur.
 
 Soziale Funktionen:
 • **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben
@@ -1006,34 +976,6 @@ Alle Angebote zum Online-Jassen stehen in der Übersicht [Online-Jass](/jassapps
 - **Welche Varianten bietet JassPro?** Einfach, Schaufel doppelt, Obenabe/Undenufe und Slalom, mit oder ohne Weis und Multiplikatoren.
 
 *Keywords: jasspro, online-jass, app, ios, android*
-
----
-
-### Regionale Eigenheiten {#general_geography}
-
-**Kategorie:** Grundlagen & Kultur > Regionale Eigenheiten
-
-Geografische Verbreitung:
-Der Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben.
-
-Regionale Besonderheiten:
-• **Deutschschweiz:** Hier ist der Jass am weitesten verbreitet, mit Varianten wie Schieber und Coiffeur
-• **Westschweiz:** Französischsprachige Regionen bevorzugen teilweise andere Spielformen
-• **Alpenregionen:** Traditionelle Hochburgen mit starker Jass-Kultur
-
-Internationale Verbreitung:
-Über die Schweizer Grenzen hinaus wird Jass auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
-
-Kulturelle Zentren:
-Bestimmte Ortschaften und Regionen gelten als besondere Jass-Hochburgen mit eigenen Traditionen und Turnieren.
-
-**Häufige Fragen:**
-- **Wo in der Schweiz wird welcher Jass gespielt?** Der Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben.
-- **Wo wird Jass in der Schweiz gespielt?** Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten entwickelt haben.
-- **In welcher Region ist Jass am beliebtesten?** In der Deutschschweiz ist der Jass am weitesten verbreitet, mit Varianten wie Schieber und Coiffeur.
-- **Wird Jass auch ausserhalb der Schweiz gespielt?** Ja, Jass wird auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
-
-*Keywords: regionen, deutschschweiz, romandie, tessin, graubünden*
 
 ---
 

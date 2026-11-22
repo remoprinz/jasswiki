@@ -79,9 +79,7 @@
           "artikel": [
             "ausmachregel",
             "bedanken",
-            { "id": "weis_rules_ausmachen_early_thanking", "gehtAufIn": "bedanken" },
             "schneider",
-            { "id": "weis_rules_ausmachen_schneider", "gehtAufIn": "schneider" },
             "bergpreis"
           ]
         },
@@ -112,9 +110,7 @@
             "karte_faellt_runter",
             "karte_zu_frueh",
             "fehlende_karte",
-            { "id": "kartenspiel_nicht_komplett", "gehtAufIn": "fehlende_karte" },
             "spielverrat",
-            { "id": "bemerkungen_schnorren", "gehtAufIn": "spielverrat" },
             "fragen_waehrend_spiel"
           ]
         }
@@ -204,7 +200,6 @@
           "artikel": [
             "variants_family_guggitaler",
             "variants_molotow",
-            { "id": "expressions_tisch_weis", "gehtAufIn": "variants_molotow" },
             "variants_specialty_hindersi_vier",
             "variants_specialty_hindersi_drei",
             "variants_specialty_schaufel_dame",
@@ -261,7 +256,6 @@
       "frage": "Was heisst dieses Wort?",
       "darstellung": "alphabet",
       "eintraege": [
-        { "id": "expressions_basic_terms", "gehtAufIn": "/begriffe/" },
         "expressions_ablupf",
         "expressions_am_druecker",
         "expressions_banner",
@@ -353,11 +347,9 @@
           "kapitel": "Kultur",
           "artikel": [
             "history_social_significance",
-            { "id": "general_culture", "gehtAufIn": "history_social_significance" },
             "history_unesco",
             "history_unesco_convention",
             "general_geography_regions",
-            { "id": "general_geography", "gehtAufIn": "general_geography_regions" },
             "general_european_context",
             "samschtig_jass"
           ]

@@ -3,7 +3,7 @@ title: "JassWiki.ch - Spielregeln"
 description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 55
+entries_count: 51
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -33,7 +33,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Abheben der Karten](#abheben)
 - [Ausmachregel](#ausmachregel)
 - [Ausspiel](#ausspiel)
-- [Bemerkungen/Schnorren](#bemerkungen_schnorren)
 - [Bergpreis](#bergpreis)
 - [Bodentrumpf](#bodentrumpf)
 - [Falscher Spieler](#falscher_spieler)
@@ -44,7 +43,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Hingelegter Matsch](#hingelegter_matsch)
 - [Jass-Regionen](#general_geography_regions)
 - [Karte frühzeitig in die Hand nehmen](#karte_zu_frueh)
-- [Karten nicht komplett](#kartenspiel_nicht_komplett)
 - [Kartenwerte](#general_card_values)
 - [Kartenwerte je Ansage](#matsch)
 - [Kontermatsch](#kontermatsch)
@@ -65,12 +63,10 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Zählweise Striche](#zaehlweise_striche)
 - [Zusammenwerfen](#zusammenwerfen)
 - [Zwei Karten spielen](#zwei_karten_spielen)
-- [Frühzeitiges Bedanken](#weis_rules_ausmachen_early_thanking)
 - [Jasskarten: Verteilmethoden](#general_dealing_methods)
 - [Korrekturregeln](#weis_rules_notation_correction)
 - [Rechte Tafelseite](#weis_rules_notation_numbers)
 - [Spielfehler: Übersicht](#general_playing_errors)
-- [Ausmachregel beim Schneider](#weis_rules_ausmachen_schneider)
 - [Bietrunde](#bietrunde)
 - [Karte fällt runter](#karte_faellt_runter)
 - [Kreuzweis](#weis_rules_kreuzweis)
@@ -181,7 +177,7 @@ Schneidergrenze:
 Die Schneidergrenze liegt bei der Hälfte des Spielziels, sofern keine andere Tischregel gilt. Bei einer Partie auf 2500 Punkte ist sie 1250. Wer beim Bedanken des Gegners darunter liegt, ist im Schneider.
 
 Aus dem Schneider weisen:
-Das unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind.
+Das unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind. Gilt Stöck-Stich-Wys, zählt der siegbringende Stich der Gegner vor dem Wys. Dann bleibt das Team im Schneider. Erreichen die Gegner das Ziel mit den Stöck, schreibt das unterlegene Team weder Wys noch Kartenpunkte an und bleibt ebenfalls im Schneider.
 
 Belohnung und Einsatz:
 Weil der Schneider selten ist, gewinnt das siegreiche Team zwei Striche. Geht es um Geld, zahlt das Team im Schneider den doppelten Einsatz.
@@ -249,14 +245,19 @@ Definition:
 
 Beispiele:
 • Bemerkungen über gelaufene Karten
-• Andeutungen über Bock-Karten
+• Andeutungen über Bock-Karten, etwa Bock
 • Wiederholungen von angezogenen oder verworfenen Farben
 • Bemerkungen zu Taktiken
-• Fragen, die das Spiel verraten, sind ebenfalls verboten
+• Kommentare über Punkte, die ein Gegner während des Spiels erzielt
+• Fragen, die das Spiel verraten, sind ebenfalls verboten, ebenso Antworten darauf, etwa auf «Wie viele Trümpfe sind gelaufen?» oder «Wem gehört dieser Stich?»
 • Zeichen ohne Worte: Blicke, Gesten, Mienenspiel
 
 Konsequenzen bei Spielverrat:
 • Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird
+
+Ausnahmen:
+• Erlaubt bleibt, was über Karten und Punkte nichts verrät
+• Beim Aucho gelten eigene Regeln für Bemerkungen
 
 **Häufige Fragen:**
 - **Was ist Spielverrat beim Jassen?** Spielverrat sind alle Handlungen wie Klopfen oder Bemerkungen, welche das Spiel verraten. Diese sind verboten.
@@ -264,6 +265,7 @@ Konsequenzen bei Spielverrat:
 - **Was sind die Konsequenzen bei Spielverrat?** Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird.
 - **Sind auch Zeichen ohne Worte verboten?** Ja, auch Zeichen ohne Worte wie Blicke oder Gesten, die das Spiel verraten, sind verboten.
 - **Ist Klopfen beim Jassen erlaubt?** Klopfen verrät etwas über die eigenen Karten und gilt darum als Spielverrat. Es ist verboten.
+- **Was ist Schnorren beim Jassen?** Schnorren heisst, während des Spiels etwas über die Karten zu sagen. Das ist Spielverrat, ebenso Andeutungen, Gesten und Antworten auf Fragen wie «Wie viele Trümpfe sind gelaufen?».
 
 *Keywords: spielverrat, klopfen, bemerkungen, schnorren, gestik*
 
@@ -426,41 +428,6 @@ Kartenwahl und Spielablauf:
 
 ---
 
-### Bemerkungen/Schnorren {#bemerkungen_schnorren}
-
-**Kategorie:** Regeln > Sonderregeln
-
-Definition:
-Schnorren (Bemerkungen während dem Spiel) ist grundsätzlich verboten.
-
-Verbotene Bemerkungen:
-• Kommentare über eine unschlagbare Karte (z.B. «Bock»)
-• Bemerkungen über Karten irgendeiner Farbe
-• Kommentare über Punkte, die ein Gegner während dem Spielverlauf erzielt
-• Andeutungen, die die eigene Taktik verraten
-• Antworten auf Fragen während dem Spiel (z.B. «Wie viele Trümpfe sind gelaufen?», «Wem gehört dieser Stich?», «Wer hat diese Karte gegeben?»)
-• Nonverbale Zeichen wie Gestik oder Mimik
-
-Konsequenzen bei Spielverrat:
-• Die Gegner entscheiden, ob das Spiel annulliert wird oder der Fehler ohne Einfluss bleibt
-
-Ausnahmen:
-• Beim Aucho gelten eigene Regeln für Bemerkungen
-• Erlaubt bleibt, was über Karten und Punkte nichts verrät
-
-**Häufige Fragen:**
-- **Was ist Schnorren beim Jassen?** Schnorren heisst, während des Spiels etwas über die Karten zu sagen. Das ist verboten, ebenso Andeutungen, Gesten und Antworten auf Fragen wie «Wie viele Trümpfe sind gelaufen?».
-- **Was bedeutet Schnorren beim Jassen?** Schnorren bedeutet Bemerkungen während dem Spiel und ist grundsätzlich verboten.
-- **Darf man während dem Spiel Fragen beantworten?** Nein, Antworten auf Fragen während dem Spiel sind verboten (z.B. «Wie viele Trümpfe sind gelaufen?»).
-- **Was passiert bei Spielverrat durch Bemerkungen?** Die Gegner entscheiden, ob das Spiel annulliert wird oder der Fehler ohne Einfluss bleibt.
-- **Sind nonverbale Zeichen erlaubt?** Nein, auch nonverbale Zeichen wie Gestik oder Mimik sind nicht erlaubt.
-- **Gibt es Ausnahmen von der Schnorren-Regel?** Ja, beim Aucho gelten eigene Regeln für Bemerkungen. Sonst ist nur erlaubt, was über Karten und Punkte nichts verrät.
-- **Was gilt als Spielverrat (Schnorren)?** Bemerkungen über Karten, Punkte und Taktik, nonverbale Zeichen, Antworten auf Fragen. Ausnahme: Beim Aucho gelten eigene Regeln. Konsequenz: Gegner entscheiden ob Spiel annulliert wird.
-
-*Keywords: bemerkungen, kommentare, schnorren, spielverrat, zeichengeben*
-
----
-
 ### Bergpreis {#bergpreis}
 
 **Kategorie:** Regeln > Bergpreis
@@ -598,11 +565,15 @@ Zwei Wege sind üblich:
 • Möglichkeit 1: Die Runde wird annulliert und neu gestartet
 • Möglichkeit 2: Das Spiel wird ohne fehlende Karte zu Ende gespielt, wobei die Karte ihren Stechwert verloren hat
 
+Vor Spielbeginn:
+Wird nach dem Verteilen, aber vor Beginn des Spiels festgestellt, dass das Kartenspiel unvollständig ist, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.
+
 **Häufige Fragen:**
 - **Wie funktioniert Fehlende Karte beim Jassen?** Wird während eines Spiels bemerkt, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen.
 - **Was passiert, wenn eine Karte fehlt?** Wenn während eines Spiels bemerkt wird, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen.
 - **Welche Möglichkeiten gibt es bei fehlender Karte?** Möglichkeit 1: Die Runde wird annulliert und neu gestartet. Möglichkeit 2: Das Spiel wird ohne fehlende Karte zu Ende gespielt, wobei die Karte ihren Stechwert verloren hat.
 - **Wer entscheidet bei fehlender Karte?** Die Gegner des betroffenen Spielers entscheiden über das weitere Vorgehen.
+- **Was gilt, wenn vor Spielbeginn eine Karte fehlt oder beschädigt ist?** Das Kartenspiel wird ersetzt, danach gibt derselbe Kartengeber neu.
 
 *Keywords: fehlende karte, stechwert, annullieren, runde, spiel*
 
@@ -702,6 +673,7 @@ Konsequenz falls nicht «hingelegt»:
 
 Übersicht:
 • Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Mit beiden Blättern wird eine grosse Zahl von Jassarten gespielt.
+• Über die Schweizer Grenzen hinaus wird Jass auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.
 
 Spielarten:
 • Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten
@@ -745,6 +717,7 @@ Kartentypen:
 - **Warum ist der Aargau ein Sonderfall?** Der Aargau ist entlang der Reuss geteilt: westlich davon französische Karten, östlich davon Deutschschweizer Karten. Der Thurgau liegt östlich der Linie und jasst nach Walter Haas mit französischen Karten.
 - **Wie viele verschiedene Jassarten gibt es?** Rechnet man Varianten wie 'Tschau-Sepp' dazu, existieren rund 70 verschiedene Jassarten.
 - **Welche Jassart gilt als Königsdisziplin?** Der Differenzler gilt als Königsdisziplin, gefolgt vom Schieber und vom Bieter.
+- **Wird Jass auch ausserhalb der Schweiz gespielt?** Ja, auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs.
 
 *Keywords: französisch, deutschschweizer, karten, region, röschtigraben*
 
@@ -769,22 +742,6 @@ Erlaubnis:
 - **Was passiert, wenn man beim Nehmen einer Karte Zeichen gibt?** Während eines laufenden Stichs darf man eine Karte in die Hand nehmen. Wer dabei ein Zeichen gibt, verrät das Spiel.
 
 *Keywords: karte, hand, stich, frühzeitig, spielverrat*
-
----
-
-### Karten nicht komplett {#kartenspiel_nicht_komplett}
-
-**Kategorie:** Regeln > Fehler & Verstösse
-
-Regel:
-• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.
-
-**Häufige Fragen:**
-- **Was passiert, wenn eine Karte fehlt oder beschädigt ist?** Wird nach dem Verteilen, aber noch vor Spielbeginn festgestellt, dass eine Karte fehlt oder beschädigt ist, kann das Kartenspiel ersetzt werden und die Karten werden vom selben Kartengeber neu verteilt.
-- **Wann muss das Kartenspiel ersetzt werden?** Wenn nach dem Verteilen, aber noch vor Spielbeginn festgestellt wird, dass das Kartenspiel nicht komplett ist oder eine Karte beschädigt ist.
-- **Wer verteilt die Karten nach dem Ersetzen?** Derselbe Kartengeber verteilt die Karten erneut, nachdem das Kartenspiel ersetzt wurde.
-
-*Keywords: karte, komplett, beschädigt, verteilen, ersetzen*
 
 ---
 
@@ -1550,40 +1507,6 @@ Konsequenzen:
 
 ---
 
-### Frühzeitiges Bedanken {#weis_rules_ausmachen_early_thanking}
-
-**Kategorie:** Regeln > Ausmachen
-
-Grundregel:
-Wer sich bedankt, ohne das Ziel erreicht zu haben, verliert die Partie.
-
-Erlaubtes Bedanken:
-• Spieler legt eine Karte und die Punkte aus allen bereits in diesem Stich  gelegten Karten (inklusive seiner eigenen) reichen zum Sieg aus
-• Der Spieler kann sich sofort bedanken
-
-Verbotenes Verhalten:
-• Während eines laufenden Spiels Karten zählen, um herauszufinden, ob die Punkte zum Sieg ausreichen
-• Wer dies tut und sich bedankt, verliert die Partie, falls sich herausstellt, dass das Ziel nicht erreicht wurde
-
-Zweck dieser Regel:
-• Verhindert, dass während des Spiels gezählt wird
-• Verhindert die Suche nach zusätzlichen Bockkarten
-
-Sonderfall, Falsch gespielte Karte:
-• Falls sich ein Team bedankt und dabei Punkte einer versehentlich falsch gespielten Karte des Gegners mitzählt, wird das Bedanken als ungültig gewertet
-• Dies gilt nur, wenn nach korrigierter Kartenverteilung die erforderliche Punktzahl nicht mehr erreicht wird
-
-**Häufige Fragen:**
-- **Was passiert, wenn sich jemand zu früh bedankt?** Spieler, der sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie.
-- **Was passiert, wenn man zu früh bedankt?** Wer sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie.
-- **Wann darf man frühzeitig bedanken?** Man darf bedanken, wenn die Punkte aus allen bereits im aktuellen Stich gelegten Karten (inklusive der eigenen) zum Sieg ausreichen.
-- **Darf man während des Spiels die Punkte zusammenzählen?** Nein. Wer während des Spiels die Punkte zusammenrechnet und sich dann bedankt, verliert die Partie, wenn das Ziel doch nicht erreicht war.
-- **Was ist der Zweck dieser Regel?** Die Regel verhindert, dass während des Spiels gezählt wird und nach zusätzlichen Bockkarten gesucht wird.
-
-*Keywords: bedanken, frühzeitig, verlieren, zählen, bockkarten*
-
----
-
 ### Jasskarten: Verteilmethoden {#general_dealing_methods}
 
 **Kategorie:** Regeln > Kartenverteilung
@@ -1697,35 +1620,6 @@ Schwerwiegende Verstösse:
 - **Welche Fehler kann man beim Jassen machen?** Häufige Fehler: nicht bedient, zwei Karten gleichzeitig gespielt, zu früh ausgespielt, falsche Farbe gespielt, in bereits gekehrte Stiche geschaut, Kartenverrat durch Bemerkungen. (Siehe Detailartikel für Konsequenzen.)
 
 *Keywords: fehler, konsequenzen, regelverstoss, strafpunkte, kartenverrat*
-
----
-
-### Ausmachregel beim Schneider {#weis_rules_ausmachen_schneider}
-
-**Kategorie:** Regeln > Ausmachen
-
-Besondere Situation:
-Im ersten Stich  erreicht ein Team das Gesamtziel, während das andere Team sich noch im Schneider befindet. Ein Team nutzt Weispunkte, das andere Kartenpunkte zum Ausmachen. Hier greift ebenfalls die Ausmachregel: Entweder «Stöck - Weis - Stich» oder, falls vereinbart, «Stöck - Stich - Weis».
-
-Beispiele:
-
-Wenn die Stöck reichen:
-• Erreichen die späteren Gewinner durch ihre Stöcke das Ziel
-• Die Verlierer schreiben weder Weis noch Kartenpunkte an
-• Verlierer bleiben damit im Schneider
-
-Wenn ein Weis über den Strich hilft:
-• Kommt die Partei im Schneider durch einen Weis über den Strich
-• Die Gewinner können sich nur dann mit Stichpunkten bedanken, wenn die Regel «Stöck-Wys-Stich» gilt
-• In diesem Fall wäre der Schneider vermieden
-
-**Häufige Fragen:**
-- **Wie funktioniert Ausmachregel bei Schneider beim Jassen?** Im ersten Stich  erreicht ein Team das Gesamtziel, während das andere Team sich noch im Schneider befindet.
-- **Was passiert, wenn ein Team im Schneider ist beim Ausmachen?** Wenn im ersten Stich ein Team das Ziel erreicht und das andere im Schneider ist, greift die Ausmachregel und entscheidet über den Ausgang.
-- **Kann man den Schneider durch Weispunkte vermeiden?** Ja, wenn im Schneider befindliche Spieler durch einen Weis über die Grenze kommen und die Regel «Stöck - Weis - Stich» gilt, ist der Schneider vermieden.
-- **Welche Regel gilt beim Schneider-Ausmachen?** Es gilt entweder «Stöck - Weis - Stich» oder, falls vereinbart, «Stöck - Stich - Weis».
-
-*Keywords: schneider, ausmachen, gesamtziel, grenze, stöck*
 
 ---
 

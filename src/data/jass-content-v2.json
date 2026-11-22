@@ -169,7 +169,7 @@
   },
   "ausmachregel": {
     "id": "ausmachregel",
-    "text": "Die Ausmachregel bestimmt, wer gewinnt, wenn beide Teams im selben Stich gleichzeitig das vereinbarte Ziel erreichen, etwa das Schlussziel oder den Bergpreis (siehe Begriff \"bergpreis\"). Ausserdem gilt sie im Zusammenspiel mit dem Schneider (siehe Begriff \"weis_rules_ausmachen_schneider\").\n\nRangfolge Stöck, Weis, Stich:\nErreichen beide Teams gleichzeitig das Ziel, entscheidet, über welche der drei Kategorien ein Team es erreicht:\n• Erreicht ein Team das Ziel mit den Stöck, gewinnt es, auch wenn die Gegner einen regulären Weis haben oder den Stich machen. Wichtig: Die Stöck können in diesem speziellen Fall jederzeit gewiesen werden, also schon im ersten Stich.\n• Hat kein Team die Stöck, gewinnt das Team, das mit dem Weis ans Ziel kommt.\n• Erst zuletzt zählt der Stich.\n\nBeispiel:\nGespielt wird auf 1000 Punkte, vor dem letzten Spiel steht es 982 zu 975. Im ersten Stich macht das zurückliegende Team genug Stichpunkte für 1001. Das andere Team weist gleichzeitig die Stöck und kommt mit den 20 Punkten ebenfalls über 1000. Beide sind im ersten Stich am Ziel. Weil Stöck vor Stich steht, gewinnt das Team mit den Stöck.\n\nWann sie gilt:\nDie Ausmachregel greift nur im ersten Stich. Sobald zum zweiten Stich ausgespielt wird, gewinnt, wer sich zuerst mit genügend Punkten bedankt.\n\nAuch beim Schneider entscheidend:\nHier bestimmt die Rangfolge sogar, ob ein Team beschneidert wird. Ein zurückliegendes Team kann sich aus dem Schneider weisen. Unter Stöck-Weis-Stich wird sein Weis vor dem siegbringenden Stich der Gegner gewertet, das Team erreicht die Hälfte der Punktzahl rechtzeitig und ist aus dem Schneider.\n\nVarianten:\nWeil es eine Ausmachregel ist, wird sie vor dem Spiel vereinbart. Neben Stöck-Weis-Stich ist Stöck-Stich-Weis verbreitet, sofern vorher abgemacht. In Vorarlberg gilt oft Stich-Stöck-Weis. Fehlt eine Abmachung und ist keine ortsübliche Regel bekannt, gilt Stöck-Weis-Stich.",
+    "text": "Die Ausmachregel bestimmt, wer gewinnt, wenn beide Teams im selben Stich gleichzeitig das vereinbarte Ziel erreichen, etwa das Schlussziel oder den Bergpreis (siehe Begriff \"bergpreis\"). Ausserdem gilt sie im Zusammenspiel mit dem Schneider (siehe Begriff \"schneider\").\n\nRangfolge Stöck, Weis, Stich:\nErreichen beide Teams gleichzeitig das Ziel, entscheidet, über welche der drei Kategorien ein Team es erreicht:\n• Erreicht ein Team das Ziel mit den Stöck, gewinnt es, auch wenn die Gegner einen regulären Weis haben oder den Stich machen. Wichtig: Die Stöck können in diesem speziellen Fall jederzeit gewiesen werden, also schon im ersten Stich.\n• Hat kein Team die Stöck, gewinnt das Team, das mit dem Weis ans Ziel kommt.\n• Erst zuletzt zählt der Stich.\n\nBeispiel:\nGespielt wird auf 1000 Punkte, vor dem letzten Spiel steht es 982 zu 975. Im ersten Stich macht das zurückliegende Team genug Stichpunkte für 1001. Das andere Team weist gleichzeitig die Stöck und kommt mit den 20 Punkten ebenfalls über 1000. Beide sind im ersten Stich am Ziel. Weil Stöck vor Stich steht, gewinnt das Team mit den Stöck.\n\nWann sie gilt:\nDie Ausmachregel greift nur im ersten Stich. Sobald zum zweiten Stich ausgespielt wird, gewinnt, wer sich zuerst mit genügend Punkten bedankt.\n\nAuch beim Schneider entscheidend:\nHier bestimmt die Rangfolge sogar, ob ein Team beschneidert wird. Ein zurückliegendes Team kann sich aus dem Schneider weisen. Unter Stöck-Weis-Stich wird sein Weis vor dem siegbringenden Stich der Gegner gewertet, das Team erreicht die Hälfte der Punktzahl rechtzeitig und ist aus dem Schneider.\n\nVarianten:\nWeil es eine Ausmachregel ist, wird sie vor dem Spiel vereinbart. Neben Stöck-Weis-Stich ist Stöck-Stich-Weis verbreitet, sofern vorher abgemacht. In Vorarlberg gilt oft Stich-Stöck-Weis. Fehlt eine Abmachung und ist keine ortsübliche Regel bekannt, gilt Stöck-Weis-Stich.",
     "metadata": {
       "id": "ausmachregel_meta",
       "category": {
@@ -222,7 +222,6 @@
       "expressions_weis",
       "expressions_stich",
       "schneider",
-      "weis_rules_ausmachen_schneider",
       "bedanken",
       "bergpreis"
     ]
@@ -282,7 +281,7 @@
   },
   "bedanken": {
     "id": "bedanken",
-    "text": "Mit dem Bedanken beendet ein Team die Partie. Gewonnen hat, wer sich zuerst bedankt und das vereinbarte Punktziel erreicht hat.\n\nFormulierungen:\nBindend ist jeder Satz, den die anderen als Bedanken verstehen: «Wir bedanken uns», «Wir sind draussen», «Wir haben genug», «Mir sind dusse».\n\nZeitpunkt:\nJeder kann sich jederzeit bedanken, ob er an der Reihe ist oder nicht und unabhängig davon, wer gerade schreibt. Spielt ein Spieler mitten im Stich eine Bockkarte (siehe Begriff \"expressions_bock\"), darf er sich bedanken, sofern die Stechwerte aller in diesem Stich bereits gelegten Karten zum Sieg reichen. Noch nicht ausgespielte Karten zählen nicht mehr mit.\n\nVerbindlichkeit:\nBedankt sich ein Spieler, gilt das auch für seinen Partner. Wer sich bedankt, obwohl das Ziel noch nicht erreicht ist, verliert die Partie automatisch.\n\nBedanken und Matsch:\nWer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Matsch (siehe Begriff \"expressions_matsch\") spielen. Das Team riskiert damit, die Partie zu verlieren, falls sich der Gegner zuerst bedankt. Umgekehrt darf man sich nicht zu früh bedanken, nur um dem Gegner die Chance auf den Matsch zu nehmen. Der Gegner darf die Runde zu Ende spielen, sofern er sich noch nicht bedankt hat, und sich anschliessend bedanken.",
+    "text": "Mit dem Bedanken beendet ein Team die Partie. Gewonnen hat, wer sich zuerst bedankt und das vereinbarte Punktziel erreicht hat.\n\nFormulierungen:\nBindend ist jeder Satz, den die anderen als Bedanken verstehen: «Wir bedanken uns», «Wir sind draussen», «Wir haben genug», «Mir sind dusse».\n\nZeitpunkt:\nJeder kann sich jederzeit bedanken, ob er an der Reihe ist oder nicht und unabhängig davon, wer gerade schreibt. Spielt ein Spieler mitten im Stich eine Bockkarte (siehe Begriff \"expressions_bock\"), darf er sich bedanken, sofern die Stechwerte aller in diesem Stich bereits gelegten Karten zum Sieg reichen. Noch nicht ausgespielte Karten zählen nicht mehr mit.\n\nVerbindlichkeit:\nBedankt sich ein Spieler, gilt das auch für seinen Partner. Wer sich bedankt, obwohl das Ziel noch nicht erreicht ist, verliert die Partie automatisch.\n\nBedanken und Matsch:\nWer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Matsch (siehe Begriff \"expressions_matsch\") spielen. Das Team riskiert damit, die Partie zu verlieren, falls sich der Gegner zuerst bedankt. Umgekehrt darf man sich nicht zu früh bedanken, nur um dem Gegner die Chance auf den Matsch zu nehmen. Der Gegner darf die Runde zu Ende spielen, sofern er sich noch nicht bedankt hat, und sich anschliessend bedanken.\n\nZählen während des Spiels:\nWer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war. Die Regel verhindert, dass während des Spiels gezählt und nach weiteren Bockkarten gesucht wird.\n\nFalsch gespielte Karte des Gegners:\nZählt ein Team beim Bedanken die Punkte einer Karte mit, die der Gegner versehentlich falsch gespielt hat, ist das Bedanken ungültig, sofern nach der Korrektur die nötige Punktzahl nicht mehr erreicht ist.",
     "metadata": {
       "id": "bedanken_meta",
       "category": {
@@ -305,7 +304,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-16"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -327,79 +326,18 @@
       {
         "question": "Kann man das Bedanken zurücknehmen?",
         "answer": "Nein, es ist verbindlich."
+      },
+      {
+        "question": "Darf man während des Spiels die Punkte zusammenzählen?",
+        "answer": "Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war."
       }
     ],
     "see_also": [
       "expressions_matsch",
-      "weis_rules_ausmachen_early_thanking",
       "ausmachregel",
       "schneider",
       "expressions_bock",
       "expressions_team"
-    ]
-  },
-  "bemerkungen_schnorren": {
-    "id": "bemerkungen_schnorren",
-    "text": "Definition:\nSchnorren (Bemerkungen während dem Spiel) ist grundsätzlich verboten.\n\nVerbotene Bemerkungen:\n• Kommentare über eine unschlagbare Karte (z.B. «Bock (siehe Begriff \"expressions_bock\")»)\n• Bemerkungen über Karten irgendeiner Farbe\n• Kommentare über Punkte, die ein Gegner während dem Spielverlauf erzielt\n• Andeutungen, die die eigene Taktik verraten\n• Antworten auf Fragen während dem Spiel (z.B. «Wie viele Trümpfe sind gelaufen?», «Wem gehört dieser Stich?», «Wer hat diese Karte gegeben?»)\n• Nonverbale Zeichen wie Gestik oder Mimik\n\nKonsequenzen bei Spielverrat:\n• Die Gegner entscheiden, ob das Spiel annulliert wird oder der Fehler ohne Einfluss bleibt\n\nAusnahmen:\n• Beim Aucho gelten eigene Regeln für Bemerkungen\n• Erlaubt bleibt, was über Karten und Punkte nichts verrät",
-    "metadata": {
-      "id": "bemerkungen_schnorren_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Sonderregeln",
-        "topic": "Bemerkungen/Schnorren"
-      },
-      "adresse": "/regeln/sonderregeln/bemerkungen-schnorren/",
-      "keywords": [
-        "bemerkungen",
-        "kommentare",
-        "schnorren",
-        "spielverrat",
-        "zeichengeben",
-        "bock",
-        "taktik",
-        "fragen"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Was ist Schnorren beim Jassen?",
-        "answer": "Schnorren heisst, während des Spiels etwas über die Karten zu sagen. Das ist verboten, ebenso Andeutungen, Gesten und Antworten auf Fragen wie «Wie viele Trümpfe sind gelaufen?»."
-      },
-      {
-        "question": "Was bedeutet Schnorren beim Jassen?",
-        "answer": "Schnorren bedeutet Bemerkungen während dem Spiel und ist grundsätzlich verboten."
-      },
-      {
-        "question": "Darf man während dem Spiel Fragen beantworten?",
-        "answer": "Nein, Antworten auf Fragen während dem Spiel sind verboten (z.B. «Wie viele Trümpfe sind gelaufen?»)."
-      },
-      {
-        "question": "Was passiert bei Spielverrat durch Bemerkungen?",
-        "answer": "Die Gegner entscheiden, ob das Spiel annulliert wird oder der Fehler ohne Einfluss bleibt."
-      },
-      {
-        "question": "Sind nonverbale Zeichen erlaubt?",
-        "answer": "Nein, auch nonverbale Zeichen wie Gestik oder Mimik sind nicht erlaubt."
-      },
-      {
-        "question": "Gibt es Ausnahmen von der Schnorren-Regel?",
-        "answer": "Ja, beim Aucho gelten eigene Regeln für Bemerkungen. Sonst ist nur erlaubt, was über Karten und Punkte nichts verrät."
-      },
-      {
-        "question": "Was gilt als Spielverrat (Schnorren)?",
-        "answer": "Bemerkungen über Karten, Punkte und Taktik, nonverbale Zeichen, Antworten auf Fragen. Ausnahme: Beim Aucho gelten eigene Regeln. Konsequenz: Gegner entscheiden ob Spiel annulliert wird."
-      }
-    ],
-    "see_also": [
-      "expressions_bock"
     ]
   },
   "bergpreis": {
@@ -653,53 +591,6 @@
     "see_also": [
       "general_card_values",
       "expressions_trumpffarbe"
-    ]
-  },
-  "expressions_basic_terms": {
-    "id": "expressions_basic_terms",
-    "text": "Grundkonzept:\n• Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels\n• Diese Terminologie umfasst die wichtigsten Begriffe, die jeder Spieler kennen sollte\n• Wer sie kennt, kommt am Tisch mit\n\nDazu gehören:\n• Bezeichnungen für Karten\n• Spielaktionen\n• Spielsituationen\n• Alle werden in allen Jassvarianten verwendet\n\n**Zentrale Grundbegriffe:**\n\n**Karten-Bezeichnungen:**\n• Trumpf: die Farbe, die in diesem Spiel alle anderen sticht\n• Puur/Bauer: Der höchste Trumpf (20 Punkte)\n• Nell: Der zweithöchste Trumpf (14 Punkte)\n• Banner: Der Zehner bei deutschen Karten\n• Ass: Die höchste Karte bei Obenabe\n\n**Spielaktionen:**\n• Schieben: Trumpfwahl an Partner weitergeben\n• Bedanken: Spiel beenden, wenn Punktziel erreicht\n• Weisen: Kartenkombinationen melden\n• Stechen: Einen Stich gewinnen\n\n**Spielsituationen:**\n• Stich: Die vier ausgespielten Karten\n• Vorhand: Erster Spieler der Runde\n• Matsch: Alle neun Stiche gewonnen\n• Berg: die Hälfte der Punktzahl, die eine Partie braucht\n\nDiese Grundlagen werden in allen Jassvarianten verwendet und sind essentiell für erfolgreiches Jassen.",
-    "metadata": {
-      "id": "expressions_basic_terms_meta",
-      "category": {
-        "main": "Begriffe",
-        "sub": "Grundbegriffe",
-        "topic": "Grundlagen"
-      },
-      "adresse": "/begriffe/grundbegriffe/grundlagen/",
-      "keywords": [
-        "grundbegriffe",
-        "basis",
-        "terminologie"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Welche Grundbegriffe sollte man beim Jassen kennen?",
-        "answer": "Wichtige Grundbegriffe sind Bezeichnungen für Karten, Spielaktionen und Spielsituationen, die in allen Jassvarianten verwendet werden."
-      },
-      {
-        "question": "Warum sind Jass-Grundbegriffe wichtig?",
-        "answer": "Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels und wer sie kennt, kommt am Tisch mit."
-      },
-      {
-        "question": "Wo kann ich die wichtigsten Jass-Begriffe lernen?",
-        "answer": "Die wichtigsten sind Trumpf, Puur, Nell, Stich, Weis, Matsch und Berg. Zu jedem steht hier ein eigener Artikel."
-      }
-    ],
-    "see_also": [
-      "expressions_trumpf_bauer",
-      "expressions_nell",
-      "expressions_schieben",
-      "bedanken",
-      "expressions_matsch"
     ]
   },
   "expressions_bauernpartei": {
@@ -2452,7 +2343,7 @@
   },
   "expressions_schnorren": {
     "id": "expressions_schnorren",
-    "text": "**Definition:**\n• Schnorren sind verbotene Bemerkungen während des Spiels, die etwas über die eigenen Karten oder die Taktik verraten\n\n**Beispiele für verbotenes Schnorren:**\n• «Ich habe einen guten Trumpf»\n• «Spiel mal Schellen»\n• Seufzen oder übertriebenes Zögern\n\n**Konsequenzen:**\n• Schnorren ist Spielverrat und kann je nach Tischregel bestraft werden\n• Bei groben Verstössen kann das Spiel annulliert werden",
+    "text": "**Definition:**\n• Schnorren sind verbotene Bemerkungen während des Spiels, die etwas über die eigenen Karten oder die Taktik verraten\n\n**Beispiele für verbotenes Schnorren:**\n• «Ich habe einen guten Trumpf»\n• «Spiel mal Schellen»\n• Seufzen oder übertriebenes Zögern\n\n**Konsequenzen:**\n• Schnorren ist Spielverrat. Die Folge steht im Artikel Spielverrat (siehe Begriff \"spielverrat\"): Die Gegner können verlangen, dass das Spiel samt geschriebener Punkte annulliert wird",
     "metadata": {
       "id": "expressions_schnorren_meta",
       "category": {
@@ -2476,7 +2367,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -2494,7 +2385,6 @@
     ],
     "see_also": [
       "spielverrat",
-      "bemerkungen_schnorren",
       "regeln_tischregel"
     ]
   },
@@ -2861,50 +2751,6 @@
     "see_also": [
       "expressions_schmieren",
       "schieber_taktiken_anziehen"
-    ]
-  },
-  "expressions_tisch_weis": {
-    "id": "expressions_tisch_weis",
-    "text": "Definition:\n• Tisch-Weis sind Weise, die bei der Jassart Molotow entstehen\n\nEntstehung:\n• Sie ergeben sich direkt auf dem Tisch durch das Spielen der Karten im Verlauf des Spiels, anstatt bereits zu Beginn gemeldet zu werden\n\nAnforderung:\n• Diese besondere Form des Weises erfordert eine gute Beobachtungsgabe und schnelle Reaktion",
-    "metadata": {
-      "id": "expressions_tisch_weis_meta",
-      "category": {
-        "main": "Begriffe",
-        "sub": "Punktebegriffe",
-        "topic": "Tisch-Weis"
-      },
-      "adresse": "/begriffe/punktebegriffe/tisch-weis/",
-      "keywords": [
-        "tisch-weis",
-        "molotow",
-        "weise"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 2,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2025-11-22"
-    },
-    "faqs": [
-      {
-        "question": "Was sind Tisch-Weise?",
-        "answer": "Tisch-Weise sind Weise, die bei Molotow direkt auf dem Tisch durch das Spielen der Karten entstehen."
-      },
-      {
-        "question": "Wann werden Tisch-Weise gemeldet?",
-        "answer": "Tisch-Weise werden nicht vorab gemeldet, sondern ergeben sich im Verlauf des Spiels durch die gespielten Karten."
-      },
-      {
-        "question": "Bei welcher Jassart gibt es Tisch-Weise?",
-        "answer": "Tisch-Weise gibt es beim Molotow."
-      }
-    ],
-    "see_also": [
-      "expressions_weis",
-      "regeln_tischregel"
     ]
   },
   "expressions_trio": {
@@ -3418,7 +3264,7 @@
       "expressions_undenufe",
       "expressions_obenabe",
       "general_schieber",
-      "expressions_tisch_weis",
+      "variants_molotow",
       "general_card_values",
       "regeln_tischregel"
     ],
@@ -3492,7 +3338,7 @@
   },
   "fehlende_karte": {
     "id": "fehlende_karte",
-    "text": "Regel:\nWird während eines Spiels bemerkt, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen.\n\nZwei Wege sind üblich:\n• Möglichkeit 1: Die Runde wird annulliert und neu gestartet\n• Möglichkeit 2: Das Spiel wird ohne fehlende Karte zu Ende gespielt, wobei die Karte ihren Stechwert verloren hat",
+    "text": "Regel:\nWird während eines Spiels bemerkt, dass eine Karte fehlt, entscheiden die Gegner des betroffenen Spielers über das weitere Vorgehen.\n\nZwei Wege sind üblich:\n• Möglichkeit 1: Die Runde wird annulliert und neu gestartet\n• Möglichkeit 2: Das Spiel wird ohne fehlende Karte zu Ende gespielt, wobei die Karte ihren Stechwert verloren hat\n\nVor Spielbeginn:\nWird nach dem Verteilen, aber vor Beginn des Spiels festgestellt, dass das Kartenspiel unvollständig ist, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.",
     "metadata": {
       "id": "fehlende_karte_meta",
       "category": {
@@ -3516,7 +3362,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -3534,17 +3380,20 @@
       {
         "question": "Wer entscheidet bei fehlender Karte?",
         "answer": "Die Gegner des betroffenen Spielers entscheiden über das weitere Vorgehen."
+      },
+      {
+        "question": "Was gilt, wenn vor Spielbeginn eine Karte fehlt oder beschädigt ist?",
+        "answer": "Das Kartenspiel wird ersetzt, danach gibt derselbe Kartengeber neu."
       }
     ],
     "see_also": [
-      "kartenspiel_nicht_komplett",
       "regeln_tischregel",
       "spielverrat"
     ]
   },
   "fragen_waehrend_spiel": {
     "id": "fragen_waehrend_spiel",
-    "text": "Grundregel:\nWährend einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen (siehe Begriff \"bemerkungen_schnorren\").\n\nBeispiele verbotener Fragen:\n• Ist Schellen schon mal gelaufen?\n• Ist das Ass schon gegangen?\n\nErlaubte Fragen:\n• Allgemeine Fragen zum Spiel, solange die Antwort nichts über die Karten verrät\n\nBeispiele erlaubter Fragen:\n• Wer ist an der Reihe?\n• Wie viel Punkte haben wir?",
+    "text": "Grundregel:\nWährend einer laufenden Runde dürfen Spieler keine Fragen zu bereits gespielten Stichen stellen (siehe Begriff \"spielverrat\").\n\nBeispiele verbotener Fragen:\n• Ist Schellen schon mal gelaufen?\n• Ist das Ass schon gegangen?\n\nErlaubte Fragen:\n• Allgemeine Fragen zum Spiel, solange die Antwort nichts über die Karten verrät\n\nBeispiele erlaubter Fragen:\n• Wer ist an der Reihe?\n• Wie viel Punkte haben wir?",
     "metadata": {
       "id": "fragen_waehrend_spiel_meta",
       "category": {
@@ -3586,7 +3435,7 @@
       }
     ],
     "see_also": [
-      "bemerkungen_schnorren"
+      "spielverrat"
     ]
   },
   "general_card_values": {
@@ -3652,61 +3501,6 @@
       "expressions_obenabe",
       "expressions_undenufe",
       "general_scoring_rules"
-    ]
-  },
-  "general_culture": {
-    "id": "general_culture",
-    "text": "Kulturelle Verankerung:\nDer Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet.\n\nGesellschaftliche Dimensionen:\n• **Soziale Treffpunkte:** Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt\n• **Brauchtum:** Viele regionale Traditionen und Bräuche sind eng mit dem Jassen verbunden\n• **Sprachliche Identität:** Die reiche Jass-Terminologie spiegelt die Schweizer Dialektvielfalt wider\n\nModerne Entwicklung:\nJassrunden am Tisch und Jass-Apps bestehen nebeneinander.\n\nIdentitätsstiftung:\nDas Jassen verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg und stärkt das Gemeinschaftsgefühl.",
-    "metadata": {
-      "id": "general_culture_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Jassen als Kulturgut",
-        "topic": "Jassen als Kulturgut"
-      },
-      "adresse": "/grundlagen-kultur/jassen-als-kulturgut/",
-      "keywords": [
-        "kultur",
-        "tradition",
-        "geschichte",
-        "regionen",
-        "deutschschweiz",
-        "romandie",
-        "tessin",
-        "graubünden"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.8,
-      "difficulty": 2,
-      "source": "Schweizer Spielkartenmuseum",
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Warum gilt der Jass als Schweizer Kulturgut?",
-        "answer": "Der Jass ist tief in der Schweizer Kultur verwurzelt und wird als Nationalspiel betrachtet."
-      },
-      {
-        "question": "Warum ist Jass so wichtig für die Schweizer Kultur?",
-        "answer": "Der Jass ist tief in der Schweizer Kultur verwurzelt, wird als Nationalspiel betrachtet und verbindet Menschen über Generationen, Regionen und Sprachgrenzen hinweg."
-      },
-      {
-        "question": "Wo wird in der Schweiz gejasst?",
-        "answer": "Jassen findet in Gasthäusern, Vereinen, Familien und bei öffentlichen Veranstaltungen statt."
-      },
-      {
-        "question": "Haben Jass-Apps den Jass am Tisch verdrängt?",
-        "answer": "Nein. Jassrunden am Tisch und Jass-Apps bestehen nebeneinander."
-      }
-    ],
-    "see_also": [
-      "history_origin",
-      "history_first_mention",
-      "variants_family_coiffeur_schieber"
     ]
   },
   "general_dealing_methods": {
@@ -3916,62 +3710,9 @@
       "zusammenwerfen"
     ]
   },
-  "general_geography": {
-    "id": "general_geography",
-    "text": "Geografische Verbreitung:\nDer Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben.\n\nRegionale Besonderheiten:\n• **Deutschschweiz:** Hier ist der Jass am weitesten verbreitet, mit Varianten wie Schieber und Coiffeur (siehe Begriff \"variants_family_einzel_coiffeur\")\n• **Westschweiz:** Französischsprachige Regionen bevorzugen teilweise andere Spielformen\n• **Alpenregionen:** Traditionelle Hochburgen mit starker Jass-Kultur\n\nInternationale Verbreitung:\nÜber die Schweizer Grenzen hinaus wird Jass auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.\n\nKulturelle Zentren:\nBestimmte Ortschaften und Regionen gelten als besondere Jass-Hochburgen mit eigenen Traditionen und Turnieren.",
-    "metadata": {
-      "id": "general_geography_meta",
-      "category": {
-        "main": "Grundlagen & Kultur",
-        "sub": "Regionale Eigenheiten",
-        "topic": "Regionale Eigenheiten"
-      },
-      "adresse": "/grundlagen-kultur/regionale-eigenheiten/",
-      "keywords": [
-        "regionen",
-        "deutschschweiz",
-        "romandie",
-        "tessin",
-        "graubünden",
-        "dialekt",
-        "tradition",
-        "lokal"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.7,
-      "difficulty": 2,
-      "source": "Schweizer Spielkartenmuseum",
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Wo in der Schweiz wird welcher Jass gespielt?",
-        "answer": "Der Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten und Spielweisen entwickelt haben."
-      },
-      {
-        "question": "Wo wird Jass in der Schweiz gespielt?",
-        "answer": "Jass wird in der gesamten Schweiz gespielt, wobei verschiedene Regionen eigene Varianten entwickelt haben."
-      },
-      {
-        "question": "In welcher Region ist Jass am beliebtesten?",
-        "answer": "In der Deutschschweiz ist der Jass am weitesten verbreitet, mit Varianten wie Schieber und Coiffeur."
-      },
-      {
-        "question": "Wird Jass auch ausserhalb der Schweiz gespielt?",
-        "answer": "Ja, Jass wird auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt."
-      }
-    ],
-    "see_also": [
-      "variants_family_einzel_coiffeur"
-    ]
-  },
   "general_geography_regions": {
     "id": "general_geography_regions",
-    "text": "Übersicht:\n• Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Mit beiden Blättern wird eine grosse Zahl von Jassarten gespielt.\n\nSpielarten:\n• Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten\n• Als Königsdisziplin gilt der Differenzler, gefolgt von Schieber (siehe Begriff \"general_schieber\") und Bieter\n• Beim Differenzler spielt jeder Spieler für sich allein\n• Beim Schieber (siehe Begriff \"general_schieber\") spielt man zu zweit gegen zwei\n• Der Bieter passt, wenn man zu dritt oder zu fünft ist\n\nRegionale Kartenverteilung (die Kartengrenze, die Sprachgrenze «Röstigraben» liegt 50 bis 100 Kilometer weiter westlich):\n• Die historisch gewachsene Grenze zwischen den Kartensystemen verläuft entlang der Brünig-Napf-Reuss-Linie:\n\nFranzösische Karten:\n• Romandie\n• Bern\n• Solothurn\n• Beide Basel\n• Wallis\n• Westlicher Aargau (westlich der Reuss)\n• Dazu, südlich und östlich der Linie: Tessin, Teile Graubündens und nach Walter Haas der Thurgau\n\nDeutschschweizer Karten:\n• Zentralschweiz mit Luzern und Zug\n• Zürich\n• Glarus\n• Ostschweiz mit St. Gallen, beiden Appenzell und Schaffhausen\n• Östlicher Aargau (Bezirk Baden östlich der Reuss, östlich der Aare gelegene Gemeinden des Zurzibiets)\n\nSonderfall Aargau und Thurgau:\n• Diese Kantone sind durch die Trennlinie geteilt\n• Die Kartenverteilung folgt geografischen Grenzen (Flüsse Reuss und Aare)\n\nKartentypen:\n• Französische Karten (siehe Begriff \"expressions_kartenfarben\"): Ecken, Herz, Schaufel, Kreuz\n• Deutschschweizer Karten (siehe Begriff \"expressions_kartenfarben\"): Eicheln, Rosen, Schilten, Schellen",
+    "text": "Übersicht:\n• Der Begriff 'Schweizer Karten' umfasst die beiden in der Schweiz gebräuchlichen Kartensysteme, die in Aufbau und Punktwertung nahezu identisch sind. Mit beiden Blättern wird eine grosse Zahl von Jassarten gespielt.\n• Über die Schweizer Grenzen hinaus wird Jass auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs gespielt.\n\nSpielarten:\n• Mit «Tschau-Sepp» und weiteren Varianten existieren rund 70 verschiedene Jassarten\n• Als Königsdisziplin gilt der Differenzler, gefolgt von Schieber (siehe Begriff \"general_schieber\") und Bieter\n• Beim Differenzler spielt jeder Spieler für sich allein\n• Beim Schieber (siehe Begriff \"general_schieber\") spielt man zu zweit gegen zwei\n• Der Bieter passt, wenn man zu dritt oder zu fünft ist\n\nRegionale Kartenverteilung (die Kartengrenze, die Sprachgrenze «Röstigraben» liegt 50 bis 100 Kilometer weiter westlich):\n• Die historisch gewachsene Grenze zwischen den Kartensystemen verläuft entlang der Brünig-Napf-Reuss-Linie:\n\nFranzösische Karten:\n• Romandie\n• Bern\n• Solothurn\n• Beide Basel\n• Wallis\n• Westlicher Aargau (westlich der Reuss)\n• Dazu, südlich und östlich der Linie: Tessin, Teile Graubündens und nach Walter Haas der Thurgau\n\nDeutschschweizer Karten:\n• Zentralschweiz mit Luzern und Zug\n• Zürich\n• Glarus\n• Ostschweiz mit St. Gallen, beiden Appenzell und Schaffhausen\n• Östlicher Aargau (Bezirk Baden östlich der Reuss, östlich der Aare gelegene Gemeinden des Zurzibiets)\n\nSonderfall Aargau und Thurgau:\n• Diese Kantone sind durch die Trennlinie geteilt\n• Die Kartenverteilung folgt geografischen Grenzen (Flüsse Reuss und Aare)\n\nKartentypen:\n• Französische Karten (siehe Begriff \"expressions_kartenfarben\"): Ecken, Herz, Schaufel, Kreuz\n• Deutschschweizer Karten (siehe Begriff \"expressions_kartenfarben\"): Eicheln, Rosen, Schilten, Schellen",
     "metadata": {
       "id": "general_geography_regions_meta",
       "category": {
@@ -4018,7 +3759,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-08-18"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -4048,6 +3789,10 @@
       {
         "question": "Welche Jassart gilt als Königsdisziplin?",
         "answer": "Der Differenzler gilt als Königsdisziplin, gefolgt vom Schieber und vom Bieter."
+      },
+      {
+        "question": "Wird Jass auch ausserhalb der Schweiz gespielt?",
+        "answer": "Ja, auch in angrenzenden Regionen Deutschlands, Österreichs und Frankreichs."
       }
     ],
     "see_also": [
@@ -4787,7 +4532,7 @@
     "see_also": [
       "history_medieval",
       "history_first_mention",
-      "general_culture"
+      "history_social_significance"
     ]
   },
   "history_ramstein_reglement": {
@@ -4855,7 +4600,7 @@
   },
   "history_social_significance": {
     "id": "history_social_significance",
-    "text": "Gesellschaftliche Rolle:\nDer Jass spielt eine zentrale Rolle in der Schweizer Gesellschaft und Kultur.\n\nSoziale Funktionen:\n• **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben\n• **Gemeinschaftsfördernd:** Jassen schafft soziale Bindungen und fördert den Austausch in Vereinen, Gasthäusern und privaten Runden\n• **Identitätsstiftend:** Der Jass ist ein Symbol der Schweizer Identität und wird als Teil des immateriellen Kulturerbes geschätzt\n\nModerne Bedeutung:\nHeute wird auch am Handy gejasst. Apps und Online-Turniere bringen jüngere Spieler an den Tisch.\n\n**Historischer Kontext:**\nDie Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Das Bundesamt für Kultur führt das Jassen als lebendige Tradition. Es verbindet die Generationen und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.\n\n**Regionale Besonderheiten:**\nWährend der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede («Jassgraben»). In der Deutschschweiz spielt man Schieber mit deutschschweizer Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.",
+    "text": "Gesellschaftliche Rolle:\nDer Jass gilt als Nationalspiel der Schweiz und spielt eine zentrale Rolle in Gesellschaft und Kultur.\n\nSoziale Funktionen:\n• **Generationenübergreifend:** Das Spiel verbindet Jung und Alt und wird in Familien von Generation zu Generation weitergegeben\n• **Gemeinschaftsfördernd:** Jassen schafft soziale Bindungen und fördert den Austausch in Vereinen, Gasthäusern und privaten Runden\n• **Identitätsstiftend:** Der Jass ist ein Symbol der Schweizer Identität und wird als Teil des immateriellen Kulturerbes geschätzt\n\nModerne Bedeutung:\nHeute wird auch am Handy gejasst. Apps und Online-Turniere bringen jüngere Spieler an den Tisch.\n\n**Historischer Kontext:**\nDie Verbreitung des Jassens ist eng mit der Schweizer Kulturgeschichte verbunden. Das Bundesamt für Kultur führt das Jassen als lebendige Tradition. Es verbindet die Generationen und ist fester Bestandteil des gesellschaftlichen Lebens. In den letzten Jahren haben Jass-Apps und Online-Turniere dazu beigetragen, das traditionelle Spiel auch ins digitale Zeitalter zu überführen und für jüngere Generationen attraktiv zu halten.\n\n**Regionale Besonderheiten:**\nWährend der Jass in der ganzen Schweiz gespielt wird, gibt es deutliche regionale Unterschiede («Jassgraben»). In der Deutschschweiz spielt man Schieber mit deutschschweizer Karten, während in der Westschweiz und im Tessin teilweise mit französischen Karten und anderen Varianten gespielt wird. Diese Vielfalt trägt zur lebendigen Jasskultur bei.",
     "metadata": {
       "id": "history_social_significance_meta",
       "category": {
@@ -4878,7 +4623,7 @@
       "difficulty": 1,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -5529,7 +5274,7 @@
   },
   "karte_zu_frueh": {
     "id": "karte_zu_frueh",
-    "text": "Regel:\nEs gelten folgende Anweisungen:\n\nVerbot:\n• Karten in die Hand zu nehmen, bevor ein neuer Stich begonnen hat, ist untersagt\n\nErlaubnis:\n• Während eines laufenden Stichs darf eine Karte schon in die Hand genommen werden, solange damit keine Zeichen gegeben werden (siehe Begriff \"bemerkungen_schnorren\")",
+    "text": "Regel:\nEs gelten folgende Anweisungen:\n\nVerbot:\n• Karten in die Hand zu nehmen, bevor ein neuer Stich begonnen hat, ist untersagt\n\nErlaubnis:\n• Während eines laufenden Stichs darf eine Karte schon in die Hand genommen werden, solange damit keine Zeichen gegeben werden (siehe Begriff \"spielverrat\")",
     "metadata": {
       "id": "karte_zu_frueh_meta",
       "category": {
@@ -5571,7 +5316,7 @@
       }
     ],
     "see_also": [
-      "bemerkungen_schnorren"
+      "spielverrat"
     ]
   },
   "kartenpunkte_nicht_gezaehlt": {
@@ -5619,55 +5364,6 @@
     ],
     "see_also": [
       "expressions_team"
-    ]
-  },
-  "kartenspiel_nicht_komplett": {
-    "id": "kartenspiel_nicht_komplett",
-    "text": "Regel:\n• Wird nach dem Verteilen der Karten, jedoch noch vor Beginn des Spiels festgestellt, dass ein unvollständiges Kartenspiel vorliegt, eine Karte fehlt oder beschädigt ist, wird das Kartenspiel ersetzt. Danach gibt derselbe Kartengeber neu.",
-    "metadata": {
-      "id": "kartenspiel_nicht_komplett_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Fehler & Verstösse",
-        "topic": "Karten nicht komplett"
-      },
-      "adresse": "/regeln/fehler-verstoesse/karten-nicht-komplett/",
-      "keywords": [
-        "karte",
-        "komplett",
-        "beschädigt",
-        "verteilen",
-        "ersetzen",
-        "spielgeber",
-        "fehlend"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 1,
-      "difficulty": 2,
-      "taxonomy_tier": 3,
-      "datePublished": "2025-11-22",
-      "dateModified": "2025-11-22"
-    },
-    "faqs": [
-      {
-        "question": "Was passiert, wenn eine Karte fehlt oder beschädigt ist?",
-        "answer": "Wird nach dem Verteilen, aber noch vor Spielbeginn festgestellt, dass eine Karte fehlt oder beschädigt ist, kann das Kartenspiel ersetzt werden und die Karten werden vom selben Kartengeber neu verteilt."
-      },
-      {
-        "question": "Wann muss das Kartenspiel ersetzt werden?",
-        "answer": "Wenn nach dem Verteilen, aber noch vor Spielbeginn festgestellt wird, dass das Kartenspiel nicht komplett ist oder eine Karte beschädigt ist."
-      },
-      {
-        "question": "Wer verteilt die Karten nach dem Ersetzen?",
-        "answer": "Derselbe Kartengeber verteilt die Karten erneut, nachdem das Kartenspiel ersetzt wurde."
-      }
-    ],
-    "see_also": [
-      "fehlende_karte",
-      "regeln_tischregel",
-      "mischen"
     ]
   },
   "kontermatsch": {
@@ -6678,7 +6374,7 @@
   },
   "schneider": {
     "id": "schneider",
-    "text": "Schneider bezeichnet die Situation, in der ein Team bis zum Spielende nicht die Hälfte des vereinbarten Ziels (oder den gemäss Tischregel festgelegten Wert) erreicht, während sich der Gegner bereits bedankt hat. Dieses Team ist «nicht aus dem Schneider».\n\nSchneidergrenze:\nDie Schneidergrenze liegt bei der Hälfte des Spielziels, sofern keine andere Tischregel gilt. Bei einer Partie auf 2500 Punkte ist sie 1250. Wer beim Bedanken des Gegners darunter liegt, ist im Schneider.\n\nAus dem Schneider weisen:\nDas unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel (siehe Begriff \"ausmachregel\") weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind.\n\nBelohnung und Einsatz:\nWeil der Schneider selten ist, gewinnt das siegreiche Team zwei Striche. Geht es um Geld, zahlt das Team im Schneider den doppelten Einsatz.\n\nVarianten mit Schneider:\nSchieber, Kreuzjass, Bieter (Steiger) und Sidi-Barrani werden grundsätzlich mit Schneider gespielt.",
+    "text": "Schneider bezeichnet die Situation, in der ein Team bis zum Spielende nicht die Hälfte des vereinbarten Ziels (oder den gemäss Tischregel festgelegten Wert) erreicht, während sich der Gegner bereits bedankt hat. Dieses Team ist «nicht aus dem Schneider».\n\nSchneidergrenze:\nDie Schneidergrenze liegt bei der Hälfte des Spielziels, sofern keine andere Tischregel gilt. Bei einer Partie auf 2500 Punkte ist sie 1250. Wer beim Bedanken des Gegners darunter liegt, ist im Schneider.\n\nAus dem Schneider weisen:\nDas unterlegene Team kann sich aus dem Schneider retten. Wer nach der Ausmachregel (siehe Begriff \"ausmachregel\") weist, bevor die Gegner den siegbringenden Stich machen, kommt mit diesen Punkten noch über den Schneider. Die Stöck (20 Punkte) dürfen dabei jederzeit vorgewiesen werden, auch wenn die Karten noch nicht gespielt sind. Gilt Stöck-Stich-Wys, zählt der siegbringende Stich der Gegner vor dem Wys. Dann bleibt das Team im Schneider. Erreichen die Gegner das Ziel mit den Stöck, schreibt das unterlegene Team weder Wys noch Kartenpunkte an und bleibt ebenfalls im Schneider.\n\nBelohnung und Einsatz:\nWeil der Schneider selten ist, gewinnt das siegreiche Team zwei Striche. Geht es um Geld, zahlt das Team im Schneider den doppelten Einsatz.\n\nVarianten mit Schneider:\nSchieber, Kreuzjass, Bieter (Steiger) und Sidi-Barrani werden grundsätzlich mit Schneider gespielt.",
     "metadata": {
       "id": "schneider_meta",
       "category": {
@@ -6701,7 +6397,7 @@
       "difficulty": 2,
       "taxonomy_tier": 3,
       "datePublished": "2025-11-22",
-      "dateModified": "2026-06-16"
+      "dateModified": "2026-11-23"
     },
     "faqs": [
       {
@@ -7030,7 +6726,7 @@
   },
   "spielverrat": {
     "id": "spielverrat",
-    "text": "Definition:\n• Alle Handlungen wie Klopfen oder Bemerkungen (siehe Begriff \"expressions_schnorren\"), die das Spiel verraten, sind verboten\n• Klopfen verrät etwas über die eigenen Karten und ist darum verboten\n\nBeispiele:\n• Bemerkungen über gelaufene Karten\n• Andeutungen über Bock-Karten\n• Wiederholungen von angezogenen oder verworfenen Farben\n• Bemerkungen zu Taktiken\n• Fragen, die das Spiel verraten, sind ebenfalls verboten\n• Zeichen ohne Worte: Blicke, Gesten, Mienenspiel\n\nKonsequenzen bei Spielverrat:\n• Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird",
+    "text": "Definition:\n• Alle Handlungen wie Klopfen oder Bemerkungen (siehe Begriff \"expressions_schnorren\"), die das Spiel verraten, sind verboten\n• Klopfen verrät etwas über die eigenen Karten und ist darum verboten\n\nBeispiele:\n• Bemerkungen über gelaufene Karten\n• Andeutungen über Bock-Karten, etwa «Bock» (siehe Begriff \"expressions_bock\")\n• Wiederholungen von angezogenen oder verworfenen Farben\n• Bemerkungen zu Taktiken\n• Kommentare über Punkte, die ein Gegner während des Spiels erzielt\n• Fragen, die das Spiel verraten, sind ebenfalls verboten, ebenso Antworten darauf, etwa auf «Wie viele Trümpfe sind gelaufen?» oder «Wem gehört dieser Stich?»\n• Zeichen ohne Worte: Blicke, Gesten, Mienenspiel\n\nKonsequenzen bei Spielverrat:\n• Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird\n\nAusnahmen:\n• Erlaubt bleibt, was über Karten und Punkte nichts verrät\n• Beim Aucho gelten eigene Regeln für Bemerkungen",
     "metadata": {
       "id": "spielverrat_meta",
       "category": {
@@ -7078,6 +6774,10 @@
       {
         "question": "Ist Klopfen beim Jassen erlaubt?",
         "answer": "Klopfen verrät etwas über die eigenen Karten und gilt darum als Spielverrat. Es ist verboten."
+      },
+      {
+        "question": "Was ist Schnorren beim Jassen?",
+        "answer": "Schnorren heisst, während des Spiels etwas über die Karten zu sagen. Das ist Spielverrat, ebenso Andeutungen, Gesten und Antworten auf Fragen wie «Wie viele Trümpfe sind gelaufen?»."
       }
     ],
     "see_also": [
@@ -10194,133 +9894,6 @@
       "nichtfarben"
     ]
   },
-  "weis_rules_ausmachen_early_thanking": {
-    "id": "weis_rules_ausmachen_early_thanking",
-    "text": "Grundregel:\nWer sich bedankt (siehe Begriff \"bedanken\"), ohne das Ziel erreicht zu haben, verliert die Partie (siehe Begriff \"expressions_partie\").\n\nErlaubtes Bedanken:\n• Spieler legt eine Karte und die Punkte aus allen bereits in diesem Stich  gelegten Karten (inklusive seiner eigenen) reichen zum Sieg aus\n• Der Spieler kann sich sofort bedanken\n\nVerbotenes Verhalten:\n• Während eines laufenden Spiels Karten zählen, um herauszufinden, ob die Punkte zum Sieg ausreichen\n• Wer dies tut und sich bedankt, verliert die Partie, falls sich herausstellt, dass das Ziel nicht erreicht wurde\n\nZweck dieser Regel:\n• Verhindert, dass während des Spiels gezählt wird\n• Verhindert die Suche nach zusätzlichen Bockkarten (siehe Begriff \"expressions_bock\")\n\nSonderfall, Falsch gespielte Karte:\n• Falls sich ein Team bedankt und dabei Punkte einer versehentlich falsch gespielten Karte des Gegners mitzählt, wird das Bedanken als ungültig gewertet\n• Dies gilt nur, wenn nach korrigierter Kartenverteilung die erforderliche Punktzahl nicht mehr erreicht wird",
-    "metadata": {
-      "id": "weis_rules_ausmachen_early_thanking_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Ausmachen",
-        "topic": "Frühzeitiges Bedanken"
-      },
-      "adresse": "/regeln/ausmachen/fruehzeitiges-bedanken/",
-      "keywords": [
-        "bedanken",
-        "frühzeitig",
-        "verlieren",
-        "zählen",
-        "bockkarten",
-        "punkte",
-        "stiche",
-        "austausch"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.9,
-      "difficulty": 1,
-      "taxonomy_tier": 2,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-02-02"
-    },
-    "faqs": [
-      {
-        "question": "Was passiert, wenn sich jemand zu früh bedankt?",
-        "answer": "Spieler, der sich bedankt (siehe Begriff \"bedanken\"), obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie (siehe Begriff \"expressions_partie\")."
-      },
-      {
-        "question": "Was passiert, wenn man zu früh bedankt?",
-        "answer": "Wer sich bedankt, obwohl er das Ziel nicht erreicht hat, verliert automatisch die Partie."
-      },
-      {
-        "question": "Wann darf man frühzeitig bedanken?",
-        "answer": "Man darf bedanken, wenn die Punkte aus allen bereits im aktuellen Stich gelegten Karten (inklusive der eigenen) zum Sieg ausreichen."
-      },
-      {
-        "question": "Darf man während des Spiels die Punkte zusammenzählen?",
-        "answer": "Nein. Wer während des Spiels die Punkte zusammenrechnet und sich dann bedankt, verliert die Partie, wenn das Ziel doch nicht erreicht war."
-      },
-      {
-        "question": "Was ist der Zweck dieser Regel?",
-        "answer": "Die Regel verhindert, dass während des Spiels gezählt wird und nach zusätzlichen Bockkarten gesucht wird."
-      }
-    ],
-    "see_also": [
-      "bedanken",
-      "expressions_bock",
-      "expressions_partie",
-      "ausmachregel"
-    ],
-    "synonyms": [
-      "weis",
-      "wys",
-      "wyse",
-      "wisse"
-    ]
-  },
-  "weis_rules_ausmachen_schneider": {
-    "id": "weis_rules_ausmachen_schneider",
-    "text": "Besondere Situation:\nIm ersten Stich  erreicht ein Team (siehe Begriff \"expressions_team\") das Gesamtziel, während das andere Team sich noch im Schneider (siehe Begriff \"schneider\") befindet. Ein Team nutzt Weispunkte (siehe Begriff \"expressions_weis\"), das andere Kartenpunkte zum Ausmachen (siehe Begriff \"ausmachregel\"). Hier greift ebenfalls die Ausmachregel: Entweder «Stöck (siehe Begriff \"weis_rules_stock\") - Weis - Stich» oder, falls vereinbart, «Stöck - Stich - Weis».\n\nBeispiele:\n\nWenn die Stöck reichen:\n• Erreichen die späteren Gewinner durch ihre Stöcke das Ziel\n• Die Verlierer schreiben weder Weis noch Kartenpunkte an\n• Verlierer bleiben damit im Schneider\n\nWenn ein Weis über den Strich hilft:\n• Kommt die Partei im Schneider durch einen Weis über den Strich\n• Die Gewinner können sich nur dann mit Stichpunkten bedanken, wenn die Regel «Stöck-Wys-Stich» gilt\n• In diesem Fall wäre der Schneider vermieden",
-    "metadata": {
-      "id": "weis_rules_ausmachen_schneider_meta",
-      "category": {
-        "main": "Regeln",
-        "sub": "Ausmachen",
-        "topic": "Ausmachregel beim Schneider"
-      },
-      "adresse": "/regeln/ausmachen/ausmachregel-beim-schneider/",
-      "keywords": [
-        "schneider",
-        "ausmachen",
-        "gesamtziel",
-        "grenze",
-        "stöck",
-        "weis",
-        "stich",
-        "reihenfolge"
-      ],
-      "situations": [
-        "LEARNING"
-      ],
-      "importance": 0.8,
-      "difficulty": 1,
-      "taxonomy_tier": 2,
-      "datePublished": "2025-11-22",
-      "dateModified": "2026-06-16"
-    },
-    "faqs": [
-      {
-        "question": "Wie funktioniert Ausmachregel bei Schneider beim Jassen?",
-        "answer": "Im ersten Stich  erreicht ein Team (siehe Begriff \"expressions_team\") das Gesamtziel, während das andere Team sich noch im Schneider (siehe Begriff \"schneider\") befindet."
-      },
-      {
-        "question": "Was passiert, wenn ein Team im Schneider ist beim Ausmachen?",
-        "answer": "Wenn im ersten Stich ein Team das Ziel erreicht und das andere im Schneider ist, greift die Ausmachregel und entscheidet über den Ausgang."
-      },
-      {
-        "question": "Kann man den Schneider durch Weispunkte vermeiden?",
-        "answer": "Ja, wenn im Schneider befindliche Spieler durch einen Weis über die Grenze kommen und die Regel «Stöck - Weis - Stich» gilt, ist der Schneider vermieden."
-      },
-      {
-        "question": "Welche Regel gilt beim Schneider-Ausmachen?",
-        "answer": "Es gilt entweder «Stöck - Weis - Stich» oder, falls vereinbart, «Stöck - Stich - Weis»."
-      }
-    ],
-    "see_also": [
-      "ausmachregel",
-      "weis_rules_stock",
-      "expressions_team",
-      "expressions_weis",
-      "schneider"
-    ],
-    "synonyms": [
-      "weis",
-      "wys",
-      "wyse",
-      "wisse"
-    ]
-  },
   "weis_rules_kreuzweis": {
     "id": "weis_rules_kreuzweis",
     "text": "Von einem Kreuzweis spricht man, wenn eine Karte zugleich zu einer Folge und zu vier Gleichen gehört. Beide Weise (siehe Begriff \"expressions_weis\") gelten, jeder für sich. Schreibt die Partei, schreibt sie beide.\n\n[[karten: rosen-ober, rosen-koenig!, rosen-ass | Das Dreiblatt in Rosen, 20 Punkte | Kreuzweis, erster Weis]]\n\n[[karten: eichel-koenig, rosen-koenig!, schellen-koenig, schilten-koenig | Die vier Könige, 100 Punkte. Der Rosen-König steht in beiden Weisen | Kreuzweis, zweiter Weis]]\n\nDer Rosen-König gehört zu beiden. Zusammen zählt der Kreuzweis 120 Punkte.\n\n## Wie der Kreuzweis gemeldet wird\n\nMit der ersten Karte, die er ausspielt, meldet der Spieler den wertvolleren der beiden Weise. Den zweiten meldet er, sobald feststeht, dass seine Partei den höchsten Weis am Tisch hält und schreiben darf. Beide Weise müssen für sich gültig sein: das Dreiblatt als lückenlose Folge einer Farbe, die vier Gleichen aus allen vier Farben.\n\nDie Stöck (siehe Begriff \"weis_rules_stock\") stehen ausserhalb dieser Regel: König und Ober der Trumpffarbe dürfen zugleich in einer Folge stecken, die Stöck zählen immer für sich.\n\n## Wo der Kreuzweis gilt\n\nDer Kreuzweis gilt in jeder Spielart, die das Weisen zulässt. Manche Runden lassen ihn nicht gelten. Wer so spielt, macht es vor der Partie ab (siehe Begriff \"regeln_tischregel\").",
@@ -10896,7 +10469,6 @@
     ],
     "see_also": [
       "expressions_hindersi",
-      "expressions_tisch_weis",
       "untertrumpfen",
       "expressions_obenabe"
     ]
@@ -12193,7 +11765,7 @@
       "variants_strategic_differenzler",
       "variants_strategic_differenzler_verdeckt",
       "jassapps_jassguru",
-      "general_culture"
+      "history_social_significance"
     ]
   }
 }

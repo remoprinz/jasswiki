@@ -752,12 +752,12 @@
         },
         {
           "source": "/regeln/ausmachen/ausmachregel-bei-schneider/",
-          "destination": "/regeln/ausmachen/ausmachregel-beim-schneider/",
+          "destination": "/regeln/punktezaehlung/schneider/",
           "type": 301
         },
         {
           "source": "/regeln/ausmachen/ausmachregel-bei-schneider",
-          "destination": "/regeln/ausmachen/ausmachregel-beim-schneider/",
+          "destination": "/regeln/punktezaehlung/schneider/",
           "type": 301
         },
         {
@@ -1252,12 +1252,12 @@
         },
         {
           "source": "/grundlagen-kultur/jassen-als-kulturgut/jassen-als-kulturgut/",
-          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/jassen-als-kulturgut/jassen-als-kulturgut",
-          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
           "type": 301
         },
         {
@@ -1272,12 +1272,12 @@
         },
         {
           "source": "/grundlagen-kultur/regionale-eigenheiten/regionale-eigenheiten/",
-          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/regionale-eigenheiten/regionale-eigenheiten",
-          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
           "type": 301
         },
         {
@@ -1617,7 +1617,7 @@
         },
         {
           "source": "/regeln/spielverlauf/bemerkungen-schnorren/",
-          "destination": "/regeln/sonderregeln/bemerkungen-schnorren/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
           "type": 301
         },
         {
@@ -1792,12 +1792,12 @@
         },
         {
           "source": "/grundlagen-kultur/kulturelle-bedeutung/jassen-als-kulturgut/",
-          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
           "type": 301
         },
         {
           "source": "/grundlagen-kultur/kulturelle-bedeutung/kulturelle-bedeutung-des-jass/",
-          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
           "type": 301
         },
         {
@@ -1852,7 +1852,7 @@
         },
         {
           "source": "/grundlagen-kultur/regionale-unterschiede/regionale-eigenheiten/",
-          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
           "type": 301
         },
         {
@@ -1867,7 +1867,7 @@
         },
         {
           "source": "/wissen/grundlagen-kultur/regionale-unterschiede/",
-          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
           "type": 301
         },
         {
@@ -1902,7 +1902,7 @@
         },
         {
           "source": "/grundlagen-kultur/regionale-eigenheiten/regionale-eigenheiten/",
-          "destination": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
           "type": 301
         },
         {
@@ -1912,7 +1912,7 @@
         },
         {
           "source": "/grundlagen-kultur/jassen-als-kulturgut/jassen-als-kulturgut/",
-          "destination": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
           "type": 301
         },
         {
@@ -2262,7 +2262,7 @@
         },
         {
           "source": "/regeln/fehler-verstoesse/kartenspiel-nicht-komplett/",
-          "destination": "/regeln/fehler-verstoesse/karten-nicht-komplett/",
+          "destination": "/regeln/fehler-verstoesse/fehlende-karte/",
           "type": 301
         },
         {
@@ -3083,6 +3083,51 @@
         {
           "source": "/begriffe/punktebegriffe/matschpraemie/",
           "destination": "/begriffe/punktebegriffe/matsch/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/fruehzeitiges-bedanken/",
+          "destination": "/begriffe/spielaktionen/bedanken/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/ausmachen/ausmachregel-beim-schneider/",
+          "destination": "/regeln/punktezaehlung/schneider/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/sonderregeln/bemerkungen-schnorren/",
+          "destination": "/regeln/sonderregeln/spielverrat/",
+          "type": 301
+        },
+        {
+          "source": "/regeln/fehler-verstoesse/karten-nicht-komplett/",
+          "destination": "/regeln/fehler-verstoesse/fehlende-karte/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/punktebegriffe/tisch-weis/",
+          "destination": "/varianten/molotow/",
+          "type": 301
+        },
+        {
+          "source": "/begriffe/grundbegriffe/grundlagen/",
+          "destination": "/begriffe/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/jassen-als-kulturgut/",
+          "destination": "/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/regionale-eigenheiten/",
+          "destination": "/regeln/kartenverteilung/jass-regionen/",
+          "type": 301
+        },
+        {
+          "source": "/grundlagen-kultur/",
+          "destination": "/jassen-lernen/",
           "type": 301
         }
       ]

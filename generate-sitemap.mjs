@@ -238,6 +238,15 @@ async function generateSitemap() {
     }
     urls.splice(0, urls.length, ...proAdresse.values());
 
+    // Eine Adresse, die per 301 weiterleitet, steht nie in der Sitemap (Gliederung
+    // Schritt 7: /grundlagen-kultur/ leitet auf /jassen-lernen/, die Seite wird
+    // aber weiter gebaut, solange Artikel die alte Rubrik tragen).
+    const firebase = JSON.parse(await fs.readFile(path.join(path.dirname(fileURLToPath(import.meta.url)), 'firebase.json'), 'utf-8'));
+    const weiterleitungen = new Set((firebase.hosting?.[0]?.redirects ?? []).map((r) => r.source.replace(/\/$/, '')));
+    const vorher = urls.length;
+    urls.splice(0, urls.length, ...urls.filter((u) => !weiterleitungen.has(u.loc.replace(BASE_URL, '').replace(/\/$/, ''))));
+    if (urls.length < vorher) console.log(`   ${vorher - urls.length} Adresse(n) mit Weiterleitung ausgelassen.`);
+
     console.log(`✅ ${urls.length} URLs generiert.`);
 
     // XML generieren

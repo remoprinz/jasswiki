@@ -175,7 +175,7 @@ const JassenPage: NextPage = () => {
               kennt das Jassen über{' '}
               <Link href="/varianten/" className="text-[#ff0000] hover:underline">40 Varianten</Link>.{' '}
               Das Bundesamt für Kultur (BAK) führt Jassen als{' '}
-              <Link href="/grundlagen-kultur/jassen-als-kulturgut/" className="text-[#ff0000] hover:underline">lebendige Tradition</Link>{' '}
+              <Link href="/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/" className="text-[#ff0000] hover:underline">lebendige Tradition</Link>{' '}
               im nationalen Inventar.
             </p>
             {/* Wege zu Lernen, Jass-KI und Jass-Apps (rubriken.json, verweise.jassen_seite) */}
@@ -487,7 +487,7 @@ const JassenPage: NextPage = () => {
                 die digitale Kreidetafel und mit JassWiki die Wissensplattform zum Jassen.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/grundlagen-kultur/jassen-als-kulturgut/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
+                <Link href="/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">
                   Jassen als Kulturgut →
                 </Link>
                 <Link href="/taxonomie/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">

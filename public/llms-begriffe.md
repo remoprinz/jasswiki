@@ -3,7 +3,7 @@ title: "JassWiki.ch - Jass-Glossar"
 description: "Alle 92 Jass-Begriffe von A-Z erklärt"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
-entries_count: 62
+entries_count: 60
 last_updated: 2026-11-22
 format: "markdown"
 encoding: "utf-8"
@@ -30,7 +30,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Blinder](#expressions_blinder)
 - [Bock](#expressions_bock)
 - [Brättli](#expressions_braettli)
-- [Grundlagen](#expressions_basic_terms)
 - [Handkarten](#expressions_handkarten)
 - [Klemmen](#expressions_klemmen)
 - [Leih halten](#expressions_leih_halten)
@@ -62,7 +61,6 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 - [Offene Ansage](#expressions_offene_ansage)
 - [Rauben](#expressions_rauben)
 - [Solokarte](#expressions_solokarte)
-- [Tisch-Weis](#expressions_tisch_weis)
 - [Trumpf-Bauer Kombinationen](#expressions_trumpf_bauer_kombinationen)
 - [Verdeckte Ansage](#expressions_verdeckte_ansage)
 - [Vogel](#expressions_vogel)
@@ -171,12 +169,19 @@ Bedankt sich ein Spieler, gilt das auch für seinen Partner. Wer sich bedankt, o
 Bedanken und Matsch:
 Wer schon genug Punkte hat, muss sich nicht bedanken, sondern darf auf einen Matsch spielen. Das Team riskiert damit, die Partie zu verlieren, falls sich der Gegner zuerst bedankt. Umgekehrt darf man sich nicht zu früh bedanken, nur um dem Gegner die Chance auf den Matsch zu nehmen. Der Gegner darf die Runde zu Ende spielen, sofern er sich noch nicht bedankt hat, und sich anschliessend bedanken.
 
+Zählen während des Spiels:
+Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war. Die Regel verhindert, dass während des Spiels gezählt und nach weiteren Bockkarten gesucht wird.
+
+Falsch gespielte Karte des Gegners:
+Zählt ein Team beim Bedanken die Punkte einer Karte mit, die der Gegner versehentlich falsch gespielt hat, ist das Bedanken ungültig, sofern nach der Korrektur die nötige Punktzahl nicht mehr erreicht ist.
+
 **Häufige Fragen:**
 - **Was bedeutet Bedanken beim Jassen?** Eine verbindliche Aussage, mit der ein Team die Partie beendet. Wer sich zuerst bedankt und das Ziel erreicht hat, gewinnt.
 - **Welche Formulierungen zählen als Bedanken?** Jeder Satz, der als Sieg gemeint ist, etwa «Wir sind draussen», «Wir haben genug» oder «Mir sind dusse».
 - **Kann man sich während eines laufenden Stichs bedanken?** Ja, wenn die bereits gelegten Karten dieses Stichs zum Sieg reichen.
 - **Ist Bedanken für den Partner verbindlich?** Ja, es gilt automatisch auch für den Partner.
 - **Kann man das Bedanken zurücknehmen?** Nein, es ist verbindlich.
+- **Darf man während des Spiels die Punkte zusammenzählen?** Wer während des Spiels die Punkte zusammenzählt und sich dann bedankt, verliert die Partie, falls das Ziel nicht erreicht war.
 
 *Keywords: bedanken, bedanken jass, partie beenden, mir sind dusse, spiel beenden*
 
@@ -296,53 +301,6 @@ Definition:
 - **Wie viele Punkte sind Brättli wert?** Brättli haben einen geringen oder gar keinen Punktwert, je nach Spielart. Bei Obenabe und Undenufe haben sie spezielle Werte.
 
 *Keywords: brättli, brett-karten, sechser, siebner, achter*
-
----
-
-### Grundlagen {#expressions_basic_terms}
-
-**Kategorie:** Begriffe > Grundbegriffe
-
-Grundkonzept:
-• Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels
-• Diese Terminologie umfasst die wichtigsten Begriffe, die jeder Spieler kennen sollte
-• Wer sie kennt, kommt am Tisch mit
-
-Dazu gehören:
-• Bezeichnungen für Karten
-• Spielaktionen
-• Spielsituationen
-• Alle werden in allen Jassvarianten verwendet
-
-**Zentrale Grundbegriffe:**
-
-**Karten-Bezeichnungen:**
-• Trumpf: die Farbe, die in diesem Spiel alle anderen sticht
-• Puur/Bauer: Der höchste Trumpf (20 Punkte)
-• Nell: Der zweithöchste Trumpf (14 Punkte)
-• Banner: Der Zehner bei deutschen Karten
-• Ass: Die höchste Karte bei Obenabe
-
-**Spielaktionen:**
-• Schieben: Trumpfwahl an Partner weitergeben
-• Bedanken: Spiel beenden, wenn Punktziel erreicht
-• Weisen: Kartenkombinationen melden
-• Stechen: Einen Stich gewinnen
-
-**Spielsituationen:**
-• Stich: Die vier ausgespielten Karten
-• Vorhand: Erster Spieler der Runde
-• Matsch: Alle neun Stiche gewonnen
-• Berg: die Hälfte der Punktzahl, die eine Partie braucht
-
-Diese Grundlagen werden in allen Jassvarianten verwendet und sind essentiell für erfolgreiches Jassen.
-
-**Häufige Fragen:**
-- **Welche Grundbegriffe sollte man beim Jassen kennen?** Wichtige Grundbegriffe sind Bezeichnungen für Karten, Spielaktionen und Spielsituationen, die in allen Jassvarianten verwendet werden.
-- **Warum sind Jass-Grundbegriffe wichtig?** Grundlegende Jass-Ausdrücke bilden das Fundament für das Verständnis des Spiels und wer sie kennt, kommt am Tisch mit.
-- **Wo kann ich die wichtigsten Jass-Begriffe lernen?** Die wichtigsten sind Trumpf, Puur, Nell, Stich, Weis, Matsch und Berg. Zu jedem steht hier ein eigener Artikel.
-
-*Keywords: grundbegriffe, basis, terminologie*
 
 ---
 
@@ -634,8 +592,7 @@ Beim Schieber:
 • Seufzen oder übertriebenes Zögern
 
 **Konsequenzen:**
-• Schnorren ist Spielverrat und kann je nach Tischregel bestraft werden
-• Bei groben Verstössen kann das Spiel annulliert werden
+• Schnorren ist Spielverrat. Die Folge steht im Artikel Spielverrat: Die Gegner können verlangen, dass das Spiel samt geschriebener Punkte annulliert wird
 
 **Häufige Fragen:**
 - **Was bedeutet Schnorren beim Jassen?** Als Schnorren werden Bemerkungen während des Spiels bezeichnet, die etwas über die eigenen Karten oder die Taktik verraten. Schnorren ist daher grundsätzlich verboten.
@@ -989,28 +946,6 @@ Wer sie spielt, ist die Farbe los und kann von da an in dieser Farbe verwerfen. 
 - **Wann spielt man eine Solokarte?** Reicht sie für einen Stich, lohnt sich das Warten. Sonst geht sie besser früh weg, damit er in dieser Farbe verwerfen kann.
 
 *Keywords: solokarte, einzelkarte*
-
----
-
-### Tisch-Weis {#expressions_tisch_weis}
-
-**Kategorie:** Begriffe > Punktebegriffe
-
-Definition:
-• Tisch-Weis sind Weise, die bei der Jassart Molotow entstehen
-
-Entstehung:
-• Sie ergeben sich direkt auf dem Tisch durch das Spielen der Karten im Verlauf des Spiels, anstatt bereits zu Beginn gemeldet zu werden
-
-Anforderung:
-• Diese besondere Form des Weises erfordert eine gute Beobachtungsgabe und schnelle Reaktion
-
-**Häufige Fragen:**
-- **Was sind Tisch-Weise?** Tisch-Weise sind Weise, die bei Molotow direkt auf dem Tisch durch das Spielen der Karten entstehen.
-- **Wann werden Tisch-Weise gemeldet?** Tisch-Weise werden nicht vorab gemeldet, sondern ergeben sich im Verlauf des Spiels durch die gespielten Karten.
-- **Bei welcher Jassart gibt es Tisch-Weise?** Tisch-Weise gibt es beim Molotow.
-
-*Keywords: tisch-weis, molotow, weise*
 
 ---
 
