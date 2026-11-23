@@ -1,6 +1,19 @@
 {
   "satz": "Kennst du es anders, aus deiner Region oder in deiner Sprache?",
+  "saetzeJeRubrik": {
+    "Jassarten": "Wie spielt ihr diesen Jass an eurem Tisch?",
+    "Regeln": "Gilt an eurem Tisch eine andere Regel?",
+    "Ansagen": "Gilt an eurem Tisch eine andere Regel?",
+    "Begriffe": "Wie heisst das bei euch?",
+    "Taktik": "Wie spielt ihr das an eurem Tisch?",
+    "Geschichte und Kultur": "Kennst du eine Geschichte dazu aus deiner Gegend?"
+  },
   "knopf": "Schreib uns",
   "betreff": "JassWiki-Hinweis: {artikel}",
+  "vorlage": ["Artikel: {artikel}", "So jassen wir:", "Wo (Ort oder Region):", "Name im JassWiki nennen? ja / nein"],
+  "dank": {
+    "ohneName": "Gemeldet von einer Runde aus {ort}.",
+    "mitName": "Gemeldet von {name}, {ort}."
+  },
   "an": "info@jassverband.ch"
 }
