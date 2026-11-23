@@ -108,7 +108,7 @@ const JassenPage: NextPage = () => {
   return (
     <>
       <SeoHead
-        title="Jassen: Das Schweizer Nationalkartenspiel | Jass-Wiki"
+        title="Jassen: Schweizer Jass mit Regeln und Geschichte | Jass-Wiki"
         description="Jassen ist das beliebteste Kartenspiel der Schweiz. Alles für deinen nächsten Jass: Regeln, Varianten, Karten, Geschichte und Kultur."
         canonicalUrl={canonicalUrl}
       />
@@ -127,7 +127,7 @@ const JassenPage: NextPage = () => {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Article',
-              headline: 'Jassen: Das Schweizer Nationalkartenspiel',
+              headline: 'Jassen: Schweizer Jass mit Regeln und Geschichte',
               description: 'Jassen ist das beliebteste Kartenspiel der Schweiz. Alles für deinen nächsten Jass: Regeln, Varianten, Karten, Geschichte und Kultur.',
               author: {
                 '@type': 'Organization',
