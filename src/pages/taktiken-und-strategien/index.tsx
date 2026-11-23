@@ -92,6 +92,10 @@ const TaktikenStrategienPage: NextPage = () => {
               Jass-Taktik und Strategie
             </h1>
             <div className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7] space-y-4">
+              <p className="font-bold text-black">Wie spiele ich besser?</p>
+              <p>
+                Zuerst das Spiel mit dem Trumpf: Austrumpfen, hoch oder tief, Nell vor Puur. Dann die Zeichen an den Partner: Verwerfen, Anziehen, Nachschmeissen.
+              </p>
               <p>
                 Beim Jassen entscheidet selten das bessere Blatt allein. Gerade beim{' '}
                 <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}

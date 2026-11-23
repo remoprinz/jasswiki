@@ -77,10 +77,9 @@ const AnsagenLeitartikel: NextPage = () => {
               Ansagen
             </h1>
             <div className="font-inter text-[15px] sm:text-[16px] text-[#5f5b53] leading-[1.7] space-y-4">
+              <p className="font-bold text-black">Was kann ich ansagen?</p>
               <p>
-                Die Wahl der richtigen Ansage ist der vielleicht wichtigste Aspekt beim Jassen. Beim{' '}
-                <Link href="/schieber/" className="text-[#ff0000] hover:underline">Schieber</Link>{' '}
-                gehören in der Regel die Trumpffarben, Obenabe und Undenufe zu den Standard-Ansagen. Aber auch Slalom, Quer, Trio und weitere werden je nach Jassgruppe gespielt.
+                Trumpf, Obenabe und Undenufe sagt man an jedem Tisch an. Danach folgen Slalom, Guschti, Trio und weitere Ansagen, die vor allem im Coiffeur gespielt werden.
               </p>
               <p>
                 Beim{' '}
