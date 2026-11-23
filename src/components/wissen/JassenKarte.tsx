@@ -51,33 +51,48 @@ const ZEILE_KATEGORIEN = new Set([
   'schieber',
   'taktiken-und-strategien',
 ]);
-// FEILE 07.11.2026: «sofort» statt «gleich», wie Karte und jassguru.ch (T201).
-// Slalom und Quer kommen in der Arena erst auf Wunsch dazu (Schalter beim
-// Eröffnen), darum tragen sie kein «sofort» (Wörtlich-Probe, T167).
+// FEILE 23.11.2026 (Remo: «der text ist zu lange»): die Familie «Gegenstand + jassen», zwei Wörter, auf
+// jedem Artikeltyp gleich gebaut. Die grüne Pille und der Pfeil sagen, dass es hinausgeht und gleich
+// losgeht, darum fallen «online» und «sofort» weg. Die Wörtlich-Probe hält: Obenabe und Undenufe sagt man
+// im Schieber an, Slalom und Quer nimmt man in der Arena über den Schalter dazu.
 const ZEILE_ANSAGE: Record<string, string> = {
-  expressions_obenabe: 'Obenabe sofort online jassen',
-  expressions_undenufe: 'Undenufe sofort online jassen',
-  expressions_slalom: 'Slalom online jassen',
-  expressions_guschti: 'Quer online jassen',
+  expressions_obenabe: 'Obenabe jassen',
+  expressions_undenufe: 'Undenufe jassen',
+  expressions_slalom: 'Slalom jassen',
+  expressions_guschti: 'Quer jassen',
 };
 
 export const zeileSatz = (schluessel: string, kategorie: string): string | null => {
   // Der Artikel über JassGuru selbst trägt die Zeile auch, obwohl die Jassapps sonst neutral bleiben.
-  if (schluessel === 'jassapps_jassguru') return 'Schieber sofort online jassen';
+  if (schluessel === 'jassapps_jassguru') return 'Schieber jassen';
   if (!ZEILE_KATEGORIEN.has(kategorie)) return null;
-  if (kategorie === 'taktiken-und-strategien') return 'Diese Taktik online ausprobieren';
+  if (kategorie === 'taktiken-und-strategien') return 'Taktik ausprobieren';
   const ansage = ZEILE_ANSAGE[schluessel];
   if (ansage) return ansage;
-  return 'Schieber sofort online jassen';
+  return 'Schieber jassen';
 };
 
 export const JassenZeile: React.FC<{ schluessel: string; kategorie: string }> = ({ schluessel, kategorie }) => {
   const satz = zeileSatz(schluessel, kategorie);
   if (!satz) return null;
   return (
-    <div className="not-prose mt-[4px]" data-jassen-zeile>
-      <a href={jassguruLink('/arena/', 'zeile')} className="jw-jassen-zeile">
-        {satz} ↗
+    <div className="not-prose mt-[10px]" data-jassen-zeile>
+      {/* Der Startknopf von JassGuru (Remo 23.11.2026): grüne Pille, Capita, links die Figur des JassGuru.
+          Der Pfeil sagt, dass der Weg das Wiki verlässt. */}
+      <a href={jassguruLink('/arena/', 'zeile')} className="jw-jassen-knopf">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className="jw-jassen-knopf-figur"
+          src="/marke/goepf-marke.png"
+          srcSet="/marke/goepf-marke.png 1x, /marke/goepf-marke@2x.png 2x, /marke/goepf-marke@3x.png 3x"
+          alt=""
+          width={48}
+          height={54}
+        />
+        <span>{satz}</span>
+        <svg className="jw-jassen-knopf-pfeil" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M3 11 11 3M4.5 3H11v6.5" />
+        </svg>
       </a>
     </div>
   );
