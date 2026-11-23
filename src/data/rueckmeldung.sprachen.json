@@ -1,0 +1,64 @@
+{
+  "_zweck": "FR, IT und EN der Rückmeldezeile (DOLMETSCHER, FEILE gesiegelt 23.11.2026). Gleiche Schlüssel wie src/data/rueckmeldung.json, Rubrik-Schlüssel bleiben deutsch (sie sind Nachschlagewerte aus der Gliederung). Eingesetzt wird mit dem Adressschema FR/IT (Gliederung Schritt 8). Die Quelle bleibt SCHIRIs Datei; quelle.sha256 ist der Hash der deutschen Datei beim Übersetzen, ein anderer Hash heisst: veraltet.",
+  "quelle": {
+    "datei": "src/data/rueckmeldung.json",
+    "commit": "b7a0767",
+    "sha256": "71059dd76b4618a8",
+    "uebersetzt": "2026-11-23",
+    "lektorat": "offen"
+  },
+  "fr": {
+    "satz": "Tu le connais autrement, dans ta région ou dans ta langue ?",
+    "saetzeJeRubrik": {
+      "Jassarten": "Comment jouez-vous ce jass à votre table ?",
+      "Regeln": "À votre table, une autre règle s’applique ?",
+      "Ansagen": "À votre table, une autre règle s’applique ?",
+      "Begriffe": "Comment ça s’appelle chez vous ?",
+      "Taktik": "Comment le jouez-vous à votre table ?",
+      "Geschichte und Kultur": "Tu connais une histoire à ce sujet, de ton coin ?"
+    },
+    "knopf": "Écris-nous",
+    "betreff": "Remarque JassWiki : {artikel}",
+    "vorlage": ["Article : {artikel}", "Chez nous, on joue ainsi :", "Où (localité ou région) :", "Citer ton nom dans le JassWiki ? oui / non"],
+    "dank": {
+      "ohneName": "Signalé par une tablée, {ort}.",
+      "mitName": "Signalé par {name}, {ort}."
+    }
+  },
+  "it": {
+    "satz": "Lo conosci diversamente, nella tua regione o nella tua lingua?",
+    "saetzeJeRubrik": {
+      "Jassarten": "Come giocate questo Jass al vostro tavolo?",
+      "Regeln": "Al vostro tavolo vale un’altra regola?",
+      "Ansagen": "Al vostro tavolo vale un’altra regola?",
+      "Begriffe": "Come si chiama da voi?",
+      "Taktik": "Come lo giocate al vostro tavolo?",
+      "Geschichte und Kultur": "Conosci una storia su questo tema della tua zona?"
+    },
+    "knopf": "Scrivici",
+    "betreff": "Segnalazione JassWiki: {artikel}",
+    "vorlage": ["Articolo: {artikel}", "Da noi si gioca così:", "Dove (località o regione):", "Citare il tuo nome nel JassWiki? sì / no"],
+    "dank": {
+      "ohneName": "Segnalato da un tavolo di {ort}.",
+      "mitName": "Segnalato da {name}, {ort}."
+    }
+  },
+  "en": {
+    "satz": "Do you know it differently, from your region or in your language?",
+    "saetzeJeRubrik": {
+      "Jassarten": "How do you play this Jass at your table?",
+      "Regeln": "Does a different rule apply at your table?",
+      "Ansagen": "Does a different rule apply at your table?",
+      "Begriffe": "What do you call it where you play?",
+      "Taktik": "How do you play it at your table?",
+      "Geschichte und Kultur": "Do you know a story about it from your area?"
+    },
+    "knopf": "Write to us",
+    "betreff": "JassWiki note: {artikel}",
+    "vorlage": ["Article: {artikel}", "This is how we play:", "Where (town or region):", "Mention your name on JassWiki? yes / no"],
+    "dank": {
+      "ohneName": "Reported by a Jass group from {ort}.",
+      "mitName": "Reported by {name}, {ort}."
+    }
+  }
+}
