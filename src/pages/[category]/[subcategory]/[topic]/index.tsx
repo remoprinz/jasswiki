@@ -369,38 +369,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
       pageTitle = `${topic} Jass: Regeln, Ablauf und Punkte | Jass-Wiki`;
       metaDescription = `So wird ${topic} gejasst: Spieler, Karten, Ablauf, Wertung und was Runden anders abmachen. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
-    case 'Jassapps':
-      // Spezielle SEO-Titel für Jassapps
-      if (topic.toLowerCase().includes('generelles') || topic.toLowerCase().includes('übersicht')) {
-        pageTitle = `Die besten Jassapps für Schweizer Jass 2024 | Vergleich & Test`;
-        metaDescription = `Entdecke die besten Jassapps für Schweizer Jass: Digitale Jasstafeln, Online-Jass-Apps und Tools. Kompletter Vergleich mit Vor- und Nachteilen.`;
-      } else if (topic.toLowerCase().includes('jassguru')) {
-        pageTitle = `jassguru.ch: Die digitale Jasstafel mit Datenbank | Jass-Wiki`;
-        metaDescription = `jassguru.ch ist die einzige digitale Jasstafel, die Resultate direkt in eine Datenbank schreibt. Elo-Rating, Statistiken und Echtzeit-Synchronisation.`;
-      } else if (topic.toLowerCase().includes('jasspro')) {
-        pageTitle = `JassPro App Test: Online-Jass gegen KI und Spieler | Jass-Wiki`;
-        metaDescription = `JassPro App im Test: Online-Jass gegen Computer und echte Spieler. Features, Kosten und Verfügbarkeit für iOS, Android und Web.`;
-      } else if (topic.toLowerCase().includes('jass24')) {
-        pageTitle = `Jass24 App: Online-Jass mit Webcam | Jass-Wiki`;
-        metaDescription = `Jass24 App für Online-Jass mit Webcam-Integration. Spielmodi, Features und Verfügbarkeit für iOS und Android im Test.`;
-      } else if (topic.toLowerCase().includes('swissjass')) {
-        pageTitle = `SwissJass+ App: Online-Jass mit KI | Jass-Wiki`;
-        metaDescription = `SwissJass+ App für Online-Jass mit künstlicher Intelligenz. Spielmodi, Features und Verfügbarkeit für iOS und Android.`;
-      } else if (topic.toLowerCase().includes('jass.ch')) {
-        pageTitle = `Jass.ch App von Swisslos: Online-Jass Test | Jass-Wiki`;
-        metaDescription = `Jass.ch App von Swisslos im Test: Online-Jass mit verschiedenen Spielmodi. Features, Kosten und Verfügbarkeit für iOS und Android.`;
-      } else if (topic.toLowerCase().includes('jasstafel')) {
-        pageTitle = `Jasstafel Apps für Android & iOS: Digitale Punktezählung | Jass-Wiki`;
-        metaDescription = `Die besten Jasstafel Apps für Android und iOS. Digitale Punktezählung für Schieber, Coiffeur und andere Jass-Varianten.`;
-      } else {
-        pageTitle = `${topic}: Die beste Jassapp im Test | Jass-Wiki`;
-        metaDescription = `${topic} App im Test: Features, Kosten und Verfügbarkeit für Schweizer Jass. Kompletter Vergleich mit anderen Jassapps.`;
-      }
-      break;
     default:
       // Fallback bleibt generisch, aber optimiert
       pageTitle = seitenTitel(topic, category);
-      metaDescription = `Alles über "${topic}" beim Jassen. Detailliert erklärt im umfassendsten Jass-Wiki der Schweiz.`;
+      metaDescription = `${topic} beim Jassen, kurz erklärt. Aus dem Jass-Wiki des Jassverbands Schweiz.`;
       break;
   }
 

@@ -53,7 +53,7 @@ const SourcesPage: NextPage = () => {
               Quellen und Referenzen
             </h1>
             <p className="text-lg sm:text-xl text-black leading-relaxed max-w-2xl">
-              Die Grundlage für unser Jass-Wiki bilden diese vertrauenswürdigen Quellen
+              Auf diesen Quellen steht das Jass-Wiki. Danke allen, die sie geschrieben haben.
             </p>
           </div>
 

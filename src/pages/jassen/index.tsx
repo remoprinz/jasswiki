@@ -484,7 +484,7 @@ const JassenPage: NextPage = () => {
                 </a>{' '}
                 organisiert die erste nationale Team-Schweizermeisterschaft und betreibt mit{' '}
                 <a href="https://jassguru.ch" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:underline">JassGuru</a>{' '}
-                die digitale Kreidetafel und mit JassWiki die Wissensplattform zum Jassen.
+                die Jass-App und mit JassWiki die Wissensplattform zum Jassen.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/geschichte/kulturelle-bedeutung/verbreitung-und-gesellschaftliche-bedeutung/" className="inline-flex items-center text-[#ff0000] font-medium hover:underline">

@@ -21,7 +21,7 @@
         },
         {
           "question": "Gibt es eine offizielle Jass-App des Jassverbands Schweiz?",
-          "answer": "Ja, JassGuru. In der Arena jasst man Schieber online, am Tisch ersetzt die App die Kreidetafel."
+          "answer": "Ja, JassGuru. In der Arena jasst man Schieber online, am Tisch schreibt die App die Punkte."
         },
         {
           "question": "Für welche Geräte gibt es Jass-Apps?",
@@ -68,8 +68,8 @@
     "jassapps/tisch-jass": {
       "h1": "Jasstafel-Apps",
       "seoTitle": "Jasstafel-Apps: Punkte schreiben am Tisch | Jass-Wiki",
-      "seoDescription": "Apps, die am Jasstisch die Kreidetafel ersetzen: Punkte schreiben für Schieber, Coiffeur und weitere Jassarten. Übersicht des Jassverbands Schweiz.",
-      "einleitung": "Apps für den Jasstisch ersetzen die Kreidetafel: Sie schreiben die Punkte und zeigen den Stand. Die Übersicht aller Apps steht im Artikel «Jasstafel-Apps» (siehe Begriff \"jassapps_jasstafel\")."
+      "seoDescription": "Apps, die am Jasstisch die Punkte schreiben: für Schieber, Coiffeur und weitere Jassarten. Übersicht des Jassverbands Schweiz.",
+      "einleitung": "Apps für den Jasstisch schreiben die Punkte und zeigen den Stand. Die Übersicht aller Apps steht im Artikel «Jasstafel-Apps» (siehe Begriff \"jassapps_jasstafel\")."
     },
     "varianten": {
       "einleitung": "Der [Schieber](/schieber/) ist die häufigste Jassart der Schweiz. Daneben gibt es rund vierzig weitere Jassarten, geordnet nach Familien.\n\n| Familie | Jassarten | Spieler |\n|---|---|---|\n| Schieber und Coiffeur | Schieber, Coiffeur, Einzel-Coiffeur | 4 in zwei Teams, Einzel-Coiffeur 3 oder 4 |\n| Differenzler | Differenzler verdeckt und offen, Differenzler zu dritt, Stich-Differenzler | 4 oder 3, Stich-Differenzler 2 oder 3 |\n| Bietspiele | Bieter, Pandur, Sidi Barrani, Palette, Bolschewik | Bieter 3 bis 5, Pandur 2 bis 4, Sidi Barrani und Bolschewik 4 in zwei Teams, Palette 4 oder 5 |\n| Handjass und Einzelspiele | Handjass, Handjass mit Blinder, Handjass zu zweit und zu dritt, Mittlere, Bodentrumpf zu viert, Glücksjass, Zuger zu dritt | 2 bis 4, jeder für sich |\n| Zu zweit | Schmaus, Schaggi-Haas, Cinq Cents, Schnüffler | 2 |\n| Aucho und Königsspiele | Aucho, Aucho zu dritt und zu zweit, Schafhauser | Aucho 2 bis 4, Schafhauser 3 |\n| Vermeidungsspiele | Guggitaler, Molotow, Hindersi, Schaufel-Dame, Schellenjass | 3 bis 6 |\n| Weitere Spiele mit Jasskarten | Kaiserjass, Zwick, Hose abe, Rumba, Arschlöchle, Tschau Sepp, Chratze, Ramset | 2 bis 11 |"
