@@ -77,7 +77,6 @@ export const JassenZeile: React.FC<{ schluessel: string; kategorie: string }> = 
   return (
     <div className="not-prose mt-[4px]" data-jassen-zeile>
       <a href={jassguruLink('/arena/', 'zeile')} className="jw-jassen-zeile">
-        <span aria-hidden className="jw-jassen-zeile-punkt" />
         {satz} ↗
       </a>
     </div>
