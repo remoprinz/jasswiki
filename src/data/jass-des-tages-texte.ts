@@ -28,6 +28,8 @@ export const JDT_TEXTE = {
   videoSatz: 'Ein Jasscoach spielt das Blatt vor und erklärt die Züge, auf die es ankommt.',
   videoTuer: 'Online jassen',
   videoAbspielen: 'Lösungsvideo abspielen',
+  // Lehrfilm des Wikis (ein Lehrblatt, kein Tagesblatt): ohne Datum, FEILE 22.11.2026.
+  lehrfilmBeschriftung: 'Lehrfilm des JassWiki. {aufgabe}',
 
   faqTitel: 'Häufige Fragen zum Jass des Tages',
   faqs: [

@@ -21,6 +21,9 @@ interface Eintrag {
   /** Festes Lehrblatt (Datum), gesetzt in generate-uebungen.mjs (Karte SCHIRI
    *  «wiki-huelle» Teil C): dann steht allein dieses Blatt mit seinem Film da. */
   fest?: string;
+  /** Lehrfilm des Wikis (Kennung, KELLE 24.11.2026): allein der Film und der
+   *  Verweis aufs Archiv; `blaetter` bleibt leer. Ohne Film entfällt der Block. */
+  lehrfilm?: string;
   video?: JdtVideoDaten | null;
   blaetter: Blatt[];
 }
@@ -30,7 +33,9 @@ interface Eintrag {
 export const hatUeben = (articleId: string): boolean => {
   const daten = uebungen as unknown as { artikel: Record<string, Eintrag> };
   const eintrag = daten.artikel[articleId];
-  return !!eintrag && eintrag.blaetter.length > 0;
+  if (!eintrag) return false;
+  if (eintrag.lehrfilm) return hatFilm(eintrag.video);
+  return eintrag.blaetter.length > 0;
 };
 
 const MONATE = [
@@ -46,8 +51,27 @@ function datumLesbar(iso: string): string {
 export const UebenBlock: React.FC<{ articleId: string }> = ({ articleId }) => {
   const daten = uebungen as unknown as { alleAufgaben: string; artikel: Record<string, Eintrag> };
   const eintrag = daten.artikel[articleId];
-  if (!eintrag || eintrag.blaetter.length === 0) return null;
+  if (!eintrag) return null;
   const video = eintrag.video && hatFilm(eintrag.video) ? eintrag.video : null;
+
+  // Lehrfilm: der Film und darunter der Verweis aufs Archiv, wie beim festen Blatt.
+  if (eintrag.lehrfilm) {
+    if (!video) return null;
+    return (
+      <section className="mt-[24px] pt-[24px] border-t border-[#f0eee7]" aria-labelledby="ueben" data-ueben-lehrfilm={eintrag.lehrfilm}>
+        <h3 id="ueben" className="font-capita text-[20px] font-normal !text-black leading-[1.55] mb-[8px]">
+          Üben
+        </h3>
+        <JdtVideo daten={video} mitTuer={false} />
+        <p className="font-inter text-[14px] leading-[1.5] text-[#88816d] text-center">
+          <a href={daten.alleAufgaben} className="text-[#ff0000] underline">
+            {daten.alleAufgaben.includes('/archiv/') ? 'Alle Aufgaben im Archiv' : 'Die Aufgabe von heute'}
+          </a>
+        </p>
+      </section>
+    );
+  }
+  if (eintrag.blaetter.length === 0) return null;
 
   // Festes Lehrblatt: der Film dieses Blattes und darunter der eine Verweis auf
   // das Archiv. Fehlt der Film, steht das Blatt als Verweis an seiner Stelle.

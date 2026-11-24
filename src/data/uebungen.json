@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-23",
+  "stand": "2026-11-24",
   "alleAufgaben": "https://jassguru.ch/jass-des-tages/archiv/",
   "artikel": {
     "schieber_taktiken_advanced": {
@@ -245,6 +245,42 @@
           "url": "https://jassguru.ch/jass-des-tages/2026-11-02/"
         }
       ]
+    },
+    "general_scoring_rules": {
+      "thema": "Zähle mit: Trumpf Schellen bis 157.",
+      "anzahl": 0,
+      "lehrfilm": "zaehlen-trumpf",
+      "video": {
+        "datum": "2026-11-23",
+        "aufgabe": "Zähle mit: Trumpf Schellen bis 157.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2Flehrblatt-zaehlen-trumpf.mp4?alt=media",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2Flehrblatt-zaehlen-trumpf.jpg?alt=media",
+        "dauer": "PT84S",
+        "youtube": null,
+        "lehrfilm": {
+          "kennung": "zaehlen-trumpf",
+          "satz": "Stich um Stich gezählt: 143 zu 14, zusammen 157."
+        }
+      },
+      "blaetter": []
+    },
+    "general_card_values": {
+      "thema": "Zähle mit: ein Obenabe bis 157.",
+      "anzahl": 0,
+      "lehrfilm": "zaehlen-obenabe",
+      "video": {
+        "datum": "2026-11-23",
+        "aufgabe": "Zähle mit: ein Obenabe bis 157.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2Flehrblatt-zaehlen-obenabe.mp4?alt=media",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2Flehrblatt-zaehlen-obenabe.jpg?alt=media",
+        "dauer": "PT83S",
+        "youtube": null,
+        "lehrfilm": {
+          "kennung": "zaehlen-obenabe",
+          "satz": "Stich um Stich gezählt: 126 zu 31, zusammen 157."
+        }
+      },
+      "blaetter": []
     }
   }
 }

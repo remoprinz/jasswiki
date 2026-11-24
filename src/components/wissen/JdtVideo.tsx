@@ -19,6 +19,17 @@ export interface JdtVideoDaten {
   poster: string | null; // ganze Adresse oder lokaler Pfad (/bilder/jdt/…)
   dauer: string | null; // ISO 8601, etwa PT42S
   youtube: string | null;
+  /** Lehrfilm des Wikis (ein Lehrblatt, kein Tagesblatt, KELLE 24.11.2026):
+   *  Beschriftung ohne Datum, eigener Satz, eigene Kennung im Schema. `datum`
+   *  ist dann der Tag des Renders. */
+  lehrfilm?: { kennung: string; satz: string } | null;
+}
+
+/** Die Beschriftung unter dem Film: Tagesblatt mit Datum, Lehrfilm ohne. */
+export function beschriftungFuer(d: JdtVideoDaten): string {
+  const aufgabe = aufgabeKurz(d.aufgabe || d.titel || '');
+  if (d.lehrfilm) return JDT_TEXTE.lehrfilmBeschriftung.replace('{aufgabe}', aufgabe);
+  return JDT_TEXTE.videoBeschriftung.replace('{datum}', datumLang(d.datum)).replace('{aufgabe}', aufgabe);
 }
 
 const MONATE = [
@@ -61,8 +72,12 @@ export function videoObjekt(d: JdtVideoDaten, satz: string = JDT_TEXTE.videoSatz
   return {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
-    '@id': `https://jassguru.ch/jass-des-tages/${d.datum}/#video`,
-    name: `Jass des Tages vom ${datumLang(d.datum)}: ${aufgabeKurz(d.aufgabe || d.titel || '')}`,
+    '@id': d.lehrfilm
+      ? `https://jasswiki.ch/#lehrfilm-${d.lehrfilm.kennung}`
+      : `https://jassguru.ch/jass-des-tages/${d.datum}/#video`,
+    name: d.lehrfilm
+      ? beschriftungFuer(d)
+      : `Jass des Tages vom ${datumLang(d.datum)}: ${aufgabeKurz(d.aufgabe || d.titel || '')}`,
     description: satz,
     ...(d.poster ? { thumbnailUrl: ganzeAdresse(d.poster) } : {}),
     ...(d.mp4 ? { contentUrl: d.mp4 } : {}),
@@ -115,12 +130,15 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
   }, []);
 
   if (weg || (!kennung && !daten.mp4)) return null;
-  const beschriftung = JDT_TEXTE.videoBeschriftung
-    .replace('{datum}', datumLang(daten.datum))
-    .replace('{aufgabe}', aufgabeKurz(daten.aufgabe || daten.titel || ''));
+  const beschriftung = beschriftungFuer(daten);
+  const text = daten.lehrfilm?.satz ?? satz;
 
   return (
-    <figure className="not-prose my-[20px]" data-jdt-video={daten.datum}>
+    <figure
+      className="not-prose my-[20px]"
+      data-jdt-video={daten.datum}
+      data-lehrfilm={daten.lehrfilm?.kennung}
+    >
       {/* Hochformat wie der Short: 9 zu 16, höchstens 320 breit. */}
       <div className="relative mx-auto w-full max-w-[320px] aspect-[9/16] overflow-hidden rounded-[12px] border-[1.74px] border-black bg-black">
         {quelle === 'youtube' && kennung ? (
@@ -146,7 +164,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
             type="button"
             onClick={abspielen}
             className="group absolute inset-0 h-full w-full cursor-pointer"
-            aria-label={`${JDT_TEXTE.videoAbspielen}: ${beschriftung}`}
+            aria-label={daten.lehrfilm ? beschriftung : `${JDT_TEXTE.videoAbspielen}: ${beschriftung}`}
           >
             {daten.poster && !deckbildKaputt && (
               <img
@@ -172,7 +190,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
       <figcaption className="mx-auto mt-[12px] max-w-[480px] text-center">
         <span className="block font-capita text-[17px] font-bold leading-[1.35] text-black">{beschriftung}</span>
         <span className="mt-[4px] block font-inter text-[15px] leading-[1.6] text-black">
-          {satz}
+          {text}
         </span>
         {mitTuer && (
           <a href={JDT_LINKS.tuer} className="mt-[6px] inline-block font-inter text-[15px] font-bold text-[#ff0000] underline">
@@ -182,7 +200,7 @@ export const JdtVideo: React.FC<{ daten: JdtVideoDaten; mitTuer?: boolean; satz?
       </figcaption>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjekt(daten, satz)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjekt(daten, text)) }}
       />
     </figure>
   );

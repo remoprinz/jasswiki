@@ -70,6 +70,32 @@ const ZUORDNUNG = {
   expressions_matsch: { thema: 'Matsch', titelWort: 'Matsch', fest: '2026-11-02' },
 };
 
+// LEHRFILME (Lehrplan SCHIRI 22.11.2026, Abschnitt 3; KELLE 24.11.2026): Filme aus
+// einem Lehrblatt, kein Tagesblatt. Gerendert mit `lehrfilm --datei` (jass-server
+// v1.0.57) nach sendungen/lehrblatt-<kennung>.mp4, .jpg. Hände und Weg stammen aus
+// einem publizierten Jass des Tages (quelle), die Notizen zählen Stich um Stich.
+// Alle Lesertexte sind FEILE-gesiegelt (aufgabe, satz, Beschriftung).
+// Der Artikel zeigt allein den Film und den Verweis auf das Archiv.
+const LEHRFILME = {
+  general_scoring_rules: {
+    kennung: 'zaehlen-trumpf',
+    quelle: 'zR3bGhi34yXz6Ky6pTgP',
+    aufgabe: 'Zähle mit: Trumpf Schellen bis 157.',
+    satz: 'Stich um Stich gezählt: 143 zu 14, zusammen 157.',
+    dauer: 'PT84S',
+    erstellt: '2026-11-23',
+  },
+  // general_special_games ging in der Gliederung (Schritt 7) in den Artikel Kartenwerte auf.
+  general_card_values: {
+    kennung: 'zaehlen-obenabe',
+    quelle: 'wItTEft3YYxfZHigVPdM',
+    aufgabe: 'Zähle mit: ein Obenabe bis 157.',
+    satz: 'Stich um Stich gezählt: 126 zu 31, zusammen 157.',
+    dauer: 'PT83S',
+    erstellt: '2026-11-23',
+  },
+};
+
 function heuteZuerich() {
   return new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Europe/Zurich', year: 'numeric', month: '2-digit', day: '2-digit',
@@ -282,6 +308,31 @@ async function main() {
         titel: b.titel,
         url: `${TAGESSEITE}${b.datum}/`,
       })),
+    };
+  }
+
+  // Lehrfilme: der Film steht, sobald er im Speicher antwortet. YouTube trägt
+  // diese Filme nicht, darum entfällt der Block, wenn der Film fehlt.
+  for (const [id, lf] of Object.entries(LEHRFILME)) {
+    const mp4 = `${SPEICHER}lehrblatt-${lf.kennung}.mp4?alt=media`;
+    if (!(await filmLebt(mp4))) {
+      console.warn(`⚠️  Lehrfilm ${lf.kennung} für ${id} antwortet nicht, Block entfällt.`);
+      continue;
+    }
+    artikel[id] = {
+      thema: lf.aufgabe,
+      anzahl: 0,
+      lehrfilm: lf.kennung,
+      video: {
+        datum: lf.erstellt,
+        aufgabe: lf.aufgabe,
+        mp4,
+        poster: `${SPEICHER}lehrblatt-${lf.kennung}.jpg?alt=media`,
+        dauer: lf.dauer,
+        youtube: null,
+        lehrfilm: { kennung: lf.kennung, satz: lf.satz },
+      },
+      blaetter: [],
     };
   }
 
