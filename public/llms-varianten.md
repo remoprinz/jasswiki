@@ -4,7 +4,7 @@ description: "Alle 44 Jassvarianten: Coiffeur, Differenzler, Molotow und mehr"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 51
-last_updated: 2026-11-22
+last_updated: 2026-11-24
 format: "markdown"
 encoding: "utf-8"
 ---
