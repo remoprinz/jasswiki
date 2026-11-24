@@ -4,7 +4,7 @@ description: "Die kulturelle Bedeutung des Jassens in der Schweiz"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 23
-last_updated: 2026-11-22
+last_updated: 2026-11-24
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -101,7 +101,7 @@ Das Ramstein-Reglement ist der Anfang der geschriebenen Jassregeln in der Schwei
 
 **Kategorie:** Jassapps > Online-Jass
 
-JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man [Schieber](/schieber/) online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe. Die Arena läuft im Browser auf Handy, Tablet und Computer. Die App gibt es im App Store und bei Google Play.
+JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man [Schieber](/schieber/) online, am Tisch schreibt die App die Punkte. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe. Die Arena läuft im Browser auf Handy, Tablet und Computer. Die App gibt es im App Store und bei Google Play.
 
 ## Drei Wege an den Tisch
 
@@ -143,7 +143,7 @@ In der App heisst der [Weis](/weis-regeln/) Wys. Bei Wys und [Stöck](/weis-rege
 
 ## Die Jasstafel für den echten Tisch
 
-Am Küchentisch ersetzt JassGuru die Kreidetafel: Punkte, Striche, [Berg](/regeln/bergpreis/) und Sieg. Ein Tipp auf «Schreiben» öffnet den Rechner. Das Gegenresultat rechnet die Tafel selbst aus. Wys schreibt man auch auf der Z-Linie. Der Knopf neben «Schreiben» zeigt die Restpunkte zu Berg und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.
+Am Küchentisch schreibt JassGuru Punkte, Striche, [Berg](/regeln/bergpreis/) und Sieg. Ein Tipp auf «Schreiben» öffnet den Rechner. Das Gegenresultat rechnet die Tafel selbst aus. Wys schreibt man auch auf der Z-Linie. Der Knopf neben «Schreiben» zeigt die Restpunkte zu Berg und Sieg. Jede Partie bleibt gespeichert, jede Runde einzeln nachlesbar.
 
 Daraus entstehen Statistik und Rangliste für die Jassgruppe: Partner- und Gegner-Bilanzen, Siegquoten, Matsch-Bilanzen und das [Tisch-Elo](/grundlagen-kultur/jass-elo/). Der Turniermodus führt Live-Ranglisten, aufgeschlüsselt bis zur einzelnen Passe.
 
@@ -152,7 +152,7 @@ Daraus entstehen Statistik und Rangliste für die Jassgruppe: Partner- und Gegne
 Hinter JassGuru steht der [Jassverband Schweiz](https://jassverband.ch). Er betreibt die App, gibt das JassWiki heraus und entwickelt die Jass-KI zusammen mit der FHNW. Sein Vermittlungsprojekt «Zeitgemässe Vermittlung der Jasskultur 2026» wird vom Bundesamt für Kultur unterstützt.
 
 **Häufige Fragen:**
-- **Was ist JassGuru?** JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man Schieber online, am echten Tisch ersetzt die App die Kreidetafel. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe.
+- **Was ist JassGuru?** JassGuru ist die offizielle Jass-App des Jassverbands Schweiz. In der Arena jasst man Schieber online, am Tisch schreibt die App die Punkte. Dazu kommen Rangliste, Profil und Turniere für die Jassgruppe.
 - **Gegen wen jasst man bei JassGuru?** Gegen die Jass-KI oder gegen Menschen. Wer sofort jassen will, jasst mit einer KI gegen zwei KI. Am privaten Tisch sitzen die eigenen Jassfreunde, in der Lobby Jasser, die gerade online sind.
 - **Braucht man für JassGuru ein Profil?** Für den ersten Jass genügt auf jassguru.ch ein Tipp auf «Jetzt online jassen». Man sitzt sofort als Gast am Tisch. Mit Profil zählt jede Partie für die Liga und die Rekordtafel.
 - **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI von JassGuru, entwickelt im Forschungsprojekt AlphaJass mit der FHNW. Gäste haben Albis 001 als Partner und als Gegner. Mit Profil jasst Albis 001 als Partner, auf Wunsch auch als Gegner.
@@ -513,7 +513,7 @@ Die Jass-KI jasst in der Arena von JassGuru, im Browser auf [jassguru.ch](https:
 
 Mit Profil jasst Albis 001 als Partner und der Prototyp als Gegner. In den Einstellungen wählt man Albis 001 auch als Gegner.
 
-Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App als digitale Kreidetafel Punkte, Striche, Berg und Sieg.
+Am echten Tisch hilft JassGuru auf andere Art: Dort schreibt die App Punkte, Striche, Berg und Sieg.
 
 ## Jasst die KI nach Abmachung und Konventionen?
 
@@ -572,7 +572,7 @@ Die KI lernt von echten Jassern. Wer mit Profil jasst, kann dort «Projekt Alpha
 - **Was ist Albis 001?** Albis 001 ist das neueste Modell der Jass-KI, Generation 001. Die Fachhochschule Nordwestschweiz (FHNW) hat es trainiert, zuerst an Partien echter Jasser aus der Arena, dann im Spiel gegen sich selbst. Es jasst die vier Farben, Obenabe und Undenufe. Bei Slalom und Quer jasst der Prototyp, die Generation vor Albis 001.
 - **Wer baut die Jass-KI?** Der Jassverband Schweiz zusammen mit der FHNW School of Engineering, Institut für Data Science in Windisch. Die Hasler Stiftung fördert die Forschung an der FHNW. Das Projekt läuft von Juli 2026 bis Juni 2027.
 - **Kann die KI Schieber-Konventionen?** Ja. Bei AlphaJass steht die Konvention über jeder Berechnung. Dazu gehören Nell vor Puur, Austrumpfen hoch oder tief, Verwerfen und Nachschmeissen. Sitzt ein Mensch als Partner am Tisch, folgt Albis 001 beim ersten Ausspiel und bei den Partnerzeichen den Konventionen. Bricht ein Mitspieler eine Konvention erkennbar, streicht die KI diese Deutung ab dann für ihn.
-- **Spielt die KI auch am echten Tisch mit?** Die Jass-KI jasst online in der Arena von JassGuru. Am echten Tisch schreibt JassGuru als digitale Kreidetafel Punkte, Striche, Berg und Sieg. Ob die KI später auch am echten Tisch hilft, ist noch offen.
+- **Spielt die KI auch am echten Tisch mit?** Die Jass-KI jasst online in der Arena von JassGuru. Am Tisch schreibt JassGuru Punkte, Striche, Berg und Sieg. Ob die KI später auch am echten Tisch hilft, ist noch offen.
 
 *Keywords: jass-ki, ki jassen, künstliche intelligenz, alphajass, albis 001*
 
@@ -800,7 +800,7 @@ Trotz dieser Verwandtschaft hat der Jass in der Schweiz eine einzigartige kultur
 
 **Kategorie:** Jassapps > Tisch-Jass
 
-Eine Jasstafel-App ersetzt am Tisch die Kreidetafel: Sie schreibt die Punkte, rechnet zusammen und zeigt den Stand. In den App Stores tragen mehrere Apps verschiedener Anbieter den Namen «Jasstafel». Stand: November 2026.
+Eine Jasstafel-App schreibt am Tisch die Punkte, rechnet zusammen und zeigt den Stand. In den App Stores tragen mehrere Apps verschiedener Anbieter den Namen «Jasstafel». Stand: November 2026.
 
 ## Jasstafel-Apps im Überblick
 
@@ -827,7 +827,7 @@ Die Jasstafel von JassGuru ist die Tafel des Jassverbands Schweiz. Sie schreibt 
 - Molotow von Lukas Egli prüft, ob die Stiche zusammen 157 Punkte ergeben
 
 **Häufige Fragen:**
-- **Was ist eine Jasstafel-App?** Eine App, die am Tisch die Kreidetafel ersetzt: Sie schreibt die Punkte, rechnet zusammen und zeigt den Stand.
+- **Was ist eine Jasstafel-App?** Eine App, die am Tisch die Punkte schreibt, zusammenrechnet und den Stand zeigt.
 - **Welche Jasstafel-Apps gibt es?** JassGuru vom Jassverband Schweiz, die Schweizer Jasstafel, Jasstafel by NiceApps, die Jasstafel von Sandro Meier, Jasstafel Pro und Molotow.
 - **Gibt es eine Jasstafel-App für Coiffeur?** Ja. Die Schweizer Jasstafel, die Jasstafel von Sandro Meier und Jasstafel Pro von Yannick Mueller schreiben nach eigenen Angaben auch Coiffeur.
 - **Gibt es eine Jasstafel-App für Android?** Ja: JassGuru, die Jasstafel von Simon Steinmann, Jasstafel by NiceApps und Molotow.

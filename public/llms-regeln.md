@@ -4,7 +4,7 @@ description: "Vollständige Spielregeln inkl. Weis-Regeln und Sonderregeln"
 module_type: "knowledge_fragment"
 parent: "https://jasswiki.ch/llms.txt"
 entries_count: 51
-last_updated: 2026-11-22
+last_updated: 2026-11-24
 format: "markdown"
 encoding: "utf-8"
 ---
@@ -80,20 +80,22 @@ Für den vollständigen Index siehe: https://jasswiki.ch/llms.txt
 
 **Kategorie:** Regeln > Offizielle Jassregeln
 
-Im JassWiki stehen die offiziellen Regeln des Jassverbands Schweiz zum ersten Mal vollständig und gratis im Netz.
+Hier stehen die Jassregeln des Jassverbands Schweiz, vollständig und für alle offen. Sie stehen auf den Schultern von zwei Büchern.
 
-Grundlage der offiziellen Jassregeln:
-Die Basis bilden [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/) von Göpf Egg und Albert Hagenbucher. Leider ist dieses Werk in die Jahre gekommen, und auch in der 10. Auflage finden sich noch Druckfehler sowie unklare Formulierungen aus früheren Ausgaben.
+Zwei Bücher als Grundlage:
+Den Grundstein legten Göpf Egg und Albert Hagenbucher mit [«PUUR NÄLL ASS, Offizielles Schweizer Jassreglement»](/referenzen/). Auf dieses Reglement berufen sich Jasser seit Jahrzehnten.
 
-Dani Müller hat mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) (2015) diese Grundlage durch präzisere Formulierungen verbessert und mit manchen unklaren oder unnötig komplizierten Regeln aus «PUUR NÄLL ASS» aufgeräumt.
+Dani Müller hat es 2015 mit [«STÖCK WYS STICH, Der neue Schweizer Jassführer»](/referenzen/) weitergedacht. Er fasst die Regeln präziser und macht manche komplizierte Sonderregel einfacher.
 
-Die offiziellen Regeln des [Jassverbands Schweiz](https://jassverband.ch) basieren daher massgeblich auf dem Werk von Dani Müller. Der Verband entwickelt sie an einzelnen Punkten weiter. Zum Beispiel werden Schneider und Kontermatsch aufgrund des seltenen Vorkommens neu mit 2 Strichen bewertet.
+Darum folgt der [Jassverband Schweiz](https://jassverband.ch) in den meisten Fragen Dani Müller. An einzelnen Stellen geht er einen Schritt weiter: Schneider und Kontermatsch zählen 2 Striche, weil sie so selten gelingen.
+
+Am eigenen Tisch gilt, was die Runde abmacht. Die Tischregel geht jeder Regel hier vor.
 
 **Häufige Fragen:**
-- **Gibt es ein offizielles Jass-Regelwerk?** Ja. Die offiziellen Jassregeln vom Jassverband Schweiz basieren massgeblich auf «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015) und werden an einzelnen Punkten weiterentwickelt.
+- **Gibt es ein offizielles Jass-Regelwerk?** Ja. Der Jassverband Schweiz stützt seine Regeln vor allem auf «STÖCK WYS STICH» von Dani Müller (2015) und entwickelt sie an einzelnen Stellen weiter. Sie stehen vollständig im JassWiki.
 - **Welche Bücher bilden die Grundlage der offiziellen Jassregeln?** «PUUR NÄLL ASS, Offizielles Schweizer Jassreglement» von Göpf Egg und Albert Hagenbucher sowie «STÖCK WYS STICH, Der neue Schweizer Jassführer» von Dani Müller (2015).
-- **Haben Tischregeln Vorrang vor den offiziellen Jassregeln?** Ja, Tischregeln haben Vorrang vor den offiziellen Jassregeln.
-- **Wie werden Schneider und Kontermatsch neu bewertet?** Aufgrund des seltenen Vorkommens werden Schneider und Kontermatsch neu mit 2 Strichen bewertet.
+- **Haben Tischregeln Vorrang vor den offiziellen Jassregeln?** Ja. Was die Runde vor dem ersten Spiel abmacht, gilt an ihrem Tisch.
+- **Wie werden Schneider und Kontermatsch neu bewertet?** Mit 2 Strichen, weil beide so selten gelingen.
 
 *Keywords: offizielle jassregeln, regelwerk, müller, egg, haggenbucher*
 
@@ -253,7 +255,7 @@ Beispiele:
 • Zeichen ohne Worte: Blicke, Gesten, Mienenspiel
 
 Konsequenzen bei Spielverrat:
-• Die Gegner können verlangen, dass das Spiel, inklusive bereits geschriebener Punkte, annulliert wird
+• Die Gegner können verlangen, dass das Spiel samt geschriebener Punkte annulliert wird
 
 Ausnahmen:
 • Erlaubt bleibt, was über Karten und Punkte nichts verrät
@@ -361,7 +363,7 @@ Abhebregeln:
 
 **Kategorie:** Regeln > Ausmachregel
 
-Die Ausmachregel bestimmt, wer gewinnt, wenn beide Teams im selben Stich gleichzeitig das vereinbarte Ziel erreichen, etwa das Schlussziel oder den Bergpreis. Ausserdem gilt sie im Zusammenspiel mit dem Schneider.
+Erreichen beide Teams im selben Stich das Ziel, entscheidet die Ausmachregel. Ist nichts anderes abgemacht, gilt Stöck vor Wys, Wys vor Stich. Das Ziel ist das Schlussziel oder der Bergpreis. Auch beim Schneider gilt die Regel.
 
 Rangfolge Stöck, Weis, Stich:
 Erreichen beide Teams gleichzeitig das Ziel, entscheidet, über welche der drei Kategorien ein Team es erreicht:
@@ -373,7 +375,7 @@ Beispiel:
 Gespielt wird auf 1000 Punkte, vor dem letzten Spiel steht es 982 zu 975. Im ersten Stich macht das zurückliegende Team genug Stichpunkte für 1001. Das andere Team weist gleichzeitig die Stöck und kommt mit den 20 Punkten ebenfalls über 1000. Beide sind im ersten Stich am Ziel. Weil Stöck vor Stich steht, gewinnt das Team mit den Stöck.
 
 Wann sie gilt:
-Die Ausmachregel greift nur im ersten Stich. Sobald zum zweiten Stich ausgespielt wird, gewinnt, wer sich zuerst mit genügend Punkten bedankt.
+Wys zählen allein im ersten Stich. Die Stöck dürfen beim Ausmachen sofort gewiesen werden. Darum entscheidet die Rangfolge im ersten Stich. Ab dem zweiten Stich gewinnt, wer sich zuerst mit genügend Punkten bedankt.
 
 Auch beim Schneider entscheidend:
 Hier bestimmt die Rangfolge sogar, ob ein Team beschneidert wird. Ein zurückliegendes Team kann sich aus dem Schneider weisen. Unter Stöck-Weis-Stich wird sein Weis vor dem siegbringenden Stich der Gegner gewertet, das Team erreicht die Hälfte der Punktzahl rechtzeitig und ist aus dem Schneider.

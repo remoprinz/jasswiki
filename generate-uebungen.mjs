@@ -61,12 +61,17 @@ const ZUORDNUNG = {
   schieber_taktiken_verwerfen: { thema: 'Verwerfen', rubrik: 'Verwerfen', fest: '2026-10-30' },
   schieber_taktiken_anziehen: { thema: 'Anziehen', rubrik: 'Anziehen', fest: '2026-10-09' },
   expressions_schmieren: { thema: 'Schmieren', rubrik: 'Schmieren', fest: '2026-10-18' },
-  // Klemmen und Nachschmeissen: Das gewählte Lehrblatt (25.09., 22.08.) hat keinen Film, es lief vor der
-  // Video-Maschine. Bis ein Lehrfilm dazu entsteht, zeigt der Block das neueste Blatt der Rubrik.
-  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen' },
+  // Klemmen (SCHIRI 24.11.2026): Die Blätter der Rubrik Klemmen laufen alle vor der Video-Maschine.
+  // Fest ist darum 16.11. (Rubrik Anziehen, mit Film): Du hältst das Eichel-Ass zurück, spielst im
+  // 3. Stich den Ober («Spiele nicht das Ass») und holst im 4. Stich mit dem Ass den König.
+  expressions_klemmen: { thema: 'Klemmen', rubrik: 'Klemmen', fest: '2026-11-16' },
+  // Nachschmeissen: kein Blatt mit Film zeigt den Regelfall aus Sicht des Spielers (Stand 24.11.2026).
+  // Bis ein Lehrfilm dazu entsteht, zeigt der Block das neueste Blatt der Rubrik.
   expressions_nachschmeissen: { thema: 'Nachschmeissen', rubrik: 'Nachschmeissen' },
   schieber_taktiken_austrumpfen: { thema: 'Austrumpfen', rubrik: 'Austrumpfen', fest: '2026-11-14' },
-  schieber_taktiken_nell_vor_puur: { thema: 'Nell vor Puur', rubrik: 'Austrumpfen', fest: '2026-10-12' },
+  // Nell vor Puur (Remos Wort 24.11.2026: aus der Rubrik Austrumpfen): 06.11., Vorhand sagt Schellen
+  // an, eröffnet mit dem Nell, im 2. Stich folgt der Puur. Eigenes Blatt, 14.11. bleibt beim Austrumpfen.
+  schieber_taktiken_nell_vor_puur: { thema: 'Nell vor Puur', rubrik: 'Austrumpfen', fest: '2026-11-06' },
   expressions_matsch: { thema: 'Matsch', titelWort: 'Matsch', fest: '2026-11-02' },
 };
 

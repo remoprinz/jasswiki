@@ -144,23 +144,21 @@
     },
     "expressions_klemmen": {
       "thema": "Klemmen",
-      "anzahl": 6,
-      "video": null,
+      "anzahl": 1,
+      "fest": "2026-11-16",
+      "video": {
+        "datum": "2026-11-16",
+        "aufgabe": "Erziele diesen Matsch wie ein Jassprofi.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-16_1.mp4?alt=media",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-16_1.jpg?alt=media",
+        "dauer": "PT53S",
+        "youtube": null
+      },
       "blaetter": [
         {
-          "datum": "2026-10-08",
-          "titel": "Mache zwei Stiche mit 35 Punkten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-08/"
-        },
-        {
-          "datum": "2026-09-30",
-          "titel": "Erziele das Break mit 111 Punkten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-09-30/"
-        },
-        {
-          "datum": "2026-09-28",
-          "titel": "Erziele 93 Punkte mit den Handkarten.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-09-28/"
+          "datum": "2026-11-16",
+          "titel": "Erziele diesen Matsch wie ein Jassprofi.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-16/"
         }
       ]
     },
@@ -209,20 +207,20 @@
     "schieber_taktiken_nell_vor_puur": {
       "thema": "Nell vor Puur",
       "anzahl": 1,
-      "fest": "2026-10-12",
+      "fest": "2026-11-06",
       "video": {
-        "datum": "2026-10-12",
-        "aufgabe": "Erziele einen lockeren Matsch.",
-        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-12_1.mp4?alt=media",
-        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-10-12_1.jpg?alt=media",
-        "dauer": "PT59S",
+        "datum": "2026-11-06",
+        "aufgabe": "Mache mindestens 125 Punkte.",
+        "mp4": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-06_1.mp4?alt=media",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/jassguru-bilder/o/sendungen%2F2026-11-06_1.jpg?alt=media",
+        "dauer": "PT48S",
         "youtube": null
       },
       "blaetter": [
         {
-          "datum": "2026-10-12",
-          "titel": "Erziele einen lockeren Matsch.",
-          "url": "https://jassguru.ch/jass-des-tages/2026-10-12/"
+          "datum": "2026-11-06",
+          "titel": "Mache mindestens 125 Punkte.",
+          "url": "https://jassguru.ch/jass-des-tages/2026-11-06/"
         }
       ]
     },
