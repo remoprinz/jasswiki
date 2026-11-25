@@ -80,6 +80,17 @@ interface Tuer {
 export const tuerFuer = (kennung: string): Tuer | null =>
   (tueren as { artikel: Record<string, Tuer> }).artikel[kennung] ?? null;
 
+/**
+ * DIE KARTE STATT DER ZEILE, ÜBERALL (Remo 25.11.2026: «auf jasswiki sehe ich teilweise immer noch den
+ * alten, hässlichen knopf … wir haben doch einen schönen, neuen mit dem jassguru icon»). Wo tueren.json
+ * schweigt und der Artikel bisher die Zeile unter dem Titel trug, steht jetzt die grüne Karte nach dem
+ * Einstieg. Ihr Titel ist der gesiegelte Satz der Zeile, der Knopf der gesiegelte «Jass starten».
+ */
+export const standardTuer = (kennung: string, kategorie: string): Tuer | null => {
+  const satz = zeileSatz(kennung, kategorie);
+  return satz ? { titel: `${satz}.`, knopf: 'Jass starten', pfad: '/arena/', ort: 'karte-einstieg' } : null;
+};
+
 /** Teilt den Text nach dem Einstieg: vor der ersten «## », sonst nach dem ersten Absatz. */
 export const teileAmEinstieg = (text: string): [string, string] => {
   const ueberschrift = text.search(/\n## /);
@@ -104,7 +115,7 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   const leit = istLeitartikel(kennung);
   // Die Karte braucht den rohen Text; Vorlagen mit eigenem Aufbau (Raster,
   // Symbole) geben ihn nicht und behalten die Zeile.
-  const tuer = rohText !== undefined && zeichne ? tuerFuer(kennung) : null;
+  const tuer = rohText !== undefined && zeichne ? (tuerFuer(kennung) ?? (leit ? null : standardTuer(kennung, kategorie))) : null;
   const [vorTuer, nachTuer] = tuer ? teileAmEinstieg(rohText!) : ['', ''];
   // Film aus src/data/artikelfilme.json: zuoberst, nach dem Einstieg (vor der
   // Karte, wo eine steht). Braucht wie die Karte den rohen Text.
