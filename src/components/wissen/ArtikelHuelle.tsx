@@ -7,6 +7,7 @@ import { JassenKarte, JassenZeile, zeileSatz } from '@/components/wissen/JassenK
 import { JassfreundeSatz } from '@/components/wissen/JassfreundeSatz';
 import { LeitartikelVideo, jdtFuer } from '@/components/wissen/LeitartikelVideo';
 import { UebenBlock, hatUeben } from '@/components/wissen/UebenBlock';
+import { ArtikelFilm, filmFuer } from '@/components/wissen/ArtikelFilm';
 import { FaqSection } from '@/components/wissen/FaqSection';
 import { SeeAlsoSection } from '@/components/wissen/SeeAlsoSection';
 import { RelatedTopics } from '@/components/wissen/RelatedTopics';
@@ -105,6 +106,10 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
   // Symbole) geben ihn nicht und behalten die Zeile.
   const tuer = rohText !== undefined && zeichne ? tuerFuer(kennung) : null;
   const [vorTuer, nachTuer] = tuer ? teileAmEinstieg(rohText!) : ['', ''];
+  // Film aus src/data/artikelfilme.json: zuoberst, nach dem Einstieg (vor der
+  // Karte, wo eine steht). Braucht wie die Karte den rohen Text.
+  const film = rohText !== undefined && zeichne ? filmFuer(kennung) : null;
+  const [vorFilm, nachFilm] = film && !tuer ? teileAmEinstieg(rohText!) : ['', ''];
   // Eine Tür: Leitartikel tragen den Jassfreunde-Satz, Artikel mit Karte die
   // Karte, alle anderen die Zeile.
   const mitZeile = !leit && !tuer && zeileSatz(kennung, kategorie) !== null;
@@ -129,6 +134,7 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
             <div data-baustein="text">
               <article className="content-formatting max-w-none" data-artikel-seite={kennung}>
                 {zeichne!(vorTuer)}
+                {film && <ArtikelFilm kennung={kennung} />}
               </article>
             </div>
             <div data-baustein="tuer">
@@ -151,7 +157,15 @@ export const ArtikelHuelle: React.FC<ArtikelHuelleProps> = ({
         ) : (
           <div data-baustein="text">
             <article className="content-formatting max-w-none" data-artikel-seite={kennung}>
-              {text}
+              {film ? (
+                <>
+                  {zeichne!(vorFilm)}
+                  <ArtikelFilm kennung={kennung} />
+                  {nachFilm && zeichne!(nachFilm)}
+                </>
+              ) : (
+                text
+              )}
             </article>
             {nachText}
             <JassfreundeSatz schluessel={kennung} />
