@@ -62,28 +62,33 @@ export function filmObjekt(kennung: string, f: ArtikelFilmDaten) {
 export const ArtikelFilm: React.FC<{ kennung: string }> = ({ kennung }) => {
   const f = filmFuer(kennung);
   const film = useRef<HTMLVideoElement>(null);
-  // Ohne Script (und im statischen HTML) steht das Standbild; der Film kommt
-  // nach dem Einhängen, sobald keine Bitte um weniger Bewegung vorliegt.
-  const [bewegt, setBewegt] = useState(false);
+  /* DER FILM STEHT SCHON IM STATISCHEN HTML (LEUCHTTURM 25.11.2026): Google erkennt ein Video sicherer,
+     wenn das video-Element mit src und poster im ausgelieferten HTML steht und zum VideoObject passt. Ohne
+     Script zeigt es das Standbild und lädt nichts (preload none). Nach dem Einhängen spielt es stumm in der
+     Schleife, ausser bei der Bitte um weniger Bewegung: Dann bleibt das Standbild stehen. */
   const [kaputt, setKaputt] = useState(false);
 
   useEffect(() => {
+    const v = film.current;
+    if (!v) return;
     const frage = window.matchMedia?.('(prefers-reduced-motion: reduce)');
-    const setze = () => setBewegt(!frage?.matches);
+    const setze = () => {
+      if (frage?.matches) {
+        v.pause();
+        return;
+      }
+      v.preload = 'auto';
+      // Manche Browser starten stumme Filme erst auf ausdrücklichen Ruf.
+      v.play().catch(() => undefined);
+    };
     setze();
     frage?.addEventListener?.('change', setze);
     return () => frage?.removeEventListener?.('change', setze);
   }, []);
 
-  // Manche Browser starten stumme Filme erst auf ausdrücklichen Ruf.
-  useEffect(() => {
-    if (bewegt && film.current) film.current.play().catch(() => undefined);
-  }, [bewegt]);
-
   if (!f) return null;
   const breite = f.breite ?? 1920;
   const hoehe = f.hoehe ?? 1080;
-  const zeigeFilm = bewegt && !kaputt;
 
   return (
     <figure className="not-prose !my-[20px]" data-artikel-film={kennung}>
@@ -91,7 +96,7 @@ export const ArtikelFilm: React.FC<{ kennung: string }> = ({ kennung }) => {
         className="relative w-full overflow-hidden rounded-[12px] border border-[#e6e2d6] bg-black"
         style={{ aspectRatio: `${breite} / ${hoehe}` }}
       >
-        {zeigeFilm ? (
+        {!kaputt ? (
           <video
             ref={film}
             className="absolute inset-0 h-full w-full object-cover"
@@ -101,9 +106,8 @@ export const ArtikelFilm: React.FC<{ kennung: string }> = ({ kennung }) => {
             height={hoehe}
             muted
             loop
-            autoPlay
             playsInline
-            preload="auto"
+            preload="none"
             aria-label={f.name ?? f.bildzeile}
             onError={() => setKaputt(true)}
           />
