@@ -1,0 +1,17 @@
+{
+  "_hinweis": "Filme in Artikeln (Redaktion SCHIRI). Schluessel = Artikel-Kennung. KELLE baut die Anzeige.",
+  "artikel": {
+    "jass_ki": {
+      "mp4": "https://jassverband.ch/assets/news/alphajass-albis-001/alphajass-lernt.mp4",
+      "poster": "https://jassverband.ch/assets/news/alphajass-albis-001/alphajass-lernt-poster.jpg",
+      "bildzeile": "Je länger die KI trainiert, desto mehr Scheiben werden blau: Dort wählt sie einen Zug so oft wie die Jasser.",
+      "quelle": "Animation: FHNW",
+      "name": "Wie Albis 001 aus Partien von Jassern lernt",
+      "beschreibung": "Animation der FHNW: Ringe zeigen die Züge der Jasser, Scheiben die Züge der Jass-KI. In 10000 Trainingsschritten nähern sich beide an.",
+      "dauer": "PT28S",
+      "datum": "2026-11-18",
+      "breite": 1920,
+      "hoehe": 1080
+    }
+  }
+}
